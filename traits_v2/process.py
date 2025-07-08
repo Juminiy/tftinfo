@@ -116,3 +116,45 @@ tftinfo=dumps(
 with open('s_all.json', 'w+') as tftfile:
     tftfile.write(tftinfo)
     tftfile.close()
+
+def find_hard_traits() -> Dict[str,Any]:
+    def parse_unit_active(actv: str) -> int:
+        actvs = [aci if aci[0].isdigit() else aci[1:] for aci in actv.split('/') if len(aci)> 0]
+        return int(actvs[len(actvs)-1])
+
+    def process_count(bond_of: dict, max_active_gt:int=9, emblem_cnt_gt:int=3, setof:str='?') -> Tuple[Dict[str,Any], bool]: 
+        actvunit = parse_unit_active(bond_of['unit_active'])
+        unitcnt = int(bond_of['unit_count']) if str(bond_of['unit_count']).isdigit() else actvunit
+        emcraftable = bool(str(bond_of['emblem']).count('+') > 0)
+        if actvunit >= max_active_gt or actvunit-unitcnt >= emblem_cnt_gt:
+            return (
+                {
+                    'max_unit_active': actvunit,
+                    'emblem_count': actvunit-unitcnt-(1 if setof=='s10' else 0),
+                    'emblem_craftable': emcraftable
+                }, True
+            )
+        else:
+            return ({}, False)
+
+    info=process_tft()
+    hard_traits:dict[str,Any]={}
+    for setof, setinfo in info.items():
+        # active_count >= 9 or emblem >= 2
+        hard_traits[setof]={}
+        # traits.origins
+        for originof in setinfo['traits']['origins']:
+            stat,ok=process_count(originof, setof=setof)
+            if ok:
+                hard_traits[setof][originof['origin_name']] = stat
+        # traits.classes
+        for classof in setinfo['traits']['classes']:
+            stat,ok= process_count(classof, setof=setof)
+            if ok:
+                hard_traits[setof][classof['class_name']] = stat
+    return hard_traits
+
+hard_traits_info=dumps(find_hard_traits(), ensure_ascii=True, indent='    ')
+with open('s_hard_traits.json', 'w+') as htfile:
+    htfile.write(hard_traits_info)
+    htfile.close()
