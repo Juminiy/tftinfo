@@ -1,32 +1,37 @@
 # CyberCity
 
+## TimeLine
+### Date
+{{start_time}} | {{end_time}}
+2025.04.02     | 2025.07.30
+
 ## Traits
 ### Origins
 {{origin_name}} | {{unit_active}} | {{unit_count}} | {{emblem}}    | {{desc}}
-AnimaSquad      | 3/5/7/10        | 8              | spatula+tear  | AR,MR,DA,Weapon: (10,10,0.05,1)/(25,25,0.1,2)/(40,40,0.15,3)/(75,75,1.0,3+Ultimate) Ultimate: BigTrain/EachTimeAllUnitEachRadiant
+AnimaSquad      | 3/5/7/10        | 8              | spatula+tear  | AR,MR,DA,Weapon: (10,10,0.05,1)/(25,25,0.1,2)/(40,40,0.15,3)/(75,75,0.25,3+Ultimate), Ultimate: BigTrain/EachTimeAllUnitEachRadiant
 BoomBoot        | 2/4/6           | 5              | spatula+vest  | 
-CyberBoss       | 2/3/4           | 4              |               | 
-Cypher          | 3/4/5           | 5              | uncraftable   | 
-DiviniCorp      | 1/2/3/4/5/6/7   | 6              | spatula+bow   | 
+CyberBoss       | 2/3/4           | 4              |               | HP,AP: 1*(0.25,0.2)/1*(0.33,0.3)/3*(0.33,0.3)+1*(0.4,0.4)
+Cypher          | 3/4/5/6         | 5              | uncraftable   | AD,AP: 0.3/0.5,0.7/0.9
+DiviniCorp      | 1/2/3/4/5/6/7   | 6              | spatula+bow   | 0.09AP,6AR/MR,0.08AD,50HP,0.07CR,0.05AS,0.03OV: 1/1.1/1.25/1.4/1.65/1.9/2.1, Bond*2
 Exotech         | 3/5/7/10        | 7              | spatula+glove | HP,AS,ExoItem: (50,0.02,1)/(160,0.06,2)/(270,0.13,3)/(500,0.4,7ExoRadiant)
-Golden Ox       | 2/4/6           | 6              | spatula+belt  | 
+Golden Ox       | 2/4/6           | 6              | spatula+belt  | DA: 0.12/0.24/0.25
 Nitro           | 3/4             | 4              |               | 
 Street Demon    | 3/5/7/10        | 8              | spatula+rod   | in painted-hex, MaxHP,AP,AD (Signature+0.5, Bond*2): 0.06/0.1/0.16/0.45 -> 0.18/0.3/0.48/1.35
-Syndicate       | 3/5/7           | 5              | spatula+cloak | 
+Syndicate       | 3/5/7           | 5              | spatula+cloak | HP,DA,Kingpin: (100,0.05,1)/(450,0.18,2)/(550,0.2,2Upgrade)
 
 ### Classes
 {{class_name}}  | {{unit_active}} | {{unit_count}} | {{emblem}}    | {{desc}}
-A.M.P.          | 2/3/4/5         | 5              |               | 
-Bastion         | 2/4/6           | 7              | pan+vest      | 
-Bruiser         | 2/4/6           | 7              | pan+belt      | 
-Dynamo          | 2/3/4           | 5              | pan+tear      | 
-Executioner     | 2/3/4/5         | 5              | pan+glove     | 
-Marksman        | 2/4             | 5              | pan+sword     | 
-Rapidfire       | 2/4/6           | 5              | pan+bow       | 
-Slayer          | 2/4/6           | 6              | pan+cloak     | 
-Strategist      | 2/3/4/5         | 5              | spatula+sword | 
-Techie          | 2/4/6/8         | 8              | pan+rod       | 
-Vanguard        | 2/4/6           | 7              | uncraftable   | 
+A.M.P.          | 2/3/4/5         | 5              |               | UpgradeAbility,HP: (1,100)/(2,200)/(4,300)/(5,500)
+Bastion         | 2/4/6           | 7              | pan+vest      | AR,MR: Team:10/10/35; Bond:18/36/70,start-10s-Bond:36/72/140
+Bruiser         | 2/4/6           | 7              | pan+belt      | HP: Team: 100; Bond:0.2/0.45/0.7
+Dynamo          | 2/3/4           | 5              | pan+tear      | MPper3s: Team: 4/6/10; Bond: 8/12/20
+Executioner     | 2/3/4/5         | 5              | pan+glove     | CR,DPS: (0.25,0.05)/(0.35,0.1)/(0.5,0.15)/(0.55,0.15,0.12DR); HP<0.2 DPS:0.1/0.2/0.3/0.3 
+Marksman        | 2/4             | 5              | pan+sword     | AD: 0.18/0.35; after-8s:0.36/0.7, 0per6s/0.25per6s
+Rapidfire       | 2/4/6           | 5              | pan+bow       | AS: Team:0.1; Bond:0.04/0.11/0.22 * Max10Times
+Slayer          | 2/4/6           | 6              | pan+cloak     | AD,OV: (0.15,0.15)/(0.4,0.15)/(0.7,0.2)
+Strategist      | 2/3/4/5         | 5              | spatula+sword | ^DA/^DR: Team:(0.06,0.04)/(0.09,0.06)/(0.12,0.08)/(0.15,0.1), Bond:(0.18,0.12)/(0.27,0.18)/(0.36,0.24)/(0.45,0.3)
+Techie          | 2/4/6/8         | 8              | pan+rod       | AP,-enemyDA: (20,0.1)/(50,0.1)/(95,0.1)/(140,0.18)
+Vanguard        | 2/4/6           | 7              | uncraftable   | ShieldMaxHP-in-1.0HP/0.5HP, DR: (0.16,0.12)/(0.32,0.12)/(0.45,0.18) 
 
 ### SynergyGrid
 Origins\Classes | A.M.P.  | Bastion     | Bruiser     | Dynamo       | Executioner | Marksman | Rapidfire    | Slayer    | Strategist | Techie        | Vanguard

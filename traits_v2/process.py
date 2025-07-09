@@ -74,7 +74,7 @@ def get_grid_dict(lgrid: List[str]) -> Dict[str,Any]:
 
 def process_tft() -> Dict[str,Any]:
     sdict:dict[str,Any]={}
-    for seti in range(1,15):
+    for seti in ['1','2','3','3.5','4','4.5','5','5.5','6','6.5','7','7.5','8','8.5','9','9.5','10','11','12','13','14']:
         setof=f's{seti}'
         setfilename=f'{setof}.txt'
         if not os.path.exists(setfilename) or \
@@ -96,7 +96,7 @@ def process_tft() -> Dict[str,Any]:
                         starti+=1
                     if starti < len(lines) and lines[starti].startswith('### '):
                         curl3=lines[starti].removeprefix('### ').lower()
-                        if curl3 in ['origins', 'classes']:
+                        if curl3 in ['origins', 'classes', 'date']:
                             sdict[setof][curl2][curl3] = \
                                 get_origins_classes(lines[starti+1:linei])
                         elif curl3 == 'synergygrid':
@@ -122,18 +122,27 @@ def find_hard_traits() -> Dict[str,Any]:
         actvs = [aci if aci[0].isdigit() else aci[1:] for aci in actv.split('/') if len(aci)> 0]
         return int(actvs[len(actvs)-1])
 
-    def process_count(bond_of: dict, max_active_gt:int=9, emblem_cnt_gt:int=3, setof:str='?') -> Tuple[Dict[str,Any], bool]: 
+    def process_count(bond_of: dict, max_active_gt:int=9, emblem_cnt_gt:int=2, setof:str='?') -> Tuple[Dict[str,Any], bool]: 
         actvunit = parse_unit_active(bond_of['unit_active'])
         unitcnt = int(bond_of['unit_count']) if str(bond_of['unit_count']).isdigit() else actvunit
         emcraftable = bool(str(bond_of['emblem']).count('+') > 0)
-        if actvunit >= max_active_gt or actvunit-unitcnt >= emblem_cnt_gt:
+        if (actvunit >= max_active_gt and actvunit-unitcnt >= emblem_cnt_gt) or (actvunit-unitcnt >= emblem_cnt_gt+1):
             return (
                 {
                     'max_unit_active': actvunit,
                     'emblem_count': actvunit-unitcnt-(1 if setof=='s10' else 0),
-                    'emblem_craftable': emcraftable
+                    'emblem_craftable': emcraftable,
                 }, True
             )
+        # elif not emcraftable and actvunit-unitcnt>0:
+        #     return (
+        #         {
+        #             'max_unit_active': actvunit,
+        #             'current_unit': unitcnt,
+        #             'emblem_craftable': emcraftable,
+        #             'bond_impossible': True,
+        #         },True
+        #     )
         else:
             return ({}, False)
 
