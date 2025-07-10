@@ -1,0 +1,1680 @@
+{
+   "season": "set12",
+   "traits": [
+      {
+         "key": "Arcana",
+         "ingameKey": "TFT12_Arcana",
+         "name": "Arcana",
+         "desc": "Use the Arcana signifier item to choose a High Arcana champion. Each Arcana grants power based on a different condition.<br><br>Gain power for:<br>Ahri: Fielding 3-star champions.<br>Hecarim: Equipping items.<br>Tahm Kench: Activating traits.<br>Xerath: Purchasing Charms.<br>Emblem: Equipping Spatula items.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Arcana_normal_1720774629-Arcana.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Arcana_black_1720774629-Arcana.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Arcana_white_1720774629-Arcana.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 2
+            },
+            {
+               "style": "silver",
+               "min": 3,
+               "max": 3
+            },
+            {
+               "style": "gold",
+               "min": 4,
+               "max": 4
+            },
+            {
+               "style": "gold",
+               "min": 5
+            }
+         ],
+         "stats": {
+            "2": "Arcana's effect to theirs.",
+            "3": "Arcana's effect to theirs.",
+            "4": "Arcana's effect to theirs.",
+            "5": "Arcana's effect to theirs."
+         }
+      },
+      {
+         "key": "Ascendant",
+         "ingameKey": "TFT12_Ascendant",
+         "name": "Ascendant",
+         "desc": "",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Ascendant_normal_1720774140-Ascendant.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Ascendant_black_1720774141-Ascendant.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Ascendant_white_1720774141-Ascendant.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "gold",
+               "min": 1
+            }
+         ],
+         "stats": {
+            "1": "Ascendant Charms can appear in your shop. The odds increase by 8% after player combat, up to 40%. When you buy one, the odds reset."
+         }
+      },
+      {
+         "key": "Bastion",
+         "ingameKey": "TFT12_Bastion",
+         "name": "Bastion",
+         "desc": "Your team gains 10 Armor and Magic Resist.<br><br>Bastions gain more, and the value doubles in the first 10 seconds of combat.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Bastion_normal_1720774165-Bastion.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Bastion_black_1720774165-Bastion.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Bastion_white_1720774165-Bastion.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6,
+               "max": 7
+            },
+            {
+               "style": "gold",
+               "min": 8
+            }
+         ],
+         "stats": {
+            "2": "15 AR/MR",
+            "4": "40 AR/MR",
+            "6": "100 AR/MR",
+            "8": "200 AR/MR and 2 champions starting combat in the back 2 rows are invulnerable until 4 Bastions die"
+         }
+      },
+      {
+         "key": "BatQueen",
+         "ingameKey": "TFT12_BatQueen",
+         "name": "Bat Queen",
+         "desc": "",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/BatQueen_normal_1720774186-Bat-Queen.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/BatQueen_black_1720774186-Bat-Queen.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/BatQueen_white_1720774186-Bat-Queen.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "gold",
+               "min": 1
+            }
+         ],
+         "stats": {
+            "1": "When Morgana's bats kill an enemy, they have a 40% chance abduct a 1-star copy of it."
+         }
+      },
+      {
+         "key": "Blaster",
+         "ingameKey": "TFT12_Blaster",
+         "name": "Blaster",
+         "desc": "Blasters gain Damage Amp, which increases for 3 seconds after casting their Ability.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Blaster_normal_1720795358-Blaster.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Blaster_black_1720795358-Blaster.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Blaster_white_1720795359-Blaster.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6
+            }
+         ],
+         "stats": {
+            "2": "12% Dmg Amp; 30% during burst",
+            "4": "35% Dmg Amp; 65% during burst",
+            "6": "45% Dmg Amp; 100% during burst"
+         }
+      },
+      {
+         "key": "Chrono",
+         "ingameKey": "TFT12_Chrono",
+         "name": "Chrono",
+         "desc": "Chronos gain 15 Ability Power.<br><br>Combat start: begin a 10 second countdown, which speeds up by 1 second after each Chrono Ability cast. At the end of the countdown, gain a special effect.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Chrono_normal_1720774658-Chrono.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Chrono_black_1720774659-Chrono.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Chrono_white_1720774659-Chrono.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6
+            }
+         ],
+         "stats": {
+            "2": "Your team restores 15% health; Chronos gain 20 Ability Power",
+            "4": "AND freeze time for 3 seconds, Chronos keep fighting and gain 55 Ability Power",
+            "6": "Freeze time for 4 seconds, your team heals 100% health; Chronos keep fighting and gain 70 Ability Power and 35% Attack Speed"
+         }
+      },
+      {
+         "key": "Dragon",
+         "ingameKey": "TFT12_Dragon",
+         "name": "Dragon",
+         "desc": "",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Dragon_normal_1720774674-Dragon.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Dragon_black_1720774675-Dragon.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Dragon_white_1720774675-Dragon.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "silver",
+               "min": 2,
+               "max": 2
+            },
+            {
+               "style": "gold",
+               "min": 3
+            }
+         ],
+         "stats": {
+            "2": "Dragon attacks and Abilities 1% Burn and Wound enemies for 5 seconds.",
+            "3": "The power of friendship upgrades all dragon Abilities!"
+         }
+      },
+      {
+         "key": "Druid",
+         "ingameKey": "TFT12_Druid",
+         "name": "Druid",
+         "desc": "",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Druid_normal_1720774694-Druid.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Druid_black_1720774694-Druid.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Druid_white_1720774694-Druid.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "gold",
+               "min": 1
+            }
+         ],
+         "stats": {
+            "1": "Wukong does not have a trait bonus, but instead has a powerful Ability and increased stats."
+         }
+      },
+      {
+         "key": "Eldritch",
+         "ingameKey": "TFT12_Eldritch",
+         "name": "Eldritch",
+         "desc": "When your team loses 20% of their Health, an Old God awakens. It gains 25% Health and 10% Ability Power for each Eldritch star level.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Eldritch_normal_1720774729-Eldrich.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Eldritch_black_1720774729-Eldrich.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Eldritch_white_1720774730-Eldrich.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 3,
+               "max": 4
+            },
+            {
+               "style": "silver",
+               "min": 5,
+               "max": 6
+            },
+            {
+               "style": "gold",
+               "min": 7,
+               "max": 9
+            },
+            {
+               "style": "chromatic",
+               "min": 10
+            }
+         ],
+         "stats": {
+            "3": "The Tainted Golem",
+            "5": "The Dark Monolith",
+            "7": "The Many-Eyed Beast",
+            "10": "The Stormbringer"
+         }
+      },
+      {
+         "key": "TFT12BestFriends",
+         "ingameKey": "TFT12_Explorer",
+         "name": "Best Friends",
+         "desc": "",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/TFT12BestFriends_normal_1720774208-Best-Friends.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/TFT12BestFriends_black_1720774208-Best-Friends.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/TFT12BestFriends_white_1720774208-Best-Friends.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "gold",
+               "min": 1
+            }
+         ],
+         "stats": {
+            "1": "Norra summons Yuumi to help your team! She can be attached to allies by holding her over them. Yuumi shares her Ability Power with Norra and dies when Norra does."
+         }
+      },
+      {
+         "key": "Faerie",
+         "ingameKey": "TFT12_Faerie",
+         "name": "Faerie",
+         "desc": "Faeries gain Health and create special items that become stronger with trait tiers.<br><br>Only Faeries can hold Faerie items.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Faerie_normal_1720774746-Faerie.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Faerie_black_1720774746-Faerie.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Faerie_white_1720774746-Faerie.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 3,
+               "max": 4
+            },
+            {
+               "style": "silver",
+               "min": 5,
+               "max": 6
+            },
+            {
+               "style": "gold",
+               "min": 7,
+               "max": 8
+            },
+            {
+               "style": "gold",
+               "min": 9
+            }
+         ],
+         "stats": {
+            "3": "150 Health, Gain Queen's Crown that grants 30% Damage Amp",
+            "5": "400 Health, Crown 45% Damage Amp, Gain Queenguard's Armor",
+            "7": "700 Health, Crown 65% Damage Amp, Gain a 2nd Crown",
+            "9": "999 Health, Crown 66% Damage Amp, Items become Radiant"
+         }
+      },
+      {
+         "key": "Frost",
+         "ingameKey": "TFT12_Frost",
+         "name": "Frost",
+         "desc": "Frost champions gain Ability Power and Attack Damage. The first few enemies to die become allied ice soldiers which lure enemy attacks if they are within range and retargeting.<br><br>Soldiers have 200 Health per stage.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Frost_normal_1720774775-Frost.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Frost_black_1720774775-Frost.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Frost_white_1720774775-Frost.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 3,
+               "max": 4
+            },
+            {
+               "style": "silver",
+               "min": 5,
+               "max": 6
+            },
+            {
+               "style": "gold",
+               "min": 7,
+               "max": 8
+            },
+            {
+               "style": "gold",
+               "min": 9
+            }
+         ],
+         "stats": {
+            "3": "16% AD/AP, 1 soldier",
+            "5": "40% AD/AP, 2 soldiers",
+            "7": "55% AD/AP, 3 soldiers, soldiers explode on death",
+            "9": "90% AD/AP, 4 soldiers, explosion power doubles"
+         }
+      },
+      {
+         "key": "Honeymancy",
+         "ingameKey": "TFT12_Honeymancy",
+         "name": "Honeymancy",
+         "desc": "Honeymancy gain 5 Bees That deal magic damage to their target every 3 seconds. Each Bee deals damage based on the damage a Honeymancer deals and takes.<br><br>When a Honeymancer dies, they leave 1/1/3 Bee that follows nearby Honeymancers for the rest of combat.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Honeymancy_normal_1720774792-Honeymancy.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Honeymancy_black_1720774792-Honeymancy.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Honeymancy_white_1720774792-Honeymancy.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 3,
+               "max": 4
+            },
+            {
+               "style": "gold",
+               "min": 5,
+               "max": 6
+            },
+            {
+               "style": "gold",
+               "min": 7
+            }
+         ],
+         "stats": {
+            "3": "7% of damage dealt, 3% of damage taken",
+            "5": "13% of damage dealt, 5% of damage taken",
+            "7": "20% of damage dealt, 10% of damage taken. Bees deal damage twice as often."
+         }
+      },
+      {
+         "key": "Hunter",
+         "ingameKey": "TFT12_Hunter",
+         "name": "Hunter",
+         "desc": "Hunters gain Attack Damage, increased the first time they get a takedown each combat.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Hunter_normal_1720774264-Hunter.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Hunter_black_1720774264-Hunter.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Hunter_white_1720774264-Hunter.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6
+            }
+         ],
+         "stats": {
+            "2": "15% AD, 35% after takedown",
+            "4": "40% AD, 65% after takedown",
+            "6": "70% AD, 100% after takedown, 20% AS"
+         }
+      },
+      {
+         "key": "Incantor",
+         "ingameKey": "TFT12_Incantor",
+         "name": "Incantor",
+         "desc": "Your team gains 10 Ability Power.<br><br>When Incantors attack or cast, all Incantors gain stacks of Ability Power up to 40. Every other attack grants 1 stack, and each Ability cast grants 5 stacks.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Incantor_normal_1720774293-Incantor.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Incantor_black_1720774293-Incantor.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Incantor_white_1720774293-Incantor.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "gold",
+               "min": 4
+            }
+         ],
+         "stats": {
+            "2": "1 AP per stack",
+            "4": "2 AP per stack; your team gains 30 AP"
+         }
+      },
+      {
+         "key": "Mage",
+         "ingameKey": "TFT12_Mage",
+         "name": "Mage",
+         "desc": "Mages cast their Abilities twice and have modified total Ability Power.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Mage_normal_1720774331-Mage.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Mage_black_1720774331-Mage.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Mage_white_1720774331-Mage.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 3,
+               "max": 4
+            },
+            {
+               "style": "silver",
+               "min": 5,
+               "max": 6
+            },
+            {
+               "style": "gold",
+               "min": 7,
+               "max": 9
+            },
+            {
+               "style": "chromatic",
+               "min": 10
+            }
+         ],
+         "stats": {
+            "3": "85% Ability Power",
+            "5": "95% Ability Power",
+            "7": "110% Ability Power",
+            "10": "200% Ability Power, Mages cast MUCH more frequently"
+         }
+      },
+      {
+         "key": "Multistriker",
+         "ingameKey": "TFT12_Multistriker",
+         "name": "Multistriker",
+         "desc": "Multistrikers' attacks have a chance to trigger 2 extra attacks.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Multistriker_normal_1720774350-Multistriker.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Multistriker_black_1720774350-Multistriker.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Multistriker_white_1720774350-Multistriker.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 3,
+               "max": 4
+            },
+            {
+               "style": "silver",
+               "min": 5,
+               "max": 6
+            },
+            {
+               "style": "gold",
+               "min": 7,
+               "max": 8
+            },
+            {
+               "style": "gold",
+               "min": 9
+            }
+         ],
+         "stats": {
+            "3": "25% chance",
+            "5": "65% chance",
+            "7": "80% chance; heal 3% max Health every attack",
+            "9": "100% chance; heal 10% max Health every attack"
+         }
+      },
+      {
+         "key": "Portal",
+         "ingameKey": "TFT12_Portal",
+         "name": "Portal",
+         "desc": "Combat start: Portal champions Shield for 15 seconds.<br><br>Objects from other dimensions fly out of a portal every few seconds to help allies and disrupt enemies. The portal becomes 8% stronger for each Portal champion's star level.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Portal_normal_1720774809-Portal.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Portal_black_1720774809-Portal.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Portal_white_1720774810-Portal.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 3,
+               "max": 5
+            },
+            {
+               "style": "silver",
+               "min": 6,
+               "max": 7
+            },
+            {
+               "style": "gold",
+               "min": 8,
+               "max": 9
+            },
+            {
+               "style": "chromatic",
+               "min": 10
+            }
+         ],
+         "stats": {
+            "3": "200 Shield, Small portal",
+            "6": "450 Shield, Medium portal",
+            "8": "700 Shield, Large portal",
+            "10": "1500 Shield, GIGA portal"
+         }
+      },
+      {
+         "key": "Preserver",
+         "ingameKey": "TFT12_Preserver",
+         "name": "Preserver",
+         "desc": "Your team heals for a percent of their max Health every 3 seconds. If they're full Health, restore Mana instead.<br><br>Preservers gain double the amount.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Preserver_normal_1720774370-Preserver.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Preserver_black_1720774370-Preserver.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Preserver_white_1720774370-Preserver.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 2
+            },
+            {
+               "style": "silver",
+               "min": 3,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 4
+            },
+            {
+               "style": "gold",
+               "min": 5
+            }
+         ],
+         "stats": {
+            "2": "2% HP or 3% MP",
+            "3": "4% HP or 5% MP",
+            "4": "6% HP or 7% MP",
+            "5": "9% HP or 11% MP"
+         }
+      },
+      {
+         "key": "Pyro",
+         "ingameKey": "TFT12_Pyro",
+         "name": "Pyro",
+         "desc": "Your team gains 3% Attack Speed. Pyro champions gain more Attack Speed and execute enemies under 10% Health.<br><br>For each kill, Pyro champions create an infernal cinder that you collect the next round. For every 5 cinders you collect, your team gains 2% more Attack Speed.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Pyro_normal_1720774828-Pyro.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Pyro_black_1720774828-Pyro.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Pyro_white_1720774828-Pyro.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 2
+            },
+            {
+               "style": "silver",
+               "min": 3,
+               "max": 3
+            },
+            {
+               "style": "gold",
+               "min": 4,
+               "max": 4
+            },
+            {
+               "style": "gold",
+               "min": 5
+            }
+         ],
+         "stats": {
+            "2": "5% AS",
+            "3": "25% AS",
+            "4": "50% AS",
+            "5": "65% AS and execute under 15% Health"
+         }
+      },
+      {
+         "key": "Ravenous",
+         "ingameKey": "TFT12_Ravenous",
+         "name": "Ravenous",
+         "desc": "",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Ravenous_normal_1720774843-Ravenous.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Ravenous_black_1720774843-Ravenous.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Ravenous_white_1720774843-Ravenous.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "gold",
+               "min": 1
+            }
+         ],
+         "stats": {
+            "1": "Briar gains 0.8% Damage Amp for each player health you are missing. Each round, gain a Light Snack to give her 180 Health in exchange for 3 of your player health."
+         }
+      },
+      {
+         "key": "Scholar",
+         "ingameKey": "TFT12_Scholar",
+         "name": "Scholar",
+         "desc": "Scholars gain bonus Mana on attack. Also gain an Ability.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Scholar_normal_1720774418-Scholar.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Scholar_black_1720774418-Scholar.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Scholar_white_1720774418-Scholar.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6
+            }
+         ],
+         "stats": {
+            "2": "3 Mana per attack, 10 AP",
+            "4": "6 Mana per attack, 20 AP",
+            "6": "12 Mana per attack, 20 AP, and Abilities heal an ally for 10% of the damage dealt"
+         }
+      },
+      {
+         "key": "Shapeshifter",
+         "ingameKey": "TFT12_Shapeshifter",
+         "name": "Shapeshifter",
+         "desc": "Shapeshifters gain bonus max Health. After their first Ability cast, they triple this effect.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Shapeshifter_normal_1720774437-Shapeshifter.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Shapeshifter_black_1720774437-Shapeshifter.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Shapeshifter_white_1720774438-Shapeshifter.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6,
+               "max": 9
+            },
+            {
+               "style": "chromatic",
+               "min": 10
+            }
+         ],
+         "stats": {
+            "2": "10% Health",
+            "4": "18% Health",
+            "6": "27% Health",
+            "8": "33% Health, 6% HP regen per 2 seconds"
+         }
+      },
+      {
+         "key": "Sugarcraft",
+         "ingameKey": "TFT12_Sugarcraft",
+         "name": "Sugarcraft",
+         "desc": "Sugarcrafters build a layer cake from sugar. Gain sugar for each component your champions are holding after player combat.<br><br>They gain Attack Damage and Ability Power, increased by 10% for each cake layer. When the cake has reached 7 layers, gain treats instead!",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Sugarcraft_normal_1720774861-Sugarcraft.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Sugarcraft_black_1720774861-Sugarcraft.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Sugarcraft_white_1720774861-Sugarcraft.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6,
+               "max": 7
+            },
+            {
+               "style": "chromatic",
+               "min": 8
+            }
+         ],
+         "stats": {
+            "2": "3 sugar, 22 AD/AP",
+            "4": "4 sugar, 33 AD/AP",
+            "6": "6 sugar, 36 AD/AP, team gains 100 Health",
+            "8": "10 sugar, 50 AD/AP, team gains 500 Health"
+         }
+      },
+      {
+         "key": "Vanguard",
+         "ingameKey": "TFT12_Vanguard",
+         "name": "Vanguard",
+         "desc": "Vanguards gain 10% Durability while Shielded.<br><br>Combat start and at 50% Health: Gain a Shield for a percent of max Health for 10 seconds.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Vanguard_normal_1720774453-Vanguard.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Vanguard_black_1720774453-Vanguard.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Vanguard_white_1720774453-Vanguard.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6
+            }
+         ],
+         "stats": {
+            "2": "18% max Health",
+            "4": "35% max Health",
+            "6": "50% max Health, 15% Durability while Shielded"
+         }
+      },
+      {
+         "key": "Warrior",
+         "ingameKey": "TFT12_Warrior",
+         "name": "Warrior",
+         "desc": "Warriors gain Omnivamp and Damage Amp. When Warriors drop below 70% health, they gain double Damage Amp.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Warrior_normal_1720774469-Warrior.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Warrior_black_1720774469-Warrior.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Warrior_white_1720774469-Warrior.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6
+            }
+         ],
+         "stats": {
+            "2": "10% Omnivamp, 10% Damage Amp",
+            "4": "20% Omnivamp, 20% Damage Amp",
+            "6": "25% Omnivamp, 25% Damage Amp, 15% Durability"
+         }
+      },
+      {
+         "key": "Witchcraft",
+         "ingameKey": "TFT12_Witchcraft",
+         "name": "Witchcraft",
+         "desc": "Now poisons enemies, dealing 4% of their maximum HP per second as magic damage.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Witchcraft_normal_1720774880-Witchcraft.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Witchcraft_black_1720774880-Witchcraft.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Witchcraft_white_1720774880-Witchcraft.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6,
+               "max": 7
+            },
+            {
+               "style": "gold",
+               "min": 8
+            }
+         ],
+         "stats": {
+            "2": "smaller, losing 120 of their max Health",
+            "4": "AND green, taking 6% of their max Health as magic damage per second",
+            "6": "AND frail, taking 25% bonus true damage from Witches",
+            "8": "AND a frog, stunned for 2 seconds every 8 seconds. All other curse effects are increased by 50%."
+         }
+      },
+      {
+         "key": "Set5Abomination",
+         "ingameKey": "TFT5_Abomination",
+         "name": "Abomination",
+         "desc": "When 2 allied champions have died, the Monstrosity will rise from its grave. The Monstrosity receives bonus Health and Attack Damage based on the stage number and allied Abomination champions' star levels.<br><br>The 3 Abomination champions nearest the grave will also grant the Monstrosity a random copy of one of their items when combat starts.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Abomination_normal_1727054828-Abomination.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Abomination_black_1727054828-Abomination.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Abomination_white_1727054828-Abomination.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 3,
+               "max": 3
+            },
+            {
+               "style": "gold",
+               "min": 4,
+               "max": 4
+            },
+            {
+               "style": "gold",
+               "min": 5
+            }
+         ],
+         "stats": {
+            "3": "900 Health, 70% Attack Damage",
+            "4": "1500 Health, 90% Attack Damage",
+            "5": "2000 Health, 110% Attack Damage"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set5Assassin",
+         "ingameKey": "TFT5_Assassin",
+         "name": "Assassin",
+         "desc": "Innate: When combat starts, Assassins leap to the enemy backline.<br><br>Assassins' Abilities can critically strike and they gain bonus Critical Strike Chance and bonus Critical Strike Damage.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Assassin_normal_1727055532-Assassin.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Assassin_black_1727055134-Assassin.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Assassin_white_1727055319-Assassin.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "gold",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6
+            }
+         ],
+         "stats": {
+            "2": "+20% Crit Chance and +10% Crit Damage",
+            "4": "+40% Crit Chance and +20% Crit Damage",
+            "6": "+75% Crit Chance and +35% Crit Damage"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set5Brawler",
+         "ingameKey": "TFT5_Brawler",
+         "name": "Brawler",
+         "desc": "Brawlers gain additional maximum Health.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Brawler_normal_1727055525-Brawler.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Brawler_black_1727055126-Brawler.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Brawler_white_1727055311-Brawler.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "gold",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6
+            }
+         ],
+         "stats": {
+            "2": "+400 Health",
+            "4": "+1000 Health",
+            "6": "+1600 Health"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set5Cannoneer",
+         "ingameKey": "TFT5_Cannoneer",
+         "name": "Cannoneer",
+         "desc": "Every 5th Cannoneer attack is replaced with a cannon shot that deals a percent of that attack's damage in an explosion around the target as physical damage.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Cannoneer_normal_1727055587-Cannoneer.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Cannoneer_black_1727055181-Cannoneer.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Cannoneer_white_1727055366-Cannoneer.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "gold",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6
+            }
+         ],
+         "stats": {
+            "2": "225 damage",
+            "4": "475 damage",
+            "6": "1200 damage"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set5Caretaker",
+         "ingameKey": "TFT5_Caretaker",
+         "name": "Caretaker",
+         "desc": "",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Caretaker_normal_1727055540-Caretaker.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Caretaker_black_1727055141-Caretaker.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Caretaker_white_1727055328-Caretaker.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "gold",
+               "min": 1
+            }
+         ],
+         "stats": {
+            "1": "Caretakers deploy with a Baby Dragon that can be placed anywhere on the battlefield. The Baby Dragon gains 100% of its Caretaker's Attack Speed, and restores 80 Mana to the Caretaker upon death."
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set5Cavalier",
+         "ingameKey": "TFT5_Cavalier",
+         "name": "Cavalier",
+         "desc": "Innate: Cavaliers charge quickly towards their target whenever they move.<br><br>Cavaliers take reduced damage. At the start of combat and after each charge, this effect is doubled for 4 seconds.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Cavalier_normal_1727055490-Cavalier.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Cavalier_black_1727055097-Cavalier.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Cavalier_white_1727055274-Cavalier.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 2
+            },
+            {
+               "style": "silver",
+               "min": 3,
+               "max": 3
+            },
+            {
+               "style": "gold",
+               "min": 4
+            }
+         ],
+         "stats": {
+            "2": "20% Damage Reduction",
+            "3": "25% Damage Reduction",
+            "4": "30% Damage Reduction"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set5Cruel",
+         "ingameKey": "TFT5_Cruel",
+         "name": "Cruel",
+         "desc": "",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Cruel_normal_1727055483-Cruel.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Cruel_black_1727055090-Cruel.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Cruel_white_1727055267-Cruel.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "gold",
+               "min": 1
+            }
+         ],
+         "stats": {
+            "1": "A Cruel champion hungers to be alone against exactly 1 enemy left standing.<br><br>Cruel champions are purchased with Little Legend Health instead of gold. They can be sold for gold, but not Health. You're welcome."
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set5Dawnbringer",
+         "ingameKey": "TFT5_Dawnbringer",
+         "name": "Dawnbringer",
+         "desc": "Dawnbringers rapidly heal some of their maximum Health the first time they drop below 50%. When this occurs, all allied Dawnbringers gain 10% bonus damage.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Dawnbringer_normal_1727055428-Dawnbringer.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Dawnbringer_black_1727055038-Dawnbringer.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Dawnbringer_white_1727055223-Dawnbringer.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6,
+               "max": 7
+            },
+            {
+               "style": "gold",
+               "min": 8
+            }
+         ],
+         "stats": {
+            "2": "30% of maximum Health",
+            "4": "55% of maximum Health",
+            "6": "80% of maximum Health",
+            "8": "100% of maximum Health"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set5Draconic",
+         "ingameKey": "TFT5_Draconic",
+         "name": "Draconic",
+         "desc": "",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Draconic_normal_1727055456-Draconic.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Draconic_black_1727055068-Draconic.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Draconic_white_1727055246-Draconic.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 3,
+               "max": 4
+            },
+            {
+               "style": "gold",
+               "min": 5
+            }
+         ],
+         "stats": {
+            "3": "At the end of each player combat, gain a dragon egg on your bench. The bigger the egg, the longer it takes to hatch, and the rarer the reward.",
+            "5": "Dragon eggs are golden! Golden eggs hatch into even rarer loot.<br><br>In Hyper Roll, dragon eggs hatch a lot faster!"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set5Forgotten",
+         "ingameKey": "TFT5_Forgotten",
+         "name": "Forgotten",
+         "desc": "Forgotten champions have bonus Attack Damage and Ability Power. Each victorious combat they participate in increases the bonus by 10%, stacking up to 5 times.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Forgotten_normal_1727055403-Forgotten.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Forgotten_black_1727055012-Forgotten.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Forgotten_white_1727055202-Forgotten.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6,
+               "max": 7
+            },
+            {
+               "style": "gold",
+               "min": 8
+            }
+         ],
+         "stats": {
+            "2": "20 Attack Damage and Ability Power",
+            "4": "40 Attack Damage and Ability Power",
+            "6": "60 Attack Damage and Ability Power",
+            "8": "120 Attack Damage and Ability Power"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set5Hellion",
+         "ingameKey": "TFT5_Hellion",
+         "name": "Hellion",
+         "desc": "Hellions gain Attack Speed.<br><br>Whenever a Hellion dies, a Doppelhellion (a one less star copy) will leap from the Hellion portal and join the fight!",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Hellion_normal_1727055442-Hellion.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Hellion_black_1727055052-Hellion.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Hellion_white_1727055233-Hellion.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6,
+               "max": 7
+            },
+            {
+               "style": "gold",
+               "min": 8
+            }
+         ],
+         "stats": {
+            "2": "15% Attack Speed",
+            "4": "40% Attack Speed",
+            "6": "80% Attack Speed",
+            "8": "140% Attack Speed"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set5Inanimate",
+         "ingameKey": "TFT5_Inanimate",
+         "name": "Inanimate",
+         "desc": "",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Inanimate_normal_1727055420-Inanimate.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Inanimate_black_1727055029-Inanimate.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Inanimate_white_1727055215-Inanimate.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "gold",
+               "min": 1
+            }
+         ],
+         "stats": {
+            "1": "At the start of combat, Inanimate champions summon Harrowing Mist in all adjacent hexes surrounding them for 8 seconds, granting all allies within 33% damage reduction while they remain within the mist."
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set5Invoker",
+         "ingameKey": "TFT5_Invoker",
+         "name": "Invoker",
+         "desc": "All allies gain extra Mana from their attacks.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Invoker_normal_1727055508-Invoker.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Invoker_black_1727055111-Invoker.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Invoker_white_1727055291-Invoker.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "gold",
+               "min": 4
+            }
+         ],
+         "stats": {
+            "2": "+2 Mana",
+            "4": "+5 Mana"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set5Ironclad",
+         "ingameKey": "TFT5_Ironclad",
+         "name": "Ironclad",
+         "desc": "All allies gain Armor.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Ironclad_normal_1727055465-Ironclad.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Ironclad_black_1727055074-Ironclad.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Ironclad_white_1727055252-Ironclad.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 2
+            },
+            {
+               "style": "gold",
+               "min": 3,
+               "max": 3
+            },
+            {
+               "style": "gold",
+               "min": 4
+            }
+         ],
+         "stats": {
+            "2": "30 Armor",
+            "3": "60 Armor",
+            "4": "120 Armor"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set5Knight",
+         "ingameKey": "TFT5_Knight",
+         "name": "Knight",
+         "desc": "All allies block a flat amount of damage from all sources.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Knight_normal_1727055498-Knight.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Knight_black_1727055103-Knight.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Knight_white_1727055281-Knight.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6
+            }
+         ],
+         "stats": {
+            "2": "15 damage blocked",
+            "4": "30 damage blocked",
+            "6": "60 damage blocked"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set5Legionnaire",
+         "ingameKey": "TFT5_Legionnaire",
+         "name": "Legionnaire",
+         "desc": "Legionnaires gain Attack Speed and Omnivamp.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Legionnaire_normal_1727055474-Legionnaire.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Legionnaire_black_1727055083-Legionnaire.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Legionnaire_white_1727055260-Legionnaire.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6,
+               "max": 7
+            },
+            {
+               "style": "gold",
+               "min": 8
+            }
+         ],
+         "stats": {
+            "2": "25% Attack Speed, 15% Heal",
+            "4": "60% Attack Speed, 20% Heal",
+            "6": "100% Attack Speed, 25% Heal",
+            "8": "150% Attack Speed, 35% Heal"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set5Mystic",
+         "ingameKey": "TFT5_Mystic",
+         "name": "Mystic",
+         "desc": "All allies gain Magic Resist.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Mystic_normal_1727055518-Mystic.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Mystic_black_1727055118-Mystic.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Mystic_white_1727055301-Mystic.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 2
+            },
+            {
+               "style": "silver",
+               "min": 3,
+               "max": 3
+            },
+            {
+               "style": "gold",
+               "min": 4,
+               "max": 4
+            },
+            {
+               "style": "gold",
+               "min": 5
+            }
+         ],
+         "stats": {
+            "2": "30 Magic Resist",
+            "3": "60 Magic Resist",
+            "4": "100 Magic Resist",
+            "5": "150 Magic Resist"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set5Nightbringer",
+         "ingameKey": "TFT5_Nightbringer",
+         "name": "Nightbringer",
+         "desc": "Nightbringers gain a shield for 8 seconds equal to a percent of their maximum Health the first time they drop below 50%. When this occurs, that Nightbringer gains bonus damage.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Nightbringer_normal_1727055450-Nightbringer.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Nightbringer_black_1727055061-Nightbringer.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Nightbringer_white_1727055240-Nightbringer.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6,
+               "max": 7
+            },
+            {
+               "style": "gold",
+               "min": 8
+            }
+         ],
+         "stats": {
+            "2": "30% shield, 20% damage",
+            "4": "60% shield, 30% damage",
+            "6": "90% shield, 40% damage",
+            "8": "150% shield, 70% damage"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set5Ranger",
+         "ingameKey": "TFT5_Ranger",
+         "name": "Ranger",
+         "desc": "Rangers gain an Attack Speed buff that switches on and off every 4 seconds. This buff applies to the Ranger's total Attack Speed.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Ranger_normal_1727055559-Ranger.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Ranger_black_1727055160-Ranger.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Ranger_white_1727055343-Ranger.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "gold",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6
+            }
+         ],
+         "stats": {
+            "2": "+100% Attack Speed",
+            "4": "+200% Attack Speed",
+            "6": "+500% Attack Speed"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set5Redeemed",
+         "ingameKey": "TFT5_Redeemed",
+         "name": "Redeemed",
+         "desc": "Redeemed champions have increased Armor, Magic Resist, and Ability Power. When they die, their bonus is split among remaining Redeemed allies.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Redeemed_normal_1727055395-Redeemed.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Redeemed_black_1727055003-Redeemed.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Redeemed_white_1727055195-Redeemed.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 3,
+               "max": 5
+            },
+            {
+               "style": "silver",
+               "min": 6,
+               "max": 7
+            },
+            {
+               "style": "gold",
+               "min": 8,
+               "max": 9
+            },
+            {
+               "style": "chromatic",
+               "min": 10
+            }
+         ],
+         "stats": {
+            "3": "20 Armor & Magic Resist, 30 Ability Power",
+            "6": "30 Armor & Magic Resist, 55 Ability Power",
+            "8": "40 Armor & Magic Resist, 65 Ability Power",
+            "10": "100 Armor & Magic Resist, 150 Ability Power"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set5Renewer",
+         "ingameKey": "TFT5_Renewer",
+         "name": "Renewer",
+         "desc": "Renewers heal for a percent of their maximum Health each second. If they're full Health, they restore Mana instead.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Renewer_normal_1727055549-Renewer.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Renewer_black_1727055150-Renewer.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Renewer_white_1727055336-Renewer.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "gold",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6
+            }
+         ],
+         "stats": {
+            "2": "4% Health or 4% Mana",
+            "4": "7% Health or 7% Mana",
+            "6": "10% Health or 10% Mana"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set5Revenant",
+         "ingameKey": "TFT5_Revenant",
+         "name": "Revenant",
+         "desc": "Revenants revive after their first death each combat. Once revived, they take and deal 25% increased damage.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Revenant_normal_1727055412-Revenant.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Revenant_black_1727055020-Revenant.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Revenant_white_1727055209-Revenant.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 2
+            },
+            {
+               "style": "silver",
+               "min": 3,
+               "max": 3
+            },
+            {
+               "style": "gold",
+               "min": 4,
+               "max": 4
+            },
+            {
+               "style": "gold",
+               "min": 5
+            }
+         ],
+         "stats": {
+            "2": "Revive with 10% Health",
+            "3": "Revive with 25% Health",
+            "4": "Revive with 45% Health",
+            "5": "Revive with 70% Health"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set5Sentinel",
+         "ingameKey": "TFT5_Sentinel",
+         "name": "Sentinel",
+         "desc": "At the start of combat, the Sentinel with the most items (ties broken by highest Attack Speed) gains a shield that grants stacking Attack Speed. When it is destroyed or expires, it will bounce to the ally with the lowest percent Health and renew. The Attack Speed bonus persists between shield bounces.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Sentinel_normal_1727054956-Sentinel.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Sentinel_black_1727054956-Sentinel.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Sentinel_white_1727054956-Sentinel.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 3,
+               "max": 5
+            },
+            {
+               "style": "silver",
+               "min": 6,
+               "max": 7
+            },
+            {
+               "style": "gold",
+               "min": 8,
+               "max": 9
+            },
+            {
+               "style": "chromatic",
+               "min": 10
+            }
+         ],
+         "stats": {
+            "3": "175 Shield, +20% Attack Speed, 4 sec duration@Time@ sec duration",
+            "6": "1200 Shield, +100% Attack Speed, 3 sec duration",
+            "8": "1600 Shield, +180% Attack Speed, 2 sec duration",
+            "10": "2400 Shield, +800% Attack Speed, 1 sec duration"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set5Skirmisher",
+         "ingameKey": "TFT5_Skirmisher",
+         "name": "Skirmisher",
+         "desc": "Skirmishers gain a shield at the start of combat, and bonus Attack Damage each second.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Skirmisher_normal_1727055578-Skirmisher.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Skirmisher_black_1727055175-Skirmisher.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Skirmisher_white_1727055358-Skirmisher.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 3,
+               "max": 5
+            },
+            {
+               "style": "silver",
+               "min": 6,
+               "max": 7
+            },
+            {
+               "style": "gold",
+               "min": 8,
+               "max": 9
+            },
+            {
+               "style": "chromatic",
+               "min": 10
+            }
+         ],
+         "stats": {
+            "3": "20% max Health shield and +0.04 Attack Damage",
+            "6": "50% max Health shield and +0.08 Attack Damage",
+            "8": "70% max Health shield and +0.12 Attack Damage",
+            "10": "150% max Health shield and +0.2 Attack Damage"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set5Spellweaver",
+         "ingameKey": "TFT5_Spellweaver",
+         "name": "Spellweaver",
+         "desc": "Spellweavers have bonus Ability Power, which increases whenever any champion uses an ability, until the end of combat.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Spellweaver_normal_1727055570-Spellweaver.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Spellweaver_black_1727055168-Spellweaver.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Spellweaver_white_1727055351-Spellweaver.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "gold",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6
+            }
+         ],
+         "stats": {
+            "2": "20 Ability Power, 3 bonus Ability Power",
+            "4": "40 Ability Power, 6 bonus Ability Power",
+            "6": "80 Ability Power, 12 bonus Ability Power"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set5Victorious",
+         "ingameKey": "TFT5_Victorious",
+         "name": "Victorious",
+         "desc": "",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Victorious_normal_1727055435-Victorious.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Victorious_black_1727055046-Victorious.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set5Victorious_white_1727055228-Victorious.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "gold",
+               "min": 1
+            }
+         ],
+         "stats": {
+            "1": "When Victorious champions score a kill, their next attack is empowered to deal 60% of the target's missing Health as bonus magic damage."
+         },
+         "isHidden": true
+      }
+   ]
+}

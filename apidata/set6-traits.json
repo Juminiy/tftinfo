@@ -1,0 +1,827 @@
+{
+   "season": "set6",
+   "traits": [
+      {
+         "key": "Academy",
+         "ingameKey": "Set6_Academy",
+         "name": "Academy",
+         "desc": "Academics have bonus Attack Damage and Ability Power. They also learn from their allies, gaining and additional bonus whenever an ally casts their Ability.",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/6.0/academy.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/6.0/academy.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/6.0/academy.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6,
+               "max": 7
+            },
+            {
+               "style": "chromatic",
+               "min": 8
+            }
+         ],
+         "stats": {
+            "2": "18 Attack Damage and Ability Power; 3 from allies' casts",
+            "4": "40 Attack Damage and Ability Power; 5 from allies' casts",
+            "6": "50 Attack Damage and Ability Power; 10 from allies' casts",
+            "8": "70 Attack Damage and Ability Power; 15 from allies' casts"
+         }
+      },
+      {
+         "key": "Arcanist",
+         "ingameKey": "Set6_Arcanist",
+         "name": "Arcanist",
+         "desc": "Arcanists increase the Ability Power of your team.",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/6.0/arcanist.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/6.0/arcanist.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/6.0/arcanist.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6,
+               "max": 7
+            },
+            {
+               "style": "chromatic",
+               "min": 8
+            }
+         ],
+         "stats": {
+            "2": "Your team gains 20% Ability Power",
+            "4": "Your team gains 20% Ability Power, Arcanists gain 40%",
+            "6": "Your team gains 50% Ability Power, Arcanists gain 50%",
+            "8": "Your team gains 145% Ability Power."
+         }
+      },
+      {
+         "key": "Assassin",
+         "ingameKey": "Set6_Assassin",
+         "name": "Assassin",
+         "desc": "Innate: When combat starts, Assassins leap to the enemy backline.<br><br>Assassins' Abilities can critically strike and they gain bonus Critical Strike Chance and bonus Critical Strike Damage.",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/6.0/assassin.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/6.0/assassin.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/6.0/assassin.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6
+            }
+         ],
+         "stats": {
+            "2": "+10% Crit Chance and +20% Crit Damage",
+            "4": "+30% Crit Chance and +40% Crit Damage",
+            "6": "+50% Crit Chance and +60% Crit Damage"
+         }
+      },
+      {
+         "key": "Bodyguard",
+         "ingameKey": "Set6_Bodyguard",
+         "name": "Bodyguard",
+         "desc": "Bodyguards have increased Armor. Shortly after combat begins, Bodyguards gain a Shield and taunt adjacent enemies, forcing them to attack the Bodyguard.",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/6.0/bodyguard.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/6.0/bodyguard.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/6.0/bodyguard.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6,
+               "max": 7
+            },
+            {
+               "style": "chromatic",
+               "min": 8
+            }
+         ],
+         "stats": {
+            "2": "80 Armor, 150 Shield",
+            "4": "160 Armor, 350 Shield",
+            "6": "250 Armor, 700 Shield",
+            "8": "450 Armor, 1200 Shield"
+         }
+      },
+      {
+         "key": "Bruiser",
+         "ingameKey": "Set6_Bruiser",
+         "name": "Bruiser",
+         "desc": "Your team gains bonus maximum Health. Bruisers gain double the bonus.",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/6.0/bruiser.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/6.0/bruiser.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/6.0/bruiser.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6,
+               "max": 7
+            },
+            {
+               "style": "chromatic",
+               "min": 8
+            }
+         ],
+         "stats": {
+            "2": "125 Health",
+            "4": "225 Health",
+            "6": "400 Health",
+            "8": "700 Health"
+         }
+      },
+      {
+         "key": "Challenger",
+         "ingameKey": "Set6_Challenger",
+         "name": "Challenger",
+         "desc": "Challengers get bonus Attack Speed. Upon scoring a takedown, Challengers dash to a new target and double this bonus for 2.5 seconds.",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/6.0/challenger.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/6.0/challenger.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/6.0/challenger.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6,
+               "max": 7
+            },
+            {
+               "style": "chromatic",
+               "min": 8
+            }
+         ],
+         "stats": {
+            "2": "30% Attack Speed",
+            "4": "55% Attack Speed",
+            "6": "80% Attack Speed",
+            "8": "130% Attack Speed"
+         }
+      },
+      {
+         "key": "Chemtech",
+         "ingameKey": "Set6_Chemtech",
+         "name": "Chemtech",
+         "desc": "After dropping below 75% Health, Chemtech champions gain 20% damage reduction, Attack Speed, and regenerate % of their maximum Health for 8 seconds.",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/6.0/chemtech.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/6.0/chemtech.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/6.0/chemtech.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 3,
+               "max": 4
+            },
+            {
+               "style": "silver",
+               "min": 5,
+               "max": 6
+            },
+            {
+               "style": "gold",
+               "min": 7,
+               "max": 8
+            },
+            {
+               "style": "chromatic",
+               "min": 9
+            }
+         ],
+         "stats": {
+            "3": "15% Attack Speed, 3% Health Regeneration",
+            "5": "50% Attack Speed, 5% Health Regeneration",
+            "7": "90% Attack Speed, 8% Health Regeneration",
+            "9": "135% Attack Speed, 15% Health Regeneration"
+         }
+      },
+      {
+         "key": "Clockwork",
+         "ingameKey": "Set6_Clockwork",
+         "name": "Clockwork",
+         "desc": "Your team has increased Attack Speed, with an increase per augment in the Hexcore.",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/6.0/clockwork.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/6.0/clockwork.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/6.0/clockwork.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "gold",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "chromatic",
+               "min": 6
+            }
+         ],
+         "stats": {
+            "2": "10% Attack Speed + 5% per augment.",
+            "4": "35% Attack Speed + 10% per augment.",
+            "6": "70% Attack Speed + 15% per augment."
+         }
+      },
+      {
+         "key": "Colossus",
+         "ingameKey": "Set6_Colossus",
+         "name": "Colossus",
+         "desc": "Innate: Colossi are bigger, more powerful, and immune to crowd control effects. However, each Colossus requires 2 team slots.",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/6.0/colossus.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/6.0/colossus.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/6.0/colossus.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "gold",
+               "min": 2,
+               "max": 2
+            }
+         ],
+         "stats": {
+            "2": "Colossus champions take 25% less damage."
+         }
+      },
+      {
+         "key": "Cuddly",
+         "ingameKey": "Set6_Cuddly",
+         "name": "Cuddly",
+         "desc": "",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/6.0/cuddly.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/6.0/cuddly.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/6.0/cuddly.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "gold",
+               "min": 1
+            }
+         ],
+         "stats": {
+            "1": "At the start of combat, Yuumi attaches herself to the nearest ally, or to the lowest Health ally after being unattached for 2 seconds. Attaching to an ally grants them a shield equal to 60% of Yuumi's maximum Health. Yuumi detaches if the shield breaks.<br><br>While attached, Yuumi is untargetable and cannot attack, but gains 5 Mana per second, and 10 Mana whenever the ally attacks."
+         }
+      },
+      {
+         "key": "Enchanter",
+         "ingameKey": "Set6_Enchanter",
+         "name": "Enchanter",
+         "desc": "Your team has bonus Magic Resist. Enchanters gain bonus healing and shielding.",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/6.0/enchanter.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/6.0/enchanter.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/6.0/enchanter.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 2
+            },
+            {
+               "style": "silver",
+               "min": 3,
+               "max": 3
+            },
+            {
+               "style": "gold",
+               "min": 4,
+               "max": 4
+            },
+            {
+               "style": "chromatic",
+               "min": 5
+            }
+         ],
+         "stats": {
+            "2": "+20 Magic Resist; 25% healing and shielding",
+            "3": "+35 Magic Resist; 40% healing and shielding",
+            "4": "+50 Magic Resist; 60% healing and shielding",
+            "5": "+75 Magic Resist; 100% healing and shielding"
+         }
+      },
+      {
+         "key": "Enforcer",
+         "ingameKey": "Set6_Enforcer",
+         "name": "Enforcer",
+         "desc": "Enforcers stun enemies at the start of combat. They break free after 5 seconds, or after losing 40% or their maximum Health. Enforcers will not try to stun enemies who are immune to crowd control effects.",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/6.0/enforcer.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/6.0/enforcer.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/6.0/enforcer.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "gold",
+               "min": 4
+            }
+         ],
+         "stats": {
+            "2": "The enemy who has the most Health",
+            "4": "And the enemy who dealt the most damage last combat"
+         }
+      },
+      {
+         "key": "Glutton",
+         "ingameKey": "Set6_Glutton",
+         "name": "Glutton",
+         "desc": "",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/6.0/glutton.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/6.0/glutton.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/6.0/glutton.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "gold",
+               "min": 1
+            }
+         ],
+         "stats": {
+            "1": "An ally can be fed to Tahm Kench once per planning phase, permanently granting him either Attack Damage, Ability Power, Health, Armor, or Magic Resist.<br><br>To feed, hold an ally over Tahm Kench until his mouth opens, then release."
+         }
+      },
+      {
+         "key": "Imperial",
+         "ingameKey": "Set6_Imperial",
+         "name": "Imperial",
+         "desc": "At the start of combat, the Imperial who dealt the most damage last combat becomes the Tyrant. The Tyrant deals bonus damage. When the Tyrant dies, the Imperial who has dealt the most damage this combat becomes the new Tyrant.",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/6.0/imperial.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/6.0/imperial.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/6.0/imperial.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "gold",
+               "min": 3,
+               "max": 4
+            },
+            {
+               "style": "chromatic",
+               "min": 5
+            }
+         ],
+         "stats": {
+            "3": "The Tyrant deals 75% bonus damage",
+            "5": "The Tyrant deals 135% bonus damage and the other Imperials deal 75% bonus damage"
+         }
+      },
+      {
+         "key": "Innovator",
+         "ingameKey": "Set6_Innovator",
+         "name": "Innovator",
+         "desc": "Innovators build a mechanical companion to join the battle. The companion receives bonus Health and Attack Damage based on allied Innovators' star levels.",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/6.0/innovator.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/6.0/innovator.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/6.0/innovator.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 3,
+               "max": 4
+            },
+            {
+               "style": "gold",
+               "min": 5,
+               "max": 6
+            },
+            {
+               "style": "chromatic",
+               "min": 7
+            }
+         ],
+         "stats": {
+            "3": "Mechanical Scarab",
+            "5": "Mechanical Bear",
+            "7": "Mechanical Dragon"
+         }
+      },
+      {
+         "key": "Mercenary",
+         "ingameKey": "Set6_Mercenary",
+         "name": "Mercenary",
+         "desc": "Gain a treasure chest that opens when you win combat against a player. At the start of each planning phase vs a player, dice rolls add loot to the chest. The longer you've gone without opening the chest, the luckier the dice.",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/6.0/mercenary.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/6.0/mercenary.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/6.0/mercenary.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 3,
+               "max": 4
+            },
+            {
+               "style": "gold",
+               "min": 5,
+               "max": 6
+            },
+            {
+               "style": "chromatic",
+               "min": 7
+            }
+         ],
+         "stats": {
+            "3": "Roll 2 dice",
+            "5": "The dice are even luckier!",
+            "7": "Upon winning, roll a 3rd dice that grants bonus loot."
+         }
+      },
+      {
+         "key": "Mutant",
+         "ingameKey": "Set6_Mutant",
+         "name": "Mutant",
+         "desc": "Mutants gain unique bonuses. These are different each game.<br><br>Voidborne:<br/>\r\n(3) Mutants execute targets they damage who are below 20% Health.<br>\r\n(5) And Mutants deal 40% of their damage as true damage.<br><br>\r\nBio-Leeching: Your team gains Omnivamp (healing for a percentage of all damage dealt).<br>\r\n(3) 30% Omnivamp<br>\r\n(5) 55% Omnivamp<br><br>\r\nVoracious Appetite: Mutants grow stronger each time an ally dies.<br>\r\n(3) +20 Attack Damage and Ability Power<br>\r\n(5) +30 Attack Damage and Ability Power<br><br>\r\nSynaptic Web: The Abilities of Mutants cost less to cast. (Minimum 10 Mana)<br>\r\n(3) 20 Mana less<br>\r\n(5) 40 Mana less<br>\r\n-----------------------------------------<br>\r\nAdrenaline Rush: Mutants' attacks have a chance to trigger 2 additional attacks against their target.<br>\r\n(3) 40% chance<br>\r\n(5) 75% chance<br>\r\n-----------------------------------------<br>\r\nCybernetic Enhancement: Mutants with at least 1 item gain bonus stats.<br>\r\n(3) 450 Health and 30 Attack Damage<br>\r\n(5) 900 Health and 60 Attack Damage<br><br>\r\nMetamorphosis: Mutants grow every 2 seconds, gaining bonuses that stack up to 5 times.<br>\r\n(3) +18 Armor and Magic Resist, +2 Attack Damage and Ability Power<br>\r\n(5) +25 Armor and Magic Resist, +4 Attack Damage and Ability Power",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/6.0/mutant.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/6.0/mutant.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/6.0/mutant.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 3,
+               "max": 4
+            },
+            {
+               "style": "gold",
+               "min": 5
+            }
+         ],
+         "stats": {
+            "3": "??? (Randomly selected per game)",
+            "5": "??? (Randomly selected per game)"
+         }
+      },
+      {
+         "key": "Protector",
+         "ingameKey": "Set6_Protector",
+         "name": "Protector",
+         "desc": "Protectors shield themselves for 4 seconds whenever they cast an Ability. This shield doesn't stack.",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/6.0/protector.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/6.0/protector.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/6.0/protector.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 2
+            },
+            {
+               "style": "silver",
+               "min": 3,
+               "max": 3
+            },
+            {
+               "style": "gold",
+               "min": 4,
+               "max": 4
+            },
+            {
+               "style": "chromatic",
+               "min": 5
+            }
+         ],
+         "stats": {
+            "2": "20% maximum Health shield",
+            "3": "35% maximum Health shield",
+            "4": "45% maximum Health shield",
+            "5": "60% maximum Health shield"
+         }
+      },
+      {
+         "key": "Scholar",
+         "ingameKey": "Set6_Scholar",
+         "name": "Scholar",
+         "desc": "Your team gains Mana every 2 seconds.",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/6.0/scholar.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/6.0/scholar.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/6.0/scholar.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "gold",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "chromatic",
+               "min": 6
+            }
+         ],
+         "stats": {
+            "2": "5 Mana",
+            "4": "10 Mana",
+            "6": "20 Mana"
+         }
+      },
+      {
+         "key": "Scrap",
+         "ingameKey": "Set6_Scrap",
+         "name": "Scrap",
+         "desc": "At the start of combat, components held by Scrap champions turn into full items for the rest of combat. Also, your team gains a shield for each component equipped by your team, including those that are part of a full item.",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/6.0/scrap.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/6.0/scrap.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/6.0/scrap.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6
+            }
+         ],
+         "stats": {
+            "2": "1 component, 20 shield",
+            "4": "3 components, 40 shield",
+            "6": "All components, 60 shield"
+         }
+      },
+      {
+         "key": "Sister",
+         "ingameKey": "Set6_Sister",
+         "name": "Sister",
+         "desc": "",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/6.0/sister.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/6.0/sister.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/6.0/sister.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "gold",
+               "min": 2,
+               "max": 2
+            }
+         ],
+         "stats": {
+            "2": "Sisters gain empowered skills to compete with each other.<br><br>Vi's Ability range increases by 2 hexes.<br><br>Jinx gains 40% Attack Speed for 3 seconds after scoring a takedown."
+         }
+      },
+      {
+         "key": "Sniper",
+         "ingameKey": "Set6_Sniper",
+         "name": "Sniper",
+         "desc": "Innate: Snipers gain 1 hex Attack Range.<br><br>Snipers deal bonus damage for each hex between themselves and their target.",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/6.0/sniper.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/6.0/sniper.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/6.0/sniper.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "gold",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "chromatic",
+               "min": 6
+            }
+         ],
+         "stats": {
+            "2": "8% bonus damage",
+            "4": "16% bonus damage",
+            "6": "30% bonus damage"
+         }
+      },
+      {
+         "key": "Socialite",
+         "ingameKey": "Set6_Socialite",
+         "name": "Socialite",
+         "desc": "Socialite reveal a spotlight on the battlefield. The unit standing in the spotlight at the start of combat gains unique bonuses.",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/6.0/socialite.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/6.0/socialite.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/6.0/socialite.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 1,
+               "max": 1
+            },
+            {
+               "style": "silver",
+               "min": 2,
+               "max": 2
+            },
+            {
+               "style": "gold",
+               "min": 3
+            }
+         ],
+         "stats": {
+            "1": "20% bonus damage",
+            "2": "and 4 Mana per second",
+            "3": "and heal for 33% of all damage they deal"
+         }
+      },
+      {
+         "key": "Syndicate",
+         "ingameKey": "Set6_Syndicate",
+         "name": "Syndicate",
+         "desc": "Certain allies are cloaked in shadows, gaining 55 Armor, 55 Magic Resist and 20% Omnivamp (healing for a percentage of all damage dealt.)",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/6.0/syndicate.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/6.0/syndicate.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/6.0/syndicate.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 3,
+               "max": 4
+            },
+            {
+               "style": "gold",
+               "min": 5,
+               "max": 6
+            },
+            {
+               "style": "chromatic",
+               "min": 7
+            }
+         ],
+         "stats": {
+            "3": "The Syndicate champion with the lowest percent Health",
+            "5": "All Syndicate champions",
+            "7": "Your whole team, and the effects are increased by 60%"
+         }
+      },
+      {
+         "key": "Transformer",
+         "ingameKey": "Set6_Transformer",
+         "name": "Transformer",
+         "desc": "",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/6.0/transformer.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/6.0/transformer.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/6.0/transformer.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "gold",
+               "min": 1
+            }
+         ],
+         "stats": {
+            "1": "Jayce adopts melee form when placed in the front 2 rows, and ranged form in the back 2 rows."
+         }
+      },
+      {
+         "key": "Twinshot",
+         "ingameKey": "Set6_Twinshot",
+         "name": "Twinshot",
+         "desc": "Twinshots gain bonus Attack Damage. When a Twinshot attacks, they have a chance to attack twice instead.",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/6.0/twinshot.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/6.0/twinshot.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/6.0/twinshot.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "gold",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "chromatic",
+               "min": 6
+            }
+         ],
+         "stats": {
+            "2": "5 Attack Damage, 40% chance",
+            "4": "40 Attack Damage, 70% chance",
+            "6": "80 Attack Damage, 100% chance"
+         }
+      },
+      {
+         "key": "Yordle",
+         "ingameKey": "Set6_Yordle",
+         "name": "Yordle",
+         "desc": "",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/6.0/yordle.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/6.0/yordle.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/6.0/yordle.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 3,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6
+            }
+         ],
+         "stats": {
+            "3": "After each player combat, a random Yordle is added to your bench for free.",
+            "6": "And Yordle's Abilities cost 25% less to cast."
+         }
+      },
+      {
+         "key": "YordleLord",
+         "ingameKey": "Set6_YordleLord",
+         "name": "Yordle-Lord",
+         "desc": "",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/6.0/yordlelord.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/6.0/yordlelord.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/6.0/yordlelord.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "chromatic",
+               "min": 1
+            }
+         ],
+         "stats": {
+            "1": "Benefits from the Yordle trait.<br><br>Veigar is summoned from a Yordle Portal when every Yordle is 3-star."
+         }
+      }
+   ]
+}

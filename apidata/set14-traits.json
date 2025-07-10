@@ -1,0 +1,2411 @@
+{
+   "season": "set14",
+   "traits": [
+      {
+         "key": "Set108Bit",
+         "ingameKey": "TFT10_8Bit",
+         "name": "8-bit",
+         "desc": "Keep score of your team's damage dealt. For each high score you beat, 8-bit champions gain Attack Damage.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/8Bit_normal_1699003345-8-bit-gray.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/8Bit_black_1699003345-8-bit-black.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/8Bit_white_1699003345-8-bit-white.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "gold",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6
+            }
+         ],
+         "stats": {
+            "2": "5% AD",
+            "4": "9% AD",
+            "6": "14% AD and unlock a final high score, that rewards you with a grand prize."
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set10Brawler",
+         "ingameKey": "TFT10_Brawler",
+         "name": "Bruiser",
+         "desc": "Your team gains 100 Health. Bruisers gain bonus max Health.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Bruiser_normal_1698999997-Bruiser-1.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Bruiser_black_1698999997-Bruiser.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Bruiser_white_1698999997-Bruiser-2.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6
+            }
+         ],
+         "stats": {
+            "2": "20% max Health",
+            "4": "45% max Health",
+            "6": "90% max Health"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set10Breakout",
+         "ingameKey": "TFT10_Breakout",
+         "name": "Breakout",
+         "desc": "",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Breakout_normal_1699000164-Breakout-1.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Breakout_black_1699000164-Breakout.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Breakout_white_1699000164-Breakout-2.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "gold",
+               "min": 1
+            }
+         ],
+         "stats": {
+            "1": "Akali is a member of K/DA or True Damage depending on which trait has more fielded champions. She gains a different Ability depending on which form she takes."
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set10Maestro",
+         "ingameKey": "TFT10_Classical",
+         "name": "Maestro",
+         "desc": "",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Maestro_normal_1699003450-Maestro-gray.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Maestro_black_1699003450-Maestro-black.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Maestro_white_1699003450-Maestro-white.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "gold",
+               "min": 1
+            }
+         ],
+         "stats": {
+            "1": "The Maestro always attacks at a fixed pace, converting 1% bonus Attack Speed into 0.7% Attack Damage."
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set10Country",
+         "ingameKey": "TFT10_Country",
+         "name": "Country",
+         "desc": "When your team loses 30% of their Health, call a Dreadsteed that empowers your team. Each Country star level increases the Dreadsteed's Health and Attack Damage.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Country_normal_1699003359-Country-gray.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Country_black_1699003359-Country-black.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Country_white_1699003359-Country-white.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 3,
+               "max": 4
+            },
+            {
+               "style": "gold",
+               "min": 5,
+               "max": 6
+            },
+            {
+               "style": "gold",
+               "min": 7
+            }
+         ],
+         "stats": {
+            "3": "Dreadsteed",
+            "5": "Midnight Dreadsteed",
+            "7": "Infernal Invocation Dreadsteed"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set10CrowdDiver",
+         "ingameKey": "TFT10_CrowdDive",
+         "name": "Crowd Diver",
+         "desc": "After Crowd Divers die, they leap onto the furthest enemy, dealing 300 magic damage. Enemies within 1 hex are Stunned for 1.5 seconds.<br><br>They also gain Damage Amp, increased by 1% each second.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/CrowdDiver_normal_1699000147-Crowd Diver-1.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/CrowdDiver_black_1699000147-Crowd Diver.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/CrowdDiver_white_1699000147-Crowd Diver-2.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "gold",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6
+            }
+         ],
+         "stats": {
+            "2": "12% Damage Amp",
+            "4": "30% Damage Amp",
+            "6": "50% Damage Amp"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set10Dazzler",
+         "ingameKey": "TFT10_Dazzler",
+         "name": "Dazzler",
+         "desc": "Dazzlers' Abilities reduce their target's damage by 10% and deal bonus magic damage over 2 seconds.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Dazzler_normal_1698999960-Dazzler-1.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Dazzler_black_1698999961-Dazzler.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Dazzler_white_1698999961-Dazzler-2.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "gold",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6
+            }
+         ],
+         "stats": {
+            "2": "20 magic damage",
+            "4": "60 magic damage",
+            "6": "100 magic damage"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set10BigShot",
+         "ingameKey": "TFT10_Deadeye",
+         "name": "Big Shot",
+         "desc": "Big Shots gain Attack Damage, which increases for 3 seconds when they use their Ability.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/BigShot_normal_1698999980-Big Shot-1.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/BigShot_black_1698999980-Big Shot.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/BigShot_white_1698999980-Big Shot-2.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "gold",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6
+            }
+         ],
+         "stats": {
+            "2": "10% Attack Damage, 40% after casting",
+            "4": "20% Attack Damage, 80% after casting",
+            "6": "40% Attack Damage, 160% after casting"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set10Mixmaster",
+         "ingameKey": "TFT10_DJ",
+         "name": "Mixmaster",
+         "desc": "",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Mixmaster_normal_1699003464-Mixmaster-gray.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Mixmaster_black_1699003464-Mixmaster-black.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Mixmaster_white_1699003464-Mixmaster-white.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "gold",
+               "min": 1
+            }
+         ],
+         "stats": {
+            "1": "Choose a mode that changes the Mixmaster's attacks and Ability!"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set10Edgelord",
+         "ingameKey": "TFT10_Edgelord",
+         "name": "Edgelord",
+         "desc": "Edgelords gain Attack Speed, which doubles when their target drops below 50% Health. Edgelords with 1-hex range also dash through them on their next attack.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Edgelord_normal_1698999887-Edgelord-1.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Edgelord_black_1698999887-Edgelord.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Edgelord_white_1698999887-Edgelord-2.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 3,
+               "max": 4
+            },
+            {
+               "style": "silver",
+               "min": 5,
+               "max": 6
+            },
+            {
+               "style": "gold",
+               "min": 7
+            }
+         ],
+         "stats": {
+            "3": "30 Attack Speed",
+            "5": "55 Attack Speed",
+            "7": "85 Attack Speed"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set10EDM",
+         "ingameKey": "TFT10_EDM",
+         "name": "EDM",
+         "desc": "Use the EDM selector item to choose an EDM champion and see the frequency for each.<br><br>At the selected champion's frequency, your EDM champions cast the selected Ability with modified effectiveness.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/EDM_normal_1699003372-EDM-gray.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/EDM_black_1699003372-EDM-black.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/EDM_white_1699003372-EDM-white.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 2
+            },
+            {
+               "style": "bronze",
+               "min": 3,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 4
+            },
+            {
+               "style": "gold",
+               "min": 5
+            }
+         ],
+         "stats": {
+            "2": "90% effectiveness",
+            "3": "110% effectiveness",
+            "4": "120% effectiveness, -1 second",
+            "5": "135% effectiveness, -1 second"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set10EMO",
+         "ingameKey": "TFT10_Emo",
+         "name": "Emo",
+         "desc": "Emo champions' Abilities cost less Mana to cast, and they gain Mana whenever an allied champion dies.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/EMO_normal_1699003480-Emo-gray.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/EMO_black_1699003480-Emo-black.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/EMO_white_1699003480-Emo-white.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "gold",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6
+            }
+         ],
+         "stats": {
+            "2": "20% less, gain 20 Mana",
+            "4": "30% less, gain 30 Mana",
+            "6": "+20 AP, 35% less, gain 40 Mana"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set10Executioner",
+         "ingameKey": "TFT10_Executioner",
+         "name": "Executioner",
+         "desc": "Executioner Abilities can critically strike and they gain Critical Strike Damage. Their Critical Strike Chance is increased based on their target's missing Health.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Executioner_normal_1698999929-Executioner-1.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Executioner_black_1698999929-Executioner.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Executioner_white_1698999929-Executioner-2.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6
+            }
+         ],
+         "stats": {
+            "2": "5% Crit Damage, Up to 25% Crit Chance",
+            "4": "15% Crit Damage, Up to 80% Crit Chance",
+            "6": "30% Crit Damage, Up to 160% Crit Chance"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set10Mosher",
+         "ingameKey": "TFT10_Fighter",
+         "name": "Mosher",
+         "desc": "Moshers gain Attack Speed and Omnivamp, which increases up to 100% based on their missing Health.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Mosher_normal_1698999946-Mosher-1.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Mosher_black_1698999946-Mosher.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Mosher_white_1698999946-Mosher-2.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6,
+               "max": 7
+            },
+            {
+               "style": "gold",
+               "min": 8
+            }
+         ],
+         "stats": {
+            "2": "20% Attack Speed, 10% Omnivamp",
+            "4": "40% Attack Speed, 15% Omnivamp",
+            "6": "85% Attack Speed, 20% Omnivamp",
+            "8": "125% Attack Speed, 30% Omnivamp"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set10Disco",
+         "ingameKey": "TFT10_Funk",
+         "name": "Disco",
+         "desc": "Summon a movable Disco Ball.<br><br>Combat start: Allies next to it gain Attack Speed and healing immediately and every 3 seconds.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Disco_normal_1699003431-Disco-gray.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Disco_black_1699003432-Disco-black.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Disco_white_1699003432-Disco-white.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 3,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 4
+            },
+            {
+               "style": "gold",
+               "min": 5,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6
+            }
+         ],
+         "stats": {
+            "3": "5% Attack Speed, 2% max Health",
+            "4": "8% Attack Speed, 3% max Health",
+            "5": "2 Disco Balls, 12% Attack Speed, and 3% max Health",
+            "6": "20% Attack Speed, 4.5% max Health"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set10Guardian",
+         "ingameKey": "TFT10_Guardian",
+         "name": "Guardian",
+         "desc": "Once per combat at 50% Health, Guardians shield themselves and their closest ally for a percent of their max Health.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Guardian_normal_1698388923-guardian-gray.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Guardian_black_1698388923-guardian-black.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Guardian_white_1698388923-guardian-white.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6
+            }
+         ],
+         "stats": {
+            "2": "25%",
+            "4": "45%",
+            "6": "70%"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set10Hyperpop",
+         "ingameKey": "TFT10_Hyperpop",
+         "name": "Hyperpop",
+         "desc": "When Hyperpop champions use an Ability, they grant Mana and 4 seconds of Attack Speed to their 2 closest allies.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Hyperpop_normal_1699003550-Hyperpop-gray.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Hyperpop_black_1699003550-Hyperpop-black.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Hyperpop_white_1699003550-Hyperpop-white.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 1,
+               "max": 1
+            },
+            {
+               "style": "gold",
+               "min": 2,
+               "max": 2
+            },
+            {
+               "style": "gold",
+               "min": 3,
+               "max": 3
+            },
+            {
+               "style": "gold",
+               "min": 4
+            }
+         ],
+         "stats": {
+            "1": "5 Mana and 8% Attack Speed",
+            "2": "10 Mana and 15% Attack Speed",
+            "3": "15 Mana and 30% Attack Speed",
+            "4": "20 Mana and 50% Attack Speed"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set10ILLBEATS",
+         "ingameKey": "TFT10_IllBeats",
+         "name": "ILLBEATS",
+         "desc": "",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/ILLBEATS_normal_1699003496-Illbeats-gray.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/ILLBEATS_black_1699003496-Illbeats-black.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/ILLBEATS_white_1699003496-Illbeats-white.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "gold",
+               "min": 1,
+               "max": 1
+            }
+         ],
+         "stats": {
+            "1": "Gain 2/2/8 placeable Spirit Tentacles, based on Illaoi's star level. Tentacles gain Illaoi's bonus Armor and Magic Resist."
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set10Jazz",
+         "ingameKey": "TFT10_Jazz",
+         "name": "Jazz",
+         "desc": "For each active trait (except uniques), your team gains bonus Health and Damage Amp.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Jazz_normal_1699003510-Jazz-gray.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Jazz_black_1699003510-Jazz-black.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Jazz_white_1699003510-Jazz-white.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 2
+            },
+            {
+               "style": "silver",
+               "min": 3,
+               "max": 3
+            },
+            {
+               "style": "gold",
+               "min": 4
+            }
+         ],
+         "stats": {
+            "2": "1.5% Health, 1% Damage Amp",
+            "3": "2.5% Health, 1.5% Damage Amp",
+            "4": "4% Health, 2% Damage Amp"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set10KDA",
+         "ingameKey": "TFT10_KDA",
+         "name": "K/DA",
+         "desc": "Your team gains max Health, Ability Power, and Attack Damage if they are in a lighted hex. K/DA champions gain double!",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/KDA_normal_1699003401-KDA-gray.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/KDA_black_1699003401-KDA-black.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/KDA_white_1699003401-KDA-white.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 3,
+               "max": 4
+            },
+            {
+               "style": "silver",
+               "min": 5,
+               "max": 6
+            },
+            {
+               "style": "gold",
+               "min": 7,
+               "max": 9
+            },
+            {
+               "style": "chromatic",
+               "min": 10
+            }
+         ],
+         "stats": {
+            "3": "+9% max Health, +9 AP & AD",
+            "5": "+15% max Health, +15 AP & AD",
+            "7": "+23% max Health, +23 AP & AD",
+            "10": "+45% max Health, +45 AP & AD, 10 mana per second"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set10Pentakill",
+         "ingameKey": "TFT10_Pentakill",
+         "name": "Pentakill",
+         "desc": "Pentakill champions gain 15% Durability and Damage Amp. For each champion kill, a Pentakill champion rocks out, increasing its Damage Amp by 25%.<br><br>On the 5th kill, all Pentakill champions rock out and your team gains 50% Attack Speed.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Pentakill_normal_1699003536-Pentakill-gray.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Pentakill_black_1699003536-Pentakill-black.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Pentakill_white_1699003536-Pentakill-white.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 3,
+               "max": 4
+            },
+            {
+               "style": "silver",
+               "min": 5,
+               "max": 6
+            },
+            {
+               "style": "gold",
+               "min": 7,
+               "max": 9
+            },
+            {
+               "style": "chromatic",
+               "min": 10
+            }
+         ],
+         "stats": {
+            "3": "15% Damage Amp",
+            "5": "30% Damage Amp",
+            "7": "45% Damage Amp",
+            "10": "50% Durability and 99% Damage Amp"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set10Heartsteel",
+         "ingameKey": "TFT10_PopBand",
+         "name": "Heartsteel",
+         "desc": "Earn Hearts by killing enemies. Gain even more by losing player combat. Every 4 player combats, convert Hearts into powerful rewards!",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Heartsteel_normal_1699003386-Heartsteel-gray.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Heartsteel_black_1699003386-Heartsteel-black.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Heartsteel_white_1699003386-Heartsteel-white.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 3,
+               "max": 4
+            },
+            {
+               "style": "silver",
+               "min": 5,
+               "max": 6
+            },
+            {
+               "style": "gold",
+               "min": 7,
+               "max": 9
+            },
+            {
+               "style": "chromatic",
+               "min": 10
+            }
+         ],
+         "stats": {
+            "3": "1x Hearts",
+            "5": "2x Hearts",
+            "7": "5.5x Hearts",
+            "10": "18x Hearts, Gain rewards every round and keep 80% of your Hearts!"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set10Punk",
+         "ingameKey": "TFT10_PunkRock",
+         "name": "Punk",
+         "desc": "Punks gain bonus Health and Attack Damage, which increases by 1% every time you spend gold on a Shop reroll.<br><br>After Punks fight in combat, gain a 1 gold Reroll for that round. Your first reroll each round grants 3% bonus instead!",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Punk_normal_1699003523-Punk-gray.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Punk_black_1699003523-Punk-black.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Punk_white_1699003523-Punk-white.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "gold",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6
+            }
+         ],
+         "stats": {
+            "2": "+180 Health and +18% Attack Damage",
+            "4": "+300 Health and +30% Attack Damage",
+            "6": "+420 Health and +42% Attack Damage"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set10Rapidfire",
+         "ingameKey": "TFT10_Quickshot",
+         "name": "Rapidfire",
+         "desc": "Your team gains 10% Attack Speed.<br><br>Rapidfire champions gain more on every attack, up to 10 stacks.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Rapidfire_normal_1698999840-Rapidfire-1.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Rapidfire_black_1698999840-Rapidfire.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Rapidfire_white_1698999840-Rapidfire-2.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6
+            }
+         ],
+         "stats": {
+            "2": "4 Attack Speed",
+            "4": "9 Attack Speed",
+            "6": "16 Attack Speed"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set10Sentinel",
+         "ingameKey": "TFT10_Sentinel",
+         "name": "Sentinel",
+         "desc": "Your team gains Armor and Magic Resist. Sentinels gain double.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Sentinel_normal_1698999814-Sentinel-1.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Sentinel_black_1698999814-Sentinel.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Sentinel_white_1698999814-Sentinel-2.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6,
+               "max": 7
+            },
+            {
+               "style": "gold",
+               "min": 8
+            }
+         ],
+         "stats": {
+            "2": "+16 Armor, +16 Magic Resist",
+            "4": "+35 Armor, +35 Magic Resist",
+            "6": "+55 Armor, +55 Magic Resist",
+            "8": "+100 Armor, +100 Magic Resist"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set10Spellweaver",
+         "ingameKey": "TFT10_Spellweaver",
+         "name": "Spellweaver",
+         "desc": "Your team gains 15 Ability Power. Spellweavers gain more, plus extra Ability Power whenever a Spellweaver casts an Ability.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Spellweaver_normal_1698999915-Spellweaver-1.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Spellweaver_black_1698999915-Spellweaver.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Spellweaver_white_1698999915-Spellweaver-2.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 3,
+               "max": 4
+            },
+            {
+               "style": "silver",
+               "min": 5,
+               "max": 6
+            },
+            {
+               "style": "gold",
+               "min": 7,
+               "max": 8
+            },
+            {
+               "style": "gold",
+               "min": 9
+            }
+         ],
+         "stats": {
+            "3": "+15 AP, +1 AP per cast",
+            "5": "+30 AP, +2 AP per cast",
+            "7": "+75 AP, +4 AP per cast",
+            "9": "+140 AP, +6 AP per cast"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set10Superfan",
+         "ingameKey": "TFT10_Superfan",
+         "name": "Superfan",
+         "desc": "Superfans improve your Headliner!",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Superfan_normal_1698999870-Superfan-gray.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Superfan_black_1698999870-Superfan-black.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Superfan_white_1698999870-Superfan-white.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 3,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 4
+            },
+            {
+               "style": "gold",
+               "min": 5
+            }
+         ],
+         "stats": {
+            "3": "Headliner gets a completed item",
+            "4": "Headliner gets +250 Health and +15% Omnivamp",
+            "5": "Item upgrades to radiant"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set10TrueDamage",
+         "ingameKey": "TFT10_TrueDamage",
+         "name": "True Damage",
+         "desc": "True Damage champions deal bonus true damage. If they are holding an item, they gain a unique Bling Bonus for their Ability.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/TrueDamage_normal_1699003419-TrueDamage-gray.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/TrueDamage_black_1699003419-TrueDamage-black.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/TrueDamage_white_1699003419-TrueDamage-white.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6,
+               "max": 8
+            },
+            {
+               "style": "chromatic",
+               "min": 9
+            }
+         ],
+         "stats": {
+            "2": "15% damage",
+            "4": "30% damage",
+            "6": "55% damage",
+            "9": "99% damage, Bling Bonuses go Platinum!"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Set10Wildcard",
+         "ingameKey": "TFT10_TwoSides",
+         "name": "Wildcard",
+         "desc": "",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Wildcard_normal_1699000125-Wildcard-gray.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Wildcard_black_1699000125-Wildcard-black.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Wildcard_white_1699000125-Wildcard-white.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "gold",
+               "min": 1
+            }
+         ],
+         "stats": {
+            "1": "If you win player combat, Kayn becomes the Shadow Assassin. If not, he becomes Rhaast. You receive a reward based on his form every time he kills 2 enemy champions.<br><br>Shadow Assassin: 5g<br><br>Rhaast: 2 player health."
+         },
+         "isHidden": true
+      },
+      {
+         "key": "AnimaSquad",
+         "ingameKey": "TFT14_AnimaSquad",
+         "name": "Anima Squad",
+         "desc": "At each tier, pick a weapon that a random Anima Squad champion fires periodically during combat. Anima Squad champions gain Armor, Magic Resist, and Damage Amp.<br><br>Weapons scale with Anima Squad star level and stage.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/AnimaSquad_normal_1741766689-AnimaSquad.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/AnimaSquad_black_1741766689-AnimaSquad.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/AnimaSquad_white_1741766689-AnimaSquad.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 3,
+               "max": 4
+            },
+            {
+               "style": "silver",
+               "min": 5,
+               "max": 6
+            },
+            {
+               "style": "gold",
+               "min": 7,
+               "max": 9
+            },
+            {
+               "style": "chromatic",
+               "min": 10
+            }
+         ],
+         "stats": {
+            "3": "10 AR/MR, 5% Damage Amp, Choose a weapon",
+            "5": "25 AR/MR, 10% Damage Amp, Choose a weapon",
+            "7": "40 AR/MR, 15% Damage Amp, Choose a weapon",
+            "10": "75 AR/MR, 100% Damage Amp, Choose an ultimate weapon"
+         }
+      },
+      {
+         "key": "Bastion",
+         "ingameKey": "TFT14_Armorclad",
+         "name": "Bastion",
+         "desc": "Your team gains 10 Armor and Magic Resist. Bastions gain more.<br><br>For the first 10 seconds of combat, Bastions increase their bonus by 100%.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Bastion_normal_1741767023-Bastion.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Bastion_black_1741767023-Bastion.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Bastion_white_1741767023-Bastion.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6
+            }
+         ],
+         "stats": {
+            "2": "18 Armor & MR",
+            "4": "36 Armor & MR",
+            "6": "75 Armor & MR. Non-Bastions gain an additional 25 Armor & MR"
+         }
+      },
+      {
+         "key": "BoomBots",
+         "ingameKey": "TFT14_BallisTek",
+         "name": "BoomBots",
+         "desc": "BoomBots fire a missile every 400 damage dealt at a nearby enemy that deals magic damage. 8% of damage taken contributes to damage dealt.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/BoomBots_normal_1741766743-BoomBots.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/BoomBots_black_1741766743-BoomBots.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/BoomBots_white_1741766743-BoomBots.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6
+            }
+         ],
+         "stats": {
+            "2": "150 magic damage",
+            "4": "325 magic damage",
+            "6": "Fire two missiles, each dealing 260 magic damage"
+         }
+      },
+      {
+         "key": "Bruiser",
+         "ingameKey": "TFT14_Bruiser",
+         "name": "Bruiser",
+         "desc": "Your team gains 100 Health. Bruisers gain more.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Bruiser_normal_1741766924-Bruiser.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Bruiser_black_1741766924-Bruiser.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Bruiser_white_1741766924-Bruiser.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6
+            }
+         ],
+         "stats": {
+            "2": "20% Health",
+            "4": "45% Health",
+            "6": "70% Health"
+         }
+      },
+      {
+         "key": "Strategist",
+         "ingameKey": "TFT14_Controller",
+         "name": "Strategist",
+         "desc": "Combat Start: Allies in the back 2 rows gain Damage Amp. Allies in the front 2 rows gain Durability. Strategists get triple.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Strategist_normal_1741767052-Strategist.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Strategist_black_1741767052-Strategist.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Strategist_white_1741767053-Strategist.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 2
+            },
+            {
+               "style": "silver",
+               "min": 3,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 4
+            },
+            {
+               "style": "gold",
+               "min": 5
+            }
+         ],
+         "stats": {
+            "2": "6% Damage Amp, 4% Durability",
+            "3": "9% Damage Amp, 6% Durability",
+            "4": "12% Damage Amp, 8% Durability",
+            "5": "15% Damage Amp, 10% Durability"
+         }
+      },
+      {
+         "key": "Executioner",
+         "ingameKey": "TFT14_Cutter",
+         "name": "Executioner",
+         "desc": "Executioner Abilities can critically strike. They also gain bonus Critical Strike Chance and Critical Strike Damage.<br><br>If the target's Health is below 20%, the bonus Critical Strike Damage is doubled.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Executioner_normal_1741767082-Executioner.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Executioner_black_1741767082-Executioner.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Executioner_white_1741767082-Executioner.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 2
+            },
+            {
+               "style": "silver",
+               "min": 3,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 4
+            },
+            {
+               "style": "gold",
+               "min": 5
+            }
+         ],
+         "stats": {
+            "2": "25% Critical Strike Chance, 5% Critical Strike Damage",
+            "3": "35% Critical Strike Chance, 10% Critical Strike Damage",
+            "4": "50% Critical Strike Chance, 15% Critical Strike Damage",
+            "5": "55% Critical Strike Chance, 15% Critical Strike Damage; also gain 12% Durability"
+         }
+      },
+      {
+         "key": "Cyberboss",
+         "ingameKey": "TFT14_Cyberboss",
+         "name": "Cyberboss",
+         "desc": "Your strongest Cyberboss upgrades to its final form and gains Health, Ability Power, and its ability hits more enemies.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Cyberboss_normal_1741766759-Cyberboss.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Cyberboss_black_1741766759-Cyberboss.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Cyberboss_white_1741766759-Cyberboss.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 2
+            },
+            {
+               "style": "silver",
+               "min": 3,
+               "max": 3
+            },
+            {
+               "style": "gold",
+               "min": 4
+            }
+         ],
+         "stats": {
+            "2": "25% Health, 20 Ability Power",
+            "3": "33% Health, 30 Ability Power",
+            "4": "All Cyberbosses upgrade. Your strongest Cyberboss gains 40% Health and 40 AP."
+         }
+      },
+      {
+         "key": "Divinicorp",
+         "ingameKey": "TFT14_Divinicorp",
+         "name": "Divinicorp",
+         "desc": "Divinicorp champions grant unique stats to your team, increased for each Divinicorp in play.<br><br>Divinicorp champions gain double.<br><br>Morgana - +9% AP<br>Rhaast - +6 AR/MR<br>Senna - +8% AD<br>Gragas - +50 Health<br>Vex - +7% CSC<br>Renekton - +5% AS<br>Emblem - +3% Omnivamp",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Divinicorp_normal_1741766796-Divinicorp.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Divinicorp_black_1741766796-Divinicorp.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Divinicorp_white_1741766796-Divinicorp.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 1,
+               "max": 1
+            },
+            {
+               "style": "silver",
+               "min": 2,
+               "max": 2
+            },
+            {
+               "style": "silver",
+               "min": 3,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 4
+            },
+            {
+               "style": "gold",
+               "min": 5,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6,
+               "max": 6
+            },
+            {
+               "style": "gold",
+               "min": 7
+            }
+         ],
+         "stats": {
+            "1": "100% bonus.",
+            "2": "110% bonus.",
+            "3": "125% bonus.",
+            "4": "140% bonus.",
+            "5": "165% bonus.",
+            "6": "190% bonus.",
+            "7": "210% bonus."
+         }
+      },
+      {
+         "key": "Exotech",
+         "ingameKey": "TFT14_EdgeRunner",
+         "name": "Exotech",
+         "desc": "Gain unique items that can only be equipped by Exotech champions. They gain Health and Attack Speed for each item equipped.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Exotech_normal_1741766815-Exotech.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Exotech_black_1741766815-Exotech.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Exotech_white_1741766815-Exotech.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 3,
+               "max": 4
+            },
+            {
+               "style": "silver",
+               "min": 5,
+               "max": 6
+            },
+            {
+               "style": "gold",
+               "min": 7,
+               "max": 9
+            },
+            {
+               "style": "chromatic",
+               "min": 10
+            }
+         ],
+         "stats": {
+            "3": "50 Health, 2% Attack Speed, Exotech Item #1",
+            "5": "160 Health, 6% Attack Speed, Exotech Item #2",
+            "7": "270 Health, 13% Attack Speed, Exotech Item #3",
+            "10": "500 Health, 40% Attack Speed, Enhance"
+         }
+      },
+      {
+         "key": "Nitro",
+         "ingameKey": "TFT14_HotRod",
+         "name": "Nitro",
+         "desc": "Every round, Nitro champions grant Chrome to R-080T, based on their star level. Each Chrome grants 12 Health and 1 Ability Power.<br><br>At 200 Chrome, it upgrades to T-43X!<br><br>Chrome per star: 2/3/7/25",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Nitro_normal_1741766673-Nitro.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Nitro_black_1741766673-Nitro.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Nitro_white_1741766673-Nitro.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 3,
+               "max": 3
+            },
+            {
+               "style": "gold",
+               "min": 4
+            }
+         ],
+         "stats": {
+            "3": "Summon R-080T!",
+            "4": "Fire a giant laser!"
+         }
+      },
+      {
+         "key": "GoldenOx",
+         "ingameKey": "TFT14_Immortal",
+         "name": "Golden Ox",
+         "desc": "Golden Ox gain Damage Amp and have a chance to drop gold on kill.<br><br>If you spend 8 gold on rerolls or XP in a single turn, permanently increase their Damage Amp and the gold required for the next bonus. Rerolls count double towards gold spent.<br>(Golden Ox must have fought last round)",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/GoldenOx_normal_1741766855-GoldenOx.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/GoldenOx_black_1741766855-GoldenOx.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/GoldenOx_white_1741766855-GoldenOx.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6
+            }
+         ],
+         "stats": {
+            "2": "12% Damage Amp, 20% gold",
+            "4": "24% Damage Amp, 60% gold",
+            "6": "25% Damage Amp, 100% loot, 7% chance loot is a component"
+         }
+      },
+      {
+         "key": "Marksman",
+         "ingameKey": "TFT14_Marksman",
+         "name": "Marksman",
+         "desc": "Marksmen gain Attack Damage. After 8 seconds of combat, they increase their bonus by 100%.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Marksman_normal_1741766963-Marksman.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Marksman_black_1741766963-Marksman.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Marksman_white_1741766963-Marksman.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "gold",
+               "min": 4
+            }
+         ],
+         "stats": {
+            "2": "18% AD",
+            "4": "35% AD. After 8 seconds, gain 25% AD every 6 seconds."
+         }
+      },
+      {
+         "key": "Syndicate",
+         "ingameKey": "TFT14_Mob",
+         "name": "Syndicate",
+         "desc": "Get a Kingpin hat that uniquely upgrades a Syndicate champion's ability.<br><br>Syndicate champions gain Health and Damage Amp.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Syndicate_normal_1741766730-Syndicate.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Syndicate_black_1741766730-Syndicate.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Syndicate_white_1741766730-Syndicate.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 3,
+               "max": 4
+            },
+            {
+               "style": "silver",
+               "min": 5,
+               "max": 6
+            },
+            {
+               "style": "gold",
+               "min": 7
+            }
+         ],
+         "stats": {
+            "3": "100 Health, 5% Damage Amp, 1 Kingpin",
+            "5": "450 Health, 15% Damage Amp, 2 Kingpins",
+            "7": "550 Health, 20% Damage Amp, Upgrade Kingpin effect"
+         }
+      },
+      {
+         "key": "GodoftheNet",
+         "ingameKey": "TFT14_Netgod",
+         "name": "God of the Net",
+         "desc": "",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/GodoftheNet_normal_1741766590-GodoftheNet.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/GodoftheNet_black_1741766590-GodoftheNet.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/GodoftheNet_white_1741766590-GodoftheNet.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "gold",
+               "min": 1
+            }
+         ],
+         "stats": {
+            "1": "After 2 player combats, open an Armory of Trait Mods that permanently reprogram a champion to benefit from a trait (but not contribute).<br><br>Every time you get a Trait Mod, the next one requires 1 additional round.<br><br>Champions can only have one Trait Mod."
+         }
+      },
+      {
+         "key": "Overlord",
+         "ingameKey": "TFT14_Overlord",
+         "name": "Overlord",
+         "desc": "",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Overlord_normal_1741766519-Overlord.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Overlord_black_1741766519-Overlord.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Overlord_white_1741766519-Overlord.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "gold",
+               "min": 1
+            }
+         ],
+         "stats": {
+            "1": "The Overlord takes a bite out of the unit in the hex behind him, dealing 40% of their max Health as true damage. He gains 40% of their Health and 25% of their Attack Damage."
+         }
+      },
+      {
+         "key": "StreetDemon",
+         "ingameKey": "TFT14_StreetDemon",
+         "name": "Street Demon",
+         "desc": "Allies in painted hexes gain Health, Ability Power, and Attack Damage. Some hexes are Signature hexes and grant 50% more.<br><br>Street Demons double all bonuses.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/StreetDemon_normal_1741766467-StreetDemon.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/StreetDemon_black_1741766467-StreetDemon.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/StreetDemon_white_1741766467-StreetDemon.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 3,
+               "max": 4
+            },
+            {
+               "style": "silver",
+               "min": 5,
+               "max": 6
+            },
+            {
+               "style": "gold",
+               "min": 7,
+               "max": 9
+            },
+            {
+               "style": "chromatic",
+               "min": 10
+            }
+         ],
+         "stats": {
+            "3": "+6% Health, 6 AP, 6% AD",
+            "5": "+10% Health, 10 AP, 10% AD",
+            "7": "+16% Health, 16 AP, 16% AD",
+            "10": "+45% Health, 45 AP, 45% AD. Paint the town!"
+         }
+      },
+      {
+         "key": "Slayer",
+         "ingameKey": "TFT14_Strong",
+         "name": "Slayer",
+         "desc": "Slayers gain Attack Damage and Omnivamp. Overhealing heals the lowest percent Health Slayer for 50% of the excess amount.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Slayer_normal_1741767105-Slayer.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Slayer_black_1741767105-Slayer.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Slayer_white_1741767105-Slayer.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6
+            }
+         ],
+         "stats": {
+            "2": "15% AD, 15% Omnivamp",
+            "4": "40% AD, 15% Omnivamp",
+            "6": "70% AD, 20% Omnivamp"
+         }
+      },
+      {
+         "key": "Cypher",
+         "ingameKey": "TFT14_Suits",
+         "name": "Cypher",
+         "desc": "Gain Intel by losing combat, increased for loss streaks. Gain a small amount for killing enemies.<br><br>You may trade your Intel for loot one time on round<br>3-3, 3-7, 4-3, 4-7, or 5-5.<br>After trading Intel, Cypher champions gain Attack Damage and Ability Power.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Cypher_normal_1741766774-Cypher.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Cypher_black_1741766774-Cypher.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Cypher_white_1741766774-Cypher.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 3,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 4
+            },
+            {
+               "style": "gold",
+               "min": 5
+            }
+         ],
+         "stats": {
+            "3": "1x Intel, 25% AD & AP",
+            "4": "1.5x Intel, 35% AD & AP",
+            "5": "2x Intel, 50% AD & AP"
+         }
+      },
+      {
+         "key": "AMP",
+         "ingameKey": "TFT14_Supercharge",
+         "name": "A.M.P.",
+         "desc": "A.M.P. champions upgrade their abilities in unique ways with Amp. They also gain Health.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/AMP_normal_1741766890-AMP.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/AMP_black_1741766890-AMP.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/AMP_white_1741766890-AMP.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 2
+            },
+            {
+               "style": "silver",
+               "min": 3,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 4
+            },
+            {
+               "style": "gold",
+               "min": 5
+            }
+         ],
+         "stats": {
+            "2": "1 Amp, 100 Health",
+            "3": "2 Amp, 200 Health",
+            "4": "4 Amp, 300 Health",
+            "5": "5 Amp, 500 Health"
+         }
+      },
+      {
+         "key": "Rapidfire",
+         "ingameKey": "TFT14_Swift",
+         "name": "Rapidfire",
+         "desc": "Your team gains 10% Attack Speed. Rapidfire champions gain more on each attack, stacking up to 10 times.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Rapidfire_normal_1741767007-Rapidfire.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Rapidfire_black_1741767007-Rapidfire.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Rapidfire_white_1741767007-Rapidfire.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6
+            }
+         ],
+         "stats": {
+            "2": "4% AS per stack",
+            "4": "11% AS per stack",
+            "6": "22% AS per stack"
+         }
+      },
+      {
+         "key": "Techie",
+         "ingameKey": "TFT14_Techie",
+         "name": "Techie",
+         "desc": "Techies gain Ability Power.<br><br>Enemies hit by their abilities deal 10% less damage for 3 seconds.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Techie_normal_1741766905-Techie.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Techie_black_1741766905-Techie.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Techie_white_1741766905-Techie.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6,
+               "max": 7
+            },
+            {
+               "style": "gold",
+               "min": 8
+            }
+         ],
+         "stats": {
+            "2": "20 AP",
+            "4": "50 AP",
+            "6": "95 AP",
+            "8": "140 AP. Enemies hit deal 18% less damage."
+         }
+      },
+      {
+         "key": "Dynamo",
+         "ingameKey": "TFT14_Thirsty",
+         "name": "Dynamo",
+         "desc": "Every 3 seconds, your team gains Mana. Dynamos gain 100% more.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Dynamo_normal_1741766941-Dynamo.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Dynamo_black_1741766941-Dynamo.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Dynamo_white_1741766941-Dynamo.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 2
+            },
+            {
+               "style": "silver",
+               "min": 3,
+               "max": 3
+            },
+            {
+               "style": "gold",
+               "min": 4
+            }
+         ],
+         "stats": {
+            "2": "4 Mana",
+            "3": "6 Mana",
+            "4": "10 Mana"
+         }
+      },
+      {
+         "key": "Vanguard",
+         "ingameKey": "TFT14_Vanguard",
+         "name": "Vanguard",
+         "desc": "Vanguards gain 12% Durability while Shielded.<br><br>Combat start and 50% Health: Gain a max Health Shield for 10 seconds.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Vanguard_normal_1741766981-Vanguard.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Vanguard_black_1741766981-Vanguard.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Vanguard_white_1741766981-Vanguard.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6
+            }
+         ],
+         "stats": {
+            "2": "16% max Health",
+            "4": "32% max Health",
+            "6": "45% max Health; 18% Durability while Shielded"
+         }
+      },
+      {
+         "key": "SoulKiller",
+         "ingameKey": "TFT14_ViegoUniqueTrait",
+         "name": "Soul Killer",
+         "desc": "",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/SoulKiller_normal_1741766835-SoulKiller.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/SoulKiller_black_1741766835-SoulKiller.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/SoulKiller_white_1741766835-SoulKiller.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "gold",
+               "min": 1
+            }
+         ],
+         "stats": {
+            "1": "Gain a hologram copy of the highest cost enemy Viego helped kill last round. It has 900 / 1350 / 9001 Health, deals 30% / 40% / 200% damage, and has 1 recommended item."
+         }
+      },
+      {
+         "key": "Virus",
+         "ingameKey": "TFT14_Virus",
+         "name": "Virus",
+         "desc": "",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Virus_normal_1741766704-Virus.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Virus_black_1741766704-Virus.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Virus_white_1741766704-Virus.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "gold",
+               "min": 1
+            }
+         ],
+         "stats": {
+            "1": "The Virus infects your shop with a 10% chance to spawn a bloblet. When purchased, it merges and increases the strongest Zac's max Health by 3% and Ability Power by 4."
+         }
+      },
+      {
+         "key": "Bilgewater",
+         "ingameKey": "TFTEvent6YR_Bilgewater",
+         "name": "Bilgewater",
+         "desc": "Your team's attacks and Abilities mark enemies. The mark stores a percentage of damage dealt to the enemy. Marked enemies are struck by a cannonball after 1.5 seconds, dealing the stored damage plus a flat value as physical damage.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Bilgewater_normal_1748839813-Bilgewater_normal_1693031563-Bilgewater-gray.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Bilgewater_black_1748839816-Bilgewater_black_1693031563-Bilgewater-black.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Bilgewater_white_1748839816-Bilgewater_white_1693031563-Bilgewater-white.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 1,
+               "max": 1
+            },
+            {
+               "style": "chromatic",
+               "min": 2
+            }
+         ],
+         "stats": {
+            "1": "75 + 25% damage dealt",
+            "2": "130 + 35% damage dealt. Every 20th cannonball is replaced with a treasure chest that drops gold!"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "TheBoss",
+         "ingameKey": "TFTEvent6YR_Boss",
+         "name": "TheBoss",
+         "desc": "Gain Boss Knuckles. When the holder first drops below 60% Health, they become The Boss and leave combat to start doing sit-ups. Each sit-up restores maximum Health and grants Attack Speed.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/TheBoss_normal_1748841817-trait_icon_theboss_darken.png",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/TheBoss_black_1748841821-trait_icon_theboss_black.png",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/TheBoss_white_1748841821-trait_icon_theboss_white.png",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 1,
+               "max": 1
+            },
+            {
+               "style": "chromatic",
+               "min": 2
+            }
+         ],
+         "stats": {
+            "1": "10% HP, 30% AS.",
+            "2": "10% HP, 60% AS. If they reach full Health they return to combat Pumped Up: all of their attacks and abilities deal 100% of damage as true damage."
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Conqueror",
+         "ingameKey": "TFTEvent6YR_Conqueror",
+         "name": "Conqueror",
+         "desc": "Your team's takedowns grant stacks of Conquest. After gaining enough Conquest, open War Chests full of loot!<br><br>Your team gains Attack Damage and Ability Power, increased by 8% for each War Chest opened.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Conqueror_normal_1748839939-Conqueror_normal_1731045441-Conqueror.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Conqueror_black_1748839940-Conqueror_black_1731045441-Conqueror.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Conqueror_white_1748839940-Conqueror_white_1731045441-Conqueror.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 1,
+               "max": 1
+            },
+            {
+               "style": "chromatic",
+               "min": 2
+            }
+         ],
+         "stats": {
+            "1": "8% AD/AP, 2x Conquest",
+            "2": "12% AD/AP, 6x Conquest"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Coven",
+         "ingameKey": "TFTEvent6YR_Coven",
+         "name": "Coven",
+         "desc": "The champion nearest to the center of your team is chosen as the Coven Leader, gaining bonus Ability Power.<br><br>Whenever your team casts an Ability, the Coven Leader gains Mana.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Coven_normal_1748840052-Coven.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Coven_black_1748840052-Coven (1).svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Coven_white_1748840052-Coven (2).svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 1,
+               "max": 1
+            },
+            {
+               "style": "chromatic",
+               "min": 2
+            }
+         ],
+         "stats": {
+            "1": "40 AP, 4 Mana",
+            "2": "100 AP, 10 Mana"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Dragonlord",
+         "ingameKey": "TFTEvent6YR_Dragonlord",
+         "name": "Dragonlord",
+         "desc": "After 8 seconds of combat, the Dragon strikes the board, dealing true damage and stunning all enemies. Allies gain Attack Speed for the rest of combat.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Dragonlord_normal_1748840255-Dragonlord_normal_1709372026-dragonlord.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Dragonlord_black_1748840255-Dragonlord_black_1709372026-dragonlord.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Dragonlord_white_1748840255-Dragonlord_white_1709372026-dragonlord.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 1,
+               "max": 1
+            },
+            {
+               "style": "chromatic",
+               "min": 2
+            }
+         ],
+         "stats": {
+            "1": "12% HP Damage, Stuns for 1.5 seconds, 10% AS",
+            "2": "18% HP Damage, Stuns for 2 seconds, 15% AS. After an additional 10 seconds, the Dragon strikes again."
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Elderwood",
+         "ingameKey": "TFTEvent6YR_Elderwood",
+         "name": "Elderwood",
+         "desc": "Every 2 seconds, your team grows, gaining bonus stats. This effect stacks up to 5 times.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Elderwood_normal_1748840344-trait_icon_elderwood_darken.png",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Elderwood_black_1748840348-trait_icon_elderwood_black.png",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Elderwood_white_1748840348-trait_icon_elderwood_white.png",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 1,
+               "max": 1
+            },
+            {
+               "style": "chromatic",
+               "min": 2
+            }
+         ],
+         "stats": {
+            "1": "4 AR/MR, 2.5% AP/AD",
+            "2": "8 AR/MR, 5% AP/AD"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Glacial",
+         "ingameKey": "TFTEvent6YR_Glacial",
+         "name": "Glacial",
+         "desc": "Gain a Glacial Mallet. Attacks from champions holding a mallet have a 25% chance to stun their target for 1 second and deal bonus magic damage.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Glacial_normal_1748840386-trait_icon_glacial.png",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Glacial_black_1748840386-trait_icon_glacial (1).png",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Glacial_white_1748840386-trait_icon_glacial (2).png",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 1,
+               "max": 1
+            },
+            {
+               "style": "chromatic",
+               "min": 2
+            }
+         ],
+         "stats": {
+            "1": "200 magic damage.",
+            "2": "400 magic damage. Gain 1 more Glacial Mallets."
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Hellion",
+         "ingameKey": "TFTEvent6YR_Hellion",
+         "name": "Hellion",
+         "desc": "When an allied champion dies, a Doppelhellion (a one less star copy) equipped with a Red Buff will leap from the Hellion portal and join the fight!",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Hellion_normal_1748840419-Hellion.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Hellion_black_1748840419-Hellion (1).svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Hellion_white_1748840419-Hellion (2).svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 1,
+               "max": 1
+            },
+            {
+               "style": "chromatic",
+               "min": 2
+            }
+         ],
+         "stats": {
+            "1": "The first 3 champions",
+            "2": "The first 9 champions"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "HighRoller",
+         "ingameKey": "TFTEvent6YR_HighRoller",
+         "name": "High Roller",
+         "desc": "Gain a Sevika's Jinxed Arm!<br>Combat start: roll a random Jinx mod.<br><br>Mods:<br>- Rocket: Launch rockets at random enemies.<br>- Shield: Gain a shield for 8 seconds.<br>- Coin: Gain gold.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/HighRoller_normal_1748840640-HighRoller_normal_1731045617-HighRoller.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/HighRoller_black_1748840640-HighRoller_black_1731045617-HighRoller.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/HighRoller_white_1748840640-HighRoller_white_1731045617-HighRoller.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 1,
+               "max": 1
+            },
+            {
+               "style": "chromatic",
+               "min": 2
+            }
+         ],
+         "stats": {
+            "1": "After 12 seconds.",
+            "2": "Every 8 seconds. Mods are stronger, and the holder can now hit a Jinxed Jackpot!"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Imperial",
+         "ingameKey": "TFTEvent6YR_Imperial",
+         "name": "Imperial",
+         "desc": "Combat start: Select random units gain 60% Damage Amp.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Imperial_normal_1748840744-trait_icon_imperial.png",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Imperial_black_1748840744-trait_icon_imperial (1).png",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Imperial_white_1748840744-trait_icon_imperial (2).png",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 1,
+               "max": 1
+            },
+            {
+               "style": "chromatic",
+               "min": 2
+            }
+         ],
+         "stats": {
+            "1": "2 random champion.",
+            "2": "5 random champions."
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Jazz",
+         "ingameKey": "TFTEvent6YR_Jazz",
+         "name": "Jazz",
+         "desc": "For each active trait, your team gains bonus Health and Damage Amp.<br>(Excludes unique and Anniversary Traits)",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Jazz_normal_1748840796-Jazz_normal_1699003510-Jazz-gray.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Jazz_black_1748840799-Jazz_black_1699003510-Jazz-black.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Jazz_white_1748840799-Jazz_white_1699003510-Jazz-white.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 1,
+               "max": 1
+            },
+            {
+               "style": "chromatic",
+               "min": 2
+            }
+         ],
+         "stats": {
+            "1": "2% HP, 1.5% Damage Amp",
+            "2": "4% HP, 3% Damage Amp"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "LaserCorps",
+         "ingameKey": "TFTEvent6YR_LaserCorps",
+         "name": "Laser Corps",
+         "desc": "Your team gains laser drones. When a unit attacks or is hit by an attack, their drone deals magic damage to the target (0.4 second cooldown).",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/LaserCorps_normal_1748840843-LaserCorps_normal_1668171618-LaserCorps.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/LaserCorps_black_1748840847-LaserCorps_black_1668174243-LaserCorps.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/LaserCorps_white_1748840847-LaserCorps_white_1668171947-LaserCorps.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 1,
+               "max": 1
+            },
+            {
+               "style": "chromatic",
+               "min": 2
+            }
+         ],
+         "stats": {
+            "1": "25 magic damage.",
+            "2": "30 magic damage. All units gain an additional drone."
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Mascot",
+         "ingameKey": "TFTEvent6YR_Mascot",
+         "name": "Mascot",
+         "desc": "Your team heals a percentage of their max Health every 2 seconds. When a champion dies, they retreat to the sidelines to cheer on your team. Your team’s healing increases for each cheering champion.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Mascot_normal_1748841039-Mascot_normal_1668171647-Mascot.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Mascot_black_1748841039-Mascot_black_1668171647-Mascot.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Mascot_white_1748841039-Mascot_white_1668171647-Mascot.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 1,
+               "max": 1
+            },
+            {
+               "style": "chromatic",
+               "min": 2
+            }
+         ],
+         "stats": {
+            "1": "1.5% HP base, 1% HP per cheering champion",
+            "2": "7.5% HP base, 1.5% HP per cheering champion"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "MechPilot",
+         "ingameKey": "TFTEvent6YR_MechPilot",
+         "name": "Mech-Pilot",
+         "desc": "Use the Pilot Selector to choose a Pilot. Combat start: the Pilot jumps into a Mech.<br><br>The Mech has the Traits and items of its Pilot, and gains a percentage of the pilot’s Attack Damage and max Health. When the Mech dies, the Pilot is ejected with a percentage of their max Health.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/MechPilot_normal_1748841074-trait_icon_mechpilot.png",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/MechPilot_black_1748841078-trait_icon_mechpilot (1).png",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/MechPilot_white_1748841078-trait_icon_mechpilot (2).png",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 1,
+               "max": 1
+            },
+            {
+               "style": "chromatic",
+               "min": 2
+            }
+         ],
+         "stats": {
+            "1": "Mini-Mech: 40% AD/HP",
+            "2": "Super-Mech: 55% AD/HP. The 2 nearest units to the Pilot also jump into the Mech."
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Mountain",
+         "ingameKey": "TFTEvent6YR_Mountain",
+         "name": "Mountain",
+         "desc": "Gain 2 Mountain hexes in the front row.<br>Combat start: Units standing on a Mountain hex gain a Shield and permanent bonus Health.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Mountain_normal_1748838570-trait_icon_mountain.png",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Mountain_black_1748838574-trait_icon_mountain (1).png",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Mountain_white_1748838574-trait_icon_mountain (2).png",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 1,
+               "max": 1
+            },
+            {
+               "style": "chromatic",
+               "min": 2
+            }
+         ],
+         "stats": {
+            "1": "400 Shield, 40 HP.",
+            "2": "600 Shield, 60 HP. The entire front row becomes Mountain hexes."
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Phantom",
+         "ingameKey": "TFTEvent6YR_Phantom",
+         "name": "Phantom",
+         "desc": "Combat start: random enemies have their Health reduced.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Phantom_normal_1748841119-trait_icon_phantom.png",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Phantom_black_1748841123-trait_icon_phantom (1).png",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Phantom_white_1748841123-trait_icon_phantom (2).png",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 1,
+               "max": 1
+            },
+            {
+               "style": "chromatic",
+               "min": 2
+            }
+         ],
+         "stats": {
+            "1": "Set 1 enemy's Health to 30% maximum Health.",
+            "2": "Set 2 enemy's Health to 100 maximum Health."
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Preserver",
+         "ingameKey": "TFTEvent6YR_Preserver",
+         "name": "Preserver",
+         "desc": "Your team heals for a percent of their Max Health every 3 seconds. If they are full Health, restore Mana instead.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Preserver_normal_1748841206-Preserver_normal_1720774370-Preserver.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Preserver_black_1748841209-Preserver_black_1720774370-Preserver.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Preserver_white_1748841209-Preserver_white_1720774370-Preserver.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 1,
+               "max": 1
+            },
+            {
+               "style": "chromatic",
+               "min": 2
+            }
+         ],
+         "stats": {
+            "1": "4% HP or 5% MP",
+            "2": "7% HP, and 9% MP. Always get both."
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Punk",
+         "ingameKey": "TFTEvent6YR_Punk",
+         "name": "Punk",
+         "desc": "Your team gain bonus Health, Attack Damage and Ability Power, which increases by 1% every time you spend gold on a Shop reroll.<br><br>After each combat, gain a 1 gold reroll for that round. Your first reroll each round grants 3% bonus instead!",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Punk_normal_1748841319-Punk_normal_1699003523-Punk-gray.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Punk_black_1748841319-Punk_black_1699003523-Punk-black.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Punk_white_1748841319-Punk_white_1699003523-Punk-white.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 1,
+               "max": 1
+            },
+            {
+               "style": "chromatic",
+               "min": 2
+            }
+         ],
+         "stats": {
+            "1": "160 HP, 16% AD/AP",
+            "2": "320 HP, 32% AD/AP"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Pyro",
+         "ingameKey": "TFTEvent6YR_Pyro",
+         "name": "Pyro",
+         "desc": "Your team gains 1% Attack Speed.<br><br>For each kill, your team creates an infernal cinder that you collect the next round. For every 5 cinders you collect, your team gains 2 more Attack Speed.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Pyro_normal_1748841400-Pyro_normal_1720774828-Pyro.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Pyro_black_1748841403-Pyro_black_1720774828-Pyro.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Pyro_white_1748841403-Pyro_white_1720774828-Pyro.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 1,
+               "max": 1
+            },
+            {
+               "style": "chromatic",
+               "min": 2
+            }
+         ],
+         "stats": {
+            "1": "1 infernal cinder per enemy.",
+            "2": "2 infernal cinders per enemy and execute enemies under 12% Health."
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Rebel",
+         "ingameKey": "TFTEvent6YR_Rebel",
+         "name": "Rebel",
+         "desc": "Combat start: for 12 seconds, your team gains a Shield and Damage Amp for each adjacent ally.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Rebel_normal_1748841422-trait_icon_rebel.png",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Rebel_black_1748841423-trait_icon_rebel (1).png",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Rebel_white_1748841423-trait_icon_rebel (2).png",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 1,
+               "max": 1
+            },
+            {
+               "style": "chromatic",
+               "min": 2
+            }
+         ],
+         "stats": {
+            "1": "150 Shield, 4.5% Damage Amp",
+            "2": "350 Shield, 9% Damage Amp"
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Shimmerscale",
+         "ingameKey": "TFTEvent6YR_Shimmerscale",
+         "name": "Shimmerscale",
+         "desc": "Gain Shimmerscale items. These items give gold as well as combat power.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Shimmerscale_normal_1748841523-Shimmerscale_normal_1658472811-shimmerscale.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Shimmerscale_black_1748841523-shimmerscale.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Shimmerscale_white_1748841523-shimmerscale (1).svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 1,
+               "max": 1
+            },
+            {
+               "style": "chromatic",
+               "min": 2
+            }
+         ],
+         "stats": {
+            "1": "Gain Goldmancers Staff. At Stage 3-1 gain Draven's Axe.",
+            "2": "Gain Crown of Champions."
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Shurima",
+         "ingameKey": "TFTEvent6YR_Shurima",
+         "name": "Shurima",
+         "desc": "Combat start: select champions Ascend and gain 35% maximum Health and 40% Attack Speed.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Shurima_normal_1748841563-Shurima_normal_1685076576-Shurima-gray.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Shurima_black_1748841563-Shurima_black_1685076577-Shurima-black.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Shurima_white_1748841563-Shurima_white_1685076256-Shurima-white.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 1,
+               "max": 1
+            },
+            {
+               "style": "chromatic",
+               "min": 2
+            }
+         ],
+         "stats": {
+            "1": "The strongest champion Ascends after 8 seconds.",
+            "2": "The 3 strongest champions Ascend immediately."
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Socialite",
+         "ingameKey": "TFTEvent6YR_Socialite",
+         "name": "Socialite",
+         "desc": "Gain a spotlight hex.\r\nCombat start: the unit standing in the spotlight gains bonus stats.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Socialite_normal_1748841716-socialite (3).svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Socialite_black_1748841701-socialite (1).svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Socialite_white_1748841729-socialite (2).svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 1,
+               "max": 1
+            },
+            {
+               "style": "chromatic",
+               "min": 2
+            }
+         ],
+         "stats": {
+            "1": "20% Damage Amp and 5 Mana per second.",
+            "2": "60% Damage Amp, 5 Mana per second, and 15% Omnivamp. Gain another spotlight hex."
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Storyweaver",
+         "ingameKey": "TFTEvent6YR_Storyweaver",
+         "name": "Storyweaver",
+         "desc": "Summon a Hero named Kayle and evolve her as you level up!",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Storyweaver_normal_1748841752-Storyweaver_normal_1709372057-storyweaver.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Storyweaver_black_1748841752-Storyweaver_black_1709372057-storyweaver.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Storyweaver_white_1748841752-Storyweaver_white_1709372057-storyweaver.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 1,
+               "max": 1
+            },
+            {
+               "style": "chromatic",
+               "min": 2
+            }
+         ],
+         "stats": {
+            "1": "When you reach level 5, Kayle upgrades to 2-star. Pick a supportive effect.",
+            "2": "Kayle evolves again at levels 6, 8 and 10<br>Level 6: Pick a combat effect.<br>Level 8: Kayle upgrades to 3-star. Pick a combat effect.<br>Level 10: Kayle upgrades to 4-star."
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Trainer",
+         "ingameKey": "TFTEvent6YR_Trainer",
+         "name": "Trainer",
+         "desc": "After combat, the 3 champions closest to Nomsy feed her 1 Snax per star level, adding Health and Ability Power. Nomsy's star level increases every 25 Snax!",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Trainer_normal_1748841874-Trainer_normal_1658472837-trainer.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Trainer_black_1748841877-trainer.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Trainer_white_1748841877-trainer (1).svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 1,
+               "max": 1
+            },
+            {
+               "style": "chromatic",
+               "min": 2
+            }
+         ],
+         "stats": {
+            "1": "Summon Nomsy!",
+            "2": "Nomsy's Ability deals 150% bonus damage."
+         },
+         "isHidden": true
+      },
+      {
+         "key": "Yordle",
+         "ingameKey": "TFTEvent6YR_Yordle",
+         "name": "Yordle",
+         "desc": "After each player combat, a random 1, 2 or 3 cost champion that usually fits your team is added to your bench for free.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Yordle_normal_1748841903-yordle.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Yordle_black_1748841903-yordle (1).svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Yordle_white_1748841903-yordle (2).svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 1,
+               "max": 1
+            },
+            {
+               "style": "chromatic",
+               "min": 2
+            }
+         ],
+         "stats": {
+            "1": "Gain champions!",
+            "2": "If you have 5 or more 3 star champions, you instead gain a Yordle-Lord."
+         },
+         "isHidden": true
+      },
+      {
+         "key": "YordleLord",
+         "ingameKey": "TFTEvent6YR_YordleLord",
+         "name": "Yordle-Lord",
+         "desc": "",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/YordleLord_normal_1748839701-yordlelord.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/YordleLord_black_1748839701-yordlelord (1).svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/YordleLord_white_1748839701-yordlelord (2).svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "gold",
+               "min": 1
+            }
+         ],
+         "stats": {
+            "1": "Yordle-Lord Veigar and his Furyhorns are crashing Pengu's Party!"
+         },
+         "isHidden": true
+      }
+   ]
+}

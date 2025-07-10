@@ -8,7 +8,7 @@
 ## Traits
 ### Origins
 {{origin_name}} | {{unit_active}} | {{unit_count}} | {{emblem}}    | {{desc}}
-AnimaSquad      | 3/5/7/10        | 8              | spatula+tear  | AR,MR,DA,Weapon: (10,10,0.05,1)/(25,25,0.1,2)/(40,40,0.15,3)/(75,75,0.25,3+Ultimate), Ultimate: BigTrain/EachTimeAllUnitEachRadiant
+AnimaSquad      | 3/5/7/10        | 8              | spatula+tear  | AR,MR,DA,Weapon: (10,10,0.05,1)/(25,25,0.1,2)/(40,40,0.15,3)/(75,75,0.25,3+Ultimate), Ultimate: BigTrain/AllUnitOneRadiantper8s
 BoomBoot        | 2/4/6           | 5              | spatula+vest  | 
 CyberBoss       | 2/3/4           | 4              |               | HP,AP: 1*(0.25,0.2)/1*(0.33,0.3)/3*(0.33,0.3)+1*(0.4,0.4)
 Cypher          | 3/4/5/6         | 5              | uncraftable   | AD,AP: 0.3/0.5,0.7/0.9
@@ -52,22 +52,32 @@ Overload
 Soul Killer
 Virus
 
-## Items
-### Craftable
+## Opening Encounters
+### Normal Encounters
+{{hero}}    | {{name}}          | {{probability}} | {{desc}}
+Vi          | Component Anvils  | 8%              | Vi tosses you two component anvils.
+Annie       | Golden Gala       | 8%              | Annie changes all augments to gold tier this game.
+TwistedFate | Gold Subscription | 4%              | Twisted Fate grants you gold every stage.
+Neeko       | Scuttle Puddle    | 6%              | Neeko transforms all the monsters into crabs that drop bonus loot.
+Neeko       | Crab Rave         | 3%              | Neeko transforms all the monsters into crabs that drop bonus loot, but crabs on Stage 5+ are SUPER DEADLY.
+Urgot       | Loot Subscription | 4%              | Urgot dredges you up some loot from a highly varied pool each stage.
+Zed         | Artifact Anvil    | 3%              | Zed gives you an Artifact Anvil.
+Zac         | Prismatic Party   | 4%              | Zac's virus turns all the augments Prismatic.
+Aurora      | Prismatic Prelude | 6%              | Aurora swaps the first augment to prismatic this game.
+Aurora      | Prismatic Finale  | 6%              | Aurora swaps the last augment to prismatic this game.
+Garen       | Trainer Golems    | 4%              | Garen programs a Golem with 3 Emblems attached.
 
-### Emblems
-
-### Radiant
-
-### Artifacts
-
-### Support
-
-## Augments
-### Silver
-
-### Gold
-
-### Prismatic
-
-## Portals
+### Hacked Encounters
+{{name}}            | {{stage}} | {{probability}} | {{desc}}
+Golem Armory        | 4-6       | 5%              | Pick a Golem unit with 1 of 3 combat roles at the end of stage 4!
+Egg Armory          | 4-1       | 4%              | Pick an egg with 1 of 3 hatching times at the start of Stage 4!
+Lucky Shops         | *-*per    | 2%              | Once per stage, a lucky shop tailored to your traits can appear!
+Two-Star Shops      | *         | 2%              | Two-star units can appear in your shop!
+Augment Round Swap  |           | 4%              | The augment rounds have been moved earlier this game.
+Fourth Augment      | 2         | 4%              | There will be an extra augment round in stage 2!
+Fourth Augment      | 3         | 4%              | There will be an extra augment round at the end of stage 3!
+Fourth Augment      | 4         | 4%              | There will be an extra augment round at the end of stage 4!
+Fourth Augment      | 5         | 2%              | There will be an extra augment round at the start of stage 5!
+Treasure Armory     | 4-6       | 5%              | The Stage 4 NPC round is replaced with a rerollable Treasure Armory!
+Reroll Subscription | *-1       | 4%              | Twisted Fate grants you free Shop rerolls every stage.
+P0T 0F G0LD         | *-1       | 5%              | After every Carousel round, players vote to split a pot of gold or increase the pot.

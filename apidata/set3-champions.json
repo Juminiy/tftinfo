@@ -1,0 +1,2426 @@
+{
+   "season": "set3",
+   "champions": [
+      {
+         "key": "Ahri",
+         "ingameKey": "TFT3_Ahri",
+         "name": "Ahri",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/ahri.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/Ahri.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Ahri_3.jpg",
+         "traits": [
+            "StarGuardian",
+            "Sorcerer"
+         ],
+         "cost": [
+            2,
+            4,
+            6
+         ],
+         "health": [
+            600,
+            1080,
+            1944.0000000000002
+         ],
+         "attackDamage": [
+            45,
+            81,
+            146
+         ],
+         "damagePerSecond": [
+            34,
+            61,
+            110
+         ],
+         "attackRange": 3,
+         "attackSpeed": 0.75,
+         "armor": 20,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Orb of Deception",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/ahri_orbofdeception.png",
+            "desc": "Ahri fires an orb in a line, dealing magic damage to all enemies it passes through on the way out, and true damage one the way back.",
+            "startingMana": 0,
+            "skillMana": 60,
+            "stats": [
+               "Damage: 175 / 250 / 375"
+            ]
+         }
+      },
+      {
+         "key": "Annie",
+         "ingameKey": "TFT3_Annie",
+         "name": "Annie",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/annie.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/Annie.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Annie_3.jpg",
+         "traits": [
+            "MechPilot",
+            "Sorcerer"
+         ],
+         "cost": [
+            2,
+            4,
+            6
+         ],
+         "health": [
+            700,
+            1260,
+            2268
+         ],
+         "attackDamage": [
+            40,
+            72,
+            130
+         ],
+         "damagePerSecond": [
+            26,
+            47,
+            85
+         ],
+         "attackRange": 2,
+         "attackSpeed": 0.65,
+         "armor": 40,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Galaxy Shield-Blast",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/annie_galaxyshieldblast.png",
+            "desc": "Annie blasts a cone of fire dealing magic damage to enemies in front of her, then creates a shield for herself for 4 seconds.",
+            "startingMana": 75,
+            "skillMana": 150,
+            "stats": [
+               "Damage: 150 / 200 / 300",
+               "Shield Amount: 270 / 360 / 540"
+            ]
+         }
+      },
+      {
+         "key": "Ashe",
+         "ingameKey": "TFT3_Ashe",
+         "name": "Ashe",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/ashe.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/Ashe.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Ashe_3.jpg",
+         "traits": [
+            "Celestial",
+            "Sniper"
+         ],
+         "cost": [
+            3,
+            5,
+            7
+         ],
+         "health": [
+            600,
+            1080,
+            1944.0000000000002
+         ],
+         "attackDamage": [
+            60,
+            108,
+            194
+         ],
+         "damagePerSecond": [
+            48,
+            86,
+            155
+         ],
+         "attackRange": 5,
+         "attackSpeed": 0.8,
+         "armor": 20,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Enchanted Crystal Arrow",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/ashe_enchantedcrystalarrow.png",
+            "desc": "Ashe fires and arrow toward the farthest enemy, colliding with the first enemy hit, dealing damage and stunning them. The stun lasts longer the farther the arrow travels.",
+            "startingMana": 50,
+            "skillMana": 125,
+            "stats": [
+               "Damage: 250 / 350 / 700",
+               "Stun Duration: 2 / 2 / 2"
+            ]
+         }
+      },
+      {
+         "key": "AurelionSol",
+         "ingameKey": "TFT3_AurelionSol",
+         "name": "Aurelion Sol",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/aurelionsol.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/AurelionSol.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/AurelionSol_3.jpg",
+         "traits": [
+            "Rebel",
+            "Starship"
+         ],
+         "cost": [
+            5,
+            7,
+            9
+         ],
+         "health": [
+            1100,
+            1980,
+            3564.0000000000005
+         ],
+         "attackDamage": [
+            10,
+            18,
+            32
+         ],
+         "damagePerSecond": [
+            8,
+            14,
+            26
+         ],
+         "attackRange": 1,
+         "attackSpeed": 0.8,
+         "armor": 35,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Mobilize the Fleet",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/aurelionsol_mobilizethefleet.png",
+            "desc": "Aurelion Sol launches fighters, which fly out to random enemies, deal magic damage, and then return. Aurelion Sol launches all ready fighters plus 3 additional when he casts. Fighters prefer to target nearby enemies.",
+            "startingMana": 40,
+            "skillMana": 120,
+            "stats": [
+               "Damage: 100 / 150 / 750"
+            ]
+         }
+      },
+      {
+         "key": "Blitzcrank",
+         "ingameKey": "TFT3_Blitzcrank",
+         "name": "Blitzcrank",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/blitzcrank.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/Blitzcrank.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Blitzcrank_3.jpg",
+         "traits": [
+            "Chrono",
+            "Brawler"
+         ],
+         "cost": [
+            2,
+            4,
+            6
+         ],
+         "health": [
+            650,
+            1170,
+            2106
+         ],
+         "attackDamage": [
+            55,
+            99,
+            178
+         ],
+         "damagePerSecond": [
+            28,
+            50,
+            89
+         ],
+         "attackRange": 1,
+         "attackSpeed": 0.5,
+         "armor": 35,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Rocket Grab",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/blitzcrank_rocketgrab.png",
+            "desc": "Blitzcrank pulls the furthest enemy to him, dealing magic damage and stunning them for 2.5 seconds. The next attack after pulling knocks up for 1 second. Allies within range will prioritize attacking Blitzcrank's target.",
+            "startingMana": 125,
+            "skillMana": 125,
+            "stats": [
+               "Damage: 200 / 350 / 850"
+            ]
+         }
+      },
+      {
+         "key": "Caitlyn",
+         "ingameKey": "TFT3_Caitlyn",
+         "name": "Caitlyn",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/caitlyn.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/Caitlyn.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Caitlyn_3.jpg",
+         "traits": [
+            "Chrono",
+            "Sniper"
+         ],
+         "cost": [
+            1,
+            3,
+            5
+         ],
+         "health": [
+            500,
+            900,
+            1620
+         ],
+         "attackDamage": [
+            45,
+            81,
+            146
+         ],
+         "damagePerSecond": [
+            34,
+            61,
+            110
+         ],
+         "attackRange": 5,
+         "attackSpeed": 0.75,
+         "armor": 20,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Ace in the Hole",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/caitlyn_aceinthehole.png",
+            "desc": "Caitlyn takes aim at the furthest enemy, firing a deadly bullet towards them that deals magic damage to the first enemy it hits.",
+            "startingMana": 0,
+            "skillMana": 125,
+            "stats": [
+               "Damage: 750 / 1500 / 2250"
+            ]
+         }
+      },
+      {
+         "key": "Chogath",
+         "ingameKey": "TFT3_Chogath",
+         "name": "Cho'Gath",
+         "imageUrl": "//ddragon.leagueoflegends.com/cdn/10.22.1/img/champion/Chogath.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/Chogath.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Chogath_3.jpg",
+         "traits": [
+            "Void",
+            "Brawler"
+         ],
+         "cost": [
+            4,
+            6,
+            8
+         ],
+         "health": [
+            1000,
+            1800,
+            3240
+         ],
+         "attackDamage": [
+            70,
+            126,
+            227
+         ],
+         "damagePerSecond": [
+            42,
+            76,
+            136
+         ],
+         "attackRange": 1,
+         "attackSpeed": 0.6,
+         "armor": 20,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Rupture",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/chogath_rupture.png",
+            "desc": "Cho'Gath ruptures a large area, dealing magic damage and knocking up all enemies within.",
+            "startingMana": 75,
+            "skillMana": 150,
+            "stats": [
+               "Damage: 150 / 250 / 2000",
+               "Knock Up Duration: 2 / 2 / 4"
+            ]
+         }
+      },
+      {
+         "key": "Darius",
+         "ingameKey": "TFT3_Darius",
+         "name": "Darius",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/darius.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/Darius.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Darius_3.jpg",
+         "traits": [
+            "SpacePirate",
+            "ManaReaver"
+         ],
+         "cost": [
+            2,
+            4,
+            6
+         ],
+         "health": [
+            750,
+            1350,
+            2430
+         ],
+         "attackDamage": [
+            60,
+            108,
+            194
+         ],
+         "damagePerSecond": [
+            39,
+            70,
+            126
+         ],
+         "attackRange": 1,
+         "attackSpeed": 0.65,
+         "armor": 35,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Dreadnova Guillotine",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/darius_spacepirateguillotine.png",
+            "desc": "Darius dunks an enemy, dealing magic damage. If this kills the target, Darius immediately casts again.\r\nTargets below 50% health take double damage.",
+            "startingMana": 0,
+            "skillMana": 60,
+            "stats": [
+               "Damage: 400 / 500 / 750"
+            ]
+         }
+      },
+      {
+         "key": "Ekko",
+         "ingameKey": "TFT3_Ekko",
+         "name": "Ekko",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/ekko.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/Ekko.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Ekko_3.jpg",
+         "traits": [
+            "Cybernetic",
+            "Infiltrator"
+         ],
+         "cost": [
+            5,
+            7,
+            9
+         ],
+         "health": [
+            850,
+            1530,
+            2754
+         ],
+         "attackDamage": [
+            60,
+            108,
+            194
+         ],
+         "damagePerSecond": [
+            54,
+            97,
+            175
+         ],
+         "attackRange": 1,
+         "attackSpeed": 0.9,
+         "armor": 30,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Chronobreak",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/ekko_chronobreak.png",
+            "desc": "Ekko shatters the timeline, freezing all units in time before attacking each enemy with bonus magic damage and applying on-hit effects.",
+            "startingMana": 50,
+            "skillMana": 150,
+            "stats": [
+               "Damage: 225 / 400 / 2000"
+            ]
+         }
+      },
+      {
+         "key": "Ezreal",
+         "ingameKey": "TFT3_Ezreal",
+         "name": "Ezreal",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/ezreal.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/Ezreal.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Ezreal_3.jpg",
+         "traits": [
+            "Chrono",
+            "Blaster"
+         ],
+         "cost": [
+            3,
+            5,
+            7
+         ],
+         "health": [
+            600,
+            1080,
+            1944.0000000000002
+         ],
+         "attackDamage": [
+            60,
+            108,
+            194
+         ],
+         "damagePerSecond": [
+            42,
+            76,
+            136
+         ],
+         "attackRange": 3,
+         "attackSpeed": 0.7,
+         "armor": 20,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "E.M.P.",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/ezreal_emp.png",
+            "desc": "Ezreal fires an electromagnetic pulse at a random enemy that explodes on impact, dealing magic damage to all nearby enemies and increases the cost of their next spell cast by 40%.",
+            "startingMana": 50,
+            "skillMana": 125,
+            "stats": [
+               "Damage: 200 / 300 / 600"
+            ]
+         }
+      },
+      {
+         "key": "Fiora",
+         "ingameKey": "TFT3_Fiora",
+         "name": "Fiora",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/fiora.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/Fiora.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Fiora_3.jpg",
+         "traits": [
+            "Cybernetic",
+            "Blademaster"
+         ],
+         "cost": [
+            1,
+            3,
+            5
+         ],
+         "health": [
+            450,
+            810,
+            1458
+         ],
+         "attackDamage": [
+            45,
+            81,
+            146
+         ],
+         "damagePerSecond": [
+            45,
+            81,
+            146
+         ],
+         "attackRange": 1,
+         "attackSpeed": 1,
+         "armor": 30,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Reposte",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/fiora_reposte.png",
+            "desc": "Fiora enters a defensive stance for a seconds, becoming immune to damage and enemy spell effects. As she exits this stance, she ripostes, dealing magic damage and stunning them for a second.",
+            "startingMana": 0,
+            "skillMana": 85,
+            "stats": [
+               "Stun duration : 1.5 / 1.5 / 3 seconds",
+               "Damage: 200 / 300 / 450"
+            ]
+         }
+      },
+      {
+         "key": "Fizz",
+         "ingameKey": "TFT3_Fizz",
+         "name": "Fizz",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/fizz.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/Fizz.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Fizz_3.jpg",
+         "traits": [
+            "MechPilot",
+            "Infiltrator"
+         ],
+         "cost": [
+            4,
+            6,
+            8
+         ],
+         "health": [
+            600,
+            1080,
+            1944.0000000000002
+         ],
+         "attackDamage": [
+            60,
+            108,
+            194
+         ],
+         "damagePerSecond": [
+            48,
+            86,
+            155
+         ],
+         "attackRange": 1,
+         "attackSpeed": 0.8,
+         "armor": 25,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Chum the Waters",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/fizz_chumthewaters.png",
+            "desc": "Fizz throws a lure that attracts a shark, causing it to emerge after a brief delay. It deals magic damage to enemies caught, knocking them back and stunning them for 1.5 seconds.",
+            "startingMana": 80,
+            "skillMana": 150,
+            "stats": [
+               "Damage: 350 / 500 / 2000"
+            ]
+         }
+      },
+      {
+         "key": "Gangplank",
+         "ingameKey": "TFT3_Gangplank",
+         "name": "Gangplank",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/gangplank.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/Gangplank.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Gangplank_3.jpg",
+         "traits": [
+            "SpacePirate",
+            "Demolitionist",
+            "Mercenary"
+         ],
+         "cost": [
+            5,
+            7,
+            9
+         ],
+         "health": [
+            1000,
+            1800,
+            3240
+         ],
+         "attackDamage": [
+            60,
+            108,
+            194
+         ],
+         "damagePerSecond": [
+            60,
+            108,
+            194
+         ],
+         "attackRange": 1,
+         "attackSpeed": 1,
+         "armor": 30,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Orbital Strike",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/gangplank_orbitalstrike.png",
+            "desc": "Gangplank calls down a large orbital strike around his target, dealing magic damage to all enemies in that area for 2 seconds.",
+            "startingMana": 100,
+            "skillMana": 175,
+            "stats": [
+               "Damage: 450 / 600 / 9001"
+            ]
+         }
+      },
+      {
+         "key": "Graves",
+         "ingameKey": "TFT3_Graves",
+         "name": "Graves",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/graves.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/Graves.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Graves_3.jpg",
+         "traits": [
+            "SpacePirate",
+            "Blaster"
+         ],
+         "cost": [
+            1,
+            3,
+            5
+         ],
+         "health": [
+            650,
+            1170,
+            2106
+         ],
+         "attackDamage": [
+            55,
+            99,
+            178
+         ],
+         "damagePerSecond": [
+            30,
+            54,
+            98
+         ],
+         "attackRange": 1,
+         "attackSpeed": 0.55,
+         "armor": 35,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Smoke Grenade",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/graves_smokegrenade.png",
+            "desc": "Graves launches a smoke grenade toward the highest attack speed enemy, which explodes on impact dealing magic damage to enemies in the area and causing their attacks to miss for a second.",
+            "startingMana": 50,
+            "skillMana": 80,
+            "stats": [
+               "Blind Duration : 2 / 3 / 5 seconds",
+               "Damage: 150 / 200 / 400"
+            ]
+         }
+      },
+      {
+         "key": "Irelia",
+         "ingameKey": "TFT3_Irelia",
+         "name": "Irelia",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/irelia.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/Irelia.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Irelia_3.jpg",
+         "traits": [
+            "Cybernetic",
+            "Blademaster",
+            "ManaReaver"
+         ],
+         "cost": [
+            4,
+            6,
+            8
+         ],
+         "health": [
+            800,
+            1440,
+            2592
+         ],
+         "attackDamage": [
+            70,
+            126,
+            227
+         ],
+         "damagePerSecond": [
+            60,
+            107,
+            193
+         ],
+         "attackRange": 1,
+         "attackSpeed": 0.85,
+         "armor": 35,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Bladesurge",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/irelia_bladesurge.png",
+            "desc": "Irelia dashes past her target, attacking them for a percentage of her Attack Damage as she passes through. If this kills the target, she casts again immediately at the enemy with the highest mana.",
+            "startingMana": 0,
+            "skillMana": 30,
+            "stats": [
+               "Attack Damage: 175% / 250% / 500%"
+            ]
+         }
+      },
+      {
+         "key": "JarvanIV",
+         "ingameKey": "TFT3_JarvanIV",
+         "name": "Jarvan IV",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/jarvaniv.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/JarvanIV.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/JarvanIV_3.jpg",
+         "traits": [
+            "DarkStar",
+            "Protector"
+         ],
+         "cost": [
+            1,
+            3,
+            5
+         ],
+         "health": [
+            650,
+            1170,
+            2106
+         ],
+         "attackDamage": [
+            50,
+            90,
+            162
+         ],
+         "damagePerSecond": [
+            30,
+            54,
+            97
+         ],
+         "attackRange": 1,
+         "attackSpeed": 0.6,
+         "armor": 40,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Ageless Standard",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/jarvaniv_agelessstandard.png",
+            "desc": "Jarvan calls down his standard to a nearby location, granting nearby allies Attack Speed for 6 seconds.",
+            "startingMana": 50,
+            "skillMana": 100,
+            "stats": [
+               "Attack Speed: 65% / 75% / 85%"
+            ]
+         }
+      },
+      {
+         "key": "Jayce",
+         "ingameKey": "TFT3_Jayce",
+         "name": "Jayce",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/jayce.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/Jayce.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Jayce_3.jpg",
+         "traits": [
+            "SpacePirate",
+            "Vanguard"
+         ],
+         "cost": [
+            3,
+            5,
+            7
+         ],
+         "health": [
+            750,
+            1350,
+            2430
+         ],
+         "attackDamage": [
+            60,
+            108,
+            194
+         ],
+         "damagePerSecond": [
+            42,
+            76,
+            136
+         ],
+         "attackRange": 1,
+         "attackSpeed": 0.7,
+         "armor": 40,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "To the Skies!",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/jayce_totheskies.png",
+            "desc": "Jayce jumps into the air and slams his hammer, dealing magic damage to nearby enemies.",
+            "startingMana": 0,
+            "skillMana": 80,
+            "stats": [
+               "Damage: 450 / 600 / 1200"
+            ]
+         }
+      },
+      {
+         "key": "Jhin",
+         "ingameKey": "TFT3_Jhin",
+         "name": "Jhin",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/jhin.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/Jhin.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Jhin_3.jpg",
+         "traits": [
+            "DarkStar",
+            "Sniper"
+         ],
+         "cost": [
+            4,
+            6,
+            8
+         ],
+         "health": [
+            600,
+            1080,
+            1944.0000000000002
+         ],
+         "attackDamage": [
+            90,
+            162,
+            292
+         ],
+         "damagePerSecond": [
+            81,
+            146,
+            263
+         ],
+         "attackRange": 5,
+         "attackSpeed": 0.9,
+         "armor": 20,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Whisper",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/jhin_whisper.png",
+            "desc": "Passive: Jhin converts each 1% of bonus attack speed he has into 0.8 attack damage. Every fourth shot, Jhin deals bonus % attack damage.",
+            "startingMana": 0,
+            "skillMana": 0,
+            "stats": [
+               "Attack Damage: 244% / 344% / 4444%"
+            ]
+         }
+      },
+      {
+         "key": "Jinx",
+         "ingameKey": "TFT3_Jinx",
+         "name": "Jinx",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/jinx.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/Jinx.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Jinx_3.jpg",
+         "traits": [
+            "Rebel",
+            "Blaster"
+         ],
+         "cost": [
+            4,
+            6,
+            8
+         ],
+         "health": [
+            600,
+            1080,
+            1944.0000000000002
+         ],
+         "attackDamage": [
+            70,
+            126,
+            227
+         ],
+         "damagePerSecond": [
+            53,
+            95,
+            170
+         ],
+         "attackRange": 3,
+         "attackSpeed": 0.75,
+         "armor": 20,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Get Excited!",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/jinx_getexcited.png",
+            "desc": "Passive: Jinx gets excited as she helps take down enemy units!\r\nAfter her first takedown, Jinx gains bonus Attack Speed.\r\nAfter her second takedown, Jinx swaps to her rocket launcher, causing her Basic Attacks to deal bonus magic damage to all enemies in a small area around her target.",
+            "startingMana": 0,
+            "skillMana": 0,
+            "stats": [
+               "Attack Speed: 60% / 75% / 100%",
+               "Damage: 125 / 200 / 750"
+            ]
+         }
+      },
+      {
+         "key": "Kaisa",
+         "ingameKey": "TFT3_Kaisa",
+         "name": "Kai'Sa",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/kaisa.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/Kaisa.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Kaisa_3.jpg",
+         "traits": [
+            "Valkyrie",
+            "Infiltrator"
+         ],
+         "cost": [
+            2,
+            4,
+            6
+         ],
+         "health": [
+            550,
+            990,
+            1782.0000000000002
+         ],
+         "attackDamage": [
+            50,
+            90,
+            162
+         ],
+         "damagePerSecond": [
+            38,
+            68,
+            122
+         ],
+         "attackRange": 2,
+         "attackSpeed": 0.75,
+         "armor": 20,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Missile Rain",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/kaisa_missilerain.png",
+            "desc": "Kai'Sa launches missiles towards each nearby enemy that deal 50 magic damage each.",
+            "startingMana": 0,
+            "skillMana": 60,
+            "stats": [
+               "Number of Missiles: 4 / 6 / 9"
+            ]
+         }
+      },
+      {
+         "key": "Karma",
+         "ingameKey": "TFT3_Karma",
+         "name": "Karma",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/karma.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/Karma.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Karma_3.jpg",
+         "traits": [
+            "DarkStar",
+            "Mystic"
+         ],
+         "cost": [
+            3,
+            5,
+            7
+         ],
+         "health": [
+            600,
+            1080,
+            1944.0000000000002
+         ],
+         "attackDamage": [
+            50,
+            90,
+            162
+         ],
+         "damagePerSecond": [
+            33,
+            59,
+            105
+         ],
+         "attackRange": 3,
+         "attackSpeed": 0.65,
+         "armor": 20,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Inspire",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/karma_inspire.png",
+            "desc": "At start of combat, Karma bonds to her closest ally.\r\nKarma grants the bonded ally (or a random one if that ally is dead) a health shield for 4 seconds. While the shield holds, the ally receives bonus Attack Speed.",
+            "startingMana": 75,
+            "skillMana": 100,
+            "stats": [
+               "Shield Amount: 250 / 400 / 800",
+               "Attack Speed: 50% / 75% / 125%"
+            ]
+         }
+      },
+      {
+         "key": "Kassadin",
+         "ingameKey": "TFT3_Kassadin",
+         "name": "Kassadin",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/kassadin.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/Kassadin.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Kassadin_3.jpg",
+         "traits": [
+            "Celestial",
+            "ManaReaver"
+         ],
+         "cost": [
+            3,
+            5,
+            7
+         ],
+         "health": [
+            800,
+            1440,
+            2592
+         ],
+         "attackDamage": [
+            50,
+            90,
+            162
+         ],
+         "damagePerSecond": [
+            33,
+            59,
+            105
+         ],
+         "attackRange": 1,
+         "attackSpeed": 0.65,
+         "armor": 30,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Force Pulse",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/kassadin_forcepulse.png",
+            "desc": "Kassadin releases a wave of energy in front of him, dealing magic damage and disarming all targets.",
+            "startingMana": 40,
+            "skillMana": 80,
+            "stats": [
+               "Damage: 250 / 400 / 800",
+               "Disarming Duration: 2.5 / 3 / 3.5"
+            ]
+         }
+      },
+      {
+         "key": "Kayle",
+         "ingameKey": "TFT3_Kayle",
+         "name": "Kayle",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/kayle.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/Kayle.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Kayle_3.jpg",
+         "traits": [
+            "Valkyrie",
+            "Blademaster"
+         ],
+         "cost": [
+            4,
+            6,
+            8
+         ],
+         "health": [
+            700,
+            1260,
+            2268
+         ],
+         "attackDamage": [
+            60,
+            108,
+            194
+         ],
+         "damagePerSecond": [
+            48,
+            86,
+            155
+         ],
+         "attackRange": 3,
+         "attackSpeed": 0.8,
+         "armor": 25,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Ascend",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/kayle_ascend.png",
+            "desc": "Kayle Ascends, causing her attacks to launch waves that deal bonus magic damage until the end of combat.",
+            "startingMana": 0,
+            "skillMana": 70,
+            "stats": [
+               "Wave Damage: 125 / 200 / 600"
+            ]
+         }
+      },
+      {
+         "key": "KhaZix",
+         "ingameKey": "TFT3_KhaZix",
+         "name": "Kha'Zix",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/khazix.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/Khazix.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/KhaZix_3.jpg",
+         "traits": [
+            "Void",
+            "Infiltrator"
+         ],
+         "cost": [
+            1,
+            3,
+            5
+         ],
+         "health": [
+            500,
+            900,
+            1620
+         ],
+         "attackDamage": [
+            50,
+            90,
+            162
+         ],
+         "damagePerSecond": [
+            35,
+            63,
+            113
+         ],
+         "attackRange": 1,
+         "attackSpeed": 0.7,
+         "armor": 25,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Taste their Fear",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/khazix_tastetheirfear.png",
+            "desc": "Kha'Zix slashes the nearest enemy, dealing magic damage. If the target has no adjacent teammates, this damage is increased.",
+            "startingMana": 0,
+            "skillMana": 65,
+            "stats": [
+               "Damage: 200 / 275 / 400",
+               "Bonus Isolation: 600 / 825 / 1350"
+            ]
+         }
+      },
+      {
+         "key": "Leona",
+         "ingameKey": "TFT3_Leona",
+         "name": "Leona",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/leona.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/Leona.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Leona_3.jpg",
+         "traits": [
+            "Cybernetic",
+            "Vanguard"
+         ],
+         "cost": [
+            1,
+            3,
+            5
+         ],
+         "health": [
+            600,
+            1080,
+            1944.0000000000002
+         ],
+         "attackDamage": [
+            50,
+            90,
+            162
+         ],
+         "damagePerSecond": [
+            28,
+            50,
+            89
+         ],
+         "attackRange": 1,
+         "attackSpeed": 0.55,
+         "armor": 40,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Cyber Barrier",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/leona_cyberbarrier.png",
+            "desc": "Leona creates a barrier, reducing all incoming damage for 4 seconds.",
+            "startingMana": 50,
+            "skillMana": 100,
+            "stats": [
+               "Damage Reduction: 40 / 80 / 200"
+            ]
+         }
+      },
+      {
+         "key": "Lucian",
+         "ingameKey": "TFT3_Lucian",
+         "name": "Lucian",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/lucian.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/Lucian.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Lucian_3.jpg",
+         "traits": [
+            "Cybernetic",
+            "Blaster"
+         ],
+         "cost": [
+            2,
+            4,
+            6
+         ],
+         "health": [
+            500,
+            900,
+            1620
+         ],
+         "attackDamage": [
+            50,
+            90,
+            162
+         ],
+         "damagePerSecond": [
+            35,
+            63,
+            113
+         ],
+         "attackRange": 4,
+         "attackSpeed": 0.7,
+         "armor": 25,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Relentless Persuit",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/lucian_relentlesspersuit.png",
+            "desc": "Lucian dashes away from his current target, then Basic Attacks them and fires a second shot which deals magic damage.",
+            "startingMana": 0,
+            "skillMana": 35,
+            "stats": [
+               "Damage: 150 / 200 / 375"
+            ]
+         }
+      },
+      {
+         "key": "Lulu",
+         "ingameKey": "TFT3_Lulu",
+         "name": "Lulu",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/lulu.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/Lulu.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Lulu_3.jpg",
+         "traits": [
+            "Celestial",
+            "Mystic"
+         ],
+         "cost": [
+            5,
+            7,
+            9
+         ],
+         "health": [
+            800,
+            1440,
+            2592
+         ],
+         "attackDamage": [
+            45,
+            81,
+            146
+         ],
+         "damagePerSecond": [
+            36,
+            65,
+            117
+         ],
+         "attackRange": 3,
+         "attackSpeed": 0.8,
+         "armor": 25,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Massive Polymorph",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/lulu_masspolymorph.png",
+            "desc": "Lulu polymorphs a number of the nearest enemies, causing them to hop aimlessly, unable to attack or cast. Polymorphed enemies take additional damage from all sources.",
+            "startingMana": 75,
+            "skillMana": 150,
+            "stats": [
+               "Number of Targets: 2 /4 / 12",
+               "Bonus Damage: 5% / 10% / 25%",
+               "Duration: 3 / 3 / 8"
+            ]
+         }
+      },
+      {
+         "key": "Lux",
+         "ingameKey": "TFT3_Lux",
+         "name": "Lux",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/lux.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/Lux.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Lux_3.jpg",
+         "traits": [
+            "DarkStar",
+            "Sorcerer"
+         ],
+         "cost": [
+            3,
+            5,
+            7
+         ],
+         "health": [
+            600,
+            1080,
+            1944.0000000000002
+         ],
+         "attackDamage": [
+            40,
+            72,
+            130
+         ],
+         "damagePerSecond": [
+            28,
+            50,
+            91
+         ],
+         "attackRange": 4,
+         "attackSpeed": 0.7,
+         "armor": 20,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Lurid Binding",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/lux_luridbinding.png",
+            "desc": "Lux fires a sphere of darkness that passes through enemies, dealing magic damage and stunning them.",
+            "startingMana": 50,
+            "skillMana": 100,
+            "stats": [
+               "Damage: 200 / 300 / 600",
+               "Stun Duration: 1.5 / 2 / 2.5"
+            ]
+         }
+      },
+      {
+         "key": "Malphite",
+         "ingameKey": "TFT3_Malphite",
+         "name": "Malphite",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/malphite.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/Malphite.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Malphite_3.jpg",
+         "traits": [
+            "Rebel",
+            "Brawler"
+         ],
+         "cost": [
+            1,
+            3,
+            5
+         ],
+         "health": [
+            700,
+            1260,
+            2268
+         ],
+         "attackDamage": [
+            70,
+            126,
+            227
+         ],
+         "damagePerSecond": [
+            35,
+            63,
+            114
+         ],
+         "attackRange": 1,
+         "attackSpeed": 0.5,
+         "armor": 30,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Energy Shield",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/malphite_energyshield.png",
+            "desc": "Passive: Malphite starts combat with a shield equal to a percent of his maximum health.",
+            "startingMana": 0,
+            "skillMana": 0,
+            "stats": [
+               "Shield: 40% / 45% / 60%"
+            ]
+         }
+      },
+      {
+         "key": "MasterYi",
+         "ingameKey": "TFT3_MasterYi",
+         "name": "Master Yi",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/masteryi.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/MasterYi.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/MasterYi_3.jpg",
+         "traits": [
+            "Rebel",
+            "Blademaster"
+         ],
+         "cost": [
+            3,
+            5,
+            7
+         ],
+         "health": [
+            750,
+            1350,
+            2430
+         ],
+         "attackDamage": [
+            55,
+            99,
+            178
+         ],
+         "damagePerSecond": [
+            47,
+            84,
+            151
+         ],
+         "attackRange": 1,
+         "attackSpeed": 0.85,
+         "armor": 30,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Chosen One",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/masteryi_chosenone.png",
+            "desc": "For 5 seconds, Master Yi gains massively increased movement speed, heals for a percentage of his maximum health each second, and deals bonus true damage with his Basic Attacks.",
+            "startingMana": 0,
+            "skillMana": 55,
+            "stats": [
+               "True Damage: 75 / 100 / 200",
+               "Heal per Second: 12%"
+            ]
+         }
+      },
+      {
+         "key": "MissFortune",
+         "ingameKey": "TFT3_MissFortune",
+         "name": "Miss Fortune",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/missfortune.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/MissFortune.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/MissFortune_3.jpg",
+         "traits": [
+            "Valkyrie",
+            "Mercenary",
+            "Blaster"
+         ],
+         "cost": [
+            5,
+            7,
+            9
+         ],
+         "health": [
+            800,
+            1440,
+            2592
+         ],
+         "attackDamage": [
+            60,
+            108,
+            194
+         ],
+         "damagePerSecond": [
+            60,
+            108,
+            194
+         ],
+         "attackRange": 4,
+         "attackSpeed": 1,
+         "armor": 20,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Bullet Time",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/missfortune_bullettime.png",
+            "desc": "Miss Fortune channels and fires waves of bullets in a cone for 2.25 seconds, dealing a percentage of enemies' maximum health in magic damage over the duration.",
+            "startingMana": 75,
+            "skillMana": 175,
+            "stats": [
+               "Max Health Damage: 60% / 80% / 999%"
+            ]
+         }
+      },
+      {
+         "key": "MonkeyKing",
+         "ingameKey": "TFT3_MonkeyKing",
+         "name": "Wukong",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/monkeyking.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/MonkeyKing.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/MonkeyKing_3.jpg",
+         "traits": [
+            "Chrono",
+            "Vanguard"
+         ],
+         "cost": [
+            4,
+            6,
+            8
+         ],
+         "health": [
+            950,
+            1710,
+            3078
+         ],
+         "attackDamage": [
+            50,
+            90,
+            162
+         ],
+         "damagePerSecond": [
+            38,
+            68,
+            122
+         ],
+         "attackRange": 1,
+         "attackSpeed": 0.75,
+         "armor": 40,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Cyclone",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/monkeyking_cyclone.png",
+            "desc": "Wukong spins, dealing magic damage to nearby enemies. The first time Wukong hits each enemy, he knocks them into the air and stuns them.",
+            "startingMana": 50,
+            "skillMana": 150,
+            "stats": [
+               "Damage: 300 / 500 / 4000",
+               "Stun Duration: 2 / 2 / 5"
+            ]
+         }
+      },
+      {
+         "key": "Mordekaiser",
+         "ingameKey": "TFT3_Mordekaiser",
+         "name": "Mordekaiser",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/mordekaiser.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/Mordekaiser.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Mordekaiser_3_1705910695-tft3_Mordekaiser.jpg",
+         "traits": [
+            "DarkStar",
+            "Vanguard"
+         ],
+         "cost": [
+            2,
+            4,
+            6
+         ],
+         "health": [
+            650,
+            1170,
+            2106
+         ],
+         "attackDamage": [
+            55,
+            99,
+            178
+         ],
+         "damagePerSecond": [
+            33,
+            59,
+            107
+         ],
+         "attackRange": 1,
+         "attackSpeed": 0.6,
+         "armor": 40,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Indestructible",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/mordekaiser_indestructible.png",
+            "desc": "Mordekaiser gains a shield that absorbs damage. While the shield persists, Mordekaiser deals magic damage per second to all nearby enemies.",
+            "startingMana": 0,
+            "skillMana": 90,
+            "stats": [
+               "Shield Amount: 350 / 500 / 800",
+               "Damage: 50 / 75 / 125"
+            ]
+         }
+      },
+      {
+         "key": "Neeko",
+         "ingameKey": "TFT3_Neeko",
+         "name": "Neeko",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/neeko.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/Neeko.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Neeko_3.jpg",
+         "traits": [
+            "StarGuardian",
+            "Protector"
+         ],
+         "cost": [
+            3,
+            5,
+            7
+         ],
+         "health": [
+            800,
+            1440,
+            2592
+         ],
+         "attackDamage": [
+            50,
+            90,
+            162
+         ],
+         "damagePerSecond": [
+            33,
+            59,
+            105
+         ],
+         "attackRange": 2,
+         "attackSpeed": 0.65,
+         "armor": 35,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Pop Blossom",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/neeko_popblossom.png",
+            "desc": "Neeko leaps into the air and slams into the ground, dealing magic damage and stunning all nearby enemies.",
+            "startingMana": 75,
+            "skillMana": 150,
+            "stats": [
+               "Damage: 200 / 275 / 550",
+               "Stun Duration: 1.5 / 2 / 2.5"
+            ]
+         }
+      },
+      {
+         "key": "Poppy",
+         "ingameKey": "TFT3_Poppy",
+         "name": "Poppy",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/poppy.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/Poppy.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Poppy_3.jpg",
+         "traits": [
+            "StarGuardian",
+            "Vanguard"
+         ],
+         "cost": [
+            1,
+            3,
+            5
+         ],
+         "health": [
+            650,
+            1170,
+            2106
+         ],
+         "attackDamage": [
+            50,
+            90,
+            162
+         ],
+         "damagePerSecond": [
+            28,
+            50,
+            89
+         ],
+         "attackRange": 1,
+         "attackSpeed": 0.55,
+         "armor": 40,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Buckler Toss",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/poppy_bucklertoss.png",
+            "desc": "Poppy throws her buckler at the furthest enemy dealing damage. The buckler bounces back to Poppy, shielding her.",
+            "startingMana": 60,
+            "skillMana": 100,
+            "stats": [
+               "Damage: 100 / 150 / 200",
+               "Shield Amount: 200 / 300 / 400"
+            ]
+         }
+      },
+      {
+         "key": "Rakan",
+         "ingameKey": "TFT3_Rakan",
+         "name": "Rakan",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/rakan.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/Rakan.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Rakan_3.jpg",
+         "traits": [
+            "Celestial",
+            "Protector"
+         ],
+         "cost": [
+            2,
+            4,
+            6
+         ],
+         "health": [
+            600,
+            1080,
+            1944.0000000000002
+         ],
+         "attackDamage": [
+            45,
+            81,
+            146
+         ],
+         "damagePerSecond": [
+            31,
+            57,
+            102
+         ],
+         "attackRange": 2,
+         "attackSpeed": 0.7,
+         "armor": 35,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Grand Entrance",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/rakan_grandentrance.png",
+            "desc": "Rakan dashes next to farthest unit within attack range +1 hex then leaps into the air, knocking up and damaging all adjacent enemies.",
+            "startingMana": 50,
+            "skillMana": 100,
+            "stats": [
+               "Damage: 175 / 275 / 400",
+               "Knocking up Duration: 1.5 / 1.5 / 1.5"
+            ]
+         }
+      },
+      {
+         "key": "Rumble",
+         "ingameKey": "TFT3_Rumble",
+         "name": "Rumble",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/rumble.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/Rumble.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Rumble_3.jpg",
+         "traits": [
+            "MechPilot",
+            "Demolitionist"
+         ],
+         "cost": [
+            3,
+            5,
+            7
+         ],
+         "health": [
+            800,
+            1440,
+            2592
+         ],
+         "attackDamage": [
+            50,
+            90,
+            162
+         ],
+         "damagePerSecond": [
+            35,
+            63,
+            113
+         ],
+         "attackRange": 1,
+         "attackSpeed": 0.7,
+         "armor": 35,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Flamespitter",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/rumble_flamespitter.png",
+            "desc": "Rumble torches his enemies, dealing magic damage over 3 seconds, and reducing healing on them by 50% for 5 seconds.",
+            "startingMana": 0,
+            "skillMana": 60,
+            "stats": [
+               "Damage: 350 / 500 / 1000"
+            ]
+         }
+      },
+      {
+         "key": "Shaco",
+         "ingameKey": "TFT3_Shaco",
+         "name": "Shaco",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/shaco.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/Shaco.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Shaco_3.jpg",
+         "traits": [
+            "DarkStar",
+            "Infiltrator"
+         ],
+         "cost": [
+            3,
+            5,
+            7
+         ],
+         "health": [
+            650,
+            1170,
+            2106
+         ],
+         "attackDamage": [
+            70,
+            126,
+            227
+         ],
+         "damagePerSecond": [
+            56,
+            101,
+            182
+         ],
+         "attackRange": 1,
+         "attackSpeed": 0.8,
+         "armor": 25,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Deceive",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/shaco_deceive.png",
+            "desc": "Shaco teleports and backstabs his target, critically striking for a percentage of his Basic Attack damage.",
+            "startingMana": 30,
+            "skillMana": 80,
+            "stats": [
+               "Damage: 200% / 225% / 250%"
+            ]
+         }
+      },
+      {
+         "key": "Shen",
+         "ingameKey": "TFT3_Shen",
+         "name": "Shen",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/shen.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/Shen.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Shen_3.jpg",
+         "traits": [
+            "Chrono",
+            "Blademaster"
+         ],
+         "cost": [
+            2,
+            4,
+            6
+         ],
+         "health": [
+            800,
+            1440,
+            2592
+         ],
+         "attackDamage": [
+            60,
+            108,
+            194
+         ],
+         "damagePerSecond": [
+            42,
+            76,
+            136
+         ],
+         "attackRange": 1,
+         "attackSpeed": 0.7,
+         "armor": 35,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Future's Refuge",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/shen_futuresrefuge.png",
+            "desc": "Shen creates a zone around himself for a few seconds, granting all narby allies 100% chance to dodge incoming basic attacks. While active, Shen gains Magic Resist.",
+            "startingMana": 100,
+            "skillMana": 150,
+            "stats": [
+               "Duration: 2.5 / 3 / 5",
+               "Bonus Magic Resist: 15 / 30 / 45"
+            ]
+         }
+      },
+      {
+         "key": "Sona",
+         "ingameKey": "TFT3_Sona",
+         "name": "Sona",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/sona.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/Sona.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Sona_3.jpg",
+         "traits": [
+            "Rebel",
+            "Mystic"
+         ],
+         "cost": [
+            2,
+            4,
+            6
+         ],
+         "health": [
+            550,
+            990,
+            1782.0000000000002
+         ],
+         "attackDamage": [
+            40,
+            72,
+            130
+         ],
+         "damagePerSecond": [
+            26,
+            47,
+            85
+         ],
+         "attackRange": 3,
+         "attackSpeed": 0.65,
+         "armor": 20,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Aria of Perseverance",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/sona_ariaofperseverance.png",
+            "desc": "Sona heals injured allies and cleanses them stuns",
+            "startingMana": 0,
+            "skillMana": 40,
+            "stats": [
+               "Number of Targets: 2 / 3 / 4",
+               "Healing: 150 / 200 / 300"
+            ]
+         }
+      },
+      {
+         "key": "Soraka",
+         "ingameKey": "TFT3_Soraka",
+         "name": "Soraka",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/soraka.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/Soraka.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Soraka_3.jpg",
+         "traits": [
+            "StarGuardian",
+            "Mystic"
+         ],
+         "cost": [
+            4,
+            6,
+            8
+         ],
+         "health": [
+            700,
+            1260,
+            2268
+         ],
+         "attackDamage": [
+            45,
+            81,
+            146
+         ],
+         "damagePerSecond": [
+            34,
+            61,
+            110
+         ],
+         "attackRange": 3,
+         "attackSpeed": 0.75,
+         "armor": 30,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Wish",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/soraka_wish.png",
+            "desc": "Soraka heals all allies.",
+            "startingMana": 50,
+            "skillMana": 125,
+            "stats": [
+               "Healing: 375 / 550 / 20000"
+            ]
+         }
+      },
+      {
+         "key": "Syndra",
+         "ingameKey": "TFT3_Syndra",
+         "name": "Syndra",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/syndra.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/Syndra.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Syndra_3.jpg",
+         "traits": [
+            "StarGuardian",
+            "Sorcerer"
+         ],
+         "cost": [
+            3,
+            5,
+            7
+         ],
+         "health": [
+            600,
+            1080,
+            1944.0000000000002
+         ],
+         "attackDamage": [
+            45,
+            81,
+            146
+         ],
+         "damagePerSecond": [
+            31,
+            57,
+            102
+         ],
+         "attackRange": 4,
+         "attackSpeed": 0.7,
+         "armor": 20,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Unleashed Power",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/syndra_unleashedpower.png",
+            "desc": "Syndra pulls in all orbs on the battlefield and creates 3 new ones, then fires them all at the enemy with the highest health, dealing magic damage per orb.",
+            "startingMana": 0,
+            "skillMana": 65,
+            "stats": [
+               "Damage: 100 / 150 / 250"
+            ]
+         }
+      },
+      {
+         "key": "Thresh",
+         "ingameKey": "TFT3_Thresh",
+         "name": "Thresh",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/thresh.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/Thresh.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Thresh_3.jpg",
+         "traits": [
+            "Chrono",
+            "ManaReaver"
+         ],
+         "cost": [
+            5,
+            7,
+            9
+         ],
+         "health": [
+            950,
+            1710,
+            3078
+         ],
+         "attackDamage": [
+            50,
+            90,
+            162
+         ],
+         "damagePerSecond": [
+            48,
+            86,
+            154
+         ],
+         "attackRange": 2,
+         "attackSpeed": 0.95,
+         "armor": 35,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Temporal Passage",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/thresh_temporalpassage.png",
+            "desc": "Thresh tosses his lantern towards random unit(s) on your bench, pulling them into the current combat and granting them and himself bonus mana. Traits are unaffected.",
+            "startingMana": 50,
+            "skillMana": 85,
+            "stats": [
+               "Bonus Mana: 25 / 50 / 200",
+               "Number of Units: 1 / 1 / 9"
+            ]
+         }
+      },
+      {
+         "key": "TwistedFate",
+         "ingameKey": "TFT3_TwistedFate",
+         "name": "TwistedFate",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/twistedfate.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/TwistedFate.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/TwistedFate_3.jpg",
+         "traits": [
+            "Chrono",
+            "Sorcerer"
+         ],
+         "cost": [
+            1,
+            3,
+            5
+         ],
+         "health": [
+            500,
+            900,
+            1620
+         ],
+         "attackDamage": [
+            40,
+            72,
+            130
+         ],
+         "damagePerSecond": [
+            28,
+            50,
+            91
+         ],
+         "attackRange": 3,
+         "attackSpeed": 0.7,
+         "armor": 20,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Wild Cards",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/twistedfate_wildcards.png",
+            "desc": "Twisted Fate throws three cards in a cone that deal magic damage to each enemy they pass through.",
+            "startingMana": 0,
+            "skillMana": 75,
+            "stats": [
+               "Damage: 200 / 300 / 450"
+            ]
+         }
+      },
+      {
+         "key": "Velkoz",
+         "ingameKey": "TFT3_Velkoz",
+         "name": "Vel'Koz",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/velkoz.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/Velkoz.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Velkoz_3.jpg",
+         "traits": [
+            "Void",
+            "Sorcerer"
+         ],
+         "cost": [
+            4,
+            6,
+            8
+         ],
+         "health": [
+            650,
+            1170,
+            2106
+         ],
+         "attackDamage": [
+            45,
+            81,
+            146
+         ],
+         "damagePerSecond": [
+            34,
+            61,
+            110
+         ],
+         "attackRange": 4,
+         "attackSpeed": 0.75,
+         "armor": 20,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Lifeform Disintegration Ray",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/velkoz_lifeformdisintegrationray.png",
+            "desc": "Vel'Koz channels a ray of energy that sweeps across the battlefield over 2 seconds, dealing magic damage per second to enemies hit.",
+            "startingMana": 0,
+            "skillMana": 70,
+            "stats": [
+               "Damage: 450 / 600 / 2000"
+            ]
+         }
+      },
+      {
+         "key": "Vi",
+         "ingameKey": "TFT3_Vi",
+         "name": "Vi",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/vi.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/Vi.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Vi_3.jpg",
+         "traits": [
+            "Cybernetic",
+            "Brawler"
+         ],
+         "cost": [
+            3,
+            5,
+            7
+         ],
+         "health": [
+            750,
+            1350,
+            2430
+         ],
+         "attackDamage": [
+            60,
+            108,
+            194
+         ],
+         "damagePerSecond": [
+            39,
+            70,
+            126
+         ],
+         "attackRange": 1,
+         "attackSpeed": 0.65,
+         "armor": 35,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Assault and Battery",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/vi_assaultandbattery.png",
+            "desc": "Vi charges at the furthest enemy, knocking and dealing magic damage to all enemies along the way. When she reaches her target, she deals magic damage and knocks them up.",
+            "startingMana": 70,
+            "skillMana": 140,
+            "stats": [
+               "Damage: 400 / 600 / 1200",
+               "Knock Damage: 150 / 200 / 500",
+               "Knock Up Duration: 2 / 2.5 / 3"
+            ]
+         }
+      },
+      {
+         "key": "Xayah",
+         "ingameKey": "TFT3_Xayah",
+         "name": "Xayah",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/xayah.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/Xayah.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Xayah_3_1705910678-tft3_Xayah.jpg",
+         "traits": [
+            "Celestial",
+            "Blademaster"
+         ],
+         "cost": [
+            1,
+            3,
+            5
+         ],
+         "health": [
+            500,
+            900,
+            1620
+         ],
+         "attackDamage": [
+            50,
+            90,
+            162
+         ],
+         "damagePerSecond": [
+            40,
+            72,
+            130
+         ],
+         "attackRange": 3,
+         "attackSpeed": 0.8,
+         "armor": 20,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Deadly Plumage",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/xayah_deadlyplumage.png",
+            "desc": "Xayah creates a storm of blades, gaining Attack Speed for a few seconds.",
+            "startingMana": 0,
+            "skillMana": 70,
+            "stats": [
+               "Attack Speed: 100% / 125% / 150%",
+               "Duration: 8 / 8 / 8"
+            ]
+         }
+      },
+      {
+         "key": "Xerath",
+         "ingameKey": "TFT3_Xerath",
+         "name": "Xerath",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/xerath.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/Xerath.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Xerath_3.jpg",
+         "traits": [
+            "DarkStar",
+            "Sorcerer"
+         ],
+         "cost": [
+            5,
+            7,
+            9
+         ],
+         "health": [
+            750,
+            1350,
+            2430
+         ],
+         "attackDamage": [
+            60,
+            108,
+            194
+         ],
+         "damagePerSecond": [
+            54,
+            97,
+            175
+         ],
+         "attackRange": 5,
+         "attackSpeed": 0.9,
+         "armor": 20,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Abyssal Bombardment",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/xerath_abyssalbombardment.png",
+            "desc": "Xerath transforms, summoning meteors to strike random foes in place of his normal attacks for a seconds. Meteors deal magic damage upon impact and if they kill their target, all adjacent enemies take (% of base damage) 25% magic damage and are stunned for 1.5 seconds.",
+            "startingMana": 30,
+            "skillMana": 80,
+            "stats": [
+               "Damage: 300 / 400 / 2500",
+               "Transformation Duration: 6 / 8 / 45"
+            ]
+         }
+      },
+      {
+         "key": "XinZhao",
+         "ingameKey": "TFT3_XinZhao",
+         "name": "Xin Zhao",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/xinzhao.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/XinZhao.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/XinZhao_3.jpg",
+         "traits": [
+            "Celestial",
+            "Protector"
+         ],
+         "cost": [
+            2,
+            4,
+            6
+         ],
+         "health": [
+            650,
+            1170,
+            2106
+         ],
+         "attackDamage": [
+            60,
+            108,
+            194
+         ],
+         "damagePerSecond": [
+            42,
+            76,
+            136
+         ],
+         "attackRange": 1,
+         "attackSpeed": 0.7,
+         "armor": 35,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Three Talon Strike",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/xinzhao_threetalonstrike.png",
+            "desc": "Xin Zhao quickly strikes his target three times, dealing Basic Attack damage and applying on-hit effects. The third strike deals bonus magic damage and knocks his target up for 1.5 seconds.",
+            "startingMana": 0,
+            "skillMana": 60,
+            "stats": [
+               "Damage: 200 / 275 / 375"
+            ]
+         }
+      },
+      {
+         "key": "Yasuo",
+         "ingameKey": "TFT3_Yasuo",
+         "name": "Yasuo",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/yasuo.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/Yasuo.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Yasuo_3.jpg",
+         "traits": [
+            "Rebel",
+            "Blademaster"
+         ],
+         "cost": [
+            2,
+            4,
+            6
+         ],
+         "health": [
+            700,
+            1260,
+            2268
+         ],
+         "attackDamage": [
+            50,
+            90,
+            162
+         ],
+         "damagePerSecond": [
+            38,
+            68,
+            122
+         ],
+         "attackRange": 1,
+         "attackSpeed": 0.75,
+         "armor": 30,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Last Breath",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/yasuo_lastbreath.png",
+            "desc": "Yasuo blinks to the enemy with farthest unit within attack range + 2 hexes and knocks them into the air for 1 second, hits them several times for Basic Attack damage and on-hit effects.",
+            "startingMana": 0,
+            "skillMana": 90,
+            "stats": [
+               "Hits: 4 / 5 / 6"
+            ]
+         }
+      },
+      {
+         "key": "Ziggs",
+         "ingameKey": "TFT3_Ziggs",
+         "name": "Ziggs",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/ziggs.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/Ziggs.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Ziggs_3.jpg",
+         "traits": [
+            "Rebel",
+            "Demolitionist"
+         ],
+         "cost": [
+            1,
+            3,
+            5
+         ],
+         "health": [
+            500,
+            900,
+            1620
+         ],
+         "attackDamage": [
+            40,
+            72,
+            130
+         ],
+         "damagePerSecond": [
+            28,
+            50,
+            91
+         ],
+         "attackRange": 3,
+         "attackSpeed": 0.7,
+         "armor": 20,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Bomb!",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/ziggs_bomb.png",
+            "desc": "Ziggs throws a bomb at an enemy, dealing magic damage.",
+            "startingMana": 0,
+            "skillMana": 40,
+            "stats": [
+               "Damage: 300 / 400 / 550"
+            ]
+         }
+      },
+      {
+         "key": "Zoe",
+         "ingameKey": "TFT3_Zoe",
+         "name": "Zoe",
+         "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set3/zoe.png",
+         "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.13.1/img/champion/Zoe.png",
+         "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Zoe_3.jpg",
+         "traits": [
+            "StarGuardian",
+            "Sorcerer"
+         ],
+         "cost": [
+            1,
+            3,
+            5
+         ],
+         "health": [
+            500,
+            900,
+            1620
+         ],
+         "attackDamage": [
+            40,
+            72,
+            130
+         ],
+         "damagePerSecond": [
+            28,
+            50,
+            91
+         ],
+         "attackRange": 3,
+         "attackSpeed": 0.7,
+         "armor": 20,
+         "magicalResistance": 20,
+         "skill": {
+            "name": "Sleepy Trouble Bubble",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/zoe_sleepytroublebubble.png",
+            "desc": "Zoe kicks a bubble at the enemy with the highest health, dealing magic damage and stunning them.",
+            "startingMana": 70,
+            "skillMana": 100,
+            "stats": [
+               "Damage: 200 / 275 / 400",
+               "Stun Duration: 2 / 2.5 / 4"
+            ]
+         }
+      }
+   ]
+}

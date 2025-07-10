@@ -18,7 +18,7 @@ def next_chuck(lines: List[str], cursor: int) -> Tuple[int,int,bool]:
             return (-1,-1,False)
     return (-1,-1,False)
 
-def get_origins_classes(l3: List[str]) -> List[dict[str,Any]]:
+def parse_2d_table(l3: List[str]) -> List[dict[str,Any]]:
     res:List[dict[str,Any]]=[]
     if len(l3) == 0:
         return res
@@ -31,7 +31,7 @@ def get_origins_classes(l3: List[str]) -> List[dict[str,Any]]:
         res.append(l3dict)
     return res
 
-def get_grid_dict(lgrid: List[str]) -> Dict[str,Any]:
+def parse_grid_to_dict(lgrid: List[str]) -> Dict[str,Any]:
     res:dict[str,Any]={
         'grid': [],
         'maps': {
@@ -72,6 +72,54 @@ def get_grid_dict(lgrid: List[str]) -> Dict[str,Any]:
     res['maps']['classes'] = classesRes
     return res
 
+def can_parse_to_2d_table(setof:str, curl2:str, curl3:str) -> bool:
+    def mergedict(d1:dict, d2:dict={}) -> dict:
+        d1copy=d1.copy()
+        for k2,v2 in d2.items():
+            d1copy[k2]=v2
+        return d1copy
+    comap={
+        'timeline': ['date'],
+        'units': None,
+        'traits': ['origins','classes'],
+    }
+    set2map={
+        's14': mergedict(comap, {
+            'opening encounters': ['normal encounters', 'hacked encounters'],
+        }),
+        's13': mergedict(comap, {
+            'opening encounters': ['opening encounters'],
+        }),
+        's12': mergedict(comap, {
+            'portal': ['augments', 'champions', 'anvils', 'gold', 'loot', 'charms'],
+        }),
+        's11': mergedict(comap, {
+            
+        }),
+        's10': mergedict(comap, {
+            'portal': ['champions', 'fight', 'headliner', 'loot', 'gold', 'augments', 'anvils']
+        }),
+        's9.5': mergedict(comap, {}),
+        's9': mergedict(comap, {
+            'portal': ['bandle city', 'bilgewater', 'demacia', 'freljord', 'ionia', 'ixtal', 'noxus', 'piltover', 'shadow isles', 'shurima', 'targon', 'void', 'zaun']
+        }),
+        's8.5': mergedict(comap, {}),
+        's8': mergedict(comap, {}),
+        's7.5': mergedict(comap, {}),
+        's7': mergedict(comap, {}),
+        's6.5': mergedict(comap, {}),
+        's6': mergedict(comap, {}),
+        's5.5': mergedict(comap, {}),
+        's5': mergedict(comap, {}),
+        's4.5': mergedict(comap, {}),
+        's4': mergedict(comap, {}),
+        's3.5': mergedict(comap, {}),
+        's3': mergedict(comap, {}),
+        's2': mergedict(comap, {}),
+        's1': mergedict(comap, {}),
+    }
+    return setof in set2map and curl2 in set2map[setof] and curl3 in set2map[setof][curl2]
+
 def process_tft() -> Dict[str,Any]:
     sdict:dict[str,Any]={}
     for seti in ['1','2','3','3.5','4','4.5','5','5.5','6','6.5','7','7.5','8','8.5','9','9.5','10','11','12','13','14']:
@@ -96,12 +144,12 @@ def process_tft() -> Dict[str,Any]:
                         starti+=1
                     if starti < len(lines) and lines[starti].startswith('### '):
                         curl3=lines[starti].removeprefix('### ').lower()
-                        if curl3 in ['origins', 'classes', 'date']:
+                        if can_parse_to_2d_table(setof, curl2, curl3):
                             sdict[setof][curl2][curl3] = \
-                                get_origins_classes(lines[starti+1:linei])
+                                parse_2d_table(lines[starti+1:linei])
                         elif curl3 == 'synergygrid':
                             sdict[setof][curl2][curl3] = \
-                                get_grid_dict(lines[starti+1:linei])
+                                parse_grid_to_dict(lines[starti+1:linei])
                         else:
                             sdict[setof][curl2][curl3] = lines[starti+1:linei]
 
@@ -167,3 +215,18 @@ hard_traits_info=dumps(find_hard_traits(), ensure_ascii=True, indent='    ')
 with open('s_hard_traits.json', 'w+') as htfile:
     htfile.write(hard_traits_info)
     htfile.close()
+
+def find_most_traits() -> List[Tuple[str, List[Tuple[str,str]]]]:
+    res:Dict[str,List[Tuple[str,str]]]={}
+    info=process_tft()
+    for setof, setinfo in info.items():
+        for classof in setinfo['traits']['classes']:
+            nameof=classof['class_name']
+            tpl=(setof, classof['desc'])
+            if nameof in res:
+                res[nameof].append(tpl)
+            else:
+                res[nameof]=[tpl]
+    return sorted([(nameof,listof) for nameof,listof in res.items() if len(listof) >= 5], key=lambda tof: len(tof[1]), reverse=True)
+
+# print(dumps(find_most_traits(), indent='    '))
