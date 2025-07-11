@@ -20,7 +20,7 @@ def process_dict() -> Dict[str,Any]:
     """
     sdict=dict[str,Any]()
     for i in range(1,15):
-        with open(f's{i}.txt', 'r', encoding='utf-8') as sfile:
+        with open(f'data/s{i}.txt', 'r', encoding='utf-8') as sfile:
             wds=[line.strip() for line in sfile.readlines()]
             sdict[f's{i}'] = {}
             sdict[f's{i}']['name'] = wds[0].removeprefix('# ')
