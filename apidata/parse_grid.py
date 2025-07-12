@@ -8,7 +8,6 @@ def two_champions_slash(ch1: str, ch2: str) -> str:
     else:
         return ch2
 
-
 def select_traits(setof:str, trt:dict) -> bool:
     max_active_val=0
     for styleof in trt['styles']:
@@ -64,62 +63,54 @@ def write_grid(grid2d: list[list[str]]) -> list[str]:
         res.append(resv)
     return res
 
+from tftdata import setdata
 for setof in setlist:
-    with open(f'tftraw/{setof}-traits.json') as traitsfile:
-        with open(f'tftraw/{setof}-champions.json') as championsfile:
-            setnum=setof.removeprefix('set')
-            
-            # select traits
-            traits=dict(loads(traitsfile.read()));traitsfile.close()
-            origin_key:list[str]=[]
-            class_key:list[str]=[]
-            key2name:dict[str,str]={}
-            for trt in traits['traits']:
-                if not select_traits(setof, trt):
-                    continue
-                match trt['type']:
-                    case 'ORIGIN':
-                        origin_key.append(trt['key'])
-                    case 'CLASS':
-                        class_key.append(trt['key'])
-                key2name[trt['key']]=trt['name']
-            origin_key.sort()
-            class_key.sort()
+    setnum=setof.removeprefix('set')
+    
+    # select traits
+    traits=setdata[setof]['traits']
+    origin_key:list[str]=[]
+    class_key:list[str]=[]
+    key2name:dict[str,str]={}
+    for trt in traits['traits']:
+        if not select_traits(setof, trt):
+            continue
+        match trt['type']:
+            case 'ORIGIN':
+                origin_key.append(trt['key'])
+            case 'CLASS':
+                class_key.append(trt['key'])
+        key2name[trt['key']]=trt['name']
+    origin_key.sort()
+    class_key.sort()
+    
+    # select champions
+    champions=setdata[setof]['champions']
+    chmps=[(chp['name'], chp['traits']) for chp in champions['champions'] if select_champions(setof, chp)]
+    
+    # champions grid
+    grid2d=[['']*(len(class_key)) for _ in range(len(origin_key))]
+    for chp in chmps:
+        chpname=chp[0]
+        chptrt=chp[1]
+        for chpori in [ori for ori in chptrt if ori in origin_key]:
+            for chpcls in [chpcls for chpcls in chptrt if chpcls in class_key]:
+                oriidx,clsidx=origin_key.index(chpori),class_key.index(chpcls)
+                grid2d[oriidx][clsidx]=two_champions_slash(grid2d[oriidx][clsidx], chpname)
+    
+    # first row is classls
+    grid2d.insert(0, [key2name[clskey] for clskey in class_key])
 
-            # select champions
-            champions=dict(loads(championsfile.read()));championsfile.close()
-            chmps=[(chp['name'], chp['traits']) for chp in champions['champions'] if select_champions(setof, chp)]
-
-            # champions grid
-            grid2d=[['']*(len(class_key)) for _ in range(len(origin_key))]
-            for chp in chmps:
-                chpname=chp[0]
-                chptrt=chp[1]
-                for chpori in [ori for ori in chptrt if ori in origin_key]:
-                    for chpcls in [chpcls for chpcls in chptrt if chpcls in class_key]:
-                        oriidx,clsidx=origin_key.index(chpori),class_key.index(chpcls)
-                        grid2d[oriidx][clsidx]=two_champions_slash(grid2d[oriidx][clsidx], chpname)
-            
-            # first row is classls
-            grid2d.insert(0, [key2name[clskey] for clskey in class_key])
-
-            # header fix
-            originlsfix=[key2name[orikey] for orikey in origin_key]
-            originlsfix.insert(0, 'Origins\\Classes')
-            # first col is originls
-            for i in range(len(grid2d)):
-                grid2d[i].insert(0, originlsfix[i])
-
-        with open(f'tftgrid/{setof}.json', 'w+') as setgridf:
-            setgridf.write(dumps(grid2d, ensure_ascii=True, indent='    '))
-            setgridf.close()
-        with open(f'tftgrid/{setof}.txt', 'w+') as setgridf:
-            setgridf.write('\n'.join(write_grid(grid2d)))
-            setgridf.close()
-        
-                            
-
-
-
-
-
+    # header fix
+    originlsfix=[key2name[orikey] for orikey in origin_key]
+    originlsfix.insert(0, 'Origins\\Classes')
+    # first col is originls
+    for i in range(len(grid2d)):
+        grid2d[i].insert(0, originlsfix[i])
+    
+    with open(f'tftgrid/{setof}.json', 'w+') as setgridf:
+        setgridf.write(dumps(grid2d, ensure_ascii=True, indent='    '))
+        setgridf.close()
+    with open(f'tftgrid/{setof}.txt', 'w+') as setgridf:
+        setgridf.write('\n'.join(write_grid(grid2d)))
+        setgridf.close()

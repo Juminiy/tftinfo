@@ -1,0 +1,167 @@
+{
+    "origins": [
+        {
+            "name": "Yordle",
+            "desc": "Your units gain 10% Attack Speed per star level.<br><br>If you have three 3-star champions, your Yordles can become 4-star, which gives their Ability a wacky upgrade!",
+            "unit_active": "3/5",
+            "unit_count": 5,
+            "emblem": ""
+        },
+        {
+            "name": "Demacia",
+            "desc": "At the start of each planning phase, a number of your strongest Demacians become elites, equipping a random Radiant Item until the end of the next combat, and giving themselves and nearby allies Armor and Magic Resistance. (Does not stack.)<br><br>Radiant items are upgraded versions of completed items.",
+            "unit_active": "3/5/7/9",
+            "unit_count": 7,
+            "emblem": "NegatronCloak+Spatula"
+        },
+        {
+            "name": "Freljord",
+            "desc": "After 8 seconds, a Freljordian storm strikes the battelfield. Enemies take a percentage of their maximum health as true damage and gain debuffs for 10 seconds.<br><br>Sunder: reduce Armor<br>Shred: reduce Magic Resist<br>Mana Reave: increase maximum mana until the next cast",
+            "unit_active": "2/3/4",
+            "unit_count": 3,
+            "emblem": ""
+        },
+        {
+            "name": "Ionia",
+            "desc": "Every 4 seconds, your strongest Ionians are enlightened to their spirit form and gain 20 Mana.<br><br>Each Ionian has a unique bonus within their ability, which doubles when in spirit form.",
+            "unit_active": "3/6/9",
+            "unit_count": 8,
+            "emblem": "BFSword+Spatula"
+        },
+        {
+            "name": "Noxus",
+            "desc": "Noxus units gain Health, Ability Power and Attack Damage. This is increased by 5% for each different opponent that either you have conquered in combat or is dead.",
+            "unit_active": "3/6/9",
+            "unit_count": 7,
+            "emblem": "GiantsBelt+Spatula"
+        },
+        {
+            "name": "Piltover",
+            "desc": "Gain the T-Hex. Every time you lose a combat, the T-Hex gains a Charge. Winning releases the Charges, granting the T-Hex power based on the amount released.",
+            "unit_active": "3/6",
+            "unit_count": 5,
+            "emblem": ""
+        },
+        {
+            "name": "Shadow Isles",
+            "desc": "After dealing or receiving damage 10 times, Shadow Isles unit gain a Shield for 15 seconds and become Spectral for the rest of combat. Spectral units gain Mana every second.",
+            "unit_active": "2/4/6",
+            "unit_count": 5,
+            "emblem": ""
+        },
+        {
+            "name": "Shurima",
+            "desc": "Every 4 seconds, Shuriman heal 5% max Health. After 8 seconds, select Shruiman ascend and gain 33% max Health and 45% Attack Speed.",
+            "unit_active": "3/5/7/9",
+            "unit_count": 7,
+            "emblem": "NeedlesslyLargeRod+Spatula"
+        },
+        {
+            "name": "Targon",
+            "desc": "Your healing and shielding is increased.",
+            "unit_active": "2/3/4",
+            "unit_count": 3,
+            "emblem": ""
+        },
+        {
+            "name": "Void",
+            "desc": "Void units create a void egg. Once your team loses 40% of their health, the egg hatches into a creature, knocking up nearby units. Each Void unit star level increases the summon's health and AP by 25%.",
+            "unit_active": "3/6/8",
+            "unit_count": 6,
+            "emblem": ""
+        },
+        {
+            "name": "Zaun",
+            "desc": "Zaun champions create random chem-mods that only they can use. Champions can be modded once, and mods can only be removed by selling the champion.",
+            "unit_active": "2/4/6",
+            "unit_count": 5,
+            "emblem": ""
+        }
+    ],
+    "classes": [
+        {
+            "name": "Juggernaut",
+            "desc": "Juggernaut champions take less damage as their Health decreases.",
+            "unit_active": "2/4/6",
+            "unit_count": 6,
+            "emblem": "ChainVest+Spatula"
+        },
+        {
+            "name": "Bastion",
+            "desc": "Bastion champions gain Armor and Magic Resist. This is increased by 100% for the first 10 seconds of combat.",
+            "unit_active": "2/4/6/8",
+            "unit_count": 6,
+            "emblem": ""
+        },
+        {
+            "name": "Bruiser",
+            "desc": "Your units gain 100 Health. Bruiser get even more.",
+            "unit_active": "2/4/6",
+            "unit_count": 5,
+            "emblem": ""
+        },
+        {
+            "name": "Challenger",
+            "desc": "Challengers gain bonus Attack Speed. When their target dies, Challengers dash to a new target and increase their Attack Speed bonus by 50% for 2.5 seconds.",
+            "unit_active": "2/4/6/8",
+            "unit_count": 6,
+            "emblem": "RecurveBow+Spatula"
+        },
+        {
+            "name": "Deadeye",
+            "desc": "Innate: +1 Range<br><br>Every 3 seconds, Deadeyes attack the enemy with the highest percent Health and deal bonus damage.",
+            "unit_active": "2/4/6",
+            "unit_count": 5,
+            "emblem": ""
+        },
+        {
+            "name": "Gunner",
+            "desc": "When Gunner champions attack, they gain bonus Attack Damage, up to 8 stacks.",
+            "unit_active": "2/4/6",
+            "unit_count": 5,
+            "emblem": ""
+        },
+        {
+            "name": "Multicaster",
+            "desc": "Multicasters cast their Ability multiple times. Bonus casts have 66% reduced effectiveness.",
+            "unit_active": "2/4",
+            "unit_count": 4,
+            "emblem": ""
+        },
+        {
+            "name": "Invoker",
+            "desc": "Allies restore Mana every 3 seconds.",
+            "unit_active": "2/4/6",
+            "unit_count": 17,
+            "emblem": ""
+        },
+        {
+            "name": "Rogue",
+            "desc": "",
+            "unit_active": "2/4",
+            "unit_count": 4,
+            "emblem": ""
+        },
+        {
+            "name": "Slayer",
+            "desc": "Slayers gain 12% omnivamp. Additionally, Slayers deal bonus damage, doubled against units below 66% health.",
+            "unit_active": "2/3/5/6",
+            "unit_count": 5,
+            "emblem": "Spatula+SparringGloves"
+        },
+        {
+            "name": "Sorcerer",
+            "desc": "Sorcerers gain bonus Ability Power.<br><br>When an enemy dies after being damaged by a Sorcerer, they deal a percentage of that enemy's maximum Health to another enemy.",
+            "unit_active": "2/4/6/8",
+            "unit_count": 7,
+            "emblem": "Tearofthegoddess+Spatula"
+        },
+        {
+            "name": "Strategist",
+            "desc": "Combat Start: Allies in the front 2 rows gain a shield for 15 seconds. Allies in the back 2 rows gain Ability Power.",
+            "unit_active": "2/3/4/5",
+            "unit_count": 4,
+            "emblem": ""
+        }
+    ]
+}

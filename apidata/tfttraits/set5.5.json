@@ -1,0 +1,160 @@
+{
+    "origins": [
+        {
+            "name": "Abomination",
+            "desc": "When 2 allied champions have died, the Monstrosity will rise from its grave. The Monstrosity receives bonus Health and Attack Damage based on the stage number and allied Abomination champions' star levels.<br><br>The 3 Abomination champions nearest the grave will also grant the Monstrosity a random copy of one of their items when combat starts.",
+            "unit_active": "3/4/5",
+            "unit_count": 4,
+            "emblem": ""
+        },
+        {
+            "name": "Dawnbringer",
+            "desc": "Dawnbringers rapidly heal some of their maximum Health the first time they drop below 50%. When this occurs, all allied Dawnbringers gain 10% bonus damage.",
+            "unit_active": "2/4/6/8",
+            "unit_count": 7,
+            "emblem": ""
+        },
+        {
+            "name": "Draconic",
+            "desc": "In Hyper Roll, dragon eggs hatch a lot faster!",
+            "unit_active": "3/5",
+            "unit_count": 6,
+            "emblem": ""
+        },
+        {
+            "name": "Forgotten",
+            "desc": "Forgotten champions have bonus Attack Damage and Ability Power. Each victorious combat they participate in increases the bonus by 10%, stacking up to 5 times.",
+            "unit_active": "2/4/6/8",
+            "unit_count": 6,
+            "emblem": ""
+        },
+        {
+            "name": "Hellion",
+            "desc": "Hellions gain Attack Speed.<br><br>Whenever a Hellion dies, a Doppelhellion (a one less star copy) will leap from the Hellion portal and join the fight!",
+            "unit_active": "2/4/6/8",
+            "unit_count": 7,
+            "emblem": ""
+        },
+        {
+            "name": "Ironclad",
+            "desc": "All allies gain Armor.",
+            "unit_active": "2/3/4",
+            "unit_count": 3,
+            "emblem": ""
+        },
+        {
+            "name": "Nightbringer",
+            "desc": "Nightbringers gain a shield for 8 seconds equal to a percent of their maximum Health the first time they drop below 50%. When this occurs, that Nightbringer gains bonus damage.",
+            "unit_active": "2/4/6/8",
+            "unit_count": 6,
+            "emblem": ""
+        },
+        {
+            "name": "Redeemed",
+            "desc": "Redeemed champions have increased Armor, Magic Resist, and Ability Power. When they die, their bonus is split among remaining Redeemed allies.",
+            "unit_active": "3/6/9",
+            "unit_count": 8,
+            "emblem": ""
+        },
+        {
+            "name": "Revenant",
+            "desc": "Revenants revive after their first death each combat. Once revived, they take and deal 25% increased damage.",
+            "unit_active": "2/3/4/5",
+            "unit_count": 4,
+            "emblem": ""
+        },
+        {
+            "name": "Sentinel",
+            "desc": "At start of combat, the Sentinel with the most items (ties broken by highest Attack Speed) gains a shield that grants stacking Attack Speed. When it is destroyed or expires, it will bounce to the ally with the lowest percent Health and renew. The Attack Speed bonus persists between shield bounces.",
+            "unit_active": "3/6/9",
+            "unit_count": 8,
+            "emblem": ""
+        }
+    ],
+    "classes": [
+        {
+            "name": "Assassin",
+            "desc": "Innate: When combat starts, Assassins leap to the enemy backline.<br><br>Assassin's Abilities can critically strike and they gain bonus Critical Strike Chance and bonus Critical Strike Damage.",
+            "unit_active": "2/4/6",
+            "unit_count": 5,
+            "emblem": ""
+        },
+        {
+            "name": "Brawler",
+            "desc": "Brawlers gain additional maximum Health.",
+            "unit_active": "2/4/6",
+            "unit_count": 5,
+            "emblem": ""
+        },
+        {
+            "name": "Cannoneer",
+            "desc": "Every 5th Cannoneer attack is replaced with a cannon shot that deals a percent of that attack's damage in an explosion around the target as physical damage.",
+            "unit_active": "2/4/6",
+            "unit_count": 4,
+            "emblem": ""
+        },
+        {
+            "name": "Cavalier",
+            "desc": "Innate: Cavaliers charge quickly towards their target whenever they move.<br><br>Cavaliers take reduced damage. At the start of combat and after each charge, this effect is doubled for 4 seconds.",
+            "unit_active": "2/3/4",
+            "unit_count": 4,
+            "emblem": ""
+        },
+        {
+            "name": "Invoker",
+            "desc": "All allies gain extra Mana from their attacks.",
+            "unit_active": "2/4",
+            "unit_count": 4,
+            "emblem": ""
+        },
+        {
+            "name": "Knight",
+            "desc": "All allies block a flat amount of damage from all sources.",
+            "unit_active": "2/4/6",
+            "unit_count": 6,
+            "emblem": ""
+        },
+        {
+            "name": "Legionnaire",
+            "desc": "Legionnaires have bonus Attack Speed and heal for a portion of the damage they deal with attacks and Abilities",
+            "unit_active": "2/4/6/8",
+            "unit_count": 7,
+            "emblem": ""
+        },
+        {
+            "name": "Mystic",
+            "desc": "All allies gain Magic Resist.",
+            "unit_active": "2/3/4/5",
+            "unit_count": 4,
+            "emblem": ""
+        },
+        {
+            "name": "Ranger",
+            "desc": "Every 4 seconds Rangers gain increased Attack Speed that lasts 4 seconds. This effect begins 4 seconds after combat starts.",
+            "unit_active": "2/4/6",
+            "unit_count": 5,
+            "emblem": ""
+        },
+        {
+            "name": "Renewer",
+            "desc": "Renewers heal for a percent of their maximum Health each second. If they're full Health, they restore Mana instead.",
+            "unit_active": "2/4/6",
+            "unit_count": 5,
+            "emblem": ""
+        },
+        {
+            "name": "Skirmisher",
+            "desc": "Skirmishers gain a shield at the start of combat, and bonus Attack Damage each second.",
+            "unit_active": "3/6/9",
+            "unit_count": 8,
+            "emblem": ""
+        },
+        {
+            "name": "Spellweaver",
+            "desc": "Spellweavers have bonus Ability Power, which increases whenever any champion uses an ability, until the end of combat.",
+            "unit_active": "2/4/6",
+            "unit_count": 4,
+            "emblem": ""
+        }
+    ]
+}

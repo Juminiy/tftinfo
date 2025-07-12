@@ -1,0 +1,181 @@
+{
+    "origins": [
+        {
+            "name": "A.D.M.I.N.",
+            "desc": "A.D.M.I.N. programs a custom configuration per player each game.<br><br>4 Piece Multiplier: 25%<br>On Cast AP: 18<br>On Cast AD: 18%<br>On Cast Chance to Drop Gold: 33%<br>On Cast Flat Heal: 250<br>On Cast Permanent HP: 12<br>On Kill, Unit who killed Heals: 400\r\n<br>On Kill, Unit who killed gains Permanent HP: 18<br>on dropping below 66% HP, A.D.M.I.N. gains AP: 60<br>on dropping below 66% HP, A.D.M.I.N. gains AD: 60<br>on dropping below 66% HP, A.D.M.I.N. gains AS: 60<br>on dropping below 66% HP, A.D.M.I.N. gains Shield: 15 sec<br>on dropping below 66% HP, A.D.M.I.N. gains Permanent HP: 45<br>on Ally Death AP: 15<br>on Ally Death AD: 15<br>on Ally Death AS: 15<br>on Ally Death flat Heal: 250<br>on Ally Death Gold Chance: 20%<br>on Ally Death Permanent HP: 10<br>Combat Start chance to drop Gold: 50%<br>Combat Start permanent HP: 40<br>Every 5 sec, A.D.M.I.N. gains AP: 20<br>Every 5 sec, A.D.M.I.N. gains Mana: 40<br>Every 5 sec, A.D.M.I.N. chance to drop Gold: 25%<br>Every 5 sec, permanent HP: 10<br>Combat Start, Team gains permanent HP: 20<br>Combat Start, Team gains chance to drop Gold: 25%<br>Combat Start, Team gains max HP Shield: 25%<br>every 5 sec, Team gains Mana: 20<br>every 5 sec, Team chance to drop Gold: 15%<br>every 5 sec, Team gains permanent HP: 6<br>every 5 sec, Team heals: 150",
+            "unit_active": "2/4/6",
+            "unit_count": 4,
+            "emblem": ""
+        },
+        {
+            "name": "Anima Squad",
+            "desc": "Anima Squad members pose after champion kills, increasing their fame. Each point of fame grants 5 permanent Health to each Anima Squad member.<br><br>They also gains:",
+            "unit_active": "3/5/7",
+            "unit_count": 6,
+            "emblem": ""
+        },
+        {
+            "name": "Mecha: PRIME",
+            "desc": "Use the Mecha selector item to choose a PRIME.<br><br>Combat start: the PRIME combines with the 2 nearest Mecha, absorbing 90% of their Health.",
+            "unit_active": "3/5",
+            "unit_count": 5,
+            "emblem": ""
+        },
+        {
+            "name": "Gadgeteen",
+            "desc": "Each round, Gadgeteens create random modified weapons with powerful effects that fall apart after one round. Gadgeteens also gain Damage and Damage Reduction for each item equipped to them.",
+            "unit_active": "3/5",
+            "unit_count": 5,
+            "emblem": ""
+        },
+        {
+            "name": "Ox Force",
+            "desc": "Ox Force units gain bonus defenses. Once per combat, when they would drop below one HP, they instead shield themselves for 50% of their maximum health for 1.5 seconds.",
+            "unit_active": "2/4/6",
+            "unit_count": 4,
+            "emblem": ""
+        },
+        {
+            "name": "InfiniTeam",
+            "desc": "The InfiniTeam opens a portal to an alternate timeline. At the start of combat, any InfiniTeam unit placed on a portal summons an alternate version of themself with different items. They get 1 for each Augment you own.<br><br>The copies have reduced Health and damage.",
+            "unit_active": "3/5/7",
+            "unit_count": 6,
+            "emblem": ""
+        },
+        {
+            "name": "Riftwalker",
+            "desc": "Riftwalkers open a gap between dimensions and summon their ally Zac, who grows in power based on the star level of Riftwalkers.<br><br> Zac gains the last-listed Trait of the closest Riftwalker.",
+            "unit_active": "3",
+            "unit_count": 3,
+            "emblem": ""
+        },
+        {
+            "name": "LaserCorps",
+            "desc": "When a LaserCorp agent attacks or is hit by an attack, their combat drone deal magic damage to the agent's target (0.4 second cooldown). When a LaserCorps agent dies, their drone is reassigned to the nearest living agent.<br><br>Drones lasers deal:",
+            "unit_active": "3/4/5/6",
+            "unit_count": 5,
+            "emblem": ""
+        },
+        {
+            "name": "Star Guardian",
+            "desc": "Gain more Mana from all sources.",
+            "unit_active": "2/4/6/8",
+            "unit_count": 8,
+            "emblem": ""
+        },
+        {
+            "name": "Supers",
+            "desc": "",
+            "unit_active": "3",
+            "unit_count": 3,
+            "emblem": ""
+        },
+        {
+            "name": "Underground",
+            "desc": "The Underground must sneak through the sewers and crack 10 locks to open a vault. When the vault opens, you may choose to take the loot now, or attempt another heist for even better rewards.",
+            "unit_active": "3/4/5/6",
+            "unit_count": 5,
+            "emblem": ""
+        }
+    ],
+    "classes": [
+        {
+            "name": "Ace",
+            "desc": "This trait is active only when you have exactly 1 or 4 unique Aces.",
+            "unit_active": "1/4",
+            "unit_count": 4,
+            "emblem": ""
+        },
+        {
+            "name": "Aegis",
+            "desc": "Your team gains bonus Magic Resist, and Aegis units gain more.",
+            "unit_active": "2/3/4/5",
+            "unit_count": 4,
+            "emblem": ""
+        },
+        {
+            "name": "Brawler",
+            "desc": "Brawlers gain additional maximum Health.",
+            "unit_active": "2/4/6/8",
+            "unit_count": 7,
+            "emblem": ""
+        },
+        {
+            "name": "Spellslinger",
+            "desc": "Every 5 seconds, the next attack instead fires a magic orb at a random target, which explodes for 50% Ability Power as magic damage.",
+            "unit_active": "2/4/6/8",
+            "unit_count": 7,
+            "emblem": ""
+        },
+        {
+            "name": "Sureshot",
+            "desc": "Combat start: gain bonus Attack Damage now, and every 4 seconds.",
+            "unit_active": "2/3/4/5",
+            "unit_count": 4,
+            "emblem": ""
+        },
+        {
+            "name": "Defender",
+            "desc": "Your team gains bonus Armor, and Defenders gain more.",
+            "unit_active": "2/4/6",
+            "unit_count": 6,
+            "emblem": ""
+        },
+        {
+            "name": "Duelist",
+            "desc": "Innate: increased movement speed.<br><br>Duelists' basic attacks grant bonus Attack Speed, up to 12 stacks.",
+            "unit_active": "2/4/6/8",
+            "unit_count": 7,
+            "emblem": ""
+        },
+        {
+            "name": "Quickdraw",
+            "desc": "After every 2 damaging ability projectiles, Quickdraw units fire a bonus ability projectile. Bonus shots deal:",
+            "unit_active": "2/3/4",
+            "unit_count": 4,
+            "emblem": ""
+        },
+        {
+            "name": "Hacker",
+            "desc": "Hackers gain Omnivamp and summon a H4ckerr!m. Any unit placed in the rider hex will be sent to the enemy backline and is untargetable for the first 2 seconds of combat.<br><br>Omnivamp: heal for a percentage of damage dealt",
+            "unit_active": "3/4/5",
+            "unit_count": 3,
+            "emblem": ""
+        },
+        {
+            "name": "Heart",
+            "desc": "When Heart units cast their Ability, your team gains stacking Ability Power for the rest of combat.",
+            "unit_active": "2/4/6",
+            "unit_count": 6,
+            "emblem": ""
+        },
+        {
+            "name": "Mascot",
+            "desc": "Your team heals a percentage of their maximum Health every 2 seconds, and Mascots heal double the amount.<br><br>\r\nWhen Mascots die, they retreat to the sidelines to cheer on your team. Your team's healing increased by 1% for each cheering Mascot.",
+            "unit_active": "2/4/6",
+            "unit_count": 5,
+            "emblem": ""
+        },
+        {
+            "name": "Parallel",
+            "desc": "",
+            "unit_active": "2",
+            "unit_count": 2,
+            "emblem": ""
+        },
+        {
+            "name": "Prankster",
+            "desc": "",
+            "unit_active": "2/3/4",
+            "unit_count": 3,
+            "emblem": ""
+        },
+        {
+            "name": "Renegade",
+            "desc": "Renegade units deal bonus damage, and the last sone standing deals more.",
+            "unit_active": "3/5/7",
+            "unit_count": 6,
+            "emblem": ""
+        }
+    ]
+}
