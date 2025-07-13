@@ -8,6 +8,8 @@ from typing import Any,Dict
 
 from json import dumps,loads
 
+from functools import cmp_to_key
+
 from tftdata import setdata
 traitsall:Dict[str,Any]={}
 
@@ -25,7 +27,14 @@ for setof in setlist:
     chmps=[(chp['name'], chp['traits']) for chp in champions['champions'] if select_champions(setof, chp)]
 
     items=setdata[setof]['items']
-    emblems={str(emb['key']).removesuffix('Emblem'): emb['compositions']
+
+    def item_cmp_fn(s1:str,s2:str) -> int:
+        if s1 in ['Spatula', 'FryingPan']:
+            return -1
+        elif s2 in ['Spatula', 'FryingPan']:
+            return 1
+        return 0
+    emblems={str(emb['key']).removesuffix('Emblem'): sorted(emb['compositions'], key=cmp_to_key(item_cmp_fn))
              for emb in items['items'] 
              if str(emb['key']).endswith('Emblem') and 
              ('compositions' in emb) and 
