@@ -1,0 +1,972 @@
+{
+    "comp": [
+        {
+            "name": "BFSword",
+            "attr": "+10% AD"
+        },
+        {
+            "name": "ChainVest",
+            "attr": "+20 Armor"
+        },
+        {
+            "name": "GiantsBelt",
+            "attr": "+150 HP"
+        },
+        {
+            "name": "NeedlesslyLargeRod",
+            "attr": "+10 AP"
+        },
+        {
+            "name": "NegatronCloak",
+            "attr": "+20 MR"
+        },
+        {
+            "name": "RecurveBow",
+            "attr": "+10% AS"
+        },
+        {
+            "name": "SparringGloves",
+            "attr": "+20%<br>Crit chance"
+        },
+        {
+            "name": "Spatula",
+            "attr": "You will get<br>special ability"
+        },
+        {
+            "name": "Tearofthegoddess",
+            "attr": "+15<br>Mana"
+        }
+    ],
+    "craf": [
+        {
+            "name": "ArcaneGauntlet",
+            "compositions": "rod+glove",
+            "basic_attrs": [
+                "+30AP",
+                "+35%CR"
+            ],
+            "add_attrs": "Damage from an Ability can critically strike."
+        },
+        {
+            "name": "Bloodthirster",
+            "compositions": "sword+cloak",
+            "basic_attrs": [
+                "+20%AD",
+                "+20MR"
+            ],
+            "add_attrs": "Grant 20% Omnivamp.<br><br>Once per combat: At 40% Health, gain a 25% maximum Health shield that lasts up to 5 seconds.<br><br>Omnivamp: heal for a percentage of damage dealt"
+        },
+        {
+            "name": "BlueSentinel",
+            "compositions": "tear+tear",
+            "basic_attrs": [
+                "+40MP",
+                "+10AP"
+            ],
+            "add_attrs": "Abilities cost 10 less Mana to cast.<br><br>If the holder gets at least 1 takedown within 3 seconds of casting, gain 10 Mana.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "BrambleVest",
+            "compositions": "vest+vest",
+            "basic_attrs": [
+                "+70AR"
+            ],
+            "add_attrs": "Negates 75% bonus damage from incoming critical strikes. When struck by an attack, deal 75/100/150 \u2605 magic damage to all nearby enemies (once every 2 seconds).<br><br>[Direct damage item]"
+        },
+        {
+            "name": "Chalice",
+            "compositions": "tear+cloak",
+            "basic_attrs": [
+                "+45MP",
+                "+45MR"
+            ],
+            "add_attrs": "Combat start: Grant 20 Ability Power to the holder and allies within 1 hex in the same row.<br><br>[Aura item]"
+        },
+        {
+            "name": "DragonsClaw",
+            "compositions": "cloak+cloak",
+            "basic_attrs": [
+                "+75MR"
+            ],
+            "add_attrs": "Every 2 seconds, regenerate 5% maximum Health."
+        },
+        {
+            "name": "Fimbulwinter",
+            "compositions": "tear+vest",
+            "basic_attrs": [
+                "+45MP"
+            ],
+            "add_attrs": "Once per combat: At 40% Health, gain a 25% maximum Health shield that lasts up to 5 seconds and 25 Armor and Magic Resist for the rest of combat.<br><br>\u200b\u200b[Aura item]"
+        },
+        {
+            "name": "GiantSlayer",
+            "compositions": "sword+bow",
+            "basic_attrs": [
+                "+30%AD",
+                "+10%AS"
+            ],
+            "add_attrs": "Abilities and attacks deal 25% more damage to enemies with more than 1600 maximum Health."
+        },
+        {
+            "name": "Guardbreaker",
+            "compositions": "belt+glove",
+            "basic_attrs": [
+                "+150HP",
+                "+20%AD",
+                "+20AP",
+                "+20%CR"
+            ],
+            "add_attrs": "After damaging a shielded enemy, Abilities and attacks deal 25% more damage for 3 seconds."
+        },
+        {
+            "name": "GuardianAngel",
+            "compositions": "sword+vest",
+            "basic_attrs": [
+                "+10%AD",
+                "+20AR"
+            ],
+            "add_attrs": "Once per combat: At 60% Health, briefly become untargetable and shed negative effects. Then, gain 15% bonus Attack Speed.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "GuinsoosRageblade",
+            "compositions": "bow+rod",
+            "basic_attrs": [
+                "+10AP",
+                "+18%AS"
+            ],
+            "add_attrs": "Attacks grant 4% bonus Attack Speed. This effect stacks."
+        },
+        {
+            "name": "HandofJustice",
+            "compositions": "tear+glove",
+            "basic_attrs": [
+                "+15MP",
+                "+20%CR"
+            ],
+            "add_attrs": "Grant 2 effects:<br>- +15% Attack Damage and +15 Ability Power.<br>- 15% Omnivamp.<br><br>Each round, randomly double 1 of these effects.<br><br>Omnivamp: heal for a percentage of damage dealt"
+        },
+        {
+            "name": "HextechGunblade",
+            "compositions": "sword+rod",
+            "basic_attrs": [
+                "+10%AD",
+                "+10AP"
+            ],
+            "add_attrs": "Grant 22% Omnivamp. Damage heals the lowest percent Health ally for the same amount."
+        },
+        {
+            "name": "InfinityEdge",
+            "compositions": "sword+glove",
+            "basic_attrs": [
+                "+30%AD",
+                "+35%CR"
+            ],
+            "add_attrs": "Damage from an Ability can critically strike."
+        },
+        {
+            "name": "IonicSpark",
+            "compositions": "rod+cloak",
+            "basic_attrs": [
+                "+10AP",
+                "+20MR"
+            ],
+            "add_attrs": "50% Shred enemies within 2 hexes. When enemies cast an Ability, they are also zapped for magic damage equal to 160% of their maximum Mana.<br><br>[Direct damage item]<br>Shred: reduce Magic Resist"
+        },
+        {
+            "name": "IronWill",
+            "compositions": "vest+cloak",
+            "basic_attrs": [
+                "+30AR",
+                "+30MR"
+            ],
+            "add_attrs": "Grant 15 Armor and 15 Magic Resist for each enemy targeting the holder."
+        },
+        {
+            "name": "LastWhisper",
+            "compositions": "bow+glove",
+            "basic_attrs": [
+                "+10%AD",
+                "+10%AS",
+                "+20%CR"
+            ],
+            "add_attrs": "Any physical damage dealt 50% Sunder the target for 3 seconds. This effect does not stack.<br><br>[Unique - Only One Per Champion]<br>Sunder: reduce Armor"
+        },
+        {
+            "name": "LocketoftheIronSolari",
+            "compositions": "rod+vest",
+            "basic_attrs": [
+                "+10AP",
+                "+20AR"
+            ],
+            "add_attrs": "Combat start: Shield the holder and allies within 1 hexes in the same row for 275/325/375/425\u2605 damage for 8 seconds.<br><br>[Aura item]"
+        },
+        {
+            "name": "LordsEdge",
+            "compositions": "sword+sword",
+            "basic_attrs": [],
+            "add_attrs": "Grant 66% bonus Attack Damage."
+        },
+        {
+            "name": "LudensEcho",
+            "compositions": "rod+tear",
+            "basic_attrs": [
+                "+30MP",
+                "+20AP"
+            ],
+            "add_attrs": "Combat start: Grant 20 Ability Power every 5 seconds."
+        },
+        {
+            "name": "Morellonomicon",
+            "compositions": "rod+belt",
+            "basic_attrs": [
+                "+150HP",
+                "+25AP"
+            ],
+            "add_attrs": "Damage from an Ability 1% Burns and 33% Wounds enemies for the 10 seconds.<br><br>[Unique - Only One Per Champion]<br>Burn: deals some of the target's maximum Health as true damage<br>Wound: reduces healing received"
+        },
+        {
+            "name": "Quicksilver",
+            "compositions": "cloak+glove",
+            "basic_attrs": [
+                "+30MR"
+            ],
+            "add_attrs": "Combat start: Grant immunity to crowd control for 18 seconds.<br><br>[Unique - only 1 per champion]"
+        },
+        {
+            "name": "RabadonsDeathcap",
+            "compositions": "rod+rod",
+            "basic_attrs": [],
+            "add_attrs": "Grants 70 bonus Ability Power"
+        },
+        {
+            "name": "RapidFirecannon",
+            "compositions": "bow+bow",
+            "basic_attrs": [
+                "+55%AS"
+            ],
+            "add_attrs": "Grant 1 bonus Attack Range and your attacks cannot miss."
+        },
+        {
+            "name": "Redemption",
+            "compositions": "tear+belt",
+            "basic_attrs": [
+                "+150HP",
+                "+15MP"
+            ],
+            "add_attrs": "Heal allies within 1 hex for 15% of their missing Health every 5 seconds. They also take 25% less multi-target damage for 5 seconds (damage reduction does not stack).<br><br>[Aura item]"
+        },
+        {
+            "name": "RunaansHurricane",
+            "compositions": "bow+cloak",
+            "basic_attrs": [
+                "+30%AD",
+                "+20MR",
+                "+10%AS"
+            ],
+            "add_attrs": "Attacks fire a bolt at a nearby enemy, dealing 50% Attack Damage as physical damage.<br><br>[Direct damage item]"
+        },
+        {
+            "name": "Shroud",
+            "compositions": "vest+glove",
+            "basic_attrs": [
+                "+250HP",
+                "+20AR"
+            ],
+            "add_attrs": "Combat start: Shoots a beam that 30% Mana Reaves enemies.<br><br>[Unique - Only One Per Champion]<br>Mana Reave: increase maximum Mana until the next cast"
+        },
+        {
+            "name": "SpearofShojin",
+            "compositions": "sword+tear",
+            "basic_attrs": [
+                "+30MP",
+                "+10%AD"
+            ],
+            "add_attrs": "Attacks restore 5 additional Mana."
+        },
+        {
+            "name": "StatikkShiv",
+            "compositions": "bow+tear",
+            "basic_attrs": [
+                "+15MP",
+                "+15AP",
+                "+10%AS"
+            ],
+            "add_attrs": "Every 3rd attack unleashes chain lightning that bounces to 4 enemies, dealing 30 magic damage and 50% Shredding them for 5 seconds.<br><br>[Direct damage item]<br>Shred: reduce Magic Resist"
+        },
+        {
+            "name": "SunfireCape",
+            "compositions": "vest+belt",
+            "basic_attrs": [
+                "+20AR"
+            ],
+            "add_attrs": "Every 2 seconds, an enemy within 2 hexes is 1% Burned and 33% \r\n Wounded for 10 seconds.<br><br>[Unique - Only One Per Champion]<br>Burn: deals some of the target's maximum Health as true damage<br>Wound: reduces healing received"
+        },
+        {
+            "name": "ThiefsGloves",
+            "compositions": "glove+glove",
+            "basic_attrs": [
+                "+40%CR"
+            ],
+            "add_attrs": "Each round: Equip 2 random items.<br><br>[Consumes 3 item slots.]"
+        },
+        {
+            "name": "TitansResolve",
+            "compositions": "bow+vest",
+            "basic_attrs": [
+                "+20AR",
+                "+10%AS"
+            ],
+            "add_attrs": "Grant 2% Attack Damage and 2 Ability Power when attacking or taking damage, stacking up to 25 times.<br><br>At full stacks, grant 25 Armor and Magic Resist."
+        },
+        {
+            "name": "WarmogsArmor",
+            "compositions": "belt+belt",
+            "basic_attrs": [],
+            "add_attrs": "Grant 800 bonus Health."
+        },
+        {
+            "name": "ZekesHerald",
+            "compositions": "sword+belt",
+            "basic_attrs": [
+                "+250HP",
+                "+25%AD"
+            ],
+            "add_attrs": "Combat start: Grant 15% Attack Speed to the holder and allies within 1 hex in the same row.<br><br>[Aura item]"
+        },
+        {
+            "name": "Zephyr",
+            "compositions": "cloak+belt",
+            "basic_attrs": [
+                "+150HP",
+                "+20MR",
+                " +15%AS"
+            ],
+            "add_attrs": "Combat start: Summon a whirlwind on the opposite side of the arena that removes the closest enemy from combat for 5 seconds.<br><br>[Ignores crowd control immunity.]<br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "ZzRotPortal",
+            "compositions": "bow+belt",
+            "basic_attrs": [
+                "+150HP",
+                "+10%AS"
+            ],
+            "add_attrs": "Combat start: Taunt.<br><br>On death, a Voidspawn arises, Taunting nearby enemies. The Voidspawn has massively reduced effectiveness when created by a summoned unit.<br><br>Taunt: enemies that are able and in range must attack the taunter"
+        }
+    ],
+    "embl": [
+        {
+            "name": "IoniaEmblem",
+            "compositions": "Spatula+BFSword",
+            "gain_trait": "Ionia",
+            "add_attrs": "The holder gains the Ionia trait.<br><br>Ionia Bonus: 33% Attack Speed.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "ChallengerEmblem",
+            "compositions": "Spatula+RecurveBow",
+            "gain_trait": "Challenger",
+            "add_attrs": "The holder gains the Challenger trait.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "JuggernautEmblem",
+            "compositions": "Spatula+ChainVest",
+            "gain_trait": "Juggernaut",
+            "add_attrs": "The holder gains the Juggernaut trait.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "DemaciaEmblem",
+            "compositions": "Spatula+NegatronCloak",
+            "gain_trait": "Demacia",
+            "add_attrs": "The holder gains the Demacia Trait.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "ShurimaEmblem",
+            "compositions": "Spatula+NeedlesslyLargeRod",
+            "gain_trait": "Shurima",
+            "add_attrs": "The holder gains the Shurima trait.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "SorcererEmblem",
+            "compositions": "Spatula+Tearofthegoddess",
+            "gain_trait": "Sorcerer",
+            "add_attrs": "The holder gains the Sorcerer trait."
+        },
+        {
+            "name": "NoxusEmblem",
+            "compositions": "Spatula+GiantsBelt",
+            "gain_trait": "Noxus",
+            "add_attrs": "The holder gains the Noxus trait.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "SlayerEmblem",
+            "compositions": "Spatula+SparringGloves",
+            "gain_trait": "Slayer",
+            "add_attrs": "The holder gains the Slayer trait.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "BastionEmblem",
+            "compositions": "",
+            "gain_trait": "Bastion",
+            "add_attrs": "The holder gains the Bastion trait.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "InvokerEmblem",
+            "compositions": "",
+            "gain_trait": "Invoker",
+            "add_attrs": "The holder gains the Invoker trait.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "StrategistEmblem",
+            "compositions": "",
+            "gain_trait": "Strategist",
+            "add_attrs": "The holder gains the Strategist trait.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "BruiserEmblem",
+            "compositions": "",
+            "gain_trait": "Bruiser",
+            "add_attrs": "The holder gains the Bruiser trait.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "RogueEmblem",
+            "compositions": "",
+            "gain_trait": "Rogue",
+            "add_attrs": "The holder gains the Rogue trait.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "VoidEmblem",
+            "compositions": "",
+            "gain_trait": "Void",
+            "add_attrs": "The holder gains the Void trait.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "GunnerEmblem",
+            "compositions": "",
+            "gain_trait": "Gunner",
+            "add_attrs": "The holder gains the Gunner trait.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "DeadeyeEmblem",
+            "compositions": "",
+            "gain_trait": "Deadeye",
+            "add_attrs": "The holder gains the Deadeye trait.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "FreljordEmblem",
+            "compositions": "",
+            "gain_trait": "Freljord",
+            "add_attrs": "The holder gains the Freljord trait.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "PiltoverEmblem",
+            "compositions": "",
+            "gain_trait": "Piltover",
+            "add_attrs": "The holder gains the Piltover trait.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "ZaunEmblem",
+            "compositions": "",
+            "gain_trait": "Zaun",
+            "add_attrs": "The holder gains the Zaun Trait.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "ShadowIslesEmblem",
+            "compositions": "",
+            "gain_trait": "Shadow Isles",
+            "add_attrs": "The holder gains the Shadow Isles Trait.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "TargonEmblem",
+            "compositions": "",
+            "gain_trait": "Targon",
+            "add_attrs": "The holder gains the Targon Trait.<br><br>[Unique - Only One Per Champion]"
+        }
+    ],
+    "radi": [
+        {
+            "name": "FimbulwinterRadiant",
+            "basic_attrs": [
+                "+60MP"
+            ],
+            "add_attrs": "Once per combat: At 40% Health, gain a 70 Armor and Magic Resist for the rest of combat, and a 50% maximum Health shield that lasts up to 10 seconds."
+        },
+        {
+            "name": "RadientArchangelsStaff",
+            "basic_attrs": [
+                "+30MP",
+                "+50AP"
+            ],
+            "add_attrs": "Combat start: Gain 30 Ability Power every 4 seconds."
+        },
+        {
+            "name": "RadientBloodthirster",
+            "basic_attrs": [
+                "+40%AD",
+                "+20MR"
+            ],
+            "add_attrs": "Grant: 40% Omnivamp.<br><br>Once per combat: At 40% Health, gain a 40% maximum Health shield that lasts up to 5 seconds."
+        },
+        {
+            "name": "RadientBlueBuff",
+            "basic_attrs": [
+                "+40MP",
+                "+50AP"
+            ],
+            "add_attrs": "Abilities cost 10 less Mana to cast.<br><br>If the holder gets at least 1 takedown within 3 seconds of casting, gain 20 Mana.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "RadientBrambleVest",
+            "basic_attrs": [
+                "+120AR"
+            ],
+            "add_attrs": "Negates all bonus damage from incoming critical strikes. On being hit by an attack, deal 125/175/225\u2605 magic damage to all nearby enemies (once every 2 seconds)."
+        },
+        {
+            "name": "RadientChaliceofPower",
+            "basic_attrs": [
+                "+45MR",
+                "+45MP"
+            ],
+            "add_attrs": "Combat start: Grant 45 Ability Power and 10% Omnivamp to the holder and allies within 1 hex in the same row.<br><br>[Aura item]"
+        },
+        {
+            "name": "RadientDeathblade",
+            "basic_attrs": [
+                "+125%AD"
+            ],
+            "add_attrs": "It glows in the presence of enemies. Or friends. Or anything alive, really."
+        },
+        {
+            "name": "RadientDragonsClaw",
+            "basic_attrs": [
+                "+140MR"
+            ],
+            "add_attrs": "Every 1.5 seconds, regenerate 10% maximum Health."
+        },
+        {
+            "name": "RadientEdgeofNight",
+            "basic_attrs": [
+                "+30%AD",
+                "+30AR"
+            ],
+            "add_attrs": "Once per combat: At 60% Health and again at 30% Helath, briefly become untargetable and shed negative effects. Then, gain 50% bonus Attack Speed. This effect stacks."
+        },
+        {
+            "name": "RadientGargoyleStoneplate",
+            "basic_attrs": [
+                "+30AR",
+                "+30MR"
+            ],
+            "add_attrs": "Grant 30 Armor and 30 Magic Resist for each enemy targeting holder.<br><br>Also, regenerate 2% maximum Health each second."
+        },
+        {
+            "name": "RadientGiantSlayer",
+            "basic_attrs": [
+                "+50%AD",
+                "+40AP",
+                "+10AS"
+            ],
+            "add_attrs": "Abilities and attacks deal 60% more damage to enemies with more than 1600 maximum Health."
+        },
+        {
+            "name": "RadientGuinsoosRageblade",
+            "basic_attrs": [
+                "+8AP",
+                "+20%AS"
+            ],
+            "add_attrs": "Attacks grant +10% bonus Attack Speed. This effect stacks."
+        },
+        {
+            "name": "RadientHandofJustice",
+            "basic_attrs": [
+                "+20%CR",
+                "+15MP"
+            ],
+            "add_attrs": "Grant 2 effects:<br>\r\n+50% Attack Damage and +50 Ability Power.<br>30% Omnivamp.<br><br>Omnivamp: heal for some of damage dealt"
+        },
+        {
+            "name": "RadientHextechGunblade",
+            "basic_attrs": [
+                "+10%AD",
+                "+40AP"
+            ],
+            "add_attrs": "The holder's damage heal them for 35% of the damage dealt. The holder also heals their lowest health ally for the same amount."
+        },
+        {
+            "name": "RadientInfinityEdge",
+            "basic_attrs": [
+                "+65%AD",
+                "+55%CR"
+            ],
+            "add_attrs": "Damage from an Ability can critically strike."
+        },
+        {
+            "name": "RadientIonicSpark",
+            "basic_attrs": [
+                "+10AP",
+                "+20MR"
+            ],
+            "add_attrs": "50% Shred enemies within 3 hexes. When enemies cast an Ability, they are alsol zapped for magic damage equal to 250% of their maximum Mana.<br><br>Also, regenerate 1% maximum Health per second"
+        },
+        {
+            "name": "RadientJeweledGauntlet",
+            "basic_attrs": [
+                "+50AP",
+                "+75%CR"
+            ],
+            "add_attrs": "Damage from an Ability can critically strike."
+        },
+        {
+            "name": "RadientLastWhisper",
+            "basic_attrs": [
+                "+35%AD",
+                "+10%AS",
+                "+55%CR"
+            ],
+            "add_attrs": "Any physical damage dealt the 50% Sunders the target for the rest of combat. This effect does not stack.<br><br>[Unique - only one per champion]<br>Sunder: reduce Armor"
+        },
+        {
+            "name": "RadientLocketoftheIronSolari",
+            "basic_attrs": [
+                "+10AP",
+                "+20AR"
+            ],
+            "add_attrs": "When combat begins, the holder and all allies within 3 hexes in the same row gain a shield that blocks 275/325/375\u2605 damage for 25 seconds.<br><br>Radiant Bonus: Grants 200 Health for all allies at the start of combat."
+        },
+        {
+            "name": "RadientMorellonomicon",
+            "basic_attrs": [
+                "+150HP",
+                "+40AP"
+            ],
+            "add_attrs": "Damage from the holder's Ability 3% Burns and 33% Wounds enemies for 30 seconds.<br><br>[Unique - only 1 per champion]<br>Burn: Deals a percent of the target's maximum Health as true damage every second<br>Wound: Reduces healing received"
+        },
+        {
+            "name": "RadientQuicksilver",
+            "basic_attrs": [
+                "+40MR",
+                "+50%AS"
+            ],
+            "add_attrs": "Combat start: Grant immunity to crowd control for 30 seconds.<br><br>[Unique - only 1 per champion]"
+        },
+        {
+            "name": "RadientRabadonsDeathcap",
+            "basic_attrs": [
+                "+140AP"
+            ],
+            "add_attrs": "It's witnessed - and unleashed - miracles and calamities both."
+        },
+        {
+            "name": "RadientRapidFirecannon",
+            "basic_attrs": [
+                "+125%AS",
+                "+2 AttackRG"
+            ],
+            "add_attrs": "Grant 2 bonus Attack Range and 125% Attack Speed, your attacks cannot miss."
+        },
+        {
+            "name": "RadientRedemption",
+            "basic_attrs": [
+                "+300HP",
+                "+15MP"
+            ],
+            "add_attrs": "Heal allies within 2 hexes for 25% of their missing Health every 5 seconds. They take 25% less multi-target damage for 5 seconds (damage reduction does not stack).<br><br>[Aura item]"
+        },
+        {
+            "name": "RadientRunaansHurricane",
+            "basic_attrs": [
+                "+20%AD",
+                "+10%AS",
+                "+20MR"
+            ],
+            "add_attrs": "Attacks fire a bolt at another nearby enemy, dealing 100% Attack Damage as physical damage.<br><br>[Direct damage item]"
+        },
+        {
+            "name": "RadientShroudofStillness",
+            "basic_attrs": [
+                "+400HP",
+                "+20%CR",
+                "+20AR"
+            ],
+            "add_attrs": "Combat start: Shoot a wider beam that  50% Mana Reaves enemies. Your team gains 25 starting Mana.<br><br>[Unique - only 1 per champion]<br>Mana Reave: increase maximum Mana until the next cast"
+        },
+        {
+            "name": "RadientSpearofShojin",
+            "basic_attrs": [
+                "+25%AD",
+                "+30MP",
+                "+45AP"
+            ],
+            "add_attrs": "Attack restore 10 additional Mana."
+        },
+        {
+            "name": "RadientStatikkShiv",
+            "basic_attrs": [
+                "+15MP",
+                "+10%AS"
+            ],
+            "add_attrs": "Every third attack unleashes chain lightning that bounces to 8 enemies, dealing 65 magic damage and reducing their Magic Resist by 50% for 5 seconds."
+        },
+        {
+            "name": "RadientStridebreaker",
+            "basic_attrs": [
+                "+150HP",
+                "+40%AD",
+                "+40AP",
+                "+20%CR"
+            ],
+            "add_attrs": "After damaging a shielded enemy, Abilities and attacks 50% deal more damage for 3 seconds."
+        },
+        {
+            "name": "RadientSunfireCape",
+            "basic_attrs": [
+                "+20AR"
+            ],
+            "add_attrs": "Every 1.5 seconds, a random enemy within 3 hexes is burned for 60% of their maximum Health as true damage over 30 seconds. Any healing they receive is reduced by 33%.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "RadientThiefsGloves",
+            "basic_attrs": [
+                "+40%CR"
+            ],
+            "add_attrs": "Each round: Equip 2 random Radiant items.<br><br>[Consumes 3 item slots]"
+        },
+        {
+            "name": "RadientTitansResolve",
+            "basic_attrs": [
+                "+30AR"
+            ],
+            "add_attrs": "Grant 3% Attack Damage 3 Ability Power when attacking or taking damage, stacking up to 25 times.<br><br>At full stacks, gain 60 Armor and Magic Resist."
+        },
+        {
+            "name": "RadientWarmogsArmor",
+            "basic_attrs": [
+                "+1300HP"
+            ],
+            "add_attrs": "Regenerate 1% max Health per second"
+        },
+        {
+            "name": "RadientZekesHerald",
+            "basic_attrs": [
+                "+35%AD",
+                "+350HP"
+            ],
+            "add_attrs": "Combat start: Grant 35% Attack Speed and 10% Omjnivamp to the holder and allies within  1 hex in the same row."
+        },
+        {
+            "name": "RadientZephyr",
+            "basic_attrs": [
+                "+300HP",
+                "+20MR",
+                "+20AS"
+            ],
+            "add_attrs": "Combat start: Summon a whirlwind on the opposite side of the arena that removes the closest enemy from combat for 8 seconds.<br>Your team gains 15% Attack Speed.<br><br>[Ignores crowd control immunity]<br>[Unique - only 1 per champion]"
+        },
+        {
+            "name": "RadientZzRotPortal",
+            "basic_attrs": [
+                "+10AS",
+                "+150HP"
+            ],
+            "add_attrs": "Combat start: A Radiant Voidmother with bonus Health and Attack Damage arises and Taunts nearby enemies.<br><br>Taunt: enemies that are able and in range must attack the taunter"
+        }
+    ],
+    "arti": [
+        {
+            "name": "OrnnItemBlackCleaver",
+            "basic_attrs": [
+                "+250HP",
+                "+25%AD"
+            ],
+            "add_attrs": "Attacks and Abilities shred enemy armor and magic resistance by 50% for 5 seconds.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "OrnnItemDeathsDance",
+            "basic_attrs": [
+                "+10%AD",
+                "+30AR",
+                "+25%AS"
+            ],
+            "add_attrs": "50% of the damage the holder receives is instead dealt over 4 seconds as non-lethal damage. The holder's Attacks and Abilities also heal for 25% of damage dealt.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "OrnnItemEverfrost",
+            "basic_attrs": [
+                "+200HP",
+                "+25AR"
+            ],
+            "add_attrs": "Enemies who damage the holder have their Attack Speed slowed by 20% for 1.5 seconds. After being slowed this way 7 times, the attacker is Stunned instead, but only once every 15 seconds.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "OrnnItemMuramana",
+            "basic_attrs": [
+                "+30MP",
+                "+15AD",
+                "+15%AS"
+            ],
+            "add_attrs": "Once per combat: After casting an Ability, restore 120 mana over 5 seconds.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "OrnnItemRanduinsOmen",
+            "basic_attrs": [
+                "+150HP"
+            ],
+            "add_attrs": "Combat start: Grant 40 Armor and 40 Magic Resistance to the holder and their adjacent allies.<br><br>[Aura item]"
+        },
+        {
+            "name": "OrnnItemSpiritVisage",
+            "basic_attrs": [
+                "+500HP",
+                "+25MR"
+            ],
+            "add_attrs": "Regenerates 2.5% maximum health each second."
+        },
+        {
+            "name": "OrnnItemTheCollector",
+            "basic_attrs": [
+                "+20%AD",
+                "+30%CR"
+            ],
+            "add_attrs": "Attacks and Abilities execute enemies below 12% of their maximum Health. Executions have a 40% chance to drop 1 gold .<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "OrnnItemTrinityForce",
+            "basic_attrs": [
+                "+25%AD",
+                "+25%AS",
+                "+25%AP",
+                "+25%MP",
+                "+25%AR",
+                "+25%MR",
+                "+25%HP"
+            ],
+            "add_attrs": "Health +250, Mana +25, Attack Damage +25%, Ability Power +25, Armor +25, Magic Resist +25, Attack Speed +25%"
+        },
+        {
+            "name": "OrnnItemZhonyasHourglass",
+            "basic_attrs": [
+                "+45AP",
+                "+30AR",
+                "+30MR"
+            ],
+            "add_attrs": "Once per combat: At 40% Health, become invulnerable for 3 seconds.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "DeathfireGrasp",
+            "basic_attrs": [
+                "+30MP",
+                "+50AP"
+            ],
+            "add_attrs": "Combat start: the holder fires a blast of energy at their target, marking them and dealing 20% of their maximum health as magic damage.<br><br>For the next 10 seconds, the holder's abilities and attacks deal 35% increased damage to the marked target, and 25% increased damage to other targets.<br><br>[Unique - only 1 per champion]"
+        },
+        {
+            "name": "BlacksmithsGloves",
+            "basic_attrs": [],
+            "add_attrs": "Each round: Equip 2 random Ornn Artifacts.<br><br>[Consumes 3 item slots]"
+        },
+        {
+            "name": "TrickstersGlass",
+            "basic_attrs": [
+                "+200HP",
+                "+10AR",
+                "+10MR",
+                "+10%AS",
+                "+15%CR"
+            ],
+            "add_attrs": "Summon a clone with 70% maximum Health and 30% increased maximum Mana. You cannot equip items to the clone."
+        },
+        {
+            "name": "Hullcrusher",
+            "basic_attrs": [
+                "+40AR",
+                "+40MR",
+                "+30%AS"
+            ],
+            "add_attrs": "If this unit has no adjacent allies at combat start, gain an additional 600 Health."
+        },
+        {
+            "name": "SnipersFocus",
+            "basic_attrs": [
+                "+15%AD",
+                "+15AP",
+                "+15%AS",
+                "+1RG"
+            ],
+            "add_attrs": "The holder's attacks and abilities deal 10% increased damage for each hex between them and their target. Gain +1 Attack range."
+        }
+    ],
+    "supp": [],
+    "spec": [
+        {
+            "name": "ForceofNature",
+            "attrs": "Your team gains +1 maximum team size."
+        },
+        {
+            "name": "AdaptiveImplant",
+            "attrs": "Mod: While above 50% health, gain 30% attack damage and 30 ability power. While below, gain 30% omnivamp.<br><br>Overcharge: Always gain both effects, and their power is increased by 60%"
+        },
+        {
+            "name": "VirulentBioware",
+            "attrs": "Mod: Release a virulent plague whenever you deal Ability damage, causing enemies within 1 hex of the target to take 20% more damage for 4 seconds.<br><br>Overcharge: Plague duration is 10 seconds and plague deals 5% max health magic damage per second."
+        },
+        {
+            "name": "HextechExoskeleton",
+            "attrs": "Mod: Gain 30 armor and magic resistance. Every 5 seconds, cleanse all negative effects and heal for 12% of your max health.<br><br>Overcharge: Each time the wearer heals, deal 150% of the heal amount as damage to all nearby enemies."
+        },
+        {
+            "name": "ShimmerInjector",
+            "attrs": "Mod: Gain 25% attack speed. The first time you would be reduced to 1 heath, increase the attack speed by 100% and heal for 35% of your max health.<br><br>Overcharge: Instead increase the attack speed 400% and heal 100% of your max health."
+        },
+        {
+            "name": "RoboticArm",
+            "attrs": "Mod: Attacks have a 40% chance to trigger 1 additional attacks.<br><br>Overcharge: Attack deal 50% Attack Damage as bonus true damage."
+        },
+        {
+            "name": "UnstableChemtank",
+            "attrs": "Mod: Gain 33% bonus max health and explode on death, dealing 35% of your maximum health as magic damage to nearby enemies.<br><br>Overcharge: Explosion gets larger and damage increases to 45% of your maximum health."
+        },
+        {
+            "name": "NeedlesslyBigGem",
+            "attrs": "Once per combat: If the holder is alive after 15 seconds of combat, grant 1 gold per 2 living allies, and each living ally deals 1% more damage per gold in your bank (up to 60 gold)."
+        },
+        {
+            "name": "DravensAxe",
+            "attrs": "Gain 1% Attack Damage per gold in your bank (up to 60 gold).Attacks grant 1 stack, up to 100 times. At full stacks, grant 9 gold."
+        },
+        {
+            "name": "GamblersBlade",
+            "attrs": "Grant 1% bonus Attack Speed per gold in your bank (up to 60 gold).Each attack has a 6% chance to drop 1 gold."
+        },
+        {
+            "name": "DiamondHands",
+            "attrs": "Once per combat: At 50% Health, become invulnerable for 1.5 seconds and grant 2 gold."
+        },
+        {
+            "name": "CrownofDemacia",
+            "attrs": "If the wearer starts combat in the front 2 rows, regenerate 2-7% maximum Health per second (based on stage). If they start in the back 2 rows, gain 1-7% AD and AP every second instead. If the wearer of this item dies, you instantly lose the fight.You can remove this item by benching the wearer."
+        },
+        {
+            "name": "TheDarkinBlade",
+            "attrs": "If the holder of this item gets a takedown, they will be consumed and Aatrox will be reborn!"
+        },
+        {
+            "name": "MogulsMail",
+            "attrs": "Grants 1 Armor, 1 Magic Resist, and 6 Health when taking damage, stacking up to 40 times. At full stacks, grant 2 gold."
+        },
+        {
+            "name": "GoldmancersStaff",
+            "attrs": "Grant 1 Ability Power per gold in your bank (up to 60 gold) and a 40% chance to drop 2 gold on enemy kill."
+        },
+        {
+            "name": "DeterminedInvestor",
+            "attrs": "After dying during combat 8 times, this item is destroyed. Upon destruction, grant the item Diamond Hands, 1 Champion Duplicator, and 5 gold."
+        },
+        {
+            "name": "Scrollofknowledge",
+            "attrs": "Use on a unit to open a special armory that offers every available emblem that matches that unit's inherent traits."
+        },
+        {
+            "name": "Masterworkupgrade",
+            "attrs": "Use on a unit to open an armory containing Radiant versions of that unit's craftable completed items. Upgrade the item you choose to its Radiant equivalent, and unequip it."
+        }
+    ]
+}

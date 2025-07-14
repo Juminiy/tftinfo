@@ -1,0 +1,312 @@
+{
+    "comp": [
+        {
+            "name": "BFSword",
+            "attr": "+15 AD"
+        },
+        {
+            "name": "RecurveBow",
+            "attr": "+15% AS"
+        },
+        {
+            "name": "NeedlesslyLargeRod",
+            "attr": "AP +20%"
+        },
+        {
+            "name": "Tearofthegoddess",
+            "attr": "+20<br>Starting Mana"
+        },
+        {
+            "name": "ChainVest",
+            "attr": ""
+        },
+        {
+            "name": "NegatronCloak",
+            "attr": "+25 MR"
+        },
+        {
+            "name": "GiantsBelt",
+            "attr": "+200 HP"
+        },
+        {
+            "name": "Spatula",
+            "attr": "You will get<br>special ability"
+        },
+        {
+            "name": "SparringGloves",
+            "attr": "+10%<br>Dodge change<br>Crit chance"
+        }
+    ],
+    "craf": [
+        {
+            "name": "LordsEdge",
+            "compositions": "sword+sword",
+            "basic_attrs": [],
+            "add_attrs": "On a kill or assist, gain an additional 15 Attack Damage until end of combat (Stacks infinitely)."
+        },
+        {
+            "name": "GiantSlayer",
+            "compositions": "sword+bow",
+            "basic_attrs": [],
+            "add_attrs": "Attacks deal an additional 9% enemy current Health as Physical Damage."
+        },
+        {
+            "name": "HextechGunblade",
+            "compositions": "sword+rod",
+            "basic_attrs": [],
+            "add_attrs": "Heal for 33% of all damage dealt"
+        },
+        {
+            "name": "SpearofShojin",
+            "compositions": "sword+tear",
+            "basic_attrs": [],
+            "add_attrs": "After casting, wearer gains 18% of its max Mana per attack"
+        },
+        {
+            "name": "GuardianAngel",
+            "compositions": "sword+vest",
+            "basic_attrs": [],
+            "add_attrs": "Wearer revives with 400 HP"
+        },
+        {
+            "name": "Bloodthirster",
+            "compositions": "sword+cloak",
+            "basic_attrs": [],
+            "add_attrs": "Attacks heal for 50% of damage"
+        },
+        {
+            "name": "ZekesHerald",
+            "compositions": "sword+belt",
+            "basic_attrs": [],
+            "add_attrs": "At the start of combat, allies within the same row gain +20% Attack Speed for the rest of combat"
+        },
+        {
+            "name": "InfinityEdge",
+            "compositions": "sword+glove",
+            "basic_attrs": [],
+            "add_attrs": "+100% Crit. Dmg"
+        },
+        {
+            "name": "RapidFirecannon",
+            "compositions": "bow+bow",
+            "basic_attrs": [],
+            "add_attrs": "Attack Range is doubled"
+        },
+        {
+            "name": "GuinsoosRageblade",
+            "compositions": "bow+rod",
+            "basic_attrs": [],
+            "add_attrs": "Attack grant 5% Attack Speed. Stacks infinitely."
+        },
+        {
+            "name": "StatikkShiv",
+            "compositions": "bow+tear",
+            "basic_attrs": [],
+            "add_attrs": "Deals 85 magic damage to 3 / 4 / 5 enemies (scales with wearer\u2019s Star Level)"
+        },
+        {
+            "name": "TitansResolve",
+            "compositions": "bow+vest",
+            "basic_attrs": [],
+            "add_attrs": "When the wearer is hit or inflicts a critical strike, they gain a 2% stacking damage bonus, up to 100%. At 50 stacks, the wearer gains 25 Armor and MR; and increases in size. Resets every round."
+        },
+        {
+            "name": "RunaansHurricane",
+            "compositions": "bow+cloak",
+            "basic_attrs": [],
+            "add_attrs": "Summon a spirit who mirrors your attacks, dealing 60% Damage"
+        },
+        {
+            "name": "TitanicHydra",
+            "compositions": "bow+belt",
+            "basic_attrs": [],
+            "add_attrs": "3% Max Health to target and adjacent enemies behind them."
+        },
+        {
+            "name": "LastWhisper",
+            "compositions": "bow+glove",
+            "basic_attrs": [],
+            "add_attrs": "Critical hits reduce the target\u2019s Armor by 90% for 3 seconds. This effect does not stack."
+        },
+        {
+            "name": "RabadonsDeathcap",
+            "compositions": "rod+rod",
+            "basic_attrs": [],
+            "add_attrs": "Wearer's Spell Power stat is amplified by 75%"
+        },
+        {
+            "name": "LudensEcho",
+            "compositions": "rod+tear",
+            "basic_attrs": [],
+            "add_attrs": "Deals 150 / 175 / 225 magic damage (scales with wearer\u2019s Star Level)"
+        },
+        {
+            "name": "LocketoftheIronSolari",
+            "compositions": "rod+vest",
+            "basic_attrs": [],
+            "add_attrs": "Shields allies within two hexes in the same row for 250 / 275 / 350 damage for 8 seconds (scales with wearer\u2019s Star Level)"
+        },
+        {
+            "name": "IonicSpark",
+            "compositions": "rod+cloak",
+            "basic_attrs": [],
+            "add_attrs": "Enemies within 3 hexes that cast a spell are zapped, taking magic damage equal to 225% of their max Mana."
+        },
+        {
+            "name": "Morellonomicon",
+            "compositions": "rod+belt",
+            "basic_attrs": [],
+            "add_attrs": "Spells deal burn damage equal to 18% of the enemy's maximum health over 10s and prevent healing"
+        },
+        {
+            "name": "ArcaneGauntlet",
+            "compositions": "rod+glove",
+            "basic_attrs": [],
+            "add_attrs": "Your spells can Crit"
+        },
+        {
+            "name": "SeraphsEmbrace",
+            "compositions": "tear+tear",
+            "basic_attrs": [],
+            "add_attrs": "Wearer regains 20 mana after spellcast"
+        },
+        {
+            "name": "FrozenHeart",
+            "compositions": "tear+vest",
+            "basic_attrs": [],
+            "add_attrs": "Adjacent enemies lose 40% Attack Speed. (Stacking increases the radius of this effect, not the amount of the slow)"
+        },
+        {
+            "name": "Hush",
+            "compositions": "tear+cloak",
+            "basic_attrs": [],
+            "add_attrs": "20% chance on hit to prevent the enemy champion from gaining mana for 4 seconds."
+        },
+        {
+            "name": "Redemption",
+            "compositions": "tear+belt",
+            "basic_attrs": [],
+            "add_attrs": "On crossing below 30% health, heal all nearby allies for 1200 Health"
+        },
+        {
+            "name": "HandofJustice",
+            "compositions": "tear+glove",
+            "basic_attrs": [],
+            "add_attrs": "Each planning phase, gain one: Deal 50% more damage / Gain 50 Life on Hit"
+        },
+        {
+            "name": "BrambleVest",
+            "compositions": "vest+vest",
+            "basic_attrs": [],
+            "add_attrs": "Negates bonus damage from incoming critical hits. On being hit by a Basic Attack, deal 100 / 140 / 200 magic damage to all nearby enemies (once every 1 second maximum). Scales with wearer\u2019s Star Level."
+        },
+        {
+            "name": "SwordBreaker",
+            "compositions": "vest+cloak",
+            "basic_attrs": [],
+            "add_attrs": "25% chance to disarm for 3 seconds"
+        },
+        {
+            "name": "RedBuff",
+            "compositions": "vest+belt",
+            "basic_attrs": [],
+            "add_attrs": "Gains 18% max hp true damage over 10 seconds on hit in addition to its burn"
+        },
+        {
+            "name": "IceborneGauntlet",
+            "compositions": "vest+glove",
+            "basic_attrs": [],
+            "add_attrs": "After casting a spell, the wearer\u2019s next basic attack freezes the target for 2.5 seconds."
+        },
+        {
+            "name": "DragonsClaw",
+            "compositions": "cloak+cloak",
+            "basic_attrs": [],
+            "add_attrs": "Gain 50% resistance to magic damage"
+        },
+        {
+            "name": "Zephyr",
+            "compositions": "cloak+belt",
+            "basic_attrs": [],
+            "add_attrs": "On start of combat, banish an enemy for 6 seconds"
+        },
+        {
+            "name": "Quicksilver",
+            "compositions": "cloak+glove",
+            "basic_attrs": [],
+            "add_attrs": "[UNIQUE] The wearer is immune to crowd control."
+        },
+        {
+            "name": "WarmogsArmor",
+            "compositions": "belt+belt",
+            "basic_attrs": [],
+            "add_attrs": "Wearer regenerates 6% max Health per second."
+        },
+        {
+            "name": "Backhand",
+            "compositions": "belt+glove",
+            "basic_attrs": [],
+            "add_attrs": "Start combat with a spell shield. Stun the champion that breaks it for 4 sec"
+        },
+        {
+            "name": "ThiefsGloves",
+            "compositions": "glove+glove",
+            "basic_attrs": [],
+            "add_attrs": "Each planning phase, fetch two temporary items, quality based upon your player level. [Consumes Three item Slots]"
+        }
+    ],
+    "embl": [],
+    "radi": [],
+    "arti": [],
+    "supp": [],
+    "spec": [
+        {
+            "name": "PhantomDancer",
+            "attrs": "Wearer dodges the bonus damage from critical strikes"
+        },
+        {
+            "name": "Thornmail",
+            "attrs": "Reflect 100% of damage mitigated from attacks"
+        },
+        {
+            "name": "RepeatingCrossbow",
+            "attrs": "On death, Repeating Crossbow bounces to a new unit and grants an extra +30% Attack Speed and +30% Crit chance"
+        },
+        {
+            "name": "YoumuusGhostblade",
+            "attrs": "Extra Attack Damage +20. Wearer is also an Assassin"
+        },
+        {
+            "name": "BladeoftheRuinedKing",
+            "attrs": "Extra AS +20%. Wearer is also a Blademaster"
+        },
+        {
+            "name": "InfernoCinder",
+            "attrs": "Wearer is also an Inferno."
+        },
+        {
+            "name": "MagesCap",
+            "attrs": "Wearer is also a Mage."
+        },
+        {
+            "name": "WardensMail",
+            "attrs": "Wearer is also a Warden."
+        },
+        {
+            "name": "TalismanofLight",
+            "attrs": "Wearer is also a Light."
+        },
+        {
+            "name": "FrozenMallet",
+            "attrs": "Extra HP +200. Wearer is also a Glacial"
+        },
+        {
+            "name": "ForceofNature",
+            "attrs": "Gain +1 team size"
+        },
+        {
+            "name": "BerserkerAxe",
+            "attrs": "Wearer is also a Berserker."
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+[
+    {
+        "craftable": {
+            "name": "PBECrownguard",
+            "compositions": "sword+sword",
+            "basic_attrs": [
+                "+100HP",
+                "+20AP",
+                "+20AR"
+            ],
+            "add_attrs": "Combat start: Gain a 25% max Health Shield for 8 seconds.<br>When the shield expires, gain 25 Ability Power."
+        },
+        "radiant": {
+            "name": "PBECrownguardRadiant",
+            "basic_attrs": [
+                "+200HP",
+                "+40AP",
+                "+40AR"
+            ],
+            "add_attrs": "Combat start: Gain a 50% max Health Shield for 8 seconds.<br>When the shield expires, gain 50 Ability Power."
+        }
+    },
+    {
+        "craftable": {
+            "name": "PBEEvenshroud",
+            "compositions": "cloak+sword",
+            "basic_attrs": [
+                "+150HP",
+                "+20MR"
+            ],
+            "add_attrs": "30% Sunder enemies within 2 hexes. Gain 25 Armor and Magic Resist for the first 15 seconds of combat.<br><br>Sunder: Reduce Armor"
+        },
+        "radiant": {
+            "name": "PBEEvenshroudRadiant",
+            "basic_attrs": [
+                "+500HP",
+                "+30MR"
+            ],
+            "add_attrs": "30% Sunder enemies within 3 hexes. Grant 70 Armor and Magic Resist for the first 20 seconds of combat.<br><br>Sunder: Reduce Armor"
+        }
+    },
+    {
+        "craftable": {
+            "name": "PBEFimbulwinter",
+            "compositions": "sword+sword",
+            "basic_attrs": [
+                "+25AR",
+                "+25MR"
+            ],
+            "add_attrs": "Start of Combat: Gain 20 Mana.<br><br>Lifeline: At 40% Health, gain 20 and a Shield equal to 20% max Health."
+        },
+        "radiant": {
+            "name": "PBEFimbulwinterRadiant",
+            "basic_attrs": [
+                "+40AR",
+                "+40MR"
+            ],
+            "add_attrs": "Start of Combat: Gain 20 Mana.<br><br>Lifeline: At 40%% Health, gain 20 and a Shield equal to 50%% max Health."
+        }
+    },
+    {
+        "craftable": {
+            "name": "PBENashorsTooth",
+            "compositions": "sword+sword",
+            "basic_attrs": [
+                "+150HP",
+                "+10AP",
+                "+10%AS"
+            ],
+            "add_attrs": "After casting an Ability, gain 60% Attack Speed for 5 seconds."
+        },
+        "radiant": {
+            "name": "PBENashorsToothRadiant",
+            "basic_attrs": [
+                "+200HP",
+                "+30AP",
+                "+20%AS"
+            ],
+            "add_attrs": "After casting an Ability, gain 120% Attack Speed for 8 seconds."
+        }
+    }
+]

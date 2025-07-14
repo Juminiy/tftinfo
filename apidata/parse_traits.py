@@ -11,6 +11,14 @@ from json import dumps,loads
 from functools import cmp_to_key
 
 from tftdata import setdata
+
+def emblem_cmp_func(s1:str,s2:str) -> int:
+    if s1 in ['Spatula', 'FryingPan', 'ShadowSpatula']:
+        return -1
+    elif s2 in ['Spatula', 'FryingPan', 'ShadowSpatula']:
+        return 1
+    return 0
+
 traitsall:Dict[str,Any]={}
 
 for setof in setlist:
@@ -27,14 +35,7 @@ for setof in setlist:
     chmps=[(chp['name'], chp['traits']) for chp in champions['champions'] if select_champions(setof, chp)]
 
     items=setdata[setof]['items']
-
-    def item_cmp_fn(s1:str,s2:str) -> int:
-        if s1 in ['Spatula', 'FryingPan']:
-            return -1
-        elif s2 in ['Spatula', 'FryingPan']:
-            return 1
-        return 0
-    emblems={str(emb['key']).removesuffix('Emblem'): sorted(emb['compositions'], key=cmp_to_key(item_cmp_fn))
+    emblems={str(emb['key']).removesuffix('Emblem'): sorted(emb['compositions'], key=cmp_to_key(emblem_cmp_func))
              for emb in items['items'] 
              if str(emb['key']).endswith('Emblem') and 
              ('compositions' in emb) and 

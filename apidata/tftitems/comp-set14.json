@@ -1,0 +1,491 @@
+[
+    {
+        "craftable": {
+            "name": "Bloodthirster",
+            "compositions": "sword+cloak",
+            "basic_attrs": [
+                "+15%AD",
+                "+15AP",
+                "+20%OV",
+                "+20MR"
+            ],
+            "add_attrs": "Once per combat at 40% Health, gain a 25% max Health Shield that lasts up to 5 seconds."
+        },
+        "radiant": {
+            "name": "RadientBloodthirster",
+            "basic_attrs": [
+                "+40%AD",
+                "+40AP",
+                "+20MR",
+                "+40%OV"
+            ],
+            "add_attrs": "Once per combat: At 40% Health, gain a 40% max Health Shield that lasts up to 5 seconds."
+        }
+    },
+    {
+        "craftable": {
+            "name": "BrambleVest",
+            "compositions": "vest+vest",
+            "basic_attrs": [
+                "+65AR"
+            ],
+            "add_attrs": "Gain 7% max health.<br><br>Take 8% reduced damage from attacks. When struck by any attack, deal 100 magic damage to all adjacent enemies.<br><br>Cooldown: 2 seconds"
+        },
+        "radiant": {
+            "name": "RadientBrambleVest",
+            "basic_attrs": [
+                "+100AR"
+            ],
+            "add_attrs": "Gain 15% max health.<br><br>Take 25% reduced damage from attacks. When struck by an attack, deal 175 magic damage to all adjacent enemies<br><br>Cooldown: 2 seconds"
+        }
+    },
+    {
+        "craftable": {
+            "name": "Crownguard",
+            "compositions": "vest+rod",
+            "basic_attrs": [
+                "+100HP",
+                "+20AP",
+                "+20AR"
+            ],
+            "add_attrs": "Combat start: Gain a 25% max Health Shield for 8 seconds.<br>When the shield expires, gain 25 Ability Power."
+        },
+        "radiant": {
+            "name": "CrownguardRadiant",
+            "basic_attrs": [
+                "+200HP",
+                "+40AP",
+                "+40AR"
+            ],
+            "add_attrs": "Combat start: Gain a 50% max Health Shield for 8 seconds.<br>When the shield expires, gain 50 Ability Power."
+        }
+    },
+    {
+        "craftable": {
+            "name": "DragonsClaw",
+            "compositions": "cloak+cloak",
+            "basic_attrs": [
+                "+75MR"
+            ],
+            "add_attrs": "Gain 9% max health.<br><br>Every 2 seconds, heal 2.5% max Health."
+        },
+        "radiant": {
+            "name": "RadientDragonsClaw",
+            "basic_attrs": [
+                "+115MR"
+            ],
+            "add_attrs": "Gain 15% max health.<br><br>Every 2 seconds, regenerate 10% max Health."
+        }
+    },
+    {
+        "craftable": {
+            "name": "Evenshroud",
+            "compositions": "cloak+belt",
+            "basic_attrs": [
+                "+150HP",
+                "+20MR"
+            ],
+            "add_attrs": "30% Sunder enemies within 2 hexes. Gain 25 Armor and Magic Resist for the first 15 seconds of combat.<br><br>Sunder: Reduce Armor"
+        },
+        "radiant": {
+            "name": "EvenshroudRadiant",
+            "basic_attrs": [
+                "+500HP",
+                "+30MR"
+            ],
+            "add_attrs": "30% Sunder enemies within 3 hexes. Grant 70 Armor and Magic Resist for the first 20 seconds of combat.<br><br>Sunder: Reduce Armor"
+        }
+    },
+    {
+        "craftable": {
+            "name": "Fimbulwinter",
+            "compositions": "vest+tear",
+            "basic_attrs": [
+                "+30MP"
+            ],
+            "add_attrs": "Once per combat at 40% Health, gain a 25% max Health Shield that lasts 5 seconds and gain 20 Armor and 20 Magic Resist."
+        },
+        "radiant": {
+            "name": "FimbulwinterRadiant",
+            "basic_attrs": [
+                "+30MP",
+                "+40AR"
+            ],
+            "add_attrs": "Once per combat at 40% Health, gain a 50% max Health shield that lasts 10 seconds and gain 60 Armor and Magic Resist."
+        }
+    },
+    {
+        "craftable": {
+            "name": "GiantSlayer",
+            "compositions": "sword+bow",
+            "basic_attrs": [
+                "+25%AD",
+                "+10%AS",
+                "+5%DA"
+            ],
+            "add_attrs": "Gain 15% Damage Amp against enemies with more than 1750 max Health."
+        },
+        "radiant": {
+            "name": "RadientGiantSlayer",
+            "basic_attrs": [
+                "+50%AD",
+                "+50AP",
+                "+10%AS",
+                "+20DA"
+            ],
+            "add_attrs": "Gain 30% Damage Amp against enemies with more than 1750 max Health."
+        }
+    },
+    {
+        "craftable": {
+            "name": "GuinsoosRageblade",
+            "compositions": "bow+rod",
+            "basic_attrs": [
+                "+10AP",
+                "+10%AS"
+            ],
+            "add_attrs": "Gain 7% stacking Attack Speed every second."
+        },
+        "radiant": {
+            "name": "RadientGuinsoosRageblade",
+            "basic_attrs": [
+                "+10AP",
+                "+30%AS"
+            ],
+            "add_attrs": "Gain 14% stacking Attack Speed every second."
+        }
+    },
+    {
+        "craftable": {
+            "name": "HandofJustice",
+            "compositions": "tear+glove",
+            "basic_attrs": [
+                "+15MP",
+                "+20%CR"
+            ],
+            "add_attrs": "Gain 2 effects:<br>- 15% Attack Damage and 15 Ability Power.<br>- 12% Omnivamp<br><br>Attack Damage and Ability Power are doubled above 50% health, and Omnivamp is doubled below 50% health"
+        },
+        "radiant": {
+            "name": "RadientHandofJustice",
+            "basic_attrs": [
+                "+40%CR",
+                "+15MP"
+            ],
+            "add_attrs": "Gain 2 effects:<br>-50% Attack Damage and 50 Ability Power.<br>- 30% Omnivamp<br>Attack Damage and Ability Power are doubled above 50% health, and the Omnivamp is doubled below 50% health"
+        }
+    },
+    {
+        "craftable": {
+            "name": "HextechGunblade",
+            "compositions": "sword+rod",
+            "basic_attrs": [
+                "+20%AD",
+                "+20AP",
+                "+18%DA"
+            ],
+            "add_attrs": "Heal the lowest percent Health ally for 20% of damage dealt."
+        },
+        "radiant": {
+            "name": "RadientHextechGunblade",
+            "basic_attrs": [
+                "+30%OV",
+                "+40%AD",
+                "+40AP"
+            ],
+            "add_attrs": "Heal the lowest percent Health ally for 40% of damage dealt."
+        }
+    },
+    {
+        "craftable": {
+            "name": "InfinityEdge",
+            "compositions": "sword+glove",
+            "basic_attrs": [
+                "+35%AD",
+                "+35%CR"
+            ],
+            "add_attrs": "Abilities can critically strike.<br><br>If the holder's abilities can already critically strike, gain 10% Critical Strike Damage instead."
+        },
+        "radiant": {
+            "name": "RadientInfinityEdge",
+            "basic_attrs": [
+                "+70%AD",
+                "+75%CR"
+            ],
+            "add_attrs": "Ability can critically strike.<br><br>If the holder's abilities can already critically strike, gain 10% Critical Strike Damage instead."
+        }
+    },
+    {
+        "craftable": {
+            "name": "IonicSpark",
+            "compositions": "cloak+rod",
+            "basic_attrs": [
+                "+150HP",
+                "+15AP",
+                "+25MR"
+            ],
+            "add_attrs": "30% Shred enemies within 2 hexes. When enemies cast an Ability, deal magic damage equal to 160% of the Mana spent.<br><br>Shred: Reduce Magic Resist"
+        },
+        "radiant": {
+            "name": "RadientIonicSpark",
+            "basic_attrs": [
+                "+200HP",
+                "+15AP",
+                "+40MR"
+            ],
+            "add_attrs": "30% Shred enemies within 3 hexes. When enemies cast an Ability, deal magic damage equal to 200% of the Mana spent..<br><br>Also, heal 1.5% max Health per second.<br><br>[Direct damage item]<br>Shred: Reduce Magic Resist"
+        }
+    },
+    {
+        "craftable": {
+            "name": "LastWhisper",
+            "compositions": "bow+glove",
+            "basic_attrs": [
+                "+15%AD",
+                "+20%AS",
+                "+20%CR"
+            ],
+            "add_attrs": "Physical damage 30% Sunders the target for 3 seconds. This effect does not stack.<br><br>[Unique - Only One Per Champion]<br>Sunder: reduce Armor"
+        },
+        "radiant": {
+            "name": "RadientLastWhisper",
+            "basic_attrs": [
+                "+45%AD",
+                "+25%AS",
+                "+55%CR"
+            ],
+            "add_attrs": "Physical damage 30% Sunders the target for the rest of combat. This effect does not stack.<br><br>[Unique - only one per champion]<br>Sunder: reduce Armor"
+        }
+    },
+    {
+        "craftable": {
+            "name": "Morellonomicon",
+            "compositions": "rod+belt",
+            "basic_attrs": [
+                "+150HP",
+                "+25AP",
+                "+10%AS"
+            ],
+            "add_attrs": "Attacks and Abilities deal 1% Burn and 33% Wound to enemies for 10 seconds.<br><br>[Unique - only 1 per champion]<br>Burn: Deals a percent of the target's max Health as true damage every second<br>Wound: Reduces healing received"
+        },
+        "radiant": {
+            "name": "RadientMorellonomicon",
+            "basic_attrs": [
+                "+150HP",
+                "+50AP",
+                "+25%AS"
+            ],
+            "add_attrs": "Attacks and Abilities deal 2% Burn and 33% Wound to enemies for 8 seconds.<br><br>[Unique - only 1 per champion]<br>Burn: Deals a percent of the target's max Health as true damage every second<br>Wound: Reduces healing received"
+        }
+    },
+    {
+        "craftable": {
+            "name": "NashorsTooth",
+            "compositions": "bow+belt",
+            "basic_attrs": [
+                "+150HP",
+                "+10AP",
+                "+10%AS"
+            ],
+            "add_attrs": "After casting an Ability, gain 60% Attack Speed for 5 seconds."
+        },
+        "radiant": {
+            "name": "NashorsToothRadiant",
+            "basic_attrs": [
+                "+200HP",
+                "+30AP",
+                "+20%AS"
+            ],
+            "add_attrs": "After casting an Ability, gain 120% Attack Speed for 8 seconds."
+        }
+    },
+    {
+        "craftable": {
+            "name": "Quicksilver",
+            "compositions": "cloak+glove",
+            "basic_attrs": [
+                "+20MR"
+            ],
+            "add_attrs": "Combat start: Gain immunity to crowd control for 18 seconds. During this time, gain 3% Attack Speed every 2 seconds.<br><br>[Unique - only 1 per champion]"
+        },
+        "radiant": {
+            "name": "RadientQuicksilver",
+            "basic_attrs": [
+                "+30MR",
+                "+50%AS",
+                "+40%CR"
+            ],
+            "add_attrs": "Combat start: Gain immunity to crowd control for 45 seconds. For 18 seconds, gain 7% Attack Speed every 2 seconds.<br><br>[Unique - only 1 per champion]"
+        }
+    },
+    {
+        "craftable": {
+            "name": "RabadonsDeathcap",
+            "compositions": "rod+rod",
+            "basic_attrs": [
+                "+50AP",
+                "+15%DA"
+            ],
+            "add_attrs": "+50 Ability Power, +15% Damage Amp"
+        },
+        "radiant": {
+            "name": "RadientRabadonsDeathcap",
+            "basic_attrs": [
+                "+80AP"
+            ],
+            "add_attrs": "+70 Ability Power, +33% Damage Amp"
+        }
+    },
+    {
+        "craftable": {
+            "name": "Redemption",
+            "compositions": "tear+belt",
+            "basic_attrs": [
+                "+300HP",
+                "+15MP",
+                "+10%DR"
+            ],
+            "add_attrs": "Restore 2.5% of missing Health each second."
+        },
+        "radiant": {
+            "name": "RadientRedemption",
+            "basic_attrs": [
+                "+600HP",
+                "+15MP",
+                "+15%DR"
+            ],
+            "add_attrs": "Restore 5% of missing Health each second."
+        }
+    },
+    {
+        "craftable": {
+            "name": "RunaansHurricane",
+            "compositions": "bow+cloak",
+            "basic_attrs": [
+                "+15%AD",
+                "+10%AS",
+                "+20MR"
+            ],
+            "add_attrs": "Attacks grant 3% stacking Attack Damage."
+        },
+        "radiant": {
+            "name": "RadientRunaansHurricane",
+            "basic_attrs": [
+                "+30%AD",
+                "+25%AS",
+                "+20MR"
+            ],
+            "add_attrs": "Attacks grant 6% stacking Attack Damage"
+        }
+    },
+    {
+        "craftable": {
+            "name": "SpearofShojin",
+            "compositions": "sword+tear",
+            "basic_attrs": [
+                "+15MP",
+                "+15%AD"
+            ],
+            "add_attrs": "Attacks grant 5 bonus Mana."
+        },
+        "radiant": {
+            "name": "RadientSpearofShojin",
+            "basic_attrs": [
+                "+35%AD",
+                "+20MP",
+                "+35AP"
+            ],
+            "add_attrs": "Attacks grant 10 bonus Mana."
+        }
+    },
+    {
+        "craftable": {
+            "name": "SteadfastHeart",
+            "compositions": "vest+glove",
+            "basic_attrs": [
+                "+20AR",
+                "+20%CR"
+            ],
+            "add_attrs": "Gain 10% Durability. While above 50% Health, instead gain 18% Durability."
+        },
+        "radiant": {
+            "name": "RadientSteadfastHeart",
+            "basic_attrs": [
+                "+500HP",
+                "+40AR",
+                "+20%CR"
+            ],
+            "add_attrs": "Gain 16% Durability. While above 40% Health, instead gain 30% Durability."
+        }
+    },
+    {
+        "craftable": {
+            "name": "SunfireCape",
+            "compositions": "vest+belt",
+            "basic_attrs": [
+                "+20AR"
+            ],
+            "add_attrs": "Every 2 seconds, deal 1% Burn and 33% Wound to an enemy within 2 hexes for 10 seconds.<br><br>[Unique - only 1 per champion]<br>Burn: Deals a percent of the target's max Health as true damage every second<br>Wound: Reduces healing received"
+        },
+        "radiant": {
+            "name": "RadientSunfireCape",
+            "basic_attrs": [
+                "+40AR"
+            ],
+            "add_attrs": "Every 1.5 seconds, deal 2% Burn and 33% Wound to an enemy within 3 hexes for 8 seconds.<br><br>[Unique - only 1 per champion]<br>Burn: Deals a percent of the target's max Health as true damage every second<br>Wound: reduces healing received"
+        }
+    },
+    {
+        "craftable": {
+            "name": "ThiefsGloves",
+            "compositions": "glove+glove",
+            "basic_attrs": [
+                "+150HP",
+                "+20%CR"
+            ],
+            "add_attrs": "Each round: Equip 2 random items.<br><br>[Consumes 3 item slots.]"
+        },
+        "radiant": {
+            "name": "RadientThiefsGloves",
+            "basic_attrs": [
+                "+150HP",
+                "+20%CR"
+            ],
+            "add_attrs": "Each round: Equip 2 random Radiant items.<br><br>[Consumes 3 item slots]"
+        }
+    },
+    {
+        "craftable": {
+            "name": "TitansResolve",
+            "compositions": "bow+vest",
+            "basic_attrs": [
+                "+20AR",
+                "+10%AS"
+            ],
+            "add_attrs": "Gain 2% Attack Damage and 2 Ability Power when attacking or taking damage, stacking up to 25 times. <br><br>At full stacks, gain 20 Armor and 20 Magic Resist."
+        },
+        "radiant": {
+            "name": "RadientTitansResolve",
+            "basic_attrs": [
+                "+35AR"
+            ],
+            "add_attrs": "Grant 3% Attack Damage 3 Ability Power when attacking or taking damage, stacking up to 25 times.<br><br>At full stacks, gain 50 Armor and Magic Resist."
+        }
+    },
+    {
+        "craftable": {
+            "name": "WarmogsArmor",
+            "compositions": "belt+belt",
+            "basic_attrs": [
+                "+600HP"
+            ],
+            "add_attrs": "Gain 12% max health."
+        },
+        "radiant": {
+            "name": "RadientWarmogsArmor",
+            "basic_attrs": [
+                "+1000HP"
+            ],
+            "add_attrs": "Gain 20% max health.<br><br>Heal 1.5% max Health per second."
+        }
+    }
+]

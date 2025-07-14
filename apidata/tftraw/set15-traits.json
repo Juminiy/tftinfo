@@ -1,0 +1,813 @@
+{
+   "season": "set15",
+   "traits": [
+      {
+         "key": "PBEStarGuardian",
+         "ingameKey": null,
+         "name": "Star Guardian",
+         "desc": "Star Guardians have a unique Teamwork bonus that is granted to all Star Guardians. Every Star Guardian fielded increases the bonus!<br><br>Prismatic: Spend 20000 mana.<br>THE STARS AWAKEN.<br><br>Rell: Gain a 180 shield.<br>Syndra: Gain 10 Ability Power every 3 seconds.<br>Xayah: Every 3rd attack deals ? (increases per stage) magic damage.<br>Ahri: After casting, gain 6 mana over 2 seconds.<br>Neeko: +10% healing and shielding.<br>Poppy: At 40% Health, heal ?% Health.<br>Jinx: +10% Attack Speed and +?% bonus Attack Speed after takedowns, decaying over 3s.<br>Seraphine: Gain +10 AD, Armor, MR, and Health, and +10% AS, Crit, and CritMult.<br>Emblem: Increase bonuses by 12%!",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEStarGuardian_normal_1752196479-Star Guardian.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEStarGuardian_black_1752196479-Star Guardian.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEStarGuardian_white_1752196479-Star Guardian.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 2
+            },
+            {
+               "style": "silver",
+               "min": 3,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 4
+            },
+            {
+               "style": "gold",
+               "min": 5,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6,
+               "max": 6
+            },
+            {
+               "style": "gold",
+               "min": 7,
+               "max": 7
+            },
+            {
+               "style": "gold",
+               "min": 8,
+               "max": 8
+            },
+            {
+               "style": "gold",
+               "min": 9,
+               "max": 9
+            },
+            {
+               "style": "chromatic",
+               "min": 10
+            }
+         ],
+         "stats": {
+            "2": "Gain Star Guardian Bonus",
+            "3": "Gain Star Guardian Bonus",
+            "4": "Gain Star Guardian Bonus",
+            "5": "Gain Star Guardian Bonus",
+            "6": "Gain Star Guardian Bonus",
+            "7": "Gain Star Guardian Bonus",
+            "8": "Gain Star Guardian Bonus",
+            "9": "Gain Star Guardian Bonus",
+            "10": "Gain Star Guardian Bonus"
+         }
+      },
+      {
+         "key": "PBESoulFighter",
+         "ingameKey": null,
+         "name": "Soul Fighter",
+         "desc": "Soul Fighters gain bonus Health, and gain Attack Damage and Ability Power every second up to 8 stacks. At max stacks, deal bonus true damage.<br><br>Prismatic: Deal 99 damage to players.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBESoulFighter_normal_1752196501-Soul Fighter.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBESoulFighter_black_1752196501-Soul Fighter.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBESoulFighter_white_1752196501-Soul Fighter.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6,
+               "max": 7
+            },
+            {
+               "style": "gold",
+               "min": 8
+            }
+         ],
+         "stats": {
+            "2": "120 Health, 1 AD & AP, +10% damage",
+            "4": "200 Health, 2 AD & AP, +16% damage",
+            "6": "300 Health, 3 AD & AP, +24% damage",
+            "8": "450 Health, 4 AD & AP, +36% damage"
+         }
+      },
+      {
+         "key": "PBEBattleAcademia",
+         "ingameKey": null,
+         "name": "Battle Academia",
+         "desc": "Battle Academia champions upgrade their abilities and gain Potential %. Potential improves their abilities.<br><br>Prismatic: Have 17 completed items on Battle Academy units",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEBattleAcademia_normal_1752196661-Battle Academia.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEBattleAcademia_black_1752196661-Battle Academia.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEBattleAcademia_white_1752196661-Battle Academia.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 3,
+               "max": 4
+            },
+            {
+               "style": "silver",
+               "min": 5,
+               "max": 6
+            },
+            {
+               "style": "gold",
+               "min": 7
+            }
+         ],
+         "stats": {
+            "3": "Potential 3",
+            "5": "Potential 5",
+            "7": "Potential 7"
+         }
+      },
+      {
+         "key": "PBEMightyMech",
+         "ingameKey": null,
+         "name": "Mighty Mech",
+         "desc": "Gain The Mighty Mech. Mighty Mechs heal it for 10% of the damage they deal.<br><br>Prismatic: Unlock the Mightiest Mech<br><br>Each Mighty Mech champion's star level increases The Mighty Mech's power.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEMightyMech_normal_1752196347-Mighty Mech.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEMightyMech_black_1752196347-Mighty Mech.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEMightyMech_white_1752196347-Mighty Mech.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 3,
+               "max": 4
+            },
+            {
+               "style": "silver",
+               "min": 5,
+               "max": 6
+            },
+            {
+               "style": "gold",
+               "min": 7
+            }
+         ],
+         "stats": {
+            "3": "The Mighty Mech arrives",
+            "5": "Blade Protocol: Level 1",
+            "7": "Blade Protocol: Level 2"
+         }
+      },
+      {
+         "key": "PBECrystalGambit",
+         "ingameKey": null,
+         "name": "Crystal Gambit",
+         "desc": "Kills and losses during player combats earn Gem Power. Every 4 player combats choose to convert Gem Power into rewards or Double Down.<br><br>While Double Down is active losses grant 100% more Gem Power, but wins lose 50% Gem Power and cash out immediately.<br><br>Gem Power gains increase at stages 3 and 4.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBECrystalGambit_normal_1752195958-Crystal Gambit.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBECrystalGambit_black_1752195958-Crystal Gambit.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBECrystalGambit_white_1752195958-Crystal Gambit.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 3,
+               "max": 4
+            },
+            {
+               "style": "silver",
+               "min": 5,
+               "max": 6
+            },
+            {
+               "style": "gold",
+               "min": 7,
+               "max": 9
+            },
+            {
+               "style": "chromatic",
+               "min": 10
+            }
+         ],
+         "stats": {
+            "3": "Gain Gem Power ? per kill and ? per loss",
+            "5": "Every ? kills, gain bonus loot and reroll a new kill number.",
+            "7": "200% rewards. Crystal Gambit units gain 500 Health and 45% DA."
+         }
+      },
+      {
+         "key": "PBETheCrew",
+         "ingameKey": null,
+         "name": "The Crew",
+         "desc": "Crew champions gain 6% Health & AS for each Crew member fielded.<br><br>Every 3-star Crew champion grants an additional bonus.<br><br>1x : +1 XP per reroll, and Crew unit odds never drop with player level.<br>2x: +1 free reroll / round.<br>3x : Deal 280 damage to fire a rocket dealing 110.<br>4x : Fire rockets 2.5% more often per player level.<br>5x : Fire the Planet Cracker.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBETheCrew_normal_1752196271-The Crew.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBETheCrew_black_1752196272-The Crew.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBETheCrew_white_1752196272-The Crew.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 2
+            },
+            {
+               "style": "silver",
+               "min": 3,
+               "max": 3
+            },
+            {
+               "style": "gold",
+               "min": 4,
+               "max": 5
+            }
+         ],
+         "stats": {
+            "2": "The Crew trait activate",
+            "3": "The Crew trait activate",
+            "4": "The Crew trait activate",
+            "5": "The Crew trait activate"
+         }
+      },
+      {
+         "key": "PBEStanceMaster",
+         "ingameKey": null,
+         "name": "Stance Master",
+         "desc": "",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEStanceMaster_normal_1752196170-Stance Master.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEStanceMaster_black_1752196170-Stance Master.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEStanceMaster_white_1752196170-Stance Master.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "gold",
+               "min": 1
+            }
+         ],
+         "stats": {
+            "1": "When you field Lee Sin, choose between Duelist Stance, Executioner Stance, and Juggernaut Stance! Each stance has a unique ability, and grants Lee Sin the associated trait."
+         }
+      },
+      {
+         "key": "PBEMonsterTrainer",
+         "ingameKey": null,
+         "name": "Monster Trainer",
+         "desc": "Choose which monster Lulu summons to replace her in combat! It gains XP after each combat and bonus XP for each takedown it participates in.<br><br>When your Monster levels up, it gains 1% Health. At level 15 and 30 its spell evolves!",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEMonsterTrainer_normal_1752196388-Monster Trainer.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEMonsterTrainer_black_1752196389-Monster Trainer.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEMonsterTrainer_white_1752196389-Monster Trainer.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "gold",
+               "min": 1
+            }
+         ],
+         "stats": {
+            "1": "Choose a Monster"
+         }
+      },
+      {
+         "key": "PBEExecutioner",
+         "ingameKey": null,
+         "name": "Executioner",
+         "desc": "Executioners gain Critical Strike Chance and their spells can critically strike.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEExecutioner_normal_1752196692-Executioner.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEExecutioner_black_1752196692-Executioner.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEExecutioner_white_1752196692-Executioner.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 2
+            },
+            {
+               "style": "silver",
+               "min": 3,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 4
+            },
+            {
+               "style": "gold",
+               "min": 5
+            }
+         ],
+         "stats": {
+            "2": "25% Crit; 10% CritMult",
+            "3": "35% Crit; 12% CritMult",
+            "4": "45% Crit; 15% CritMult",
+            "5": "55% Crit; 20% CritMult"
+         }
+      },
+      {
+         "key": "PBEProdigy",
+         "ingameKey": null,
+         "name": "Prodigy",
+         "desc": "Your team gains Mana Regen. Prodigies gain more.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEProdigy_normal_1752196556-Prodigy.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEProdigy_black_1752196556-Prodigy.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEProdigy_white_1752196556-Prodigy.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 2
+            },
+            {
+               "style": "silver",
+               "min": 3,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 4
+            },
+            {
+               "style": "gold",
+               "min": 5
+            }
+         ],
+         "stats": {
+            "2": "1 Mana Regen, 3 Mana Regen",
+            "3": "2 Mana Regen, 5 Mana Regen",
+            "4": "3 Mana Regen, 7 Mana Regen",
+            "5": "4 Mana Regen, 9 Mana Regen. Prodigy abilities heal an ally for 12% of the damage dealt."
+         }
+      },
+      {
+         "key": "PBESorcerer",
+         "ingameKey": null,
+         "name": "Sorcerer",
+         "desc": "Sorcerers gain bonus Ability Power.<br><br>When an enemy dies after being damaged by a Sorcerer, they deal a percentage of that enemy's maximum Health to another enemy.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBESorcerer_normal_1752196437-Sorcerer.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBESorcerer_black_1752196438-Sorcerer.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBESorcerer_white_1752196438-Sorcerer.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6
+            }
+         ],
+         "stats": {
+            "2": "20 AP; 8% max Health",
+            "4": "50 AP; 10% max Health",
+            "6": "80 AP; 12% max Health to 2 enemies"
+         }
+      },
+      {
+         "key": "PBESniper",
+         "ingameKey": null,
+         "name": "Sniper",
+         "desc": "Snipers gain Damage Amp, increased against targets farther away.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBESniper_normal_1752196621-Sniper.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBESniper_black_1752196621-Sniper.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBESniper_white_1752196621-Sniper.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 2
+            },
+            {
+               "style": "silver",
+               "min": 3,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 4
+            },
+            {
+               "style": "gold",
+               "min": 5
+            }
+         ],
+         "stats": {
+            "2": "10% DA; +4% DA per hex",
+            "3": "15% DA; +6% DA per hex",
+            "4": "25% DA; +9% DA per hex",
+            "5": "30% DA; +12% DA per hex"
+         }
+      },
+      {
+         "key": "PBELuchador",
+         "ingameKey": null,
+         "name": "Luchador",
+         "desc": "Luchadors gain bonus Attack Damage.<br><br>At 50% health, Luchadors cleanse negative effects, heal, and leap back into the fight, knocking up enemies in a 1-hex radius for 1.50 seconds.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBELuchador_normal_1752196405-Luchador.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBELuchador_black_1752196406-Luchador.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBELuchador_white_1752196406-Luchador.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "gold",
+               "min": 4
+            }
+         ],
+         "stats": {
+            "2": "15 AD; 20% Health heal",
+            "4": "40 AD; 50% Health heal"
+         }
+      },
+      {
+         "key": "PBESupremeCells",
+         "ingameKey": null,
+         "name": "Supreme Cells",
+         "desc": "The Cell who dealt the most damage last combat is Supreme. When the Supreme Cell dies, the Cell with the highest current damage becomes Supreme.<br><br>Cells gain Damage Amp DA. The Supreme Cell gains more and executes enemies under 10% Health.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBESupremeCells_normal_1752196234-Supreme Cells.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBESupremeCells_black_1752196234-Supreme Cells.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBESupremeCells_white_1752196234-Supreme Cells.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 2
+            },
+            {
+               "style": "silver",
+               "min": 3,
+               "max": 3
+            },
+            {
+               "style": "gold",
+               "min": 4
+            }
+         ],
+         "stats": {
+            "2": "5% DA | 10% DA",
+            "3": "15% DA | 25% DA",
+            "4": "25% DA | 40% DA. Gain a second Supreme"
+         }
+      },
+      {
+         "key": "PBEWraith",
+         "ingameKey": null,
+         "name": "Wraith",
+         "desc": "Every 5 seconds, the Shadow Realm strikes the 3 closest enemies, dealing total magic damage equal to a portion of damage dealt by Wraiths since the last trigger.<br><br>Your lowest health Wraith heals for 18% of damage dealt by Wraiths and the Shadow Realm.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEWraith_normal_1752196331-Wraith.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEWraith_black_1752196331-Wraith.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEWraith_white_1752196331-Wraith.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6
+            }
+         ],
+         "stats": {
+            "2": "18% damage.",
+            "4": "35% damage.",
+            "6": "55% damage."
+         }
+      },
+      {
+         "key": "PBEStrategist",
+         "ingameKey": null,
+         "name": "Strategist",
+         "desc": "Combat Start: Allies in the front 2 rows gain a shield for 15 seconds. Allies in the back 2 rows gain Damage Amp. Strategists gain triple.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEStrategist_normal_1752196677-Strategist.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEStrategist_black_1752196677-Strategist.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEStrategist_white_1752196677-Strategist.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 2
+            },
+            {
+               "style": "silver",
+               "min": 3,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 4
+            },
+            {
+               "style": "gold",
+               "min": 5
+            }
+         ],
+         "stats": {
+            "2": "150 Shield; 5% DA",
+            "3": "250 Shield; 8% DA",
+            "4": "400 Shield; 12% DA",
+            "5": "500 Shield; 15% DA"
+         }
+      },
+      {
+         "key": "PBEDuelist",
+         "ingameKey": null,
+         "name": "Duelist",
+         "desc": "Duelists gain Attack Speed on each attack, stacking up to 12 times.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEDuelist_normal_1752196366-Duelist.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEDuelist_black_1752196367-Duelist.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEDuelist_white_1752196367-Duelist.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6
+            }
+         ],
+         "stats": {
+            "2": "4% AS",
+            "4": "7% AS",
+            "6": "10% AS; Duelists gain 10% DR"
+         }
+      },
+      {
+         "key": "PBEEdgelord",
+         "ingameKey": null,
+         "name": "Edgelord",
+         "desc": "Edgelords gain Omnivamp and AD. They also have 40% Attack Speed while attacking enemies under 50% of their Health.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEEdgelord_normal_1752196603-Edgelord.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEEdgelord_black_1752196603-Edgelord.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEEdgelord_white_1752196603-Edgelord.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6
+            }
+         ],
+         "stats": {
+            "2": "10% SV, 15% AD",
+            "4": "12% SV, 35% AD",
+            "6": "15% SV, 60% AD"
+         }
+      },
+      {
+         "key": "PBEHeavyweight",
+         "ingameKey": null,
+         "name": "Heavyweight",
+         "desc": "Your team gains 100 Health.<br><br>Heavyweights gain additional bonus Health, and Attack Damage equal to a percentage of their Health.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEHeavyweight_normal_1752195976-Heavyweight.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEHeavyweight_black_1752195976-Heavyweight.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEHeavyweight_white_1752195976-Heavyweight.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6
+            }
+         ],
+         "stats": {
+            "2": "20% Health, 0.2% Health to AD",
+            "4": "40% Health, 0.4% Health to AD",
+            "6": "55% Health, 0.6% Health to AD"
+         }
+      },
+      {
+         "key": "PBEBastion",
+         "ingameKey": null,
+         "name": "Bastion",
+         "desc": "Your team gains 10 Armor and Magic Resist.<br><br>Bastions gain more, and the value doubles in the first 10 seconds of combat.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEBastion_normal_1752196575-Bastion.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEBastion_black_1752196575-Bastion.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEBastion_white_1752196575-Bastion.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6
+            }
+         ],
+         "stats": {
+            "2": "18 Armor & MR",
+            "4": "36 Armor & MR",
+            "6": "70 Armor & MR; Non-Bastions gain an additional 25 Armor & MR."
+         }
+      },
+      {
+         "key": "PBEJuggernaut",
+         "ingameKey": null,
+         "name": "Juggernaut",
+         "desc": "Juggernauts gain Durability, increased above 50% health. When a Juggernaut dies, other Juggernauts heal for 10% of their max Health.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEJuggernaut_normal_1752196649-Juggernaut.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEJuggernaut_black_1752196649-Juggernaut.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEJuggernaut_white_1752196649-Juggernaut.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6
+            }
+         ],
+         "stats": {
+            "2": "15% or 25% DR",
+            "4": "20% or 35% DR",
+            "6": "25% or 40% DR"
+         }
+      },
+      {
+         "key": "PBEMentor",
+         "ingameKey": null,
+         "name": "Mentor",
+         "desc": "This trait is active only when you have exactly 1 or 4 unique Mentor.<br><br>Kobuko: 7% DR<br>Udyr: 10% AD & AP<br>Yasuo: 12% AS<br>Ryze: +2 mana per attack",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEMentor_normal_1752196456-Mentor.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEMentor_black_1752196457-Mentor.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEMentor_white_1752196457-Mentor.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 1,
+               "max": 1
+            },
+            {
+               "style": "gold",
+               "min": 4,
+               "max": 4
+            }
+         ],
+         "stats": {
+            "1": "Allies gain the bonus",
+            "4": "Mentors gain all bonuses and upgrade their abilities. Other allies gain nothing."
+         }
+      },
+      {
+         "key": "PBERogueCaptain",
+         "ingameKey": null,
+         "name": "Rogue Captain",
+         "desc": "",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBERogueCaptain_normal_1752196037-Rogue Captain.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBERogueCaptain_black_1752196037-Rogue Captain.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBERogueCaptain_white_1752196037-Rogue Captain.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "gold",
+               "min": 1
+            }
+         ],
+         "stats": {
+            "1": "Twisted Fate upgrades the Crew Ship to deal 15% of it's damage as true damage and draws Bounty Cards each round that grant random rewards. Bounty Cards get better for each player combat."
+         }
+      },
+      {
+         "key": "PBERosemother",
+         "ingameKey": null,
+         "name": "Rosemother",
+         "desc": "",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBERosemother_normal_1752196135-Rosemother.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBERosemother_black_1752196135-Rosemother.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBERosemother_white_1752196135-Rosemother.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "gold",
+               "min": 1
+            }
+         ],
+         "stats": {
+            "1": "Gain 1/1/8 placeable plants, based on Zyra's star level. Plants in the front two rows grow into durable Grasping Roots, while plants in the back two rows grow into Deadly Spines. Rosemother plants benefit from Zyra's Ability Power and Attack Speed. When Zyra casts, her plant restores 50% Health and gains 50% Attack Speed for the rest of combat. If the plant is dead, she revives it instead."
+         }
+      },
+      {
+         "key": "PBETheChamp",
+         "ingameKey": null,
+         "name": "The Champ",
+         "desc": "",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBETheChamp_normal_1752196253-The Champ.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBETheChamp_black_1752196254-The Champ.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBETheChamp_white_1752196254-The Champ.svg",
+         "type": "ORIGIN",
+         "styles": [
+            {
+               "style": "gold",
+               "min": 1
+            }
+         ],
+         "stats": {
+            "1": "The Champs's victories against players grant 2 Poro-fans! On loss Poro-fans prevent 1 Tactician damage each, then you lose 75% of your fans (rounded up)."
+         }
+      },
+      {
+         "key": "PBEProtector",
+         "ingameKey": null,
+         "name": "Protector",
+         "desc": "Units gain 5% Durability while shielded.<br><br>Once per combat at 50% Health, Protectors shield themselves and their closest ally for a percent of their maximum Health. Shields stack.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEProtector_normal_1752196525-Protector.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEProtector_black_1752196525-Protector.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEProtector_white_1752196525-Protector.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "bronze",
+               "min": 2,
+               "max": 3
+            },
+            {
+               "style": "silver",
+               "min": 4,
+               "max": 5
+            },
+            {
+               "style": "gold",
+               "min": 6
+            }
+         ],
+         "stats": {
+            "2": "20% Health shield",
+            "4": "40% Health shield",
+            "6": "60% Health shield"
+         }
+      }
+   ]
+}
