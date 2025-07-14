@@ -25,15 +25,15 @@ from parse_traits import emblem_cmp_func
 
 compnick={
     'BFSword': 'sword',             'PBEBFSword': 'sword',
-    'ChainVest': 'vest',            'PBEChainVest': 'sword',
-    'FryingPan': 'pan',             'PBEFryingPan': 'sword',
-    'GiantsBelt': 'belt',           'PBEGiantsBelt': 'sword',
-    'NeedlesslyLargeRod': 'rod',    'PBENeedlesslyLargeRod': 'sword',
+    'ChainVest': 'vest',            'PBEChainVest': 'vest',
+    'FryingPan': 'pan',             'PBEFryingPan': 'pan',
+    'GiantsBelt': 'belt',           'PBEGiantsBelt': 'belt',
+    'NeedlesslyLargeRod': 'rod',    'PBENeedlesslyLargeRod': 'rod',
     'NegatronCloak': 'cloak',       'PBENegatronCloak': 'cloak',
-    'RecurveBow': 'bow',            'PBERecurveBow': 'sword',
-    'SparringGloves': 'glove',      'PBESparringGloves': 'sword',
-    'Spatula': 'spatula',           'PBESpatula': 'sword',
-    'Tearofthegoddess': 'tear',     'PBETearofthegoddess': 'sword',
+    'RecurveBow': 'bow',            'PBERecurveBow': 'bow',
+    'SparringGloves': 'glove',      'PBESparringGloves': 'glove',
+    'Spatula': 'spatula',           'PBESpatula': 'spatula',
+    'Tearofthegoddess': 'tear',     'PBETearofthegoddess': 'tear',
 }
 
 attrMap={
