@@ -1,5 +1,7 @@
 #!/bin/sh
 
+cp .env.example .env
+
 for dir in "tfttraits" "tfttraits/grid" "tfttraits/grid/table" "tfttraits/table" "tftitems" "tftitems/craft-vs-radiant" "tftitems/grid"
 do
     rm -rf $dir
