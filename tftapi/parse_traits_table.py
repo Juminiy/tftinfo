@@ -1,23 +1,17 @@
-from get_env import setlist
-
-from json import loads
-
-from parse_grid import select_traits, select_champions, write_grid
+from env import setlist
 
 from typing import Any,Dict
 
-from json import dumps,loads
+from json import dumps
 
-from functools import cmp_to_key
+from meta_data import setdata
 
-from tftdata import setdata
+from meta_func import select_traits, select_champions, emblem_cmp_key, grid_fix_write
 
-def emblem_cmp_func(s1:str,s2:str) -> int:
-    if s1 in ['Spatula', 'FryingPan', 'ShadowSpatula']:
-        return -1
-    elif s2 in ['Spatula', 'FryingPan', 'ShadowSpatula']:
-        return 1
-    return 0
+def parse_stats(statsd: dict[str,str], descs:str) -> str:
+    for _,sval in statsd.items():
+        pass
+    return ''
 
 traitsall:Dict[str,Any]={}
 
@@ -35,7 +29,7 @@ for setof in setlist:
     chmps=[(chp['name'], chp['traits']) for chp in champions['champions'] if select_champions(setof, chp)]
 
     items=setdata[setof]['items']
-    emblems={str(emb['key']).removesuffix('Emblem'): sorted(emb['compositions'], key=cmp_to_key(emblem_cmp_func))
+    emblems={str(emb['key']).removesuffix('Emblem'): sorted(emb['compositions'], key=emblem_cmp_key)
              for emb in items['items'] 
              if str(emb['key']).endswith('Emblem') and 
              ('compositions' in emb) and 
@@ -60,7 +54,7 @@ for setof in setlist:
         activestr='/'.join([str(styleof['min']) for styleof in trt['styles'] if 'min' in styleof ])
         trtdetail={
             'name': trt['name'],
-            'desc': trt['desc'],
+            'desc': parse_stats(trt['stats'], trt['desc']),
             'unit_active': activestr,
             'unit_count': len(trt2chp[trt['key']]) if trt['key'] in trt2chp else 0,
             'emblem': '+'.join(emblems[trt['key']]) if trt['key'] in emblems else '',
@@ -72,9 +66,9 @@ for setof in setlist:
             case 'CLASS':
                 traitsall[setof]['classes'].append(trtdetail)
     
-    with open(f'tfttraits/{setof}.json', 'w+') as trtfile:
-        trtfile.write(dumps(traitsall[setof], ensure_ascii=True, indent='    '))
-        trtfile.close()
+    # with open(f'tfttraits/{setof}.json', 'w+') as trtfile:
+    #     trtfile.write(dumps(traitsall[setof], ensure_ascii=True, indent='    '))
+    #     trtfile.close()
 
     # write grid
     trtsz=len(traitsall[setof]['origins'])
@@ -93,7 +87,7 @@ for setof in setlist:
     classes2d.insert(0, ["{{class_name}}", "{{unit_active}}", "{{unit_count}}", "{{emblem}}", "{{desc}}"])
 
     with open(f'tfttraits/table/{setof}.txt', 'w+') as trtfile:
-        trtfile.write('\n'.join(write_grid(origins2d)))
+        trtfile.write(grid_fix_write(origins2d))
         trtfile.write('\n\n')
-        trtfile.write('\n'.join(write_grid(classes2d)))
+        trtfile.write(grid_fix_write(classes2d))
         trtfile.close()

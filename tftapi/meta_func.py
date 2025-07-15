@@ -1,13 +1,3 @@
-from get_env import setlist
-
-from json import dumps,loads
-
-def two_champions_slash(ch1: str, ch2: str) -> str:
-    if len(ch1) > 0:
-        return ch1+'/'+ch2
-    else:
-        return ch2
-
 def select_traits(setof:str, trt:dict) -> bool:
     max_active_val=0
     for styleof in trt['styles']:
@@ -47,7 +37,30 @@ def select_champions(setof:str, chp:dict) -> bool:
         return str(chp['ingameKey']).startswith(f'TFT{cursetnum}_') and \
                 'isHidden' not in chp
 
-def write_grid(grid2d: list[list[str]]) -> list[str]:
+from meta_data import special_components
+from functools import cmp_to_key
+def emblem_cmp_func(s1:str, s2:str) -> int:
+    if s1 in special_components and s2 in special_components:
+        return 0
+    elif s1 in special_components:
+        return -1
+    elif s2 in special_components:
+        return 1
+    return 0
+emblem_cmp_key=cmp_to_key(emblem_cmp_func)
+
+def grid_fix_write(grid2d: list[list[str]], row0: list[str]=[], line0: list[str]=[], hdr00: str='') -> str:
+    if len(row0) > 0 and len(line0) > 0:
+        grid2d.insert(0, row0)
+        line0.insert(0, hdr00)
+        for i in range(len(grid2d)):
+            grid2d[i].insert(0, line0[i])
+    
+    return '\n'.join(grid_convert2_table(grid2d))
+
+def grid_convert2_table(grid2d: list[list[str]]) -> list[str]:
+    if len(grid2d) == 0 or len(grid2d[0]) == 0:
+        return []
     szs:list[int]=[]
     for j in range(len(grid2d[0])):
         mxsz=0
@@ -62,55 +75,3 @@ def write_grid(grid2d: list[list[str]]) -> list[str]:
             resv+= (f'{grid2d[i][j]:<{szs[j]}}'+(' | ' if j<len(grid2d[i])-1 else ''))
         res.append(resv)
     return res
-
-from tftdata import setdata
-for setof in setlist:
-    setnum=setof.removeprefix('set')
-    
-    # select traits
-    traits=setdata[setof]['traits']
-    origin_key:list[str]=[]
-    class_key:list[str]=[]
-    key2name:dict[str,str]={}
-    for trt in traits['traits']:
-        if not select_traits(setof, trt):
-            continue
-        match trt['type']:
-            case 'ORIGIN':
-                origin_key.append(trt['key'])
-            case 'CLASS':
-                class_key.append(trt['key'])
-        key2name[trt['key']]=trt['name']
-    origin_key.sort()
-    class_key.sort()
-    
-    # select champions
-    champions=setdata[setof]['champions']
-    chmps=[(chp['name'], chp['traits']) for chp in champions['champions'] if select_champions(setof, chp)]
-    
-    # champions grid
-    grid2d=[['']*(len(class_key)) for _ in range(len(origin_key))]
-    for chp in chmps:
-        chpname=chp[0]
-        chptrt=chp[1]
-        for chpori in [ori for ori in chptrt if ori in origin_key]:
-            for chpcls in [chpcls for chpcls in chptrt if chpcls in class_key]:
-                oriidx,clsidx=origin_key.index(chpori),class_key.index(chpcls)
-                grid2d[oriidx][clsidx]=two_champions_slash(grid2d[oriidx][clsidx], chpname)
-    
-    # first row is classls
-    grid2d.insert(0, [key2name[clskey] for clskey in class_key])
-
-    # header fix
-    originlsfix=[key2name[orikey] for orikey in origin_key]
-    originlsfix.insert(0, 'Origins\\Classes')
-    # first col is originls
-    for i in range(len(grid2d)):
-        grid2d[i].insert(0, originlsfix[i])
-    
-    with open(f'tfttraits/grid/{setof}.json', 'w+') as setgridf:
-        setgridf.write(dumps(grid2d, ensure_ascii=True, indent='    '))
-        setgridf.close()
-    with open(f'tfttraits/grid/table/{setof}.txt', 'w+') as setgridf:
-        setgridf.write('\n'.join(write_grid(grid2d)))
-        setgridf.close()

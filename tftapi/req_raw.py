@@ -1,6 +1,6 @@
 import requests
 
-from get_env import setlist,hllist,qklist,pthlist,baseurl
+from env import setlist,hllist,qklist,pthlist,baseurl
 
 from json import dumps, loads
 for setof in setlist:
