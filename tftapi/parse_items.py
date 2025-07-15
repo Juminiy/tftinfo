@@ -62,7 +62,7 @@ for setof in setlist:
                 'FryingPan' not in itemof['compositions']:
             itemTyp[setof]['craf'].append({
                 'name': itemof['key'],
-                'compositions': '+'.join([components_nickname[compof] for compof in itemof['compositions']]),
+                'compositions': '+'.join(sorted([components_nickname[compof] for compof in itemof['compositions']], key=lambda nickof: components_nickname_priority[nickof])),
                 'basic_attrs': parse_attr(str(itemof['fromDesc'])),
                 'add_attrs': itemof['desc'],
             })
@@ -148,7 +148,8 @@ for setof in setlist:
         compnickitems=str(craf['compositions']).split('+')
         if len(compnickitems) != 2:
             continue
-        grid2d[comps.index(compnickitems[0])][comps.index(compnickitems[1])] = craf['name']
+        c1idx,c2idx=comps.index(compnickitems[0]),comps.index(compnickitems[1])
+        grid2d[min(c1idx, c2idx)][max(c1idx, c2idx)] = craf['name']
 
     for embl in emblems:
         compnickitems=str(embl['compositions']).split('+')
@@ -160,3 +161,42 @@ for setof in setlist:
     with open(f'tftitems/grid/{setof}.txt', 'w+') as gridfile:
         gridfile.write(grid_fix_write(grid2d, comps.copy(), comps.copy(), 'C1\\C2'))
         gridfile.close()
+
+
+
+# compare different set same-components-items to craftable
+craftitems:Dict[str,list[tuple[str,str]]]={}
+for setof in setlist:
+    if setof in ['set15']:
+        continue
+    crafts=itemTyp[setof]['craf']
+
+    for craf in crafts:
+        composi=craf['compositions']
+        if composi in craftitems:
+            craftitems[composi].append((setof, craf['name']))
+        else:
+            craftitems[composi] = []
+with open('tftitems/craft-change.json', 'w+') as craftschangef:
+    craftschangef.write(dumps(craftitems, ensure_ascii=True, indent='    '))
+    craftschangef.close()
+
+itemchset:dict[str,int]={}
+composich:list[str]=[]
+for composi,setsitem in craftitems.items():
+    chdesc:list[str]=[]
+    for i in range(1,len(setsitem)):
+        if setsitem[i][1] != setsitem[i-1][1]:
+            chdesc.extend([f'{setsitem[i-1][1]}({setsitem[i-1][0]})', f'{setsitem[i][1]}({setsitem[i][0]})'])
+            if setsitem[i][0] not in itemchset:
+                itemchset[setsitem[i][0]]=1
+            else:
+                itemchset[setsitem[i][0]]+=1
+    if len(chdesc) > 0:
+        import pandas as pd
+        chdesc = pd.unique(pd.Series(chdesc)).tolist()
+        chdescstr=' -> '.join(chdesc)
+        composich.append(f'{composi}: {chdescstr}')
+with open('tftitems/craft-change.txt', 'w+') as craftchf:
+    craftchf.write('\n'.join(composich)+f'\n\n{itemchset}')
+    craftchf.close()
