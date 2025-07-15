@@ -92,7 +92,7 @@ for setof in setlist:
     origins2d.insert(0, ["{{origin_name}}", "{{unit_active}}", "{{unit_count}}", "{{emblem}}", "{{desc}}"])
     classes2d.insert(0, ["{{class_name}}", "{{unit_active}}", "{{unit_count}}", "{{emblem}}", "{{desc}}"])
 
-    with open(f'tfttraits/{setof}.txt', 'w+') as trtfile:
+    with open(f'tfttraits/table/{setof}.txt', 'w+') as trtfile:
         trtfile.write('\n'.join(write_grid(origins2d)))
         trtfile.write('\n\n')
         trtfile.write('\n'.join(write_grid(classes2d)))

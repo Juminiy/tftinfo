@@ -1,7 +1,8 @@
 #!/bin/sh
 
-for dir in "tftgrid" "tfttraits" "tftitems"
+for dir in "tfttraits" "tfttraits/grid" "tfttraits/grid/table" "tfttraits/table" "tftitems" "tftitems/craft-vs-radiant" "tftitems/grid"
 do
+    rm -rf $dir
     mkdir -p $dir
 done
 

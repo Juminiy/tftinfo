@@ -108,9 +108,9 @@ for setof in setlist:
     for i in range(len(grid2d)):
         grid2d[i].insert(0, originlsfix[i])
     
-    with open(f'tftgrid/{setof}.json', 'w+') as setgridf:
+    with open(f'tfttraits/grid/{setof}.json', 'w+') as setgridf:
         setgridf.write(dumps(grid2d, ensure_ascii=True, indent='    '))
         setgridf.close()
-    with open(f'tftgrid/{setof}.txt', 'w+') as setgridf:
+    with open(f'tfttraits/grid/table/{setof}.txt', 'w+') as setgridf:
         setgridf.write('\n'.join(write_grid(grid2d)))
         setgridf.close()

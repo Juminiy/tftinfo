@@ -24,16 +24,16 @@ from parse_traits import emblem_cmp_func
 # SpecialItems
 
 compnick={
-    'BFSword': 'sword',             'PBEBFSword': 'sword',
-    'ChainVest': 'vest',            'PBEChainVest': 'vest',
-    'FryingPan': 'pan',             'PBEFryingPan': 'pan',
-    'GiantsBelt': 'belt',           'PBEGiantsBelt': 'belt',
-    'NeedlesslyLargeRod': 'rod',    'PBENeedlesslyLargeRod': 'rod',
-    'NegatronCloak': 'cloak',       'PBENegatronCloak': 'cloak',
-    'RecurveBow': 'bow',            'PBERecurveBow': 'bow',
-    'SparringGloves': 'glove',      'PBESparringGloves': 'glove',
-    'Spatula': 'spatula',           'PBESpatula': 'spatula',
-    'Tearofthegoddess': 'tear',     'PBETearofthegoddess': 'tear',
+    'BFSword': 'sword',             'PBEBFSword': 'sword',              'ShadowBFSword': 's-sword',
+    'ChainVest': 'vest',            'PBEChainVest': 'vest',             'ShadowChainVest': 's-vest',
+    'FryingPan': 'pan',             'PBEFryingPan': 'pan',              'ShadowFryingPan': 's-pan',
+    'GiantsBelt': 'belt',           'PBEGiantsBelt': 'belt',            'ShadowGiantsBelt': 's-belt',
+    'NeedlesslyLargeRod': 'rod',    'PBENeedlesslyLargeRod': 'rod',     'ShadowNeedlesslyLargeRod': 's-rod',
+    'NegatronCloak': 'cloak',       'PBENegatronCloak': 'cloak',        'ShadowNegatronCloak': 's-cloak',
+    'RecurveBow': 'bow',            'PBERecurveBow': 'bow',             'ShadowRecurveBow': 's-bow',
+    'SparringGloves': 'glove',      'PBESparringGloves': 'glove',       'ShadowSparringGloves': 's-glove',
+    'Spatula': 'spatula',           'PBESpatula': 'spatula',            'ShadowSpatula': 's-spatula',
+    'Tearofthegoddess': 'tear',     'PBETearofthegoddess': 'tear',      'ShadowTearofthegoddess': 's-tear',
 }
 
 attrMap={
@@ -115,7 +115,7 @@ for setof in setlist:
             'affectedTraitKey' in itemof:
             itemTyp[setof]['embl'].append({
                 'name': itemof['key'],
-                'compositions': '+'.join(sorted(itemof['compositions'], key=cmp_to_key(emblem_cmp_func))) 
+                'compositions': '+'.join([compnick[compof] for compof in sorted(itemof['compositions'], key=cmp_to_key(emblem_cmp_func))]) 
                                 if 'compositions' in itemof and len(itemof['compositions']) == 2
                                 else '',
                 'gain_trait': itemof['affectedTraitKey'],
@@ -173,6 +173,51 @@ for setof in setlist:
         if not foundrad:
             craftname=craft['name']
             # print(f'{setof} {craftname} NOT FOUND Radiant OR Radient')
-    with open(f'tftitems/comp-{setof}.json', 'w+') as compfile:
+    with open(f'tftitems/craft-vs-radiant/{setof}.json', 'w+') as compfile:
         compfile.write(dumps(crafRadiComp[setof], ensure_ascii=True, indent='    '))
         compfile.close()
+
+
+compnickComp={
+    'sword': 1,  's-sword': 12,  
+    'bow': 2,    's-bow': 21,       
+    'vest': 3,   's-vest': 31,   
+    'cloak': 4,  's-cloak': 41,  
+    'rod': 5,    's-rod': 51,
+    'tear': 6,   's-tear': 61, 
+    'belt': 7,   's-belt': 71,   
+    'glove': 8,  's-glove': 81,  
+    'spatula': 9,'s-spatula': 11,
+    'pan': 10,   's-pan': 13,   
+}
+
+# parse items grid
+for setof in setlist:
+    comps=sorted([compnick[comp['name']] for comp in itemTyp[setof]['comp']], key=lambda nickof: compnickComp[nickof])
+    crafts=itemTyp[setof]['craf']
+    emblems=itemTyp[setof]['embl']
+
+    grid2d=[['']*len(comps) for _ in range(len(comps))]
+
+    for craf in crafts:
+        compnickitems=str(craf['compositions']).split('+')
+        if len(compnickitems) != 2:
+            continue
+        grid2d[comps.index(compnickitems[0])][comps.index(compnickitems[1])] = craf['name']
+
+    for embl in emblems:
+        compnickitems=str(embl['compositions']).split('+')
+        if len(compnickitems) != 2:
+            continue
+        compnickitems.sort(key=lambda compnick: compnickComp[compnick])
+        grid2d[comps.index(compnickitems[0])][comps.index(compnickitems[1])] = embl['name']
+
+    grid2d.insert(0, comps)
+    fixline0=comps.copy()
+    fixline0.insert(0, 'C1\\C2')
+    for i in range(len(grid2d)):
+        grid2d[i].insert(0, fixline0[i])  
+
+    with open(f'tftitems/grid/{setof}.txt', 'w+') as gridfile:
+        gridfile.write('\n'.join(write_grid(grid2d)))
+        gridfile.close()
