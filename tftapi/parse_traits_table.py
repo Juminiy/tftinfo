@@ -7,6 +7,7 @@ from json import dumps
 from meta_data import setdata
 
 from meta_func import select_traits, select_champions, emblem_cmp_key, grid_fix_write
+from meta_func import select_traits_legal, count_traits_style
 
 def parse_stats(statsd: dict[str,str], descs:str) -> str:
     for _,sval in statsd.items():
@@ -91,3 +92,21 @@ for setof in setlist:
         trtfile.write('\n\n')
         trtfile.write(grid_fix_write(classes2d))
         trtfile.close()
+
+# get unique bond
+for setof in setlist:
+    trt1chp={
+        chp['traits'][0]: chp['name']
+        for chp in setdata[setof]['champions']['champions'] if select_champions(setof, chp) and 'traits' in chp and len(chp['traits'])==1
+    }
+
+    for trt in setdata[setof]['traits']['traits']:
+        if select_traits_legal(setof, trt) and \
+            count_traits_style(trt) == 1:
+            if 'unique' not in traitsall[setof]:
+                traitsall[setof]['unique'] = []
+            traitsall[setof]['unique'].append({
+                'name': trt['name'],
+                'champion': trt1chp[trt['key']] if trt['key'] in trt1chp else '',
+            })
+    # print(traitsall[setof]['unique'] if 'unique' in traitsall[setof] else 'None')

@@ -1,27 +1,29 @@
 def select_traits(setof:str, trt:dict) -> bool:
+    return count_traits_style(trt) > 1 and \
+        select_traits_legal(setof, trt)
+
+def count_traits_style(trt:dict) -> int:
     max_active_val=0
     for styleof in trt['styles']:
         if 'min' in styleof:
             max_active_val = max(max_active_val, styleof['min'])
         if 'max' in styleof:
-            max_active_val = max(max_active_val, styleof['max'])    
+            max_active_val = max(max_active_val, styleof['max'])
+    return max_active_val
 
+def select_traits_legal(setof:str, trt:dict) -> bool:
     cursetnum=setof.removeprefix('set').removesuffix('.5')
     if setof in ['set14','set13','set12','set11']:
         return str(trt['ingameKey']).startswith(f'TFT{cursetnum}_') and \
-            max_active_val > 1 and \
             'isHidden' not in trt
     elif setof in ['set10','set9','set8','set7','set6','set5']:
         return str(trt['ingameKey']).startswith(f'Set{cursetnum}_') and \
-            max_active_val > 1 and \
             'isHidden' not in trt
     elif setof in ['set9.5','set8.5','set7.5','set6.5','set5.5','set4.5']:
         return str(trt['ingameKey']).startswith((f'Set{cursetnum}_', f'Set{cursetnum}b_')) and \
-            max_active_val > 1 and \
             'isHidden' not in trt
     elif setof in ['set4','set3.5','set3','set2','set1']:
         return (str(trt['ingameKey']).startswith((f'Set{cursetnum}_')) or not str(trt['ingameKey']).startswith('Set')) and \
-            max_active_val > 1 and \
             'isHidden' not in trt
     return False
 

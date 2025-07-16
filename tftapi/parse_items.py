@@ -23,9 +23,10 @@ def parse_attr(fulldesc: str) -> list[str]:
                     if aft in attributes_nickname:
                         descs.append(bfr+attributes_nickname[aft])
 
-    for sepby in ['<br>', ', ']:
+    for sepby in ['<br>', ', ', '\r\n']:
         if sepby in fulldesc:
             forsplitby(fulldesc.split(sepby))
+            break
     if len(descs) == 0:
         forsplitby([fulldesc])
         if fulldesc.find('All Stats') != -1:
