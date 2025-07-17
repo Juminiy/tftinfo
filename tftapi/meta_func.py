@@ -13,7 +13,7 @@ def count_traits_style(trt:dict) -> int:
 
 def select_traits_legal(setof:str, trt:dict) -> bool:
     cursetnum=setof.removeprefix('set').removesuffix('.5')
-    if setof in ['set14','set13','set12','set11']:
+    if setof in ['set15','set14','set13','set12','set11']:
         return str(trt['ingameKey']).startswith(f'TFT{cursetnum}_') and \
             'isHidden' not in trt
     elif setof in ['set10','set9','set8','set7','set6','set5']:

@@ -58,3 +58,11 @@ attributes_nickname={
 }
 
 allstats=['AD','AS','AP','MP','AR','MR','HP']
+
+augments_tier={
+    0: 'normal',
+    1: 'silver',
+    2: 'gold',
+    3: 'prismatic',
+    4: 'champion',
+}

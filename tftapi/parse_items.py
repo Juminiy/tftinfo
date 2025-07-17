@@ -168,8 +168,8 @@ for setof in setlist:
 # compare different set same-components-items to craftable
 craftitems:Dict[str,list[tuple[str,str]]]={}
 for setof in setlist:
-    if setof in ['set15']:
-        continue
+    # if setof in ['set15']:
+    #     continue
     crafts=itemTyp[setof]['craf']
 
     for craf in crafts:

@@ -279,9 +279,9 @@
             }
          ],
          "stats": {
-            "3": "30 Attack Speed",
-            "5": "55 Attack Speed",
-            "7": "85 Attack Speed"
+            "3": "30% Attack Speed",
+            "5": "55% Attack Speed",
+            "7": "105% Attack Speed"
          },
          "isHidden": true
       },
@@ -1261,7 +1261,7 @@
          "key": "Nitro",
          "ingameKey": "TFT14_HotRod",
          "name": "Nitro",
-         "desc": "Every round, Nitro champions grant Chrome to R-080T, based on their star level. Each Chrome grants 12 Health and 1 Ability Power.<br><br>At 200 Chrome, it upgrades to T-43X!<br><br>Chrome per star: 2/3/7/25",
+         "desc": "Every round, Nitro champions grant Chrome to R-080T, based on their star level. Each Chrome grants 14 Health and 1 Ability Power.<br><br>At 200 Chrome, it upgrades to T-43X!<br><br>Chrome per star: 2/3/7/25",
          "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Nitro_normal_1741766673-Nitro.svg",
          "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Nitro_black_1741766673-Nitro.svg",
          "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Nitro_white_1741766673-Nitro.svg",
@@ -1408,6 +1408,25 @@
          }
       },
       {
+         "key": "Sniper",
+         "ingameKey": "TFT14_Sniper",
+         "name": "Sniper",
+         "desc": "Sniper deal more damage to targets farther away.",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Sniper_normal_1752616189-Sniper_normal_1731045886-Sniper.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Sniper_black_1752616189-Sniper_black_1731045886-Sniper.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Sniper_white_1752616189-Sniper_white_1731045886-Sniper.svg",
+         "type": "CLASS",
+         "styles": [
+            {
+               "style": "gold",
+               "min": 1
+            }
+         ],
+         "stats": {
+            "1": "1% damage per hex"
+         }
+      },
+      {
          "key": "StreetDemon",
          "ingameKey": "TFT14_StreetDemon",
          "name": "Street Demon",
@@ -1503,7 +1522,8 @@
          "stats": {
             "3": "1x Intel, 25% AD & AP",
             "4": "1.5x Intel, 35% AD & AP",
-            "5": "2x Intel, 50% AD & AP"
+            "5": "2x Intel, 50% AD & AP",
+            "6": "2.5x Intel, 90% AD & AP"
          }
       },
       {

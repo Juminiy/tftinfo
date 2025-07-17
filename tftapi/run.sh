@@ -2,7 +2,7 @@
 
 cp .env.example .env
 
-for dir in "tfttraits" "tfttraits/grid" "tfttraits/table" "tftitems" "tftitems/craft-vs-radiant" "tftitems/grid"
+for dir in "tfttraits" "tfttraits/grid" "tfttraits/table" "tftitems" "tftitems/craft-vs-radiant" "tftitems/grid" "tftaugs"
 do
     rm -rf $dir
     mkdir -p $dir
@@ -15,7 +15,7 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
-for sfile in "parse_traits_grid" "parse_traits_table" "parse_items"
+for sfile in "parse_traits_grid" "parse_traits_table" "parse_items" "parse_augments"
 do
     $cmdof $sfile.py
 done
