@@ -48,12 +48,13 @@
             ]
          },
          "recommendItems": [
-            "TFT_Item_WarmogsArmor",
             "TFT_Item_GargoyleStoneplate",
+            "TFT_Item_WarmogsArmor",
             "TFT_Item_RedBuff",
             "TFT_Item_DragonsClaw",
             "TFT_Item_Redemption"
-         ]
+         ],
+         "role": "ADTank"
       },
       {
          "key": "Ahri",
@@ -106,7 +107,8 @@
             "TFT_Item_SpearOfShojin",
             "TFT_Item_RabadonsDeathcap",
             "TFT_Item_Leviathan"
-         ]
+         ],
+         "role": "APCaster"
       },
       {
          "key": "Akali",
@@ -159,7 +161,8 @@
             "TFT_Item_Bloodthirster",
             "TFT_Item_RabadonsDeathcap",
             "TFT_Item_GuardianAngel"
-         ]
+         ],
+         "role": "APReaper"
       },
       {
          "key": "Ashe",
@@ -212,7 +215,8 @@
             "TFT_Item_RunaansHurricane",
             "TFT_Item_LastWhisper",
             "TFT_Item_MadredsBloodrazor"
-         ]
+         ],
+         "role": "ADCarry"
       },
       {
          "key": "Braum",
@@ -267,8 +271,9 @@
             "TFT_Item_GargoyleStoneplate",
             "TFT_Item_RedBuff",
             "TFT_Item_Bloodthirster",
-            "TFT_Item_Redemption"
-         ]
+            "TFT_Item_FrozenHeart"
+         ],
+         "role": "ADFighter"
       },
       {
          "key": "Caitlyn",
@@ -322,7 +327,8 @@
             "TFT_Item_GuinsoosRageblade",
             "TFT_Item_LastWhisper",
             "TFT_Item_MadredsBloodrazor"
-         ]
+         ],
+         "role": "ADCaster"
       },
       {
          "key": "Darius",
@@ -375,7 +381,8 @@
             "TFT_Item_UnstableConcoction",
             "TFT_Item_SteraksGage",
             "TFT_Item_InfinityEdge"
-         ]
+         ],
+         "role": "ADFighter"
       },
       {
          "key": "DrMundo",
@@ -424,11 +431,12 @@
          },
          "recommendItems": [
             "TFT_Item_WarmogsArmor",
-            "TFT_Item_GuinsoosRageblade",
             "TFT_Item_GargoyleStoneplate",
             "TFT_Item_RedBuff",
-            "TFT_Item_Redemption"
-         ]
+            "TFT_Item_Redemption",
+            "TFT_Item_GuinsoosRageblade"
+         ],
+         "role": "ADTank"
       },
       {
          "key": "Ekko",
@@ -448,14 +456,14 @@
             3888.0000000000005
          ],
          "attackDamage": [
+            40,
             60,
-            90,
-            135
+            90
          ],
          "damagePerSecond": [
+            38,
             57,
-            86,
-            128
+            86
          ],
          "attackRange": 1,
          "attackSpeed": 0.95,
@@ -477,7 +485,8 @@
             "TFT_Item_Bloodthirster",
             "TFT_Item_RabadonsDeathcap",
             "TFT_Item_TitansResolve"
-         ]
+         ],
+         "role": "APFighter"
       },
       {
          "key": "Ezreal",
@@ -531,7 +540,8 @@
             "TFT_Item_GuinsoosRageblade",
             "TFT_Item_BlueBuff",
             "TFT_Item_MadredsBloodrazor"
-         ]
+         ],
+         "role": "HCaster"
       },
       {
          "key": "Galio",
@@ -575,7 +585,8 @@
                "Shield: 250 / 375 / 425",
                "Damage: 350 / 350 / 350"
             ]
-         }
+         },
+         "role": "APTank"
       },
       {
          "key": "Galio2",
@@ -619,7 +630,8 @@
                "Swip Damage: 245",
                "Damage: 735"
             ]
-         }
+         },
+         "role": "APTank"
       },
       {
          "key": "Galio3",
@@ -663,7 +675,8 @@
                "Swip Damage: 190 / 190 / 190",
                "Slam Damage: 625 / 625 / 625"
             ]
-         }
+         },
+         "role": "APTank"
       },
       {
          "key": "Gangplank",
@@ -716,7 +729,8 @@
             "TFT_Item_UnstableConcoction",
             "TFT_Item_SteraksGage",
             "TFT_Item_InfinityEdge"
-         ]
+         ],
+         "role": "ADFighter"
       },
       {
          "key": "Garen",
@@ -770,7 +784,8 @@
             "TFT_Item_RedBuff",
             "TFT_Item_Redemption",
             "TFT_Item_DragonsClaw"
-         ]
+         ],
+         "role": "ADTank"
       },
       {
          "key": "Gnar",
@@ -823,7 +838,8 @@
             "TFT_Item_InfinityEdge",
             "TFT_Item_LastWhisper",
             "TFT_Item_Deathblade"
-         ]
+         ],
+         "role": "ADCarry"
       },
       {
          "key": "Gwen",
@@ -878,7 +894,8 @@
             "TFT_Item_Bloodthirster",
             "TFT_Item_RabadonsDeathcap",
             "TFT_Item_HextechGunblade"
-         ]
+         ],
+         "role": "APReaper"
       },
       {
          "key": "Janna",
@@ -929,10 +946,11 @@
          "recommendItems": [
             "TFT_Item_SpearOfShojin",
             "TFT_Item_JeweledGauntlet",
-            "TFT_Item_BlueBuff",
             "TFT_Item_ArchangelsStaff",
+            "TFT_Item_BlueBuff",
             "TFT_Item_GuinsoosRageblade"
-         ]
+         ],
+         "role": "APCaster"
       },
       {
          "key": "JarvanIV",
@@ -986,7 +1004,8 @@
             "TFT_Item_RedBuff",
             "TFT_Item_FrozenHeart",
             "TFT_Item_DragonsClaw"
-         ]
+         ],
+         "role": "APTank"
       },
       {
          "key": "Jayce",
@@ -1040,7 +1059,8 @@
             "TFT_Item_SteraksGage",
             "TFT_Item_UnstableConcoction",
             "TFT_Item_WarmogsArmor"
-         ]
+         ],
+         "role": "ADFighter"
       },
       {
          "key": "Jhin",
@@ -1093,7 +1113,8 @@
             "TFT_Item_LastWhisper",
             "TFT_Item_Deathblade",
             "TFT_Item_MadredsBloodrazor"
-         ]
+         ],
+         "role": "ADSpecialist"
       },
       {
          "key": "Jinx",
@@ -1147,7 +1168,8 @@
             "TFT_Item_RunaansHurricane",
             "TFT_Item_SpearOfShojin",
             "TFT_Item_LastWhisper"
-         ]
+         ],
+         "role": "ADCaster"
       },
       {
          "key": "KaiSa",
@@ -1199,7 +1221,8 @@
             "TFT_Item_RunaansHurricane",
             "TFT_Item_LastWhisper",
             "TFT_Item_PowerGauntlet"
-         ]
+         ],
+         "role": "ADCarry"
       },
       {
          "key": "Kalista",
@@ -1249,9 +1272,10 @@
             "TFT_Item_GuinsoosRageblade",
             "TFT_Item_InfinityEdge",
             "TFT_Item_SpearOfShojin",
-            "TFT_Item_RunaansHurricane",
-            "TFT_Item_LastWhisper"
-         ]
+            "TFT_Item_LastWhisper",
+            "TFT_Item_RunaansHurricane"
+         ],
+         "role": "ADCaster"
       },
       {
          "key": "Karma",
@@ -1303,7 +1327,8 @@
             "TFT_Item_BlueBuff",
             "TFT_Item_ArchangelsStaff",
             "TFT_Item_RabadonsDeathcap"
-         ]
+         ],
+         "role": "APCaster"
       },
       {
          "key": "Katarina",
@@ -1356,7 +1381,8 @@
             "TFT_Item_Bloodthirster",
             "TFT_Item_RabadonsDeathcap",
             "TFT_Item_IonicSpark"
-         ]
+         ],
+         "role": "APReaper"
       },
       {
          "key": "Kayle",
@@ -1409,7 +1435,8 @@
             "TFT_Item_JeweledGauntlet",
             "TFT_Item_MadredsBloodrazor",
             "TFT_Item_ArchangelsStaff"
-         ]
+         ],
+         "role": "APSpecialist"
       },
       {
          "key": "Kennen",
@@ -1460,11 +1487,12 @@
          },
          "recommendItems": [
             "TFT_Item_GuinsoosRageblade",
-            "TFT_Item_RedBuff",
-            "TFT_Item_WarmogsArmor",
             "TFT_Item_GargoyleStoneplate",
+            "TFT_Item_WarmogsArmor",
+            "TFT_Item_RedBuff",
             "TFT_Item_JeweledGauntlet"
-         ]
+         ],
+         "role": "APTank"
       },
       {
          "key": "Kobuko",
@@ -1516,7 +1544,8 @@
             "TFT_Item_GargoyleStoneplate",
             "TFT_Item_Redemption",
             "TFT_Item_SpectralGauntlet"
-         ]
+         ],
+         "role": "ADTank"
       },
       {
          "key": "KogMaw",
@@ -1568,7 +1597,8 @@
             "TFT_Item_ArchangelsStaff",
             "TFT_Item_JeweledGauntlet",
             "TFT_Item_Leviathan"
-         ]
+         ],
+         "role": "APCarry"
       },
       {
          "key": "KSante",
@@ -1623,7 +1653,8 @@
             "TFT_Item_RedBuff",
             "TFT_Item_Redemption",
             "TFT_Item_DragonsClaw"
-         ]
+         ],
+         "role": "ADTank"
       },
       {
          "key": "LeeSin",
@@ -1680,7 +1711,8 @@
                "Area Damage: 130 / 195 / 4000",
                "Boardwide Damage: 180 / 270 / 8000"
             ]
-         }
+         },
+         "role": "ADFighter"
       },
       {
          "key": "Leona",
@@ -1734,8 +1766,9 @@
             "TFT_Item_WarmogsArmor",
             "TFT_Item_RedBuff",
             "TFT_Item_DragonsClaw",
-            "TFT_Item_BrambleVest"
-         ]
+            "TFT_Item_Redemption"
+         ],
+         "role": "APTank"
       },
       {
          "key": "Lucian",
@@ -1787,7 +1820,8 @@
             "TFT_Item_SpearOfShojin",
             "TFT_Item_GuinsoosRageblade",
             "TFT_Item_StatikkShiv"
-         ]
+         ],
+         "role": "APCaster"
       },
       {
          "key": "Lulu",
@@ -1830,7 +1864,8 @@
             "skillMana": 100,
             "stats": []
          },
-         "recommendItems": []
+         "recommendItems": [],
+         "role": "APCaster"
       },
       {
          "key": "Lux",
@@ -1881,9 +1916,10 @@
             "TFT_Item_JeweledGauntlet",
             "TFT_Item_SpearOfShojin",
             "TFT_Item_BlueBuff",
-            "TFT_Item_StatikkShiv",
-            "TFT_Item_ArchangelsStaff"
-         ]
+            "TFT_Item_Morellonomicon",
+            "TFT_Item_StatikkShiv"
+         ],
+         "role": "APCaster"
       },
       {
          "key": "Malphite",
@@ -1934,8 +1970,9 @@
             "TFT_Item_WarmogsArmor",
             "TFT_Item_RedBuff",
             "TFT_Item_Redemption",
-            "TFT_Item_DragonsClaw"
-         ]
+            "TFT_Item_BrambleVest"
+         ],
+         "role": "APTank"
       },
       {
          "key": "Malzahar",
@@ -1986,8 +2023,9 @@
             "TFT_Item_BlueBuff",
             "TFT_Item_SpearOfShojin",
             "TFT_Item_HextechGunblade",
-            "TFT_Item_ArchangelsStaff"
-         ]
+            "TFT_Item_Morellonomicon"
+         ],
+         "role": "APCaster"
       },
       {
          "key": "Naafiri",
@@ -2040,7 +2078,8 @@
             "TFT_Item_UnstableConcoction",
             "TFT_Item_SteraksGage",
             "TFT_Item_RedBuff"
-         ]
+         ],
+         "role": "ADFighter"
       },
       {
          "key": "Neeko",
@@ -2093,7 +2132,8 @@
             "TFT_Item_RedBuff",
             "TFT_Item_DragonsClaw",
             "TFT_Item_Redemption"
-         ]
+         ],
+         "role": "APTank"
       },
       {
          "key": "Poppy",
@@ -2147,7 +2187,8 @@
             "TFT_Item_RedBuff",
             "TFT_Item_DragonsClaw",
             "TFT_Item_Redemption"
-         ]
+         ],
+         "role": "ADTank"
       },
       {
          "key": "Rakan",
@@ -2201,7 +2242,8 @@
             "TFT_Item_RedBuff",
             "TFT_Item_DragonsClaw",
             "TFT_Item_Redemption"
-         ]
+         ],
+         "role": "APTank"
       },
       {
          "key": "Rammus",
@@ -2253,8 +2295,9 @@
             "TFT_Item_WarmogsArmor",
             "TFT_Item_Redemption",
             "TFT_Item_RedBuff",
-            "TFT_Item_DragonsClaw"
-         ]
+            "TFT_Item_BrambleVest"
+         ],
+         "role": "APTank"
       },
       {
          "key": "Rell",
@@ -2303,11 +2346,12 @@
          },
          "recommendItems": [
             "TFT_Item_GargoyleStoneplate",
-            "TFT_Item_RedBuff",
             "TFT_Item_WarmogsArmor",
+            "TFT_Item_RedBuff",
             "TFT_Item_DragonsClaw",
             "TFT_Item_BrambleVest"
-         ]
+         ],
+         "role": "APTank"
       },
       {
          "key": "Ryze",
@@ -2361,7 +2405,8 @@
             "TFT_Item_ArchangelsStaff",
             "TFT_Item_BlueBuff",
             "TFT_Item_RabadonsDeathcap"
-         ]
+         ],
+         "role": "APCaster"
       },
       {
          "key": "Samira",
@@ -2412,10 +2457,11 @@
          "recommendItems": [
             "TFT_Item_InfinityEdge",
             "TFT_Item_LastWhisper",
-            "TFT_Item_GuinsoosRageblade",
+            "TFT_Item_PowerGauntlet",
             "TFT_Item_SpearOfShojin",
-            "TFT_Item_PowerGauntlet"
-         ]
+            "TFT_Item_GuinsoosRageblade"
+         ],
+         "role": "ADCaster"
       },
       {
          "key": "Senna",
@@ -2464,11 +2510,12 @@
          },
          "recommendItems": [
             "TFT_Item_InfinityEdge",
-            "TFT_Item_SpearOfShojin",
             "TFT_Item_GuinsoosRageblade",
+            "TFT_Item_SpearOfShojin",
             "TFT_Item_LastWhisper",
             "TFT_Item_MadredsBloodrazor"
-         ]
+         ],
+         "role": "ADCaster"
       },
       {
          "key": "Seraphine",
@@ -2519,8 +2566,9 @@
             "TFT_Item_JeweledGauntlet",
             "TFT_Item_BlueBuff",
             "TFT_Item_ArchangelsStaff",
-            "TFT_Item_RabadonsDeathcap"
-         ]
+            "TFT_Item_StatikkShiv"
+         ],
+         "role": "APCaster"
       },
       {
          "key": "Sett",
@@ -2575,7 +2623,8 @@
             "TFT_Item_RedBuff",
             "TFT_Item_Redemption",
             "TFT_Item_DragonsClaw"
-         ]
+         ],
+         "role": "ADTank"
       },
       {
          "key": "Shen",
@@ -2629,7 +2678,8 @@
             "TFT_Item_RedBuff",
             "TFT_Item_Redemption",
             "TFT_Item_DragonsClaw"
-         ]
+         ],
+         "role": "APTank"
       },
       {
          "key": "Sivir",
@@ -2681,7 +2731,8 @@
             "TFT_Item_SpearOfShojin",
             "TFT_Item_LastWhisper",
             "TFT_Item_RunaansHurricane"
-         ]
+         ],
+         "role": "ADCaster"
       },
       {
          "key": "Smolder",
@@ -2731,9 +2782,10 @@
             "TFT_Item_InfinityEdge",
             "TFT_Item_SpearOfShojin",
             "TFT_Item_GuinsoosRageblade",
-            "TFT_Item_BlueBuff",
-            "TFT_Item_PowerGauntlet"
-         ]
+            "TFT_Item_PowerGauntlet",
+            "TFT_Item_BlueBuff"
+         ],
+         "role": "ADCaster"
       },
       {
          "key": "Swain",
@@ -2787,9 +2839,10 @@
             "TFT_Item_GargoyleStoneplate",
             "TFT_Item_WarmogsArmor",
             "TFT_Item_RedBuff",
-            "TFT_Item_DragonsClaw",
-            "TFT_Item_Redemption"
-         ]
+            "TFT_Item_Redemption",
+            "TFT_Item_DragonsClaw"
+         ],
+         "role": "APTank"
       },
       {
          "key": "Syndra",
@@ -2841,8 +2894,9 @@
             "TFT_Item_SpearOfShojin",
             "TFT_Item_BlueBuff",
             "TFT_Item_ArchangelsStaff",
-            "TFT_Item_RabadonsDeathcap"
-         ]
+            "TFT_Item_StatikkShiv"
+         ],
+         "role": "APCaster"
       },
       {
          "key": "TwistedFate",
@@ -2896,7 +2950,8 @@
             "TFT_Item_HextechGunblade",
             "TFT_Item_MadredsBloodrazor",
             "TFT_Item_InfinityEdge"
-         ]
+         ],
+         "role": "HCarry"
       },
       {
          "key": "Udyr",
@@ -2950,7 +3005,8 @@
             "TFT_Item_WarmogsArmor",
             "TFT_Item_GargoyleStoneplate",
             "TFT_Item_RedBuff"
-         ]
+         ],
+         "role": "ADTank"
       },
       {
          "key": "Varus",
@@ -3001,9 +3057,10 @@
             "TFT_Item_InfinityEdge",
             "TFT_Item_SpearOfShojin",
             "TFT_Item_GuinsoosRageblade",
-            "TFT_Item_MadredsBloodrazor",
-            "TFT_Item_PowerGauntlet"
-         ]
+            "TFT_Item_PowerGauntlet",
+            "TFT_Item_LastWhisper"
+         ],
+         "role": "ADCaster"
       },
       {
          "key": "Vi",
@@ -3051,12 +3108,13 @@
             ]
          },
          "recommendItems": [
-            "TFT_Item_GargoyleStoneplate",
             "TFT_Item_Bloodthirster",
+            "TFT_Item_GargoyleStoneplate",
+            "TFT_Item_TitansResolve",
             "TFT_Item_WarmogsArmor",
-            "TFT_Item_RedBuff",
-            "TFT_Item_TitansResolve"
-         ]
+            "TFT_Item_RedBuff"
+         ],
+         "role": "ADTank"
       },
       {
          "key": "Viego",
@@ -3110,7 +3168,8 @@
             "TFT_Item_JeweledGauntlet",
             "TFT_Item_TitansResolve",
             "TFT_Item_GuardianAngel"
-         ]
+         ],
+         "role": "APFighter"
       },
       {
          "key": "Volibear",
@@ -3163,7 +3222,8 @@
             "TFT_Item_SteraksGage",
             "TFT_Item_UnstableConcoction",
             "TFT_Item_GuinsoosRageblade"
-         ]
+         ],
+         "role": "ADFighter"
       },
       {
          "key": "WraithDamageTracker",
@@ -3204,7 +3264,8 @@
             "stats": [
                "TBA: TBA"
             ]
-         }
+         },
+         "role": ""
       },
       {
          "key": "Xayah",
@@ -3256,8 +3317,9 @@
             "TFT_Item_InfinityEdge",
             "TFT_Item_RunaansHurricane",
             "TFT_Item_LastWhisper",
-            "TFT_Item_Deathblade"
-         ]
+            "TFT_Item_MadredsBloodrazor"
+         ],
+         "role": "ADCarry"
       },
       {
          "key": "XinZhao",
@@ -3308,9 +3370,10 @@
             "TFT_Item_GargoyleStoneplate",
             "TFT_Item_WarmogsArmor",
             "TFT_Item_RedBuff",
-            "TFT_Item_DragonsClaw",
-            "TFT_Item_Redemption"
-         ]
+            "TFT_Item_Redemption",
+            "TFT_Item_DragonsClaw"
+         ],
+         "role": "ADTank"
       },
       {
          "key": "Yasuo",
@@ -3360,9 +3423,10 @@
             "TFT_Item_Bloodthirster",
             "TFT_Item_TitansResolve",
             "TFT_Item_UnstableConcoction",
-            "TFT_Item_InfinityEdge",
-            "TFT_Item_SteraksGage"
-         ]
+            "TFT_Item_SteraksGage",
+            "TFT_Item_InfinityEdge"
+         ],
+         "role": "ADReaper"
       },
       {
          "key": "Yone",
@@ -3415,8 +3479,9 @@
             "TFT_Item_TitansResolve",
             "TFT_Item_UnstableConcoction",
             "TFT_Item_SteraksGage",
-            "TFT_Item_InfinityEdge"
-         ]
+            "TFT_Item_GuardianAngel"
+         ],
+         "role": "ADFighter"
       },
       {
          "key": "Yuumi",
@@ -3466,10 +3531,11 @@
          "recommendItems": [
             "TFT_Item_JeweledGauntlet",
             "TFT_Item_BlueBuff",
-            "TFT_Item_SpearOfShojin",
             "TFT_Item_HextechGunblade",
+            "TFT_Item_SpearOfShojin",
             "TFT_Item_RabadonsDeathcap"
-         ]
+         ],
+         "role": "APCaster"
       },
       {
          "key": "Zac",
@@ -3517,12 +3583,13 @@
             ]
          },
          "recommendItems": [
-            "TFT_Item_WarmogsArmor",
             "TFT_Item_GargoyleStoneplate",
+            "TFT_Item_WarmogsArmor",
             "TFT_Item_RedBuff",
             "TFT_Item_Redemption",
             "TFT_Item_DragonsClaw"
-         ]
+         ],
+         "role": "APTank"
       },
       {
          "key": "Ziggs",
@@ -3570,12 +3637,13 @@
             ]
          },
          "recommendItems": [
-            "TFT_Item_JeweledGauntlet",
             "TFT_Item_GuinsoosRageblade",
+            "TFT_Item_JeweledGauntlet",
             "TFT_Item_SpearOfShojin",
             "TFT_Item_ArchangelsStaff",
             "TFT_Item_StatikkShiv"
-         ]
+         ],
+         "role": "APCarry"
       },
       {
          "key": "Zyra",
@@ -3629,7 +3697,8 @@
             "TFT_Item_BlueBuff",
             "TFT_Item_ArchangelsStaff",
             "TFT_Item_GuinsoosRageblade"
-         ]
+         ],
+         "role": "APCaster"
       }
    ]
 }
