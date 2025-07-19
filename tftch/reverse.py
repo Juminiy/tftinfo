@@ -25,15 +25,16 @@ def grid_convert2_table(grid2d: list[list[str]]) -> list[str]:
         res.append(resv)
     return res
 
-with open('wf_cn.txt') as wfile:
-    rows=wfile.readlines()
-    grid2d=[row.split('|') for row in rows]
-    for i in range(len(grid2d)):
-        for j in range(len(grid2d[i])):
-            grid2d[i][j] = grid2d[i][j].strip()
-    for i in range(len(grid2d)):
-        grid2d[i] = grid2d[i][::-1]
-    with open('wf_cn_rev.txt', 'w+') as wrfile:
-        wrfile.write(grid_fix_write(grid2d))
-        wrfile.close()
-    wfile.close()
+def convert_by_reverse():
+    with open('wf_cn.txt') as wfile:
+        rows=wfile.readlines()
+        grid2d=[row.split('|') for row in rows]
+        for i in range(len(grid2d)):
+            for j in range(len(grid2d[i])):
+                grid2d[i][j] = grid2d[i][j].strip()
+        for i in range(len(grid2d)):
+            grid2d[i] = grid2d[i][::-1]
+        with open('wf_cn_rev.txt', 'w+') as wrfile:
+            wrfile.write(grid_fix_write(grid2d))
+            wrfile.close()
+        wfile.close()
