@@ -36,7 +36,7 @@ def set13_teamup():
 
 def set13_anomalies():
     set13_als_raw:dict[str,Any] = {}
-    with open('tftraw/set13-anomalies.json') as alsfile:
+    with open('tftraw/specs/set13-anomalies.json') as alsfile:
         set13_als_raw = loads(alsfile.read())
         alsfile.close()
     

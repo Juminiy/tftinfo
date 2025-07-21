@@ -15,7 +15,7 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
-for sfile in "parse_traits_grid" "parse_traits_table" "parse_items" "parse_augments"
+for sfile in "parse_traits_grid" "parse_traits_table" "parse_items" "parse_augments" "parse_special"
 do
     $cmdof $sfile.py
 done
