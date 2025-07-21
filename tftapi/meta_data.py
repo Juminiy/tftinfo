@@ -66,3 +66,11 @@ augments_tier={
     3: 'prismatic',
     4: 'champion',
 }
+
+stat_icons={
+    '%i:scaleAD%': 'AD',
+    '%i:scaleArmor%': 'AR',
+    '%i:scaleAP%': 'AP',
+    '%i:scaleHealth%': 'HP',
+    '%i:scaleDA%': 'DA',
+}

@@ -1,0 +1,1841 @@
+{
+    "TFT12_Zap_BuggyCode": {
+        "code": "TFT12_Zap_BuggyCode",
+        "tier": 2.5,
+        "cost": 1,
+        "type": 2,
+        "name": {
+            "en_US": "Summon Voidling",
+            "ko_KR": "\uacf5\ud5c8\ucda9 \uc18c\ud658"
+        },
+        "desc": {
+            "en_US": "Gain a Voidling for 1 round.",
+            "ko_KR": "1\ub77c\uc6b4\ub4dc \ub3d9\uc548 \uacf5\ud5c8\ucda9 1\ub9c8\ub9ac\ub97c \ud68d\ub4dd\ud569\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_Zap_Assassin": {
+        "code": "TFT12_Zap_Assassin",
+        "tier": 2.5,
+        "cost": 1,
+        "type": 2,
+        "name": {
+            "en_US": "Assassin",
+            "ko_KR": "\uc554\uc0b4\uc790"
+        },
+        "desc": {
+            "en_US": "Next combat: Your highest %i:scaleAD% champion jumps to the enemy backline.",
+            "ko_KR": "\ub2e4\uc74c \uc804\ud22c: \uac00\uc7a5 %i:scaleAD%\uc774 \ub192\uc740 \ucc54\ud53c\uc5b8\uc774 \uc801\uc758 \ud6c4\ubc29\uc73c\ub85c \ub3c4\uc57d\ud569\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_Zap_TreasureHunter": {
+        "code": "TFT12_Zap_TreasureHunter",
+        "tier": 2.5,
+        "cost": 1,
+        "type": 2,
+        "name": {
+            "en_US": "Treasure Hunter",
+            "ko_KR": "\ubcf4\ubb3c \uc0ac\ub0e5\uafbc"
+        },
+        "desc": {
+            "en_US": "@NumToGive@ champion without items gain an Unstable Treasure Chest for 1 round.",
+            "ko_KR": "1\ub77c\uc6b4\ub4dc \ub3d9\uc548 \uc544\uc774\ud15c\uc774 \uc5c6\ub294 \ucc54\ud53c\uc5b8 @NumToGive@\uba85\uc774 \ubd88\uc548\uc815\ud55c \ubcf4\ubb3c \uc0c1\uc790 1\uac1c\ub97c \ud68d\ub4dd\ud569\ub2c8\ub2e4."
+        },
+        "variables": {
+            "NumToGive": "1"
+        }
+    },
+    "TFT12_Zap_Aftershock": {
+        "code": "TFT12_Zap_Aftershock",
+        "tier": 2.5,
+        "cost": 1,
+        "type": 2,
+        "name": {
+            "en_US": "Aftershock",
+            "ko_KR": "\uc5ec\uc9c4"
+        },
+        "desc": {
+            "en_US": "Next Combat: After @DelayTime@ seconds, stun all enemies for @StunDuration@ seconds.",
+            "ko_KR": "\ub2e4\uc74c \uc804\ud22c: @DelayTime@\ucd08 \ud6c4, @StunDuration@\ucd08 \ub3d9\uc548 \ubaa8\ub4e0 \uc801\uc744 \uae30\uc808\uc2dc\ud0b5\ub2c8\ub2e4."
+        },
+        "variables": {
+            "StunDuration": "1.5",
+            "DelayTime": "10"
+        }
+    },
+    "TFT12_Zap_RentedGloves": {
+        "code": "TFT12_Zap_RentedGloves",
+        "tier": 2.5,
+        "cost": 2,
+        "type": 2,
+        "name": {
+            "en_US": "Phantom Gloves",
+            "ko_KR": "\uc720\ub839 \uc7a5\uac11"
+        },
+        "desc": {
+            "en_US":"Gain a temporary Thief\\'s Gloves for 1 round.",
+            "ko_KR": "1\ub77c\uc6b4\ub4dc \ub3d9\uc548 \uc784\uc2dc \ub3c4\uc801\uc758 \uc7a5\uac11\uc744 \ud68d\ub4dd\ud569\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_Zap_CloakOfSurprise": {
+        "code": "TFT12_Zap_CloakOfSurprise",
+        "tier": 2.5,
+        "cost": 1,
+        "type": 2,
+        "name": {
+            "en_US": "Surprise!",
+            "ko_KR": "\uae5c\uc9dd\uc120\ubb3c!"
+        },
+        "desc": {
+            "en_US": "@NumToGive@ champion without items gains a Suspicious Trenchcoat for 1 round.",
+            "ko_KR": "1\ub77c\uc6b4\ub4dc \ub3d9\uc548 \uc544\uc774\ud15c\uc774 \uc5c6\ub294 \ucc54\ud53c\uc5b8 @NumToGive@\uba85\uc774 \uc218\uc0c1\ud55c \uc678\ud22c 1\uac1c\ub97c \ud68d\ub4dd\ud569\ub2c8\ub2e4."
+        },
+        "variables": {
+            "NumToGive": "1"
+        }
+    },
+    "TFT12_Zap_GiantGlamour": {
+        "code": "TFT12_Zap_GiantGlamour",
+        "tier": 2.5,
+        "cost": 1,
+        "type": 2,
+        "name": {
+            "en_US":"Bunch-o\\'-Belts",
+            "ko_KR": "\ud5c8\ub9ac\ub760 \ubb49\uce58"
+        },
+        "desc": {
+            "en_US":"Your team gains @NumToGive@ non-removable Giant\\'s Belts for 1 round.",
+            "ko_KR": "1\ub77c\uc6b4\ub4dc \ub3d9\uc548 \uc544\uad70\uc774 \uc7a5\ucc29 \ud574\uc81c\ud560 \uc218 \uc5c6\ub294 \uac70\uc778\uc758 \ud5c8\ub9ac\ub760 @NumToGive@\uac1c\ub97c \uc5bb\uc2b5\ub2c8\ub2e4."
+        },
+        "variables": {
+            "NumToGive": "6"
+        }
+    },
+    "TFT12_Zap_Lifeline": {
+        "code": "TFT12_Zap_Lifeline",
+        "tier": 2.5,
+        "cost": 0,
+        "type": 2,
+        "name": {
+            "en_US": "Lucky Find",
+            "ko_KR": "\ud6a1\uc7ac"
+        },
+        "desc": {
+            "en_US": "Gain @NumGold@ gold. Your team gains @HPToGain@ Health for 1 round.",
+            "ko_KR": "@NumGold@\uace8\ub4dc\ub97c \uc5bb\uc2b5\ub2c8\ub2e4. 1\ub77c\uc6b4\ub4dc \ub3d9\uc548 \uc544\uad70\uc774 \uccb4\ub825\uc744 @HPToGain@ \uc5bb\uc2b5\ub2c8\ub2e4."
+        },
+        "variables": {
+            "NumGold": "1",
+            "HPToGain": "50"
+        }
+    },
+    "TFT12_Zap_MoonlightRitual": {
+        "code": "TFT12_Zap_MoonlightRitual",
+        "tier": 2.5,
+        "cost": 2,
+        "type": 2,
+        "name": {
+            "en_US": "Moonlight Ritual",
+            "ko_KR": "\uc6d4\uad11 \uc758\uc2dd"
+        },
+        "desc": {
+            "en_US": "Next combat: A random 1 or 2 cost champion stars up.",
+            "ko_KR": "\ub2e4\uc74c \uc804\ud22c: \ubb34\uc791\uc704 1\ub2e8\uacc4 \ub610\ub294 2\ub2e8\uacc4 \ucc54\ud53c\uc5b8 1\uba85\uc758 \ubcc4 \ub808\ubca8\uc774 \uc624\ub985\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_Zap_Blacksmithing": {
+        "code": "TFT12_Zap_Blacksmithing",
+        "tier": 2.5,
+        "cost": 7,
+        "type": 3,
+        "name": {
+            "en_US": "Conjure Anvil",
+            "ko_KR": "\ubaa8\ub8e8 \uc5f0\uc131"
+        },
+        "desc": {
+            "en_US": "Gain a component anvil.",
+            "ko_KR": "\uc870\ud569 \uc544\uc774\ud15c \ubaa8\ub8e8 1\uac1c\ub97c \ud68d\ub4dd\ud569\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_Zap_MimicryMinor": {
+        "code": "TFT12_Zap_MimicryMinor",
+        "tier": 2.5,
+        "cost": 4,
+        "type": 3,
+        "name": {
+            "en_US": "Minor Mimicry",
+            "ko_KR": "\ud558\uae09 \ubaa8\ubc29"
+        },
+        "desc": {
+            "en_US": "Gain a Lesser Champion Duplicator.",
+            "ko_KR": "\ud558\uae09 \ucc54\ud53c\uc5b8 \ubcf5\uc81c\uae30 1\uac1c\ub97c \ud68d\ub4dd\ud569\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_Zap_Assembly": {
+        "code": "TFT12_Zap_Assembly",
+        "tier": 2.5,
+        "cost": 11,
+        "type": 3,
+        "name": {
+            "en_US": "Assembly",
+            "ko_KR": "\uacb0\uc9d1"
+        },
+        "desc": {
+            "en_US": "Gain a copy of each 1-cost champion.",
+            "ko_KR": "1\ub2e8\uacc4 \ucc54\ud53c\uc5b8\uc758 \ubcf5\uc0ac\ubcf8\uc744 1\uba85\uc529 \ud68d\ub4dd\ud569\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_Zap_GoldenBlessing": {
+        "code": "TFT12_Zap_GoldenBlessing",
+        "tier": 2.5,
+        "cost": 1,
+        "type": 2,
+        "name": {
+            "en_US": "Golden Dummy",
+            "ko_KR": "\ud669\uae08\ube5b \ud6c8\ub828 \ubd07"
+        },
+        "desc": {
+            "en_US": "Gain a Dummy for 1 round. Your Dummies drop gold as they take damage.",
+            "ko_KR": "1\ub77c\uc6b4\ub4dc \ub3d9\uc548 \ud6c8\ub828 \ubd07 1\uac1c\ub97c \ud68d\ub4dd\ud569\ub2c8\ub2e4. \uc544\uad70 \ud6c8\ub828 \ubd07\uc774 \ud53c\ud574\ub97c \ubc1b\ub294 \ub3d9\uc548 \uace8\ub4dc\ub97c \ub5a8\uc5b4\ub728\ub9bd\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_Zap_PieceOfCake": {
+        "code": "TFT12_Zap_PieceOfCake",
+        "tier": 2,
+        "cost": 1,
+        "type": 4,
+        "name": {
+            "en_US": "Piece of Cake",
+            "ko_KR": "\ub204\uc6cc\uc11c \ucf00\uc774\ud06c \uba39\uae30"
+        },
+        "desc": {
+            "en_US": "Gain @StepsToGain@ sugar for your Sugarcraft cake.",
+            "ko_KR": "\ub2ec\ucf64\uc220\uc0ac \ucf00\uc774\ud06c\uc5d0 \uc124\ud0d5\uc744 @StepsToGain@\uac1c \ucd94\uac00\ud569\ub2c8\ub2e4."
+        },
+        "variables": {
+            "StepsToGain": "25"
+        }
+    },
+    "TFT12_Zap_AncientRitual": {
+        "code": "TFT12_Zap_AncientRitual",
+        "tier": 2,
+        "cost": 0,
+        "type": 4,
+        "name": {
+            "en_US": "Eldritch Hunger",
+            "ko_KR": "\uc12c\ub729\ud55c \ud5c8\uae30"
+        },
+        "desc": {
+            "en_US": "Next combat: Your Eldritch God gains @ASBoost*100@% %i:scaleAS% and @HealthBoost*100@% %i:scaleHealth% on takedown.",
+            "ko_KR": "\ub2e4\uc74c \uc804\ud22c: \uc12c\ub729\ud55c \ud798\uc758 \uc544\uad70 \uace0\ub300 \uc2e0\uc774 \ucc98\uce58\uc5d0 \uad00\uc5ec\ud558\uba74 %i:scaleAS%\ub97c @ASBoost*100@%, %i:scaleHealth%\uc744 @HealthBoost*100@% \uc5bb\uc2b5\ub2c8\ub2e4."
+        },
+        "variables": {
+            "ASBoost": "0.2",
+            "HealthBoost": "0.1"
+        }
+    },
+    "TFT12_Zap_HocusPocus": {
+        "code": "TFT12_Zap_HocusPocus",
+        "tier": 2,
+        "cost": 0,
+        "type": 4,
+        "name": {
+            "en_US": "Hocus Pocus",
+            "ko_KR": "\uc218\ub9ac\uc218\ub9ac \ub9c8\uc218\ub9ac"
+        },
+        "desc": {
+            "en_US": "Next combat: Witches gain @WitchAPBoost@ Ability Power.",
+            "ko_KR": "\ub2e4\uc74c \uc804\ud22c: \ub9c8\ub140\uac00 \uc8fc\ubb38\ub825\uc744 @WitchAPBoost@ \uc5bb\uc2b5\ub2c8\ub2e4."
+        },
+        "variables": {
+            "WitchAPBoost": "25"
+        }
+    },
+    "TFT12_Zap_Pyromania": {
+        "code": "TFT12_Zap_Pyromania",
+        "tier": 2,
+        "cost": 0,
+        "type": 4,
+        "name": {
+            "en_US": "Pyromania",
+            "ko_KR": "\ubc29\ud654\uad11"
+        },
+        "desc": {
+            "en_US": "Gain @NumCinders@ Pyro infernal cinders.",
+            "ko_KR": "\ud654\uc5fc \ud2b9\uc131 \uc9c0\uc625 \uc789\uac78\ubd88\uc744 @NumCinders@\uac1c \uc5bb\uc2b5\ub2c8\ub2e4."
+        },
+        "variables": {
+            "NumCinders": "10"
+        }
+    },
+    "TFT12_Zap_BusyBees": {
+        "code": "TFT12_Zap_BusyBees",
+        "tier": 2,
+        "cost": 0,
+        "type": 4,
+        "name": {
+            "en_US": "Busy Bees",
+            "ko_KR": "\ubd80\uc9c0\ub7f0\ud55c \uafc0\ubc8c"
+        },
+        "desc": {
+            "en_US": "Your Bees gain @BonusAS*100@% Attack Speed this round.",
+            "ko_KR": "\uc774\ubc88 \ub77c\uc6b4\ub4dc\uc5d0 \uc544\uad70 \uafc0\ubc8c\uc774 \uacf5\uaca9 \uc18d\ub3c4\ub97c @BonusAS*100@% \uc5bb\uc2b5\ub2c8\ub2e4."
+        },
+        "variables": {
+            "BonusAS": "0.25"
+        }
+    },
+    "TFT12_Zap_HailToTheQueen": {
+        "code": "TFT12_Zap_HailToTheQueen",
+        "tier": 2,
+        "cost": 0,
+        "type": 4,
+        "name": {
+            "en_US":"Queen\\'s Gambit",
+            "ko_KR": "\ud038\uc2a4 \uac2c\ube57"
+        },
+        "desc": {
+            "en_US": "Next combat: If you win, gain a copy of your highest cost Faerie.",
+            "ko_KR": "\ub2e4\uc74c \uc804\ud22c: \uc2b9\ub9ac\ud558\uba74 \uac00\uc7a5 \ub2e8\uacc4\uac00 \ub192\uc740 \uc544\uad70 \uc694\uc815 \uc720\ub2db\uc758 \ubcf5\uc0ac\ubcf8\uc744 \ud68d\ub4dd\ud569\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_Zap_QuickBurn": {
+        "code": "TFT12_Zap_QuickBurn",
+        "tier": 2,
+        "cost": 0,
+        "type": 4,
+        "name": {
+            "en_US": "Spitfire",
+            "ko_KR": "\ubd88 \ubfdc\uae30"
+        },
+        "desc": {
+            "en_US": "Next combat: Dragon attacks deal an extra @PercentBurn*100@% max Health true damage.",
+            "ko_KR": "\ub2e4\uc74c \uc804\ud22c: \uc6a9\uc758 \uae30\ubcf8 \uacf5\uaca9\uc774 \ucd5c\ub300 \uccb4\ub825\uc758 @PercentBurn*100@%\uc758 \ucd94\uac00 \uace0\uc815 \ud53c\ud574\ub97c \uc785\ud799\ub2c8\ub2e4."
+        },
+        "variables": {
+            "PercentBurn": "0.01"
+        }
+    },
+    "TFT12_Zap_Quickening": {
+        "code": "TFT12_Zap_Quickening",
+        "tier": 2,
+        "cost": 0,
+        "type": 4,
+        "name": {
+            "en_US": "Quickening",
+            "ko_KR": "\uac00\uc18d\ud654"
+        },
+        "desc": {
+            "en_US": "Next combat: Chrono champions gain +30% %i:scaleAS% after countdown.",
+            "ko_KR": "\ub2e4\uc74c \uc804\ud22c: \uc2dc\uacf5\uac04\uc774 \ucd08\uc77d\uae30 \ud6c4 %i:scaleAS%\ub97c +30% \uc5bb\uc2b5\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_Zap_SnapFreeze": {
+        "code": "TFT12_Zap_SnapFreeze",
+        "tier": 2,
+        "cost": 1,
+        "type": 4,
+        "name": {
+            "en_US": "Frosty Fortitude",
+            "ko_KR": "\ud639\ud55c\uc758 \uacac\uace0\ud568"
+        },
+        "desc": {
+            "en_US": "Next combat: Winter ice soldiers gain @PercentExtraHealth*100@% more Health.",
+            "ko_KR": "\ub2e4\uc74c \uc804\ud22c: \uc5bc\uc74c \ubcd1\uc0ac\uc758 \uccb4\ub825\uc774 @PercentExtraHealth*100@% \uc99d\uac00\ud569\ub2c8\ub2e4."
+        },
+        "variables": {
+            "PercentExtraHealth": "0.4"
+        }
+    },
+    "TFT12_Zap_SummoningPortal": {
+        "code": "TFT12_Zap_SummoningPortal",
+        "tier": 2,
+        "cost": 0,
+        "type": 4,
+        "name": {
+            "en_US": "Portal Hopping",
+            "ko_KR": "\ucc28\uc6d0\ubb38 \ub6f0\uc5b4\ub118\uae30"
+        },
+        "desc": {
+            "en_US": "Gain a random Portal champion.",
+            "ko_KR": "\ubb34\uc791\uc704 \ucc28\uc6d0\ubb38 \ucc54\ud53c\uc5b8 1\uba85\uc744 \ud68d\ub4dd\ud569\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_Zap_SupremeArcana": {
+        "code": "TFT12_Zap_SupremeArcana",
+        "tier": 2,
+        "cost": 0,
+        "type": 4,
+        "name": {
+            "en_US": "Supreme Arcana",
+            "ko_KR": "\ucd5c\uace0\uc704 \uc544\ub974\uce74\ub098"
+        },
+        "desc": {
+            "en_US": "Your High Arcana champion gains @BuffAmount*100@% Damage Amp and Durability for 1 round.",
+            "ko_KR": "1\ub77c\uc6b4\ub4dc \ub3d9\uc548 \uc544\uad70 \ud558\uc774 \uc544\ub974\uce74\ub098 \ucc54\ud53c\uc5b8\uc774 \ud53c\ud574 \uc99d\ud3ed\uacfc \ub0b4\uad6c\ub825\uc744 @BuffAmount*100@% \uc5bb\uc2b5\ub2c8\ub2e4."
+        },
+        "variables": {
+            "BuffAmount": "0.2"
+        }
+    },
+    "TFT12_Zap_DressDown": {
+        "code": "TFT12_Zap_DressDown",
+        "tier": 2.5,
+        "cost": 0,
+        "type": 2,
+        "name": {
+            "en_US": "Dress Down",
+            "ko_KR": "\ubb34\uc7a5 \ud574\uc81c"
+        },
+        "desc": {
+            "en_US": "Next combat: @ShredSunder@% Shred and Sunder all enemies for @Duration@ seconds.",
+            "ko_KR": "\ub2e4\uc74c \uc804\ud22c: @Duration@\ucd08 \ub3d9\uc548 \ubaa8\ub4e0 \uc801\uc5d0\uac8c \ud30c\uc1c4 \ubc0f \ud30c\uc5f4\uc744 @ShredSunder@%\ub9cc\ud07c \uc801\uc6a9\ud569\ub2c8\ub2e4."
+        },
+        "variables": {
+            "ShredSunder": "30",
+            "Duration": "8"
+        }
+    },
+    "TFT12_Zap_CombatMastery": {
+        "code": "TFT12_Zap_CombatMastery",
+        "tier": 2.5,
+        "cost": 1,
+        "type": 3,
+        "name": {
+            "en_US": "Combat Mastery",
+            "ko_KR": "\uc804\ud22c \uc219\ub828"
+        },
+        "desc": {
+            "en_US": "Next combat: Gain @XPIncrease@ XP for each enemy your team kills.",
+            "ko_KR": "\ub2e4\uc74c \uc804\ud22c: \uc544\uad70\uc774 \ucc98\uce58\ud55c \uc801 1\uba85\ub2f9 \uacbd\ud5d8\uce58\ub97c @XPIncrease@ \uc5bb\uc2b5\ub2c8\ub2e4."
+        },
+        "variables": {
+            "XPIncrease": "1"
+        }
+    },
+    "TFT12_Zap_MimicryMajor": {
+        "code": "TFT12_Zap_MimicryMajor",
+        "tier": 4,
+        "cost": 9,
+        "type": 3,
+        "name": {
+            "en_US": "Major Mimicry",
+            "ko_KR": "\uc0c1\uae09 \ubaa8\ubc29"
+        },
+        "desc": {
+            "en_US": "Gain a Champion Duplicator.",
+            "ko_KR": "\ucc54\ud53c\uc5b8 \ubcf5\uc81c\uae30 1\uac1c\ub97c \ud68d\ub4dd\ud569\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_Zap_AllFives": {
+        "code": "TFT12_Zap_AllFives",
+        "tier": 4,
+        "cost": 7,
+        "type": 1,
+        "name": {
+            "en_US": "All Fives",
+            "ko_KR": "5\ub2e8\uacc4 \uc9d1\uacb0"
+        },
+        "desc": {
+            "en_US": "Reroll your Shop with all 5-cost champions.",
+            "ko_KR": "\uc0c1\uc810\uc744 \uc0c8\ub85c\uace0\uce68\ud574 \ubaa8\ub450 5\ub2e8\uacc4 \ucc54\ud53c\uc5b8\uc73c\ub85c \ucc44\uc6c1\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_Zap_Enhance": {
+        "code": "TFT12_Zap_Enhance",
+        "tier": 4,
+        "cost": 0,
+        "type": 1,
+        "name": {
+            "en_US": "Enhance",
+            "ko_KR": "\uc9c4\ubcf4"
+        },
+        "desc": {
+            "en_US": "Reroll your Shop with champions 1 cost higher.",
+            "ko_KR": "\uc0c1\uc810\uc744 \uc0c8\ub85c\uace0\uce68\ud574 \ubaa8\ub450 \uc9c0\uae08\ubcf4\ub2e4 1\ub2e8\uacc4 \ub192\uc740 \ucc54\ud53c\uc5b8\uc73c\ub85c \ucc44\uc6c1\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_Zap_Artifactor": {
+        "code": "TFT12_Zap_Artifactor",
+        "tier": 4,
+        "cost": 17,
+        "type": 3,
+        "name": {
+            "en_US": "Conjure Artifact",
+            "ko_KR": "\uc720\ubb3c \uc5f0\uc131"
+        },
+        "desc": {
+            "en_US": "Gain an Artifact anvil.",
+            "ko_KR": "\uc720\ubb3c \ubaa8\ub8e8 1\uac1c\ub97c \ud68d\ub4dd\ud569\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_Zap_Desperation": {
+        "code": "TFT12_Zap_Desperation",
+        "tier": 4,
+        "cost": 3,
+        "type": 1,
+        "name": {
+            "en_US": "Sinister Shop",
+            "ko_KR": "\ubd88\uae38\ud55c \uc0c1\uc810"
+        },
+        "desc": {
+            "en_US": "Gain @NumRerolls@ Shop rerolls. This Charm costs @HPToLose@ player health.",
+            "ko_KR": "\uc0c1\uc810 \uc0c8\ub85c\uace0\uce68\uc744 @NumRerolls@\ud68c \uc5bb\uc2b5\ub2c8\ub2e4. \uc774 \uc8fc\uc220\uc740 \ud50c\ub808\uc774\uc5b4 \uccb4\ub825\uc744 @HPToLose@ \uc18c\ubaa8\ud569\ub2c8\ub2e4."
+        },
+        "variables": {
+            "HPToLose": "4",
+            "NumRerolls": "6"
+        }
+    },
+    "TFT12_Zap_UltraBuggy": {
+        "code": "TFT12_Zap_UltraBuggy",
+        "tier": 4,
+        "cost": 3,
+        "type": 2,
+        "name": {
+            "en_US": "Spawn Swarm",
+            "ko_KR": "\ubb34\ub9ac \uc0dd\uc131"
+        },
+        "desc": {
+            "en_US": "Next combat: Your 1st @MaxSpawn@ front row units spawn a voidling after death.",
+            "ko_KR": "\ub2e4\uc74c \uc804\ud22c: \uac00\uc7a5 \uba3c\uc800 \ucc98\uce58\ub41c \uc804\ubc29 \uc720\ub2db @MaxSpawn@\uba85\uc774 \uacf5\ud5c8\ucda9\uc744 1\ub9c8\ub9ac \uc0dd\uc131\ud569\ub2c8\ub2e4."
+        },
+        "variables": {
+            "MaxSpawn": "2"
+        }
+    },
+    "TFT12_Zap_MajorPolymorph": {
+        "code": "TFT12_Zap_MajorPolymorph",
+        "tier": 4,
+        "cost": 0,
+        "type": 3,
+        "name": {
+            "en_US": "Major Polymorph",
+            "ko_KR": "\uc0c1\uae09 \ubcc0\uc774"
+        },
+        "desc": {
+            "en_US": "Non-combat: A 4-cost champ you have transforms into a 5-cost.",
+            "ko_KR": "\ube44\uc804\ud22c \uc2dc: \ubcf4\uc720\ud55c 4\ub2e8\uacc4 \ucc54\ud53c\uc5b8 1\uba85\uc774 5\ub2e8\uacc4 \ucc54\ud53c\uc5b8\uc73c\ub85c \ubc14\ub01d\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_Zap_BackrowStar": {
+        "code": "TFT12_Zap_BackrowStar",
+        "tier": 4,
+        "cost": 1,
+        "type": 2,
+        "name": {
+            "en_US": "Backrow Star",
+            "ko_KR": "\ud6c4\ubc29\uc758 \ud575\uc2ec"
+        },
+        "desc": {
+            "en_US": "Next combat: A random back row champion gains @PercentAS*100@% %i:scaleAS% for @Duration@ seconds.",
+            "ko_KR": "\ub2e4\uc74c \uc804\ud22c: \ud6c4\ubc29\uc758 \ubb34\uc791\uc704 \ucc54\ud53c\uc5b8 1\uba85\uc774 @Duration@\ucd08 \ub3d9\uc548 %i:scaleAS%\ub97c @PercentAS*100@% \uc5bb\uc2b5\ub2c8\ub2e4."
+        },
+        "variables": {
+            "Duration": "7",
+            "PercentAS": "0.4"
+        }
+    },
+    "TFT12_Zap_LateBloomer": {
+        "code": "TFT12_Zap_LateBloomer",
+        "tier": 4,
+        "cost": 5,
+        "type": 3,
+        "name": {
+            "en_US": "Late Bloomer",
+            "ko_KR": "\ub300\uae30\ub9cc\uc131"
+        },
+        "desc": {
+            "en_US": "Gain a permanent 3-star 1-cost champion and a Magnetic Remover.",
+            "ko_KR": "1\ub2e8\uacc4 3\uc131 \ucc54\ud53c\uc5b8\uacfc \uc790\uc11d \uc81c\uac70\uae30 1\uac1c\ub97c \uc601\uad6c\ud788 \ud68d\ub4dd\ud569\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_Zap_Blessing": {
+        "code": "TFT12_Zap_Blessing",
+        "tier": 4,
+        "cost": 9,
+        "type": 2,
+        "name": {
+            "en_US": "Radiantize",
+            "ko_KR": "\ucc2c\ub780\ud568"
+        },
+        "desc": {
+            "en_US": "@NumItems@ full item held by a champion becomes Radiant for 1 round.",
+            "ko_KR": "1\ub77c\uc6b4\ub4dc \ub3d9\uc548 \ucc54\ud53c\uc5b8 1\uba85\uc5d0\uac8c \uc7a5\ucc29\ud55c \uc644\uc131 \uc544\uc774\ud15c @NumItems@\uac1c\uac00 \ucc2c\ub780\ud55c \uc544\uc774\ud15c\uc774 \ub429\ub2c8\ub2e4."
+        },
+        "variables": {
+            "NumItems": "1"
+        }
+    },
+    "TFT12_Zap_CloakOfBigSurprise": {
+        "code": "TFT12_Zap_CloakOfBigSurprise",
+        "tier": 4,
+        "cost": 5,
+        "type": 2,
+        "name": {
+            "en_US": "Big Surprise!",
+            "ko_KR": "\ud070 \uae5c\uc9dd\uc120\ubb3c!"
+        },
+        "desc": {
+            "en_US": "@NumToGive@ champions without items gain a Suspicious Trenchcoat for 1 round.",
+            "ko_KR": "1\ub77c\uc6b4\ub4dc \ub3d9\uc548 \uc544\uc774\ud15c\uc744 \uc7a5\ucc29\ud558\uc9c0 \uc54a\uc740 \ucc54\ud53c\uc5b8 @NumToGive@\uba85\uc774 \uc218\uc0c1\ud55c \uc678\ud22c 1\uac1c\ub97c \ud68d\ub4dd\ud569\ub2c8\ub2e4."
+        },
+        "variables": {
+            "NumToGive": "2"
+        }
+    },
+    "TFT12_Zap_TreasureParty": {
+        "code": "TFT12_Zap_TreasureParty",
+        "tier": 4,
+        "cost": 5,
+        "type": 2,
+        "name": {
+            "en_US": "Treasure Party",
+            "ko_KR": "\ubcf4\ubb3c \ud30c\ud2f0"
+        },
+        "desc": {
+            "en_US": "@NumUnits@ champions without items gain @NumToGive@ Unstable Treasure Chests for 1 round.",
+            "ko_KR": "1\ub77c\uc6b4\ub4dc \ub3d9\uc548 \uc544\uc774\ud15c\uc774 \uc5c6\ub294 \ucc54\ud53c\uc5b8 @NumUnits@\uba85\uc774 \ubd88\uc548\uc815\ud55c \ubcf4\ubb3c \uc0c1\uc790 @NumToGive@\uac1c\ub97c \ud68d\ub4dd\ud569\ub2c8\ub2e4."
+        },
+        "variables": {
+            "NumToGive": "2",
+            "NumUnits": "1"
+        }
+    },
+    "TFT12_Zap_SummonDragon": {
+        "code": "TFT12_Zap_SummonDragon",
+        "tier": 4,
+        "cost": 9,
+        "type": 2,
+        "name": {
+            "en_US": "Summon Dragon",
+            "ko_KR": "\uc6a9 \uc18c\ud658"
+        },
+        "desc": {
+            "en_US": "Summon a @Health@ Health Dragon for 1 round.",
+            "ko_KR": "1\ub77c\uc6b4\ub4dc \ub3d9\uc548 \uccb4\ub825\uc774 @Health@\uc778 \uc6a9\uc744 \uc18c\ud658\ud569\ub2c8\ub2e4."
+        },
+        "variables": {
+            "Health": "3200"
+        }
+    },
+    "TFT12_Zap_MagnumOpus": {
+        "code": "TFT12_Zap_MagnumOpus",
+        "tier": 4,
+        "cost": 98,
+        "type": 3,
+        "name": {
+            "en_US": "Magnum Opus",
+            "ko_KR": "\uc77c\uc0dd\uc77c\ub300\uc758 \uac78\uc791"
+        },
+        "desc": {
+            "en_US": "Lose @HealthCost@ player health. Gain a permanent 3-star 5-cost.",
+            "ko_KR": "\ud50c\ub808\uc774\uc5b4 \uccb4\ub825\uc744 @HealthCost@ \uc783\uc2b5\ub2c8\ub2e4. 5\ub2e8\uacc4 3\uc131 \ucc54\ud53c\uc5b8\uc744 \uc601\uad6c\ud788 \ud68d\ub4dd\ud569\ub2c8\ub2e4."
+        },
+        "variables": {
+            "HealthCost": "66"
+        }
+    },
+    "TFT12_Zap_AnimateBench": {
+        "code": "TFT12_Zap_AnimateBench",
+        "tier": 4,
+        "cost": 3,
+        "type": 2,
+        "name": {
+            "en_US": "Animate Bench",
+            "ko_KR": "\uc6c0\uc9c1\uc774\ub294 \ub300\uae30\uc11d"
+        },
+        "desc": {
+            "en_US": "Next combat: Every 6 seconds, a champion joins combat from your bench.",
+            "ko_KR": "\ub2e4\uc74c \uc804\ud22c: 6\ucd08\ub9c8\ub2e4 \uc544\uad70 \ub300\uae30\uc11d\uc5d0 \uc788\ub294 \ucc54\ud53c\uc5b8 1\uba85\uc774 \uc804\ud22c\uc5d0 \ud569\ub958\ud569\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_Zap_Tremors": {
+        "code": "TFT12_Zap_Tremors",
+        "tier": 4,
+        "cost": 7,
+        "type": 2,
+        "name": {
+            "en_US": "Tremors",
+            "ko_KR": "\uc9c4\ub3d9"
+        },
+        "desc": {
+            "en_US": "Combat start and every @DelayTime@ seconds, stun all enemies for @StunDuration@ seconds.",
+            "ko_KR": "\uc804\ud22c \uc2dc\uc791 \uc2dc \ubc0f @DelayTime@\ucd08\ub9c8\ub2e4, @StunDuration@\ucd08 \ub3d9\uc548 \ubaa8\ub4e0 \uc801\uc744 \uae30\uc808\uc2dc\ud0b5\ub2c8\ub2e4."
+        },
+        "variables": {
+            "StunDuration": "1.25",
+            "DelayTime": "10"
+        }
+    },
+    "TFT12_Zap_Barrier": {
+        "code": "TFT12_Zap_Barrier",
+        "tier": 4,
+        "cost": 4,
+        "type": 2,
+        "name": {
+            "en_US": "Barrier",
+            "ko_KR": "\ubc29\uc5b4\ub9c9"
+        },
+        "desc": {
+            "en_US": "Next combat: Your team gains @ShieldAmount@ Shield, decaying over @DecayTime@ seconds.",
+            "ko_KR": "\ub2e4\uc74c \uc804\ud22c: \uc544\uad70\uc5d0\uac8c @ShieldAmount@\uc758 \ubcf4\ud638\ub9c9\uc744 \ubd80\uc5ec\ud569\ub2c8\ub2e4. \ubcf4\ud638\ub9c9\uc740 @DecayTime@\ucd08\uc5d0 \uac78\uccd0 \uc0ac\ub77c\uc9d1\ub2c8\ub2e4."
+        },
+        "variables": {
+            "ShieldAmount": "1000",
+            "DecayTime": "5"
+        }
+    },
+    "TFT12_Zap_GuildOfThieves": {
+        "code": "TFT12_Zap_GuildOfThieves",
+        "tier": 4,
+        "cost": 7,
+        "type": 2,
+        "name": {
+            "en_US": "Guild of Thieves",
+            "ko_KR": "\ub3c4\uc801\ub2e8"
+        },
+        "desc": {
+            "en_US":"Gain @NumGloves@ temporary Thief\\'s Gloves for 1 round.",
+            "ko_KR": "1\ub77c\uc6b4\ub4dc \ub3d9\uc548 \uc784\uc2dc \ub3c4\uc801\uc758 \uc7a5\uac11 @NumGloves@\uac1c\ub97c \ud68d\ub4dd\ud569\ub2c8\ub2e4."
+        },
+        "variables": {
+            "NumGloves": "3"
+        }
+    },
+    "TFT12_Zap_MeteorStorm": {
+        "code": "TFT12_Zap_MeteorStorm",
+        "tier": 4,
+        "cost": 4,
+        "type": 2,
+        "name": {
+            "en_US": "Meteor Storm",
+            "ko_KR": "\uc720\uc131 \ud3ed\ud48d"
+        },
+        "desc": {
+            "en_US": "Combat start: Burn and deal @MaxHealthDamage*100@% max Health magic damage to @EnemyCount@ enemies.",
+            "ko_KR": "\uc804\ud22c \uc2dc\uc791: @EnemyCount@\uba85\uc758 \uc801\uc744 \ubd88\ud0dc\uc6b0\uace0 \ucd5c\ub300 \uccb4\ub825\uc758 @MaxHealthDamage*100@%\ub9cc\ud07c \ub9c8\ubc95 \ud53c\ud574\ub97c \uc785\ud799\ub2c8\ub2e4."
+        },
+        "variables": {
+            "MaxHealthDamage": "0.3",
+            "EnemyCount": "4"
+        }
+    },
+    "TFT12_Zap_Infliction": {
+        "code": "TFT12_Zap_Infliction",
+        "tier": 4,
+        "cost": 5,
+        "type": 2,
+        "name": {
+            "en_US": "Infliction",
+            "ko_KR": "\ud615\ubc8c"
+        },
+        "desc": {
+            "en_US": "Next combat: Chill, Burn, Shred, and Sunder enemies for @DebuffDuration@ seconds.",
+            "ko_KR": "\ub2e4\uc74c \uc804\ud22c: \uc801\uc5d0\uac8c @DebuffDuration@\ucd08 \ub3d9\uc548 \ub3d9\uc0c1, \ubd88\ud0dc\uc6b0\uae30, \ud30c\uc1c4, \ud30c\uc5f4\uc744 \uc801\uc6a9\ud569\ub2c8\ub2e4."
+        },
+        "variables": {
+            "DebuffDuration": "8"
+        }
+    },
+    "TFT12_Zap_SummonGolem": {
+        "code": "TFT12_Zap_SummonGolem",
+        "tier": 4,
+        "cost": 7,
+        "type": 2,
+        "name": {
+            "en_US": "Summon Golem",
+            "ko_KR": "\uace8\ub818 \uc18c\ud658"
+        },
+        "desc": {
+            "en_US": "Summon a large Golem equipped with defensive items for 1 round.",
+            "ko_KR": "1\ub77c\uc6b4\ub4dc \ub3d9\uc548 \ubc29\uc5b4 \uc544\uc774\ud15c\uc744 \uc7a5\ucc29\ud55c \uac70\ub300 \uace8\ub818\uc744 \uc18c\ud658\ud569\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_Zap_SupportStaff": {
+        "code": "TFT12_Zap_SupportStaff",
+        "tier": 4,
+        "cost": 24,
+        "type": 3,
+        "name": {
+            "en_US": "Conjure Support",
+            "ko_KR": "\uc9c0\uc6d0 \uc5f0\uc131"
+        },
+        "desc": {
+            "en_US": "Gain a Support Anvil",
+            "ko_KR": "\uc9c0\uc6d0 \uc544\uc774\ud15c \ubaa8\ub8e8 1\uac1c\ub97c \ud68d\ub4dd\ud569\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_XerathZap_TheSun": {
+        "code": "TFT12_XerathZap_TheSun",
+        "tier": 5,
+        "cost": 31,
+        "type": 5,
+        "name": {
+            "en_US": "The Sun",
+            "ko_KR": "\ud0dc\uc591"
+        },
+        "desc": {
+            "en_US": "Gain a Support anvil and an Artifact anvil. ",
+            "ko_KR": "\uc9c0\uc6d0 \ubaa8\ub8e8\uc640 \uc720\ubb3c \ubaa8\ub8e8\ub97c 1\uac1c\uc529 \ud68d\ub4dd\ud569\ub2c8\ub2e4. "
+        },
+        "variables": {}
+    },
+    "TFT12_XerathZap_TheEmperor": {
+        "code": "TFT12_XerathZap_TheEmperor",
+        "tier": 5,
+        "cost": 4,
+        "type": 5,
+        "name": {
+            "en_US": "The Emperor",
+            "ko_KR": "\ud669\uc81c"
+        },
+        "desc": {
+            "en_US": "Next combat: Xerath gains @XerathDamageAmp*100@% Damage Amp and his allies gain @TeamDamageAmp*100@% Damage Amp.",
+            "ko_KR": "\ub2e4\uc74c \uc804\ud22c: \uc81c\ub77c\uc2a4\uac00 \ud53c\ud574 \uc99d\ud3ed\uc744 @XerathDamageAmp*100@% \uc5bb\uace0 \uc81c\ub77c\uc2a4\uc758 \uc544\uad70\uc774 \ud53c\ud574 \uc99d\ud3ed\uc744 @TeamDamageAmp*100@% \uc5bb\uc2b5\ub2c8\ub2e4."
+        },
+        "variables": {
+            "XerathDamageAmp": "0.2",
+            "TeamDamageAmp": "0.1"
+        }
+    },
+    "TFT12_XerathZap_Judgement": {
+        "code": "TFT12_XerathZap_Judgement",
+        "tier": 5,
+        "cost": 0,
+        "type": 5,
+        "name": {
+            "en_US": "Judgement",
+            "ko_KR": "\uc2ec\ud310"
+        },
+        "desc": {
+            "en_US": "Next combat: If you win, gain @GoldOnWin@ gold; if you lose, gain @XPOnLose@ XP. ",
+            "ko_KR": "\ub2e4\uc74c \uc804\ud22c: \uc2b9\ub9ac\ud558\uba74 @GoldOnWin@\uace8\ub4dc\ub97c \ud68d\ub4dd\ud558\uace0 \ud328\ubc30\ud558\uba74 \uacbd\ud5d8\uce58\ub97c @XPOnLose@ \uc5bb\uc2b5\ub2c8\ub2e4. "
+        },
+        "variables": {
+            "GoldOnWin": "12",
+            "XPOnLose": "20"
+        }
+    },
+    "TFT12_XerathZap_TheStar": {
+        "code": "TFT12_XerathZap_TheStar",
+        "tier": 5,
+        "cost": 6,
+        "type": 5,
+        "name": {
+            "en_US": "The Star",
+            "ko_KR": "\ubcc4"
+        },
+        "desc": {
+            "en_US": "Next combat: 1-stars star up. Their allies gain @Shield@ Shield and @AP@ %i:scaleAP%.",
+            "ko_KR": "\ub2e4\uc74c \uc804\ud22c: 1\uc131 \uc720\ub2db \ubcc4 \ub808\ubca8 \uc0c1\uc2b9 \ubc0f \ub2e4\ub978 \uc544\uad70\uc740 \ubcf4\ud638\ub9c9\uc744 @Shield@, %i:scaleAP%\uc744 @AP@ \uc5bb\uc2b5\ub2c8\ub2e4."
+        },
+        "variables": {
+            "Shield": "200",
+            "AP": "20"
+        }
+    },
+    "TFT12_XerathZap_TheTower": {
+        "code": "TFT12_XerathZap_TheTower",
+        "tier": 5,
+        "cost": 4,
+        "type": 5,
+        "name": {
+            "en_US": "The Tower",
+            "ko_KR": "\ud0d1"
+        },
+        "desc": {
+            "en_US": "Gain a Lightning Dummy for 1 round that strikes nearby enemies.",
+            "ko_KR": "1\ub77c\uc6b4\ub4dc \ub3d9\uc548 \uc8fc\ubcc0 \uc801\uc5d0\uac8c \ubc88\uac1c\ub97c \ub5a8\uc5b4\ub728\ub9ac\ub294 \ubc88\uac1c \ud6c8\ub828 \ubd07 1\uac1c\ub97c \ud68d\ub4dd\ud569\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_XerathZap_TheWorld": {
+        "code": "TFT12_XerathZap_TheWorld",
+        "tier": 5,
+        "cost": 29,
+        "type": 5,
+        "name": {
+            "en_US": "The World",
+            "ko_KR": "\uc138\uacc4"
+        },
+        "desc": {
+            "en_US": "Gain a copy of every 4-cost champion.",
+            "ko_KR": "\ubaa8\ub4e0 4\ub2e8\uacc4 \ucc54\ud53c\uc5b8\uc758 \ubcf5\uc0ac\ubcf8\uc744 1\uba85\uc529 \ud68d\ub4dd\ud569\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_XerathZap_TheLovers": {
+        "code": "TFT12_XerathZap_TheLovers",
+        "tier": 5,
+        "cost": 1,
+        "type": 5,
+        "name": {
+            "en_US": "The Lovers",
+            "ko_KR": "\uc5f0\uc778"
+        },
+        "desc": {
+            "en_US": "Gain a 5-cost champion and a 2* 2-cost champion that share traits.",
+            "ko_KR": "5\ub2e8\uacc4 \ucc54\ud53c\uc5b8 1\uba85 \ubc0f \ud574\ub2f9 \ucc54\ud53c\uc5b8\uacfc \ud2b9\uc131\uc744 \uacf5\uc720\ud558\ub294 2\ub2e8\uacc4 \ucc54\ud53c\uc5b8 2\uba85\uc744 \ud68d\ub4dd\ud569\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_XerathZap_TheChariot": {
+        "code": "TFT12_XerathZap_TheChariot",
+        "tier": 5,
+        "cost": 1,
+        "type": 5,
+        "name": {
+            "en_US": "The Chariot",
+            "ko_KR": "\uc804\ucc28"
+        },
+        "desc": {
+            "en_US": "This round, rerolls cost you @RerollCost@ gold and buying XP costs you @XPCost@ gold.  ",
+            "ko_KR": "\uc774\ubc88 \ub77c\uc6b4\ub4dc\uc5d0 \uc0c8\ub85c\uace0\uce68 \ube44\uc6a9\uc774 @RerollCost@\uace8\ub4dc\uac00 \ub418\uace0 \uacbd\ud5d8\uce58 \uad6c\ub9e4 \ube44\uc6a9\uc774 @XPCost@\uace8\ub4dc\uac00 \ub429\ub2c8\ub2e4.  "
+        },
+        "variables": {
+            "XPCost": "3",
+            "RerollCost": "1"
+        }
+    },
+    "TFT12_XerathZap_TheMoon": {
+        "code": "TFT12_XerathZap_TheMoon",
+        "tier": 5,
+        "cost": 3,
+        "type": 5,
+        "name": {
+            "en_US": "The Moon",
+            "ko_KR": "\ub2ec"
+        },
+        "desc": {
+            "en_US": "Increase your 5-cost odds by @IncreasedOddsPercent@% permanently. ",
+            "ko_KR": "5\ub2e8\uacc4 \uc0c1\uc810 \ud655\ub960\uc774 \uc601\uad6c\ud788 @IncreasedOddsPercent@% \uc99d\uac00\ud569\ub2c8\ub2e4. "
+        },
+        "variables": {
+            "IncreasedOddsPercent": "4"
+        }
+    },
+    "TFT12_Zap_Dehance": {
+        "code": "TFT12_Zap_Dehance",
+        "tier": 1,
+        "cost": 0,
+        "type": 1,
+        "name": {
+            "en_US": "Dehance",
+            "ko_KR": "\ud1f4\ubcf4"
+        },
+        "desc": {
+            "en_US": "Reroll your Shop with champions 1 cost lower.",
+            "ko_KR": "\uc0c1\uc810\uc744 \uc0c8\ub85c\uace0\uce68\ud574 \ubaa8\ub450 \uc9c0\uae08\ubcf4\ub2e4 1\ub2e8\uacc4 \ub0ae\uc740 \ucc54\ud53c\uc5b8\uc73c\ub85c \ucc44\uc6c1\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_Zap_IncomingClass": {
+        "code": "TFT12_Zap_IncomingClass",
+        "tier": 1,
+        "cost": 0,
+        "type": 1,
+        "name": {
+            "en_US": "All Ones",
+            "ko_KR": "1\ub2e8\uacc4 \uc9d1\uacb0"
+        },
+        "desc": {
+            "en_US": "Reroll your Shop with all 1-cost champions.",
+            "ko_KR": "\uc0c1\uc810\uc744 \uc0c8\ub85c\uace0\uce68\ud574 \ubaa8\ub450 1\ub2e8\uacc4 \ucc54\ud53c\uc5b8\uc73c\ub85c \ucc44\uc6c1\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_Zap_Distraction": {
+        "code": "TFT12_Zap_Distraction",
+        "tier": 1,
+        "cost": 0,
+        "type": 2,
+        "name": {
+            "en_US": "Summon Dummy",
+            "ko_KR": "\ud6c8\ub828 \ubd07 \uc18c\ud658"
+        },
+        "desc": {
+            "en_US": "Gain a Target Dummy for @NumRounds@ round.",
+            "ko_KR": "@NumRounds@\ub77c\uc6b4\ub4dc \ub3d9\uc548 \ud6c8\ub828 \ubd07 1\uac1c\ub97c \ud68d\ub4dd\ud569\ub2c8\ub2e4."
+        },
+        "variables": {
+            "NumRounds": "1"
+        }
+    },
+    "TFT12_Zap_CoinFlip": {
+        "code": "TFT12_Zap_CoinFlip",
+        "tier": 1,
+        "cost": 0,
+        "type": 1,
+        "name": {
+            "en_US": "Coin Flip",
+            "ko_KR": "\ub3d9\uc804 \ub358\uc9c0\uae30"
+        },
+        "desc": {
+            "en_US":"50% chance to gain 1 gold for each Coin Flip you\\'ve used.",
+            "ko_KR": "\uc0ac\uc6a9\ud55c \ub3d9\uc804 \ub358\uc9c0\uae30\ub9c8\ub2e4 50% \ud655\ub960\ub85c 1\uace8\ub4dc\ub97c \ud68d\ub4dd\ud569\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_Zap_WinningInvestment": {
+        "code": "TFT12_Zap_WinningInvestment",
+        "tier": 1,
+        "cost": 0,
+        "type": 1,
+        "name": {
+            "en_US": "Minor Gambit",
+            "ko_KR": "\ud558\uae09 \uac2c\ube57"
+        },
+        "desc": {
+            "en_US": "If you win your next player combat, gain @GoldOnWin@ gold.",
+            "ko_KR": "\ub2e4\uc74c \ud50c\ub808\uc774\uc5b4 \ub300\uc0c1 \uc804\ud22c\uc5d0\uc11c \uc2b9\ub9ac\ud558\uba74 @GoldOnWin@\uace8\ub4dc\ub97c \ud68d\ub4dd\ud569\ub2c8\ub2e4."
+        },
+        "variables": {
+            "GoldOnWin": "3"
+        }
+    },
+    "TFT12_Zap_Tinker": {
+        "code": "TFT12_Zap_Tinker",
+        "tier": 1,
+        "cost": 0,
+        "type": 3,
+        "name": {
+            "en_US": "Tinker",
+            "ko_KR": "\ub55c\uc9c8"
+        },
+        "desc": {
+            "en_US": "Gain a Reforger and a Remover.",
+            "ko_KR": "\uc7ac\uc870\ud569\uae30\uc640 \uc790\uc11d \uc81c\uac70\uae30\ub97c 1\uac1c\uc529 \ud68d\ub4dd\ud569\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_Zap_Wish": {
+        "code": "TFT12_Zap_Wish",
+        "tier": 1,
+        "cost": 0,
+        "type": 3,
+        "name": {
+            "en_US": "Minor Wish",
+            "ko_KR": "\uc791\uc740 \uc18c\uc6d0"
+        },
+        "desc": {
+            "en_US": "Gain a random minor effect.",
+            "ko_KR": "\ubb34\uc791\uc704 \ud558\uae09 \ud6a8\uacfc 1\uac1c\ub97c \uc5bb\uc2b5\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_Zap_Premonition": {
+        "code": "TFT12_Zap_Premonition",
+        "tier": 1,
+        "cost": 0,
+        "type": 3,
+        "name": {
+            "en_US": "Crystal Ball",
+            "ko_KR": "\uc218\uc815 \uad6c\uc2ac"
+        },
+        "desc": {
+            "en_US": "Reveal who your next opponent is.",
+            "ko_KR": "\ub2e4\uc74c \uc0c1\ub300\ub97c \uacf5\uac1c\ud569\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_Zap_MinorPolymorph": {
+        "code": "TFT12_Zap_MinorPolymorph",
+        "tier": 1,
+        "cost": 0,
+        "type": 3,
+        "name": {
+            "en_US": "Minor Polymorph",
+            "ko_KR": "\ud558\uae09 \ubcc0\uc774"
+        },
+        "desc": {
+            "en_US": "Non-combat: A 1-cost champ you have transforms into a 2-cost.",
+            "ko_KR": "\ube44\uc804\ud22c \uc2dc: \ubcf4\uc720\ud55c 1\ub2e8\uacc4 \ucc54\ud53c\uc5b8 1\uba85\uc774 2\ub2e8\uacc4 \ucc54\ud53c\uc5b8\uc73c\ub85c \ubc14\ub01d\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_Zap_Shivify": {
+        "code": "TFT12_Zap_Shivify",
+        "tier": 1,
+        "cost": 0,
+        "type": 2,
+        "name": {
+            "en_US": "Shivinate",
+            "ko_KR": "\ub2e8\uac80\ud654"
+        },
+        "desc": {
+            "en_US": "All your items transform into Statikk Shiv for 1 round.",
+            "ko_KR": "1\ub77c\uc6b4\ub4dc \ub3d9\uc548 \ubcf4\uc720\ud55c \ubaa8\ub4e0 \uc544\uc774\ud15c\uc774 \uc2a4\ud0dc\ud2f1\uc758 \ub2e8\uac80\uc73c\ub85c \ubc14\ub01d\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_Zap_Batnap": {
+        "code": "TFT12_Zap_Batnap",
+        "tier": 1,
+        "cost": 0,
+        "type": 3,
+        "name": {
+            "en_US": "Copycat",
+            "ko_KR": "\ud749\ub0b4\uc7c1\uc774"
+        },
+        "desc": {
+            "en_US": "Next combat: Get a 1-star copy of the first enemy champion to die. ",
+            "ko_KR": "\ub2e4\uc74c \uc804\ud22c: \ucc98\uc74c \ucc98\uce58\ub41c \uc801 \ucc54\ud53c\uc5b8\uc758 1\uc131 \ubcf5\uc0ac\ubcf8\uc744 \ud68d\ub4dd\ud569\ub2c8\ub2e4. "
+        },
+        "variables": {}
+    },
+    "TFT12_Zap_LesserDuplication": {
+        "code": "TFT12_Zap_LesserDuplication",
+        "tier": 1,
+        "cost": 1,
+        "type": 3,
+        "name": {
+            "en_US": "Magic Mirror",
+            "ko_KR": "\ub9c8\ubc95 \uac70\uc6b8"
+        },
+        "desc": {
+            "en_US": "Gain a 1-star copy of a random champion you fielded last combat.",
+            "ko_KR": "\uc9c0\ub09c \uc804\ud22c\uc5d0\uc11c \uc804\uc7a5\uc5d0 \ubc30\uce58\ud55c \ubb34\uc791\uc704 \ucc54\ud53c\uc5b8\uc758 1\uc131 \ubcf5\uc0ac\ubcf8\uc744 \ud68d\ub4dd\ud569\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_Zap_AllFours": {
+        "code": "TFT12_Zap_AllFours",
+        "tier": 3,
+        "cost": 2,
+        "type": 1,
+        "name": {
+            "en_US": "All Fours",
+            "ko_KR": "4\ub2e8\uacc4 \uc9d1\uacb0"
+        },
+        "desc": {
+            "en_US": "Reroll your Shop with all 4-cost champions.",
+            "ko_KR": "\uc0c1\uc810\uc744 \uc0c8\ub85c\uace0\uce68\ud574 \ubaa8\ub450 4\ub2e8\uacc4 \ucc54\ud53c\uc5b8\uc73c\ub85c \ucc44\uc6c1\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_Zap_Earthquake": {
+        "code": "TFT12_Zap_Earthquake",
+        "tier": 3,
+        "cost": 4,
+        "type": 2,
+        "name": {
+            "en_US": "Earthquake",
+            "ko_KR": "\uc9c0\uc9c4"
+        },
+        "desc": {
+            "en_US": "Next combat: Stun all enemies for 2 seconds.",
+            "ko_KR": "\ub2e4\uc74c \uc804\ud22c: 2\ucd08 \ub3d9\uc548 \ubaa8\ub4e0 \uc801\uc744 \uae30\uc808\uc2dc\ud0b5\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_Zap_TheCount": {
+        "code": "TFT12_Zap_TheCount",
+        "tier": 3,
+        "cost": 1,
+        "type": 1,
+        "name": {
+            "en_US": "The Count",
+            "ko_KR": "\ubc31\uc791"
+        },
+        "desc": {
+            "en_US": "Reroll your Shop with a 1, 2, 3, 4, and 5 cost champion.",
+            "ko_KR": "\uc0c1\uc810\uc744 \uc0c8\ub85c\uace0\uce68\ud574 1, 2, 3, 4, 5\ub2e8\uacc4 \ucc54\ud53c\uc5b8 1\uba85\uc529\uc73c\ub85c \ucc44\uc6c1\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_Zap_LightningStrike": {
+        "code": "TFT12_Zap_LightningStrike",
+        "tier": 3,
+        "cost": 1,
+        "type": 2,
+        "name": {
+            "en_US": "Lightning Strike",
+            "ko_KR": "\ubcbc\ub77d"
+        },
+        "desc": {
+            "en_US": "Next combat: Deal 10% max Health as true damage to all enemies.",
+            "ko_KR": "\ub2e4\uc74c \uc804\ud22c: \ubaa8\ub4e0 \uc801\uc5d0\uac8c \ucd5c\ub300 \uccb4\ub825\uc758 10%\ub97c \uace0\uc815 \ud53c\ud574\ub85c \uc785\ud799\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_Zap_DoubleDummy": {
+        "code": "TFT12_Zap_DoubleDummy",
+        "tier": 3,
+        "cost": 1,
+        "type": 2,
+        "name": {
+            "en_US": "Summon Dummies",
+            "ko_KR": "\ud6c8\ub828 \ubd07 \uc18c\ud658"
+        },
+        "desc": {
+            "en_US": "Gain @NumTargetDummies@ Target Dummies for 1 round.",
+            "ko_KR": "1\ub77c\uc6b4\ub4dc \ub3d9\uc548 \ud6c8\ub828 \ubd07 @NumTargetDummies@\uac1c\ub97c \ud68d\ub4dd\ud569\ub2c8\ub2e4."
+        },
+        "variables": {
+            "NumTargetDummies": "2"
+        }
+    },
+    "TFT12_Zap_MagicWall": {
+        "code": "TFT12_Zap_MagicWall",
+        "tier": 3,
+        "cost": 1,
+        "type": 2,
+        "name": {
+            "en_US": "Phantom Claw",
+            "ko_KR": "\uc720\ub839 \ubc1c\ud1b1"
+        },
+        "desc": {
+            "en_US":"Gain @NumDClaw@ temporary Dragon\\'s Claw for 1 round.",
+            "ko_KR": "1\ub77c\uc6b4\ub4dc \ub3d9\uc548 \uc784\uc2dc \uc6a9\uc758 \ubc1c\ud1b1 @NumDClaw@\uac1c\ub97c \ud68d\ub4dd\ud569\ub2c8\ub2e4."
+        },
+        "variables": {
+            "NumDClaw": "1"
+        }
+    },
+    "TFT12_Zap_SilverFighting": {
+        "code": "TFT12_Zap_SilverFighting",
+        "tier": 3,
+        "cost": 1,
+        "type": 2,
+        "name": {
+            "en_US": "Silver Guard",
+            "ko_KR": "\uc740\ube5b \uc218\ud638"
+        },
+        "desc": {
+            "en_US": "Next combat start: Your team is immune to crowd control for @Duration@ seconds.",
+            "ko_KR": "\ub2e4\uc74c \uc804\ud22c \uc2dc\uc791: @Duration@\ucd08 \ub3d9\uc548 \uc544\uad70\uc774 \uad70\uc911 \uc81c\uc5b4\uc5d0 \uba74\uc5ed\uc774 \ub429\ub2c8\ub2e4."
+        },
+        "variables": {
+            "Duration": "8"
+        }
+    },
+    "TFT12_Zap_Salvager": {
+        "code": "TFT12_Zap_Salvager",
+        "tier": 3,
+        "cost": 0,
+        "type": 3,
+        "name": {
+            "en_US": "Salvager",
+            "ko_KR": "\uc7ac\ud65c\uc6a9 \uc804\ubb38\uac00"
+        },
+        "desc": {
+            "en_US": "Any champions you bench this turn have items removed and broken apart.",
+            "ko_KR": "\uc774\ubc88 \ub77c\uc6b4\ub4dc\uc5d0 \ub300\uae30\uc11d\uc5d0 \uc788\ub294 \ucc54\ud53c\uc5b8\uc774 \uc7a5\ucc29\ud55c \ubaa8\ub4e0 \uc544\uc774\ud15c\uc774 \ud574\uc81c \ubc0f \ubd84\ud574\ub429\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_Zap_PhantomEmblem": {
+        "code": "TFT12_Zap_PhantomEmblem",
+        "tier": 3,
+        "cost": 5,
+        "type": 2,
+        "name": {
+            "en_US": "Phantom Emblem",
+            "ko_KR": "\uc720\ub839 \uc0c1\uc9d5"
+        },
+        "desc": {
+            "en_US": "Gain a temporary emblem of your most active trait for 1 round.",
+            "ko_KR": "1\ub77c\uc6b4\ub4dc \ub3d9\uc548 \uac00\uc7a5 \ub9ce\uc774 \ud65c\uc131\ud654\ub41c \uc544\uad70 \ud2b9\uc131\uc758 \uc784\uc2dc \uc0c1\uc9d5\uc744 \ud68d\ub4dd\ud569\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_Zap_FireFire": {
+        "code": "TFT12_Zap_FireFire",
+        "tier": 3,
+        "cost": 2,
+        "type": 2,
+        "name": {
+            "en_US": "Sunfire Sorcery",
+            "ko_KR": "\ud0dc\uc591\ubd88\uaf43 \ub9c8\ubc95"
+        },
+        "desc": {
+            "en_US": "Next combat: Burn and Wound enemies for @Duration@ seconds.",
+            "ko_KR": "\ub2e4\uc74c \uc804\ud22c: @Duration@\ucd08 \ub3d9\uc548 \uc801\uc5d0\uac8c \ubd88\ud0dc\uc6b0\uae30\uc640 \uc0c1\ucc98\ub97c \uc801\uc6a9\ud569\ub2c8\ub2e4."
+        },
+        "variables": {
+            "Duration": "10"
+        }
+    },
+    "TFT12_Zap_Leadership": {
+        "code": "TFT12_Zap_Leadership",
+        "tier": 3,
+        "cost": 4,
+        "type": 3,
+        "name": {
+            "en_US": "Leadership",
+            "ko_KR": "\uc9c0\ub3c4\ub825"
+        },
+        "desc": {
+            "en_US": "A champion holding 3 completed items gains @HPToGain@ Health permanently.",
+            "ko_KR": "\uc644\uc131 \uc544\uc774\ud15c 3\uac1c\ub97c \uc7a5\ucc29\ud55c \ucc54\ud53c\uc5b8 1\uba85\uc774 \uccb4\ub825\uc744 \uc601\uad6c\ud788 @HPToGain@ \uc5bb\uc2b5\ub2c8\ub2e4."
+        },
+        "variables": {
+            "HPToGain": "300"
+        }
+    },
+    "TFT12_Zap_RentedBramble": {
+        "code": "TFT12_Zap_RentedBramble",
+        "tier": 3,
+        "cost": 1,
+        "type": 2,
+        "name": {
+            "en_US": "Phantom Vest",
+            "ko_KR": "\uc720\ub839 \uc870\ub07c"
+        },
+        "desc": {
+            "en_US": "Gain a temporary Bramble Vest for 1 round.",
+            "ko_KR": "1\ub77c\uc6b4\ub4dc \ub3d9\uc548 \uc784\uc2dc \ub364\ubd88 \uc870\ub07c 1\uac1c\ub97c \ud68d\ub4dd\ud569\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_Zap_StickyFingers": {
+        "code": "TFT12_Zap_StickyFingers",
+        "tier": 3,
+        "cost": 5,
+        "type": 3,
+        "name": {
+            "en_US": "Sticky Fingers",
+            "ko_KR": "\ub3c4\ubcbd"
+        },
+        "desc": {
+            "en_US": "Next combat: copy a component from the 1st enemy your team kills.",
+            "ko_KR": "\ub2e4\uc74c \uc804\ud22c: \uc544\uad70\uc774 \ucc98\uc74c\uc73c\ub85c \ucc98\uce58\ud55c \uc801\uc758 \uc870\ud569 \uc544\uc774\ud15c 1\uac1c\ub97c \ubcf5\uc0ac\ud569\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_Zap_BigWish": {
+        "code": "TFT12_Zap_BigWish",
+        "tier": 3,
+        "cost": 4,
+        "type": 3,
+        "name": {
+            "en_US": "Major Wish",
+            "ko_KR": "\uc0c1\uae09 \uc18c\uc6d0"
+        },
+        "desc": {
+            "en_US": "Gain a random effect.",
+            "ko_KR": "\ubb34\uc791\uc704 \ud6a8\uacfc\ub97c 1\uac1c \uc5bb\uc2b5\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_Zap_MajorGambit": {
+        "code": "TFT12_Zap_MajorGambit",
+        "tier": 3,
+        "cost": 1,
+        "type": 1,
+        "name": {
+            "en_US": "Major Gambit",
+            "ko_KR": "\uc0c1\uae09 \uac2c\ube57"
+        },
+        "desc": {
+            "en_US": "If you win your next player combat, gain @GoldOnWin@ gold.",
+            "ko_KR": "\ub2e4\uc74c \ud50c\ub808\uc774\uc5b4 \ub300\uc0c1 \uc804\ud22c\uc5d0\uc11c \uc2b9\ub9ac\ud558\uba74 @GoldOnWin@\uace8\ub4dc\ub97c \ud68d\ub4dd\ud569\ub2c8\ub2e4."
+        },
+        "variables": {
+            "GoldOnWin": "10"
+        }
+    },
+    "TFT12_Zap_LifeInsurance": {
+        "code": "TFT12_Zap_LifeInsurance",
+        "tier": 3,
+        "cost": 0,
+        "type": 1,
+        "name": {
+            "en_US": "Life Insurance",
+            "ko_KR": "\uc0dd\uba85\ubcf4\ud5d8"
+        },
+        "desc": {
+            "en_US": "Next combat: Allied champions have a @DropChance*100@% chance to drop @Gold@ gold on death.",
+            "ko_KR": "\ub2e4\uc74c \uc804\ud22c: \uc544\uad70 \ucc54\ud53c\uc5b8\uc774 \uc0ac\ub9dd \uc2dc @DropChance*100@% \ud655\ub960\ub85c @Gold@\uace8\ub4dc\ub97c \ub5a8\uc5b4\ub728\ub9bd\ub2c8\ub2e4."
+        },
+        "variables": {
+            "Gold": "1",
+            "DropChance": "0.5"
+        }
+    },
+    "TFT12_Zap_ShopGlitch": {
+        "code": "TFT12_Zap_ShopGlitch",
+        "tier": 3,
+        "cost": 5,
+        "type": 1,
+        "name": {
+            "en_US": "Animate Shop",
+            "ko_KR": "\uc6c0\uc9c1\uc774\ub294 \uc0c1\uc810"
+        },
+        "desc": {
+            "en_US": "For @Duration@ seconds, your shop refreshes for free every @RefreshTimer@ seconds.",
+            "ko_KR": "@Duration@\ucd08 \ub3d9\uc548, \uc0c1\uc810\uc774 @RefreshTimer@\ucd08\ub9c8\ub2e4 \ubb34\ub8cc\ub85c \uc0c8\ub85c\uace0\uce68\ub429\ub2c8\ub2e4."
+        },
+        "variables": {
+            "Duration": "20",
+            "RefreshTimer": "2"
+        }
+    },
+    "TFT12_Zap_Discount": {
+        "code": "TFT12_Zap_Discount",
+        "tier": 3,
+        "cost": 0,
+        "type": 1,
+        "name": {
+            "en_US": "Discount",
+            "ko_KR": "\ud560\uc778"
+        },
+        "desc": {
+            "en_US": "This round, the next champion you buy is free.",
+            "ko_KR": "\uc774\ubc88 \ub77c\uc6b4\ub4dc\uc5d0 \uad6c\ub9e4\ud558\ub294 \ub2e4\uc74c \ucc54\ud53c\uc5b8\uc774 \ubb34\ub8cc\uac00 \ub429\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_Zap_YordleSpirit": {
+        "code": "TFT12_Zap_YordleSpirit",
+        "tier": 3,
+        "cost": 2,
+        "type": 2,
+        "name": {
+            "en_US": "Yordle Spirit",
+            "ko_KR": "\uc694\ub4e4 \uc601\ud63c"
+        },
+        "desc": {
+            "en_US": "Next combat: Your team has a @DodgeChance@% chance to dodge attacks for @DodgeDuration@ seconds.",
+            "ko_KR": "\ub2e4\uc74c \uc804\ud22c: @DodgeDuration@\ucd08 \ub3d9\uc548 \uc544\uad70\uc774 @DodgeChance@%\uc758 \ud655\ub960\ub85c \uae30\ubcf8 \uacf5\uaca9\uc744 \ud68c\ud53c\ud569\ub2c8\ub2e4."
+        },
+        "variables": {
+            "DodgeDuration": "4",
+            "DodgeChance": "99"
+        }
+    },
+    "TFT12_Zap_PhantomArtifact": {
+        "code": "TFT12_Zap_PhantomArtifact",
+        "tier": 3,
+        "cost": 1,
+        "type": 2,
+        "name": {
+            "en_US": "Phantom Artifact",
+            "ko_KR": "\uc720\ub839 \uc720\ubb3c"
+        },
+        "desc": {
+            "en_US": "Gain a temporary Artifact for 1 round.",
+            "ko_KR": "1\ub77c\uc6b4\ub4dc \ub3d9\uc548 \uc784\uc2dc \uc720\ubb3c 1\uac1c\ub97c \ud68d\ub4dd\ud569\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_Zap_IroncladSpirit": {
+        "code": "TFT12_Zap_IroncladSpirit",
+        "tier": 3,
+        "cost": 0,
+        "type": 2,
+        "name": {
+            "en_US": "Ironclad Spirit",
+            "ko_KR": "\ucca0\uac11 \uc601\ud63c"
+        },
+        "desc": {
+            "en_US": "Your team gains @BonusArmor@ Armor for 1 round.",
+            "ko_KR": "1\ub77c\uc6b4\ub4dc \ub3d9\uc548 \uc544\uad70\uc774 \ubc29\uc5b4\ub825\uc744 @BonusArmor@ \uc5bb\uc2b5\ub2c8\ub2e4."
+        },
+        "variables": {
+            "BonusArmor": "30"
+        }
+    },
+    "TFT12_Zap_MysticSpirit": {
+        "code": "TFT12_Zap_MysticSpirit",
+        "tier": 3,
+        "cost": 0,
+        "type": 2,
+        "name": {
+            "en_US": "Mystic Spirit",
+            "ko_KR": "\uc2e0\ube44\ud55c \uc601\ud63c"
+        },
+        "desc": {
+            "en_US": "Your team gains @BonusMR@ Magic Resist for 1 round.",
+            "ko_KR": "1\ub77c\uc6b4\ub4dc \ub3d9\uc548 \uc544\uad70\uc774 \ub9c8\ubc95 \uc800\ud56d\ub825\uc744 @BonusMR@ \uc5bb\uc2b5\ub2c8\ub2e4."
+        },
+        "variables": {
+            "BonusMR": "30"
+        }
+    },
+    "TFT12_Zap_Scrappy": {
+        "code": "TFT12_Zap_Scrappy",
+        "tier": 3,
+        "cost": 3,
+        "type": 2,
+        "name": {
+            "en_US": "Scrappy",
+            "ko_KR": "\uace0\ubb3c \ubaa8\uc73c\uae30"
+        },
+        "desc": {
+            "en_US": "@NumItems@ champions without items gain a temporary full item.",
+            "ko_KR": "\uc544\uc774\ud15c\uc744 \uc7a5\ucc29\ud558\uc9c0 \uc54a\uc740 \ucc54\ud53c\uc5b8 @NumItems@\uba85\uc774 \uc784\uc2dc \uc644\uc131 \uc544\uc774\ud15c 1\uac1c\ub97c \ud68d\ub4dd\ud569\ub2c8\ub2e4."
+        },
+        "variables": {
+            "NumItems": "2"
+        }
+    },
+    "TFT12_Zap_Paragon": {
+        "code": "TFT12_Zap_Paragon",
+        "tier": 3,
+        "cost": 0,
+        "type": 2,
+        "name": {
+            "en_US": "Paragon",
+            "ko_KR": "\uc778\ub3c4\uc790"
+        },
+        "desc": {
+            "en_US":"Next combat: Your team\\'s physical damage is dealt as magic damage",
+            "ko_KR": "\ub2e4\uc74c \uc804\ud22c: \uc544\uad70\uc774 \uc785\ud788\ub294 \ubb3c\ub9ac \ud53c\ud574\uac00 \ub9c8\ubc95 \ud53c\ud574\uac00 \ub429\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_Zap_Counterspell": {
+        "code": "TFT12_Zap_Counterspell",
+        "tier": 3,
+        "cost": 3,
+        "type": 2,
+        "name": {
+            "en_US": "Counterspell",
+            "ko_KR": "\ub9c8\ubc95 \ucc28\ub2e8"
+        },
+        "desc": {
+            "en_US": "Next combat: Mana Reave all enemies.",
+            "ko_KR": "\ub2e4\uc74c \uc804\ud22c: \ubaa8\ub4e0 \uc801\uc5d0\uac8c \ub9c8\ub098 \uac15\ud0c8 \ud6a8\uacfc\ub97c \uc801\uc6a9\ud569\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_Zap_Poof": {
+        "code": "TFT12_Zap_Poof",
+        "tier": 3,
+        "cost": 3,
+        "type": 2,
+        "name": {
+            "en_US": "Reaper",
+            "ko_KR": "\uc0ac\uc2e0"
+        },
+        "desc": {
+            "en_US": "Next combat: Your units execute enemies that fall below @ExecuteThreshold@ Health.",
+            "ko_KR": "\ub2e4\uc74c \uc804\ud22c: \uc544\uad70 \uc720\ub2db\uc774 \uccb4\ub825\uc774 @ExecuteThreshold@ \ubbf8\ub9cc\uc778 \uc801\uc744 \ucc98\ud615\ud569\ub2c8\ub2e4."
+        },
+        "variables": {
+            "ExecuteThreshold": "200"
+        }
+    },
+    "TFT12_Zap_GoldenArmor": {
+        "code": "TFT12_Zap_GoldenArmor",
+        "tier": 3,
+        "cost": 0,
+        "type": 2,
+        "name": {
+            "en_US": "Golden Armor",
+            "ko_KR": "\ud669\uae08\ube5b \uac11\uc637"
+        },
+        "desc": {
+            "en_US": "Your team gains @HealthBoost@ %i:scaleHealth% for every @GoldPerBoost@ gold you have for 1 round. ",
+            "ko_KR": "1\ub77c\uc6b4\ub4dc \ub3d9\uc548 \ubcf4\uc720\ud55c \uace8\ub4dc @GoldPerBoost@\ub2f9 \uc544\uad70\uc774 %i:scaleHealth%\uc744 @HealthBoost@ \uc5bb\uc2b5\ub2c8\ub2e4. "
+        },
+        "variables": {
+            "HealthBoost": "50",
+            "GoldPerBoost": "10"
+        }
+    },
+    "TFT12_Zap_ScopedWeapons": {
+        "code": "TFT12_Zap_ScopedWeapons",
+        "tier": 3,
+        "cost": 0,
+        "type": 2,
+        "name": {
+            "en_US": "Scope Expansion",
+            "ko_KR": "\uc870\uc900\uacbd \ud655\uc7a5"
+        },
+        "desc": {
+            "en_US": "Champions in your back 2 rows gain @BonusRange@ Attack Range for 1 round.",
+            "ko_KR": "1\ub77c\uc6b4\ub4dc \ub3d9\uc548 \ud6c4\ubc29 \uac00\ub85c 2\uc5f4\uc5d0 \ubc30\uce58\ub41c \uc544\uad70 \ucc54\ud53c\uc5b8\uc758 \uacf5\uaca9 \uc0ac\uac70\ub9ac\uac00 @BonusRange@ \uc99d\uac00\ud569\ub2c8\ub2e4."
+        },
+        "variables": {
+            "BonusRange": "2"
+        }
+    },
+    "TFT12_Zap_AllTwos": {
+        "code": "TFT12_Zap_AllTwos",
+        "tier": 2,
+        "cost": 0,
+        "type": 1,
+        "name": {
+            "en_US": "All Twos",
+            "ko_KR": "2\ub2e8\uacc4 \uc9d1\uacb0"
+        },
+        "desc": {
+            "en_US": "Reroll your Shop with all 2-cost champions.",
+            "ko_KR": "\uc0c1\uc810\uc744 \uc0c8\ub85c\uace0\uce68\ud574 \ubaa8\ub450 2\ub2e8\uacc4 \ucc54\ud53c\uc5b8\uc73c\ub85c \ucc44\uc6c1\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_Zap_AllThrees": {
+        "code": "TFT12_Zap_AllThrees",
+        "tier": 2,
+        "cost": 0,
+        "type": 1,
+        "name": {
+            "en_US": "All Threes",
+            "ko_KR": "3\ub2e8\uacc4 \uc9d1\uacb0"
+        },
+        "desc": {
+            "en_US": "Reroll your Shop with all 3-cost champions.",
+            "ko_KR": "\uc0c1\uc810\uc744 \uc0c8\ub85c\uace0\uce68\ud574 \ubaa8\ub450 3\ub2e8\uacc4 \ucc54\ud53c\uc5b8\uc73c\ub85c \ucc44\uc6c1\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_Zap_SinisterDeal": {
+        "code": "TFT12_Zap_SinisterDeal",
+        "tier": 2,
+        "cost": 0,
+        "type": 1,
+        "name": {
+            "en_US": "Sinister Deal",
+            "ko_KR": "\ubd88\uae38\ud55c \uac70\ub798"
+        },
+        "desc": {
+            "en_US": "Gain @GoldToGain@ gold. This Charm costs @HealthToLose@ player health.",
+            "ko_KR": "@GoldToGain@\uace8\ub4dc\ub97c \ud68d\ub4dd\ud569\ub2c8\ub2e4. \uc774 \uc8fc\uc220\uc740 \ud50c\ub808\uc774\uc5b4 \uccb4\ub825\uc744 @HealthToLose@ \uc18c\ubaa8\ud569\ub2c8\ub2e4."
+        },
+        "variables": {
+            "HealthToLose": "1",
+            "GoldToGain": "2"
+        }
+    },
+    "TFT12_Zap_RollingBones": {
+        "code": "TFT12_Zap_RollingBones",
+        "tier": 2,
+        "cost": 1,
+        "type": 1,
+        "name": {
+            "en_US": "Freeroller",
+            "ko_KR": "\uc790\uc720\ub85c\uc6b4 \uc0c8\ub85c\uace0\uce68"
+        },
+        "desc": {
+            "en_US": "Gain @Rerolls@ Shop rerolls.",
+            "ko_KR": "\uc0c1\uc810 \uc0c8\ub85c\uace0\uce68\uc744 @Rerolls@\ud68c \uc5bb\uc2b5\ub2c8\ub2e4."
+        },
+        "variables": {
+            "Rerolls": "2"
+        }
+    },
+    "TFT12_Zap_Recruitment": {
+        "code": "TFT12_Zap_Recruitment",
+        "tier": 2,
+        "cost": 11,
+        "type": 3,
+        "name": {
+            "en_US": "Conjure Emblem",
+            "ko_KR": "\uc0c1\uc9d5 \uc5f0\uc131"
+        },
+        "desc": {
+            "en_US": "Gain a random Emblem.",
+            "ko_KR": "\ubb34\uc791\uc704 \uc0c1\uc9d5 1\uac1c\ub97c \ud68d\ub4dd\ud569\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_Zap_RunRun": {
+        "code": "TFT12_Zap_RunRun",
+        "tier": 2,
+        "cost": 0,
+        "type": 2,
+        "name": {
+            "en_US": "Rite of Speed",
+            "ko_KR": "\uc2e0\uc18d\uc758 \uc758\uc2dd"
+        },
+        "desc": {
+            "en_US": "Your team gains @PercentAS*100@% Attack Speed for 1 round. ",
+            "ko_KR": "1\ub77c\uc6b4\ub4dc \ub3d9\uc548 \uc544\uad70\uc774 \uacf5\uaca9 \uc18d\ub3c4\ub97c @PercentAS*100@% \uc5bb\uc2b5\ub2c8\ub2e4. "
+        },
+        "variables": {
+            "PercentAS": "0.1"
+        }
+    },
+    "TFT12_Zap_ShareTheWealth": {
+        "code": "TFT12_Zap_ShareTheWealth",
+        "tier": 2,
+        "cost": 0,
+        "type": 1,
+        "name": {
+            "en_US": "Truce",
+            "ko_KR": "\ud734\uc804"
+        },
+        "desc": {
+            "en_US": "You and your opponent gain @Gold@ gold.",
+            "ko_KR": "\uc790\uc2e0\uacfc \uc0c1\ub300\ubc29\uc774 @Gold@\uace8\ub4dc\ub97c \ud68d\ub4dd\ud569\ub2c8\ub2e4."
+        },
+        "variables": {
+            "Gold": "1"
+        }
+    },
+    "TFT12_Zap_DieRoll": {
+        "code": "TFT12_Zap_DieRoll",
+        "tier": 2,
+        "cost": 1,
+        "type": 1,
+        "name": {
+            "en_US": "Die Roll",
+            "ko_KR": "\uc8fc\uc0ac\uc704 \uad74\ub9ac\uae30"
+        },
+        "desc": {
+            "en_US": "Roll a die. Gain gold equal to the result.",
+            "ko_KR": "\uc8fc\uc0ac\uc704\ub97c \uad74\ub9bd\ub2c8\ub2e4. \uc8fc\uc0ac\uc704\uc758 \uac12\uc5d0 \ub530\ub77c \uace8\ub4dc\ub97c \ud68d\ub4dd\ud569\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_Zap_Polymorph": {
+        "code": "TFT12_Zap_Polymorph",
+        "tier": 2,
+        "cost": 0,
+        "type": 3,
+        "name": {
+            "en_US": "Polymorph",
+            "ko_KR": "\ubcc0\uc774"
+        },
+        "desc": {
+            "en_US": "Non-combat: A 2-cost champ you have transforms into a 3-cost.",
+            "ko_KR": "\ube44\uc804\ud22c \uc2dc: \ubcf4\uc720\ud55c 2\ub2e8\uacc4 \ucc54\ud53c\uc5b8 1\uba85\uc774 3\ub2e8\uacc4 \ucc54\ud53c\uc5b8\uc73c\ub85c \ubc14\ub01d\ub2c8\ub2e4."
+        },
+        "variables": {}
+    },
+    "TFT12_Zap_UltraAscension": {
+        "code": "TFT12_Zap_UltraAscension",
+        "tier": 2,
+        "cost": 0,
+        "type": 2,
+        "name": {
+            "en_US": "Ultra Ascension",
+            "ko_KR": "\uadf9\ud55c\uc758 \ucd08\uc6d4"
+        },
+        "desc": {
+            "en_US": "Next combat: At @DelayTime@ seconds, your team gains @DamageAmpPercent@% Damage Amp.",
+            "ko_KR": "\ub2e4\uc74c \uc804\ud22c: @DelayTime@\ucd08 \ud6c4, \uc544\uad70\uc774 \ud53c\ud574 \uc99d\ud3ed\uc744 @DamageAmpPercent@% \uc5bb\uc2b5\ub2c8\ub2e4."
+        },
+        "variables": {
+            "DelayTime": "22",
+            "DamageAmpPercent": "300"
+        }
+    },
+    "TFT12_Zap_Zoomify": {
+        "code": "TFT12_Zap_Zoomify",
+        "tier": 2,
+        "cost": 0,
+        "type": 2,
+        "name": {
+            "en_US": "Zoomify",
+            "ko_KR": "\uc288\uc6b0\uc6b0\uc6c5\ud654"
+        },
+        "desc": {
+            "en_US": "Your team gains @TooltipMoveSpeedPct@% movement speed for 1 round.",
+            "ko_KR": "1\ub77c\uc6b4\ub4dc \ub3d9\uc548 \uc544\uad70\uc774 \uc774\ub3d9 \uc18d\ub3c4\ub97c @TooltipMoveSpeedPct@% \uc5bb\uc2b5\ub2c8\ub2e4."
+        },
+        "variables": {
+            "TooltipMoveSpeedPct": "200",
+            "MoveSpeed": "1000"
+        }
+    },
+    "TFT12_Zap_Hugify": {
+        "code": "TFT12_Zap_Hugify",
+        "tier": 2,
+        "cost": 0,
+        "type": 2,
+        "name": {
+            "en_US": "Hugify",
+            "ko_KR": "\uac70\ub300\ud654"
+        },
+        "desc": {
+            "en_US": "Your highest %i:scaleHealth% champion grows, gaining @BonusHealth@&nbsp;%i:scaleHealth% for 1 round.",
+            "ko_KR": "1\ub77c\uc6b4\ub4dc \ub3d9\uc548 \uac00\uc7a5 %i:scaleHealth%\uc774 \ub192\uc740 \ucc54\ud53c\uc5b8\uc774 \uc131\uc7a5\ud574 %i:scaleHealth%\uc744 @BonusHealth@ \uc5bb\uc2b5\ub2c8\ub2e4."
+        },
+        "variables": {
+            "BonusHealth": "500"
+        }
+    },
+    "TFT12_Zap_Hexplosion": {
+        "code": "TFT12_Zap_Hexplosion",
+        "tier": 2,
+        "cost": 1,
+        "type": 2,
+        "name": {
+            "en_US": "Hexplosion",
+            "ko_KR": "\ub9c8\ubc95\uacf5\ud559 \ud3ed\ubc1c"
+        },
+        "desc": {
+            "en_US": "Next combat: The first ally champion to die explodes, dealing @FlatDamage@ magic damage.",
+            "ko_KR": "\ub2e4\uc74c \uc804\ud22c: \ucc98\uc74c\uc73c\ub85c \ucc98\uce58\ub41c \uc544\uad70 \ucc54\ud53c\uc5b8\uc774 \ud3ed\ubc1c\ud574 @FlatDamage@\uc758 \ub9c8\ubc95 \ud53c\ud574\ub97c \uc785\ud799\ub2c8\ub2e4."
+        },
+        "variables": {
+            "FlatDamage": "600"
+        }
+    },
+    "TFT12_Zap_MinorShield": {
+        "code": "TFT12_Zap_MinorShield",
+        "tier": 2,
+        "cost": 0,
+        "type": 2,
+        "name": {
+            "en_US": "Starless Shield",
+            "ko_KR": "\ube5b\ubc14\ub79c \ubcc4 \ubc29\ud328"
+        },
+        "desc": {
+            "en_US": "Next combat: Grant @ShieldAmount@ Shield to your 1-star champions.",
+            "ko_KR": "\ub2e4\uc74c \uc804\ud22c: \ubaa8\ub4e0 \uc544\uad70 1\uc131 \ucc54\ud53c\uc5b8\uc5d0\uac8c @ShieldAmount@\uc758 \ubcf4\ud638\ub9c9\uc744 \ubd80\uc5ec\ud569\ub2c8\ub2e4."
+        },
+        "variables": {
+            "ShieldAmount": "300"
+        }
+    },
+    "TFT12_Zap_ComfortFood": {
+        "code": "TFT12_Zap_ComfortFood",
+        "tier": 2,
+        "cost": 0,
+        "type": 3,
+        "name": {
+            "en_US": "Comfort Food",
+            "ko_KR": "\ucd94\uc5b5\uc758 \uc74c\uc2dd"
+        },
+        "desc": {
+            "en_US": "Gain @InitialHeal@ player health. Gain @OnLossHeal@ more if you lose next player combat.",
+            "ko_KR": "\ud50c\ub808\uc774\uc5b4 \uccb4\ub825\uc744 @InitialHeal@ \uc5bb\uc2b5\ub2c8\ub2e4. \ub2e4\uc74c \ud50c\ub808\uc774\uc5b4 \ub300\uc0c1 \uc804\ud22c \ud328\ubc30 \uc2dc @OnLossHeal@ \ub354 \uc5bb\uc2b5\ub2c8\ub2e4."
+        },
+        "variables": {
+            "InitialHeal": "1",
+            "OnLossHeal": "2"
+        }
+    },
+    "TFT12_Zap_EscalatingXP": {
+        "code": "TFT12_Zap_EscalatingXP",
+        "tier": 2,
+        "cost": 0,
+        "type": 3,
+        "name": {
+            "en_US": "Study Hard",
+            "ko_KR": "\ud559\ubb38 \uc815\uc9c4"
+        },
+        "desc": {
+            "en_US":"Gain @XPIncrease@ XP for each Study Hard you\\'ve bought this game.",
+            "ko_KR": "\uc774\ubc88 \uac8c\uc784\uc5d0\uc11c \uad6c\ub9e4\ud55c \ud559\ubb38 \uc815\uc9c4 \ud558\ub098\ub2f9 \uacbd\ud5d8\uce58\ub97c @XPIncrease@ \uc5bb\uc2b5\ub2c8\ub2e4."
+        },
+        "variables": {
+            "XPIncrease": "2"
+        }
+    }
+}
