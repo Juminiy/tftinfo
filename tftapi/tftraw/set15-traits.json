@@ -86,7 +86,7 @@
          "key": "Executioner",
          "ingameKey": "TFT15_Destroyer",
          "name": "Executioner",
-         "desc": "Executioners gain Critical Strike Chance and Damage. Their Ability can critically strike.",
+         "desc": "Executioners gain Critical Strike Chance and Critical Strike Damage. Their Ability can critically strike.",
          "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEExecutioner_normal_1752196692-Executioner.svg",
          "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEExecutioner_black_1752196692-Executioner.svg",
          "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEExecutioner_white_1752196692-Executioner.svg",
@@ -216,7 +216,7 @@
             }
          ],
          "stats": {
-            "1": "The Champ's victories against players grant 2 Poro-fans! On loss Poro-fans prevent 1 Tactician damage each, then you lose 75% of your fans (rounded up)."
+            "1": "The Champ's victories against players grant 2 Poro-fans! On loss Poro-fans prevent 1 Tactician damage each, then you lose 75% of your fans."
          }
       },
       {
@@ -282,8 +282,8 @@
          ],
          "stats": {
             "3": "? per kill; ? per loss",
-            "5": "Every ? kills, gain bonus loot and reroll a new kill number.",
-            "7": "200% rewards. Crystal Gambit units gain 400 Health and 35% DA."
+            "5": "And every ? kills, gain bonus loot and reroll a new kill number.",
+            "7": "200% rewards. Crystal Gambit units gain 400 Health and 25% DA."
          }
       },
       {
@@ -352,7 +352,7 @@
          "key": "Luchador",
          "ingameKey": "TFT15_Luchador",
          "name": "Luchador",
-         "desc": "Luchadors gain bonus Attack Damage. <br><br>At 50% health, Luchadors cleanse negative effects, heal, and leap back into the fight, knocking up enemies in a 1-hex radius for 1.5 seconds.",
+         "desc": "Luchadors gain bonus Attack Damage. <br><br>At 50% health, Luchadors cleanse negative effects, heal, and leap back into the fight, Stunning enemies in a 1-hex radius for 1.5 seconds.",
          "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBELuchador_normal_1752196405-Luchador.svg",
          "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBELuchador_black_1752196406-Luchador.svg",
          "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBELuchador_white_1752196406-Luchador.svg",
@@ -469,7 +469,7 @@
             }
          ],
          "stats": {
-            "1": "Immediately go ALL OUT, gaining 20% Damage Reduction and 50% Attack Damage. Health no longer decays while ALL OUT."
+            "1": "At combat start go ALL OUT, gaining 20% Damage Reduction and 50% Attack Damage. Health no longer decays while ALL OUT."
          },
          "isHidden": true
       },
@@ -569,7 +569,7 @@
             }
          ],
          "stats": {
-            "1": "Gain 8% Attack Damage, and permanently gain 1% every 2 takedowns."
+            "1": "Gain 10% Attack Damage, and permanently gain 1% every 2 takedowns."
          },
          "isHidden": true
       },
@@ -694,7 +694,7 @@
             }
          ],
          "stats": {
-            "1": "Gain 100 Health and 8% Attack Damage. Each round, you may pay 3 player health for 30 Health and 3 AD."
+            "1": "Gain 100 Health and 8% Attack Damage. Each round, you may pay 3 player health for 75 Health and 3 AD."
          },
          "isHidden": true
       },
@@ -719,7 +719,7 @@
             }
          ],
          "stats": {
-            "1": "Attacks and Abilities ignore 40% of enemy's Armor."
+            "1": "Attacks and Abilities ignore 35% of enemy's Armor."
          },
          "isHidden": true
       },
@@ -1071,7 +1071,7 @@
             }
          ],
          "stats": {
-            "1": "Heal for 15% of magic damage dealt. On cast, take 8% max Health as true damage, but gain 10 stacking Ability Power."
+            "1": "Heal for 15% of magic damage dealt. On cast, take 8% max Health as true damage, but gain 12 stacking Ability Power."
          },
          "isHidden": true
       },
@@ -1096,7 +1096,7 @@
             }
          ],
          "stats": {
-            "1": "Ability damage stuns for 1 second."
+            "1": "Ability damage Stuns for 1 second."
          },
          "isHidden": true
       },
@@ -1121,7 +1121,7 @@
             }
          ],
          "stats": {
-            "1": "After every 12th attack, fire five projectiles at the closest enemies that deal 100% of Basic Attack Damage as physical damage."
+            "1": "After every 12th attack, fire five projectiles at the closest enemies that deal 120% of Basic Attack Damage as physical damage."
          },
          "isHidden": true
       },
@@ -1146,7 +1146,7 @@
             }
          ],
          "stats": {
-            "1": "Arrows cost 3 less Mana during Varus's Ability."
+            "1": "Arrows cost 2 less Mana during Varus's Ability."
          },
          "isHidden": true
       },
@@ -1372,7 +1372,7 @@
             }
          ],
          "stats": {
-            "1": "Ascend an additional time at levels 7 and 10.<br><br>Level 7: Gain 4% Ability Power every 3 attacks.<br>Level 10: Launch 2 additional waves that deal 50% damage."
+            "1": "Ascend an additional time at levels 7 and 10.<br><br>Level 7: Gain 5% Ability Power every 3 attacks.<br>Level 10: Launch 2 additional waves that deal 55% damage."
          },
          "isHidden": true
       },
@@ -1422,7 +1422,7 @@
             }
          ],
          "stats": {
-            "1": "After round 4-5 if this champion is 3-star, become 4-star at combat start."
+            "1": "After round 5-1 if this champion is 3-star, become 4-star at combat start."
          },
          "isHidden": true
       },
@@ -1472,8 +1472,8 @@
             }
          ],
          "stats": {
-            "1": "Attacks have a 15% chance to stun the target for 1.5 seconds.",
-            "2": "These attacks deal 50 bonus magic damage per Stage."
+            "1": "Attacks have a 15% chance to Stun the target for 1.5 seconds.",
+            "2": "These attacks deal 55 bonus magic damage per Stage."
          },
          "isHidden": true
       },
@@ -1673,7 +1673,7 @@
             }
          ],
          "stats": {
-            "1": "Takedowns grant 120% Attack Speed that rapidly decays over 3 seconds."
+            "1": "Takedowns grant 110% Attack Speed that rapidly decays over 3 seconds."
          },
          "isHidden": true
       },
@@ -1698,7 +1698,7 @@
             }
          ],
          "stats": {
-            "1": "Ryze is frozen for the first 4 seconds of combat. His Ability 20% Chills enemies for 6 seconds, and deals 25% bonus damage to enemies adjacent to the target."
+            "1": "Combat Start: Ryze is frozen for the first 4 seconds of combat. His Ability 20% Chills enemies for 6 seconds, and deals 25% bonus damage to enemies adjacent to the target."
          },
          "isHidden": true
       },
@@ -1773,7 +1773,7 @@
             }
          ],
          "stats": {
-            "1": "Every 6 attacks, deal 200 true damage."
+            "1": "Every 6 attacks, deal 215 true damage."
          },
          "isHidden": true
       },
@@ -1798,7 +1798,7 @@
             }
          ],
          "stats": {
-            "1": "Gain 20% max Health and grow larger. After 15 seconds, knock up all enemies for 1.5 seconds."
+            "1": "Gain 20% max Health and grow larger. After 15 seconds, Stun all enemies for 1.5 seconds."
          },
          "isHidden": true
       },
@@ -2100,7 +2100,7 @@
          ],
          "stats": {
             "1": "Pilot the Mech, granting it your stats: 50% Health, 100% AD, AP, and AS. Eject when at 50%.",
-            "2": "The Mech gains 0% Durability. Health increased to 50% Health"
+            "2": "The Mech benefits from the pilots' traits."
          },
          "isHidden": true
       },
@@ -2275,7 +2275,7 @@
             }
          ],
          "stats": {
-            "1": "Start combat at 70% Health, but gain 35% Damage Amp."
+            "1": "Start combat at 65% Health, but gain 35% Damage Amp."
          },
          "isHidden": true
       },
@@ -2325,7 +2325,7 @@
             }
          ],
          "stats": {
-            "1": "Gain X packmates that deal 20% physical damage. When Naafiri uses her Ability, packmates dash to the lowest Health enemy within 2 hexes."
+            "1": "Gain 2 packmates that deal 20% physical damage. When Naafiri uses her Ability, packmates dash to the lowest Health enemy within 2 hexes."
          },
          "isHidden": true
       },
@@ -2425,7 +2425,7 @@
             }
          ],
          "stats": {
-            "1": "Lucian's Ability fires +1 additional bullets, and grants 1 Ability Power for the rest of combat."
+            "1": "Lucian's Ability dashes, fires +1 additional bullets, and grants 1 Ability Power for the rest of combat."
          },
          "isHidden": true
       },
@@ -2505,6 +2505,21 @@
          "isHidden": true
       },
       {
+         "key": "RisingChaos",
+         "ingameKey": "TFT15_MechanicTrait_RisingChaos",
+         "name": "Rising Chaos",
+         "desc": "",
+         "imageUrl": "//cdn.lolchess.gg/upload/images/traits/RisingChaos_normal_1752808817-100PushUps_normal_1752667368-powerup-gray.svg",
+         "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/RisingChaos_black_1752808820-100PushUps_black_1752667368-powerup-black.svg",
+         "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/RisingChaos_white_1752808820-100PushUps_white_1752667369-powerup-white.svg",
+         "type": "ORIGIN",
+         "styles": "[]",
+         "stats": {
+            "1": "On cast, fire an additional orb that deals 8% damage to a random enemy. Subsequent casts add an additional orb."
+         },
+         "isHidden": true
+      },
+      {
          "key": "Mechador",
          "ingameKey": "TFT15_MechanicTrait_RoboRumble",
          "name": "Mechador",
@@ -2550,14 +2565,14 @@
             }
          ],
          "stats": {
-            "1": "Gain 40% of The Mighty Mech's Attack Damage and Ability Power, and 20% of its Health."
+            "1": "Gain 35% of The Mighty Mech's Attack Damage and Ability Power, and 15% of its Health."
          },
          "isHidden": true
       },
       {
          "key": "Rogue",
          "ingameKey": "TFT15_MechanicTrait_Rogue",
-         "name": "Rogue",
+         "name": "Assassinate",
          "desc": "",
          "imageUrl": "//cdn.lolchess.gg/upload/images/traits/100PushUps_normal_1752667368-powerup-gray.svg",
          "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/100PushUps_black_1752667368-powerup-black.svg",
@@ -2575,8 +2590,8 @@
             }
          ],
          "stats": {
-            "1": "Combat Start: Jump into the enemy backline",
-            "2": "AND the first attack on an enemy bleeds them for 55% of their Health as magic damage over 2.5 seconds"
+            "1": "Combat Start: Jump into the enemy's backline and deal 15% less damage for the first 8 seconds of combat.",
+            "2": "Both champions jump."
          },
          "isHidden": true
       },
@@ -2601,7 +2616,7 @@
             }
          ],
          "stats": {
-            "1": "On death, summon a Training Dummy equipped with the same items. It has 120% of this unit's health."
+            "1": "On death, summon a Training Dummy equipped with the same items. It has 105% of this unit's health."
          },
          "isHidden": true
       },
@@ -2626,7 +2641,7 @@
             }
          ],
          "stats": {
-            "1": "Gain 10% Damage Reduction. Heal for 5% of damage dealt by all other allies."
+            "1": "Gain 10% Durability. Heal for 5% of damage dealt by all other allies."
          },
          "isHidden": true
       },
@@ -2651,7 +2666,7 @@
             }
          ],
          "stats": {
-            "1": "The first attack on each enemy deals 175% physical damage and knocks up for 1 seconds."
+            "1": "The first attack on each enemy deals 175% physical damage and Stun for 1 seconds."
          },
          "isHidden": true
       },
@@ -2701,7 +2716,7 @@
             }
          ],
          "stats": {
-            "1": "Become a 2-hex singularity, dealing 1.5%(Health)as magic damage every second. When enemies die within the radius, gain 4 permanent Health."
+            "1": "Become a 2-hex singularity, dealing 1%(Health)as magic damage every second. When enemies die within the radius, gain 8 permanent Health."
          },
          "isHidden": true
       },
@@ -2751,7 +2766,7 @@
             }
          ],
          "stats": {
-            "1": "Combat start: Mark adjacent hexes for 2 rounds. Allies in marked hexes gain 10% Damage Amp and 100 Health. This champion gains 200% of the bonus."
+            "1": "Combat start: Mark adjacent hexes for 3 rounds. Allies in marked hexes gain 10% Damage Amp and 140 Health. This champion gains 200% of the bonus."
          },
          "isHidden": true
       },
@@ -2851,7 +2866,7 @@
             }
          ],
          "stats": {
-            "1": "Gain 8% Attack Speed, and permanently gain 1% every 2 takedowns."
+            "1": "Gain 8% Attack Speed, and permanently gain 1% every 3 takedowns."
          },
          "isHidden": true
       },
@@ -2976,8 +2991,8 @@
             }
          ],
          "stats": {
-            "1": "This champion benefits 30% more from Star Guardian.",
-            "2": "Both champions benefit 30% more from Star Guardian."
+            "1": "Gain 30% increased bonuses from Star Guardian.",
+            "2": "And heal the other Star Sailor for 15% of damage dealt."
          },
          "isHidden": true
       },
@@ -3003,7 +3018,7 @@
          ],
          "stats": {
             "1": "Gain 200 Health and +60% Potential",
-            "2": "Gain 300 Health and +60% Potential"
+            "2": "Gain 1 XP per round, and another 1 for each surviving Star Student."
          },
          "isHidden": true
       },
@@ -3053,7 +3068,7 @@
             }
          ],
          "stats": {
-            "1": "Every 3 seconds, zap the closest enemy for 9% of their max Health as magic damage. Whenever an enemy is stunned by any source, zap them."
+            "1": "Every 3 seconds, zap the closest enemy for 9% of their max Health as magic damage. Whenever an enemy is Stunned by any source, zap them."
          },
          "isHidden": true
       },
@@ -3153,7 +3168,7 @@
             }
          ],
          "stats": {
-            "1": "At combat start, gain 15% Attack Speed and 10% Ability Power. After 15 and 66 attacks, this amount doubles."
+            "1": "Gain 15% Attack Speed and 10% Ability Power. After 15 and 66 attacks, this amount doubles."
          },
          "isHidden": true
       },
@@ -3205,7 +3220,7 @@
          ],
          "stats": {
             "1": "Kills heal 15% max Health and grant 40% Attack Speed for 2 seconds.",
-            "2": "50% Attack Speed on kill. Execute enemies below 10% Health."
+            "2": "40% Attack Speed on kill. Execute enemies below 10% Health."
          },
          "isHidden": true
       },
@@ -3263,7 +3278,7 @@
          "key": "Colossal",
          "ingameKey": "TFT15_MechanicTrait_TitanForm",
          "name": "Colossal",
-         "desc": "Take up two slots. Gain Health, Durability, and Damage Amp.",
+         "desc": "Take up two unit slots. Gain Health, Durability, and Damage Amp.",
          "imageUrl": "//cdn.lolchess.gg/upload/images/traits/100PushUps_normal_1752667368-powerup-gray.svg",
          "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/100PushUps_black_1752667368-powerup-black.svg",
          "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/100PushUps_white_1752667369-powerup-white.svg",
@@ -3306,8 +3321,8 @@
             }
          ],
          "stats": {
-            "1": "At low Health, gain 15% Damage Amp, spawn a Training Dummy, and dash to the furthest enemy.",
-            "2": "15% DA; Dummies gain 250 Health"
+            "1": "At low Health, gain 12% Damage Amp, spawn a Training Dummy, and dash to the furthest enemy.",
+            "2": "20% DA; Dummies gain 250 Health"
          },
          "isHidden": true
       },
@@ -3382,7 +3397,7 @@
             }
          ],
          "stats": {
-            "1": "Gain 400 Health and immunity to crowd control. Charge to new targets, stunning enemies passed through for 1 seconds."
+            "1": "Gain 400 Health and immunity to crowd control. Charge to new targets, Stunning enemies passed through for 1 seconds."
          },
          "isHidden": true
       },
@@ -3432,7 +3447,7 @@
             }
          ],
          "stats": {
-            "1": "At combat start gain 40 Armor and Magic Resistance. Every second, convert 2 resists into 2% Attack Damage. (Up to 40)"
+            "1": "At combat start or when this activates gain 40 Armor and Magic Resistance. Every second, convert 2 resists into 2% Attack Damage. (Up to 40)"
          },
          "isHidden": true
       },
@@ -3616,7 +3631,7 @@
             }
          ],
          "stats": {
-            "1": "Gain 1/1/8 placeable plants, based on Zyra's star level. Plants in the front two rows grow into durable Grasping Roots, while plants in the back two rows grow into Deadly Spines.<br><br>Rosemother plants benefit from Zyra's Ability Power and Attack Speed. <br><br>When Zyra casts, her plant restores 50% Health and gains 50% Attack Speed for the rest of combat. If the plant is dead, she revives it instead."
+            "1": "Gain 1/1/8 placeable plants, based on Zyra's star level. Plants in the front two rows grow into durable Grasping Roots, while plants in the back two rows grow into Deadly Spines.<br><br>Rosemother plants benefit from Zyra's Ability Power and Attack Speed. <br><br>When Zyra casts, her plant restores 35% Health and gains 35% Attack Speed for the rest of combat. If the plant is dead, she revives it instead."
          }
       },
       {
@@ -3719,9 +3734,9 @@
          ],
          "stats": {
             "2": "120 Health, 1% AD and AP, +10% damage",
-            "4": "200 Health, 2% AD and AP, +16% damage",
-            "6": "300 Health, 3% AD and AP, +24% damage",
-            "8": "450 Health, 4% AD and AP, +36% damage"
+            "4": "240 Health, 2% AD and AP, +16% damage",
+            "6": "400 Health, 3% AD and AP, +24% damage",
+            "8": "650 Health, 4% AD and AP, +36% damage"
          }
       },
       {
@@ -3885,16 +3900,16 @@
             }
          ],
          "stats": {
-            "2": "5% DA | 10% DA",
-            "3": "15% DA | 25% DA",
-            "4": "25% DA | 40% DA. Gain a second Supreme"
+            "2": "8% DA | 12% DA",
+            "3": "18% DA | 30% DA",
+            "4": "28% DA | 50% DA. Gain a second Supreme"
          }
       },
       {
          "key": "TheCrew",
          "ingameKey": "TFT15_TheCrew",
          "name": "The Crew",
-         "desc": "Crew champions gain 6% Health and Attack Speed for each Crew member fielded.<br><br>Every 3-star Crew champion grants an additional bonus.<br><br>1x : +1 XP per reroll, and Crew unit odds never drop with player level.<br>2x: +1 free reroll / round.<br>3x : Deal 280 damage to fire a rocket dealing 110.<br>4x : Fire rockets 250% more often per player level.<br>5x : Fire the Planet Cracker.",
+         "desc": "Crew champions gain 5% Health and Attack Speed for each Crew member fielded.<br><br>Every 3-star Crew champion grants an additional bonus.<br><br>1x : +1 XP per paid reroll, and Crew unit odds never drop with player level.<br>2x: +1 free reroll / round.<br>3x : Deal 280 damage to fire a rocket dealing 105.<br>4x : Fire rockets 250% more often per player level.<br>5x : Fire the Planet Cracker.",
          "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBETheCrew_normal_1752196271-The Crew.svg",
          "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBETheCrew_black_1752196272-The Crew.svg",
          "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBETheCrew_white_1752196272-The Crew.svg",
