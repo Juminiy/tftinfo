@@ -5,8 +5,11 @@ from typing import Any,Dict
 from json import dumps
 
 from meta_data import setdata, components_nickname, attributes_nickname, allstats, components_nickname_priority
+from meta_data import craft2radiant_name_set5dot5, craft2radiant_name
 
 from meta_func import emblem_cmp_key, grid_fix_write
+
+# from colorama import Fore, Style
 
 def parse_attr(fulldesc: str) -> list[str]:
     if len(fulldesc) == 0:
@@ -110,15 +113,32 @@ for setof in setlist:
 # compare radiant and craftable
 crafRadiComp:Dict[str,Any]={}
 for setof in setlist:
-    if setof in ['set1','set2','set3','set4','set5','set3.5','set4.5']:
+    if setof in ['set1','set2','set3','set4','set5','set3.5','set4.5','set6']:
         continue
     crafRadiComp[setof]=[]
     radiants, craftable = itemTyp[setof]['radi'], itemTyp[setof]['craf']
+    radnames=[raitem['name'] for raitem in radiants]
+
+    def found_by_namemap(craftitem: dict) -> bool:
+        craft2rad=craft2radiant_name if setof != 'set5.5' else craft2radiant_name_set5dot5
+        if craftitem['name'] in craft2rad and \
+            craft2rad[craftitem['name']] in radnames:
+            crafRadiComp[setof].append({
+                'craftable': craftitem,
+                'radiant': radiants[radnames.index(craft2rad[craftitem['name']])],
+            })
+            return True
+        return False
+
     for craft in craftable:
         if str(craft['compositions']).find('spatula') != -1 or \
             str(craft['compositions']).find('pan') != -1:
             continue
-        foundrad=False
+
+        foundrad=found_by_namemap(craft)
+        if foundrad:
+            continue
+        
         for radiant in radiants:
             if str(radiant['name']).removeprefix('Radiant').removesuffix('Radiant').removeprefix('Radient').removesuffix('Radient') == \
                 craft['name']:
@@ -128,9 +148,10 @@ for setof in setlist:
                 })
                 foundrad=True
                 break
+        
         if not foundrad:
             craftname=craft['name']
-            # print(f'{setof} {craftname} NOT FOUND Radiant OR Radient')
+            # print(f'{Fore.RED}{setof} {Fore.GREEN}{craftname}{Style.RESET_ALL} NOT FOUND Radiant OR Radient')
     with open(f'tftitems/craft-vs-radiant/{setof}.json', 'w+') as compfile:
         compfile.write(dumps(crafRadiComp[setof], ensure_ascii=True, indent='    '))
         compfile.close()

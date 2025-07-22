@@ -2,7 +2,7 @@
 
 cp .env.example .env
 
-for dir in "tfttraits" "tfttraits/grid" "tfttraits/table" "tftitems" "tftitems/craft-vs-radiant" "tftitems/grid" "tftaugs"
+for dir in "tfttraits" "tfttraits/grid" "tfttraits/table" "tftitems" "tftitems/craft-vs-radiant" "tftitems/grid" "tftaugs" "tftspecs"
 do
     rm -rf $dir
     mkdir -p $dir

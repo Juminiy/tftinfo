@@ -52,11 +52,12 @@ def emblem_cmp_func(s1:str, s2:str) -> int:
 emblem_cmp_key=cmp_to_key(emblem_cmp_func)
 
 def grid_fix_write(grid2d: list[list[str]], row0: list[str]=[], line0: list[str]=[], hdr00: str='') -> str:
-    if len(row0) > 0 and len(line0) > 0:
+    if len(row0) > 0:
         grid2d.insert(0, row0)
-        line0.insert(0, hdr00)
-        for i in range(len(grid2d)):
-            grid2d[i].insert(0, line0[i])
+        if len(line0) > 0:
+            line0.insert(0, hdr00)
+            for i in range(len(grid2d)):
+                grid2d[i].insert(0, line0[i])
     
     return '\n'.join(grid_convert2_table(grid2d))
 

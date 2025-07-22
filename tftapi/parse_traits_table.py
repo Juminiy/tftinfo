@@ -30,15 +30,24 @@ for setof in setlist:
     chmps=[(chp['name'], chp['traits']) for chp in champions['champions'] if select_champions(setof, chp)]
 
     items=setdata[setof]['items']
-    emblems={str(emb['key']).removesuffix('Emblem'): sorted(emb['compositions'], key=emblem_cmp_key)
-             for emb in items['items'] 
-             if str(emb['key']).endswith('Emblem') and 
-             ('compositions' in emb) and 
-             (len(emb['compositions']) == 2) and 
-             ('isEmblem' in emb) and 
-             ('isHidden' not in emb) and 
-             ('Spatula' in emb['compositions'] or 'FryingPan' in emb['compositions']) 
-            }
+    emblems:dict[str,Any]={}
+    for emb in items['items']:
+        if ('isEmblem' in emb) and ('isHidden' not in emb):
+            embkeyraw,embnameraw,embkey=str(emb['key']),str(emb['name']),''
+            if embkeyraw.endswith('Emblem') or embkeyraw.endswith('EmblemItem'):
+                embkey=embkeyraw.removesuffix('Emblem').removesuffix('EmblemItem')
+            elif embnameraw.endswith(' Emblem') or embnameraw.endswith(' EmblemItem'):
+                embkey=embnameraw.removesuffix(' Emblem').removesuffix(' EmblemItem')
+            embcomposi=[]
+            # craftable
+            if ('compositions' in emb) and (len(emb['compositions']) == 2) and \
+                ('Spatula' in emb['compositions'] or 'FryingPan' in emb['compositions']):
+                embcomposi = sorted(emb['compositions'], key=emblem_cmp_key)
+            # uncraftable
+            elif 'compositions' not in emb:
+                embcomposi = ['uncraftable']
+            emblems[embkey] = embcomposi
+
 
     trt2chp:dict[str,set[str]]={}
     for chp in chmps:
@@ -52,7 +61,9 @@ for setof in setlist:
         if not select_traits(setof, trt):
             continue
 
-        activestr='/'.join([str(styleof['min']) for styleof in trt['styles'] if 'min' in styleof ])
+        activestr0='/'.join([str(styleof['min']) for styleof in trt['styles'] if 'min' in styleof ])
+        activestr1='/'.join([statkey for statkey in trt['stats']])
+        activestr=activestr0 if len(activestr0) > len(activestr1) else activestr1
         trtdetail={
             'name': trt['name'],
             'desc': parse_stats(trt['stats'], trt['desc']),
@@ -95,18 +106,31 @@ for setof in setlist:
 
 # get unique bond
 for setof in setlist:
-    trt1chp={
-        chp['traits'][0]: chp['name']
-        for chp in setdata[setof]['champions']['champions'] if select_champions(setof, chp) and 'traits' in chp and len(chp['traits'])==1
-    }
+    trt1chp:dict[str,list[str]]={} # trait_name -> champion_name_list
+    chpcost:dict[str,int]={}       # champion_name -> champion_cost
+    for chp in setdata[setof]['champions']['champions']:
+        chpcost[chp['name']] = min(chp['cost'])
+        if select_champions(setof, chp) and \
+            'traits' in chp:
+            for trt0 in chp['traits']:
+                if trt0 not in trt1chp:
+                    trt1chp[trt0] = []
+                trt1chp[trt0].append(chp['name'])
 
+    traitsall[setof]['unique'] = []
     for trt in setdata[setof]['traits']['traits']:
         if select_traits_legal(setof, trt) and \
             count_traits_style(trt) == 1:
-            if 'unique' not in traitsall[setof]:
-                traitsall[setof]['unique'] = []
             traitsall[setof]['unique'].append({
-                'name': trt['name'],
-                'champion': trt1chp[trt['key']] if trt['key'] in trt1chp else '',
+                'trait_name': trt['name'],
+                'champion_cost': '/'.join([str(chpcost[chpname]) for chpname in trt1chp[trt['key']]]) if trt['key'] in trt1chp else '',
+                'champion_names': '/'.join(trt1chp[trt['key']]) if trt['key'] in trt1chp else '',
             })
-    # print(traitsall[setof]['unique'] if 'unique' in traitsall[setof] else 'None')
+    
+    with open(f'tfttraits/table/{setof}.txt', 'a+') as stfile:
+        stfile.write('\n\n')
+        stfile.write(grid_fix_write(grid2d=[
+            [uqch['trait_name'], uqch['champion_names'], uqch['champion_cost']]
+            for uqch in traitsall[setof]['unique']
+        ], row0=['{{name}}', '{{champion}}', '{{cost}}']))
+        stfile.close()

@@ -1,6 +1,25 @@
 [
     {
         "craftable": {
+            "name": "ArcaneGauntlet",
+            "compositions": "rod+glove",
+            "basic_attrs": [
+                "+20%CR",
+                "+10AP"
+            ],
+            "add_attrs": "Grant 15 bonus Ability Power and 15% Critical Strike Chance.<br><br>Damage from an Ability can critically strike."
+        },
+        "radiant": {
+            "name": "RadientJeweledGauntlet",
+            "basic_attrs": [
+                "+15%CR",
+                "+10AP"
+            ],
+            "add_attrs": "The holder's magic and true damage from their Ability can critically strike. The holder gains 40% bonus Critical Strike Damage and 50 Ability Power."
+        }
+    },
+    {
+        "craftable": {
             "name": "Bloodthirster",
             "compositions": "sword+cloak",
             "basic_attrs": [
@@ -20,6 +39,23 @@
     },
     {
         "craftable": {
+            "name": "BlueSentinel",
+            "compositions": "tear+tear",
+            "basic_attrs": [
+                "+30MP"
+            ],
+            "add_attrs": "Grant 10 bonus starting Mana and 10 bouns Ability Power. Abilities cost 10 less Mana to cast.<br><br>If the holder gets at least 1 takedown within 3 seconds of casting, gain 10.<br><br>[Unique - Only One Per Champion]"
+        },
+        "radiant": {
+            "name": "RadientBlueBuff",
+            "basic_attrs": [
+                "+30MP"
+            ],
+            "add_attrs": "Grant 10 bonus starting Mana and 50 bouns Ability Power. Abilities cost 20 less Mana to cast.<br><br>If the holder gets at least 1 takedown within 3 seconds of casting, gain 10.<br><br>[Unique - Only One Per Champion]"
+        }
+    },
+    {
+        "craftable": {
             "name": "BrambleVest",
             "compositions": "vest+vest",
             "basic_attrs": [
@@ -31,6 +67,25 @@
             "name": "RadientBrambleVest",
             "basic_attrs": [],
             "add_attrs": "Grant 120 Armor. Negates bonus damage from incoming critical strikes. On being hit by an attack, deal 125/175/225\u2605 magic damage to all nearby enemies (once every 2.5 seconds)."
+        }
+    },
+    {
+        "craftable": {
+            "name": "Chalice",
+            "compositions": "cloak+tear",
+            "basic_attrs": [
+                "+20MR",
+                "+30MP"
+            ],
+            "add_attrs": "Combat start: Grant 25 Ability Power to the holder and allies within 1 hex in the same row.<br><br>[Aura item]"
+        },
+        "radiant": {
+            "name": "RadientChaliceofPower",
+            "basic_attrs": [
+                "+20MR",
+                "+15MP"
+            ],
+            "add_attrs": "When combat begins, the holder and all allies within 1 hex in the same row gain 45 Ability Power and 10% Omnivamp for the rest of combat.<br><br>[Aura item]"
         }
     },
     {
@@ -84,6 +139,25 @@
                 "+10AS"
             ],
             "add_attrs": "Grant 40% bonus Attack Damage and 40 bonus Ability Power. If the target has more than 1600 maximum Health, the bonus increases to 70%."
+        }
+    },
+    {
+        "craftable": {
+            "name": "GuardianAngel",
+            "compositions": "sword+vest",
+            "basic_attrs": [
+                "+10%AD",
+                "+20AR"
+            ],
+            "add_attrs": "Once per combat: At 60% Health, briefly become stealthed, becoming untargetable and shedding negative effects. Then, grant 15% bonus Attack Speed.<br><br>[Unique - Only One Per Champion]"
+        },
+        "radiant": {
+            "name": "RadientEdgeofNight",
+            "basic_attrs": [
+                "+10AD",
+                "+20AR"
+            ],
+            "add_attrs": "When the holder first drops below 60% Health, they briefly enter stealth, becoming untargetable and shedding negative effects. After coming out of stealth, the holder gains 40% bonus Attack Speed. Triggers again at 30% Health."
         }
     },
     {
@@ -183,6 +257,25 @@
     },
     {
         "craftable": {
+            "name": "IronWill",
+            "compositions": "vest+cloak",
+            "basic_attrs": [
+                "+30AR",
+                "+30MR"
+            ],
+            "add_attrs": "Grant 15 Armor and 15 Magic Resist for each enemy targeting the holder."
+        },
+        "radiant": {
+            "name": "RadientGargoyleStoneplate",
+            "basic_attrs": [
+                "+20AR",
+                "+20MR"
+            ],
+            "add_attrs": "The holder gains 30 Armor and 30 Magic Resist for each enemy targeting them.<br><br>Radiant Bonus: Regenerate 2% max Health per second"
+        }
+    },
+    {
+        "craftable": {
             "name": "LastWhisper",
             "compositions": "bow+glove",
             "basic_attrs": [
@@ -217,6 +310,40 @@
                 "+20AR"
             ],
             "add_attrs": "When combat begins, the holder and all allies within 3 hexes in the same row gain a shield that blocks 400/500/600\u2605 damage for 60 seconds.<br><br>Radiant Bonus: Grants 125 Health for all allies at the start of combat."
+        }
+    },
+    {
+        "craftable": {
+            "name": "LordsEdge",
+            "compositions": "sword+sword",
+            "basic_attrs": [],
+            "add_attrs": "Grant 66% bonus Attack Damage."
+        },
+        "radiant": {
+            "name": "RadientDeathblade",
+            "basic_attrs": [
+                "+20AD"
+            ],
+            "add_attrs": "Grant 40/70/100\u2605 bonus Attack Damage."
+        }
+    },
+    {
+        "craftable": {
+            "name": "LudensEcho",
+            "compositions": "rod+tear",
+            "basic_attrs": [
+                "+10AP",
+                "+30MP"
+            ],
+            "add_attrs": "Grants 10 bonus Ability Power.<br><br>Combat start: Grant 20 Ability Power every 5 seconds."
+        },
+        "radiant": {
+            "name": "RadientArchangelsStaff",
+            "basic_attrs": [
+                "+30AP",
+                "+50MP"
+            ],
+            "add_attrs": "Now grants the wearer 30 ability power every 4 seconds."
         }
     },
     {
@@ -325,6 +452,24 @@
                 "+20MR"
             ],
             "add_attrs": "Grant 20% Attack Damage. Attacks fire a bolt at another nearby enemy, dealing 100% Attack Damage as physical damage.<br><br>Also, gain 20% Attack Speed."
+        }
+    },
+    {
+        "craftable": {
+            "name": "Shroud",
+            "compositions": "vest+glove",
+            "basic_attrs": [
+                "+20AR"
+            ],
+            "add_attrs": "Grant 250 bouns Health.<br><br>Combat start: Shoots a beam that increases the maximum Mana of affected enemies by 35% until they cast.<br><br>[Unique - Only One Per Champion]"
+        },
+        "radiant": {
+            "name": "RadientShroudofStillness",
+            "basic_attrs": [
+                "+20%CR",
+                "+20AR"
+            ],
+            "add_attrs": "Health 250. When combat begins, the holder shoots a beam straight ahead that delays affected enemies' first spellcast, increasing their max Mana by 50% until they cast.<br><br>Radiant Bonus: +15 Mana for all allies at the start of combat"
         }
     },
     {
@@ -488,6 +633,25 @@
                 "+150HP"
             ],
             "add_attrs": "At the start of combat, the holder taunts enemies within 4 hexes. When the holder dies, a Radiant Voidmother with bonus stats arises taunting nearby enemies. Radiant Voidspawns that arise from summoned units are 25% effective."
+        }
+    },
+    {
+        "craftable": {
+            "name": "Guardbreaker",
+            "compositions": "belt+glove",
+            "basic_attrs": [
+                "+20%CR",
+                "+150HP"
+            ],
+            "add_attrs": "Grant 20% bonus Attack Damage and 20 bonus Ability Power. After damaging a shielded enemy, Abilities and attacks deal 30% more damage for 3 seconds."
+        },
+        "radiant": {
+            "name": "RadientStridebreaker",
+            "basic_attrs": [
+                "+20%CR",
+                "+150HP"
+            ],
+            "add_attrs": "Grant 40% bonus Attack Damage and 40 bonus Ability Power. After damaging a shielded enemy, Abilities and attacks 70% deal more damage for a few seconds."
         }
     }
 ]

@@ -74,3 +74,39 @@ stat_icons={
     '%i:scaleHealth%': 'HP',
     '%i:scaleDA%': 'DA',
 }
+
+craft2radiant_name={
+    # after set9.5                              
+    'AdaptiveHelm': 'JakshotheProtean',         
+    'ArcaneGauntlet': 'RadientJeweledGauntlet', 
+    'BlueSentinel': 'RadientBlueBuff',
+    'Guardbreaker': 'RadientStridebreaker',
+    'GuardianAngel': 'RadientEdgeofNight',
+    'IronWill': 'RadientGargoyleStoneplate',
+    'LordsEdge': 'RadientDeathblade',
+    'LudensEcho': 'RadientArchangelsStaff',
+    'RedBuffItem': 'RadientRedBuff',
+    'SteraksGage': 'SteraksMegashield',
+    'VoidStaff': 'RadientStatikkShiv',
+
+    # set9.5                                  
+    'Chalice': 'RadientChaliceofPower',       
+    'Shroud': 'RadientShroudofStillness',    
+
+    # set7.5
+    'Backhand': 'RadientBansheesClaw', 
+}
+
+craft2radiant_name_set5dot5={
+    # set5.5
+    'LordsEdge': 'RadiantDeathblade',
+    'RapidFirecannon': 'RadiantRapidfireCannon',
+    'ZzRotPortal': 'RadiantZzrotPortal',
+    'LudensEcho': 'RadiantArchangelsStaff',
+    'ArcaneGauntlet': 'RadiantJeweledGauntlet',
+    'BlueSentinel': 'RadiantBlueBuff',
+    'Chalice': 'RadiantChaliceofPower',
+    'IronWill': 'RadiantGargoyleStoneplate',
+    'Shroud': 'RadiantShroudofStillness',
+    'Backhand': 'RadiantTrapClaw',
+}

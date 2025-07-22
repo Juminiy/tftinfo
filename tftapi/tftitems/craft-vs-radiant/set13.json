@@ -1,6 +1,46 @@
 [
     {
         "craftable": {
+            "name": "AdaptiveHelm",
+            "compositions": "cloak+tear",
+            "basic_attrs": [
+                "+15MP",
+                "+10AP",
+                "+20MR"
+            ],
+            "add_attrs": "Combat start: Gain different bonuses based on starting position.<br><br>Front Two Rows: 40 Armor and Magic Resist. Gain 1 Mana when struck by an attack.<br><br>Back Two Rows: 15 Ability Power. Gain 10 Mana every 3 seconds."
+        },
+        "radiant": {
+            "name": "JakshotheProtean",
+            "basic_attrs": [
+                "+25AP",
+                "+15MP",
+                "+30MR"
+            ],
+            "add_attrs": "Combat Start: Gain different bonuses based on starting position.<br><br>Front Two Rows: 60 Armor and Magic Resist. Gain 2 Mana when struck by an attack.<br><br>Back Two Rows: 40 Ability Power. Gain 20 Mana every 3 seconds."
+        }
+    },
+    {
+        "craftable": {
+            "name": "ArcaneGauntlet",
+            "compositions": "rod+glove",
+            "basic_attrs": [
+                "+35AP",
+                "+35%CR"
+            ],
+            "add_attrs": "Abilities can critically strike.<br><br>If the holder's abilities can already critically strike, gain 10% Critical Strike Damage instead."
+        },
+        "radiant": {
+            "name": "RadientJeweledGauntlet",
+            "basic_attrs": [
+                "+70AP",
+                "+75%CR"
+            ],
+            "add_attrs": "Abilities can critically strike.<br><br>If the holder's abilities can already critically strike, gain 10% Critical Strike Damage instead."
+        }
+    },
+    {
+        "craftable": {
             "name": "Bloodthirster",
             "compositions": "sword+cloak",
             "basic_attrs": [
@@ -20,6 +60,27 @@
                 "+40%OV"
             ],
             "add_attrs": "Once per combat: At 40% Health, gain a 40% max Health Shield that lasts up to 5 seconds."
+        }
+    },
+    {
+        "craftable": {
+            "name": "BlueSentinel",
+            "compositions": "tear+tear",
+            "basic_attrs": [
+                "+30MP",
+                "+15AP",
+                "+15%AD"
+            ],
+            "add_attrs": "Gain 10 Mana after casting.<br><br>When the holder gets a takedown, they deal 5% more damage for 8 seconds.<br><br>[Unique - only 1 per champion]"
+        },
+        "radiant": {
+            "name": "RadientBlueBuff",
+            "basic_attrs": [
+                "+30MP",
+                "+50AP",
+                "+50%AD"
+            ],
+            "add_attrs": "Gain 10 Mana after casting.<br><br>When the holder gets a takedown, they deal 20% more damage for 12 seconds.<br><br>[Unique - Only One Per Champion]"
         }
     },
     {
@@ -138,6 +199,50 @@
     },
     {
         "craftable": {
+            "name": "Guardbreaker",
+            "compositions": "belt+glove",
+            "basic_attrs": [
+                "+150HP",
+                "+20%AS",
+                "+10AP",
+                "+20%CR",
+                "+15%DA"
+            ],
+            "add_attrs": "After damaging a Shield, gain 15% Damage Amp for 3 seconds."
+        },
+        "radiant": {
+            "name": "RadientStridebreaker",
+            "basic_attrs": [
+                "+150HP",
+                "+30%AS",
+                "+30AP",
+                "+20%CR",
+                "+20%DA"
+            ],
+            "add_attrs": "After damaging a Shield, gain 30% Damage Amp for 3 seconds."
+        }
+    },
+    {
+        "craftable": {
+            "name": "GuardianAngel",
+            "compositions": "sword+vest",
+            "basic_attrs": [
+                "+10%AD",
+                "+20AR"
+            ],
+            "add_attrs": "Once per combat: At 60% Health, briefly become untargetable and shed negative effects. Then, gain 15% bonus Attack Speed.<br><br>[Unique - only 1 per champion]"
+        },
+        "radiant": {
+            "name": "RadientEdgeofNight",
+            "basic_attrs": [
+                "+30%AD",
+                "+30AR"
+            ],
+            "add_attrs": "Once per combat: At 60% Health, briefly become untargetable and shed negative effects. Then, heal 100% missing health and gain 85% bonus Attack Speed.<br><br>[Unique - only 1 per champion]"
+        }
+    },
+    {
+        "craftable": {
             "name": "GuinsoosRageblade",
             "compositions": "bow+rod",
             "basic_attrs": [
@@ -237,6 +342,27 @@
     },
     {
         "craftable": {
+            "name": "IronWill",
+            "compositions": "vest+cloak",
+            "basic_attrs": [
+                "+100HP",
+                "+25AR",
+                "+25MR"
+            ],
+            "add_attrs": "Gain 10 Armor and 10 Magic Resist for each enemy targeting the holder."
+        },
+        "radiant": {
+            "name": "RadientGargoyleStoneplate",
+            "basic_attrs": [
+                "+250HP",
+                "+50AR",
+                "+50MR"
+            ],
+            "add_attrs": "Gain 15 Armor and 15 Magic Resist for each enemy targeting the holder.<br><br>Also, heal 1.5% max Health each second."
+        }
+    },
+    {
+        "craftable": {
             "name": "LastWhisper",
             "compositions": "bow+glove",
             "basic_attrs": [
@@ -254,6 +380,43 @@
                 "+55%CR"
             ],
             "add_attrs": "Physical damage 30% Sunders the target for the rest of combat. This effect does not stack.<br><br>[Unique - only one per champion]<br>Sunder: reduce Armor"
+        }
+    },
+    {
+        "craftable": {
+            "name": "LordsEdge",
+            "compositions": "sword+sword",
+            "basic_attrs": [
+                "+55%AD"
+            ],
+            "add_attrs": "+55% Attack Damage"
+        },
+        "radiant": {
+            "name": "RadientDeathblade",
+            "basic_attrs": [
+                "+105%AD",
+                "+12%DA"
+            ],
+            "add_attrs": "+105% Attack Damage, +20% Damage Amp"
+        }
+    },
+    {
+        "craftable": {
+            "name": "LudensEcho",
+            "compositions": "rod+tear",
+            "basic_attrs": [
+                "+15MP",
+                "+20AP"
+            ],
+            "add_attrs": "Combat start: Gain 30 Ability Power every 5 seconds in combat."
+        },
+        "radiant": {
+            "name": "RadientArchangelsStaff",
+            "basic_attrs": [
+                "+15MP",
+                "+60AP"
+            ],
+            "add_attrs": "Combat start: Gain 40 Ability Power every 4 seconds in combat."
         }
     },
     {
@@ -333,6 +496,25 @@
                 "+80AP"
             ],
             "add_attrs": "+70 Ability Power, +33% Damage Amp"
+        }
+    },
+    {
+        "craftable": {
+            "name": "RedBuffItem",
+            "compositions": "bow+bow",
+            "basic_attrs": [
+                "+35%AS",
+                "+3%DA"
+            ],
+            "add_attrs": "Attacks and Abilities 1% Burn and 33% Wound enemies for 5 seconds.<br><br>Burn: Deals a percent of the target's max Health as true damage every second<br>Wound: Reduces healing received"
+        },
+        "radiant": {
+            "name": "RadientRedBuff",
+            "basic_attrs": [
+                "+60%AS",
+                "+5%DA"
+            ],
+            "add_attrs": "Attacks and Abilities 2% Burn and 33% Wound enemies for 5 seconds.<br><br>Burn: Deals a percent of the target's max Health as true damage every second<br>Wound: Reduces healing received"
         }
     },
     {
@@ -433,6 +615,25 @@
                 "+20%CR"
             ],
             "add_attrs": "Gain 16% Durability. While above 40% Health, instead gain 30% Durability."
+        }
+    },
+    {
+        "craftable": {
+            "name": "SteraksGage",
+            "compositions": "sword+belt",
+            "basic_attrs": [
+                "+150HP",
+                "+15%AD"
+            ],
+            "add_attrs": "Once per combat at 60% Health, gain 25% max Health and 35% Attack Damage."
+        },
+        "radiant": {
+            "name": "SteraksMegashield",
+            "basic_attrs": [
+                "+400HP",
+                "+30%AD"
+            ],
+            "add_attrs": "Once per combat at 60% Health, gain 40% max Health and 60% Attack Damage."
         }
     },
     {
