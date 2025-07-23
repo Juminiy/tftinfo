@@ -10,8 +10,6 @@ from meta_data import craft2radiant_name_set5dot5, craft2radiant_name
 from meta_func import emblem_cmp_key, grid_fix_write
 from meta_func import no_radiant_set
 
-# from colorama import Fore, Style
-
 def parse_attr(fulldesc: str) -> list[str]:
     if len(fulldesc) == 0:
         return []
@@ -40,8 +38,6 @@ def parse_attr(fulldesc: str) -> list[str]:
     return descs
 
 itemTyp:Dict[str,Any] = {}
-
-# dump itemTyp
 for setof in setlist:
     itemTyp[setof]={
         'comp': [], # Components
@@ -109,58 +105,7 @@ for setof in setlist:
         itemsfile.write(dumps(itemTyp[setof], ensure_ascii=True, indent='    '))
         itemsfile.close()
 
-
-
-# compare radiant and craftable
-crafRadiComp:Dict[str,Any]={}
-for setof in setlist:
-    if no_radiant_set(setof):
-        continue
-    crafRadiComp[setof]=[]
-    radiants, craftable = itemTyp[setof]['radi'], itemTyp[setof]['craf']
-    radnames=[raitem['name'] for raitem in radiants]
-
-    def found_by_namemap(craftitem: dict) -> bool:
-        craft2rad=craft2radiant_name if setof != 'set5.5' else craft2radiant_name_set5dot5
-        if craftitem['name'] in craft2rad and \
-            craft2rad[craftitem['name']] in radnames:
-            crafRadiComp[setof].append({
-                'craftable': craftitem,
-                'radiant': radiants[radnames.index(craft2rad[craftitem['name']])],
-            })
-            return True
-        return False
-
-    for craft in craftable:
-        if str(craft['compositions']).find('spatula') != -1 or \
-            str(craft['compositions']).find('pan') != -1:
-            continue
-
-        foundrad=found_by_namemap(craft)
-        if foundrad:
-            continue
-        
-        for radiant in radiants:
-            if str(radiant['name']).removeprefix('Radiant').removesuffix('Radiant').removeprefix('Radient').removesuffix('Radient') == \
-                craft['name']:
-                crafRadiComp[setof].append({
-                    'craftable': craft,
-                    'radiant': radiant,
-                })
-                foundrad=True
-                break
-        
-        if not foundrad:
-            craftname=craft['name']
-            # print(f'{Fore.RED}{setof} {Fore.GREEN}{craftname}{Style.RESET_ALL} NOT FOUND Radiant OR Radient')
-    with open(f'tftitems/craft-vs-radiant/{setof}.json', 'w+') as compfile:
-        compfile.write(dumps(crafRadiComp[setof], ensure_ascii=True, indent='    '))
-        compfile.close()
-
-
-
-# parse items grid
-for setof in setlist:
+def get_craftable_grid(setof: str) -> str:
     comps=sorted([components_nickname[comp['name']] for comp in itemTyp[setof]['comp']], key=lambda nickof: components_nickname_priority[nickof])
     crafts=itemTyp[setof]['craf']
     emblems=itemTyp[setof]['embl']
@@ -181,45 +126,89 @@ for setof in setlist:
         compnickitems.sort(key=lambda compnick: components_nickname_priority[compnick])
         grid2d[comps.index(compnickitems[0])][comps.index(compnickitems[1])] = embl['name']
     
-    with open(f'tftitems/grid/{setof}.txt', 'w+') as gridfile:
-        gridfile.write(grid_fix_write(grid2d, comps.copy(), comps.copy(), 'C1\\C2'))
-        gridfile.close()
+    return grid_fix_write(grid2d, comps.copy(), comps.copy(), 'C1\\C2')
 
+def compare_craftable_radiant_items():
+    for setof in setlist:
+        if no_radiant_set(setof):
+            continue
+        
+        craft_radi_comp:list[dict]=[]
+        radiants, craftable = itemTyp[setof]['radi'], itemTyp[setof]['craf']
+        radnames=[raitem['name'] for raitem in radiants]
 
+        def found_by_namemap(craftitem: dict) -> bool:
+            craft2rad=craft2radiant_name if setof != 'set5.5' else craft2radiant_name_set5dot5
+            if craftitem['name'] in craft2rad and \
+                craft2rad[craftitem['name']] in radnames:
+                craft_radi_comp.append({
+                    'craftable': craftitem,
+                    'radiant': radiants[radnames.index(craft2rad[craftitem['name']])],
+                })
+                return True
+            return False
 
-# compare different set same-components-items to craftable
-craftitems:Dict[str,list[tuple[str,str]]]={}
-for setof in setlist:
-    # if setof in ['set15']:
-    #     continue
-    crafts=itemTyp[setof]['craf']
+        for craft in craftable:
+            if str(craft['compositions']).find('spatula') != -1 or \
+                str(craft['compositions']).find('pan') != -1:
+                continue
 
-    for craf in crafts:
-        composi=craf['compositions']
-        if composi in craftitems:
-            craftitems[composi].append((setof, craf['name']))
-        else:
-            craftitems[composi] = []
-with open('tftitems/craft-change.json', 'w+') as craftschangef:
-    craftschangef.write(dumps(craftitems, ensure_ascii=True, indent='    '))
-    craftschangef.close()
+            foundrad=found_by_namemap(craft)
+            if foundrad:
+                continue
+            
+            for radiant in radiants:
+                if str(radiant['name']).removeprefix('Radiant').removesuffix('Radiant').removeprefix('Radient').removesuffix('Radient') == \
+                    craft['name']:
+                    craft_radi_comp.append({
+                        'craftable': craft,
+                        'radiant': radiant,
+                    })
+                    foundrad=True
+                    break
+                
+            if not foundrad:
+                craftname=craft['name']
+                # print(f'{Fore.RED}{setof} {Fore.GREEN}{craftname}{Style.RESET_ALL} NOT FOUND Radiant OR Radient')
+        with open(f'tftitems/craft-vs-radiant/{setof}.json', 'w+') as compfile:
+            compfile.write(dumps(craft_radi_comp, ensure_ascii=True, indent='    '))
+            compfile.close()
 
-itemchset:dict[str,int]={}
-composich:list[str]=[]
-for composi,setsitem in craftitems.items():
-    chdesc:list[str]=[]
-    for i in range(1,len(setsitem)):
-        if setsitem[i][1] != setsitem[i-1][1]:
-            chdesc.extend([f'{setsitem[i-1][1]}({setsitem[i-1][0]})', f'{setsitem[i][1]}({setsitem[i][0]})'])
-            if setsitem[i][0] not in itemchset:
-                itemchset[setsitem[i][0]]=1
+def parse_craftable_item_change():
+    craftitems:Dict[str,list[tuple[str,str]]]={}
+    for setof in setlist:
+        crafts=itemTyp[setof]['craf']
+
+        for craf in crafts:
+            composi=craf['compositions']
+            if composi in craftitems:
+                craftitems[composi].append((setof, craf['name']))
             else:
-                itemchset[setsitem[i][0]]+=1
-    if len(chdesc) > 0:
-        import pandas as pd
-        chdesc = pd.unique(pd.Series(chdesc)).tolist()
-        chdescstr=' -> '.join(chdesc)
-        composich.append(f'{composi}: {chdescstr}')
-with open('tftitems/craft-change.txt', 'w+') as craftchf:
-    craftchf.write('\n'.join(composich)+f'\n\n{itemchset}')
-    craftchf.close()
+                craftitems[composi] = []
+    
+    itemchset:dict[str,int]={}
+    composich:list[str]=[]
+    for composi,setsitem in craftitems.items():
+        chdesc:list[str]=[]
+        for i in range(1,len(setsitem)):
+            if setsitem[i][1] != setsitem[i-1][1]:
+                chdesc.extend([f'{setsitem[i-1][1]}({setsitem[i-1][0]})', f'{setsitem[i][1]}({setsitem[i][0]})'])
+                if setsitem[i][0] not in itemchset:
+                    itemchset[setsitem[i][0]]=1
+                else:
+                    itemchset[setsitem[i][0]]+=1
+        if len(chdesc) > 0:
+            import pandas as pd
+            chdesc = pd.unique(pd.Series(chdesc)).tolist()
+            chdescstr=' -> '.join(chdesc)
+            composich.append(f'{composi}: {chdescstr}')
+    with open('tftitems/craft-change.txt', 'w+') as craftchf:
+        craftchf.write('\n'.join(composich)+f'\n\n{itemchset}')
+        craftchf.close()
+
+compare_craftable_radiant_items()
+parse_craftable_item_change()
+for setof in setlist:
+    with open(f'tftitems/grid/{setof}.txt', 'w+') as gridfile:
+        gridfile.write(get_craftable_grid(setof))
+        gridfile.close()

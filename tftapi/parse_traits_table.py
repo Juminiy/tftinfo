@@ -1,8 +1,6 @@
 from env import setlist
 
-from typing import Any,Dict
-
-from json import dumps
+from typing import Any
 
 from meta_data import setdata
 
@@ -14,15 +12,9 @@ def parse_stats(statsd: dict[str,str], descs:str) -> str:
         pass
     return ''
 
-traitsall:Dict[str,Any]={}
-
-for setof in setlist:
-    setnum=setof.removeprefix('set')
-
-    traitsall[setof]={
-        'origins': [],
-        'classes': []
-    }
+def get_traits_table(setof: str) -> tuple[str,str]:
+    setorigins=[]
+    setclasses=[]
 
     traits=setdata[setof]['traits']
 
@@ -32,7 +24,9 @@ for setof in setlist:
     items=setdata[setof]['items']
     emblems:dict[str,Any]={}
     for emb in items['items']:
-        if ('isEmblem' in emb) and ('isHidden' not in emb):
+        if 'isHidden' in emb:
+            continue
+        if 'isEmblem' in emb:
             embkeyraw,embnameraw,embkey=str(emb['key']),str(emb['name']),''
             if embkeyraw.endswith('Emblem') or embkeyraw.endswith('EmblemItem'):
                 embkey=embkeyraw.removesuffix('Emblem').removesuffix('EmblemItem')
@@ -47,6 +41,8 @@ for setof in setlist:
             elif 'compositions' not in emb:
                 embcomposi = ['uncraftable']
             emblems[embkey] = embcomposi
+        elif 'affectedTraitKey' in emb and 'compositions' in emb: # fix set1,set2,set3,set4,set3.5,set4.5
+            emblems[emb['affectedTraitKey']] = sorted(emb['compositions'], key=emblem_cmp_key)
 
 
     trt2chp:dict[str,set[str]]={}
@@ -74,38 +70,29 @@ for setof in setlist:
         
         match trt['type']:
             case 'ORIGIN':
-                traitsall[setof]['origins'].append(trtdetail)
+                setorigins.append(trtdetail)
             case 'CLASS':
-                traitsall[setof]['classes'].append(trtdetail)
+                setclasses.append(trtdetail)
     
-    # with open(f'tfttraits/{setof}.json', 'w+') as trtfile:
-    #     trtfile.write(dumps(traitsall[setof], ensure_ascii=True, indent='    '))
-    #     trtfile.close()
-
     # write grid
-    trtsz=len(traitsall[setof]['origins'])
-    clssz=len(traitsall[setof]['classes'])
+    trtsz=len(setorigins)
+    clssz=len(setclasses)
     origins2d=[]
     classes2d=[]
     for i in range(trtsz):
-        trtv=traitsall[setof]['origins'][i]
+        trtv=setorigins[i]
         origins2d.append([str(trtv['name']), str(trtv['unit_active']), str(trtv['unit_count']), str(trtv['emblem']), ''])
     for i in range(clssz):
-        clsv=traitsall[setof]['classes'][i]
+        clsv=setclasses[i]
         classes2d.append([str(clsv['name']), str(clsv['unit_active']), str(clsv['unit_count']), str(clsv['emblem']), ''])
     origins2d.sort(key=lambda ls: ls[0])
     classes2d.sort(key=lambda ls: ls[0])
     origins2d.insert(0, ["{{origin_name}}", "{{unit_active}}", "{{unit_count}}", "{{emblem}}", "{{desc}}"])
     classes2d.insert(0, ["{{class_name}}", "{{unit_active}}", "{{unit_count}}", "{{emblem}}", "{{desc}}"])
 
-    with open(f'tfttraits/table/{setof}.txt', 'w+') as trtfile:
-        trtfile.write(grid_fix_write(origins2d))
-        trtfile.write('\n\n')
-        trtfile.write(grid_fix_write(classes2d))
-        trtfile.close()
+    return (grid_fix_write(origins2d),grid_fix_write(classes2d))
 
-# get unique bond
-for setof in setlist:
+def get_unique_table(setof: str) -> str:
     trt1chp:dict[str,list[str]]={} # trait_name -> champion_name_list
     chpcost:dict[str,int]={}       # champion_name -> champion_cost
     for chp in setdata[setof]['champions']['champions']:
@@ -117,20 +104,30 @@ for setof in setlist:
                     trt1chp[trt0] = []
                 trt1chp[trt0].append(chp['name'])
 
-    traitsall[setof]['unique'] = []
+    setunique = []
     for trt in setdata[setof]['traits']['traits']:
         if select_traits_legal(setof, trt) and \
             count_traits_style(trt) == 1:
-            traitsall[setof]['unique'].append({
+            setunique.append({
                 'trait_name': trt['name'],
                 'champion_cost': '/'.join([str(chpcost[chpname]) for chpname in trt1chp[trt['key']]]) if trt['key'] in trt1chp else '',
                 'champion_names': '/'.join(trt1chp[trt['key']]) if trt['key'] in trt1chp else '',
             })
     
-    with open(f'tfttraits/table/{setof}.txt', 'a+') as stfile:
-        stfile.write('\n\n')
-        stfile.write(grid_fix_write(grid2d=[
-            [uqch['trait_name'], uqch['champion_names'], uqch['champion_cost']]
-            for uqch in traitsall[setof]['unique']
-        ], row0=['{{name}}', '{{champion}}', '{{cost}}']))
-        stfile.close()
+    return grid_fix_write(
+            grid2d=[
+                [uqch['trait_name'], uqch['champion_names'], uqch['champion_cost']]
+                for uqch in setunique
+            ], 
+            row0=['{{name}}', '{{champion}}', '{{cost}}'])
+
+for setof in setlist:
+    origintbl, classtbl= get_traits_table(setof)
+    uniquetbl = get_unique_table(setof)
+    with open(f'tfttraits/table/{setof}.txt', 'w+') as tblfile:
+        tblfile.write(origintbl)
+        tblfile.write('\n\n')
+        tblfile.write(classtbl)
+        tblfile.write('\n\n')
+        tblfile.write(uniquetbl)
+        tblfile.close()

@@ -5,7 +5,6 @@ from json import loads
 from typing import Any
 
 setdata:dict[str,Any]={}
-
 for setof in setlist:
     setdata[setof]={}
     for elemof in ['augments', 'champions', 'items', 'traits']:
@@ -109,4 +108,40 @@ craft2radiant_name_set5dot5={
     'IronWill': 'RadiantGargoyleStoneplate',
     'Shroud': 'RadiantShroudofStillness',
     'Backhand': 'RadiantTrapClaw',
+}
+
+setopentime={
+    'set1': '2019.07.08',
+    'set2': '2019.11.07',
+    'set3': '2020.03.18',
+    'set4': '2020.09.16',
+    'set5': '2021.04.29',
+    'set6': '2021.11.04',
+    'set7': '2022.06.09',
+    'set8': '2022.12.07',
+    'set9': '2023.06.13',
+    'set10': '2023.11.21',
+    'set11': '2024.03.07',
+    'set12': '2024.08.01',
+    'set13': '2024.11.21',
+    'set14': '2025.04.02',
+    'set15': '2025.08.01',
+}
+
+setname={
+    'set1': '-',
+    'set2': 'Elemental Hexes',
+    'set3': 'Galaxies',          'set3.5': 'Galaxies Return to Stars',  
+    'set4': 'Fates',             'set4.5': 'Fates Festival of Beasts',
+    'set5': 'Reckoning',         'set5.5': 'Reckoning Dawn of Heroes',
+    'set6': 'Gizmos & Gadgets',  'set6.5': 'Gizmos & Gadgets Neon Nights',
+    'set7': 'Dragonlands',       'set7.5': 'Dragonlands Uncharted Realms',
+    'set8': 'Monsters Attack',   'set8.5': 'Monsters Attack Glitched Out',
+    'set9': 'Runeterra Reforged','set9.5': 'Runeterra Reforged HorizonBound',
+    'set10': 'Remix Rumble',
+    'set11': 'Inkborn Fables',
+    'set12': "Magic N' Mayhem",
+    'set13': 'Into the Arcane',
+    'set14': 'CyberCity',
+    'set15': 'K.O. Coliseum',
 }

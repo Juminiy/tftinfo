@@ -26,7 +26,7 @@ def grid_convert2_table(grid2d: list[list[str]]) -> list[str]:
     return res
 
 def convert_by_reverse():
-    with open('wf_cn.txt') as wfile:
+    with open('race_wf.txt') as wfile:
         rows=wfile.readlines()
         grid2d=[row.split('|') for row in rows]
         for i in range(len(grid2d)):
@@ -34,7 +34,7 @@ def convert_by_reverse():
                 grid2d[i][j] = grid2d[i][j].strip()
         for i in range(len(grid2d)):
             grid2d[i] = grid2d[i][::-1]
-        with open('wf_cn_rev.txt', 'w+') as wrfile:
+        with open('race_wf_rev.txt', 'w+') as wrfile:
             wrfile.write(grid_fix_write(grid2d))
             wrfile.close()
         wfile.close()

@@ -12,9 +12,7 @@ def two_champions_slash(ch1: str, ch2: str) -> str:
     else:
         return ch2
 
-for setof in setlist:
-    setnum=setof.removeprefix('set')
-    
+def get_synergy_grid(setof: str) -> str:
     # select traits
     traits=setdata[setof]['traits']
     origin_key:list[str]=[]
@@ -51,6 +49,9 @@ for setof in setlist:
     # header fix
     orinames=[key2name[orikey] for orikey in origin_key]
     
+    return grid_fix_write(grid2d, clsnames, orinames, 'Origins\\Classes')
+
+for setof in setlist:
     with open(f'tfttraits/grid/{setof}.txt', 'w+') as setgridf:
-        setgridf.write(grid_fix_write(grid2d, clsnames, orinames, 'Origins\\Classes'))
+        setgridf.write(get_synergy_grid(setof))
         setgridf.close()

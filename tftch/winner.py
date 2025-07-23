@@ -94,7 +94,7 @@ def has_winner(tftps:List[TFTPlayer]) -> Tuple[TFTPlayer, bool]:
 import pandas as pd
 from reverse import grid_fix_write
 def write_final(plys:List[TFTPlayer]):
-    with open('k_res.txt', 'a') as kresf:
+    with open('winner_k.txt', 'a') as kresf:
         kresf.write(grid_fix_write(
             grid2d=[[str(sum(plyi.points))]+[str(plyi_p) for plyi_p in plyi.points] for plyi in plys], 
             row0=['Total']+['Game'+str(idx+1) for idx in range(len(plys[0].points))],
