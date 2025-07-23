@@ -1,10 +1,14 @@
 from meta_data import setlist, setdata, augments_tier
 
+from meta_func import no_augment_set
+
 from json import dumps
 
 augs:dict[str,dict[str, list[tuple[str,str]]]]={}
 # setof -> silver/gold/prismatic -> (name, desc)
 for setof in setlist:
+    if no_augment_set(setof):
+        continue
     augs[setof] = {
         'normal': [],
         'silver': [],

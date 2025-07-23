@@ -49,8 +49,8 @@
          },
          "recommendItems": [
             "TFT_Item_GargoyleStoneplate",
-            "TFT_Item_WarmogsArmor",
             "TFT_Item_RedBuff",
+            "TFT_Item_WarmogsArmor",
             "TFT_Item_Redemption",
             "TFT_Item_DragonsClaw"
          ],
@@ -93,11 +93,11 @@
          "skill": {
             "name": "Pure Heart Breaker",
             "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/PBEAhri_1752547214-icons_ahri_e.png",
-            "desc": "Deal  magic damage to the current target, increased up to 75% based on the target's missing health.<br><br>If the target dies, deal 55% of overkill damage split between the 2 closest enemies, plus magic damage per target.",
+            "desc": "Deal  magic damage to the current target, increased up to 50% based on the target's missing health.<br><br>If the target dies, deal 55% of overkill damage split between the 2 closest enemies, plus magic damage per target.",
             "startingMana": 10,
             "skillMana": 50,
             "stats": [
-               "Damage: 420 / 630 / 1010",
+               "Damage: 465 / 700 / 1125",
                "Secondary Damage: 40 / 60 / 95"
             ]
          },
@@ -106,7 +106,7 @@
             "TFT_Item_BlueBuff",
             "TFT_Item_SpearOfShojin",
             "TFT_Item_RabadonsDeathcap",
-            "TFT_Item_Leviathan"
+            "TFT_Item_HextechGunblade"
          ],
          "role": "APCaster"
       },
@@ -151,15 +151,15 @@
             "startingMana": 0,
             "skillMana": 30,
             "stats": [
-               "Strike Damage: 80 / 120 / 500 (AP)",
-               "Dash Damage: 60 / 90 / 400 (AP)"
+               "Strike Damage: 80 / 120 / 800 (AP)",
+               "Dash Damage: 60 / 90 / 600 (AP)"
             ]
          },
          "recommendItems": [
             "TFT_Item_UnstableConcoction",
             "TFT_Item_JeweledGauntlet",
-            "TFT_Item_Bloodthirster",
             "TFT_Item_GuardianAngel",
+            "TFT_Item_Bloodthirster",
             "TFT_Item_RabadonsDeathcap"
          ],
          "role": "APReaper"
@@ -201,18 +201,18 @@
          "skill": {
             "name": "Gates of Avarosa",
             "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/PBEAshe_1752472782-ashe_q.png",
-            "desc": "The next 8 attacks fire bonus arrows dealing physical damage split between the target and up to two random enemies within 2 hexes.",
+            "desc": "The next 8 attacks fire bonus arrows dealing total physical damage split between the target and up to two random enemies within 2 hexes.",
             "startingMana": 0,
             "skillMana": 80,
             "stats": [
-               "Arrows: 8",
-               "Damage Per Arrow: 14 / 21 / 75"
+               "Arrows Per Attack: 10",
+               "Damage Per Arrow: 13 / 19 / 90"
             ]
          },
          "recommendItems": [
             "TFT_Item_GuinsoosRageblade",
-            "TFT_Item_InfinityEdge",
             "TFT_Item_RunaansHurricane",
+            "TFT_Item_InfinityEdge",
             "TFT_Item_LastWhisper",
             "TFT_Item_HextechGunblade"
          ],
@@ -268,8 +268,8 @@
          },
          "recommendItems": [
             "TFT_Item_WarmogsArmor",
-            "TFT_Item_GargoyleStoneplate",
             "TFT_Item_Bloodthirster",
+            "TFT_Item_GargoyleStoneplate",
             "TFT_Item_RedBuff",
             "TFT_Item_SteraksGage"
          ],
@@ -324,8 +324,8 @@
          "recommendItems": [
             "TFT_Item_InfinityEdge",
             "TFT_Item_SpearOfShojin",
-            "TFT_Item_GuinsoosRageblade",
             "TFT_Item_LastWhisper",
+            "TFT_Item_GuinsoosRageblade",
             "TFT_Item_MadredsBloodrazor"
          ],
          "role": "ADCaster"
@@ -371,16 +371,16 @@
             "startingMana": 0,
             "skillMana": 30,
             "stats": [
-               "Damage: 260 / 390 / 605",
+               "Damage: 240 / 360 / 600",
                "Heal: 110 / 170 / 225"
             ]
          },
          "recommendItems": [
             "TFT_Item_Bloodthirster",
-            "TFT_Item_UnstableConcoction",
+            "TFT_Item_SteraksGage",
             "TFT_Item_InfinityEdge",
-            "TFT_Item_TitansResolve",
-            "TFT_Item_SteraksGage"
+            "TFT_Item_UnstableConcoction",
+            "TFT_Item_TitansResolve"
          ],
          "role": "ADFighter"
       },
@@ -426,15 +426,15 @@
             "skillMana": 90,
             "stats": [
                "Damage: 8% Health + 50 / 75 / 125 (AD)",
-               "Heal: 300 / 350 / 400 (AP)"
+               "Heal: 325 / 380 / 450 (AP)"
             ]
          },
          "recommendItems": [
             "TFT_Item_WarmogsArmor",
             "TFT_Item_GargoyleStoneplate",
             "TFT_Item_RedBuff",
-            "TFT_Item_GuinsoosRageblade",
-            "TFT_Item_Redemption"
+            "TFT_Item_Redemption",
+            "TFT_Item_GuinsoosRageblade"
          ],
          "role": "ADTank"
       },
@@ -451,9 +451,9 @@
             44
          ],
          "health": [
-            1200,
-            2160,
-            3888.0000000000005
+            1100,
+            1980,
+            3564.0000000000005
          ],
          "attackDamage": [
             40,
@@ -461,12 +461,12 @@
             90
          ],
          "damagePerSecond": [
-            38,
-            57,
-            86
+            34,
+            51,
+            77
          ],
          "attackRange": 1,
-         "attackSpeed": 0.95,
+         "attackSpeed": 0.85,
          "armor": 70,
          "magicalResistance": 70,
          "skill": {
@@ -476,7 +476,7 @@
             "startingMana": 50,
             "skillMana": 110,
             "stats": [
-               "Damage: 280 / 420 / 630"
+               "Damage: 250 / 375 / 600"
             ]
          },
          "recommendItems": [
@@ -484,7 +484,7 @@
             "TFT_Item_JeweledGauntlet",
             "TFT_Item_Bloodthirster",
             "TFT_Item_RabadonsDeathcap",
-            "TFT_Item_TitansResolve"
+            "TFT_Item_IonicSpark"
          ],
          "role": "APFighter"
       },
@@ -529,8 +529,8 @@
             "startingMana": 0,
             "skillMana": 50,
             "stats": [
-               "Physical Damage: 110 / 165 / 275",
-               "Magic Damage: 220 / 330 / 550",
+               "Physical Damage: 115 / 175 / 300",
+               "Magic Damage: 230 / 350 / 600",
                "Bonuses: AD/AP 4 per potential"
             ]
          },
@@ -651,19 +651,19 @@
             6480
          ],
          "attackDamage": [
-            120,
-            180,
-            270
+            110,
+            165,
+            248
          ],
          "damagePerSecond": [
-            72,
-            108,
-            162
+            66,
+            99,
+            149
          ],
          "attackRange": 1,
          "attackSpeed": 0.6,
-         "armor": 90,
-         "magicalResistance": 90,
+         "armor": 85,
+         "magicalResistance": 85,
          "skill": {
             "name": "Sword Protocol: Ultimate Strike",
             "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/PBEGalio3_1752650558-galio_w.png",
@@ -672,8 +672,8 @@
             "skillMana": 60,
             "stats": [
                "Shield: 250 / 375 / 425",
-               "Swip Damage: 190 / 190 / 190",
-               "Slam Damage: 625 / 625 / 625"
+               "Swip Damage: 170 / 170 / 170",
+               "Slam Damage: 600 / 600 / 600"
             ]
          },
          "role": "APTank"
@@ -808,14 +808,14 @@
             1620
          ],
          "attackDamage": [
-            52,
-            78,
-            117
+            50,
+            75,
+            113
          ],
          "damagePerSecond": [
-            36,
-            55,
-            82
+            35,
+            53,
+            79
          ],
          "attackRange": 4,
          "attackSpeed": 0.7,
@@ -824,7 +824,7 @@
          "skill": {
             "name": "Gadagadagada!",
             "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/PBEGnar_1752546550-gnar_passive.png",
-            "desc": "Passive: Gain 8 (AP) for each attack against the same target, up to 8 (AP).<br><br>Active: For 6 seconds, gain 90% Attack Damage and grant two nearby allies Attack Damage, prioritizing Attack champions.",
+            "desc": "Passive: Gain 8 (AP) Attack Speed for each attack against the same target, up to 8 (AP).<br><br>Active: For 6 seconds, gain 90% Attack Damage and grant two nearby allies Attack Damage, prioritizing Attack champions.",
             "startingMana": 0,
             "skillMana": 40,
             "stats": [
@@ -883,9 +883,9 @@
             "skillMana": 40,
             "stats": [
                "Cone Damage: 30 / 45 / 400",
-               "Needle Damage 35 / 55 / 1000",
-               "Burst Damage: 100 / 150 / 9001",
-               "Divided Damage: 350 / 525 / 9999"
+               "Needle Damage 40 / 70 / 1000",
+               "Split Damage: 320 / 480 / 9999",
+               "Thread Damage: 100 / 150 / 9001"
             ]
          },
          "recommendItems": [
@@ -893,9 +893,9 @@
             "TFT_Item_UnstableConcoction",
             "TFT_Item_Bloodthirster",
             "TFT_Item_RabadonsDeathcap",
-            "TFT_Item_HextechGunblade"
+            "TFT_Item_GuardianAngel"
          ],
-         "role": "APReaper"
+         "role": "APFighter"
       },
       {
          "key": "Janna",
@@ -935,20 +935,20 @@
          "skill": {
             "name": "Crystal Chrysalis",
             "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/PBEJanna_1752538452-jannae.png",
-            "desc": "Grant shield to the 2 lowest Health allies for 4 seconds and fire butterflies dealing magic damage split between the 2 closest enemies.",
+            "desc": "Grant shield to the 2 lowest Health allies for 4 seconds and fire 4 butterflies dealing magic damage split between the 2 closest enemies.",
             "startingMana": 10,
             "skillMana": 60,
             "stats": [
-               "Shield: 80 / 100 / 125",
-               "Damage: 120 / 180 / 270"
+               "Shield: 80 / 100 / 135",
+               "Damage per Butterfly: 120 / 180 / 290"
             ]
          },
          "recommendItems": [
-            "TFT_Item_SpearOfShojin",
             "TFT_Item_ArchangelsStaff",
+            "TFT_Item_SpearOfShojin",
+            "TFT_Item_GuinsoosRageblade",
             "TFT_Item_JeweledGauntlet",
-            "TFT_Item_BlueBuff",
-            "TFT_Item_GuinsoosRageblade"
+            "TFT_Item_BlueBuff"
          ],
          "role": "APCaster"
       },
@@ -989,7 +989,7 @@
          "skill": {
             "name": "Mega Drill Crash",
             "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/PBEJarvanIV_1752472659-jarvanivr.png",
-            "desc": "Gain Shield for 4 seconds, then slam into a group of enemies, dealing magic damage to enemies within a 2 hex radius and stunning them.",
+            "desc": "Gain Shield for 4 seconds, then slam into a group of enemies, dealing magic damage to enemies within a 2 hex radius and Stunning them.",
             "startingMana": 45,
             "skillMana": 150,
             "stats": [
@@ -1049,7 +1049,7 @@
             "skillMana": 40,
             "stats": [
                "Damage: 20 / 30 / 50 (AD) + 160 / 240 / 365 (AP)",
-               "Spark Damage: 65 / 100 / 160",
+               "Spark Damage: 70 / 105 / 170",
                "Num Sparks: 1 per potential"
             ]
          },
@@ -1057,7 +1057,7 @@
             "TFT_Item_Bloodthirster",
             "TFT_Item_TitansResolve",
             "TFT_Item_SteraksGage",
-            "TFT_Item_UnstableConcoction",
+            "TFT_Item_RedBuff",
             "TFT_Item_WarmogsArmor"
          ],
          "role": "ADFighter"
@@ -1157,16 +1157,16 @@
             "startingMana": 10,
             "skillMana": 80,
             "stats": [
-               "Attack Speed per Attack: 6% / 6% / 12%%",
+               "Attack Speed per Attack: 6% / 6% / 18%",
                "Damage: 200 / 300 / 900",
-               "Explosion Damage: 575 / 865 / 2500"
+               "Split Damage: 520 / 780 / 3600"
             ]
          },
          "recommendItems": [
             "TFT_Item_InfinityEdge",
             "TFT_Item_GuinsoosRageblade",
-            "TFT_Item_RunaansHurricane",
             "TFT_Item_SpearOfShojin",
+            "TFT_Item_RunaansHurricane",
             "TFT_Item_LastWhisper"
          ],
          "role": "ADCaster"
@@ -1216,10 +1216,10 @@
             ]
          },
          "recommendItems": [
-            "TFT_Item_GuinsoosRageblade",
             "TFT_Item_InfinityEdge",
-            "TFT_Item_RunaansHurricane",
+            "TFT_Item_GuinsoosRageblade",
             "TFT_Item_LastWhisper",
+            "TFT_Item_RunaansHurricane",
             "TFT_Item_PowerGauntlet"
          ],
          "role": "ADCarry"
@@ -1265,15 +1265,15 @@
             "startingMana": 0,
             "skillMana": 90,
             "stats": [
-               "피해량: 400 / 600 / 900 (AD) + 60 / 90 / 135 (AP)"
+               "피해량: 380 / 570 / 900 (AD) + 60 / 90 / 135 (AP)"
             ]
          },
          "recommendItems": [
             "TFT_Item_GuinsoosRageblade",
             "TFT_Item_InfinityEdge",
             "TFT_Item_SpearOfShojin",
-            "TFT_Item_LastWhisper",
-            "TFT_Item_PowerGauntlet"
+            "TFT_Item_PowerGauntlet",
+            "TFT_Item_LastWhisper"
          ],
          "role": "ADCaster"
       },
@@ -1314,19 +1314,19 @@
          "skill": {
             "name": "Destruction Disc",
             "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/PBEKarma_1752476786-karma_q2.png",
-            "desc": "Fire an energy disc that deals continuous damage in a 1-hex radius centered on the target. The disc vanishes after dealing total magic damage.",
+            "desc": "Fire an energy disc that deals total magic damage in a 1-hex radius centered on the target.",
             "startingMana": 0,
             "skillMana": 70,
             "stats": [
-               "Damage: 1050 / 1575 / 5000"
+               "Damage: 1050 / 1575 / 6500"
             ]
          },
          "recommendItems": [
             "TFT_Item_JeweledGauntlet",
-            "TFT_Item_SpearOfShojin",
             "TFT_Item_BlueBuff",
+            "TFT_Item_SpearOfShojin",
             "TFT_Item_StatikkShiv",
-            "TFT_Item_RabadonsDeathcap"
+            "TFT_Item_ArchangelsStaff"
          ],
          "role": "APCaster"
       },
@@ -1371,7 +1371,7 @@
             "startingMana": 0,
             "skillMana": 30,
             "stats": [
-               "Damage: 120 / 180 / 280",
+               "Damage: 150 / 225 / 350",
                "Additional Blink Damage: 8 / 12 / 20 per potential"
             ]
          },
@@ -1425,8 +1425,8 @@
             "startingMana": 0,
             "skillMana": 0,
             "stats": [
-               "Damage: 30 / 45 / 70",
-               "Wave Damage: 60 / 90 / 140"
+               "Damage: 33 / 50 / 75",
+               "Wave Damage: 55 / 85 / 125"
             ]
          },
          "recommendItems": [
@@ -1476,20 +1476,20 @@
          "skill": {
             "name": "Eye of the Hurricane",
             "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/PBEKennen_1752541229-kennen_e.png",
-            "desc": "Heal Health. then deal magic damage to the 2 nearest enemies and stun them for 1 seconds.",
+            "desc": "Heal Health. then deal magic damage to the 2 nearest enemies and Stun them for 1 seconds.",
             "startingMana": 30,
             "skillMana": 85,
             "stats": [
-               "Heal: 150% / 170% / 200% (AP)",
-               "Heal: 5% Health + 150% / 170% / 200% (AP)",
+               "Heal: 180% / 210% / 240% (AP)",
+               "Heal: 5% Health + 180% / 210% / 240% (AP)",
                "Damage: 130 / 195 / 300"
             ]
          },
          "recommendItems": [
             "TFT_Item_GuinsoosRageblade",
             "TFT_Item_RedBuff",
-            "TFT_Item_GargoyleStoneplate",
             "TFT_Item_WarmogsArmor",
+            "TFT_Item_GargoyleStoneplate",
             "TFT_Item_JeweledGauntlet"
          ],
          "role": "APTank"
@@ -1530,7 +1530,7 @@
          "skill": {
             "name": "Golden Paw Mantra",
             "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/PBEKobuko_1752545970-Kobuko_1709709686-tft11_fortuneyord_ability.tft_set11.png",
-            "desc": "Gain Shield for 3 seconds. The next attack deals bonus physical damage and stuns for 1.75 seconds.",
+            "desc": "Gain Shield for 3 seconds. The next attack deals bonus physical damage and Stuns for 1.75 seconds.",
             "startingMana": 20,
             "skillMana": 70,
             "stats": [
@@ -1583,12 +1583,12 @@
          "skill": {
             "name": "Static Surge",
             "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/PBEKogMaw_1752471290-kogmaw_causticspittle.png",
-            "desc": "Passive: Gain 1 AP per Monster Trainer level. Attacks deal bonus magic damage.<br><br>Active: The next attack deals bonus magic damage to the target and the 2 closest enemies, then 30% Shred and Sunder them for 4 seconds.<br><br>Level 15: On-cast, gain 10% Attack Speed for the rest of combat.<br><br>Level 30: Gain infinite range and increase Attack Speed bonuses by 15%. Max Attack Speed is now 6.",
+            "desc": "Passive: Gain 1 AP per Monster Trainer level. Attacks deal bonus magic damage.<br><br>Active: The next attack deals bonus magic damage to the target and the 2 closest enemies, then 30% Shred and Sunder them for 4 seconds.<br><br>Level 15: On-cast, gain 10% Attack Speed for the rest of combat.<br><br>Level 30: Gain infinite range and increase Attack Speed bonuses by 15%. Max Attack Speed is now 6.<br><br>Shred: Reduce Magic Resist<br>Sunder: Reduce Armor",
             "startingMana": 0,
             "skillMana": 40,
             "stats": [
                "On-Hit Damage: 30% / 45% / 70%",
-               "Enhanced Damage: 60% / 90% / 145%"
+               "Enhanced Damage: 55% / 85% / 130%"
             ]
          },
          "recommendItems": [
@@ -1637,13 +1637,13 @@
          "skill": {
             "name": "Breakout Force",
             "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/PBEKSante_1752547697-icons_ksante_r2.png",
-            "desc": "Passive (ALL OUT): On first death instead heal to full, gain 100% Attack Speed, convert 50% of Armor and Magic Resist into Attack Damage, and set max mana to 30. Then dash through the target and briefly stun them. While ALL OUT, lose 6% Health each second and heal 300 Health on kill.<br><br>Active: Gain Durability for 3 seconds, then deal physical damage to the target.<br><br>Active (ALL OUT): . Deal physical damage to the target.",
+            "desc": "Passive (ALL OUT): On first death instead heal to full, gain 125% Attack Speed, convert 50% of Armor and Magic Resist into Attack Damage, and set max mana to 30. Then dash through the target and briefly Stun them. While ALL OUT, lose 6% Health each second and heal 300 Health on kill.<br><br>Active: Gain Durability for 3 seconds, then deal physical damage to the target.<br><br>Active (ALL OUT): . Deal physical damage to the target.",
             "startingMana": 30,
             "skillMana": 90,
             "stats": [
-               "Durability: 50% / 55% / 80% AP",
-               "Damage: 120% / 180% / 120% AR and MR",
-               "Damage (ALL OUT): 350% / 525% / 1500% AD",
+               "Durability: 50% / 55% / 65% AP",
+               "Damage: 120% / 180% / 800% AR and MR",
+               "Damage (ALL OUT): 350% / 525% / 3000% AD",
                "Heal on Kill (ALL OUT): 30% Health"
             ]
          },
@@ -1755,10 +1755,10 @@
             "startingMana": 30,
             "skillMana": 100,
             "stats": [
-               "Shield: 500 / 600 / 2000",
+               "Shield: 550 / 660 / 2000",
                "Damage: 60 = 50% / 75% / 500% AR + 50% / 75% / 500% MR",
                "Sunburst Damage: 25% / 40% / 250% AR + 25% / 40% / 250% MR",
-               "Sunburst Resist Steal: 2 per Potential"
+               "Sunburst Resist Steal: 1.5 per Potential"
             ]
          },
          "recommendItems": [
@@ -1811,15 +1811,15 @@
             "startingMana": 0,
             "skillMana": 40,
             "stats": [
-               "Damage: 80 / 120 / 180"
+               "Damage: 85 / 130 / 200"
             ]
          },
          "recommendItems": [
             "TFT_Item_JeweledGauntlet",
             "TFT_Item_BlueBuff",
             "TFT_Item_SpearOfShojin",
-            "TFT_Item_GuinsoosRageblade",
-            "TFT_Item_StatikkShiv"
+            "TFT_Item_StatikkShiv",
+            "TFT_Item_RabadonsDeathcap"
          ],
          "role": "APCaster"
       },
@@ -1864,9 +1864,7 @@
             "skillMana": 100,
             "stats": []
          },
-         "recommendItems": [
-            "TFT_Item_InfinityEdge"
-         ],
+         "recommendItems": [],
          "role": "APCaster"
       },
       {
@@ -1890,14 +1888,14 @@
             1782.0000000000002
          ],
          "attackDamage": [
-            40,
-            60,
-            90
+            35,
+            53,
+            79
          ],
          "damagePerSecond": [
-            28,
-            42,
-            63
+            25,
+            37,
+            55
          ],
          "attackRange": 4,
          "attackSpeed": 0.7,
@@ -1907,19 +1905,19 @@
             "name": "Soulfire Explosion",
             "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/PBELux_1752541483-luxcrashingblitz2.png",
             "desc": "Fire an energy ball towards the largest group of enemies containing the target. On arrival, 20% shred enemies in a 1-hex radius for 5 seconds and deal magic damage split between them plus magic damage to each.",
-            "startingMana": 30,
-            "skillMana": 70,
+            "startingMana": 20,
+            "skillMana": 60,
             "stats": [
-               "Damage: 70 / 105 / 165",
-               "Split Damage: 250 / 375 / 585"
+               "Split Damage: 300 / 450 / 700",
+               "Individual Damage: 90 / 135 / 210"
             ]
          },
          "recommendItems": [
             "TFT_Item_JeweledGauntlet",
-            "TFT_Item_SpearOfShojin",
             "TFT_Item_StatikkShiv",
-            "TFT_Item_BlueBuff",
-            "TFT_Item_Morellonomicon"
+            "TFT_Item_SpearOfShojin",
+            "TFT_Item_Morellonomicon",
+            "TFT_Item_BlueBuff"
          ],
          "role": "APCaster"
       },
@@ -2013,7 +2011,7 @@
          "skill": {
             "name": "Insidious Whispers",
             "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/PBEMalzahar_1752455451-malzahar_e.png",
-            "desc": "Infect the closest 1 uninfected targets, dealing 520/780/1300 (AP) magic damage over 15 seconds. If an infected target dies, the infection spreads to the nearest uninfected target for any remaining time.",
+            "desc": "Infect the closest 1 uninfected targets, dealing 520/780/1300 (AP) magic damage over 15 seconds. If an infected target dies, the infection spreads to the nearest uninfected target for any remaining time.<br><br>If all enemies are infected, this effect can stack.",
             "startingMana": 0,
             "skillMana": 35,
             "stats": [
@@ -2021,11 +2019,11 @@
             ]
          },
          "recommendItems": [
+            "TFT_Item_HextechGunblade",
             "TFT_Item_JeweledGauntlet",
             "TFT_Item_BlueBuff",
-            "TFT_Item_HextechGunblade",
             "TFT_Item_Morellonomicon",
-            "TFT_Item_SpearOfShojin"
+            "TFT_Item_StatikkShiv"
          ],
          "role": "APCaster"
       },
@@ -2132,7 +2130,7 @@
             "TFT_Item_GargoyleStoneplate",
             "TFT_Item_WarmogsArmor",
             "TFT_Item_RedBuff",
-            "TFT_Item_DragonsClaw",
+            "TFT_Item_IonicSpark",
             "TFT_Item_Redemption"
          ],
          "role": "APTank"
@@ -2174,18 +2172,18 @@
          "skill": {
             "name": "Spinning Galaxy Hammer",
             "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/PBEPoppy_1752547342-poppy_r.png",
-            "desc": "Gain Shield for 4 seconds. When it breaks, deal physical damage to the target and physical damage to other enemies in a 1-hex radius centered on the target. The target is stunned for 0.5-2.5 seconds based on how long the shield held, and other enemies are briefly stunned.",
+            "desc": "Gain Shield for 4 seconds. When it breaks, deal physical damage to the target and physical damage to other enemies in a 1-hex radius centered on the target. The target is Stunned for 0.5-2.5 seconds based on how long the shield held, and other enemies are briefly Stunned.",
             "startingMana": 45,
             "skillMana": 105,
             "stats": [
-               "Shield: 500 / 575 / 2500",
+               "Shield: 500 / 575 / 1200",
                "Damage: 200 / 300 / 2000 AD + 10% Health",
                "Secondary Damage: 60 / 90 / 600 AD + 5% Health"
             ]
          },
          "recommendItems": [
-            "TFT_Item_GargoyleStoneplate",
             "TFT_Item_WarmogsArmor",
+            "TFT_Item_GargoyleStoneplate",
             "TFT_Item_RedBuff",
             "TFT_Item_Redemption",
             "TFT_Item_DragonsClaw"
@@ -2239,10 +2237,10 @@
             ]
          },
          "recommendItems": [
-            "TFT_Item_GargoyleStoneplate",
             "TFT_Item_WarmogsArmor",
+            "TFT_Item_GargoyleStoneplate",
             "TFT_Item_RedBuff",
-            "TFT_Item_IonicSpark",
+            "TFT_Item_DragonsClaw",
             "TFT_Item_Redemption"
          ],
          "role": "APTank"
@@ -2283,12 +2281,12 @@
          "skill": {
             "name": "Durian Defense",
             "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/PBERammus_1752560133-armordillo_shellbash.png",
-            "desc": "Passive: Gain 1 Armor & MR per Monster Trainer level<br><br>Active: Gain Shield for 4 seconds. When it breaks, deal magic damage to the nearest 3 enemies and stun them for 1 second.<br><br>Level 15: On cast, leap to the largest group within 2 hexes and taunt enemies. Gain max Health per enemy taunted.<br><br>Level 30: Gain an additional 1 Armor and MR Magic Resist per Trainer level. Increase the stun to 1.5 seconds.",
+            "desc": "Passive: Gain 1 Armor & MR per Monster Trainer level<br><br>Active: Gain Shield for 4 seconds. When it breaks, deal magic damage to the nearest 3 enemies and Stun them for 1 second.<br><br>Level 15: On cast, leap to the largest group within 2 hexes and Taunt enemies. Gain max Health per enemy Taunted.<br><br>Level 30: Gain an additional 1 Armor and MR Magic Resist per Trainer level. Increase the Stun to 1.5 seconds.",
             "startingMana": 40,
             "skillMana": 110,
             "stats": [
                "Shield Amount: 400% / 500% / 600%",
-               "Damage: 70% / 105% / 170% (AR) + 70% / 105% / 170% (MR)",
+               "Damage: 60% / 90% / 150% (AR) + 60% / 90% / 150% (MR)",
                "Health Per Taunted Enemy: 10 / 15 / 20"
             ]
          },
@@ -2297,7 +2295,7 @@
             "TFT_Item_WarmogsArmor",
             "TFT_Item_BrambleVest",
             "TFT_Item_Redemption",
-            "TFT_Item_RedBuff"
+            "TFT_Item_DragonsClaw"
          ],
          "role": "APTank"
       },
@@ -2351,7 +2349,7 @@
             "TFT_Item_RedBuff",
             "TFT_Item_WarmogsArmor",
             "TFT_Item_DragonsClaw",
-            "TFT_Item_Redemption"
+            "TFT_Item_BrambleVest"
          ],
          "role": "APTank"
       },
@@ -2451,17 +2449,17 @@
             "startingMana": 0,
             "skillMana": 15,
             "stats": [
-               "Soul Shot Damage: 90 / 135 / 500 AD",
+               "Soul Shot Damage: 90 / 135 / 650 AD",
                "Arsenal Damage: 50 / 75 / 225 AP",
-               "Arsenal Total Damage: 310 / 465 / 1500 AD + 50 / 75 / 225 AP"
+               "Arsenal Total Damage: 310 / 465 / 2200 AD + 50 / 75 / 225 AP"
             ]
          },
          "recommendItems": [
             "TFT_Item_InfinityEdge",
             "TFT_Item_SpearOfShojin",
-            "TFT_Item_LastWhisper",
             "TFT_Item_PowerGauntlet",
-            "TFT_Item_GuinsoosRageblade"
+            "TFT_Item_LastWhisper",
+            "TFT_Item_MadredsBloodrazor"
          ],
          "role": "ADCaster"
       },
@@ -2506,16 +2504,16 @@
             "startingMana": 15,
             "skillMana": 75,
             "stats": [
-               "Damage: 30 / 45 / 70 (AD) + 280 / 420 / 670 (AP)",
-               "Secondary Damage: 25% of Damage"
+               "Damage: 35 / 55 / 85 (AD) + 315 / 475 / 755 (AP)",
+               "Secondary Damage: 22% of Damage"
             ]
          },
          "recommendItems": [
             "TFT_Item_InfinityEdge",
             "TFT_Item_SpearOfShojin",
-            "TFT_Item_GuinsoosRageblade",
             "TFT_Item_LastWhisper",
-            "TFT_Item_RapidFireCannon"
+            "TFT_Item_RapidFireCannon",
+            "TFT_Item_GuinsoosRageblade"
          ],
          "role": "ADCaster"
       },
@@ -2568,7 +2566,7 @@
             "TFT_Item_JeweledGauntlet",
             "TFT_Item_BlueBuff",
             "TFT_Item_StatikkShiv",
-            "TFT_Item_ArchangelsStaff"
+            "TFT_Item_AdaptiveHelm"
          ],
          "role": "APCaster"
       },
@@ -2624,7 +2622,7 @@
             "TFT_Item_WarmogsArmor",
             "TFT_Item_RedBuff",
             "TFT_Item_Redemption",
-            "TFT_Item_DragonsClaw"
+            "TFT_Item_SpectralGauntlet"
          ],
          "role": "ADTank"
       },
@@ -2724,7 +2722,7 @@
             "startingMana": 0,
             "skillMana": 60,
             "stats": [
-               "Damage: 160 / 240 / 360 (AD) + 20 / 30 / 45 (AP)"
+               "Damage: 170 / 255 / 385 (AD) + 20 / 30 / 45 (AP)"
             ]
          },
          "recommendItems": [
@@ -2776,7 +2774,7 @@
             "startingMana": 0,
             "skillMana": 60,
             "stats": [
-               "Damage: 350% / 525% / 840%",
+               "Damage: 225% / 340% / 540%",
                "Secondary Damage: 50% / 75% / 120%"
             ]
          },
@@ -2828,12 +2826,12 @@
             "name": "Glittering Plumage Regalia",
             "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/PBESwain_1752472742-swain_r.png",
             "desc": "Gain 10% max Health, then deal magic damage every second to enemies in a 2-hex radius.<br><br>Subsequent casts heal 10% and increase the damage.",
-            "startingMana": 30,
-            "skillMana": 90,
+            "startingMana": 20,
+            "skillMana": 80,
             "stats": [
-               "Health Gain: 10% Health + 275 / 305 / 330",
+               "Health Gain: 10% Health + 300 / 325 / 350",
                "Damage: 25 / 35 / 55",
-               "Heal: 10% Health + 175 / 200 / 225",
+               "Heal: 10% Health + 250 / 275 / 300",
                "Damage Increase: 6 / 9 / 14"
             ]
          },
@@ -2895,8 +2893,8 @@
             "TFT_Item_JeweledGauntlet",
             "TFT_Item_BlueBuff",
             "TFT_Item_SpearOfShojin",
-            "TFT_Item_HextechGunblade",
-            "TFT_Item_StatikkShiv"
+            "TFT_Item_AdaptiveHelm",
+            "TFT_Item_HextechGunblade"
          ],
          "role": "APCaster"
       },
@@ -2937,21 +2935,21 @@
          "skill": {
             "name": "52 Card Calamity",
             "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/PBETwistedFate_1752471885-cardmaster_rapidtoss.png",
-            "desc": "Passive: Attacks bounce between 3 enemies, dealing 25/40/200 (AP) bonus magic damage and marking the target. Attacks deal 30% reduced damage per hit.<br><br>Active: Deal 80/120/1500 (AD) physical damage to the 4/4/20 enemies, and detonate their marks for 20/30/500 (AP) magic damage each.",
+            "desc": "Passive: Attacks bounce between 3 enemies, dealing 25/40/200 (AP) bonus magic damage and marking enemies hit. Attacks deal 30% reduced damage per hit.<br><br>Active: Deal 80/120/1500 (AD) physical damage to the 4/4/20 closest enemies, and detonate their marks for 20/30/500 (AP) magic damage each.",
             "startingMana": 40,
             "skillMana": 120,
             "stats": [
-               "Passive Damage: 25 / 40 / 777",
-               "Damage: 90 / 135 / 1500",
-               "Damage Per Mark: 22 / 33 / 500"
+               "Passive Damage: 30 / 40 / 777",
+               "Damage: 120 / 180 / 1500",
+               "Damage Per Mark: 24 / 36 / 500"
             ]
          },
          "recommendItems": [
             "TFT_Item_GuinsoosRageblade",
             "TFT_Item_SpearOfShojin",
             "TFT_Item_MadredsBloodrazor",
-            "TFT_Item_InfinityEdge",
-            "TFT_Item_HextechGunblade"
+            "TFT_Item_HextechGunblade",
+            "TFT_Item_InfinityEdge"
          ],
          "role": "HCarry"
       },
@@ -3004,9 +3002,9 @@
          "recommendItems": [
             "TFT_Item_RedBuff",
             "TFT_Item_WarmogsArmor",
-            "TFT_Item_Bloodthirster",
+            "TFT_Item_GargoyleStoneplate",
             "TFT_Item_TitansResolve",
-            "TFT_Item_GargoyleStoneplate"
+            "TFT_Item_Bloodthirster"
          ],
          "role": "ADTank"
       },
@@ -3048,18 +3046,18 @@
             "name": "Level Zero: 100 Shot Demon",
             "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/PBEVarus_1752455599-varuse.png",
             "desc": "Passive: Gain mana when units die. Enemies grant 5, allies 3.<br><br>Active: Fire piercing arrows per second at random enemies until Varus is out of mana. Each arrow costs 12 mana and deals physical damage, reduced by 35% per hit.",
-            "startingMana": 40,
+            "startingMana": 10,
             "skillMana": 85,
             "stats": [
                "Base Arrows Per Second: 3 + 1 per 50% Attack Speed",
-               "Total Arrow Damage: 100 / 150 / 1000 (AD) + 10 / 15 / 666 (AP)"
+               "Total Arrow Damage: 80 / 120 / 333 (AD) + 10 / 15 / 666 (AP)"
             ]
          },
          "recommendItems": [
             "TFT_Item_InfinityEdge",
             "TFT_Item_SpearOfShojin",
-            "TFT_Item_PowerGauntlet",
             "TFT_Item_GuinsoosRageblade",
+            "TFT_Item_PowerGauntlet",
             "TFT_Item_LastWhisper"
          ],
          "role": "ADCaster"
@@ -3111,10 +3109,10 @@
          },
          "recommendItems": [
             "TFT_Item_Bloodthirster",
-            "TFT_Item_TitansResolve",
             "TFT_Item_SteraksGage",
-            "TFT_Item_GargoyleStoneplate",
-            "TFT_Item_RedBuff"
+            "TFT_Item_TitansResolve",
+            "TFT_Item_UnstableConcoction",
+            "TFT_Item_GargoyleStoneplate"
          ],
          "role": "ADTank"
       },
@@ -3155,7 +3153,7 @@
          "skill": {
             "name": "Combo of the Ruined King",
             "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/PBEViego_1752543647-viego_buff.png",
-            "desc": "Passive: Attacks deal magic damage.<br><br>Active: The next three attacks unleash a devastating combo.<br><br>Pommel Bash:  Deal magic damage.<br>Rising Slash: Deal magic damage and briefly knock the target up.<br>Falling Slash: Deal magic damage.",
+            "desc": "Passive: Attacks deal magic damage.<br><br>Active: The next three attacks unleash a devastating combo.<br><br>Pommel Bash:  Deal magic damage.<br>Rising Slash: Deal magic damage and briefly Stun the target.<br>Falling Slash: Deal magic damage.",
             "startingMana": 0,
             "skillMana": 40,
             "stats": [
@@ -3310,7 +3308,7 @@
             "startingMana": 20,
             "skillMana": 70,
             "stats": [
-               "Attack Speed: 80 (AP)",
+               "Attack Speed: 80% (AP)",
                "Damage: 40 / 60 / 95"
             ]
          },
@@ -3364,13 +3362,13 @@
             "startingMana": 10,
             "skillMana": 65,
             "stats": [
-               "Heal: 275 / 325 / 400",
+               "Heal: 290 / 360 / 450",
                "Damage: 100 / 150 / 235"
             ]
          },
          "recommendItems": [
-            "TFT_Item_GargoyleStoneplate",
             "TFT_Item_RedBuff",
+            "TFT_Item_GargoyleStoneplate",
             "TFT_Item_WarmogsArmor",
             "TFT_Item_SpectralGauntlet",
             "TFT_Item_Redemption"
@@ -3418,7 +3416,7 @@
             "startingMana": 0,
             "skillMana": 40,
             "stats": [
-               "Damage: 160 / 240 / 385 (AD) + 40 / 60 / 100 (AP)"
+               "Damage: 135 / 200 / 330 (AD) + 40 / 60 / 100 (AP)"
             ]
          },
          "recommendItems": [
@@ -3451,14 +3449,14 @@
             4212
          ],
          "attackDamage": [
-            45,
-            68,
-            101
+            40,
+            60,
+            90
          ],
          "damagePerSecond": [
-            50,
-            75,
-            111
+            44,
+            66,
+            99
          ],
          "attackRange": 1,
          "attackSpeed": 1.1,
@@ -3467,11 +3465,11 @@
          "skill": {
             "name": "Dual Blade Technique: Inner Reflection",
             "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/PBEYone_1752456040-yonepassive.png",
-            "desc": "Passive: Attacks grant 5% stacking Attack Speed and Movement Speed, and alternate between dealing bonus true damage and bonus magic damage.<br><br>Active: Send an echo towards the two furthest enemies, dealing physical damage and briefly knocking up enemies hit.",
+            "desc": "Passive: Attacks grant 5% stacking Attack Speed and Movement Speed, and alternate between dealing bonus true damage and bonus magic damage.<br><br>Active: Send an echo towards the two furthest enemies, dealing physical damage and briefly Stunning enemies hit.",
             "startingMana": 120,
             "skillMana": 180,
             "stats": [
-               "True Damage: 30 / 45 / 400",
+               "True Damage: 25 / 40 / 400",
                "Magic Damage: 90 / 135 / 999",
                "Strike Damage: 150 / 225 / 9999"
             ]
@@ -3522,12 +3520,12 @@
          "skill": {
             "name": "Read Or Die",
             "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/PBEYuumi_1752461444-yuumir.png",
-            "desc": "Launch 15 pages dealing magic damage each, split between the target and enemies within 2 hexes. Subsequent casts add +5 pages.<br><br>Potential: Every 2 pages, launch a bonus page that deals  true damage.<br><br>Potential : Every 5 pages, launch a bonus page that deals true damage.",
+            "desc": "Launch 15 pages dealing magic damage each, split between the target and enemies within 2 hexes. Each subsequent cast launches 5 more pages.<br><br>Potential: Every 2 pages, launch a bonus page that deals  true damage.<br><br>Potential : Every 5 pages, launch a bonus page that deals true damage.",
             "startingMana": 0,
             "skillMana": 40,
             "stats": [
-               "Damage per Page: 28",
-               "Potential Page Damage: 32% of 28 per Potential"
+               "Damage per Page: 26 / 39 / 150",
+               "Potential Page Damage: 32% of 26 / 39 / 150 per Potential"
             ]
          },
          "recommendItems": [
@@ -3634,7 +3632,7 @@
             "startingMana": 0,
             "skillMana": 90,
             "stats": [
-               "Passive Damage: 40% / 60% / 95%",
+               "Passive Damage: 42% / 63% / 100%",
                "Damage: 200% / 300% / 465%"
             ]
          },
@@ -3689,8 +3687,8 @@
             "skillMana": 100,
             "stats": [
                "Plants: 4 / 4 / 20",
-               "Plant Damage: 100 / 150 / 999",
-               "Attack Speed: 25% / 60% / 999%"
+               "Plant Damage: 85 / 125 / 999",
+               "Attack Speed: 15% / 60% / 999%"
             ]
          },
          "recommendItems": [

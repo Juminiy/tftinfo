@@ -8,6 +8,7 @@ from meta_data import setdata, components_nickname, attributes_nickname, allstat
 from meta_data import craft2radiant_name_set5dot5, craft2radiant_name
 
 from meta_func import emblem_cmp_key, grid_fix_write
+from meta_func import no_radiant_set
 
 # from colorama import Fore, Style
 
@@ -113,7 +114,7 @@ for setof in setlist:
 # compare radiant and craftable
 crafRadiComp:Dict[str,Any]={}
 for setof in setlist:
-    if setof in ['set1','set2','set3','set4','set5','set3.5','set4.5','set6']:
+    if no_radiant_set(setof):
         continue
     crafRadiComp[setof]=[]
     radiants, craftable = itemTyp[setof]['radi'], itemTyp[setof]['craf']

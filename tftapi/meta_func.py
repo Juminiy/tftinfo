@@ -78,3 +78,9 @@ def grid_convert2_table(grid2d: list[list[str]]) -> list[str]:
             resv+= (f'{grid2d[i][j]:<{szs[j]}}'+(' | ' if j<len(grid2d[i])-1 else ''))
         res.append(resv)
     return res
+
+def no_radiant_set(setof: str) -> bool:
+    return setof in ['set1','set2','set3','set4','set5','set3.5','set4.5','set6']
+
+def no_augment_set(setof: str) -> bool:
+    return setof in ['set1','set2','set3','set4','set5','set3.5','set4.5','set5.5']
