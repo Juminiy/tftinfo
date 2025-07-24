@@ -1,0 +1,231 @@
+[
+    {
+        "name": "Cultist",
+        "desc": "Once your team loses 50% of their Health, Galio is summoned, slamming into the largest cluster of enemies and knocking them up. Galio's strength increases based on the total star level of all active Cultists.",
+        "stats": [
+            "Tyrant Galio",
+            "Demon Lord Galio",
+            "Supreme Overlord Galio"
+        ],
+        "abstract": "bond:summon_galio:(Tyrant/Demon_Lord/Supreme_Overlord)"
+    },
+    {
+        "name": "Divine",
+        "desc": "Upon attacking 6 times or dropping below 50% Health, Divine champions remove all crowd control and ascend, taking 45% reduced damage and dealing 45% bonus true damage for the duration.",
+        "stats": [
+            "3 seconds",
+            "6 seconds",
+            "9 seconds",
+            "15 seconds"
+        ],
+        "abstract": "bond:ascend_duration:(3/6/9/15), damage_reduction:(45%//), true_damage:(45%//)"
+    },
+    {
+        "name": "Duelist",
+        "desc": "Innate: Duelists gain bonus Movement Speed. Duelists' attacks grant Attack Speed, up to 8 stacks.",
+        "stats": [
+            "+12% AS per Stack",
+            "+20% AS per Stack",
+            "+35% AS per Stack",
+            "+60% AS per Stack"
+        ],
+        "abstract": "bond:AS:(12%/20%/35%/60%),max8stacks; bond:MS:(//)"
+    },
+    {
+        "name": "Dusk",
+        "desc": "Dusk champions increase all allies' Spell Power.",
+        "stats": [
+            "All allies gain 20% Spell Power",
+            "And Dusk Champions gain an additional 50%",
+            "40% Spell Power for all, and an extra 70% for Dusk Champions"
+        ],
+        "abstract": "team:AP:(20%/40%); bond:AP:(70%)"
+    },
+    {
+        "name": "Fortune",
+        "desc": "",
+        "stats": [
+            "Winning combat against a player will give bonus orbs. The longer you've gone without an orb, the bigger the payout!",
+            "Wins give an extra bonus orb with rare loot."
+        ],
+        "abstract": "\u603b\u7ed3\u4e3a team:bonusorbs(//)"
+    },
+    {
+        "name": "Hunter",
+        "desc": "Every few seconds, all Hunters will attack the lowest percent Health enemy, dealing bonus damage.",
+        "stats": [
+            "125% damage every 3.5 seconds",
+            "150% damage every 3 seconds",
+            "175% damage every 2.5 seconds",
+            "200% damage every 2 seconds"
+        ],
+        "abstract": "bond:bonus damage:(125%/150%/175%/200%) every (3.5/3/2.5/2) seconds"
+    },
+    {
+        "name": "Keeper",
+        "desc": "At the start of combat, Keepers grant themselves and all nearby allies a shield for a duration. This shield is 50% stronger on Keepers.",
+        "stats": [
+            "150 shield, 8 seconds",
+            "225 shield, 10 seconds",
+            "350 shield, 12 seconds"
+        ],
+        "abstract": "bond:shield:(150/225/350),duration(8/10/12),Keeper+50%"
+    },
+    {
+        "name": "Moonlight",
+        "desc": "At the start of combat, a number of Moonlight Champions star up once until combat ends. (Prioritizes the lowest star-level champions. If tied, champions with the most items are chosen.)",
+        "stats": [
+            "1 Champion",
+            "2 Champions"
+        ],
+        "abstract": "bond:StarUp:(1/2)"
+    },
+    {
+        "name": "Adept",
+        "desc": "Adepts calm the flow of battle, reducing the Attack Speed of all enemies by 50% for a few seconds at the start of combat.",
+        "stats": [
+            "2 Seconds",
+            "3.5 Seconds",
+            "6 Seconds"
+        ],
+        "abstract": "\u603b\u7ed3\u4e3a team:AS_reduction:(50%/50%/50%), duration:(2/3.5/6)"
+    },
+    {
+        "name": "Assassin",
+        "desc": "Innate: At the start of combat, Assassins leap to the enemy backline. Assassins gain bonus Critical Strike Damage and Chance, and their spells can critically strike.",
+        "stats": [
+            "+30% Critical Strike Damage & +10% Critical Strike Chance",
+            "+60% Critical Strike Damage & +25% Critical Strike Chance",
+            "+90% Critical Strike Damage & +40% Critical Strike Chance"
+        ],
+        "abstract": "bond:DPS:(30%/60%/90%); bond:CR:(10%/25%/40%)"
+    },
+    {
+        "name": "Brawler",
+        "desc": "Brawlers gain bonus Health.",
+        "stats": [
+            "400 Health",
+            "800 Health",
+            "1200 Health",
+            "1800 Health"
+        ],
+        "abstract": "bond:HP:(400/800/1200/1800)"
+    },
+    {
+        "name": "Dazzler",
+        "desc": "Dazzlers' spells reduce the Attack Damage of enemies hit for 8 seconds.",
+        "stats": [
+            "40% Attack Damage Reduction",
+            "80% Attack Damage Reduction"
+        ],
+        "abstract": "bond:AD Reduction:(40%/80%)"
+    },
+    {
+        "name": "Elderwood",
+        "desc": "Every two seconds all Elderwood champions grow, gaining bonus stats. This effect stacks up to five times.",
+        "stats": [
+            "20 Armor and MR, 5 AD and SP",
+            "30 Armor and MR, 10 AD and SP",
+            "40 Armor and MR, 20 AD and SP"
+        ],
+        "abstract": "bond:AR/MR:(20/30/40), AD/AP:(5/10/20), max5stacks"
+    },
+    {
+        "name": "Enlightened",
+        "desc": "Enlightened champions generate more Mana.",
+        "stats": [
+            "40% increase",
+            "70% increase",
+            "100% increase"
+        ],
+        "abstract": "bond:MP regen:(40%/70%/100%)"
+    },
+    {
+        "name": "Exile",
+        "desc": "If an Exile has no adjacent allies at the start of combat, they gain:",
+        "stats": [
+            "A shield equal to 50% of their maximum health",
+            "And 80% Lifesteal"
+        ],
+        "abstract": "bond:shield:(50% max HP),lifesteal:(80%)"
+    },
+    {
+        "name": "Mage",
+        "desc": "Mages cast twice and have modified Spell Power.",
+        "stats": [
+            "80% of their total Spell Power",
+            "120% of their total Spell Power",
+            "180% of their total Spell Power"
+        ],
+        "abstract": "bond:Spell Power:(80%/120%/180%), cast twice"
+    },
+    {
+        "name": "Mystic",
+        "desc": "All allies gain Magic Resistance.",
+        "stats": [
+            "40 Magic Resistance",
+            "100 Magic Resistance",
+            "200 Magic Resistance"
+        ],
+        "abstract": "team:MR:(40/100/200)"
+    },
+    {
+        "name": "Ninja",
+        "desc": "Ninjas gain bonus Attack Damage and Spell Power. This trait is only active when you have exactly 1 or 4 unique Ninjas.",
+        "stats": [
+            "Ninja gains +50 AD & +50% SP",
+            "All Ninjas gain +140 AD & +140% SP"
+        ],
+        "abstract": "bond:AD:(50/140); bond:AP:(50%/140%)"
+    },
+    {
+        "name": "Shade",
+        "desc": "Innate: When combat starts, Shades teleport to the enemy backline. After every 3 attacks Shades dip into the shadows, stealthing and causing their next basic attack to deal bonus magic damage.",
+        "stats": [
+            "125 bonus damage",
+            "400 bonus damage",
+            "750 bonus damage"
+        ],
+        "abstract": "bond:bonus magic damage:(125/400/750)"
+    },
+    {
+        "name": "Spirit",
+        "desc": "The first time a Spirit casts their spell, all allies gain Attack Speed based on the spell's mana cost.",
+        "stats": [
+            "35% of mana cost",
+            "70% of mana cost"
+        ],
+        "abstract": "team:AS:(//); bond:AS:(35%/70%)"
+    },
+    {
+        "name": "Vanguard",
+        "desc": "Vanguard champions gain bonus Armor.",
+        "stats": [
+            "120 Armor",
+            "300 Armor",
+            "750 Armor",
+            "2000 Armor"
+        ],
+        "abstract": "bond:AR:(120/300/750/2000)"
+    },
+    {
+        "name": "Sharpshooter",
+        "desc": "Sharpshooters attacks and spells ricochet to nearby enemies dealing reduced damage.",
+        "stats": [
+            "1 ricochet with 55% reduced damage",
+            "2 ricochets with 50% reduced damage",
+            "3 ricochets with 45% reduced damage"
+        ],
+        "abstract": "bond:ricochet:(1/2/3),damage:(55%/50%/45%)"
+    },
+    {
+        "name": "Warlord",
+        "desc": "Warlords have bonus Health and Spell Power. Each victorious combat they participate in increases the bonus by 10%, stacking up to 5 times.",
+        "stats": [
+            "200 HP & 20 SP",
+            "450 HP & 40 SP",
+            "700 HP & 70 SP"
+        ],
+        "abstract": "bond:HP:(200/450/700); bond:AP:(20/40/70); stacking:10% per win (max 5)"
+    }
+]

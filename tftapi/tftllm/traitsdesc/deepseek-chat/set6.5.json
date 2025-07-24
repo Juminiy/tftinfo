@@ -1,0 +1,238 @@
+[
+    {
+        "name": "Arcanist",
+        "desc": "Arcanists increase the Ability Power of your team.",
+        "stats": [
+            "Your team gains 20 Ability Power",
+            "Your team gains 20 Ability Power, Arcanists gain an additional 30",
+            "Your team gains 50 Ability Power, Arcanists gain an additional 50",
+            "Your team gains 150 Ability Power."
+        ],
+        "abstract": "team:AP:(20/20/50/150); bond:AP:(50/100/200)"
+    },
+    {
+        "name": "Assassin",
+        "desc": "Innate: When combat starts, Assassins leap to the enemy backline.<br><br>Assassins' Abilities can critically strike and they gain bonus Critical Strike Chance and bonus Critical Strike Damage.",
+        "stats": [
+            "+10% Crit Chance and +20% Crit Damage",
+            "+30% Crit Chance and +40% Crit Damage",
+            "+60% Crit Chance and +75% Crit Damage"
+        ],
+        "abstract": "bond:CR:(10%/30%/60%); bond:DPS:(20%/40%/75%)"
+    },
+    {
+        "name": "Bodyguard",
+        "desc": "Bodyguards have increased Armor. Shortly after combat begins, Bodyguards gain a shield and taunt adjacent enemies, forcing them to attack the Bodyguard.",
+        "stats": [
+            "80 Armor, 200 shield",
+            "160 Armor, 400 shield",
+            "250 Armor, 800 shield",
+            "450 Armor, 1800 shield"
+        ],
+        "abstract": "bond:AR:(80/160/250/450),shield:(200/400/800/1800)"
+    },
+    {
+        "name": "Bruiser",
+        "desc": "Your team gains bonus maximum Health. Bruisers gain double the bonus.",
+        "stats": [
+            "125 Health",
+            "225 Health",
+            "450 Health",
+            "800 Health"
+        ],
+        "abstract": "team:HP:(125/225/450/800); bond:HP:(250/450/900/1600)"
+    },
+    {
+        "name": "Challenger",
+        "desc": "Challengers get bonus Attack Speed. Upon scoring a takedown, Challengers dash to a new target and double this bonus for 2.5 seconds.",
+        "stats": [
+            "25% Attack Speed",
+            "50% Attack Speed",
+            "85% Attack Speed",
+            "160% Attack Speed"
+        ],
+        "abstract": "bond:AS:(25%/50%/85%/160%),takedownAS:(50%/100%/170%/320%)"
+    },
+    {
+        "name": "Chemtech",
+        "desc": "After dropping below 75% Health, Chemtech champions become chem-powered, gaining Attack Speed, 15% damage reduction, and regenerating a percentage of their maximum Health each second for 8 seconds.",
+        "stats": [
+            "15% Attack Speed, 4% Health Regeneration",
+            "40% Attack Speed, 8% Health Regeneration",
+            "90% Attack Speed, 15% Health Regeneration",
+            "200% Attack Speed, 25% Health Regeneration"
+        ],
+        "abstract": "bond:AS:(15%/40%/90%/200%),DR:(15%//),HP:(4%/8%/15%/25%)"
+    },
+    {
+        "name": "Clockwork",
+        "desc": "Your team has increased Attack Speed, with an additional increase per augment in the Hexcore.",
+        "stats": [
+            "10% Attack Speed + 5% per augment",
+            "35% Attack Speed + 10% per augment",
+            "70% Attack Speed + 15% per augment"
+        ],
+        "abstract": "team:AS:(10%/35%/70%); per augment:(5%/10%/15%)"
+    },
+    {
+        "name": "Colossus",
+        "desc": "Innate: Colossi are bigger and more powerful. They gain 800 bonus Health and immunity to crowd control effects. However, each Colossus requires 2 team slots.",
+        "stats": [
+            "Colossus champions take 25% less damage.",
+            "Colossus champions get 1888 additional Health"
+        ],
+        "abstract": "bond:DR:(25%),HP:(800/1888),CC\u514d\u75ab,\u5360\u75282\u4eba\u53e3"
+    },
+    {
+        "name": "Debonair",
+        "desc": "Debonair champions gain bonus Health and Ability Power, and you have a higher chance to see Debonair VIPs in your Shop.<br><br>If there is a Debonair VIP in play, they activate their unique bonus. Sell the old VIP for a chance to see a new one in your Shop.",
+        "stats": [
+            "200 Health, 20 Ability Power",
+            "450 Health, 45 Ability Power",
+            "800 Health, 80 Ability Power"
+        ],
+        "abstract": "bond:HP/AP:(200/450/800)"
+    },
+    {
+        "name": "Enchanter",
+        "desc": "Your team has bonus Magic Resist. Enchanters gain bonus healing and shielding.",
+        "stats": [
+            "25 Magic Resist; 25% healing and shielding",
+            "50 Magic Resist; 50% healing and shielding",
+            "80 Magic Resist; 80% healing and shielding",
+            "125 Magic Resist; 125% healing and shielding"
+        ],
+        "abstract": "team:MR:(25/50/80/125); bond:healing and shielding:(25%/50%/80%/125%)"
+    },
+    {
+        "name": "Enforcer",
+        "desc": "",
+        "stats": [
+            "At the start of combat, Enforcers stun enemies who has the most Health. The target breaks free after 4 seconds, or after losing 40% or their maximum Health. Enforcers will not try to stun enemies who are immune to crowd control effects.",
+            "Enforcers gain 100% Attack Speed"
+        ],
+        "abstract": "bond:stun_most_HP_enemy:(//); bond:AS:(100%)"
+    },
+    {
+        "name": "Hextech",
+        "desc": "At the start of combat and every 6 seconds afterwards, the Hexcore sends out a pulse that charges up allied Hextech champions with a shield for 4 seconds (does not stack). While the shield is active, attacks deal bonus magic damage on hit. Additionally, the shield and bonus magic damage are 20% stronger for each augment in the Hexcore.",
+        "stats": [
+            "100 shield, 15 magic damage",
+            "175 shield, 30 magic damage",
+            "300 shield, 55 magic damage",
+            "425 shield, 90 magic damage"
+        ],
+        "abstract": "bond:shield:(100/175/300/425),magic_damage:(15/30/55/90),augment_20%_stronger"
+    },
+    {
+        "name": "Innovator",
+        "desc": "Innovators build a mechanical companion to join the battle. The companion receives bonus Health and Attack Damage based on allied Innovators' star levels.",
+        "stats": [
+            "Mechanical Scarab",
+            "Mechanical Bear",
+            "Mechanical Dragon"
+        ],
+        "abstract": "bond:mechanical_companion:(Scarab/Bear/Dragon)"
+    },
+    {
+        "name": "Mercenary",
+        "desc": "Gain a treasure chest that opens when you win combat against a player. At the start of each planning phase vs a player, dice rolls add loot to the chest. The longer you've gone without opening the chest, the luckier the dice.",
+        "stats": [
+            "Roll 2 dice",
+            "The dice are even luckier!",
+            "Upon winning, roll a 3rd die that grants bonus loot."
+        ],
+        "abstract": "\u603b\u7ed3\u4e3a team:treasure_chest:(//); bond:loot_roll:(2/2/3)"
+    },
+    {
+        "name": "Mutant",
+        "desc": "Mutants gain unique bonuses. These are different each game.<br><br>Voidborne:<br/>\r\n(3) Mutants execute targets they damage who are below 20% Health.<br>\r\n(5) And Mutants deal 40% of their damage as true damage.<br>\r\n(7) And Mutants deal 80% of their damage as true damage.<br>\r\n-----------------------------------------<br>\r\nBio-Leeching: Your team gains Omnivamp (healing for a percentage of all damage dealt).<br>\r\n(3) 30% Omnivamp<br>\r\n(5) 65% Omnivamp<br>\r\n(7) 100% Omnivamp<br>\r\n-----------------------------------------<br>\r\nVoracious Appetite: Mutants grow stronger each time an ally dies.<br>\r\n(3) +18 Attack Damage and Ability Power<br>\r\n(5) +25 Attack Damage and Ability Power<br>\r\n(7) +35 Attack Damage and Ability Power<br>\r\n-----------------------------------------<br>\r\nSynaptic Web: The Abilities of Mutants cost less to cast. (Minimum 10 Mana)<br>\r\n(3) 20 Mana less<br>\r\n(5) 40 Mana less<br>\r\n(7) 40 Mana less, and gain 50 bonus Ability Power<br>\r\n-----------------------------------------<br>\r\nAdrenaline Rush: Mutants' attacks have a chance to trigger 2 additional attacks against their target.<br>\r\n(3) 40% chance<br>\r\n(5) 75% chance<br>\r\n(7) 100% chance, and gain 40 bonus Attack Damage<br>\r\n-----------------------------------------<br>\r\nCybernetic Enhancement: Mutants with at least 1 item gain bonus stats.<br>\r\n(3) 450 Health and 30 Attack Damage<br>\r\n(5) 800 Health and 60 Attack Damage<br>(7) 1250 Health and 90 Attack Damage<br>\r\n-----------------------------------------<br>\r\nMetamorphosis: Mutants grow every 2 seconds, gaining bonuses that stack up to 5 times.<br>\r\n(3) +18 Armor and Magic Resist, +2 Attack Damage and Ability Power<br>\r\n(5) +25 Armor and Magic Resist, +4 Attack Damage and Ability Power<br>\r\n(7) +35 Armor and Magic Resist, +7 Attack Damage and Ability Power",
+        "stats": [
+            "??? (Randomly selected per game)",
+            "??? (Randomly selected per game)",
+            "??? (Randomly selected per game)"
+        ],
+        "abstract": "\u7531\u4e8eMutant\u7f81\u7eca\u7684\u6548\u679c\u662f\u968f\u673a\u9009\u62e9\u7684\u6bcf\u5c40\u6e38\u620f\u4e0d\u540c\uff0c\u65e0\u6cd5\u56fa\u5b9a\u603b\u7ed3\u5177\u4f53\u7684\u6570\u5b57\u589e\u76ca\u3002\u6839\u636e\u63cf\u8ff0\u548cstats\uff0c\u603b\u7ed3\u5982\u4e0b\uff1a\n// Mutant\u7f81\u7eca\u6548\u679c\u6bcf\u5c40\u968f\u673a\u9009\u62e9\uff0c\u5177\u4f53\u6548\u679c\u89c1desc\u4e2d\u76847\u79cd\u53ef\u80fd\u53d8\u4f53"
+    },
+    {
+        "name": "Scholar",
+        "desc": "Your team gains Mana every 2 seconds.",
+        "stats": [
+            "5 Mana",
+            "15 Mana",
+            "30 Mana"
+        ],
+        "abstract": "team:MP:(5/15/30)"
+    },
+    {
+        "name": "Scrap",
+        "desc": "At the start of combat, components held by Scrap champions turn into full items for the rest of combat. Also, your team gains a shield for each component equipped by your team, including those that are part of a full item.",
+        "stats": [
+            "1 component, 20 shield",
+            "3 components, 30 shield",
+            "All components, 50 shield"
+        ],
+        "abstract": "team:shield:(20/30/50)"
+    },
+    {
+        "name": "Sniper",
+        "desc": "Innate: Snipers gain 1 hex Attack Range.<br><br>Snipers deal bonus damage for each hex between themselves and their target.",
+        "stats": [
+            "8% bonus damage",
+            "16% bonus damage",
+            "30% bonus damage"
+        ],
+        "abstract": "team: //  \nbond:RG:(1), bonus damage per hex:(8%/16%/30%)"
+    },
+    {
+        "name": "Socialite",
+        "desc": "Socialites reveal a spotlight on the battlefield. The unit standing in the spotlight at the start of combat gains unique bonuses.",
+        "stats": [
+            "18% bonus damage",
+            "and 4 Mana per second",
+            "and heal for 33% of all damage they deal",
+            "all of the bonuses are doubled"
+        ],
+        "abstract": "bond:DA:(18%//36%),MP/s:(4//8),OV:(33%//66%)"
+    },
+    {
+        "name": "Striker",
+        "desc": "Strikers gain bonus Attack Damage.",
+        "stats": [
+            "+30 Attack Damage",
+            "+70 Attack Damage",
+            "+120 Attack Damage"
+        ],
+        "abstract": "bond:AD:(30/70/120)"
+    },
+    {
+        "name": "Syndicate",
+        "desc": "Certain allies are cloaked in shadows, gaining 50 Armor, 50 Magic Resist and 20% Omnivamp (healing for a percentage of all damage dealt.)",
+        "stats": [
+            "The Syndicate champion with the lowest percent Health",
+            "All Syndicate champions",
+            "Your whole team, and the effects are increased by 50%"
+        ],
+        "abstract": "bond:AR/MR:(50/50//),OV:(20%/20%//); team:AR/MR:(75//),OV:(30%//)"
+    },
+    {
+        "name": "Twinshot",
+        "desc": "Twinshots gain bonus Attack Damage and have a chance to fire twice whenever they attack or cast an Ability.",
+        "stats": [
+            "10 Attack Damage, 40% chance",
+            "25 Attack Damage, 55% chance",
+            "50 Attack Damage, 75% chance",
+            "80 Attack Damage, 100% chance"
+        ],
+        "abstract": "bond:AD:(10/25/50/80), double attack chance:(40%/55%/75%/100%)"
+    },
+    {
+        "name": "Yordle",
+        "desc": "",
+        "stats": [
+            "After each player combat, a random Yordle is added to your bench for free.",
+            "And Yordle's Abilities cost 40% less to cast."
+        ],
+        "abstract": "bond:random_yordle_bench:(//),ability_cost_reduction:(40%)"
+    }
+]

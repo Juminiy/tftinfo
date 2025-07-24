@@ -1,0 +1,251 @@
+[
+    {
+        "name": "Academy",
+        "desc": "The Academy sponsors 3 items each game.<br><br>Copies of sponsored items grant bonus max Health and Damage Amp. Academy units holding sponsored items gain double the amount, plus an additional 5% Health and Damage Amp.",
+        "stats": [
+            "2% Health and Damage Amp, gain 1 sponsored item.",
+            "3% Health and Damage Amp, gain 1 sponsored item.",
+            "5% Health and Damage Amp, gain 1 sponsored item.",
+            "9% Health and Damage Amp."
+        ],
+        "abstract": "team:HP/DA:(2%/3%/5%/9%); bond:HP/DA:(4%/6%/10%/18%),additional(5%/5%/5%/5%)"
+    },
+    {
+        "name": "Emissary",
+        "desc": "This trait is active only when you have exactly 1 or 4 unique Emissaries.",
+        "stats": [
+            "Gain that Emissary's bonus",
+            "Gain all bonuses. Emissaries gain 250 Health and 20% Damage Amp.<br><br>Ambessa: Allies gain 2 Armor and Magic Resist for each opponent defeated.<br><br>Garen: On Combat Start, Garen and allies to his left and right gain 20% of his max Health.<br><br>Nami: Allies' attacks grant 3 bonus Mana.<br><br>Tristana: Allies gain 6% Attack Speed per star level."
+        ],
+        "abstract": "\u603b\u7ed3\u4e3a bond:effect:(//), (1:gain_Emissary_bonus; 4:all_bonuses+250HP/20%DA)"
+    },
+    {
+        "name": "Ambusher",
+        "desc": "Damage from Ambushers' Abilities can critically strike. They also gain bonus Critical Strike Chance and Critical Strike Damage.",
+        "stats": [
+            "25% Crit, 10% Crit Mult",
+            "35% Crit, 20% Crit Mult",
+            "45% Crit, 25% Crit Mult",
+            "55% Crit, 25% Crit Mult; also gain 15% Durability"
+        ],
+        "abstract": "bond:CR:(25%/35%/45%/55%); bond:DPS:(10%/20%/25%/25%); bond:DR:(///15%)"
+    },
+    {
+        "name": "Bruiser",
+        "desc": "Your team gains 100 max Health. Bruisers gain more.",
+        "stats": [
+            "20% Health",
+            "45% Health",
+            "80% Health"
+        ],
+        "abstract": "team:HP:(100/100/100); bond:HP%:(20/45/80)"
+    },
+    {
+        "name": "Black Rose",
+        "desc": "Each Black Rose champion's star level increases Sion's power.",
+        "stats": [
+            "Summon a chained Sion. He is freed after 5 casts from Black Rose units or when he drops below 65% health.",
+            "Sion grows stronger and his enemies take more damage from Black Rose units.",
+            "Sion unleashes dark magic and heals to full Health when freed.",
+            "When Sion dies, he restores to life with power beyond death!"
+        ],
+        "abstract": "bond:Summon Sion:(//),enemies take more damage(//),heals to full(//),revive(//)"
+    },
+    {
+        "name": "Quickstriker",
+        "desc": "Quickstrikers move faster and gain Attack Speed, based on their target's missing Health.",
+        "stats": [
+            "20-60% AS",
+            "30-80% AS",
+            "40-100% AS. On target death, Quickstrikers dash to a new target and gain 200 shield for 3 seconds."
+        ],
+        "abstract": "bond:AS:(20-60%/30-80%/40-100%),on_kill(shield:200)"
+    },
+    {
+        "name": "Chem-Baron",
+        "desc": "Gain Shimmer after each player combat. If your loss streak is at least 3, gain more.<br><br>At each stack of 100 Shimmer, the Black Market offers you contraband that only Chem-Barons can use. Chem-Barons gain max Health for each Black Market you pass on.",
+        "stats": [
+            "Per Combat 15 or loss streak 35; 20 Health",
+            "Per Combat 15 or loss streak 50; 60 Health",
+            "Per Combat 20 or loss streak 70; 100 Health",
+            "Per Combat 20 or loss streak 90; 150 Health"
+        ],
+        "abstract": "\u603b\u7ed3\u4e3a bond:Shimmer:(15/35,15/50,20/70,20/90); bond:HP:(20/60/100/150)"
+    },
+    {
+        "name": "Experiment",
+        "desc": "Gain Laboratory hexes on your board.<br><br>Combat start: Experiments standing on Laboratory hexes gain the Experiment bonuses of all Experiments on Laboratory hexes, plus max Health.",
+        "stats": [
+            "2 Laboratories, 100 Health",
+            "3 Laboratories, 450 Health",
+            "Experiment bonuses increase by 100%!"
+        ],
+        "abstract": "bond:HP:(100/450), Experiment bonuses:(//)"
+    },
+    {
+        "name": "Family",
+        "desc": "Family members support each other, reducing their max Mana and gaining extra bonuses.",
+        "stats": [
+            "25% reduction, 20% DR",
+            "30% reduction, 20% AS",
+            "40% reduction, heist on topside! After combat, progress the heist, increased for each surviving family member!"
+        ],
+        "abstract": "bond:MP reduction:(25%/30%/40%); bond:DR:(20%//); bond:AS:(/20%/); bond:heist progress:(//40%)"
+    },
+    {
+        "name": "Form Swapper",
+        "desc": "Innate: Form Swappers change their stats and ability based on if they're placed in the front 2 rows or back 2 rows.<br><br>Frontline Form Swappers gain Durability. Backline Form Swappers gain Damage Amp.",
+        "stats": [
+            "15% Durability or 20% Damage Amp",
+            "22% Durability or 33% Damage Amp",
+            "33% Durability or 44% Damage Amp"
+        ],
+        "abstract": "bond:DR:(15%/22%/33%); bond:DA:(20%/33%/44%)"
+    },
+    {
+        "name": "Automata",
+        "desc": "Automata gain a crystal when they deal damage. At 20 crystals, they blast their current target, dealing magic damage + 25% of damage dealt since the previous blast and reset. They also gain Armor and Magic Resist.",
+        "stats": [
+            "150 damage, 25 AR/MR",
+            "450 damage, 60 AR/MR",
+            "1337 damage, 111 AR/MR"
+        ],
+        "abstract": "bond:DMG+AR/MR:(150+25/450+60/1337+111)"
+    },
+    {
+        "name": "Firelight",
+        "desc": "Every 6 seconds, Firelights dash. While dashing, they attack with infinite range and heal a percentage of the damage taken since their last dash.",
+        "stats": [
+            "25% of damage taken",
+            "40% of damage taken",
+            "45% of damage taken. While dashing, gain a massive burst of Attack Speed."
+        ],
+        "abstract": "bond:Heal% of damage taken:(25/40/45),dashingAS:(//)"
+    },
+    {
+        "name": "Dominator",
+        "desc": "Combat start: Dominators gain a Shield for 15 seconds.<br><br>When Dominators cast, they gain stacking Ability Power based on the Mana spent.",
+        "stats": [
+            "350 Shield, 25% AP",
+            "550 Shield, 45% AP",
+            "800 Shield, 65% AP"
+        ],
+        "abstract": "bond:Shield:(350/550/800),AP:(25%/45%/65%)"
+    },
+    {
+        "name": "Visionary",
+        "desc": "Whenever Visionaries gain Mana, they gain more.",
+        "stats": [
+            "25% Mana",
+            "50% Mana",
+            "75% Mana, Abilities heal an ally for 16% of damage dealt"
+        ],
+        "abstract": "bond:MP:(25%/50%/75%),heal(//)"
+    },
+    {
+        "name": "Artillerist",
+        "desc": "Every 5 attacks, Artillerists launch a rocket that deals 125% Attack Damage around the target. They also gain Attack Damage.",
+        "stats": [
+            "10% AD",
+            "45% AD",
+            "70% AD, Launch a rocket every 3 attacks that deals double damage."
+        ],
+        "abstract": "team: //  \nbond:AD:(10%/45%/70%), rocket(5/5/3), rocket_dmg(125%/125%/250%)"
+    },
+    {
+        "name": "Pit Fighter",
+        "desc": "Pit Fighters gain 15% Omnivamp and deal bonus true damage. Once per combat at 50% Health, they heal a percentage of their max Health over 2 seconds.",
+        "stats": [
+            "6% true damage, 10% Health",
+            "12% true damage, 35% Health",
+            "22% true damage, 55% Health",
+            "35% true damage, 80% Health"
+        ],
+        "abstract": "bond:OV:(15%);\nbond:true damage:(6%/12%/22%/35%);\nbond:heal:(10%/35%/55%/80%)"
+    },
+    {
+        "name": "Rebel",
+        "desc": "Rebels gain 15% max Health.<br><br>After your team loses 25% of their Health, a smoke signal appears, granting Rebels 60% Attack Speed for 5 seconds and extra power for the rest of combat.",
+        "stats": [
+            "20% AD/AP",
+            "40% AD/AP, 12% Health",
+            "45% AD/AP, 15% Health, and Stun all enemies for 2 seconds",
+            "The smoke signal triggers at Combat Start and every 12 seconds."
+        ],
+        "abstract": "bond:HP:(15%); bond:AS:(60%) for 5s after 25% HP loss; bond:AD/AP:(20%/40%/45%); bond:HP:(12%/15%); bond:stun all enemies for 2s(//); bond:smoke signal triggers at combat start and every 12s(//)"
+    },
+    {
+        "name": "Scrap",
+        "desc": "Combat start: Components held by Scrap units temporarily turn into full items. Scrap units gain Shield for 24 seconds for each component held by your team, including those that make up a full item.",
+        "stats": [
+            "1 component, 25 Shield",
+            "3 components, 35 Shield",
+            "All components, and full items become lucky! 45 Shield",
+            "Generate Radiant items! 60 Shield"
+        ],
+        "abstract": "bond:Shield:(25/35/45/60),full_items_lucky:(//),generate_radiant_items:(//)"
+    },
+    {
+        "name": "Sniper",
+        "desc": "Snipers deal more damage to targets farther away.",
+        "stats": [
+            "Damage Amp 5%, 5% damage per hex",
+            "Damage Amp 35%, 10% damage per hex",
+            "Damage Amp 75%, 20% damage per hex and +5 Attack Range"
+        ],
+        "abstract": "bond:DA:(5%/35%/75%), per_hex:(5%/10%/20%), RG:(+5)"
+    },
+    {
+        "name": "Sorcerer",
+        "desc": "Your team gains 10 Ability Power. Sorcerers gain more.",
+        "stats": [
+            "20 AP",
+            "55 AP",
+            "90 AP, Abilities reduce their target's damage by 20% for 3 seconds"
+        ],
+        "abstract": "team:AP:(10/10/10); bond:AP:(20/55/90),reduce target damage 20% for 3s(//)"
+    },
+    {
+        "name": "Enforcer",
+        "desc": "Combat Start: Enforcers gain Shield and Damage Amp. The highest Health enemy units become WANTED!<br><br>When a Wanted enemy dies, Enforcers gain 30% Attack Speed.",
+        "stats": [
+            "1 units; 12% Health, 12% DA",
+            "2 units; 22% Health, 20% DA",
+            "4 units; 33% Health, 33% DA",
+            "5 units; 44% Health, 44% DA",
+            "ALL enemies; 100% Health, 150% DA, Combat Start: Confiscate all enemy items!"
+        ],
+        "abstract": "bond:Shield:(//); bond:DA:(12%/20%/33%/44%/150%); bond:HP:(12%/22%/33%/44%/100%); team:AS:(30%)"
+    },
+    {
+        "name": "Sentinel",
+        "desc": "Your team gains Armor and Magic Resist. Sentinels gain triple.",
+        "stats": [
+            "12 AR/MR",
+            "25 AR/MR",
+            "42 AR/MR"
+        ],
+        "abstract": "team:AR/MR:(//); bond:AR/MR:(12/25/42),triple(36/75/126)"
+    },
+    {
+        "name": "Conqueror",
+        "desc": "Conquerors' takedowns grant stacks of Conquest. After gaining enough Conquest, open War Chests full of loot!<br><br>Conquerors gain Attack Damage and Ability Power, increased by 5% for each War Chest opened.",
+        "stats": [
+            "22% AD/AP%; 1x Conquest",
+            "33% AD/AP%; 3x Conquest",
+            "45% AD/AP%; 6x Conquest",
+            "100% AD/AP%; 20x Conquest"
+        ],
+        "abstract": "bond:AD/AP%:(22/33/45/100),perChest+5%"
+    },
+    {
+        "name": "Watcher",
+        "desc": "Watchers gain Durability, increased while above 50% Health.",
+        "stats": [
+            "15% or 30% DR",
+            "25% or 45% DR",
+            "40% or 50% DR"
+        ],
+        "abstract": "bond:DR:(15%/30% or 25%/45% or 40%/50%)"
+    }
+]

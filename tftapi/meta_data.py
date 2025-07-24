@@ -145,3 +145,21 @@ setname={
     'set14': 'CyberCity',
     'set15': 'K.O. Coliseum',
 }
+
+settrait_entertainment={
+    'set1': None,
+    'set2': None,
+    'set3': None, 'set3.5': None,
+    'set4': 'Fortune', 'set4.5': 'Fortune',
+    'set5': 'Draconic', 'set5.5': 'Draconic',
+    'set6': 'Mercenary', 'set6.5': 'Mercenary',
+    'set7': 'Shimmerscale', 'set7.5': 'Shimmerscale',
+    'set8': 'Underground', 'set8.5': 'Underground',
+    'set9': 'Piltover', 'set9.5': 'Piltover',
+    'set10': 'HeartSteal',
+    'set11': 'Fortune',
+    'set12': None,
+    'set13': 'Chem-Baron',
+    'set14': 'Cypher',
+    'set15': 'Crystal Gambit',
+}

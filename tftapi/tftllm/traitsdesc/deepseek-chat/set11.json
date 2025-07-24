@@ -1,0 +1,244 @@
+[
+    {
+        "name": "Altruist",
+        "desc": "Altruists heal the lowest Health ally for 15% of damage they deal. Your team gains Armor and Magic Resist.",
+        "stats": [
+            "10 AR/MR",
+            "20 AR/MR",
+            "40 AR/MR"
+        ],
+        "abstract": "team:AR/MR:(10/20/40); bond:heal lowest ally:15% of damage dealt"
+    },
+    {
+        "name": "Arcanist",
+        "desc": "Arcanists gain Ability Power and grant Ability Power to allies.",
+        "stats": [
+            "20 AP to all allies.",
+            "50 AP for Arcanists; 20 AP for others",
+            "90 AP for Arcanists; 50 AP for others",
+            "135 AP for Arcanists; 135 AP for others"
+        ],
+        "abstract": "bond:AP:(20/50/90/135); team:AP:(20/20/50/135)"
+    },
+    {
+        "name": "Behemoth",
+        "desc": "Behemoths gain increased Armor and Magic Resist. Whenever a Behemoth dies, the nearest Behemoth gains 50% more for 8 seconds.",
+        "stats": [
+            "25 AR/MR",
+            "55 AR/MR",
+            "85 AR/MR",
+            "115 AR/MR"
+        ],
+        "abstract": "bond:AR/MR:(25/55/85/115),on_death:AR/MR:(37.5/82.5/127.5/172.5)"
+    },
+    {
+        "name": "Bruiser",
+        "desc": "Your team gains 100 maximum Health. Bruisers gain additional maximum Health.",
+        "stats": [
+            "20% Health",
+            "40% Health",
+            "65% Health",
+            "80% Health; Every 3 seconds, Bruisers deal 6% HP bonus physical damage on their next attack."
+        ],
+        "abstract": "team:HP:(100/100/100/100); bond:HP:(20%/40%/65%/80%), bonusDPS:6%HP every3s"
+    },
+    {
+        "name": "Dragonlord",
+        "desc": "After 8 seconds of combat, the Dragon strikes the board, dealing true damage to enemies and granting all allies Attack Speed for the rest of combat.",
+        "stats": [
+            "5% HP  damage, 12% AS.",
+            "10% HP damage, 18% AS.",
+            "10% HP damage and Stuns for 1.5 seconds.",
+            "15% HP damage, 45% AS."
+        ],
+        "abstract": "team:AS:(12/18/45); bond:true_damage:(5%/10%/10%/15%_HP),stun:(//1.5s//)"
+    },
+    {
+        "name": "Dryad",
+        "desc": "Dryads gain Ability Power and 150 Health. Each enemy death grants permanent additional Health.",
+        "stats": [
+            "15 AP; 3 HP per enemy death",
+            "30 AP; 7 HP per enemy death",
+            " 55 AP; 10 HP per enemy death"
+        ],
+        "abstract": "bond:AP:(15/30/55),HP:(3/7/10) per kill"
+    },
+    {
+        "name": "Duelist",
+        "desc": "Duelists gain Attack Speed on each attack, stacking up to 12 times.",
+        "stats": [
+            "5% AS",
+            "9% AS",
+            "13% AS; Duelists take 12% less damage",
+            "18% AS; Duelists take 18% less damage"
+        ],
+        "abstract": "bond:AS:(5%/9%/13%/18%), damage reduction:(0/0/12%/18%)"
+    },
+    {
+        "name": "Exalted",
+        "desc": "Your team gains 7% bonus damage, plus more based on your level.<br><br>After combat, store XP in a Soul Core. Sell the Core to claim the XP.<br><br>Each game a different set of units is Exalted.",
+        "stats": [
+            "1% damage per level, 1 XP",
+            "3% damage per level, 2 XP"
+        ],
+        "abstract": "team:DA:(7% + 1%/lvl/7% + 3%/lvl); bond:XP:(1/2)"
+    },
+    {
+        "name": "Fated",
+        "desc": "Hover one Fated unit over another to form a pair and unlock a Fated Bonus. Your pair gains 20% HP.",
+        "stats": [
+            "Pair gets the Fated Bonus.",
+            "All Fated champions get 200% of the Fated Bonus",
+            "All Fated champions get 300% of the Fated Bonus",
+            "All Fated champions gain 300% of EVERY Fated Bonus"
+        ],
+        "abstract": "bond:Fated Bonus:(200%/300%/300% all); pair:HP:20%"
+    },
+    {
+        "name": "Fortune",
+        "desc": "When you lose a fight, gain Luck. The more fights in a row you lose, the more Luck you get.<br><br>Lose Luck when you win.",
+        "stats": [
+            "Roll a die; in that many player combats, hold a Festival! At the Festival, you have the option to convert your Luck into rewards.",
+            "Heal 2 player health at the start of each player combat.",
+            "Fortune smiles! Gain extra rewards and more luck every turn no matter what, and hold a Festival every turn."
+        ],
+        "abstract": "\u603b\u7ed3\u4e3a bond:Luck:(//),Festival:(//)"
+    },
+    {
+        "name": "Ghostly",
+        "desc": "Upon dealing or taking damage 5 times, Ghostly units send 2 spectres to haunt nearby enemies and heal 2% max Health every 2 seconds.<br><br>Haunted enemies take bonus damage for each spectre on them, and pass spectres on death.",
+        "stats": [
+            "5% per spectre",
+            "10% per spectre",
+            "16% per spectre",
+            "36% per spectre"
+        ],
+        "abstract": "bond:Damage Amp:(5%/10%/16%/36%)"
+    },
+    {
+        "name": "Heavenly",
+        "desc": "Heavenly units grant unique stats to your team, increased for each Heavenly unit in play.<br>Heavenly units gain 70% more.<br><br>Kha'Zix - +10% Crit chance<br>Malphite - +8 AR/MR<br>Neeko - +60 HP<br>Qiyana - +10% AD<br>Soraka - +10% AP<br>Wukong - +10% AS<br>Emblem - +5% Omnivamp<br><br>2-stars grant 30% more.<br>3-stars grant 50% more.",
+        "stats": [
+            "100% bonus.",
+            "110% bonus.",
+            "125% bonus.",
+            "145% bonus.",
+            "170% bonus.",
+            "200% bonus."
+        ],
+        "abstract": "\u603b\u7ed3\u4e3a team:unique_stats:(100%/110%/125%/145%/170%/200%); bond:unique_stats:70%_more, 2star_30%_more, 3star_50%_more"
+    },
+    {
+        "name": "Inkshadow",
+        "desc": "Gain unique Inkshadow items. Inkshadow champions gain 5% bonus damage and damage reduction.<br><br>Which Inkshadow items you get changes each game.",
+        "stats": [
+            "An Inkshadow item (Different from each game)",
+            "An Inkshadow item (Different from each game), and 11% more bonus damage and damage reduction.",
+            "An Inkshadow item (Different from each game), and 17% more bonus damage and damage reduction."
+        ],
+        "abstract": "bond:DA/DR:(5%/11%/17%)"
+    },
+    {
+        "name": "Invoker",
+        "desc": "Every 3 seconds, your units gain Mana.",
+        "stats": [
+            "5 Mana to all allies.",
+            "20 Mana to Invokers; 5 Mana to others.",
+            "35 Mana to Invokers; 20 Mana to others."
+        ],
+        "abstract": "team:MP:(5/5/20); bond:MP:(5/20/35)"
+    },
+    {
+        "name": "Mythic",
+        "desc": "Mythic champions gain Health, Ability Power, and Attack Damage.<br><br>After 4 player combats, they become Epic, increasing the bonus by 50%.",
+        "stats": [
+            "+8% HP, 11% AP/AD",
+            "+18% HP, 22% AP/AD",
+            "+25% HP, 35% AP/AD",
+            "Instantly become Epic. The bonus is increased by 250% instead."
+        ],
+        "abstract": "bond:HP/AP/AD:(8%/11%/11%),Epic(12%/16.5%/16.5%);(18%/22%/22%),Epic(27%/33%/33%);(25%/35%/35%),Epic(62.5%/87.5%/87.5%);instantlyEpic(28%/38.5%/38.5%)"
+    },
+    {
+        "name": "Porcelain",
+        "desc": "After casting, Porcelain champions boil, gaining Attack Speed and taking less damage for 4 seconds.",
+        "stats": [
+            "30% AS; 20% reduced damage",
+            "55% AS; 33% reduced damage",
+            "100% AS; 50% reduced damage"
+        ],
+        "abstract": "bond:AS:(30%/55%/100%); bond:reduced damage:(20%/33%/50%)"
+    },
+    {
+        "name": "Reaper",
+        "desc": "",
+        "stats": [
+            "Reapers' Abilities can critically strike and they gain 25% Critical Strike Chance.",
+            "Additionally, Reapers bleed enemies for 50% bonus true damage over 2 seconds."
+        ],
+        "abstract": "bond:CR:(25%//); bond:Abilities can critically strike; bond:bleed for 50% bonus true damage over 2s"
+    },
+    {
+        "name": "Sage",
+        "desc": "Combat start: Allies in the front 2 rows gain Omnivamp. Allies in the back 2 rows gain Ability Power.",
+        "stats": [
+            "12% Omnivamp, 15 AP",
+            "20% Omnivamp, 30 AP",
+            "30% Omnivamp, 45 AP",
+            "45% Omnivamp, 75 AP"
+        ],
+        "abstract": "team:\nfront2rows:OV:(12%/20%/30%/45%);\nback2rows:AP:(15/30/45/75)"
+    },
+    {
+        "name": "Sniper",
+        "desc": "Innate: Snipers gain 1 Attack Range.<br><br>Snipers deal more damage to targets farther away.",
+        "stats": [
+            "8% damage per hex.",
+            "17.9% damage per hex.",
+            "34.7% damage per hex. Snipers gain an additional 2 Attack Range."
+        ],
+        "abstract": "bond:RG:(1//1/3), damage per hex:(8%/17.9%/34.7%)"
+    },
+    {
+        "name": "Storyweaver",
+        "desc": "Storyweavers summon a Hero named Kayle and evolve her. Storyweavers gain max Health.<br><br>Each Storyweaver star level increases Kayle's Health and Ability Power. Kayle gets 15% Attack Speed for each game Stage.",
+        "stats": [
+            "Pick a supportive effect. 60 HP",
+            "Pick a combat effect. 100 HP",
+            "Pick a combat effect. 150 HP",
+            "Ascend. 250 HP"
+        ],
+        "abstract": "bond:HP:(60/100/150/250); Kayle gains 15% AS per stage"
+    },
+    {
+        "name": "Trickshot",
+        "desc": "Trickshots' abilities ricochet. Each ricochet deals a percentage of the previous bounce's damage.",
+        "stats": [
+            "1 ricochet; 45% of previous damage",
+            "2 ricochets; 60% of previous damage"
+        ],
+        "abstract": "bond:ricochet:(1/2),damage:(45%/60%)"
+    },
+    {
+        "name": "Umbral",
+        "desc": "The moon illuminates hexes, Shielding units placed in them at the start of combat.<br><br>Umbral units in illuminated hexes execute low Health enemies.",
+        "stats": [
+            "200 Shield; 10% Health execute",
+            "450 Shield; 18% Health execute. More hexes are illuminated",
+            "900 Shield; 25% Health execute. Illuminate the whole board",
+            "Executed enemies have a 100% chance to drop loot; 60% Health execute"
+        ],
+        "abstract": "bond:Shield:(200/450/900),execute:(10%/18%/25%/60%),lootdrop:(100%)"
+    },
+    {
+        "name": "Warden",
+        "desc": "Wardens take less damage. For the first 10 seconds of combat, they take an additional 18% less damage.",
+        "stats": [
+            "10% less damage",
+            "22% less damage",
+            "35% less damage",
+            "45% less damage"
+        ],
+        "abstract": "bond:DR:(10%/22%/35%/45%),first10s(28%/40%/53%/63%)"
+    }
+]

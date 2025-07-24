@@ -1,0 +1,158 @@
+[
+    {
+        "name": "Adept",
+        "desc": "Adepts calm the flow of battle, reducing the Attack Speed of all enemies by 50% for a few seconds at the start of combat.",
+        "stats": [
+            "2 seconds",
+            "3.5 seconds",
+            "6 seconds"
+        ],
+        "abstract": "team:AS_reduction:(50%/50%/50%); bond:duration:(2/3.5/6)"
+    },
+    {
+        "name": "Assassin",
+        "desc": "Innate: At the start of combat, Assassins leap to the enemy backline. Assassins gain bonus Critical Strike Damage and Chance, and their spells can critically strike.",
+        "stats": [
+            "+25% Critical Strike Damage & +10% Critical Strike Chance",
+            "+55% Critical Strike Damage & +30% Critical Strike Chance",
+            "+90% Critical Strike Damage & +50% Critical Strike Chance"
+        ],
+        "abstract": "bond:DPS/CR:(25%/10% / 55%/30% / 90%/50%)"
+    },
+    {
+        "name": "Brawler",
+        "desc": "Brawlers gain bonus Health and Attack Damage",
+        "stats": [
+            "400 Health and 10 Attack Damage",
+            "700 Health and 20 Attack Damage",
+            "1000 Health and 40 Attack Damage",
+            "1400 Health and 80 Attack Damage"
+        ],
+        "abstract": "bond:HP/AD:(400/700/1000/1400;10/20/40/80)"
+    },
+    {
+        "name": "Dragonsoul",
+        "desc": "The first Dragonsoul allies to take damage in combat receives the Dragon's Blessing. While blessed, the unit gains bonus stats, and every 5th attack fires a Dragonsoul blast, dealing 40% of the target's maximum Health in magic damage. On death, this blessing passes to the closest Dragonsoul ally without a blessing.",
+        "stats": [
+            "1 Blessing, 40 AS & SP",
+            "3 Blessing, 70 AS & SP",
+            "6 Blessing, 140 AS & SP"
+        ],
+        "abstract": "bond:AS/SP:(40/70/140), Blessing:(1/3/6)"
+    },
+    {
+        "name": "Elderwood",
+        "desc": "Every two seconds all Elderwood champions grow, gaining bonus stats. This effect stacks up to five times.",
+        "stats": [
+            "15 Armor and MR, 5 AD and SP",
+            "20 Armor and MR, 10 AD and SP",
+            "30 Armor and MR, 15 AD and SP"
+        ],
+        "abstract": "bond:AR/MR:(15/20/30), AD/AP:(5/10/15), stacks5x"
+    },
+    {
+        "name": "Enlightened",
+        "desc": "Enlightened champions generate more Mana.",
+        "stats": [
+            "50% increase",
+            "100% increase",
+            "150% increase"
+        ],
+        "abstract": "bond:MP regen:(50%/100%/150%)"
+    },
+    {
+        "name": "Executioner",
+        "desc": "Executioner attacks and spells always critically hit targets below a certain percent threshold of health.",
+        "stats": [
+            "33% health",
+            "66% health",
+            "99% health"
+        ],
+        "abstract": "bond:Critical Strike below health:(33%/66%/99%)"
+    },
+    {
+        "name": "Exile",
+        "desc": "If an Exile has no adjacent allies at the start of combat, they gain:",
+        "stats": [
+            "A shield equal to 50% of their maximum health",
+            "And 80% Lifesteal"
+        ],
+        "abstract": "bond:shield:(50% maxHP); bond:lifesteal:(80%)"
+    },
+    {
+        "name": "Fabled",
+        "desc": "",
+        "stats": [
+            "Fabled champion's spells are empowered from tales of their past valor."
+        ],
+        "abstract": "bond:empowered spells from tales:(//)"
+    },
+    {
+        "name": "Mage",
+        "desc": "Mages cast twice and have modified Spell Power.",
+        "stats": [
+            "80% of their total Spell Power",
+            "105% of their total Spell Power",
+            "130% of their total Spell Power"
+        ],
+        "abstract": "bond:AP:(80%/105%/130%), cast twice"
+    },
+    {
+        "name": "Mystic",
+        "desc": "All allies gain Magic Resistance.",
+        "stats": [
+            "40 Magic Resistance",
+            "120 Magic Resistance",
+            "300 Magic Resistance"
+        ],
+        "abstract": "team:MR:(40/120/300)"
+    },
+    {
+        "name": "Ninja",
+        "desc": "Ninjas gain bonus Attack Damage and Spell Power. This trait is only active when you have exactly 1 or 4 unique Ninjas.",
+        "stats": [
+            "Ninja gains +50 AD & SP",
+            "All Ninjas gain +140 AD & SP"
+        ],
+        "abstract": "bond:AD/AP:(50/140)"
+    },
+    {
+        "name": "Sharpshooter",
+        "desc": "Sharpshooters' attacks and spells ricochet to nearby enemies, dealing reduced damage.",
+        "stats": [
+            "2 ricochets with 65% reduced damage",
+            "3 ricochets with 45% reduced damage",
+            "4 ricochets with 30% reduced damage"
+        ],
+        "abstract": "bond:ricochets:(2/3/4),damage_reduction:(65%/45%/30%)"
+    },
+    {
+        "name": "Spirit",
+        "desc": "The first time a Spirit casts their spell, all allies gain Attack Speed.",
+        "stats": [
+            "18% Attack Speed",
+            "30% Attack Speed"
+        ],
+        "abstract": "team:AS:(18%/30%)"
+    },
+    {
+        "name": "Syphoner",
+        "desc": "All allies heal for some of the damage they deal with spells and attacks.",
+        "stats": [
+            "10% for Allies, 40% for Syphoners",
+            "25% for Allies, 100% for Syphoners"
+        ],
+        "abstract": "team:OV:(10%/25%); bond:OV:(40%/100%)"
+    },
+    {
+        "name": "Vanguard",
+        "desc": "Vanguard champions gain bonus Armor and Magic Resist",
+        "stats": [
+            "100 Armor and 10 Magic Resist",
+            "250 Armor and 25 Magic Resist",
+            "500 Armor and 50 Magic Resist",
+            "1000 Armor and 80 Magic Resist"
+        ],
+        "abstract": "bond:AR:(100/250/500/1000), bond:MR:(10/25/50/80)"
+    }
+]

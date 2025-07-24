@@ -1,0 +1,252 @@
+[
+    {
+        "name": "8-bit",
+        "desc": "Keep score of your team's damage dealt. For each high score you beat, 8-bit champions gain Attack Damage.",
+        "stats": [
+            "5% AD",
+            "9% AD",
+            "14% AD and unlock a final high score, that rewards you with a grand prize."
+        ],
+        "abstract": "bond:AD:(5%/9%/14%)"
+    },
+    {
+        "name": "Bruiser",
+        "desc": "Your team gains 100 Health. Bruiser gain bonus maximum Health.",
+        "stats": [
+            "20% max Health",
+            "45% max Health",
+            "90% max Health"
+        ],
+        "abstract": "team:HP:(100/100/100); bond:maxHP:(20%/45%/90%)"
+    },
+    {
+        "name": "Country",
+        "desc": "When your team loses 30% of their Health, a Dreadsteed that empowers your team. Each Country star level increases the Dreadsteed's Health and Attack Damage.",
+        "stats": [
+            "Dreadsteed",
+            "Midnight Dreadsteed",
+            "Infernal Invocation Dreadsteed"
+        ],
+        "abstract": "\u603b\u7ed3\u4e3a team:Dreadsteed:(//); bond:Dreadsteed:(Midnight/Infernal Invocation)"
+    },
+    {
+        "name": "Crowd Diver",
+        "desc": "After Crowd Divers die, they leap onto the furthest enemy, dealing 300 magic damage. Enemies within 1 hex are Stunned for 1.5 seconds.<br><br>They also deal bonus damage, increased by 1% each second.",
+        "stats": [
+            "12% bonus damage",
+            "30% bonus damage",
+            "50% bonus damage"
+        ],
+        "abstract": "bond:bonus damage:(12%/30%/50%)"
+    },
+    {
+        "name": "Dazzler",
+        "desc": "Dazzler' Ability reduce their target's damage by 10% and deal bonus magic damage over 2 seconds.",
+        "stats": [
+            "20% magic damage",
+            "60% magic damage",
+            "100% magic damage"
+        ],
+        "abstract": "bond:DMG_reduction:(10%//); bond:bonus_magic_damage:(20%/60%/100%)"
+    },
+    {
+        "name": "Big Shot",
+        "desc": "Big Shots gain Attack Damage. which increases for 3 seconds when they use their Ability.",
+        "stats": [
+            "10% Attack Damage, 40% after casting",
+            "20% Attack Damage, 60% after casting",
+            "40% Attack Damage, 100% after casting"
+        ],
+        "abstract": "bond:AD:(10%/20%/40%),after casting(40%/60%/100%)"
+    },
+    {
+        "name": "Edgelord",
+        "desc": "Edgelords gain Attack Speed which doubles when their target drops target drops below 50% Health. Edgelords with 1-hex range also dash through them on their next attack.",
+        "stats": [
+            "30% Attack Speed",
+            "55% Attack Speed",
+            "85% Attack Speed"
+        ],
+        "abstract": "bond:AS:(30%/55%/85%),below50%HP(60%/110%/170%)"
+    },
+    {
+        "name": "EDM",
+        "desc": "Use the EDM selector item to choose an EDM champion and see the frequency for each.<br><br>At the selected champions's frequency, your EDM champions cast the selected Ability with modified effectiveness.",
+        "stats": [
+            "90% effectiveness",
+            "110% effectiveness",
+            "120% effectiveness, -1 second",
+            "135% effectiveness, -1 seconds"
+        ],
+        "abstract": "\u603b\u7ed3\u4e3a bond:effectiveness:(90%/110%/120%/135%),cooldown:(//-1s/-1s)"
+    },
+    {
+        "name": "Emo",
+        "desc": "Emo Champions' Ability cost less Mana to cast, and they gain Mana whenever an allied champion dies.",
+        "stats": [
+            "20% less, gain 20 Mana",
+            "30% less, gain 30 Mana",
+            "+20 AP, 40% less, gain 40 Mana"
+        ],
+        "abstract": "bond:MP cost:(20%/30%/40% less),on ally death gain MP:(20/30/40),AP:(0/0/+20)"
+    },
+    {
+        "name": "Executioner",
+        "desc": "Executioner Abilities can critically strike and they gain Critical Strike Damage. Their Critical Strike Chance is increased based on their target's missing Health.",
+        "stats": [
+            "5% Crit Damage, Up to 25% Crit Chance",
+            "15% Crit Damage, Up to 80% Crit Chance",
+            "30% Crit Damage, Up to 160% Crit Chance"
+        ],
+        "abstract": "bond:DPS:(5%/15%/30%),CR:(25%/80%/160%)"
+    },
+    {
+        "name": "Mosher",
+        "desc": "Moshers gain Attack Speed and Omnivamp, which increases up to 100% based on their missing Health.<br><br>Omnivamp: Heal for percentage of damage dealt",
+        "stats": [
+            "20% Attack Speed, 10% Omnivamp",
+            "40% Attack Speed, 15% Omnivamp",
+            "70% Attack Speed, 20% Omnivamp",
+            "125% Attack Speed, 30% Omnivamp"
+        ],
+        "abstract": "bond:AS:(20%/40%/70%/125%); bond:OV:(10%/15%/20%/30%)"
+    },
+    {
+        "name": "Disco",
+        "desc": "Summon a movable Disco Ball.<br><br>Combat start: Allies next to it gain Attack Speed and healing immediately and every 3 seconds.",
+        "stats": [
+            "5% Attack Speed, 2% max Health",
+            "8% Attack Speed, 3% max Health",
+            "2 Disco Balls, 12% Attack Speed, 3% max Health",
+            "20% Attack Speed, 4% max Health"
+        ],
+        "abstract": "team:AS/HP:(5%/8%/12%/20%),heal:(2%/3%/3%/4%)"
+    },
+    {
+        "name": "Guardian",
+        "desc": "Once per combat at 50% Health, Guardians shield themselves and their closest ally for a percent of their max Health.",
+        "stats": [
+            "25%",
+            "45%",
+            "70%"
+        ],
+        "abstract": "bond:shield:(25%/45%/70%)"
+    },
+    {
+        "name": "Hyperpop",
+        "desc": "When Hyperpop champions use an Ability, they grant Mana and 4 seconds of Attack Speed to their 2 closest allies.",
+        "stats": [
+            "5 Mana and 10% Attack Speed",
+            "10 Mana and 20% Attack Speed",
+            "15 Mana and 35% Attack Speed",
+            "20 Mana and 60% Attack Speed"
+        ],
+        "abstract": "bond:MP:(5/10/15/20); bond:AS:(10%/20%/35%/60%)"
+    },
+    {
+        "name": "Jazz",
+        "desc": "For each active trait (except uniques), your team gains bonus Health and deals bonus damage.",
+        "stats": [
+            "1.5% Health, 1% Damage",
+            "2.5% Health, 1.5% Damage",
+            "4% Health, 2% Damage"
+        ],
+        "abstract": "team:HP:(1.5%/2.5%/4%); team:Damage:(1%/1.5%/2%)"
+    },
+    {
+        "name": "K/DA",
+        "desc": "Your team gains max Health, Ability Power, and Attack Damage if they are in a lighted hex. K/DA champions gain double!",
+        "stats": [
+            "+9% max Health, +9 AP & AD",
+            "+15% max Health, +15 AP & AD",
+            "+27% max Health, +27 AP & AD",
+            "+45% max Health, +45 AP & AD, 10 mana per second"
+        ],
+        "abstract": "team:HP/AP/AD:(9%/9/9,15%/15/15,27%/27/27,45%/45/45); bond:HP/AP/AD:(18%/18/18,30%/30/30,54%/54/54,90%/90/90)"
+    },
+    {
+        "name": "Pentakill",
+        "desc": "Pentakill champions reduce incoming damage by 15% and deal bonus damage. For each champion kill, a Pentakill champion rocks out and increases their damage bonus by 25%. <br><br>On the 5th kills, all Pentakill champions rock out and your team gains 50% Attack Speed.",
+        "stats": [
+            "15% bonus damage",
+            "30% bonus damage",
+            "45% bonus damage",
+            "50% damage reduction and 99% bonus damage"
+        ],
+        "abstract": "team:AS:(50%//50%//50%);\nbond:DR:(15%//15%//15%//50%),DA:(15%/30%/45%/99%),perkill(25%)"
+    },
+    {
+        "name": "Heartsteel",
+        "desc": "Earn Hearts by killing enemies. Gain even more by losing player combat. Every 4 player combats, convert Hearts into powerful rewards!",
+        "stats": [
+            "1x Hearts",
+            "2x Hearts",
+            "5.5x Hearts",
+            "18x Hearts, Gain rewards every round and keep 80% of you Hearts!"
+        ],
+        "abstract": "bond:Hearts multiplier:(1/2/5.5/18), rewards every round and keep 80% Hearts at 4"
+    },
+    {
+        "name": "Punk",
+        "desc": "Punks gain bonus Health and Attack Damage, which increases by 1% every time you spend gold on a Shop reroll.<br><br>After Punks fight in combat, your 1st Shop reroll costs 1 gold and grants 3% bonus instead!",
+        "stats": [
+            "+180 Health and +18% Attack Damage",
+            "+300 Health and +30% Attack Damage",
+            "+420 Health and +42% Attack Damage"
+        ],
+        "abstract": "bond:HP/AD:(180/300/420),per1%roll(+1%/+1%/+1%),firstroll(+3%/+3%/+3%)"
+    },
+    {
+        "name": "Rapidfire",
+        "desc": "Your team gains 10% Attack Speed.<br><br>Rapidfire champions gain more on every attack, up to 10 stacks.",
+        "stats": [
+            "4% Attack Speed",
+            "9% Attack Speed",
+            "16% Attack Speed"
+        ],
+        "abstract": "team:AS:(10%/10%/10%); bond:AS:(4%/9%/16%),max10stack"
+    },
+    {
+        "name": "Sentinel",
+        "desc": "Your team gains Armor and Magic Resist. Sentinels gain double.",
+        "stats": [
+            "+16 Armor, +16 Magic Resist",
+            "+35 Armor, +35 Magic Resist",
+            "+55 Armor, +55 Magic Resist",
+            "+100 Armor, +100 Magic Resist"
+        ],
+        "abstract": "team:AR/MR:(//); bond:AR/MR:(16/35/55/100),double(32/70/110/200)"
+    },
+    {
+        "name": "Spellweaver",
+        "desc": "Your team gains 15 Ability Power. Spellweavers gain more, plus extra Ability Power whenever a Spellweaver casts an Ability.",
+        "stats": [
+            "20 AP, +1 AP per cast",
+            "35 AP, +2 AP per cast",
+            "80 AP, +4 AP per cast",
+            "130 AP, +6 AP per cast"
+        ],
+        "abstract": "team:AP:(15/15/15/15); bond:AP:(20/35/80/130),percast:(+1/+2/+4/+6)"
+    },
+    {
+        "name": "Superfan",
+        "desc": "Superfans improve your Headliner!",
+        "stats": [
+            "Headliner gets a completed item",
+            "Headliner gets +250 Health and +15% Omnivamp",
+            "Item upgrades to radiant<br><br>Omnivamp: Heal for percentage of damage dealt"
+        ],
+        "abstract": "bond:Headliner item:(1), bond:HP/OV:(250/15%)"
+    },
+    {
+        "name": "True Damage",
+        "desc": "True Damage champions deal bonus true damage. If they are holding an item, they gain a unique Bling Bonus for their Ability.",
+        "stats": [
+            "15% damage",
+            "30% damage",
+            "45% damage",
+            "99% damage, Bling Bonuses go Platinum!"
+        ],
+        "abstract": "bond:true damage:(15%/30%/45%/99%),Bling Bonus:(//)"
+    }
+]

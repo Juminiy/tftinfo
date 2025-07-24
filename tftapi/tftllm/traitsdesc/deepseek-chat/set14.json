@@ -1,0 +1,222 @@
+[
+    {
+        "name": "Anima Squad",
+        "desc": "At each tier, pick a weapon that a random Anima Squad champion fires periodically during combat. Anima Squad champions gain Armor, Magic Resist, and Damage Amp.<br><br>Weapons scale with Anima Squad star level and stage.",
+        "stats": [
+            "10 AR/MR, 5% Damage Amp, Choose a weapon",
+            "25 AR/MR, 10% Damage Amp, Choose a weapon",
+            "40 AR/MR, 15% Damage Amp, Choose a weapon",
+            "75 AR/MR, 100% Damage Amp, Choose an ultimate weapon"
+        ],
+        "abstract": "bond:AR/MR:(10/25/40/75),bond:DA:(5%/10%/15%/100%)"
+    },
+    {
+        "name": "Bastion",
+        "desc": "Your team gains 10 Armor and Magic Resist. Bastions gain more.<br><br>For the first 10 seconds of combat, Bastions increase their bonus by 100%.",
+        "stats": [
+            "18 Armor & MR",
+            "36 Armor & MR",
+            "75 Armor & MR. Non-Bastions gain an additional 25 Armor & MR"
+        ],
+        "abstract": "team:AR/MR:(10/10/25); bond:AR/MR:(18/36/75),first10s(36/72/150)"
+    },
+    {
+        "name": "BoomBots",
+        "desc": "BoomBots fire a missile every 400 damage dealt at a nearby enemy that deals magic damage. 8% of damage taken contributes to damage dealt.",
+        "stats": [
+            "150 magic damage",
+            "325 magic damage",
+            "Fire two missiles, each dealing 260 magic damage"
+        ],
+        "abstract": "bond:magic damage:(150/325/260x2),8% damage taken to damage dealt"
+    },
+    {
+        "name": "Bruiser",
+        "desc": "Your team gains 100 Health. Bruisers gain more.",
+        "stats": [
+            "20% Health",
+            "45% Health",
+            "70% Health"
+        ],
+        "abstract": "team:HP:(100/100/100); bond:HP:(20%/45%/70%)"
+    },
+    {
+        "name": "Strategist",
+        "desc": "Combat Start: Allies in the back 2 rows gain Damage Amp. Allies in the front 2 rows gain Durability. Strategists get triple.",
+        "stats": [
+            "6% Damage Amp, 4% Durability",
+            "9% Damage Amp, 6% Durability",
+            "12% Damage Amp, 8% Durability",
+            "15% Damage Amp, 10% Durability"
+        ],
+        "abstract": "team:DA:(6%/9%/12%/15%), back2rows; DR:(4%/6%/8%/10%), front2rows; bond:DA:(18%/27%/36%/45%), back2rows; DR:(12%/18%/24%/30%), front2rows"
+    },
+    {
+        "name": "Executioner",
+        "desc": "Executioner Abilities can critically strike. They also gain bonus Critical Strike Chance and Critical Strike Damage.<br><br>If the target's Health is below 20%, the bonus Critical Strike Damage is doubled.",
+        "stats": [
+            "25% Critical Strike Chance, 5% Critical Strike Damage",
+            "35% Critical Strike Chance, 10% Critical Strike Damage",
+            "50% Critical Strike Chance, 15% Critical Strike Damage",
+            "55% Critical Strike Chance, 15% Critical Strike Damage; also gain 12% Durability"
+        ],
+        "abstract": "bond:CR:(25%/35%/50%/55%); bond:DPS:(5%/10%/15%/15%); bond:DR:(///12%); target<20%HP:DPS:(10%/20%/30%/30%)"
+    },
+    {
+        "name": "Cyberboss",
+        "desc": "Your strongest Cyberboss upgrades to its final form and gains Health, Ability Power, and its ability hits more enemies.",
+        "stats": [
+            "25% Health, 20 Ability Power",
+            "33% Health, 30 Ability Power",
+            "All Cyberbosses upgrade. Your strongest Cyberboss gains 40% Health and 40 AP."
+        ],
+        "abstract": "bond:HP/AP:(25%/20/33%/30/40%/40)"
+    },
+    {
+        "name": "Divinicorp",
+        "desc": "Divinicorp champions grant unique stats to your team, increased for each Divinicorp in play.<br><br>Divinicorp champions gain double.<br><br>Morgana - +9% AP<br>Rhaast - +6 AR/MR<br>Senna - +8% AD<br>Gragas - +50 Health<br>Vex - +7% CSC<br>Renekton - +5% AS<br>Emblem - +3% Omnivamp",
+        "stats": [
+            "100% bonus.",
+            "110% bonus.",
+            "125% bonus.",
+            "140% bonus.",
+            "165% bonus.",
+            "190% bonus.",
+            "210% bonus."
+        ],
+        "abstract": "team:unique_buffs:(//); bond:bonus:(100%/110%/125%/140%/165%/190%/210%),double_for_Divinicorp"
+    },
+    {
+        "name": "Exotech",
+        "desc": "Gain unique items that can only be equipped by Exotech champions. They gain Health and Attack Speed for each item equipped.",
+        "stats": [
+            "50 Health, 2% Attack Speed, Exotech Item #1",
+            "160 Health, 6% Attack Speed, Exotech Item #2",
+            "270 Health, 13% Attack Speed, Exotech Item #3",
+            "500 Health, 40% Attack Speed, Enhance"
+        ],
+        "abstract": "bond:HP:(50/160/270/500); bond:AS:(2%/6%/13%/40%)"
+    },
+    {
+        "name": "Nitro",
+        "desc": "Every round, Nitro champions grant Chrome to R-080T, based on their star level. Each Chrome grants 14 Health and 1 Ability Power.<br><br>At 200 Chrome, it upgrades to T-43X!<br><br>Chrome per star: 2/3/7/25",
+        "stats": [
+            "Summon R-080T!",
+            "Fire a giant laser!"
+        ],
+        "abstract": "bond:Summon R-080T:(//); bond:Fire a giant laser:(//)"
+    },
+    {
+        "name": "Golden Ox",
+        "desc": "Golden Ox gain Damage Amp and have a chance to drop gold on kill.<br><br>If you spend 8 gold on rerolls or XP in a single turn, permanently increase their Damage Amp and the gold required for the next bonus. Rerolls count double towards gold spent.<br>(Golden Ox must have fought last round)",
+        "stats": [
+            "12% Damage Amp, 20% gold",
+            "24% Damage Amp, 60% gold",
+            "25% Damage Amp, 100% loot, 7% chance loot is a component"
+        ],
+        "abstract": "bond:DA:(12%/24%/25%), gold:(20%/60%/100%), component:(0%/0%/7%)"
+    },
+    {
+        "name": "Marksman",
+        "desc": "Marksmen gain Attack Damage. After 8 seconds of combat, they increase their bonus by 100%.",
+        "stats": [
+            "18% AD",
+            "35% AD. After 8 seconds, gain 25% AD every 6 seconds."
+        ],
+        "abstract": "bond:AD:(18%/35%),after8s(36%/70%),after14s(36%/95%)"
+    },
+    {
+        "name": "Syndicate",
+        "desc": "Get a Kingpin hat that uniquely upgrades a Syndicate champion's ability.<br><br>Syndicate champions gain Health and Damage Amp.",
+        "stats": [
+            "100 Health, 5% Damage Amp, 1 Kingpin",
+            "450 Health, 15% Damage Amp, 2 Kingpins",
+            "550 Health, 20% Damage Amp, Upgrade Kingpin effect"
+        ],
+        "abstract": "bond:HP:(100/450/550), DA:(5%/15%/20%), Kingpin:(1/2/Upgrade)"
+    },
+    {
+        "name": "Street Demon",
+        "desc": "Allies in painted hexes gain Health, Ability Power, and Attack Damage. Some hexes are Signature hexes and grant 50% more.<br><br>Street Demons double all bonuses.",
+        "stats": [
+            "+6% Health, 6 AP, 6% AD",
+            "+10% Health, 10 AP, 10% AD",
+            "+16% Health, 16 AP, 16% AD",
+            "+45% Health, 45 AP, 45% AD. Paint the town!"
+        ],
+        "abstract": "bond:HP/AP/AD:(6%/6/6%/10%/10/10%/16%/16/16%/45%/45/45%),SignatureHexes(9%/9/9%/15%/15/15%/24%/24/24%/67.5%/67.5/67.5%),StreetDemons(12%/12/12%/20%/20/20%/32%/32/32%/90%/90/90%)"
+    },
+    {
+        "name": "Slayer",
+        "desc": "Slayers gain Attack Damage and Omnivamp. Overhealing heals the lowest percent Health Slayer for 50% of the excess amount.",
+        "stats": [
+            "15% AD, 15% Omnivamp",
+            "40% AD, 15% Omnivamp",
+            "70% AD, 20% Omnivamp"
+        ],
+        "abstract": "bond:AD:(15%/40%/70%),OV:(15%/15%/20%)"
+    },
+    {
+        "name": "Cypher",
+        "desc": "Gain Intel by losing combat, increased for loss streaks. Gain a small amount for killing enemies.<br><br>You may trade your Intel for loot one time on round<br>3-3, 3-7, 4-3, 4-7, or 5-5.<br>After trading Intel, Cypher champions gain Attack Damage and Ability Power.",
+        "stats": [
+            "1x Intel, 25% AD & AP",
+            "1.5x Intel, 35% AD & AP",
+            "2x Intel, 50% AD & AP",
+            "2.5x Intel, 90% AD & AP"
+        ],
+        "abstract": "bond:AD/AP:(25%/35%/50%/90%)"
+    },
+    {
+        "name": "A.M.P.",
+        "desc": "A.M.P. champions upgrade their abilities in unique ways with Amp. They also gain Health.",
+        "stats": [
+            "1 Amp, 100 Health",
+            "2 Amp, 200 Health",
+            "4 Amp, 300 Health",
+            "5 Amp, 500 Health"
+        ],
+        "abstract": "bond:Amp:(1/2/4/5),HP:(100/200/300/500)"
+    },
+    {
+        "name": "Rapidfire",
+        "desc": "Your team gains 10% Attack Speed. Rapidfire champions gain more on each attack, stacking up to 10 times.",
+        "stats": [
+            "4% AS per stack",
+            "11% AS per stack",
+            "22% AS per stack"
+        ],
+        "abstract": "team:AS:(10%//); bond:AS per stack:(4%/11%/22%), max10stacks"
+    },
+    {
+        "name": "Techie",
+        "desc": "Techies gain Ability Power.<br><br>Enemies hit by their abilities deal 10% less damage for 3 seconds.",
+        "stats": [
+            "20 AP",
+            "50 AP",
+            "95 AP",
+            "140 AP. Enemies hit deal 18% less damage."
+        ],
+        "abstract": "bond:AP:(20/50/95/140); bond:Damage Amp:(10/10/10/18)"
+    },
+    {
+        "name": "Dynamo",
+        "desc": "Every 3 seconds, your team gains Mana. Dynamos gain 100% more.",
+        "stats": [
+            "4 Mana",
+            "6 Mana",
+            "10 Mana"
+        ],
+        "abstract": "team:MP:(4/6/10); bond:MP:(8/12/20)"
+    },
+    {
+        "name": "Vanguard",
+        "desc": "Vanguards gain 12% Durability while Shielded.<br><br>Combat start and 50% Health: Gain a max Health Shield for 10 seconds.",
+        "stats": [
+            "16% max Health",
+            "32% max Health",
+            "45% max Health; 18% Durability while Shielded"
+        ],
+        "abstract": "bond:HP Shield:(16%/32%/45%),DR while Shielded:(12%/12%/18%)"
+    }
+]

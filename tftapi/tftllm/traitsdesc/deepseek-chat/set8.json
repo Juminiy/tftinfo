@@ -1,0 +1,233 @@
+[
+    {
+        "name": "Ace",
+        "desc": "This trait is active only when you have exactly 1 or 4 unique Aces.",
+        "stats": [
+            "Execute enemies under 15% Health",
+            "Execute enemies under 30% Health"
+        ],
+        "abstract": "bond:Execute:(15%/30% HP)"
+    },
+    {
+        "name": "A.D.M.I.N.",
+        "desc": "A.D.M.I.N programs a custom configuration per player each game.",
+        "stats": [
+            "[Initialize ADMIN cause and effect]",
+            "[Add another effect to the program]",
+            "Boost previous tier by 100%"
+        ],
+        "abstract": "\u603b\u7ed3\u4e3a bond:custom effect:(//)"
+    },
+    {
+        "name": "Aegis",
+        "desc": "Your team gains bonus Magic Resist, and Aegis units gain more.",
+        "stats": [
+            "+20 Magic Resist, +40 for Aegis",
+            "+40 Magic Resist, +80 for Aegis",
+            "+60 Magic Resist, +120 for Aegis",
+            "+90 Magic Resist, +180 for Aegis"
+        ],
+        "abstract": "team:MR:(20/40/60/90); bond:MR:(40/80/120/180)"
+    },
+    {
+        "name": "Anima Squad",
+        "desc": "Anima Squad members build fame for scoring champion kills. When they pause to celebrate a kill, they permanently gain 6 maximum Health per point of fame. Fame immediately benefits the whole Anima Squad.<br><br>Anima Squad also gains:",
+        "stats": [
+            "10% Attack Damage and 10 Ability Power",
+            "35% Attack Damage and 35 Ability Power",
+            "60% Attack Damage and 60 Ability Power"
+        ],
+        "abstract": "bond:AD/AP:(10%/35%/60%)"
+    },
+    {
+        "name": "Brawler",
+        "desc": "Brawlers gain additional maximum Health.",
+        "stats": [
+            "+20% maximum Health",
+            "+45% maximum Health",
+            "+75% maximum Health",
+            "+110% maximum Health"
+        ],
+        "abstract": "bond:HP:(+20%/+45%/+75%/+110%)"
+    },
+    {
+        "name": "Spellslinger",
+        "desc": "Every 5 seconds, the next attack instead fires a magic orb at a random target, which explodes for 50% Ability Power as magic damage.",
+        "stats": [
+            "+25 Ability Power",
+            "+60 Ability Power",
+            "+95 Ability Power",
+            "+140 Ability Power, Orb Damage 150%"
+        ],
+        "abstract": "bond:AP:(25/60/95/140),orb_damage:(50%/50%/50%/150%)"
+    },
+    {
+        "name": "Civilian",
+        "desc": "If there is a Civilian alive, your team is inspired to protect them by gaining Mana every 2 seconds.",
+        "stats": [
+            "+2 Mana",
+            "+4 Mana",
+            "+10 Mana"
+        ],
+        "abstract": "team:MP:(2/4/10) every 2s"
+    },
+    {
+        "name": "Sureshot",
+        "desc": "Combat start: gain bonus Attack Damage now, and every 4 seconds.",
+        "stats": [
+            "+6% Attack Damage",
+            "+16% Attack Damage"
+        ],
+        "abstract": "bond:AD:(6%/16%)"
+    },
+    {
+        "name": "Defender",
+        "desc": "Innate: Taunt nearby enemies after the start of combat.<br><br>Your team gains bonus Armor, and Defenders gain more.<br><br>Taunt: enemies that are able and in range must attack the taunter",
+        "stats": [
+            "+30 Armor, +60 for Defenders",
+            "+80 Armor, +150 for Defenders",
+            "+200 Armor, +250 for Defenders"
+        ],
+        "abstract": "team:AR:(//); bond:AR:(30/80/200),Defenders(60/150/250)"
+    },
+    {
+        "name": "Duelist",
+        "desc": "Innate: increased movement speed.<br><br>Duelists' basic attacks grant bonus Attack Speed, up to 12 stacks.",
+        "stats": [
+            "+5% Attack Speed per stack",
+            "+9% Attack Speed per stack",
+            "+15% Attack Speed per stack",
+            "+24% Attack Speed per stack"
+        ],
+        "abstract": "bond:AS per stack:(5%/9%/15%/24%),max12stacks"
+    },
+    {
+        "name": "Mecha: PRIME",
+        "desc": "Use the Mecha selector item to choose a PRIME.<br><br>Combat start: the PRIME combines with the 2 nearest Mecha, absorbing 100% of their Health.",
+        "stats": [
+            "The PRIME gains 60 Ability Power and 60% Attack Damage",
+            "All Mechas gain 55 Ability Power and 55% Attack Damage; The PRIME gains double this amount."
+        ],
+        "abstract": "bond:AP/AD:(60/55),PRIME(120/110); bond:HP:(100)"
+    },
+    {
+        "name": "Gadgeteen",
+        "desc": "Each round, Gadgeteens create random modified weapon with powerful effects that fall apart after one round. Gadgeteen also gain Damage Reduction for each item equipped to them.",
+        "stats": [
+            "Create 1 item, 3% per item.",
+            "Create 2 item, 10% per item."
+        ],
+        "abstract": "bond:Create item:(1/2),DR:(3%/10%) per item"
+    },
+    {
+        "name": "Hacker",
+        "desc": "Hackers gain Omnivamp and summon a H4ckerr!m. Any unit placed in the rider hex will be sent to the enemy backline and is untargetable for the first 2 seconds of combat.<br><br>Omnivamp: heal for a percentage of damage dealt",
+        "stats": [
+            "15% Omnivamp",
+            "40% Omnivamp",
+            "70% Omnivamp"
+        ],
+        "abstract": "bond:OV:(15%/40%/70%)"
+    },
+    {
+        "name": "Heart",
+        "desc": "When Heart units cast their Ability, your team gains stacking Ability Power for the rest of combat.",
+        "stats": [
+            "+4 Ability Power",
+            "+7 Ability Power",
+            "+10 Ability Power"
+        ],
+        "abstract": "team:AP:(4/7/10)"
+    },
+    {
+        "name": "Mascot",
+        "desc": "Your team heals a percentage of their maximum Health every 2 seconds, and Mascots heal double the amount.<br><br>\r\nWhen Mascots die, they retreat to the sidelines to cheer on your team. Your team's healing increased by 1% for each cheering Mascot.",
+        "stats": [
+            "1.5% healing",
+            "3% healing",
+            "6% healing",
+            "10% healing"
+        ],
+        "abstract": "team:healing:(1.5%/3%/6%/10%); bond:healing:(3%/6%/12%/20%)"
+    },
+    {
+        "name": "Ox Force",
+        "desc": "Ox Force units gain a range of Attack Speed that ramps as they lose Health. Once per combat, when they would drop below one health, they instead go to one health and become immune to damage for 1 seconds.",
+        "stats": [
+            "15% - 30% Attack Speed.",
+            "40% - 80% Attack Speed.",
+            "75% - 150% Attack Speed.",
+            "150% - 300% Attack Speed."
+        ],
+        "abstract": "bond:AS:(15%-30%/40%-80%/75%-150%/150%-300%)"
+    },
+    {
+        "name": "Prankster",
+        "desc": "",
+        "stats": [
+            "Once per combat at 50% Health, spawn a target dummy, move to a safe location, and restore 350 Health.",
+            "And, Prankster dummies stun the enemy that killed them for 1.5 seconds."
+        ],
+        "abstract": "bond:once per combat at 50% HP:spawn dummy, move, restore 350 HP; prankster dummies stun killer for 1.5s"
+    },
+    {
+        "name": "Recon",
+        "desc": "Innate: Gain 2 hex Attack Range. <br><br>If there is an enemy nearby, Recon units will dash to safety before casting their Ability.",
+        "stats": [
+            "+20% Crit Chance",
+            "+75% Crit Chance",
+            "+100% Crit Chance and Recon Abilities can critically strike"
+        ],
+        "abstract": "team:RG:(2); bond:CR:(20/75/100),crit_able:(//no/no/yes)"
+    },
+    {
+        "name": "Renegade",
+        "desc": "Renegade units deal bonus damage, and the last sone standing deals more.",
+        "stats": [
+            "35% bonus damage, 20% for last alive",
+            "60% bonus damage, 40% for last alive"
+        ],
+        "abstract": "bond:DA:(35%/60%),last_alive(20%/40%)"
+    },
+    {
+        "name": "LaserCorps",
+        "desc": "When a LaserCorp agent attacks or is hit by an attack, their combat drone deal magic damage to the agent's target (0.4 second cooldown). When a LaserCorps agent dies, their drone is reassigned to the nearest living agent.<br><br>Drones lasers deal:",
+        "stats": [
+            "25 magic damage.",
+            "45 magic damage.",
+            "80 magic damage",
+            "99 magic damage, and each agent gets a 2nd drone."
+        ],
+        "abstract": "bond:magic damage:(25/45/80/99),2nd drone:(// // // 99)"
+    },
+    {
+        "name": "Star Guardian",
+        "desc": "Gain more Mana from all sources.",
+        "stats": [
+            "40% additional mana",
+            "70% additional mana",
+            "120% additional mana",
+            "200% additional mana"
+        ],
+        "abstract": "bond:MP:(40%/70%/120%/200%)"
+    },
+    {
+        "name": "Supers",
+        "desc": "",
+        "stats": [
+            "Combat start: strike a pose that grants your team 18% bonus damage, which increases by 3% for every 3-star champion on your team."
+        ],
+        "abstract": "team:DA:(18% +3% per3star)"
+    },
+    {
+        "name": "Underground",
+        "desc": "The Underground must sneak through the sewers and crack 10 locks to open a vault. When the vault opens, you may choose to take the loot now, or attempt another heist for even better rewards.",
+        "stats": [
+            "Crack 2 vault lock after a player combat win, and 3 after a player combat loss",
+            "Crack 2 vault lock after a player combat win, and 4 after a player combat loss",
+            "Crack 3 vault lock after a player combat win, and 5 after a player combat loss",
+            "Crack 4 vault lock after a player combat win, and 7 after a player combat loss"
+        ],
+        "abstract": "\u603b\u7ed3\u4e3a bond:locks_per_win:(2/2/3/4),locks_per_loss:(3/4/5/7)"
+    }
+]

@@ -1,0 +1,248 @@
+[
+    {
+        "name": "Bilgewater",
+        "desc": "Bilgerat attacks and Abilities mark enemies. The mark stores a percentage of damage dealt to the enemy by Bilgerats.<br><br>Marked enemies are struck by a cannonball after 1.5 seconds, dealing the stored damage plus a flat value as physical damage.",
+        "stats": [
+            "100 + 40% Damage dealt",
+            "170 + 60% Damage dealt",
+            "325 + 70% Damage dealt",
+            "999 + 135% Damage dealt; nearby enemies take 50% of cannonball damage"
+        ],
+        "abstract": "bond:Physical Damage:(100+40%/170+60%/325+70%/999+135%),splash(50%)"
+    },
+    {
+        "name": "Darkin",
+        "desc": "",
+        "stats": [
+            "Darkin are possessed by a weapon. When they die, the weapon possesses the nearest ally champion, granting them the weapon's power.",
+            "Weapon powers become 50% stronger.<br><br>Weapon powers are described in each Darkin's Ability tooltip."
+        ],
+        "abstract": "bond:Weapon possession:(//); bond:Weapon power boost:(50%)"
+    },
+    {
+        "name": "Vanquisher",
+        "desc": "Damage from Vanquisher Abilities can critically strike. Vanquishers gain bonus Critical Strike Chance and Critical Strike Damage.",
+        "stats": [
+            "15% chance, 10% damage",
+            "35% chance, 35% damage",
+            "55% chance, 55% damage"
+        ],
+        "abstract": "bond:CR:(15%/35%/55%); bond:DPS:(10%/35%/55%)"
+    },
+    {
+        "name": "Juggernaut",
+        "desc": "Juggernaut champions take less damage as their Health decreases.",
+        "stats": [
+            "15% to 25% damage reduction",
+            "20% to 35% damage reduction",
+            "35% to 50% damage reduction"
+        ],
+        "abstract": "bond:damage reduction:(15%-25%/20%-35%/35%-50%)"
+    },
+    {
+        "name": "Bastion",
+        "desc": "Bastion champions gain Armor and Magic Resist. This is increased by 100% for the first 10 seconds of combat.",
+        "stats": [
+            "20 Defenses",
+            "45 Defenses",
+            "75 Defenses",
+            "140 Defenses"
+        ],
+        "abstract": "bond:AR/MR:(20/45/75/140),first10s(40/90/150/280)"
+    },
+    {
+        "name": "Bruiser",
+        "desc": "Your units gain 100 Health. Bruisers gain additional maximum Health.",
+        "stats": [
+            "+10% Health",
+            "+12% Health",
+            "+45% Health",
+            "+80% Health"
+        ],
+        "abstract": "team:HP:(100);\nbond:HP:(+10%/+12%/+45%/+80%)"
+    },
+    {
+        "name": "Challenger",
+        "desc": "Challengers gain bonus Attack Speed. When their target dies, Challengers dash to a new target and increase their Attack Speed bonus by 50% for 2.5 seconds.",
+        "stats": [
+            "30% Attack Speed.",
+            "65% Attack Speed.",
+            "105% Attack Speed.",
+            "150% Attack Speed."
+        ],
+        "abstract": "bond:AS:(30%/65%/105%/150%),kill_target(45%/97.5%/157.5%/225%)"
+    },
+    {
+        "name": "Demacia",
+        "desc": "Your strongest Demacians become Elite and equip a random Radiant item each combat. Elites grant Armor and Magic Resist to themselves and adjacent allies, but this does not stack.",
+        "stats": [
+            "1 Elite, 5 Armor, 5 Magic resist",
+            "2 Elites, 25 Armor, 25 Magic resist",
+            "3 Elites, 45 Armor, 45 Magic resist",
+            "6 Elites, 150 Armor, 150 Magic resist"
+        ],
+        "abstract": "bond:Elites:(1/2/3/6),AR/MR:(5/25/45/150)"
+    },
+    {
+        "name": "Freljord",
+        "desc": "After 8 seconds, an ice storm strikes the battlefield. Enemies take a percentage of their max Health as true damage and gain debuffs.<br><br>Sunder: reduce Armor<br>Shred: reduce Magic Resist",
+        "stats": [
+            "10% health, enemies are 30% Sundered and Shredded for 10 seconds",
+            "18% health, enemies are also stunned for 1.5 seconds"
+        ],
+        "abstract": "\u603b\u7ed3\u4e3a team:true_dmg:(10%/18%); bond:debuffs:(30%_AR/MR_reduction,stun(1.5s))"
+    },
+    {
+        "name": "Ionia",
+        "desc": "Each Ionian has a unique bonus within their Ability.<br><br>Every 4 seconds, a number of Ionians are enlightened to their spirit form, gaining 20 mana and doubling stat bonuses for 4 seconds.",
+        "stats": [
+            "100% Ionian bonus, 1 enlightened",
+            "200% Ionian bonus, 2 enlightened",
+            "425% Ionian bonus, 4 enlightened"
+        ],
+        "abstract": "bond:Ionian bonus:(100%/200%/425%),enlightened:(1/2/4)"
+    },
+    {
+        "name": "Ixtal",
+        "desc": "Gain elemental hexes, which give a different bonus from game to game.",
+        "stats": [
+            "Create 1 hex",
+            "Create 2 hexes.",
+            "Something cool (Effect depends on current elemental)"
+        ],
+        "abstract": "bond:elemental_hexes:(1/2/something_cool)"
+    },
+    {
+        "name": "Gunner",
+        "desc": "When Gunner champions attack, they gain bonus Attack Damage, up to 8 stacks.",
+        "stats": [
+            "7% Attack Damage per attack",
+            "13% Attack Damage per attack",
+            "25% Attack Damage per attack"
+        ],
+        "abstract": "bond:AD per attack:(7%/13%/25%),max8stacks"
+    },
+    {
+        "name": "Multicaster",
+        "desc": "Multicasters cast their Ability multiple times. Bonus casts have 55% reduced effectiveness.",
+        "stats": [
+            "1 extra cast. 55% reduced effectiveness.",
+            "1 extra cast. 35% reduced effectiveness.",
+            "1 extra cast. 35% reduced effectiveness. Multicaster attacks grant 5 bonus Mana."
+        ],
+        "abstract": "bond:Ability casts:(1/1/1),effectiveness(-55%/-35%/-35%); bond:MP on attack:(0/0/5)"
+    },
+    {
+        "name": "Noxus",
+        "desc": "Noxus champions gain Health, Ability Power and Attack Damage. This is increased by 5% for each different opponent that either you have conquered in combat or is dead.",
+        "stats": [
+            "160 Health, 16 Ability Power, 16% Attack Damage.",
+            "300 Health, 30 Ability Power, 30% Attack Damage.",
+            "420 Health, 42 Ability Power, 42% Attack Damage.",
+            "750 Health, 75 Ability Power, 75% Attack Damage."
+        ],
+        "abstract": "bond:HP/AP/AD:(160/300/420/750;16/30/42/75;16%/30%/42%/75%)"
+    },
+    {
+        "name": "Piltover",
+        "desc": "Gain the T-Hex. Every time you lose a player combat, the T-Hex gains Charges. Winning converts the Charges to Power for the T-Hex and grants you loot based on the number of Charges converted.",
+        "stats": [
+            "Gain the T-Hex.",
+            "Gain bonus loot every round. Each loss counts as 2 losses instead."
+        ],
+        "abstract": "\u603b\u7ed3\u4e3a bond:T-Hex:(//); bond:bonus loot:(//)"
+    },
+    {
+        "name": "Invoker",
+        "desc": "Every 3 seconds, your units gain Mana.",
+        "stats": [
+            "5 to all",
+            "Additional 15 to Invokers",
+            "20 to all, additional 15 to Invokers",
+            "40 to all, and start with an additional 30 Ability Power"
+        ],
+        "abstract": "team:MP:(5/5/20/40); bond:AP:(0/0/0/30),MP:(0/15/15/0)"
+    },
+    {
+        "name": "Rogue",
+        "desc": "",
+        "stats": [
+            "When a Rogue falls below 35% Health, they briefly become untargetable and dash to an enemy within 4 hexes (preferring enemy backline).",
+            "Additionally, a Rogue's first attack on an enemy bleeds them for 55% of their max Health as magic damage over 2.5 seconds."
+        ],
+        "abstract": "bond:untargetable&dash(//),bleed(55%maxHP)"
+    },
+    {
+        "name": "Shurima",
+        "desc": "Every 4 seconds, Shurimans heal 5% maximum Health. After 8 seconds, select Shurimans Ascend and gain 20% maximum Health and 30% Attack Speed.",
+        "stats": [
+            "The strongest Shuriman Ascends",
+            "All Shurimans Ascend. +30% Ascension bonus",
+            "Instead, Ascend at combat start. +60% Ascension bonus",
+            "Ascend twice, at combat start and after 8 seconds. +111% Ascension bonus"
+        ],
+        "abstract": "bond:HP:(+20%/+50%/+80%/+131%),AS:(+30%/+60%/+90%/+141%),heal:5%HP/4s"
+    },
+    {
+        "name": "Slayer",
+        "desc": "Slayers gain 12% Omnivamp.<br><br>Slayers deal bonus damage, doubled against units below 66% Health.",
+        "stats": [
+            "+6% bonus damage",
+            "+20% bonus damage",
+            "+40% bonus damage"
+        ],
+        "abstract": "bond:OV:(12%//); bond:DA:(6%/20%/40%),below66%HP(12%/40%/80%)"
+    },
+    {
+        "name": "Sorcerer",
+        "desc": "Sorcerers gain bonus Ability Power.<br><br>When an enemy dies after being damaged by a Sorcerer, they deal a percentage of that enemy's maximum Health to another enemy.",
+        "stats": [
+            "25 Ability Power; 7% max",
+            "50 Ability Power; 10% max",
+            "80 Ability Power; 12% max to 2 enemies",
+            "120 Ability Power; 15% max to 2 enemies"
+        ],
+        "abstract": "bond:AP:(25/50/80/120); bond:maxHPdmg:(7%/10%/12%/15%),targets:(1/1/2/2)"
+    },
+    {
+        "name": "Strategist",
+        "desc": "Combat Start: Allies in the front 2 rows gain a shield for 15 seconds and allies in the back 2 rows gain Ability Power.",
+        "stats": [
+            "250 shield; 15 Ability Power",
+            "400 shield; 25 Ability Power",
+            "600 shield; 40 Ability Power",
+            "900 shield; 60 Ability Power"
+        ],
+        "abstract": "team:shield:(250/400/600/900),front2rows; AP:(15/25/40/60),back2rows"
+    },
+    {
+        "name": "Targon",
+        "desc": "All of your units' healing and shielding is improved.",
+        "stats": [
+            "18% increased healing and shielding",
+            "35% increased healing and shielding",
+            "60% increased healing and shielding"
+        ],
+        "abstract": "bond:healing and shielding:(18%/35%/60%)"
+    },
+    {
+        "name": "Void",
+        "desc": "Get a placeable void egg. At the start of combat, it hatches into an unspeakable horror and knocks up adjacent enemies.<br><br>Each Void star level increases the horror's Health and Ability Power by 25%.",
+        "stats": [
+            "Void Remora",
+            "Rift Herald",
+            "Baron Nashor"
+        ],
+        "abstract": "bond:Summon:(Void Remora/Rift Herald/Baron Nashor),HP/AP:+25% per star level"
+    },
+    {
+        "name": "Zaun",
+        "desc": "Zaun champions create random chem-mods that only they can use. Champions can be modded once, and mods can be removed by benching or selling the champion.",
+        "stats": [
+            "Gain 1 chem-mod",
+            "Gain 2 chem-mods and Overcharge them",
+            "Gain 5 chem-mods and Overcharge them"
+        ],
+        "abstract": "bond:chem-mods:(1/2/5)"
+    }
+]

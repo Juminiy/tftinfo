@@ -1,0 +1,206 @@
+{
+    "Berserker": {
+        "desc": "Innate: At the start of combat, Berserkers leap to the nearest enemy. Berserkers have a chance to hit all units in a cone in front of them with their attacks",
+        "stats": [
+            "45% Chance",
+            "100% Chance, all Berserkers +25 AD"
+        ],
+        "abstract": "bond:Chance:(45/100),AD:(25)"
+    },
+    "Lunar": {
+        "desc": "Moonlight transforms unit durability into a win condition for team comps that are built with drawn out battles in mind.",
+        "stats": [
+            "Every 7 seconds, your team gains 15% Critical Strike Chance, 15% Critical Strike Damage, and 15% Spell Power. (Stacks up to 4 times)"
+        ],
+        "abstract": "team:CR/DPS/AP:(15/30/60)"
+    },
+    "Crystal": {
+        "desc": "Crystal Champions have a maximum amount of damage they can take from a single hit.",
+        "stats": [
+            "110 Max Damage",
+            "60 Max Damage"
+        ],
+        "abstract": "bond:Max Damage:(60/110)"
+    },
+    "Desert": {
+        "desc": "Reduces each enemy's armor",
+        "stats": [
+            "40% Armor reduction",
+            "100% Armor reduction"
+        ],
+        "abstract": "team:Armor reduction:(40/100)"
+    },
+    "Druid": {
+        "desc": "",
+        "stats": [
+            "Druids regenerate 45 health each second"
+        ],
+        "abstract": "bond:HP:(45)"
+    },
+    "Electric": {
+        "desc": "Electric Champions shock nearby enemies whenever they deal or receive a critical strike",
+        "stats": [
+            "80 damage",
+            "250 damage",
+            "550 damage"
+        ],
+        "abstract": "bond:DPS:(80/250/550)"
+    },
+    "Woodland": {
+        "desc": "",
+        "stats": [
+            "At the start of combat, a random Woodland Champion makes a copy of themselves",
+            "Woodland to clone them all."
+        ],
+        "abstract": "team: bond:"
+    },
+    "Inferno": {
+        "desc": "Inferno spell damage and critical strikes burns the ground beneath the target, dealing a percent of that spell's pre-mitigation damage as magic damage over 4 seconds",
+        "stats": [
+            "70% Damage, Hexes that light on fire: 1",
+            "150% Damage, Hexes that light on fire: 3",
+            "250% Damage, Hexes that light on fire: 5"
+        ],
+        "abstract": "bond:Magic Damage:(70/150/250)"
+    },
+    "Light": {
+        "desc": "When a Light Champion dies, all other Light Champions gain Attack Speed and are healed for 20% of their Maximum Health",
+        "stats": [
+            "+20% Attack Speed",
+            "+30% Attack Speed",
+            "+50% Attack Speed"
+        ],
+        "abstract": "bond:AS:(20/30/50), HP:(20)"
+    },
+    "Mage": {
+        "desc": "Mages have a chance on cast to instead Doublecast",
+        "stats": [
+            "50% chance",
+            "100% chance & 20 AP to all Mages"
+        ],
+        "abstract": "bond:Doublecast Chance:(50/100), AP:(20)"
+    },
+    "Mountain": {
+        "desc": "",
+        "stats": [
+            "At the start of combat, a random ally gains a 1500 health Stoneshield"
+        ],
+        "abstract": "team:HP:1500"
+    },
+    "Ocean": {
+        "desc": "All allies restore mana every 4 seconds",
+        "stats": [
+            "+10 Mana",
+            "+30 Mana",
+            "+60 Mana"
+        ],
+        "abstract": "team:MP:(10/30/60)"
+    },
+    "Poison": {
+        "desc": "",
+        "stats": [
+            "Poison Champions apply Neurotoxin when they deal damage, increasing the target's mana cost by 33%"
+        ],
+        "abstract": "team: (\u65e0\u56e2\u961f\u589e\u76ca)  \nbond: (\u65e0\u7f81\u7eca\u5185\u589e\u76ca)  \n**\u89e3\u6790**\uff1a  \n- **desc** \u4e3a\u7a7a\uff0c\u672a\u63d0\u4f9b\u660e\u786e\u7684\u56e2\u961f\u6216\u7f81\u7eca\u589e\u76ca\u4fe1\u606f\u3002  \n- **stats** \u4e2d\u4ec5\u63cf\u8ff0\u4e86\u201c\u5267\u6bd2\u82f1\u96c4\u5bf9\u76ee\u6807\u65bd\u52a0\u795e\u7ecf\u6bd2\u7d20\uff08\u589e\u52a033%\u6cd5\u529b\u6d88\u8017\uff09\u201d\uff0c\u5c5e\u4e8e\u5bf9\u654c\u65b9\u7684**debuff**\uff0c\u800c\u975e\u5bf9\u56e2\u961f\u6216\u7f81\u7eca\u6210\u5458\u7684**\u589e\u76ca**\u3002\u6839\u636e\u89c4\u5219\uff0c\u4ec5\u8bb0\u5f55\u589e\u76ca\u6548\u679c\uff08\u5982\u62a4\u7532\u3001\u6cd5\u5f3a\u3001\u751f\u547d\u503c\u7b49\uff09\uff0cdebuff\u4e0d\u7eb3\u5165\u7edf\u8ba1\u3002  \n- \u56e0\u6b64\uff0c\u8be5\u7f81\u7eca\u65e0\u7b26\u5408\u8981\u6c42\u7684\u589e\u76ca\u6570\u636e\u3002"
+    },
+    "Predator": {
+        "desc": "",
+        "stats": [
+            "Predators instantly kill enemies they damage who are below 25% health"
+        ],
+        "abstract": "bond:Instant Kill on 25% HP"
+    },
+    "Assassin": {
+        "desc": "Innate: At the start of combat, Assassins leap to the farthest enemy. Assassins gain bonus Critical Strike Damage and Chance.",
+        "stats": [
+            "+70% Critical Strike Damage & +10% Critical Strike Chance",
+            "+210% Critical Strike Damage & +20% Critical Strike Chance"
+        ],
+        "abstract": "bond:DPS:(70/210),CR:(10/20)"
+    },
+    "Blademaster": {
+        "desc": "Blademaster Basic Attacks have a 40% chance to trigger additional attacks against their target. These additional attacks deal damage like Basic Attacks and trigger on-hit effects.",
+        "stats": [
+            "1 Additional Attack",
+            "2 Additional Attacks",
+            "3 Additional Attacks"
+        ],
+        "abstract": "bond:Additional Attacks:(1/2/3)"
+    },
+    "Glacial": {
+        "desc": "Basic Attacks from Glacials have 25% chance to stun their target for 1.5 seconds, bonus Magic Damage on stun.",
+        "stats": [
+            "75 bonus Magic Damage",
+            "175 bonus Magic Damage",
+            "375 bonus Magic Damage"
+        ],
+        "abstract": "bond:MD:(75/175/375)"
+    },
+    "Mystic": {
+        "desc": "All allies gain increased Magic Resist",
+        "stats": [
+            "40 Magic Resist",
+            "120 Magic Resist"
+        ],
+        "abstract": "team:MR:(40/120)"
+    },
+    "Ranger": {
+        "desc": "Every 3 seconds, Rangers have a chance to double their Attack Speed for 3 seconds.",
+        "stats": [
+            "35% Chance to 2x Attack Speed",
+            "80% Chance to 2x Attack Speed",
+            "100% Chance to 2.5x Attack Speed"
+        ],
+        "abstract": "bond:AS:(2/2/2.5)"
+    },
+    "Shadow": {
+        "desc": "Shadow units deal increased damage for 6 seconds at combat start, refreshed on takedown.",
+        "stats": [
+            "65% Increased Damage, Self Takedown",
+            "150% Increased Damage, Any Shadow Takedown"
+        ],
+        "abstract": "bond:Damage:(65/150)"
+    },
+    "Soulbound": {
+        "desc": "",
+        "stats": [
+            "The first Soulbound unit to die in a round will instead enter the Spirit Realm, becoming untargetable and continuing to fight as long as another Soulbound unit is alive."
+        ],
+        "abstract": "bond:Soulbound:Mechanism"
+    },
+    "Steel": {
+        "desc": "Steel Champions gain damage immunity for a few seconds when they are reduced below 50% health",
+        "stats": [
+            "2 seconds of immunity",
+            "3 seconds of immunity",
+            "4 seconds of immunity"
+        ],
+        "abstract": "bond:Immunity:(2/3/4)"
+    },
+    "Summoner": {
+        "desc": "Summoned units have increased health and duration",
+        "stats": [
+            "30% increase",
+            "120% increase"
+        ],
+        "abstract": "bond:HP/Dur:(30/120)"
+    },
+    "Warden": {
+        "desc": "Wardens gain increased total Armor",
+        "stats": [
+            "+150% Armor",
+            "+300% Armor",
+            "+999% Armor"
+        ],
+        "abstract": "bond:AR:(150/300/999)"
+    },
+    "Wind": {
+        "desc": "All allies gain dodge chance",
+        "stats": [
+            "20% dodge chance",
+            "25% dodge chance",
+            "35% dodge chance"
+        ],
+        "abstract": "team:DC:(20/25/35)"
+    }
+}

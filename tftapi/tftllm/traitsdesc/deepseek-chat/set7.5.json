@@ -1,0 +1,280 @@
+[
+    {
+        "name": "Assassin",
+        "desc": "Innate: Leap to the enemy backline when combat starts.<br><br>Assassins' Abilities can critically strike and they gain bonus Critical Strike Chance and bonus Critical Strike Damage.",
+        "stats": [
+            "+20% Crit Chance and +10% Crit Damage",
+            "+50% Crit Chance and +25% Crit Damage",
+            "+75% Crit Chance and +75% Crit Damage"
+        ],
+        "abstract": "bond:CR:(20%/50%/75%), DPS:(10%/25%/75%)"
+    },
+    {
+        "name": "Astral",
+        "desc": "After each player combat, gain an Astral Orb. The total star level of your Astral champions increases the orb quality.<br><br>Astral Champions gains bonus Ability Power.",
+        "stats": [
+            "5 Ability Power",
+            "30 Ability Power",
+            "75 Ability Power"
+        ],
+        "abstract": "bond:AP:(5/30/75)"
+    },
+    {
+        "name": "Bruiser",
+        "desc": "Your team gains bonus maximum Health. Bruisers gain double this bonus.",
+        "stats": [
+            "180 Health",
+            "375 Health",
+            "700 Health",
+            "1500 Health"
+        ],
+        "abstract": "team:HP:(180/375/700/1500); bond:HP:(360/750/1400/3000)"
+    },
+    {
+        "name": "Cannoneer",
+        "desc": "Every 5th attack fires a cannon shot that explodes for physical damage around the target.",
+        "stats": [
+            "150% Attack Damage",
+            "300% Attack Damage",
+            "500% Attack Damage"
+        ],
+        "abstract": "bond:5th_attack_damage:(150%/300%/500%)"
+    },
+    {
+        "name": "Cavalier",
+        "desc": "Innate: Charge quickly towards their target whenever they move.<br><br>Cavaliers gain Armor and Magic Resist. At the start of combat and after each charge, gain 200% the amount for 4 seconds.",
+        "stats": [
+            "35 Armor, 35 Magic Resist",
+            "50 Armor, 50 Magic Resist",
+            "65 Armor, 65 Magic Resist",
+            "85 Armor, 85 Magic Resist",
+            "110 Armor, 110 Magic Resist"
+        ],
+        "abstract": "bond:AR/MR:(35/50/65/85/110),charge(70/100/130/170/220)"
+    },
+    {
+        "name": "Darkflight",
+        "desc": "Summon a sacrificial altar.<br>Combat start: the unit placed on the altar is sacrificed, granting a copy of one of the items and bonus Health to each Darkflight champion.<br><br>Emblems and non-craftable items are corrupted when they're copied, instead becoming Darkflight Essence.",
+        "stats": [
+            "500 Health",
+            "750 Health",
+            "1000 Health",
+            "1600 Health"
+        ],
+        "abstract": "bond:HP:(500/750/1000/1600)"
+    },
+    {
+        "name": "Dragon",
+        "desc": "Innate: Requires 2 team slots. <br><br>Dragons provide +3 to the marked trait, and gain additional bonuses based on how many Dragons are on your team.",
+        "stats": [
+            "500 bonus Health",
+            "and 20 Amor and Magic Resist",
+            "and 10%bonus damage",
+            "and +1 to team size",
+            "and Heal 40 Health every second",
+            "and Dragons to ascend"
+        ],
+        "abstract": "\u603b\u7ed3\u4e3a bond:HP:(500), AR/MR:(20), DMG:(10%), team_size:(+1), HP_regen:(40/s), ascend:(//)"
+    },
+    {
+        "name": "Dragonmancer",
+        "desc": "Use the Dragonmancer Blessing item to choose a Hero. The Hero gains massively increased Health and Ability Power, which increases by 20% per star level of your Dragonmancers.",
+        "stats": [
+            "+275 Health, +25 Ability Power",
+            "+575 Health, +40 Ability Power",
+            "+775 Health, +50 Ability Power",
+            "+1000 Health, +70 Ability Power"
+        ],
+        "abstract": "bond:HP:(275/575/775/1000),AP:(25/40/50/70),perStarLevel(20%)"
+    },
+    {
+        "name": "Evoker",
+        "desc": "Evokers gain Mana whenever an ally or enemy casts an Ability.",
+        "stats": [
+            "5 Mana",
+            "8 Mana",
+            "10 Mana"
+        ],
+        "abstract": "bond:MP:(5/8/10)"
+    },
+    {
+        "name": "Guardian",
+        "desc": "Once per combat at 50% Health, Guardians shield themselves and their closest ally for a percent of their maximum Health. Shields stack!",
+        "stats": [
+            "25% of max health shield",
+            "40% of max health shield",
+            "80% of max health shield",
+            "130% of max health shield"
+        ],
+        "abstract": "bond:max HP shield:(25%/40%/80%/130%)"
+    },
+    {
+        "name": "Guild",
+        "desc": "Grant a unique bonus to your team; Guild members gain double the amount. Increases for each Guild member in play!<br><br>Sejuani: +130 Health<br>Twitch: +11% Attack Speed<br>Zippy: +8 Amor and Magic Resist<br>Jayce: +5 Attack Damage and Ability Power<br>Bard: +2 Mana per attack<br>Emblem: +3% Omnivamp",
+        "stats": [
+            "100% Guild bonus",
+            "110% Guild bonus",
+            "120% Guild bonus",
+            "130% Guild bonus",
+            "140% Guild bonus",
+            "150% Guild bonus",
+            "160% Guild bonus",
+            "175% Guild Bonus"
+        ],
+        "abstract": "\u56e2\u961f\u589e\u76ca\u548c\u7f81\u7eca\u5185\u589e\u76ca\u6839\u636e\u4e0d\u540c\u7684\u82f1\u96c4\u6709\u4e0d\u540c\u7684\u6548\u679c\uff0c\u5177\u4f53\u5982\u4e0b\uff1a\nteam:\n- Sejuani: HP:(130)\n- Twitch: AS:(11%)\n- Zippy: AR/MR:(8/8)\n- Jayce: AD/AP:(5/5)\n- Bard: MP per attack:(2)\n- Emblem: OV:(3%)\nbond: Guild bonus:(100%/110%/120%/130%/140%/150%/160%/175%)"
+    },
+    {
+        "name": "Jade",
+        "desc": "Summon movable Jade Statues that grow in power.<br><br>Each combat, allies who start combat adjacent to a statue gain maximum Health healing every 2 seconds and bonus Attack Speed. When a statue is destroyed, it deals 33% of its Health as magic damage to nearby enemies.",
+        "stats": [
+            "1 statue, +2% healing, +10% Attack Speed",
+            "2 statues, +3% healing, +22% Attack Speed",
+            "3 statues, +5% healing, +55% Attack Speed",
+            "4 statues, +8% healing, +88% Attack Speed"
+        ],
+        "abstract": "bond:healing:(2%/3%/5%/8%); bond:AS:(10%/22%/55%/88%)"
+    },
+    {
+        "name": "Lagoon",
+        "desc": "Summon a Seastone. The Seastone grants loot based on the number of Abilities cast by Lagoon champions over time. Lagoon champions also gain Ability Power and Attack Speed.",
+        "stats": [
+            "8 Ability Power, 8% Attack Speed",
+            "30 Ability Power, 30% Attack Speed",
+            "55 Ability Power, 55% Attack Speed",
+            "200 Ability Power, 200% Attack Speed"
+        ],
+        "abstract": "bond:AP/AS:(8/30/55/200)"
+    },
+    {
+        "name": "Mage",
+        "desc": "Mages cast twice and have modified total Ability Power.",
+        "stats": [
+            "80% Ability Power",
+            "105% Ability Power",
+            "135% Ability Power",
+            "195% Ability Power"
+        ],
+        "abstract": "bond:AP:(80%/105%/135%/195%)"
+    },
+    {
+        "name": "Mirage",
+        "desc": "Mirage champions (2/4/6/8) gain a different Trait bonus from game to game.<br><br>Electric Overload: When attacking or being hit by an attack, Mirage units gain a chance to deal 9% of their maximum Health as magic damage to adjacent enemies.<br>\r\n(2) 20% chance<br>\r\n(4) 33% chance<br>\r\n(6) 50% chance<br>\r\n(8) 100% chance<br>\r\n-----------------------------------------\r\n<br>\r\nWarlord's Honor: After winning any combat, gain bonus Health and Ability Power.<br> Increases by 10% per win, stacks up to 5 times!<br>\r\n(2) 200 Health and 20 Ability Power<br>\r\n(4) 300 Health and 30 Ability Power<br>\r\n(6) 450 Health and 45 Ability Power<br>\r\n(8) 600 Health and 60 Ability Power<br>\r\n-----------------------------------------\r\n<br>Pirate's Greed: Gain a chest of loot after each player combat.<br>\r\n(2) Gain a deckhand's chest.<br>\r\n(4) Gain a lieutenant's chest.<br>\r\n(6) Gain a captain's chest.<br>\r\n(8) Gain a admiral's chest.<br>\r\n-----------------------------------------\r\n<br>Dawnbringer's Determination: Once per combat, rapidly heal at 50% Health<br>(2) Heal 40% maximum Health<br>\r\n(4) Heal 65% maximum Health<br>\r\n(6) Heal 65% maximum Health; heal a 2nd time<br>\r\n(8) Heal 110% maximum Health; heal a 2nd time<br>\r\n-----------------------------------------\r\n<br>Executioner's Edge: Always critically strike low Heath targets with Attacks and Abilities. Gain bonus Critial Strike Damage.<br>\r\n(2) at 50% Health, +20% Crit Damage<br>\r\n(4) at 65% Health, +30% Crit Damage<br>\r\n(6) at 80% Health, +40% Crit Damage<br>\r\n(8) at 100% Health, +50% Crit Damage<br>\r\n-----------------------------------------\r\n<br>Spellsword's Enchantment: Each player combat, gain Ability Power per attack.<br>\r\n(2) 5 Ability Power<br>\r\n(4) 8 Ability Power<br>\r\n(6) 12 Ability Power<br>\r\n(8) 20 Ability Power<br>\r\n-----------------------------------------\r\n<br>Duelist's Dexterity: Innate: Mirage units move faster.<br>Attacks grant bonus Attack Speed, up to 10 stacks.<br>\r\n(2) 6% Attack Speed per stack<br>\r\n(4) 12% Attack Speed per stack<br>\r\n(6) 20% Attack Speed per stack<br>\r\n(8) 30% Attack Speed per stack",
+        "stats": [
+            "??? (Randomly selected per game)",
+            "??? (Randomly selected per game)",
+            "??? (Randomly selected per game)",
+            "??? (Randomly selected per game)"
+        ],
+        "abstract": "\u603b\u7ed3\u4e3a bond:\u968f\u673a\u6548\u679c:(Electric Overload/Warlord's Honor/Pirate's Greed/Dawnbringer's Determination/Executioner's Edge/Spellsword's Enchantment/Duelist's Dexterity)"
+    },
+    {
+        "name": "Monolith",
+        "desc": "",
+        "stats": [
+            "Terra empowers 3 hexes on the battlefield. Combat start: units standing in the hex at the start of combat gain 18% damage reduction."
+        ],
+        "abstract": "bond:damage reduction:(18%//)"
+    },
+    {
+        "name": "Mystic",
+        "desc": "Your team gains Magic Resist.",
+        "stats": [
+            "40 Magic Resist",
+            "80 Magic Resist",
+            "150 Magic Resist",
+            "300 Magic Resist"
+        ],
+        "abstract": "team:MR:(40/80/150/300)"
+    },
+    {
+        "name": "Prodigy",
+        "desc": "",
+        "stats": [
+            "Nomsy gains a random trait each game. She summons a former Trainer to aid her in battle, who also gains this trait.<br><br>Trainers' Ability Power is always equal to Nomsy's Ability Power. When Nomsy dies, Trainers gain 100% Attack Speed."
+        ],
+        "abstract": "bond:\u968f\u673a\u7279\u8d28(//); bond:AP\u540c\u6b65(//); bond:AS(100%)"
+    },
+    {
+        "name": "Ragewing",
+        "desc": "Innate: Convert Mana to Rage; attacks generate 15 Rage. After casting an Ability, enrage for 4 seconds: +25% Attack Speed but can't gain Rage.<br><br>Gain stats when enraged:",
+        "stats": [
+            "+50% Attack Speed and +15% Omnivamp (healing for a percentage of damage dealt)",
+            "+100% Attack Speed and +30% Omnivamp",
+            "+150% Attack Speed and +45% Omnivamp",
+            "+325% Attack Speed and +85% Omnivamp"
+        ],
+        "abstract": "bond:AS/OV:(50%/15%,100%/30%,150%/45%,325%/85%)"
+    },
+    {
+        "name": "Scalescorn",
+        "desc": "Scalescorns take 15% reduced damage from enemies with more than 1900 Health.",
+        "stats": [
+            "15% magic damage",
+            "50% magic damage",
+            "90% magic damage"
+        ],
+        "abstract": "bond:DMG reduction:(15%/50%/90%) vs >1900HP"
+    },
+    {
+        "name": "Shapeshifter",
+        "desc": "Transforming grants bonus maximum Health.",
+        "stats": [
+            "60% bonus Health",
+            "150% bonus Health"
+        ],
+        "abstract": "bond:HP:(60%/150%)"
+    },
+    {
+        "name": "Shimmerscale",
+        "desc": "Grant exclusive random Shimmerscale items.<br><br>You can remove Shimmerscale items by benching the holder.",
+        "stats": [
+            "1 unique item",
+            "2 unique items",
+            "4 unique items",
+            "5 unique items, which includes Crown of Champions"
+        ],
+        "abstract": "bond:Shimmerscale items:(1/2/4/5)"
+    },
+    {
+        "name": "Swiftshot",
+        "desc": "Innate: gain 2 hex Attack Range.<br><br>Swhiftshots gain Attack Speed for each hex between themselves and their target.",
+        "stats": [
+            "10% Attack Speed",
+            "15% Attack Speed",
+            "25% Attack Speed",
+            "40% Attack Speed"
+        ],
+        "abstract": "bond:RG:(2); bond:AS:(10%/15%/25%/40%)"
+    },
+    {
+        "name": "Tempest",
+        "desc": "After 8 seconds, lightning strikes the battlefield. Enemies are stunned for 1 second and take a percent of their maximum Health as true damage. Then, Tempest champions deal increased damage.",
+        "stats": [
+            "10% lightning, 10% unit damage",
+            "20% lightning, 30% unit damage",
+            "30% lightning, 60% unit damage",
+            "45% lightning, 120% unit damage"
+        ],
+        "abstract": "bond:lightning_damage:(10%/20%/30%/45%); bond:unit_damage:(10%/30%/60%/120%)"
+    },
+    {
+        "name": "Warrior",
+        "desc": "Warrior attacks have a 50% chance to increase the damage of their next attack.",
+        "stats": [
+            "+75% damage",
+            "+150% damage",
+            "+275% damage"
+        ],
+        "abstract": "bond:next attack damage:(+75%/+150%/+275%)"
+    },
+    {
+        "name": "Whispers",
+        "desc": "Whispers damage shrinks enemies, reducing their Armor and Magic Resist by 40% for 6 seconds.<br>When they damage a shrunken enemy, Whispers gain stacking bonuses:",
+        "stats": [
+            "+1 Attack Damage and Ability Power",
+            "+3 Attack Damage and Ability Power",
+            "+7 Attack Damage and Ability Power"
+        ],
+        "abstract": "bond:AD/AP:(1/3/7); bond:AR/MR:(-40%/-40%/-40%)"
+    }
+]

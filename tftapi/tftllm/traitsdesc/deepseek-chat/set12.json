@@ -1,0 +1,233 @@
+[
+    {
+        "name": "Arcana",
+        "desc": "Use the Arcana signifier item to choose a High Arcana champion. Each Arcana grants power based on a different condition.<br><br>Gain power for:<br>Ahri: Fielding 3-star champions.<br>Hecarim: Equipping items.<br>Tahm Kench: Activating traits.<br>Xerath: Purchasing Charms.<br>Emblem: Equipping Spatula items.",
+        "stats": [
+            "Arcana's effect to theirs.",
+            "Arcana's effect to theirs.",
+            "Arcana's effect to theirs.",
+            "Arcana's effect to theirs."
+        ],
+        "abstract": "\u603b\u7ed3\u4e3a bond:Arcana's effect to theirs:(//)"
+    },
+    {
+        "name": "Bastion",
+        "desc": "Your team gains 10 Armor and Magic Resist.<br><br>Bastions gain more, and the value doubles in the first 10 seconds of combat.",
+        "stats": [
+            "15 AR/MR",
+            "40 AR/MR",
+            "100 AR/MR",
+            "200 AR/MR and 2 champions starting combat in the back 2 rows are invulnerable until 4 Bastions die"
+        ],
+        "abstract": "team:AR/MR:(10/10/10/10); bond:AR/MR:(15/40/100/200), first10s(30/80/200/400), back2rows_invulnerable(//)"
+    },
+    {
+        "name": "Blaster",
+        "desc": "Blasters gain Damage Amp, which increases for 3 seconds after casting their Ability.",
+        "stats": [
+            "12% Dmg Amp; 30% during burst",
+            "35% Dmg Amp; 65% during burst",
+            "45% Dmg Amp; 100% during burst"
+        ],
+        "abstract": "bond:DA:(12%/35%/45%),during burst(30%/65%/100%)"
+    },
+    {
+        "name": "Chrono",
+        "desc": "Chronos gain 15 Ability Power.<br><br>Combat start: begin a 10 second countdown, which speeds up by 1 second after each Chrono Ability cast. At the end of the countdown, gain a special effect.",
+        "stats": [
+            "Your team restores 15% health; Chronos gain 20 Ability Power",
+            "AND freeze time for 3 seconds, Chronos keep fighting and gain 55 Ability Power",
+            "Freeze time for 4 seconds, your team heals 100% health; Chronos keep fighting and gain 70 Ability Power and 35% Attack Speed"
+        ],
+        "abstract": "bond:AP:(15/20/55/70),AS:(0/0/0/35%); team:HP:(15%//100%)"
+    },
+    {
+        "name": "Dragon",
+        "desc": "",
+        "stats": [
+            "Dragon attacks and Abilities 1% Burn and Wound enemies for 5 seconds.",
+            "The power of friendship upgrades all dragon Abilities!"
+        ],
+        "abstract": "bond:Burn/Wound(1%); dragon abilities enhanced(//)"
+    },
+    {
+        "name": "Eldritch",
+        "desc": "When your team loses 20% of their Health, an Old God awakens. It gains 25% Health and 10% Ability Power for each Eldritch star level.",
+        "stats": [
+            "The Tainted Golem",
+            "The Dark Monolith",
+            "The Many-Eyed Beast",
+            "The Stormbringer"
+        ],
+        "abstract": "\u603b\u7ed3\u4e3a bond:summon:(The Tainted Golem/The Dark Monolith/The Many-Eyed Beast/The Stormbringer), awaken at 20% HP loss, +25% HP and +10% AP per star level"
+    },
+    {
+        "name": "Faerie",
+        "desc": "Faeries gain Health and create special items that become stronger with trait tiers.<br><br>Only Faeries can hold Faerie items.",
+        "stats": [
+            "150 Health, Gain Queen's Crown that grants 30% Damage Amp",
+            "400 Health, Crown 45% Damage Amp, Gain Queenguard's Armor",
+            "700 Health, Crown 65% Damage Amp, Gain a 2nd Crown",
+            "999 Health, Crown 66% Damage Amp, Items become Radiant"
+        ],
+        "abstract": "bond:HP:(150/400/700/999),DA:(30%/45%/65%/66%),special_items:(1/2/2/2)"
+    },
+    {
+        "name": "Frost",
+        "desc": "Frost champions gain Ability Power and Attack Damage. The first few enemies to die become allied ice soldiers which lure enemy attacks if they are within range and retargeting.<br><br>Soldiers have 200 Health per stage.",
+        "stats": [
+            "16% AD/AP, 1 soldier",
+            "40% AD/AP, 2 soldiers",
+            "55% AD/AP, 3 soldiers, soldiers explode on death",
+            "90% AD/AP, 4 soldiers, explosion power doubles"
+        ],
+        "abstract": "bond:AD/AP:(16%/40%/55%/90%), soldiers:(1/2/3/4), explode:(//3/4), explosion_power:(//4)"
+    },
+    {
+        "name": "Honeymancy",
+        "desc": "Honeymancy gain 5 Bees That deal magic damage to their target every 3 seconds. Each Bee deals damage based on the damage a Honeymancer deals and takes.<br><br>When a Honeymancer dies, they leave 1/1/3 Bee that follows nearby Honeymancers for the rest of combat.",
+        "stats": [
+            "7% of damage dealt, 3% of damage taken",
+            "13% of damage dealt, 5% of damage taken",
+            "20% of damage dealt, 10% of damage taken. Bees deal damage twice as often."
+        ],
+        "abstract": "bond:Bees damage:(7% of damage dealt, 3% of damage taken/13% of damage dealt, 5% of damage taken/20% of damage dealt, 10% of damage taken, attack speed doubled); bond:Bees on death:(1/1/3)"
+    },
+    {
+        "name": "Hunter",
+        "desc": "Hunters gain Attack Damage, increased the first time they get a takedown each combat.",
+        "stats": [
+            "15% AD, 35% after takedown",
+            "40% AD, 65% after takedown",
+            "70% AD, 100% after takedown, 20% AS"
+        ],
+        "abstract": "bond:AD:(15%/40%/70%),after_takedown(35%/65%/100%); bond:AS:(// //20%)"
+    },
+    {
+        "name": "Incantor",
+        "desc": "Your team gains 10 Ability Power.<br><br>When Incantors attack or cast, all Incantors gain stacks of Ability Power up to 40. Every other attack grants 1 stack, and each Ability cast grants 5 stacks.",
+        "stats": [
+            "1 AP per stack",
+            "2 AP per stack; your team gains 30 AP"
+        ],
+        "abstract": "team:AP:(10/10/30); bond:AP per stack:(1/2), max stack:40"
+    },
+    {
+        "name": "Mage",
+        "desc": "Mages cast their Abilities twice and have modified total Ability Power.",
+        "stats": [
+            "85% Ability Power",
+            "95% Ability Power",
+            "110% Ability Power",
+            "200% Ability Power, Mages cast MUCH more frequently"
+        ],
+        "abstract": "bond:AP:(85%/95%/110%/200%),cast_frequency:(//)"
+    },
+    {
+        "name": "Multistriker",
+        "desc": "Multistrikers' attacks have a chance to trigger 2 extra attacks.",
+        "stats": [
+            "25% chance",
+            "65% chance",
+            "80% chance; heal 3% max Health every attack",
+            "100% chance; heal 10% max Health every attack"
+        ],
+        "abstract": "bond:trigger extra attacks:(25%/65%/80%/100%); bond:heal:(0%/0%/3%/10%)"
+    },
+    {
+        "name": "Portal",
+        "desc": "Combat start: Portal champions Shield for 15 seconds.<br><br>Objects from other dimensions fly out of a portal every few seconds to help allies and disrupt enemies. The portal becomes 8% stronger for each Portal champion's star level.",
+        "stats": [
+            "200 Shield, Small portal",
+            "450 Shield, Medium portal",
+            "700 Shield, Large portal",
+            "1500 Shield, GIGA portal"
+        ],
+        "abstract": "bond:Shield:(200/450/700/1500),portal_strength:+8%_per_star_level"
+    },
+    {
+        "name": "Preserver",
+        "desc": "Your team heals for a percent of their max Health every 3 seconds. If they're full Health, restore Mana instead.<br><br>Preservers gain double the amount.",
+        "stats": [
+            "2% HP or 3% MP",
+            "4% HP or 5% MP",
+            "6% HP or 7% MP",
+            "9% HP or 11% MP"
+        ],
+        "abstract": "team:HP/MP:(2%/3%,4%/5%,6%/7%,9%/11%); bond:HP/MP:(4%/6%,8%/10%,12%/14%,18%/22%)"
+    },
+    {
+        "name": "Pyro",
+        "desc": "Your team gains 3% Attack Speed. Pyro champions gain more Attack Speed and execute enemies under 10% Health.<br><br>For each kill, Pyro champions create an infernal cinder that you collect the next round. For every 5 cinders you collect, your team gains 2% more Attack Speed.",
+        "stats": [
+            "5% AS",
+            "25% AS",
+            "50% AS",
+            "65% AS and execute under 15% Health"
+        ],
+        "abstract": "team:AS:(3%//); bond:AS:(5%/25%/50%/65%), execute:(10%/15%)"
+    },
+    {
+        "name": "Scholar",
+        "desc": "Scholars gain bonus Mana on attack. Also gain an Ability.",
+        "stats": [
+            "3 Mana per attack, 10 AP",
+            "6 Mana per attack, 20 AP",
+            "12 Mana per attack, 20 AP, and Abilities heal an ally for 10% of the damage dealt"
+        ],
+        "abstract": "bond:MP/attack:(3/6/12), AP:(10/20/20), Abilities heal ally 10% dmg(//)"
+    },
+    {
+        "name": "Shapeshifter",
+        "desc": "Shapeshifters gain bonus max Health. After their first Ability cast, they triple this effect.",
+        "stats": [
+            "10% Health",
+            "18% Health",
+            "27% Health",
+            "33% Health, 6% HP regen per 2 seconds"
+        ],
+        "abstract": "bond:HP:(10%/18%/27%/33%),after1stAbility(30%/54%/81%/99%),HP regen:(//6%)"
+    },
+    {
+        "name": "Sugarcraft",
+        "desc": "Sugarcrafters build a layer cake from sugar. Gain sugar for each component your champions are holding after player combat.<br><br>They gain Attack Damage and Ability Power, increased by 10% for each cake layer. When the cake has reached 7 layers, gain treats instead!",
+        "stats": [
+            "3 sugar, 22 AD/AP",
+            "4 sugar, 33 AD/AP",
+            "6 sugar, 36 AD/AP, team gains 100 Health",
+            "10 sugar, 50 AD/AP, team gains 500 Health"
+        ],
+        "abstract": "team:HP:(0/0/100/500); bond:AD/AP:(22/33/36/50),sugar:(3/4/6/10)"
+    },
+    {
+        "name": "Vanguard",
+        "desc": "Vanguards gain 10% Durability while Shielded.<br><br>Combat start and at 50% Health: Gain a Shield for a percent of max Health for 10 seconds.",
+        "stats": [
+            "18% max Health",
+            "35% max Health",
+            "50% max Health, 15% Durability while Shielded"
+        ],
+        "abstract": "bond:Shield:(18%/35%/50%),DR while Shielded:(10%/10%/15%)"
+    },
+    {
+        "name": "Warrior",
+        "desc": "Warriors gain Omnivamp and Damage Amp. When Warriors drop below 70% health, they gain double Damage Amp.",
+        "stats": [
+            "10% Omnivamp, 10% Damage Amp",
+            "20% Omnivamp, 20% Damage Amp",
+            "25% Omnivamp, 25% Damage Amp, 15% Durability"
+        ],
+        "abstract": "bond:OV:(10%/20%/25%); bond:DA:(10%/20%/25%), below70%health(20%/40%/50%); bond:DR:(//15%)"
+    },
+    {
+        "name": "Witchcraft",
+        "desc": "Now poisons enemies, dealing 4% of their maximum HP per second as magic damage.",
+        "stats": [
+            "smaller, losing 120 of their max Health",
+            "AND green, taking 6% of their max Health as magic damage per second",
+            "AND frail, taking 25% bonus true damage from Witches",
+            "AND a frog, stunned for 2 seconds every 8 seconds. All other curse effects are increased by 50%."
+        ],
+        "abstract": "\u603b\u7ed3\u4e3a bond:poison:(4% maxHP magic damage per second); bond:curse:(smaller: -120 maxHP, green: 6% maxHP magic damage per second, frail: 25% bonus true damage from Witches, frog: stun 2s every 8s +50% other curse effects)"
+    }
+]

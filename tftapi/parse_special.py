@@ -24,8 +24,8 @@ def set13_teamup():
         {
             'key': trt['key'],
             'name': trt['name'],
-            'styles': trt['styles'],
-            'stats': trt['stats'],
+            # 'styles': trt['styles'],
+            'stats': trt['stats']['2'],
         }
         for trt in set13_traits
         if str(trt['ingameKey']).startswith('TFT13_Teamup_')

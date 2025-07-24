@@ -1,0 +1,204 @@
+[
+    {
+        "name": "Assassin",
+        "desc": "Innate: At the start of combat Assassins leap to the farthest enemy. Assassins gain bonus Critical Strike Damage.",
+        "stats": [
+            "75% Crit Damage & 5% Crit Chance",
+            "150% Crit Damage & 20% Crit Chance",
+            "225% Crit Damage & 30% Crit Chance"
+        ],
+        "abstract": "bond:DPS:(75%/150%/225%),CR:(5%/20%/30%)"
+    },
+    {
+        "name": "Blademaster",
+        "desc": "Blademaster attacks have a 45% chance to trigger additional attacks on-hit",
+        "stats": [
+            "One Additional Attack",
+            "Two Additional Attacks",
+            "Four Additional Attacks"
+        ],
+        "abstract": "bond:Additional Attacks:(1/2/4)"
+    },
+    {
+        "name": "Brawler",
+        "desc": "Brawlers gain bonus maximum health",
+        "stats": [
+            "250 Bonus Health",
+            "500 Bonus Health",
+            "900 Bonus Health"
+        ],
+        "abstract": "bond:HP:(250/500/900)"
+    },
+    {
+        "name": "Demon",
+        "desc": "Demon basic attacks have a 40% chance to burn 20 mana from their target and return some mana to the attacker.",
+        "stats": [
+            "15 mana returned",
+            "30 mana returned",
+            "45 mana returned"
+        ],
+        "abstract": "bond:burn20MP&returnMP:(15/30/45)"
+    },
+    {
+        "name": "Dragon",
+        "desc": "",
+        "stats": [
+            "Dragons gain 75% resistance to <b>Magic damage</b>"
+        ],
+        "abstract": "bond:Magic damage resistance:(75%)"
+    },
+    {
+        "name": "Elementalist",
+        "desc": "Innate: Elementalists gain double mana from attacks",
+        "stats": [
+            "At the start of combat, summon a Golem"
+        ],
+        "abstract": "bond:double mana from attacks:(//); bond:summon a Golem:(//)"
+    },
+    {
+        "name": "Glacial",
+        "desc": "Glacial attacks gain a chance to stun enemies for 1.5s",
+        "stats": [
+            "20% Chance to Stun",
+            "33% Chance to Stun",
+            "50% Chance to Stun"
+        ],
+        "abstract": "bond:Chance to Stun:(20%/33%/50%)"
+    },
+    {
+        "name": "Guardian",
+        "desc": "",
+        "stats": [
+            "At the start of combat, Guardians grants +40 Armor to adjacent allies. This Armor can stack (except guardians)."
+        ],
+        "abstract": "bond:AR:(40), stackable"
+    },
+    {
+        "name": "Gunslinger",
+        "desc": "Gunslinger attacks gain a 50% chance to trigger additional attacks on-hit",
+        "stats": [
+            "Attack 1 extra enemies",
+            "Attack 2 extra enemies",
+            "Attack 4 extra enemies"
+        ],
+        "abstract": "bond:Attack extra enemies:(1/2/4)"
+    },
+    {
+        "name": "Hextech",
+        "desc": "When combat begins, the ally team launches and detonates a pulse bomb, temporarily disabling nearby enemy items for 5 seconds.",
+        "stats": [
+            "within 1 hexes",
+            "within 2 hexes"
+        ],
+        "abstract": "\u603b\u7ed3\u4e3a team:disable_items:(5s,1hex/5s,2hex)"
+    },
+    {
+        "name": "Imperial",
+        "desc": "Gain Double Damage",
+        "stats": [
+            "1 Random Imperial",
+            "All Imperials"
+        ],
+        "abstract": "bond:Double Damage:(1/All)"
+    },
+    {
+        "name": "Knight",
+        "desc": "All allies block damage taken",
+        "stats": [
+            "15 Damage Blocked",
+            "30 Damage Blocked",
+            "60 Damage Blocked"
+        ],
+        "abstract": "bond:Damage Blocked:(15/30/60)"
+    },
+    {
+        "name": "Ninja",
+        "desc": "The Ninja Trait is only active when you have exactly 1 or all 4 Ninjas.",
+        "stats": [
+            "Ninja gains <b>+50 Attack Damage and Ability Power</b>",
+            "All Ninja gain <b>+80 Attack Damage and Ability Power</b>"
+        ],
+        "abstract": "bond:AD/AP:(50/80)"
+    },
+    {
+        "name": "Noble",
+        "desc": "<b>+50 Armor & MR</b> and <b>heal 30 health</b> on-hit",
+        "stats": [
+            "1 Random Ally",
+            "All Alies"
+        ],
+        "abstract": "bond:AR/MR:(50),HP:(30)"
+    },
+    {
+        "name": "Phantom",
+        "desc": "",
+        "stats": [
+            "At the start of combat, <b>curse</b> a random enemy and set their <b>HP</b> to 100"
+        ],
+        "abstract": "bond:curse enemy HP to 100:(1)"
+    },
+    {
+        "name": "Pirate",
+        "desc": "",
+        "stats": [
+            "At the end of combat against another player, gain <b>up to 4 additional gold</b>"
+        ],
+        "abstract": "bond:gold:(//)"
+    },
+    {
+        "name": "Ranger",
+        "desc": "Rangers gain a chance to double their attack speed every 3s for the next 3s",
+        "stats": [
+            "40% Chance to Double Attack Speed",
+            "70% Chance to Double Attack Speed"
+        ],
+        "abstract": "bond:Chance to Double AS:(40%/70%)"
+    },
+    {
+        "name": "Shapeshifter",
+        "desc": "Shapeshifters gain bonus maximum Health when they transform",
+        "stats": [
+            "60% Bonus <b>Maximum Heath</b>",
+            "100% Bonus <b>Maximum Heath</b>"
+        ],
+        "abstract": "bond:HP:(60%/100%)"
+    },
+    {
+        "name": "Sorcerer",
+        "desc": "Innate: Sorcerers gain double mana from attacks. All Allies have increased Spell Power",
+        "stats": [
+            "+40% Spell Power",
+            "+120% Spell Power",
+            "+200% Spell Power"
+        ],
+        "abstract": "team:AP:(40%/120%/200%); bond:MP:(double)"
+    },
+    {
+        "name": "Void",
+        "desc": "",
+        "stats": [
+            "One random void champion deals true damage this combat",
+            "All your void champions deal true damage this combat"
+        ],
+        "abstract": "bond:true damage:(1 random/all)"
+    },
+    {
+        "name": "Wild",
+        "desc": "Attacks generate stacks of <b>Fury</b> (stacks up to 5 times). Each stack of Fury gives 10% <b>Attack Speed</b>",
+        "stats": [
+            "Wild Allies Only",
+            "All Allies (their basic attacks can\u2019t miss)"
+        ],
+        "abstract": "bond:AS:(10%/10%/10%/10%/10%) [max5], team:basic attacks can't miss:(1/2)"
+    },
+    {
+        "name": "Yordle",
+        "desc": "Yordles gain a chance to dodge enemy attacks",
+        "stats": [
+            "30% Chance to Dodge",
+            "60% Chance to Dodge",
+            "90% Chance to Dodge"
+        ],
+        "abstract": "bond:DC:(30%/60%/90%)"
+    }
+]

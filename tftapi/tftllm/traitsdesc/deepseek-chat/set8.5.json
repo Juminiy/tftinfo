@@ -1,0 +1,251 @@
+[
+    {
+        "name": "Ace",
+        "desc": "This trait is active only when you have exactly 1 or 4 unique Aces.",
+        "stats": [
+            "Execute enemies under 15% Health",
+            "Execute enemies under 33% Health"
+        ],
+        "abstract": "bond:Execute:(15%/33%)"
+    },
+    {
+        "name": "A.D.M.I.N.",
+        "desc": "A.D.M.I.N. programs a custom configuration per player each game.<br><br>4 Piece Multiplier: 25%<br>On Cast AP: 18<br>On Cast AD: 18%<br>On Cast Chance to Drop Gold: 33%<br>On Cast Flat Heal: 250<br>On Cast Permanent HP: 12<br>On Kill, Unit who killed Heals: 400\r\n<br>On Kill, Unit who killed gains Permanent HP: 18<br>on dropping below 66% HP, A.D.M.I.N. gains AP: 60<br>on dropping below 66% HP, A.D.M.I.N. gains AD: 60<br>on dropping below 66% HP, A.D.M.I.N. gains AS: 60<br>on dropping below 66% HP, A.D.M.I.N. gains Shield: 15 sec<br>on dropping below 66% HP, A.D.M.I.N. gains Permanent HP: 45<br>on Ally Death AP: 15<br>on Ally Death AD: 15<br>on Ally Death AS: 15<br>on Ally Death flat Heal: 250<br>on Ally Death Gold Chance: 20%<br>on Ally Death Permanent HP: 10<br>Combat Start chance to drop Gold: 50%<br>Combat Start permanent HP: 40<br>Every 5 sec, A.D.M.I.N. gains AP: 20<br>Every 5 sec, A.D.M.I.N. gains Mana: 40<br>Every 5 sec, A.D.M.I.N. chance to drop Gold: 25%<br>Every 5 sec, permanent HP: 10<br>Combat Start, Team gains permanent HP: 20<br>Combat Start, Team gains chance to drop Gold: 25%<br>Combat Start, Team gains max HP Shield: 25%<br>every 5 sec, Team gains Mana: 20<br>every 5 sec, Team chance to drop Gold: 15%<br>every 5 sec, Team gains permanent HP: 6<br>every 5 sec, Team heals: 150",
+        "stats": [
+            "[Initialize ADMIN cause and effect]",
+            "[Add another effect to the program]. Boost all tiers by 25%",
+            "Boost previous tiers by 100%"
+        ],
+        "abstract": "\u603b\u7ed3\u4e3a:\nteam:HP:(20),GoldDrop:(25%),Shield:(25%),MP:(20),GoldDrop:(15%),HP:(6),Heal:(150);\nbond:AP:(18),AD:(18%),GoldDrop:(33%),Heal:(250),HP:(12),Heal:(400),HP:(18),AP:(60),AD:(60),AS:(60),Shield:(15s),HP:(45),AP:(15),AD:(15),AS:(15),Heal:(250),GoldDrop:(20%),HP:(10),GoldDrop:(50%),HP:(40),AP:(20),MP:(40),GoldDrop:(25%),HP:(10)\n\u8bf4\u660e:\n1. \u56e2\u961f\u589e\u76ca(team)\u5305\u62ec\u6218\u6597\u5f00\u59cb\u65f6\u548c\u6bcf5\u79d2\u7684\u6548\u679c\n2. \u7f81\u7eca\u5185\u589e\u76ca(bond)\u5305\u62ec\u5404\u79cd\u89e6\u53d1\u6761\u4ef6\u548c\u6548\u679c\n3. \u7531\u4e8estats\u4e2d\u6ca1\u6709\u660e\u786e\u7684\u6570\u503c\u63d0\u5347\u63cf\u8ff0\uff0c\u4e3b\u8981\u6839\u636edesc\u4e2d\u7684\u6548\u679c\u8fdb\u884c\u603b\u7ed3\n4. 4\u4ef6\u5957\u6548\u679c(25%\u63d0\u5347)\u548c6\u4ef6\u5957\u6548\u679c(100%\u63d0\u5347)\u6ca1\u6709\u5177\u4f53\u8bf4\u660e\u63d0\u5347\u54ea\u4e2a\u5c5e\u6027\uff0c\u6545\u672a\u5728\u603b\u7ed3\u4e2d\u4f53\u73b0"
+    },
+    {
+        "name": "Aegis",
+        "desc": "Your team gains bonus Magic Resist, and Aegis units gain more.",
+        "stats": [
+            "+20 Magic Resist, +40 for Aegis",
+            "+40 Magic Resist, +80 for Aegis",
+            "+60 Magic Resist, +120 for Aegis",
+            "+90 Magic Resist, +180 for Aegis"
+        ],
+        "abstract": "team:MR:(20/40/60/90); bond:MR:(40/80/120/180)"
+    },
+    {
+        "name": "Anima Squad",
+        "desc": "Anima Squad members pose after champion kills, increasing their fame. Each point of fame grants 5 permanent Health to each Anima Squad member.<br><br>They also gains:",
+        "stats": [
+            "15% Attack Damage and 15 Ability Power",
+            "35% Attack Damage and 35 Ability Power",
+            "60% Attack Damage and 60 Ability Power"
+        ],
+        "abstract": "bond:AD/AP:(15%/35%/60%)"
+    },
+    {
+        "name": "Brawler",
+        "desc": "Brawlers gain additional maximum Health.",
+        "stats": [
+            "+20% maximum Health",
+            "+45% maximum Health",
+            "+70% maximum Health",
+            "+100% maximum Health"
+        ],
+        "abstract": "bond:HP:(+20%/+45%/+70%/+100%)"
+    },
+    {
+        "name": "Spellslinger",
+        "desc": "Every 5 seconds, the next attack instead fires a magic orb at a random target, which explodes for 50% Ability Power as magic damage.",
+        "stats": [
+            "+25 Ability Power",
+            "+45 Ability Power",
+            "+70 Ability Power",
+            "+110 Ability Power, Orb Damage 100%"
+        ],
+        "abstract": "bond:AP:(25/45/70/110),orb_damage:(50%/50%/50%/100%)"
+    },
+    {
+        "name": "Sureshot",
+        "desc": "Combat start: gain bonus Attack Damage now, and every 4 seconds.",
+        "stats": [
+            "+7% Attack Damage",
+            "+12% Attack Damage",
+            "+18% Attack Damage",
+            "+25% Attack Damage"
+        ],
+        "abstract": "bond:AD:(7%/12%/18%/25%)"
+    },
+    {
+        "name": "Defender",
+        "desc": "Your team gains bonus Armor, and Defenders gain more.",
+        "stats": [
+            "+25 Armor, +50 for Defenders",
+            "+70 Armor, +150 for Defenders",
+            "+180 Armor, +400 for Defenders"
+        ],
+        "abstract": "team:AR:(25/70/180); bond:AR:(50/150/400)"
+    },
+    {
+        "name": "Duelist",
+        "desc": "Innate: increased movement speed.<br><br>Duelists' basic attacks grant bonus Attack Speed, up to 12 stacks.",
+        "stats": [
+            "+5% Attack Speed per stack",
+            "+8% Attack Speed per stack",
+            "+10% Attack Speed per stack, Duelist take 10% less damage",
+            "+16% Attack Speed per stack, Duelist take 20% less damage"
+        ],
+        "abstract": "bond:AS per stack:(5%/8%/10%/16%), damage reduction:(10%/20%)"
+    },
+    {
+        "name": "Mecha: PRIME",
+        "desc": "Use the Mecha selector item to choose a PRIME.<br><br>Combat start: the PRIME combines with the 2 nearest Mecha, absorbing 90% of their Health.",
+        "stats": [
+            "The PRIME gains 60 Ability Power and 60% Attack Damage",
+            "All Mechas gain 55 Ability Power and 55% Attack Damage; The PRIME gains double this amount."
+        ],
+        "abstract": "bond:AP/AD:(60/55),PRIME(120/110); bond:HP:(90% absorbed)"
+    },
+    {
+        "name": "Gadgeteen",
+        "desc": "Each round, Gadgeteens create random modified weapons with powerful effects that fall apart after one round. Gadgeteens also gain Damage and Damage Reduction for each item equipped to them.",
+        "stats": [
+            "Create 1 item, 4% per item.",
+            "Create 2 item, 8% per item."
+        ],
+        "abstract": "bond:Create item:(1/2), per item:(4% DMG & DMG Reduction/8% DMG & DMG Reduction)"
+    },
+    {
+        "name": "Quickdraw",
+        "desc": "After every 2 damaging ability projectiles, Quickdraw units fire a bonus ability projectile. Bonus shots deal:",
+        "stats": [
+            "70% total damage.",
+            "150% total damage.",
+            "235% total damage."
+        ],
+        "abstract": "bond:BonusShotDMG:(70%/150%/235%)"
+    },
+    {
+        "name": "Hacker",
+        "desc": "Hackers gain Omnivamp and summon a H4ckerr!m. Any unit placed in the rider hex will be sent to the enemy backline and is untargetable for the first 2 seconds of combat.<br><br>Omnivamp: heal for a percentage of damage dealt",
+        "stats": [
+            "+10% Omnivamp for Hackers",
+            "+20% Omnivamp for Hackers, +15% for the rider.",
+            "+40% Omnivamp for Hackers, +30% for the rider."
+        ],
+        "abstract": "bond:OV:(10/20/40), rider:OV:(15/30)"
+    },
+    {
+        "name": "Heart",
+        "desc": "When Heart units cast their Ability, your team gains stacking Ability Power for the rest of combat.",
+        "stats": [
+            "+4 Ability Power",
+            "+7 Ability Power",
+            "+11 Ability Power"
+        ],
+        "abstract": "team:AP:(4/7/11)"
+    },
+    {
+        "name": "Mascot",
+        "desc": "Your team heals a percentage of their maximum Health every 2 seconds, and Mascots heal double the amount.<br><br>\r\nWhen Mascots die, they retreat to the sidelines to cheer on your team. Your team's healing increased by 1% for each cheering Mascot.",
+        "stats": [
+            "1.5% healing",
+            "3% healing",
+            "6% healing"
+        ],
+        "abstract": "team:HP:(1.5%/3%/6%); bond:HP:(3%/6%/12%)"
+    },
+    {
+        "name": "Ox Force",
+        "desc": "Ox Force units gain bonus defenses. Once per combat, when they would drop below one HP, they instead shield themselves for 50% of their maximum health for 1.5 seconds.",
+        "stats": [
+            "5 Armor and Magic Resist",
+            "35 Armor and Magic Resist",
+            "75 Armor and Magic Resist"
+        ],
+        "abstract": "bond:AR/MR:(5/35/75),shield(50%HP/1.5s)"
+    },
+    {
+        "name": "Parallel",
+        "desc": "",
+        "stats": [
+            "Ezreal learns from his older, more handsome self and joins him in future  adventures.<br><br>Ezreal's Ability becomes a blast that hits all enemies in a line.<br><br>Ultimate Ezreal's Ability summons two additional temporal duplicates."
+        ],
+        "abstract": "\u603b\u7ed3\u4e3a bond:Ability:(//)"
+    },
+    {
+        "name": "Prankster",
+        "desc": "",
+        "stats": [
+            "Once per combat at 50% Health, spawn a target dummy, move to a safe location, and restore 150 Health.",
+            "And, Prankster dummies stun the enemy that killed them for 1.5 seconds.",
+            "The Health restore is increased to 350 Health and the stun duration become 2 second."
+        ],
+        "abstract": "bond:once per combat at 50% HP:spawn dummy,move,restore HP(150/350),prankster dummy stun(1.5s/2s)"
+    },
+    {
+        "name": "InfiniTeam",
+        "desc": "The InfiniTeam opens a portal to an alternate timeline. At the start of combat, any InfiniTeam unit placed on a portal summons an alternate version of themself with different items. They get 1 for each Augment you own.<br><br>The copies have reduced Health and damage.",
+        "stats": [
+            "1 portal opens, 45% damage and 45% HP.",
+            "2 portal opens, 50% damage and 50% HP.",
+            "2 portal opens, 85% damage and 85% HP."
+        ],
+        "abstract": "bond:portals:(1/2/2),copy_stats:(45%/50%/85%)"
+    },
+    {
+        "name": "Renegade",
+        "desc": "Renegade units deal bonus damage, and the last sone standing deals more.",
+        "stats": [
+            "25% bonus damage, 20% for last alive",
+            "40% bonus damage, 30% for last alive",
+            "70% bonus damage, 40% for last alive"
+        ],
+        "abstract": "bond:DA:(25%/40%/70%),lastalive(20%/30%/40%)"
+    },
+    {
+        "name": "Riftwalker",
+        "desc": "Riftwalkers open a gap between dimensions and summon their ally Zac, who grows in power based on the star level of Riftwalkers.<br><br> Zac gains the last-listed Trait of the closest Riftwalker.",
+        "stats": [
+            "Summon Zac"
+        ],
+        "abstract": "bond:Summon Zac:(//)"
+    },
+    {
+        "name": "LaserCorps",
+        "desc": "When a LaserCorp agent attacks or is hit by an attack, their combat drone deal magic damage to the agent's target (0.4 second cooldown). When a LaserCorps agent dies, their drone is reassigned to the nearest living agent.<br><br>Drones lasers deal:",
+        "stats": [
+            "27 magic damage.",
+            "35 magic damage. All units get a LaserCorp drone.",
+            "55 magic damage. All units get a LaserCorp drone.",
+            "80 magic damage. All units get a LaserCorp drone."
+        ],
+        "abstract": "bond:magic damage:(27/35/55/80); team:all units get a LaserCorp drone:(2/3/4)"
+    },
+    {
+        "name": "Star Guardian",
+        "desc": "Gain more Mana from all sources.",
+        "stats": [
+            "30% additional mana",
+            "60% additional mana",
+            "100% additional mana",
+            "175% additional mana"
+        ],
+        "abstract": "bond:MP:(30%/60%/100%/175%)"
+    },
+    {
+        "name": "Supers",
+        "desc": "",
+        "stats": [
+            "Combat start: strike a pose that grants your team 18% bonus damage, which increases by 3% for every 3-star champion on your team."
+        ],
+        "abstract": "team:DA:(18%+3% per 3-star)"
+    },
+    {
+        "name": "Underground",
+        "desc": "The Underground must sneak through the sewers and crack 10 locks to open a vault. When the vault opens, you may choose to take the loot now, or attempt another heist for even better rewards.",
+        "stats": [
+            "Crack 2 vault lock after a player combat win, and 3 after a player combat loss",
+            "Crack 2 vault lock after a player combat win, and 4 after a player combat loss",
+            "Crack 3 vault lock after a player combat win, and 5 after a player combat loss",
+            "Crack 4 vault lock after a player combat win, and 7 after a player combat loss"
+        ],
+        "abstract": "\u603b\u7ed3\u4e3a bond:vault_lock:(win:2/2/3/4,loss:3/4/5/7)"
+    }
+]

@@ -1,0 +1,201 @@
+[
+    {
+        "name": "Astro",
+        "desc": "",
+        "stats": [
+            "Astro Champions reduce their mana costs by 30"
+        ],
+        "abstract": "bond:MP cost reduction:(30)"
+    },
+    {
+        "name": "Battlecast",
+        "desc": "Battlecast champions, upon dealing or taking 10 instances of damage, heal if below half health, or deal magic damage to the nearest enemy if above half.",
+        "stats": [
+            "80 Healing or Damage",
+            "180 Healing or Damage",
+            "480 Healing or Damage",
+            "1000 Healing or Damage"
+        ],
+        "abstract": "bond:Healing or Damage:(80/180/480/1000)"
+    },
+    {
+        "name": "Chrono",
+        "desc": "All allies gain 15% Attack Speed every some seconds.",
+        "stats": [
+            "every 8 seconds",
+            "every 3 seconds",
+            "every 1 seconds",
+            "every 0.5 seconds"
+        ],
+        "abstract": "team:AS:(15%/15%/15%/15%); bond:interval:(8/3/1/0.5s)"
+    },
+    {
+        "name": "Cybernetic",
+        "desc": "Cybernetic champions with at least one item gain Health and Attack Damage.",
+        "stats": [
+            "300 Health and 35 Attack Damage",
+            "550 Health and 70 Attack Damage"
+        ],
+        "abstract": "bond:HP/AD:(300/550),bond:AD:(35/70)"
+    },
+    {
+        "name": "Dark Star",
+        "desc": "When any ally champion dies, all other allied Dark Star Champions gain Attack Damage and Spell Power",
+        "stats": [
+            "Attack Damage and Spell Power +8",
+            "Attack Damage and Spell Power +18",
+            "Attack Damage and Spell Power +28",
+            "Attack Damage and Spell Power +48"
+        ],
+        "abstract": "bond:AD/AP:(8/18/28/48)"
+    },
+    {
+        "name": "Demolitionist",
+        "desc": "",
+        "stats": [
+            "Damage from Demolitionists' spellcasts stun their for 1.50 seconds. (Once per spellcast)"
+        ],
+        "abstract": "bond:stun:(1.5s)"
+    },
+    {
+        "name": "Infiltrator",
+        "desc": "Innate: At the start of combat, Infiltrators move to the enemy's backline. Infiltrators gain Attack Speed for 6 seconds at the start of combat, refreshes on takedown",
+        "stats": [
+            "40% Bonus Attack Speed",
+            "80% Bonus Attack Speed",
+            "150% Bonus Attack Speed"
+        ],
+        "abstract": "bond:AS:(40%/80%/150%),duration6s"
+    },
+    {
+        "name": "Mana-Reaver",
+        "desc": "",
+        "stats": [
+            "Mana-Reaver attacks increase the mana cost of their target\u2019s next spell by 30%"
+        ],
+        "abstract": "bond:Increase mana cost of next spell:(30%)"
+    },
+    {
+        "name": "Mech-Pilot",
+        "desc": "The Super-Mech has the traits of its pilots, 3random items from among them and gains 65% of the combined pilot's health and attack damage When the Super-Mech dies the Piots are ejected with 35% of thier maximun health and continue of fight",
+        "stats": [
+            "At the start of combat, three random mech-pilots are teleported into a super-mech"
+        ],
+        "abstract": "\u603b\u7ed3\u4e3a bond:combine_pilots:(//)"
+    },
+    {
+        "name": "Protector",
+        "desc": "Protectors shield themselves for 4 seconds whenever they cast a spell. This shield doesn't stack.",
+        "stats": [
+            "30% Maximum Health Shield",
+            "40% Maximum Health Shield",
+            "50% Maximum Health Shield"
+        ],
+        "abstract": "bond:HP Shield:(30%/40%/50%)"
+    },
+    {
+        "name": "Rebel",
+        "desc": "At the start of combat, Rebels gain a shield and increased damage for each adjacent Rebel. The shield lasts for 8 seconds.",
+        "stats": [
+            "150 Shield & 10% Damage",
+            "225 Shield & 12% Damage",
+            "400 Shield & 20% Damage"
+        ],
+        "abstract": "bond:Shield:(150/225/400), bond:Damage:(10%/12%/20%)"
+    },
+    {
+        "name": "Blademaster",
+        "desc": "Blademasters' Basic Attacks have a chance to trigger two additional attacks against their target. These additional attacks deal damage like Basic Attacks and trigger on-hit effects.",
+        "stats": [
+            "30% Chance to trigger",
+            "65% Chance to trigger",
+            "100% Chance to trigger"
+        ],
+        "abstract": "bond:Chance to trigger additional attacks:(30%/65%/100%)"
+    },
+    {
+        "name": "Blaster",
+        "desc": "Every fourth Basic Attack from a Blaster fires additional attacks at random enemies. These additional attacks deal damage like Basic Attacks, trigger on-hit effects and can critically hit.",
+        "stats": [
+            "3 Additional Attacks",
+            "6 Additional Attacks"
+        ],
+        "abstract": "bond:Additional Attacks:(3/6)"
+    },
+    {
+        "name": "Brawler",
+        "desc": "Brawlers gain bonus Maximum Health.",
+        "stats": [
+            "350 Bonus Health",
+            "600 Bonus Health"
+        ],
+        "abstract": "bond:HP:(350/600)"
+    },
+    {
+        "name": "Celestial",
+        "desc": "All allies heal for some of the damage they deal with spells and attacks.",
+        "stats": [
+            "15% Healing",
+            "45% Healing",
+            "150% Healing"
+        ],
+        "abstract": "team:OV:(15%/45%/150%)"
+    },
+    {
+        "name": "Mystic",
+        "desc": "All allies gain Magic Resistance.",
+        "stats": [
+            "50 Magic Resistance",
+            "120 Magic Resistance"
+        ],
+        "abstract": "team:MR:(50/120)"
+    },
+    {
+        "name": "Sorcerer",
+        "desc": "All allies have increased Spell Power.",
+        "stats": [
+            "20% Spell Power",
+            "40% Spell Power",
+            "70% Spell Power"
+        ],
+        "abstract": "team:AP:(20%/40%/70%)"
+    },
+    {
+        "name": "Sniper",
+        "desc": "Snipers deal increased damage for each hex between themselves and their target.",
+        "stats": [
+            "9% increased damage for each hex",
+            "16% increased damage for each hex"
+        ],
+        "abstract": "bond:Damage per hex:(9%/16%)"
+    },
+    {
+        "name": "Space Pirate",
+        "desc": "Whenever a Space Pirate lands a killing blow on a Champion there is a chance to drop extra loot.",
+        "stats": [
+            "50% for 1 gold",
+            "50% for 1 gold and 33% for a component item"
+        ],
+        "abstract": "bond:extra loot:(50% gold/50% gold+33% component)"
+    },
+    {
+        "name": "Star Guardian",
+        "desc": "Star Guardians' spellcasts grant Mana to other Star Guardians spread among them.",
+        "stats": [
+            "15 Total Mana",
+            "25 Total Mana",
+            "60 Total Mana"
+        ],
+        "abstract": "bond:MP:(15/25/60)"
+    },
+    {
+        "name": "Vanguard",
+        "desc": "Vanguard champions gain bonus Armor.",
+        "stats": [
+            "125 Armor",
+            "300 Armor",
+            "900 Armor"
+        ],
+        "abstract": "bond:AR:(125/300/900)"
+    }
+]

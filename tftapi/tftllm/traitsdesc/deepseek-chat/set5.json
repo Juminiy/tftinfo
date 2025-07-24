@@ -1,0 +1,228 @@
+[
+    {
+        "name": "Abomination",
+        "desc": "When 3 allied champions have died, the Monstrosity will rise from its grave. The Monstrosity receives bonus Health and Attack Damage based on allied Abomination champions' star levels.<br><br>The 3 Abomination champions nearest the grave will also grant the Monstrosity a random copy of one of their items when combat starts.",
+        "stats": [
+            "1000 Health, 100 Attack Damage",
+            "1600 Health, 140 Attack Damage",
+            "2200 Health, 180 Attack Damage"
+        ],
+        "abstract": "bond:HP/AD:(1000/1600/2200,100/140/180)"
+    },
+    {
+        "name": "Assassin",
+        "desc": "Innate: When combat starts, Assassins leap to the enemy backline.<br><br>Assassin's Abilities can critically strike and they gain bonus Critical Strike Chance and bonus Critical Strike Damage.",
+        "stats": [
+            "+10% Crit Chance and +25% Crit Damage",
+            "+30% Crit Chance and +55% Crit Damage",
+            "+50% Crit Chance and +90% Crit Damage"
+        ],
+        "abstract": "bond:CR:(10%/30%/50%); bond:DPS:(25%/55%/90%)"
+    },
+    {
+        "name": "Brawler",
+        "desc": "Brawlers gain additional maximum Health.",
+        "stats": [
+            "+400 Health",
+            "+1000 Health"
+        ],
+        "abstract": "bond:HP:(400/1000)"
+    },
+    {
+        "name": "Cavalier",
+        "desc": "Innate: Cavaliers charge quickly towards their target whenever they move.<br><br>Cavaliers take reduced damage. At the start of combat and after each charge, this effect is doubled for 4 seconds.",
+        "stats": [
+            "20% Damage Reduction",
+            "25% Damage Reduction",
+            "30% Damage Reduction"
+        ],
+        "abstract": "bond:DR:(20%/25%/30%),doubled4s(40%/50%/60%)"
+    },
+    {
+        "name": "Coven",
+        "desc": "",
+        "stats": [
+            "At the start of combat, the champion nearest to the center of your Coven champions is chosen as the Coven Leader, gaining 60% bonus Ability Power.<br><br>Each time a Coven champion casts, 15% of the cost is bestowed upon the Coven Leader as Mana."
+        ],
+        "abstract": "bond:AP:(60%), MP:(15% of cost)"
+    },
+    {
+        "name": "Dawnbringer",
+        "desc": "Dawnbringers rapidly heal some of their maximum Health the first time they drop below 50%. When this occurs, all allied Dawnbringers gain 12% bonus damage.",
+        "stats": [
+            "30% of Maximum Health",
+            "60% of Maximum Health",
+            "90% of Maximum Health",
+            "130% of Maximum Health"
+        ],
+        "abstract": "bond:heal:(30%/60%/90%/130%),below50%(once); team:DA:12%"
+    },
+    {
+        "name": "Draconic",
+        "desc": "In Hyper Roll, dragon eggs hatch a lot faster!",
+        "stats": [
+            "At the end of each player combat, gain a dragon egg on your bench. The bigger the egg, the longer it takes to hatch, and the rarer the reward.",
+            "Dragon eggs are golden! Golden eggs hatch into even rarer loot."
+        ],
+        "abstract": "\u603b\u7ed3: team:dragon eggs hatch faster(//); bond:golden eggs(//)"
+    },
+    {
+        "name": "Dragonslayer",
+        "desc": "Dragonslayers gain bonus Ability Power.<br><br> After the first Dragonslayer ally scores a takedown on an enemy with at least 1400 maximum Health, all allies gain additional Ability Power for the rest of the round.",
+        "stats": [
+            "30% Ability Power for Dragonslayers, 20% for team",
+            "70% Ability Power for Dragonslayers, 60% for team",
+            "140% Ability Power for Dragonslayers, 100% for team"
+        ],
+        "abstract": "team:AP:(20%/60%/100%); bond:AP:(30%/70%/140%)"
+    },
+    {
+        "name": "Forgotten",
+        "desc": "Forgotten champions have bonus Attack Damage and Ability Power. Each Shadow item held by a Forgotten champion increases these bonuses by 15% on all Forgotten champions, stacking up to 4 times.",
+        "stats": [
+            "25 Attack Damage and Ability Power",
+            "60 Attack Damage and Ability Power",
+            "120 Attack Damage and Ability Power"
+        ],
+        "abstract": "bond:AD/AP:(25/60/120),shadow_item_stack(15% per stack, max 4 stacks)"
+    },
+    {
+        "name": "Hellion",
+        "desc": "Hellions gain Attack Speed.<br><br>Whenever a Hellion dies, a Doppelhellion (a one less star copy) will leap from the Hellion portal and join the fight!",
+        "stats": [
+            "10% Attack Speed",
+            "55% Attack Speed",
+            "130% Attack Speed"
+        ],
+        "abstract": "bond:AS:(10%/55%/130%)"
+    },
+    {
+        "name": "Invoker",
+        "desc": "All allies gain extra Mana from their attacks.",
+        "stats": [
+            "+3 Mana",
+            "+6 Mana"
+        ],
+        "abstract": "team:MP:(3/6)"
+    },
+    {
+        "name": "Ironclad",
+        "desc": "All allies gain Armor.",
+        "stats": [
+            "35 Armor",
+            "85 Armor",
+            "170 Armor"
+        ],
+        "abstract": "team:AR:(35/85/170)"
+    },
+    {
+        "name": "Knight",
+        "desc": "All allies block a flat amount of damage from all sources.",
+        "stats": [
+            "20 damage blocked",
+            "40 damage blocked",
+            "70 damage blocked"
+        ],
+        "abstract": "team:damage blocked:(20/40/70)"
+    },
+    {
+        "name": "Legionnaire",
+        "desc": "Legionnaires gain bonus Attack Speed, and their first attack after casting an Ability heals them for 50% of the damage dealt.",
+        "stats": [
+            "25% Attack Speed",
+            "65% Attack Speed",
+            "120% Attack Speed",
+            "200% Attack Speed"
+        ],
+        "abstract": "bond:AS:(25%/65%/120%/200%),heal:50% dmg"
+    },
+    {
+        "name": "Mystic",
+        "desc": "All allies gain Magic Resist.",
+        "stats": [
+            "40 Magic Resist",
+            "100 Magic Resist",
+            "200 Magic Resist"
+        ],
+        "abstract": "team:MR:(40/100/200); bond:()"
+    },
+    {
+        "name": "Nightbringer",
+        "desc": "Nightbringers gain a shield for 8 seconds equal to a percent of their maximum Health the first time they drop below 50%. When this occurs, that Nightbringer gains bonus damage.",
+        "stats": [
+            "30% shield, 20% damage",
+            "60% shield, 30% damage",
+            "90% shield, 40% damage",
+            "140% shield, 50% damage"
+        ],
+        "abstract": "bond:shield:(30%/60%/90%/140%),first50%HP; bond:AD:(20%/30%/40%/50%),first50%HP"
+    },
+    {
+        "name": "Ranger",
+        "desc": "Rangers gain bonus Attack Speed every 4 seconds, and lose it every 4 seconds, This effect begins 4 seconds after combat starts.",
+        "stats": [
+            "+75% Attack Speed",
+            "+180% Attack Speed"
+        ],
+        "abstract": "bond:AS:(+75%/+180%), every4s"
+    },
+    {
+        "name": "Redeemed",
+        "desc": "Redeemed champions have increased Armor, Magic Resist, and Ability Power. When they die, their bonus is split among remaining Redeemed allies.",
+        "stats": [
+            "30 Armor & Magic Resist, 30% Ability Power",
+            "55 Armor & Magic Resist, 55% Ability Power",
+            "95 Armor & Magic Resist, 95% Ability Power"
+        ],
+        "abstract": "bond:AR/MR/AP:(30/55/95)"
+    },
+    {
+        "name": "Renewer",
+        "desc": "Renewers heal for a percent of their maximum Health each second. If they're full Health, they restore Mana instead.",
+        "stats": [
+            "3% Health or 3% Mana",
+            "6% Health or 6% Mana",
+            "9% Health or 9% Mana"
+        ],
+        "abstract": "bond:HP/MP:(3%/6%/9%)"
+    },
+    {
+        "name": "Revenant",
+        "desc": "Revenants revive after their first death each combat. Once revived, they take and deal 30% increased damage.",
+        "stats": [
+            "Revive with 10% Health",
+            "Revive with 40% Health",
+            "Revive with 75% Health"
+        ],
+        "abstract": "bond:Revive(10%/40%/75%),DamageAmp(30%)"
+    },
+    {
+        "name": "Skirmisher",
+        "desc": "Skirmishers gain a shield at the start of combat, and bonus Attack Damage each second.",
+        "stats": [
+            "25% max Health shield and +3 Attack Damage",
+            "40% max Health shield and +6 Attack Damage",
+            "75% max Health shield and +12 Attack Damage"
+        ],
+        "abstract": "bond:shield:(25%/40%/75% max HP),AD:(3/6/12) per second"
+    },
+    {
+        "name": "Spellweaver",
+        "desc": "Spellweavers have bonus Ability Power, which increases whenever any champion uses an ability (up to 10 times).",
+        "stats": [
+            "25% Ability Power, 2% bonus Ability Power",
+            "55% Ability Power, 5% bonus Ability Power",
+            "85% Ability Power, 8% bonus Ability Power"
+        ],
+        "abstract": "bond:AP:(25%/55%/85%),stackable(2%/5%/8%)"
+    },
+    {
+        "name": "Verdant",
+        "desc": "Champions that start combat adjacent to at least one Verdant ally are immune to crowd control for a duration.",
+        "stats": [
+            "5 seconds",
+            "8 seconds"
+        ],
+        "abstract": "bond:CC Immunity:(5/8)"
+    }
+]

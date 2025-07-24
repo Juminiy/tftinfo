@@ -1,0 +1,222 @@
+[
+    {
+        "name": "Bastion",
+        "desc": "Your team gains 10 Armor and Magic Resist.<br><br>Bastions gain more, and the value doubles in the first 10 seconds of combat.",
+        "stats": [
+            "18 Armor & MR",
+            "36 Armor & MR",
+            "70 Armor & MR; Non-Bastions gain an additional 25 Armor & MR."
+        ],
+        "abstract": "team:AR/MR:(10/10/10); bond:AR/MR:(18/36/70),first10s(36/72/140)"
+    },
+    {
+        "name": "Battle Academia",
+        "desc": "Battle Academia champions upgrade their abilities and gain Potential. Potential improves their abilities.<br><br>Prismatic: Have 175 completed items on Battle Academy units",
+        "stats": [
+            "3 Potentials",
+            "5 Potentials",
+            "7 Potentials"
+        ],
+        "abstract": "bond:Potentials:(3/5/7)"
+    },
+    {
+        "name": "Executioner",
+        "desc": "Executioners gain Critical Strike Chance and Critical Strike Damage. Their Ability can critically strike.",
+        "stats": [
+            "25% Crit Chance; 10% Crit Damage",
+            "35% Crit Chance; 12% Crit Damage",
+            "50% Crit Chance; 18% Crit Damage",
+            "55% Crit Chance; 28% Crit Damage"
+        ],
+        "abstract": "bond:CR:(25%/35%/50%/55%); bond:DPS:(10%/12%/18%/28%)"
+    },
+    {
+        "name": "Duelist",
+        "desc": "Duelists gain Attack Speed on each attack, stacking up to 12 times.",
+        "stats": [
+            "4% AS",
+            "7% AS",
+            "10% AS; Duelists gain 12% DR"
+        ],
+        "abstract": "bond:AS:(4%/7%/10%),DR:(//12%)"
+    },
+    {
+        "name": "Edgelord",
+        "desc": "Edgelords gain Omnivamp and Attack Damage. While attacking enemies under 50% Health, they gain 40% Attack Speed.",
+        "stats": [
+            "10% Omnivamp, 15% AD",
+            "12% Omnivamp, 35% AD",
+            "15% Omnivamp, 50% AD"
+        ],
+        "abstract": "bond:OV:(10%/12%/15%); bond:AD:(15%/35%/50%); under50%HP:AS:40%"
+    },
+    {
+        "name": "Wraith",
+        "desc": "Every 5 seconds, the Shadow Realm strikes the 3 closest enemies, dealing total magic damage equal to a portion of damage dealt by Wraiths since the last trigger.<br><br>Your lowest health Wraith heals for 18% of damage dealt by Wraiths and the Shadow Realm.",
+        "stats": [
+            "18% damage.",
+            "33% damage.",
+            "50% damage."
+        ],
+        "abstract": "bond:damage:(18%/33%/50%), heal:18% of damage dealt"
+    },
+    {
+        "name": "Crystal Gambit",
+        "desc": "Kills and losses during player combats earn Gem Power. Every 4 player combats choose to convert Gem Power into rewards or Double Down.<br><br>While Double Down is active losses grant 100% more Gem Power, but wins lose 50% Gem Power and cash out immediately.<br><br>Gem Power gains increase at stages 3 and 4.",
+        "stats": [
+            "? per kill; ? per loss",
+            "And every ? kills, gain bonus loot and reroll a new kill number.",
+            "150% rewards. Crystal Gambit units gain 300 Health and 25% DA."
+        ],
+        "abstract": "\u603b\u7ed3: team:rewards:(150%); bond:HP/DA:(300/25%)"
+    },
+    {
+        "name": "Heavyweight",
+        "desc": "Your team gains 100 Health. <br><br>Heavyweights gain additional bonus Health, and Attack Damage equal to a percentage of their Health.",
+        "stats": [
+            "20% Health | 0.2% Health to AD",
+            "40% Health | 0.4% Health to AD",
+            "55% Health | 0.6% Health to AD"
+        ],
+        "abstract": "team:HP:(100/100/100); bond:HP:(20%/40%/55%),AD:(0.2%/0.4%/0.6% of HP)"
+    },
+    {
+        "name": "Juggernaut",
+        "desc": "Juggernauts gain Durability, increased above 50% health. When a Juggernaut dies, other Juggernauts heal for 10% of their max Health.",
+        "stats": [
+            "15% or 25% DR",
+            "20% or 35% DR",
+            "25% or 40% DR"
+        ],
+        "abstract": "bond:DR:(15%/25% or 20%/35% or 25%/40%), heal:10% max HP on death"
+    },
+    {
+        "name": "Luchador",
+        "desc": "Luchadors gain bonus Attack Damage. <br><br>At 50% health, Luchadors cleanse negative effects, heal, and leap back into the fight, Stunning enemies in a 1-hex radius for 1 seconds.",
+        "stats": [
+            "15 AD; 20% Health heal",
+            "40 AD; 50% Health heal"
+        ],
+        "abstract": "bond:AD:(15/40), heal:(20%/50%), stun:(1s)"
+    },
+    {
+        "name": "Mentor",
+        "desc": "This trait is active only when you have exactly 1 or 4 unique Mentor.<br><br>Kobuko: 6% Damage Reduction<br>Udyr: 8% Attack Damage and Ability Power<br>Yasuo: 10% Attack Speed<br>Ryze: Attacks grant 2 bonus Mana",
+        "stats": [
+            "Allies gain the bonus",
+            "Mentors gain all bonuses and upgrade their abilities. Other allies gain nothing."
+        ],
+        "abstract": "\u603b\u7ed3\u4e3a bond:effect:(//); team:effect:(//)\n\u8bf4\u660e:\n1. \u8fd9\u662f\u4e00\u4e2a\u6761\u4ef6\u6fc0\u6d3b\u7684\u7f81\u7eca(1\u62164\u4e2a\u72ec\u7279Mentor\u65f6\u6fc0\u6d3b)\n2. \u7f81\u7eca\u5185\u4e0d\u540c\u82f1\u96c4\u63d0\u4f9b\u4e0d\u540c\u6548\u679c:\n   - Kobuko: 6%\u4f24\u5bb3\u51cf\u514d\n   - Udyr: 8%AD\u548cAP\n   - Yasuo: 10%AS\n   - Ryze: \u653b\u51fb\u83b7\u5f972\u989d\u5916MP\n3. \u56e2\u961f\u6548\u679c:\n   - \u5f53\u67091\u4e2aMentor\u65f6: \u76df\u53cb\u83b7\u5f97\u5bf9\u5e94Mentor\u7684\u52a0\u6210\n   - \u5f53\u67094\u4e2aMentor\u65f6: Mentors\u83b7\u5f97\u6240\u6709\u52a0\u6210\u5e76\u5347\u7ea7\u6280\u80fd,\u5176\u4ed6\u76df\u53cb\u4e0d\u83b7\u5f97\u52a0\u6210\n\u7531\u4e8e\u6548\u679c\u5206\u6563\u4e14\u6ca1\u6709\u660e\u786e\u7684\u6570\u503c\u5c42\u7ea7,\u65e0\u6cd5\u7528\u6807\u51c6\u683c\u5f0f\u8868\u793a,\u6545\u4f7f\u7528(//)\u8868\u793a\u65e0\u660e\u786e\u6570\u503c\u5c42\u7ea7\u3002"
+    },
+    {
+        "name": "Prodigy",
+        "desc": "Your team gains Mana Regen. Prodigies gain more.",
+        "stats": [
+            "1 Mana Regen | 3 Mana Regen",
+            "1 Mana Regen | 5 Mana Regen",
+            "2 Mana Regen | 7 Mana Regen",
+            "3 Mana Regen | 9 Mana Regen | Prodigy abilities heal an ally for 10% of the damage dealt."
+        ],
+        "abstract": "team:MP Regen:(1/1/2/3); bond:MP Regen:(3/5/7/9),heal ally 10% dmg dealt"
+    },
+    {
+        "name": "Protector",
+        "desc": "Units gain 5% Durability while shielded. <br><br>Once per combat at 50% Health, Protectors shield themselves and their closest ally for a percent of their maximum Health. Shields stack.",
+        "stats": [
+            "20% Health shield",
+            "40% Health shield",
+            "60% Health shield"
+        ],
+        "abstract": "bond:DR:(5%); bond:shield:(20%/40%/60%)"
+    },
+    {
+        "name": "Mighty Mech",
+        "desc": "Gain The Mighty Mech. Mighty Mechs heal it for 10% of the damage they deal.<br><br>Prismatic: Unlock the Mightiest Mech<br><br>Each Mighty Mech champion's star level increases The Mighty Mech's power.",
+        "stats": [
+            "The Mighty Mech arrives",
+            "Blade Protocol: Level 1",
+            "Blade Protocol: Level 2"
+        ],
+        "abstract": "\u603b\u7ed3\u4e3a bond:Mighty Mech:(//); bond:Blade Protocol:(1/2)"
+    },
+    {
+        "name": "Sniper",
+        "desc": "Snipers gain Damage Amp, increased against targets farther away.",
+        "stats": [
+            "13% DA; +3% DA per hex",
+            "16% DA; +5% DA per hex",
+            "22% DA; +7% DA per hex",
+            "25% DA; +10% DA per hex"
+        ],
+        "abstract": "bond:DA:(13%/16%/22%/25%),per_hex:(+3%/+5%/+7%/+10%)"
+    },
+    {
+        "name": "Soul Fighter",
+        "desc": "Soul Fighters gain bonus Health, and gain Attack Damage and Ability Power every second up to 8 stacks. At max stacks deal bonus true damage.<br><br>Prismatic: Deal 111 damage to players.",
+        "stats": [
+            "120 Health, 1% AD and AP, +10% damage",
+            "240 Health, 2% AD and AP, +16% damage",
+            "475 Health, 3% AD and AP, +24% damage",
+            "750 Health, 4% AD and AP, +32% damage"
+        ],
+        "abstract": "bond:HP:(120/240/475/750),AD/AP:(1%/2%/3%/4%),DA:(10%/16%/24%/32%),maxstack(8)"
+    },
+    {
+        "name": "Sorcerer",
+        "desc": "Sorcerers gain bonus Ability Power.<br><br>When an enemy dies after being damaged by a Sorcerer, they deal a percentage of that enemy's maximum Health to another enemy.",
+        "stats": [
+            "20 AP; 8% max Health",
+            "50 AP; 10% max Health",
+            " 90 AP; 12% max Health to 2 enemies"
+        ],
+        "abstract": "bond:AP:(20/50/90); bond:maxHPdmg:(8%/10%/12%),(1/1/2)targets"
+    },
+    {
+        "name": "Star Guardian",
+        "desc": "Star Guardians have a unique Teamwork bonus that is granted to all Star Guardians. Every Star Guardian fielded increases the bonus!<br><br>Prismatic: Spend 20000 mana.<br>THE STARS AWAKEN.<br><br>Rell: Gain shields.<br>Syndra: Gain Ability Power<br>Xayah: Magic damage on attack<br>Ahri: On cast, gain Mana<br>Neeko: Increase heals & shields<br>Poppy: Heal at low Health<br>Jinx: Gain Attack Speed<br>Seraphine: Gain every stat<br>Emblem: Increase other bonuses",
+        "stats": [
+            "Gain Star Guardian Bonus",
+            "Gain Star Guardian Bonus",
+            "Gain Star Guardian Bonus",
+            "Gain Star Guardian Bonus",
+            "Gain Star Guardian Bonus",
+            "Gain Star Guardian Bonus",
+            "Gain Star Guardian Bonus",
+            "Gain Star Guardian Bonus",
+            "Gain Star Guardian Bonus"
+        ],
+        "abstract": "\u603b\u7ed3\u4e3a bond:Star Guardian Bonus:(1/2/3/4/5/6/7/8/9)"
+    },
+    {
+        "name": "Strategist",
+        "desc": "Combat Start: Allies in the front 2 rows gain a shield for 15 seconds. Allies in the back 2 rows gain Damage Amp. Strategists gain triple.",
+        "stats": [
+            "150 Shield; 4% DA",
+            "225 Shield; 6% DA",
+            "350 Shield; 10% DA",
+            "450 Shield; 14% DA"
+        ],
+        "abstract": "team:Shield:(150/225/350/450),DA:(4%/6%/10%/14%); bond:Shield:(450/675/1050/1350),DA:(12%/18%/30%/42%)"
+    },
+    {
+        "name": "Supreme Cells",
+        "desc": "The Cell who dealt the most damage last combat is Supreme. When the Supreme Cell dies, the Cell with the highest current damage becomes Supreme.<br><br>Cells gain Damage Amp. The Supreme Cell gains more and executes enemies under 10% Health.",
+        "stats": [
+            "8% DA | 12% DA",
+            "18% DA | 30% DA",
+            "28% DA | 50% DA. Gain a second Supreme"
+        ],
+        "abstract": "bond:DA:(8%/18%/28%), Supreme:DA:(12%/30%/50%), execute(<10%HP)"
+    },
+    {
+        "name": "The Crew",
+        "desc": "Crew champions gain 5% Health and Attack Speed for each Crew member fielded.<br><br>Every 3-star Crew champion grants an additional bonus.<br><br>1x : +1 XP per paid reroll, and Crew unit odds never drop with player level.<br>2x: +1 free reroll / round.<br>3x : Deal 280 damage to fire a rocket dealing 105.<br>4x : Fire rockets 250% more often per player level.<br>5x : Fire the Planet Cracker.",
+        "stats": [
+            "The Crew trait activate",
+            "The Crew trait activate",
+            "The Crew trait activate",
+            "The Crew trait activate"
+        ],
+        "abstract": "bond:HP/AS:(5%/10%/15%/20%); 1x3star:(+1XP/reroll,odds); 2x3star:(+1free/round); 3x3star:(rocket280/105); 4x3star:(rocket250%more); 5x3star:(PlanetCracker)"
+    }
+]
