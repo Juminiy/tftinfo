@@ -255,46 +255,64 @@
             "add_attrs": "Each planning phase, fetch two temporary items, quality based upon your player level. [Consumes Three item Slots]"
         }
     ],
-    "embl": [],
-    "radi": [],
-    "arti": [],
-    "supp": [],
-    "spec": [
+    "embl": [
         {
             "name": "BladeoftheRuinedKing",
-            "attrs": "Wearer is also a Blademaster"
+            "compositions": "sword+spatula",
+            "gain_trait": "Blademaster",
+            "add_attrs": "Wearer is also a Blademaster"
         },
         {
             "name": "Infiltrator",
-            "attrs": "The wearer gains the Infiltrator trait."
+            "compositions": "bow+spatula",
+            "gain_trait": "Infiltrator",
+            "add_attrs": "The wearer gains the Infiltrator trait."
         },
         {
             "name": "BattlecastArmor",
-            "attrs": "The wearer gains the Battlecast trait."
+            "compositions": "rod+spatula",
+            "gain_trait": "Battlecast",
+            "add_attrs": "The wearer gains the Battlecast trait."
         },
         {
             "name": "Starguardian",
-            "attrs": "The wearer gains the Star Guardian trait."
+            "compositions": "tear+spatula",
+            "gain_trait": "StarGuardian",
+            "add_attrs": "The wearer gains the Star Guardian trait."
         },
         {
             "name": "RebelMedal",
-            "attrs": "The wearer gains the Rebel trait."
+            "compositions": "vest+spatula",
+            "gain_trait": "Rebel",
+            "add_attrs": "The wearer gains the Rebel trait."
         },
         {
             "name": "Celestial",
-            "attrs": "The wearer gains the Celestial trait."
+            "compositions": "cloak+spatula",
+            "gain_trait": "Celestial",
+            "add_attrs": "The wearer gains the Celestial trait."
         },
         {
             "name": "Protector",
-            "attrs": "The wearer gains the Protector trait."
-        },
-        {
-            "name": "ForceofNature",
-            "attrs": "Gain +1 team size"
+            "compositions": "belt+spatula",
+            "gain_trait": "Protector",
+            "add_attrs": "The wearer gains the Protector trait."
         },
         {
             "name": "Darkstar",
-            "attrs": "The wearer gains the Dark Star trait."
+            "compositions": "glove+spatula",
+            "gain_trait": "DarkStar",
+            "add_attrs": "The wearer gains the Dark Star trait."
         }
-    ]
+    ],
+    "crow": [
+        {
+            "name": "ForceofNature",
+            "compositions": "spatula+spatula"
+        }
+    ],
+    "radi": [],
+    "arti": [],
+    "supp": [],
+    "spec": []
 }

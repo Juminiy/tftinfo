@@ -375,13 +375,13 @@
         },
         {
             "name": "8BitEmblem",
-            "compositions": "spatula+bow",
+            "compositions": "bow+spatula",
             "gain_trait": "8Bit",
             "add_attrs": "The holder gains the 8-Bit trait.<br><br>[Unique - Only One Per Champion]"
         },
         {
             "name": "CountryEmblem",
-            "compositions": "spatula+cloak",
+            "compositions": "cloak+spatula",
             "gain_trait": "Country",
             "add_attrs": "The holder gains the Country trait.<br><br>[Unique - Only One Per Champion]"
         },
@@ -393,13 +393,13 @@
         },
         {
             "name": "EmoEmblem",
-            "compositions": "spatula+tear",
+            "compositions": "tear+spatula",
             "gain_trait": "EMO",
             "add_attrs": "The holder gains the Emo trait.<br><br>[Unique - Only One Per Champion]"
         },
         {
             "name": "HeartsteelEmblem",
-            "compositions": "spatula+belt",
+            "compositions": "belt+spatula",
             "gain_trait": "Heartsteel",
             "add_attrs": "The holder gains the Heartsteel trait.<br><br>[Unique - Only One Per Champion]"
         },
@@ -411,25 +411,25 @@
         },
         {
             "name": "KDAEmblem",
-            "compositions": "spatula+rod",
+            "compositions": "rod+spatula",
             "gain_trait": "KDA",
             "add_attrs": "The holder gains the K/DA trait.<br><br>[Unique - Only One Per Champion]"
         },
         {
             "name": "PentakillEmblem",
-            "compositions": "spatula+vest",
+            "compositions": "vest+spatula",
             "gain_trait": "Pentakill",
             "add_attrs": "The holder gains the Pentakill trait.<br><br>[Unique - Only One Per Champion]"
         },
         {
             "name": "PunkEmblem",
-            "compositions": "spatula+glove",
+            "compositions": "glove+spatula",
             "gain_trait": "Punk",
             "add_attrs": "The holder gains the Punk trait.<br><br>[Unique - Only One Per Champion]"
         },
         {
             "name": "TrueDamageEmblem",
-            "compositions": "spatula+sword",
+            "compositions": "sword+spatula",
             "gain_trait": "TrueDamage",
             "add_attrs": "The holder gains the True Damage trait.<br><br>[Unique - Only One Per Champion]"
         },
@@ -498,6 +498,12 @@
             "compositions": "",
             "gain_trait": "Superfan",
             "add_attrs": "The holder gains the Superfan trait.<br><br>[Unique - Only One Per Champion]"
+        }
+    ],
+    "crow": [
+        {
+            "name": "ForceofNature",
+            "compositions": "spatula+spatula"
         }
     ],
     "radi": [
@@ -1021,10 +1027,5 @@
             "add_attrs": "Combat start: Summon a large Voidspawn that forces nearby enemies to attack it.<br><br>\u200b\u200b[Support item]"
         }
     ],
-    "spec": [
-        {
-            "name": "ForceofNature",
-            "attrs": "Your team gains +1 maximum team size."
-        }
-    ]
+    "spec": []
 }

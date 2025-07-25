@@ -327,96 +327,350 @@
                 "+15%DC"
             ],
             "add_attrs": "At the beginning of each planning phase, the holder equip 2 temporary items. Temporary items increase in power based on your player level.<br><br>[Consumes Three item Slots. Cannot Grant Shadow Items]"
+        },
+        {
+            "name": "CursedDeathblade",
+            "compositions": "sword+s-sword",
+            "basic_attrs": [
+                "+20AD"
+            ],
+            "add_attrs": "Contributing to a kill grants the holder +15 Attack Damage for the rest of combat. This effect can stack any number of times (starting at 4). The holder receives -20% maximum Health."
+        },
+        {
+            "name": "EvilGiantSlayer",
+            "compositions": "sword+s-bow",
+            "basic_attrs": [],
+            "add_attrs": "The holder's Abilities and attacks do 50% bonus damage. If the target has more than 1100 maximum Health."
+        },
+        {
+            "name": "CursedHextechGunblade",
+            "compositions": "sword+s-rod",
+            "basic_attrs": [],
+            "add_attrs": "The holder's magic and true damage from Abilities heals the ally with lowest percent Health for 60% of the damage dealt. This heal cannot affect the holder."
+        },
+        {
+            "name": "CursedSpearofShojin",
+            "compositions": "sword+s-tear",
+            "basic_attrs": [],
+            "add_attrs": "The wearer's attacks restore 14 additional Mana. The wearer deals 15% less damage."
+        },
+        {
+            "name": "GuardianFallenAngel",
+            "compositions": "sword+s-vest",
+            "basic_attrs": [],
+            "add_attrs": "Prevents the holder's first death, placing them in stasis instead. After 2 seconds, they return with 70% Health and shed all negative effects. After this effect triggers, the holder's Attack Speed is reduced by 50% for the rest of combat.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "Riskthirster",
+            "compositions": "sword+s-cloak",
+            "basic_attrs": [],
+            "add_attrs": "Physical damage heals the holder for 40% of the damage dealt. Each time the holder heals to 90% Health, they gain 30% Attack Speed for 4 seconds. The holder takes 25% of their maximum Health in true damage at the beginning of combat."
+        },
+        {
+            "name": "ZekesEvilHerald",
+            "compositions": "sword+s-belt",
+            "basic_attrs": [],
+            "add_attrs": "When combat begins, the holder reduces the Attack Speed of all allies within 1 hexes in the same row by -20%. The holder then gains +40% Attack Speed for each affected ally."
+        },
+        {
+            "name": "CursedInfinityEdge",
+            "compositions": "sword+s-glove",
+            "basic_attrs": [
+                "+75%CR",
+                "+10AD"
+            ],
+            "add_attrs": "Grants +75% Critical Strike Chance (including components). Each point of Critical Strike Chance above 100% becomes +1% Critical Strike Damage. The holder also gains 30% Critical Strike Damage. Each time the holder attacks or cast their Ability, they take true damage equal to 3% of their maximum Health.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "RapidDeathcannon",
+            "compositions": "bow+s-bow",
+            "basic_attrs": [
+                "+20%AS"
+            ],
+            "add_attrs": "Increases the holder's Attack Range by 1 hex. Additionally, the holder gains +40% bonus Attack Speed when there are no enemies within 2 hex.<br><br>The holder's attacks can no longer miss."
+        },
+        {
+            "name": "GuinsoosEvilRageblade",
+            "compositions": "bow+s-rod",
+            "basic_attrs": [],
+            "add_attrs": "Attacks grant +9% bonus Attack Speed for the rest of combat. The bonus Attack Speed can stack any number of times. The holder is dealt 2.5% of their maximum Health as true damage each attack."
+        },
+        {
+            "name": "EvilStatikkShiv",
+            "compositions": "bow+s-tear",
+            "basic_attrs": [],
+            "add_attrs": "Every other attack from the holder unleashes chain lightning that strikes 4 enemies, dealing 70 magic damage and reducing their Magic Resist by 50% for 5 seconds.<br><br>The holder receives -33% Attack Damage."
+        },
+        {
+            "name": "TitansExplosiveResolve",
+            "compositions": "bow+s-vest",
+            "basic_attrs": [],
+            "add_attrs": "Every 3 seconds, the holder's next attack deals 20% of the total damage they have taken since the last empowered attack as true damage."
+        },
+        {
+            "name": "RunaansEvilHurricane",
+            "compositions": "bow+s-cloak",
+            "basic_attrs": [],
+            "add_attrs": "The holder's attacks fire bolts at 2 nearby enemies, dealing 50% of the holder's Attack Damage. These bolts can critically strike but do not apply on-hit effects."
+        },
+        {
+            "name": "ZzRotDarkPortal",
+            "compositions": "bow+s-belt",
+            "basic_attrs": [],
+            "add_attrs": "At the start of combat, the holder taunts enemies within 2 hexes.<br><br>When the holder dies, an Unstable Voidspawn with 500 Health arises and taunts enemies again. When it dies it deals 500 true damage to enemies within 1 hex(es).<br><br>Voidspawns that arise from summoned units are 50% effective."
+        },
+        {
+            "name": "FinalWhisper",
+            "compositions": "bow+s-glove",
+            "basic_attrs": [
+                "+15%CR",
+                "+10%AS"
+            ],
+            "add_attrs": "When the holder inflicts a critical hit, the target's Armor and Magic Resist are reduced by 70% for 5 seconds. The holder's Armor and Magic Resist are also permanently reduced by 25%."
+        },
+        {
+            "name": "RabadonsCursedDeathcap",
+            "compositions": "rod+s-rod",
+            "basic_attrs": [
+                "+20AP"
+            ],
+            "add_attrs": "Grants 100 bonus Ability Power (including components) and -20% maximum Health."
+        },
+        {
+            "name": "ArchdemonsStaff",
+            "compositions": "rod+s-tear",
+            "basic_attrs": [],
+            "add_attrs": "Each time the holder casts their Ability, they gain empty maximum Health equal to 350% of their maximum Mana. The holder then heals for that amount."
+        },
+        {
+            "name": "LocketoftheDarkSolari",
+            "compositions": "rod+s-vest",
+            "basic_attrs": [],
+            "add_attrs": "When combat begins, the holder and all allies with 2 hexes in the same row gain 60 bonus Armor and Magic Resist, but gain 5 less Mana per attack."
+        },
+        {
+            "name": "IonicDarkSpark",
+            "compositions": "rod+s-cloak",
+            "basic_attrs": [],
+            "add_attrs": "Enemies and allies (except the holder) within 2 hexes are zapped when they cast an ability, taking magic damage scaling with their maximum Mana. Enemies take 200% of their maximum Mana, and allies take 50% of their maximum Mana. Whenever an ally or enemy is zapped, the holder gains 10 Ability Power for the rest of combat."
+        },
+        {
+            "name": "Morevillonomicon",
+            "compositions": "rod+s-belt",
+            "basic_attrs": [],
+            "add_attrs": "When the holder deals magic damage with their Ability, they burn the target, dealing 100% of the target's maximum Health as true damage over 25 seconds, and reducing healing by 50% for the duration of the burn.<br>The holder's Ability deals 50% less damage.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "PoisonedGauntlet",
+            "compositions": "rod+s-glove",
+            "basic_attrs": [
+                "+15%CR",
+                "+10AP"
+            ],
+            "add_attrs": "The holder gains 40% Critical Strike Damage and magic and true damage from their Ability can critically strike. The first time the holder casts their Ability each combat, they gain an additional 20% Critical Strike Chance for the remainder of combat (this bonus applies to that Ability cast). Each time the holder casts their Ability, they deal 100% of their maximum Mana to themselves as true damage."
+        },
+        {
+            "name": "VeryDarkBlueBuff",
+            "compositions": "tear+s-tear",
+            "basic_attrs": [
+                "+30MP"
+            ],
+            "add_attrs": "After casting their Ability, the holder gains 15 Mana. If the holder has less than 60% Health, this is increased to 50.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "FrozenDarkHeart",
+            "compositions": "tear+s-vest",
+            "basic_attrs": [],
+            "add_attrs": "Reduces the Attack Speed of all enemies within 2 hexes by 35%.<br><br>The Attack Speed of allies (except the wearer) within 1 hex is reduced by 35%.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "ChaliceofMalice",
+            "compositions": "tear+s-cloak",
+            "basic_attrs": [],
+            "add_attrs": "When combat begins, all of the holder's allies within 1 hex in the same row gain 40 Ability Power for the rest of combat. The holder loses 20 Ability Power instead of gaining any."
+        },
+        {
+            "name": "LackofRedemption",
+            "compositions": "tear+s-belt",
+            "basic_attrs": [],
+            "add_attrs": "The holder radiates an aura to all allies on the board except themself, and heals them for 25% of their missing Health every 5 seconds. Each time this happens, the holder damages themselves for 5% of their current Health as true damage."
+        },
+        {
+            "name": "HandofVengence",
+            "compositions": "tear+s-glove",
+            "basic_attrs": [
+                "+15%CR",
+                "+15MP"
+            ],
+            "add_attrs": "At the beginning of combat, the holder gains both of the following:<br>- +40 Attack Damage and +40 Ability Power.<br>- Attacks and Abilities heal for 40% of damage dealt.<br>These bonuses expire after each takedown, and renew on the next."
+        },
+        {
+            "name": "VillainsBrambleVest",
+            "compositions": "vest+s-vest",
+            "basic_attrs": [
+                "+40AR"
+            ],
+            "add_attrs": "Grants 200 bonus Armor (including components)."
+        },
+        {
+            "name": "EvilGargoyleStoneplate",
+            "compositions": "vest+s-cloak",
+            "basic_attrs": [],
+            "add_attrs": "The holder heals themself for 45 health every 2 seconds for each unit targeting them."
+        },
+        {
+            "name": "EclipseCape",
+            "compositions": "vest+s-belt",
+            "basic_attrs": [],
+            "add_attrs": "Every 1.5 second(s), a random enemy within 3 hexes is burned for 25% of their maximum Health as true damage over 10 seconds. Any healing they receive is reduced by 50%. The holder is also burned for 25% of their maximum Health as true damage over 8 seconds, and any healing they received is reduced by 50%.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "DarkShroudofStillness",
+            "compositions": "vest+s-glove",
+            "basic_attrs": [
+                "+15%DC",
+                "+20AR"
+            ],
+            "add_attrs": "When combat begins, the holder shoots a beam straight ahead and behind that delays affected enemies' and other allies' first ability cast, increasing their maximum Mana by 65% until they cast.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "DarkDragonsClaw",
+            "compositions": "cloak+s-cloak",
+            "basic_attrs": [
+                "+40MR"
+            ],
+            "add_attrs": "Reduces incoming magic damage by 15%. Negates bonus damage from incoming critical hits."
+        },
+        {
+            "name": "ExplosiveZephyr",
+            "compositions": "cloak+s-belt",
+            "basic_attrs": [],
+            "add_attrs": "When combat begins, the holder summons a whirlwind on the opposite side of the arena that removes the closest enemy from combat for 8 seconds. Once the enemy returns to combat, they gain 30 Attack Damage and Ability Power for the rest of combat. Ignores CC immunity.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "EvilQuicksilver",
+            "compositions": "cloak+s-glove",
+            "basic_attrs": [
+                "+15%DC",
+                "+20MR"
+            ],
+            "add_attrs": "The wearer is immune to crowd control for the entirety of combat and receives -20% maximum Health.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "WarmogsPoisonArmor",
+            "compositions": "belt+s-belt",
+            "basic_attrs": [
+                "+300HP"
+            ],
+            "add_attrs": "Grants 1800 bonus Health (including components). The holder takes 60 true damage each second."
+        },
+        {
+            "name": "ExplosiveTrapClaw",
+            "compositions": "belt+s-glove",
+            "basic_attrs": [
+                "+15%DC",
+                "+150HP"
+            ],
+            "add_attrs": "When combat begins, the holder and all allies within 1 hex(es) in the same row gain a shield that blocks the first enemy Ability.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "CursedThiefsGlove",
+            "compositions": "glove+s-glove",
+            "basic_attrs": [
+                "+15%CR",
+                "+15%DC"
+            ],
+            "add_attrs": "At the beginning of each planning phase, the holder equips 2 temporary items. These Items are always full shadow items.<br><br>[Consumes Three Item Slots]"
         }
     ],
     "embl": [
         {
             "name": "SwordoftheDivine",
-            "compositions": "spatula+sword",
+            "compositions": "sword+spatula",
             "gain_trait": "Skirmisher",
             "add_attrs": "The holder gains the Skirmisher trait.<br><br>[Unique - Only One Per Champion]"
         },
         {
             "name": "DuelistsZeal",
-            "compositions": "spatula+bow",
+            "compositions": "bow+spatula",
             "gain_trait": "Legionnaire",
             "add_attrs": "The holder gains the Legionnaire trait.<br><br>[Unique - Only One Per Champion]"
         },
         {
             "name": "MantleofDusk",
-            "compositions": "spatula+rod",
+            "compositions": "rod+spatula",
             "gain_trait": "Spellweaver",
             "add_attrs": "The holder gains the Spellweaver trait.<br><br>[Unique - Only One Per Champion]"
         },
         {
             "name": "MagesCap",
-            "compositions": "spatula+tear",
+            "compositions": "tear+spatula",
             "gain_trait": "Renewer",
             "add_attrs": "The holder gains the Renewer trait.<br><br>[Unique - Only One Per Champion]"
         },
         {
             "name": "VanguardsCuirass",
-            "compositions": "spatula+vest",
+            "compositions": "vest+spatula",
             "gain_trait": "Ironclad",
             "add_attrs": "The holder gains the Ironclad trait.<br><br>[Unique - Only One Per Champion]"
         },
         {
             "name": "ElderwoodHeirloom",
-            "compositions": "spatula+cloak",
+            "compositions": "cloak+spatula",
             "gain_trait": "Redeemed",
             "add_attrs": "The holder gains the Redeemed trait.<br><br>[Unique - Only One Per Champion]"
         },
         {
             "name": "WarlordsBanner",
-            "compositions": "spatula+belt",
+            "compositions": "belt+spatula",
             "gain_trait": "Dawnbringer",
             "add_attrs": "The holder gains the Dawnbringer trait.<br><br>[Unique - Only One Per Champion]"
         },
         {
             "name": "YoumuusGhostblade",
-            "compositions": "spatula+glove",
+            "compositions": "glove+spatula",
             "gain_trait": "Assassin",
             "add_attrs": "The holder gains the Assassin trait.<br><br>[Unique - Only One Per Champion]"
         },
         {
             "name": "ShadowSwordoftheDivine",
-            "compositions": "s-spatula+sword",
+            "compositions": "sword+s-spatula",
             "gain_trait": "Forgotten",
             "add_attrs": "The holder gains the Forgotten trait.<br><br>[Unique - Only One Per Champion]"
         },
         {
             "name": "ShadowDuelistsZeal",
-            "compositions": "s-spatula+bow",
+            "compositions": "bow+s-spatula",
             "gain_trait": "Hellion",
             "add_attrs": "The holder gains the Hellion trait.<br><br>[Unique - Only One Per Champion]"
         },
         {
             "name": "ShadowMantleofDusk",
-            "compositions": "s-spatula+rod",
+            "compositions": "rod+s-spatula",
             "gain_trait": "Dragonslayer",
             "add_attrs": "The holder gains the Dragonslayer trait.<br><br>[Unique - Only One Per Champion]"
         },
         {
             "name": "ShadowMagesCap",
-            "compositions": "s-spatula+tear",
+            "compositions": "tear+s-spatula",
             "gain_trait": "Coven",
             "add_attrs": "The holder gains the Coven trait.<br><br>[Unique - Only One Per Champion]"
         },
         {
             "name": "ShadowVanguardsCuirass",
-            "compositions": "s-spatula+vest",
+            "compositions": "vest+s-spatula",
             "gain_trait": "Cavalier",
             "add_attrs": "The holder gains the Cavalier trait.<br><br>[Unique - Only One Per Champion]"
         },
         {
             "name": "ShadowElderwoodHeirloom",
-            "compositions": "s-spatula+cloak",
+            "compositions": "cloak+s-spatula",
             "gain_trait": "Revenant",
             "add_attrs": "The holder gains the Revenant trait.<br><br>[Unique - Only One Per Champion]"
         },
         {
             "name": "ShadowWarlordsBanner",
-            "compositions": "s-spatula+belt",
+            "compositions": "belt+s-spatula",
             "gain_trait": "Nightbringer",
             "add_attrs": "The holder gains the Nightbringer trait.<br><br>[Unique - Only One Per Champion]"
         },
@@ -427,161 +681,18 @@
             "add_attrs": "The holder gains the Abomination trait.<br><br>[Unique - Only One Per Champion]"
         }
     ],
-    "radi": [],
-    "arti": [],
-    "supp": [],
-    "spec": [
+    "crow": [
         {
             "name": "ForceofNature",
-            "attrs": "Wearer's team gains +1 maximum team size."
-        },
-        {
-            "name": "CursedDeathblade",
-            "attrs": "Contributing to a kill grants the holder +15 Attack Damage for the rest of combat. This effect can stack any number of times (starting at 4). The holder receives -20% maximum Health."
-        },
-        {
-            "name": "EvilGiantSlayer",
-            "attrs": "The holder's Abilities and attacks do 50% bonus damage. If the target has more than 1100 maximum Health."
-        },
-        {
-            "name": "CursedHextechGunblade",
-            "attrs": "The holder's magic and true damage from Abilities heals the ally with lowest percent Health for 60% of the damage dealt. This heal cannot affect the holder."
-        },
-        {
-            "name": "CursedSpearofShojin",
-            "attrs": "The wearer's attacks restore 14 additional Mana. The wearer deals 15% less damage."
-        },
-        {
-            "name": "GuardianFallenAngel",
-            "attrs": "Prevents the holder's first death, placing them in stasis instead. After 2 seconds, they return with 70% Health and shed all negative effects. After this effect triggers, the holder's Attack Speed is reduced by 50% for the rest of combat.<br><br>[Unique - Only One Per Champion]"
-        },
-        {
-            "name": "Riskthirster",
-            "attrs": "Physical damage heals the holder for 40% of the damage dealt. Each time the holder heals to 90% Health, they gain 30% Attack Speed for 4 seconds. The holder takes 25% of their maximum Health in true damage at the beginning of combat."
-        },
-        {
-            "name": "ZekesEvilHerald",
-            "attrs": "When combat begins, the holder reduces the Attack Speed of all allies within 1 hexes in the same row by -20%. The holder then gains +40% Attack Speed for each affected ally."
-        },
-        {
-            "name": "CursedInfinityEdge",
-            "attrs": "Grants +75% Critical Strike Chance (including components). Each point of Critical Strike Chance above 100% becomes +1% Critical Strike Damage. The holder also gains 30% Critical Strike Damage. Each time the holder attacks or cast their Ability, they take true damage equal to 3% of their maximum Health.<br><br>[Unique - Only One Per Champion]"
-        },
-        {
-            "name": "RapidDeathcannon",
-            "attrs": "Increases the holder's Attack Range by 1 hex. Additionally, the holder gains +40% bonus Attack Speed when there are no enemies within 2 hex.<br><br>The holder's attacks can no longer miss."
-        },
-        {
-            "name": "GuinsoosEvilRageblade",
-            "attrs": "Attacks grant +9% bonus Attack Speed for the rest of combat. The bonus Attack Speed can stack any number of times. The holder is dealt 2.5% of their maximum Health as true damage each attack."
-        },
-        {
-            "name": "EvilStatikkShiv",
-            "attrs": "Every other attack from the holder unleashes chain lightning that strikes 4 enemies, dealing 70 magic damage and reducing their Magic Resist by 50% for 5 seconds.<br><br>The holder receives -33% Attack Damage."
-        },
-        {
-            "name": "TitansExplosiveResolve",
-            "attrs": "Every 3 seconds, the holder's next attack deals 20% of the total damage they have taken since the last empowered attack as true damage."
-        },
-        {
-            "name": "RunaansEvilHurricane",
-            "attrs": "The holder's attacks fire bolts at 2 nearby enemies, dealing 50% of the holder's Attack Damage. These bolts can critically strike but do not apply on-hit effects."
-        },
-        {
-            "name": "ZzRotDarkPortal",
-            "attrs": "At the start of combat, the holder taunts enemies within 2 hexes.<br><br>When the holder dies, an Unstable Voidspawn with 500 Health arises and taunts enemies again. When it dies it deals 500 true damage to enemies within 1 hex(es).<br><br>Voidspawns that arise from summoned units are 50% effective."
-        },
-        {
-            "name": "FinalWhisper",
-            "attrs": "When the holder inflicts a critical hit, the target's Armor and Magic Resist are reduced by 70% for 5 seconds. The holder's Armor and Magic Resist are also permanently reduced by 25%."
-        },
-        {
-            "name": "RabadonsCursedDeathcap",
-            "attrs": "Grants 100 bonus Ability Power (including components) and -20% maximum Health."
-        },
-        {
-            "name": "ArchdemonsStaff",
-            "attrs": "Each time the holder casts their Ability, they gain empty maximum Health equal to 350% of their maximum Mana. The holder then heals for that amount."
-        },
-        {
-            "name": "LocketoftheDarkSolari",
-            "attrs": "When combat begins, the holder and all allies with 2 hexes in the same row gain 60 bonus Armor and Magic Resist, but gain 5 less Mana per attack."
-        },
-        {
-            "name": "IonicDarkSpark",
-            "attrs": "Enemies and allies (except the holder) within 2 hexes are zapped when they cast an ability, taking magic damage scaling with their maximum Mana. Enemies take 200% of their maximum Mana, and allies take 50% of their maximum Mana. Whenever an ally or enemy is zapped, the holder gains 10 Ability Power for the rest of combat."
-        },
-        {
-            "name": "Morevillonomicon",
-            "attrs": "When the holder deals magic damage with their Ability, they burn the target, dealing 100% of the target's maximum Health as true damage over 25 seconds, and reducing healing by 50% for the duration of the burn.<br>The holder's Ability deals 50% less damage.<br><br>[Unique - Only One Per Champion]"
-        },
-        {
-            "name": "PoisonedGauntlet",
-            "attrs": "The holder gains 40% Critical Strike Damage and magic and true damage from their Ability can critically strike. The first time the holder casts their Ability each combat, they gain an additional 20% Critical Strike Chance for the remainder of combat (this bonus applies to that Ability cast). Each time the holder casts their Ability, they deal 100% of their maximum Mana to themselves as true damage."
-        },
-        {
-            "name": "VeryDarkBlueBuff",
-            "attrs": "After casting their Ability, the holder gains 15 Mana. If the holder has less than 60% Health, this is increased to 50.<br><br>[Unique - Only One Per Champion]"
-        },
-        {
-            "name": "FrozenDarkHeart",
-            "attrs": "Reduces the Attack Speed of all enemies within 2 hexes by 35%.<br><br>The Attack Speed of allies (except the wearer) within 1 hex is reduced by 35%.<br><br>[Unique - Only One Per Champion]"
-        },
-        {
-            "name": "ChaliceofMalice",
-            "attrs": "When combat begins, all of the holder's allies within 1 hex in the same row gain 40 Ability Power for the rest of combat. The holder loses 20 Ability Power instead of gaining any."
-        },
-        {
-            "name": "LackofRedemption",
-            "attrs": "The holder radiates an aura to all allies on the board except themself, and heals them for 25% of their missing Health every 5 seconds. Each time this happens, the holder damages themselves for 5% of their current Health as true damage."
-        },
-        {
-            "name": "HandofVengence",
-            "attrs": "At the beginning of combat, the holder gains both of the following:<br>- +40 Attack Damage and +40 Ability Power.<br>- Attacks and Abilities heal for 40% of damage dealt.<br>These bonuses expire after each takedown, and renew on the next."
-        },
-        {
-            "name": "VillainsBrambleVest",
-            "attrs": "Grants 200 bonus Armor (including components)."
-        },
-        {
-            "name": "EvilGargoyleStoneplate",
-            "attrs": "The holder heals themself for 45 health every 2 seconds for each unit targeting them."
-        },
-        {
-            "name": "EclipseCape",
-            "attrs": "Every 1.5 second(s), a random enemy within 3 hexes is burned for 25% of their maximum Health as true damage over 10 seconds. Any healing they receive is reduced by 50%. The holder is also burned for 25% of their maximum Health as true damage over 8 seconds, and any healing they received is reduced by 50%.<br><br>[Unique - Only One Per Champion]"
-        },
-        {
-            "name": "DarkShroudofStillness",
-            "attrs": "When combat begins, the holder shoots a beam straight ahead and behind that delays affected enemies' and other allies' first ability cast, increasing their maximum Mana by 65% until they cast.<br><br>[Unique - Only One Per Champion]"
-        },
-        {
-            "name": "DarkDragonsClaw",
-            "attrs": "Reduces incoming magic damage by 15%. Negates bonus damage from incoming critical hits."
-        },
-        {
-            "name": "ExplosiveZephyr",
-            "attrs": "When combat begins, the holder summons a whirlwind on the opposite side of the arena that removes the closest enemy from combat for 8 seconds. Once the enemy returns to combat, they gain 30 Attack Damage and Ability Power for the rest of combat. Ignores CC immunity.<br><br>[Unique - Only One Per Champion]"
-        },
-        {
-            "name": "EvilQuicksilver",
-            "attrs": "The wearer is immune to crowd control for the entirety of combat and receives -20% maximum Health.<br><br>[Unique - Only One Per Champion]"
-        },
-        {
-            "name": "WarmogsPoisonArmor",
-            "attrs": "Grants 1800 bonus Health (including components). The holder takes 60 true damage each second."
-        },
-        {
-            "name": "ExplosiveTrapClaw",
-            "attrs": "When combat begins, the holder and all allies within 1 hex(es) in the same row gain a shield that blocks the first enemy Ability.<br><br>[Unique - Only One Per Champion]"
+            "compositions": "spatula+spatula"
         },
         {
             "name": "ForceofDarkness",
-            "attrs": "The holder's team gains +2 maximum team size, but the player's Little Legend takes +100% damage after losing a battle."
-        },
-        {
-            "name": "CursedThiefsGlove",
-            "attrs": "At the beginning of each planning phase, the holder equips 2 temporary items. These Items are always full shadow items.<br><br>[Consumes Three Item Slots]"
+            "compositions": "spatula+s-spatula"
         }
-    ]
+    ],
+    "radi": [],
+    "arti": [],
+    "supp": [],
+    "spec": []
 }

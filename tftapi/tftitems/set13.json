@@ -380,49 +380,49 @@
     "embl": [
         {
             "name": "BlackRoseEmblem",
-            "compositions": "spatula+rod",
+            "compositions": "rod+spatula",
             "gain_trait": "BlackRose",
             "add_attrs": "The holder gains the Black Rose trait.<br><br>[Unique - only one per champion]"
         },
         {
             "name": "ExperimentEmblem",
-            "compositions": "spatula+belt",
+            "compositions": "belt+spatula",
             "gain_trait": "Experiment",
             "add_attrs": "The holder gains the Experiment trait.<br><br>[Unique - only one per champion]"
         },
         {
             "name": "FamilyEmblem",
-            "compositions": "spatula+tear",
+            "compositions": "tear+spatula",
             "gain_trait": "Family",
             "add_attrs": "The holder gains the Family trait.<br><br>[Unique - only one per champion]"
         },
         {
             "name": "FirelightEmblem",
-            "compositions": "spatula+glove",
+            "compositions": "glove+spatula",
             "gain_trait": "Firelight",
             "add_attrs": "The holder gains the Firelight trait.<br><br>[Unique - only one per champion]"
         },
         {
             "name": "RebelEmblem",
-            "compositions": "spatula+bow",
+            "compositions": "bow+spatula",
             "gain_trait": "Rebel",
             "add_attrs": "The holder gains the Rebel trait.<br><br>[Unique - only one per champion]"
         },
         {
             "name": "EnforcerEmblem",
-            "compositions": "spatula+vest",
+            "compositions": "vest+spatula",
             "gain_trait": "Enforcer",
             "add_attrs": "The holder gains the Enforcer trait.<br><br>[Unique - only one per champion]"
         },
         {
             "name": "ConquerorEmblem",
-            "compositions": "spatula+sword",
+            "compositions": "sword+spatula",
             "gain_trait": "Conqueror",
             "add_attrs": "The holder gains the Conqueror trait.<br><br>[Unique - only one per champion]"
         },
         {
             "name": "AutomataEmblem",
-            "compositions": "spatula+cloak",
+            "compositions": "cloak+spatula",
             "gain_trait": "Automata",
             "add_attrs": "The holder gains the Automata trait.<br><br>[Unique - only one per champion]"
         },
@@ -434,37 +434,37 @@
         },
         {
             "name": "AmbusherEmblem",
-            "compositions": "pan+glove",
+            "compositions": "glove+pan",
             "gain_trait": "Ambusher",
             "add_attrs": "The holder gains the Ambusher trait.<br><br>[Unique - only one per champion]"
         },
         {
             "name": "BruiserEmblem",
-            "compositions": "pan+belt",
+            "compositions": "belt+pan",
             "gain_trait": "Bruiser",
             "add_attrs": "The holder gains the Bruiser trait.<br><br>[Unique - only one per champion]"
         },
         {
             "name": "QuickstrikerEmblem",
-            "compositions": "pan+bow",
+            "compositions": "bow+pan",
             "gain_trait": "Quickstriker",
             "add_attrs": "The holder gains the Quickstriker trait.<br><br>[Unique - only one per champion]"
         },
         {
             "name": "ArtilleristEmblem",
-            "compositions": "pan+sword",
+            "compositions": "sword+pan",
             "gain_trait": "Artillerist",
             "add_attrs": "The holder gains the Artillerist trait.<br><br>[Unique - only one per champion]"
         },
         {
             "name": "VisionaryEmblem",
-            "compositions": "pan+tear",
+            "compositions": "tear+pan",
             "gain_trait": "Visionary",
             "add_attrs": "The holder gains the Visionary trait.<br><br>[Unique - only one per champion]"
         },
         {
             "name": "PitFighterEmblem",
-            "compositions": "pan+cloak",
+            "compositions": "cloak+pan",
             "gain_trait": "PitFighter",
             "add_attrs": "The holder gains the Pit Fighter trait.<br><br>[Unique - only one per champion]"
         },
@@ -476,7 +476,7 @@
         },
         {
             "name": "SorcererEmblem",
-            "compositions": "pan+rod",
+            "compositions": "rod+pan",
             "gain_trait": "Sorcerer",
             "add_attrs": "The holder gains the Sorcerer trait.<br><br>[Unique - only one per champion]"
         },
@@ -488,7 +488,7 @@
         },
         {
             "name": "SentinelEmblem",
-            "compositions": "pan+vest",
+            "compositions": "vest+pan",
             "gain_trait": "Sentinel",
             "add_attrs": "The holder gains the Sentinel trait.<br><br>[Unique - only one per champion]"
         },
@@ -503,6 +503,20 @@
             "compositions": "",
             "gain_trait": "Dominator",
             "add_attrs": "The holder gains the Dominator trait.<br><br>[Unique - only one per champion]"
+        }
+    ],
+    "crow": [
+        {
+            "name": "ForceofNature",
+            "compositions": "spatula+spatula"
+        },
+        {
+            "name": "TacticiansCape",
+            "compositions": "spatula+pan"
+        },
+        {
+            "name": "TacticiansShield",
+            "compositions": "pan+pan"
         }
     ],
     "radi": [
@@ -1193,18 +1207,5 @@
             "add_attrs": "Summon a large Voidspawn. Its strength increases with each Stage.<br><br>[Support item]<br>[Unique - only 1 per champion]"
         }
     ],
-    "spec": [
-        {
-            "name": "ForceofNature",
-            "attrs": "Your team gains +1 max team size.<br><br>10% chance to drop 1 gold when you win combat.<br><br>\"...the Heart of a hero...\""
-        },
-        {
-            "name": "TacticiansCape",
-            "attrs": "Your team gains +1 max team size.<br><br>10% chance to drop 1 gold after 10 seconds of combat.<br><br>\"...and a bit of Luck.\""
-        },
-        {
-            "name": "TacticiansShield",
-            "attrs": "Your team gains +1 max team size.<br><br>10% chance to drop 1 gold when the holder dies.<br><br>\"Imbued with a Philosopher's wisdom...\""
-        }
-    ]
+    "spec": []
 }

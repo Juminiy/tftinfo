@@ -358,7 +358,7 @@
     "embl": [
         {
             "name": "SwordoftheDivine",
-            "compositions": "spatula+sword",
+            "compositions": "sword+spatula",
             "gain_trait": "Skirmisher",
             "add_attrs": "The holder gains the Skirmisher trait.<br><br>[Unique - Only One Per Champion]"
         },
@@ -370,13 +370,13 @@
         },
         {
             "name": "MantleofDusk",
-            "compositions": "spatula+rod",
+            "compositions": "rod+spatula",
             "gain_trait": "Spellweaver",
             "add_attrs": "The holder gains the Spellweaver trait.<br><br>[Unique - Only One Per Champion]"
         },
         {
             "name": "MagesCap",
-            "compositions": "spatula+tear",
+            "compositions": "tear+spatula",
             "gain_trait": "Renewer",
             "add_attrs": "The holder gains the Renewer trait.<br><br>[Unique - Only One Per Champion]"
         },
@@ -388,19 +388,19 @@
         },
         {
             "name": "ElderwoodHeirloom",
-            "compositions": "spatula+cloak",
+            "compositions": "cloak+spatula",
             "gain_trait": "Redeemed",
             "add_attrs": "The holder gains the Redeemed trait.<br><br>[Unique - Only One Per Champion]"
         },
         {
             "name": "WarlordsBanner",
-            "compositions": "spatula+belt",
+            "compositions": "belt+spatula",
             "gain_trait": "Dawnbringer",
             "add_attrs": "The holder gains the Dawnbringer trait.<br><br>[Unique - Only One Per Champion]"
         },
         {
             "name": "YoumuusGhostblade",
-            "compositions": "spatula+glove",
+            "compositions": "glove+spatula",
             "gain_trait": "Assassin",
             "add_attrs": "The holder gains the Assassin trait.<br><br>[Unique - Only One Per Champion]"
         },
@@ -412,13 +412,13 @@
         },
         {
             "name": "DuelistsZeal",
-            "compositions": "spatula+bow",
+            "compositions": "bow+spatula",
             "gain_trait": "Hellion",
             "add_attrs": "The holder gains the Hellion trait.<br><br>[Unique - Only One Per Champion]"
         },
         {
             "name": "VanguardsCuirass",
-            "compositions": "spatula+vest",
+            "compositions": "vest+spatula",
             "gain_trait": "Cavalier",
             "add_attrs": "The holder gains the Cavalier trait.<br><br>[Unique - Only One Per Champion]"
         },
@@ -487,6 +487,12 @@
             "compositions": "",
             "gain_trait": "Mystic",
             "add_attrs": "The holder gains the Mystic trait.<br><br>[Unique - Only One Per Champion].<br>Elusive - cannot be crafted.]"
+        }
+    ],
+    "crow": [
+        {
+            "name": "ForceofNature",
+            "compositions": "spatula+spatula"
         }
     ],
     "radi": [
@@ -776,10 +782,5 @@
     ],
     "arti": [],
     "supp": [],
-    "spec": [
-        {
-            "name": "ForceofNature",
-            "attrs": "The holder's team gains +1 maximum team size."
-        }
-    ]
+    "spec": []
 }

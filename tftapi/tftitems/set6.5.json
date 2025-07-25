@@ -378,13 +378,13 @@
         },
         {
             "name": "DuelistsZeal",
-            "compositions": "spatula+bow",
+            "compositions": "bow+spatula",
             "gain_trait": "Challenger",
             "add_attrs": "The holder gains the Challenger trait.<br><br>[Unique - Only One Per Champion]"
         },
         {
             "name": "ElderwoodHeirloom",
-            "compositions": "spatula+cloak",
+            "compositions": "cloak+spatula",
             "gain_trait": "Mutant",
             "add_attrs": "The holder gains the Mutant trait.<br><br>[Unique - Only One Per Champion]"
         },
@@ -401,8 +401,14 @@
             "add_attrs": "The holder gains the Innovator trait.<br><br>[Unique - Only One Per Champion].<br>Elusive - cannot be crafted.]"
         },
         {
+            "name": "MagesCap",
+            "compositions": "tear+spatula",
+            "gain_trait": "",
+            "add_attrs": "The holder gains the Hextech trait.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
             "name": "MantleofDusk",
-            "compositions": "spatula+rod",
+            "compositions": "rod+spatula",
             "gain_trait": "Arcanist",
             "add_attrs": "The holder gains the Arcanist trait.<br><br>[Unique - Only One Per Champion]"
         },
@@ -437,20 +443,26 @@
             "add_attrs": "The holder gains the Socialite trait.<br><br>[Unique - Only One Per Champion].<br>Elusive - cannot be crafted.]"
         },
         {
+            "name": "SwordoftheDivine",
+            "compositions": "sword+spatula",
+            "gain_trait": "",
+            "add_attrs": "The holder gains the Striker trait.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
             "name": "VanguardsCuirass",
-            "compositions": "spatula+vest",
+            "compositions": "vest+spatula",
             "gain_trait": "Debonair",
             "add_attrs": "The holder gains the Debonair trait.<br><br>[Unique - Only One Per Champion]"
         },
         {
             "name": "WarlordsBanner",
-            "compositions": "spatula+belt",
+            "compositions": "belt+spatula",
             "gain_trait": "Chemtech",
             "add_attrs": "The holder gains the Chemtech trait.<br><br>[Unique - Only One Per Champion]"
         },
         {
             "name": "YoumuusGhostblade",
-            "compositions": "spatula+glove",
+            "compositions": "glove+spatula",
             "gain_trait": "Assassin",
             "add_attrs": "The holder gains the Assassin trait.<br><br>[Unique - Only One Per Champion]"
         },
@@ -459,6 +471,12 @@
             "compositions": "",
             "gain_trait": "Syndicate",
             "add_attrs": "The holder gains the Syndicate trait.<br><br>[Unique - Only One Per Champion]"
+        }
+    ],
+    "crow": [
+        {
+            "name": "ForceofNature",
+            "compositions": "spatula+spatula"
         }
     ],
     "radi": [
@@ -736,18 +754,5 @@
         }
     ],
     "supp": [],
-    "spec": [
-        {
-            "name": "ForceofNature",
-            "attrs": "The holder's team gains +1 maximum team size."
-        },
-        {
-            "name": "MagesCap",
-            "attrs": "The holder gains the Hextech trait.<br><br>[Unique - Only One Per Champion]"
-        },
-        {
-            "name": "SwordoftheDivine",
-            "attrs": "The holder gains the Striker trait.<br><br>[Unique - Only One Per Champion]"
-        }
-    ]
+    "spec": []
 }

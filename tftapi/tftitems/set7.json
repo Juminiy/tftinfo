@@ -366,10 +366,58 @@
             "add_attrs": "The holder gains the Bruiser trait.<br><br>[Unique - Only One Per Champion<br>Elusive - cannot be crafted.]"
         },
         {
+            "name": "YoumuusGhostblade",
+            "compositions": "glove+spatula",
+            "gain_trait": "",
+            "add_attrs": "The holder gains the Assassin trait.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "GuardianEmblem",
+            "compositions": "belt+spatula",
+            "gain_trait": "",
+            "add_attrs": "The holder gains the Guardian trait.<br><br>[Unique - Only One Per Champion"
+        },
+        {
+            "name": "MageEmblem",
+            "compositions": "tear+spatula",
+            "gain_trait": "",
+            "add_attrs": "The holder gains the Mage trait.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "MirageEmblem",
+            "compositions": "cloak+spatula",
+            "gain_trait": "",
+            "add_attrs": "The holder gains the Mirage trait.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "CavalierEmblem",
+            "compositions": "vest+spatula",
+            "gain_trait": "",
+            "add_attrs": "The holder gains the Cavalier trait.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "RagewingEmblem",
+            "compositions": "bow+spatula",
+            "gain_trait": "",
+            "add_attrs": "The holder gains the Ragewing trait.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
             "name": "RevelEmblem",
             "compositions": "",
             "gain_trait": "Revel",
             "add_attrs": "The holder gains the Revel trait.<br><br>[Unique - Only One Per Champion]<br>Elusive - cannot be crafted.]"
+        },
+        {
+            "name": "ShimmerscaleEmblem",
+            "compositions": "sword+spatula",
+            "gain_trait": "",
+            "add_attrs": "The holder gains the Shimmerscale trait.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "DragonmancerEmblem",
+            "compositions": "rod+spatula",
+            "gain_trait": "",
+            "add_attrs": "The holder gains the Dragonmancer trait.<br><br>[Unique - Only One Per Champion"
         },
         {
             "name": "CannoneerEmblem",
@@ -436,6 +484,12 @@
             "compositions": "",
             "gain_trait": "Swiftshot",
             "add_attrs": "The holder gains the Swiftshot trait.<br><br>[Unique - Only One Per Champion]<br>Elusive - cannot be crafted.]"
+        }
+    ],
+    "crow": [
+        {
+            "name": "ForceofNature",
+            "compositions": "spatula+spatula"
         }
     ],
     "radi": [
@@ -805,80 +859,78 @@
     "supp": [],
     "spec": [
         {
-            "name": "ForceofNature",
-            "attrs": "Your team gains +1 maximum team size."
+            "trait_key": "Shimmerscale",
+            "trait_items": [
+                {
+                    "key": "DravensAxe",
+                    "name": "Draven's Axe",
+                    "desc": "Gain 1 Attack Damage per gold in your bank (up to 80).<br><br>Attack grant 1 stack, up to 100 times, At full stacks, grant 7 gold and 1 item component(s).",
+                    "fromDesc": "+10 Attack Damage<br>+10% Attack Speed",
+                    "isShimmerscale": true
+                },
+                {
+                    "key": "GoldmancersStaff",
+                    "name": "Goldmancer's Staff",
+                    "desc": "Gain 1 Ability Power per gold in your bank (up to 80) and a 50% chance to drop 2 gold on enemy kill.",
+                    "fromDesc": "+30 Ability Power<br>+30 Mana",
+                    "isShimmerscale": true
+                },
+                {
+                    "key": "GamblersBlade",
+                    "name": "Gambler's Blade",
+                    "desc": "Gain 1% bonus Attack Speed per gold in your bank (up to 80). Each attack has a 6% chance to drop 1 gold.",
+                    "fromDesc": "+30 Ability Power<br>+30 Attack Speed",
+                    "isShimmerscale": true
+                },
+                {
+                    "key": "MogulsMail",
+                    "name": "Mogul's Mail",
+                    "desc": "Grant 1 Armor, 1 Magic Resist, and 8 Health when taking damage, stacking up to 40 times.<br><br>At full stacks, grant 2 gold.",
+                    "fromDesc": "+300 Health",
+                    "isShimmerscale": true
+                },
+                {
+                    "key": "DeterminedInvestor",
+                    "name": "Determined Investor",
+                    "desc": "After dying during combat 8 times, this item is destroyed. Upon destruction, grant the item Diamond Hands, 1 Champion Duplicator and 15 gold.",
+                    "fromDesc": "+150 Health",
+                    "isShimmerscale": true
+                },
+                {
+                    "key": "DiamondHands",
+                    "name": "Diamond Hands",
+                    "desc": "Once per combat at 66% and 33% Health, gain 1 gold and immunity for 1 seconds.",
+                    "fromDesc": "+200 Health<br>+20 Ability Power",
+                    "isShimmerscale": true
+                },
+                {
+                    "key": "NeedlesslyBigGem",
+                    "name": "Needlessly Big Gem",
+                    "desc": "If the holder is alive after 15 seconds of combat, your units deal 1% more damage per gold you have. For every 2 units alive when this happens, gain 1 gold.",
+                    "fromDesc": "Health +500",
+                    "isShimmerscale": true
+                },
+                {
+                    "key": "CrownofChampions",
+                    "name": "Crown of Champions",
+                    "desc": "Every 5 seconds, the next attack deals 9001x the amount of gold in your bank in true damage.",
+                    "fromDesc": "+100 Health",
+                    "isShimmerscale": true
+                }
+            ]
         },
         {
-            "name": "YoumuusGhostblade",
-            "attrs": "The holder gains the Assassin trait.<br><br>[Unique - Only One Per Champion]"
+            "key": "DragonmancersBlessing",
+            "name": "Dragon Blessing",
+            "desc": "Use on a Dragonmancer to make them your Dragonmancer Hero.<br><br>[Cannot be used in combat.]",
+            "fromDesc": "",
+            "isFilterHidden": true
         },
         {
-            "name": "GuardianEmblem",
-            "attrs": "The holder gains the Guardian trait.<br><br>[Unique - Only One Per Champion"
-        },
-        {
-            "name": "MageEmblem",
-            "attrs": "The holder gains the Mage trait.<br><br>[Unique - Only One Per Champion]"
-        },
-        {
-            "name": "MirageEmblem",
-            "attrs": "The holder gains the Mirage trait.<br><br>[Unique - Only One Per Champion]"
-        },
-        {
-            "name": "CavalierEmblem",
-            "attrs": "The holder gains the Cavalier trait.<br><br>[Unique - Only One Per Champion]"
-        },
-        {
-            "name": "RagewingEmblem",
-            "attrs": "The holder gains the Ragewing trait.<br><br>[Unique - Only One Per Champion]"
-        },
-        {
-            "name": "ShimmerscaleEmblem",
-            "attrs": "The holder gains the Shimmerscale trait.<br><br>[Unique - Only One Per Champion]"
-        },
-        {
-            "name": "DragonmancerEmblem",
-            "attrs": "The holder gains the Dragonmancer trait.<br><br>[Unique - Only One Per Champion"
-        },
-        {
-            "name": "DravensAxe",
-            "attrs": "Gain 1 Attack Damage per gold in your bank (up to 80).<br><br>Attack grant 1 stack, up to 100 times, At full stacks, grant 7 gold and 1 item component(s)."
-        },
-        {
-            "name": "GoldmancersStaff",
-            "attrs": "Gain 1 Ability Power per gold in your bank (up to 80) and a 50% chance to drop 2 gold on enemy kill."
-        },
-        {
-            "name": "GamblersBlade",
-            "attrs": "Gain 1% bonus Attack Speed per gold in your bank (up to 80). Each attack has a 6% chance to drop 1 gold."
-        },
-        {
-            "name": "MogulsMail",
-            "attrs": "Grant 1 Armor, 1 Magic Resist, and 8 Health when taking damage, stacking up to 40 times.<br><br>At full stacks, grant 2 gold."
-        },
-        {
-            "name": "DeterminedInvestor",
-            "attrs": "After dying during combat 8 times, this item is destroyed. Upon destruction, grant the item Diamond Hands, 1 Champion Duplicator and 15 gold."
-        },
-        {
-            "name": "DiamondHands",
-            "attrs": "Once per combat at 66% and 33% Health, gain 1 gold and immunity for 1 seconds."
-        },
-        {
-            "name": "NeedlesslyBigGem",
-            "attrs": "If the holder is alive after 15 seconds of combat, your units deal 1% more damage per gold you have. For every 2 units alive when this happens, gain 1 gold."
-        },
-        {
-            "name": "DragonmancersBlessing",
-            "attrs": "Use on a Dragonmancer to make them your Dragonmancer Hero.<br><br>[Cannot be used in combat.]"
-        },
-        {
-            "name": "CrownofChampions",
-            "attrs": "Every 5 seconds, the next attack deals 9001x the amount of gold in your bank in true damage."
-        },
-        {
+            "key": "DarkflightEssence",
             "name": "DarkflightEssence",
-            "attrs": "Health +130, Attack +13, Ability Power +13, Defense +13, Magic Resistance +13<br><br>[Acquired by copying items that cannot be crafted with the Descent of Darkness attribute]"
+            "desc": "Health +130, Attack +13, Ability Power +13, Defense +13, Magic Resistance +13<br><br>[Acquired by copying items that cannot be crafted with the Descent of Darkness attribute]",
+            "fromDesc": ""
         }
     ]
 }

@@ -257,40 +257,58 @@
     ],
     "embl": [
         {
+            "name": "SwordoftheDivine",
+            "compositions": "sword+spatula",
+            "gain_trait": "Divine",
+            "add_attrs": "[Unique] The holder gains the Divine trait."
+        },
+        {
             "name": "DuelistsZeal",
-            "compositions": "spatula+bow",
+            "compositions": "bow+spatula",
             "gain_trait": "Duelist",
             "add_attrs": "[Unique] The holder gains the Duelist trait."
         },
         {
             "name": "MantleofDusk",
-            "compositions": "spatula+rod",
+            "compositions": "rod+spatula",
             "gain_trait": "Dragonsoul",
             "add_attrs": "[Unique] The holder gains the Dragonsoul trait."
         },
         {
             "name": "MagesCap",
-            "compositions": "spatula+tear",
+            "compositions": "tear+spatula",
             "gain_trait": "Mage",
             "add_attrs": "[Unique] The holder gains the Mage trait."
         },
         {
             "name": "VanguardsCuirass",
-            "compositions": "spatula+vest",
+            "compositions": "vest+spatula",
             "gain_trait": "Vanguard",
             "add_attrs": "[Unique] The holder gains the Vanguard trait."
         },
         {
             "name": "ElderwoodHeirloom",
-            "compositions": "spatula+cloak",
+            "compositions": "cloak+spatula",
             "gain_trait": "Elderwood",
             "add_attrs": "[Unique] The holder gains the Elderwood trait."
         },
         {
             "name": "WarlordsBanner",
-            "compositions": "spatula+belt",
+            "compositions": "belt+spatula",
             "gain_trait": "Warlord",
             "add_attrs": "[Unique] The wearer gains the Warlord trait."
+        },
+        {
+            "name": "YoumuusGhostblade",
+            "compositions": "glove+spatula",
+            "gain_trait": "Assassin",
+            "add_attrs": "[Unique] The wearer gains the Assassin trait."
+        }
+    ],
+    "crow": [
+        {
+            "name": "ForceofNature",
+            "compositions": "spatula+spatula"
         }
     ],
     "radi": [],
@@ -347,18 +365,5 @@
         }
     ],
     "supp": [],
-    "spec": [
-        {
-            "name": "SwordoftheDivine",
-            "attrs": "[Unique] The holder gains the Divine trait."
-        },
-        {
-            "name": "ForceofNature",
-            "attrs": "Wearer's team gains +1 maximum team size."
-        },
-        {
-            "name": "YoumuusGhostblade",
-            "attrs": "[Unique] The wearer gains the Assassin trait."
-        }
-    ]
+    "spec": []
 }

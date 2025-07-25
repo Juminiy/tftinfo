@@ -255,58 +255,80 @@
             "add_attrs": "Each planning phase, fetch two temporary items, quality based upon your player level. [Consumes Three item Slots]"
         }
     ],
-    "embl": [],
+    "embl": [
+        {
+            "name": "YoumuusGhostblade",
+            "compositions": "sword+spatula",
+            "gain_trait": "Assassin",
+            "add_attrs": "Extra Attack Damage +20. Wearer is also an Assassin"
+        },
+        {
+            "name": "BladeoftheRuinedKing",
+            "compositions": "bow+spatula",
+            "gain_trait": "Blademaster",
+            "add_attrs": "Extra AS +20%. Wearer is also a Blademaster"
+        },
+        {
+            "name": "InfernoCinder",
+            "compositions": "rod+spatula",
+            "gain_trait": "Inferno",
+            "add_attrs": "Wearer is also an Inferno."
+        },
+        {
+            "name": "MagesCap",
+            "compositions": "tear+spatula",
+            "gain_trait": "Mage",
+            "add_attrs": "Wearer is also a Mage."
+        },
+        {
+            "name": "WardensMail",
+            "compositions": "vest+spatula",
+            "gain_trait": "Warden",
+            "add_attrs": "Wearer is also a Warden."
+        },
+        {
+            "name": "TalismanofLight",
+            "compositions": "cloak+spatula",
+            "gain_trait": "Light",
+            "add_attrs": "Wearer is also a Light."
+        },
+        {
+            "name": "FrozenMallet",
+            "compositions": "belt+spatula",
+            "gain_trait": "Glacial",
+            "add_attrs": "Extra HP +200. Wearer is also a Glacial"
+        },
+        {
+            "name": "BerserkerAxe",
+            "compositions": "glove+spatula",
+            "gain_trait": "Berserker",
+            "add_attrs": "Wearer is also a Berserker."
+        }
+    ],
+    "crow": [
+        {
+            "name": "ForceofNature",
+            "compositions": "spatula+spatula"
+        }
+    ],
     "radi": [],
     "arti": [],
     "supp": [],
     "spec": [
         {
-            "name": "PhantomDancer",
-            "attrs": "Wearer dodges the bonus damage from critical strikes"
+            "key": "PhantomDancer",
+            "name": "Phantom Dancer",
+            "desc": "Wearer dodges the bonus damage from critical strikes"
         },
         {
+            "key": "Thornmail",
             "name": "Thornmail",
-            "attrs": "Reflect 100% of damage mitigated from attacks"
+            "desc": "Reflect 100% of damage mitigated from attacks"
         },
         {
-            "name": "RepeatingCrossbow",
-            "attrs": "On death, Repeating Crossbow bounces to a new unit and grants an extra +30% Attack Speed and +30% Crit chance"
-        },
-        {
-            "name": "YoumuusGhostblade",
-            "attrs": "Extra Attack Damage +20. Wearer is also an Assassin"
-        },
-        {
-            "name": "BladeoftheRuinedKing",
-            "attrs": "Extra AS +20%. Wearer is also a Blademaster"
-        },
-        {
-            "name": "InfernoCinder",
-            "attrs": "Wearer is also an Inferno."
-        },
-        {
-            "name": "MagesCap",
-            "attrs": "Wearer is also a Mage."
-        },
-        {
-            "name": "WardensMail",
-            "attrs": "Wearer is also a Warden."
-        },
-        {
-            "name": "TalismanofLight",
-            "attrs": "Wearer is also a Light."
-        },
-        {
-            "name": "FrozenMallet",
-            "attrs": "Extra HP +200. Wearer is also a Glacial"
-        },
-        {
-            "name": "ForceofNature",
-            "attrs": "Gain +1 team size"
-        },
-        {
-            "name": "BerserkerAxe",
-            "attrs": "Wearer is also a Berserker."
+            "key": "RepeatingCrossbow",
+            "name": "Repeating Crossbow",
+            "desc": "On death, Repeating Crossbow bounces to a new unit and grants an extra +30% Attack Speed and +30% Crit chance"
         }
     ]
 }

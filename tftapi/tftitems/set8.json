@@ -350,7 +350,7 @@
     "embl": [
         {
             "name": "AnimaSquadEmblemItem",
-            "compositions": "spatula+rod",
+            "compositions": "rod+spatula",
             "gain_trait": "AnimaSquad",
             "add_attrs": "The holder gains the Anima Squad trait.<br><br>[Unique - Only One Per Champion]"
         },
@@ -368,13 +368,13 @@
         },
         {
             "name": "InterPolarisEmblemItem",
-            "compositions": "spatula+sword",
+            "compositions": "sword+spatula",
             "gain_trait": "LaserCorps",
             "add_attrs": "The holder gains the LaserCorps trait.<br><br>[Unique - Only One Per Champion]"
         },
         {
             "name": "OxForceEmblemItem",
-            "compositions": "spatula+vest",
+            "compositions": "vest+spatula",
             "gain_trait": "OxForce",
             "add_attrs": "The holder gains the Ox Force trait.<br><br>[Unique - Only One Per Champion]"
         },
@@ -392,13 +392,13 @@
         },
         {
             "name": "ADMINEmblemItem",
-            "compositions": "spatula+cloak",
+            "compositions": "cloak+spatula",
             "gain_trait": "ADMIN",
             "add_attrs": "The holder gains the A.D.M.I.N. Trait.<br><br>[Unique - Only One Per Champion]"
         },
         {
             "name": "MascotEmblemItem",
-            "compositions": "spatula+belt",
+            "compositions": "belt+spatula",
             "gain_trait": "Mascot",
             "add_attrs": "The holder gains the Mascot trait.<br><br>[Unique - Only One Per Champion]"
         },
@@ -422,7 +422,7 @@
         },
         {
             "name": "RenegadeEmblemItem",
-            "compositions": "spatula+glove",
+            "compositions": "glove+spatula",
             "gain_trait": "Renegade",
             "add_attrs": "The holder gains the Renegade trait.<br><br>[Unique - Only One Per Champion"
         },
@@ -434,7 +434,7 @@
         },
         {
             "name": "DuelistEmblemItem",
-            "compositions": "spatula+bow",
+            "compositions": "bow+spatula",
             "gain_trait": "Duelist",
             "add_attrs": "The holder gains the Duelist trait.<br><br>[Unique - Only One Per Champion]"
         },
@@ -446,7 +446,7 @@
         },
         {
             "name": "HeartEmblemItem",
-            "compositions": "spatula+tear",
+            "compositions": "tear+spatula",
             "gain_trait": "Heart",
             "add_attrs": "The holder gains the Heart trait."
         },
@@ -479,6 +479,12 @@
             "compositions": "",
             "gain_trait": "Aegis",
             "add_attrs": "The holder gains the Aegis trait.<br><br>[Unique - Only One Per Champion<br>[Elusive - cannot be crafted.]"
+        }
+    ],
+    "crow": [
+        {
+            "name": "ForceofNature",
+            "compositions": "spatula+spatula"
         }
     ],
     "radi": [
@@ -851,44 +857,72 @@
     "supp": [],
     "spec": [
         {
-            "name": "ForceofNature",
-            "attrs": "Your team gains +1 maximum team size."
-        },
-        {
-            "name": "GenAEBloodthirster",
-            "attrs": "Grant 20% Omnivamp.<br><br>Once per combat: At 40% Health, gain a 30% maximum Health shield that lasts up to 8 seconds. While the shield is acctive, the holder gains 50% Attack Damage.<br><br>Self-destructs after 1 round of player combat.<br><br>Omnivamp: heal for a percentage of damage dealt"
-        },
-        {
-            "name": "GenAEGiantSlayer",
-            "attrs": "Grant 20% bonus Attack Damage and 20 bonus Ability Power. Abilities and attacks deal 30% more damage to enemies with more than 1 maximum Health.<br><br>Self-destructs after 1 round of player combat."
-        },
-        {
-            "name": "GenAEHandOfJustice",
-            "attrs": "Grant 2 effects:<br>- +25 Attack Damage and +25 Ability Power.<br>- 20% Omnivamp.<br><br>Self-destructs after 1 round of player combat.<br>Omnivamp: heal for a percentage of damage dealt"
-        },
-        {
-            "name": "GenAEIonicSpark",
-            "attrs": "Enemies within 2 hexes have their Magic Resist reduced by 50%. When they cast an Ability, they are zapped for magic damage equal to 250% of their maximum Mana. The holder Taunts every 4 seconds.<br><br>Self-destructs after 1 round of player combat.<br>[Direct damage item]"
-        },
-        {
-            "name": "GenAEShroudOfStillness",
-            "attrs": "Grant 250 bouns Health.<br><br>Combat start: Shoot a beam that 35% Mana Reaves, 20% Chills, and reduces the movement speed of enemies by 20% for 3 seconds.<br><br>Self-destructs after 1 round of player combat.<br><br>[Unique - Only One Per Champion]"
-        },
-        {
-            "name": "GenAESpearOfShojin",
-            "attrs": "Grant 30 bouns starting Mana and 20 bonus Ability Power. Every 3rd attacks restores 20 additional Mana.<br><br>Self-destructs after 1 round of player combat."
-        },
-        {
-            "name": "GenAESunfireCape",
-            "attrs": "Grant 150 bouns Health. Every 1 second, 10% Burn and 33% Wound an enemy within 3 hexes for 10 seconds.<br><br>Self-destructs after 1 round of player combat.<br><br>[Unique - Only One Per Champion]"
-        },
-        {
-            "name": "GenAEWarmogsArmor",
-            "attrs": "Grant 600 bonus Health and regenerate 0.5% maximum Health per second.<br><br>Self-destructs after 1 round of player combat."
-        },
-        {
-            "name": "GenAETitansResolve",
-            "attrs": "Grants 2% Attack Damage, 2% Ability Power, and 2% Attack Speed when attacking or taking damage, stacking up to 30 times.<br><br>At full stacks, grant 30 Armor and 30 Magic Resist."
+            "trait_key": "Gadgeteen",
+            "trait_items": [
+                {
+                    "key": "GenAEBloodthirster",
+                    "name": "Chainsword Bloodthirster",
+                    "desc": "Grant 20% Omnivamp.<br><br>Once per combat: At 40% Health, gain a 30% maximum Health shield that lasts up to 8 seconds. While the shield is acctive, the holder gains 50% Attack Damage.<br><br>Self-destructs after 1 round of player combat.<br><br>Omnivamp: heal for a percentage of damage dealt",
+                    "fromDesc": "+30% Attack Damage<br>+20 Magic Resist",
+                    "isGadgeteen": true
+                },
+                {
+                    "key": "GenAEGiantSlayer",
+                    "name": "OVERFLOW_ERROR // Giant Slayer",
+                    "desc": "Grant 20% bonus Attack Damage and 20 bonus Ability Power. Abilities and attacks deal 30% more damage to enemies with more than 1 maximum Health.<br><br>Self-destructs after 1 round of player combat.",
+                    "fromDesc": "+10% Attack Damage<br>+10% Attack Speed",
+                    "isGadgeteen": true
+                },
+                {
+                    "key": "GenAEHandOfJustice",
+                    "name": "Hand of Nondeterministic Justice",
+                    "desc": "Grant 2 effects:<br>- +25 Attack Damage and +25 Ability Power.<br>- 20% Omnivamp.<br><br>Self-destructs after 1 round of player combat.<br>Omnivamp: heal for a percentage of damage dealt",
+                    "fromDesc": "+20% Crit Chance<br>+15 Mana",
+                    "isGadgeteen": true
+                },
+                {
+                    "key": "GenAEIonicSpark",
+                    "name": "Magnetized lonic Spark",
+                    "desc": "Enemies within 2 hexes have their Magic Resist reduced by 50%. When they cast an Ability, they are zapped for magic damage equal to 250% of their maximum Mana. The holder Taunts every 4 seconds.<br><br>Self-destructs after 1 round of player combat.<br>[Direct damage item]",
+                    "fromDesc": "+10 Ability Power<br>+20 Magic Resist",
+                    "isGadgeteen": true
+                },
+                {
+                    "key": "GenAEShroudOfStillness",
+                    "name": "Shroud of Even Still-erness",
+                    "desc": "Grant 250 bouns Health.<br><br>Combat start: Shoot a beam that 35% Mana Reaves, 20% Chills, and reduces the movement speed of enemies by 20% for 3 seconds.<br><br>Self-destructs after 1 round of player combat.<br><br>[Unique - Only One Per Champion]",
+                    "fromDesc": "+20% Crit<br>+20 Armor",
+                    "isGadgeteen": true
+                },
+                {
+                    "key": "GenAESpearOfShojin",
+                    "name": "Jump-Started Spear of Shojin",
+                    "desc": "Grant 30 bouns starting Mana and 20 bonus Ability Power. Every 3rd attacks restores 20 additional Mana.<br><br>Self-destructs after 1 round of player combat.",
+                    "fromDesc": "+10% Attack Damage<br>+15 Mana",
+                    "isGadgeteen": true
+                },
+                {
+                    "key": "GenAESunfireCape",
+                    "name": "Overlocked Sunfire Cape",
+                    "desc": "Grant 150 bouns Health. Every 1 second, 10% Burn and 33% Wound an enemy within 3 hexes for 10 seconds.<br><br>Self-destructs after 1 round of player combat.<br><br>[Unique - Only One Per Champion]",
+                    "fromDesc": "+150 Helath<br>+20 Armor",
+                    "isGadgeteen": true
+                },
+                {
+                    "key": "GenAEWarmogsArmor",
+                    "name": "Induction-Powered Warmog's Armor",
+                    "desc": "Grant 600 bonus Health and regenerate 0.5% maximum Health per second.<br><br>Self-destructs after 1 round of player combat.",
+                    "fromDesc": "+300 Health",
+                    "isGadgeteen": true
+                },
+                {
+                    "key": "GenAETitansResolve",
+                    "name": "Gadgeteens Titan\u2019s Resolve",
+                    "desc": "Grants 2% Attack Damage, 2% Ability Power, and 2% Attack Speed when attacking or taking damage, stacking up to 30 times.<br><br>At full stacks, grant 30 Armor and 30 Magic Resist.",
+                    "fromDesc": "",
+                    "isGadgeteen": true
+                }
+            ]
         }
     ]
 }

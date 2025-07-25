@@ -5,9 +5,10 @@ from typing import Any,Dict
 from json import dumps
 
 from meta_data import setdata, components_nickname, attributes_nickname, allstats, components_nickname_priority
-from meta_data import craft2radiant_name_set5dot5, craft2radiant_name
+from meta_data import craft2radiant_name_set5dot5, craft2radiant_name, special_components
+from meta_data import set_specitem_keys
 
-from meta_func import emblem_cmp_key, grid_fix_write
+from meta_func import grid_fix_write
 from meta_func import no_radiant_set
 
 def parse_attr(fulldesc: str) -> list[str]:
@@ -37,45 +38,98 @@ def parse_attr(fulldesc: str) -> list[str]:
     #     print(fulldesc)
     return descs
 
+def filter_item_key(setof: str, itemof: dict) -> dict:
+    def delkeys(keyls: list[str]):
+        for itemkey in keyls:
+            if itemkey in itemof:
+                del itemof[itemkey]
+    # del commonkeys
+    delkeys(['ingameKey', 'shortDesc', 'imageUrl', 'isNormal', 'isUnique', 'isNew'])
+    # set specifickeys
+    match setof:
+        case 'set1':
+            delkeys(['fromDesc'])
+        case 'set2':
+            delkeys(['fromDesc'])
+        case _:
+            pass
+    return itemof 
+
+def merge_trait_spec_items(setof: str, setitems: list[dict]) -> list[dict]:
+    if setof not in set_specitem_keys:
+        return setitems
+    
+    newsetls:list[dict]=[]
+    if setof != 'set14':
+        for istraitkey in set_specitem_keys[setof]:
+            newsetls.append({
+                'trait_key': istraitkey.removeprefix('is'),
+                'trait_items': [itemof for itemof in setitems if istraitkey in itemof] 
+            })
+        for setitem in setitems:
+            if all([itemkey not in set_specitem_keys[setof] for itemkey in setitem]):
+                newsetls.append(setitem)
+    else:
+        for istraitkey in set_specitem_keys[setof]:
+            newsetls.append({
+                'trait_key': istraitkey.removeprefix('TFT14_'),
+                'trait_items': [itemof for itemof in setitems if 'tags' in itemof and itemof['tags'][0] == istraitkey] 
+            })
+
+    return newsetls
+
+
 itemTyp:Dict[str,Any] = {}
 for setof in setlist:
     itemTyp[setof]={
         'comp': [], # Components
         'craf': [], # Craftable
         'embl': [], # Emblems
+        'crow': [], # Crown
         'radi': [], # Radiant
         'arti': [], # Artifacts
         'supp': [], # Support
         'spec': [], # Special
     }
+    def valid_composi(itemof: dict) -> bool:
+        return 'compositions' in itemof and len(itemof['compositions']) == 2
+    def item_composi_nick(itemof: dict) -> str:
+        # return '+'.join([components_nickname[compof] for compof in sorted(itemof['compositions'], key=emblem_cmp_key)])
+        return '+'.join(sorted([components_nickname[compof] for compof in itemof['compositions']], key=lambda nickof: components_nickname_priority[nickof]))
+
     items=setdata[setof]['items']
     for itemof in items['items']:
         if 'isHidden' in itemof:
             continue
-        if 'isFromItem' in itemof:
+        elif 'isFromItem' in itemof:
             itemTyp[setof]['comp'].append({
                 'name': itemof['key'],
                 'attr': itemof['shortDesc'],
             })
-        elif 'isNormal' in itemof and \
-            'compositions' in itemof and len(itemof['compositions']) == 2 and \
-                'Spatula' not in itemof['compositions'] and \
-                'FryingPan' not in itemof['compositions']:
+        elif valid_composi(itemof) and \
+            'Spatula' not in itemof['compositions'] and \
+            'FryingPan' not in itemof['compositions'] and \
+            'ShadowSpatula' not in itemof['compositions']:
             itemTyp[setof]['craf'].append({
                 'name': itemof['key'],
-                'compositions': '+'.join(sorted([components_nickname[compof] for compof in itemof['compositions']], key=lambda nickof: components_nickname_priority[nickof])),
+                'compositions': item_composi_nick(itemof),
                 'basic_attrs': parse_attr(str(itemof['fromDesc'])),
                 'add_attrs': itemof['desc'],
             })
-        elif 'isEmblem' in itemof and \
+        elif 'isEmblem' in itemof or \
             'affectedTraitKey' in itemof:
             itemTyp[setof]['embl'].append({
                 'name': itemof['key'],
-                'compositions': '+'.join([components_nickname[compof] for compof in sorted(itemof['compositions'], key=emblem_cmp_key)]) 
-                                if 'compositions' in itemof and len(itemof['compositions']) == 2
-                                else '',
-                'gain_trait': itemof['affectedTraitKey'],
+                'compositions': item_composi_nick(itemof) if valid_composi(itemof) else '',
+                'gain_trait': itemof['affectedTraitKey'] if 'affectedTraitKey' in itemof else '',
                 'add_attrs': itemof['desc'],
+            })
+        elif valid_composi(itemof) and \
+            itemof['compositions'][0] in special_components and \
+            itemof['compositions'][1] in special_components:
+            itemTyp[setof]['crow'].append({
+                'name': itemof['key'],
+                'compositions': item_composi_nick(itemof)
             })
         elif 'isRadiant' in itemof:
             itemTyp[setof]['radi'].append({
@@ -96,10 +150,10 @@ for setof in setlist:
                 'add_attrs': itemof['desc'],
             })
         else:
-            itemTyp[setof]['spec'].append({
-                'name': itemof['key'],
-                'attrs': itemof['desc'],
-            })
+            itemTyp[setof]['spec'].append(
+                filter_item_key(setof, dict(itemof).copy())
+            )
+    itemTyp[setof]['spec'] = merge_trait_spec_items(setof, itemTyp[setof]['spec'])
 
     with open(f'tftitems/{setof}.json', 'w+') as itemsfile:
         itemsfile.write(dumps(itemTyp[setof], ensure_ascii=True, indent='    '))
@@ -109,6 +163,7 @@ def get_craftable_grid(setof: str) -> str:
     comps=sorted([components_nickname[comp['name']] for comp in itemTyp[setof]['comp']], key=lambda nickof: components_nickname_priority[nickof])
     crafts=itemTyp[setof]['craf']
     emblems=itemTyp[setof]['embl']
+    crowns=itemTyp[setof]['crow']
 
     grid2d=[['']*len(comps) for _ in range(len(comps))]
 
@@ -125,6 +180,12 @@ def get_craftable_grid(setof: str) -> str:
             continue
         compnickitems.sort(key=lambda compnick: components_nickname_priority[compnick])
         grid2d[comps.index(compnickitems[0])][comps.index(compnickitems[1])] = embl['name']
+    
+    for crown in crowns:
+        compnickitems=str(crown['compositions']).split('+')
+        if len(compnickitems) != 2:
+            continue
+        grid2d[comps.index(compnickitems[0])][comps.index(compnickitems[1])] = crown['name']
     
     return grid_fix_write(grid2d, comps.copy(), comps.copy(), 'C1\\C2')
 
@@ -206,8 +267,17 @@ def parse_craftable_item_change():
         craftchf.write('\n'.join(composich)+f'\n\n{itemchset}')
         craftchf.close()
 
+def collect_allset_spec_items():
+    with open('tftitems/specs.json', 'w+') as specf:
+        specf.write(dumps({
+            setof: set_items['spec']
+            for setof, set_items in itemTyp.items()
+        }, ensure_ascii=True, indent='    '))
+        specf.close()
+
 compare_craftable_radiant_items()
 parse_craftable_item_change()
+collect_allset_spec_items()
 for setof in setlist:
     with open(f'tftitems/grid/{setof}.txt', 'w+') as gridfile:
         gridfile.write(get_craftable_grid(setof))

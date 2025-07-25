@@ -379,49 +379,49 @@
     "embl": [
         {
             "name": "PyroEmblem",
-            "compositions": "spatula+bow",
+            "compositions": "bow+spatula",
             "gain_trait": "Pyro",
             "add_attrs": "The holder gains the Pyro trait.<br><br>[Unique - only one per champion]"
         },
         {
             "name": "FrostEmblem",
-            "compositions": "spatula+vest",
+            "compositions": "vest+spatula",
             "gain_trait": "Frost",
             "add_attrs": "The holder gains the Frost trait.<br><br>[Unique - only one per champion]"
         },
         {
             "name": "WitchcraftEmblem",
-            "compositions": "spatula+cloak",
+            "compositions": "cloak+spatula",
             "gain_trait": "Witchcraft",
             "add_attrs": "The holder gains the Witchcraft trait.<br><br>[Unique - only one per champion]"
         },
         {
             "name": "PortalEmblem",
-            "compositions": "spatula+rod",
+            "compositions": "rod+spatula",
             "gain_trait": "Portal",
             "add_attrs": "The holder gains the Portal trait.<br><br>[Unique - only one per champion]"
         },
         {
             "name": "FaerieEmblem",
-            "compositions": "spatula+tear",
+            "compositions": "tear+spatula",
             "gain_trait": "Faerie",
             "add_attrs": "The holder gains the Faerie trait.<br><br>[Unique - only one per champion]"
         },
         {
             "name": "EldritchEmblem",
-            "compositions": "spatula+belt",
+            "compositions": "belt+spatula",
             "gain_trait": "Eldritch",
             "add_attrs": "The holder gains the Eldritch trait.<br><br>[Unique - only one per champion]"
         },
         {
             "name": "HoneymancyEmblem",
-            "compositions": "spatula+glove",
+            "compositions": "glove+spatula",
             "gain_trait": "Honeymancy",
             "add_attrs": "The holder gains the Honeymancy trait.<br><br>[Unique - only one per champion]"
         },
         {
             "name": "ShapeshifterEmblem",
-            "compositions": "pan+belt",
+            "compositions": "belt+pan",
             "gain_trait": "Shapeshifter",
             "add_attrs": "The holder gains the Shapeshifter trait."
         },
@@ -433,7 +433,7 @@
         },
         {
             "name": "ScholarEmblem",
-            "compositions": "pan+tear",
+            "compositions": "tear+pan",
             "gain_trait": "Scholar",
             "add_attrs": "The holder gains the Scholar trait."
         },
@@ -445,19 +445,19 @@
         },
         {
             "name": "BastionEmblem",
-            "compositions": "pan+vest",
+            "compositions": "vest+pan",
             "gain_trait": "Bastion",
             "add_attrs": "The holder gains the Bastion trait."
         },
         {
             "name": "WarriorEmblem",
-            "compositions": "pan+glove",
+            "compositions": "glove+pan",
             "gain_trait": "Warrior",
             "add_attrs": "The holder gains the Warrior trait."
         },
         {
             "name": "HunterEmblem",
-            "compositions": "pan+sword",
+            "compositions": "sword+pan",
             "gain_trait": "Hunter",
             "add_attrs": "The holder gains the Hunter trait."
         },
@@ -469,7 +469,7 @@
         },
         {
             "name": "MultistrikerEmblem",
-            "compositions": "pan+bow",
+            "compositions": "bow+pan",
             "gain_trait": "Multistriker",
             "add_attrs": "The holder gains the Multistriker trait."
         },
@@ -481,19 +481,19 @@
         },
         {
             "name": "SugarcraftEmblem",
-            "compositions": "spatula+sword",
+            "compositions": "sword+spatula",
             "gain_trait": "Sugarcraft",
             "add_attrs": "The holder gains the Sugarcraft trait.<br><br>[Unique - only one per champion]"
         },
         {
             "name": "PreserverEmblem",
-            "compositions": "pan+cloak",
+            "compositions": "cloak+pan",
             "gain_trait": "Preserver",
             "add_attrs": "The holder gains the Preserver trait."
         },
         {
             "name": "MageEmblem",
-            "compositions": "pan+rod",
+            "compositions": "rod+pan",
             "gain_trait": "Mage",
             "add_attrs": "The holder gains the Mage trait."
         },
@@ -502,6 +502,20 @@
             "compositions": "",
             "gain_trait": "Incantor",
             "add_attrs": "The holder gains the Incantor trait."
+        }
+    ],
+    "crow": [
+        {
+            "name": "ForceofNature",
+            "compositions": "spatula+spatula"
+        },
+        {
+            "name": "TacticiansCape",
+            "compositions": "spatula+pan"
+        },
+        {
+            "name": "TacticiansShield",
+            "compositions": "pan+pan"
         }
     ],
     "radi": [
@@ -1194,32 +1208,41 @@
     ],
     "spec": [
         {
-            "name": "ForceofNature",
-            "attrs": "Your team gains +1 max team size.<br><br>10% chance to drop 1 gold when you win combat.<br><br>\"...the Heart of a hero...\""
-        },
-        {
-            "name": "FaerieQueensCrown",
-            "attrs": "After dealing damage 12 times, gain % Damage Amp for the rest of combat.<br><br>Only Faeries can hold this item.<br>Bench the champion to remove it."
-        },
-        {
-            "name": "EternalMonarchsCrown",
-            "attrs": "After dealing damage 12 times, gain % Damage Amp for the rest of combat.<br><br>After dealing damage 25 times, gain 20% maximum Health, 30% Omnivamp, and 50% damage amp.<br><br>Only Faeries can hold this item.<br>Bench the champion to remove it."
-        },
-        {
-            "name": "QueenguardsArmor",
-            "attrs": "Gain 20% increased healing and shielding. Heal for 5% of the Queen's damage dealt.<br><br>Only Faeries can hold this item.<br>Bench the champion to remove it."
-        },
-        {
-            "name": "ArmorofEternalFlight",
-            "attrs": "Gain 50% increased healing and shielding. Heal for 20% of the Queen's damage dealt.<br><br>Only Faeries can hold this item.<br>Bench the champion to remove it."
-        },
-        {
-            "name": "TacticiansCape",
-            "attrs": "Your team gains +1 max team size.<br><br>10% chance to drop 1 gold after 10 seconds of combat.<br><br>\"...and a bit of Luck.\""
-        },
-        {
-            "name": "TacticiansShield",
-            "attrs": "Your team gains +1 max team size.<br><br>10% chance to drop 1 gold when the holder dies.<br><br>\"Imbued with a Philosopher's wisdom...\""
+            "trait_key": "Faerie",
+            "trait_items": [
+                {
+                    "key": "FaerieQueensCrown",
+                    "ingameIcon": "Item_Icons/TFT12/TFT12_FaerieCrown.TFT_Set12",
+                    "name": "Faerie Queen's Crown",
+                    "desc": "After dealing damage 12 times, gain % Damage Amp for the rest of combat.<br><br>Only Faeries can hold this item.<br>Bench the champion to remove it.",
+                    "fromDesc": "+30% Attack Damage<br>+30 Ability Power",
+                    "isFaerie": true
+                },
+                {
+                    "key": "EternalMonarchsCrown",
+                    "ingameIcon": "Item_Icons/TFT12/TFT12_FaerieCrown_Radiant.TFT_Set12",
+                    "name": "Eternal Monarch's Crown",
+                    "desc": "After dealing damage 12 times, gain % Damage Amp for the rest of combat.<br><br>After dealing damage 25 times, gain 20% maximum Health, 30% Omnivamp, and 50% damage amp.<br><br>Only Faeries can hold this item.<br>Bench the champion to remove it.",
+                    "fromDesc": "+30% Attack Damage<br>+30 Ability Power<br>+25% Attack Speed",
+                    "isFaerie": true
+                },
+                {
+                    "key": "QueenguardsArmor",
+                    "ingameIcon": "Item_Icons/TFT12/TFT12_FaerieQueenguardArmor.TFT_Set12",
+                    "name": "Queenguard's Armor",
+                    "desc": "Gain 20% increased healing and shielding. Heal for 5% of the Queen's damage dealt.<br><br>Only Faeries can hold this item.<br>Bench the champion to remove it.",
+                    "fromDesc": "Armor +40<br>Health +400<br>Magic Resist +40",
+                    "isFaerie": true
+                },
+                {
+                    "key": "ArmorofEternalFlight",
+                    "ingameIcon": "Item_Icons/TFT12_FaerieQueenguardArmor_Radiant.TFT_Set12",
+                    "name": "Armor of Eternal Flight",
+                    "desc": "Gain 50% increased healing and shielding. Heal for 20% of the Queen's damage dealt.<br><br>Only Faeries can hold this item.<br>Bench the champion to remove it.",
+                    "fromDesc": "Armor +60<br>Health +1000<br>Magic Resist +60",
+                    "isFaerie": true
+                }
+            ]
         }
     ]
 }

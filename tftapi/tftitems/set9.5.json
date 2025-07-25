@@ -378,7 +378,7 @@
         },
         {
             "name": "ChallengerEmblem",
-            "compositions": "spatula+bow",
+            "compositions": "bow+spatula",
             "gain_trait": "Challenger",
             "add_attrs": "The holder gains the Challenger trait.<br><br>[Unique - Only One Per Champion]"
         },
@@ -408,19 +408,19 @@
         },
         {
             "name": "IoniaEmblem",
-            "compositions": "spatula+sword",
+            "compositions": "sword+spatula",
             "gain_trait": "Ionia",
             "add_attrs": "The holder gains the Ionia trait.<br><br>Ionia Bonus: 25% Attack Speed.<br><br>[Unique - Only One Per Champion]"
         },
         {
             "name": "JuggernautEmblem",
-            "compositions": "spatula+vest",
+            "compositions": "vest+spatula",
             "gain_trait": "Juggernaut",
             "add_attrs": "The holder gains the Juggernaut trait.<br><br>[Unique - Only One Per Champion]"
         },
         {
             "name": "NoxusEmblem",
-            "compositions": "spatula+belt",
+            "compositions": "belt+spatula",
             "gain_trait": "Noxus",
             "add_attrs": "The holder gains the Noxus trait.<br><br>[Unique - Only One Per Champion]"
         },
@@ -438,7 +438,7 @@
         },
         {
             "name": "ShurimaEmblem",
-            "compositions": "spatula+rod",
+            "compositions": "rod+spatula",
             "gain_trait": "Shurima",
             "add_attrs": "The holder gains the Shurima trait.<br><br>[Unique - Only One Per Champion]"
         },
@@ -450,7 +450,7 @@
         },
         {
             "name": "SorcererEmblem",
-            "compositions": "spatula+tear",
+            "compositions": "tear+spatula",
             "gain_trait": "Sorcerer",
             "add_attrs": "The holder gains the Sorcerer trait."
         },
@@ -480,7 +480,7 @@
         },
         {
             "name": "BilgewaterEmblem",
-            "compositions": "spatula+cloak",
+            "compositions": "cloak+spatula",
             "gain_trait": "Bilgewater",
             "add_attrs": "The holder gains the Bilgewater Trait.<br><br>[Unique - Only One Per Champion]"
         },
@@ -492,9 +492,15 @@
         },
         {
             "name": "VanquisherEmblem",
-            "compositions": "spatula+glove",
+            "compositions": "glove+spatula",
             "gain_trait": "Vanquisher",
             "add_attrs": "The holder gains the Vanquisher trait.<br><br>[Unique - Only One Per Champion]"
+        }
+    ],
+    "crow": [
+        {
+            "name": "ForceofNature",
+            "compositions": "spatula+spatula"
         }
     ],
     "radi": [
@@ -1006,32 +1012,51 @@
     ],
     "spec": [
         {
-            "name": "AdaptiveImplant",
-            "attrs": "Mod: While above 50% Health, gain 40% Attack Damage and Ability Power. While below, gain 40% Omnivamp.<br><br>Overcharge: Always gain both effects, and their power is increased by 60%.<br><br>Omnivamp: Heal for percentage of damage dealt"
-        },
-        {
-            "name": "ForceofNature",
-            "attrs": "Your team gains +1 maximum team size."
-        },
-        {
-            "name": "HextechExoskeleton",
-            "attrs": "Mod: Deal 12% more damage. Take 12% less damage. Every 5 seconds, heal for 20% maximum Health.<br><br>Overcharge: You are immune to crowd control, and the heal is increased to 30% maximum Health."
-        },
-        {
-            "name": "RoboticArm",
-            "attrs": "Mod: Attacks have a 40% chance to trigger 1 additional attack.<br><br>Overcharge: Attacks and abilities deal Attack Damage as bonus true damage."
-        },
-        {
-            "name": "ShimmerInjector",
-            "attrs": "Mod: Gain 44% Attack Speed. The first time you would be reduced to 1 Health, increase the Attack Speed bonus by 100% and heal for 35% maximum Health.<br><br>Overcharge: Instead increase the Attack Speed bonus by 200% and heal for 100% maximum Health."
-        },
-        {
-            "name": "UnstableChemtank",
-            "attrs": "Mod: Gain 40% maximum Health and explode on death, dealing 25% of your maximum Health as magic damage to enemies within 2 hexes.<br><br>Overcharge: Explosion radius is increased to 3 hexes."
-        },
-        {
-            "name": "VirulentBioware",
-            "attrs": "Mod: For 3 seconds after ability cast, dealing damage applies a plague causing the target and enemies within 1 hex to take 20% more damage for 5 seconds.<br><br>Overcharge: Plague duration increases to 10 seconds and plague deals 6% of the target's maximum Health per second as magic damage."
+            "trait_key": "Zaun",
+            "trait_items": [
+                {
+                    "key": "AdaptiveImplant",
+                    "name": "Adaptive Implant",
+                    "desc": "Mod: While above 50% Health, gain 40% Attack Damage and Ability Power. While below, gain 40% Omnivamp.<br><br>Overcharge: Always gain both effects, and their power is increased by 60%.<br><br>Omnivamp: Heal for percentage of damage dealt",
+                    "fromDesc": "",
+                    "isZaun": true
+                },
+                {
+                    "key": "HextechExoskeleton",
+                    "name": "Hextech Exoskeleton",
+                    "desc": "Mod: Deal 12% more damage. Take 12% less damage. Every 5 seconds, heal for 20% maximum Health.<br><br>Overcharge: You are immune to crowd control, and the heal is increased to 30% maximum Health.",
+                    "fromDesc": "",
+                    "isZaun": true
+                },
+                {
+                    "key": "RoboticArm",
+                    "name": "Robotic Arm",
+                    "desc": "Mod: Attacks have a 40% chance to trigger 1 additional attack.<br><br>Overcharge: Attacks and abilities deal Attack Damage as bonus true damage.",
+                    "fromDesc": "",
+                    "isZaun": true
+                },
+                {
+                    "key": "ShimmerInjector",
+                    "name": "Shimmer Injector",
+                    "desc": "Mod: Gain 44% Attack Speed. The first time you would be reduced to 1 Health, increase the Attack Speed bonus by 100% and heal for 35% maximum Health.<br><br>Overcharge: Instead increase the Attack Speed bonus by 200% and heal for 100% maximum Health.",
+                    "fromDesc": "",
+                    "isZaun": true
+                },
+                {
+                    "key": "UnstableChemtank",
+                    "name": "Unstable Chemtank",
+                    "desc": "Mod: Gain 40% maximum Health and explode on death, dealing 25% of your maximum Health as magic damage to enemies within 2 hexes.<br><br>Overcharge: Explosion radius is increased to 3 hexes.",
+                    "fromDesc": "",
+                    "isZaun": true
+                },
+                {
+                    "key": "VirulentBioware",
+                    "name": "Virulent Bioware",
+                    "desc": "Mod: For 3 seconds after ability cast, dealing damage applies a plague causing the target and enemies within 1 hex to take 20% more damage for 5 seconds.<br><br>Overcharge: Plague duration increases to 10 seconds and plague deals 6% of the target's maximum Health per second as magic damage.",
+                    "fromDesc": "",
+                    "isZaun": true
+                }
+            ]
         }
     ]
 }

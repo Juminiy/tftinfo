@@ -1,0 +1,956 @@
+{
+    "set1": [
+        {
+            "key": "SwordoftheDivine",
+            "name": "Sword of the Divine",
+            "desc": "Each second, the wearer has a 7% chance to gain 100% Critical Strike"
+        },
+        {
+            "key": "NeekosHelp",
+            "name": "Neeko's Help",
+            "desc": "Place on a champion to create a 1-star copy of that champion and add it to your bench. Doing so consumes Neeko's Help."
+        },
+        {
+            "key": "RunaansHurricane",
+            "name": "Runaan's Hurricane",
+            "desc": "Summon a spirit who mirrors your attacks, dealing 75% Damage",
+            "compositions": [
+                "NegatronCloak",
+                "Spatula"
+            ]
+        }
+    ],
+    "set2": [
+        {
+            "key": "PhantomDancer",
+            "name": "Phantom Dancer",
+            "desc": "Wearer dodges the bonus damage from critical strikes"
+        },
+        {
+            "key": "Thornmail",
+            "name": "Thornmail",
+            "desc": "Reflect 100% of damage mitigated from attacks"
+        },
+        {
+            "key": "RepeatingCrossbow",
+            "name": "Repeating Crossbow",
+            "desc": "On death, Repeating Crossbow bounces to a new unit and grants an extra +30% Attack Speed and +30% Crit chance"
+        }
+    ],
+    "set3": [],
+    "set3.5": [],
+    "set4": [],
+    "set4.5": [],
+    "set5": [],
+    "set5.5": [],
+    "set6": [],
+    "set6.5": [],
+    "set7": [
+        {
+            "trait_key": "Shimmerscale",
+            "trait_items": [
+                {
+                    "key": "DravensAxe",
+                    "name": "Draven's Axe",
+                    "desc": "Gain 1 Attack Damage per gold in your bank (up to 80).<br><br>Attack grant 1 stack, up to 100 times, At full stacks, grant 7 gold and 1 item component(s).",
+                    "fromDesc": "+10 Attack Damage<br>+10% Attack Speed",
+                    "isShimmerscale": true
+                },
+                {
+                    "key": "GoldmancersStaff",
+                    "name": "Goldmancer's Staff",
+                    "desc": "Gain 1 Ability Power per gold in your bank (up to 80) and a 50% chance to drop 2 gold on enemy kill.",
+                    "fromDesc": "+30 Ability Power<br>+30 Mana",
+                    "isShimmerscale": true
+                },
+                {
+                    "key": "GamblersBlade",
+                    "name": "Gambler's Blade",
+                    "desc": "Gain 1% bonus Attack Speed per gold in your bank (up to 80). Each attack has a 6% chance to drop 1 gold.",
+                    "fromDesc": "+30 Ability Power<br>+30 Attack Speed",
+                    "isShimmerscale": true
+                },
+                {
+                    "key": "MogulsMail",
+                    "name": "Mogul's Mail",
+                    "desc": "Grant 1 Armor, 1 Magic Resist, and 8 Health when taking damage, stacking up to 40 times.<br><br>At full stacks, grant 2 gold.",
+                    "fromDesc": "+300 Health",
+                    "isShimmerscale": true
+                },
+                {
+                    "key": "DeterminedInvestor",
+                    "name": "Determined Investor",
+                    "desc": "After dying during combat 8 times, this item is destroyed. Upon destruction, grant the item Diamond Hands, 1 Champion Duplicator and 15 gold.",
+                    "fromDesc": "+150 Health",
+                    "isShimmerscale": true
+                },
+                {
+                    "key": "DiamondHands",
+                    "name": "Diamond Hands",
+                    "desc": "Once per combat at 66% and 33% Health, gain 1 gold and immunity for 1 seconds.",
+                    "fromDesc": "+200 Health<br>+20 Ability Power",
+                    "isShimmerscale": true
+                },
+                {
+                    "key": "NeedlesslyBigGem",
+                    "name": "Needlessly Big Gem",
+                    "desc": "If the holder is alive after 15 seconds of combat, your units deal 1% more damage per gold you have. For every 2 units alive when this happens, gain 1 gold.",
+                    "fromDesc": "Health +500",
+                    "isShimmerscale": true
+                },
+                {
+                    "key": "CrownofChampions",
+                    "name": "Crown of Champions",
+                    "desc": "Every 5 seconds, the next attack deals 9001x the amount of gold in your bank in true damage.",
+                    "fromDesc": "+100 Health",
+                    "isShimmerscale": true
+                }
+            ]
+        },
+        {
+            "key": "DragonmancersBlessing",
+            "name": "Dragon Blessing",
+            "desc": "Use on a Dragonmancer to make them your Dragonmancer Hero.<br><br>[Cannot be used in combat.]",
+            "fromDesc": "",
+            "isFilterHidden": true
+        },
+        {
+            "key": "DarkflightEssence",
+            "name": "DarkflightEssence",
+            "desc": "Health +130, Attack +13, Ability Power +13, Defense +13, Magic Resistance +13<br><br>[Acquired by copying items that cannot be crafted with the Descent of Darkness attribute]",
+            "fromDesc": ""
+        }
+    ],
+    "set7.5": [
+        {
+            "trait_key": "Shimmerscale",
+            "trait_items": [
+                {
+                    "key": "CrownofChampions",
+                    "name": "Crown of Champions",
+                    "desc": "Every 5 seconds, the next attack deals 9001x the amount of gold in your bank in true damage.",
+                    "fromDesc": "+100 Health",
+                    "isShimmerscale": true
+                },
+                {
+                    "key": "DeterminedInvestor",
+                    "name": "Determined Investor",
+                    "desc": "After dying during combat 8 times, this item is destroyed. Upon destruction, grant the item Diamond Hands, 1 Champion Duplicator and 15 gold.",
+                    "fromDesc": "+150 Health",
+                    "isShimmerscale": true
+                },
+                {
+                    "key": "DiamondHands",
+                    "name": "Diamond Hands",
+                    "desc": "Once per combat at 66% and 33% Health, gain 1 gold and immunity for 1 seconds.",
+                    "fromDesc": "+200 Health<br>+20 Ability Power",
+                    "isShimmerscale": true
+                },
+                {
+                    "key": "DravensAxe",
+                    "name": "Draven's Axe",
+                    "desc": "Gain 1 Attack Damage per gold in your bank (up to 80).<br><br>Attack grant 1 stack, up to 100 times, At full stacks, grant 5 gold and 1 item component(s).",
+                    "fromDesc": "+5 Attack Damage<br>+5% Attack Speed",
+                    "isShimmerscale": true
+                },
+                {
+                    "key": "GamblersBlade",
+                    "name": "Gambler's Blade",
+                    "desc": "Gain 1% bonus Attack Speed per gold in your bank (up to 80). Each attack has a 7% chance to drop 1 gold.",
+                    "fromDesc": "+10 Ability Power<br>+10 Attack Speed",
+                    "isShimmerscale": true
+                },
+                {
+                    "key": "GoldmancersStaff",
+                    "name": "Goldmancer's Staff",
+                    "desc": "Gain 1 Ability Power per gold in your bank (up to 80) and a 40% chance to drop 2 gold on enemy kill.",
+                    "fromDesc": "+20 Ability Power<br>+20 Mana",
+                    "isShimmerscale": true
+                },
+                {
+                    "key": "MogulsMail",
+                    "name": "Mogul's Mail",
+                    "desc": "Grant 1 Armor, 1 Magic Resist, and 8 Health when taking damage, stacking up to 40 times.<br><br>At full stacks, grant 2 gold.",
+                    "fromDesc": "+350 Health",
+                    "isShimmerscale": true
+                },
+                {
+                    "key": "NeedlesslyBigGem",
+                    "name": "Needlessly Big Gem",
+                    "desc": "If the holder is alive after 15 seconds of combat, your units deal 1% more damage per gold you have. For every 2 units alive when this happens, gain 1 gold.",
+                    "fromDesc": "Health +500",
+                    "isShimmerscale": true
+                }
+            ]
+        },
+        {
+            "key": "DragonmancersBlessing",
+            "name": "Dragon Blessing",
+            "desc": "Use on a Dragonmancer to make them your Dragonmancer Hero.<br><br>[Cannot be used in combat.]",
+            "fromDesc": "",
+            "isFilterHidden": true
+        },
+        {
+            "key": "DarkflightEssence",
+            "name": "DarkflightEssence",
+            "desc": "Health +130, Attack +13, Ability Power +13, Defense +13, Magic Resistance +13<br><br>[Acquired by copying items that cannot be crafted with the Descent of Darkness attribute]",
+            "fromDesc": "Health +130, Attack +13, Ability Power +13, Defense +13, Magic Resistance +13"
+        }
+    ],
+    "set8": [
+        {
+            "trait_key": "Gadgeteen",
+            "trait_items": [
+                {
+                    "key": "GenAEBloodthirster",
+                    "name": "Chainsword Bloodthirster",
+                    "desc": "Grant 20% Omnivamp.<br><br>Once per combat: At 40% Health, gain a 30% maximum Health shield that lasts up to 8 seconds. While the shield is acctive, the holder gains 50% Attack Damage.<br><br>Self-destructs after 1 round of player combat.<br><br>Omnivamp: heal for a percentage of damage dealt",
+                    "fromDesc": "+30% Attack Damage<br>+20 Magic Resist",
+                    "isGadgeteen": true
+                },
+                {
+                    "key": "GenAEGiantSlayer",
+                    "name": "OVERFLOW_ERROR // Giant Slayer",
+                    "desc": "Grant 20% bonus Attack Damage and 20 bonus Ability Power. Abilities and attacks deal 30% more damage to enemies with more than 1 maximum Health.<br><br>Self-destructs after 1 round of player combat.",
+                    "fromDesc": "+10% Attack Damage<br>+10% Attack Speed",
+                    "isGadgeteen": true
+                },
+                {
+                    "key": "GenAEHandOfJustice",
+                    "name": "Hand of Nondeterministic Justice",
+                    "desc": "Grant 2 effects:<br>- +25 Attack Damage and +25 Ability Power.<br>- 20% Omnivamp.<br><br>Self-destructs after 1 round of player combat.<br>Omnivamp: heal for a percentage of damage dealt",
+                    "fromDesc": "+20% Crit Chance<br>+15 Mana",
+                    "isGadgeteen": true
+                },
+                {
+                    "key": "GenAEIonicSpark",
+                    "name": "Magnetized lonic Spark",
+                    "desc": "Enemies within 2 hexes have their Magic Resist reduced by 50%. When they cast an Ability, they are zapped for magic damage equal to 250% of their maximum Mana. The holder Taunts every 4 seconds.<br><br>Self-destructs after 1 round of player combat.<br>[Direct damage item]",
+                    "fromDesc": "+10 Ability Power<br>+20 Magic Resist",
+                    "isGadgeteen": true
+                },
+                {
+                    "key": "GenAEShroudOfStillness",
+                    "name": "Shroud of Even Still-erness",
+                    "desc": "Grant 250 bouns Health.<br><br>Combat start: Shoot a beam that 35% Mana Reaves, 20% Chills, and reduces the movement speed of enemies by 20% for 3 seconds.<br><br>Self-destructs after 1 round of player combat.<br><br>[Unique - Only One Per Champion]",
+                    "fromDesc": "+20% Crit<br>+20 Armor",
+                    "isGadgeteen": true
+                },
+                {
+                    "key": "GenAESpearOfShojin",
+                    "name": "Jump-Started Spear of Shojin",
+                    "desc": "Grant 30 bouns starting Mana and 20 bonus Ability Power. Every 3rd attacks restores 20 additional Mana.<br><br>Self-destructs after 1 round of player combat.",
+                    "fromDesc": "+10% Attack Damage<br>+15 Mana",
+                    "isGadgeteen": true
+                },
+                {
+                    "key": "GenAESunfireCape",
+                    "name": "Overlocked Sunfire Cape",
+                    "desc": "Grant 150 bouns Health. Every 1 second, 10% Burn and 33% Wound an enemy within 3 hexes for 10 seconds.<br><br>Self-destructs after 1 round of player combat.<br><br>[Unique - Only One Per Champion]",
+                    "fromDesc": "+150 Helath<br>+20 Armor",
+                    "isGadgeteen": true
+                },
+                {
+                    "key": "GenAEWarmogsArmor",
+                    "name": "Induction-Powered Warmog's Armor",
+                    "desc": "Grant 600 bonus Health and regenerate 0.5% maximum Health per second.<br><br>Self-destructs after 1 round of player combat.",
+                    "fromDesc": "+300 Health",
+                    "isGadgeteen": true
+                },
+                {
+                    "key": "GenAETitansResolve",
+                    "name": "Gadgeteens Titan\u2019s Resolve",
+                    "desc": "Grants 2% Attack Damage, 2% Ability Power, and 2% Attack Speed when attacking or taking damage, stacking up to 30 times.<br><br>At full stacks, grant 30 Armor and 30 Magic Resist.",
+                    "fromDesc": "",
+                    "isGadgeteen": true
+                }
+            ]
+        }
+    ],
+    "set8.5": [
+        {
+            "trait_key": "Gadgeteen",
+            "trait_items": [
+                {
+                    "key": "GenAEBloodthirster",
+                    "name": "Chainsword Bloodthirster",
+                    "desc": "Grant 20% Omnivamp.<br><br>Once per combat: At 40% Health, gain a 25% maximum Health shield that lasts up to 8 seconds. While the shield is acctive, the holder gains 50% Attack Damage.<br><br>Self-destructs after 1 round of player combat.<br><br>Omnivamp: heal for a percentage of damage dealt",
+                    "fromDesc": "+10% Attack Damage<br>+20 Magic Resist",
+                    "isGadgeteen": true
+                },
+                {
+                    "key": "GenAEGiantSlayer",
+                    "name": "OVERFLOW_ERROR // Giant Slayer",
+                    "desc": "If the target has more than 1 maximum Health, deal 30% more damage with Abilities and attacks.<br><br>Self-destructs after 1 round of player combat.",
+                    "fromDesc": "+30% Attack Damage<br>+20 Ability Power<br>+10% Attack Speed",
+                    "isGadgeteen": true
+                },
+                {
+                    "key": "GenAEHandOfJustice",
+                    "name": "Hand of Nondeterministic Justice",
+                    "desc": "Grant 2 effects:<br>- +25 Attack Damage and +25 Ability Power.<br>- 20% Omnivamp.<br><br>Self-destructs after 1 round of player combat.<br>Omnivamp: heal for a percentage of damage dealt",
+                    "fromDesc": "+20% Crit Chance<br>+15 Mana",
+                    "isGadgeteen": true
+                },
+                {
+                    "key": "GenAEIonicSpark",
+                    "name": "Magnetized lonic Spark",
+                    "desc": "50% Shred enemies within 2 hexes. When they cast an Ability, they are zapped for magic damage equal to 250% of their maximum Mana. The holder Taunts every 4 seconds.<br><br>Self-destructs after 1 round of player combat.<br>[Direct damage item]",
+                    "fromDesc": "+10 Ability Power<br>+20 Magic Resist",
+                    "isGadgeteen": true
+                },
+                {
+                    "key": "GenAEShroudOfStillness",
+                    "name": "Shroud of Even Still-erness",
+                    "desc": "Combat start: Shoot a beam that 35% Mana Reaves, 20% Chills, and reduces the movement speed of enemies by 20% for 3 seconds.<br><br>Self-destructs after 1 round of player combat.<br><br>[Unique - Only One Per Champion]",
+                    "fromDesc": "+250 Health<br>+20% Crit<br>+20 Armor",
+                    "isGadgeteen": true
+                },
+                {
+                    "key": "GenAESpearOfShojin",
+                    "name": "Jump-Started Spear of Shojin",
+                    "desc": "Every 3rd attacks restores 20 additional Mana.<br><br>Self-destructs after 1 round of player combat.",
+                    "fromDesc": "+10% Attack Damage<br>+45 Mana<br>+20 Ability Power",
+                    "isGadgeteen": true
+                },
+                {
+                    "key": "GenAESunfireCape",
+                    "name": "Overlocked Sunfire Cape",
+                    "desc": "Every 1 second, 10% Burn and 33% Wound an enemy within 3 hexes for 10 seconds.<br><br>Self-destructs after 1 round of player combat.<br><br>[Unique - Only One Per Champion]",
+                    "fromDesc": "+300 Helath<br>+20 Armor",
+                    "isGadgeteen": true
+                },
+                {
+                    "key": "GenAETitansResolve",
+                    "name": "Gadgeteens Titan\u2019s Resolve",
+                    "desc": "Grants 2% Attack Damage, 2% Ability Power, and 2% Attack Speed when attacking or taking damage, stacking up to 30 times.<br><br>At full stacks, grant 30 Armor and 30 Magic Resist.",
+                    "fromDesc": "+20 Armor<br>+10% Attack speed",
+                    "isGadgeteen": true
+                },
+                {
+                    "key": "GenAEWarmogsArmor",
+                    "name": "Induction-Powered Warmog's Armor",
+                    "desc": "Regenerate 0.5% maximum Health per second.<br><br>Self-destructs after 1 round of player combat.",
+                    "fromDesc": "+900 Health",
+                    "isGadgeteen": true
+                }
+            ]
+        }
+    ],
+    "set9": [
+        {
+            "trait_key": "Zaun",
+            "trait_items": [
+                {
+                    "key": "AdaptiveImplant",
+                    "name": "Adaptive Implant",
+                    "desc": "Mod: While above 50% health, gain 30% attack damage and 30 ability power. While below, gain 30% omnivamp.<br><br>Overcharge: Always gain both effects, and their power is increased by 60%",
+                    "fromDesc": "",
+                    "isZaun": true
+                },
+                {
+                    "key": "VirulentBioware",
+                    "name": "Virulent Bioware",
+                    "desc": "Mod: Release a virulent plague whenever you deal Ability damage, causing enemies within 1 hex of the target to take 20% more damage for 4 seconds.<br><br>Overcharge: Plague duration is 10 seconds and plague deals 5% max health magic damage per second.",
+                    "fromDesc": "",
+                    "isZaun": true
+                },
+                {
+                    "key": "HextechExoskeleton",
+                    "name": "Hextech Exoskeleton",
+                    "desc": "Mod: Gain 30 armor and magic resistance. Every 5 seconds, cleanse all negative effects and heal for 12% of your max health.<br><br>Overcharge: Each time the wearer heals, deal 150% of the heal amount as damage to all nearby enemies.",
+                    "fromDesc": "",
+                    "isZaun": true
+                },
+                {
+                    "key": "ShimmerInjector",
+                    "name": "Shimmer Injector",
+                    "desc": "Mod: Gain 25% attack speed. The first time you would be reduced to 1 heath, increase the attack speed by 100% and heal for 35% of your max health.<br><br>Overcharge: Instead increase the attack speed 400% and heal 100% of your max health.",
+                    "fromDesc": "",
+                    "isZaun": true
+                },
+                {
+                    "key": "RoboticArm",
+                    "name": "Robotic Arm",
+                    "desc": "Mod: Attacks have a 40% chance to trigger 1 additional attacks.<br><br>Overcharge: Attack deal 50% Attack Damage as bonus true damage.",
+                    "fromDesc": "",
+                    "isZaun": true
+                },
+                {
+                    "key": "UnstableChemtank",
+                    "name": "Unstable Chemtank",
+                    "desc": "Mod: Gain 33% bonus max health and explode on death, dealing 35% of your maximum health as magic damage to nearby enemies.<br><br>Overcharge: Explosion gets larger and damage increases to 45% of your maximum health.",
+                    "fromDesc": "",
+                    "isZaun": true
+                }
+            ]
+        },
+        {
+            "trait_key": "Shimmerscale",
+            "trait_items": [
+                {
+                    "key": "NeedlesslyBigGem",
+                    "name": "Needlessly Big Gem",
+                    "desc": "Once per combat: If the holder is alive after 15 seconds of combat, grant 1 gold per 2 living allies, and each living ally deals 1% more damage per gold in your bank (up to 60 gold).",
+                    "fromDesc": "+500 health",
+                    "isShimmerscale": true
+                },
+                {
+                    "key": "DravensAxe",
+                    "name": "Draven's Axe",
+                    "desc": "Gain 1% Attack Damage per gold in your bank (up to 60 gold).Attacks grant 1 stack, up to 100 times. At full stacks, grant 9 gold.",
+                    "fromDesc": "+10% Attack Damage , +10% Attack Speed",
+                    "isShimmerscale": true
+                },
+                {
+                    "key": "GamblersBlade",
+                    "name": "Gambler's Blade",
+                    "desc": "Grant 1% bonus Attack Speed per gold in your bank (up to 60 gold).Each attack has a 6% chance to drop 1 gold.",
+                    "fromDesc": "+15% Attack Speed, +20 Ability Power",
+                    "isShimmerscale": true
+                },
+                {
+                    "key": "DiamondHands",
+                    "name": "Diamond Hands",
+                    "desc": "Once per combat: At 50% Health, become invulnerable for 1.5 seconds and grant 2 gold.",
+                    "fromDesc": "+300 Health",
+                    "isShimmerscale": true
+                },
+                {
+                    "key": "MogulsMail",
+                    "name": "Mogul's Mail",
+                    "desc": "Grants 1 Armor, 1 Magic Resist, and 6 Health when taking damage, stacking up to 40 times. At full stacks, grant 2 gold.",
+                    "fromDesc": "+150 Health",
+                    "isShimmerscale": true
+                },
+                {
+                    "key": "GoldmancersStaff",
+                    "name": "Goldmancer's Staff",
+                    "desc": "Grant 1 Ability Power per gold in your bank (up to 60 gold) and a 40% chance to drop 2 gold on enemy kill.",
+                    "fromDesc": "+20 Ability Power",
+                    "isShimmerscale": true
+                },
+                {
+                    "key": "DeterminedInvestor",
+                    "name": "Determined Investor",
+                    "desc": "After dying during combat 8 times, this item is destroyed. Upon destruction, grant the item Diamond Hands, 1 Champion Duplicator, and 5 gold.",
+                    "fromDesc": "",
+                    "isShimmerscale": true
+                }
+            ]
+        },
+        {
+            "key": "CrownofDemacia",
+            "name": "Crown of Demacia",
+            "desc": "If the wearer starts combat in the front 2 rows, regenerate 2-7% maximum Health per second (based on stage). If they start in the back 2 rows, gain 1-7% AD and AP every second instead. If the wearer of this item dies, you instantly lose the fight.You can remove this item by benching the wearer.",
+            "fromDesc": ""
+        },
+        {
+            "key": "TheDarkinBlade",
+            "name": "TheDarkinBlade",
+            "desc": "If the holder of this item gets a takedown, they will be consumed and Aatrox will be reborn!",
+            "fromDesc": ""
+        },
+        {
+            "key": "Scrollofknowledge",
+            "name": "Scroll of knowledge",
+            "desc": "Use on a unit to open a special armory that offers every available emblem that matches that unit's inherent traits.",
+            "fromDesc": ""
+        },
+        {
+            "key": "Masterworkupgrade",
+            "name": "Master work upgrade",
+            "desc": "Use on a unit to open an armory containing Radiant versions of that unit's craftable completed items. Upgrade the item you choose to its Radiant equivalent, and unequip it.",
+            "fromDesc": ""
+        }
+    ],
+    "set9.5": [
+        {
+            "trait_key": "Zaun",
+            "trait_items": [
+                {
+                    "key": "AdaptiveImplant",
+                    "name": "Adaptive Implant",
+                    "desc": "Mod: While above 50% Health, gain 40% Attack Damage and Ability Power. While below, gain 40% Omnivamp.<br><br>Overcharge: Always gain both effects, and their power is increased by 60%.<br><br>Omnivamp: Heal for percentage of damage dealt",
+                    "fromDesc": "",
+                    "isZaun": true
+                },
+                {
+                    "key": "HextechExoskeleton",
+                    "name": "Hextech Exoskeleton",
+                    "desc": "Mod: Deal 12% more damage. Take 12% less damage. Every 5 seconds, heal for 20% maximum Health.<br><br>Overcharge: You are immune to crowd control, and the heal is increased to 30% maximum Health.",
+                    "fromDesc": "",
+                    "isZaun": true
+                },
+                {
+                    "key": "RoboticArm",
+                    "name": "Robotic Arm",
+                    "desc": "Mod: Attacks have a 40% chance to trigger 1 additional attack.<br><br>Overcharge: Attacks and abilities deal Attack Damage as bonus true damage.",
+                    "fromDesc": "",
+                    "isZaun": true
+                },
+                {
+                    "key": "ShimmerInjector",
+                    "name": "Shimmer Injector",
+                    "desc": "Mod: Gain 44% Attack Speed. The first time you would be reduced to 1 Health, increase the Attack Speed bonus by 100% and heal for 35% maximum Health.<br><br>Overcharge: Instead increase the Attack Speed bonus by 200% and heal for 100% maximum Health.",
+                    "fromDesc": "",
+                    "isZaun": true
+                },
+                {
+                    "key": "UnstableChemtank",
+                    "name": "Unstable Chemtank",
+                    "desc": "Mod: Gain 40% maximum Health and explode on death, dealing 25% of your maximum Health as magic damage to enemies within 2 hexes.<br><br>Overcharge: Explosion radius is increased to 3 hexes.",
+                    "fromDesc": "",
+                    "isZaun": true
+                },
+                {
+                    "key": "VirulentBioware",
+                    "name": "Virulent Bioware",
+                    "desc": "Mod: For 3 seconds after ability cast, dealing damage applies a plague causing the target and enemies within 1 hex to take 20% more damage for 5 seconds.<br><br>Overcharge: Plague duration increases to 10 seconds and plague deals 6% of the target's maximum Health per second as magic damage.",
+                    "fromDesc": "",
+                    "isZaun": true
+                }
+            ]
+        }
+    ],
+    "set10": [],
+    "set11": [
+        {
+            "trait_key": "Inkshadow",
+            "trait_items": [
+                {
+                    "key": "TatooofBombardment",
+                    "ingameIcon": "Item_Icons/TFT11_InkShadowItems/TFT11_Inkshadow_Bombardment",
+                    "name": "Tattoo of Bombardment",
+                    "desc": "Every third attack fires bolts at the two lowest percent health enemies which deal 60% Attack Damage as physical damage.",
+                    "fromDesc": "+20% Attack Damage<br>+25% Attack Speed",
+                    "isInkshadow": true
+                },
+                {
+                    "key": "TatooofForce",
+                    "ingameIcon": "Item_Icons/TFT11_InkShadowItems/TFT11_Inkshadow_Force",
+                    "name": "Tattoo of Force",
+                    "desc": "Whenever the holder acquires a new target they run quickly to and briefly stun them, dealing 250 magic damage, and double the stats from this item for 4 seconds.",
+                    "fromDesc": "+35 Armor<br>+35 Magic Resistance",
+                    "isInkshadow": true
+                },
+                {
+                    "key": "TatooofFury",
+                    "ingameIcon": "Item_Icons/TFT11_InkShadowItems/TFT11_Inkshadow_Fury",
+                    "name": "Tattoo of Fury",
+                    "desc": "Deal 35% bonus damage to targets below half health. On takedown, gain 40% attack speed for 6 seconds.",
+                    "fromDesc": "+30% Attack Speed",
+                    "isInkshadow": true
+                },
+                {
+                    "key": "TatooofProtection",
+                    "ingameIcon": "Item_Icons/TFT11_InkShadowItems/TFT11_Inkshadow_Protection",
+                    "name": "Tattoo of Protection",
+                    "desc": "Gain a 40% max Health Shield after casting the first time each combat. When it breaks, grant 40% of this shield amount to the two nearest allies.",
+                    "fromDesc": "+250 Health",
+                    "isInkshadow": true
+                },
+                {
+                    "key": "TattooofToxin",
+                    "ingameIcon": "Item_Icons/TFT11_InkShadowItems/TFT11_Inkshadow_Toxin",
+                    "name": "Tattoo of Toxin",
+                    "desc": "Damage applies a toxin that deals an additional 33% of that damage over 3 seconds and 33% Wounds the target.<br><br>Wound: Reduces healing received",
+                    "fromDesc": "+25% Attack Damage<br>+25 Ability Power",
+                    "isInkshadow": true
+                },
+                {
+                    "key": "TattooofVitality",
+                    "ingameIcon": "Item_Icons/TFT11_InkShadowItems/TFT11_Inkshadow_Vitality",
+                    "name": "Tattoo of Vitality",
+                    "desc": "Attacks heal the holder for 3% of their max Health and deal the same amount as bonus magic damage.",
+                    "fromDesc": "+350 Health",
+                    "isInkshadow": true
+                }
+            ]
+        },
+        {
+            "trait_key": "Storyweaver",
+            "trait_items": [
+                {
+                    "key": "ScrollofForce",
+                    "ingameIcon": "Item_Icons/TFT11_StoryweaverItems/TFT11_Storyweaver_AbilityPower2",
+                    "name": "Scroll of Force",
+                    "desc": "Kayle's ability hits a wider area",
+                    "fromDesc": "",
+                    "isStoryweaver": true
+                },
+                {
+                    "key": "TalismanofAid",
+                    "ingameIcon": "Item_Icons/TFT11_StoryweaverItems/TFT11_Storyweaver_Support1",
+                    "name": "Talisman of Aid",
+                    "desc": "Kayle's damaging attacks and abilities 20% Shred and Sunder enemies hit for 3 seconds.",
+                    "fromDesc": "",
+                    "isStoryweaver": true
+                },
+                {
+                    "key": "TalismanofSpeed",
+                    "ingameIcon": "Item_Icons/TFT11_StoryweaverItems/TFT11_Storyweaver_AttackSpeed1",
+                    "name": "Talisman of Speed",
+                    "desc": "Grant Kayle and adjacent allies in the same row 12% Attack Speed at the start of combat.",
+                    "fromDesc": "",
+                    "isStoryweaver": true
+                },
+                {
+                    "key": "ScrollofHaste",
+                    "ingameIcon": "Item_Icons/TFT11_StoryweaverItems/TFT11_Storyweaver_AttackSpeed2",
+                    "name": "Scroll of Haste",
+                    "desc": "Attack grant Kayle 6% stacking Attack Speed",
+                    "fromDesc": "",
+                    "isStoryweaver": true
+                },
+                {
+                    "key": "TomeofSwiftness",
+                    "ingameIcon": "Item_Icons/TFT11_StoryweaverItems/TFT11_Storyweaver_AttackSpeed3",
+                    "name": "Tome of Swiftness",
+                    "desc": "Kayle deals 20% more damage. Her attacks now hit in a 1-hex radius around the target",
+                    "fromDesc": "",
+                    "isStoryweaver": true
+                },
+                {
+                    "key": "TomeofMending",
+                    "ingameIcon": "Item_Icons/TFT11_StoryweaverItems/TFT11_Storyweaver_Support3",
+                    "name": "Tome of Mending",
+                    "desc": "Every 7 seconds, revive the strongest ally that hasn't been revived yet at 50% Health.",
+                    "fromDesc": "",
+                    "isStoryweaver": true
+                },
+                {
+                    "key": "TalismanofMight",
+                    "ingameIcon": "Item_Icons/TFT11_StoryweaverItems/TFT11_Storyweaver_AbilityPower1",
+                    "name": "Talisman of Might",
+                    "desc": "Grant Kayle and adjacent allies in the same row 20 Ability Power at the start of combat.",
+                    "fromDesc": "",
+                    "isStoryweaver": true
+                },
+                {
+                    "key": "TomeofPower",
+                    "ingameIcon": "Item_Icons/TFT11_StoryweaverItems/TFT11_Storyweaver_AbilityPower3",
+                    "name": "Tome of Power",
+                    "desc": "Deal 15% more damage. When Kayle casts, she fires two waves.",
+                    "fromDesc": "",
+                    "isStoryweaver": true
+                }
+            ]
+        }
+    ],
+    "set12": [
+        {
+            "trait_key": "Faerie",
+            "trait_items": [
+                {
+                    "key": "FaerieQueensCrown",
+                    "ingameIcon": "Item_Icons/TFT12/TFT12_FaerieCrown.TFT_Set12",
+                    "name": "Faerie Queen's Crown",
+                    "desc": "After dealing damage 12 times, gain % Damage Amp for the rest of combat.<br><br>Only Faeries can hold this item.<br>Bench the champion to remove it.",
+                    "fromDesc": "+30% Attack Damage<br>+30 Ability Power",
+                    "isFaerie": true
+                },
+                {
+                    "key": "EternalMonarchsCrown",
+                    "ingameIcon": "Item_Icons/TFT12/TFT12_FaerieCrown_Radiant.TFT_Set12",
+                    "name": "Eternal Monarch's Crown",
+                    "desc": "After dealing damage 12 times, gain % Damage Amp for the rest of combat.<br><br>After dealing damage 25 times, gain 20% maximum Health, 30% Omnivamp, and 50% damage amp.<br><br>Only Faeries can hold this item.<br>Bench the champion to remove it.",
+                    "fromDesc": "+30% Attack Damage<br>+30 Ability Power<br>+25% Attack Speed",
+                    "isFaerie": true
+                },
+                {
+                    "key": "QueenguardsArmor",
+                    "ingameIcon": "Item_Icons/TFT12/TFT12_FaerieQueenguardArmor.TFT_Set12",
+                    "name": "Queenguard's Armor",
+                    "desc": "Gain 20% increased healing and shielding. Heal for 5% of the Queen's damage dealt.<br><br>Only Faeries can hold this item.<br>Bench the champion to remove it.",
+                    "fromDesc": "Armor +40<br>Health +400<br>Magic Resist +40",
+                    "isFaerie": true
+                },
+                {
+                    "key": "ArmorofEternalFlight",
+                    "ingameIcon": "Item_Icons/TFT12_FaerieQueenguardArmor_Radiant.TFT_Set12",
+                    "name": "Armor of Eternal Flight",
+                    "desc": "Gain 50% increased healing and shielding. Heal for 20% of the Queen's damage dealt.<br><br>Only Faeries can hold this item.<br>Bench the champion to remove it.",
+                    "fromDesc": "Armor +60<br>Health +1000<br>Magic Resist +60",
+                    "isFaerie": true
+                }
+            ]
+        }
+    ],
+    "set13": [],
+    "set14": [
+        {
+            "trait_key": "Exotech",
+            "trait_items": [
+                {
+                    "key": "CorruptedChassis",
+                    "name": "Corrupted Chassis",
+                    "desc": "All Shields are 15% more effective on the holder. Every 7 seconds, siphon 10% of the owner's max Health from the current target and convert it to a Shield for 5 seconds.<br><br>Recommended users: Mordekaiser, Jax, and Sejuani",
+                    "fromDesc": "+200 Health",
+                    "tags": [
+                        "TFT14_Exotech"
+                    ]
+                },
+                {
+                    "key": "Holobow",
+                    "name": "Holobow",
+                    "desc": "Attacks that Critically Strike grant 2 bonus Mana. After casting an Ability, gain 40% Critical Strike Chance for 5 seconds.",
+                    "fromDesc": "+15 Mana<br>+30 Ability Power<br>+25% Attack Speed<br>+15% Attack Damage",
+                    "tags": [
+                        "TFT14_Exotech"
+                    ]
+                },
+                {
+                    "key": "RepulsorLantern",
+                    "name": "Repulsor Lantern",
+                    "desc": "Gain 5% health. Every 3 seconds, deal 6% of the holder's max health as magic damage to all enemies within 1-hex.<br><br>Recommended users: Jax, Mordekaiser, and Sejuani",
+                    "fromDesc": "+444 Health",
+                    "tags": [
+                        "TFT14_Exotech"
+                    ]
+                },
+                {
+                    "key": "PulseStabilizer",
+                    "name": "Pulse Stabilizer",
+                    "desc": "Execute enemies below 12% Health. Abilities can critically strike. If the holder's abilities can already critically strike, gain 10% Critical Strike Damage instead.<br><br>Recommended users: Jhin and Zeri",
+                    "fromDesc": "+30% Attack Damage<br>+30% Crit Chance",
+                    "tags": [
+                        "TFT14_Exotech"
+                    ]
+                },
+                {
+                    "key": "Cybercoil",
+                    "name": "Cybercoil",
+                    "desc": "Abilities and Attacks mark enemies for 8 seconds. Heal for 10% of damage dealt to marked enemies.<br><br>Recommended users: Sejuani, Jax, and Mordekaiser",
+                    "fromDesc": "+65 Armor<br>+65 Magic Resist",
+                    "tags": [
+                        "TFT14_Exotech"
+                    ]
+                },
+                {
+                    "key": "FluxCapacitor",
+                    "name": "Flux Capacitor",
+                    "desc": "Attacks store charge. At 4 charges, the next attack consumes the charges to deal 8% of the target's max health as physical damage and reduces their Armor by 10.<br><br>Recommended users: Zeri and Naafiri",
+                    "fromDesc": "+25% Attack Damage<br>+25% Attack Speed",
+                    "tags": [
+                        "TFT14_Exotech"
+                    ]
+                },
+                {
+                    "key": "HyperFangs",
+                    "name": "Hyper Fangs",
+                    "desc": "When you damage an enemy, store 30% of your damage dealt to them. After 4 seconds, deal the stored damage to the target and the nearest enemy as physical damage.<br><br>Recommended users: Naafiri, Jhin, and Varus",
+                    "fromDesc": "+30% Attack Damage<br>+30 Ability Power<br>+15% Omnivamp",
+                    "tags": [
+                        "TFT14_Exotech"
+                    ]
+                },
+                {
+                    "key": "PulseSilencer",
+                    "name": "Pulse Silencer",
+                    "desc": "Execute enemies below 44% Health. Abilities can critically strike.Gain 44% Critical Strike Damage.<br><br>Recommended users: Jhin and Zeri",
+                    "fromDesc": "+44% Attack Damage<br>+44% Crit Chance",
+                    "tags": [
+                        "TFT14_Exotech"
+                    ]
+                },
+                {
+                    "key": "HijackedCybercoil",
+                    "name": "Hijacked Cybercoil",
+                    "desc": "Abilities and Attacks mark enemies for 10 seconds. Heal for 75% of damage dealt to marked enemies.<br><br>Recommended users: Sejuani, Jax, and Mordekaiser",
+                    "fromDesc": "+100 Armor<br>+100 Magic Resist",
+                    "tags": [
+                        "TFT14_Exotech"
+                    ]
+                },
+                {
+                    "key": "FullyChargedFluxCapacitor",
+                    "name": "Fully-Charged Flux Capacitor",
+                    "desc": "Every other attack is charged, dealing 20% of the target's max health as physical damage and reduces their Armor by 15.<br><br>Recommended users: Zeri and Naafiri",
+                    "fromDesc": "+30% Attack Damage<br>+50% Attack Speed",
+                    "tags": [
+                        "TFT14_Exotech"
+                    ]
+                },
+                {
+                    "key": "NullifierLantern",
+                    "name": "Nullifier Lantern",
+                    "desc": "Gain 50% health. Every 1 seconds, deal 10% of the holder's max health as magic damage to all enemies within 1-hex.<br><br>Recommended users: Jax, Mordekaiser, and Sejuani",
+                    "fromDesc": "+777 Health",
+                    "tags": [
+                        "TFT14_Exotech"
+                    ]
+                },
+                {
+                    "key": "HarmonizedChassis",
+                    "name": "Harmonized Chassis",
+                    "desc": "All Shields are 100% more effective on the holder.Every second, siphon 8% of the owner's max Health from the nearest 3 enemies and convert it to a Shield for 8 seconds.<br><br>Recommended users: Mordekaiser, Jax, and Sejuani",
+                    "fromDesc": "+400 Health",
+                    "tags": [
+                        "TFT14_Exotech"
+                    ]
+                },
+                {
+                    "key": "ApexFangs",
+                    "name": "Apex-Fangs",
+                    "desc": "When you damage an enemy, deal 100% of the damage to the nearest enemy as physical damage after a brief delay.<br><br>Recommended users: Naafiri, Jhin, and Varus",
+                    "fromDesc": "+40% Attack Damage<br>+40 Ability Power<br>+30% Omnivamp",
+                    "tags": [
+                        "TFT14_Exotech"
+                    ]
+                },
+                {
+                    "key": "ScopedHolobow",
+                    "name": "Scoped Holobow",
+                    "desc": "Attacks that Critically Strike grant 10 bonus Mana. After casting an Ability, gain 100% Critical Strike Chance for 8 seconds.<br><br>Recommended users: Varus, Jhin, and Zeri",
+                    "fromDesc": "+40 Ability Power<br>+30 Mana<br>+20% Attack Speed<br>+15% Attack Damage",
+                    "tags": [
+                        "TFT14_Exotech"
+                    ]
+                }
+            ]
+        },
+        {
+            "trait_key": "AnimaSquad",
+            "trait_items": [
+                {
+                    "key": "AnimaBlade",
+                    "name": "Tornadoes",
+                    "desc": "Every 6 seconds, a random Anima Squad champion spawns a whirl of Tornadoes, dealing magic damage.",
+                    "fromDesc": "",
+                    "tags": [
+                        "TFT14_AnimaSquad"
+                    ]
+                },
+                {
+                    "key": "AnimaLaser",
+                    "name": "The Annihilator",
+                    "desc": "At 6 seconds, The Annihilator deals percent max Health true damage once.",
+                    "fromDesc": "",
+                    "tags": [
+                        "TFT14_AnimaSquad"
+                    ]
+                },
+                {
+                    "key": "AnimaMine",
+                    "name": "Ani-Mines",
+                    "desc": "Every 5 seconds, a random Anima Squad champion throws three Ani-Mines that explode, dealing physical damage in an area.",
+                    "fromDesc": "",
+                    "tags": [
+                        "TFT14_AnimaSquad"
+                    ]
+                },
+                {
+                    "key": "AnimaTrain",
+                    "name": "Final City Transit",
+                    "desc": "Every few seconds, Final City Transit summons trains that run through the battlefield, dealing devastating damage and carrying away low health enemies.",
+                    "fromDesc": "",
+                    "tags": [
+                        "TFT14_AnimaSquad"
+                    ]
+                },
+                {
+                    "key": "Boomerang",
+                    "name": "Blade-o-rang",
+                    "desc": "Every 4 seconds, a random Anima Squad champion throws a returning Blade-o-rang that deals physical damage, increased for the first target hit.",
+                    "fromDesc": "",
+                    "tags": [
+                        "TFT14_AnimaSquad"
+                    ]
+                },
+                {
+                    "key": "FireBow",
+                    "name": "Searing Shortbow",
+                    "desc": "Every 5 seconds, a random Anima Squad champion fires Searing Shortbow, shooting an arrow that leaves an area that deals magic damage over time.",
+                    "fromDesc": "",
+                    "tags": [
+                        "TFT14_AnimaSquad"
+                    ]
+                },
+                {
+                    "key": "GatlingGun",
+                    "name": "Gatling Bunny-Guns",
+                    "desc": "Every 5.5 seconds, a random Anima Squad champion fires Gatling Bunny-Guns in a long cone, dealing high physical damage.",
+                    "fromDesc": "",
+                    "tags": [
+                        "TFT14_AnimaSquad"
+                    ]
+                },
+                {
+                    "key": "GuidingHex",
+                    "name": "Guiding Hex",
+                    "desc": "Every 4 seconds, a random Anima Squad champion casts Guiding Hex, dealing magic damage to 3 random nearby targets.",
+                    "fromDesc": "",
+                    "tags": [
+                        "TFT14_AnimaSquad"
+                    ]
+                },
+                {
+                    "key": "SupplyDrop",
+                    "name": "Surprise Supply Drop",
+                    "desc": "Every 8 seconds, Supply Drop calls in a support ship that drops powerful goodies onto the battlefield.",
+                    "fromDesc": "",
+                    "tags": [
+                        "TFT14_AnimaSquad"
+                    ]
+                },
+                {
+                    "key": "UwUBlaster",
+                    "name": "UwU Blasters",
+                    "desc": "Every 4 seconds, a random Anima Squad champion rapidfires UwU Blasters, dealing physical damage to the first enemy hit.",
+                    "fromDesc": "",
+                    "tags": [
+                        "TFT14_AnimaSquad"
+                    ]
+                },
+                {
+                    "key": "VortexGlove",
+                    "name": "Vortex Glove",
+                    "desc": "Every 5 seconds, a random Anima Squad champion fires piercing orbs from Vortex Glove, that deal magic damage, reduced for each enemy struck.",
+                    "fromDesc": "",
+                    "tags": [
+                        "TFT14_AnimaSquad"
+                    ]
+                }
+            ]
+        },
+        {
+            "trait_key": "Consumable",
+            "trait_items": [
+                {
+                    "key": "BossSelector",
+                    "name": "Kingpin Hat #1",
+                    "desc": "Promotes a Syndicate champion to Kingpin and upgrades their ability.",
+                    "fromDesc": "",
+                    "tags": [
+                        "Consumable"
+                    ]
+                },
+                {
+                    "key": "BossSelector2",
+                    "name": "Kingpin Hat #2",
+                    "desc": "Promotes a Syndicate champion to Kingpin and upgrades their ability.",
+                    "fromDesc": "",
+                    "tags": [
+                        "Consumable"
+                    ]
+                }
+            ]
+        },
+        {
+            "trait_key": "Etc",
+            "trait_items": [
+                {
+                    "key": "Chrome",
+                    "name": "Chrome",
+                    "desc": "Chrome grants AP and Health.",
+                    "fromDesc": "",
+                    "tags": [
+                        "Etc"
+                    ]
+                }
+            ]
+        }
+    ],
+    "set15": []
+}

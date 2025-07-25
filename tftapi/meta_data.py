@@ -27,7 +27,7 @@ components_nickname={
 }
 
 components_nickname_priority={
-    'sword': 1,  's-sword': 12,  
+    'sword': 1,  's-sword': 11,  
     'bow': 2,    's-bow': 21,       
     'vest': 3,   's-vest': 31,   
     'cloak': 4,  's-cloak': 41,  
@@ -35,8 +35,8 @@ components_nickname_priority={
     'tear': 6,   's-tear': 61, 
     'belt': 7,   's-belt': 71,   
     'glove': 8,  's-glove': 81,  
-    'spatula': 9,'s-spatula': 11,
-    'pan': 10,   's-pan': 13,   
+    'spatula': 9,'s-spatula': 91,
+    'pan': 10,   's-pan': 101,   
 }
 
 attributes_nickname={
@@ -162,4 +162,13 @@ settrait_entertainment={
     'set13': 'Chem-Baron',
     'set14': 'Cypher',
     'set15': 'Crystal Gambit',
+}
+
+set_specitem_keys={
+    'set7': ['isShimmerscale'], 'set7.5': ['isShimmerscale'],
+    'set8': ['isGadgeteen'], 'set8.5': ['isGadgeteen'],
+    'set9': ['isZaun', 'isShimmerscale'], 'set9.5': ['isZaun'],
+    'set11': ['isInkshadow', 'isStoryweaver'],
+    'set12': ['isFaerie'],
+    'set14': ['TFT14_Exotech', 'TFT14_AnimaSquad', 'Consumable', 'Etc'], # ['tags'][0]
 }

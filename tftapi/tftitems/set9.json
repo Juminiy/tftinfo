@@ -356,49 +356,49 @@
     "embl": [
         {
             "name": "IoniaEmblem",
-            "compositions": "spatula+sword",
+            "compositions": "sword+spatula",
             "gain_trait": "Ionia",
             "add_attrs": "The holder gains the Ionia trait.<br><br>Ionia Bonus: 33% Attack Speed.<br><br>[Unique - Only One Per Champion]"
         },
         {
             "name": "ChallengerEmblem",
-            "compositions": "spatula+bow",
+            "compositions": "bow+spatula",
             "gain_trait": "Challenger",
             "add_attrs": "The holder gains the Challenger trait.<br><br>[Unique - Only One Per Champion]"
         },
         {
             "name": "JuggernautEmblem",
-            "compositions": "spatula+vest",
+            "compositions": "vest+spatula",
             "gain_trait": "Juggernaut",
             "add_attrs": "The holder gains the Juggernaut trait.<br><br>[Unique - Only One Per Champion]"
         },
         {
             "name": "DemaciaEmblem",
-            "compositions": "spatula+cloak",
+            "compositions": "cloak+spatula",
             "gain_trait": "Demacia",
             "add_attrs": "The holder gains the Demacia Trait.<br><br>[Unique - Only One Per Champion]"
         },
         {
             "name": "ShurimaEmblem",
-            "compositions": "spatula+rod",
+            "compositions": "rod+spatula",
             "gain_trait": "Shurima",
             "add_attrs": "The holder gains the Shurima trait.<br><br>[Unique - Only One Per Champion]"
         },
         {
             "name": "SorcererEmblem",
-            "compositions": "spatula+tear",
+            "compositions": "tear+spatula",
             "gain_trait": "Sorcerer",
             "add_attrs": "The holder gains the Sorcerer trait."
         },
         {
             "name": "NoxusEmblem",
-            "compositions": "spatula+belt",
+            "compositions": "belt+spatula",
             "gain_trait": "Noxus",
             "add_attrs": "The holder gains the Noxus trait.<br><br>[Unique - Only One Per Champion]"
         },
         {
             "name": "SlayerEmblem",
-            "compositions": "spatula+glove",
+            "compositions": "glove+spatula",
             "gain_trait": "Slayer",
             "add_attrs": "The holder gains the Slayer trait.<br><br>[Unique - Only One Per Champion]"
         },
@@ -479,6 +479,12 @@
             "compositions": "",
             "gain_trait": "Targon",
             "add_attrs": "The holder gains the Targon Trait.<br><br>[Unique - Only One Per Champion]"
+        }
+    ],
+    "crow": [
+        {
+            "name": "ForceofNature",
+            "compositions": "spatula+spatula"
         }
     ],
     "radi": [
@@ -897,76 +903,129 @@
     "supp": [],
     "spec": [
         {
-            "name": "ForceofNature",
-            "attrs": "Your team gains +1 maximum team size."
+            "trait_key": "Zaun",
+            "trait_items": [
+                {
+                    "key": "AdaptiveImplant",
+                    "name": "Adaptive Implant",
+                    "desc": "Mod: While above 50% health, gain 30% attack damage and 30 ability power. While below, gain 30% omnivamp.<br><br>Overcharge: Always gain both effects, and their power is increased by 60%",
+                    "fromDesc": "",
+                    "isZaun": true
+                },
+                {
+                    "key": "VirulentBioware",
+                    "name": "Virulent Bioware",
+                    "desc": "Mod: Release a virulent plague whenever you deal Ability damage, causing enemies within 1 hex of the target to take 20% more damage for 4 seconds.<br><br>Overcharge: Plague duration is 10 seconds and plague deals 5% max health magic damage per second.",
+                    "fromDesc": "",
+                    "isZaun": true
+                },
+                {
+                    "key": "HextechExoskeleton",
+                    "name": "Hextech Exoskeleton",
+                    "desc": "Mod: Gain 30 armor and magic resistance. Every 5 seconds, cleanse all negative effects and heal for 12% of your max health.<br><br>Overcharge: Each time the wearer heals, deal 150% of the heal amount as damage to all nearby enemies.",
+                    "fromDesc": "",
+                    "isZaun": true
+                },
+                {
+                    "key": "ShimmerInjector",
+                    "name": "Shimmer Injector",
+                    "desc": "Mod: Gain 25% attack speed. The first time you would be reduced to 1 heath, increase the attack speed by 100% and heal for 35% of your max health.<br><br>Overcharge: Instead increase the attack speed 400% and heal 100% of your max health.",
+                    "fromDesc": "",
+                    "isZaun": true
+                },
+                {
+                    "key": "RoboticArm",
+                    "name": "Robotic Arm",
+                    "desc": "Mod: Attacks have a 40% chance to trigger 1 additional attacks.<br><br>Overcharge: Attack deal 50% Attack Damage as bonus true damage.",
+                    "fromDesc": "",
+                    "isZaun": true
+                },
+                {
+                    "key": "UnstableChemtank",
+                    "name": "Unstable Chemtank",
+                    "desc": "Mod: Gain 33% bonus max health and explode on death, dealing 35% of your maximum health as magic damage to nearby enemies.<br><br>Overcharge: Explosion gets larger and damage increases to 45% of your maximum health.",
+                    "fromDesc": "",
+                    "isZaun": true
+                }
+            ]
         },
         {
-            "name": "AdaptiveImplant",
-            "attrs": "Mod: While above 50% health, gain 30% attack damage and 30 ability power. While below, gain 30% omnivamp.<br><br>Overcharge: Always gain both effects, and their power is increased by 60%"
+            "trait_key": "Shimmerscale",
+            "trait_items": [
+                {
+                    "key": "NeedlesslyBigGem",
+                    "name": "Needlessly Big Gem",
+                    "desc": "Once per combat: If the holder is alive after 15 seconds of combat, grant 1 gold per 2 living allies, and each living ally deals 1% more damage per gold in your bank (up to 60 gold).",
+                    "fromDesc": "+500 health",
+                    "isShimmerscale": true
+                },
+                {
+                    "key": "DravensAxe",
+                    "name": "Draven's Axe",
+                    "desc": "Gain 1% Attack Damage per gold in your bank (up to 60 gold).Attacks grant 1 stack, up to 100 times. At full stacks, grant 9 gold.",
+                    "fromDesc": "+10% Attack Damage , +10% Attack Speed",
+                    "isShimmerscale": true
+                },
+                {
+                    "key": "GamblersBlade",
+                    "name": "Gambler's Blade",
+                    "desc": "Grant 1% bonus Attack Speed per gold in your bank (up to 60 gold).Each attack has a 6% chance to drop 1 gold.",
+                    "fromDesc": "+15% Attack Speed, +20 Ability Power",
+                    "isShimmerscale": true
+                },
+                {
+                    "key": "DiamondHands",
+                    "name": "Diamond Hands",
+                    "desc": "Once per combat: At 50% Health, become invulnerable for 1.5 seconds and grant 2 gold.",
+                    "fromDesc": "+300 Health",
+                    "isShimmerscale": true
+                },
+                {
+                    "key": "MogulsMail",
+                    "name": "Mogul's Mail",
+                    "desc": "Grants 1 Armor, 1 Magic Resist, and 6 Health when taking damage, stacking up to 40 times. At full stacks, grant 2 gold.",
+                    "fromDesc": "+150 Health",
+                    "isShimmerscale": true
+                },
+                {
+                    "key": "GoldmancersStaff",
+                    "name": "Goldmancer's Staff",
+                    "desc": "Grant 1 Ability Power per gold in your bank (up to 60 gold) and a 40% chance to drop 2 gold on enemy kill.",
+                    "fromDesc": "+20 Ability Power",
+                    "isShimmerscale": true
+                },
+                {
+                    "key": "DeterminedInvestor",
+                    "name": "Determined Investor",
+                    "desc": "After dying during combat 8 times, this item is destroyed. Upon destruction, grant the item Diamond Hands, 1 Champion Duplicator, and 5 gold.",
+                    "fromDesc": "",
+                    "isShimmerscale": true
+                }
+            ]
         },
         {
-            "name": "VirulentBioware",
-            "attrs": "Mod: Release a virulent plague whenever you deal Ability damage, causing enemies within 1 hex of the target to take 20% more damage for 4 seconds.<br><br>Overcharge: Plague duration is 10 seconds and plague deals 5% max health magic damage per second."
+            "key": "CrownofDemacia",
+            "name": "Crown of Demacia",
+            "desc": "If the wearer starts combat in the front 2 rows, regenerate 2-7% maximum Health per second (based on stage). If they start in the back 2 rows, gain 1-7% AD and AP every second instead. If the wearer of this item dies, you instantly lose the fight.You can remove this item by benching the wearer.",
+            "fromDesc": ""
         },
         {
-            "name": "HextechExoskeleton",
-            "attrs": "Mod: Gain 30 armor and magic resistance. Every 5 seconds, cleanse all negative effects and heal for 12% of your max health.<br><br>Overcharge: Each time the wearer heals, deal 150% of the heal amount as damage to all nearby enemies."
-        },
-        {
-            "name": "ShimmerInjector",
-            "attrs": "Mod: Gain 25% attack speed. The first time you would be reduced to 1 heath, increase the attack speed by 100% and heal for 35% of your max health.<br><br>Overcharge: Instead increase the attack speed 400% and heal 100% of your max health."
-        },
-        {
-            "name": "RoboticArm",
-            "attrs": "Mod: Attacks have a 40% chance to trigger 1 additional attacks.<br><br>Overcharge: Attack deal 50% Attack Damage as bonus true damage."
-        },
-        {
-            "name": "UnstableChemtank",
-            "attrs": "Mod: Gain 33% bonus max health and explode on death, dealing 35% of your maximum health as magic damage to nearby enemies.<br><br>Overcharge: Explosion gets larger and damage increases to 45% of your maximum health."
-        },
-        {
-            "name": "NeedlesslyBigGem",
-            "attrs": "Once per combat: If the holder is alive after 15 seconds of combat, grant 1 gold per 2 living allies, and each living ally deals 1% more damage per gold in your bank (up to 60 gold)."
-        },
-        {
-            "name": "DravensAxe",
-            "attrs": "Gain 1% Attack Damage per gold in your bank (up to 60 gold).Attacks grant 1 stack, up to 100 times. At full stacks, grant 9 gold."
-        },
-        {
-            "name": "GamblersBlade",
-            "attrs": "Grant 1% bonus Attack Speed per gold in your bank (up to 60 gold).Each attack has a 6% chance to drop 1 gold."
-        },
-        {
-            "name": "DiamondHands",
-            "attrs": "Once per combat: At 50% Health, become invulnerable for 1.5 seconds and grant 2 gold."
-        },
-        {
-            "name": "CrownofDemacia",
-            "attrs": "If the wearer starts combat in the front 2 rows, regenerate 2-7% maximum Health per second (based on stage). If they start in the back 2 rows, gain 1-7% AD and AP every second instead. If the wearer of this item dies, you instantly lose the fight.You can remove this item by benching the wearer."
-        },
-        {
+            "key": "TheDarkinBlade",
             "name": "TheDarkinBlade",
-            "attrs": "If the holder of this item gets a takedown, they will be consumed and Aatrox will be reborn!"
+            "desc": "If the holder of this item gets a takedown, they will be consumed and Aatrox will be reborn!",
+            "fromDesc": ""
         },
         {
-            "name": "MogulsMail",
-            "attrs": "Grants 1 Armor, 1 Magic Resist, and 6 Health when taking damage, stacking up to 40 times. At full stacks, grant 2 gold."
+            "key": "Scrollofknowledge",
+            "name": "Scroll of knowledge",
+            "desc": "Use on a unit to open a special armory that offers every available emblem that matches that unit's inherent traits.",
+            "fromDesc": ""
         },
         {
-            "name": "GoldmancersStaff",
-            "attrs": "Grant 1 Ability Power per gold in your bank (up to 60 gold) and a 40% chance to drop 2 gold on enemy kill."
-        },
-        {
-            "name": "DeterminedInvestor",
-            "attrs": "After dying during combat 8 times, this item is destroyed. Upon destruction, grant the item Diamond Hands, 1 Champion Duplicator, and 5 gold."
-        },
-        {
-            "name": "Scrollofknowledge",
-            "attrs": "Use on a unit to open a special armory that offers every available emblem that matches that unit's inherent traits."
-        },
-        {
-            "name": "Masterworkupgrade",
-            "attrs": "Use on a unit to open an armory containing Radiant versions of that unit's craftable completed items. Upgrade the item you choose to its Radiant equivalent, and unequip it."
+            "key": "Masterworkupgrade",
+            "name": "Master work upgrade",
+            "desc": "Use on a unit to open an armory containing Radiant versions of that unit's craftable completed items. Upgrade the item you choose to its Radiant equivalent, and unequip it.",
+            "fromDesc": ""
         }
     ]
 }

@@ -380,25 +380,25 @@
     "embl": [
         {
             "name": "BruiserEmblem",
-            "compositions": "pan+belt",
+            "compositions": "belt+pan",
             "gain_trait": "Bruiser",
             "add_attrs": "The holder gains the Bruiser trait.<br>For every 240 max Health, deal 1% bonus damage as magic damage.<br><br>[Unique - only one per champion]"
         },
         {
             "name": "AnimaSquadEmblem",
-            "compositions": "spatula+tear",
+            "compositions": "tear+spatula",
             "gain_trait": "AnimaSquad",
             "add_attrs": "The holder gains the Anima Squad trait.<br><br>[Unique - only one per champion]"
         },
         {
             "name": "BastionEmblem",
-            "compositions": "pan+vest",
+            "compositions": "vest+pan",
             "gain_trait": "Bastion",
             "add_attrs": "The holder gains the Bastion trait.<br>Gain 15% of Armor and Magic Resistance as Ability Power.<br><br>[Unique - only one per champion]"
         },
         {
             "name": "BoomBotsEmblem",
-            "compositions": "spatula+vest",
+            "compositions": "vest+spatula",
             "gain_trait": "BoomBots",
             "add_attrs": "The holder gains the BoomBot trait.<br><br>[Unique - only one per champion]"
         },
@@ -410,73 +410,73 @@
         },
         {
             "name": "DivinicorpEmblem",
-            "compositions": "spatula+bow",
+            "compositions": "bow+spatula",
             "gain_trait": "Divinicorp",
             "add_attrs": "The holder gains the Divinicorp trait.<br><br>[Unique - only one per champion]"
         },
         {
             "name": "DynamoEmblem",
-            "compositions": "pan+tear",
+            "compositions": "tear+pan",
             "gain_trait": "Dynamo",
             "add_attrs": "The holder gains the Dynamo trait.<br>On cast, gain 1.5% Damage Amp per 10 Mana spent.<br><br>[Unique - only one per champion]"
         },
         {
             "name": "ExecutionerEmblem",
-            "compositions": "pan+glove",
+            "compositions": "glove+pan",
             "gain_trait": "Executioner",
             "add_attrs": "The holder gains the Executioner trait.<br>Critical Strikes ignore 20% of the target's Armor and Magic Resist.<br><br>[Unique - only one per champion]"
         },
         {
             "name": "ExotechEmblem",
-            "compositions": "spatula+glove",
+            "compositions": "glove+spatula",
             "gain_trait": "Exotech",
             "add_attrs": "The holder gains the Exotech trait.<br><br>[Unique - only one per champion]"
         },
         {
             "name": "GoldenOxEmblem",
-            "compositions": "spatula+belt",
+            "compositions": "belt+spatula",
             "gain_trait": "GoldenOx",
             "add_attrs": "The holder gains the Golden Ox trait.<br><br>[Unique - only one per champion]"
         },
         {
             "name": "MarksmanEmblem",
-            "compositions": "pan+sword",
+            "compositions": "sword+pan",
             "gain_trait": "Marksman",
             "add_attrs": "The holder gains the Marksman trait.<br>Dealing physical damage to an enemy reduces their Armor by 3.<br><br>[Unique - only one per champion]"
         },
         {
             "name": "RapidfireEmblem",
-            "compositions": "pan+bow",
+            "compositions": "bow+pan",
             "gain_trait": "Rapidfire",
             "add_attrs": "The holder gains the Rapidfire trait and 2 range.<br><br>[Unique - only one per champion]"
         },
         {
             "name": "SlayerEmblem",
-            "compositions": "pan+cloak",
+            "compositions": "cloak+pan",
             "gain_trait": "Slayer",
             "add_attrs": "The holder gains the Slayer trait.<br>Healing received is increased by 33%.<br><br>[Unique - only one per champion]"
         },
         {
             "name": "StrategistEmblem",
-            "compositions": "spatula+sword",
+            "compositions": "sword+spatula",
             "gain_trait": "Strategist",
             "add_attrs": "The holder gains the Strategist trait and 50% of the other Strategist bonus.<br><br>[Unique - only one per champion]"
         },
         {
             "name": "StreetDemonEmblem",
-            "compositions": "spatula+rod",
+            "compositions": "rod+spatula",
             "gain_trait": "StreetDemon",
             "add_attrs": "The holder gains the Street Demon trait.<br><br>[Unique - only one per champion]"
         },
         {
             "name": "SyndicateEmblem",
-            "compositions": "spatula+cloak",
+            "compositions": "cloak+spatula",
             "gain_trait": "Syndicate",
             "add_attrs": "The holder gains the Syndicate trait.<br><br>Kingpin bonus: +30% Attack Speed and gain 30% max Health Shield at combat start. [Unique - only one per champion]"
         },
         {
             "name": "TechieEmblem",
-            "compositions": "pan+rod",
+            "compositions": "rod+pan",
             "gain_trait": "Techie",
             "add_attrs": "The holder gains the Techie trait.<br>The holder gains 15% more Ability Power from all sources.<br><br>[Unique - only one per champion]"
         },
@@ -485,6 +485,20 @@
             "compositions": "",
             "gain_trait": "Vanguard",
             "add_attrs": "The holder gains the Vanguard trait.<br>The holder gains 150 max Health whenever they gain Shield.<br><br>[Unique - only one per champion]"
+        }
+    ],
+    "crow": [
+        {
+            "name": "ForceofNature",
+            "compositions": "spatula+spatula"
+        },
+        {
+            "name": "TacticiansCape",
+            "compositions": "spatula+pan"
+        },
+        {
+            "name": "TacticiansShield",
+            "compositions": "pan+pan"
         }
     ],
     "radi": [
@@ -1182,128 +1196,276 @@
     ],
     "spec": [
         {
-            "name": "ForceofNature",
-            "attrs": "Your team gains +1 max team size.<br><br>10% chance to drop 1 gold when you win combat.<br><br>\"...the Heart of a hero...\""
+            "trait_key": "Exotech",
+            "trait_items": [
+                {
+                    "key": "CorruptedChassis",
+                    "name": "Corrupted Chassis",
+                    "desc": "All Shields are 15% more effective on the holder. Every 7 seconds, siphon 10% of the owner's max Health from the current target and convert it to a Shield for 5 seconds.<br><br>Recommended users: Mordekaiser, Jax, and Sejuani",
+                    "fromDesc": "+200 Health",
+                    "tags": [
+                        "TFT14_Exotech"
+                    ]
+                },
+                {
+                    "key": "Holobow",
+                    "name": "Holobow",
+                    "desc": "Attacks that Critically Strike grant 2 bonus Mana. After casting an Ability, gain 40% Critical Strike Chance for 5 seconds.",
+                    "fromDesc": "+15 Mana<br>+30 Ability Power<br>+25% Attack Speed<br>+15% Attack Damage",
+                    "tags": [
+                        "TFT14_Exotech"
+                    ]
+                },
+                {
+                    "key": "RepulsorLantern",
+                    "name": "Repulsor Lantern",
+                    "desc": "Gain 5% health. Every 3 seconds, deal 6% of the holder's max health as magic damage to all enemies within 1-hex.<br><br>Recommended users: Jax, Mordekaiser, and Sejuani",
+                    "fromDesc": "+444 Health",
+                    "tags": [
+                        "TFT14_Exotech"
+                    ]
+                },
+                {
+                    "key": "PulseStabilizer",
+                    "name": "Pulse Stabilizer",
+                    "desc": "Execute enemies below 12% Health. Abilities can critically strike. If the holder's abilities can already critically strike, gain 10% Critical Strike Damage instead.<br><br>Recommended users: Jhin and Zeri",
+                    "fromDesc": "+30% Attack Damage<br>+30% Crit Chance",
+                    "tags": [
+                        "TFT14_Exotech"
+                    ]
+                },
+                {
+                    "key": "Cybercoil",
+                    "name": "Cybercoil",
+                    "desc": "Abilities and Attacks mark enemies for 8 seconds. Heal for 10% of damage dealt to marked enemies.<br><br>Recommended users: Sejuani, Jax, and Mordekaiser",
+                    "fromDesc": "+65 Armor<br>+65 Magic Resist",
+                    "tags": [
+                        "TFT14_Exotech"
+                    ]
+                },
+                {
+                    "key": "FluxCapacitor",
+                    "name": "Flux Capacitor",
+                    "desc": "Attacks store charge. At 4 charges, the next attack consumes the charges to deal 8% of the target's max health as physical damage and reduces their Armor by 10.<br><br>Recommended users: Zeri and Naafiri",
+                    "fromDesc": "+25% Attack Damage<br>+25% Attack Speed",
+                    "tags": [
+                        "TFT14_Exotech"
+                    ]
+                },
+                {
+                    "key": "HyperFangs",
+                    "name": "Hyper Fangs",
+                    "desc": "When you damage an enemy, store 30% of your damage dealt to them. After 4 seconds, deal the stored damage to the target and the nearest enemy as physical damage.<br><br>Recommended users: Naafiri, Jhin, and Varus",
+                    "fromDesc": "+30% Attack Damage<br>+30 Ability Power<br>+15% Omnivamp",
+                    "tags": [
+                        "TFT14_Exotech"
+                    ]
+                },
+                {
+                    "key": "PulseSilencer",
+                    "name": "Pulse Silencer",
+                    "desc": "Execute enemies below 44% Health. Abilities can critically strike.Gain 44% Critical Strike Damage.<br><br>Recommended users: Jhin and Zeri",
+                    "fromDesc": "+44% Attack Damage<br>+44% Crit Chance",
+                    "tags": [
+                        "TFT14_Exotech"
+                    ]
+                },
+                {
+                    "key": "HijackedCybercoil",
+                    "name": "Hijacked Cybercoil",
+                    "desc": "Abilities and Attacks mark enemies for 10 seconds. Heal for 75% of damage dealt to marked enemies.<br><br>Recommended users: Sejuani, Jax, and Mordekaiser",
+                    "fromDesc": "+100 Armor<br>+100 Magic Resist",
+                    "tags": [
+                        "TFT14_Exotech"
+                    ]
+                },
+                {
+                    "key": "FullyChargedFluxCapacitor",
+                    "name": "Fully-Charged Flux Capacitor",
+                    "desc": "Every other attack is charged, dealing 20% of the target's max health as physical damage and reduces their Armor by 15.<br><br>Recommended users: Zeri and Naafiri",
+                    "fromDesc": "+30% Attack Damage<br>+50% Attack Speed",
+                    "tags": [
+                        "TFT14_Exotech"
+                    ]
+                },
+                {
+                    "key": "NullifierLantern",
+                    "name": "Nullifier Lantern",
+                    "desc": "Gain 50% health. Every 1 seconds, deal 10% of the holder's max health as magic damage to all enemies within 1-hex.<br><br>Recommended users: Jax, Mordekaiser, and Sejuani",
+                    "fromDesc": "+777 Health",
+                    "tags": [
+                        "TFT14_Exotech"
+                    ]
+                },
+                {
+                    "key": "HarmonizedChassis",
+                    "name": "Harmonized Chassis",
+                    "desc": "All Shields are 100% more effective on the holder.Every second, siphon 8% of the owner's max Health from the nearest 3 enemies and convert it to a Shield for 8 seconds.<br><br>Recommended users: Mordekaiser, Jax, and Sejuani",
+                    "fromDesc": "+400 Health",
+                    "tags": [
+                        "TFT14_Exotech"
+                    ]
+                },
+                {
+                    "key": "ApexFangs",
+                    "name": "Apex-Fangs",
+                    "desc": "When you damage an enemy, deal 100% of the damage to the nearest enemy as physical damage after a brief delay.<br><br>Recommended users: Naafiri, Jhin, and Varus",
+                    "fromDesc": "+40% Attack Damage<br>+40 Ability Power<br>+30% Omnivamp",
+                    "tags": [
+                        "TFT14_Exotech"
+                    ]
+                },
+                {
+                    "key": "ScopedHolobow",
+                    "name": "Scoped Holobow",
+                    "desc": "Attacks that Critically Strike grant 10 bonus Mana. After casting an Ability, gain 100% Critical Strike Chance for 8 seconds.<br><br>Recommended users: Varus, Jhin, and Zeri",
+                    "fromDesc": "+40 Ability Power<br>+30 Mana<br>+20% Attack Speed<br>+15% Attack Damage",
+                    "tags": [
+                        "TFT14_Exotech"
+                    ]
+                }
+            ]
         },
         {
-            "name": "TacticiansCape",
-            "attrs": "Your team gains +1 max team size.<br><br>10% chance to drop 1 gold after 10 seconds of combat.<br><br>\"...and a bit of Luck.\""
+            "trait_key": "AnimaSquad",
+            "trait_items": [
+                {
+                    "key": "AnimaBlade",
+                    "name": "Tornadoes",
+                    "desc": "Every 6 seconds, a random Anima Squad champion spawns a whirl of Tornadoes, dealing magic damage.",
+                    "fromDesc": "",
+                    "tags": [
+                        "TFT14_AnimaSquad"
+                    ]
+                },
+                {
+                    "key": "AnimaLaser",
+                    "name": "The Annihilator",
+                    "desc": "At 6 seconds, The Annihilator deals percent max Health true damage once.",
+                    "fromDesc": "",
+                    "tags": [
+                        "TFT14_AnimaSquad"
+                    ]
+                },
+                {
+                    "key": "AnimaMine",
+                    "name": "Ani-Mines",
+                    "desc": "Every 5 seconds, a random Anima Squad champion throws three Ani-Mines that explode, dealing physical damage in an area.",
+                    "fromDesc": "",
+                    "tags": [
+                        "TFT14_AnimaSquad"
+                    ]
+                },
+                {
+                    "key": "AnimaTrain",
+                    "name": "Final City Transit",
+                    "desc": "Every few seconds, Final City Transit summons trains that run through the battlefield, dealing devastating damage and carrying away low health enemies.",
+                    "fromDesc": "",
+                    "tags": [
+                        "TFT14_AnimaSquad"
+                    ]
+                },
+                {
+                    "key": "Boomerang",
+                    "name": "Blade-o-rang",
+                    "desc": "Every 4 seconds, a random Anima Squad champion throws a returning Blade-o-rang that deals physical damage, increased for the first target hit.",
+                    "fromDesc": "",
+                    "tags": [
+                        "TFT14_AnimaSquad"
+                    ]
+                },
+                {
+                    "key": "FireBow",
+                    "name": "Searing Shortbow",
+                    "desc": "Every 5 seconds, a random Anima Squad champion fires Searing Shortbow, shooting an arrow that leaves an area that deals magic damage over time.",
+                    "fromDesc": "",
+                    "tags": [
+                        "TFT14_AnimaSquad"
+                    ]
+                },
+                {
+                    "key": "GatlingGun",
+                    "name": "Gatling Bunny-Guns",
+                    "desc": "Every 5.5 seconds, a random Anima Squad champion fires Gatling Bunny-Guns in a long cone, dealing high physical damage.",
+                    "fromDesc": "",
+                    "tags": [
+                        "TFT14_AnimaSquad"
+                    ]
+                },
+                {
+                    "key": "GuidingHex",
+                    "name": "Guiding Hex",
+                    "desc": "Every 4 seconds, a random Anima Squad champion casts Guiding Hex, dealing magic damage to 3 random nearby targets.",
+                    "fromDesc": "",
+                    "tags": [
+                        "TFT14_AnimaSquad"
+                    ]
+                },
+                {
+                    "key": "SupplyDrop",
+                    "name": "Surprise Supply Drop",
+                    "desc": "Every 8 seconds, Supply Drop calls in a support ship that drops powerful goodies onto the battlefield.",
+                    "fromDesc": "",
+                    "tags": [
+                        "TFT14_AnimaSquad"
+                    ]
+                },
+                {
+                    "key": "UwUBlaster",
+                    "name": "UwU Blasters",
+                    "desc": "Every 4 seconds, a random Anima Squad champion rapidfires UwU Blasters, dealing physical damage to the first enemy hit.",
+                    "fromDesc": "",
+                    "tags": [
+                        "TFT14_AnimaSquad"
+                    ]
+                },
+                {
+                    "key": "VortexGlove",
+                    "name": "Vortex Glove",
+                    "desc": "Every 5 seconds, a random Anima Squad champion fires piercing orbs from Vortex Glove, that deal magic damage, reduced for each enemy struck.",
+                    "fromDesc": "",
+                    "tags": [
+                        "TFT14_AnimaSquad"
+                    ]
+                }
+            ]
         },
         {
-            "name": "TacticiansShield",
-            "attrs": "Your team gains +1 max team size.<br><br>10% chance to drop 1 gold when the holder dies.<br><br>\"Imbued with a Philosopher's wisdom...\""
+            "trait_key": "Consumable",
+            "trait_items": [
+                {
+                    "key": "BossSelector",
+                    "name": "Kingpin Hat #1",
+                    "desc": "Promotes a Syndicate champion to Kingpin and upgrades their ability.",
+                    "fromDesc": "",
+                    "tags": [
+                        "Consumable"
+                    ]
+                },
+                {
+                    "key": "BossSelector2",
+                    "name": "Kingpin Hat #2",
+                    "desc": "Promotes a Syndicate champion to Kingpin and upgrades their ability.",
+                    "fromDesc": "",
+                    "tags": [
+                        "Consumable"
+                    ]
+                }
+            ]
         },
         {
-            "name": "CorruptedChassis",
-            "attrs": "All Shields are 15% more effective on the holder. Every 7 seconds, siphon 10% of the owner's max Health from the current target and convert it to a Shield for 5 seconds.<br><br>Recommended users: Mordekaiser, Jax, and Sejuani"
-        },
-        {
-            "name": "Holobow",
-            "attrs": "Attacks that Critically Strike grant 2 bonus Mana. After casting an Ability, gain 40% Critical Strike Chance for 5 seconds."
-        },
-        {
-            "name": "RepulsorLantern",
-            "attrs": "Gain 5% health. Every 3 seconds, deal 6% of the holder's max health as magic damage to all enemies within 1-hex.<br><br>Recommended users: Jax, Mordekaiser, and Sejuani"
-        },
-        {
-            "name": "PulseStabilizer",
-            "attrs": "Execute enemies below 12% Health. Abilities can critically strike. If the holder's abilities can already critically strike, gain 10% Critical Strike Damage instead.<br><br>Recommended users: Jhin and Zeri"
-        },
-        {
-            "name": "Cybercoil",
-            "attrs": "Abilities and Attacks mark enemies for 8 seconds. Heal for 10% of damage dealt to marked enemies.<br><br>Recommended users: Sejuani, Jax, and Mordekaiser"
-        },
-        {
-            "name": "FluxCapacitor",
-            "attrs": "Attacks store charge. At 4 charges, the next attack consumes the charges to deal 8% of the target's max health as physical damage and reduces their Armor by 10.<br><br>Recommended users: Zeri and Naafiri"
-        },
-        {
-            "name": "HyperFangs",
-            "attrs": "When you damage an enemy, store 30% of your damage dealt to them. After 4 seconds, deal the stored damage to the target and the nearest enemy as physical damage.<br><br>Recommended users: Naafiri, Jhin, and Varus"
-        },
-        {
-            "name": "AnimaBlade",
-            "attrs": "Every 6 seconds, a random Anima Squad champion spawns a whirl of Tornadoes, dealing magic damage."
-        },
-        {
-            "name": "AnimaLaser",
-            "attrs": "At 6 seconds, The Annihilator deals percent max Health true damage once."
-        },
-        {
-            "name": "AnimaMine",
-            "attrs": "Every 5 seconds, a random Anima Squad champion throws three Ani-Mines that explode, dealing physical damage in an area."
-        },
-        {
-            "name": "AnimaTrain",
-            "attrs": "Every few seconds, Final City Transit summons trains that run through the battlefield, dealing devastating damage and carrying away low health enemies."
-        },
-        {
-            "name": "Boomerang",
-            "attrs": "Every 4 seconds, a random Anima Squad champion throws a returning Blade-o-rang that deals physical damage, increased for the first target hit."
-        },
-        {
-            "name": "FireBow",
-            "attrs": "Every 5 seconds, a random Anima Squad champion fires Searing Shortbow, shooting an arrow that leaves an area that deals magic damage over time."
-        },
-        {
-            "name": "GatlingGun",
-            "attrs": "Every 5.5 seconds, a random Anima Squad champion fires Gatling Bunny-Guns in a long cone, dealing high physical damage."
-        },
-        {
-            "name": "GuidingHex",
-            "attrs": "Every 4 seconds, a random Anima Squad champion casts Guiding Hex, dealing magic damage to 3 random nearby targets."
-        },
-        {
-            "name": "SupplyDrop",
-            "attrs": "Every 8 seconds, Supply Drop calls in a support ship that drops powerful goodies onto the battlefield."
-        },
-        {
-            "name": "UwUBlaster",
-            "attrs": "Every 4 seconds, a random Anima Squad champion rapidfires UwU Blasters, dealing physical damage to the first enemy hit."
-        },
-        {
-            "name": "VortexGlove",
-            "attrs": "Every 5 seconds, a random Anima Squad champion fires piercing orbs from Vortex Glove, that deal magic damage, reduced for each enemy struck."
-        },
-        {
-            "name": "PulseSilencer",
-            "attrs": "Execute enemies below 44% Health. Abilities can critically strike.Gain 44% Critical Strike Damage.<br><br>Recommended users: Jhin and Zeri"
-        },
-        {
-            "name": "HijackedCybercoil",
-            "attrs": "Abilities and Attacks mark enemies for 10 seconds. Heal for 75% of damage dealt to marked enemies.<br><br>Recommended users: Sejuani, Jax, and Mordekaiser"
-        },
-        {
-            "name": "FullyChargedFluxCapacitor",
-            "attrs": "Every other attack is charged, dealing 20% of the target's max health as physical damage and reduces their Armor by 15.<br><br>Recommended users: Zeri and Naafiri"
-        },
-        {
-            "name": "NullifierLantern",
-            "attrs": "Gain 50% health. Every 1 seconds, deal 10% of the holder's max health as magic damage to all enemies within 1-hex.<br><br>Recommended users: Jax, Mordekaiser, and Sejuani"
-        },
-        {
-            "name": "HarmonizedChassis",
-            "attrs": "All Shields are 100% more effective on the holder.Every second, siphon 8% of the owner's max Health from the nearest 3 enemies and convert it to a Shield for 8 seconds.<br><br>Recommended users: Mordekaiser, Jax, and Sejuani"
-        },
-        {
-            "name": "ApexFangs",
-            "attrs": "When you damage an enemy, deal 100% of the damage to the nearest enemy as physical damage after a brief delay.<br><br>Recommended users: Naafiri, Jhin, and Varus"
-        },
-        {
-            "name": "ScopedHolobow",
-            "attrs": "Attacks that Critically Strike grant 10 bonus Mana. After casting an Ability, gain 100% Critical Strike Chance for 8 seconds.<br><br>Recommended users: Varus, Jhin, and Zeri"
-        },
-        {
-            "name": "BossSelector",
-            "attrs": "Promotes a Syndicate champion to Kingpin and upgrades their ability."
-        },
-        {
-            "name": "Chrome",
-            "attrs": "Chrome grants AP and Health."
-        },
-        {
-            "name": "BossSelector2",
-            "attrs": "Promotes a Syndicate champion to Kingpin and upgrades their ability."
+            "trait_key": "Etc",
+            "trait_items": [
+                {
+                    "key": "Chrome",
+                    "name": "Chrome",
+                    "desc": "Chrome grants AP and Health.",
+                    "fromDesc": "",
+                    "tags": [
+                        "Etc"
+                    ]
+                }
+            ]
         }
     ]
 }

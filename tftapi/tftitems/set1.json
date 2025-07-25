@@ -255,54 +255,78 @@
             "add_attrs": "Each planning phase, fetch two temporary items, quality based upon your player level. [Consumes Three item Slots]"
         }
     ],
-    "embl": [],
+    "embl": [
+        {
+            "name": "YoumuusGhostblade",
+            "compositions": "sword+spatula",
+            "gain_trait": "Assassin",
+            "add_attrs": "Extra Attack Damage +20. Wearer is also an Assassin"
+        },
+        {
+            "name": "BladeoftheRuinedKing",
+            "compositions": "bow+spatula",
+            "gain_trait": "Blademaster",
+            "add_attrs": "Extra AS +20%. Wearer is also a Blademaster"
+        },
+        {
+            "name": "Yuumi",
+            "compositions": "rod+spatula",
+            "gain_trait": "Sorcerer",
+            "add_attrs": "Extra Spell Power +20%. Wearer is also a Sorcerer"
+        },
+        {
+            "name": "Darkin",
+            "compositions": "tear+spatula",
+            "gain_trait": "Demon",
+            "add_attrs": "Extra Starting mana +20. Wearer is also a Demon"
+        },
+        {
+            "name": "KnightsVow",
+            "compositions": "vest+spatula",
+            "gain_trait": "Knight",
+            "add_attrs": "Extra Armor +20. Wearer is also a Knight"
+        },
+        {
+            "name": "FrozenMallet",
+            "compositions": "belt+spatula",
+            "gain_trait": "Glacial",
+            "add_attrs": "Extra HP +200. Wearer is also a Glacial"
+        },
+        {
+            "name": "Mittens",
+            "compositions": "glove+spatula",
+            "gain_trait": "Yordle",
+            "add_attrs": "Extra +10% crit, +10% dodge. Wearer is also a Yordle"
+        }
+    ],
+    "crow": [
+        {
+            "name": "ForceofNature",
+            "compositions": "spatula+spatula"
+        }
+    ],
     "radi": [],
     "arti": [],
     "supp": [],
     "spec": [
         {
-            "name": "SwordoftheDivine",
-            "attrs": "Each second, the wearer has a 7% chance to gain 100% Critical Strike"
+            "key": "SwordoftheDivine",
+            "name": "Sword of the Divine",
+            "desc": "Each second, the wearer has a 7% chance to gain 100% Critical Strike"
         },
         {
-            "name": "NeekosHelp",
-            "attrs": "Place on a champion to create a 1-star copy of that champion and add it to your bench. Doing so consumes Neeko's Help."
+            "key": "NeekosHelp",
+            "name": "Neeko's Help",
+            "desc": "Place on a champion to create a 1-star copy of that champion and add it to your bench. Doing so consumes Neeko's Help."
         },
         {
-            "name": "YoumuusGhostblade",
-            "attrs": "Extra Attack Damage +20. Wearer is also an Assassin"
-        },
-        {
-            "name": "BladeoftheRuinedKing",
-            "attrs": "Extra AS +20%. Wearer is also a Blademaster"
-        },
-        {
-            "name": "Yuumi",
-            "attrs": "Extra Spell Power +20%. Wearer is also a Sorcerer"
-        },
-        {
-            "name": "Darkin",
-            "attrs": "Extra Starting mana +20. Wearer is also a Demon"
-        },
-        {
-            "name": "KnightsVow",
-            "attrs": "Extra Armor +20. Wearer is also a Knight"
-        },
-        {
-            "name": "RunaansHurricane",
-            "attrs": "Summon a spirit who mirrors your attacks, dealing 75% Damage"
-        },
-        {
-            "name": "FrozenMallet",
-            "attrs": "Extra HP +200. Wearer is also a Glacial"
-        },
-        {
-            "name": "ForceofNature",
-            "attrs": "Gain +1 team size"
-        },
-        {
-            "name": "Mittens",
-            "attrs": "Extra +10% crit, +10% dodge. Wearer is also a Yordle"
+            "key": "RunaansHurricane",
+            "name": "Runaan's Hurricane",
+            "desc": "Summon a spirit who mirrors your attacks, dealing 75% Damage",
+            "compositions": [
+                "NegatronCloak",
+                "Spatula"
+            ]
         }
     ]
 }

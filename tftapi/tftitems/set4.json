@@ -255,46 +255,64 @@
             "add_attrs": "At the beginning of each planning phase, the wearer equip 2 temporary items. Temporary items increase in power based on your player level. [Consumes Three item Slots]"
         }
     ],
-    "embl": [],
-    "radi": [],
-    "arti": [],
-    "supp": [],
-    "spec": [
+    "embl": [
         {
             "name": "SwordoftheDivine",
-            "attrs": "[Unique] The holder gains the Divine trait."
+            "compositions": "sword+spatula",
+            "gain_trait": "Divine",
+            "add_attrs": "[Unique] The holder gains the Divine trait."
         },
         {
             "name": "DuelistsZeal",
-            "attrs": "[Unique] The holder gains the Duelist trait."
+            "compositions": "bow+spatula",
+            "gain_trait": "Duelist",
+            "add_attrs": "[Unique] The holder gains the Duelist trait."
         },
         {
             "name": "MantleofDusk",
-            "attrs": "[Unique] The holder gains the Dusk trait."
+            "compositions": "rod+spatula",
+            "gain_trait": "Dusk",
+            "add_attrs": "[Unique] The holder gains the Dusk trait."
         },
         {
             "name": "MagesCap",
-            "attrs": "[Unique] The holder gains the Mage trait."
+            "compositions": "tear+spatula",
+            "gain_trait": "Mage",
+            "add_attrs": "[Unique] The holder gains the Mage trait."
         },
         {
             "name": "VanguardsCuirass",
-            "attrs": "[Unique] The holder gains the Vanguard trait."
+            "compositions": "vest+spatula",
+            "gain_trait": "Vanguard",
+            "add_attrs": "[Unique] The holder gains the Vanguard trait."
         },
         {
             "name": "ElderwoodHeirloom",
-            "attrs": "[Unique] The holder gains the Elderwood trait."
+            "compositions": "cloak+spatula",
+            "gain_trait": "Elderwood",
+            "add_attrs": "[Unique] The holder gains the Elderwood trait."
         },
         {
             "name": "WarlordsBanner",
-            "attrs": "[Unique] The wearer gains the Warlord trait."
-        },
-        {
-            "name": "ForceofNature",
-            "attrs": "Wearer's team gains +1 maximum team size."
+            "compositions": "belt+spatula",
+            "gain_trait": "Warlord",
+            "add_attrs": "[Unique] The wearer gains the Warlord trait."
         },
         {
             "name": "YoumuusGhostblade",
-            "attrs": "[Unique] The wearer gains the Assassin trait."
+            "compositions": "glove+spatula",
+            "gain_trait": "Assassin",
+            "add_attrs": "[Unique] The wearer gains the Assassin trait."
         }
-    ]
+    ],
+    "crow": [
+        {
+            "name": "ForceofNature",
+            "compositions": "spatula+spatula"
+        }
+    ],
+    "radi": [],
+    "arti": [],
+    "supp": [],
+    "spec": []
 }
