@@ -1,0 +1,112 @@
+{
+    "set11_Fated": {
+        "trait": {
+            "key": "Fated",
+            "name": "Fated",
+            "desc": "Hover one Fated unit over another to form a pair and unlock a Fated Bonus. Your pair gains 20% HP.",
+            "stats": {
+                "3": "Pair gets the Fated Bonus.",
+                "5": "All Fated champions get 200% of the Fated Bonus",
+                "7": "All Fated champions get 300% of the Fated Bonus",
+                "10": "All Fated champions gain 300% of EVERY Fated Bonus"
+            }
+        },
+        "champions": [
+            {
+                "name": "Ahri",
+                "cost": 1,
+                "skill_desc": "Deal magic damage to the current target and magic damage to adjacent enemies.<br><br>Fated Bonus: Gain 27 AP."
+            },
+            {
+                "name": "Aphelios",
+                "cost": 3,
+                "skill_desc": "20% Sunder the nearest 3 enemies for 7 seconds. Then fire 3 shots at them, dealing physical damage each.<br><br>Fated Bonus: Gain 25% Attack Damage.<br><br>Sunder: Reduce Armor"
+            },
+            {
+                "name": "Kindred",
+                "cost": 2,
+                "skill_desc": "Dash away from the current target and deal magic damage to them and magic damage to the nearst enemy.<br><br>Fated Bonus: Gain 18% Attack Speed."
+            },
+            {
+                "name": "Sett",
+                "cost": 5,
+                "skill_desc": "Passive: At the start of combat, squat adjacent units in the same row. Permanently gain 2% Attack Damage for each 1000 Health squatted. (Gains are doubled in Hyper Roll)<br><br>Active: Slam the current target forward, Stunning them and dealing physical damage. Deal Secondary damage plus % of the target's maximum health as physical damage to enemies within 2.5 hexes.<br><br>Fated Bonus: Gain 15% Omnivamp."
+            },
+            {
+                "name": "Syndra",
+                "cost": 4,
+                "skill_desc": "Passive: Start combat with (6 / 6 / 10) butterflies and gain one every 1 cast.<br><br>Active: Throw all butterflies at the current target, dealing magic damage for each butterfly.<br><br>Fated Bonus: Deal 10% more damage."
+            },
+            {
+                "name": "Thresh",
+                "cost": 3,
+                "skill_desc": "Grant Shield to Thresh and the lowest Health ally for 4 seconds and deal magic damage to enemies adjacent to both. Thresh shares % of his Armor and Magic Resist with the shielded ally for 6 seconds.<br><br>Fated Bonus: Gain 18 Armor and Magic Resist."
+            },
+            {
+                "name": "Yasuo",
+                "cost": 1,
+                "skill_desc": "Passive: Attacks while Shielded deal bonus magic damage.<br><br>Active: Gain Shield for 5 seconds and deal magic damage to the current target.<br><br>Fated Bonus: Gain 250 Shield at the start of combat."
+            }
+        ]
+    },
+    "set15_StarGuardian": {
+        "trait": {
+            "key": "StarGuardian",
+            "name": "Star Guardian",
+            "desc": "Star Guardians have a unique Teamwork bonus that is granted to all Star Guardians. Every Star Guardian fielded increases the bonus!<br><br>Prismatic: Spend 20000 mana.<br>THE STARS AWAKEN.<br><br>Rell: Gain shields.<br>Syndra: Gain Ability Power<br>Xayah: Magic damage on attack<br>Ahri: On cast, gain Mana<br>Neeko: Increase heals & shields<br>Poppy: Heal at low Health<br>Jinx: Gain Attack Speed<br>Seraphine: Gain every stat<br>Emblem: Increase other bonuses",
+            "stats": {
+                "2": "Gain Star Guardian Bonus",
+                "3": "Gain Star Guardian Bonus",
+                "4": "Gain Star Guardian Bonus",
+                "5": "Gain Star Guardian Bonus",
+                "6": "Gain Star Guardian Bonus",
+                "7": "Gain Star Guardian Bonus",
+                "8": "Gain Star Guardian Bonus",
+                "9": "Gain Star Guardian Bonus",
+                "10": "Gain Star Guardian Bonus"
+            }
+        },
+        "champions": [
+            {
+                "name": "Ahri",
+                "cost": 3,
+                "skill_desc": "Deal  magic damage to the current target, increased up to 50% based on the target's missing health.<br><br>If the target dies, deal 55% of overkill damage split between the 2 closest enemies, plus magic damage per target."
+            },
+            {
+                "name": "Jinx",
+                "cost": 4,
+                "skill_desc": "Passive: Attacks grant stacking Attack Speed, up to 60%. Critical strikes instead grant 9% .<br><br>Active: Deal physical damage to the target and physical damage split across a 2-hex radius centered on the target."
+            },
+            {
+                "name": "Neeko",
+                "cost": 3,
+                "skill_desc": "Gain 35% Durability and heal over 2 seconds, then deal magic damage to enemies in a 2-hex radius."
+            },
+            {
+                "name": "Poppy",
+                "cost": 4,
+                "skill_desc": "Gain Shield for 4 seconds. When it breaks, deal physical damage to the target and physical damage to other enemies in a 1-hex radius centered on the target. The target is Stunned for 0.5-2.5 seconds based on how long the shield held, and other enemies are briefly Stunned."
+            },
+            {
+                "name": "Rell",
+                "cost": 1,
+                "skill_desc": "Deal magic damage in a short line through the target, then reduce damage taken for 4 seconds."
+            },
+            {
+                "name": "Seraphine",
+                "cost": 5,
+                "skill_desc": "Passive: Ultimate Friendship Bomb's damage scales on Power of Friendship, which is based on all of your team's bonus stats (AD & AP & Armor & MR & AS & Crit & CritMult & Health). Stats on Seraphine contribute more.<br><br>Active: Fire a friendship bomb towards the largest group of enemies within 4 hexes, dealing magic damage in a 2-hex radius."
+            },
+            {
+                "name": "Syndra",
+                "cost": 1,
+                "skill_desc": "Deal magic damage to the target and reduces their Magic Resist by 10."
+            },
+            {
+                "name": "Xayah",
+                "cost": 2,
+                "skill_desc": "Gain 80% attack speed for 3 attacks. These attacks deal bonus physical damage to the target and 2 nearby enemies."
+            }
+        ]
+    }
+}

@@ -82,3 +82,33 @@ def set11_encounters():
 
 for fn in [set15_power_up, set13_teamup, set13_anomalies, set11_encounters]:
     fn()
+
+def trait_compare(setof0: str, trtkey0: str, setof1: str, trtkey1: str):
+    def get_settraitchampion(setof:str, trtkey:str) -> dict:
+        trt=next(filter(lambda trt: trt['key'] == trtkey, setdata[setof]['traits']['traits']), {})
+        return {
+            'trait': {
+                'key': trt['key'],
+                'name': trt['name'],
+                'desc': trt['desc'],
+                'stats': trt['stats'],
+            },
+            'champions': [
+                {
+                    'name': chp['name'],
+                    'cost': min(chp['cost']),
+                    'skill_desc': chp['skill']['desc']
+                }
+                for chp in setdata[setof]['champions']['champions']
+                if trtkey in chp['traits']
+            ]
+        }
+
+    with open(f'tfttraits/comp/{setof0}{trtkey0}_{setof1}{trtkey1}.json', 'w+') as cfile:
+        cfile.write(dumps({
+            f'{setof0}_{trtkey0}': get_settraitchampion(setof0, trtkey0),
+            f'{setof1}_{trtkey1}': get_settraitchampion(setof1, trtkey1),
+        }, ensure_ascii=True, indent=4))
+        cfile.close()
+
+trait_compare('set11', 'Fated', 'set15', 'StarGuardian')
