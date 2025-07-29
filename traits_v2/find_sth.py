@@ -48,7 +48,7 @@ def find_hard_traits() -> Dict[str,Any]:
                 hard_traits[setof][classof['class_name']] = stat
     return hard_traits
 
-hard_traits_info=dumps(find_hard_traits(), ensure_ascii=True, indent='    ')
+hard_traits_info=dumps(find_hard_traits(), ensure_ascii=True, indent=4)
 with open('data/output/tft_hard_traits.json', 'w+') as htfile:
     htfile.write(hard_traits_info)
     htfile.close()
@@ -66,7 +66,7 @@ def find_most_traits() -> List[Tuple[str, List[Tuple[str,str]]]]:
                 res[nameof]=[tpl]
     return sorted([(nameof,listof) for nameof,listof in res.items() if len(listof) >= 5], key=lambda tof: len(tof[1]), reverse=True)
 
-most_traits_info=dumps(find_most_traits(), ensure_ascii=True, indent='    ')
+most_traits_info=dumps(find_most_traits(), ensure_ascii=True, indent=4)
 with open('data/output/tft_most_traits.json', 'w+') as mtfile:
     mtfile.write(most_traits_info)
     mtfile.close()

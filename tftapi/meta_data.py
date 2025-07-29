@@ -11,6 +11,15 @@ for setof in setlist:
         with open(f'tftraw/{setof}-{elemof}.json') as elemfile:
             setdata[setof][elemof]=dict(loads(elemfile.read()));elemfile.close()
 
+def setaugments(setof: str) -> list[dict]:
+    return setdata[setof]['augments']['augments']
+def setchampions(setof: str) -> list[dict]:
+    return setdata[setof]['champions']['champions']
+def setitems(setof: str) -> list[dict]:
+    return setdata[setof]['items']['items']
+def settraits(setof: str) -> list[dict]:
+    return setdata[setof]['traits']['traits']
+
 special_components=['Spatula', 'FryingPan', 'ShadowSpatula', 'spatula', 'pan']
 
 components_nickname={
@@ -72,6 +81,7 @@ stat_icons={
     '%i:scaleAP%': 'AP',
     '%i:scaleHealth%': 'HP',
     '%i:scaleDA%': 'DA',
+    '%i:scaleAS%': 'AS',
 }
 
 craft2radiant_name={

@@ -2,7 +2,7 @@ from env import setlist
 
 from typing import Any
 
-from meta_data import setdata
+from meta_data import settraits, setchampions, setitems
 
 from meta_func import select_traits, select_champions, emblem_cmp_key, grid_fix_write
 from meta_func import select_traits_legal, count_traits_style
@@ -16,14 +16,8 @@ def get_traits_table(setof: str) -> tuple[str,str]:
     setorigins=[]
     setclasses=[]
 
-    traits=setdata[setof]['traits']
-
-    champions=setdata[setof]['champions']
-    chmps=[(chp['name'], chp['traits']) for chp in champions['champions'] if select_champions(setof, chp)]
-
-    items=setdata[setof]['items']
     emblems:dict[str,Any]={}
-    for emb in items['items']:
+    for emb in setitems(setof):
         if 'isHidden' in emb:
             continue
         if 'isEmblem' in emb:
@@ -46,6 +40,7 @@ def get_traits_table(setof: str) -> tuple[str,str]:
 
 
     trt2chp:dict[str,set[str]]={}
+    chmps=[(chp['name'], chp['traits']) for chp in setchampions(setof) if select_champions(setof, chp)]
     for chp in chmps:
         for trtofchp in chp[1]:
             if trtofchp in trt2chp:
@@ -53,7 +48,7 @@ def get_traits_table(setof: str) -> tuple[str,str]:
             else:
                 trt2chp[trtofchp] = set([chp[0]])
 
-    for trt in traits['traits']:
+    for trt in settraits(setof):
         if not select_traits(setof, trt):
             continue
 
@@ -95,7 +90,7 @@ def get_traits_table(setof: str) -> tuple[str,str]:
 def get_unique_table(setof: str) -> str:
     trt1chp:dict[str,list[str]]={} # trait_name -> champion_name_list
     chpcost:dict[str,int]={}       # champion_name -> champion_cost
-    for chp in setdata[setof]['champions']['champions']:
+    for chp in setchampions(setof):
         chpcost[chp['name']] = min(chp['cost'])
         if select_champions(setof, chp) and \
             'traits' in chp:
@@ -105,7 +100,7 @@ def get_unique_table(setof: str) -> str:
                 trt1chp[trt0].append(chp['name'])
 
     setunique = []
-    for trt in setdata[setof]['traits']['traits']:
+    for trt in settraits(setof):
         if select_traits_legal(setof, trt) and \
             count_traits_style(trt) == 1:
             setunique.append({

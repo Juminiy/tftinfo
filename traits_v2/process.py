@@ -162,7 +162,7 @@ def process_tft() -> Dict[str,Any]:
     return sdict
 
 from json import dumps, loads
-tftinfo=dumps(process_tft(), ensure_ascii=True,indent='    ')
+tftinfo=dumps(process_tft(), ensure_ascii=True,indent=4)
 with open('data/output/tft_set_all.json', 'w+') as tftfile:
     tftfile.write(tftinfo)
     tftfile.close()

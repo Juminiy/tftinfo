@@ -1,8 +1,6 @@
 from env import setlist
 
-from json import dumps
-
-from meta_data import setdata
+from meta_data import settraits, setchampions
 
 from meta_func import select_traits, select_champions, grid_fix_write
 
@@ -14,11 +12,10 @@ def two_champions_slash(ch1: str, ch2: str) -> str:
 
 def get_synergy_grid(setof: str) -> str:
     # select traits
-    traits=setdata[setof]['traits']
     origin_key:list[str]=[]
     class_key:list[str]=[]
     key2name:dict[str,str]={}
-    for trt in traits['traits']:
+    for trt in settraits(setof):
         if not select_traits(setof, trt):
             continue
         match trt['type']:
@@ -31,8 +28,7 @@ def get_synergy_grid(setof: str) -> str:
     class_key.sort()
     
     # select champions
-    champions=setdata[setof]['champions']
-    chmps=[(chp['name'], chp['traits']) for chp in champions['champions'] if select_champions(setof, chp)]
+    chmps=[(chp['name'], chp['traits']) for chp in setchampions(setof) if select_champions(setof, chp)]
     
     # champions grid
     grid2d=[['']*(len(class_key)) for _ in range(len(origin_key))]

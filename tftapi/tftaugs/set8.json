@@ -1,1183 +1,1419 @@
 {
     "normal": [],
     "silver": [
-        [
-            "Band of Thieves I",
-            "Gain 1 Thief's Gloves."
-        ],
-        [
-            "Celestial Blessing I",
-            "Your units heal for 10% of the damage dealt by attacks and Abilities. Excess healing is converted to a shield up to 200 Health."
-        ],
-        [
-            "Exiles I",
-            "Your units that start combat with no adajacent allies gain a 25% maximum Health shield for 10 seconds."
-        ],
-        [
-            "Second Wind I",
-            "After 10 seconds of combat, your units heal 40% of their missing Health."
-        ],
-        [
-            "Thrill of the Hunt I",
-            "Your units heal 350 Health on kill."
-        ],
-        [
-            "AFK",
-            "You cannot perform actions for the next 3 rounds. Afterwards, gain 18 gold."
-        ],
-        [
-            "Big Friend I",
-            "Your units that start combat next to a unit with over 1600 Health take 9% less damage for the rest of combat."
-        ],
-        [
-            "Cybernetic Implants I",
-            "Your champions holding an item gain 80 Health and 10% Attack Damage."
-        ],
-        [
-            "Cybernetic Shell I",
-            "Your champions holding an item gain 80 Health and 30 Armor."
-        ],
-        [
-            "Cybernetic Uplink I",
-            "Your champions holding an item gain 80 Health and restore 2 Mana per second."
-        ],
-        [
-            "Stand United I",
-            "Your units gain 1.5% Attack Damage and 1.5 Ability Power per Trait active across your army."
-        ],
-        [
-            "Electrocharge I",
-            "When your units receive critical strikes, they deal 30-90 (based on current Stage) magic damage to nearby enemies. (1 second cooldown)."
-        ],
-        [
-            "Featherweights I",
-            "Your 1 and 2 cost champions gain 20% Attack Speed and Move Speed."
-        ],
-        [
-            "First Aid Kit",
-            "All healing and shielding on your units is increased by 25%."
-        ],
-        [
-            "Future Sight I",
-            "Know who you will fight next. Gain a Zephyr."
-        ],
-        [
-            "Item Grab Bag I",
-            "Gain 1 random completed item."
-        ],
-        [
-            "Lategame Specialist",
-            "Gain 40 gold when you reach Level 9."
-        ],
-        [
-            "Luden's Echo I",
-            "When your units cast and deal Ability damage, the first target hit and a nearby enemy take 35-80 (based on current Stage) magic damage."
-        ],
-        [
-            "Makeshift Armor I",
-            "Your units with no items gain 30 Armor and Magic Resist."
-        ],
-        [
-            "Pandora's Bench",
-            "Gain 2 gold. At the start of every turn, Champions on the 3 rightmost bench slots transform into random champions of the same cost."
-        ],
-        [
-            "Pandora's Items",
-            "Gain a random component. At the start of each round, items on your bench are randomized (excluding Tactician's Crown, Spatula, and consumables)."
-        ],
-        [
-            "Preparation I",
-            "Champions on your bench permanently gain 25 Health, 3% Attack Damage and 3 Ability Power every round. Champions start with I stack of this effect, and can stack up to 4 times."
-        ],
-        [
-            "Recombobulator",
-            "Champions on your board permanently transform into random champions 1 Tier higher. Gain 2 Magnetic Removers."
-        ],
-        [
-            "Tiny Titans",
-            "Your Tactician heals 30 Health, grows larger, and has 130 maximum Health."
-        ],
-        [
-            "Tri Force I",
-            "Your Tier 3 champions gain 75 Health, 10 starting Mana, and 10% Attack Speed."
-        ],
-        [
-            "Consistency",
-            "Gain double win and loss streak gold."
-        ],
-        [
-            "Battlemage I",
-            "Your units that start combat in the front 2 rows gain 15 Armor and 15 Ability Power."
-        ],
-        [
-            "Knife's Edge I",
-            "Your units that start combat in the front 2 rows gain 15 Attack Damage."
-        ],
-        [
-            "A.D.M.I.N. Heart",
-            "Your team counts as having 1 additional A.D.M.I.N. Gain a Camille."
-        ],
-        [
-            "Anima Squad Heart",
-            "Your team counts as having 1 additional Anima Squad. Gain a Jinx."
-        ],
-        [
-            "Brawler Heart",
-            "Your team counts as having 1 additional Brawler. Gain a Vi."
-        ],
-        [
-            "Spellslinger Heart",
-            "Your team counts as having 1 additional Spellslinger. Gain an Annie."
-        ],
-        [
-            "Sureshot Heart",
-            "Your team counts as having 1 additional Sureshot. Gain a Sivir."
-        ],
-        [
-            "Defender Heart",
-            "Your team counts as having 1 additional Defender. Gain a Rell."
-        ],
-        [
-            "Duelist Heart",
-            "Your team counts as having 1 additional Duelist. Gain a Fiora."
-        ],
-        [
-            "Gadgeteen Heart",
-            "Your team counts as having 1 additional Gadgeteen. Gain an Poppy."
-        ],
-        [
-            "Hacker Heart",
-            "Your team counts as having 1 additional Hacker. Gain 2 gold."
-        ],
-        [
-            "Heart Heart",
-            "Your team counts as having 1 additional Heart. Gain a Lee Sin."
-        ],
-        [
-            "Mascot Heart",
-            "Your team counts as having 1 additional Mascot. Gain a Yuumi."
-        ],
-        [
-            "Ox Force Heart",
-            "Your team counts as having 1 additional Ox Force. Gain a Fiora."
-        ],
-        [
-            "Recon Heart",
-            "Your team counts as having 1 additional Recon. Gain an Ezreal."
-        ],
-        [
-            "Renegade Heart",
-            "Your team counts as having 1 additional Renegade. Gain a Camille."
-        ],
-        [
-            "Star Guardian Heart",
-            "Your team counts as having 1 additional Star Guardian. Gain a Yuumi."
-        ],
-        [
-            "Aegis Heart",
-            "Your team counts as having 1 additional Aegis. Gain a Vi."
-        ]
+        {
+            "name": "Band of Thieves I",
+            "desc": "Gain 1 Thief's Gloves."
+        },
+        {
+            "name": "Celestial Blessing I",
+            "desc": "Your units heal for 10% of the damage dealt by attacks and Abilities. Excess healing is converted to a shield up to 200 Health."
+        },
+        {
+            "name": "Exiles I",
+            "desc": "Your units that start combat with no adajacent allies gain a 25% maximum Health shield for 10 seconds."
+        },
+        {
+            "name": "Second Wind I",
+            "desc": "After 10 seconds of combat, your units heal 40% of their missing Health."
+        },
+        {
+            "name": "Thrill of the Hunt I",
+            "desc": "Your units heal 350 Health on kill."
+        },
+        {
+            "name": "AFK",
+            "desc": "You cannot perform actions for the next 3 rounds. Afterwards, gain 18 gold."
+        },
+        {
+            "name": "Big Friend I",
+            "desc": "Your units that start combat next to a unit with over 1600 Health take 9% less damage for the rest of combat."
+        },
+        {
+            "name": "Cybernetic Implants I",
+            "desc": "Your champions holding an item gain 80 Health and 10% Attack Damage."
+        },
+        {
+            "name": "Cybernetic Shell I",
+            "desc": "Your champions holding an item gain 80 Health and 30 Armor."
+        },
+        {
+            "name": "Cybernetic Uplink I",
+            "desc": "Your champions holding an item gain 80 Health and restore 2 Mana per second."
+        },
+        {
+            "name": "Stand United I",
+            "desc": "Your units gain 1.5% Attack Damage and 1.5 Ability Power per Trait active across your army."
+        },
+        {
+            "name": "Electrocharge I",
+            "desc": "When your units receive critical strikes, they deal 30-90 (based on current Stage) magic damage to nearby enemies. (1 second cooldown)."
+        },
+        {
+            "name": "Featherweights I",
+            "desc": "Your 1 and 2 cost champions gain 20% Attack Speed and Move Speed."
+        },
+        {
+            "name": "First Aid Kit",
+            "desc": "All healing and shielding on your units is increased by 25%."
+        },
+        {
+            "name": "Future Sight I",
+            "desc": "Know who you will fight next. Gain a Zephyr."
+        },
+        {
+            "name": "Item Grab Bag I",
+            "desc": "Gain 1 random completed item."
+        },
+        {
+            "name": "Lategame Specialist",
+            "desc": "Gain 40 gold when you reach Level 9."
+        },
+        {
+            "name": "Luden's Echo I",
+            "desc": "When your units cast and deal Ability damage, the first target hit and a nearby enemy take 35-80 (based on current Stage) magic damage."
+        },
+        {
+            "name": "Makeshift Armor I",
+            "desc": "Your units with no items gain 30 Armor and Magic Resist."
+        },
+        {
+            "name": "Pandora's Bench",
+            "desc": "Gain 2 gold. At the start of every turn, Champions on the 3 rightmost bench slots transform into random champions of the same cost."
+        },
+        {
+            "name": "Pandora's Items",
+            "desc": "Gain a random component. At the start of each round, items on your bench are randomized (excluding Tactician's Crown, Spatula, and consumables)."
+        },
+        {
+            "name": "Preparation I",
+            "desc": "Champions on your bench permanently gain 25 Health, 3% Attack Damage and 3 Ability Power every round. Champions start with I stack of this effect, and can stack up to 4 times."
+        },
+        {
+            "name": "Recombobulator",
+            "desc": "Champions on your board permanently transform into random champions 1 Tier higher. Gain 2 Magnetic Removers."
+        },
+        {
+            "name": "Tiny Titans",
+            "desc": "Your Tactician heals 30 Health, grows larger, and has 130 maximum Health."
+        },
+        {
+            "name": "Tri Force I",
+            "desc": "Your Tier 3 champions gain 75 Health, 10 starting Mana, and 10% Attack Speed."
+        },
+        {
+            "name": "Consistency",
+            "desc": "Gain double win and loss streak gold."
+        },
+        {
+            "name": "Battlemage I",
+            "desc": "Your units that start combat in the front 2 rows gain 15 Armor and 15 Ability Power."
+        },
+        {
+            "name": "Knife's Edge I",
+            "desc": "Your units that start combat in the front 2 rows gain 15 Attack Damage."
+        },
+        {
+            "name": "A.D.M.I.N. Heart",
+            "desc": "Your team counts as having 1 additional A.D.M.I.N. Gain a Camille."
+        },
+        {
+            "name": "Anima Squad Heart",
+            "desc": "Your team counts as having 1 additional Anima Squad. Gain a Jinx."
+        },
+        {
+            "name": "Brawler Heart",
+            "desc": "Your team counts as having 1 additional Brawler. Gain a Vi."
+        },
+        {
+            "name": "Spellslinger Heart",
+            "desc": "Your team counts as having 1 additional Spellslinger. Gain an Annie."
+        },
+        {
+            "name": "Sureshot Heart",
+            "desc": "Your team counts as having 1 additional Sureshot. Gain a Sivir."
+        },
+        {
+            "name": "Defender Heart",
+            "desc": "Your team counts as having 1 additional Defender. Gain a Rell."
+        },
+        {
+            "name": "Duelist Heart",
+            "desc": "Your team counts as having 1 additional Duelist. Gain a Fiora."
+        },
+        {
+            "name": "Gadgeteen Heart",
+            "desc": "Your team counts as having 1 additional Gadgeteen. Gain an Poppy."
+        },
+        {
+            "name": "Hacker Heart",
+            "desc": "Your team counts as having 1 additional Hacker. Gain 2 gold."
+        },
+        {
+            "name": "Heart Heart",
+            "desc": "Your team counts as having 1 additional Heart. Gain a Lee Sin."
+        },
+        {
+            "name": "Mascot Heart",
+            "desc": "Your team counts as having 1 additional Mascot. Gain a Yuumi."
+        },
+        {
+            "name": "Ox Force Heart",
+            "desc": "Your team counts as having 1 additional Ox Force. Gain a Fiora."
+        },
+        {
+            "name": "Recon Heart",
+            "desc": "Your team counts as having 1 additional Recon. Gain an Ezreal."
+        },
+        {
+            "name": "Renegade Heart",
+            "desc": "Your team counts as having 1 additional Renegade. Gain a Camille."
+        },
+        {
+            "name": "Star Guardian Heart",
+            "desc": "Your team counts as having 1 additional Star Guardian. Gain a Yuumi."
+        },
+        {
+            "name": "Aegis Heart",
+            "desc": "Your team counts as having 1 additional Aegis. Gain a Vi."
+        }
     ],
     "gold": [
-        [
-            "Exiles II",
-            "Your units that start combat with no adajacent allies gain a 35% maximum Health shield for 10 seconds."
-        ],
-        [
-            "Luden's Echo II",
-            "When your units cast and deal Ability damage, the first target hit and a nearby enemy take 50-110 (based on current Stage) magic damage."
-        ],
-        [
-            "Metabolic Accelerator",
-            "Your Tactician moves faster and heals 2 Health after a PVP round."
-        ],
-        [
-            "Phony Frontline",
-            "Gain 2 Target Dummies."
-        ],
-        [
-            "Tri Force II",
-            "Your Tier 3 champions gain 125 Health, 15 starting Mana, and 15% Attack Speed."
-        ],
-        [
-            "Ascension",
-            "After 15 seconds of combat, your units deal 50% more damage."
-        ],
-        [
-            "Axiom Arc II",
-            "Your units gain 30 Mana on kill."
-        ],
-        [
-            "Big Friend II",
-            "Your units that start combat next to a unit with over 1600 Health take 10% less damage for the rest of combat."
-        ],
-        [
-            "Calculated Loss",
-            "After losing your combat, gain 2 gold and a free Shop refresh."
-        ],
-        [
-            "Celestial Blessing II",
-            "Your units heal for 15% of the damage dealt by attacks and Abilities. Excess healing is converted to a shield up to 300 Health."
-        ],
-        [
-            "Clear Mind",
-            "If you have no champions on your bench at the end of player combat round, gain 3 experience points."
-        ],
-        [
-            "Cluttered Mind",
-            "If your bench is full at the end of player combat round, gain 3 experience points. Gain 4 random Tier 1 champions."
-        ],
-        [
-            "Combat Training",
-            "Your Champions permanently gain 1 Attack Damage every time they kill an enemy unit. Champions start with 8% Attack Damage."
-        ],
-        [
-            "Component Grab Bag",
-            "Gain 3 random item components."
-        ],
-        [
-            "Cybernetic Implants II",
-            "Your champions holding an item gain 120 Health and 20% Attack Damage."
-        ],
-        [
-            "Cybernetic Shell II",
-            "Your champions holding an item gain 120 Health and 40 Armor."
-        ],
-        [
-            "Cybernetic Uplink II",
-            "Your champions holding an item gain 120 Health and restore 2.5 Mana per second."
-        ],
-        [
-            "Stand United II",
-            "Your units gain 2 Attack Damage and 3 Ability Power per Trait active across your army."
-        ],
-        [
-            "Electrocharge II",
-            "When your units receive critical strikes, they deal 50-110 (based on current Stage) magic damage to nearby enemies. (1 second cooldown)."
-        ],
-        [
-            "Featherweights II",
-            "Your 1 and 2 cost champions gain 30% Attack Speed and Move Speed."
-        ],
-        [
-            "First Aid Kit II",
-            "All healing and shielding on your units is increased by 35%."
-        ],
-        [
-            "Hustler",
-            "Instead of having no interest, you get 3 golds at the beginning of player combat rounds."
-        ],
-        [
-            "Jeweled Lotus",
-            "Magic and true damage from your units' Abilities can critically strike. Your units gain 20% Critical Strike Chance."
-        ],
-        [
-            "Last Stand",
-            "The first time you would die, instead drop to 1 Health. After this effect triggers, your units gain 180 Health, 18 Armor and Magic Resist, and 18% Omnivamp."
-        ],
-        [
-            "Makeshift Armor II",
-            "Your units with no items gain 45 Armor and Magic Resist."
-        ],
-        [
-            "Portable Forge",
-            "Open an Armory and choose 1 of 3 unique Artifacts crafted by Ornn."
-        ],
-        [
-            "Preparation II",
-            "Champions on your bench permanently gain 35 Health, 4% Attack Damage and 4 Ability Power every round. Champions start with I stack of this effect, and can stack up to 4 times."
-        ],
-        [
-            "Rich Get Richer",
-            "Gain 12 gold. Your maximum interest is increased to 7."
-        ],
-        [
-            "Rich Get Richer+",
-            "Gain 20 gold. Your maximum interest is increased to 7."
-        ],
-        [
-            "Salvage Bin",
-            "Gain a random completed item. Selling champions breaks apart their full items into components (excluding Tactician's Crown)."
-        ],
-        [
-            "Second Wind II",
-            "After 10 seconds of combat, your units heal 60% of their missing Health."
-        ],
-        [
-            "Sunfire Board",
-            "At the start of combat, burn all enemies for 10% of their maximum Health over 20 seconds and reduce healing received by 33%."
-        ],
-        [
-            "Three's Company",
-            "Gain 3 random 3-cost champions."
-        ],
-        [
-            "Thrill of the Hunt II",
-            "Your units heal 550 Health on kill."
-        ],
-        [
-            "Ancient Archives I",
-            "Gain 1 Tome of Traits and 4 gold."
-        ],
-        [
-            "Trade Sector",
-            "Gain a free Shop refresh each round."
-        ],
-        [
-            "Trade Sector+",
-            "Gain a free Shop refresh each round. Gain 10 golds."
-        ],
-        [
-            "Built Different II",
-            "Your units with no Traits active gain 190-355 Health and 40-70% Attack Speed. (based on current Stage)"
-        ],
-        [
-            "True Twos",
-            "Gain 1 random 2-star Tier 1 champions and 1 random 2-star Tier 2 champion."
-        ],
-        [
-            "Double Trouble II",
-            "If you have exactly 2 copies of a champion on your board, they both gain 30 Attack Damage, Ability Power, Armor, and Magic Resist. When you 3-star, gain a 2-star copy."
-        ],
-        [
-            "Urf's Grab Bag I",
-            "Gain 1 Spatula and 1 random item component."
-        ],
-        [
-            "Scoped Weapons I",
-            "Your units that start combat in the back 2 rows gain +2 Attack Range and 10% Attack Speed."
-        ],
-        [
-            "Battlemage II",
-            "Your units that start combat in the front 2 rows gain 25 Armor and 25 Ability Power."
-        ],
-        [
-            "Knife's Edge II",
-            "Your units that start combat in the front 2 rows gain 25 Attack Damage."
-        ],
-        [
-            "Lasercorps Heart",
-            "Your team counts as having 1 additional LaserCorps. Gain a Yasuo."
-        ],
-        [
-            "Supers Heart",
-            "Your team counts as having 1 additional Super. Gain a Malphite."
-        ],
-        [
-            "Underground Heart",
-            "Your team counts as having 1 additional Underground. Gain a Vi."
-        ],
-        [
-            "Ace Crest",
-            "Gain an Ace Emblem and a 2 gold."
-        ],
-        [
-            "A.D.M.I.N Crest",
-            "Gain an A.D.M.I.N. Emblem and a Blitzcrank."
-        ],
-        [
-            "Anima Squad Crest",
-            "Gain an Anima Squad Emblem and a Sylas."
-        ],
-        [
-            "Brawler Crest",
-            "Gain a Brawler Emblem and a Lee Sin."
-        ],
-        [
-            "Spellslinger Crest",
-            "Gain a Spellslinger Emblem and an Annie."
-        ],
-        [
-            "Civilian Crest",
-            "Gain a Civilian Emblem and a Galio."
-        ],
-        [
-            "Sureshot Crest",
-            "Gain a Sureshot Emblem and a Sivir."
-        ],
-        [
-            "Defender Crest",
-            "Gain a Defender Emblem and a Poppy."
-        ],
-        [
-            "Duelist Crest",
-            "Gain a Duelist Emblem and a Yasuo."
-        ],
-        [
-            "Mecha: PRIME Crest",
-            "Gain a Mecha: PRIME Emblem and a Draven."
-        ],
-        [
-            "Hacker Crest",
-            "Gain a Hacker Emblem and 2 gold."
-        ],
-        [
-            "Heart Crest",
-            "Gain a Heart Emblem and a Yuumi."
-        ],
-        [
-            "Mascot Crest",
-            "Gain a Mascot Emblem and a Yuumi."
-        ],
-        [
-            "Ox Force Crest",
-            "Gain an Ox Force Emblem and an Annie."
-        ],
-        [
-            "Prankster Crest",
-            "Gain a Prankster Emblem and a Jinx."
-        ],
-        [
-            "Recon Crest",
-            "Gain a Recon Emblem."
-        ],
-        [
-            "Renegade Crest",
-            "Gain a Renegade Emblem and a Talon."
-        ],
-        [
-            "Star Guardian Crest",
-            "Gain a Star Guardian Emblem and a Rell."
-        ],
-        [
-            "Threat Level: Maximum",
-            "At the start of combat, your Threats gain 60 Maximum Health for every Threat champion on your board."
-        ],
-        [
-            "Aegis Crest",
-            "Gain an Aegis Emblem and a Vi."
-        ],
-        [
-            "Gadgeteen crest",
-            "Gain a Gadgeteen Emblem and an Annie."
-        ]
+        {
+            "name": "Exiles II",
+            "desc": "Your units that start combat with no adajacent allies gain a 35% maximum Health shield for 10 seconds."
+        },
+        {
+            "name": "Luden's Echo II",
+            "desc": "When your units cast and deal Ability damage, the first target hit and a nearby enemy take 50-110 (based on current Stage) magic damage."
+        },
+        {
+            "name": "Metabolic Accelerator",
+            "desc": "Your Tactician moves faster and heals 2 Health after a PVP round."
+        },
+        {
+            "name": "Phony Frontline",
+            "desc": "Gain 2 Target Dummies."
+        },
+        {
+            "name": "Tri Force II",
+            "desc": "Your Tier 3 champions gain 125 Health, 15 starting Mana, and 15% Attack Speed."
+        },
+        {
+            "name": "Ascension",
+            "desc": "After 15 seconds of combat, your units deal 50% more damage."
+        },
+        {
+            "name": "Axiom Arc II",
+            "desc": "Your units gain 30 Mana on kill."
+        },
+        {
+            "name": "Big Friend II",
+            "desc": "Your units that start combat next to a unit with over 1600 Health take 10% less damage for the rest of combat."
+        },
+        {
+            "name": "Calculated Loss",
+            "desc": "After losing your combat, gain 2 gold and a free Shop refresh."
+        },
+        {
+            "name": "Celestial Blessing II",
+            "desc": "Your units heal for 15% of the damage dealt by attacks and Abilities. Excess healing is converted to a shield up to 300 Health."
+        },
+        {
+            "name": "Clear Mind",
+            "desc": "If you have no champions on your bench at the end of player combat round, gain 3 experience points."
+        },
+        {
+            "name": "Cluttered Mind",
+            "desc": "If your bench is full at the end of player combat round, gain 3 experience points. Gain 4 random Tier 1 champions."
+        },
+        {
+            "name": "Combat Training",
+            "desc": "Your Champions permanently gain 1 Attack Damage every time they kill an enemy unit. Champions start with 8% Attack Damage."
+        },
+        {
+            "name": "Component Grab Bag",
+            "desc": "Gain 3 random item components."
+        },
+        {
+            "name": "Cybernetic Implants II",
+            "desc": "Your champions holding an item gain 120 Health and 20% Attack Damage."
+        },
+        {
+            "name": "Cybernetic Shell II",
+            "desc": "Your champions holding an item gain 120 Health and 40 Armor."
+        },
+        {
+            "name": "Cybernetic Uplink II",
+            "desc": "Your champions holding an item gain 120 Health and restore 2.5 Mana per second."
+        },
+        {
+            "name": "Stand United II",
+            "desc": "Your units gain 2 Attack Damage and 3 Ability Power per Trait active across your army."
+        },
+        {
+            "name": "Electrocharge II",
+            "desc": "When your units receive critical strikes, they deal 50-110 (based on current Stage) magic damage to nearby enemies. (1 second cooldown)."
+        },
+        {
+            "name": "Featherweights II",
+            "desc": "Your 1 and 2 cost champions gain 30% Attack Speed and Move Speed."
+        },
+        {
+            "name": "First Aid Kit II",
+            "desc": "All healing and shielding on your units is increased by 35%."
+        },
+        {
+            "name": "Hustler",
+            "desc": "Instead of having no interest, you get 3 golds at the beginning of player combat rounds."
+        },
+        {
+            "name": "Jeweled Lotus",
+            "desc": "Magic and true damage from your units' Abilities can critically strike. Your units gain 20% Critical Strike Chance."
+        },
+        {
+            "name": "Last Stand",
+            "desc": "The first time you would die, instead drop to 1 Health. After this effect triggers, your units gain 180 Health, 18 Armor and Magic Resist, and 18% Omnivamp."
+        },
+        {
+            "name": "Makeshift Armor II",
+            "desc": "Your units with no items gain 45 Armor and Magic Resist."
+        },
+        {
+            "name": "Portable Forge",
+            "desc": "Open an Armory and choose 1 of 3 unique Artifacts crafted by Ornn."
+        },
+        {
+            "name": "Preparation II",
+            "desc": "Champions on your bench permanently gain 35 Health, 4% Attack Damage and 4 Ability Power every round. Champions start with I stack of this effect, and can stack up to 4 times."
+        },
+        {
+            "name": "Rich Get Richer",
+            "desc": "Gain 12 gold. Your maximum interest is increased to 7."
+        },
+        {
+            "name": "Rich Get Richer+",
+            "desc": "Gain 20 gold. Your maximum interest is increased to 7."
+        },
+        {
+            "name": "Salvage Bin",
+            "desc": "Gain a random completed item. Selling champions breaks apart their full items into components (excluding Tactician's Crown)."
+        },
+        {
+            "name": "Second Wind II",
+            "desc": "After 10 seconds of combat, your units heal 60% of their missing Health."
+        },
+        {
+            "name": "Sunfire Board",
+            "desc": "At the start of combat, burn all enemies for 10% of their maximum Health over 20 seconds and reduce healing received by 33%."
+        },
+        {
+            "name": "Three's Company",
+            "desc": "Gain 3 random 3-cost champions."
+        },
+        {
+            "name": "Thrill of the Hunt II",
+            "desc": "Your units heal 550 Health on kill."
+        },
+        {
+            "name": "Ancient Archives I",
+            "desc": "Gain 1 Tome of Traits and 4 gold."
+        },
+        {
+            "name": "Trade Sector",
+            "desc": "Gain a free Shop refresh each round."
+        },
+        {
+            "name": "Trade Sector+",
+            "desc": "Gain a free Shop refresh each round. Gain 10 golds."
+        },
+        {
+            "name": "Built Different II",
+            "desc": "Your units with no Traits active gain 190-355 Health and 40-70% Attack Speed. (based on current Stage)"
+        },
+        {
+            "name": "True Twos",
+            "desc": "Gain 1 random 2-star Tier 1 champions and 1 random 2-star Tier 2 champion."
+        },
+        {
+            "name": "Double Trouble II",
+            "desc": "If you have exactly 2 copies of a champion on your board, they both gain 30 Attack Damage, Ability Power, Armor, and Magic Resist. When you 3-star, gain a 2-star copy."
+        },
+        {
+            "name": "Urf's Grab Bag I",
+            "desc": "Gain 1 Spatula and 1 random item component."
+        },
+        {
+            "name": "Scoped Weapons I",
+            "desc": "Your units that start combat in the back 2 rows gain +2 Attack Range and 10% Attack Speed."
+        },
+        {
+            "name": "Battlemage II",
+            "desc": "Your units that start combat in the front 2 rows gain 25 Armor and 25 Ability Power."
+        },
+        {
+            "name": "Knife's Edge II",
+            "desc": "Your units that start combat in the front 2 rows gain 25 Attack Damage."
+        },
+        {
+            "name": "Lasercorps Heart",
+            "desc": "Your team counts as having 1 additional LaserCorps. Gain a Yasuo."
+        },
+        {
+            "name": "Supers Heart",
+            "desc": "Your team counts as having 1 additional Super. Gain a Malphite."
+        },
+        {
+            "name": "Underground Heart",
+            "desc": "Your team counts as having 1 additional Underground. Gain a Vi."
+        },
+        {
+            "name": "Ace Crest",
+            "desc": "Gain an Ace Emblem and a 2 gold."
+        },
+        {
+            "name": "A.D.M.I.N Crest",
+            "desc": "Gain an A.D.M.I.N. Emblem and a Blitzcrank."
+        },
+        {
+            "name": "Anima Squad Crest",
+            "desc": "Gain an Anima Squad Emblem and a Sylas."
+        },
+        {
+            "name": "Brawler Crest",
+            "desc": "Gain a Brawler Emblem and a Lee Sin."
+        },
+        {
+            "name": "Spellslinger Crest",
+            "desc": "Gain a Spellslinger Emblem and an Annie."
+        },
+        {
+            "name": "Civilian Crest",
+            "desc": "Gain a Civilian Emblem and a Galio."
+        },
+        {
+            "name": "Sureshot Crest",
+            "desc": "Gain a Sureshot Emblem and a Sivir."
+        },
+        {
+            "name": "Defender Crest",
+            "desc": "Gain a Defender Emblem and a Poppy."
+        },
+        {
+            "name": "Duelist Crest",
+            "desc": "Gain a Duelist Emblem and a Yasuo."
+        },
+        {
+            "name": "Mecha: PRIME Crest",
+            "desc": "Gain a Mecha: PRIME Emblem and a Draven."
+        },
+        {
+            "name": "Hacker Crest",
+            "desc": "Gain a Hacker Emblem and 2 gold."
+        },
+        {
+            "name": "Heart Crest",
+            "desc": "Gain a Heart Emblem and a Yuumi."
+        },
+        {
+            "name": "Mascot Crest",
+            "desc": "Gain a Mascot Emblem and a Yuumi."
+        },
+        {
+            "name": "Ox Force Crest",
+            "desc": "Gain an Ox Force Emblem and an Annie."
+        },
+        {
+            "name": "Prankster Crest",
+            "desc": "Gain a Prankster Emblem and a Jinx."
+        },
+        {
+            "name": "Recon Crest",
+            "desc": "Gain a Recon Emblem."
+        },
+        {
+            "name": "Renegade Crest",
+            "desc": "Gain a Renegade Emblem and a Talon."
+        },
+        {
+            "name": "Star Guardian Crest",
+            "desc": "Gain a Star Guardian Emblem and a Rell."
+        },
+        {
+            "name": "Threat Level: Maximum",
+            "desc": "At the start of combat, your Threats gain 60 Maximum Health for every Threat champion on your board."
+        },
+        {
+            "name": "Aegis Crest",
+            "desc": "Gain an Aegis Emblem and a Vi."
+        },
+        {
+            "name": "Gadgeteen crest",
+            "desc": "Gain a Gadgeteen Emblem and an Annie."
+        }
     ],
     "prismatic": [
-        [
-            "Band of Thieves II",
-            "Gain 2 Thief's Gloves."
-        ],
-        [
-            "Cybernetic Implants III",
-            "Your champions holding an item gain 200 Health and 30% Attack Damage."
-        ],
-        [
-            "Living Forge",
-            "Gain a random Ornn item now and after every 10 player combats."
-        ],
-        [
-            "Double Trouble III",
-            "If you have exactly 2 copies of a champion on your board, they both gain 40% Attack Damage and 40 Ability Power, Armor, and Magic Resist. When you 3-star, gain a 2-star copy."
-        ],
-        [
-            "Ancient Archives II",
-            "Gain 2 Tome of Traits and 8 gold."
-        ],
-        [
-            "Binary Airdrop",
-            "Your champions equipped with 2 items temporarily gain a random completed item at the start of combat. Gain 1 random item components."
-        ],
-        [
-            "Celestial Blessing III",
-            "Your units heal for 25% of the damage dealt by attacks and Abilities. Excess healing is converted to a shield up to 400 Health."
-        ],
-        [
-            "Cruel Pact",
-            "Buying XP costs 6 Health instead of gold. But Heal 2 Health after a round."
-        ],
-        [
-            "Cursed Crown",
-            "Gain +2 maximum team size, but take 100% increased player damage."
-        ],
-        [
-            "Cybernetic Shell III",
-            "Your champions holding an item gain 200 Health and 60 Armor."
-        ],
-        [
-            "Cybernetic Uplink III",
-            "Your champions holding an item gain 200 Health and restore 3.5 Mana per second."
-        ],
-        [
-            "Stand United III",
-            "Your units gain 3 Attack Damage and Ability Power per Trait active across your army."
-        ],
-        [
-            "Electrocharge III",
-            "When your units receive critical strikes, they deal 115-235 (based on current Stage) magic damage to nearby enemies. (1 second cooldown)."
-        ],
-        [
-            "Featherweights III",
-            "Your 1 and 2 cost units gain 50% Attack Speed and Move Speed."
-        ],
-        [
-            "Future Sight II",
-            "Know who you fight next. Gain a Radiant Zephyr."
-        ],
-        [
-            "High Roller",
-            "Gain 3 Loaded Dice and 5 gold."
-        ],
-        [
-            "High End Shopping",
-            "Champions appear in your Shop as if you were 1 level higher. Gain 3 gold."
-        ],
-        [
-            "Item Grab Bag II",
-            "Gain 2 random completed items and 2 Reforgers."
-        ],
-        [
-            "Luden's Echo III",
-            "When your units cast and deal Ability damage, the first target hit and a nearby enemy take 90-210 (based on current Stage) magic damage."
-        ],
-        [
-            "Level Up!",
-            "When you buy experience points, gain an additional 3. You can now reach level 10."
-        ],
-        [
-            "New Recruit",
-            "Gain +1 maximum team size."
-        ],
-        [
-            "Preparation III",
-            "Champions on your bench permanently gain 50 Health, 7% Attack Damage and 7 Ability Power every round. Champions start with I stack of this effect, and can stack up to 4 times."
-        ],
-        [
-            "Radiant Relics",
-            "Open an Armory and choose 1 of 5 unique Radiant items."
-        ],
-        [
-            "March of Progress",
-            "Gain 5 bonus experience at the beginning of player combat rounds. You can no longer use gold to level up."
-        ],
-        [
-            "The Golden Egg",
-            "Gain a massive golden egg that hatches in 11 turns. If you won vs player, receive bonus turn."
-        ],
-        [
-            "Think Fast",
-            "Shop refreshes are free until the end of this round. Traits and other augments do not benefit from these free shops. Gain 3 gold."
-        ],
-        [
-            "Wise Spending",
-            "Gain 2 experience points when you refresh your Shop."
-        ],
-        [
-            "Built Different III",
-            "Your units with no Traits active gain 270-600 Health and 50-80% Attack Speed. (based on current Stage)"
-        ],
-        [
-            "Tri Force III",
-            "Your Tier 3 champions gain 200 Health, 25 starting Mana, and 25% Attack Speed."
-        ],
-        [
-            "Urf's Grab Bag II",
-            "Gain 1 Spatula and 3 random item components."
-        ],
-        [
-            "Verdant Veil",
-            "Your units are immune to crowd control effects for the first 20 seconds of combat. Gains 15% Attack Speed."
-        ],
-        [
-            "Windfall",
-            "Gain 20 gold."
-        ],
-        [
-            "Windfall+",
-            "Gain 35 gold."
-        ],
-        [
-            "Windfall++",
-            "Gain 40 gold."
-        ],
-        [
-            "Birthday Present",
-            "Gain a 2-star champion every time you level up. The champion's tier is your level minus 4 (min: Tier 1)."
-        ],
-        [
-            "Lucky Gloves",
-            "Thief's Gloves will always give your champions items. Gain 2 Sparring Gloves."
-        ],
-        [
-            "Woodland Charm",
-            "Your highest Health champion is cloned. Clones cannot hold items."
-        ],
-        [
-            "Golden Ticket",
-            "Each time your Shop is refreshed, you have a 50% chance to gain a free refresh."
-        ],
-        [
-            "BattlemageIII",
-            "Your units that start combat in the front 2 rows gain 35 Armor and 35 Ability Power."
-        ],
-        [
-            "Knife's Edge III",
-            "Your units that start combat in the first 2 rows gain 55% Attack Damage."
-        ],
-        [
-            "Gadgeteen Crown",
-            "Gain a Gadgeteen Emblem, Negatron Cloak and an Annie."
-        ],
-        [
-            "Supers Soul",
-            "Your team counts as having 1 additional Super. Gain a Titan's Resolve and a Lee Sin."
-        ],
-        [
-            "Underground Soul",
-            "Your team counts as having 1 additional Underground. Gain a Zz\u2019Rot portal and an Ezreal."
-        ],
-        [
-            "Ace Crown",
-            "Gain an Ace Emblem, a Runaan's Hurricane, and 2 gold."
-        ],
-        [
-            "A.D.M.I.N Crown",
-            "Gain an A.D.M.I.N. Emblem, a Hand of Justice, and a Camille."
-        ],
-        [
-            "Aegis Crown",
-            "Gain an Aegis Emblem, a Redemption, and an Alistar."
-        ],
-        [
-            "Anima Squad Crown",
-            "Gain an Anima Squad Emblem, Tear of the Goddess, and a Riven."
-        ],
-        [
-            "Brawler Crown",
-            "Gain a Brawler Emblem, Protector\u2019s Vow, and a Riven."
-        ],
-        [
-            "Spellslinger Crown",
-            "Gain a Spellslinger Emblem, Tear of the Goddess, and a Sona."
-        ],
-        [
-            "Civilian Crown",
-            "Gain a Civilian Emblem, a Guinsoo's Rageblade, and a Sivir."
-        ],
-        [
-            "Sureshot Crown",
-            "Gain a Sureshot Emblem, an Infinity Edge, and a Senna."
-        ],
-        [
-            "Defender Crown",
-            "Gain a Defender Emblem, a Protector's Vow, and a Riven."
-        ],
-        [
-            "Duelist Crown",
-            "Gain a Duelist Emblem, an Edge of Night, and a Nilah."
-        ],
-        [
-            "Mecha: PRIME Crown",
-            "Gain a Mecha: PRIME Emblem,  Bloodthirster, and a Jax."
-        ],
-        [
-            "Hacker Crown",
-            "Gain a Hacker Emblem, a Hand of Justice, and a Leblanc."
-        ],
-        [
-            "Heart Crown",
-            "Gain a Heart Emblem, Guardbreaker, and a Sona."
-        ],
-        [
-            "LaserCorps Crown",
-            "Gain a LaserCorps Emblem, a Hand of Justice, and a Senna."
-        ],
-        [
-            "Mascot Crown",
-            "Gain a Mascot Emblem, a Gargoyle Stoneplate, and an Malphite."
-        ],
-        [
-            "Ox Force Crown",
-            "Gain an Ox Force Emblem, a Titan's Resolve, and an Alistar."
-        ],
-        [
-            "Prankster Crown",
-            "Gain a Prankster Emblem, Giant\u2019s Belt, and a Zoe."
-        ],
-        [
-            "Recon Crown",
-            "Gain a Recon Emblem, Recurve Bow, and a Ezreal."
-        ],
-        [
-            "Renegade Crown",
-            "Gain a Renegade Crown, a Bloodthirster, and a Camille."
-        ],
-        [
-            "Star Guardian Crown",
-            "Gain a Star Guardian Emblem, a Chalice of Power and a Nilah."
-        ]
+        {
+            "name": "Band of Thieves II",
+            "desc": "Gain 2 Thief's Gloves."
+        },
+        {
+            "name": "Cybernetic Implants III",
+            "desc": "Your champions holding an item gain 200 Health and 30% Attack Damage."
+        },
+        {
+            "name": "Living Forge",
+            "desc": "Gain a random Ornn item now and after every 10 player combats."
+        },
+        {
+            "name": "Double Trouble III",
+            "desc": "If you have exactly 2 copies of a champion on your board, they both gain 40% Attack Damage and 40 Ability Power, Armor, and Magic Resist. When you 3-star, gain a 2-star copy."
+        },
+        {
+            "name": "Ancient Archives II",
+            "desc": "Gain 2 Tome of Traits and 8 gold."
+        },
+        {
+            "name": "Binary Airdrop",
+            "desc": "Your champions equipped with 2 items temporarily gain a random completed item at the start of combat. Gain 1 random item components."
+        },
+        {
+            "name": "Celestial Blessing III",
+            "desc": "Your units heal for 25% of the damage dealt by attacks and Abilities. Excess healing is converted to a shield up to 400 Health."
+        },
+        {
+            "name": "Cruel Pact",
+            "desc": "Buying XP costs 6 Health instead of gold. But Heal 2 Health after a round."
+        },
+        {
+            "name": "Cursed Crown",
+            "desc": "Gain +2 maximum team size, but take 100% increased player damage."
+        },
+        {
+            "name": "Cybernetic Shell III",
+            "desc": "Your champions holding an item gain 200 Health and 60 Armor."
+        },
+        {
+            "name": "Cybernetic Uplink III",
+            "desc": "Your champions holding an item gain 200 Health and restore 3.5 Mana per second."
+        },
+        {
+            "name": "Stand United III",
+            "desc": "Your units gain 3 Attack Damage and Ability Power per Trait active across your army."
+        },
+        {
+            "name": "Electrocharge III",
+            "desc": "When your units receive critical strikes, they deal 115-235 (based on current Stage) magic damage to nearby enemies. (1 second cooldown)."
+        },
+        {
+            "name": "Featherweights III",
+            "desc": "Your 1 and 2 cost units gain 50% Attack Speed and Move Speed."
+        },
+        {
+            "name": "Future Sight II",
+            "desc": "Know who you fight next. Gain a Radiant Zephyr."
+        },
+        {
+            "name": "High Roller",
+            "desc": "Gain 3 Loaded Dice and 5 gold."
+        },
+        {
+            "name": "High End Shopping",
+            "desc": "Champions appear in your Shop as if you were 1 level higher. Gain 3 gold."
+        },
+        {
+            "name": "Item Grab Bag II",
+            "desc": "Gain 2 random completed items and 2 Reforgers."
+        },
+        {
+            "name": "Luden's Echo III",
+            "desc": "When your units cast and deal Ability damage, the first target hit and a nearby enemy take 90-210 (based on current Stage) magic damage."
+        },
+        {
+            "name": "Level Up!",
+            "desc": "When you buy experience points, gain an additional 3. You can now reach level 10."
+        },
+        {
+            "name": "New Recruit",
+            "desc": "Gain +1 maximum team size."
+        },
+        {
+            "name": "Preparation III",
+            "desc": "Champions on your bench permanently gain 50 Health, 7% Attack Damage and 7 Ability Power every round. Champions start with I stack of this effect, and can stack up to 4 times."
+        },
+        {
+            "name": "Radiant Relics",
+            "desc": "Open an Armory and choose 1 of 5 unique Radiant items."
+        },
+        {
+            "name": "March of Progress",
+            "desc": "Gain 5 bonus experience at the beginning of player combat rounds. You can no longer use gold to level up."
+        },
+        {
+            "name": "The Golden Egg",
+            "desc": "Gain a massive golden egg that hatches in 11 turns. If you won vs player, receive bonus turn."
+        },
+        {
+            "name": "Think Fast",
+            "desc": "Shop refreshes are free until the end of this round. Traits and other augments do not benefit from these free shops. Gain 3 gold."
+        },
+        {
+            "name": "Wise Spending",
+            "desc": "Gain 2 experience points when you refresh your Shop."
+        },
+        {
+            "name": "Built Different III",
+            "desc": "Your units with no Traits active gain 270-600 Health and 50-80% Attack Speed. (based on current Stage)"
+        },
+        {
+            "name": "Tri Force III",
+            "desc": "Your Tier 3 champions gain 200 Health, 25 starting Mana, and 25% Attack Speed."
+        },
+        {
+            "name": "Urf's Grab Bag II",
+            "desc": "Gain 1 Spatula and 3 random item components."
+        },
+        {
+            "name": "Verdant Veil",
+            "desc": "Your units are immune to crowd control effects for the first 20 seconds of combat. Gains 15% Attack Speed."
+        },
+        {
+            "name": "Windfall",
+            "desc": "Gain 20 gold."
+        },
+        {
+            "name": "Windfall+",
+            "desc": "Gain 35 gold."
+        },
+        {
+            "name": "Windfall++",
+            "desc": "Gain 40 gold."
+        },
+        {
+            "name": "Birthday Present",
+            "desc": "Gain a 2-star champion every time you level up. The champion's tier is your level minus 4 (min: Tier 1)."
+        },
+        {
+            "name": "Lucky Gloves",
+            "desc": "Thief's Gloves will always give your champions items. Gain 2 Sparring Gloves."
+        },
+        {
+            "name": "Woodland Charm",
+            "desc": "Your highest Health champion is cloned. Clones cannot hold items."
+        },
+        {
+            "name": "Golden Ticket",
+            "desc": "Each time your Shop is refreshed, you have a 50% chance to gain a free refresh."
+        },
+        {
+            "name": "BattlemageIII",
+            "desc": "Your units that start combat in the front 2 rows gain 35 Armor and 35 Ability Power."
+        },
+        {
+            "name": "Knife's Edge III",
+            "desc": "Your units that start combat in the first 2 rows gain 55% Attack Damage."
+        },
+        {
+            "name": "Gadgeteen Crown",
+            "desc": "Gain a Gadgeteen Emblem, Negatron Cloak and an Annie."
+        },
+        {
+            "name": "Supers Soul",
+            "desc": "Your team counts as having 1 additional Super. Gain a Titan's Resolve and a Lee Sin."
+        },
+        {
+            "name": "Underground Soul",
+            "desc": "Your team counts as having 1 additional Underground. Gain a Zz\u2019Rot portal and an Ezreal."
+        },
+        {
+            "name": "Ace Crown",
+            "desc": "Gain an Ace Emblem, a Runaan's Hurricane, and 2 gold."
+        },
+        {
+            "name": "A.D.M.I.N Crown",
+            "desc": "Gain an A.D.M.I.N. Emblem, a Hand of Justice, and a Camille."
+        },
+        {
+            "name": "Aegis Crown",
+            "desc": "Gain an Aegis Emblem, a Redemption, and an Alistar."
+        },
+        {
+            "name": "Anima Squad Crown",
+            "desc": "Gain an Anima Squad Emblem, Tear of the Goddess, and a Riven."
+        },
+        {
+            "name": "Brawler Crown",
+            "desc": "Gain a Brawler Emblem, Protector\u2019s Vow, and a Riven."
+        },
+        {
+            "name": "Spellslinger Crown",
+            "desc": "Gain a Spellslinger Emblem, Tear of the Goddess, and a Sona."
+        },
+        {
+            "name": "Civilian Crown",
+            "desc": "Gain a Civilian Emblem, a Guinsoo's Rageblade, and a Sivir."
+        },
+        {
+            "name": "Sureshot Crown",
+            "desc": "Gain a Sureshot Emblem, an Infinity Edge, and a Senna."
+        },
+        {
+            "name": "Defender Crown",
+            "desc": "Gain a Defender Emblem, a Protector's Vow, and a Riven."
+        },
+        {
+            "name": "Duelist Crown",
+            "desc": "Gain a Duelist Emblem, an Edge of Night, and a Nilah."
+        },
+        {
+            "name": "Mecha: PRIME Crown",
+            "desc": "Gain a Mecha: PRIME Emblem,  Bloodthirster, and a Jax."
+        },
+        {
+            "name": "Hacker Crown",
+            "desc": "Gain a Hacker Emblem, a Hand of Justice, and a Leblanc."
+        },
+        {
+            "name": "Heart Crown",
+            "desc": "Gain a Heart Emblem, Guardbreaker, and a Sona."
+        },
+        {
+            "name": "LaserCorps Crown",
+            "desc": "Gain a LaserCorps Emblem, a Hand of Justice, and a Senna."
+        },
+        {
+            "name": "Mascot Crown",
+            "desc": "Gain a Mascot Emblem, a Gargoyle Stoneplate, and an Malphite."
+        },
+        {
+            "name": "Ox Force Crown",
+            "desc": "Gain an Ox Force Emblem, a Titan's Resolve, and an Alistar."
+        },
+        {
+            "name": "Prankster Crown",
+            "desc": "Gain a Prankster Emblem, Giant\u2019s Belt, and a Zoe."
+        },
+        {
+            "name": "Recon Crown",
+            "desc": "Gain a Recon Emblem, Recurve Bow, and a Ezreal."
+        },
+        {
+            "name": "Renegade Crown",
+            "desc": "Gain a Renegade Crown, a Bloodthirster, and a Camille."
+        },
+        {
+            "name": "Star Guardian Crown",
+            "desc": "Gain a Star Guardian Emblem, a Chalice of Power and a Nilah."
+        }
     ],
     "champion": [
-        [
-            "Justice Punch",
-            "Gain a Galio. His Ability deals 150% more damage and knocks up its target for 2 seconds."
-        ],
-        [
-            "Safety First",
-            "Gain a Galio. When you field him, your team gains 20 Armor and Magic Resist, doubled for 4 seconds after being shielded."
-        ],
-        [
-            "Illuminating Singularity",
-            "Gain a Lux. Every 2nd cast, her Ability deals 135% increased damage."
-        ],
-        [
-            "Lucent Barrier",
-            "Gain a Lux. Combat Start: She grants her 2 nearest allies a 500 Health Shield and 35 Ability Power."
-        ],
-        [
-            "Dynamic Defenses",
-            "Gain a Gargoyle Stoneplate and a Blitzcrank. When he casts his Ability, its duration increases by 2 second per enemy targeting him."
-        ],
-        [
-            "Rocket Grab",
-            "Gain a Blitzcrank. Gain a 400 Health. Combat Start: He pulls the farthest enemy and stuns them for 1.5 seconds."
-        ],
-        [
-            "Reign of Anger",
-            "Gain a Renekton. He gains 65% Attack Speed and an additional 2% per 100 missing Health."
-        ],
-        [
-            "Cull the Meek",
-            "Gain a Renekton. When you field him, your team deals 8% bonus damage, tripled against enemies below 50% Health."
-        ],
-        [
-            "Divine Ascent",
-            "Gain a Kayle. She gains bonuses per star level.\r\n1: 30% Attack Speed\r\n2: +2 Attack Range\r\n3: Attacks fire 2 additional bolts dealing 50% damage."
-        ],
-        [
-            "Righteous Range",
-            "Gain a Kayle. Combat Start: She and her 2 nearest allies gain +2 Attack Range and 25% Attack Speed."
-        ],
-        [
-            "Stacks on Stacks",
-            "Gain a Nasus. He gains 20% Attack Damage, increased by 3% permanently each time he casts his Ability."
-        ],
-        [
-            "Soul Eater",
-            "Gain a Nasus. When you field him, he and his allies heal 300 Health on takedowns."
-        ],
-        [
-            "Kingslayer",
-            "Gain a Sylas. Gain maximum 25% and increase damage 35%."
-        ],
-        [
-            "Petricite Chains",
-            "Gain a Sylas. When you field him, your team gains 30 starting Mana and his Ability increases enemies' maximum Mana by 35%."
-        ],
-        [
-            "Laser Focus",
-            "Gain an Ashe. She gains 50% Attack Speed, doubled while her Ability is active."
-        ],
-        [
-            "Corps Focus",
-            "Gain an Ashe. When you field her, your team gains 15% Attack Speed, doubled while her Ability is active."
-        ],
-        [
-            "Bigger, Better Buckler",
-            "Gain a Poppy. She gains 180 Armor."
-        ],
-        [
-            "Steadfast Presence",
-            "Gain a Poppy. Combat Start: Your strongest Poppy grants all allies a 325 Health shield."
-        ],
-        [
-            "Flaming Ricochet",
-            "Gain a Gangplank. His Ability bounces to a second target dealing 90% damage."
-        ],
-        [
-            "Get Paid",
-            "Gain a Gangplank. When you field him, your team has a 50% chance to gain 1 gold on kill."
-        ],
-        [
-            "Edgelord",
-            "Gain a Talon. He gains 40 Ability Power. After killing an enemy, he restores 40 Mana."
-        ],
-        [
-            "OX-ian Rage",
-            "Gain a Talon. When you field him, your team gains 10% Attack Damage and 10 Ability Power, tripled when they are below 50% Health."
-        ],
-        [
-            "Cyclone",
-            "Gain a Wukong. He gains 10 Ability Power and increases his Ability's range by 1 hex."
-        ],
-        [
-            "Re-Energize",
-            "Gain a Wukong. When you field him, your team restores 50% of their Mana after their first cast each combat."
-        ],
-        [
-            "Growth Spurt",
-            "Gain a Lulu. When she casts her Ability, she gains 100 bonus Health and 20 Ability Power (this can stack)."
-        ],
-        [
-            "Foster Growth",
-            "Gain a Lulu. When you field her, she and her allies gain 40 Ability Power when equipped with an item."
-        ],
-        [
-            "Adaptive Defensives",
-            "Gain a Camille. She gains 20% Attack Damage. The first time she drops below 50% Health, she gains a shield equal to 500% of her Attack Damage ."
-        ],
-        [
-            "Hextech Retribution",
-            "Gain a Camille. When you field her, your team deals 8% bonus damage, increasing by an additional 5% whenever an ally dies."
-        ],
-        [
-            "Cleansing Safeguard",
-            "Gain a Lee Sin. His Ability costs 30 less Mana to cast. When he casts, he sheds all negative effects and heals 18% of his missing Health."
-        ],
-        [
-            "Invigorate",
-            "Gain a Lee Sin. When your field him, your team gains 15% Attack Speed, doubled for 4 seconds after being shielded."
-        ],
-        [
-            "Delivery Tips",
-            "Gain a Sivir. Every 2nd Ability cast, your strongest Sivir drops 1 gold with a 5% chance to gain 1 additional gold."
-        ],
-        [
-            "Endless Pizza",
-            "Gain a Sivir. When you field her, your team heals 12% of their missing Health every 8 seconds. Eliminate all harmful effects."
-        ],
-        [
-            "Rising Spell Force",
-            "Gain an Ezreal. When he casts his Ability, he gains @AD@% Attack Speed and 20 Ability Power for the rest of combat (this can stack)."
-        ],
-        [
-            "Raider's Spoils",
-            "Gain an Ezreal. Combat Start: Your strongest Ezreal grants his nearest ally a temporary Artifact for the rest of combat."
-        ],
-        [
-            "Predatory Precision",
-            "Gain a Yuumi. She gains 5 Ability Power, 75% Critical Strike Chance and her Ability can critically strike."
-        ],
-        [
-            "Zoomies!",
-            "Gain a Yuumi. When you field her, your team 22% Attack Speed, and zooms towards their targets."
-        ],
-        [
-            "Unrelenting Force",
-            "Gain a Vi. When she takes damage, she gains 2% Attack Damage, 2 Armor, and 2 Magic Resist, stacking up to 25 times."
-        ],
-        [
-            "Boxing Lessons",
-            "Gain a Vi. When you field her, your team gains 180 bonus Health."
-        ],
-        [
-            "Hold the Line",
-            "Gain a Rell. She gains 80 Ability Power and 35% damage reduction."
-        ],
-        [
-            "Channelled Ferromancy",
-            "Gain a Rell. When you field her, your team gains 20 Armor and Magic Resist. Each ally gains an additional 5 when they cast (this can stack)."
-        ],
-        [
-            "Frontline Fencing",
-            "Gain a Fiora. While her Ability is active, she gains 250 Armor and Magic Resist."
-        ],
-        [
-            "Vitality of the Ox",
-            "Gain a Fiora. When you field her, your team heals 2% of their maximum Health when they attack."
-        ],
-        [
-            "League of Draven",
-            "Gain a Draven. He gains 25% Attack Damage. When he kills an enemy, there is a 35% chance to gain 1 gold."
-        ],
-        [
-            "Ruthless Blades",
-            "Gain a Draven. When you field him, your team gains 75% Critical Strike Chance."
-        ],
-        [
-            "Get Excited!",
-            "Gain a Jinx. She gains 40% Attack Speed and Movement Speed. When she scores a takedown, triple this bonus for 7 seconds."
-        ],
-        [
-            "Everyone Goes BOOM!",
-            "Gain a Jinx. When you field her, your team gains 9% Attack Speed, tripled after the first enemy dies each combat."
-        ],
-        [
-            "Rock Solid",
-            "Gain a Malphite. He gains Ability Power equal to 180% of his Armor and his Ability's Armor duration is increased by 4 seconds."
-        ],
-        [
-            "Guardian Spirit",
-            "Gain a Malphite. When you field him, your team restores 20% of their missing Health on cast."
-        ],
-        [
-            "Reflector Shield",
-            "Gain an Annie. While her Ability's shield is active, enemies that attack her take 200 magic damage (once every 0.1 seconds)."
-        ],
-        [
-            "Burning Spirit",
-            "Gain an Annie. When you field her, your team gains 15 Ability Power, tripled while they are below 50% Health."
-        ],
-        [
-            "Siphoning Winds",
-            "Gain a Yasuo. He gains 60% Omnivamp."
-        ],
-        [
-            "Spirit of the Exile",
-            "Gain a Yasuo. When you field him, allies who start combat with no adjacent allies gain 22% Attack Speed."
-        ],
-        [
-            "Double Bubble",
-            "Gain a Zoe. Her Ability launches a second bubble at a different target, dealing 70% damage."
-        ],
-        [
-            "Sleepy Time",
-            "Gain a Zoe. Combat Start: She puts to sleep the 4 lowest Health enemies stunning them for 4 seconds."
-        ],
-        [
-            "Aim Assist",
-            "Gain a LeBlanc. For every 2 sigils fired by her Ability, she fires an additional sigil at the lowest Health enemy."
-        ],
-        [
-            "Mirror Image",
-            "Gain a LeBlanc. Combat Start: Your strongest LeBlanc creates a 75% Health, itemless clone of her nearest ally."
-        ],
-        [
-            "Power Grid",
-            "Gain a Sona. She gains 10 Ability Power and her Ability fires 1 additional beam."
-        ],
-        [
-            "Undercurrent",
-            "Gain a Sona. Combat Start: Your strongest Sona grants her 3 nearest allies 50 Mana."
-        ],
-        [
-            "Star-Crossed",
-            "Gain a Kai'Sa. She grants 100% of her Ability's Attack Speed bonus to her nearest ally."
-        ],
-        [
-            "Multi-Shot",
-            "Gain a Kai'Sa. Every 3 attacks, she fires a bonus attack at a nearby enemy."
-        ],
-        [
-            "Gifted",
-            "Gain a Nilah. She gains 45 Ability Power. Combat Start: Your strongest Nilah grants her nearest ally a temporary copy of one of her normal items."
-        ],
-        [
-            "Jubilant Veil",
-            "Gain a Nilah. Combat Start: She and her 5 nearest allies gain immunity to crowd control for 30 seconds."
-        ],
-        [
-            "Smash!",
-            "Gain an Alistar. He restores 15 Mana per second and his Ability hits all enemies within 1 hex."
-        ],
-        [
-            "Behemoth",
-            "Gain an Alistar. He gains 450 bonus Health and his Ability deals bonus damage equal to 30% of his maximum Health."
-        ],
-        [
-            "Reverberation",
-            "Gain a Riven. She gains 15 Ability Power and her Ability is additionally cast on her lowest Health ally."
-        ],
-        [
-            "Triumphant Return",
-            "Gain a Riven. Combat Start: She grants herself and adjacent allies a shield for 15 seconds equal to 40% of their maximum Health."
-        ],
-        [
-            "Relentless Assault",
-            "Gain a Jax. After every 3rd attack, he gains 12% Attack Speed for the rest of combat (this can stack)."
-        ],
-        [
-            "Evasion",
-            "Gain a Jax. When you field him, your team gains 100% Dodge Chance for 2 seconds the first time they fall below 50% Health each combat."
-        ],
-        [
-            "Absolution",
-            "Gain a Senna. She gains 30% Attack Speed and an additional 10% every 5 seconds."
-        ],
-        [
-            "Corps Formation",
-            "Gain a Senna. Combat Start: She gains  30% Attack Damage."
-        ],
-        [
-            "Spread Shot",
-            "Gain a Vayne. Her Ability additionally fires at 2 other nearby enemies dealing 65% damage."
-        ],
-        [
-            "Into the Night",
-            "Gain an Edge of Night and a Vayne. When you field her, allies equipped with Edge of Night gain 35% Attack Speed."
-        ],
-        [
-            "Frostburn",
-            "Gain a Vel'Koz. His Ability deals an additional 400% of its damage over the next 20 seconds (this can stack)."
-        ],
-        [
-            "Frozen Tundra",
-            "Gain a Vel'Koz. Combat Start: He slows the Attack Speed of all enemies by 30% for 10 seconds."
-        ],
-        [
-            "Cosmic Barrier",
-            "Gain a Cho'Gath. When you field Cho'Gath, your team gains 35 Magic Resist, doubled for Cho'Gath."
-        ],
-        [
-            "Energy Void",
-            "Gain a Cho'Gath. Each time his Ability hits an enemy, he steals 70% of their Magic Resist."
-        ],
-        [
-            "Armored-dillo",
-            "Gain a Rammus. When you field him, your team gains 35 Armor, doubled for himself."
-        ],
-        [
-            "Spiked Shell",
-            "Gain a Rammus. When struck by an attack, he deals magic damage equal to 150% of his Armor to all nearby enemies (once every 2 seconds)."
-        ],
-        [
-            "Resonance",
-            "Gain an Ekko. His ability hits all enemies within 2 hexes and deals additional damage equal to 400% of his Magic Resistance."
-        ],
-        [
-            "Chronobreak",
-            "Gain an Ekko. When you field him, he stuns all enemies for 2 seconds after 10 seconds of combat."
-        ],
-        [
-            "Stoneweaver",
-            "Gain a Taliyah. She gains 25 Ability Power and her Ability deals 20% more damage to enemies above 1600 maximum Health."
-        ],
-        [
-            "Be the Stone",
-            "Gain a Taliyah. Combat Start: She shields the 3 highest Health allies for 50% of their maximum Health."
-        ],
-        [
-            "Glacial Prison",
-            "Gain a Sejuani. She gains 20 Armor and Magic Resist and her Ability hits the entire board."
-        ],
-        [
-            "Shatter",
-            "Gain a Sejuani. Her Ability stuns for 1 more seconds, and enemies take 33% more damage while stunned."
-        ],
-        [
-            "Shadow Jutsu",
-            "Gain a Zed. He gains 20% Attack Damage. When he kills an enemy, he gains 20% of their Attack Damage for the rest of combat."
-        ],
-        [
-            "Contempt for the Weak",
-            "Gain a Zed. When you field him, your team gains 7% Attack Speed. Upon scoring a taking down their target, they dash to a new one and triple this bonus for 2.5 seconds."
-        ],
-        [
-            "Infuse",
-            "Gain a Soraka. Every 5 seconds, Soraka grants your team 20 Mana."
-        ],
-        [
-            "Upgrade: Berserk",
-            "Gain a Soraka. After 15 seconds of combat, all of her Ability casts are empowered."
-        ],
-        [
-            "Bunny Mercenary",
-            "Gain a Miss Fortune. Her Ability covers a wider cone and she gains a 200 Health shield while channeling."
-        ],
-        [
-            "Make It Rain",
-            "Gain a Miss Fortune. After every 3 player combats fielded, It grants 10 on Stage 3, and 20 on any stage 4 or after."
-        ],
-        [
-            "Style & Flair",
-            "Gain a Samira. She gains 30% Attack Damage. When she scores a takedown, she restores 30% of her maximum Mana."
-        ],
-        [
-            "Daredevil",
-            "Gain a Samira. For every 10 Tactician Health missing, she grants your team 3.5% Attack Speed."
-        ],
-        [
-            "Heartstopper",
-            "Gain a Viego. He gains 10 Ability Power and his Ability deals up to 50% increased damage based on the enemy's missing Health."
-        ],
-        [
-            "Partners in Crime",
-            "Gain a Viego. When you field him, your team gains 12% Omnivamp, tripled when 2 or less allies remain."
-        ],
-        [
-            "Punch Protocol",
-            "Gain a Sett. He gains 40 Armor and Magic Resist. His Ability knocks back the first enemy struck, destroying them if knocked off the battlefield."
-        ],
-        [
-            "Regenerative Shields",
-            "Gain a Protector's Vow and a Sett. Briefly after the shields of his team break, he recharges them at 40% strength for 3 seconds."
-        ],
-        [
-            "Back for Blood",
-            "Gain a Bel'Veth. She gains 25% Omnivamp, tripled while under 50% Health."
-        ],
-        [
-            "Voidmother",
-            "Gain a Bel'Veth. Combat Start: Your strongest Bel'Veth creates 2 Voidspawns with 60% of their normal Health in front of her."
-        ],
-        [
-            "Extinction Event",
-            "Gain an Aurelion Sol. He gains 15 Ability Power and his Ability's meteors are larger."
-        ],
-        [
-            "Velocity Impact",
-            "Gain an Aurelion Sol. His Ability stuns enemies hit for 1.75 seconds."
-        ],
-        [
-            "Supersize",
-            "Gain a Zac. He gains 1000 bonus Health and is immune to crowd control."
-        ],
-        [
-            "Elastic Slingshot",
-            "Gain a Zac. Combat Start: He flings his 2 nearest allies to the enemy backline, knocking up enemies upon impact for 4 seconds."
-        ],
-        [
-            "Armor Piercing Rounds",
-            "Gain an Aphelios. His attacks reduce the target's Armor by 20% for the rest of combat (this can stack)."
-        ],
-        [
-            "Locked and Loaded",
-            "Gain an Aphelios. When you field him, your team gains 5% Attack Damage and an additional 5% every 5 seconds."
-        ],
-        [
-            "Category Five",
-            "Gain a Janna. Janna gains 50 Ability Power and her ability deals True Damage."
-        ],
-        [
-            "Exaggerated Reporting",
-            "Gain a Janna. Forecaster's effects are increased by 100%."
-        ],
-        [
-            "Not So Heavy Metal",
-            "Gain a Mordekaiser. He gains 20 Ability Power every 4 seconds."
-        ],
-        [
-            "Obliterate",
-            "Gain a Mordekaiser. Combat Start: He reduces enemy Armor and Magic Resist by 20%."
-        ],
-        [
-            "Power Overwhelming",
-            "Gain a Syndra. Allies summoned by her Ability gain 100% Attack Damage and 100 Ability Power, Armor, and Magic Resist."
-        ],
-        [
-            "Empowered Reserves",
-            "Gain a Syndra. When you field her, your team gains 5 Ability Power per unit on your bench."
-        ],
-        [
-            "Perfected Solar Flare",
-            "Gain a Leona. She gains 30 Ability Power and her maximum Mana is reduced by 30."
-        ],
-        [
-            "Eclipse Prime",
-            "Gain a Leona. When you field her, your team reduces all incoming damage by 20."
-        ],
-        [
-            "They See Me Rolling",
-            "Gain a Nunu. He has 15 Ability Power and  20% movement speed."
-        ],
-        [
-            "Contagious Laughter",
-            "Gain a Nunu. He gains 20 Ability Power and restores @Mana@ Mana per second."
-        ],
-        [
-            "Traumatic Memories",
-            "Gain a Fiddlesticks. When an ally dies, it gains 350 bonus Health for the rest of combat."
-        ],
-        [
-            "Absolute Corruption",
-            "Gain a Fiddlesticks. Combat Start: Fiddlesticks grants its nearest ally 30 Ability Power and allows them to share its Corrupted souls."
-        ],
-        [
-            "Shiny",
-            "Gain an Urgot. His Ability has an additional 25% chance to dredge up treasure."
-        ],
-        [
-            "Rising Tide",
-            "Gain an Urgot. Combat Start: He grants himself and adjacent allies 30% Attack Speed."
-        ]
+        {
+            "name": "Justice Punch",
+            "desc": "Gain a Galio. His Ability deals 150% more damage and knocks up its target for 2 seconds.",
+            "champion_name": "Galio",
+            "champion_cost": 1
+        },
+        {
+            "name": "Safety First",
+            "desc": "Gain a Galio. When you field him, your team gains 20 Armor and Magic Resist, doubled for 4 seconds after being shielded.",
+            "champion_name": "Galio",
+            "champion_cost": 1
+        },
+        {
+            "name": "Illuminating Singularity",
+            "desc": "Gain a Lux. Every 2nd cast, her Ability deals 135% increased damage.",
+            "champion_name": "Lux",
+            "champion_cost": 1
+        },
+        {
+            "name": "Lucent Barrier",
+            "desc": "Gain a Lux. Combat Start: She grants her 2 nearest allies a 500 Health Shield and 35 Ability Power.",
+            "champion_name": "Lux",
+            "champion_cost": 1
+        },
+        {
+            "name": "Dynamic Defenses",
+            "desc": "Gain a Gargoyle Stoneplate and a Blitzcrank. When he casts his Ability, its duration increases by 2 second per enemy targeting him.",
+            "champion_name": "Blitzcrank",
+            "champion_cost": 1
+        },
+        {
+            "name": "Rocket Grab",
+            "desc": "Gain a Blitzcrank. Gain a 400 Health. Combat Start: He pulls the farthest enemy and stuns them for 1.5 seconds.",
+            "champion_name": "Blitzcrank",
+            "champion_cost": 1
+        },
+        {
+            "name": "Reign of Anger",
+            "desc": "Gain a Renekton. He gains 65% Attack Speed and an additional 2% per 100 missing Health.",
+            "champion_name": "Renekton",
+            "champion_cost": 1
+        },
+        {
+            "name": "Cull the Meek",
+            "desc": "Gain a Renekton. When you field him, your team deals 8% bonus damage, tripled against enemies below 50% Health.",
+            "champion_name": "Renekton",
+            "champion_cost": 1
+        },
+        {
+            "name": "Divine Ascent",
+            "desc": "Gain a Kayle. She gains bonuses per star level.\r\n1: 30% Attack Speed\r\n2: +2 Attack Range\r\n3: Attacks fire 2 additional bolts dealing 50% damage.",
+            "champion_name": "Kayle",
+            "champion_cost": 1
+        },
+        {
+            "name": "Righteous Range",
+            "desc": "Gain a Kayle. Combat Start: She and her 2 nearest allies gain +2 Attack Range and 25% Attack Speed.",
+            "champion_name": "Kayle",
+            "champion_cost": 1
+        },
+        {
+            "name": "Stacks on Stacks",
+            "desc": "Gain a Nasus. He gains 20% Attack Damage, increased by 3% permanently each time he casts his Ability.",
+            "champion_name": "Nasus",
+            "champion_cost": 1
+        },
+        {
+            "name": "Soul Eater",
+            "desc": "Gain a Nasus. When you field him, he and his allies heal 300 Health on takedowns.",
+            "champion_name": "Nasus",
+            "champion_cost": 1
+        },
+        {
+            "name": "Kingslayer",
+            "desc": "Gain a Sylas. Gain maximum 25% and increase damage 35%.",
+            "champion_name": "Sylas",
+            "champion_cost": 1
+        },
+        {
+            "name": "Petricite Chains",
+            "desc": "Gain a Sylas. When you field him, your team gains 30 starting Mana and his Ability increases enemies' maximum Mana by 35%.",
+            "champion_name": "Sylas",
+            "champion_cost": 1
+        },
+        {
+            "name": "Laser Focus",
+            "desc": "Gain an Ashe. She gains 50% Attack Speed, doubled while her Ability is active.",
+            "champion_name": "Ashe",
+            "champion_cost": 1
+        },
+        {
+            "name": "Corps Focus",
+            "desc": "Gain an Ashe. When you field her, your team gains 15% Attack Speed, doubled while her Ability is active.",
+            "champion_name": "Ashe",
+            "champion_cost": 1
+        },
+        {
+            "name": "Bigger, Better Buckler",
+            "desc": "Gain a Poppy. She gains 180 Armor.",
+            "champion_name": "Poppy",
+            "champion_cost": 1
+        },
+        {
+            "name": "Steadfast Presence",
+            "desc": "Gain a Poppy. Combat Start: Your strongest Poppy grants all allies a 325 Health shield.",
+            "champion_name": "Poppy",
+            "champion_cost": 1
+        },
+        {
+            "name": "Flaming Ricochet",
+            "desc": "Gain a Gangplank. His Ability bounces to a second target dealing 90% damage.",
+            "champion_name": "Gangplank",
+            "champion_cost": 1
+        },
+        {
+            "name": "Get Paid",
+            "desc": "Gain a Gangplank. When you field him, your team has a 50% chance to gain 1 gold on kill.",
+            "champion_name": "Gangplank",
+            "champion_cost": 1
+        },
+        {
+            "name": "Edgelord",
+            "desc": "Gain a Talon. He gains 40 Ability Power. After killing an enemy, he restores 40 Mana.",
+            "champion_name": "Talon",
+            "champion_cost": 1
+        },
+        {
+            "name": "OX-ian Rage",
+            "desc": "Gain a Talon. When you field him, your team gains 10% Attack Damage and 10 Ability Power, tripled when they are below 50% Health.",
+            "champion_name": "Talon",
+            "champion_cost": 1
+        },
+        {
+            "name": "Cyclone",
+            "desc": "Gain a Wukong. He gains 10 Ability Power and increases his Ability's range by 1 hex.",
+            "champion_name": "WuKong",
+            "champion_cost": 1
+        },
+        {
+            "name": "Re-Energize",
+            "desc": "Gain a Wukong. When you field him, your team restores 50% of their Mana after their first cast each combat.",
+            "champion_name": "WuKong",
+            "champion_cost": 1
+        },
+        {
+            "name": "Growth Spurt",
+            "desc": "Gain a Lulu. When she casts her Ability, she gains 100 bonus Health and 20 Ability Power (this can stack).",
+            "champion_name": "Lulu",
+            "champion_cost": 1
+        },
+        {
+            "name": "Foster Growth",
+            "desc": "Gain a Lulu. When you field her, she and her allies gain 40 Ability Power when equipped with an item.",
+            "champion_name": "Lulu",
+            "champion_cost": 1
+        },
+        {
+            "name": "Adaptive Defensives",
+            "desc": "Gain a Camille. She gains 20% Attack Damage. The first time she drops below 50% Health, she gains a shield equal to 500% of her Attack Damage .",
+            "champion_name": "Camille",
+            "champion_cost": 2
+        },
+        {
+            "name": "Hextech Retribution",
+            "desc": "Gain a Camille. When you field her, your team deals 8% bonus damage, increasing by an additional 5% whenever an ally dies.",
+            "champion_name": "Camille",
+            "champion_cost": 2
+        },
+        {
+            "name": "Cleansing Safeguard",
+            "desc": "Gain a Lee Sin. His Ability costs 30 less Mana to cast. When he casts, he sheds all negative effects and heals 18% of his missing Health.",
+            "champion_name": "LeeSin",
+            "champion_cost": 2
+        },
+        {
+            "name": "Invigorate",
+            "desc": "Gain a Lee Sin. When your field him, your team gains 15% Attack Speed, doubled for 4 seconds after being shielded.",
+            "champion_name": "LeeSin",
+            "champion_cost": 2
+        },
+        {
+            "name": "Delivery Tips",
+            "desc": "Gain a Sivir. Every 2nd Ability cast, your strongest Sivir drops 1 gold with a 5% chance to gain 1 additional gold.",
+            "champion_name": "Sivir",
+            "champion_cost": 2
+        },
+        {
+            "name": "Endless Pizza",
+            "desc": "Gain a Sivir. When you field her, your team heals 12% of their missing Health every 8 seconds. Eliminate all harmful effects.",
+            "champion_name": "Sivir",
+            "champion_cost": 2
+        },
+        {
+            "name": "Rising Spell Force",
+            "desc": "Gain an Ezreal. When he casts his Ability, he gains @AD@% Attack Speed and 20 Ability Power for the rest of combat (this can stack).",
+            "champion_name": "Ezreal",
+            "champion_cost": 2
+        },
+        {
+            "name": "Raider's Spoils",
+            "desc": "Gain an Ezreal. Combat Start: Your strongest Ezreal grants his nearest ally a temporary Artifact for the rest of combat.",
+            "champion_name": "Ezreal",
+            "champion_cost": 2
+        },
+        {
+            "name": "Predatory Precision",
+            "desc": "Gain a Yuumi. She gains 5 Ability Power, 75% Critical Strike Chance and her Ability can critically strike.",
+            "champion_name": "Yuumi",
+            "champion_cost": 2
+        },
+        {
+            "name": "Zoomies!",
+            "desc": "Gain a Yuumi. When you field her, your team 22% Attack Speed, and zooms towards their targets.",
+            "champion_name": "Yuumi",
+            "champion_cost": 2
+        },
+        {
+            "name": "Unrelenting Force",
+            "desc": "Gain a Vi. When she takes damage, she gains 2% Attack Damage, 2 Armor, and 2 Magic Resist, stacking up to 25 times.",
+            "champion_name": "Vi",
+            "champion_cost": 2
+        },
+        {
+            "name": "Boxing Lessons",
+            "desc": "Gain a Vi. When you field her, your team gains 180 bonus Health.",
+            "champion_name": "Vi",
+            "champion_cost": 2
+        },
+        {
+            "name": "Hold the Line",
+            "desc": "Gain a Rell. She gains 80 Ability Power and 35% damage reduction.",
+            "champion_name": "Rell",
+            "champion_cost": 2
+        },
+        {
+            "name": "Channelled Ferromancy",
+            "desc": "Gain a Rell. When you field her, your team gains 20 Armor and Magic Resist. Each ally gains an additional 5 when they cast (this can stack).",
+            "champion_name": "Rell",
+            "champion_cost": 2
+        },
+        {
+            "name": "Frontline Fencing",
+            "desc": "Gain a Fiora. While her Ability is active, she gains 250 Armor and Magic Resist.",
+            "champion_name": "Fiora",
+            "champion_cost": 2
+        },
+        {
+            "name": "Vitality of the Ox",
+            "desc": "Gain a Fiora. When you field her, your team heals 2% of their maximum Health when they attack.",
+            "champion_name": "Fiora",
+            "champion_cost": 2
+        },
+        {
+            "name": "League of Draven",
+            "desc": "Gain a Draven. He gains 25% Attack Damage. When he kills an enemy, there is a 35% chance to gain 1 gold.",
+            "champion_name": "Draven",
+            "champion_cost": 2
+        },
+        {
+            "name": "Ruthless Blades",
+            "desc": "Gain a Draven. When you field him, your team gains 75% Critical Strike Chance.",
+            "champion_name": "Draven",
+            "champion_cost": 2
+        },
+        {
+            "name": "Get Excited!",
+            "desc": "Gain a Jinx. She gains 40% Attack Speed and Movement Speed. When she scores a takedown, triple this bonus for 7 seconds.",
+            "champion_name": "Jinx",
+            "champion_cost": 2
+        },
+        {
+            "name": "Everyone Goes BOOM!",
+            "desc": "Gain a Jinx. When you field her, your team gains 9% Attack Speed, tripled after the first enemy dies each combat.",
+            "champion_name": "Jinx",
+            "champion_cost": 2
+        },
+        {
+            "name": "Rock Solid",
+            "desc": "Gain a Malphite. He gains Ability Power equal to 180% of his Armor and his Ability's Armor duration is increased by 4 seconds.",
+            "champion_name": "Malphite",
+            "champion_cost": 2
+        },
+        {
+            "name": "Guardian Spirit",
+            "desc": "Gain a Malphite. When you field him, your team restores 20% of their missing Health on cast.",
+            "champion_name": "Malphite",
+            "champion_cost": 2
+        },
+        {
+            "name": "Reflector Shield",
+            "desc": "Gain an Annie. While her Ability's shield is active, enemies that attack her take 200 magic damage (once every 0.1 seconds).",
+            "champion_name": "Annie",
+            "champion_cost": 2
+        },
+        {
+            "name": "Burning Spirit",
+            "desc": "Gain an Annie. When you field her, your team gains 15 Ability Power, tripled while they are below 50% Health.",
+            "champion_name": "Annie",
+            "champion_cost": 2
+        },
+        {
+            "name": "Siphoning Winds",
+            "desc": "Gain a Yasuo. He gains 60% Omnivamp.",
+            "champion_name": "Yasuo",
+            "champion_cost": 2
+        },
+        {
+            "name": "Spirit of the Exile",
+            "desc": "Gain a Yasuo. When you field him, allies who start combat with no adjacent allies gain 22% Attack Speed.",
+            "champion_name": "Yasuo",
+            "champion_cost": 2
+        },
+        {
+            "name": "Double Bubble",
+            "desc": "Gain a Zoe. Her Ability launches a second bubble at a different target, dealing 70% damage.",
+            "champion_name": "Zoe",
+            "champion_cost": 3
+        },
+        {
+            "name": "Sleepy Time",
+            "desc": "Gain a Zoe. Combat Start: She puts to sleep the 4 lowest Health enemies stunning them for 4 seconds.",
+            "champion_name": "Zoe",
+            "champion_cost": 3
+        },
+        {
+            "name": "Aim Assist",
+            "desc": "Gain a LeBlanc. For every 2 sigils fired by her Ability, she fires an additional sigil at the lowest Health enemy.",
+            "champion_name": "Leblanc",
+            "champion_cost": 3
+        },
+        {
+            "name": "Mirror Image",
+            "desc": "Gain a LeBlanc. Combat Start: Your strongest LeBlanc creates a 75% Health, itemless clone of her nearest ally.",
+            "champion_name": "Leblanc",
+            "champion_cost": 3
+        },
+        {
+            "name": "Power Grid",
+            "desc": "Gain a Sona. She gains 10 Ability Power and her Ability fires 1 additional beam.",
+            "champion_name": "Sona",
+            "champion_cost": 3
+        },
+        {
+            "name": "Undercurrent",
+            "desc": "Gain a Sona. Combat Start: Your strongest Sona grants her 3 nearest allies 50 Mana.",
+            "champion_name": "Sona",
+            "champion_cost": 3
+        },
+        {
+            "name": "Star-Crossed",
+            "desc": "Gain a Kai'Sa. She grants 100% of her Ability's Attack Speed bonus to her nearest ally.",
+            "champion_name": "Kaisa",
+            "champion_cost": 3
+        },
+        {
+            "name": "Multi-Shot",
+            "desc": "Gain a Kai'Sa. Every 3 attacks, she fires a bonus attack at a nearby enemy.",
+            "champion_name": "Kaisa",
+            "champion_cost": 3
+        },
+        {
+            "name": "Gifted",
+            "desc": "Gain a Nilah. She gains 45 Ability Power. Combat Start: Your strongest Nilah grants her nearest ally a temporary copy of one of her normal items.",
+            "champion_name": "Nilah",
+            "champion_cost": 3
+        },
+        {
+            "name": "Jubilant Veil",
+            "desc": "Gain a Nilah. Combat Start: She and her 5 nearest allies gain immunity to crowd control for 30 seconds.",
+            "champion_name": "Nilah",
+            "champion_cost": 3
+        },
+        {
+            "name": "Smash!",
+            "desc": "Gain an Alistar. He restores 15 Mana per second and his Ability hits all enemies within 1 hex.",
+            "champion_name": "Alistar",
+            "champion_cost": 3
+        },
+        {
+            "name": "Behemoth",
+            "desc": "Gain an Alistar. He gains 450 bonus Health and his Ability deals bonus damage equal to 30% of his maximum Health.",
+            "champion_name": "Alistar",
+            "champion_cost": 3
+        },
+        {
+            "name": "Reverberation",
+            "desc": "Gain a Riven. She gains 15 Ability Power and her Ability is additionally cast on her lowest Health ally.",
+            "champion_name": "Riven",
+            "champion_cost": 3
+        },
+        {
+            "name": "Triumphant Return",
+            "desc": "Gain a Riven. Combat Start: She grants herself and adjacent allies a shield for 15 seconds equal to 40% of their maximum Health.",
+            "champion_name": "Riven",
+            "champion_cost": 3
+        },
+        {
+            "name": "Relentless Assault",
+            "desc": "Gain a Jax. After every 3rd attack, he gains 12% Attack Speed for the rest of combat (this can stack).",
+            "champion_name": "Jax",
+            "champion_cost": 3
+        },
+        {
+            "name": "Evasion",
+            "desc": "Gain a Jax. When you field him, your team gains 100% Dodge Chance for 2 seconds the first time they fall below 50% Health each combat.",
+            "champion_name": "Jax",
+            "champion_cost": 3
+        },
+        {
+            "name": "Absolution",
+            "desc": "Gain a Senna. She gains 30% Attack Speed and an additional 10% every 5 seconds.",
+            "champion_name": "Senna",
+            "champion_cost": 3
+        },
+        {
+            "name": "Corps Formation",
+            "desc": "Gain a Senna. Combat Start: She gains  30% Attack Damage.",
+            "champion_name": "Senna",
+            "champion_cost": 3
+        },
+        {
+            "name": "Spread Shot",
+            "desc": "Gain a Vayne. Her Ability additionally fires at 2 other nearby enemies dealing 65% damage.",
+            "champion_name": "Vayne",
+            "champion_cost": 3
+        },
+        {
+            "name": "Into the Night",
+            "desc": "Gain an Edge of Night and a Vayne. When you field her, allies equipped with Edge of Night gain 35% Attack Speed.",
+            "champion_name": "Vayne",
+            "champion_cost": 3
+        },
+        {
+            "name": "Frostburn",
+            "desc": "Gain a Vel'Koz. His Ability deals an additional 400% of its damage over the next 20 seconds (this can stack).",
+            "champion_name": "Velkoz",
+            "champion_cost": 3
+        },
+        {
+            "name": "Frozen Tundra",
+            "desc": "Gain a Vel'Koz. Combat Start: He slows the Attack Speed of all enemies by 30% for 10 seconds.",
+            "champion_name": "Velkoz",
+            "champion_cost": 3
+        },
+        {
+            "name": "Cosmic Barrier",
+            "desc": "Gain a Cho'Gath. When you field Cho'Gath, your team gains 35 Magic Resist, doubled for Cho'Gath.",
+            "champion_name": "Chogath",
+            "champion_cost": 3
+        },
+        {
+            "name": "Energy Void",
+            "desc": "Gain a Cho'Gath. Each time his Ability hits an enemy, he steals 70% of their Magic Resist.",
+            "champion_name": "Chogath",
+            "champion_cost": 3
+        },
+        {
+            "name": "Armored-dillo",
+            "desc": "Gain a Rammus. When you field him, your team gains 35 Armor, doubled for himself.",
+            "champion_name": "Rammus",
+            "champion_cost": 3
+        },
+        {
+            "name": "Spiked Shell",
+            "desc": "Gain a Rammus. When struck by an attack, he deals magic damage equal to 150% of his Armor to all nearby enemies (once every 2 seconds).",
+            "champion_name": "Rammus",
+            "champion_cost": 3
+        },
+        {
+            "name": "Resonance",
+            "desc": "Gain an Ekko. His ability hits all enemies within 2 hexes and deals additional damage equal to 400% of his Magic Resistance.",
+            "champion_name": "Ekko",
+            "champion_cost": 4
+        },
+        {
+            "name": "Chronobreak",
+            "desc": "Gain an Ekko. When you field him, he stuns all enemies for 2 seconds after 10 seconds of combat.",
+            "champion_name": "Ekko",
+            "champion_cost": 4
+        },
+        {
+            "name": "Stoneweaver",
+            "desc": "Gain a Taliyah. She gains 25 Ability Power and her Ability deals 20% more damage to enemies above 1600 maximum Health.",
+            "champion_name": "Taliyah",
+            "champion_cost": 4
+        },
+        {
+            "name": "Be the Stone",
+            "desc": "Gain a Taliyah. Combat Start: She shields the 3 highest Health allies for 50% of their maximum Health.",
+            "champion_name": "Taliyah",
+            "champion_cost": 4
+        },
+        {
+            "name": "Glacial Prison",
+            "desc": "Gain a Sejuani. She gains 20 Armor and Magic Resist and her Ability hits the entire board.",
+            "champion_name": "Sejuani",
+            "champion_cost": 4
+        },
+        {
+            "name": "Shatter",
+            "desc": "Gain a Sejuani. Her Ability stuns for 1 more seconds, and enemies take 33% more damage while stunned.",
+            "champion_name": "Sejuani",
+            "champion_cost": 4
+        },
+        {
+            "name": "Shadow Jutsu",
+            "desc": "Gain a Zed. He gains 20% Attack Damage. When he kills an enemy, he gains 20% of their Attack Damage for the rest of combat.",
+            "champion_name": "Zed",
+            "champion_cost": 4
+        },
+        {
+            "name": "Contempt for the Weak",
+            "desc": "Gain a Zed. When you field him, your team gains 7% Attack Speed. Upon scoring a taking down their target, they dash to a new one and triple this bonus for 2.5 seconds.",
+            "champion_name": "Zed",
+            "champion_cost": 4
+        },
+        {
+            "name": "Infuse",
+            "desc": "Gain a Soraka. Every 5 seconds, Soraka grants your team 20 Mana.",
+            "champion_name": "Soraka",
+            "champion_cost": 4
+        },
+        {
+            "name": "Upgrade: Berserk",
+            "desc": "Gain a Soraka. After 15 seconds of combat, all of her Ability casts are empowered.",
+            "champion_name": "Soraka",
+            "champion_cost": 4
+        },
+        {
+            "name": "Bunny Mercenary",
+            "desc": "Gain a Miss Fortune. Her Ability covers a wider cone and she gains a 200 Health shield while channeling.",
+            "champion_name": "MissFortune",
+            "champion_cost": 4
+        },
+        {
+            "name": "Make It Rain",
+            "desc": "Gain a Miss Fortune. After every 3 player combats fielded, It grants 10 on Stage 3, and 20 on any stage 4 or after.",
+            "champion_name": "MissFortune",
+            "champion_cost": 4
+        },
+        {
+            "name": "Style & Flair",
+            "desc": "Gain a Samira. She gains 30% Attack Damage. When she scores a takedown, she restores 30% of her maximum Mana.",
+            "champion_name": "Samira",
+            "champion_cost": 4
+        },
+        {
+            "name": "Daredevil",
+            "desc": "Gain a Samira. For every 10 Tactician Health missing, she grants your team 3.5% Attack Speed.",
+            "champion_name": "Samira",
+            "champion_cost": 4
+        },
+        {
+            "name": "Heartstopper",
+            "desc": "Gain a Viego. He gains 10 Ability Power and his Ability deals up to 50% increased damage based on the enemy's missing Health.",
+            "champion_name": "Viego",
+            "champion_cost": 4
+        },
+        {
+            "name": "Partners in Crime",
+            "desc": "Gain a Viego. When you field him, your team gains 12% Omnivamp, tripled when 2 or less allies remain.",
+            "champion_name": "Viego",
+            "champion_cost": 4
+        },
+        {
+            "name": "Punch Protocol",
+            "desc": "Gain a Sett. He gains 40 Armor and Magic Resist. His Ability knocks back the first enemy struck, destroying them if knocked off the battlefield.",
+            "champion_name": "Sett",
+            "champion_cost": 4
+        },
+        {
+            "name": "Regenerative Shields",
+            "desc": "Gain a Protector's Vow and a Sett. Briefly after the shields of his team break, he recharges them at 40% strength for 3 seconds.",
+            "champion_name": "Sett",
+            "champion_cost": 4
+        },
+        {
+            "name": "Back for Blood",
+            "desc": "Gain a Bel'Veth. She gains 25% Omnivamp, tripled while under 50% Health.",
+            "champion_name": "BelVeth",
+            "champion_cost": 4
+        },
+        {
+            "name": "Voidmother",
+            "desc": "Gain a Bel'Veth. Combat Start: Your strongest Bel'Veth creates 2 Voidspawns with 60% of their normal Health in front of her.",
+            "champion_name": "BelVeth",
+            "champion_cost": 4
+        },
+        {
+            "name": "Extinction Event",
+            "desc": "Gain an Aurelion Sol. He gains 15 Ability Power and his Ability's meteors are larger.",
+            "champion_name": "AurelionSol",
+            "champion_cost": 4
+        },
+        {
+            "name": "Velocity Impact",
+            "desc": "Gain an Aurelion Sol. His Ability stuns enemies hit for 1.75 seconds.",
+            "champion_name": "AurelionSol",
+            "champion_cost": 4
+        },
+        {
+            "name": "Supersize",
+            "desc": "Gain a Zac. He gains 1000 bonus Health and is immune to crowd control.",
+            "champion_name": "Zac",
+            "champion_cost": 4
+        },
+        {
+            "name": "Elastic Slingshot",
+            "desc": "Gain a Zac. Combat Start: He flings his 2 nearest allies to the enemy backline, knocking up enemies upon impact for 4 seconds.",
+            "champion_name": "Zac",
+            "champion_cost": 4
+        },
+        {
+            "name": "Armor Piercing Rounds",
+            "desc": "Gain an Aphelios. His attacks reduce the target's Armor by 20% for the rest of combat (this can stack).",
+            "champion_name": "Aphelios",
+            "champion_cost": 5
+        },
+        {
+            "name": "Locked and Loaded",
+            "desc": "Gain an Aphelios. When you field him, your team gains 5% Attack Damage and an additional 5% every 5 seconds.",
+            "champion_name": "Aphelios",
+            "champion_cost": 5
+        },
+        {
+            "name": "Category Five",
+            "desc": "Gain a Janna. Janna gains 50 Ability Power and her ability deals True Damage.",
+            "champion_name": "Janna",
+            "champion_cost": 5
+        },
+        {
+            "name": "Exaggerated Reporting",
+            "desc": "Gain a Janna. Forecaster's effects are increased by 100%.",
+            "champion_name": "Janna",
+            "champion_cost": 5
+        },
+        {
+            "name": "Not So Heavy Metal",
+            "desc": "Gain a Mordekaiser. He gains 20 Ability Power every 4 seconds.",
+            "champion_name": "Mordekaiser",
+            "champion_cost": 5
+        },
+        {
+            "name": "Obliterate",
+            "desc": "Gain a Mordekaiser. Combat Start: He reduces enemy Armor and Magic Resist by 20%.",
+            "champion_name": "Mordekaiser",
+            "champion_cost": 5
+        },
+        {
+            "name": "Power Overwhelming",
+            "desc": "Gain a Syndra. Allies summoned by her Ability gain 100% Attack Damage and 100 Ability Power, Armor, and Magic Resist.",
+            "champion_name": "Syndra",
+            "champion_cost": 5
+        },
+        {
+            "name": "Empowered Reserves",
+            "desc": "Gain a Syndra. When you field her, your team gains 5 Ability Power per unit on your bench.",
+            "champion_name": "Syndra",
+            "champion_cost": 5
+        },
+        {
+            "name": "Perfected Solar Flare",
+            "desc": "Gain a Leona. She gains 30 Ability Power and her maximum Mana is reduced by 30.",
+            "champion_name": "Leona",
+            "champion_cost": 5
+        },
+        {
+            "name": "Eclipse Prime",
+            "desc": "Gain a Leona. When you field her, your team reduces all incoming damage by 20.",
+            "champion_name": "Leona",
+            "champion_cost": 5
+        },
+        {
+            "name": "They See Me Rolling",
+            "desc": "Gain a Nunu. He has 15 Ability Power and  20% movement speed.",
+            "champion_name": "Nunu",
+            "champion_cost": 5
+        },
+        {
+            "name": "Contagious Laughter",
+            "desc": "Gain a Nunu. He gains 20 Ability Power and restores @Mana@ Mana per second.",
+            "champion_name": "Nunu",
+            "champion_cost": 5
+        },
+        {
+            "name": "Traumatic Memories",
+            "desc": "Gain a Fiddlesticks. When an ally dies, it gains 350 bonus Health for the rest of combat.",
+            "champion_name": "Fiddlesticks",
+            "champion_cost": 5
+        },
+        {
+            "name": "Absolute Corruption",
+            "desc": "Gain a Fiddlesticks. Combat Start: Fiddlesticks grants its nearest ally 30 Ability Power and allows them to share its Corrupted souls.",
+            "champion_name": "Fiddlesticks",
+            "champion_cost": 5
+        },
+        {
+            "name": "Shiny",
+            "desc": "Gain an Urgot. His Ability has an additional 25% chance to dredge up treasure.",
+            "champion_name": "Urgot",
+            "champion_cost": 5
+        },
+        {
+            "name": "Rising Tide",
+            "desc": "Gain an Urgot. Combat Start: He grants himself and adjacent allies 30% Attack Speed.",
+            "champion_name": "Urgot",
+            "champion_cost": 5
+        }
     ]
 }

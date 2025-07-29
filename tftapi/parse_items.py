@@ -4,7 +4,8 @@ from typing import Any,Dict
 
 from json import dumps
 
-from meta_data import setdata, components_nickname, attributes_nickname, allstats, components_nickname_priority
+from meta_data import components_nickname, attributes_nickname, allstats, components_nickname_priority
+from meta_data import setitems
 from meta_data import craft2radiant_name_set5dot5, craft2radiant_name, special_components
 from meta_data import set_specitem_keys
 
@@ -97,8 +98,7 @@ for setof in setlist:
         # return '+'.join([components_nickname[compof] for compof in sorted(itemof['compositions'], key=emblem_cmp_key)])
         return '+'.join(sorted([components_nickname[compof] for compof in itemof['compositions']], key=lambda nickof: components_nickname_priority[nickof]))
 
-    items=setdata[setof]['items']
-    for itemof in items['items']:
+    for itemof in setitems(setof):
         if 'isHidden' in itemof:
             continue
         elif 'isFromItem' in itemof:
@@ -156,7 +156,7 @@ for setof in setlist:
     itemTyp[setof]['spec'] = merge_trait_spec_items(setof, itemTyp[setof]['spec'])
 
     with open(f'tftitems/{setof}.json', 'w+') as itemsfile:
-        itemsfile.write(dumps(itemTyp[setof], ensure_ascii=True, indent='    '))
+        itemsfile.write(dumps(itemTyp[setof], ensure_ascii=True, indent=4))
         itemsfile.close()
 
 def get_craftable_grid(setof: str) -> str:
@@ -232,7 +232,7 @@ def compare_craftable_radiant_items():
                 craftname=craft['name']
                 # print(f'{Fore.RED}{setof} {Fore.GREEN}{craftname}{Style.RESET_ALL} NOT FOUND Radiant OR Radient')
         with open(f'tftitems/craft-vs-radiant/{setof}.json', 'w+') as compfile:
-            compfile.write(dumps(craft_radi_comp, ensure_ascii=True, indent='    '))
+            compfile.write(dumps(craft_radi_comp, ensure_ascii=True, indent=4))
             compfile.close()
 
 def parse_craftable_item_change():
@@ -272,7 +272,7 @@ def collect_allset_spec_items():
         specf.write(dumps({
             setof: set_items['spec']
             for setof, set_items in itemTyp.items()
-        }, ensure_ascii=True, indent='    '))
+        }, ensure_ascii=True, indent=4))
         specf.close()
 
 compare_craftable_radiant_items()

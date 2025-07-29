@@ -1,6 +1,7 @@
 from json import dumps
 
-from meta_data import attributes_nickname, setlist, setdata
+from meta_data import attributes_nickname, setlist
+from meta_data import settraits
 
 from meta_func import select_traits
 
@@ -8,7 +9,7 @@ from llm_client import chat_resp, modelname
 
 def get_traits_desc(setof: str) -> list[dict]:
     resd:list[dict]=[]
-    seltrts=[trt for trt in setdata[setof]['traits']['traits'] if select_traits(setof, trt)]
+    seltrts=[trt for trt in settraits(setof) if select_traits(setof, trt)]
 
     for idx,trt in enumerate(seltrts):
         trtname=trt['name']
@@ -55,5 +56,5 @@ stats: [18 Armor & MR, 36 Armor & MR, 70 Armor & MR; Non-Bastions gain an additi
 
 for setof in setlist:
     with open(f'tftllm/traitsdesc/{modelname}/{setof}.json', 'w+') as descfile:
-        descfile.write(dumps(get_traits_desc(setof), ensure_ascii=True, indent='    '))
+        descfile.write(dumps(get_traits_desc(setof), ensure_ascii=True, indent=4))
         descfile.close()

@@ -1,14 +1,18 @@
-from meta_data import setlist, setdata, augments_tier
+from meta_data import setlist, augments_tier
+from meta_data import setchampions, setaugments
 
 from meta_func import no_augment_set
 
 from json import dumps
 
-augs:dict[str,dict[str, list[tuple[str,str]]]]={}
+augs:dict[str,dict[str, list[dict[str,str]]]]={}
 # setof -> silver/gold/prismatic -> (name, desc)
 for setof in setlist:
     if no_augment_set(setof):
         continue
+
+    ingameKeyCost={chp['ingameKey']:min(chp['cost']) for chp in setchampions(setof) }
+
     augs[setof] = {
         'normal': [],
         'silver': [],
@@ -16,40 +20,37 @@ for setof in setlist:
         'prismatic': [],
         'champion': []
     }
-    augments=setdata[setof]['augments']['augments']
-    for aug in augments:
+    for aug in setaugments(setof):
         if 'isHidden' in aug:
             continue
         cateof=augments_tier[aug['tier']]
+        augdtl={'name': aug['name'],'desc': aug['desc']}
         if 'championIngameKey' in aug and \
             aug['championIngameKey'] and \
             len(aug['championIngameKey']) > 0:
             cateof='champion'
-        augs[setof][cateof].append(
-            (aug['name'], aug['desc'])
-        )
+            setofnum=setof.removeprefix('set').removesuffix('.5')
+            augdtl['champion_name']=str(aug['championIngameKey']).removeprefix(f'TFT{setofnum}_')
+            augdtl['champion_cost']=ingameKeyCost[aug['championIngameKey']]
+        augs[setof][cateof].append(augdtl)
     with open(f'tftaugs/{setof}.json', 'w+') as augfile:
-        augfile.write(dumps(augs[setof], ensure_ascii=True, indent='    '))
+        augfile.write(dumps(augs[setof], ensure_ascii=True, indent=4))
         augfile.close()
 
 def augs_compare(setpre: str, setcur: str):
-    if setpre not in setdata or \
-        setcur not in setdata:
-        print(f'error set: {setpre}, {setcur}')
-        return 
     setpreold={
         aug['name']: augments_tier[aug['tier']]
-        for aug in setdata[setpre]['augments']['augments']
+        for aug in setaugments(setpre)
         if 'isHidden' not in aug
     }
-    setcurnew:dict[str, list[tuple[str,str]]] = {}
+    setcurnew:dict[str, list[dict[str,str]]] = {}
     for augcolor,auglist in augs[setcur].items():
         setcurnew[augcolor]=[]
         for aug in auglist:
-            if aug[0] not in setpreold:
+            if aug['name'] not in setpreold:
                 setcurnew[augcolor].append(aug)
     with open(f'tftaugs/{setcur}-new.json', 'w+') as s15augf:
-        s15augf.write(dumps(setcurnew, ensure_ascii=True, indent='    '))
+        s15augf.write(dumps(setcurnew, ensure_ascii=True, indent=4))
         s15augf.close()
 
 augs_compare('set14', 'set15')

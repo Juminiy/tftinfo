@@ -38,7 +38,7 @@ def process_dict() -> Dict[str,Any]:
     return sdict
 
 from json import dumps,loads
-s_star_json=dumps(process_dict(), indent='  ', ensure_ascii=False)
+s_star_json=dumps(process_dict(), indent=4, ensure_ascii=False)
 with open('s_all.json', 'w+') as sstarf:
     sstarf.write(s_star_json)
     sstarf.close()
