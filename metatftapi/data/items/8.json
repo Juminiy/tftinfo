@@ -1,0 +1,1654 @@
+{
+    "craftable": [
+        {
+            "name": "Rabadon's Deathcap",
+            "composition": [
+                "TFT_Item_NeedlesslyLargeRod",
+                "TFT_Item_NeedlesslyLargeRod"
+            ],
+            "effects": {
+                "AP": 70
+            },
+            "desc": "<tftitemrules>This humble hat can help you make, or unmake, the world itself.</tftitemrules>"
+        },
+        {
+            "name": "Infinity Edge",
+            "composition": [
+                "TFT_Item_BFSword",
+                "TFT_Item_SparringGloves"
+            ],
+            "effects": {
+                "AD": 0.30000001192092896,
+                "CritChance": 35
+            },
+            "desc": "Damage from an Ability can critically strike."
+        },
+        {
+            "name": "Protector's Vow",
+            "composition": [
+                "TFT_Item_TearOfTheGoddess",
+                "TFT_Item_ChainVest"
+            ],
+            "effects": {
+                "Armor": 20,
+                "HealthThreshold": 40,
+                "Mana": 45,
+                "ShieldDuration": 5,
+                "{0034a6ef}": 25,
+                "{6a311cec}": 35
+            },
+            "desc": "Once per combat: At 40% Health, gain a 25% maximum Health shield that lasts up to 5 seconds and %i:scaleArmor% 35 Armor and %i:scaleMR% 35 Magic Resist for the rest of combat."
+        },
+        {
+            "name": "Shroud of Stillness",
+            "composition": [
+                "TFT_Item_ChainVest",
+                "TFT_Item_SparringGloves"
+            ],
+            "effects": {
+                "Armor": 20,
+                "CritChance": 20,
+                "Health": 250,
+                "{4516a18d}": 60,
+                "{a861afa0}": 35
+            },
+            "desc": "Combat start: Shoot a beam that 35% <TFTKeyword>Mana Reaves</TFTKeyword> enemies.<br><br><tftitemrules>[Unique - only 1 per champion]<br><tftbold>Mana Reave</tftbold>: increase maximum Mana until the next cast</tftitemrules>"
+        },
+        {
+            "name": "Redemption",
+            "composition": [
+                "TFT_Item_TearOfTheGoddess",
+                "TFT_Item_GiantsBelt"
+            ],
+            "effects": {
+                "Health": 150,
+                "Mana": 15,
+                "MaxHeal": 1000,
+                "{033de552}": 25,
+                "{5cc52ba8}": 1,
+                "{7b6cc2f7}": 15,
+                "{c9f222c0}": 5
+            },
+            "desc": "Heal allies within 1 hex for 15% of their missing Health every 5 seconds. They also take 25% less multi-target damage for 5 seconds (damage reduction does not stack).<br><br><tftitemrules>[Aura item]</tftitemrules>"
+        },
+        {
+            "name": "Zephyr",
+            "composition": [
+                "TFT_Item_NegatronCloak",
+                "TFT_Item_GiantsBelt"
+            ],
+            "effects": {
+                "AS": 15,
+                "Health": 150,
+                "MagicResist": 20,
+                "{510fdb6a}": 5
+            },
+            "desc": "Combat start: Summon a whirlwind on the opposite side of the arena that removes the closest enemy from combat for 5 seconds. <br><br><tftitemrules>[Ignores crowd control immunity.]<br>[Unique - only 1 per champion]</tftitemrules>"
+        },
+        {
+            "name": "Zeke's Herald",
+            "composition": [
+                "TFT_Item_BFSword",
+                "TFT_Item_GiantsBelt"
+            ],
+            "effects": {
+                "AD": 0.10000000149011612,
+                "AttackSpeed": 20,
+                "Health": 250,
+                "{9b1e8f37}": 1
+            },
+            "desc": "Combat start: Grant %i:scaleAS% 20% Attack Speed to the holder and allies within 1 hex in the same row.<br><br>\u200b\u200b<tftitemrules>[Aura item]</tftitemrules>"
+        },
+        {
+            "name": "Thief's Gloves",
+            "composition": [
+                "TFT_Item_SparringGloves",
+                "TFT_Item_SparringGloves"
+            ],
+            "effects": {
+                "CritChance": 40
+            },
+            "desc": "Each round: Equip 2 random items.<br><br><tftitemrules>[Consumes 3 item slots.]</tftitemrules>"
+        },
+        {
+            "name": "Guinsoo's Rageblade",
+            "composition": [
+                "TFT_Item_RecurveBow",
+                "TFT_Item_NeedlesslyLargeRod"
+            ],
+            "effects": {
+                "AP": 10,
+                "AS": 10,
+                "AttackSpeedPerStack": 5
+            },
+            "desc": "Attacks grant %i:scaleAS% 5% bonus Attack Speed. This effect stacks."
+        },
+        {
+            "name": "Ionic Spark",
+            "composition": [
+                "TFT_Item_NeedlesslyLargeRod",
+                "TFT_Item_NegatronCloak"
+            ],
+            "effects": {
+                "AP": 10,
+                "Damage": 250,
+                "MagicResist": 20,
+                "{9b1e8f37}": 2,
+                "{df6f64b9}": 185,
+                "{fe079f34}": 50
+            },
+            "desc": "50% <TFTKeyword>Shred</TFTKeyword> enemies within 2 hexes. When enemies cast an Ability, they are also zapped for magic damage equal to 185% of their maximum Mana.<br><br><tftitemrules>[Direct damage item]<br><tftbold>Shred</tftbold>: reduce Magic Resist</tftitemrules>"
+        },
+        {
+            "name": "Dragon's Claw",
+            "composition": [
+                "TFT_Item_NegatronCloak",
+                "TFT_Item_NegatronCloak"
+            ],
+            "effects": {
+                "ICD": 0.5,
+                "MagicResist": 70,
+                "PercentHealthDamage": 4,
+                "{52358605}": 2
+            },
+            "desc": "Every 2 seconds, regenerate 4% maximum Health."
+        },
+        {
+            "name": "Guardbreaker",
+            "composition": [
+                "TFT_Item_GiantsBelt",
+                "TFT_Item_SparringGloves"
+            ],
+            "effects": {
+                "AD": 0.20000000298023224,
+                "AP": 20,
+                "CritChance": 20,
+                "Duration": 3,
+                "Health": 150,
+                "{6689e9ad}": 30
+            },
+            "desc": "After damaging a shielded enemy, Abilities and attacks deal 30% more damage for 3 seconds."
+        },
+        {
+            "name": "Gargoyle Stoneplate",
+            "composition": [
+                "TFT_Item_ChainVest",
+                "TFT_Item_NegatronCloak"
+            ],
+            "effects": {
+                "Armor": 30,
+                "MagicResist": 30,
+                "{7ba8c0e3}": 15,
+                "{7c694b41}": 15
+            },
+            "desc": "Grants %i:scaleArmor% 15 Armor and %i:scaleMR% 15 Magic Resist for each enemy targeting the holder."
+        },
+        {
+            "name": "Bramble Vest",
+            "composition": [
+                "TFT_Item_ChainVest",
+                "TFT_Item_ChainVest"
+            ],
+            "effects": {
+                "Armor": 70,
+                "ICD": 2.5,
+                "{156febb8}": 150,
+                "{1ee760be}": 75,
+                "{6688a0d5}": 100,
+                "{79a4455a}": 0.75,
+                "{a3b999e9}": 100,
+                "{b5c2a66b}": 200
+            },
+            "desc": "Negates 75.0% bonus damage from incoming critical strikes. When struck by an attack, deal 75/100/150 %i:star% magic damage to all nearby enemies (once every 2.5 seconds).<br><br><tftitemrules>[Direct damage item]</tftitemrules>"
+        },
+        {
+            "name": "Giant Slayer",
+            "composition": [
+                "TFT_Item_BFSword",
+                "TFT_Item_RecurveBow"
+            ],
+            "effects": {
+                "AD": 0.30000001192092896,
+                "AP": 20,
+                "AS": 10,
+                "HealthThreshold": 1600,
+                "{b8ae7546}": 25
+            },
+            "desc": "Abilities and attacks deal 25% more damage to enemies with more than 1600 maximum Health."
+        },
+        {
+            "name": "Sunfire Cape",
+            "composition": [
+                "TFT_Item_ChainVest",
+                "TFT_Item_GiantsBelt"
+            ],
+            "effects": {
+                "Armor": 20,
+                "Health": 250,
+                "ICD": 2,
+                "MonsterCap": 100,
+                "{2161bfa2}": 33,
+                "{57706a69}": 10,
+                "{97e52ce8}": 10,
+                "{9b1e8f37}": 2
+            },
+            "desc": "Every 2 seconds, an enemy within 2 hexes is 10% <TFTKeyword>Burned</TFTKeyword> and 33% <TFTKeyword>Wounded</TFTKeyword> for 10 seconds.<br><br><tftitemrules>[Unique - only 1 per champion]<br><tftbold>Burn</tftbold>: deals some of the target's maximum Health as true damage<br><tftbold>Wound</tftbold>: reduces healing received</tftitemrules>"
+        },
+        {
+            "name": "Hand Of Justice",
+            "composition": [
+                "TFT_Item_TearOfTheGoddess",
+                "TFT_Item_SparringGloves"
+            ],
+            "effects": {
+                "BaseHeal": 15,
+                "CritChance": 20,
+                "Mana": 15,
+                "{19a89153}": 15,
+                "{41cb628d}": 0.15000000596046448,
+                "{693a77ae}": 0.15000000596046448,
+                "{a60806db}": 66.66699981689453,
+                "{c0c9af7f}": 15
+            },
+            "desc": "Grant 2 effects:<li>%i:scaleAD% +15.0% Attack Damage and %i:scaleAP% +15 Ability Power.<li>15% <TFTKeyword>Omnivamp</TFTKeyword>.<br><br>Each round, randomly double 1 of these effects.<br><br><tftitemrules><tftbold>Omnivamp</tftbold>: heal for some of damage dealt</tftitemrules>"
+        },
+        {
+            "name": "Edge of Night",
+            "composition": [
+                "TFT_Item_BFSword",
+                "TFT_Item_ChainVest"
+            ],
+            "effects": {
+                "AD": 0.10000000149011612,
+                "Armor": 20,
+                "AttackSpeed": 15,
+                "DamageReduction": 100,
+                "HealthThreshold": 60,
+                "{b1442c34}": 1
+            },
+            "desc": "Once per combat: At 60% Health, briefly become untargetable and shed negative effects. Then, gain %i:scaleAS% 15% bonus Attack Speed.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>"
+        },
+        {
+            "name": "Blue Buff",
+            "composition": [
+                "TFT_Item_TearOfTheGoddess",
+                "TFT_Item_TearOfTheGoddess"
+            ],
+            "effects": {
+                "AP": 10,
+                "Mana": 40,
+                "{0cea77dc}": 10,
+                "{2a5b6a9f}": 3,
+                "{7ccd3647}": 10
+            },
+            "desc": "Abilities cost %i:scaleMana% 10 less Mana to cast. <br><br>If the holder gets at least 1 takedown within 3 seconds of casting, gain %i:scaleMana% 10 Mana.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules><br>"
+        },
+        {
+            "name": "Titan's Resolve",
+            "composition": [
+                "TFT_Item_ChainVest",
+                "TFT_Item_RecurveBow"
+            ],
+            "effects": {
+                "AS": 10,
+                "Armor": 20,
+                "{9396f00d}": 25,
+                "{b3b8f644}": 0.019999999552965164,
+                "{b55019fa}": 25,
+                "{cb9689ca}": 2
+            },
+            "desc": "Grants %i:scaleAD% 2.0% Attack Damage and %i:scaleAP% 2.0 Ability Power when attacking or taking damage, stacking up to 25 times.  <br><br>At full stacks, grant %i:scaleArmor% 25 Armor and %i:scaleMR% 25 Magic Resist."
+        },
+        {
+            "name": "Runaan's Hurricane",
+            "composition": [
+                "TFT_Item_NegatronCloak",
+                "TFT_Item_RecurveBow"
+            ],
+            "effects": {
+                "AD": 0.20000000298023224,
+                "AS": 10,
+                "AdditionalTargets": 1,
+                "MagicResist": 20,
+                "{276ba2c8}": 50
+            },
+            "desc": "Attacks fire a bolt at a nearby enemy, dealing 50% Attack Damage %i:scaleAD% as physical damage.<br><br><tftitemrules>\u200b\u200b[Direct damage item]</tftitemrules>"
+        },
+        {
+            "name": "Bloodthirster",
+            "composition": [
+                "TFT_Item_BFSword",
+                "TFT_Item_NegatronCloak"
+            ],
+            "effects": {
+                "AD": 0.20000000298023224,
+                "HealthThreshold": 40,
+                "LifeSteal": 20,
+                "MagicResist": 20,
+                "ShieldDuration": 5,
+                "{0034a6ef}": 25
+            },
+            "desc": "Grant 20% <TFTKeyword>Omnivamp</TFTKeyword>.<br><br>Once per combat at 40% Health, gain a 25% maximum Health shield that lasts up to 5 seconds.<br><br><tftitemrules><tftbold>Omnivamp</tftbold>: heal for some of damage dealt</tftitemrules>"
+        },
+        {
+            "name": "Archangel's Staff",
+            "composition": [
+                "TFT_Item_NeedlesslyLargeRod",
+                "TFT_Item_TearOfTheGoddess"
+            ],
+            "effects": {
+                "AP": 20,
+                "Mana": 30,
+                "{5deb4eb2}": 20,
+                "{a7db7345}": 5
+            },
+            "desc": "Combat start: Grant %i:scaleAP% 20 Ability Power every 5 seconds."
+        },
+        {
+            "name": "Zz'Rot Portal",
+            "composition": [
+                "TFT_Item_RecurveBow",
+                "TFT_Item_GiantsBelt"
+            ],
+            "effects": {
+                "AS": 10,
+                "Health": 150,
+                "{7ff4f3b6}": 25
+            },
+            "desc": "Combat start: <TFTKeyword>Taunt</TFTKeyword>.<br>On death, a Voidspawn arises, <TFTKeyword>Taunting</TFTKeyword> nearby enemies. The Voidspawn has massively reduced effectiveness when created by a summoned unit.<br><br><tftitemrules><tftbold>Taunt</tftbold>: enemies that are able and in range must attack the taunter</tftitemrules>"
+        },
+        {
+            "name": "Spear of Shojin",
+            "composition": [
+                "TFT_Item_BFSword",
+                "TFT_Item_TearOfTheGoddess"
+            ],
+            "effects": {
+                "AD": 0.10000000149011612,
+                "AP": 15,
+                "Mana": 15,
+                "{4b9a3b61}": 20
+            },
+            "desc": "Every 3rd attack restores %i:scaleMana% 20 additional Mana. "
+        },
+        {
+            "name": "Locket of the Iron Solari",
+            "composition": [
+                "TFT_Item_NeedlesslyLargeRod",
+                "TFT_Item_ChainVest"
+            ],
+            "effects": {
+                "AP": 10,
+                "Armor": 20,
+                "ShieldDuration": 15,
+                "{0d46330d}": 350,
+                "{6fb9af6a}": 300,
+                "{829e6cec}": 400,
+                "{9b1e8f37}": 2,
+                "{c78af25f}": 800
+            },
+            "desc": "Combat start: Shields the holder and allies within 2 hexes in the same row for 300/350/400 %i:star% damage for 15 seconds.<br><br>\u200b\u200b<tftitemrules>[Aura item]</tftitemrules>"
+        },
+        {
+            "name": "Morellonomicon",
+            "composition": [
+                "TFT_Item_NeedlesslyLargeRod",
+                "TFT_Item_GiantsBelt"
+            ],
+            "effects": {
+                "AP": 25,
+                "Health": 150,
+                "MonsterCap": 100,
+                "TicksPerSecond": 1,
+                "{2161bfa2}": 33,
+                "{57706a69}": 10,
+                "{97e52ce8}": 10
+            },
+            "desc": "Magic or true damage from the holder's Ability 10% <TFTKeyword>Burns</TFTKeyword> and 33% <TFTKeyword>Wounds</TFTKeyword> enemies for 10 seconds.<br><br><tftitemrules>[Unique - only 1 per champion]<br><tftbold>Burn</tftbold>: deals some of the target's maximum Health as true damage<br><tftbold>Wound</tftbold>: reduces healing received</tftitemrules>"
+        },
+        {
+            "name": "Rapid Firecannon",
+            "composition": [
+                "TFT_Item_RecurveBow",
+                "TFT_Item_RecurveBow"
+            ],
+            "effects": {
+                "AS": 55,
+                "{16394c87}": 1,
+                "{9f5117db}": 100
+            },
+            "desc": "Grant %i:scaleRange% 1 bonus Attack Range and your attacks cannot miss."
+        },
+        {
+            "name": "Last Whisper",
+            "composition": [
+                "TFT_Item_RecurveBow",
+                "TFT_Item_SparringGloves"
+            ],
+            "effects": {
+                "AD": 0.10000000149011612,
+                "AS": 10,
+                "CritChance": 20,
+                "{5079c7a2}": 50,
+                "{cc9fefa7}": 5
+            },
+            "desc": "Any physical damage dealt 50% <TFTKeyword>Sunders</TFTKeyword> the target for 5 seconds. This effect does not stack.<br><br><tftitemrules>[Unique - only 1 per champion]<br><tftbold>Sunder</tftbold>: reduce Armor</tftitemrules>"
+        },
+        {
+            "name": "Jeweled Gauntlet",
+            "composition": [
+                "TFT_Item_NeedlesslyLargeRod",
+                "TFT_Item_SparringGloves"
+            ],
+            "effects": {
+                "AP": 25,
+                "CritChance": 35
+            },
+            "desc": "Damage from an Ability can critically strike."
+        },
+        {
+            "name": "Tactician's Crown",
+            "composition": [
+                "TFT_Item_Spatula",
+                "TFT_Item_Spatula"
+            ],
+            "effects": {
+                "{ec9a04d1}": 1
+            },
+            "desc": "Your team gains +1 maximum team size."
+        },
+        {
+            "name": "Quicksilver",
+            "composition": [
+                "TFT_Item_SparringGloves",
+                "TFT_Item_NegatronCloak"
+            ],
+            "effects": {
+                "AS": 30,
+                "CritChance": 20,
+                "MagicResist": 30,
+                "{a2b76524}": 18
+            },
+            "desc": "Combat start: Grant immunity to crowd control for 18 seconds.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>"
+        },
+        {
+            "name": "Deathblade",
+            "composition": [
+                "TFT_Item_BFSword",
+                "TFT_Item_BFSword"
+            ],
+            "effects": {
+                "AD": 0.6600000262260437
+            },
+            "desc": "<tftitemrules>Perfect peace and calm for the holder - and all who face it.</tftitemrules>"
+        },
+        {
+            "name": "Chalice of Power",
+            "composition": [
+                "TFT_Item_NegatronCloak",
+                "TFT_Item_TearOfTheGoddess"
+            ],
+            "effects": {
+                "MagicResist": 20,
+                "Mana": 30,
+                "ManaRestore": 10,
+                "{8f0882cf}": 25,
+                "{9b1e8f37}": 1,
+                "{9fd37c1c}": 60
+            },
+            "desc": "Combat start: Grant %i:scaleAP% 25 Ability Power to the holder and allies within 1 hex in the same row.<br><br>\u200b\u200b<tftitemrules>[Aura item]</tftitemrules>"
+        },
+        {
+            "name": "Warmog's Armor",
+            "composition": [
+                "TFT_Item_GiantsBelt",
+                "TFT_Item_GiantsBelt"
+            ],
+            "effects": {
+                "Health": 800
+            },
+            "desc": "<tftitemrules>Tough as teak, strong as oak, and eternal as petricite.</tftitemrules>"
+        },
+        {
+            "name": "Statikk Shiv",
+            "composition": [
+                "TFT_Item_RecurveBow",
+                "TFT_Item_TearOfTheGoddess"
+            ],
+            "effects": {
+                "AP": 15,
+                "AS": 10,
+                "Damage": 30,
+                "Mana": 15,
+                "{12a15e9e}": 4,
+                "{15144cec}": 4,
+                "{440f813d}": 4,
+                "{79e2ec7b}": 4,
+                "{b223097c}": 5,
+                "{fe079f34}": 50
+            },
+            "desc": "Every 3rd attack unleashes chain lightning that bounces to 4 enemies, dealing 30 magic damage and 50% <TFTKeyword>Shredding</TFTKeyword> them for 5 seconds.<br><br><tftitemrules>[Direct damage item]<br><tftbold>Shred</tftbold>: reduce Magic Resist</tftitemrules>"
+        },
+        {
+            "name": "Hextech Gunblade",
+            "composition": [
+                "TFT_Item_BFSword",
+                "TFT_Item_NeedlesslyLargeRod"
+            ],
+            "effects": {
+                "AD": 0.10000000149011612,
+                "AP": 10,
+                "{ad16f688}": 22
+            },
+            "desc": "Grant 22% <TFTKeyword>Omnivamp</TFTKeyword>, which also heals the lowest percent Health ally.<br><br><tftitemrules><tftbold>Omnivamp</tftbold>: heal for some of damage dealt</tftitemrules>"
+        }
+    ],
+    "emblem": [
+        {
+            "name": "Civilian Emblem",
+            "composition": [],
+            "effects": {
+                "Health": 150
+            },
+            "desc": "The holder gains the Civilian Trait.<br><br><tftitemrules>[Unique - only 1 per champion<br>Elusive - cannot be crafted.]</tftitemrules>"
+        },
+        {
+            "name": "Ox Force Emblem",
+            "composition": [
+                "TFT_Item_Spatula",
+                "TFT_Item_ChainVest"
+            ],
+            "effects": {
+                "Armor": 20
+            },
+            "desc": "The holder gains the Ox Force Trait.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>"
+        },
+        {
+            "name": "Riftwalker Emblem",
+            "composition": [],
+            "effects": {
+                "Health": 150
+            },
+            "desc": "The holder gains the Riftwalker Trait.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>"
+        },
+        {
+            "name": "The Underground Emblem",
+            "composition": [],
+            "effects": {
+                "Health": 150
+            },
+            "desc": "The holder gains the Underground Trait.<br><br><tftitemrules>[Unique - only 1 per champion<br>Elusive - cannot be crafted.]</tftitemrules>"
+        },
+        {
+            "name": "Brawler Emblem",
+            "composition": [],
+            "effects": {
+                "Health": 150
+            },
+            "desc": "The holder gains the Brawler Trait.<br><br><tftitemrules>[Unique - only 1 per champion<br>Elusive - cannot be crafted.]</tftitemrules>"
+        },
+        {
+            "name": "A.D.M.I.N. Emblem",
+            "composition": [
+                "TFT_Item_NegatronCloak",
+                "TFT_Item_Spatula"
+            ],
+            "effects": {
+                "MagicResist": 20
+            },
+            "desc": "The holder gains the A.D.M.I.N. Trait.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>"
+        },
+        {
+            "name": "Hacker Emblem",
+            "composition": [],
+            "effects": {
+                "Health": 150
+            },
+            "desc": "The holder gains the Hacker Trait.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>"
+        },
+        {
+            "name": "InfiniTeam Emblem",
+            "composition": [
+                "TFT_Item_Spatula",
+                "TFT_Item_BFSword"
+            ],
+            "effects": {
+                "AD": 0.10000000149011612
+            },
+            "desc": "The holder gains the InfiniTeam Trait.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>"
+        },
+        {
+            "name": "Sureshot Emblem",
+            "composition": [],
+            "effects": {
+                "Health": 150
+            },
+            "desc": "The holder gains the Sureshot Trait.<br><br><tftitemrules>[Unique - only 1 per champion<br>Elusive - cannot be crafted.]</tftitemrules>"
+        },
+        {
+            "name": "Gadgeteen Emblem",
+            "composition": [],
+            "effects": {
+                "Health": 150
+            },
+            "desc": "The holder gains the Gadgeteen Trait.<br><br><tftitemrules>[Unique - only 1 per champion<br>Elusive - cannot be crafted.]</tftitemrules>"
+        },
+        {
+            "name": "Mecha: PRIME Emblem",
+            "composition": [],
+            "effects": {
+                "Health": 150
+            },
+            "desc": "The holder gains the Mecha: PRIME Trait.<br><br><tftitemrules>[Unique - only 1 per champion<br>Elusive - cannot be crafted.]</tftitemrules>"
+        },
+        {
+            "name": "Star Guardian Emblem",
+            "composition": [],
+            "effects": {
+                "Health": 150
+            },
+            "desc": "The holder gains the Star Guardian Trait.<br><br><tftitemrules>[Unique - only 1 per champion<br>Elusive - cannot be crafted.]</tftitemrules>"
+        },
+        {
+            "name": "Anima Squad Emblem",
+            "composition": [
+                "TFT_Item_Spatula",
+                "TFT_Item_NeedlesslyLargeRod"
+            ],
+            "effects": {
+                "AP": 0.10000000149011612
+            },
+            "desc": "The holder gains the Anima Squad Trait.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>"
+        },
+        {
+            "name": "Heart Emblem",
+            "composition": [
+                "TFT_Item_Spatula",
+                "TFT_Item_TearOfTheGoddess"
+            ],
+            "effects": {
+                "Mana": 15
+            },
+            "desc": "The holder gains the Heart Trait.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>"
+        },
+        {
+            "name": "Aegis Emblem",
+            "composition": [],
+            "effects": {
+                "Health": 150
+            },
+            "desc": "The holder gains the Aegis Trait.<br><br><tftitemrules>[Unique - only 1 per champion<br>Elusive - cannot be crafted.]</tftitemrules>"
+        },
+        {
+            "name": "LaserCorps Emblem",
+            "composition": [],
+            "effects": {
+                "Health": 150
+            },
+            "desc": "The holder gains the LaserCorps Trait.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>"
+        },
+        {
+            "name": "Ace Emblem",
+            "composition": [],
+            "effects": {
+                "Health": 150
+            },
+            "desc": "The holder gains the Ace Trait.<br><br><tftitemrules>[Unique - only 1 per champion<br>Elusive - cannot be crafted.]</tftitemrules>"
+        },
+        {
+            "name": "Recon Emblem",
+            "composition": [],
+            "effects": {
+                "Health": 150
+            },
+            "desc": "The holder gains the Recon Trait.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>"
+        },
+        {
+            "name": "Spellslinger Emblem",
+            "composition": [],
+            "effects": {
+                "Health": 150
+            },
+            "desc": "The holder gains the Spellslinger Trait.<br><br><tftitemrules>[Unique - only 1 per champion<br>Elusive - cannot be crafted.]</tftitemrules>"
+        },
+        {
+            "name": "Mascot Emblem",
+            "composition": [
+                "TFT_Item_Spatula",
+                "TFT_Item_GiantsBelt"
+            ],
+            "effects": {
+                "Health": 150
+            },
+            "desc": "The holder gains the Mascot Trait.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>"
+        },
+        {
+            "name": "Defender Emblem",
+            "composition": [],
+            "effects": {
+                "Health": 150
+            },
+            "desc": "The holder gains the Defender Trait.<br><br><tftitemrules>[Unique - only 1 per champion<br>Elusive - cannot be crafted.]</tftitemrules>"
+        },
+        {
+            "name": "Renegade Emblem",
+            "composition": [
+                "TFT_Item_SparringGloves",
+                "TFT_Item_Spatula"
+            ],
+            "effects": {
+                "CritChance": 20
+            },
+            "desc": "The holder gains the Renegade Trait.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>"
+        },
+        {
+            "name": "Prankster Emblem",
+            "composition": [],
+            "effects": {
+                "Health": 150
+            },
+            "desc": "The holder gains the Prankster Trait.<br><br><tftitemrules>[Unique - only 1 per champion<br>Elusive - cannot be crafted.]</tftitemrules>"
+        },
+        {
+            "name": "Duelist Emblem",
+            "composition": [
+                "TFT_Item_Spatula",
+                "TFT_Item_RecurveBow"
+            ],
+            "effects": {
+                "AS": 10
+            },
+            "desc": "The holder gains the Duelist Trait.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>"
+        }
+    ],
+    "radiant": [],
+    "artifact": [],
+    "support": [],
+    "special": [
+        {
+            "name": "Darkflight Essence",
+            "composition": [],
+            "effects": {
+                "AD": 13,
+                "AP": 13,
+                "Armor": 13,
+                "Health": 130,
+                "MagicResist": 13
+            },
+            "desc": "When the holder dies, grant this item's stats to each Darkflight champion.<br><br><tftitemrules>[Aquired from copying a non-Craftable item via the Darkflight Trait].</tftitemrules>"
+        },
+        {
+            "name": "Dragon's Will",
+            "composition": [],
+            "effects": {
+                "ICD": 0.5,
+                "MagicResist": 140,
+                "PercentHealthDamage": 8,
+                "{52358605}": 1.5,
+                "{8f854a28}": 2
+            },
+            "desc": "Every <TFTRadiantItemBonus>1.5</TFTRadiantItemBonus> seconds, regenerate <TFTRadiantItemBonus>8%</TFTRadiantItemBonus> maximum Health.<br><br>"
+        },
+        {
+            "name": "Willbreaker",
+            "composition": [],
+            "effects": {
+                "AD": 0.4000000059604645,
+                "AP": 40,
+                "CritChance": 20,
+                "Duration": 3,
+                "Health": 150,
+                "{6689e9ad}": 70
+            },
+            "desc": "After damaging a shielded enemy, Abilities and attacks deal <TFTRadiantItemBonus>70%</TFTRadiantItemBonus> more damage for 3 seconds."
+        },
+        {
+            "name": "Covalent Spark",
+            "composition": [],
+            "effects": {
+                "AP": 10,
+                "MagicResist": 20,
+                "{52358605}": 1,
+                "{8f854a28}": 1,
+                "{9b1e8f37}": 3,
+                "{df6f64b9}": 250,
+                "{fe079f34}": 50
+            },
+            "desc": "50% <TFTKeyword>Shred</TFTKeyword> enemies within <TFTRadiantItemBonus>3</TFTRadiantItemBonus> hexes. When enemies cast an Ability, they are also zapped for magic damage equal to <TFTRadiantItemBonus>250%</TFTRadiantItemBonus> of their maximum Mana.<br><br><TFTRadiantItemBonus>Also, regenerate 1% maximum Health per second.</TFTRadiantItemBonus><br><br><tftitemrules>[Direct damage item]<br><tftbold>Shred</tftbold>: reduce Magic Resist</tftitemrules><br><br>"
+        },
+        {
+            "name": "Quickestsilver",
+            "composition": [],
+            "effects": {
+                "AS": 70,
+                "CritChance": 20,
+                "MagicResist": 20,
+                "{a2b76524}": 30
+            },
+            "desc": "Combat start: Grant immunity to crowd control for <TFTRadiantItemBonus>30</TFTRadiantItemBonus> seconds.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>"
+        },
+        {
+            "name": "Hextech Lifeblade",
+            "composition": [],
+            "effects": {
+                "AD": 0.10000000149011612,
+                "AP": 40,
+                "{ad16f688}": 35
+            },
+            "desc": "Grant <TFTRadiantItemBonus>35%</TFTRadiantItemBonus> <TFTKeyword>Omnivamp</TFTKeyword>, which also heals the lowest percent Health ally.<br><br><tftitemrules><tftbold>Omnivamp</tftbold>: heal for some of damage dealt</tftitemrules>"
+        },
+        {
+            "name": "Statikk's Favor",
+            "composition": [],
+            "effects": {
+                "AP": 40,
+                "AS": 10,
+                "Damage": 75,
+                "Mana": 15,
+                "{12a15e9e}": 8,
+                "{15144cec}": 8,
+                "{440f813d}": 8,
+                "{79e2ec7b}": 8,
+                "{b223097c}": 5,
+                "{fe079f34}": 50
+            },
+            "desc": "Every 3rd attack unleashes chain lightning that bounces to <TFTRadiantItemBonus>8</TFTRadiantItemBonus> enemies, dealing <TFTRadiantItemBonus>75</TFTRadiantItemBonus> magic damage and  50% <TFTKeyword>Shredding</TFTKeyword> them for 5 seconds.<br><br><tftitemrules>[Direct damage item]<br><tftbold>Shred</tftbold>: reduce Magic Resist</tftitemrules>"
+        },
+        {
+            "name": "Bulwark's Oath",
+            "composition": [],
+            "effects": {
+                "Armor": 20,
+                "HealthThreshold": 40,
+                "Mana": 45,
+                "ShieldDuration": 10,
+                "{0034a6ef}": 50,
+                "{6a311cec}": 70
+            },
+            "desc": "Once per combat: At 40% Health, gain %i:scaleArmor% <TFTRadiantItemBonus>70</TFTRadiantItemBonus> Armor and %i:scaleMR% <TFTRadiantItemBonus>70</TFTRadiantItemBonus> Magic Resist for the rest of combat, and a <TFTRadiantItemBonus>50%</TFTRadiantItemBonus> maximum Health shield that lasts up to 10 seconds."
+        },
+        {
+            "name": "Blue Blessing",
+            "composition": [],
+            "effects": {
+                "AP": 50,
+                "Mana": 40,
+                "{0cea77dc}": 20,
+                "{2a5b6a9f}": 3,
+                "{7ccd3647}": 10
+            },
+            "desc": "Abilities cost %i:scaleMana% 10 less Mana to cast. <br><br>If the holder gets at least 1 takedown within 3 seconds of casting, gain %i:scaleMana% <TFTRadiantItemBonus>20</TFTRadiantItemBonus> Mana.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules><br><br>"
+        },
+        {
+            "name": "Urf-Angel's Staff",
+            "composition": [],
+            "effects": {
+                "AP": 50,
+                "Mana": 30,
+                "{5deb4eb2}": 30,
+                "{a7db7345}": 4
+            },
+            "desc": "Combat start: Gain %i:scaleAP% <TFTRadiantItemBonus>30</TFTRadiantItemBonus> Ability Power every <TFTRadiantItemBonus>4</TFTRadiantItemBonus> seconds."
+        },
+        {
+            "name": "More More-ellonomicon",
+            "composition": [],
+            "effects": {
+                "AP": 45,
+                "Health": 150,
+                "MonsterCap": 150,
+                "TicksPerSecond": 1,
+                "{2161bfa2}": 33,
+                "{57706a69}": 60,
+                "{97e52ce8}": 30
+            },
+            "desc": "Magic or true damage from the holder's Ability <TFTRadiantItemBonus>60%</TFTRadiantItemBonus> <TFTKeyword>Burns</TFTKeyword> and 33% <TFTKeyword>Wounds</TFTKeyword> enemies for <TFTRadiantItemBonus>30</TFTRadiantItemBonus> seconds.<br><br><tftitemrules>[Unique - only 1 per champion]<br><tftbold>Burn</tftbold>: deals some of the target's maximum Health as true damage<br><tftbold>Wound</tftbold>: reduces healing received</tftitemrules>"
+        },
+        {
+            "name": "Rosethorn Vest",
+            "composition": [],
+            "effects": {
+                "Armor": 120,
+                "ICD": 1.5,
+                "{156febb8}": 225,
+                "{1ee760be}": 125,
+                "{79a4455a}": 1,
+                "{a3b999e9}": 175,
+                "{b5c2a66b}": 400
+            },
+            "desc": "Negates <TFTRadiantItemBonus>all</TFTRadiantItemBonus> bonus damage from incoming critical strikes. On being hit by an attack, deal <TFTRadiantItemBonus>125/175/225</TFTRadiantItemBonus> %i:star% magic damage to all nearby enemies (once every 1.5 seconds).<br><br><tftitemrules>[Direct damage item]</tftitemrules>"
+        },
+        {
+            "name": "Zz'Rots Invitation",
+            "composition": [],
+            "effects": {
+                "AS": 10,
+                "Health": 150,
+                "{50a0dbb5}": 1.7999999523162842,
+                "{7ff4f3b6}": 25,
+                "{ef0bb7c2}": 1.5
+            },
+            "desc": "Combat start: <TFTRadiantItemBonus>A Radiant Voidmother with bonus Health and Attack Damage arises</TFTRadiantItemBonus> and <TFTKeyword>Taunts</TFTKeyword> nearby enemies.<br><br><tftitemrules><tftbold>Taunt</tftbold>: enemies that are able and in range must attack the taunter</tftitemrules>"
+        },
+        {
+            "name": "Shroud of Reverence",
+            "composition": [],
+            "effects": {
+                "Armor": 20,
+                "CritChance": 20,
+                "Health": 250,
+                "{4516a18d}": 60,
+                "{a861afa0}": 50,
+                "{ba272485}": 15
+            },
+            "desc": "Combat start: Shoot a <TFTRadiantItemBonus>wider beam</TFTRadiantItemBonus> that <TFTRadiantItemBonus>50%</TFTRadiantItemBonus> <TFTKeyword>Mana Reaves</TFTKeyword> enemies.<br><TFTRadiantItemBonus>Your team gains %i:scaleMana% 15 starting Mana.</TFTRadiantItemBonus><br><br><tftitemrules>[Unique - only 1 per champion]<br><tftbold>Mana Reave</tftbold>: increase maximum Mana until the next cast</tftitemrules><br>"
+        },
+        {
+            "name": "Runaan's Tempest",
+            "composition": [],
+            "effects": {
+                "AD": 0.20000000298023224,
+                "AS": 20,
+                "AdditionalTargets": 1,
+                "MagicResist": 20,
+                "{276ba2c8}": 100
+            },
+            "desc": "Attacks fire a bolt at a nearby enemy, dealing <TFTRadiantItemBonus>100%</TFTRadiantItemBonus> Attack Damage %i:scaleAD% as physical damage.<br><br><tftitemrules>\u200b\u200b[Direct damage item]</tftitemrules>"
+        },
+        {
+            "name": "Mistral",
+            "composition": [],
+            "effects": {
+                "AS": 20,
+                "Health": 150,
+                "MagicResist": 20,
+                "{510fdb6a}": 8,
+                "{c67a1046}": 15
+            },
+            "desc": "Combat start: Summon a whirlwind on the opposite side of the arena that removes the closest enemy from combat for <TFTRadiantItemBonus>8</TFTRadiantItemBonus> seconds.<br><TFTRadiantItemBonus>Your team gains %i:scaleAS% 15% Attack Speed.</TFTRadiantItemBonus><br><br><tftitemrules>[Ignores crowd control immunity.]<br>[Unique - only 1 per champion]</tftitemrules>"
+        },
+        {
+            "name": "Guinsoo's Reckoning",
+            "composition": [],
+            "effects": {
+                "AP": 10,
+                "AS": 25,
+                "AttackSpeedPerStack": 10
+            },
+            "desc": "Attacks grant %i:scaleAS% <TFTRadiantItemBonus>10%</TFTRadiantItemBonus> bonus Attack Speed. This effect stacks."
+        },
+        {
+            "name": "Fist of Fairness",
+            "composition": [],
+            "effects": {
+                "CritChance": 20,
+                "Mana": 15,
+                "{6bac277d}": 50,
+                "{a3814259}": 0.5,
+                "{ae49cc70}": 30
+            },
+            "desc": "Grant 2 effects:<li>%i:scaleAD% <TFTRadiantItemBonus>50.0%</TFTRadiantItemBonus> Attack Damage and %i:scaleAP% <TFTRadiantItemBonus>50</TFTRadiantItemBonus> Ability Power.<li><TFTRadiantItemBonus>30%</TFTRadiantItemBonus> <TFTKeyword>Omnivamp</TFTKeyword>.<br><br><tftitemrules><tftbold>Omnivamp</tftbold>: heal for some of damage dealt</tftitemrules>"
+        },
+        {
+            "name": "Sunlight Cape",
+            "composition": [],
+            "effects": {
+                "Armor": 20,
+                "Health": 350,
+                "ICD": 1.5,
+                "MonsterCap": 150,
+                "{2161bfa2}": 33,
+                "{52358605}": "null",
+                "{57706a69}": 60,
+                "{8f854a28}": "null",
+                "{97e52ce8}": 30,
+                "{9b1e8f37}": 3
+            },
+            "desc": "Every <TFTRadiantItemBonus>1.5</TFTRadiantItemBonus> seconds, an enemy within <TFTRadiantItemBonus>3</TFTRadiantItemBonus> hexes is <TFTRadiantItemBonus>60%</TFTRadiantItemBonus> <TFTKeyword>Burned</TFTKeyword> and 33% <TFTKeyword>Wounded</TFTKeyword> for <TFTRadiantItemBonus>30</TFTRadiantItemBonus> seconds.<br><br><tftitemrules>[Unique - only 1 per champion]<br><tftbold>Burn</tftbold>: deals some of the target's maximum Health as true damage<br><tftbold>Wound</tftbold>: reduces healing received</tftitemrules>"
+        },
+        {
+            "name": "Zeke's Harmony",
+            "composition": [],
+            "effects": {
+                "AD": 0.10000000149011612,
+                "AttackSpeed": 50,
+                "Health": 150,
+                "LifeSteal": 10,
+                "{9b1e8f37}": 1
+            },
+            "desc": "Combat start: Grant %i:scaleAS% <TFTRadiantItemBonus>50%</TFTRadiantItemBonus> Attack Speed <TFTRadiantItemBonus>and 10% <TFTKeyword>Omnivamp</TFTKeyword></TFTRadiantItemBonus> to the holder and allies within 1 hex in the same row.<br><br>\u200b\u200b<tftitemrules>[Aura item]<br><tftbold>Omnivamp</tftbold>: heal for some of damage dealt</tftitemrules>"
+        },
+        {
+            "name": "Eternal Whisper",
+            "composition": [],
+            "effects": {
+                "AD": 0.3499999940395355,
+                "AS": 10,
+                "CritChance": 55,
+                "{5079c7a2}": 50,
+                "{cc9fefa7}": 50
+            },
+            "desc": "Any physical damage dealt 50% <TFTKeyword>Sunders</TFTKeyword> the target for <TFTRadiantItemBonus>the rest of combat.</TFTRadiantItemBonus> This effect does not stack.<br><br><tftitemrules>[Unique - only one per champion]<br><tftbold>Sunder</tftbold>: reduce Armor</tftitemrules>"
+        },
+        {
+            "name": "Locket of Targon Prime",
+            "composition": [],
+            "effects": {
+                "AP": 10,
+                "Armor": 20,
+                "ShieldDuration": 60,
+                "{0d46330d}": 500,
+                "{6fb9af6a}": 400,
+                "{829e6cec}": 600,
+                "{940ca598}": 200,
+                "{9b1e8f37}": 3,
+                "{c78af25f}": 900
+            },
+            "desc": "Combat start: Shields the holder and allies within <TFTRadiantItemBonus>3</TFTRadiantItemBonus> hexes in the same row for <TFTRadiantItemBonus>400/500/600</TFTRadiantItemBonus> %i:star% damage for <TFTRadiantItemBonus>60</TFTRadiantItemBonus> seconds.<br><TFTRadiantItemBonus>Your team gains %i:scaleHealth% 200 Health.</TFTRadiantItemBonus><br><br>\u200b\u200b<tftitemrules>[Aura item]</tftitemrules>"
+        },
+        {
+            "name": "Rascal's Gloves",
+            "composition": [],
+            "effects": {
+                "CritChance": 40
+            },
+            "desc": "Each round: Equip 2 random <TFTRadiantItemBonus>Radiant</TFTRadiantItemBonus> items.<br><br><tftitemrules>[Consumes 3 item slots.]</tftitemrules>"
+        },
+        {
+            "name": "Warmog's Pride",
+            "composition": [],
+            "effects": {
+                "Health": 1300,
+                "{52358605}": 1,
+                "{8f854a28}": 1
+            },
+            "desc": "<TFTRadiantItemBonus>Regenerate 1% maximum Health per second.</TFTRadiantItemBonus>"
+        },
+        {
+            "name": "Absolution",
+            "composition": [],
+            "effects": {
+                "Health": 300,
+                "Mana": 15,
+                "MaxHeal": 2000,
+                "{033de552}": 25,
+                "{5cc52ba8}": 2,
+                "{7b6cc2f7}": 25,
+                "{c9f222c0}": 5
+            },
+            "desc": "Heal allies within <TFTRadiantItemBonus>2</TFTRadiantItemBonus> hexes for <TFTRadiantItemBonus>25%</TFTRadiantItemBonus> of their missing Health every 5 seconds. They take 25% less multi-target damage for 5 seconds (damage reduction does not stack).<br><br>\u200b\u200b<tftitemrules>[Aura item]</tftitemrules>"
+        },
+        {
+            "name": "Brink of Dawn",
+            "composition": [],
+            "effects": {
+                "AD": 0.10000000149011612,
+                "Armor": 20,
+                "AttackSpeed": 40,
+                "DamageReduction": 100,
+                "HealthThreshold": 60,
+                "{b1442c34}": 1,
+                "{c8e44ba8}": 30
+            },
+            "desc": "Once per combat: At 60% Health <TFTRadiantItemBonus>and again at 30% Health,</TFTRadiantItemBonus> briefly become untargetable and shed negative effects. Then, gain %i:scaleAS% 40% bonus Attack Speed. <TFTRadiantItemBonus>This effect stacks.</TFTRadiantItemBonus><br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>"
+        },
+        {
+            "name": "Rapid Lightcannon",
+            "composition": [],
+            "effects": {
+                "AS": 99,
+                "{16394c87}": 2
+            },
+            "desc": "Grant %i:scaleRange% <TFTRadiantItemBonus>2</TFTRadiantItemBonus> bonus Attack Range and your attacks cannot miss."
+        },
+        {
+            "name": "Titan's Vow",
+            "composition": [],
+            "effects": {
+                "AS": 30,
+                "Armor": 30,
+                "{9396f00d}": 25,
+                "{b3b8f644}": 0.029999999329447746,
+                "{b55019fa}": 50,
+                "{cb9689ca}": 3
+            },
+            "desc": "Grant %i:scaleAD% <TFTRadiantItemBonus>3.0%</TFTRadiantItemBonus> Attack Damage and %i:scaleAP% <TFTRadiantItemBonus>3</TFTRadiantItemBonus> Ability Power when attacking or taking damage, stacking up to 25 times.<br><br>At full stacks, gain %i:scaleArmor% <TFTRadiantItemBonus>50</TFTRadiantItemBonus> Armor and %i:scaleMR% <TFTRadiantItemBonus>50</TFTRadiantItemBonus> Magic Resist."
+        },
+        {
+            "name": "Demonslayer",
+            "composition": [],
+            "effects": {
+                "AD": 0.5,
+                "AP": 40,
+                "AS": 10,
+                "HealthThreshold": 1600,
+                "{b8ae7546}": 70
+            },
+            "desc": "Abilities and attacks deal <TFTRadiantItemBonus>70%</TFTRadiantItemBonus> more damage to enemies with more than 1600 maximum Health."
+        },
+        {
+            "name": "Blessed Bloodthirster",
+            "composition": [],
+            "effects": {
+                "AD": 0.4000000059604645,
+                "HealthThreshold": 40,
+                "LifeSteal": 40,
+                "MagicResist": 20,
+                "ShieldDuration": 5,
+                "{0034a6ef}": 40
+            },
+            "desc": "Grant <TFTRadiantItemBonus>40%</TFTRadiantItemBonus> <TFTKeyword>Omnivamp</TFTKeyword>.<br><br>Once per combat: At 40% Health, gain a <TFTRadiantItemBonus>40%</TFTRadiantItemBonus> maximum Health shield that lasts up to 5 seconds.<br><br><tftitemrules><tftbold>Omnivamp</tftbold>: heal for some of damage dealt</tftitemrules>"
+        },
+        {
+            "name": "Rabadon's Ascended Deathcap",
+            "composition": [],
+            "effects": {
+                "AP": 125
+            },
+            "desc": "<tftitemrules>It's witnessed - and unleashed - miracles and calamities both.</tftitemrules>"
+        },
+        {
+            "name": "Glamorous Gauntlet",
+            "composition": [],
+            "effects": {
+                "AP": 50,
+                "CritChance": 75
+            },
+            "desc": "Damage from an Ability can critically strike."
+        },
+        {
+            "name": "Dvarapala Stoneplate",
+            "composition": [],
+            "effects": {
+                "Armor": 20,
+                "MagicResist": 20,
+                "{52358605}": 1,
+                "{7ba8c0e3}": 30,
+                "{7c694b41}": 30,
+                "{8f854a28}": 2
+            },
+            "desc": "Grant %i:scaleArmor% <TFTRadiantItemBonus>30</TFTRadiantItemBonus> Armor and %i:scaleMR% <TFTRadiantItemBonus>30</TFTRadiantItemBonus> Magic Resist for each enemy targeting the holder.<br><br><TFTRadiantItemBonus>Also, regenerate 2% maximum Health each second.</TFTRadiantItemBonus>"
+        },
+        {
+            "name": "Chalice of Charity",
+            "composition": [],
+            "effects": {
+                "MagicResist": 20,
+                "Mana": 15,
+                "{67741d01}": 10,
+                "{8f0882cf}": 45,
+                "{9b1e8f37}": 1
+            },
+            "desc": "Combat start: Grant %i:scaleAP% <TFTRadiantItemBonus>45</TFTRadiantItemBonus> Ability Power <TFTRadiantItemBonus>and 10% <TFTKeyword>Omnivamp</TFTKeyword></TFTRadiantItemBonus> to the holder and allies within 1 hex in the same row.<br><br>\u200b\u200b<tftitemrules>[Aura item]<br><tftbold>Omnivamp</tftbold>: heal for some of damage dealt</tftitemrules>"
+        },
+        {
+            "name": "Spear of Hirana",
+            "composition": [],
+            "effects": {
+                "AD": 0.10000000149011612,
+                "AP": 50,
+                "Mana": 15,
+                "{4b9a3b61}": 40
+            },
+            "desc": "Every 3rd attack restores %i:scaleMana% <TFTRadiantItemBonus>40</TFTRadiantItemBonus> additional Mana."
+        },
+        {
+            "name": "Zenith Edge",
+            "composition": [],
+            "effects": {
+                "AD": 0.550000011920929,
+                "CritChance": 75
+            },
+            "desc": "Damage from an Ability can critically strike."
+        },
+        {
+            "name": "Luminous Deathblade",
+            "composition": [],
+            "effects": {
+                "AD": 1.2000000476837158
+            },
+            "desc": "<tftitemrules>It glows in the presence of enemies. Or friends. Or anything alive, really.</tftitemrules>"
+        },
+        {
+            "name": "Tactician's Crown",
+            "composition": [],
+            "effects": {},
+            "desc": "Tactician's Crown"
+        },
+        {
+            "name": "Thief's Gloves",
+            "composition": [],
+            "effects": {},
+            "desc": "Thief's Gloves"
+        },
+        {
+            "name": "Spatula",
+            "composition": [],
+            "effects": {},
+            "desc": "Spatula"
+        },
+        {
+            "name": "Spring-Loaded Rapid Firecannon",
+            "composition": [],
+            "effects": {
+                "AS": 60,
+                "{16394c87}": 3,
+                "{9f5117db}": 100
+            },
+            "desc": "Grant %i:scaleRange% 3 bonus Attack Range and your attacks cannot miss.  <br><br>Self-destructs after @TFTUnitProperty.trait:TFT8_GenAE_Durability@ round of player combat. "
+        },
+        {
+            "name": "Shroud of Even Still-erness",
+            "composition": [],
+            "effects": {
+                "Armor": 20,
+                "CritChance": 20,
+                "Health": 250,
+                "{4516a18d}": 60,
+                "{a861afa0}": 35,
+                "{a98f7b85}": 3,
+                "{c1c481b8}": 20
+            },
+            "desc": "Combat start: Shoot a beam that 35% <TFTKeyword>Mana Reaves</TFTKeyword>, 20% <TFTKeyword>Chills</TFTKeyword>, and reduces the movement speed of enemies by 20% for 3 seconds.<br><br>Self-destructs after @TFTUnitProperty.trait:TFT8_GenAE_Durability@ round of player combat. <br><br><tftitemrules>[Unique - only 1 per champion]<br><tftbold>Mana Reave</tftbold>: increase maximum Mana until the next cast<br><tftbold>Chill</tftbold>: reduce Attack Speed</tftitemrules>"
+        },
+        {
+            "name": "Jump-Started Spear of Shojin",
+            "composition": [],
+            "effects": {
+                "AD": 0.10000000149011612,
+                "AP": 20,
+                "Mana": 45,
+                "{4b9a3b61}": 20
+            },
+            "desc": "Every 3rd attack restores %i:scaleMana% 20 additional Mana. <br><br>Self-destructs after @TFTUnitProperty.trait:TFT8_GenAE_Durability@ round of player combat. "
+        },
+        {
+            "name": "Hand of Nondeterministic Justice",
+            "composition": [],
+            "effects": {
+                "BaseHeal": 20,
+                "CritChance": 20,
+                "Mana": 15,
+                "{6bac277d}": 25,
+                "{a3814259}": 0.25
+            },
+            "desc": "Grant 2 effects:<li>%i:scaleAD% 25.0% Attack Damage and %i:scaleAP% 25 Ability Power.<li>20% <TFTKeyword>Omnivamp</TFTKeyword>.<br><br>Self-destructs after @TFTUnitProperty.trait:TFT8_GenAE_Durability@ round of player combat. <br><br><tftitemrules><tftbold>Omnivamp</tftbold>: heal for some of damage dealt</tftitemrules>"
+        },
+        {
+            "name": "Magnetized Ionic Spark",
+            "composition": [],
+            "effects": {
+                "AP": 10,
+                "Damage": 250,
+                "MagicResist": 20,
+                "{9b1e8f37}": 2,
+                "{df6f64b9}": 250,
+                "{f80ce8e6}": 4,
+                "{fe079f34}": 50
+            },
+            "desc": "50% <TFTKeyword>Shred</TFTKeyword> enemies within 2 hexes. When they cast an Ability, they are zapped for magic damage equal to 250% of their maximum Mana. The holder <TFTKeyword>Taunts</TFTKeyword> every 4 seconds.<br><br>Self-destructs after @TFTUnitProperty.trait:TFT8_GenAE_Durability@ round of player combat. <br><br><tftitemrules>[Direct damage item]<br><tftbold>Shred</tftbold>: reduce Magic Resist <br><tftbold>Taunt</tftbold>: enemies that are able and in range must attack the taunter</tftitemrules>"
+        },
+        {
+            "name": "Gadgeteen Titan's Resolve",
+            "composition": [],
+            "effects": {
+                "AS": 10,
+                "Armor": 20,
+                "{9396f00d}": 30,
+                "{b3b8f644}": 0.019999999552965164,
+                "{b55019fa}": 30,
+                "{c2b90de1}": 0.019999999552965164,
+                "{cb9689ca}": 2
+            },
+            "desc": "Grants %i:scaleAD% 2.0% Attack Damage, %i:scaleAP% 2.0 Ability Power, and %i:scaleAS% 2.0% Attack Speed when attacking or taking damage, stacking up to 30 times.  <br><br>At full stacks, grant %i:scaleArmor% 30 Armor and %i:scaleMR% 30 Magic Resist.<br><br>Self-destructs after @TFTUnitProperty.trait:TFT8_GenAE_Durability@ round of player combat. "
+        },
+        {
+            "name": "OVERFLOW_ERROR // Giant Slayer ",
+            "composition": [],
+            "effects": {
+                "AD": 0.30000001192092896,
+                "AP": 20,
+                "AS": 10,
+                "HealthThreshold": 1,
+                "{b8ae7546}": 30
+            },
+            "desc": "If the target has more than 1 maximum Health, deal 30% more damage with Abilities and attacks.<br><br>Self-destructs after @TFTUnitProperty.trait:TFT8_GenAE_Durability@ round of player combat. "
+        },
+        {
+            "name": "Induction-Powered Warmog's Armor",
+            "composition": [],
+            "effects": {
+                "Health": 900,
+                "{52358605}": 1,
+                "{8f854a28}": 0.5
+            },
+            "desc": "Regenerate 0.5% maximum Health per second.<br><br>Self-destructs after @TFTUnitProperty.trait:TFT8_GenAE_Durability@ round of player combat. "
+        },
+        {
+            "name": "Overclocked Sunfire Cape",
+            "composition": [],
+            "effects": {
+                "Armor": 20,
+                "Health": 300,
+                "ICD": 1,
+                "MonsterCap": 100,
+                "{2161bfa2}": 33,
+                "{57706a69}": 10,
+                "{97e52ce8}": 10,
+                "{9b1e8f37}": 3
+            },
+            "desc": "Every 1 second, 10% <TFTKeyword>Burn</TFTKeyword> and 33% <TFTKeyword>Wound</TFTKeyword> an enemy within 3 hexes for 10 seconds.<br><br>Self-destructs after @TFTUnitProperty.trait:TFT8_GenAE_Durability@ round of player combat. <br><br><tftitemrules>[Unique - only 1 per champion]<br><tftbold>Burn</tftbold>: deals some of the target's maximum Health as true damage<br><tftbold>Wound</tftbold>: reduces healing received</tftitemrules>"
+        },
+        {
+            "name": "Chainsword Bloodthirster",
+            "composition": [],
+            "effects": {
+                "AD": 0.30000001192092896,
+                "HealthThreshold": 40,
+                "LifeSteal": 25,
+                "MagicResist": 20,
+                "ShieldDuration": 8,
+                "{0034a6ef}": 25,
+                "{f6564b98}": 0.5
+            },
+            "desc": "Grant 25% <TFTKeyword>Omnivamp</TFTKeyword>.<br><br>Once per combat at 40% Health, gain a 25% maximum Health shield that lasts up to 8 seconds. While the shield is active, the holder gains 50.0% Attack Damage.<br><br>Self-destructs after @TFTUnitProperty.trait:TFT8_GenAE_Durability@ round of player combat.<br><tftitemrules><tftbold>Omnivamp</tftbold>: heal for some of damage dealt</tftitemrules>"
+        },
+        {
+            "name": "Manazane",
+            "composition": [],
+            "effects": {
+                "AD": 0.15000000596046448,
+                "AS": 15,
+                "Mana": 30,
+                "ManaRestore": 120,
+                "{c8d95a76}": 5
+            },
+            "desc": "Once per combat: After casting an Ability, restore %i:scaleMana% 120 Mana over 5 seconds.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>"
+        },
+        {
+            "name": "Anima Visage",
+            "composition": [],
+            "effects": {
+                "Health": 250,
+                "MagicResist": 25,
+                "{3b3af019}": 2.5
+            },
+            "desc": "Regenerate 2.5% maximum Health each second."
+        },
+        {
+            "name": "Chain Vest",
+            "composition": [],
+            "effects": {
+                "Armor": 20
+            },
+            "desc": "%i:scaleArmor% +20 Armor"
+        },
+        {
+            "name": "Rocket-Propelled Fist",
+            "composition": [],
+            "effects": {
+                "Armor": 25,
+                "Health": 150,
+                "Mana": 15,
+                "StunDuration": 1.5
+            },
+            "desc": "Combat start: The farthest enemy is pulled into melee range and <TFTKeyword>Stunned</TFTKeyword> for 1.5 seconds. Allies within range will prioritize attacking that enemy.<br><br><tftitemrules>[Unique - only 1 per champion]<br><tftbold>Stun</tftbold>: cannot move, attack, or cast Abilities</tftitemrules>"
+        },
+        {
+            "name": "Eternal Winter",
+            "composition": [],
+            "effects": {
+                "Armor": 25,
+                "Health": 150,
+                "SlowDuration": 1.5,
+                "{0f0fd3a2}": 20,
+                "{22302443}": 15,
+                "{aaa03dde}": 1.5,
+                "{e8bc18e0}": 7
+            },
+            "desc": "Enemies who damage the holder are 20% <TFTKeyword>Chilled</TFTKeyword> for 1.5 seconds. After 7 <TFTKeyword>Chills</TFTKeyword> from this item, the attacker is <TFTKeyword>Stunned</TFTKeyword> instead, but only once every 15 seconds.<br><br><tftitemrules>[Unique - only 1 per champion]<br><tftbold>Chill</tftbold>: reduce Attack Speed<br><tftbold>Stun</tftbold>: cannot move, attack, or cast Abilities</tftitemrules>"
+        },
+        {
+            "name": "",
+            "composition": [],
+            "effects": {
+                "{75f9fa5a}": 1
+            },
+            "desc": "This unit cannot hold items."
+        },
+        {
+            "name": "",
+            "composition": [],
+            "effects": {
+                "AttackSpeed": 1
+            },
+            "desc": "This unit cannot hold items."
+        },
+        {
+            "name": "Onslaught",
+            "composition": [],
+            "effects": {},
+            "desc": "Aphelios enters an onslaught, slinging chakrams and dealing massive damage to nearby enemies."
+        },
+        {
+            "name": "Duskwave",
+            "composition": [],
+            "effects": {},
+            "desc": "Aphelios unleashes a wave of energy in a cone in his target's direction, locking onto and dealing damage to all enemies hit. "
+        },
+        {
+            "name": "Binding Eclipse",
+            "composition": [],
+            "effects": {},
+            "desc": "Aphelios casts forth a lunar spotlight towards the largest group of units, stunning all enemies hit and dealing damage to them. "
+        },
+        {
+            "name": "Recurve Bow",
+            "composition": [],
+            "effects": {
+                "AS": 10
+            },
+            "desc": "%i:scaleAS% +10% Attack Speed"
+        },
+        {
+            "name": "",
+            "composition": [],
+            "effects": {
+                "AttackSpeed": 1
+            },
+            "desc": "This unit cannot hold items."
+        },
+        {
+            "name": "Obsidian Cleaver",
+            "composition": [],
+            "effects": {
+                "AD": 0.20000000298023224,
+                "Duration": 5,
+                "Health": 150,
+                "{a8d6e8b5}": 50
+            },
+            "desc": "Attacks and Abilities 50% <TFTKeyword>Shred</TFTKeyword> and 50% <TFTKeyword>Sunder</TFTKeyword> enemies for 5 seconds.<br><br><tftitemrules>[Unique - only 1 per champion]<br><tftbold>Shred</tftbold>: reduce Magic Resist<br><tftbold>Sunder</tftbold>: reduce Armor</tftitemrules>"
+        },
+        {
+            "name": "Tear of the Goddess",
+            "composition": [],
+            "effects": {
+                "Mana": 15
+            },
+            "desc": "%i:scaleMana% +15 Mana"
+        },
+        {
+            "name": "Deathblade",
+            "composition": [],
+            "effects": {
+                "AD": 30,
+                "{55ce8055}": "null",
+                "{d0fcc895}": 40
+            },
+            "desc": "<tftitemrules>Perfect peace and calm for the holder - and all who face it.</tftitemrules>"
+        },
+        {
+            "name": "Zhonya's Paradox",
+            "composition": [],
+            "effects": {
+                "AP": 40,
+                "Armor": 40,
+                "MagicResist": 40,
+                "{046e3023}": 40,
+                "{69247755}": 3
+            },
+            "desc": "Once per combat: At 40% Health, become invulnerable and untargetable for 3 seconds.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>"
+        },
+        {
+            "name": "Negatron Cloak",
+            "composition": [],
+            "effects": {
+                "MagicResist": 20
+            },
+            "desc": "%i:scaleMR% +20 Magic Resist"
+        },
+        {
+            "name": "B.F. Sword",
+            "composition": [],
+            "effects": {
+                "AD": 15
+            },
+            "desc": "%i:scaleAD% +1500.0% Attack Damage"
+        },
+        {
+            "name": "Sparring Gloves",
+            "composition": [],
+            "effects": {
+                "CritChance": 20
+            },
+            "desc": "+20 Critical Strike Chance"
+        },
+        {
+            "name": "Knight's Vow",
+            "composition": [],
+            "effects": {
+                "Armor": 40
+            },
+            "desc": "Extra %i:scaleArmor% +40<br>Holder is also a Knight<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>"
+        },
+        {
+            "name": "TFT6_Item_Name_EliteSpotlight",
+            "composition": [],
+            "effects": {},
+            "desc": "TFT6_Item_Description_EliteSpotlight"
+        },
+        {
+            "name": "Death's Defiance",
+            "composition": [],
+            "effects": {
+                "AD": 0.10000000149011612,
+                "AS": 20,
+                "Armor": 20,
+                "BaseHeal": 25,
+                "{0bc5955f}": 4,
+                "{ee37daec}": 50
+            },
+            "desc": "Grant 25% <TFTKeyword>Omnivamp</TFTKeyword>. 50% of the damage the holder receives is instead dealt over 4 seconds as non-lethal damage.<br><br><tftitemrules>[Unique - only 1 per champion]<br><tftbold>Omnivamp</tftbold>: heal for some of damage dealt</tftitemrules>"
+        },
+        {
+            "name": "Youmuu's Ghostblade",
+            "composition": [],
+            "effects": {
+                "AD": 30
+            },
+            "desc": "The holder is also an Assassin.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>"
+        },
+        {
+            "name": "Spatula",
+            "composition": [],
+            "effects": {
+                "{fe9818ef}": 5
+            },
+            "desc": "<tftitemrules>It must do something...</tftitemrules>"
+        },
+        {
+            "name": "Delicious Snax",
+            "composition": [],
+            "effects": {},
+            "desc": "Nomsy needs to eat this many more Snax to level up!<br><br><tftitemrules>[This does not count as an item.]</tftitemrules>"
+        },
+        {
+            "name": "Infinity Force",
+            "composition": [],
+            "effects": {
+                "AD": 0.25,
+                "AP": 25,
+                "AS": 25,
+                "Armor": 25,
+                "Health": 25,
+                "MagicResist": 25,
+                "Mana": 25
+            },
+            "desc": "<tftitemrules>Tons of EVERYTHING!</tftitemrules>"
+        },
+        {
+            "name": "B.F. Sword",
+            "composition": [],
+            "effects": {
+                "AD": 0.10000000149011612
+            },
+            "desc": "%i:scaleAD% +10.0% Attack Damage"
+        },
+        {
+            "name": "Giant's Belt",
+            "composition": [],
+            "effects": {
+                "Health": 150
+            },
+            "desc": "%i:scaleHealth% +150 Health"
+        },
+        {
+            "name": "Spatula",
+            "composition": [],
+            "effects": {},
+            "desc": "<tftitemrules>It must do something...</tftitemrules>"
+        },
+        {
+            "name": "Jammed!",
+            "composition": [],
+            "effects": {},
+            "desc": "Item temporarily disabled"
+        },
+        {
+            "name": "Needlessly Large Rod",
+            "composition": [],
+            "effects": {
+                "AP": 10
+            },
+            "desc": "%i:scaleAP% +10 Ability Power"
+        },
+        {
+            "name": "Randuin's Sanctum",
+            "composition": [],
+            "effects": {
+                "Armor": "null",
+                "BonusDefense": 40,
+                "Health": 150,
+                "MagicResist": "null"
+            },
+            "desc": "Combat start: Grant %i:scaleArmor% 40 Armor and %i:scaleMR% 40 Magic Resistance to the holder and their adjacent allies.<br><br><tftitemrules>[Aura item]</tftitemrules>"
+        },
+        {
+            "name": "Gold Collector",
+            "composition": [],
+            "effects": {
+                "AD": 0.20000000298023224,
+                "CritChance": 30,
+                "{2dd33743}": 40,
+                "{430f8969}": 12
+            },
+            "desc": "Attacks and Abilities execute enemies below 12% of their maximum Health. Executions have a 40% chance to drop %i:goldCoins% 1 gold.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>"
+        },
+        {
+            "name": "Unusable Slot",
+            "composition": [],
+            "effects": {},
+            "desc": "This slot can't hold an item."
+        }
+    ]
+}

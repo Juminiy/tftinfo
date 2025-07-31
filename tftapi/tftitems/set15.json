@@ -128,7 +128,7 @@
             "compositions": "sword+bow",
             "basic_attrs": [
                 "+20%AD",
-                "+20%AS",
+                "+15%AS",
                 "+10%DA"
             ],
             "add_attrs": "Gain 15% additional Damage Amp against Tanks."
@@ -150,7 +150,7 @@
             "basic_attrs": [
                 "+10%AD",
                 "+10AP",
-                "+20%AS"
+                "+15%AS"
             ],
             "add_attrs": "Lifeline: At 60% Health, briefly become untargetable and shed negative effects."
         },
@@ -388,7 +388,7 @@
             "name": "StrategistEmblem",
             "compositions": "cloak+spatula",
             "gain_trait": "Strategist",
-            "add_attrs": "The holder gains the Strategist trait.<br><br>Combat Start: The holder and allies within 1 hex in the same row gain bonuses.<br>Front 2 rows: 20 Armor and Magic Resist<br>Back 2 rows: 15% Attack Speed"
+            "add_attrs": "The holder gains the Strategist trait.<br><br>Combat Start: The holder and allies within 1 hex in the same row gain bonuses.<br>Front 2 rows: 30 Armor and Magic Resist<br>Back 2 rows: 20% Attack Speed"
         },
         {
             "name": "StarGuardianEmblem",
@@ -430,7 +430,7 @@
             "name": "SorcererEmblem",
             "compositions": "rod+pan",
             "gain_trait": "Sorcerer",
-            "add_attrs": "The holder gains the Sorcerer trait.<br>The holder gains 18% more Ability Power from all sources."
+            "add_attrs": "The holder gains the Sorcerer trait.<br>The holder gains 15% more Ability Power from all sources."
         },
         {
             "name": "DuelistEmblem",
@@ -454,7 +454,7 @@
             "name": "HeavyweightEmblem",
             "compositions": "belt+pan",
             "gain_trait": "Heavyweight",
-            "add_attrs": "The holder gains the Heavyweight trait, and gains ? max Health on takedown."
+            "add_attrs": "The holder gains the Heavyweight trait, and gains 150 max Health on takedown."
         },
         {
             "name": "JuggernautEmblem",
@@ -466,7 +466,7 @@
             "name": "BattleAcademiaEmblem",
             "compositions": "tear+spatula",
             "gain_trait": "BattleAcademia",
-            "add_attrs": "The holder gains the Battle Academia trait, and 120 Health and 6% Damage Amp per Potential."
+            "add_attrs": "The holder gains the Battle Academia trait, and 10% Damage Amp per Potential."
         },
         {
             "name": "SniperEmblemItem",
@@ -478,7 +478,7 @@
             "name": "ProtectorEmblemItem",
             "compositions": "",
             "gain_trait": "Protector",
-            "add_attrs": "The holder gains the Protector trait.<br>When a shield on the holder breaks, heal the holder and the nearest ally for 20% of the shield's initial value."
+            "add_attrs": "The holder gains the Protector trait.<br>When a shield on the holder breaks, shield the nearest ally for 150% of the shield's value."
         }
     ],
     "crow": [
@@ -519,7 +519,7 @@
                 "+50AR",
                 "+50MR"
             ],
-            "add_attrs": "Start of Combat: Gain 20 Mana.<br><br>Lifeline: At 40%% Health, gain 20 and a Shield equal to 45%% max Health."
+            "add_attrs": "Start of Combat: Gain 30 Mana.<br><br>Lifeline: At 40%% Health, gain 20 and a Shield equal to 45%% max Health."
         },
         {
             "name": "JakshotheProtean",
@@ -533,10 +533,10 @@
             "name": "NashorsToothRadiant",
             "basic_attrs": [
                 "+200HP",
-                "+30AP",
+                "+60AP",
                 "+20%AS"
             ],
-            "add_attrs": "After casting an Ability, gain 75% Attack Speed for 8 seconds."
+            "add_attrs": "After casting an Ability, gain 60% Attack Speed for 8 seconds."
         },
         {
             "name": "RadientArchangelsStaff",
@@ -930,7 +930,7 @@
                 "+15%AS",
                 "+10AP"
             ],
-            "add_attrs": "After casting the first time in combat, gain 120 Mana over 5 seconds.<br><br>[Unique - Only One Per Champion]"
+            "add_attrs": "After casting the first time in combat, gain 120 Mana over 5 seconds."
         },
         {
             "name": "OrnnItemTheCollector",
@@ -988,7 +988,7 @@
                 "+50AR",
                 "+50MR"
             ],
-            "add_attrs": "Grants immunity to Stuns and the holder's attacks Stun the target for 0.8 seconds. Convert 1% of damage taken into mana.<br><br>The holder's Attack Speed is locked at 0.5."
+            "add_attrs": "Grants immunity to Stuns and the holder's attacks Stun the target for 0.8 seconds. Convert 2% of damage taken into mana.<br><br>The holder's Attack Speed is locked at 0.5."
         },
         {
             "name": "SnipersFocus",

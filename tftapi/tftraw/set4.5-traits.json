@@ -1,772 +1,772 @@
 {
-   "season": "set4.5",
-   "traits": [
-      {
-         "key": "TheBoss",
-         "ingameKey": "Boss",
-         "name": "The Boss",
-         "desc": "",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/TheBoss.svg",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/TheBoss.svg",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/TheBoss.svg",
-         "type": "ORIGIN",
-         "styles": [
-            {
-               "style": "gold",
-               "min": 1
+    "season": "set4.5",
+    "traits": [
+        {
+            "key": "TheBoss",
+            "ingameKey": "Boss",
+            "name": "The Boss",
+            "desc": "",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/TheBoss.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/TheBoss.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/TheBoss.svg",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "gold",
+                    "min": 1
+                }
+            ],
+            "stats": {
+                "1": "When The Boss first drops below 40% Health, he leaves combat to start doing sit-ups. Each sit-up restores 15% of his maximum Health and gives him 40% Attack Speed and Movement Speed. If he reaches full Health he returns to combat Pumped Up: all of his attacks and spells deal true damage. If all of his allies die, he will immediately return to combat."
             }
-         ],
-         "stats": {
-            "1": "When The Boss first drops below 40% Health, he leaves combat to start doing sit-ups. Each sit-up restores 15% of his maximum Health and gives him 40% Attack Speed and Movement Speed. If he reaches full Health he returns to combat Pumped Up: all of his attacks and spells deal true damage. If all of his allies die, he will immediately return to combat."
-         }
-      },
-      {
-         "key": "Cultist",
-         "ingameKey": "Cultist",
-         "name": "Cultist",
-         "desc": "Once your team loses 50% of their Health, Galio is summoned, slamming into the largest cluster of enemies and knocking them up. Galio's strength increases based on the total star level of all active Cultists.",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Cultist.svg",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Cultist.svg",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Cultist.svg",
-         "type": "ORIGIN",
-         "styles": [
-            {
-               "style": "bronze",
-               "min": 3,
-               "max": 5
-            },
-            {
-               "style": "gold",
-               "min": 6,
-               "max": 8
-            },
-            {
-               "style": "chromatic",
-               "min": 9
+        },
+        {
+            "key": "Cultist",
+            "ingameKey": "Cultist",
+            "name": "Cultist",
+            "desc": "Once your team loses 50% of their Health, Galio is summoned, slamming into the largest cluster of enemies and knocking them up. Galio's strength increases based on the total star level of all active Cultists.",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Cultist.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Cultist.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Cultist.svg",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 3,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6,
+                    "max": 8
+                },
+                {
+                    "style": "chromatic",
+                    "min": 9
+                }
+            ],
+            "stats": {
+                "3": "Tyrant Galio",
+                "6": "Demon Lord Galio",
+                "9": "Supreme Overlord Galio"
             }
-         ],
-         "stats": {
-            "3": "Tyrant Galio",
-            "6": "Demon Lord Galio",
-            "9": "Supreme Overlord Galio"
-         }
-      },
-      {
-         "key": "Divine",
-         "ingameKey": "Divine",
-         "name": "Divine",
-         "desc": "Upon attacking 6 times or dropping below 50% Health, Divine champions remove all crowd control and ascend for 6 seconds, taking reduced damage and dealing bonus true damage for the duration.",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Divine.svg",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Divine.svg",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Divine.svg",
-         "type": "ORIGIN",
-         "styles": [
-            {
-               "style": "bronze",
-               "min": 2,
-               "max": 3
-            },
-            {
-               "style": "silver",
-               "min": 4,
-               "max": 5
-            },
-            {
-               "style": "gold",
-               "min": 6,
-               "max": 7
-            },
-            {
-               "style": "chromatic",
-               "min": 8
+        },
+        {
+            "key": "Divine",
+            "ingameKey": "Divine",
+            "name": "Divine",
+            "desc": "Upon attacking 6 times or dropping below 50% Health, Divine champions remove all crowd control and ascend for 6 seconds, taking reduced damage and dealing bonus true damage for the duration.",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Divine.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Divine.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Divine.svg",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "silver",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6,
+                    "max": 7
+                },
+                {
+                    "style": "chromatic",
+                    "min": 8
+                }
+            ],
+            "stats": {
+                "2": "25% damage reduction and true damage",
+                "4": "40% damage reduction and true damage",
+                "6": "55% damage reduction and true damage",
+                "8": "70% damage reduction and true damage"
             }
-         ],
-         "stats": {
-            "2": "25% damage reduction and true damage",
-            "4": "40% damage reduction and true damage",
-            "6": "55% damage reduction and true damage",
-            "8": "70% damage reduction and true damage"
-         }
-      },
-      {
-         "key": "Duelist",
-         "ingameKey": "Duelist",
-         "name": "Duelist",
-         "desc": "Innate: Duelists gain bonus Movement Speed. Duelists' attacks grant Attack Speed, up to 8 stacks.",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Duelist.svg",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Duelist.svg",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Duelist.svg",
-         "type": "CLASS",
-         "styles": [
-            {
-               "style": "bronze",
-               "min": 2,
-               "max": 3
-            },
-            {
-               "style": "silver",
-               "min": 4,
-               "max": 5
-            },
-            {
-               "style": "gold",
-               "min": 6,
-               "max": 7
-            },
-            {
-               "style": "chromatic",
-               "min": 8
+        },
+        {
+            "key": "Duelist",
+            "ingameKey": "Duelist",
+            "name": "Duelist",
+            "desc": "Innate: Duelists gain bonus Movement Speed. Duelists' attacks grant Attack Speed, up to 8 stacks.",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Duelist.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Duelist.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Duelist.svg",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "silver",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6,
+                    "max": 7
+                },
+                {
+                    "style": "chromatic",
+                    "min": 8
+                }
+            ],
+            "stats": {
+                "2": "+15% AS per Stack",
+                "4": "+25% AS per Stack",
+                "6": "+40% AS per Stack",
+                "8": "+60% AS per Stack"
             }
-         ],
-         "stats": {
-            "2": "+15% AS per Stack",
-            "4": "+25% AS per Stack",
-            "6": "+40% AS per Stack",
-            "8": "+60% AS per Stack"
-         }
-      },
-      {
-         "key": "Emperor",
-         "ingameKey": "Emperor",
-         "name": "Emperor",
-         "desc": "",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Emperor.svg",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Emperor.svg",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Emperor.svg",
-         "type": "CLASS",
-         "styles": [
-            {
-               "style": "gold",
-               "min": 1,
-               "max": 1
+        },
+        {
+            "key": "Emperor",
+            "ingameKey": "Emperor",
+            "name": "Emperor",
+            "desc": "",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Emperor.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Emperor.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Emperor.svg",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "gold",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "stats": {
+                "1": "The Emperor deploys with two Sand Guards who can be placed anywhere on the battlefield. They do not move or attack, and die when their Emperor does."
             }
-         ],
-         "stats": {
-            "1": "The Emperor deploys with two Sand Guards who can be placed anywhere on the battlefield. They do not move or attack, and die when their Emperor does."
-         }
-      },
-      {
-         "key": "Fortune",
-         "ingameKey": "Fortune",
-         "name": "Fortune",
-         "desc": "",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Fortune.svg",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Fortune.svg",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Fortune.svg",
-         "type": "ORIGIN",
-         "styles": [
-            {
-               "style": "gold",
-               "min": 3,
-               "max": 5
-            },
-            {
-               "style": "chromatic",
-               "min": 6
+        },
+        {
+            "key": "Fortune",
+            "ingameKey": "Fortune",
+            "name": "Fortune",
+            "desc": "",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Fortune.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Fortune.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Fortune.svg",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "gold",
+                    "min": 3,
+                    "max": 5
+                },
+                {
+                    "style": "chromatic",
+                    "min": 6
+                }
+            ],
+            "stats": {
+                "3": "Winning combat against a player will give bonus orbs. The longer you've gone without an orb, the bigger the payout!",
+                "6": "Wins give an extra bonus orb with rare loot."
             }
-         ],
-         "stats": {
-            "3": "Winning combat against a player will give bonus orbs. The longer you've gone without an orb, the bigger the payout!",
-            "6": "Wins give an extra bonus orb with rare loot."
-         }
-      },
-      {
-         "key": "Keeper",
-         "ingameKey": "Keeper",
-         "name": "Keeper",
-         "desc": "At the start of combat, Keepers grant themselves and all adjacent allies a Shield for a duration. This Shield is 50% stronger on Keepers.",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Keeper.svg",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Keeper.svg",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Keeper.svg",
-         "type": "CLASS",
-         "styles": [
-            {
-               "style": "bronze",
-               "min": 2,
-               "max": 3
-            },
-            {
-               "style": "silver",
-               "min": 4,
-               "max": 5
-            },
-            {
-               "style": "gold",
-               "min": 6
+        },
+        {
+            "key": "Keeper",
+            "ingameKey": "Keeper",
+            "name": "Keeper",
+            "desc": "At the start of combat, Keepers grant themselves and all adjacent allies a Shield for a duration. This Shield is 50% stronger on Keepers.",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Keeper.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Keeper.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Keeper.svg",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "silver",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6
+                }
+            ],
+            "stats": {
+                "2": "150 shield, 8 seconds",
+                "4": "200 shield, 10 seconds",
+                "6": "250 shield, 12 seconds"
             }
-         ],
-         "stats": {
-            "2": "150 shield, 8 seconds",
-            "4": "200 shield, 10 seconds",
-            "6": "250 shield, 12 seconds"
-         }
-      },
-      {
-         "key": "Adept",
-         "ingameKey": "Set4_Adept",
-         "name": "Adept",
-         "desc": "Adepts calm the flow of battle, reducing the Attack Speed of all enemies by 50% for a few seconds at the start of combat.",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Adept.svg",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Adept.svg",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Adept.svg",
-         "type": "CLASS",
-         "styles": [
-            {
-               "style": "bronze",
-               "min": 2,
-               "max": 2
-            },
-            {
-               "style": "gold",
-               "min": 3,
-               "max": 3
-            },
-            {
-               "style": "chromatic",
-               "min": 4
+        },
+        {
+            "key": "Adept",
+            "ingameKey": "Set4_Adept",
+            "name": "Adept",
+            "desc": "Adepts calm the flow of battle, reducing the Attack Speed of all enemies by 50% for a few seconds at the start of combat.",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Adept.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Adept.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Adept.svg",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 2
+                },
+                {
+                    "style": "gold",
+                    "min": 3,
+                    "max": 3
+                },
+                {
+                    "style": "chromatic",
+                    "min": 4
+                }
+            ],
+            "stats": {
+                "2": "2 seconds",
+                "3": "3.5 seconds",
+                "4": "6 seconds"
             }
-         ],
-         "stats": {
-            "2": "2 seconds",
-            "3": "3.5 seconds",
-            "4": "6 seconds"
-         }
-      },
-      {
-         "key": "Assassin",
-         "ingameKey": "Set4_Assassin",
-         "name": "Assassin",
-         "desc": "Innate: At the start of combat, Assassins leap to the enemy backline. Assassins gain bonus Critical Strike Damage and Chance, and their spells can critically strike.",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Assassin.svg",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Assassin.svg",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Assassin.svg",
-         "type": "CLASS",
-         "styles": [
-            {
-               "style": "bronze",
-               "min": 2,
-               "max": 3
-            },
-            {
-               "style": "gold",
-               "min": 4,
-               "max": 5
-            },
-            {
-               "style": "chromatic",
-               "min": 6
+        },
+        {
+            "key": "Assassin",
+            "ingameKey": "Set4_Assassin",
+            "name": "Assassin",
+            "desc": "Innate: At the start of combat, Assassins leap to the enemy backline. Assassins gain bonus Critical Strike Damage and Chance, and their spells can critically strike.",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Assassin.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Assassin.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Assassin.svg",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "gold",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "chromatic",
+                    "min": 6
+                }
+            ],
+            "stats": {
+                "2": "+25% Critical Strike Damage & +10% Critical Strike Chance",
+                "4": "+55% Critical Strike Damage & +30% Critical Strike Chance",
+                "6": "+90% Critical Strike Damage & +50% Critical Strike Chance"
             }
-         ],
-         "stats": {
-            "2": "+25% Critical Strike Damage & +10% Critical Strike Chance",
-            "4": "+55% Critical Strike Damage & +30% Critical Strike Chance",
-            "6": "+90% Critical Strike Damage & +50% Critical Strike Chance"
-         }
-      },
-      {
-         "key": "Blacksmith",
-         "ingameKey": "Set4_Blacksmith",
-         "name": "Blacksmith",
-         "desc": "",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Blacksmith.svg",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Blacksmith.svg",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Blacksmith.svg",
-         "type": "CLASS",
-         "styles": [
-            {
-               "style": "gold",
-               "min": 1
+        },
+        {
+            "key": "Blacksmith",
+            "ingameKey": "Set4_Blacksmith",
+            "name": "Blacksmith",
+            "desc": "",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Blacksmith.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Blacksmith.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Blacksmith.svg",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "gold",
+                    "min": 1
+                }
+            ],
+            "stats": {
+                "1": "After participating in combat, Blacksmiths will begin forging an Artifact item. The higher their star-level, the faster they work. Once the Artifact is complete, it will become available to bestow upon an ally. Each ally may only equip one Artifact."
             }
-         ],
-         "stats": {
-            "1": "After participating in combat, Blacksmiths will begin forging an Artifact item. The higher their star-level, the faster they work. Once the Artifact is complete, it will become available to bestow upon an ally. Each ally may only equip one Artifact."
-         }
-      },
-      {
-         "key": "Brawler",
-         "ingameKey": "Set4_Brawler",
-         "name": "Brawler",
-         "desc": "Brawlers gain bonus Health and Attack Damage",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Brawler.svg",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Brawler.svg",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Brawler.svg",
-         "type": "CLASS",
-         "styles": [
-            {
-               "style": "bronze",
-               "min": 2,
-               "max": 3
-            },
-            {
-               "style": "silver",
-               "min": 4,
-               "max": 5
-            },
-            {
-               "style": "gold",
-               "min": 6,
-               "max": 7
-            },
-            {
-               "style": "chromatic",
-               "min": 8
+        },
+        {
+            "key": "Brawler",
+            "ingameKey": "Set4_Brawler",
+            "name": "Brawler",
+            "desc": "Brawlers gain bonus Health and Attack Damage",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Brawler.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Brawler.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Brawler.svg",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "silver",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6,
+                    "max": 7
+                },
+                {
+                    "style": "chromatic",
+                    "min": 8
+                }
+            ],
+            "stats": {
+                "2": "400 Health and 10 Attack Damage",
+                "4": "700 Health and 20 Attack Damage",
+                "6": "1000 Health and 40 Attack Damage",
+                "8": "1400 Health and 80 Attack Damage"
             }
-         ],
-         "stats": {
-            "2": "400 Health and 10 Attack Damage",
-            "4": "700 Health and 20 Attack Damage",
-            "6": "1000 Health and 40 Attack Damage",
-            "8": "1400 Health and 80 Attack Damage"
-         }
-      },
-      {
-         "key": "Daredevil",
-         "ingameKey": "Set4_Daredevil",
-         "name": "Daredevil",
-         "desc": "",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Daredevil.svg",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Daredevil.svg",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Daredevil.svg",
-         "type": "ORIGIN",
-         "styles": [
-            {
-               "style": "gold",
-               "min": 1
+        },
+        {
+            "key": "Daredevil",
+            "ingameKey": "Set4_Daredevil",
+            "name": "Daredevil",
+            "desc": "",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Daredevil.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Daredevil.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Daredevil.svg",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "gold",
+                    "min": 1
+                }
+            ],
+            "stats": {
+                "1": "Daredevils seek the thrill of battle, dashing after every other attack. After every dash, they shield themselves for 20% of their max health and their next attack fires 2 shots, gaining Style. At max Style, they cast their spell. Base Style rank increases star level."
             }
-         ],
-         "stats": {
-            "1": "Daredevils seek the thrill of battle, dashing after every other attack. After every dash, they shield themselves for 20% of their max health and their next attack fires 2 shots, gaining Style. At max Style, they cast their spell. Base Style rank increases star level."
-         }
-      },
-      {
-         "key": "Dragonsoul",
-         "ingameKey": "Set4_Dragonsoul",
-         "name": "Dragonsoul",
-         "desc": "The first Dragonsoul allies to take damage in combat receives the Dragon's Blessing. While blessed, the unit gains bonus stats, and every 5th attack fires a Dragonsoul blast, dealing 40% of the target's maximum Health in magic damage. On death, this blessing passes to the closest Dragonsoul ally without a blessing.",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Dragonsoul.svg",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Dragonsoul.svg",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Dragonsoul.svg",
-         "type": "ORIGIN",
-         "styles": [
-            {
-               "style": "bronze",
-               "min": 3,
-               "max": 5
-            },
-            {
-               "style": "gold",
-               "min": 6,
-               "max": 8
-            },
-            {
-               "style": "chromatic",
-               "min": 9
+        },
+        {
+            "key": "Dragonsoul",
+            "ingameKey": "Set4_Dragonsoul",
+            "name": "Dragonsoul",
+            "desc": "The first Dragonsoul allies to take damage in combat receives the Dragon's Blessing. While blessed, the unit gains bonus stats, and every 5th attack fires a Dragonsoul blast, dealing 40% of the target's maximum Health in magic damage. On death, this blessing passes to the closest Dragonsoul ally without a blessing.",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Dragonsoul.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Dragonsoul.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Dragonsoul.svg",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 3,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6,
+                    "max": 8
+                },
+                {
+                    "style": "chromatic",
+                    "min": 9
+                }
+            ],
+            "stats": {
+                "3": "1 Blessing, 40 AS & SP",
+                "6": "3 Blessing, 70 AS & SP",
+                "9": "6 Blessing, 140 AS & SP"
             }
-         ],
-         "stats": {
-            "3": "1 Blessing, 40 AS & SP",
-            "6": "3 Blessing, 70 AS & SP",
-            "9": "6 Blessing, 140 AS & SP"
-         }
-      },
-      {
-         "key": "Elderwood",
-         "ingameKey": "Set4_Elderwood",
-         "name": "Elderwood",
-         "desc": "Every two seconds all Elderwood champions grow, gaining bonus stats. This effect stacks up to five times.",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Elderwood.svg",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Elderwood.svg",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Elderwood.svg",
-         "type": "ORIGIN",
-         "styles": [
-            {
-               "style": "bronze",
-               "min": 3,
-               "max": 5
-            },
-            {
-               "style": "gold",
-               "min": 6,
-               "max": 8
-            },
-            {
-               "style": "chromatic",
-               "min": 9
+        },
+        {
+            "key": "Elderwood",
+            "ingameKey": "Set4_Elderwood",
+            "name": "Elderwood",
+            "desc": "Every two seconds all Elderwood champions grow, gaining bonus stats. This effect stacks up to five times.",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Elderwood.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Elderwood.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Elderwood.svg",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 3,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6,
+                    "max": 8
+                },
+                {
+                    "style": "chromatic",
+                    "min": 9
+                }
+            ],
+            "stats": {
+                "3": "15 Armor and MR, 5 AD and SP",
+                "6": "20 Armor and MR, 10 AD and SP",
+                "9": "30 Armor and MR, 15 AD and SP"
             }
-         ],
-         "stats": {
-            "3": "15 Armor and MR, 5 AD and SP",
-            "6": "20 Armor and MR, 10 AD and SP",
-            "9": "30 Armor and MR, 15 AD and SP"
-         }
-      },
-      {
-         "key": "Enlightened",
-         "ingameKey": "Set4_Enlightened",
-         "name": "Enlightened",
-         "desc": "Enlightened champions generate more Mana.",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Enlightened.svg",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Enlightened.svg",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Enlightened.svg",
-         "type": "ORIGIN",
-         "styles": [
-            {
-               "style": "bronze",
-               "min": 2,
-               "max": 3
-            },
-            {
-               "style": "silver",
-               "min": 4,
-               "max": 5
-            },
-            {
-               "style": "gold",
-               "min": 6
+        },
+        {
+            "key": "Enlightened",
+            "ingameKey": "Set4_Enlightened",
+            "name": "Enlightened",
+            "desc": "Enlightened champions generate more Mana.",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Enlightened.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Enlightened.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Enlightened.svg",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "silver",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6
+                }
+            ],
+            "stats": {
+                "2": "50% increase",
+                "4": "100% increase",
+                "6": "150% increase"
             }
-         ],
-         "stats": {
-            "2": "50% increase",
-            "4": "100% increase",
-            "6": "150% increase"
-         }
-      },
-      {
-         "key": "Executioner",
-         "ingameKey": "Set4_Executioner",
-         "name": "Executioner",
-         "desc": "Executioner attacks and spells always critically hit targets below a certain percent threshold of health.",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Executioner.svg",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Executioner.svg",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Executioner.svg",
-         "type": "CLASS",
-         "styles": [
-            {
-               "style": "bronze",
-               "min": 2,
-               "max": 2
-            },
-            {
-               "style": "gold",
-               "min": 3,
-               "max": 3
-            },
-            {
-               "style": "chromatic",
-               "min": 4
+        },
+        {
+            "key": "Executioner",
+            "ingameKey": "Set4_Executioner",
+            "name": "Executioner",
+            "desc": "Executioner attacks and spells always critically hit targets below a certain percent threshold of health.",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Executioner.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Executioner.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Executioner.svg",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 2
+                },
+                {
+                    "style": "gold",
+                    "min": 3,
+                    "max": 3
+                },
+                {
+                    "style": "chromatic",
+                    "min": 4
+                }
+            ],
+            "stats": {
+                "2": "33% health",
+                "3": "66% health",
+                "4": "99% health"
             }
-         ],
-         "stats": {
-            "2": "33% health",
-            "3": "66% health",
-            "4": "99% health"
-         }
-      },
-      {
-         "key": "Exile",
-         "ingameKey": "Set4_Exile",
-         "name": "Exile",
-         "desc": "If an Exile has no adjacent allies at the start of combat, they gain:",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Exile.svg",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Exile.svg",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Exile.svg",
-         "type": "ORIGIN",
-         "styles": [
-            {
-               "style": "bronze",
-               "min": 1,
-               "max": 1
-            },
-            {
-               "style": "gold",
-               "min": 2
+        },
+        {
+            "key": "Exile",
+            "ingameKey": "Set4_Exile",
+            "name": "Exile",
+            "desc": "If an Exile has no adjacent allies at the start of combat, they gain:",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Exile.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Exile.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Exile.svg",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "style": "gold",
+                    "min": 2
+                }
+            ],
+            "stats": {
+                "1": "A shield equal to 50% of their maximum health",
+                "2": "And 80% Lifesteal"
             }
-         ],
-         "stats": {
-            "1": "A shield equal to 50% of their maximum health",
-            "2": "And 80% Lifesteal"
-         }
-      },
-      {
-         "key": "Fabled",
-         "ingameKey": "Set4_Fabled",
-         "name": "Fabled",
-         "desc": "",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Fabled.svg",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Fabled.svg",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Fabled.svg",
-         "type": "ORIGIN",
-         "styles": [
-            {
-               "style": "gold",
-               "min": 3
+        },
+        {
+            "key": "Fabled",
+            "ingameKey": "Set4_Fabled",
+            "name": "Fabled",
+            "desc": "",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Fabled.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Fabled.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Fabled.svg",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "gold",
+                    "min": 3
+                }
+            ],
+            "stats": {
+                "3": "Fabled champion's spells are empowered from tales of their past valor."
             }
-         ],
-         "stats": {
-            "3": "Fabled champion's spells are empowered from tales of their past valor."
-         }
-      },
-      {
-         "key": "Mage",
-         "ingameKey": "Set4_Mage",
-         "name": "Mage",
-         "desc": "Mages cast twice and have modified Spell Power.",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Mage.svg",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Mage.svg",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Mage.svg",
-         "type": "CLASS",
-         "styles": [
-            {
-               "style": "bronze",
-               "min": 3,
-               "max": 4
-            },
-            {
-               "style": "gold",
-               "min": 5,
-               "max": 6
-            },
-            {
-               "style": "chromatic",
-               "min": 7
+        },
+        {
+            "key": "Mage",
+            "ingameKey": "Set4_Mage",
+            "name": "Mage",
+            "desc": "Mages cast twice and have modified Spell Power.",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Mage.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Mage.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Mage.svg",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 3,
+                    "max": 4
+                },
+                {
+                    "style": "gold",
+                    "min": 5,
+                    "max": 6
+                },
+                {
+                    "style": "chromatic",
+                    "min": 7
+                }
+            ],
+            "stats": {
+                "3": "80% of their total Spell Power",
+                "5": "105% of their total Spell Power",
+                "7": "130% of their total Spell Power"
             }
-         ],
-         "stats": {
-            "3": "80% of their total Spell Power",
-            "5": "105% of their total Spell Power",
-            "7": "130% of their total Spell Power"
-         }
-      },
-      {
-         "key": "Mystic",
-         "ingameKey": "Set4_Mystic",
-         "name": "Mystic",
-         "desc": "All allies gain Magic Resistance.",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Mystic.svg",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Mystic.svg",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Mystic.svg",
-         "type": "CLASS",
-         "styles": [
-            {
-               "style": "bronze",
-               "min": 2,
-               "max": 3
-            },
-            {
-               "style": "gold",
-               "min": 4,
-               "max": 5
-            },
-            {
-               "style": "chromatic",
-               "min": 6
+        },
+        {
+            "key": "Mystic",
+            "ingameKey": "Set4_Mystic",
+            "name": "Mystic",
+            "desc": "All allies gain Magic Resistance.",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Mystic.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Mystic.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Mystic.svg",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "gold",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "chromatic",
+                    "min": 6
+                }
+            ],
+            "stats": {
+                "2": "40 Magic Resistance",
+                "4": "120 Magic Resistance",
+                "6": "300 Magic Resistance"
             }
-         ],
-         "stats": {
-            "2": "40 Magic Resistance",
-            "4": "120 Magic Resistance",
-            "6": "300 Magic Resistance"
-         }
-      },
-      {
-         "key": "Ninja",
-         "ingameKey": "Set4_Ninja",
-         "name": "Ninja",
-         "desc": "Ninjas gain bonus Attack Damage and Spell Power. This trait is only active when you have exactly 1 or 4 unique Ninjas.",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Ninja.svg",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Ninja.svg",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Ninja.svg",
-         "type": "ORIGIN",
-         "styles": [
-            {
-               "style": "bronze",
-               "min": 1,
-               "max": 1
-            },
-            {
-               "style": "gold",
-               "min": 4,
-               "max": 4
+        },
+        {
+            "key": "Ninja",
+            "ingameKey": "Set4_Ninja",
+            "name": "Ninja",
+            "desc": "Ninjas gain bonus Attack Damage and Spell Power. This trait is only active when you have exactly 1 or 4 unique Ninjas.",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Ninja.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Ninja.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Ninja.svg",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "style": "gold",
+                    "min": 4,
+                    "max": 4
+                }
+            ],
+            "stats": {
+                "1": "Ninja gains +50 AD & SP",
+                "4": "All Ninjas gain +140 AD & SP"
             }
-         ],
-         "stats": {
-            "1": "Ninja gains +50 AD & SP",
-            "4": "All Ninjas gain +140 AD & SP"
-         }
-      },
-      {
-         "key": "Sharpshooter",
-         "ingameKey": "Set4_Sharpshooter",
-         "name": "Sharpshooter",
-         "desc": "Sharpshooters' attacks and spells ricochet to nearby enemies, dealing reduced damage.",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Sharpshooter.svg",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Sharpshooter.svg",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Sharpshooter.svg",
-         "type": "CLASS",
-         "styles": [
-            {
-               "style": "bronze",
-               "min": 2,
-               "max": 3
-            },
-            {
-               "style": "gold",
-               "min": 4,
-               "max": 5
-            },
-            {
-               "style": "chromatic",
-               "min": 6
+        },
+        {
+            "key": "Sharpshooter",
+            "ingameKey": "Set4_Sharpshooter",
+            "name": "Sharpshooter",
+            "desc": "Sharpshooters' attacks and spells ricochet to nearby enemies, dealing reduced damage.",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Sharpshooter.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Sharpshooter.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Sharpshooter.svg",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "gold",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "chromatic",
+                    "min": 6
+                }
+            ],
+            "stats": {
+                "2": "2 ricochets with 65% reduced damage",
+                "4": "3 ricochets with 45% reduced damage",
+                "6": "4 ricochets with 30% reduced damage"
             }
-         ],
-         "stats": {
-            "2": "2 ricochets with 65% reduced damage",
-            "4": "3 ricochets with 45% reduced damage",
-            "6": "4 ricochets with 30% reduced damage"
-         }
-      },
-      {
-         "key": "Spirit",
-         "ingameKey": "Set4_Spirit",
-         "name": "Spirit",
-         "desc": "The first time a Spirit casts their spell, all allies gain Attack Speed.",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Spirit.svg",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Spirit.svg",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Spirit.svg",
-         "type": "ORIGIN",
-         "styles": [
-            {
-               "style": "bronze",
-               "min": 2,
-               "max": 3
-            },
-            {
-               "style": "gold",
-               "min": 4
+        },
+        {
+            "key": "Spirit",
+            "ingameKey": "Set4_Spirit",
+            "name": "Spirit",
+            "desc": "The first time a Spirit casts their spell, all allies gain Attack Speed.",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Spirit.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Spirit.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Spirit.svg",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "gold",
+                    "min": 4
+                }
+            ],
+            "stats": {
+                "2": "18% Attack Speed",
+                "4": "30% Attack Speed"
             }
-         ],
-         "stats": {
-            "2": "18% Attack Speed",
-            "4": "30% Attack Speed"
-         }
-      },
-      {
-         "key": "Syphoner",
-         "ingameKey": "Set4_Syphoner",
-         "name": "Syphoner",
-         "desc": "All allies heal for some of the damage they deal with spells and attacks.",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Syphoner.svg",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Syphoner.svg",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Syphoner.svg",
-         "type": "CLASS",
-         "styles": [
-            {
-               "style": "bronze",
-               "min": 2,
-               "max": 3
-            },
-            {
-               "style": "gold",
-               "min": 4
+        },
+        {
+            "key": "Syphoner",
+            "ingameKey": "Set4_Syphoner",
+            "name": "Syphoner",
+            "desc": "All allies heal for some of the damage they deal with spells and attacks.",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Syphoner.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Syphoner.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Syphoner.svg",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "gold",
+                    "min": 4
+                }
+            ],
+            "stats": {
+                "2": "10% for Allies, 40% for Syphoners",
+                "4": "25% for Allies, 100% for Syphoners"
             }
-         ],
-         "stats": {
-            "2": "10% for Allies, 40% for Syphoners",
-            "4": "25% for Allies, 100% for Syphoners"
-         }
-      },
-      {
-         "key": "Vanguard",
-         "ingameKey": "Set4_Vanguard",
-         "name": "Vanguard",
-         "desc": "Vanguard champions gain bonus Armor and Magic Resist",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Vanguard.svg",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Vanguard.svg",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Vanguard.svg",
-         "type": "CLASS",
-         "styles": [
-            {
-               "style": "bronze",
-               "min": 2,
-               "max": 3
-            },
-            {
-               "style": "silver",
-               "min": 4,
-               "max": 5
-            },
-            {
-               "style": "gold",
-               "min": 6,
-               "max": 7
-            },
-            {
-               "style": "chromatic",
-               "min": 8
+        },
+        {
+            "key": "Vanguard",
+            "ingameKey": "Set4_Vanguard",
+            "name": "Vanguard",
+            "desc": "Vanguard champions gain bonus Armor and Magic Resist",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Vanguard.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Vanguard.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Vanguard.svg",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "silver",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6,
+                    "max": 7
+                },
+                {
+                    "style": "chromatic",
+                    "min": 8
+                }
+            ],
+            "stats": {
+                "2": "100 Armor and 10 Magic Resist",
+                "4": "250 Armor and 25 Magic Resist",
+                "6": "500 Armor and 50 Magic Resist",
+                "8": "1000 Armor and 80 Magic Resist"
             }
-         ],
-         "stats": {
-            "2": "100 Armor and 10 Magic Resist",
-            "4": "250 Armor and 25 Magic Resist",
-            "6": "500 Armor and 50 Magic Resist",
-            "8": "1000 Armor and 80 Magic Resist"
-         }
-      },
-      {
-         "key": "Slayer",
-         "ingameKey": "Slayer",
-         "name": "Slayer",
-         "desc": "Slayers gain Lifesteal that increases at lower Health, and deal bonus damage that increases based off their target's missing Health.",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Slayer.svg",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Slayer.svg",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Slayer.svg",
-         "type": "CLASS",
-         "styles": [
-            {
-               "style": "bronze",
-               "min": 3,
-               "max": 5
-            },
-            {
-               "style": "gold",
-               "min": 6
+        },
+        {
+            "key": "Slayer",
+            "ingameKey": "Slayer",
+            "name": "Slayer",
+            "desc": "Slayers gain Lifesteal that increases at lower Health, and deal bonus damage that increases based off their target's missing Health.",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Slayer.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Slayer.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Slayer.svg",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 3,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6
+                }
+            ],
+            "stats": {
+                "3": "15 to 30% Lifesteal and 20 to 45% Bonus Damage",
+                "6": "30 to 60% Lifesteal and 35 to 80% Bonus Damage"
             }
-         ],
-         "stats": {
-            "3": "15 to 30% Lifesteal and 20 to 45% Bonus Damage",
-            "6": "30 to 60% Lifesteal and 35 to 80% Bonus Damage"
-         }
-      },
-      {
-         "key": "Warlord",
-         "ingameKey": "Warlord",
-         "name": "Warlord",
-         "desc": "Warlords have bonus Health and Spell Power. Each victorious combat they participate in increases the bonus by 10%, stacking up to 5 times.",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Warlord.svg",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Warlord.svg",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Warlord.svg",
-         "type": "ORIGIN",
-         "styles": [
-            {
-               "style": "bronze",
-               "min": 3,
-               "max": 5
-            },
-            {
-               "style": "gold",
-               "min": 6,
-               "max": 8
-            },
-            {
-               "style": "chromatic",
-               "min": 9
+        },
+        {
+            "key": "Warlord",
+            "ingameKey": "Warlord",
+            "name": "Warlord",
+            "desc": "Warlords have bonus Health and Spell Power. Each victorious combat they participate in increases the bonus by 10%, stacking up to 5 times.",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Warlord.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Warlord.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Warlord.svg",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 3,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6,
+                    "max": 8
+                },
+                {
+                    "style": "chromatic",
+                    "min": 9
+                }
+            ],
+            "stats": {
+                "3": "250 HP & 25 SP",
+                "6": "400 HP & 40 SP",
+                "9": "700 HP & 70 SP"
             }
-         ],
-         "stats": {
-            "3": "250 HP & 25 SP",
-            "6": "400 HP & 40 SP",
-            "9": "700 HP & 70 SP"
-         }
-      }
-   ]
+        }
+    ]
 }

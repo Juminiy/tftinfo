@@ -1,0 +1,766 @@
+{
+    "craftable": [
+        {
+            "name": "TFT11_Emblem_Name_Storyweaver",
+            "composition": [
+                "TFT_Item_Spatula",
+                "TFT_Item_ChainVest"
+            ],
+            "effects": {
+                "Armor": 20
+            },
+            "desc": "TFT11_Emblem_Description_Storyweaver"
+        },
+        {
+            "name": "TFT11_Emblem_Name_Dryad",
+            "composition": [
+                "TFT_Item_Spatula",
+                "TFT_Item_GiantsBelt"
+            ],
+            "effects": {
+                "Health": 150
+            },
+            "desc": "TFT11_Emblem_Description_Dryad"
+        },
+        {
+            "name": "TFT11_Emblem_Name_Umbral",
+            "composition": [
+                "TFT_Item_Spatula",
+                "TFT_Item_SparringGloves"
+            ],
+            "effects": {
+                "CritChance": 20
+            },
+            "desc": "TFT11_Emblem_Description_Umbral"
+        },
+        {
+            "name": "TFT11_Emblem_Name_Fated",
+            "composition": [
+                "TFT_Item_Spatula",
+                "TFT_Item_NeedlesslyLargeRod"
+            ],
+            "effects": {
+                "AP": 10,
+                "HPRegen": 0.029999999329447746,
+                "ProcRate": 3
+            },
+            "desc": "TFT11_Emblem_Description_Fated"
+        },
+        {
+            "name": "TFT11_Emblem_Name_Heavenly",
+            "composition": [
+                "TFT_Item_Spatula",
+                "TFT_Item_NegatronCloak"
+            ],
+            "effects": {
+                "MagicResist": 20
+            },
+            "desc": "TFT11_Emblem_Description_Heavenly"
+        },
+        {
+            "name": "TFT11_Emblem_Name_Mythic",
+            "composition": [
+                "TFT_Item_Spatula",
+                "TFT_Item_TearOfTheGoddess"
+            ],
+            "effects": {
+                "Mana": 15
+            },
+            "desc": "TFT11_Emblem_Description_Mythic"
+        },
+        {
+            "name": "TFT11_Emblem_Name_Ghostly",
+            "composition": [
+                "TFT_Item_BFSword",
+                "TFT_Item_Spatula"
+            ],
+            "effects": {
+                "AD": 0.10000000149011612
+            },
+            "desc": "TFT11_Emblem_Description_Ghostly"
+        },
+        {
+            "name": "TFT11_Emblem_Name_Porcelain",
+            "composition": [
+                "TFT_Item_Spatula",
+                "TFT_Item_RecurveBow"
+            ],
+            "effects": {
+                "AS": 10
+            },
+            "desc": "TFT11_Emblem_Description_Porcelain"
+        }
+    ],
+    "emblem": [],
+    "radiant": [],
+    "artifact": [],
+    "support": [],
+    "special": [
+        {
+            "name": "TFT_Item_Artifact_InnervatingLocket",
+            "composition": [],
+            "effects": {
+                "Duration": 3,
+                "Health": 150,
+                "Mana": 15,
+                "PercentHealth": 20,
+                "PercentMana": 2
+            },
+            "desc": "TFT_Item_Artifact_InnervatingLocket_Desc"
+        },
+        {
+            "name": "tft_item_name_assist_tacticians_crown",
+            "composition": [],
+            "effects": {},
+            "desc": "tft_item_name_assist_tacticians_crown"
+        },
+        {
+            "name": "tft_item_name_assist_thiefsgloves",
+            "composition": [],
+            "effects": {},
+            "desc": "tft_item_name_assist_thiefsgloves"
+        },
+        {
+            "name": "tft_item_name_assist_spatula",
+            "composition": [],
+            "effects": {},
+            "desc": "tft_item_name_assist_spatula"
+        },
+        {
+            "name": "TFT9_Item_Name_OrnnHullbreaker",
+            "composition": [],
+            "effects": {
+                "AS": 30,
+                "Armor": 35,
+                "ExtraHealth": 600,
+                "MagicResist": 35
+            },
+            "desc": "TFT9_Item_Desc_OrnnHullbreaker"
+        },
+        {
+            "name": "TFT11_Emblem_Name_Reaper",
+            "composition": [],
+            "effects": {
+                "Health": 150
+            },
+            "desc": "TFT11_Emblem_Description_Reaper"
+        },
+        {
+            "name": "TFT11_Emblem_Name_Sage",
+            "composition": [],
+            "effects": {
+                "Health": 150
+            },
+            "desc": "TFT11_Emblem_Description_Sage"
+        },
+        {
+            "name": "TFT11_Emblem_Name_Dragonlord",
+            "composition": [],
+            "effects": {
+                "Health": 150
+            },
+            "desc": "TFT11_Emblem_Description_Dragonlord"
+        },
+        {
+            "name": "TFT11_Emblem_Name_Sniper",
+            "composition": [],
+            "effects": {
+                "Health": 150
+            },
+            "desc": "TFT11_Emblem_Description_Sniper"
+        },
+        {
+            "name": "TFT11_Emblem_Name_Challenger",
+            "composition": [],
+            "effects": {
+                "Health": 150
+            },
+            "desc": "TFT11_Emblem_Description_Challenger"
+        },
+        {
+            "name": "TFT11_Emblem_Name_Behemoth",
+            "composition": [],
+            "effects": {
+                "Health": 150
+            },
+            "desc": "TFT11_Emblem_Description_Behemoth"
+        },
+        {
+            "name": "TFT11_Emblem_Name_Invoker",
+            "composition": [],
+            "effects": {
+                "Health": 150
+            },
+            "desc": "TFT11_Emblem_Description_Invoker"
+        },
+        {
+            "name": "TFT11_Emblem_Name_Bruiser",
+            "composition": [],
+            "effects": {
+                "Health": 150
+            },
+            "desc": "TFT11_Emblem_Description_Bruiser"
+        },
+        {
+            "name": "TFT11_Emblem_Name_Fortune",
+            "composition": [],
+            "effects": {
+                "Health": 150
+            },
+            "desc": "TFT11_Emblem_Description_Fortune"
+        },
+        {
+            "name": "TFT11_Emblem_Name_InkShadow",
+            "composition": [],
+            "effects": {
+                "Health": 150
+            },
+            "desc": "TFT11_Emblem_Description_InkShadow"
+        },
+        {
+            "name": "TFT11_Emblem_Name_Guardian",
+            "composition": [],
+            "effects": {
+                "Health": 150
+            },
+            "desc": "TFT11_Emblem_Description_Guardian"
+        },
+        {
+            "name": "TFT11_Emblem_Name_Spellslinger",
+            "composition": [],
+            "effects": {
+                "Health": 150
+            },
+            "desc": "TFT11_Emblem_Description_Spellslinger"
+        },
+        {
+            "name": "TFT11_Emblem_Name_Altruist",
+            "composition": [],
+            "effects": {
+                "Health": 150
+            },
+            "desc": "TFT11_Emblem_Description_Altruist"
+        },
+        {
+            "name": "TFT4_Item_Name_OrnnMuramana",
+            "composition": [],
+            "effects": {
+                "AD": 0.15000000596046448,
+                "AP": 10,
+                "AS": 15,
+                "Mana": 15,
+                "ManaDuration": 5,
+                "ManaRestore": 120
+            },
+            "desc": "TFT4_Item_Description_OrnnMuramana"
+        },
+        {
+            "name": "TFT9_Item_OrnnTrickstersGlass_name",
+            "composition": [],
+            "effects": {
+                "AS": 10,
+                "Armor": 10,
+                "CritChance": 15,
+                "HealthPercent": 70,
+                "MagicResist": 10,
+                "ManaIncrease": 0.30000001192092896
+            },
+            "desc": "TFT9_Item_Ornn_TrickstersGlass_Desc"
+        },
+        {
+            "name": "TFT11_Item_Storyweaver5_OnCastWide_Name",
+            "composition": [],
+            "effects": {
+                "DamageAmpPercent": 0.15000000596046448
+            },
+            "desc": "TFT11_Item_Storyweaver5_OnCastWide_ItemDescription"
+        },
+        {
+            "name": "TFT11_Item_Storyweaver7_AttackAoE_Name",
+            "composition": [],
+            "effects": {
+                "DamageAmpPercent": 0.20000000298023224,
+                "HexRadius": 1
+            },
+            "desc": "TFT11_Item_Storyweaver7_AttackAoE_ItemDescription"
+        },
+        {
+            "name": "TFT11_Item_Storyweaver3_ShredSunder_Name",
+            "composition": [],
+            "effects": {
+                "Duration": 3,
+                "ResistPercent": 0.20000000298023224
+            },
+            "desc": "TFT11_Item_Storyweaver3_ShredSunder_ItemDescription"
+        },
+        {
+            "name": "TFT11_Item_Storyweaver7_Ascended_Name",
+            "composition": [],
+            "effects": {
+                "AD": 5,
+                "AP": 250,
+                "AS": 2,
+                "Armor": 200,
+                "HP": 2000,
+                "MagicResist": 200,
+                "{63a4b712}": 500,
+                "{bd7eea9a}": 50
+            },
+            "desc": "TFT11_Item_Storyweaver7_Ascended_ItemDescription"
+        },
+        {
+            "name": "TFT11_Item_Storyweaver7_Revive_Name",
+            "composition": [],
+            "effects": {
+                "Duration": 7,
+                "HPPercent": 0.5,
+                "{d76b8ef7}": 2000
+            },
+            "desc": "TFT11_Item_Storyweaver7_Revive_ItemDescription"
+        },
+        {
+            "name": "TFT11_Item_Storyweaver5_AS_Name",
+            "composition": [],
+            "effects": {
+                "ASAmt": 0.05999999865889549,
+                "{937db108}": 0.10000000149011612
+            },
+            "desc": "TFT11_Item_Storyweaver5_AS_ItemDescription"
+        },
+        {
+            "name": "TFT11_Item_Storyweaver3_Guinsoos_Name",
+            "composition": [],
+            "effects": {
+                "APAmt": 0.5
+            },
+            "desc": "TFT11_Item_Storyweaver3_Guinsoos_ItemDescription"
+        },
+        {
+            "name": "TFT11_Item_Storyweaver3_StackingAP_Name",
+            "composition": [],
+            "effects": {
+                "APAmt": 20,
+                "HexRange": 1
+            },
+            "desc": "TFT11_Item_Storyweaver3_StackingAP_ItemDescription"
+        },
+        {
+            "name": "TFT11_Item_Storyweaver3_StartMana_Name",
+            "composition": [],
+            "effects": {
+                "ASAmt": 0.11999999731779099,
+                "HexRange": 1
+            },
+            "desc": "TFT11_Item_Storyweaver3_StartMana_ItemDescription"
+        },
+        {
+            "name": "TFT_Item_Artifact_LichBane",
+            "composition": [],
+            "effects": {
+                "AP": 30,
+                "Mana": 15,
+                "{9b6d43b2}": 480,
+                "{9d6d46d8}": 480,
+                "{9e6d486b}": 480,
+                "{9f6d49fe}": 340,
+                "{a06d4b91}": 410,
+                "{a16d4d24}": 200,
+                "{a26d4eb7}": 270,
+                "{a46d51dd}": 200
+            },
+            "desc": "TFT_Item_Artifact_LichBane_Desc"
+        },
+        {
+            "name": "TFT_Item_SentinelSwarm_Name",
+            "composition": [],
+            "effects": {},
+            "desc": "TFT_Item_SentinelSwarm_dsc"
+        },
+        {
+            "name": "TFT_Item_Artifact_ForbiddenIdol",
+            "composition": [],
+            "effects": {
+                "Armor": 25,
+                "Health": 200,
+                "MagicResist": 25,
+                "PercentShieldConversion": 50
+            },
+            "desc": "TFT_Item_Artifact_ForbiddenIdol_Desc"
+        },
+        {
+            "name": "TFT11_Item_InkshadowBelt_Name",
+            "composition": [],
+            "effects": {
+                "Health": 350,
+                "HealthRatio": 0.029999999329447746
+            },
+            "desc": "TFT11_Item_InkshadowBelt_Description"
+        },
+        {
+            "name": "TFT11_Item_InkshadowGlove_Name",
+            "composition": [],
+            "effects": {
+                "Armor": 35,
+                "BuffDuration": 4,
+                "Damage": 250,
+                "MagicResist": 35,
+                "StunDuration": 1
+            },
+            "desc": "TFT11_Item_InkshadowGlove_Description"
+        },
+        {
+            "name": "TFT11_Item_InkshadowBow_Name",
+            "composition": [],
+            "effects": {
+                "AD": 0.25,
+                "ADPercent": 60,
+                "AS": 25
+            },
+            "desc": "TFT11_Item_InkshadowBow_Description"
+        },
+        {
+            "name": "TFT11_Item_InkshadowCloak_Name",
+            "composition": [],
+            "effects": {
+                "AllyShieldRatio": 0.5,
+                "Health": 250,
+                "HealthShieldRatio": 0.4000000059604645
+            },
+            "desc": "TFT11_Item_InkshadowCloak_Description"
+        },
+        {
+            "name": "TFT11_Item_InkshadowRod_Name",
+            "composition": [],
+            "effects": {
+                "AD": 0.25,
+                "AP": 25,
+                "DamageRatio": 0.33000001311302185,
+                "Duration": 3,
+                "HealingReductionPct": 33
+            },
+            "desc": "TFT11_Item_InkshadowRod_Description"
+        },
+        {
+            "name": "TFT11_Item_InkshadowSword_Name",
+            "composition": [],
+            "effects": {
+                "AS": 30,
+                "AttackSpeedPercent": 40,
+                "BonusRatio": 0.3499999940395355,
+                "Duration": 6
+            },
+            "desc": "TFT11_Item_InkshadowSword_Description"
+        },
+        {
+            "name": "TFT_Item_Artifact_Fishbones",
+            "composition": [],
+            "effects": {
+                "AD": 0.3499999940395355,
+                "AS": 35
+            },
+            "desc": "TFT_Item_Artifact_Fishbones_Desc"
+        },
+        {
+            "name": "TFT4_Item_Name_OrnnAnimaVisage",
+            "composition": [],
+            "effects": {
+                "Health": 450,
+                "MagicResist": 25,
+                "PercentHealthRegen": 2.5
+            },
+            "desc": "TFT4_Item_Description_OrnnAnimaVisage"
+        },
+        {
+            "name": "TFT_Item_Artifact_UnendingDespair",
+            "composition": [],
+            "effects": {
+                "Armor": 40,
+                "Health": 400,
+                "PercentDamage": 125
+            },
+            "desc": "TFT_Item_Artifact_UnendingDespair_Desc"
+        },
+        {
+            "name": "TFT4_Item_Name_OrnnEternalWinter",
+            "composition": [],
+            "effects": {
+                "Armor": 20,
+                "AttackSpeedSlowPercent": 20,
+                "FreezeCooldown": 15,
+                "FreezeDuration": 1.5,
+                "Health": 200,
+                "NumApplications": 7,
+                "SlowDuration": 1.5
+            },
+            "desc": "TFT4_Item_Description_OrnnEternalWinter"
+        },
+        {
+            "name": "TFT4_Item_Name_OrnnObsidianCleaver",
+            "composition": [],
+            "effects": {
+                "Duration": 15,
+                "Health": 250,
+                "Shred": 30,
+                "TeamAD": 0.07999999821186066,
+                "TeamAP": 8
+            },
+            "desc": "TFT4_Item_Description_OrnnObsidianCleaver"
+        },
+        {
+            "name": "TFT4_Item_Name_OrnnZhonyasParadox",
+            "composition": [],
+            "effects": {
+                "AP": 45,
+                "Armor": 30,
+                "InvulnDuration": 3,
+                "MagicResist": 30,
+                "PercentHealthThreshold": 40
+            },
+            "desc": "TFT4_Item_Description_OrnnZhonyasParadox"
+        },
+        {
+            "name": "TFT_Item_Artifact_LudensTempest",
+            "composition": [],
+            "effects": {
+                "AD": 0.4000000059604645,
+                "AP": 40,
+                "BaseDamage": 100,
+                "PercentOfOverkill": 100
+            },
+            "desc": "TFT_Item_Artifact_LudensTempest_Desc"
+        },
+        {
+            "name": "TFT_Item_Artifact_SpectralCutlass",
+            "composition": [],
+            "effects": {
+                "AD": 0.4000000059604645,
+                "CritChance": 20,
+                "Duration": 8
+            },
+            "desc": "TFT_Item_Artifact_SpectralCutlass_Desc"
+        },
+        {
+            "name": "TFT_Item_Artifact_RapidFirecannon",
+            "composition": [],
+            "effects": {
+                "AS": 75
+            },
+            "desc": "TFT_Item_Artifact_RapidFirecannon_Desc"
+        },
+        {
+            "name": "TFT9_Item_OrnnHorizonFocus_name",
+            "composition": [],
+            "effects": {
+                "AD": 0.15000000596046448,
+                "AP": 15,
+                "AS": 15,
+                "HexRangeIncrease": 1,
+                "PercentDamageIncrease": 9,
+                "{924e3cb2}": 0.09000000357627869
+            },
+            "desc": "TFT9_Item_OrnnHorizonFocus"
+        },
+        {
+            "name": "TFT_Item_Artifact_LightshieldCrest",
+            "composition": [],
+            "effects": {
+                "Armor": 50,
+                "MagicResist": 50,
+                "PercentOfResists": 50,
+                "TriggerRate": 3
+            },
+            "desc": "TFT_Item_Artifact_LightshieldCrest_Desc"
+        },
+        {
+            "name": "TFT4_Item_Name_OrnnDeathsDefiance",
+            "composition": [],
+            "effects": {
+                "AD": 0.10000000149011612,
+                "AS": 25,
+                "Armor": 30,
+                "BaseHeal": 25,
+                "BleedDuration": 4,
+                "IgnorePainPercent": 50,
+                "{db94e296}": 0.25
+            },
+            "desc": "TFT4_Item_Description_OrnnDeathsDefiance"
+        },
+        {
+            "name": "TFT_Item_Artifact_BlightingJewel",
+            "composition": [],
+            "effects": {
+                "AP": 40,
+                "MRReduction": 4,
+                "ManaGain": 5
+            },
+            "desc": "TFT_Item_Artifact_BlightingJewel_Desc"
+        },
+        {
+            "name": "TFT_Item_Artifact_TalismanOfAscension",
+            "composition": [],
+            "effects": {
+                "AD": 0.20000000298023224,
+                "AP": 20,
+                "DamageAmp": 1.2000000476837158,
+                "DamageIncreasePercent": 120,
+                "Health": 300,
+                "MaxHealthPercent": 100,
+                "Seconds": 22
+            },
+            "desc": "TFT_Item_Artifact_TalismanOfAscension_Desc"
+        },
+        {
+            "name": "TFT4_Item_Name_OrnnTrinityForce",
+            "composition": [],
+            "effects": {
+                "AD": 0.25,
+                "AP": 25,
+                "AS": 25,
+                "Armor": 25,
+                "Health": 250,
+                "MagicResist": 25,
+                "Mana": 25
+            },
+            "desc": "TFT4_Item_Description_OrnnTrinityForce"
+        },
+        {
+            "name": "TFT_Item_Artifact_SuspiciousTrenchCoat",
+            "composition": [],
+            "effects": {
+                "AS": 25,
+                "Health": 100,
+                "PercentHealthOfCopies": 33,
+                "PercentHealthTrigger": 50
+            },
+            "desc": "TFT_Item_Artifact_SuspiciousTrenchCoat_Desc"
+        },
+        {
+            "name": "TFT_Item_Artifact_Mittens",
+            "composition": [],
+            "effects": {
+                "AS": 60,
+                "PercentDR": 20,
+                "{cd951938}": 0.20000000298023224
+            },
+            "desc": "TFT_Item_Artifact_Mittens_Desc"
+        },
+        {
+            "name": "TFT9_Item_OrnnDeathfireGrasp_Name",
+            "composition": [],
+            "effects": {
+                "AP": 50,
+                "BaseAmp": 0.25,
+                "BaseDamageAmp": 0.25,
+                "BonusAmp": 0.3499999940395355,
+                "Duration": 10,
+                "Mana": 15,
+                "PercentMaxHealthDamage": 0.20000000298023224,
+                "{e7fd69cd}": 0.3499999940395355
+            },
+            "desc": "TFT9_OrnnDeathfireGrasp_Desc"
+        },
+        {
+            "name": "TFT_Item_Artifact_CursedVampiricScepter",
+            "composition": [],
+            "effects": {
+                "AS": 60,
+                "PercentDamage": 50
+            },
+            "desc": "TFT_Item_Artifact_CursedVampiricScepter_Desc"
+        },
+        {
+            "name": "TFT_Item_Artifact_WitsEnd",
+            "composition": [],
+            "effects": {
+                "AS": 30,
+                "MagicResist": 30,
+                "PercentHealing": 35,
+                "{54f90860}": 90,
+                "{55f909f3}": 75,
+                "{56f90b86}": 100,
+                "{57f90d19}": 100,
+                "{58f90eac}": 42,
+                "{5af911d2}": 60,
+                "{5bf91365}": 42,
+                "{61f91cd7}": 100
+            },
+            "desc": "TFT_Item_Artifact_WitsEnd_Desc"
+        },
+        {
+            "name": "TFT_Item_Artifact_HorizonFocus",
+            "composition": [],
+            "effects": {
+                "Armor": 20,
+                "Health": 250,
+                "MagicResist": 20,
+                "Mana": 15,
+                "PercentHealthDamage": 30
+            },
+            "desc": "TFT_Item_Artifact_HorizonFocus_Desc"
+        },
+        {
+            "name": "TFT4_Item_Name_OrnnRanduinsSanctum",
+            "composition": [],
+            "effects": {
+                "BonusDefense": 30,
+                "Health": 250
+            },
+            "desc": "TFT4_Item_Description_OrnnRanduinsSanctum"
+        },
+        {
+            "name": "TFT_Item_Artifact_ProwlersClaw",
+            "composition": [],
+            "effects": {
+                "AD": 0.4000000059604645,
+                "CritChance": 30,
+                "CritDamageBonusPercent": 60,
+                "HexRange": 4
+            },
+            "desc": "TFT_Item_Artifact_ProwlersClaw_Desc"
+        },
+        {
+            "name": "TFT_Item_Artifact_SilvermereDawn",
+            "composition": [],
+            "effects": {
+                "AD": 1.649999976158142,
+                "Armor": 50,
+                "AttackSpeedCap": 0.5,
+                "MagicResist": 50,
+                "StunDuration": 0.800000011920929
+            },
+            "desc": "TFT_Item_Artifact_SilvermereDawn_Desc"
+        },
+        {
+            "name": "TFT_Item_ThiefsGlovesSupport_Name",
+            "composition": [],
+            "effects": {
+                "CritChance": 20,
+                "Health": 150
+            },
+            "desc": "TFT_Item_ThiefsGlovesSupport_Description"
+        },
+        {
+            "name": "TFT_Item_Artifact_SeekersArmguard",
+            "composition": [],
+            "effects": {
+                "AP": 30,
+                "Armor": 30,
+                "MagicResist": 30,
+                "StatsPerKill": 15,
+                "StatsPerTakedown": 10
+            },
+            "desc": "TFT_Item_Artifact_SeekersArmguard_Desc"
+        },
+        {
+            "name": "TFT4_Item_Name_OrnnTheCollector",
+            "composition": [],
+            "effects": {
+                "AD": 0.20000000298023224,
+                "CritChance": 30,
+                "ExecutePercent": 12,
+                "GoldChance": 40
+            },
+            "desc": "TFT4_Item_Description_OrnnTheCollector"
+        }
+    ]
+}

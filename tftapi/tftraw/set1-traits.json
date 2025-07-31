@@ -1,618 +1,618 @@
 {
-   "season": "set1",
-   "traits": [
-      {
-         "key": "Assassin",
-         "ingameKey": "Assassin",
-         "name": "Assassin",
-         "desc": "Innate: At the start of combat Assassins leap to the farthest enemy. Assassins gain bonus Critical Strike Damage.",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_assassin.png",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_assassin.png",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_assassin.png",
-         "type": "CLASS",
-         "styles": [
-            {
-               "style": "bronze",
-               "min": 3,
-               "max": 5
-            },
-            {
-               "style": "silver",
-               "min": 6,
-               "max": 8
-            },
-            {
-               "style": "gold",
-               "min": 9
+    "season": "set1",
+    "traits": [
+        {
+            "key": "Assassin",
+            "ingameKey": "Assassin",
+            "name": "Assassin",
+            "desc": "Innate: At the start of combat Assassins leap to the farthest enemy. Assassins gain bonus Critical Strike Damage.",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_assassin.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_assassin.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_assassin.png",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 3,
+                    "max": 5
+                },
+                {
+                    "style": "silver",
+                    "min": 6,
+                    "max": 8
+                },
+                {
+                    "style": "gold",
+                    "min": 9
+                }
+            ],
+            "stats": {
+                "3": "75% Crit Damage & 5% Crit Chance",
+                "6": "150% Crit Damage & 20% Crit Chance",
+                "9": "225% Crit Damage & 30% Crit Chance"
             }
-         ],
-         "stats": {
-            "3": "75% Crit Damage & 5% Crit Chance",
-            "6": "150% Crit Damage & 20% Crit Chance",
-            "9": "225% Crit Damage & 30% Crit Chance"
-         }
-      },
-      {
-         "key": "Blademaster",
-         "ingameKey": "Blademaster",
-         "name": "Blademaster",
-         "desc": "Blademaster attacks have a 45% chance to trigger additional attacks on-hit",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_blademaster.png",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_blademaster.png",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_blademaster.png",
-         "type": "CLASS",
-         "styles": [
-            {
-               "style": "bronze",
-               "min": 3,
-               "max": 5
-            },
-            {
-               "style": "silver",
-               "min": 6,
-               "max": 8
-            },
-            {
-               "style": "gold",
-               "min": 9
+        },
+        {
+            "key": "Blademaster",
+            "ingameKey": "Blademaster",
+            "name": "Blademaster",
+            "desc": "Blademaster attacks have a 45% chance to trigger additional attacks on-hit",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_blademaster.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_blademaster.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_blademaster.png",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 3,
+                    "max": 5
+                },
+                {
+                    "style": "silver",
+                    "min": 6,
+                    "max": 8
+                },
+                {
+                    "style": "gold",
+                    "min": 9
+                }
+            ],
+            "stats": {
+                "3": "One Additional Attack",
+                "6": "Two Additional Attacks",
+                "9": "Four Additional Attacks"
             }
-         ],
-         "stats": {
-            "3": "One Additional Attack",
-            "6": "Two Additional Attacks",
-            "9": "Four Additional Attacks"
-         }
-      },
-      {
-         "key": "Brawler",
-         "ingameKey": "Brawler",
-         "name": "Brawler",
-         "desc": "Brawlers gain bonus maximum health",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_brawler.png",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_brawler.png",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_brawler.png",
-         "type": "CLASS",
-         "styles": [
-            {
-               "style": "bronze",
-               "min": 2,
-               "max": 3
-            },
-            {
-               "style": "silver",
-               "min": 4,
-               "max": 5
-            },
-            {
-               "style": "gold",
-               "min": 6
+        },
+        {
+            "key": "Brawler",
+            "ingameKey": "Brawler",
+            "name": "Brawler",
+            "desc": "Brawlers gain bonus maximum health",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_brawler.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_brawler.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_brawler.png",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "silver",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6
+                }
+            ],
+            "stats": {
+                "2": "250 Bonus Health",
+                "4": "500 Bonus Health",
+                "6": "900 Bonus Health"
             }
-         ],
-         "stats": {
-            "2": "250 Bonus Health",
-            "4": "500 Bonus Health",
-            "6": "900 Bonus Health"
-         }
-      },
-      {
-         "key": "Demon",
-         "ingameKey": "Demon",
-         "name": "Demon",
-         "desc": "Demon basic attacks have a 40% chance to burn 20 mana from their target and return some mana to the attacker.",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_demon.png",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_demon.png",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_demon.png",
-         "type": "ORIGIN",
-         "styles": [
-            {
-               "style": "bronze",
-               "min": 2,
-               "max": 3
-            },
-            {
-               "style": "silver",
-               "min": 4,
-               "max": 5
-            },
-            {
-               "style": "gold",
-               "min": 6
+        },
+        {
+            "key": "Demon",
+            "ingameKey": "Demon",
+            "name": "Demon",
+            "desc": "Demon basic attacks have a 40% chance to burn 20 mana from their target and return some mana to the attacker.",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_demon.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_demon.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_demon.png",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "silver",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6
+                }
+            ],
+            "stats": {
+                "2": "15 mana returned",
+                "4": "30 mana returned",
+                "6": "45 mana returned"
             }
-         ],
-         "stats": {
-            "2": "15 mana returned",
-            "4": "30 mana returned",
-            "6": "45 mana returned"
-         }
-      },
-      {
-         "key": "Dragon",
-         "ingameKey": "Dragon",
-         "name": "Dragon",
-         "desc": "",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_dragon.png",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_dragon.png",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_dragon.png",
-         "type": "ORIGIN",
-         "styles": [
-            {
-               "style": "gold",
-               "min": 2
+        },
+        {
+            "key": "Dragon",
+            "ingameKey": "Dragon",
+            "name": "Dragon",
+            "desc": "",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_dragon.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_dragon.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_dragon.png",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "gold",
+                    "min": 2
+                }
+            ],
+            "stats": {
+                "2": "Dragons gain 75% resistance to <b>Magic damage</b>"
             }
-         ],
-         "stats": {
-            "2": "Dragons gain 75% resistance to <b>Magic damage</b>"
-         }
-      },
-      {
-         "key": "Elementalist",
-         "ingameKey": "Elementalist",
-         "name": "Elementalist",
-         "desc": "Innate: Elementalists gain double mana from attacks",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_elementalist.png",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_elementalist.png",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_elementalist.png",
-         "type": "CLASS",
-         "styles": [
-            {
-               "style": "gold",
-               "min": 3
+        },
+        {
+            "key": "Elementalist",
+            "ingameKey": "Elementalist",
+            "name": "Elementalist",
+            "desc": "Innate: Elementalists gain double mana from attacks",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_elementalist.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_elementalist.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_elementalist.png",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "gold",
+                    "min": 3
+                }
+            ],
+            "stats": {
+                "3": "At the start of combat, summon a Golem"
             }
-         ],
-         "stats": {
-            "3": "At the start of combat, summon a Golem"
-         }
-      },
-      {
-         "key": "Exile",
-         "ingameKey": "Exile",
-         "name": "Exile",
-         "desc": "",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_exile.png",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_exile.png",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_exile.png",
-         "type": "ORIGIN",
-         "styles": [
-            {
-               "style": "gold",
-               "min": 1
+        },
+        {
+            "key": "Exile",
+            "ingameKey": "Exile",
+            "name": "Exile",
+            "desc": "",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_exile.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_exile.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_exile.png",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "gold",
+                    "min": 1
+                }
+            ],
+            "stats": {
+                "1": "If an Exiles has no adjacent allies at the start of combat, they gain a shield equal to 100% of their maximum Health"
             }
-         ],
-         "stats": {
-            "1": "If an Exiles has no adjacent allies at the start of combat, they gain a shield equal to 100% of their maximum Health"
-         }
-      },
-      {
-         "key": "Glacial",
-         "ingameKey": "Glacial",
-         "name": "Glacial",
-         "desc": "Glacial attacks gain a chance to stun enemies for 1.5s",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_glacial.png",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_glacial.png",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_glacial.png",
-         "type": "ORIGIN",
-         "styles": [
-            {
-               "style": "bronze",
-               "min": 2,
-               "max": 3
-            },
-            {
-               "style": "silver",
-               "min": 4,
-               "max": 5
-            },
-            {
-               "style": "gold",
-               "min": 6
+        },
+        {
+            "key": "Glacial",
+            "ingameKey": "Glacial",
+            "name": "Glacial",
+            "desc": "Glacial attacks gain a chance to stun enemies for 1.5s",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_glacial.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_glacial.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_glacial.png",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "silver",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6
+                }
+            ],
+            "stats": {
+                "2": "20% Chance to Stun",
+                "4": "33% Chance to Stun",
+                "6": "50% Chance to Stun"
             }
-         ],
-         "stats": {
-            "2": "20% Chance to Stun",
-            "4": "33% Chance to Stun",
-            "6": "50% Chance to Stun"
-         }
-      },
-      {
-         "key": "Guardian",
-         "ingameKey": "Guardian",
-         "name": "Guardian",
-         "desc": "",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_guardian.png",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_guardian.png",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_guardian.png",
-         "type": "CLASS",
-         "styles": [
-            {
-               "style": "gold",
-               "min": 2
+        },
+        {
+            "key": "Guardian",
+            "ingameKey": "Guardian",
+            "name": "Guardian",
+            "desc": "",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_guardian.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_guardian.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_guardian.png",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "gold",
+                    "min": 2
+                }
+            ],
+            "stats": {
+                "2": "At the start of combat, Guardians grants +40 Armor to adjacent allies. This Armor can stack (except guardians)."
             }
-         ],
-         "stats": {
-            "2": "At the start of combat, Guardians grants +40 Armor to adjacent allies. This Armor can stack (except guardians)."
-         }
-      },
-      {
-         "key": "Gunslinger",
-         "ingameKey": "Gunslinger",
-         "name": "Gunslinger",
-         "desc": "Gunslinger attacks gain a 50% chance to trigger additional attacks on-hit",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_gunslinger.png",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_gunslinger.png",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_gunslinger.png",
-         "type": "CLASS",
-         "styles": [
-            {
-               "style": "bronze",
-               "min": 2,
-               "max": 3
-            },
-            {
-               "style": "silver",
-               "min": 4,
-               "max": 5
-            },
-            {
-               "style": "gold",
-               "min": 6
+        },
+        {
+            "key": "Gunslinger",
+            "ingameKey": "Gunslinger",
+            "name": "Gunslinger",
+            "desc": "Gunslinger attacks gain a 50% chance to trigger additional attacks on-hit",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_gunslinger.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_gunslinger.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_gunslinger.png",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "silver",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6
+                }
+            ],
+            "stats": {
+                "2": "Attack 1 extra enemies",
+                "4": "Attack 2 extra enemies",
+                "6": "Attack 4 extra enemies"
             }
-         ],
-         "stats": {
-            "2": "Attack 1 extra enemies",
-            "4": "Attack 2 extra enemies",
-            "6": "Attack 4 extra enemies"
-         }
-      },
-      {
-         "key": "Hextech",
-         "ingameKey": "Hextech",
-         "name": "Hextech",
-         "desc": "When combat begins, the ally team launches and detonates a pulse bomb, temporarily disabling nearby enemy items for 5 seconds.",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_hextech.png",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_hextech.png",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_hextech.png",
-         "type": "ORIGIN",
-         "styles": [
-            {
-               "style": "bronze",
-               "min": 2,
-               "max": 3
-            },
-            {
-               "style": "gold",
-               "min": 4
+        },
+        {
+            "key": "Hextech",
+            "ingameKey": "Hextech",
+            "name": "Hextech",
+            "desc": "When combat begins, the ally team launches and detonates a pulse bomb, temporarily disabling nearby enemy items for 5 seconds.",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_hextech.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_hextech.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_hextech.png",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "gold",
+                    "min": 4
+                }
+            ],
+            "stats": {
+                "2": "within 1 hexes",
+                "4": "within 2 hexes"
             }
-         ],
-         "stats": {
-            "2": "within 1 hexes",
-            "4": "within 2 hexes"
-         }
-      },
-      {
-         "key": "Imperial",
-         "ingameKey": "Imperial",
-         "name": "Imperial",
-         "desc": "Gain Double Damage",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_imperial.png",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_imperial.png",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_imperial.png",
-         "type": "ORIGIN",
-         "styles": [
-            {
-               "style": "bronze",
-               "min": 2,
-               "max": 3
-            },
-            {
-               "style": "gold",
-               "min": 4
+        },
+        {
+            "key": "Imperial",
+            "ingameKey": "Imperial",
+            "name": "Imperial",
+            "desc": "Gain Double Damage",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_imperial.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_imperial.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_imperial.png",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "gold",
+                    "min": 4
+                }
+            ],
+            "stats": {
+                "2": "1 Random Imperial",
+                "4": "All Imperials"
             }
-         ],
-         "stats": {
-            "2": "1 Random Imperial",
-            "4": "All Imperials"
-         }
-      },
-      {
-         "key": "Knight",
-         "ingameKey": "Knight",
-         "name": "Knight",
-         "desc": "All allies block damage taken",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_knight.png",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_knight.png",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_knight.png",
-         "type": "CLASS",
-         "styles": [
-            {
-               "style": "bronze",
-               "min": 2,
-               "max": 3
-            },
-            {
-               "style": "silver",
-               "min": 4,
-               "max": 5
-            },
-            {
-               "style": "gold",
-               "min": 6
+        },
+        {
+            "key": "Knight",
+            "ingameKey": "Knight",
+            "name": "Knight",
+            "desc": "All allies block damage taken",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_knight.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_knight.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_knight.png",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "silver",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6
+                }
+            ],
+            "stats": {
+                "2": "15 Damage Blocked",
+                "4": "30 Damage Blocked",
+                "6": "60 Damage Blocked"
             }
-         ],
-         "stats": {
-            "2": "15 Damage Blocked",
-            "4": "30 Damage Blocked",
-            "6": "60 Damage Blocked"
-         }
-      },
-      {
-         "key": "Ninja",
-         "ingameKey": "Ninja",
-         "name": "Ninja",
-         "desc": "The Ninja Trait is only active when you have exactly 1 or all 4 Ninjas.",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_ninja.png",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_ninja.png",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_ninja.png",
-         "type": "ORIGIN",
-         "styles": [
-            {
-               "style": "bronze",
-               "min": 1,
-               "max": 1
-            },
-            {
-               "style": "gold",
-               "min": 4,
-               "max": 4
+        },
+        {
+            "key": "Ninja",
+            "ingameKey": "Ninja",
+            "name": "Ninja",
+            "desc": "The Ninja Trait is only active when you have exactly 1 or all 4 Ninjas.",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_ninja.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_ninja.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_ninja.png",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "style": "gold",
+                    "min": 4,
+                    "max": 4
+                }
+            ],
+            "stats": {
+                "1": "Ninja gains <b>+50 Attack Damage and Ability Power</b>",
+                "4": "All Ninja gain <b>+80 Attack Damage and Ability Power</b>"
             }
-         ],
-         "stats": {
-            "1": "Ninja gains <b>+50 Attack Damage and Ability Power</b>",
-            "4": "All Ninja gain <b>+80 Attack Damage and Ability Power</b>"
-         }
-      },
-      {
-         "key": "Noble",
-         "ingameKey": "Noble",
-         "name": "Noble",
-         "desc": "<b>+50 Armor & MR</b> and <b>heal 30 health</b> on-hit",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_noble.png",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_noble.png",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_noble.png",
-         "type": "ORIGIN",
-         "styles": [
-            {
-               "style": "bronze",
-               "min": 3,
-               "max": 5
-            },
-            {
-               "style": "gold",
-               "min": 6
+        },
+        {
+            "key": "Noble",
+            "ingameKey": "Noble",
+            "name": "Noble",
+            "desc": "<b>+50 Armor & MR</b> and <b>heal 30 health</b> on-hit",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_noble.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_noble.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_noble.png",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 3,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6
+                }
+            ],
+            "stats": {
+                "3": "1 Random Ally",
+                "6": "All Alies"
             }
-         ],
-         "stats": {
-            "3": "1 Random Ally",
-            "6": "All Alies"
-         }
-      },
-      {
-         "key": "Phantom",
-         "ingameKey": "Phantom",
-         "name": "Phantom",
-         "desc": "",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_phantom.png",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_phantom.png",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_phantom.png",
-         "type": "ORIGIN",
-         "styles": [
-            {
-               "style": "gold",
-               "min": 2
+        },
+        {
+            "key": "Phantom",
+            "ingameKey": "Phantom",
+            "name": "Phantom",
+            "desc": "",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_phantom.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_phantom.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_phantom.png",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "gold",
+                    "min": 2
+                }
+            ],
+            "stats": {
+                "2": "At the start of combat, <b>curse</b> a random enemy and set their <b>HP</b> to 100"
             }
-         ],
-         "stats": {
-            "2": "At the start of combat, <b>curse</b> a random enemy and set their <b>HP</b> to 100"
-         }
-      },
-      {
-         "key": "Pirate",
-         "ingameKey": "Pirate",
-         "name": "Pirate",
-         "desc": "",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_pirate.png",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_pirate.png",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_pirate.png",
-         "type": "ORIGIN",
-         "styles": [
-            {
-               "style": "gold",
-               "min": 3
+        },
+        {
+            "key": "Pirate",
+            "ingameKey": "Pirate",
+            "name": "Pirate",
+            "desc": "",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_pirate.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_pirate.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_pirate.png",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "gold",
+                    "min": 3
+                }
+            ],
+            "stats": {
+                "3": "At the end of combat against another player, gain <b>up to 4 additional gold</b>"
             }
-         ],
-         "stats": {
-            "3": "At the end of combat against another player, gain <b>up to 4 additional gold</b>"
-         }
-      },
-      {
-         "key": "Ranger",
-         "ingameKey": "Ranger",
-         "name": "Ranger",
-         "desc": "Rangers gain a chance to double their attack speed every 3s for the next 3s",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_ranger.png",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_ranger.png",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_ranger.png",
-         "type": "CLASS",
-         "styles": [
-            {
-               "style": "bronze",
-               "min": 2,
-               "max": 3
-            },
-            {
-               "style": "gold",
-               "min": 4
+        },
+        {
+            "key": "Ranger",
+            "ingameKey": "Ranger",
+            "name": "Ranger",
+            "desc": "Rangers gain a chance to double their attack speed every 3s for the next 3s",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_ranger.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_ranger.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_ranger.png",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "gold",
+                    "min": 4
+                }
+            ],
+            "stats": {
+                "2": "40% Chance to Double Attack Speed",
+                "4": "70% Chance to Double Attack Speed"
             }
-         ],
-         "stats": {
-            "2": "40% Chance to Double Attack Speed",
-            "4": "70% Chance to Double Attack Speed"
-         }
-      },
-      {
-         "key": "Robot",
-         "ingameKey": "Robot",
-         "name": "Robot",
-         "desc": "",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_robot.png",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_robot.png",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_robot.png",
-         "type": "ORIGIN",
-         "styles": [
-            {
-               "style": "gold",
-               "min": 1
+        },
+        {
+            "key": "Robot",
+            "ingameKey": "Robot",
+            "name": "Robot",
+            "desc": "",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_robot.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_robot.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_robot.png",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "gold",
+                    "min": 1
+                }
+            ],
+            "stats": {
+                "1": "Robots start combat at <b>full mana</b>"
             }
-         ],
-         "stats": {
-            "1": "Robots start combat at <b>full mana</b>"
-         }
-      },
-      {
-         "key": "Shapeshifter",
-         "ingameKey": "Shapeshifter",
-         "name": "Shapeshifter",
-         "desc": "Shapeshifters gain bonus maximum Health when they transform",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_shapeshifter.png",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_shapeshifter.png",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_shapeshifter.png",
-         "type": "CLASS",
-         "styles": [
-            {
-               "style": "bronze",
-               "min": 3,
-               "max": 5
-            },
-            {
-               "style": "gold",
-               "min": 6
+        },
+        {
+            "key": "Shapeshifter",
+            "ingameKey": "Shapeshifter",
+            "name": "Shapeshifter",
+            "desc": "Shapeshifters gain bonus maximum Health when they transform",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_shapeshifter.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_shapeshifter.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_shapeshifter.png",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 3,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6
+                }
+            ],
+            "stats": {
+                "3": "60% Bonus <b>Maximum Heath</b>",
+                "6": "100% Bonus <b>Maximum Heath</b>"
             }
-         ],
-         "stats": {
-            "3": "60% Bonus <b>Maximum Heath</b>",
-            "6": "100% Bonus <b>Maximum Heath</b>"
-         }
-      },
-      {
-         "key": "Sorcerer",
-         "ingameKey": "Sorcerer",
-         "name": "Sorcerer",
-         "desc": "Innate: Sorcerers gain double mana from attacks. All Allies have increased Spell Power",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_sorcerer.png",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_sorcerer.png",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_sorcerer.png",
-         "type": "CLASS",
-         "styles": [
-            {
-               "style": "bronze",
-               "min": 3,
-               "max": 5
-            },
-            {
-               "style": "silver",
-               "min": 6,
-               "max": 8
-            },
-            {
-               "style": "gold",
-               "min": 9
+        },
+        {
+            "key": "Sorcerer",
+            "ingameKey": "Sorcerer",
+            "name": "Sorcerer",
+            "desc": "Innate: Sorcerers gain double mana from attacks. All Allies have increased Spell Power",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_sorcerer.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_sorcerer.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_sorcerer.png",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 3,
+                    "max": 5
+                },
+                {
+                    "style": "silver",
+                    "min": 6,
+                    "max": 8
+                },
+                {
+                    "style": "gold",
+                    "min": 9
+                }
+            ],
+            "stats": {
+                "3": "+40% Spell Power",
+                "6": "+120% Spell Power",
+                "9": "+200% Spell Power"
             }
-         ],
-         "stats": {
-            "3": "+40% Spell Power",
-            "6": "+120% Spell Power",
-            "9": "+200% Spell Power"
-         }
-      },
-      {
-         "key": "Void",
-         "ingameKey": "Void",
-         "name": "Void",
-         "desc": "",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_void.png",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_void.png",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_void.png",
-         "type": "ORIGIN",
-         "styles": [
-            {
-               "style": "bronze",
-               "min": 2,
-               "max": 3
-            },
-            {
-               "style": "gold",
-               "min": 4
+        },
+        {
+            "key": "Void",
+            "ingameKey": "Void",
+            "name": "Void",
+            "desc": "",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_void.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_void.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_void.png",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "gold",
+                    "min": 4
+                }
+            ],
+            "stats": {
+                "2": "One random void champion deals true damage this combat",
+                "4": "All your void champions deal true damage this combat"
             }
-         ],
-         "stats": {
-            "2": "One random void champion deals true damage this combat",
-            "4": "All your void champions deal true damage this combat"
-         }
-      },
-      {
-         "key": "Wild",
-         "ingameKey": "Wild",
-         "name": "Wild",
-         "desc": "Attacks generate stacks of <b>Fury</b> (stacks up to 5 times). Each stack of Fury gives 10% <b>Attack Speed</b>",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_wild.png",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_wild.png",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_wild.png",
-         "type": "ORIGIN",
-         "styles": [
-            {
-               "style": "bronze",
-               "min": 2,
-               "max": 3
-            },
-            {
-               "style": "gold",
-               "min": 4
+        },
+        {
+            "key": "Wild",
+            "ingameKey": "Wild",
+            "name": "Wild",
+            "desc": "Attacks generate stacks of <b>Fury</b> (stacks up to 5 times). Each stack of Fury gives 10% <b>Attack Speed</b>",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_wild.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_wild.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_wild.png",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "gold",
+                    "min": 4
+                }
+            ],
+            "stats": {
+                "2": "Wild Allies Only",
+                "4": "All Allies (their basic attacks can’t miss)"
             }
-         ],
-         "stats": {
-            "2": "Wild Allies Only",
-            "4": "All Allies (their basic attacks can’t miss)"
-         }
-      },
-      {
-         "key": "Yordle",
-         "ingameKey": "Yordle",
-         "name": "Yordle",
-         "desc": "Yordles gain a chance to dodge enemy attacks",
-         "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_yordle.png",
-         "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_yordle.png",
-         "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_yordle.png",
-         "type": "ORIGIN",
-         "styles": [
-            {
-               "style": "bronze",
-               "min": 3,
-               "max": 5
-            },
-            {
-               "style": "silver",
-               "min": 6,
-               "max": 8
-            },
-            {
-               "style": "gold",
-               "min": 9
+        },
+        {
+            "key": "Yordle",
+            "ingameKey": "Yordle",
+            "name": "Yordle",
+            "desc": "Yordles gain a chance to dodge enemy attacks",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_yordle.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_yordle.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_yordle.png",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 3,
+                    "max": 5
+                },
+                {
+                    "style": "silver",
+                    "min": 6,
+                    "max": 8
+                },
+                {
+                    "style": "gold",
+                    "min": 9
+                }
+            ],
+            "stats": {
+                "3": "30% Chance to Dodge",
+                "6": "60% Chance to Dodge",
+                "9": "90% Chance to Dodge"
             }
-         ],
-         "stats": {
-            "3": "30% Chance to Dodge",
-            "6": "60% Chance to Dodge",
-            "9": "90% Chance to Dodge"
-         }
-      }
-   ]
+        }
+    ]
 }
