@@ -1,0 +1,299 @@
+[
+    {
+        "name": "Brawler",
+        "desc": [
+            "Brawlers gain max Health.",
+            "<expandRow>(@MinUnits@) @BonusHealth@ %i:scaleHealth%</expandRow>"
+        ],
+        "unit_count": 5,
+        "units": "Gragas(1)/Sejuani(2)/Sett(2)/Nunu(3)/Volibear(5)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(BonusHealth): (400)/(1000)/(1600)"
+    },
+    {
+        "name": "God-King",
+        "desc": [
+            "(@MinUnits@) Victorious champions deal @PercentDamageAmp@% bonus damage to enemies who are wearing a Shadow item. "
+        ],
+        "unit_count": 0,
+        "units": "",
+        "trait_active": "1",
+        "trait_desc": "(): ()"
+    },
+    {
+        "name": "Legionnaire",
+        "desc": [
+            "Legionnaires gain Attack Speed and Omnivamp.",
+            "<expandRow>(@MinUnits@) @ASBoostPercent@% %i:scaleAS%, @HealPercent@% %i:scaleSV%</expandRow>"
+        ],
+        "unit_count": 7,
+        "units": "Aatrox(1)/Kalista(1)/Irelia(2)/Riven(3)/Yasuo(3)/Draven(4)/Kayle(5)",
+        "trait_active": "2/4/6/8",
+        "trait_desc": "(HealPercent): (15)/(20)/(25)/(35)"
+    },
+    {
+        "name": "Redeemed",
+        "desc": [
+            "Redeemed champions gain Armor, Magic Resist, and Ability Power. When they die, their bonus is split among remaining Redeemed allies.",
+            "<expandRow>(@MinUnits@) @ArmorAmount@ %i:scaleArmor% %i:scaleMR%, @AbilityPowerAmount@ %i:scaleAP%</expandRow>"
+        ],
+        "unit_count": 8,
+        "units": "Aatrox(1)/Leona(1)/Syndra(2)/Varus(2)/Lux(3)/Velkoz(4)/Rell(4)/Kayle(5)",
+        "trait_active": "3/6/8/10",
+        "trait_desc": "(ArmorAmount,MagicResist): (20,20)/(35,35)/(45,45)/(100,100)"
+    },
+    {
+        "name": "Hellion",
+        "desc": [
+            "Hellions gain Attack Speed.",
+            "Whenever a Hellion dies, a Doppelhellion (a one star level lower copy) jumps out of the Hellion portal and joins the fight!",
+            "<expandRow>(@MinUnits@) @AttackSpeedPercent@% %i:scaleAS% </expandRow>"
+        ],
+        "unit_count": 7,
+        "units": "Poppy(1)/Kled(1)/Ziggs(1)/Kennen(2)/Tristana(2)/Lulu(3)/Teemo(5)",
+        "trait_active": "2/4/6/8",
+        "trait_desc": "(AttackSpeedPercent): (10)/(30)/(70)/(125)"
+    },
+    {
+        "name": "Spellweaver",
+        "desc": [
+            "Spellweavers gain Ability Power, which increases whenever any champion casts, until the end of combat.",
+            "<expandRow>(@MinUnits@) @AP@ %i:scaleAP%, @BonusAP@ bonus %i:scaleAP%</expandRow>"
+        ],
+        "unit_count": 4,
+        "units": "Ziggs(1)/Brand(2)/Zyra(3)/Velkoz(4)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(AP,BonusAP,StackCap): (15,2,10)/(35,4,10)/(70,8,10)"
+    },
+    {
+        "name": "Nightbringer",
+        "desc": [
+            "Nightbringers gain a Shield for @ShieldDuration@ seconds equal to a percent of their maximum Health the first time they drop below @FirstThreshold@%. When this occurs, that Nightbringer gains bonus damage.",
+            "<expandRow>(@MinUnits@) @MaxPercentHealthShield@% Shield, @BonusDamage@% %i:scaleDA%</expandRow>"
+        ],
+        "unit_count": 6,
+        "units": "Vladimir(1)/Sejuani(2)/LeeSin(3)/Yasuo(3)/Diana(4)/Aphelios(4)",
+        "trait_active": "2/4/6/8",
+        "trait_desc": "(BonusDamage,ShieldDuration): (20,8)/(30,8)/(40,8)/(70,8)"
+    },
+    {
+        "name": "Caretaker",
+        "desc": [
+            "(@MinUnits@) Caretakers deploy with a Baby Dragon that can be placed anywhere on the battlefield. The Baby Dragon gains @AttackSpeed@% of its Caretaker's Attack Speed, and restores @ManaRefund@ Mana to the Caretaker upon death."
+        ],
+        "unit_count": 1,
+        "units": "Heimerdinger(5)",
+        "trait_active": "1",
+        "trait_desc": "(AttackSpeed,ManaRefund): (100,80)"
+    },
+    {
+        "name": "Mystic",
+        "desc": [
+            "Your team gains Magic Resist.",
+            "<expandRow>(@MinUnits@) @MagicResist@ %i:scaleMR%</expandRow>"
+        ],
+        "unit_count": 4,
+        "units": "Lulu(3)/Lux(3)/Fiddlesticks(4)/Gwen(5)",
+        "trait_active": "2/3/4/5",
+        "trait_desc": "(MagicResist): (30)/(60)/(120)/(180)"
+    },
+    {
+        "name": "Ranger",
+        "desc": [
+            "Rangers gain an Attack Speed buff that switches on and off every @BuffDuration@ seconds. This buff applies to the Ranger's total Attack Speed.",
+            "<expandRow>(@MinUnits@) @AttackSpeed@% %i:scaleAS%</expandRow>"
+        ],
+        "unit_count": 5,
+        "units": "Vayne(1)/Varus(2)/Ashe(3)/Aphelios(4)/Akshan(5)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(AttackSpeed,BuffDuration,DelayBetweenBuffs,InitialDelay): (80,4,4,4)/(200,4,4,4)/(500,4,4,4)"
+    },
+    {
+        "name": "Cruel",
+        "desc": [
+            "Teemo hungers to be alone against exactly 1 enemy left standing.",
+            "Teemo is purchased with Player Health instead of gold. He can be sold for gold, but not Health. You're welcome."
+        ],
+        "unit_count": 1,
+        "units": "Teemo(5)",
+        "trait_active": "1",
+        "trait_desc": "(): ()"
+    },
+    {
+        "name": "Cannoneer",
+        "desc": [
+            "Every 5th Cannoneer attack is replaced with a cannon shot that deals a percent of that attack's damage in an explosion around the target as physical damage.",
+            "<expandRow>(@MinUnits@) @AttackPercent@% damage</expandRow>"
+        ],
+        "unit_count": 4,
+        "units": "Senna(1)/Tristana(2)/MissFortune(3)/Lucian(4)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(AttackPercent): (225)/(475)/(1200)"
+    },
+    {
+        "name": "Inanimate",
+        "desc": [
+            "(@MinUnits@) Combat start: Gwen summons Harrowing Mist in adjacent hexes surrounding her for @Duration@ seconds, granting all allies @DamageReductionPercent*100@% Durability while they remain within it."
+        ],
+        "unit_count": 1,
+        "units": "Gwen(5)",
+        "trait_active": "1",
+        "trait_desc": "(DamageReductionPercent,Duration): (0.33,8)"
+    },
+    {
+        "name": "Abomination",
+        "desc": [
+            "When @AllyDeaths@ allies have died, the Monstrosity will rise from its grave. The Monstrosity receives bonus Health and Attack Damage based on allied Abomination champions' star levels.",
+            "The 3 Abomination champions nearest the grave will also grant the Monstrosity a random copy of one of their items when combat starts.",
+            "<expandRow>(@MinUnits@) @FlatHealth@ %i:scaleHealth%, @FlatAD@% %i:scaleAD%</expandRow>"
+        ],
+        "unit_count": 4,
+        "units": "Kalista(1)/Brand(2)/Nunu(3)/Fiddlesticks(4)",
+        "trait_active": "3/4/5",
+        "trait_desc": "(BonusAD,BonusHealth,FlatAD,FlatHealth): (7,90,70,900)/(9,150,90,1500)/(11,200,110,2000)"
+    },
+    {
+        "name": "Assassin",
+        "desc": [
+            "Innate: When combat starts, Assassins leap to the enemy backline.",
+            "Assassins' Abilities can critically strike and they gain bonus Critical Strike Chance and bonus Critical Strike Damage.",
+            "<expandRow>(@MinUnits@) @CritChanceAmpPercent@% %i:scaleCrit%, @CritAmpPercent@% %i:scaleCritMult%</expandRow>"
+        ],
+        "unit_count": 5,
+        "units": "Khazix(1)/Pyke(2)/Nocturne(3)/Diana(4)/Viego(5)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(CritAmpPercent,CritChanceAmpPercent): (10,20)/(20,40)/(35,75)"
+    },
+    {
+        "name": "Draconic",
+        "desc": [
+            "<row>(@MinUnits@) Combat end: Gain a dragon egg on your bench. The bigger the egg, the longer it takes to hatch, and the rarer the reward.</row>",
+            "<row>(@MinUnits@) Dragon eggs are golden! Golden eggs hatch into even rarer loot.</row>"
+        ],
+        "unit_count": 6,
+        "units": "Udyr(1)/Sett(2)/Ashe(3)/Zyra(3)/Galio(4)/Heimerdinger(5)",
+        "trait_active": "3/5",
+        "trait_desc": "(BonusHealth,GoldAmount): (null,2)/(300,2)"
+    },
+    {
+        "name": "Revenant",
+        "desc": [
+            "Revenants revive after their first death each combat. Once revived, they take and deal @DamageAmp@% increased damage.",
+            "<expandRow>(@MinUnits@) Revive with @HealthPercent@% %i:scaleHealth%</expandRow>"
+        ],
+        "unit_count": 4,
+        "units": "Nocturne(3)/Ivern(4)/Fiddlesticks(4)/Volibear(5)",
+        "trait_active": "2/3/4/5",
+        "trait_desc": "(DamageAmp,HealthPercent): (25,10)/(25,25)/(25,45)/(25,70)"
+    },
+    {
+        "name": "Skirmisher",
+        "desc": [
+            "Combat start: Skirmishers gain a Shield and bonus Attack Damage each second.",
+            "<expandRow> (@MinUnits@) @PercentHealthShield@% max %i:scaleHealth% Shield and @AttackDamage*100@% %i:scaleAD%</expandRow>"
+        ],
+        "unit_count": 8,
+        "units": "Udyr(1)/Olaf(1)/Kennen(2)/Irelia(2)/LeeSin(3)/Nidalee(3)/Jax(4)/Viego(5)",
+        "trait_active": "3/6/8/10",
+        "trait_desc": "(AttackDamage,PercentHealthShield): (0.04,20)/(0.08,50)/(0.12,70)/(0.16,100)"
+    },
+    {
+        "name": "Cavalier",
+        "desc": [
+            "Innate: Cavaliers charge quickly towards their target whenever they move.",
+            "Cavaliers gain Durability. At the start of combat and after each charge, this effect is doubled for @Duration@ seconds.",
+            "<expandRow>(@MinUnits@) @DamageReductionPercent@% %i:scaleDR%</expandRow>"
+        ],
+        "unit_count": 4,
+        "units": "Kled(1)/Hecarim(2)/Sejuani(2)/Rell(4)",
+        "trait_active": "2/3/4",
+        "trait_desc": "(DamageReductionPercent,Duration): (20,4)/(25,4)/(30,4)"
+    },
+    {
+        "name": "Victorious",
+        "desc": [
+            "When Garen kills an enemy, his next attack is empowered to deal @PercentDamage*100@% of the target's missing Health as bonus magic damage."
+        ],
+        "unit_count": 1,
+        "units": "Garen(5)",
+        "trait_active": "1",
+        "trait_desc": "(PercentDamage): (0.60)"
+    },
+    {
+        "name": "Ironclad",
+        "desc": [
+            "Your team gains Armor.",
+            "<expandRow>(@MinUnits@) @Armor@ %i:scaleArmor%</expandRow>"
+        ],
+        "unit_count": 3,
+        "units": "Nautilus(2)/Jax(4)/Rell(4)",
+        "trait_active": "2/3/4",
+        "trait_desc": "(Armor): (30)/(60)/(120)"
+    },
+    {
+        "name": "Sentinel",
+        "desc": [
+            "Combat start: The Sentinel with the most items (ties broken by highest Attack Speed) gains a Shield that grants stacking Attack Speed. When it is destroyed or expires, it bounces to the ally with lowest percent Health and renews. The Attack Speed bonus persists between Shield bounces.",
+            "<expandRow>(@MinUnits@) @Shield@ Shield, @AttackSpeed*100@% %i:scaleAS%, @Duration@ sec duration</expandRow>"
+        ],
+        "unit_count": 8,
+        "units": "Olaf(1)/Senna(1)/Irelia(2)/Pyke(2)/Rakan(3)/Galio(4)/Lucian(4)/Akshan(5)",
+        "trait_active": "3/6/8/10",
+        "trait_desc": "(AttackSpeed,Duration,Shield): (0.20,4,175)/(0.80,2,800)/(1.40,2,1400)/(6,1,2000)"
+    },
+    {
+        "name": "Invoker",
+        "desc": [
+            "Your team gains Mana from their attacks.",
+            "<expandRow>(@MinUnits@) @ManaPerAttack@ %i:scaleMana%</expandRow>"
+        ],
+        "unit_count": 4,
+        "units": "Syndra(2)/Karma(4)/Ivern(4)/Teemo(5)",
+        "trait_active": "2/4",
+        "trait_desc": "(ManaPerAttack): (3)/(6)"
+    },
+    {
+        "name": "Renewer",
+        "desc": [
+            "Renewers heal for a percent of their max Health each second. If Health is full, restore Mana instead.",
+            "<expandRow>(@MinUnits@) @PercentHealth@% %i:scaleHealth% or @PercentMana@% %i:scaleMana%</expandRow>"
+        ],
+        "unit_count": 5,
+        "units": "Vladimir(1)/Soraka(2)/Rakan(3)/Ivern(4)/Heimerdinger(5)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(PercentHealth,PercentMana): (4,4)/(7,7)/(10,10)"
+    },
+    {
+        "name": "Knight",
+        "desc": [
+            "Your team blocks a flat amount of damage from all sources.",
+            "<expandRow>(@MinUnits@) @BlockAmount@ damage blocked</expandRow>"
+        ],
+        "unit_count": 6,
+        "units": "Poppy(1)/Leona(1)/Thresh(2)/Nautilus(2)/Galio(4)/Garen(5)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(BlockAmount): (15)/(30)/(60)"
+    },
+    {
+        "name": "Forgotten",
+        "desc": [
+            "Forgotten champions have bonus Attack Damage and Ability Power. Each combat win increases the bonus by @VictoryPercent@%, stacking up to @MaxCombats@ times.",
+            "<expandRow>(@MinUnits@) @InitialADandAP@% %i:scaleAD% %i:scaleAP%</expandRow>"
+        ],
+        "unit_count": 6,
+        "units": "Vayne(1)/Hecarim(2)/Thresh(2)/MissFortune(3)/Draven(4)/Viego(5)",
+        "trait_active": "2/4/6/8",
+        "trait_desc": "(): ()/()/()/()"
+    },
+    {
+        "name": "Dawnbringer",
+        "desc": [
+            "Once per combat at @FirstThreshold@% Health, Dawnbringers rapidly heal. When this occurs, all allied Dawnbringers gain @BonusDamage@% bonus damage.",
+            "<expandRow>(@MinUnits@) @PercentOfMaximumHealth@% of max %i:scaleHealth%</expandRow>"
+        ],
+        "unit_count": 7,
+        "units": "Gragas(1)/Khazix(1)/Soraka(2)/Riven(3)/Nidalee(3)/Karma(4)/Garen(5)",
+        "trait_active": "2/4/6/8",
+        "trait_desc": "(BonusDamage): (10)/(10)/(10)/(10)"
+    }
+]

@@ -1,0 +1,422 @@
+[
+    {
+        "name": "Automata",
+        "desc": [
+            "Automata gain a crystal when they deal damage. At @TriggerNumCrystals@&nbsp;crystals, they blast their current target, dealing magic damage + <magicDamage>@ConversionDamagePct*100@%</magicDamage> of damage dealt since the previous blast and reset. They also gain Armor and Magic&nbsp;Resist.",
+            "<expandRow>(@MinUnits@) <magicDamage>@MagicDamage@</magicDamage> damage, @Resists@&nbsp;%i:scaleArmor%%i:scaleMR%</expandRow>"
+        ],
+        "unit_count": 5,
+        "units": "Amumu(1)/Nocturne(2)/Blitzcrank(3)/KogMaw(3)/Malzahar(5)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(ConversionDamagePct,MagicDamage,Resists,TriggerNumCrystals): (0.25,150,25,20)/(0.25,400,60,20)/(0.25,1100,140,20)"
+    },
+    {
+        "name": "Menaces",
+        "desc": [
+            "Powder gains Dominator but no longer benefits from Family. When her monkey explodes, it creates @NumMonstrosities@ of Silco's monstrosities."
+        ],
+        "unit_count": 0,
+        "units": "",
+        "trait_active": "2",
+        "trait_desc": "(NumMonstrosities): (3)"
+    },
+    {
+        "name": "Sorcerer",
+        "desc": [
+            "Your team gains @TeamAP@ Ability Power. Sorcerers gain more.",
+            "<row>(@MinUnits@) @BaseAP@&nbsp;%i:scaleAP%</row>",
+            "<row>(@MinUnits@) @BaseAP@&nbsp;%i:scaleAP%</row>",
+            "<row>(@MinUnits@) @BaseAP@&nbsp;%i:scaleAP%</row>",
+            "<row>(@MinUnits@) @BaseAP@&nbsp;%i:scaleAP%, Abilities reduce their target's damage by @DamageDecrease*100@% for @DamageDecreaseDuration@&nbsp;seconds</row>"
+        ],
+        "unit_count": 7,
+        "units": "Zyra(1)/Lux(1)/Vladimir(2)/Nami(3)/Swain(3)/Zoe(4)/LeBlanc(5)",
+        "trait_active": "2/4/6/8",
+        "trait_desc": "(BaseAP,DamageDecrease,DamageDecreaseDuration,TeamAP): (20,10)/(50,10)/(95,10)/(110,0.25,3,10)"
+    },
+    {
+        "name": "Scrap",
+        "desc": [
+            "Combat start: Components held by Scrap units temporarily turn into full items. Scrap units gain Shield for @ShieldDuration@ seconds for each component held by your team, including those that make up a full item.",
+            "<row>(@MinUnits@) @NumComponents@ component, @HPShieldAmount@ Shield</row>",
+            "<row>(@MinUnits@) @NumComponents@ components, @HPShieldAmount@ Shield</row>",
+            "<row>(@MinUnits@) All components, and full items become lucky! @HPShieldAmount@ Shield</row>",
+            "<row>(@MinUnits@) Generate Radiant items! @HPShieldAmount@ Shield</row>",
+            "<rules>Shield Amount:&nbsp;@TFTUnitProperty.:TFT13_Trait_Scrap_ShieldTotal@ </rules> "
+        ],
+        "unit_count": 7,
+        "units": "Trundle(1)/Blue(1)/Ziggs(2)/Gangplank(3)/Ekko(4)/Corki(4)/Rumble(5)",
+        "trait_active": "2/4/6/9",
+        "trait_desc": "(HPShieldAmount,NumComponents,ShieldDuration): (25,1,20)/(35,3,20)/(50,20,20)/(60,20,20)"
+    },
+    {
+        "name": "Artillerist",
+        "desc": [
+            "Every @NumOfAttacks@ attacks, Artillerists launch a rocket that deals @PercentDamage*100@% Attack Damage around the target. They also gain Attack Damage.",
+            "<row>(@MinUnits@) @AD*100@% %i:scaleAD%</row>",
+            "<row>(@MinUnits@) @AD*100@%&nbsp;%i:scaleAD%</row>",
+            "<row>(@MinUnits@) @AD*100@%&nbsp;%i:scaleAD%, Launch a rocket every @NumOfAttacks@ attacks that deals double&nbsp;damage.</row>"
+        ],
+        "unit_count": 4,
+        "units": "Tristana(2)/Urgot(2)/Ezreal(3)/Corki(4)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(AD,NumOfAttacks,PercentDamage): (0.10,5,1.25)/(0.45,5,1.25)/(0.60,4,2.50)"
+    },
+    {
+        "name": "Form Swapper",
+        "desc": [
+            "Innate: Form Swappers change their stats and ability based on if they're placed in the front 2 rows or back 2&nbsp;rows.",
+            "Frontline Form Swappers gain Durability. Backline Form Swappers gain Damage&nbsp;Amp.",
+            "<expandRow>(@MinUnits@) @DR*100@%&nbsp;%i:scaleDR% or @DA*100@%&nbsp;%i:scaleDA%</expandRow>"
+        ],
+        "unit_count": 4,
+        "units": "Gangplank(3)/Swain(3)/Elise(4)/Jayce(5)",
+        "trait_active": "2/4",
+        "trait_desc": "(DA,DR): (0.20,0.15)/(0.40,0.30)"
+    },
+    {
+        "name": "Emissary",
+        "desc": [
+            "This trait is active only when you have exactly 1 or 4 unique Emissaries. ",
+            "<row>(@MinUnits@) Gain that Emissary's bonus</row>",
+            "<row>(@MinUnits@) Gain all bonuses. Emissaries gain @BonusHealth@&nbsp;%i:scaleHealth% and @SelfishDamageAmp*100@%&nbsp;%i:scaleDA%</row>",
+            "<TFTGuildActive enabled=TFT13_Trait_Ambassador_ActiveDomina alternate=TFTGuildInactive>Ambessa: Allies gain @AmbessaArmor@ Armor and Magic Resist for each opponent defeated. (@TFTUnitProperty.trait:TFT13_Ambassador_PlayersDefeated@/7)</TFTGuildActive>",
+            "<TFTGuildActive enabled=TFT13_Trait_Ambassador_ActiveJarvan alternate=TFTGuildInactive>Garen: On Combat Start, Garen and allies to his left and right gain @GarenHealthPercent*100@% of his max Health.</TFTGuildActive>",
+            "<TFTGuildActive enabled=TFT13_Trait_Ambassador_ActiveNami alternate=TFTGuildInactive>Nami: Allies' attacks grant @NamiMana@ bonus Mana.</TFTGuildActive>",
+            "<TFTGuildActive enabled=TFT13_Trait_Ambassador_ActiveTristana alternate=TFTGuildInactive>Tristana: Allies gain @StarAS*100@% Attack Speed per star level.</TFTGuildActive>"
+        ],
+        "unit_count": 4,
+        "units": "Tristana(2)/Nami(3)/Garen(4)/Ambessa(4)",
+        "trait_active": "1/4",
+        "trait_desc": "(AmbessaArmor,AmbessaArmor_PVE,BonusAS,BonusHealth,CCImmuneDuration,GarenHealthPercent,NamiMana,SelfishDamageAmp,StarAS): (2,4,None,200,8,0.12,2,0.20,0.06)/(2,4,None,200,8,0.12,2,0.20,0.06)"
+    },
+    {
+        "name": "Martial Law",
+        "desc": [
+            "When Ambessa casts, Caitlyn fires an empowered attack at the target, dealing @CaitAD*100@% damage. Ambessa gains @ADShare*100@% of Caitlyn's Attack Damage."
+        ],
+        "unit_count": 0,
+        "units": "",
+        "trait_active": "2",
+        "trait_desc": "(ADShare,CaitAD): (0.25,2.25)"
+    },
+    {
+        "name": "Sentinel",
+        "desc": [
+            "Your team gains Armor and Magic Resist. Sentinels gain triple.",
+            "<expandRow>(@MinUnits@) @BonusArmor@&nbsp;%i:scaleArmor%%i:scaleMR%</expandRow>"
+        ],
+        "unit_count": 7,
+        "units": "Singed(1)/Irelia(1)/Rell(2)/Leona(2)/Beardy(3)/Illaoi(4)/Rumble(5)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(BonusArmor): (12)/(25)/(42)"
+    },
+    {
+        "name": "Reunion",
+        "desc": [
+            "When Vi casts, Ekko releases 3 afterimages towards her target each dealing @EkkoAfterImageReducedDamage*100@% damage. When Ekko casts, Vi slams an earthquake towards his target dealing @ViEarthquakeReducedDamage*100@% damage."
+        ],
+        "unit_count": 0,
+        "units": "",
+        "trait_active": "2",
+        "trait_desc": "(EkkoAfterImageReducedDamage,ViEarthquakeReducedDamage): (0.50,1.50)"
+    },
+    {
+        "name": "Family",
+        "desc": [
+            "Family members support each other, reducing their max Mana and gaining extra bonuses.",
+            "<row>(@MinUnits@) @ManaReduction*100@% reduction, @DamageReduction*100@%&nbsp;%i:scaleDR%</row>",
+            "<row>(@MinUnits@) @ManaReduction*100@% reduction, @AttackSpeed*100@%&nbsp;%i:scaleAS%</row>",
+            "<row>(@MinUnits@) @ManaReduction*100@% reduction, heist on topside! After combat, progress the heist, increased for each surviving Family&nbsp;member!</row>",
+            "<rules>@TFTUnitProperty.trait:TFT13_JunkerKing_SelfDestructTRA@</rules>"
+        ],
+        "unit_count": 3,
+        "units": "Blue(1)/Red(1)/Prime(2)",
+        "trait_active": "3/4/5",
+        "trait_desc": "(AttackSpeed,DamageReduction,ManaReduction): (0.20,0.20,0.25)/(0.20,0.20,0.30)/(0.20,0.20,0.40)"
+    },
+    {
+        "name": "Ambusher",
+        "desc": [
+            "Damage from Ambushers' Abilities can critically strike. They also gain bonus Critical Strike Chance and Critical Strike Damage.",
+            "<row>(@MinUnits@) @CritChance*100@%&nbsp;%i:scaleCrit%, @CritDamage*100@%&nbsp;%i:scaleCritMult%</row>",
+            "<row>(@MinUnits@) @CritChance*100@%&nbsp;%i:scaleCrit%, @CritDamage*100@%&nbsp;%i:scaleCritMult%</row>",
+            "<row>(@MinUnits@) @CritChance*100@%&nbsp;%i:scaleCrit%, @CritDamage*100@%&nbsp;%i:scaleCritMult%</row>",
+            "<row>(@MinUnits@) @CritChance*100@%&nbsp;%i:scaleCrit%, @CritDamage*100@%&nbsp;%i:scaleCritMult%; also gain @DamageReductionPct*100@% Durability</row>"
+        ],
+        "unit_count": 5,
+        "units": "Blue(1)/Camille(2)/Gremlin(3)/Ekko(4)/Jinx(5)",
+        "trait_active": "2/3/4/5",
+        "trait_desc": "(CritChance,CritDamage,DamageReductionPct): (0.25,0.10)/(0.35,0.20)/(0.45,0.25)/(0.55,0.25,0.15)"
+    },
+    {
+        "name": "Sisters",
+        "desc": [
+            "When Jinx scores a takedown, Vi gains @ADBuff*100@% bonus Attack Damage for @ViDuration@ seconds. When Vi scores a takedown, Jinx gains @ASBuff*100@% bonus Attack Speed for @JinxDuration@ seconds."
+        ],
+        "unit_count": 0,
+        "units": "",
+        "trait_active": "2",
+        "trait_desc": "(ADBuff,ASBuff,JinxDuration,ViDuration): (0.40,0.75,5,7)"
+    },
+    {
+        "name": "Visionary",
+        "desc": [
+            "Whenever Visionaries gain Mana, they gain more.",
+            "<row>(@MinUnits@) @EnlightenedBonusMana*100@% %i:scaleMana%</row>",
+            "<row>(@MinUnits@) @EnlightenedBonusMana*100@%&nbsp;%i:scaleMana%</row>",
+            "<row>(@MinUnits@) @EnlightenedBonusMana*100@%&nbsp;%i:scaleMana%</row>",
+            "<row>(@MinUnits@) @EnlightenedBonusMana*100@%&nbsp;%i:scaleMana%, Abilities heal an ally for @AllyHealing*100@% of damage dealt</row>"
+        ],
+        "unit_count": 7,
+        "units": "Vex(1)/Morgana(1)/RenataGlasc(2)/Rell(2)/NunuWillump(3)/Heimerdinger(4)/Malzahar(5)",
+        "trait_active": "2/4/6/8",
+        "trait_desc": "(AllyHealing,EnlightenedBonusMana): (0.25)/(0.50)/(0.80)/(0.20,1)"
+    },
+    {
+        "name": "Sniper",
+        "desc": [
+            "Snipers deal more damage to targets farther away.",
+            "<row>(@MinUnits@) @PercentDamageIncrease@%&nbsp;damage per hex</row>",
+            "<row>(@MinUnits@) @PercentDamageIncrease@%&nbsp;damage per hex</row>",
+            "<row>(@MinUnits@) @PercentDamageIncrease@%&nbsp;damage per hex and +@BonusHexRangeIncrease@ Attack Range</row>"
+        ],
+        "unit_count": 5,
+        "units": "Shooter(1)/Zeri(2)/KogMaw(3)/Twitch(4)/Caitlyn(5)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(BonusHexRangeIncrease,PercentDamageIncrease): (None,7)/(None,16)/(5,35)"
+    },
+    {
+        "name": "Conqueror",
+        "desc": [
+            "Conquerors' takedowns grant stacks of Conquest. After gaining enough Conquest, open War Chests full of loot!",
+            "Conquerors gain Attack Damage and Ability Power, increased by @PercentIncreasePerChest*100@% for each War Chest opened.",
+            "<expandRow>(@MinUnits@) @ADAPBase*100@%&nbsp;%i:scaleAD%%i:scaleAP%; @StacksPerKill@x&nbsp;Conquest</expandRow>",
+            "<rules>War Chests Opened: @TFTUnitProperty.trait:TFT13_Warband_ChestsCompleted@</rules>",
+            "<rules>Current Stats: @TFTUnitProperty.trait:TFT13_Warband_CurrentADAP@%&nbsp;%i:scaleAD%%i:scaleAP%</rules>"
+        ],
+        "unit_count": 6,
+        "units": "Draven(1)/Darius(1)/Rell(2)/Swain(3)/Ambessa(4)/Mordekaiser(5)",
+        "trait_active": "2/4/6/9",
+        "trait_desc": "(ADAPBase,PercentIncreasePerChest,StacksPerKill): (0.18,0.03,1)/(0.25,0.03,3)/(0.40,0.03,6)/(1,0.03,20)"
+    },
+    {
+        "name": "High Roller",
+        "desc": [
+            "When casting, Sevika rolls a random Jinx modification to her Ability and gains @Durability*100@% Durability for @Duration@ seconds.",
+            "Mods:",
+            "-Rocket: Launch @Bonus1NumRockets@ rockets that deal @Bonus1RocketDamage@ physical damage each",
+            "-Shield: Gain @Bonus2ShieldAmount@ Shield for @Bonus2ShieldDuration@ seconds",
+            "-Coin: Gain @Bonus4Gold@ gold",
+            "-Triple: Enhance her rolled ability!"
+        ],
+        "unit_count": 1,
+        "units": "Lieutenant(5)",
+        "trait_active": "1",
+        "trait_desc": "(Bonus1NumRockets,Bonus1RocketDamage,Bonus2ShieldAmount,Bonus2ShieldDuration,Bonus4Gold,Durability,Duration): (8,100,500,4,3,0.80,1.50)"
+    },
+    {
+        "name": "Academy",
+        "desc": [
+            "The Academy sponsors 3 items each game.",
+            "Copies of sponsored items grant bonus max Health and Damage Amp. Academy units holding sponsored items gain double the amount, plus an additional @BaseValues*100@% Health and Damage Amp.",
+            "<row>(@MinUnits@) @PercentIncreaseSponsored*100@% %i:scaleHealth% %i:scaleDA%;",
+            "gain 1 sponsored item.</row>",
+            "<row>(@MinUnits@) @PercentIncreaseSponsored*100@% %i:scaleHealth% %i:scaleDA%;",
+            "gain 1 sponsored item.</row>",
+            "<row>(@MinUnits@) @PercentIncreaseSponsored*100@% %i:scaleHealth% %i:scaleDA%;",
+            "gain 1 sponsored item.</row>",
+            "<row>(@MinUnits@) @PercentIncreaseSponsored*100@% %i:scaleHealth% %i:scaleDA%</row>"
+        ],
+        "unit_count": 5,
+        "units": "Lux(1)/Leona(2)/Ezreal(3)/Heimerdinger(4)/Jayce(5)",
+        "trait_active": "3/4/5/6",
+        "trait_desc": "(BaseValues,NumOfItems,PercentIncreaseSponsored): (0.05,1,0.02)/(0.05,2,0.03)/(0.05,3,0.05)/(0.05,3,0.09)"
+    },
+    {
+        "name": "Chem-Baron",
+        "desc": [
+            "Gain Shimmer after each player combat. If your loss streak is at least @MinStreakLength@, gain more.",
+            "At each stack of @ShimmerBreakpoint@ Shimmer, the Black Market offers you contraband that only Chem-Barons can use. Chem-Barons gain max Health for each Black Market you pass on.",
+            "<expandRow>(@MinUnits@) @ShimmerPerCombat@ or @ShimmerPerCombatStreaking@; @HealthPerSkip@&nbsp;%i:scaleHealth%</expandRow>",
+            "<rules>Markets Skipped: @TFTUnitProperty.trait:TFT13_Crime_PassedMarkets@</rules>",
+            "<rules>Current Health: @TFTUnitProperty.trait:TFT13_Crime_CurrentHealth@&nbsp;%i:scaleHealth%</rules>"
+        ],
+        "unit_count": 6,
+        "units": "Singed(1)/RenataGlasc(2)/Gremlin(3)/Chainsaw(3)/Silco(4)/Lieutenant(5)",
+        "trait_active": "3/4/5/6/7",
+        "trait_desc": "(HealthPerSkip,MinStreakLength,ShimmerBreakpoint,ShimmerPerCombat,ShimmerPerCombatStreaking,ShimmerPerCombatStreaking_HR,ShimmerPerCombat_HR,ShimmerPerDeath_PVE,ShimmerPerRound_PVE): (20,3,100,15,35,50,25,1,15)/(60,3,100,20,45,60,30,1,20)/(110,3,100,20,55,70,35,2,30)/(160,3,100,25,70,90,45,3,40)/(220,3,100,30,100,125,60,15,65)"
+    },
+    {
+        "name": "Rebel",
+        "desc": [
+            "Rebels gain @MaxHealthIncrease*100@% max Health.",
+            "After your team loses @PercentHealthTrigger*100@% of their Health, a smoke signal appears, granting Rebels @BurstAS*100@% Attack Speed for @BurstDuration@ seconds and extra power for the rest of&nbsp;combat.",
+            "<row>(@MinUnits@) @ADAP*100@%&nbsp;%i:scaleAD%%i:scaleAP%</row>",
+            "<row>(@MinUnits@) @ADAP*100@%&nbsp;%i:scaleAD%%i:scaleAP%, @PercentMaxHealthBonus*100@%&nbsp;%i:scaleHealth%</row>",
+            "<row>(@MinUnits@) @ADAP*100@%&nbsp;%i:scaleAD%%i:scaleAP%, @PercentMaxHealthBonus*100@%&nbsp;%i:scaleHealth%, and Stun all enemies for @StunDuration@&nbsp;seconds</row>",
+            "<row>(@MinUnits@) The smoke signal triggers at Combat Start and every @ForceDuration@&nbsp;seconds.</row>"
+        ],
+        "unit_count": 8,
+        "units": "Vex(1)/Irelia(1)/Akali(2)/Sett(2)/Ezreal(3)/Illaoi(4)/Zoe(4)/Jinx(5)",
+        "trait_active": "3/5/7/10",
+        "trait_desc": "(ADAP,BurstAS,BurstDuration,ForceDuration,MaxHealthIncrease,PercentHealthTrigger,PercentMaxHealthBonus,StunDuration): (0.20,0.60,5,None,0.12,0.25,None,None)/(0.40,0.60,5,None,0.12,0.25,0.12,None)/(0.45,0.60,5,None,0.12,0.25,0.15,2)/(0.50,0.60,5,12,0.12,0.25,0.30,2)"
+    },
+    {
+        "name": "Dominator",
+        "desc": [
+            "Combat start: Dominators gain a Shield for @ShieldDuration@ seconds.",
+            "When Dominators cast, they gain stacking Ability Power based on the Mana spent.",
+            "<expandRow>(@MinUnits@) @ShieldAmount@ Shield, @APPercent*100@%&nbsp;%i:scaleAP%</expandRow>"
+        ],
+        "unit_count": 6,
+        "units": "Ziggs(2)/Blitzcrank(3)/Cassiopeia(3)/Silco(4)/DrMundo(4)/Mordekaiser(5)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(APPercent,ShieldAmount,ShieldDuration): (0.25,350,15)/(0.45,500,15)/(0.65,700,15)"
+    },
+    {
+        "name": "Pit Fighter",
+        "desc": [
+            "Pit Fighters gain @OmnivampPercent*100@% Omnivamp and deal bonus true damage. Once per combat at @HealthThreshold*100@% Health, they heal a percentage of their max Health over @Duration@ seconds.",
+            "<expandRow>(@MinUnits@) @TrueDamagePercent*100@%&nbsp;true damage, @HealPercent*100@%&nbsp;%i:scaleHealth%</expandRow>"
+        ],
+        "unit_count": 6,
+        "units": "Draven(1)/Red(1)/Urgot(2)/Gangplank(3)/Vi(4)/Lieutenant(5)",
+        "trait_active": "2/4/6/8",
+        "trait_desc": "(Duration,HealPercent,HealthThreshold,OmnivampPercent,TrueDamagePercent): (2,0.10,0.50,0.15,0.06)/(2,0.25,0.50,0.15,0.12)/(2,0.40,0.50,0.15,0.20)/(2,0.80,0.50,0.15,0.40)"
+    },
+    {
+        "name": "What Could Have Been",
+        "desc": [
+            "Vander gains @TFTTrait.TFT13_Teamup_BloodBrothers.1:MaxHealthGainPerCast@ permanent max Health for each time Silco casts. Silco gains @TFTTrait.TFT13_Teamup_BloodBrothers.1:APGainPerDeath@ permanent Ability Power for each time Vander dies.",
+            "Bonuses: @TFTUnitProperty.trait:TFT13_Sidekick_BloodBrothers_HealthGained@ %i:scaleHealth% | @TFTUnitProperty.trait:TFT13_Sidekick_BloodBrothers_APGained@ %i:scaleAP%"
+        ],
+        "unit_count": 0,
+        "units": "",
+        "trait_active": "2",
+        "trait_desc": "(APGainPerDeath,MaxHealthGainPerCast): (6,30)"
+    },
+    {
+        "name": "Enforcer",
+        "desc": [
+            "Combat Start: Enforcers gain Shield and Damage Amp. The highest Health enemy units become <i>WANTED!</i> ",
+            "When a Wanted enemy dies, Enforcers gain @AttackSpeedPerWantedKill*100@% Attack Speed.",
+            "<row>(@MinUnits@) @NumOfWantedEnemies@&nbsp;unit; @PercentMaxHealthShield*100*100@%&nbsp;%i:scaleHealth%,&nbsp;@BaseDA*100@%&nbsp;%i:scaleDA%</row>",
+            "<row>(@MinUnits@) @NumOfWantedEnemies@&nbsp;units; @PercentMaxHealthShield*100*100@%&nbsp;%i:scaleHealth%,&nbsp;@BaseDA*100@%&nbsp;%i:scaleDA%</row>",
+            "<row>(@MinUnits@) @NumOfWantedEnemies@&nbsp;units; @PercentMaxHealthShield*100*100@%&nbsp;%i:scaleHealth%,&nbsp;@BaseDA*100@%&nbsp;%i:scaleDA%</row>",
+            "<row>(@MinUnits@) @NumOfWantedEnemies@&nbsp;units; @PercentMaxHealthShield*100*100@%&nbsp;%i:scaleHealth%,&nbsp;@BaseDA*100@%&nbsp;%i:scaleDA%</row>",
+            "<row>(@MinUnits@) ALL enemies; @PercentMaxHealthShield*100*100@%&nbsp;%i:scaleHealth%, @BaseDA*100@%&nbsp;%i:scaleDA%; Combat Start: Confiscate all enemy&nbsp;items!</row>"
+        ],
+        "unit_count": 7,
+        "units": "Fish(1)/Shooter(1)/Camille(2)/Beardy(3)/TwistedFate(3)/Vi(4)/Caitlyn(5)",
+        "trait_active": "2/4/6/8/10",
+        "trait_desc": "(AttackSpeedPerWantedKill,BaseDA,NumOfWantedEnemies,PercentMaxHealthShield): (0.30,0.12,1,0.12)/(0.30,0.20,2,0.20)/(0.30,0.33,4,0.30)/(0.30,0.50,5,0.40)/(0.30,1.50,99,1)"
+    },
+    {
+        "name": "Firelight",
+        "desc": [
+            "Every @Duration@ seconds, Firelights dash. While dashing, they attack with infinite range and heal a percentage of the damage taken since their last dash.",
+            "<row>(@MinUnits@) @PercentDamageTakenHeal*100@% of damage taken</row>",
+            "<row>(@MinUnits@) @PercentDamageTakenHeal*100@% of damage taken</row>",
+            "<row>(@MinUnits@) @PercentDamageTakenHeal*100@% of damage taken. While dashing, gain a massive burst of Attack Speed.</row>"
+        ],
+        "unit_count": 3,
+        "units": "Zeri(2)/FlyGuy(3)/Ekko(4)",
+        "trait_active": "2/3/4",
+        "trait_desc": "(Duration,PercentDamageTakenHeal): (6,0.20)/(6,0.33)/(6,0.40)"
+    },
+    {
+        "name": "Unlikely Duo",
+        "desc": [
+            "Jinx and Sevika gain @AD*100@% Attack Damage and @Health@ Health. Whenever one casts, they grant the other @Mana@ mana. Sevika's arm is luckier."
+        ],
+        "unit_count": 0,
+        "units": "",
+        "trait_active": "2",
+        "trait_desc": "(AD,Health,Mana): (0.10,100,10)"
+    },
+    {
+        "name": "Experiment",
+        "desc": [
+            "Gain Laboratory hexes on your board.",
+            "Combat start: Experiments standing on Laboratory hexes gain the Experiment bonuses of all Experiments on Laboratory hexes, plus max Health.",
+            "<row>(@MinUnits@) @NumLaboratory@ Laboratories, @MaxHealth@&nbsp;%i:scaleHealth%</row>",
+            "<row>(@MinUnits@) @NumLaboratory@ Laboratories, @MaxHealth@&nbsp;%i:scaleHealth%</row>",
+            "<row>(@MinUnits@) Experiment bonuses increase by @ExperimentBonusIncrease*100@%!</row>"
+        ],
+        "unit_count": 5,
+        "units": "Zyra(1)/Urgot(2)/NunuWillump(3)/DrMundo(4)/Twitch(4)",
+        "trait_active": "3/5/7",
+        "trait_desc": "(ExperimentBonusIncrease,MaxHealth,NumLaboratory): (None,100,2)/(None,300,3)/(1,300,3)"
+    },
+    {
+        "name": "Bruiser",
+        "desc": [
+            "Your team gains @TeamFlatHealth@ max Health. Bruisers gain more.",
+            "<expandRow>(@MinUnits@) @BonusPercentHealth*100@%&nbsp;%i:scaleHealth%</expandRow>"
+        ],
+        "unit_count": 6,
+        "units": "Trundle(1)/Fish(1)/Sett(2)/Chainsaw(3)/NunuWillump(3)/Elise(4)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(BonusPercentHealth,TeamFlatHealth): (0.20,100)/(0.45,100)/(0.80,100)"
+    },
+    {
+        "name": "Junker King",
+        "desc": [
+            "Every @NumRounds1Star@ rounds, open an armory to purchase permanent upgrades to your strongest Rumble's&nbsp;mech.",
+            "<rules>Rounds Until Upgrade: @TFTUnitProperty.trait:TFT13_JunkerKing_RoundsUntilOpening@</rules>"
+        ],
+        "unit_count": 1,
+        "units": "Rumble(5)",
+        "trait_active": "1",
+        "trait_desc": "(NumRounds1Star,NumRounds1Star_HR): (3,2)"
+    },
+    {
+        "name": "Black Rose",
+        "desc": [
+            "<row>(@MinUnits@) Summon a chained Sion. He is freed after @NumCastsToUnlock@ casts from Black Rose units or when he drops below @PercentHealthUnlock*100@% health.</row>",
+            "<row>(@MinUnits@) Sion grows stronger and his enemies take more damage from Black Rose units.</row>",
+            "<row>(@MinUnits@) Sion unleashes dark magic and heals to full Health when freed.</row>",
+            "<row>(@MinUnits@) When Sion dies, he restores to life with power beyond death!</row>",
+            "<rules>Each Black Rose champion's star level increases Sion's power</rules>"
+        ],
+        "unit_count": 5,
+        "units": "Morgana(1)/Vladimir(2)/Cassiopeia(3)/Elise(4)/LeBlanc(5)",
+        "trait_active": "3/4/5/7",
+        "trait_desc": "(NumCastsToUnlock,PercentHealthPerStarLevel,PercentHealthUnlock): (5,0.15,0.65)/(5,0.15,0.65)/(5,0.15,0.65)/(5,0.15,0.65)"
+    },
+    {
+        "name": "Quickstriker",
+        "desc": [
+            "Quickstrikers move faster and gain Attack Speed, based on their target's missing Health.",
+            "<row>(@MinUnits@) @MinBonusAS*100@-@MaxBonusAS*100@%&nbsp;%i:scaleAS%</row>",
+            "<row>(@MinUnits@) @MinBonusAS*100@-@MaxBonusAS*100@%&nbsp;%i:scaleAS%</row>",
+            "<row>(@MinUnits@) @MinBonusAS*100@-@MaxBonusAS*100@%&nbsp;%i:scaleAS%. On target death, Quickstrikers dash to a new target and gain @ShieldAmount@ shield for @ShieldDuration@&nbsp;seconds. </row>"
+        ],
+        "unit_count": 4,
+        "units": "Akali(2)/Nocturne(2)/TwistedFate(3)/Ambessa(4)",
+        "trait_active": "2/3/4",
+        "trait_desc": "(MaxBonusAS,MinBonusAS,ShieldAmount,ShieldDuration): (0.60,0.20)/(0.80,0.30)/(1,0.40,200,3)"
+    },
+    {
+        "name": "Geniuses",
+        "desc": [
+            "When Heimerdinger casts, Ekko releases @NumEkkoAfterImages@ afterimages, each dealing @ReducedEkkoDamage*100@% damage. When Ekko casts, Heimerdinger fires @NumHeimerMissiles@ missiles, each dealing @ReducedHeimerDamage*100@% damage. "
+        ],
+        "unit_count": 0,
+        "units": "",
+        "trait_active": "2",
+        "trait_desc": "(NumEkkoAfterImages,NumHeimerMissiles,ReducedEkkoDamage,ReducedHeimerDamage): (3,3,0.33,1.20)"
+    },
+    {
+        "name": "Watcher",
+        "desc": [
+            "Watchers gain Durability, increased while above @HealthBreakpoint*100@%&nbsp;Health.",
+            "<expandRow>(@MinUnits@) @BaseDR*100@% or @IncreasedDR*100@%&nbsp;%i:scaleDR%</expandRow>"
+        ],
+        "unit_count": 6,
+        "units": "Amumu(1)/Darius(1)/Vladimir(2)/Prime(2)/FlyGuy(3)/Garen(4)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(BaseDR,HealthBreakpoint,IncreasedDR): (0.15,0.50,0.30)/(0.25,0.50,0.45)/(0.35,0.50,0.50)"
+    }
+]

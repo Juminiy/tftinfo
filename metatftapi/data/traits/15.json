@@ -1,0 +1,367 @@
+[
+    {
+        "name": "Executioner",
+        "desc": [
+            "Executioners gain Critical Strike Chance and Critical Strike Damage. Their Ability can critically strike.",
+            "<expandRow>(@MinUnits@) @CritChanceAmpPercent@% %i:scaleCrit%; @CritAmpPercent@% %i:scaleCritMult%</expandRow>"
+        ],
+        "unit_count": 5,
+        "units": "Kalista(1)/Katarina(2)/Senna(3)/Akali(4)/Ryze(4)",
+        "trait_active": "2/3/4/5",
+        "trait_desc": "(CritAmpPercent,CritChanceAmpPercent): (10,25)/(12,35)/(18,50)/(28,55)"
+    },
+    {
+        "name": "Stance Master",
+        "desc": [
+            "When you field Lee Sin, choose between Duelist Stance, Executioner Stance, and Juggernaut Stance! Each stance has a unique ability, and grants Lee Sin the associated trait."
+        ],
+        "unit_count": 1,
+        "units": "LeeSin(5)",
+        "trait_active": "1",
+        "trait_desc": "(): ()"
+    },
+    {
+        "name": "Edgelord",
+        "desc": [
+            "Edgelords gain Omnivamp and Attack Damage. While attacking enemies under @HealthThreshold*100@% Health, they gain @BonusAS*100@% Attack Speed.",
+            "<expandRow>(@MinUnits@) @Omnivamp*100@% %i:scaleSV%, @AD*100@% %i:scaleAD%</expandRow>"
+        ],
+        "unit_count": 6,
+        "units": "Xayah(2)/Shen(2)/Yasuo(3)/Samira(4)/Volibear(4)/Yone(5)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(AD,BonusAS,HealthThreshold,Omnivamp): (0.15,0.40,0.50,0.10)/(0.35,0.40,0.50,0.12)/(0.50,0.40,0.50,0.15)"
+    },
+    {
+        "name": "Crystal Gambit",
+        "desc": [
+            "Kills and losses during player combats earn Gem Power. Every @NumCombats@ player combats choose to convert Gem Power into rewards or Double Down.",
+            "While Double Down is active losses grant @PercentIncreasedGP*100@% more Gem Power, but wins lose @PercentLost*100@% Gem Power and cash out immediately.",
+            "<rules>Gem Power gains increase at stages 3 and 4.</rules>",
+            "<row>(@MinUnits@) @TFTUnitProperty.trait:TFT15_GemForce_GemPowerPerKill@ per kill; @TFTUnitProperty.trait:TFT15_GemForce_GemPowerPerLoss@ per loss</row>",
+            "<row>(@MinUnits@) AND every @TFTUnitProperty.trait:TFT15_GemForce_KillRequirement@ kills, gain bonus loot and reroll a new kill number. (Kills:&nbsp;@TFTUnitProperty.trait:TFT15_GemForce_TotalKills@)</row>",
+            "<row>(@MinUnits@) @7PeiceMult*100@% rewards. Crystal Gambit units gain @7PieceHealth@ %i:scaleHealth% and @7PieceAmp*100@% %i:scaleDA%</row>."
+        ],
+        "unit_count": 6,
+        "units": "Syndra(1)/Janna(2)/Vi(2)/Swain(3)/Ashe(4)/Zyra(5)",
+        "trait_active": "3/5/7/10",
+        "trait_desc": "(7PeiceMult,7PieceAmp,7PieceHealth,GPPerDeathPVE,GPPerRoundPVE,NumCombats,NumCombatsPVE,PercentIncreaseGPPVE,PercentIncreasedGP,PercentLossPVE,PercentLost): (1.50,0.25,300,2,10,4,4,1,1.25,0.50,0.50)/(1.50,0.25,300,3,15,4,4,1,1.25,0.50,0.50)/(1.50,0.25,300,4,4,1,1.25,0.50,0.50)/(1.50,0.25,300,0.99,4,4,1,1.25,0.50,0.50)"
+    },
+    {
+        "name": "Sniper",
+        "desc": [
+            "Snipers gain Damage Amp, increased against targets farther away.",
+            "<row>(@MinUnits@) @PercentDamageIncrease@%&nbsp;%i:scaleDA%; +@PerHexIncrease@%&nbsp;%i:scaleDA% per hex</row>",
+            "<row>(@MinUnits@) @PercentDamageIncrease@%&nbsp;%i:scaleDA%; +@PerHexIncrease@%&nbsp;%i:scaleDA% per hex</row>",
+            "<row>(@MinUnits@) @PercentDamageIncrease@%&nbsp;%i:scaleDA%; +@PerHexIncrease@%&nbsp;%i:scaleDA% per hex</row>",
+            "<row>(@MinUnits@) @PercentDamageIncrease@%&nbsp;%i:scaleDA%; +@PerHexIncrease@%&nbsp;%i:scaleDA% per hex</row>"
+        ],
+        "unit_count": 6,
+        "units": "Gnar(1)/Sivir(1)/Jhin(2)/Caitlyn(3)/Jinx(4)/Varus(5)",
+        "trait_active": "2/3/4/5",
+        "trait_desc": "(BonusHexRangeIncrease,PerHexIncrease,PercentDamageIncrease): (None,3,13)/(None,5,16)/(None,7,22)/(None,10,25)"
+    },
+    {
+        "name": "Star Guardian",
+        "desc": [
+            "Star Guardians have a unique Teamwork bonus that is granted to all Star Guardians. Every Star Guardian fielded increases the bonus!<ShowIf.TFT15_StarGuardian_NoPrismatic>",
+            "<rules>Prismatic: Field 8, then spend @ManaToPrismatic@ mana.</rules></ShowIf.TFT15_StarGuardian_NoPrismatic><ShowIf.TFT15_StarGuardian_PrismaticPending>",
+            "<TFTRadiantItemBonus>Prismatic:</TFTRadiantItemBonus> Spend @ManaToPrismatic@ mana (@TFTUnitProperty.trait:TFT15_StarGuardian_ManaSpent@)</ShowIf.TFT15_StarGuardian_PrismaticPending><ShowIf.TFT15_StarGuardian_PrismaticActive>",
+            "<TFTRadiantItemBonus>THE STARS AWAKEN.</TFTRadiantItemBonus></ShowIf.TFT15_StarGuardian_PrismaticActive>",
+            "<ShowIf.TFT15_StarGuardian_HasRell><status>Rell:</status> Gain @TFTUnitProperty.trait:TFT15_StarGuardian_RellValue@ shield</ShowIf.TFT15_StarGuardian_HasRell><ShowIfNot.TFT15_StarGuardian_HasRell><TFTGuildInactive>Rell: Gain shields</TFTGuildInactive></ShowIfNot.TFT15_StarGuardian_HasRell>",
+            "<ShowIf.TFT15_StarGuardian_HasSyndra><status>Syndra:</status> Gain @TFTUnitProperty.trait:TFT15_StarGuardian_SyndraValue@ Ability Power every @SyndraTimer@ seconds</ShowIf.TFT15_StarGuardian_HasSyndra><ShowIfNot.TFT15_StarGuardian_HasSyndra><TFTGuildInactive>Syndra: Gain Ability Power</TFTGuildInactive></ShowIfNot.TFT15_StarGuardian_HasSyndra>",
+            "<ShowIf.TFT15_StarGuardian_HasXayah><status>Xayah:</status> Every 3rd attack deals <magicDamage>@TFTUnitProperty.trait:TFT15_StarGuardian_XayahValue@ (increases per stage)</magicDamage> magic damage</ShowIf.TFT15_StarGuardian_HasXayah><ShowIfNot.TFT15_StarGuardian_HasXayah><TFTGuildInactive>Xayah: Magic damage on attack</TFTGuildInactive></ShowIfNot.TFT15_StarGuardian_HasXayah>",
+            "<ShowIf.TFT15_StarGuardian_HasAhri><status>Ahri:</status> After casting, gain @TFTUnitProperty.trait:TFT15_StarGuardian_AhriValue@ Mana over @AhriDuration@ seconds</ShowIf.TFT15_StarGuardian_HasAhri><ShowIfNot.TFT15_StarGuardian_HasAhri><TFTGuildInactive>Ahri: On cast, gain Mana</TFTGuildInactive></ShowIfNot.TFT15_StarGuardian_HasAhri>",
+            "<ShowIf.TFT15_StarGuardian_HasNeeko><status>Neeko:</status> +@TFTUnitProperty.trait:TFT15_StarGuardian_NeekoValue@% healing and shielding</ShowIf.TFT15_StarGuardian_HasNeeko><ShowIfNot.TFT15_StarGuardian_HasNeeko><TFTGuildInactive>Neeko: Increase heals & shields</TFTGuildInactive></ShowIfNot.TFT15_StarGuardian_HasNeeko>",
+            "<ShowIf.TFT15_StarGuardian_HasPoppy><status>Poppy:</status> At 40% Health, heal @TFTUnitProperty.trait:TFT15_StarGuardian_PoppyValue@% %i:scaleHealth%</ShowIf.TFT15_StarGuardian_HasPoppy><ShowIfNot.TFT15_StarGuardian_HasPoppy><TFTGuildInactive>Poppy: Heal at low Health</TFTGuildInactive></ShowIfNot.TFT15_StarGuardian_HasPoppy>",
+            "<ShowIf.TFT15_StarGuardian_HasJinx><status>Jinx:</status> +@TFTUnitProperty.trait:TFT15_StarGuardian_JinxValue@% Attack Speed. +@TFTUnitProperty.trait:TFT15_StarGuardian_JinxBonusASValue@% %i:scaleAS% after takedowns, decaying over 3s</ShowIf.TFT15_StarGuardian_HasJinx><ShowIfNot.TFT15_StarGuardian_HasJinx><TFTGuildInactive>Jinx: Gain Attack Speed</TFTGuildInactive></ShowIfNot.TFT15_StarGuardian_HasJinx>",
+            "<ShowIf.TFT15_StarGuardian_HasSeraphine><status>Seraphine:</status> Gain @TFTUnitProperty.trait:TFT15_StarGuardian_SeraphineValue@ %i:scaleArmor%%i:scaleMR%%i:scaleHealth% and @TFTUnitProperty.trait:TFT15_StarGuardian_SeraphineValue@% %i:scaleAD%%i:scaleAS%%i:scaleCrit%%i:scaleCritMult%</ShowIf.TFT15_StarGuardian_HasSeraphine><ShowIfNot.TFT15_StarGuardian_HasSeraphine><TFTGuildInactive>Seraphine: Gain every stat</TFTGuildInactive></ShowIfNot.TFT15_StarGuardian_HasSeraphine>",
+            "<ShowIf.TFT15_StarGuardian_HasEmblem><status>Emblem:</status> Increase bonuses by @EmblemBonus*100@%!</ShowIf.TFT15_StarGuardian_HasEmblem><ShowIfNot.TFT15_StarGuardian_HasEmblem><TFTGuildInactive>Emblem: Increase other bonuses</TFTGuildInactive></ShowIfNot.TFT15_StarGuardian_HasEmblem>"
+        ],
+        "unit_count": 8,
+        "units": "Rell(1)/Syndra(1)/Xayah(2)/Ahri(3)/Neeko(3)/Jinx(4)/Poppy(4)/Seraphine(5)",
+        "trait_active": "2/3/4/5/6/7/8/8/9/9/10/10",
+        "trait_desc": "(AhriDuration,EmblemBonus,ManaToPrismatic,Multiplier,SyndraTimer): (2,0.10,20000,1,3)/(2,0.10,20000,1.10,3)/(2,0.10,20000,1.20,3)/(2,0.10,20000,1.30,3)/(2,0.10,20000,1.45,3)/(2,0.10,20000,1.53,3)/(2,0.10,20000,1.60,3)/(2,0.10,20000,1.60,3)/(2,0.10,20000,1.70,3)/(2,0.10,20000,1.70,3)/(2,0.10,20000,2,3)/(2,0.10,20000,2,3)"
+    },
+    {
+        "name": "Heavyweight",
+        "desc": [
+            "Your team gains @TeamBonusHealth@ Health. ",
+            "Heavyweights gain additional bonus Health, and Attack Damage equal to a percentage of their Health.",
+            "<expandRow>(@MinUnits@) @BonusPercentHealth*100@% %i:scaleHealth% | @HealthPercentToAD@% %i:scaleHealth% to %i:scaleAD%</expandRow>"
+        ],
+        "unit_count": 6,
+        "units": "Aatrox(1)/Zac(1)/Kobuko(2)/Darius(3)/Jayce(3)/Poppy(4)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(BonusPercentHealth,HealthPercentToAD,TeamBonusHealth): (0.20,0.20,100)/(0.40,0.40,100)/(0.55,0.60,100)"
+    },
+    {
+        "name": "The Crew",
+        "desc": [
+            "Crew champions gain @StatBonus*100@% Health and Attack Speed for each Crew member fielded.",
+            "Every 3-star Crew champion grants an additional bonus.",
+            "<tftActiveRank enabled=TFT15_Trait_WildcardCrew_Bonus1Active default=false alternate=TFTGuildInactive>(1x <ShowIf.TFT15_Trait_WildcardCrew_Bonus1Active>%i:3StarEnabled%</ShowIf.TFT15_Trait_WildcardCrew_Bonus1Active><ShowIfNot.TFT15_Trait_WildcardCrew_Bonus1Active>%i:3StarDisabled%</ShowIfNot.TFT15_Trait_WildcardCrew_Bonus1Active>): +@XPPerReroll@ XP per paid reroll, and Crew unit odds never drop with player level.</tftActiveRank>",
+            "<tftActiveRank enabled=TFT15_Trait_WildcardCrew_Bonus2Active default=false alternate=TFTGuildInactive>(2x <ShowIf.TFT15_Trait_WildcardCrew_Bonus2Active>%i:3StarEnabled%</ShowIf.TFT15_Trait_WildcardCrew_Bonus2Active><ShowIfNot.TFT15_Trait_WildcardCrew_Bonus2Active>%i:3StarDisabled%</ShowIfNot.TFT15_Trait_WildcardCrew_Bonus2Active>): +1 free reroll / round.</tftActiveRank>",
+            "<tftActiveRank enabled=TFT15_Trait_WildcardCrew_Bonus3Active default=false alternate=TFTGuildInactive>(3x <ShowIf.TFT15_Trait_WildcardCrew_Bonus3Active>%i:3StarEnabled%</ShowIf.TFT15_Trait_WildcardCrew_Bonus3Active><ShowIfNot.TFT15_Trait_WildcardCrew_Bonus3Active>%i:3StarDisabled%</ShowIfNot.TFT15_Trait_WildcardCrew_Bonus3Active>): Deal @BaseDamageThreshold@ damage to fire a rocket dealing <magicDamage>@BaseRocketDamage@</magicDamage>.</tftActiveRank>",
+            "<tftActiveRank enabled=TFT15_Trait_WildcardCrew_Bonus4Active default=false alternate=TFTGuildInactive>(4x <ShowIf.TFT15_Trait_WildcardCrew_Bonus4Active>%i:3StarEnabled%</ShowIf.TFT15_Trait_WildcardCrew_Bonus4Active><ShowIfNot.TFT15_Trait_WildcardCrew_Bonus4Active>%i:3StarDisabled%</ShowIfNot.TFT15_Trait_WildcardCrew_Bonus4Active>): Fire rockets @RocketRatePerLevel*100@% more often per player level.</tftActiveRank>",
+            "<tftActiveRank enabled=TFT15_Trait_WildcardCrew_Bonus5Active default=false alternate=TFTGuildInactive>(5x <ShowIf.TFT15_Trait_WildcardCrew_Bonus5Active>%i:3StarEnabled%</ShowIf.TFT15_Trait_WildcardCrew_Bonus5Active><ShowIfNot.TFT15_Trait_WildcardCrew_Bonus5Active>%i:3StarDisabled%</ShowIfNot.TFT15_Trait_WildcardCrew_Bonus5Active>): Fire the Planet Cracker.</tftActiveRank>"
+        ],
+        "unit_count": 5,
+        "units": "Malphite(1)/Sivir(1)/Shen(2)/Ziggs(3)/TwistedFate(5)",
+        "trait_active": "2/2/2/2/2/2/2",
+        "trait_desc": "(BaseDamageThreshold,BaseRocketDamage,RocketRatePerLevel,StatBonus,XPPerReroll): (280,105,0.03,0.05,1)/(280,105,0.03,0.05,1)/(280,105,0.03,0.05,1)/(280,105,0.03,0.05,1)/(280,105,0.03,0.05,1)/(280,105,0.03,0.05,1)/(280,105,0.03,0.05,1)"
+    },
+    {
+        "name": "Supreme Cells",
+        "desc": [
+            "The Cell who dealt the most damage last combat is Supreme. When the Supreme Cell dies, the Cell with the highest current damage becomes Supreme.",
+            "Cells gain Damage Amp. The Supreme Cell gains more and executes enemies under @OverlordExecute*100@%&nbsp;Health.",
+            "<row>(@MinUnits@) @DamageAmp@% %i:scaleDA% | @OverlordDamageAmp@% %i:scaleDA%</row>",
+            "<row>(@MinUnits@) @DamageAmp@% %i:scaleDA% | @OverlordDamageAmp@% %i:scaleDA%</row>",
+            "<row>(@MinUnits@) @DamageAmp@% %i:scaleDA% | @OverlordDamageAmp@% %i:scaleDA%. Gain a second Supreme</row>"
+        ],
+        "unit_count": 4,
+        "units": "Kennen(1)/KaiSa(2)/Darius(3)/Akali(4)",
+        "trait_active": "2/3/4",
+        "trait_desc": "(DamageAmp,OverlordDamageAmp,OverlordExecute): (8,12,0.10)/(18,30,0.10)/(28,50,0.10)"
+    },
+    {
+        "name": "Soul Fighter",
+        "desc": [
+            "Soul Fighters gain bonus Health, and gain Attack Damage and Ability Power every second up to @MaxStacks@ stacks. At max stacks deal bonus true damage.",
+            "<ShowIf.TFT15_SoulFighter_NoPrismatic>",
+            "<rules>Prismatic: Field 8, then win @PlayerDamageToPrismatic@ combats.</rules>",
+            "</ShowIf.TFT15_SoulFighter_NoPrismatic><ShowIf.TFT15_SoulFighter_PrismaticPending>",
+            "<TFTRadiantItemBonus>Prismatic:</TFTRadiantItemBonus> Defeat @PlayerDamageToPrismatic@ players in combat. (@TFTUnitProperty.trait:TFT15_SoulFighter_PlayerDamageDealt@)",
+            "</ShowIf.TFT15_SoulFighter_PrismaticPending><ShowIf.TFT15_SoulFighter_PrismaticActive>",
+            "<TFTRadiantItemBonus>MAXIMUM SOUL POWER.",
+            "</TFTRadiantItemBonus></ShowIf.TFT15_SoulFighter_PrismaticActive>",
+            "<row>(@MinUnits@) @FlatHealth@&nbsp;%i:scaleHealth%, @StatsPerSecond*100@%&nbsp;%i:scaleAD%%i:scaleAP%, +@BonusTrueDamage*100@% damage</row>",
+            "<row>(@MinUnits@) @FlatHealth@&nbsp;%i:scaleHealth%, @StatsPerSecond*100@%&nbsp;%i:scaleAD%%i:scaleAP%, +@BonusTrueDamage*100@% damage</row>",
+            "<row>(@MinUnits@) @FlatHealth@&nbsp;%i:scaleHealth%, @StatsPerSecond*100@%&nbsp;%i:scaleAD%%i:scaleAP%, +@BonusTrueDamage*100@% damage</row>",
+            "<row>(@MinUnits@) @FlatHealth@&nbsp;%i:scaleHealth%, @StatsPerSecond*100@%&nbsp;%i:scaleAD%%i:scaleAP%, +@BonusTrueDamage*100@% damage</row>"
+        ],
+        "unit_count": 8,
+        "units": "Kalista(1)/Naafiri(1)/Lux(2)/XinZhao(2)/Viego(3)/Samira(4)/Sett(4)/Gwen(5)",
+        "trait_active": "2/4/6/8/8",
+        "trait_desc": "(BonusTrueDamage,FlatHealth,MaxStacks,PlayerDamageToPrismatic,StatsPerSecond): (0.10,120,8,10,0.01)/(0.16,240,8,10,0.02)/(0.22,450,8,10,0.03)/(0.30,700,8,10,0.04)/(0.30,700,8,10,0.04)"
+    },
+    {
+        "name": "The Champ",
+        "desc": [
+            "The Champ's victories against players grant @PorosPerVictory@ Poro-fans! On loss Poro-fans prevent @PlayerDamagePrevented@ Tactician damage each, then you lose @PctPorosLost@% of your fans.",
+            "Poro Fanbase: @TFTUnitProperty.trait:TFT15_Trait_ElTigre_NumPoros@"
+        ],
+        "unit_count": 1,
+        "units": "Braum(5)",
+        "trait_active": "1",
+        "trait_desc": "(PctPorosLost,PlayerDamagePrevented,PlayerHealthPerVictoryDU,PoroAmountForHealPVE,PorosPerVictory,PorosPerVictoryDU,TacticianHealPVE): (75,1,1,20,2,1,1)"
+    },
+    {
+        "name": "Sorcerer",
+        "desc": [
+            "Sorcerers gain bonus Ability Power.",
+            "When an enemy dies after being damaged by a Sorcerer, they deal a percentage of that enemy's maximum Health to another enemy.",
+            "<row>(@MinUnits@) @AbilityPower@ %i:scaleAP%; @HealthPct*100@% max %i:scaleHealth%</row>",
+            "<row>(@MinUnits@) @AbilityPower@ %i:scaleAP%; @HealthPct*100@% max %i:scaleHealth%</row>",
+            "<row>(@MinUnits@) @AbilityPower@ %i:scaleAP%; @HealthPct*100@% max %i:scaleHealth% to @TargetNum@ enemies</row>"
+        ],
+        "unit_count": 7,
+        "units": "Kennen(1)/Lucian(1)/Lux(2)/Ahri(3)/Swain(3)/Karma(4)/Gwen(5)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(AbilityPower,HealthPct,TargetNum): (20,0.08,1)/(50,0.10,1)/(90,0.12,2)"
+    },
+    {
+        "name": "Monster Trainer",
+        "desc": [
+            "Choose which monster Lulu summons to replace her in combat! It gains XP after each combat and bonus XP for each takedown it participates in.",
+            "When your Monster levels up, it gains <TFTBonus>@HealthGainPerLevel*100@% Health</TFTBonus>. At level <TFTBonus>@FirstEvolveLevel@</TFTBonus> and <TFTBonus>@SecondEvolveLevel@</TFTBonus> its spell evolves!",
+            "Monster: Level <TFTBonus>@TFTUnitProperty.trait:TFT15_MonsterTrainer_MonsterLevel@</TFTBonus> <TFTBonus>@TFTUnitProperty.trait:TFT15_MonsterTrainer_SelectionName@</TFTBonus>",
+            "XP To Next Level: <TFTBonus>@TFTUnitProperty.trait:TFT15_MonsterTrainer_MonsterCurrentXP@/@TFTUnitProperty.trait:TFT15_MonsterTrainer_MonsterXPToLevel@</TFTBonus>"
+        ],
+        "unit_count": 4,
+        "units": "Lulu(3)/KogMaw(3)/Smolder(3)/Rammus(3)",
+        "trait_active": "1",
+        "trait_desc": "(FirstEvolveLevel,HealthGainPerLevel,SecondEvolveLevel): (15,0.01,30)"
+    },
+    {
+        "name": "Juggernaut",
+        "desc": [
+            "Juggernauts gain Durability, increased above @HealthBreakpoint*100@% health. When a Juggernaut dies, other Juggernauts heal for @HealRatio*100@% of their max Health.",
+            "<expandRow>(@MinUnits@) @BaseDR*100@% or @IncreasedDR*100@%&nbsp;%i:scaleDR%</expandRow>"
+        ],
+        "unit_count": 6,
+        "units": "Aatrox(1)/Naafiri(1)/DrMundo(2)/Vi(2)/Udyr(3)/Sett(4)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(BaseDR,HealRatio,HealthBreakpoint,IncreasedDR): (0.15,0.10,0.50,0.25)/(0.20,0.10,0.50,0.30)/(0.25,0.10,0.50,0.35)"
+    },
+    {
+        "name": "Rosemother",
+        "desc": [
+            "Gain @1Star@/@2Star@/@3Star@ placeable plants, based on Zyra's star level. Plants in the front two rows grow into durable Grasping Roots, while plants in the back two rows grow into Deadly Spines.",
+            "Rosemother plants benefit from Zyra's Ability Power and Attack Speed. ",
+            "When Zyra casts, her plant restores @BonusHealthAndAS*100@% Health and gains @BonusHealthAndAS*100@% Attack Speed for the rest of combat. If the plant is dead, she revives it instead."
+        ],
+        "unit_count": 1,
+        "units": "Zyra(5)",
+        "trait_active": "1",
+        "trait_desc": "(1Star,2Star,3Star,BonusHealthAndAS): (1,1,8,0.35)"
+    },
+    {
+        "name": "Rogue Captain",
+        "desc": [
+            "Twisted Fate upgrades the Crew Ship to deal @Bounty_TheCrew_RocketUpgrade_TrueDamagePercent*100@% of it's damage as true damage and draws Bounty Cards each round that grant random rewards.",
+            "<rules>Bounty Cards get better for each player combat. (Rounds Fielded: @TFTUnitProperty.trait:TFT15_Trait_RogueCaptain_Bounty_NumRoundsLeft@)</rules>",
+            "Current Bounty Card:",
+            "@TFTUnitProperty.trait:TFT15_Trait_RogueCaptain_CurrentBounty@"
+        ],
+        "unit_count": 1,
+        "units": "TwistedFate(5)",
+        "trait_active": "1",
+        "trait_desc": "(Bounty_CasterEmpower_DA,Bounty_FreeRerolls_NumRerolls,Bounty_GainAttackSpeed_AS,Bounty_GainGoldLarge_MinGold,Bounty_GainGold_MinGold,Bounty_GainXP_Amount,Bounty_Omnivamp_Omnivamp,Bounty_PermanentAP_AP,Bounty_TankEmpower_MaxHealth,Bounty_TeamShield_Duration,Bounty_TeamShield_Shield,Bounty_TheCrew_GainHealth_PermanentADAP,Bounty_TheCrew_GainHealth_PermanentHealth,Bounty_TheCrew_GoldPerStar_GoldAmount,Bounty_TheCrew_RocketUpgrade_TrueDamagePercent,Bounty_ThinkFast_Cadence,Bounty_ThinkFast_Gold): (0.02,2,0.15,12,2,12,0.15,18,40,8,160,5,60,1,0.15,3,5)"
+    },
+    {
+        "name": "Mentor",
+        "desc": [
+            "This trait is active only when you have exactly 1 or 4 unique Mentors. ",
+            "<row>(1) Allies gain the bonus</row>",
+            "<tftActiveRank enabled=TFT15_Trait_OldMentor_SpellsUpgraded><row>(4) Mentors gain all bonuses and upgrade their abilities. Other allies gain nothing.</row></tftActiveRank>",
+            "<TFTGuildActive enabled=TFT15_Trait_OldMentor_ActiveKobuko alternate=TFTGuildInactive>Kobuko: @Durability*100@% Damage Reduction</TFTGuildActive>",
+            "<TFTGuildActive enabled=TFT15_Trait_OldMentor_ActiveUdyr alternate=TFTGuildInactive>Udyr: @ADAP*100@% Attack Damage and Ability Power</TFTGuildActive>",
+            "<TFTGuildActive enabled=TFT15_Trait_OldMentor_ActiveYasuo alternate=TFTGuildInactive>Yasuo: @AS*100@% Attack Speed</TFTGuildActive>",
+            "<TFTGuildActive enabled=TFT15_Trait_OldMentor_ActiveRyze alternate=TFTGuildInactive>Ryze: Attacks grant @Mana@ bonus Mana</TFTGuildActive>"
+        ],
+        "unit_count": 4,
+        "units": "Kobuko(2)/Udyr(3)/Yasuo(3)/Ryze(4)",
+        "trait_active": "1/2/4",
+        "trait_desc": "(ADAP,AS,Durability,Mana): (0.08,0.10,0.06,2)/(0.08,0.10,0.06,2)/(0.08,0.10,0.06,2)"
+    },
+    {
+        "name": "Duelist",
+        "desc": [
+            "Duelists gain Attack&nbsp;Speed on each attack, stacking up to @MaxStacks@&nbsp;times.",
+            "<row>(@MinUnits@) @AttackSpeedPercent*100@%&nbsp;%i:scaleAS%</row>",
+            "<row>(@MinUnits@) @AttackSpeedPercent*100@%&nbsp;%i:scaleAS%</row>",
+            "<row>(@MinUnits@) @AttackSpeedPercent*100@%&nbsp;%i:scaleAS%; Duelists gain @DamageReduction@%&nbsp;%i:scaleDR%</row>"
+        ],
+        "unit_count": 6,
+        "units": "Kayle(1)/KaiSa(2)/Gangplank(2)/Udyr(3)/Viego(3)/Ashe(4)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(AttackSpeedPercent,DamageReduction,MaxStacks): (0.04,None,12)/(0.07,None,12)/(0.10,12,12)"
+    },
+    {
+        "name": "Strategist",
+        "desc": [
+            "Combat Start: Allies in the front 2 rows gain a shield for @ShieldDuration@ seconds. Allies in the back 2 rows gain Damage Amp. Strategists gain triple.",
+            "<expandRow>(@MinUnits@) @Shield@ Shield; @DamageAmp@% %i:scaleDA%</expandRow>"
+        ],
+        "unit_count": 4,
+        "units": "Janna(2)/Ziggs(3)/JarvanIV(4)/Ryze(4)",
+        "trait_active": "2/3/4/5",
+        "trait_desc": "(DamageAmp,Shield,ShieldDuration): (4,150,15)/(6,225,15)/(10,350,15)/(14,450,15)"
+    },
+    {
+        "name": "Bastion",
+        "desc": [
+            "Your team gains @TeamwideResists@ Armor and Magic Resist.",
+            "Bastions gain more, and the value doubles in the first @Duration@ seconds of combat.",
+            "<row>(@MinUnits@) @BonusArmor@ %i:scaleArmor%%i:scaleMR%</row>",
+            "<row>(@MinUnits@) @BonusArmor@ %i:scaleArmor%%i:scaleMR%</row>",
+            "<row>(@MinUnits@) @BonusArmor@ %i:scaleArmor%%i:scaleMR%; Non-Bastions gain an additional @EnhancedTeamwideArmor@ %i:scaleArmor%%i:scaleMR%.</row>"
+        ],
+        "unit_count": 7,
+        "units": "Garen(1)/Rell(1)/XinZhao(2)/Shen(2)/Swain(3)/Leona(4)/Braum(5)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(BonusArmor,BonusMR,Duration,EnhancedTeamwideArmor,StatMultiplier,TeamwideResists): (18,18,10,25,2,10)/(36,36,10,25,2,10)/(70,70,10,25,2,10)"
+    },
+    {
+        "name": "Wraith",
+        "desc": [
+            "Every @RealmTimer@ seconds, the Shadow Realm strikes the @NumEnemy@ closest enemies, dealing total magic damage equal to a portion of damage dealt by Wraiths since the last trigger.",
+            "Your lowest health Wraith heals for @HealPercent*100@% of damage dealt by Wraiths and the Shadow Realm.",
+            "<row>(@MinUnits@) @DamagePercent*100@% damage.</row>",
+            "<row>(@MinUnits@) @DamagePercent*100@% damage.</row>",
+            "<row>(@MinUnits@) @DamagePercent*100@% damage.</row>"
+        ],
+        "unit_count": 6,
+        "units": "Kayle(1)/Zac(1)/Jhin(2)/Malzahar(3)/KSante(4)/Varus(5)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(DamagePercent,HealPercent,NumEnemy,RealmTimer): (0.18,0.18,3,5)/(0.33,0.18,3,5)/(0.50,0.18,3,5)"
+    },
+    {
+        "name": "Prodigy",
+        "desc": [
+            "Your team gains Mana Regen. Prodigies gain more.",
+            "<row>(@MinUnits@) @TeamBonusMana@ %i:TFTManaRegen% | @ProdigyBonusMana@ %i:TFTManaRegen%</row>",
+            "<row>(@MinUnits@) @TeamBonusMana@ %i:TFTManaRegen% | @ProdigyBonusMana@ %i:TFTManaRegen%</row>",
+            "<row>(@MinUnits@) @TeamBonusMana@ %i:TFTManaRegen% | @ProdigyBonusMana@ %i:TFTManaRegen%</row>",
+            "<row>(@MinUnits@) @TeamBonusMana@ %i:TFTManaRegen% | @ProdigyBonusMana@ %i:TFTManaRegen% | Prodigy abilities heal an ally for @AllyHealing*100@% of the damage dealt.</row>"
+        ],
+        "unit_count": 5,
+        "units": "Ezreal(1)/Syndra(1)/Malzahar(3)/Yuumi(4)/Seraphine(5)",
+        "trait_active": "2/3/4/5",
+        "trait_desc": "(AllyHealing,ProdigyBonusMana,TeamBonusMana): (3,1)/(5,1)/(7,2)/(0.10,9,3)"
+    },
+    {
+        "name": "Protector",
+        "desc": [
+            "Units gain @DamageReductionPct*100@% Durability while shielded. ",
+            "Once per combat at @HealthThreshold*100@% Health, Protectors shield themselves and their closest ally for a percent of their maximum Health. Shields stack.",
+            "<expandRow>(@MinUnits@) @ShieldPercentAmount*100@% %i:scaleHealth% shield</expandRow>"
+        ],
+        "unit_count": 6,
+        "units": "Kennen(1)/Malphite(1)/Janna(2)/Rakan(2)/Neeko(3)/KSante(4)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(DamageReductionPct,HealthThreshold,ShieldPercentAmount): (0.05,0.50,0.20)/(0.05,0.50,0.40)/(0.05,0.50,0.60)"
+    },
+    {
+        "name": "Battle Academia",
+        "desc": [
+            "Battle Academia champions upgrade their abilities and gain Potential %i:set14AmpIcon%. Potential improves their abilities. ",
+            "<ShowIf.TFT15_BattleAcademia_NoPrismatic>",
+            "<rules>Prismatic: Field 7, then earn @PrismaticItemRequirement@ points by using items.</rules>",
+            "</ShowIf.TFT15_BattleAcademia_NoPrismatic><ShowIf.TFT15_BattleAcademia_PrismaticPending>",
+            "<TFTRadiantItemBonus>Prismatic:</TFTRadiantItemBonus> Earn 1 point for every Completed item used in combat. Graduate at @PrismaticItemRequirement@ points. (@TFTUnitProperty.trait:TFT15_BattleAcademia_PrismaticNumItems@/@PrismaticItemRequirement@).",
+            "</ShowIf.TFT15_BattleAcademia_PrismaticPending><ShowIf.TFT15_BattleAcademia_PrismaticActive>",
+            "<TFTRadiantItemBonus>",
+            "True Potential Unlocked: +@UltimateNumPotential@ %i:set14AmpIcon%</TFTRadiantItemBonus>",
+            "</ShowIf.TFT15_BattleAcademia_PrismaticActive>",
+            "<row>(@MinUnits@) @NumPotential@ %i:set14AmpIcon%</row>",
+            "<row>(@MinUnits@) @NumPotential@ %i:set14AmpIcon%</row>",
+            "<row>(@MinUnits@) @NumPotential@ %i:set14AmpIcon%</row>"
+        ],
+        "unit_count": 8,
+        "units": "Ezreal(1)/Garen(1)/Katarina(2)/Rakan(2)/Caitlyn(3)/Jayce(3)/Leona(4)/Yuumi(4)",
+        "trait_active": "3/5/7/7",
+        "trait_desc": "(DA,DR,NumPotential,PrismaticItemRequirement,UltimateNumPotential): (0.10,0.05,3,175,10)/(0.25,0.10,5,175,10)/(0.50,0.25,7,175,10)/(0.50,0.25,7,175,10)"
+    },
+    {
+        "name": "Luchador",
+        "desc": [
+            "Luchadors gain bonus Attack Damage. ",
+            "At @HealthRatio*100@% health, Luchadors cleanse negative effects, heal, and leap back into the fight, <TFTKeyword>Stunning</TFTKeyword> enemies in a 1-hex radius for @StunDuration@ seconds.",
+            "<row>(@MinUnits@) @ADBonus*100@ %i:scaleAD%; @HealRatio*100@% %i:scaleHealth% heal</row>",
+            "<row>(@MinUnits@) @ADBonus*100@ %i:scaleAD%; @HealRatio*100@% %i:scaleHealth% heal</row>"
+        ],
+        "unit_count": 4,
+        "units": "Gnar(1)/DrMundo(2)/Volibear(4)/Braum(5)",
+        "trait_active": "2/4",
+        "trait_desc": "(ADBonus,HealRatio,HealthRatio,ShieldDuration,StunDuration): (0.15,0.20,0.50,5,1)/(0.40,0.50,0.50,5,1)"
+    },
+    {
+        "name": "Mighty Mech",
+        "desc": [
+            "Gain The Mighty Mech. Mighty Mechs heal it for @GalioHealRatio*100@% of the damage they deal.",
+            "<ShowIf.TFT15_SentaiRanger_PrismaticActive>",
+            "<TFTRadiantItemBonus>Unlock the Mightiest Mech</TFTRadiantItemBonus>",
+            "</ShowIf.TFT15_SentaiRanger_PrismaticActive>",
+            "<row>(@MinUnits@) The Mighty Mech arrives</row>",
+            "<row>(@MinUnits@) Blade Protocol: Level 1</row>",
+            "<row>(@MinUnits@) Blade Protocol: Level 2</row>",
+            "<rules>Each Mighty Mech champion's star level increases The Mighty Mech's power.</rules>"
+        ],
+        "unit_count": 7,
+        "units": "Aatrox(1)/Lucian(1)/Gangplank(2)/Senna(3)/JarvanIV(4)/Karma(4)/Yone(5)",
+        "trait_active": "3/5/7/7",
+        "trait_desc": "(AutoAttackDamage,GalioHealRatio,Health,NumItems): (65,0.10,1)/(100,0.10,1300,2)/(110,0.10,2000,3)/(120,0.10,2000,3)"
+    }
+]

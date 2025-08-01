@@ -135,6 +135,7 @@ def parse_items() -> dict:
         itemattr=[{
             'name': itemof['name'],
             'composition': itemof['composition'],
+            'tags': itemof['tags'] if 'tags' in itemof else [],
             'effects': itemof['effects'],
             'desc': parse_expr_desc_vars(itemof['desc'], {varm['match']:str(varm['value']) for varm in itemof['variable_matches']} if 'variable_matches' in itemof else {}),
         } for itemof in setdata[setof]['items']]
@@ -164,10 +165,47 @@ def parse_augments():
     pass
 
 def parse_traits():
-    pass
+    def parse_units(setof:str, units:list[dict]) -> str:
+        return '/'.join([str(unit0['unit']).removeprefix(f'TFT{setof}_')+'('+str(unit0['unit_cost'])+')' for unit0 in sorted(units, key=lambda unitof: unitof['unit_cost'])])
+    def parse_effects(effects:list[dict]) -> tuple[str,str]:
+        """
+            return (active_units, desc)
+        """
+        def cut_floatstr(fstr:str) -> str:
+            return f'{float(fstr):.2f}' if fstr.find('.')!=-1 else fstr
+        def filter_varkey(vardict: dict) -> dict:
+            return {varkey:varval for varkey,varval in vardict.items() if not (str(varkey).startswith('{') and str(varkey).endswith('}'))}
+        def get_match_val(matchvars:list[dict], varkey:str) -> str:
+            for mtchvar in matchvars:
+                if mtchvar['match']==varkey:
+                    return str(mtchvar['value'])
+            return ''
+
+        actvs='/'.join([str(efct['minUnits']) for efct in effects])
+        efctkeys=['('+','.join([str(varkey) for varkey in filter_varkey(efct['variables'])])+')' for efct in effects]
+        efctvals=['('+','.join([cut_floatstr(str(varval)) for _,varval in filter_varkey(efct['variables']).items()])+')' for efct in effects]
+        return (actvs, max(efctkeys, key=lambda efctkey: len(efctkey))+': '+'/'.join(efctvals))
+
+    traits:dict[str, list[dict]]={}
+    for setof in setlist:
+        traits[setof]=[]
+        for trtof in setdata[setof]['traits']:
+            if 'set15_mechanic' in trtof:
+                continue
+            traits[setof].append({
+                'name': trtof['name'],
+                'desc': [desc0 for desc0 in str(trtof['desc']).split('<br>') if len(desc0) > 0],
+                'unit_count': len(trtof['units']) if 'units' in trtof else 0,
+                'units': parse_units(setof, trtof['units']) if 'units' in trtof else '',
+                'trait_active': parse_effects(trtof['effects'])[0],
+                'trait_desc': parse_effects(trtof['effects'])[1],
+            })
+        with open(f'data/traits/{setof}.json', 'w+') as trtfile:
+            trtfile.write(dumps(traits[setof], ensure_ascii=True, indent=4))
+            trtfile.close()
 
 def parse_armory():
     pass
 
-for fn in [parse_roles, parse_portals, parse_augmentsodds, parse_items]:
+for fn in [parse_roles, parse_portals, parse_augmentsodds, parse_items, parse_traits]:
     fn()

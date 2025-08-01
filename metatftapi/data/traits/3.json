@@ -1,0 +1,287 @@
+[
+    {
+        "name": "Sniper",
+        "desc": [
+            "Snipers deal bonus damage for each hex between themselves and their target.",
+            "<expandRow>(@MinUnits@) +@PercentDamageIncrease@% per hex</expandRow>"
+        ],
+        "unit_count": 5,
+        "units": "Caitlyn(1)/Ashe(3)/Vayne(3)/Teemo(4)/Jhin(4)",
+        "trait_active": "2/4",
+        "trait_desc": "(PercentDamageIncrease): (9)/(16)"
+    },
+    {
+        "name": "Celestial",
+        "desc": [
+            "Your team gains Omnivamp.",
+            "<expandRow>(@MinUnits@) @HealPercent@% Omnivamp</expandRow>"
+        ],
+        "unit_count": 5,
+        "units": "Xayah(1)/XinZhao(2)/Rakan(2)/Ashe(3)/Lulu(5)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(HealPercent): (12)/(25)/(50)"
+    },
+    {
+        "name": "Mystic",
+        "desc": [
+            "Your team gains Magic Resist.",
+            "<expandRow>(@MinUnits@) @MagicResist@ %i:scaleMR%</expandRow>"
+        ],
+        "unit_count": 5,
+        "units": "Karma(3)/Cassiopeia(3)/Bard(3)/Soraka(4)/Lulu(5)",
+        "trait_active": "2/4",
+        "trait_desc": "(MagicResist): (30)/(80)"
+    },
+    {
+        "name": "Rebel",
+        "desc": [
+            "At start of combat for @ShieldDuration@ seconds, Rebels gain a Shield and bonus damage for each adjacent Rebel.",
+            "<expandRow>(@MinUnits@) @ShieldAmount@ Shield; +@DamageAmp@% bonus damage</expandRow>"
+        ],
+        "unit_count": 7,
+        "units": "Ziggs(1)/Malphite(1)/Yasuo(2)/Zed(2)/MasterYi(3)/Jinx(4)/AurelionSol(5)",
+        "trait_active": "3/6/9",
+        "trait_desc": "(DamageAmp,ShieldAmount,ShieldDuration): (6,150,8)/(10,225,8)/(20,400,8)"
+    },
+    {
+        "name": "Space Pirate",
+        "desc": [
+            "Whenever a Space Pirate lands a killing blow, there is a chance to drop loot.",
+            "<row>(@MinUnits@) @CoinDropChance@% for 1 gold</row>",
+            "<row>(@MinUnits@) and @ItemDropChance@% to drop an item</row>"
+        ],
+        "unit_count": 4,
+        "units": "Graves(1)/Darius(2)/Jayce(3)/Gangplank(5)",
+        "trait_active": "2/4",
+        "trait_desc": "(CoinDropChance,ItemDropChance): (50,null)/(50,33)"
+    },
+    {
+        "name": "Dark Star",
+        "desc": [
+            "Whenever an allied champion dies, Dark Stars gain Attack Damage and Ability Power.",
+            "<expandRow>(@MinUnits@) +@ADandSP@% %i:scaleAD%, +@ADandSP@ %i:scaleAP%</expandRow>"
+        ],
+        "unit_count": 6,
+        "units": "JarvanIV(1)/Mordekaiser(2)/Shaco(3)/Karma(3)/Jhin(4)/Xerath(5)",
+        "trait_active": "2/4/6/8",
+        "trait_desc": "(ADandSP): (6)/(15)/(25)/(45)"
+    },
+    {
+        "name": "Battlecast",
+        "desc": [
+            "After dealing or taking 10 instances of damage, Battlecast champions deal magic damage to the nearest enemy. If below 50% Health, heal that much instead.",
+            "<expandRow>(@MinUnits@) @HealOrDamageAmount@ magic damage</expandRow>"
+        ],
+        "unit_count": 6,
+        "units": "Illaoi(1)/Nocturne(1)/KogMaw(2)/Cassiopeia(3)/Viktor(4)/Urgot(5)",
+        "trait_active": "2/4/6/8",
+        "trait_desc": "(HealOrDamageAmount): (90)/(200)/(400)/(1000)"
+    },
+    {
+        "name": "Starship",
+        "desc": [
+            "(@MinUnits@) Starships gain @ManaPerSecond@ Mana per second, maneuver around the board, and are immune to movement impairing effects, but don't attack."
+        ],
+        "unit_count": 1,
+        "units": "AurelionSol(5)",
+        "trait_active": "1",
+        "trait_desc": "(ManaPerSecond): (40)"
+    },
+    {
+        "name": "Astro",
+        "desc": [
+            "(@MinUnits@) Astro abilities cost @ManaCostReduction@ less Mana."
+        ],
+        "unit_count": 4,
+        "units": "Nautilus(2)/Bard(3)/Teemo(4)/Gnar(4)",
+        "trait_active": "3",
+        "trait_desc": "(ManaCostReduction): (30)"
+    },
+    {
+        "name": "Blademaster",
+        "desc": [
+            "Blademasters' attacks have a chance to trigger additional attacks against the current target.",
+            "<expandRow>(@MinUnits@) @ProcChance@% chance. @ExtraAttacks@ extra attack(s).</expandRow>"
+        ],
+        "unit_count": 7,
+        "units": "Fiora(1)/Xayah(1)/Yasuo(2)/Shen(2)/MasterYi(3)/Irelia(4)/Riven(4)",
+        "trait_active": "3/6/9",
+        "trait_desc": "(ExtraAttacks,ProcChance): (1,30)/(2,30)/(2,80)"
+    },
+    {
+        "name": "Chrono",
+        "desc": [
+            "Your team gains @PercentAttackSpeed@% Attack Speed at the start of combat and every few seconds.",
+            "<row>(@MinUnits@) @Frequency@ seconds</row>",
+            "<row>(@MinUnits@) @Frequency@ seconds</row>",
+            "<row>(@MinUnits@) @Frequency@ second</row>",
+            "<row>(@MinUnits@) @Frequency@ seconds</row>"
+        ],
+        "unit_count": 8,
+        "units": "Caitlyn(1)/TwistedFate(1)/Shen(2)/Blitzcrank(2)/Ezreal(3)/WuKong(4)/Riven(4)/Thresh(5)",
+        "trait_active": "2/4/6/8",
+        "trait_desc": "(Frequency,PercentAttackSpeed): (7,10)/(4,10)/(1.50,10)/(0.50,10)"
+    },
+    {
+        "name": "Void",
+        "desc": [
+            "(@MinUnits@) Attacks and spells from Void champions deal true damage."
+        ],
+        "unit_count": 0,
+        "units": "",
+        "trait_active": "3",
+        "trait_desc": "(): ()"
+    },
+    {
+        "name": "Vanguard",
+        "desc": [
+            "Vanguards gain Armor.",
+            "<expandRow>(@MinUnits@) @Armor@ %i:scaleArmor%</expandRow>"
+        ],
+        "unit_count": 6,
+        "units": "Poppy(1)/Leona(1)/Mordekaiser(2)/Nautilus(2)/Jayce(3)/WuKong(4)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(Armor): (70)/(150)/(350)"
+    },
+    {
+        "name": "Protector",
+        "desc": [
+            "Whenever a Protector casts their ability, they gain a Shield for @Duration@ seconds.",
+            "<expandRow>(@MinUnits@) @ShieldPercent@% max %i:scaleHealth%</expandRow>"
+        ],
+        "unit_count": 5,
+        "units": "JarvanIV(1)/XinZhao(2)/Rakan(2)/Neeko(3)/Urgot(5)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(Duration,ShieldPercent): (4,30)/(4,40)/(4,50)"
+    },
+    {
+        "name": "Star Guardian",
+        "desc": [
+            "Whenever a Star Guardian casts, an amount of Mana is divided between all other Star Guardians.",
+            "<expandRow>(@MinUnits@) @ManaRestore@ %i:scaleMana%</expandRow>"
+        ],
+        "unit_count": 7,
+        "units": "Poppy(1)/Zoe(1)/Ahri(2)/Syndra(3)/Neeko(3)/Soraka(4)/Janna(5)",
+        "trait_active": "3/6/9",
+        "trait_desc": "(ManaRestore): (15)/(25)/(80)"
+    },
+    {
+        "name": "Brawler",
+        "desc": [
+            "Brawlers gain Health.",
+            "<expandRow>(@MinUnits@) +@BonusHealth@ %i:scaleHealth%</expandRow>"
+        ],
+        "unit_count": 5,
+        "units": "Malphite(1)/Illaoi(1)/Blitzcrank(2)/Vi(3)/Gnar(4)",
+        "trait_active": "2/4",
+        "trait_desc": "(BonusHealth): (350)/(600)"
+    },
+    {
+        "name": "Cybernetic",
+        "desc": [
+            "Cybernetics holding at least 1 item gain Attack Damage and Health.",
+            "<expandRow>(@MinUnits@) +@ADAmp*100@% %i:scaleAD%, +@HealthAmp@ %i:scaleHealth%</expandRow>"
+        ],
+        "unit_count": 7,
+        "units": "Fiora(1)/Leona(1)/Lucian(2)/Vi(3)/Vayne(3)/Irelia(4)/Ekko(5)",
+        "trait_active": "3/6",
+        "trait_desc": "(ADAmp,HealthAmp): (0.30,350)/(0.60,700)"
+    },
+    {
+        "name": "Sorcerer",
+        "desc": [
+            "Your team gains Ability Power.",
+            "<expandRow>(@MinUnits@) @AP@ %i:scaleAP%</expandRow>"
+        ],
+        "unit_count": 7,
+        "units": "TwistedFate(1)/Zoe(1)/Ahri(2)/Annie(2)/Syndra(3)/Viktor(4)/Xerath(5)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(AP): (25)/(45)/(75)"
+    },
+    {
+        "name": "Mercenary",
+        "desc": [
+            "(@MinUnits@) Innate: Upgrades for Mercenaries' abilities have a chance to appear in the shop."
+        ],
+        "unit_count": 1,
+        "units": "Gangplank(5)",
+        "trait_active": "1",
+        "trait_desc": "(): ()"
+    },
+    {
+        "name": "Valkyrie",
+        "desc": [
+            "<expandRow>(@MinUnits@) Valkyrie attacks and spells always critically hit targets below @PercentHealth@% health. </expandRow>"
+        ],
+        "unit_count": 0,
+        "units": "",
+        "trait_active": "2",
+        "trait_desc": "(PercentHealth): (40)"
+    },
+    {
+        "name": "Mech-Pilot",
+        "desc": [
+            "(@MinUnits@) Start of Combat: 3 random Mech-Pilots merge into a Super-Mech.",
+            "The Super-Mech has the Traits of its pilots, 3 random items from among them, and gains 65% of the combined pilots' Health and Attack Damage.",
+            "When the Super-Mech dies, the Pilots are ejected with @EjectedPilotHealthPercent@% of their max Health."
+        ],
+        "unit_count": 3,
+        "units": "Annie(2)/Rumble(3)/Fizz(4)",
+        "trait_active": "3",
+        "trait_desc": "(EjectedPilotHealthPercent): (35)"
+    },
+    {
+        "name": "Mana-Reaver",
+        "desc": [
+            "<expandRow>(@MinUnits@) Mana-Reaver attacks Mana Reave. </expandRow>",
+            "<rules><tftbold>Mana Reave</tftbold>: Increase max Mana by @CostIncreasePercent@% until the next cast.</rules>"
+        ],
+        "unit_count": 3,
+        "units": "Darius(2)/Irelia(4)/Thresh(5)",
+        "trait_active": "2",
+        "trait_desc": "(CostIncreasePercent): (30)"
+    },
+    {
+        "name": "Blaster",
+        "desc": [
+            "Every 4th attack, Blasters fire additional attacks at random enemies. These additional attacks can critically hit.",
+            "<expandRow>(@MinUnits@) @AdditionalAttacks@ Additional Attacks</expandRow>"
+        ],
+        "unit_count": 5,
+        "units": "Graves(1)/KogMaw(2)/Lucian(2)/Ezreal(3)/Jinx(4)",
+        "trait_active": "2/4",
+        "trait_desc": "(AdditionalAttacks): (1)/(2)"
+    },
+    {
+        "name": "Demolitionist",
+        "desc": [
+            "<expandRow>(@MinUnits@) Demolitionists' abilities Stun enemies for @StunDuration@ seconds. (Once per cast)</expandRow>"
+        ],
+        "unit_count": 3,
+        "units": "Ziggs(1)/Rumble(3)/Gangplank(5)",
+        "trait_active": "2",
+        "trait_desc": "(StunDuration): (1.50)"
+    },
+    {
+        "name": "Paragon",
+        "desc": [
+            "(@MinUnits@) Your team's attacks are converted to magic damage. Your Star Guardians' attacks deal true damage instead."
+        ],
+        "unit_count": 1,
+        "units": "Janna(5)",
+        "trait_active": "1",
+        "trait_desc": "(): ()"
+    },
+    {
+        "name": "Infiltrator",
+        "desc": [
+            "Innate: At the start of combat, Infiltrators move to the enemy's backline.",
+            "Infiltrators gain Attack Speed for @Duration@ seconds at the start of combat, refreshed on enemy takedowns.",
+            "<expandRow>(@MinUnits@) @AttackSpeedPercent@% %i:scaleAS%</expandRow>"
+        ],
+        "unit_count": 5,
+        "units": "Nocturne(1)/Zed(2)/Shaco(3)/Fizz(4)/Ekko(5)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(AttackSpeedPercent,Duration): (25,6)/(45,6)/(75,6)"
+    }
+]

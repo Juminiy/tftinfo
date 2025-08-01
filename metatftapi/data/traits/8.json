@@ -1,0 +1,339 @@
+[
+    {
+        "name": "Civilian",
+        "desc": [
+            "If there is a Civilian alive, your team is inspired to protect them by gaining Mana every @Seconds@ seconds.",
+            "<expandRow>(@MinUnits@) +@ManaRegen@ Mana</expandRow>"
+        ],
+        "unit_count": 2,
+        "units": "Galio(1)/Sivir(2)",
+        "trait_active": "1/2/3",
+        "trait_desc": "(): ()/()/()"
+    },
+    {
+        "name": "A.D.M.I.N.",
+        "desc": [
+            "A.D.M.I.N. programs a custom configuration per player each game.",
+            "<row>(@MinUnits@) [Initialize ADMIN cause and effect]</row>",
+            "<row>(@MinUnits@) [Add another effect to the program]. Boost all tiers by @4Tooltip@%</row>",
+            "<row>(@MinUnits@) Boost previous tiers by @6Tooltip@%</row>"
+        ],
+        "unit_count": 4,
+        "units": "Blitzcrank(1)/Camille(2)/Leblanc(3)/Soraka(4)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(): ()/()/()"
+    },
+    {
+        "name": "Anima Squad",
+        "desc": [
+            "Anima Squad members pose after champion kills, increasing their fame. Each point of fame grants @HealthPerStack@ permanent Health to each Anima Squad member.",
+            "They also gain:",
+            "<expandRow>(@MinUnits@) @InitialAD@% Attack Damage and @InitialAP@ Ability Power</expandRow>",
+            "Total fame: @TFTUnitProperty.trait:TFT8_AnimaFameStacks@",
+            "Bonus Health: @TFTUnitProperty.trait:TFT8_AnimaFameHP@"
+        ],
+        "unit_count": 6,
+        "units": "Sylas(1)/Nasus(1)/Jinx(2)/Vayne(3)/Riven(3)/MissFortune(4)",
+        "trait_active": "3/5/7",
+        "trait_desc": "(): ()/()/()"
+    },
+    {
+        "name": "LaserCorps",
+        "desc": [
+            "When a LaserCorp drone pilot attacks or is hit by an attack, their combat drone deals magic damage to the agent's target (@ICD@ second cooldown).   ",
+            "When a unit with a drone dies, the drone is reassigned to another unit with a drone.",
+            "Drone lasers deal:",
+            "<row>(@MinUnits@) @MagicDamage@ magic damage</row>",
+            "<row>(@MinUnits@) @MagicDamage@ magic damage</row>",
+            "<row>(@MinUnits@) @MagicDamage@ magic damage. All champions get a LaserCorp drone. </row> ",
+            "<row>(@MinUnits@) @MagicDamage@ magic damage. All champions get a LaserCorp drone. </row>",
+            "Drone damage last round: @TFTUnitProperty.trait:TFT8_Lasercorps_DamageTRAKey@ magic damage"
+        ],
+        "unit_count": 7,
+        "units": "Ashe(1)/Renekton(1)/Yasuo(2)/Senna(3)/Sejuani(4)/Zed(4)/Mordekaiser(5)",
+        "trait_active": "3/4/5/6",
+        "trait_desc": "(ICD,MagicDamage): (0.40,30)/(0.40,50)/(0.40,60)/(0.40,90)"
+    },
+    {
+        "name": "Brawler",
+        "desc": [
+            "Brawlers gain additional maximum Health.",
+            "<expandRow>(@MinUnits@) +@BonusPercentHealth*100@% maximum Health</expandRow>"
+        ],
+        "unit_count": 7,
+        "units": "Blitzcrank(1)/Renekton(1)/Vi(2)/LeeSin(2)/Riven(3)/Jax(3)/Sejuani(4)",
+        "trait_active": "2/4/6/8",
+        "trait_desc": "(): ()/()/()/()"
+    },
+    {
+        "name": "Mecha:PRIME",
+        "desc": [
+            "Use the Mecha selector item to choose a PRIME.",
+            "Combat start: The PRIME combines with the 2 nearest Mecha, absorbing @HealthPercent@% of their Base Health.",
+            "<row>(@MinUnits@) The PRIME gains @APAmount@ Ability Power and @ADPercent@% Attack Damage</row>",
+            "<row>(@MinUnits@) All Mechas gain @APAmount@ Ability Power and @ADPercent@% Attack Damage; the PRIME gains double this amount</row>"
+        ],
+        "unit_count": 5,
+        "units": "WuKong(1)/Draven(2)/Jax(3)/Sett(4)/Leona(5)",
+        "trait_active": "3/5",
+        "trait_desc": "(HealthPercent): (90)/(90)"
+    },
+    {
+        "name": "Threat",
+        "desc": [
+            "Threats do not have a Trait bonus, but instead have powerful Abilities and increased base stats."
+        ],
+        "unit_count": 17,
+        "units": "Hecarim(1)/Velkoz(3)/Chogath(3)/Rammus(3)/AurelionSol(4)/BelVeth(4)/Urgot(5)/Fiddlesticks(5)/TFT6_ArchiveOfAugments(8)/TFT6_TheGoldenEgg(8)/Zac(11)/Boss_Urgot(11)/Boss_AurelionSol(11)/Boss_Zac(11)/PranksterDummy(11)/TFT6_MercenaryChest(11)/Boss_Morgana(11)",
+        "trait_active": "1",
+        "trait_desc": "(): ()"
+    },
+    {
+        "name": "Quickdraw",
+        "desc": [
+            "After every 2 damaging ability projectiles, Quickdraw units fire a bonus ability projectile. Bonus shots deal:",
+            "<row>(@MinUnits@) @DamageModifier*100@% total damage. </row>",
+            "<row>(@MinUnits@) @DamageModifier*100@% total damage. </row>",
+            "<row>(@MinUnits@) @DamageModifier*100@% total damage. </row>"
+        ],
+        "unit_count": 3,
+        "units": "Ezreal(2)/Kaisa(3)/MissFortune(4)",
+        "trait_active": "2/3/4",
+        "trait_desc": "(): ()/()/()"
+    },
+    {
+        "name": "Mascot",
+        "desc": [
+            "Your team heals a percentage of their maximum Health every @Seconds@ seconds, and Mascots heal double the amount.",
+            "When Mascots die, they retreat to the sidelines to cheer on your team. Your team's healing increases by @HealthRegenPerMascot@% for each cheering Mascot.",
+            "<expandRow>(@MinUnits@) @BaseHealthRegen@% healing</expandRow>"
+        ],
+        "unit_count": 6,
+        "units": "Nasus(1)/Galio(1)/Malphite(2)/Yuumi(2)/Alistar(3)/Nunu(5)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(): ()/()/()"
+    },
+    {
+        "name": "Forecaster",
+        "desc": [
+            "Depending on the weather, The Forecaster grants a different bonus to adjacent allies. The weather changes every game. "
+        ],
+        "unit_count": 1,
+        "units": "Janna(5)",
+        "trait_active": "1",
+        "trait_desc": "(): ()"
+    },
+    {
+        "name": "Ace",
+        "desc": [
+            "This Trait is active only when you have exactly 1 or 4 unique Aces.",
+            "<expandRow>(@MinUnits@) Execute enemies under @ExecuteThreshhold@% Health </expandRow>"
+        ],
+        "unit_count": 4,
+        "units": "Draven(2)/MissFortune(4)/Samira(4)/Mordekaiser(5)",
+        "trait_active": "1/4",
+        "trait_desc": "(): ()/()"
+    },
+    {
+        "name": "Duelist",
+        "desc": [
+            "Innate: Increased movement speed.",
+            "Duelists' attacks grant bonus Attack Speed, up to @MaxStacks@ stacks.",
+            "<row> (@MinUnits@) +@ASPerStack@% Attack Speed per stack</row>",
+            "<row> (@MinUnits@) +@ASPerStack@% Attack Speed per stack</row>",
+            "<row> (@MinUnits@) +@ASPerStack@% Attack Speed per stack; Duelists take @DRPercent@% less damage</row>",
+            "<row> (@MinUnits@) +@ASPerStack@% Attack Speed per stack; Duelists take @DRPercent@% less damage</row>"
+        ],
+        "unit_count": 7,
+        "units": "Kayle(1)/Gangplank(1)/Fiora(2)/Yasuo(2)/Vayne(3)/Nilah(3)/Zed(4)",
+        "trait_active": "2/4/6/8",
+        "trait_desc": "(MaxStacks): (12)/(12)/(12)/(12)"
+    },
+    {
+        "name": "Parallel",
+        "desc": [
+            "(@MinUnits@) Ezreal learns from his older, more handsome self and joins him in future adventures. ",
+            "Ezreal's Ability becomes a blast that hits all enemies in a line. ",
+            "Ultimate Ezreal's Ability summons one additional temporal duplicate. "
+        ],
+        "unit_count": 1,
+        "units": "Ezreal(2)",
+        "trait_active": "2",
+        "trait_desc": "(): ()"
+    },
+    {
+        "name": "Ox Force",
+        "desc": [
+            "Ox Force units gain bonus defenses. Once per combat, when they would drop below one health, they instead go to one health and become immune to damage for @Seconds@ second.",
+            "<expandRow>(@MinUnits@) @Defenses@ Armor and Magic Resist</expandRow>"
+        ],
+        "unit_count": 6,
+        "units": "Talon(1)/Annie(2)/Fiora(2)/Alistar(3)/Viego(4)/Aphelios(5)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(): ()/()/()"
+    },
+    {
+        "name": "Arsenal",
+        "desc": [
+            "(@MinUnits@) When deploying the Arsenal champion, players may choose which weapon he will equip."
+        ],
+        "unit_count": 1,
+        "units": "Aphelios(5)",
+        "trait_active": "1",
+        "trait_desc": "(): ()"
+    },
+    {
+        "name": "Aegis",
+        "desc": [
+            "Your team gains bonus Magic Resist, and Aegis units gain more.",
+            "<expandRow>(@MinUnits@) +@MagicResist@ Magic Resist, +@AegisMagicResist@ for Aegis</expandRow>"
+        ],
+        "unit_count": 4,
+        "units": "Vi(2)/Alistar(3)/Ekko(4)/Leona(5)",
+        "trait_active": "2/3/4/5",
+        "trait_desc": "(MagicResist): (20)/(40)/(60)/(90)"
+    },
+    {
+        "name": "Underground",
+        "desc": [
+            "The Underground must sneak through the sewers after each player combat and crack @RoundCount@ locks to open a vault. When the vault opens, you may choose to take the loot now, or attempt another heist for even better rewards.",
+            "<expandRow>(@MinUnits@) @WinProgress@ locks per win, @LossProgress@ per loss</expandRow>",
+            "Current Heist Level: @TFTUnitProperty.trait:TFT8_Underground_CurrentStage@"
+        ],
+        "unit_count": 5,
+        "units": "Kayle(1)/Vi(2)/Ezreal(2)/Sona(3)/Samira(4)",
+        "trait_active": "3/4/5/6",
+        "trait_desc": "(): ()/()/()/()"
+    },
+    {
+        "name": "Star Guardian",
+        "desc": [
+            "Star Guardians gain more Mana in combat. ",
+            "<expandRow>(@MinUnits@) @AdditionalManaPercentage@% Mana</expandRow>"
+        ],
+        "unit_count": 8,
+        "units": "Lux(1)/Rell(2)/Yuumi(2)/Nilah(3)/Kaisa(3)/Taliyah(4)/Ekko(4)/Syndra(5)",
+        "trait_active": "2/4/6/8",
+        "trait_desc": "(): ()/()/()/()"
+    },
+    {
+        "name": "Prankster",
+        "desc": [
+            "<row>(@MinUnits@) Once per combat at @HealthThreshold@% Health, Pranksters spawn a target dummy, move to a safe location, and restore @HealthRegen@ Health. </row>",
+            "<row>(@MinUnits@) And, Prankster dummies stun the enemy that killed them for @StunDuration@ seconds.</row>",
+            "<row>(@MinUnits@) The Health restore is increased to @HealthRegen@ Health and the stun duration becomes @StunDuration@ seconds.</row>"
+        ],
+        "unit_count": 3,
+        "units": "Jinx(2)/Zoe(3)/Ekko(4)",
+        "trait_active": "2/3/4",
+        "trait_desc": "(HealthRegen,HealthThreshold,StunDuration): (150,50,null)/(150,50,1.50)/(250,50,2)"
+    },
+    {
+        "name": "Heart",
+        "desc": [
+            "When Heart units cast their Ability, your team gains stacking Ability Power for the rest of combat.",
+            "<expandRow>(@MinUnits@) +@APPerCast@ Ability Power</expandRow>"
+        ],
+        "unit_count": 7,
+        "units": "Lulu(1)/LeeSin(2)/Yuumi(2)/Sona(3)/Viego(4)/Soraka(4)/Syndra(5)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(): ()/()/()"
+    },
+    {
+        "name": "Corrupted",
+        "desc": [
+            "(@MinUnits@) Combat start: Lie dormant while absorbing the souls of allies that die. Gain @BonusAP@ Ability Power for each soul.",
+            "Once per combat at @HealthThreshold@% Health (or when your team has died), come alive and fight."
+        ],
+        "unit_count": 1,
+        "units": "Fiddlesticks(5)",
+        "trait_active": "1",
+        "trait_desc": "(HealthThreshold): (70)"
+    },
+    {
+        "name": "Supers",
+        "desc": [
+            "<row>(@MinUnits@) Combat start: Strike a pose that grants your team @BaseBonusDamage@% bonus damage, which increases by @BonusDamagePer3Star@% for every 3-star champion on your team.</row>",
+            "Bonus damage: @TFTUnitProperty.trait:TFT8_Supers_TotalBonusDamage@%"
+        ],
+        "unit_count": 3,
+        "units": "Gangplank(1)/LeeSin(2)/Malphite(2)",
+        "trait_active": "3",
+        "trait_desc": "(): ()"
+    },
+    {
+        "name": "Renegade",
+        "desc": [
+            "Renegade units deal bonus damage, and the last one standing deals more.",
+            "<expandRow>(@MinUnits@) @BasePercentBonusDamage@% bonus damage, extra @AdditionalBonusDamage@% for last alive</expandRow>"
+        ],
+        "unit_count": 5,
+        "units": "Sylas(1)/Talon(1)/Camille(2)/Viego(4)/Leona(5)",
+        "trait_active": "3/5/7",
+        "trait_desc": "(): ()/()/()"
+    },
+    {
+        "name": "Spellslinger",
+        "desc": [
+            "Every @RefreshSeconds@ seconds, Spellslinger's next attack instead fires a magic orb at a random target, which explodes for @MagicDamage@% Ability Power as magic damage.",
+            "Spellslingers gain:",
+            "<row>(@MinUnits@) +@AP@ Ability Power</row>",
+            "<row>(@MinUnits@) +@AP@ Ability Power</row>",
+            "<row>(@MinUnits@) +@AP@ Ability Power</row>",
+            "<row>(@MinUnits@) +@AP@ Ability Power, and orbs deal @MagicDamage@% Ability Power</row>"
+        ],
+        "unit_count": 6,
+        "units": "Lux(1)/Annie(2)/Sona(3)/Leblanc(3)/Taliyah(4)/Janna(5)",
+        "trait_active": "2/4/6/8",
+        "trait_desc": "(AP,MagicDamage): (25,50)/(50,50)/(80,50)/(120,100)"
+    },
+    {
+        "name": "Sureshot",
+        "desc": [
+            "Combat start: Sureshots gain bonus Attack Damage now, and every @Frequency@ seconds.",
+            "<expandRow>(@MinUnits@) +@BonusAD*100@% Attack Damage</expandRow>"
+        ],
+        "unit_count": 5,
+        "units": "Ashe(1)/Sivir(2)/Senna(3)/Samira(4)/Aphelios(5)",
+        "trait_active": "2/3/4/5",
+        "trait_desc": "(BonusAD): (0.06)/(0.11)/(0.16)/(0.24)"
+    },
+    {
+        "name": "Defender",
+        "desc": [
+            "Your team gains bonus Armor, and Defenders gain more. ",
+            "<expandRow> (@MinUnits@) +@BonusArmor@ Armor, +@DefenderBonusArmor@ for Defenders</expandRow>"
+        ],
+        "unit_count": 5,
+        "units": "Poppy(1)/WuKong(1)/Rell(2)/Riven(3)/Sett(4)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(BonusArmor): (25)/(75)/(200)"
+    },
+    {
+        "name": "Gadgeteen",
+        "desc": [
+            "Each round, Gadgeteens create random modified weapons with powerful effects that fall apart after one round. Gadgeteens also gain Damage and Damage Reduction for each item equipped to them.",
+            "<row>(@MinUnits@) Create @ItemsToMake@ item, @Itembuff@% per item.</row>",
+            "<row>(@MinUnits@) Create @ItemsToMake@ items, @Itembuff@% per item.</row>"
+        ],
+        "unit_count": 5,
+        "units": "Lulu(1)/Poppy(1)/Annie(2)/Zoe(3)/Nunu(5)",
+        "trait_active": "3/5",
+        "trait_desc": "(): ()/()"
+    },
+    {
+        "name": "Hacker",
+        "desc": [
+            "Hackers gain <TFTKeyword>Omnivamp</TFTKeyword> and summon a H4ckerr!m. Any unit placed in the rider hex will be sent to the enemy backline and is untargetable for the first @SecondsUntargetable@ seconds of combat.",
+            "<row>(@MinUnits@) +@Omnivamp*100@% Omnivamp</row>",
+            "<row>(@MinUnits@) +@Omnivamp*100@% Omnivamp for Hackers, +@Horsevamp*100@% for the rider</row>",
+            "<row>(@MinUnits@) +@Omnivamp*100@% Omnivamp for Hackers, +@Horsevamp*100@% for the rider</row>",
+            "<row>(@MinUnits@) +@Omnivamp*100@% Omnivamp for Hackers, +@Horsevamp*100@% for the rider</row>",
+            "<tftitemrules><tftbold>Omnivamp</tftbold>: heal for some of damage dealt</tftitemrules>"
+        ],
+        "unit_count": 3,
+        "units": "Zoe(3)/Leblanc(3)/Zed(4)",
+        "trait_active": "2/3/4/5",
+        "trait_desc": "(): ()/()/()/()"
+    }
+]

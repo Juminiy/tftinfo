@@ -1,0 +1,355 @@
+[
+    {
+        "name": "Bruiser",
+        "desc": [
+            "Your team gains @TeamFlatHealth@ Health. Bruisers gain bonus max Health.",
+            "<expandRow>(@MinUnits@) @BonusPercentHealth*100@% max %i:scaleHealth%</expandRow>"
+        ],
+        "unit_count": 6,
+        "units": "Olaf(1)/TahmKench(1)/Gragas(2)/Sett(3)/Zac(4)/Illaoi(5)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(BonusPercentHealth,TeamFlatHealth): (0.20,100)/(0.45,100)/(0.90,100)"
+    },
+    {
+        "name": "Superfan",
+        "desc": [
+            "Superfans improve your Headliner!",
+            "<row> (@MinUnits@) Headliner gets a completed item</row>",
+            "<row> (@MinUnits@) Headliner gets @HealthBonus@ %i:scaleHealth% and @OmnivampBonus*100@% %i:scaleSV%</row>",
+            "<row> (@MinUnits@) Item upgrades to radiant</row>"
+        ],
+        "unit_count": 4,
+        "units": "Kennen(1)/Lillia(1)/Gnar(2)/Neeko(3)",
+        "trait_active": "3/4/5",
+        "trait_desc": "(HealthBonus,OmnivampBonus): (300,0.15)/(300,0.15)/(300,0.15)"
+    },
+    {
+        "name": "8-bit",
+        "desc": [
+            "Keep score of your team's damage dealt. For each high score you beat, 8-bit champions gain Attack&nbsp;Damage.",
+            "<row>(@MinUnits@) @AttackDamage@% %i:scaleAD%</row>",
+            "<row>(@MinUnits@) @AttackDamage@% %i:scaleAD%</row>",
+            "<row>(@MinUnits@) @AttackDamage@% %i:scaleAD% and unlock a final high score, that rewards you with a grand prize.</row>",
+            "Bonus: @TFTUnitProperty.trait:TFT10_Trait_8bit_CurrentBonus@% %i:scaleAD% (@TFTUnitProperty.trait:TFT10_Trait_8bit_StackCount@/@NumHighScores@)"
+        ],
+        "unit_count": 4,
+        "units": "Corki(1)/Garen(2)/Riven(3)/Caitlyn(4)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(AttackDamage,NumHighScores): (5,10)/(9,10)/(14,10)"
+    },
+    {
+        "name": "Heartsteel",
+        "desc": [
+            "Earn Hearts by killing enemies. Gain even more by losing player combat. Every @RoundCount@ player combats, convert Hearts into powerful rewards! ",
+            "<row>(@MinUnits@) @PercentHeartRate@x Hearts</row>",
+            "<row>(@MinUnits@) @PercentHeartRate@x Hearts</row>",
+            "<row>(@MinUnits@) @PercentHeartRate@x Hearts</row>",
+            "<row>(@MinUnits@) @PercentHeartRate@x Hearts, Gain rewards every round and keep @HeartKeepPercentage*100@% of your Hearts!</row>"
+        ],
+        "unit_count": 6,
+        "units": "KSante(1)/Aphelios(2)/Sett(3)/Yone(3)/Ezreal(4)/Kayn(5)",
+        "trait_active": "3/5/7/10",
+        "trait_desc": "(HeartKeepPercentage,PercentHeartRate,RoundCount,RoundCount_HR): (None,1,4,3)/(None,2,4,3)/(None,5.50,4,3)/(0.80,20,4,3)"
+    },
+    {
+        "name": "Guardian",
+        "desc": [
+            "Once per combat at @PercentHealthThreshold@% Health, Guardians shield themselves and their closest ally for a percent of their max Health.",
+            "<expandRow>(@MinUnits@) @ShieldPercentAmount@%</expandRow>"
+        ],
+        "unit_count": 7,
+        "units": "Kennen(1)/Taric(1)/Pantheon(2)/Amumu(3)/Neeko(3)/Thresh(4)/Yorick(5)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(PercentHealthThreshold,ShieldPercentAmount): (50,25)/(50,45)/(50,70)"
+    },
+    {
+        "name": "Wildcard",
+        "desc": [
+            "(unique) If you win player combat, Kayn becomes the Shadow Assassin. If not, he becomes Rhaast. You receive a reward based on his form every time he kills @NumOfKills@ enemy champions. ",
+            "<TFTBonus enabled=TFT10_WildcardShadowAssassin alternate=rules>Shadow Assassin: @AssassinGoldPerKill@g</TFTBonus>",
+            "<TFTBonus enabled=TFT10_WildcardRhaast alternate=rules>Rhaast: @RhaastPlayerHealthPerKill@ player health</TFTBonus>"
+        ],
+        "unit_count": 1,
+        "units": "Kayn(5)",
+        "trait_active": "1",
+        "trait_desc": "(AssassinGoldPerKill,NumOfKills,RhaastPlayerHealthPerKill): (5,2,2)"
+    },
+    {
+        "name": "Hyperpop",
+        "desc": [
+            "When Hyperpop champions use an Ability, they grant Mana and @BuffDuration@ seconds of Attack Speed to their @NumOfAllies@ closest allies.",
+            "<expandRow>(@MinUnits@) @Mana@ %i:scaleMana% and @AS*100@% %i:scaleAS%</expandRow>"
+        ],
+        "unit_count": 2,
+        "units": "Lulu(3)/Ziggs(5)",
+        "trait_active": "1/2/3/4",
+        "trait_desc": "(AS,BuffDuration,Mana,NumOfAllies): (0.08,4,5,2)/(0.15,4,10,2)/(0.30,4,15,2)/(0.50,4,20,2)"
+    },
+    {
+        "name": "Edgelord",
+        "desc": [
+            "Edgelords gain Attack Speed, which doubles when their target drops below @HealthRatio*100@% Health. Edgelords with 1-hex range also dash through them on their next&nbsp;attack. ",
+            "<expandRow>(@MinUnits@) @AttackSpeed*100@% %i:scaleAS%</expandRow>"
+        ],
+        "unit_count": 6,
+        "units": "Yasuo(1)/Kayle(2)/Riven(3)/Yone(3)/Viego(4)/Kayn(5)",
+        "trait_active": "3/5/7",
+        "trait_desc": "(ADRatio,AttackSpeed,HealthRatio): (2,0.30,0.50)/(2,0.55,0.50)/(2,1.05,0.50)"
+    },
+    {
+        "name": "Maestro",
+        "desc": [
+            "(unique) The Maestro always attacks at a fixed pace, converting @BonusAttackSpeed@% bonus Attack Speed into @BonusAttackDamage@% Attack Damage. "
+        ],
+        "unit_count": 1,
+        "units": "Jhin(5)",
+        "trait_active": "1",
+        "trait_desc": "(BonusAttackDamage,BonusAttackSpeed,ManaPerAttack): (0.80,1,10)"
+    },
+    {
+        "name": "Mosher",
+        "desc": [
+            "Moshers gain Attack Speed and Omnivamp, which increases up to @AmountIncrease*100@% based on their missing Health. ",
+            "<expandRow>(@MinUnits@) @FighterAS@% %i:scaleAS%, @FighterVamp@% %i:scaleSV% </expandRow>"
+        ],
+        "unit_count": 7,
+        "units": "Vi(1)/Gnar(2)/Jax(2)/Sett(3)/Urgot(3)/Poppy(4)/Yorick(5)",
+        "trait_active": "2/4/6/8",
+        "trait_desc": "(AmountIncrease,FighterAS,FighterVamp): (1,20,10)/(1,40,15)/(1,80,20)/(1,135,30)"
+    },
+    {
+        "name": "Spellweaver",
+        "desc": [
+            "Your team gains @TeamwideAP@ Ability Power. Spellweavers gain more, plus extra Ability Power whenever a Spellweaver casts an Ability.",
+            "<expandRow>(@MinUnits@) +@AP@ %i:scaleAP%, +@BonusAP@ %i:scaleAP% per cast</expandRow>"
+        ],
+        "unit_count": 7,
+        "units": "Annie(1)/Gragas(2)/Seraphine(2)/Ekko(3)/Lulu(3)/Ahri(4)/Sona(5)",
+        "trait_active": "3/5/7/9",
+        "trait_desc": "(AP,BonusAP,TeamwideAP): (15,1,15)/(30,2,15)/(75,4,15)/(140,6,15)"
+    },
+    {
+        "name": "Jazz",
+        "desc": [
+            "For each active trait (except uniques), your team gains bonus Health and Damage Amp.",
+            "<expandRow>(@MinUnits@) @BonusHealth*100@% %i:scaleHealth%, @BonusDamage*100@% %i:scaleDA%</expandRow>",
+            "Bonus Health: @TFTUnitProperty.trait:TFT10_Trait_Jazz_TraitTracker_CurrentBonus@%",
+            "Damage Amp: @TFTUnitProperty.trait:TFT10_Trait_Jazz_TraitTracker_CurrentBonus_Damage@%"
+        ],
+        "unit_count": 3,
+        "units": "Bard(2)/MissFortune(3)/Lucian(5)",
+        "trait_active": "2/3/4",
+        "trait_desc": "(BonusDamage,BonusHealth): (0.01,0.01)/(0.01,0.03)/(0.02,0.04)"
+    },
+    {
+        "name": "Emo",
+        "desc": [
+            "Emo champions' Abilities cost less Mana to cast, and they gain Mana whenever an allied champion dies.",
+            "<row>(@MinUnits@) @InitialMana@%&nbsp;less, gain @StackingMana@&nbsp;%i:scaleMana%</row>",
+            "<row>(@MinUnits@) @InitialMana@%&nbsp;less, gain @StackingMana@&nbsp;%i:scaleMana%</row>",
+            "<row>(@MinUnits@) @BonusAP@&nbsp;%i:scaleAP%; @InitialMana@% less, gain @StackingMana@&nbsp;%i:scaleMana% </row>"
+        ],
+        "unit_count": 4,
+        "units": "Annie(1)/Amumu(3)/Vex(3)/Poppy(4)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(BonusAP,InitialMana,StackingMana): (20,20)/(30,30)/(15,35,35)"
+    },
+    {
+        "name": "Punk",
+        "desc": [
+            "Punks gain bonus Health and Attack Damage, which increases by 1% every time you spend gold on a Shop reroll.",
+            "After Punks fight in combat, gain a 1 gold Reroll for that round. Your first reroll each round grants @FIRST_ROLL_BONUS@% bonus instead!",
+            "<expandRow>(@MinUnits@) @BONUS_HEALTH@ %i:scaleHealth% and @BONUS_AD_AP*100@% %i:scaleAD%</expandRow>",
+            "Current Bonus: @TFTUnitProperty.trait:TFT10_Punk_CurrentBonus@%",
+            "@TFTUnitProperty.trait:TFT10_Punk_CurrentHealthBonus@ %i:scaleHealth% and @TFTUnitProperty.trait:TFT10_Punk_CurrentADBonus@% %i:scaleAD%"
+        ],
+        "unit_count": 4,
+        "units": "Jinx(1)/Vi(1)/Pantheon(2)/Twitch(2)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(BONUS_AD_AP,BONUS_HEALTH,FIRST_ROLL_BONUS): (0.20,200,3)/(0.35,350,3)/(0.42,420,3)"
+    },
+    {
+        "name": "ILLBEATS",
+        "desc": [
+            "(unique) Gain @1Star@/@2Star@/@3Star@ placeable Spirit Tentacles, based on Illaoi's star level. Tentacles gain Illaoi's bonus Armor and Magic Resist."
+        ],
+        "unit_count": 1,
+        "units": "Illaoi(5)",
+        "trait_active": "1",
+        "trait_desc": "(1Star,2Star,3Star): (2,2,8)"
+    },
+    {
+        "name": "K/DA",
+        "desc": [
+            "Your team gains max Health, Ability Power, and Attack Damage if they are in a lighted hex. K/DA champions gain double!",
+            "<row>(@MinUnits@) @BonusMaxHealth*100@% max %i:scaleHealth%, @BonusAP@%&nbsp;%i:scaleAP%%i:scaleAD%</row>",
+            "<row>(@MinUnits@) @BonusMaxHealth*100@% max %i:scaleHealth%, @BonusAP@%&nbsp;%i:scaleAP%%i:scaleAD%</row>",
+            "<row>(@MinUnits@) @BonusMaxHealth*100@% max %i:scaleHealth%, @BonusAP@%&nbsp;%i:scaleAP%%i:scaleAD%</row>",
+            "<row>(@MinUnits@) @BonusMaxHealth*100@% max %i:scaleHealth%, @BonusAP@%&nbsp;%i:scaleAP%%i:scaleAD%, @ManaPerSecond@ mana per second </row>"
+        ],
+        "unit_count": 7,
+        "units": "Evelynn(1)/Lillia(1)/Kaisa(2)/Seraphine(2)/Neeko(3)/Ahri(4)/Akali(4)",
+        "trait_active": "3/5/7/10",
+        "trait_desc": "(BonusAP,BonusMaxHealth,ManaPerSecond): (9,0.09,None)/(15,0.15,None)/(23,0.23,None)/(45,0.45,10)"
+    },
+    {
+        "name": "True Damage",
+        "desc": [
+            "True Damage champions deal bonus true damage. If they are holding an item, they gain a unique Bling Bonus for their Ability.",
+            "<row>(@MinUnits@) <trueDamage>@BONUS_DAMAGE*100@%</trueDamage> damage</row>",
+            "<row>(@MinUnits@) <trueDamage>@BONUS_DAMAGE*100@%</trueDamage> damage</row>",
+            "<row>(@MinUnits@) <trueDamage>@BONUS_DAMAGE*100@%</trueDamage> damage</row>",
+            "<row>(@MinUnits@) <trueDamage>@BONUS_DAMAGE*100@%</trueDamage> damage, Bling Bonuses go&nbsp;Platinum!</row>"
+        ],
+        "unit_count": 6,
+        "units": "Kennen(1)/Yasuo(1)/Senna(2)/Ekko(3)/Akali_TrueDamage(4)/Qiyana(5)",
+        "trait_active": "2/4/6/9",
+        "trait_desc": "(BLING_BONUS,BONUS_DAMAGE): (1,0.15)/(1,0.33)/(1,0.55)/(1,0.99)"
+    },
+    {
+        "name": "Rapidfire",
+        "desc": [
+            "Your team gains @TeamwideAttackSpeed*100@% Attack Speed.",
+            "Rapidfire champions gain more on every attack, up to @MaxStacks@ stacks.",
+            "<expandRow>(@MinUnits@) @PercentAS*100@% %i:scaleAS%</expandRow>"
+        ],
+        "unit_count": 5,
+        "units": "Jinx(1)/Aphelios(2)/Senna(2)/Caitlyn(4)/Lucian(5)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(MaxStacks,PercentAS,TeamwideAttackSpeed): (10,0.04,0.10)/(10,0.09,0.10)/(10,0.16,0.10)"
+    },
+    {
+        "name": "Executioner",
+        "desc": [
+            "Executioner Abilities can critically strike and they gain Critical Strike Damage. Their Critical Strike Chance is increased based on their target's missing Health.",
+            "<expandRow>(@MinUnits@) @CRIT_DAMAGE*100@% %i:scaleCritMult%. Up to @CRIT_PERCENT*100@% %i:scaleCrit%</expandRow>"
+        ],
+        "unit_count": 6,
+        "units": "Twitch(2)/Samira(3)/Vex(3)/Akali_TrueDamage(4)/Akali(4)/Karthus(4)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(CRIT_DAMAGE,CRIT_PERCENT): (0.05,0.25)/(0.15,0.80)/(0.30,1.60)"
+    },
+    {
+        "name": "Crowd Diver",
+        "desc": [
+            "After Crowd Divers die, they leap onto the furthest enemy, dealing <magicDamage>@JumpDamage@</magicDamage> magic damage. Enemies within @StunRange@ hex are Stunned for @StunDuration@ seconds.",
+            "They also gain Damage Amp, increased by @BonusPerSecond*100@% each second.",
+            "<expandRow>(@MinUnits@) @BaseBonus*100@% %i:scaleDA%</expandRow>"
+        ],
+        "unit_count": 5,
+        "units": "Evelynn(1)/Katarina(2)/Yone(3)/Zed(4)/Qiyana(5)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(BaseBonus,BonusPerSecond,JumpDamage,StunDuration,StunRange): (0.12,0.01,300,1.50,1)/(0.30,0.01,300,1.50,1)/(0.45,0.01,300,1.50,1)"
+    },
+    {
+        "name": "Country",
+        "desc": [
+            "When your team loses @HealthRatio*100@% of their Health, call a Dreadsteed that empowers your team. Each Country star&nbsp;level increases the Dreadsteed's Health and Attack&nbsp;Damage.",
+            "<row>(@MinUnits@) Dreadsteed</row>",
+            "<row>(@MinUnits@) Midnight Dreadsteed</row>",
+            "<row>(@MinUnits@) Infernal Invocation Dreadsteed</row>"
+        ],
+        "unit_count": 5,
+        "units": "TahmKench(1)/Katarina(2)/Samira(3)/Urgot(3)/Thresh(4)",
+        "trait_active": "3/5/7",
+        "trait_desc": "(BonusResists,HealthRatio,Level): (None,0.30,1)/(30,0.30,2)/(60,0.30,3)"
+    },
+    {
+        "name": "Mixmaster",
+        "desc": [
+            "(unique) Choose a mode that changes the Mixmaster's attacks and Ability!"
+        ],
+        "unit_count": 1,
+        "units": "Sona(5)",
+        "trait_active": "1",
+        "trait_desc": "(): ()"
+    },
+    {
+        "name": "Disco",
+        "desc": [
+            "Summon a movable Disco Ball. ",
+            "Combat start: Allies next to it gain Attack Speed and healing immediately and every @TickRate@ seconds.",
+            "<row>(@MinUnits@) @AttackSpeed*100@% %i:scaleAS% and @Healing*100@% max %i:scaleHealth%</row>",
+            "<row>(@MinUnits@) @AttackSpeed*100@% %i:scaleAS% and @Healing*100@% max %i:scaleHealth%</row>",
+            "<row>(@MinUnits@) 2 Disco Balls, @AttackSpeed*100@% %i:scaleAS% and @Healing*100@% max %i:scaleHealth%</row>",
+            "<row>(@MinUnits@) @AttackSpeed*100@% %i:scaleAS% and @Healing*100@% max %i:scaleHealth%</row>"
+        ],
+        "unit_count": 6,
+        "units": "Nami(1)/Taric(1)/Gragas(2)/Blitzcrank(4)/TwistedFate(4)/DiscoBall(11)",
+        "trait_active": "3/4/5/6",
+        "trait_desc": "(AttackSpeed,Healing,HexRadius,TickRate): (0.05,0.02,1,3)/(0.08,0.03,1,3)/(0.12,0.05,1,3)/(0.20,0.05,1,3)"
+    },
+    {
+        "name": "Breakout",
+        "desc": [
+            "(unique) Akali is a member of K/DA or True Damage depending on which trait has more fielded champions. She gains a different Ability depending on which form she takes. "
+        ],
+        "unit_count": 2,
+        "units": "Akali_TrueDamage(4)/Akali(4)",
+        "trait_active": "1",
+        "trait_desc": "(): ()"
+    },
+    {
+        "name": "Dazzler",
+        "desc": [
+            "Dazzlers' Abilities reduce their target's damage by @DamageDecrease*100@% and deal bonus magic damage over @Duration@ seconds.",
+            "<expandRow>(@MinUnits@) <magicDamage>@DOTPercent*100@%</magicDamage> magic damage</expandRow>"
+        ],
+        "unit_count": 5,
+        "units": "Nami(1)/Bard(2)/Lux(3)/TwistedFate(4)/Ziggs(5)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(DOTPercent,DamageDecrease,Duration): (0.20,0.10,2)/(0.60,0.10,2)/(1.10,0.10,2)"
+    },
+    {
+        "name": "Big Shot",
+        "desc": [
+            "Big Shots gain Attack Damage, which increases for @Duration@ seconds when they use their Ability.",
+            "<expandRow>(@MinUnits@) @PercentAD*100@% %i:scaleAD%, @PercentADEmpowered*100@% after casting</expandRow>"
+        ],
+        "unit_count": 5,
+        "units": "Corki(1)/Kaisa(2)/MissFortune(3)/Ezreal(4)/Jhin(5)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(Duration,PercentAD,PercentADEmpowered): (3,0.10,0.40)/(3,0.20,0.80)/(3,0.40,1.60)"
+    },
+    {
+        "name": "EDM",
+        "desc": [
+            "Use the EDM selector item to choose an EDM champion and see the frequency for each.",
+            "At the selected champion's frequency, your EDM champions cast the selected Ability with modified effectiveness.",
+            "<row>(@MinUnits@) @EDMstats*100@% effectiveness</row>",
+            "<row>(@MinUnits@) @EDMstats*100@% effectiveness</row>",
+            "<row>(@MinUnits@) @EDMstats*100@% effectiveness, -@EDMtimereduction@ second</row>",
+            "<row>(@MinUnits@) @EDMstats*100@% effectiveness, -@EDMtimereduction@ second</row>"
+        ],
+        "unit_count": 4,
+        "units": "Jax(2)/Lux(3)/Zac(4)/Zed(4)",
+        "trait_active": "2/3/4/5",
+        "trait_desc": "(EDMstats,EDMtimereduction): (0.90)/(1.10)/(1.25,1)/(1.45,1)"
+    },
+    {
+        "name": "Pentakill",
+        "desc": [
+            "Pentakill champions gain 15% Durability and Damage Amp. For each champion kill, a Pentakill champion rocks out, increasing its Damage Amp by @Kill_Bonus*100@%.",
+            "On the @Kill_Count@th kill, all Pentakill champions rock out and your team gains @Attack_Speed*100@% Attack Speed.",
+            "<row>(@MinUnits@) @Bonus_Damage*100@% %i:scaleDA%</row>",
+            "<row>(@MinUnits@) @Bonus_Damage*100@% %i:scaleDA%</row>",
+            "<row>(@MinUnits@) @Bonus_Damage*100@% %i:scaleDA%</row>",
+            "<row>(@MinUnits@) 50% %i:scaleDR% and @Bonus_Damage*100@% %i:scaleDA%</row>"
+        ],
+        "unit_count": 8,
+        "units": "Olaf(1)/Gnar(2)/Kayle(2)/Mordekaiser(3)/Karthus(4)/Viego(4)/Yorick(5)/YorickGhoulMelee(11)",
+        "trait_active": "3/5/7/10",
+        "trait_desc": "(Attack_Speed,BONUS_DAMAGE,Kill_Bonus,Kill_Count): (0.50,0.15,0.25,5)/(0.50,0.33,0.25,5)/(0.50,0.45,0.25,5)/(0.50,0.99,0.25,5)"
+    },
+    {
+        "name": "Sentinel",
+        "desc": [
+            "Your team gains Armor and Magic Resist. Sentinels gain double.",
+            "<expandRow>(@MinUnits@) @BonusArmor@ %i:scaleArmor%, @BonusArmor@ %i:scaleMR%</expandRow>"
+        ],
+        "unit_count": 6,
+        "units": "KSante(1)/Lillia(1)/Garen(2)/Ekko(3)/Mordekaiser(3)/Blitzcrank(4)",
+        "trait_active": "2/4/6/8",
+        "trait_desc": "(BonusArmor): (16)/(36)/(60)/(100)"
+    }
+]

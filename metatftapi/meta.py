@@ -56,3 +56,17 @@ augment_color2tier={
     'Gold':'Gold',           'gold':'Gold',           'g':'Gold',      'G': 'Gold',      '2':'Gold',      '金':'Gold',    '黄':'Gold',
     'Prismatic':'Prismatic', 'prismatic':'Prismatic', 'p':'Prismatic', 'P': 'Prismatic', '3':'Prismatic', '彩':'Prismatic',
 }
+
+# icon
+attr_icon={
+    '%i:set14AmpIcon%': 'DA', '%i:scaleDA%': 'DA',
+    '%i:goldCoins%': 'Gold',
+    '%i:scaleAS%': 'AS',
+    '%i:scaleRange%': 'RG',
+    '%i:scaleAD%': 'AD',
+    '%i:scaleArmor%': 'AR',
+    '%i:scaleMR%': 'MR',
+    '%i:scaleAP%': 'AP',
+    '%i:scaleHealth%': 'HP',
+    '%i:TFTManaRegen%': 'MP', '%i:scaleMana%': 'MP',
+}

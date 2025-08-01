@@ -1,0 +1,350 @@
+[
+    {
+        "name": "Bastion",
+        "desc": [
+            "Bastion champions gain Armor and Magic Resist. This is increased by @BonusPercent*100@% for the first @Duration@ seconds of combat.",
+            "<expandRow>(@MinUnits@) +@BonusArmor@ %i:scaleArmor%, +@BonusArmor@ %i:scaleMR%</expandRow>"
+        ],
+        "unit_count": 6,
+        "units": "Poppy(1)/Maokai(1)/Kassadin(2)/Taric(3)/Shen(4)/KSante(5)",
+        "trait_active": "2/4/6/8",
+        "trait_desc": "(BonusArmor,BonusMR,Duration): (20,20,10)/(40,40,10)/(65,65,10)/(125,125,10)"
+    },
+    {
+        "name": "Sorcerer",
+        "desc": [
+            "Sorcerers gain bonus Ability Power.",
+            "When an enemy dies after being damaged by a Sorcerer, they deal a percentage of that enemy's maximum Health to another enemy.",
+            "<row>(@MinUnits@) @BonusAP@ %i:scaleAP%; @HealthPct*100@% max %i:scaleHealth%</row>",
+            "<row>(@MinUnits@) @BonusAP@ %i:scaleAP%; @HealthPct*100@% max %i:scaleHealth%</row>",
+            "<row>(@MinUnits@) @BonusAP@ %i:scaleAP%; @HealthPct*100@% max %i:scaleHealth% to @TargetNum@ enemies</row>",
+            "<row>(@MinUnits@) @BonusAP@ %i:scaleAP%; @HealthPct*100@% max %i:scaleHealth% to @TargetNum@ enemies</row>"
+        ],
+        "unit_count": 7,
+        "units": "Orianna(1)/Malzahar(1)/Swain(2)/Taric(3)/VelKoz(3)/Lux(4)/Ahri(5)",
+        "trait_active": "2/4/6/8",
+        "trait_desc": "(BonusAP,HealthPct): (25,0.07)/(50,0.10)/(90,0.12)/(135,0.15)"
+    },
+    {
+        "name": "Yordle",
+        "desc": [
+            "Your units gain @BonusAttackSpeed*100@% Attack Speed per star level.",
+            "If you have three 3-star champions, your Yordles can become 4-star, which gives their Ability a wacky upgrade!",
+            "<row>(@MinUnits@) Your strongest 3-star Yordle</row>",
+            "<row>(@MinUnits@) Two 3-star Yordles</row>",
+            "<rules>Ties for most items are broken by the Yordle fielded most recently.</rules>"
+        ],
+        "unit_count": 3,
+        "units": "Tristana(1)/Kled(2)/Teemo(2)",
+        "trait_active": "3/5",
+        "trait_desc": "(BonusAttackSpeed,DodgeChance,DodgeDuration,ManaReduction): (0.10,100,2,15)/(0.10,100,2,15)"
+    },
+    {
+        "name": "Deadeye",
+        "desc": [
+            "<spellPassive>Innate:</spellPassive> +@BonusRange@ Range",
+            "Every @ShotFrequency@ seconds, Deadeyes attack the enemy with the highest percent Health and deal bonus damage.",
+            "<expandRow>(@MinUnits@) +@DamageAmp*100@% damage</expandRow>"
+        ],
+        "unit_count": 2,
+        "units": "Akshan(3)/Urgot(4)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(DamageAmp): (0.20)/(0.65)/(1.50)"
+    },
+    {
+        "name": "Void",
+        "desc": [
+            "Get a placeable void egg. At the start of combat, it hatches into an unspeakable horror and knocks up adjacent enemies.",
+            "Each Void star level increases the horror's Health and Ability Power by @PercentHealthAPPerStarLevel*100@%. ",
+            "<row>(@MinUnits@) Void Remora</row>",
+            "<row>(@MinUnits@) Rift Herald</row>",
+            "<row>(@MinUnits@) Baron Nashor</row>"
+        ],
+        "unit_count": 7,
+        "units": "ChoGath(1)/Malzahar(1)/Kassadin(2)/RekSai(3)/VelKoz(3)/KaiSa(4)/BelVeth(5)",
+        "trait_active": "3/6/8",
+        "trait_desc": "(): ()/()/()"
+    },
+    {
+        "name": "Demacia",
+        "desc": [
+            "Your strongest Demacians become Elite and equip a Radiant item each combat. Elites grant Armor and Magic Resist to themselves and adjacent allies, but this does not stack.",
+            "<row>(@MinUnits@) @NumElites@ Elite, +@BonusDefenses@ %i:scaleArmor%, +@BonusDefenses@ %i:scaleMR%</row>",
+            "<row>(@MinUnits@) @NumElites@ Elites, +@BonusDefenses@ %i:scaleArmor%, +@BonusDefenses@ %i:scaleMR%</row>",
+            "<row>(@MinUnits@) @NumElites@ Elites, +@BonusDefenses@ %i:scaleArmor%, +@BonusDefenses@ %i:scaleMR%</row>",
+            "<row>(@MinUnits@) @NumElites@ Elites, +@BonusDefenses@ %i:scaleArmor%, +@BonusDefenses@ %i:scaleMR%</row>",
+            "<rules>Radiant items are stronger versions of full items.</rules>"
+        ],
+        "unit_count": 7,
+        "units": "Poppy(1)/Kayle(1)/Galio(2)/Garen(3)/Sona(3)/JarvanIV(4)/Lux(4)",
+        "trait_active": "3/5/7/9",
+        "trait_desc": "(): ()/()/()/()"
+    },
+    {
+        "name": "Rogue",
+        "desc": [
+            "<row>(@MinUnits@) When a Rogue falls below @HealthThreshold*100@% Health, they briefly become untargetable and dash to an enemy within @HexRange@ hexes (preferring enemy backline).</row>",
+            "<row>(@MinUnits@) And a Rogue's damage bleeds their target for @BleedPct*100@% bonus magic damage over @BleedDuration@ seconds.</row>"
+        ],
+        "unit_count": 4,
+        "units": "Viego(1)/Zed(2)/Ekko(3)/Katarina(3)",
+        "trait_active": "2/4",
+        "trait_desc": "(BleedDuration,DamageReduction,HealthThreshold,HexRange,StealthDuration): (null,100,0.50,4,1.50)/(2.50,100,0.50,4,1.50)"
+    },
+    {
+        "name": "Slayer",
+        "desc": [
+            "Slayers gain @Omnivamp@% Omnivamp.",
+            "Slayers deal bonus damage, doubled against units below @HealthThreshold*100@% Health.",
+            "<expandRow>(@MinUnits@) +@BonusDamageBase@% bonus damage</expandRow>"
+        ],
+        "unit_count": 6,
+        "units": "Kayle(1)/Kled(2)/Zed(2)/RekSai(3)/Gwen(4)/Aatrox(5)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(BonusDamageBase,HealthThreshold,Omnivamp): (6,0.66,12)/(20,0.66,12)/(40,0.66,12)"
+    },
+    {
+        "name": "Invoker",
+        "desc": [
+            "Every @TickRate@ seconds, your units gain Mana.",
+            "<row>(@MinUnits@) @TeamMana@ %i:scaleMana% to all</row>",
+            "<row>(@MinUnits@) Additional @SelfBonusMana@ to Invokers</row>",
+            "<row>(@MinUnits@) @TeamMana@ %i:scaleMana% to all, additional @SelfBonusMana@ to Invokers</row>",
+            "<row>(@MinUnits@) @TeamMana@ %i:scaleMana% to all, and start with an additional @TeamAP@ Ability Power</row>"
+        ],
+        "unit_count": 17,
+        "units": "Cassiopeia(1)/Soraka(2)/Galio(2)/Karma(3)/Lissandra(3)/Shen(4)/Ryze(5)/RyzeDemacia(5)/RyzeBandleCity(5)/RyzeFreljord(5)/RyzeIonia(5)/RyzeNoxus(5)/RyzePiltover(5)/RyzeShadowIsles(5)/RyzeShurima(5)/RyzeTargon(5)/RyzeZaun(5)",
+        "trait_active": "2/4/6/8",
+        "trait_desc": "(TickRate): (3)/(3)/(3)/(3)"
+    },
+    {
+        "name": "Bruiser",
+        "desc": [
+            "Your units gain @TeamFlatHealth@ Health. Bruisers gain additional maximum Health.",
+            "<expandRow>(@MinUnits@) +@BonusPercentHealth*100@% max %i:scaleHealth%</expandRow>"
+        ],
+        "unit_count": 6,
+        "units": "ChoGath(1)/Renekton(1)/Vi(2)/RekSai(3)/Sejuani(4)/Sion(5)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(BonusPercentHealth): (0.10)/(0.45)/(0.80)"
+    },
+    {
+        "name": "Noxus",
+        "desc": [
+            "Noxus champions gain Health, Ability Power and Attack Damage. This is increased by @BonusRatio*100@% for each different opponent that either you have conquered in combat or is dead.",
+            "<expandRow>(@MinUnits@) @Health@ %i:scaleHealth%, @AP@ %i:scaleAP%, @AD@% %i:scaleAD%</expandRow>",
+            "<TFTTrackerLabel>Conquered bonus: @TFTUnitProperty.trait:TFT9_Trait_ConquerorBonus@% / @BonusRatio*700@%</TFTTrackerLabel>"
+        ],
+        "unit_count": 7,
+        "units": "Cassiopeia(1)/Samira(1)/Kled(2)/Swain(2)/Darius(3)/Katarina(3)/Sion(5)",
+        "trait_active": "3/5/7/9",
+        "trait_desc": "(AD,AP,BonusRatio,Health): (16,16,0.05,160)/(30,30,0.05,300)/(42,42,0.05,420)/(75,75,0.05,750)"
+    },
+    {
+        "name": "Shurima",
+        "desc": [
+            "Every @PulsePeriod@ seconds, Shurimans heal @HealthRegen*100@% maximum Health. After @SecondsToAscend@ seconds, select Shurimans Ascend and gain @BonusHealthPercent*100@% maximum Health and @BonusASPercent*100@% Attack Speed.",
+            "<row>(@MinUnits@) The strongest Shuriman Ascends</row>",
+            "<row>(@MinUnits@) All Shurimans Ascend. +@AscensionStrengthBoost*100@% Ascension bonus</row>",
+            "<row>(@MinUnits@) Instead, Ascend at combat start. +@AscensionStrengthBoost*100@% Ascension bonus</row>",
+            "<row>(@MinUnits@) Ascend twice, at combat start and after @SecondsToAscend@ seconds. +@AscensionStrengthBoost*100@% Ascension bonus</row>"
+        ],
+        "unit_count": 7,
+        "units": "Renekton(1)/Cassiopeia(1)/Taliyah(2)/Akshan(3)/Azir(4)/Nasus(4)/KSante(5)",
+        "trait_active": "2/4/6/9",
+        "trait_desc": "(HealthRegen): (0.05)/(0.05)/(0.05)/(0.05)"
+    },
+    {
+        "name": "Strategist",
+        "desc": [
+            "<spellPassive>Combat start:</spellPassive> Allies in the front 2 rows gain a Shield for @ShieldDuration@ seconds. Allies in the back 2 rows gain Ability Power.",
+            "<expandRow>(@MinUnits@) @ShieldHP@ Shield; @BonusAP@ %i:scaleAP%</expandRow>"
+        ],
+        "unit_count": 4,
+        "units": "Swain(2)/Teemo(2)/Azir(4)/JarvanIV(4)",
+        "trait_active": "2/3/4/5",
+        "trait_desc": "(BonusAP,ShieldDuration): (15,15)/(25,15)/(40,15)/(60,15)"
+    },
+    {
+        "name": "Redeemer",
+        "desc": [
+            "Whenever an ally gains a Shield, Senna grants them @AttackSpeed*100@% stacking Attack Speed for the rest of combat."
+        ],
+        "unit_count": 1,
+        "units": "Senna(5)",
+        "trait_active": "1",
+        "trait_desc": "(AttackSpeed): (0.06)"
+    },
+    {
+        "name": "Piltover",
+        "desc": [
+            "Gain the T-Hex. Every time you lose a player combat, the T-Hex gains Charges. Winning converts the Charges to Power for the T-Hex and grants you loot based on the number of Charges converted.",
+            "<row>(@MinUnits@) Gain the T-Hex.</row>",
+            "<row>(@MinUnits@) Gain bonus loot every round. Each loss counts as 2 losses instead.</row>"
+        ],
+        "unit_count": 5,
+        "units": "Orianna(1)/Vi(2)/Ekko(3)/Jayce(3)/Heimerdinger(5)",
+        "trait_active": "3/6",
+        "trait_desc": "(): ()/()"
+    },
+    {
+        "name": "Multicaster",
+        "desc": [
+            "Multicasters cast their Ability multiple times. Bonus casts have @DamageReduction*100@% reduced effectiveness.",
+            "<row>(@MinUnits@) @BonusCasts@ extra cast</row>",
+            "<row>(@MinUnits@) @BonusCasts@ extra casts</row>"
+        ],
+        "unit_count": 4,
+        "units": "Teemo(2)/Taliyah(2)/Sona(3)/VelKoz(3)",
+        "trait_active": "2/4",
+        "trait_desc": "(DamageReduction): (0.60)/(0.60)"
+    },
+    {
+        "name": "Gunner",
+        "desc": [
+            "When Gunner champions attack, they gain bonus Attack Damage, up to @MaxStacks@ stacks.",
+            "<expandRow>(@MinUnits@) @PercentAD@% %i:scaleAD% per stack</expandRow>"
+        ],
+        "unit_count": 6,
+        "units": "Tristana(1)/Jinx(2)/Jayce(3)/Aphelios(4)/Zeri(4)/Senna(5)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(MaxStacks,PercentAD): (8,6)/(8,12)/(8,25)"
+    },
+    {
+        "name": "Empress",
+        "desc": [
+            "When Bel'Veth kills an enemy, they leave behind Void Coral that she will consume. The first Coral increases her maximum Health by @PercentBonusMaxHealth*100@%, while further Coral heals her @PercentHealthHeal*100@% maximum Health.",
+            "When a Void Coral is consumed, she deals @PercentHealthMagicDamage*100@% maximum Health as magic damage to enemies within @HexRange@ hexes."
+        ],
+        "unit_count": 1,
+        "units": "BelVeth(5)",
+        "trait_active": "1",
+        "trait_desc": "(HexRange,PercentHealthHeal): (2,0.20)"
+    },
+    {
+        "name": "Shadow Isles",
+        "desc": [
+            "After dealing or receiving damage @DamageInstances@ times, Shadow Isles champions gain a Shield for @Duration@ seconds and become Spectral for the rest of combat. Spectral champions gain Mana every second.",
+            "<expandRow>(@MinUnits@) @MaxHealthShield@% %i:scaleHealth% Shield, @ManaRegen@ %i:scaleMana%</expandRow>"
+        ],
+        "unit_count": 5,
+        "units": "Maokai(1)/Viego(1)/Kalista(3)/Gwen(4)/Senna(5)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(Duration,ManaRegen,MaxHealthShield,TickRate): (15,6,45,1)/(15,12,80,1)/(15,18,115,1)"
+    },
+    {
+        "name": "Freljord",
+        "desc": [
+            "After @DelayTime@ seconds, an ice storm strikes the battlefield. Enemies take a percentage of their max Health as true damage and gain debuffs.",
+            "<row>(@MinUnits@) @PercentHealthDamage@% %i:scaleHealth%, enemies are @ShredSunder@% <TFTKeyword>Sundered</TFTKeyword> and <TFTKeyword>Shredded</TFTKeyword></row> for @Duration@ seconds",
+            "<row>(@MinUnits@) @PercentHealthDamage@% %i:scaleHealth%, enemies are also <TFTKeyword>Stunned</TFTKeyword> for @StunDuration@ seconds</row>",
+            "<rules><tftbold>Sunder</tftbold>: Reduce Armor",
+            "<tftbold>Shred</tftbold>: Reduce Magic Resist</rules>"
+        ],
+        "unit_count": 3,
+        "units": "Ashe(2)/Lissandra(3)/Sejuani(4)",
+        "trait_active": "2/3",
+        "trait_desc": "(Duration,PercentHealthDamage,StunDuration): (10,8)/(10,15,1.50)"
+    },
+    {
+        "name": "Targon",
+        "desc": [
+            "All of your units' healing and shielding is improved.",
+            "<expandRow>(@MinUnits@) @HealShieldIncrease*100@% increased healing and shielding </expandRow>"
+        ],
+        "unit_count": 3,
+        "units": "Soraka(2)/Taric(3)/Aphelios(4)",
+        "trait_active": "2/3/4",
+        "trait_desc": "(HealShieldIncrease): (0.18)/(0.35)/(0.55)"
+    },
+    {
+        "name": "Darkin",
+        "desc": [
+            "When Aatrox or the holder of the Darkin Blade dies, the Darkin Blade is equipped to the nearest allied champion, granting them @BonusHealth@ Health and @BonusOmnivamp*100@% Omnivamp.",
+            "After being equipped to a champion for @RespawnTimer@ seconds, Aatrox will revive upon their death instead."
+        ],
+        "unit_count": 1,
+        "units": "Aatrox(5)",
+        "trait_active": "1",
+        "trait_desc": "(BonusHealth,BonusOmnivamp): (350,0.15)"
+    },
+    {
+        "name": "Wanderer",
+        "desc": [
+            "Ryze's ability changes depending on the Region Portal players voted for at the start of the game."
+        ],
+        "unit_count": 11,
+        "units": "Ryze(5)/RyzeDemacia(5)/RyzeBandleCity(5)/RyzeFreljord(5)/RyzeIonia(5)/RyzeNoxus(5)/RyzePiltover(5)/RyzeShadowIsles(5)/RyzeShurima(5)/RyzeTargon(5)/RyzeZaun(5)",
+        "trait_active": "1",
+        "trait_desc": "(): ()"
+    },
+    {
+        "name": "Zaun",
+        "desc": [
+            "Zaun champions create random chem-mods that only they can use. Champions can be modded once, and mods can be removed by benching or selling the champion.",
+            "<row>(@MinUnits@) Gain 1 chem-mod</row>",
+            "<row>(@MinUnits@) Gain 2 chem-mods and Overcharge them</row>",
+            "<row>(@MinUnits@) Gain 5 chem-mods and Overcharge them</row>"
+        ],
+        "unit_count": 5,
+        "units": "Jinx(2)/Warwick(2)/Ekko(3)/Urgot(4)/Zeri(4)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(): ()/()/()"
+    },
+    {
+        "name": "Vanquisher",
+        "desc": [
+            "Damage from Vanquisher Abilities can critically strike. Vanquishers gain bonus Critical Strike Chance and Critical Strike Damage.",
+            "<expandRow>(@MinUnits@) @BaseCritChance@% %i:scaleCrit% , @CritDmg@% %i:scaleCritMult%</expandRow>"
+        ],
+        "unit_count": 3,
+        "units": "Jhin(1)/Ashe(2)/Darius(3)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(): ()/()/()"
+    },
+    {
+        "name": "Juggernaut",
+        "desc": [
+            "Juggernaut champions take less damage as their Health decreases.",
+            "<expandRow>(@MinUnits@) @MinDR*100@% to @MaxDR*100@% damage reduction</expandRow>"
+        ],
+        "unit_count": 6,
+        "units": "Warwick(2)/Sett(2)/Darius(3)/Garen(3)/Nasus(4)/Aatrox(5)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(Duration): (7)/(7)/(7)"
+    },
+    {
+        "name": "Technogenius",
+        "desc": [
+            "Gain a placeable Apex Turret with 3 upgrade slots. Upgrades to the Apex Turret will show up in your shop for @GoldCost@ gold. The Apex Turret shares Heimerdinger's Attack Speed and Ability Power.",
+            "<rules>You may only have 1 Apex Turret.</rules>"
+        ],
+        "unit_count": 1,
+        "units": "Heimerdinger(5)",
+        "trait_active": "1",
+        "trait_desc": "(): ()"
+    },
+    {
+        "name": "Challenger",
+        "desc": [
+            "Challengers gain bonus Attack Speed. When their target dies, Challengers dash to a new target and increase their Attack Speed bonus by @IncreasePct*100@% for @BurstDuration@ seconds.",
+            "<expandRow>(@MinUnits@) @BonusAS@% %i:scaleAS%</expandRow>"
+        ],
+        "unit_count": 6,
+        "units": "Irelia(1)/Samira(1)/Warwick(2)/Kalista(3)/KaiSa(4)/Yasuo(4)",
+        "trait_active": "2/4/6/8",
+        "trait_desc": "(BonusAS): (30)/(60)/(95)/(140)"
+    },
+    {
+        "name": "Ionia",
+        "desc": [
+            "Each Ionian has a unique bonus within their Ability. ",
+            "Every @SpiritDuration@ seconds, a number of Ionians are enlightened to their spirit form, gaining @Mana@ mana and doubling stat bonuses for @SpiritDuration@ seconds.",
+            "<expandRow>(@MinUnits@) @TooltipBonus*100@% Ionian bonus, @NumberOfSpirits@ enlightened</expandRow>"
+        ],
+        "unit_count": 8,
+        "units": "Irelia(1)/Jhin(1)/Zed(2)/Sett(2)/Karma(3)/Shen(4)/Yasuo(4)/Ahri(5)",
+        "trait_active": "3/6/9",
+        "trait_desc": "(Mana): (20)/(20)/(20)"
+    }
+]

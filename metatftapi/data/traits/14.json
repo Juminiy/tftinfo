@@ -1,0 +1,362 @@
+[
+    {
+        "name": "Divinicorp",
+        "desc": [
+            "Divinicorp champions grant unique stats to your team, increased for each Divinicorp in play. ",
+            "Divinicorp champions gain double.",
+            "<expandRow>(@MinUnits@) <TFTGuildActive>@DivinicorpBonus*100@%</TFTGuildActive>&nbsp;bonus.</expandRow>",
+            "<TFTGuildActive enabled=TFT14_Trait_Divinicorp_ActiveAP alternate=TFTGuildInactive>Morgana - </TFTGuildActive>&nbsp;%i:scaleAP% <spellActive enabled=TFT14_Trait_Divinicorp_ActiveAP alternate=TFTGuildInactive>@TFTUnitProperty.trait:TFT14_Trait_Divinicorp_AP@%</spellActive>",
+            "<TFTGuildActive enabled=TFT14_Trait_Divinicorp_ActiveDefenses alternate=TFTGuildInactive>Rhaast - </TFTGuildActive>&nbsp;%i:scaleArmor%&nbsp;%i:scaleMR% <spellActive enabled=TFT14_Trait_Divinicorp_ActiveDefenses alternate=TFTGuildInactive>@TFTUnitProperty.trait:TFT14_Trait_Divinicorp_Defenses@</spellActive>",
+            "<TFTGuildActive enabled=TFT14_Trait_Divinicorp_ActiveAttackDamage alternate=TFTGuildInactive>Senna - </TFTGuildActive>&nbsp;%i:scaleAD% <spellActive enabled=TFT14_Trait_Divinicorp_ActiveAttackDamage alternate=TFTGuildInactive>@TFTUnitProperty.trait:TFT14_Trait_Divinicorp_AD@%</spellActive>",
+            "<TFTGuildActive enabled=TFT14_Trait_Divinicorp_ActiveHealth alternate=TFTGuildInactive>Gragas - </TFTGuildActive>&nbsp;%i:scaleHealth% <spellActive enabled=TFT14_Trait_Divinicorp_ActiveHealth alternate=TFTGuildInactive>@TFTUnitProperty.trait:TFT14_Trait_Divinicorp_Health@</spellActive>",
+            "<TFTGuildActive enabled=TFT14_Trait_Divinicorp_ActiveCrit alternate=TFTGuildInactive>Vex - &nbsp;%i:scaleCrit% </TFTGuildActive><spellActive enabled=TFT14_Trait_Divinicorp_ActiveCrit alternate=TFTGuildInactive>@TFTUnitProperty.trait:TFT14_Trait_Divinicorp_Crit@%</spellActive>",
+            "<TFTGuildActive enabled=TFT14_Trait_Divinicorp_ActiveAttackSpeed alternate=TFTGuildInactive>Renekton - </TFTGuildActive>&nbsp;%i:scaleAS% <spellActive enabled=TFT14_Trait_Divinicorp_ActiveAttackSpeed alternate=TFTGuildInactive>@TFTUnitProperty.trait:TFT14_Trait_Divinicorp_AS@%</spellActive>",
+            "<TFTGuildActive enabled=TFT14_Trait_Divinicorp_ActiveOmnivamp alternate=TFTGuildInactive>Emblem - </TFTGuildActive>&nbsp;%i:scaleSV% <spellActive enabled=TFT14_Trait_Divinicorp_ActiveOmnivamp alternate=TFTGuildInactive>@TFTUnitProperty.trait:TFT14_Trait_Divinicorp_Omnivamp@%</spellActive>"
+        ],
+        "unit_count": 6,
+        "units": "Morgana(1)/Rhaast(2)/Senna(3)/Gragas(3)/Vex(4)/Renekton(5)",
+        "trait_active": "1/2/3/4/5/6/7",
+        "trait_desc": "(DivinicorpBonus): (1)/(1.10)/(1.25)/(1.40)/(1.65)/(1.90)/(2.10)"
+    },
+    {
+        "name": "Street Demon",
+        "desc": [
+            "Allies in painted hexes gain Health, Ability Power, and Attack Damage. Some hexes are Signature hexes and grant @EmpoweredHexPercentBonus*100@% more. ",
+            "Street Demons double all bonuses.",
+            "<row>(@MinUnits@) +@HP*100@%&nbsp;%i:scaleHealth%, @ADAP@&nbsp;%i:scaleAP%, @ADAP@%&nbsp;%i:scaleAD%</row>",
+            "<row>(@MinUnits@) +@HP*100@%&nbsp;%i:scaleHealth%, @ADAP@&nbsp;%i:scaleAP%, @ADAP@%&nbsp;%i:scaleAD%</row>",
+            "<row>(@MinUnits@) +@HP*100@%&nbsp;%i:scaleHealth%, @ADAP@&nbsp;%i:scaleAP%, @ADAP@%&nbsp;%i:scaleAD%</row>",
+            "<row>(@MinUnits@) +@HP*100@%&nbsp;%i:scaleHealth%, @ADAP@&nbsp;%i:scaleAP%, @ADAP@%&nbsp;%i:scaleAD%",
+            "Paint the town!</row>"
+        ],
+        "unit_count": 8,
+        "units": "DrMundo(1)/Zyra(1)/Ekko(2)/Rengar(3)/Jinx(3)/Brand(4)/Neeko(4)/Samira(5)",
+        "trait_active": "3/5/7/10",
+        "trait_desc": "(ADAP,EmpoweredHexPercentBonus,HP): (6,0.50,0.06)/(10,0.50,0.10)/(16,0.50,0.16)/(45,0.50,0.45)"
+    },
+    {
+        "name": "A.M.P.",
+        "desc": [
+            "A.M.P. champions upgrade their abilities in unique ways with Amp (%i:set14AmpIcon%). They also gain&nbsp;Health.",
+            "<expandRow>(@MinUnits@) @SuperchargeAmount@ %i:set14AmpIcon%, @HPAmt@ %i:scaleHealth%</expandRow>"
+        ],
+        "unit_count": 5,
+        "units": "NidaleeCougar(1)/Naafiri(2)/Yuumi(3)/Annie(4)/Samira(5)",
+        "trait_active": "2/3/4/5",
+        "trait_desc": "(HPAmt,SuperchargeAmount): (100,1)/(200,2)/(300,4)/(500,5)"
+    },
+    {
+        "name": "Anima Squad",
+        "desc": [
+            "At each tier, pick a weapon that a random Anima Squad champion fires periodically during combat. Anima Squad champions gain Armor, Magic Resist, and Damage Amp.",
+            "<row>(@MinUnits@) @Resists@ %i:scaleArmor%%i:scaleMR%, @DamageAmp*100@% %i:scaleDA%,",
+            "@TFTUnitProperty.trait:TFT14_AnimaSquad_Bonus_1@</row>",
+            "<row>(@MinUnits@) @Resists@ %i:scaleArmor%%i:scaleMR%, @DamageAmp*100@% %i:scaleDA%,",
+            "@TFTUnitProperty.trait:TFT14_AnimaSquad_Bonus_2@</row>",
+            "<row>(@MinUnits@) @Resists@ %i:scaleArmor%%i:scaleMR%, @DamageAmp*100@% %i:scaleDA%,",
+            "@TFTUnitProperty.trait:TFT14_AnimaSquad_Bonus_3@</row>",
+            "<row>(@MinUnits@) @Resists@ %i:scaleArmor%%i:scaleMR%, @DamageAmp*100@% %i:scaleDA%,",
+            "@TFTUnitProperty.trait:TFT14_AnimaSquad_Bonus_4@</row>",
+            "<rules>Weapons scale with Anima Squad star level and stage.</rules>"
+        ],
+        "unit_count": 8,
+        "units": "Seraphine(1)/Sylas(1)/Illaoi(2)/Vayne(2)/Yuumi(3)/Xayah(4)/Leona(4)/Aurora(5)",
+        "trait_active": "3/5/7/10",
+        "trait_desc": "(DamageAmp,Resists): (0.05,10)/(0.10,25)/(0.15,40)/(0.25,75)"
+    },
+    {
+        "name": "Vanguard",
+        "desc": [
+            "Vanguards gain @DamageReductionPct*100@% Durability while Shielded. ",
+            "Combat start and @HealthThreshold*100@%&nbsp;Health: Gain a max Health Shield for @ShieldDuration@&nbsp;seconds.",
+            "<row>(@MinUnits@) @ShieldPercentAmount*100@% max Health</row>",
+            "<row>(@MinUnits@) @ShieldPercentAmount*100@% max Health</row>",
+            "<row>(@MinUnits@) @ShieldPercentAmount*100@% max Health;",
+            "@EnhancedDurability*100@%&nbsp;%i:scaleDR% while Shielded</row>"
+        ],
+        "unit_count": 7,
+        "units": "Sylas(1)/Vi(1)/Skarner(2)/Rhaast(2)/Braum(3)/Jarvan(3)/Leona(4)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(DamageReductionPct,EnhancedDurability,HealthThreshold,ShieldDuration,ShieldPercentAmount): (0.12,0.18,0.50,10,0.16)/(0.12,0.18,0.50,10,0.32)/(0.12,0.18,0.50,10,0.45)"
+    },
+    {
+        "name": "Slayer",
+        "desc": [
+            "Slayers gain Attack Damage and Omnivamp. Overhealing heals the lowest percent Health Slayer for @OverhealPercent*100@% of the excess amount.",
+            "<expandRow>(@MinUnits@) @AttackDamage*100@% %i:scaleAD%, @Healing*100@% %i:scaleSV%</expandRow>"
+        ],
+        "unit_count": 6,
+        "units": "DrMundo(1)/Shaco(1)/Vayne(2)/Senna(3)/Jarvan(3)/Zed(4)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(AttackDamage,Healing,OverhealPercent): (0.15,0.15,0.50)/(0.40,0.15,0.50)/(0.70,0.20,0.50)"
+    },
+    {
+        "name": "Soul Killer",
+        "desc": [
+            "Gain a hologram copy of the highest cost enemy Viego helped kill last round. It has @Level1Health@/@Level2Health@/@Level3Health@ Health, deals @Level1Damage*100@%/@Level2Damage*100@%/@Level3Damage*100@% damage, and has @ItemCount@ recommended item."
+        ],
+        "unit_count": 1,
+        "units": "Viego(5)",
+        "trait_active": "1",
+        "trait_desc": "(ItemCount,Level1Damage,Level1Health,Level2Damage,Level2Health,Level3Damage,Level3Health): (1,0.30,900,0.40,1350,2,9001)"
+    },
+    {
+        "name": "Cyberboss",
+        "desc": [
+            "Your strongest Cyberboss upgrades to its final form and gains Health, Ability Power, and its ability hits more&nbsp;enemies.",
+            "<row>(@MinUnits@) @BossPercentHealth*100@%&nbsp;%i:scaleHealth%, @BossAP@&nbsp;%i:scaleAP% </row>",
+            "<row>(@MinUnits@) @BossPercentHealth*100@%&nbsp;%i:scaleHealth%, @BossAP@&nbsp;%i:scaleAP% </row>",
+            "<row>(@MinUnits@) All Cyberbosses upgrade. Your strongest Cyberboss gains @BigBossPercentHealth*100@% %i:scaleHealth% and @BigBossAP@ %i:scaleAP%.</row>"
+        ],
+        "unit_count": 4,
+        "units": "Poppy(1)/Veigar(2)/Ziggs(4)/Kobuko(5)",
+        "trait_active": "2/3/4",
+        "trait_desc": "(BigBossAP,BigBossPercentHealth,BossAP,BossPercentHealth,DamageMod): (40,0.40,20,0.25,0.30)/(40,0.40,30,0.33,0.30)/(40,0.40,30,0.33,0.30)"
+    },
+    {
+        "name": "Executioner",
+        "desc": [
+            "Executioner Abilities can critically strike. They also gain bonus Critical Strike Chance and Critical Strike Damage.",
+            "If the target's Health is below @HealthThreshold*100@%, the bonus Critical Strike Damage is doubled.",
+            "<row>(@MinUnits@) @CRIT_PERCENT*100@%&nbsp;%i:scaleCrit%, @CRIT_DAMAGE*100@%&nbsp;%i:scaleCritMult%</row>",
+            "<row>(@MinUnits@) @CRIT_PERCENT*100@%&nbsp;%i:scaleCrit%, @CRIT_DAMAGE*100@%&nbsp;%i:scaleCritMult%</row>",
+            "<row>(@MinUnits@) @CRIT_PERCENT*100@%&nbsp;%i:scaleCrit%, @CRIT_DAMAGE*100@%&nbsp;%i:scaleCritMult%</row>",
+            "<row>(@MinUnits@) @CRIT_PERCENT*100@%&nbsp;%i:scaleCrit%, @CRIT_DAMAGE*100@%&nbsp;%i:scaleCritMult%; also gain @DamageReduction*100@% Durability</row>"
+        ],
+        "unit_count": 5,
+        "units": "Graves(2)/Rengar(3)/Varus(3)/Vex(4)/Urgot(5)",
+        "trait_active": "2/3/4/5",
+        "trait_desc": "(CRIT_DAMAGE,CRIT_PERCENT,DamageReduction,HealthThreshold): (0.05,0.25,None,0.20)/(0.10,0.35,None,0.20)/(0.15,0.50,None,0.20)/(0.15,0.55,0.12,0.20)"
+    },
+    {
+        "name": "Bastion",
+        "desc": [
+            "Your team gains @TeamwideArmor@ Armor and Magic Resist. Bastions gain more.",
+            "For the first @Duration@ seconds of combat, Bastions increase their bonus by @StatMultiplier*100@%.",
+            "<row>(@MinUnits@) @BonusArmor@ %i:scaleArmor%%i:scaleMR% </row>",
+            "<row>(@MinUnits@) @BonusArmor@ %i:scaleArmor%%i:scaleMR% </row>",
+            "<row>(@MinUnits@) @BonusArmor@ %i:scaleArmor%%i:scaleMR% Non-Bastions gain an additional @EnhancedTeamwideArmor@ %i:scaleArmor%%i:scaleMR%.</row>"
+        ],
+        "unit_count": 7,
+        "units": "Jax(1)/Poppy(1)/Shyvana(2)/Illaoi(2)/Galio(3)/Sejuani(4)/Renekton(5)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(BonusArmor,BonusMR,Duration,EnhancedTeamwideArmor,StatMultiplier,TeamwideArmor): (18,18,10,25,1,10)/(36,36,10,25,1,10)/(70,70,10,25,1,10)"
+    },
+    {
+        "name": "Exotech",
+        "desc": [
+            "Gain unique items that can only be equipped by Exotech champions. They gain Health and Attack Speed for each item equipped.",
+            "<row>(@MinUnits@) @HealthBonus@ %i:scaleHealth%, @ASBonus@% %i:scaleAS%,",
+            "@TFTUnitProperty.trait:TFT14_Cybernetic_Item1@</row>",
+            "<row>(@MinUnits@) @HealthBonus@ %i:scaleHealth%, @ASBonus@% %i:scaleAS%,",
+            "@TFTUnitProperty.trait:TFT14_Cybernetic_Item2@</row>",
+            "<row>(@MinUnits@) @HealthBonus@ %i:scaleHealth%, @ASBonus@% %i:scaleAS%,",
+            "@TFTUnitProperty.trait:TFT14_Cybernetic_Item3@</row> ",
+            "<row>(@MinUnits@) @HealthBonus@ %i:scaleHealth%, @ASBonus@% %i:scaleAS%,",
+            "Enhance. </row> "
+        ],
+        "unit_count": 7,
+        "units": "Jax(1)/Jhin(2)/Naafiri(2)/Varus(3)/Mordekaiser(3)/Zeri(4)/Sejuani(4)",
+        "trait_active": "3/5/7/10",
+        "trait_desc": "(ASBonus,HealthBonus): (2,50)/(6,160)/(13,270)/(40,500)"
+    },
+    {
+        "name": "Overlord",
+        "desc": [
+            "The Overlord takes a bite out of the unit in the hex behind him, dealing @HPPercentDamage*100@% of their max Health as true damage. He gains @PercentHPGain*100@% of their Health and @PercentADGain*100@% of their Attack Damage."
+        ],
+        "unit_count": 1,
+        "units": "Renekton(5)",
+        "trait_active": "1",
+        "trait_desc": "(HPPercentDamage,NumHexes,PercentADGain,PercentHPGain): (0.40,1,0.25,0.40)"
+    },
+    {
+        "name": "God of the Net",
+        "desc": [
+            "After @Rounds@ player combats, open an Armory of Trait Mods that permanently reprogram a champion to benefit from a trait (but not contribute).",
+            "Every time you get a Trait Mod, the next one requires @RoundIncrement@ additional round.",
+            "Rounds remaining: @TFTUnitProperty.trait:TFT14_Netgod_RoundsRemaining@",
+            "<rules>Champions can only have one Trait Mod.</rules>",
+            "Equipped Mods:",
+            "<ShowIf.TFT14_Netgod_Slot1>@TFTUnitProperty.trait:TFT14_Netgod_Trait1@ - @TFTUnitProperty.trait:TFT14_Netgod_Champ1@",
+            "<ShowIf.TFT14_Netgod_Slot2>@TFTUnitProperty.trait:TFT14_Netgod_Trait2@ - @TFTUnitProperty.trait:TFT14_Netgod_Champ2@",
+            "<ShowIf.TFT14_Netgod_Slot3>@TFTUnitProperty.trait:TFT14_Netgod_Trait3@ - @TFTUnitProperty.trait:TFT14_Netgod_Champ3@",
+            "<ShowIf.TFT14_Netgod_Slot4>@TFTUnitProperty.trait:TFT14_Netgod_Trait4@ - @TFTUnitProperty.trait:TFT14_Netgod_Champ4@",
+            "<ShowIf.TFT14_Netgod_Slot5>@TFTUnitProperty.trait:TFT14_Netgod_Trait5@ - @TFTUnitProperty.trait:TFT14_Netgod_Champ5@",
+            "<ShowIf.TFT14_Netgod_Slot6>@TFTUnitProperty.trait:TFT14_Netgod_Trait6@ - @TFTUnitProperty.trait:TFT14_Netgod_Champ6@",
+            "<ShowIf.TFT14_Netgod_Slot7>@TFTUnitProperty.trait:TFT14_Netgod_Trait7@ - @TFTUnitProperty.trait:TFT14_Netgod_Champ7@",
+            "<ShowIf.TFT14_Netgod_Slot8>@TFTUnitProperty.trait:TFT14_Netgod_Trait8@ - @TFTUnitProperty.trait:TFT14_Netgod_Champ8@",
+            "<ShowIf.TFT14_Netgod_Slot9>@TFTUnitProperty.trait:TFT14_Netgod_Trait9@ - @TFTUnitProperty.trait:TFT14_Netgod_Champ9@</ShowIf.TFT14_Netgod_Slot9></ShowIf.TFT14_Netgod_Slot8></ShowIf.TFT14_Netgod_Slot7></ShowIf.TFT14_Netgod_Slot6></ShowIf.TFT14_Netgod_Slot5></ShowIf.TFT14_Netgod_Slot4></ShowIf.TFT14_Netgod_Slot3></ShowIf.TFT14_Netgod_Slot2></ShowIf.TFT14_Netgod_Slot1>"
+        ],
+        "unit_count": 1,
+        "units": "Garen(5)",
+        "trait_active": "1",
+        "trait_desc": "(RoundIncrement,rounds): (1,2)"
+    },
+    {
+        "name": "Rapidfire",
+        "desc": [
+            "Your team gains @TeamBonus*100@% Attack Speed. Rapidfire champions gain more on each attack, stacking up to @MaxStacks@ times.",
+            "<expandRow>(@MinUnits@) @AttackSpeed*100@% %i:scaleAS% per stack</expandRow>"
+        ],
+        "unit_count": 5,
+        "units": "Kindred(1)/KogMaw(1)/TwistedFate(2)/Draven(3)/Zeri(4)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(AttackSpeed,MaxStacks,TeamBonus): (0.04,10,0.10)/(0.11,10,0.10)/(0.22,10,0.10)"
+    },
+    {
+        "name": "Strategist",
+        "desc": [
+            "<spellPassive>Combat Start:</spellPassive> Allies in the back 2 rows gain Damage Amp. Allies in the front 2 rows gain Durability. Strategists get triple.",
+            "<expandRow>(@MinUnits@) @DamageAmp*100@% %i:scaleDA%, @Durability*100@% %i:scaleDR%</expandRow>"
+        ],
+        "unit_count": 5,
+        "units": "LeBlanc(2)/Ekko(2)/Yuumi(3)/Neeko(4)/Ziggs(4)",
+        "trait_active": "2/3/4/5",
+        "trait_desc": "(DamageAmp,Durability): (0.06,0.04)/(0.09,0.06)/(0.12,0.08)/(0.15,0.10)"
+    },
+    {
+        "name": "Bruiser",
+        "desc": [
+            "Your team gains @TeamwideHealth@ Health. Bruisers gain more.",
+            "<expandRow>(@MinUnits@) @HealthBonus*100@% %i:scaleHealth% </expandRow>"
+        ],
+        "unit_count": 7,
+        "units": "DrMundo(1)/Alistar(1)/Darius(2)/Gragas(3)/Mordekaiser(3)/Chogath(4)/Kobuko(5)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(HealthBonus,TeamwideHealth): (0.20,100)/(0.45,100)/(0.70,100)"
+    },
+    {
+        "name": "Marksman",
+        "desc": [
+            "Marksmen gain Attack Damage. After @EnhancedTime@ seconds of combat, they increase their bonus by @EnhancedBonus*100@%.",
+            "<row>(@MinUnits@) @BonusAD*100@%&nbsp;%i:scaleAD%</row>",
+            "<row>(@MinUnits@) @BonusAD*100@%&nbsp;%i:scaleAD%. After @EnhancedTime@&nbsp;seconds, gain @RepeatBonus*100@%&nbsp;%i:scaleAD% every @RepeatTime@&nbsp;seconds.</row>"
+        ],
+        "unit_count": 5,
+        "units": "Kindred(1)/Jhin(2)/Jinx(3)/Xayah(4)/Aphelios(4)",
+        "trait_active": "2/4",
+        "trait_desc": "(BonusAD,EnhancedBonus,EnhancedTime,RepeatBonus,RepeatTime,TeamBonus): (0.18,1,8,None,None,None)/(0.35,1,8,0.25,6,None)"
+    },
+    {
+        "name": "Golden Ox",
+        "desc": [
+            "Golden Ox gain Damage Amp and have a chance to drop gold on kill.",
+            "If you spend @TFTUnitProperty.trait:TFT14_Immortal_GoldNeededForBreakpoint@ gold on rerolls or XP in a single turn, permanently increase their Damage Amp and the gold required for the next bonus. Rerolls count double towards gold spent.",
+            "<rules>(Golden Ox must have fought last round)</rules>",
+            "<row>(@MinUnits@) @DamageAmp*100@% %i:scaleDA%, @KillDrop*100@% gold</row>",
+            "<row>(@MinUnits@) @DamageAmp*100@% %i:scaleDA%, @KillDrop*100@% gold</row>",
+            "<row>(@MinUnits@) @DamageAmp*100@% %i:scaleDA%, @KillDrop*100@% loot, @ComponentDropChance*100@% chance loot is a component</row>",
+            "Current Bonus: @TFTUnitProperty.trait:TFT14_Immortal_GoldBonusStacks@% %i:scaleDA%"
+        ],
+        "unit_count": 6,
+        "units": "Alistar(1)/Graves(2)/Jarvan(3)/Annie(4)/Aphelios(4)/Viego(5)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(ComponentDropChance,DamageAmp,InitialGoldBreakpoint,KillDrop): (None,0.12,None,0.20)/(None,0.24,None,0.60)/(0.06,0.25,None,1)"
+    },
+    {
+        "name": "BoomBot",
+        "desc": [
+            "BoomBots fire a missile every @DamageDealtThreshold@ damage dealt at a nearby enemy that deals magic damage. @DamageTakenMod*100@% of damage taken contributes to damage dealt.",
+            "<row>(@MinUnits@) @MissileDamage@ magic damage</row>",
+            "<row>(@MinUnits@) @MissileDamage@ magic damage</row>",
+            "<row>(@MinUnits@) Fire two missiles, each dealing @MissileDamage@ magic damage</row>"
+        ],
+        "unit_count": 5,
+        "units": "KogMaw(1)/Skarner(2)/Fiddlesticks(3)/Chogath(4)/Urgot(5)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(DamageDealtThreshold,DamageTakenMod,MissileDamage): (400,0.08,150)/(400,0.08,325)/(400,0.08,260)"
+    },
+    {
+        "name": "Techie",
+        "desc": [
+            "Techies gain Ability Power.",
+            "Enemies hit by their abilities deal @DamageAmpDebuff*100@% less damage for @DebuffDuration@ seconds.",
+            "<row>(@MinUnits@) @APBonus@ %i:scaleAP%</row>",
+            "<row>(@MinUnits@) @APBonus@ %i:scaleAP%</row>",
+            "<row>(@MinUnits@) @APBonus@ %i:scaleAP%</row>",
+            "<row>(@MinUnits@) @APBonus@ %i:scaleAP% Enemies hit deal @EnhancedDebuff*100@% less damage.</row>"
+        ],
+        "unit_count": 8,
+        "units": "Zyra(1)/Seraphine(1)/Veigar(2)/Shyvana(2)/Fiddlesticks(3)/Mordekaiser(3)/Brand(4)/Viego(5)",
+        "trait_active": "2/4/6/8",
+        "trait_desc": "(APBonus,DamageAmpDebuff,DebuffDuration,EnhancedDebuff): (20,0.10,3,0.18)/(50,0.10,3,0.18)/(95,0.10,3,0.18)/(140,0.10,3,0.18)"
+    },
+    {
+        "name": "Dynamo",
+        "desc": [
+            "Every @Timer@ seconds, your team gains Mana. Dynamos gain @ThirstyBonus*100@% more.",
+            "<row>(@MinUnits@) @Mana@ %i:scaleMana% </row>",
+            "<row>(@MinUnits@) @Mana@ %i:scaleMana% </row>",
+            "<row>(@MinUnits@) @Mana@ %i:scaleMana% </row>"
+        ],
+        "unit_count": 5,
+        "units": "Morgana(1)/Jhin(2)/Elise(3)/MissFortune(4)/Aurora(5)",
+        "trait_active": "2/3/4",
+        "trait_desc": "(Mana,ThirstyBonus,Timer): (4,1,3)/(6,1,3)/(10,1,3)"
+    },
+    {
+        "name": "Virus",
+        "desc": [
+            "The Virus infects your shop with a @ChanceToSee@% chance to spawn a bloblet. When purchased, it merges and increases the strongest Zac's max Health by @BonusPercentHPPerStack*100@% and Ability Power by @BonusAPPerStack@ <rules>(doubled in Hyper Roll)</rules>. ",
+            "<TFTTracker>(Total Bloblets: <TFTBonus>@TFTUnitProperty.trait:TFT14_Virus_Stacks@</TFTBonus>)</TFTTracker>"
+        ],
+        "unit_count": 1,
+        "units": "Zac(5)",
+        "trait_active": "1",
+        "trait_desc": "(BonusAPPerStack,BonusPercentHPPerStack,ChanceToSee): (1,0.01,20)"
+    },
+    {
+        "name": "Syndicate",
+        "desc": [
+            "Get a Kingpin hat that uniquely upgrades a Syndicate champion's ability.",
+            "Syndicate champions gain Health and Damage Amp.",
+            "<row>(@MinUnits@) @MobHealth@ %i:scaleHealth%, @DamageAmp*100@% %i:scaleDA%, @NumBosses@ Kingpin</row>",
+            "<row>(@MinUnits@) @MobHealth@ %i:scaleHealth%, @DamageAmp*100@% %i:scaleDA%, @NumBosses@ Kingpins</row>",
+            "<row>(@MinUnits@) @MobHealth@ %i:scaleHealth%, @DamageAmp*100@% %i:scaleDA%, Upgrade Kingpin effect</row>"
+        ],
+        "unit_count": 5,
+        "units": "Shaco(1)/Darius(2)/TwistedFate(2)/Braum(3)/MissFortune(4)",
+        "trait_active": "3/5/7",
+        "trait_desc": "(DamageAmp,MobHealth,NumBosses): (0.05,100,1)/(0.18,450,2)/(0.20,550,2)"
+    },
+    {
+        "name": "Nitro",
+        "desc": [
+            "Every round, unique Nitro champions grant Chrome to R-080T, based on their star level. Each Chrome grants @HealthPerScrap@ Health and @APPerScrap@ Ability Power. ",
+            "At @FourStarScrapThreshold@ Chrome, it upgrades to T-43X! ",
+            "<row>(@MinUnits@) Summon R-080T!</row>",
+            "<row>(@MinUnits@) Fire a giant laser!</row>",
+            "<rules>Chrome per star: @ScrapPerOneStar@/@ScrapPerTwoStar@/@ScrapPerThreeStar@/@ScrapPerFourStar@</rules>"
+        ],
+        "unit_count": 4,
+        "units": "NidaleeCougar(1)/Kindred(1)/Shyvana(2)/Elise(3)",
+        "trait_active": "3/4",
+        "trait_desc": "(APPerScrap,FourStarScrapThreshold,HealthPerScrap,ScrapPerFourStar,ScrapPerOneStar,ScrapPerThreeStar,ScrapPerTwoStar): (1,200,14,None,None,None,None)/(1,200,14,None,None,None,None)"
+    },
+    {
+        "name": "Sniper",
+        "desc": [
+            "Snipers deal more damage to targets farther away.",
+            "<row>(@MinUnits@) @PercentDamageIncrease@%&nbsp;damage per hex</row>"
+        ],
+        "unit_count": 1,
+        "units": "Varus(3)",
+        "trait_active": "1",
+        "trait_desc": "(BaseDamageAmp,BonusHexRangeIncrease,PercentDamageIncrease): (None,None,1)"
+    },
+    {
+        "name": "Cypher",
+        "desc": [
+            "Gain Intel by losing combat, increased for loss streaks. Gain a small amount for killing&nbsp;enemies. ",
+            "You may trade your Intel for loot one time on round",
+            "@CashoutStage1@-@CashoutRound1@, @CashoutStage2@-@CashoutRound2@, @CashoutStage3@-@CashoutRound3@, @CashoutStage4@-@CashoutRound4@, or @CashoutStage5@-@CashoutRound5@.",
+            "After trading Intel, Cypher champions gain Attack Damage and Ability Power.",
+            "<expandRow>(@MinUnits@) @ValueMultiplier@x Intel, @AttackDamage*100@% %i:scaleAD%%i:scaleAP%</expandRow>"
+        ],
+        "unit_count": 5,
+        "units": "Vi(1)/LeBlanc(2)/Galio(3)/Draven(3)/Zed(4)",
+        "trait_active": "3/4/5/6",
+        "trait_desc": "(AbilityPower,AttackDamage,CashoutRound1,CashoutRound2,CashoutRound3,CashoutRound4,CashoutRound5,CashoutStage1,CashoutStage2,CashoutStage3,CashoutStage4,CashoutStage5,ValueMultiplier): (30,0.30,None,None,None,None,None,None,None,None,None,None,1)/(50,0.50,None,None,None,None,None,None,None,None,None,None,1.50)/(70,0.70,None,None,None,None,None,None,None,None,None,None,2)/(90,0.90,None,None,None,None,None,None,None,None,None,None,2.50)"
+    }
+]

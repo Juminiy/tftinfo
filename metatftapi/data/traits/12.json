@@ -1,0 +1,392 @@
+[
+    {
+        "name": "Witchcraft",
+        "desc": [
+            "Witch Abilities apply a curse to enemies for @CurseDuration@ seconds. When a cursed enemy dies, the curse spreads to the nearest enemy.",
+            "Cursed enemies become:",
+            "<row>(@MinUnits@) smaller, losing @MaxHealthReduce@ %i:scaleHealth%</row>",
+            "<row>(@MinUnits@) AND green, taking @CurseHealPct@% of their max Health as magic damage per second</row>",
+            "<row>(@MinUnits@) AND frail, taking @TrueDamagePct@% bonus true damage from Witches</row>",
+            "<row>(@MinUnits@) AND a frog, stunned for @FrogPolymorphDuration@ seconds every @FrogPolymorphCooldown@ seconds. All other curse effects are increased by @ChaseIncreasePercent@%.</row>"
+        ],
+        "unit_count": 6,
+        "units": "Zoe(1)/Poppy(1)/Cassiopeia(2)/Neeko(3)/Fiora(4)/Morgana(5)",
+        "trait_active": "2/4/6/8",
+        "trait_desc": "(ChaseIncreasePercent,CurseDuration,CurseHealPct,FrogPolymorphCooldown,FrogPolymorphDuration,MaxHealthReduce,TrueDamagePct): (None,4,None,None,None,120,None)/(None,4,6,None,None,120,None)/(None,4,6,None,None,120,25)/(50,4,6,8,2,120,25)"
+    },
+    {
+        "name": "Arcana",
+        "desc": [
+            "Use the Arcana signifier item to choose a High Arcana champion. Each Arcana grants power based on a different condition.",
+            " <scaleLevel>Ahri</scaleLevel>: Your team gains %i:scaleAP% Ability Power, plus more for each unique 3-star champion.",
+            "Total Ability Power: @TFTUnitProperty.trait:TFT12_Arcana_Ahri_TotalAP@ %i:scaleAP%",
+            "<expandRow>(@MinUnits@) @AhriAbilityPowerBase@ %i:scaleAP% + @AhriAbilityPowerPer3Star@ per 3-star</expandRow>",
+            "<rules>Use the Arcana Signifier item on a different Arcana ally to change this effect</rules>",
+            " <scaleLevel>Hecarim</scaleLevel>: Champions holding an item gain %i:scaleDR% @HecarimDRAmount*100@% Durability and %i:scaleAD% Attack Damage.",
+            "<expandRow>(@MinUnits@) @HecarimPercAD*100@% %i:scaleAD%</expandRow>",
+            " ",
+            "<rules>Use the Arcana Signifier item on a different Arcana ally to change this effect</rules>",
+            " <scaleLevel>Tahm Kench</scaleLevel>: Your team gains bonus Health %i:scaleHealth% for each active trait (except uniques).",
+            "<expandRow>(@MinUnits@) @TahmKenchHPPerTrait@ %i:scaleHealth% per trait</expandRow>",
+            "Bonus Health: @TFTUnitProperty.trait:TFT12_Trait_Arcana_TraitTracker_CurrentBonus@ %i:scaleHealth%",
+            "<rules>Use the Arcana Signifier item on a different Arcana ally to change this effect</rules>",
+            " <scaleLevel>Xerath</scaleLevel>: Abilities deal bonus true damage for every @XerathNumCharms@ Charms you've purchased this game (@XerathNumCharmsHR@ in Hyper Roll).",
+            "<expandRow>(@MinUnits@) @XerathScalingDamage*100@% true damage</expandRow>",
+            "Bonus True Damage: @TFTUnitProperty.trait:TFT12_Arcana_Xerath_BonusDamage@%",
+            "Charms Bought: @TFTUnitProperty.trait:TFT12_Arcana_Xerath_ZapsPurchased@",
+            "<rules>Use the Arcana Signifier item on a different Arcana ally to change this effect.</rules>",
+            " <scaleLevel>Arcana Emblem</scaleLevel>: Your team gains %i:scaleDA% Damage Amp plus more for each emblem equipped on your units. Tactician's Items count twice.",
+            "Total bonus %i:scaleDA%: @TFTUnitProperty.trait:TFT12_Trait_Arcana_EmblemCount_CurrentBonus@%",
+            "<expandRow>(@MinUnits@) @EmblemBonusDamageBase*100@% %i:scaleDA% + @EmblemBonusDamagePerSpat*100@% per emblem</expandRow>",
+            "<rules>Use the Arcana Signifier item on a different Arcana ally to change this effect</rules>"
+        ],
+        "unit_count": 4,
+        "units": "Ahri(2)/Hecarim(3)/TahmKench(4)/Xerath(5)",
+        "trait_active": "2/3/4/5",
+        "trait_desc": "(AhriAbilityPowerBase,AhriAbilityPowerPer3Star,EmblemBonusDamageBase,EmblemBonusDamagePerSpat,HecarimDRAmount,HecarimPercAD,TahmKenchHPPerTrait,XerathNumCharms,XerathNumCharmsHR,XerathPVEDamage,XerathScalingDamage): (10,5,0.08,0.02,0.08,0.10,20,3,2,0.18,0.02)/(15,8,0.12,0.03,0.08,0.25,40,3,2,0.30,0.03)/(20,12,0.18,0.04,0.08,0.45,60,3,2,0.42,0.05)/(25,18,0.25,0.06,0.08,0.70,105,3,2,0.60,0.07)"
+    },
+    {
+        "name": "Frost",
+        "desc": [
+            "Frost champions gain %i:scaleAP% Ability Power and %i:scaleAD% Attack Damage. The first few enemies to die become allied ice soldiers which lure enemy attacks if they are within range and retargeting.",
+            "<row>(@MinUnits@) @BonusStats@ %i:scaleAP%%i:scaleAD%, @NumStatues@ soldier</row>",
+            "<row>(@MinUnits@) @BonusStats@ %i:scaleAP%%i:scaleAD%, @NumStatues@ soldiers</row>",
+            "<row>(@MinUnits@) @BonusStats@ %i:scaleAP%%i:scaleAD%, @NumStatues@ soldiers, soldiers explode on death</row>",
+            "<row>(@MinUnits@) @BonusStats@ %i:scaleAP%%i:scaleAD%, @NumStatues@ soldiers, explosion power doubles</row>",
+            "<rules>Soldiers have @HealthPerStage@ Health per stage.</rules>"
+        ],
+        "unit_count": 7,
+        "units": "Twitch(1)/Warwick(1)/Zilean(2)/Hwei(3)/Swain(3)/Olaf(4)/Diana(5)",
+        "trait_active": "3/5/7/9",
+        "trait_desc": "(BonusStats,HealthPerStage,NumStatues): (16,200,1)/(40,200,2)/(55,200,3)/(90,200,4)"
+    },
+    {
+        "name": "Hunter",
+        "desc": [
+            "Hunters gain %i:scaleAD% Attack Damage, increased the first time they get a takedown each combat.",
+            "<row>(@MinUnits@) @BaseAD@% %i:scaleAD%, @BonusADAfterTakedown@% after takedown</row>",
+            "<row>(@MinUnits@) @BaseAD@% %i:scaleAD%, @BonusADAfterTakedown@% after takedown</row>",
+            "<row>(@MinUnits@) @BaseAD@% %i:scaleAD%, @BonusADAfterTakedown@% after takedown. Also gain @BaseAS*100@% %i:scaleAS%.</row>"
+        ],
+        "unit_count": 5,
+        "units": "Twitch(1)/Nomsy(1)/KogMaw(2)/Jinx(3)/Olaf(4)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(BaseAD,BaseAS,BonusADAfterTakedown): (15,None,35)/(40,None,70)/(65,0.20,100)"
+    },
+    {
+        "name": "Best Friends",
+        "desc": [
+            "Norra summons Yuumi to help your team! She can be attached to allies by holding her over them. Yuumi shares her Ability Power with Norra and dies when Norra does."
+        ],
+        "unit_count": 1,
+        "units": "Norra(5)",
+        "trait_active": "1",
+        "trait_desc": "(): ()"
+    },
+    {
+        "name": "Druid",
+        "desc": [
+            "Wukong does not have a trait bonus, but instead has a powerful Ability and increased stats. "
+        ],
+        "unit_count": 1,
+        "units": "Wukong(3)",
+        "trait_active": "1",
+        "trait_desc": "(): ()"
+    },
+    {
+        "name": "Scholar",
+        "desc": [
+            "Scholars gain bonus %i:scaleMana% Mana on attack and %i:scaleAP% Ability Power.",
+            "<row>(@MinUnits@) @ManaPerAttack@ %i:scaleMana% per attack, @AP@ %i:scaleAP%</row>",
+            "<row>(@MinUnits@) @ManaPerAttack@ %i:scaleMana% per attack, @AP@ %i:scaleAP%</row>",
+            "<row>(@MinUnits@) @ManaPerAttack@ %i:scaleMana% per attack, @AP@ %i:scaleAP%, and Abilities heal an ally for @AllyHealing*100@% of damage dealt</row>"
+        ],
+        "unit_count": 5,
+        "units": "Zoe(1)/Ahri(2)/Bard(3)/Ryze(4)/Milio(5)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(AP,AllyHealing,ManaPerAttack): (10,3)/(20,5)/(20,0.10,10)"
+    },
+    {
+        "name": "Multistriker",
+        "desc": [
+            "Multistrikers' attacks have a chance to trigger @NumBonusAttacks@ extra attacks.",
+            "<row>(@MinUnits@) @ProcChance@% chance</row>",
+            "<row>(@MinUnits@) @ProcChance@% chance</row>",
+            "<row>(@MinUnits@) @ProcChance@% chance; heal @OnHitHealPerc*100@% max Health every attack</row>",
+            "<row>(@MinUnits@) @ProcChance@% chance; heal @OnHitHealPerc*100@% max Health every attack</row>"
+        ],
+        "unit_count": 7,
+        "units": "Jax(1)/Ashe(1)/Kassadin(2)/Akali(2)/Hecarim(3)/Kalista(4)/Camille(5)",
+        "trait_active": "3/5/7/9",
+        "trait_desc": "(NumBonusAttacks,OnHitHealPerc,ProcChance): (2,None,25)/(2,None,65)/(2,0.03,80)/(2,0.10,100)"
+    },
+    {
+        "name": "Bat Queen",
+        "desc": [
+            "When Morgana's bats kill an enemy, they have a @PercentChanceToAbduct@% chance to abduct a 1-star copy of it.<ShowIfCustom.Set=TFTSetEventCT>",
+            "In Choncc's Treasure, the chance to abduct increases at stage 3-1 and 4-1.</ShowIfCustom.Set=TFTSetEventCT>"
+        ],
+        "unit_count": 1,
+        "units": "Morgana(5)",
+        "trait_active": "1",
+        "trait_desc": "(PercentChanceToAbduct,PercentChanceToAbductCTR2,PercentChanceToAbductCTR3): (40,1,20)"
+    },
+    {
+        "name": "Warrior",
+        "desc": [
+            "Warriors gain %i:scaleSV% Omnivamp and %i:scaleDA% Damage Amp. When Warriors drop below @HealthThreshold*100@% health, they gain double %i:scaleDA%.",
+            "<row>(@MinUnits@) @Omnivamp*100@% %i:scaleSV%, @BonusDamage*100@% %i:scaleDA%</row>",
+            "<row>(@MinUnits@) @Omnivamp*100@% %i:scaleSV%, @BonusDamage*100@% %i:scaleDA%</row>",
+            "<row>(@MinUnits@) @Omnivamp*100@% %i:scaleSV%, @BonusDamage*100@% %i:scaleDA%, also gain @DamageReduction*100@% %i:scaleDR% Durability</row>"
+        ],
+        "unit_count": 5,
+        "units": "Nilah(2)/Akali(2)/Katarina(3)/Fiora(4)/Gwen(4)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(BonusDamage,DamageReduction,HealthThreshold,Omnivamp): (0.10,0.70,0.10)/(0.20,0.70,0.20)/(0.25,0.15,0.70,0.25)"
+    },
+    {
+        "name": "Chrono",
+        "desc": [
+            "Chronos gain @BaseAP@ %i:scaleAP% Ability Power. ",
+            "Combat start: begin a @Timer@ second countdown, which speeds up by @SecondsPerCast@ second after each Chrono Ability cast. At the end of the countdown, gain a special effect:",
+            "<row>(@MinUnits@) Your team heals @MaxHealthHeal*100@% %i:scaleHealth%; Chronos gain @BonusAP@ %i:scaleAP%</row>",
+            "<row>(@MinUnits@) AND freeze time for @FreezeDuration@ seconds, Chronos keep fighting and gain @BonusAP@ %i:scaleAP% </row>",
+            "<row>(@MinUnits@) Freeze time for @FreezeDuration@ seconds, your team heals @TimeHeal*100@% %i:scaleHealth%; Chronos keep fighting and gain @BonusAP@ %i:scaleAP% and @BonusAS@% %i:scaleAS%</row>"
+        ],
+        "unit_count": 5,
+        "units": "Jax(1)/Zilean(2)/Vex(3)/Karma(4)/Camille(5)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(BaseAP,BonusAP,BonusAS,FreezeDuration,MaxHealthHeal,SecondsPerCast,TimeHeal,Timer): (15,20,None,None,0.15,1,None,10)/(15,55,None,3,0.15,1,None,10)/(15,70,35,4,0.15,1,1,10)"
+    },
+    {
+        "name": "Incantor",
+        "desc": [
+            "Your team gains @TeamwideAP@ %i:scaleAP% Ability Power. ",
+            "When Incantors attack or cast, all Incantors gain stacks of %i:scaleAP% up to @MaxStacks@. Every other attack grants @StacksPerAttack@ stack, and each Ability cast grants @StacksPerCast@ stacks.",
+            "<row>(@MinUnits@) @BonusAPPerStack@ %i:scaleAP% per stack</row>",
+            "<row>(@MinUnits@) @BonusAPPerStack@ %i:scaleAP% per stack; your team gains @TeamwideAP@ %i:scaleAP% </row>"
+        ],
+        "unit_count": 4,
+        "units": "Ziggs(1)/Cassiopeia(2)/Syndra(2)/Karma(4)",
+        "trait_active": "2/4",
+        "trait_desc": "(BonusAPPerStack,MaxStacks,StacksPerAttack,StacksPerCast,TeamwideAP): (1,40,1,5,10)/(2,40,1,5,30)"
+    },
+    {
+        "name": "Ascendant",
+        "desc": [
+            "(1) Ascendant Charms can appear in your shop. The odds increase by @PercentageChancePerPlayerCombat@% after player combat, up to @MaxPercentageChance@%. When you buy one, the odds reset.",
+            "Current Odds: @TFTUnitProperty.trait:TFT12_AscendantOdds@%"
+        ],
+        "unit_count": 1,
+        "units": "Xerath(5)",
+        "trait_active": "1",
+        "trait_desc": "(MaxPercentageChance,PercentageChancePerPlayerCombat): (50,12)"
+    },
+    {
+        "name": "Faerie",
+        "desc": [
+            "Faeries gain %i:scaleHealth% Health and create special items that become stronger with trait tiers. ",
+            "<row>(@MinUnits@) @BonusHealth@ %i:scaleHealth%, Gain Queen's Crown that grants @DamageAmp*100@% %i:scaleDA% Damage Amp</row>",
+            "<row>(@MinUnits@) @BonusHealth@ %i:scaleHealth%, Crown @DamageAmp*100@% %i:scaleDA%, Gain Queenguard's Armor</row>",
+            "<row>(@MinUnits@) @BonusHealth@ %i:scaleHealth%, Crown @DamageAmp*100@% %i:scaleDA%, Gain a 2nd Crown</row>",
+            "<row>(@MinUnits@) @BonusHealth@ %i:scaleHealth%, Crown @DamageAmp*100@% %i:scaleDA%, Items become Radiant</row>",
+            "<rules>Only Faeries can hold Faerie items.</rules>"
+        ],
+        "unit_count": 7,
+        "units": "Lillia(1)/Seraphine(1)/Tristana(2)/Katarina(3)/Rakan(4)/Kalista(4)/Milio(5)",
+        "trait_active": "3/5/7/9",
+        "trait_desc": "(BonusHealth,DamageAmp): (150,0.30)/(400,0.45)/(700,0.60)/(999,0.66)"
+    },
+    {
+        "name": "Relic",
+        "desc": [
+            "After combat, Milio has a 40/60/100% chance to convert a temporary relic component into a real component."
+        ],
+        "unit_count": 0,
+        "units": "",
+        "trait_active": "1",
+        "trait_desc": "(): ()"
+    },
+    {
+        "name": "Preserver",
+        "desc": [
+            "Your team heals for a percent of their max %i:scaleHealth% Health every @Duration@ seconds. If they're full Health, restore %i:scaleMana% Mana instead.",
+            "Preservers gain double the amount.",
+            "<expandRow>(@MinUnits@) @HealthPct*100@% %i:scaleHealth% or @ManaPct*100@% %i:scaleMana%</expandRow>"
+        ],
+        "unit_count": 4,
+        "units": "Zilean(2)/Bard(3)/Rakan(4)/Morgana(5)",
+        "trait_active": "2/3/4/5",
+        "trait_desc": "(Duration,HealthPct,ManaPct): (3,0.02,0.03)/(3,0.04,0.05)/(3,0.06,0.07)/(3,0.08,0.10)"
+    },
+    {
+        "name": "Vanguard",
+        "desc": [
+            "Vanguards gain @DamageReductionPct*100@% %i:scaleDR% Durability while Shielded. ",
+            "Combat start and at @HealthThreshold*100@%&nbsp;Health: Gain a Shield for a percent of max Health for @ShieldDuration@&nbsp;seconds.",
+            "<row>(@MinUnits@) @ShieldPercentAmount*100@% max Health</row>",
+            "<row>(@MinUnits@) @ShieldPercentAmount*100@% max Health</row>",
+            "<row>(@MinUnits@) @ShieldPercentAmount*100@% max Health; 15% %i:scaleDR% while Shielded</row>"
+        ],
+        "unit_count": 6,
+        "units": "Warwick(1)/Blitzcrank(1)/Galio(2)/Rumble(2)/Mordekaiser(3)/TahmKench(4)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(DamageReductionPct,HealthThreshold,ShieldDuration,ShieldPercentAmount): (0.10,0.50,10,0.18)/(0.10,0.50,10,0.35)/(0.15,0.50,10,0.50)"
+    },
+    {
+        "name": "Eldritch",
+        "desc": [
+            "When your team loses @HealthRatio*100@% of their Health, an Old God awakens. It gains @PercentHealthPerStarLevel*100@% Health and @APPerStarLevel*100@% Ability&nbsp;Power for each Eldritch star level.",
+            "<row>(@MinUnits@) The Tainted Golem</row>",
+            "<row>(@MinUnits@) The Dark Monolith</row>",
+            "<row>(@MinUnits@) The Many-Eyed Beast</row>",
+            "<row>(@MinUnits@) The Stormbringer</row>"
+        ],
+        "unit_count": 7,
+        "units": "Elise(1)/Ashe(1)/Nilah(2)/Syndra(2)/Mordekaiser(3)/Nami(4)/Briar(5)",
+        "trait_active": "3/5/7/10",
+        "trait_desc": "(APPerStarLevel,HealthRatio,PercentHealthPerStarLevel): (0.10,0.20,0.25)/(0.10,0.20,0.25)/(0.10,0.20,0.25)/(0.10,0.20,0.25)"
+    },
+    {
+        "name": "Shapeshifter",
+        "desc": [
+            "Shapeshifters gain %i:scaleHealth% max Health. After their first Ability cast, they triple this effect. ",
+            "<row>(@MinUnits@) @BonusHealthRatio*100@% %i:scaleHealth%</row>",
+            "<row>(@MinUnits@) @BonusHealthRatio*100@% %i:scaleHealth%</row>",
+            "<row>(@MinUnits@) @BonusHealthRatio*100@% %i:scaleHealth%</row>",
+            "<row>(@MinUnits@) @BonusHealthRatio*100@% %i:scaleHealth%, and heal @MaxHeal*100@% %i:scaleHealth% every @HealDuration@ seconds</row>",
+            "<row>(@MinUnits@) @BonusHealthRatio*100@% %i:scaleHealth%, and heal @MaxHeal*100@% %i:scaleHealth% every @HealDuration@ seconds</row>"
+        ],
+        "unit_count": 7,
+        "units": "Elise(1)/Jayce(1)/Shyvana(2)/Neeko(3)/Swain(3)/Nasus(4)/Briar(5)",
+        "trait_active": "2/4/6/8/10",
+        "trait_desc": "(BonusHealthRatio,HealDuration,MaxHeal): (0.10)/(0.18)/(0.27)/(0.33,2,0.03)/(0.66,2,0.05)"
+    },
+    {
+        "name": "Blaster",
+        "desc": [
+            "Blasters gain %i:scaleDA% Damage Amp, which increases for @Duration@ seconds after casting their Ability.",
+            "<expandRow>(@MinUnits@) @BaseDamageAmp*100@% %i:scaleDA%; @DamageAmpAfterCasting*100@% during burst</expandRow>"
+        ],
+        "unit_count": 6,
+        "units": "Tristana(2)/Rumble(2)/Hwei(3)/Ezreal(3)/Varus(4)/Smolder(5)",
+        "trait_active": "2/4/6",
+        "trait_desc": "(BaseDamageAmp,DamageAmpAfterCasting,Duration): (0.15,0.30,3)/(0.35,0.65,3)/(0.60,1,3)"
+    },
+    {
+        "name": "Bastion",
+        "desc": [
+            "Your team gains %i:scaleArmor%%i:scaleMR% @TeamwideResists@ Armor and Magic Resist.",
+            "Bastions gain more, and the value doubles in the first @Duration@ seconds of combat.",
+            "<row>(@MinUnits@) @BonusArmor@ %i:scaleArmor%%i:scaleMR%</row>",
+            "<row>(@MinUnits@) @BonusArmor@ %i:scaleArmor%%i:scaleMR%</row>",
+            "<row>(@MinUnits@) @BonusArmor@ %i:scaleArmor%%i:scaleMR%</row>",
+            "<row>(@MinUnits@) @BonusArmor@ %i:scaleArmor%%i:scaleMR% and @NumUnits@ champions starting combat in the back 2 rows are invulnerable until 4 Bastions die</row> "
+        ],
+        "unit_count": 7,
+        "units": "Lillia(1)/Poppy(1)/Nunu(2)/Hecarim(3)/Shen(3)/Taric(4)/Diana(5)",
+        "trait_active": "2/4/6/8",
+        "trait_desc": "(BonusArmor,BonusMR,BonusPercent,Duration,NumUnits,StatMultiplier,TeamwideResists): (15,15,1,10,2,10)/(45,45,1,10,2,10)/(100,100,1,10,2,10)/(200,200,1,10,2,2,10)"
+    },
+    {
+        "name": "Ravenous",
+        "desc": [
+            "Briar gains %i:scaleDA% @TOOLTIPDamageAmpPerHealth*100@% Damage Amp for each player health you are missing. Each round, gain a Light Snack to give her <scaleHealth>@BriarHealthGain@ %i:scaleHealth%</scaleHealth> in exchange for @TacticianHealthToFeed@ of your player health.<ShowIfCustom.Set=TFTSetEventCT>",
+            "In Choncc's Treasure, Light Snack's effect will be enhanced at stage 3-1 and 4-1.</ShowIfCustom.Set=TFTSetEventCT>"
+        ],
+        "unit_count": 1,
+        "units": "Briar(5)",
+        "trait_active": "1",
+        "trait_desc": "(BriarHealthGain,BriarHealthGainCTR2,BriarHealthGainCTR3,BriarHealthGainDU,BriarHealthGainHR,GoldToFeedPvE,TOOLTIPDamageAmpPerHealth,TOOLTIPDamageAmpPerHealthDU,TOOLTIPDamageAmpPerHealthHR,TOOLTIPDamageAmpPvE,TacticianHealthToFeed,TacticianHealthToFeedCTR2,TacticianHealthToFeedCTR3,TacticianHealthToFeedDU,TacticianHealthToFeedHR): (180,60,120,250,250,3,0.01,0.01,0.04,0.40,3,1,2,2,1)"
+    },
+    {
+        "name": "Dragon",
+        "desc": [
+            "<row>(@MinUnits@) Dragon attacks and Abilities @BurnPercent@% <TFTKeyword>Burn</TFTKeyword> and <TFTKeyword>Wound</TFTKeyword> enemies for @BurnWoundDuration@ seconds.</row>",
+            "<row>(@MinUnits@) The power of friendship upgrades all dragon Abilities!</row>",
+            "<rules>Burn: Deals a percent of the target's max Health as true damage every second</rules>"
+        ],
+        "unit_count": 3,
+        "units": "Nomsy(1)/Shyvana(2)/Smolder(5)",
+        "trait_active": "2/3",
+        "trait_desc": "(BurnPercent,BurnWoundDuration,WoundPercent): (1,5,33)/(2,5,33)"
+    },
+    {
+        "name": "Honeymancy",
+        "desc": [
+            "Honeymancers gain @MiniCount@ Bees that deal magic damage to their target every @Period@ seconds. Each Bee deals damage based on the damage a Honeymancer deals and takes.",
+            "When a Honeymancer dies, they leave @NumTransfers@ Bees that follow nearby Honeymancers for the rest of combat.",
+            "<row>(@MinUnits@) @BonusDamage*100@% of damage dealt, @DamageReceived*100@% of damage taken</row>",
+            "<row>(@MinUnits@) @BonusDamage*100@% of damage dealt, @DamageReceived*100@% of damage taken</row>",
+            "<row>(@MinUnits@) @BonusDamage*100@% of damage dealt, @DamageReceived*100@% of damage taken. Bees deal damage twice as often.</row>"
+        ],
+        "unit_count": 5,
+        "units": "Blitzcrank(1)/Ziggs(1)/KogMaw(2)/Nunu(2)/Veigar(3)",
+        "trait_active": "3/5/7",
+        "trait_desc": "(BonusDamage,DamageReceived,MiniCount,NumTransfers,Period): (0.07,0.03,5,2,3)/(0.13,0.05,5,2,3)/(0.20,0.10,5,2,1.50)"
+    },
+    {
+        "name": "Portal",
+        "desc": [
+            "Combat start: Portal champions Shield for @ShieldDuration@ seconds. ",
+            "Objects from other dimensions fly out of a portal every few seconds to help allies and disrupt enemies. The portal becomes @IncreasePerStarLevel*100@% stronger for each Portal champion's star level.",
+            "<row>(@MinUnits@) @ShieldAmount@ Shield, Small portal</row>",
+            "<row>(@MinUnits@) @ShieldAmount@ Shield, Medium portal</row>",
+            "<row>(@MinUnits@) @ShieldAmount@ Shield, Large portal</row>",
+            "<row>(@MinUnits@) @ShieldAmount@ Shield, GIGA portal</row>"
+        ],
+        "unit_count": 8,
+        "units": "Jayce(1)/Zoe(1)/Kassadin(2)/Galio(2)/Ezreal(3)/Ryze(4)/Taric(4)/Norra(5)",
+        "trait_active": "3/6/8/10",
+        "trait_desc": "(IncreasePerStarLevel,ShieldAmount,ShieldDuration): (0.08,200,15)/(0.08,450,15)/(0.08,700,15)/(0.08,1500,15)"
+    },
+    {
+        "name": "Mage",
+        "desc": [
+            "Mages cast their Abilities twice and have modified total %i:scaleAP% Ability Power.",
+            "<row>(@MinUnits@) @APMultiplier*100@% %i:scaleAP%</row>",
+            "<row>(@MinUnits@) @APMultiplier*100@% %i:scaleAP%</row>",
+            "<row>(@MinUnits@) @APMultiplier*100@% %i:scaleAP%</row>",
+            "<row>(@MinUnits@) @APMultiplier*100@% %i:scaleAP%, Mages cast MUCH more frequently</row>"
+        ],
+        "unit_count": 7,
+        "units": "Soraka(1)/Seraphine(1)/Galio(2)/Vex(3)/Veigar(3)/Nami(4)/Norra(5)",
+        "trait_active": "3/5/7/10",
+        "trait_desc": "(APMultiplier,MaxMana): (0.85)/(0.95)/(1.10)/(2,20)"
+    },
+    {
+        "name": "Sugarcraft",
+        "desc": [
+            "Sugarcrafters build a layer cake from sugar. Gain sugar for each component your champions are holding after player combat.",
+            "They gain %i:scaleAD% Attack Damage and %i:scaleAP% Ability Power, increased by @BonusRatio*100@% for each cake layer. When the cake has reached @MaxLayers@ layers, gain treats instead!",
+            "<row>(@MinUnits@) @SugarMultiplier@ sugar, @BaseAPAD@ %i:scaleAD%%i:scaleAP%</row>",
+            "<row>(@MinUnits@) @SugarMultiplier@ sugar, @BaseAPAD@ %i:scaleAD%%i:scaleAP%</row>",
+            "<row>(@MinUnits@) @SugarMultiplier@ sugar, @BaseAPAD@ %i:scaleAD%%i:scaleAP%, team gains @BonusHealth@ %i:scaleHealth%</row>",
+            "<row>(@MinUnits@) @SugarMultiplier@ sugar, @BaseAPAD@ %i:scaleAD%%i:scaleAP%, team gains @BonusHealth@ %i:scaleHealth%</row>",
+            "Total: <TFTBonus>@TFTUnitProperty.trait:TFT12_Pastry_BonusStats@</TFTBonus> %i:scaleAD%%i:scaleAP%",
+            "Layers: <TFTBonus>@TFTUnitProperty.trait:TFT12_Pastry_NumLayers@</TFTBonus> / @MaxLayers@",
+            "Sugar per round: <TFTBonus>@TFTUnitProperty.trait:TFT12_Pastry_SugarToAdd@</TFTBonus> = @TFTUnitProperty.trait:TFT12_Pastry_TotalComponents@ components x @TFTUnitProperty.trait:TFT12_Pastry_TraitSugarMult@ from trait"
+        ],
+        "unit_count": 5,
+        "units": "Soraka(1)/Rumble(2)/Jinx(3)/Bard(3)/Gwen(4)",
+        "trait_active": "2/4/6/8",
+        "trait_desc": "(BaseAPAD,BonusHealth,BonusRatio,MaxLayers,SugarMultiplier,SugarMultiplierHR,SugarMultiplierPVE): (22,0.10,7,3,6,1)/(33,0.10,7,4,8,3)/(36,100,0.10,7,6,12,5)/(50,500,0.10,7,10,20,7)"
+    },
+    {
+        "name": "Pyro",
+        "desc": [
+            "Your team gains @BaseASPct@% %i:scaleAS% Attack Speed. Pyro champions gain more %i:scaleAS% and execute enemies under @ExecutePct@% Health.",
+            "For each kill, Pyro champions create an infernal cinder that you collect the next round. For every @NumCinders@ cinders you collect, your team gains @ASPctPerNumCinders@% more %i:scaleAS%.",
+            "<row>(@MinUnits@) @PyroUnitAS@% %i:scaleAS%</row>",
+            "<row>(@MinUnits@) @PyroUnitAS@% %i:scaleAS%</row>",
+            "<row>(@MinUnits@) @PyroUnitAS@% %i:scaleAS%</row>",
+            "<row>(@MinUnits@) @PyroUnitAS@% %i:scaleAS% and execute under @ExecutePct@% Health</row>",
+            "Cinders collected: @TFTUnitProperty.trait:TFT12_PyroCindersCollected@",
+            "Team %i:scaleAS%: @TFTUnitProperty.trait:TFT12_PyroAttackSpeed@%"
+        ],
+        "unit_count": 4,
+        "units": "Akali(2)/Shen(3)/Varus(4)/Nasus(4)",
+        "trait_active": "2/3/4/5",
+        "trait_desc": "(ASPctPerNumCinders,BaseASPct,ExecutePct,NumCinders,NumCindersHR,PyroUnitAS): (2,3,10,5,3,5)/(2,3,10,5,3,25)/(2,3,10,5,3,50)/(2,3,15,5,3,65)"
+    }
+]

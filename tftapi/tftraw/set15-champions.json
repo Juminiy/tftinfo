@@ -2,6 +2,54 @@
     "season": "set15",
     "champions": [
         {
+            "key": "PBEAatrox",
+            "ingameKey": "TEMP_Aatrox",
+            "name": "Aatrox",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/15.15.1/img/champion/Aatrox.png",
+            "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.15.1/img/champion/Aatrox.png",
+            "traits": [
+                "MightyMech",
+                "Juggernaut",
+                "Heavyweight"
+            ],
+            "isHidden": true,
+            "cost": [
+                1,
+                3,
+                9
+            ],
+            "health": [
+                650,
+                1170,
+                2106
+            ],
+            "attackDamage": [
+                50,
+                75,
+                113
+            ],
+            "damagePerSecond": [
+                33,
+                49,
+                73
+            ],
+            "attackRange": 1,
+            "attackSpeed": 0.65,
+            "armor": 40,
+            "magicalResistance": 40,
+            "skill": {
+                "name": "PBEAatrox",
+                "imageUrl": "",
+                "desc": "TBA",
+                "startingMana": 20,
+                "skillMana": 80,
+                "stats": [
+                    "TBA: TBA"
+                ]
+            },
+            "role": ""
+        },
+        {
             "key": "Aatrox",
             "ingameKey": "TFT15_Aatrox",
             "name": "Aatrox",
@@ -48,9 +96,9 @@
                 ]
             },
             "recommendItems": [
-                "TFT_Item_RedBuff",
                 "TFT_Item_GargoyleStoneplate",
                 "TFT_Item_WarmogsArmor",
+                "TFT_Item_RedBuff",
                 "TFT_Item_Redemption",
                 "TFT_Item_DragonsClaw"
             ],
@@ -97,7 +145,7 @@
                 "startingMana": 10,
                 "skillMana": 50,
                 "stats": [
-                    "Damage: 465 / 700 / 1125",
+                    "Damage: 430 / 650 / 1100",
                     "Secondary Damage: 40 / 60 / 95"
                 ]
             },
@@ -106,7 +154,7 @@
                 "TFT_Item_SpearOfShojin",
                 "TFT_Item_StatikkShiv",
                 "TFT_Item_BlueBuff",
-                "TFT_Item_AdaptiveHelm"
+                "TFT_Item_RabadonsDeathcap"
             ],
             "role": "APCaster"
         },
@@ -214,7 +262,7 @@
                 "TFT_Item_RunaansHurricane",
                 "TFT_Item_InfinityEdge",
                 "TFT_Item_HextechGunblade",
-                "TFT_Item_LastWhisper"
+                "TFT_Item_MadredsBloodrazor"
             ],
             "role": "ADCarry"
         },
@@ -268,9 +316,9 @@
             },
             "recommendItems": [
                 "TFT_Item_WarmogsArmor",
-                "TFT_Item_RedBuff",
-                "TFT_Item_GargoyleStoneplate",
                 "TFT_Item_Bloodthirster",
+                "TFT_Item_GargoyleStoneplate",
+                "TFT_Item_RedBuff",
                 "TFT_Item_TitansResolve"
             ],
             "role": "ADFighter"
@@ -325,8 +373,8 @@
                 "TFT_Item_InfinityEdge",
                 "TFT_Item_SpearOfShojin",
                 "TFT_Item_GuinsoosRageblade",
-                "TFT_Item_LastWhisper",
-                "TFT_Item_MadredsBloodrazor"
+                "TFT_Item_MadredsBloodrazor",
+                "TFT_Item_LastWhisper"
             ],
             "role": "ADCaster"
         },
@@ -378,8 +426,8 @@
             "recommendItems": [
                 "TFT_Item_Bloodthirster",
                 "TFT_Item_UnstableConcoction",
-                "TFT_Item_InfinityEdge",
                 "TFT_Item_TitansResolve",
+                "TFT_Item_InfinityEdge",
                 "TFT_Item_SteraksGage"
             ],
             "role": "ADFighter"
@@ -433,8 +481,8 @@
                 "TFT_Item_WarmogsArmor",
                 "TFT_Item_GargoyleStoneplate",
                 "TFT_Item_RedBuff",
-                "TFT_Item_GuinsoosRageblade",
-                "TFT_Item_Redemption"
+                "TFT_Item_Redemption",
+                "TFT_Item_GuinsoosRageblade"
             ],
             "role": "ADTank"
         },
@@ -483,8 +531,8 @@
                 "TFT_Item_UnstableConcoction",
                 "TFT_Item_JeweledGauntlet",
                 "TFT_Item_Bloodthirster",
-                "TFT_Item_TitansResolve",
-                "TFT_Item_GuardianAngel"
+                "TFT_Item_GuardianAngel",
+                "TFT_Item_TitansResolve"
             ],
             "role": "APFighter"
         },
@@ -719,15 +767,15 @@
                 "startingMana": 0,
                 "skillMana": 40,
                 "stats": [
-                    "Damage: 350 / 525 / 875",
+                    "Damage: 320 / 480 / 875",
                     "Gold Chance: 40% (AP)"
                 ]
             },
             "recommendItems": [
                 "TFT_Item_Bloodthirster",
+                "TFT_Item_GuardianAngel",
                 "TFT_Item_InfinityEdge",
                 "TFT_Item_UnstableConcoction",
-                "TFT_Item_GuardianAngel",
                 "TFT_Item_TitansResolve"
             ],
             "role": "ADFighter"
@@ -782,7 +830,7 @@
                 "TFT_Item_GargoyleStoneplate",
                 "TFT_Item_WarmogsArmor",
                 "TFT_Item_RedBuff",
-                "TFT_Item_Bloodthirster",
+                "TFT_Item_DragonsClaw",
                 "TFT_Item_Redemption"
             ],
             "role": "ADTank"
@@ -867,12 +915,12 @@
                 45
             ],
             "damagePerSecond": [
-                18,
-                27,
-                41
+                17,
+                26,
+                38
             ],
             "attackRange": 2,
-            "attackSpeed": 0.9,
+            "attackSpeed": 0.85,
             "armor": 60,
             "magicalResistance": 60,
             "skill": {
@@ -892,8 +940,8 @@
                 "TFT_Item_JeweledGauntlet",
                 "TFT_Item_UnstableConcoction",
                 "TFT_Item_StatikkShiv",
-                "TFT_Item_GuardianAngel",
-                "TFT_Item_RabadonsDeathcap"
+                "TFT_Item_Morellonomicon",
+                "TFT_Item_GuardianAngel"
             ],
             "role": "APFighter"
         },
@@ -1001,8 +1049,8 @@
             "recommendItems": [
                 "TFT_Item_GargoyleStoneplate",
                 "TFT_Item_WarmogsArmor",
-                "TFT_Item_RedBuff",
                 "TFT_Item_FrozenHeart",
+                "TFT_Item_RedBuff",
                 "TFT_Item_Redemption"
             ],
             "role": "APTank"
@@ -1058,7 +1106,7 @@
                 "TFT_Item_TitansResolve",
                 "TFT_Item_SteraksGage",
                 "TFT_Item_UnstableConcoction",
-                "TFT_Item_RedBuff"
+                "TFT_Item_WarmogsArmor"
             ],
             "role": "ADFighter"
         },
@@ -1318,15 +1366,15 @@
                 "startingMana": 0,
                 "skillMana": 70,
                 "stats": [
-                    "Damage: 1050 / 1575 / 6500"
+                    "Damage: 1125 / 1700 / 6500"
                 ]
             },
             "recommendItems": [
                 "TFT_Item_JeweledGauntlet",
                 "TFT_Item_SpearOfShojin",
-                "TFT_Item_BlueBuff",
                 "TFT_Item_StatikkShiv",
-                "TFT_Item_ArchangelsStaff"
+                "TFT_Item_ArchangelsStaff",
+                "TFT_Item_BlueBuff"
             ],
             "role": "APCaster"
         },
@@ -1371,7 +1419,7 @@
                 "startingMana": 0,
                 "skillMana": 30,
                 "stats": [
-                    "Damage: 150 / 225 / 350",
+                    "Damage: 140 / 210 / 325",
                     "Additional Blink Damage: 8 / 12 / 20 per potential"
                 ]
             },
@@ -1431,8 +1479,8 @@
             },
             "recommendItems": [
                 "TFT_Item_GuinsoosRageblade",
-                "TFT_Item_HextechGunblade",
                 "TFT_Item_JeweledGauntlet",
+                "TFT_Item_HextechGunblade",
                 "TFT_Item_PowerGauntlet",
                 "TFT_Item_MadredsBloodrazor"
             ],
@@ -1489,8 +1537,8 @@
                 "TFT_Item_GuinsoosRageblade",
                 "TFT_Item_JeweledGauntlet",
                 "TFT_Item_ArchangelsStaff",
-                "TFT_Item_RedBuff",
-                "TFT_Item_GargoyleStoneplate"
+                "TFT_Item_GargoyleStoneplate",
+                "TFT_Item_WarmogsArmor"
             ],
             "role": "APTank"
         },
@@ -1542,8 +1590,8 @@
                 "TFT_Item_RedBuff",
                 "TFT_Item_WarmogsArmor",
                 "TFT_Item_GargoyleStoneplate",
-                "TFT_Item_SpectralGauntlet",
-                "TFT15_Item_StarGuardianEmblemItem"
+                "TFT15_Item_StarGuardianEmblemItem",
+                "TFT_Item_SpectralGauntlet"
             ],
             "role": "ADTank"
         },
@@ -1587,14 +1635,14 @@
                 "startingMana": 0,
                 "skillMana": 50,
                 "stats": [
-                    "On-Hit Damage: 30% / 45% / 70%",
+                    "On-Hit Damage: 33% / 50% / 80%",
                     "Enhanced Damage: 55% / 85% / 130%"
                 ]
             },
             "recommendItems": [
                 "TFT_Item_GuinsoosRageblade",
-                "TFT_Item_HextechGunblade",
                 "TFT_Item_ArchangelsStaff",
+                "TFT_Item_HextechGunblade",
                 "TFT_Item_JeweledGauntlet",
                 "TFT_Item_SpearOfShojin"
             ],
@@ -1824,8 +1872,8 @@
             "recommendItems": [
                 "TFT_Item_JeweledGauntlet",
                 "TFT_Item_StatikkShiv",
-                "TFT_Item_BlueBuff",
                 "TFT_Item_ArchangelsStaff",
+                "TFT_Item_BlueBuff",
                 "TFT_Item_GuinsoosRageblade"
             ],
             "role": "APCaster"
@@ -1875,8 +1923,8 @@
                 "TFT_Item_GuinsoosRageblade",
                 "TFT_Item_InfinityEdge",
                 "TFT_Item_PowerGauntlet",
-                "TFT_Item_ArchangelsStaff",
-                "TFT_Item_StatikkShiv"
+                "TFT_Item_MadredsBloodrazor",
+                "TFT_Item_ArchangelsStaff"
             ],
             "role": "APCaster"
         },
@@ -1929,7 +1977,7 @@
                 "TFT_Item_JeweledGauntlet",
                 "TFT_Item_StatikkShiv",
                 "TFT_Item_Morellonomicon",
-                "TFT_Item_ArchangelsStaff",
+                "TFT_Item_SpearOfShojin",
                 "TFT_Item_RabadonsDeathcap"
             ],
             "role": "APCaster"
@@ -2028,7 +2076,7 @@
                 "startingMana": 0,
                 "skillMana": 35,
                 "stats": [
-                    "Damage: 520 / 780 / 1300"
+                    "Damage: 545 / 820 / 1390"
                 ]
             },
             "recommendItems": [
@@ -2036,7 +2084,7 @@
                 "TFT_Item_Morellonomicon",
                 "TFT_Item_JeweledGauntlet",
                 "TFT_Item_HextechGunblade",
-                "TFT_Item_SpearOfShojin"
+                "TFT_Item_AdaptiveHelm"
             ],
             "role": "APCaster"
         },
@@ -2090,7 +2138,7 @@
                 "TFT_Item_TitansResolve",
                 "TFT_Item_SteraksGage",
                 "TFT_Item_UnstableConcoction",
-                "TFT_Item_RedBuff"
+                "TFT_Item_GuardianAngel"
             ],
             "role": "ADFighter"
         },
@@ -2143,8 +2191,8 @@
                 "TFT_Item_GargoyleStoneplate",
                 "TFT_Item_WarmogsArmor",
                 "TFT_Item_RedBuff",
-                "TFT_Item_IonicSpark",
-                "TFT_Item_DragonsClaw"
+                "TFT_Item_DragonsClaw",
+                "TFT_Item_IonicSpark"
             ],
             "role": "APTank"
         },
@@ -2198,8 +2246,8 @@
                 "TFT_Item_GargoyleStoneplate",
                 "TFT_Item_WarmogsArmor",
                 "TFT_Item_RedBuff",
-                "TFT_Item_NightHarvester",
-                "TFT_Item_DragonsClaw"
+                "TFT_Item_DragonsClaw",
+                "TFT_Item_Redemption"
             ],
             "role": "ADTank"
         },
@@ -2252,8 +2300,8 @@
             "recommendItems": [
                 "TFT_Item_WarmogsArmor",
                 "TFT_Item_GargoyleStoneplate",
-                "TFT_Item_RedBuff",
                 "TFT_Item_DragonsClaw",
+                "TFT_Item_RedBuff",
                 "TFT_Item_IonicSpark"
             ],
             "role": "APTank"
@@ -2298,7 +2346,7 @@
                 "startingMana": 40,
                 "skillMana": 110,
                 "stats": [
-                    "Shield Amount: 400% / 500% / 600%",
+                    "Shield Amount: 420% / 550% / 625%",
                     "Damage: 60% / 90% / 150% (AR) + 60% / 90% / 150% (MR)",
                     "Health Per Taunted Enemy: 10 / 15 / 20"
                 ]
@@ -2359,10 +2407,10 @@
             },
             "recommendItems": [
                 "TFT_Item_GargoyleStoneplate",
-                "TFT_Item_WarmogsArmor",
                 "TFT_Item_RedBuff",
-                "TFT_Item_Redemption",
-                "TFT_Item_DragonsClaw"
+                "TFT_Item_WarmogsArmor",
+                "TFT_Item_DragonsClaw",
+                "TFT_Item_Redemption"
             ],
             "role": "APTank"
         },
@@ -2576,10 +2624,10 @@
             },
             "recommendItems": [
                 "TFT_Item_SpearOfShojin",
-                "TFT_Item_StatikkShiv",
                 "TFT_Item_JeweledGauntlet",
-                "TFT_Item_Morellonomicon",
-                "TFT_Item_AdaptiveHelm"
+                "TFT_Item_StatikkShiv",
+                "TFT_Item_AdaptiveHelm",
+                "TFT_Item_Morellonomicon"
             ],
             "role": "APCaster"
         },
@@ -2634,8 +2682,8 @@
                 "TFT_Item_GargoyleStoneplate",
                 "TFT_Item_WarmogsArmor",
                 "TFT_Item_RedBuff",
-                "TFT_Item_SpectralGauntlet",
-                "TFT_Item_Redemption"
+                "TFT_Item_Redemption",
+                "TFT_Item_SpectralGauntlet"
             ],
             "role": "ADTank"
         },
@@ -2842,9 +2890,9 @@
                 "startingMana": 20,
                 "skillMana": 80,
                 "stats": [
-                    "Health Gain: 10% Health + 300 / 325 / 350",
+                    "Health Gain: 10% Health + 320 / 360 / 400",
                     "Damage: 25 / 35 / 55",
-                    "Heal: 10% Health + 250 / 275 / 300",
+                    "Heal: 10% Health + 260 / 290 / 325",
                     "Damage Increase: 6 / 9 / 14"
                 ]
             },
@@ -3122,10 +3170,10 @@
             },
             "recommendItems": [
                 "TFT_Item_Bloodthirster",
-                "TFT_Item_TitansResolve",
                 "TFT_Item_SteraksGage",
+                "TFT_Item_TitansResolve",
                 "TFT_Item_UnstableConcoction",
-                "TFT_Item_RedBuff"
+                "TFT_Item_GargoyleStoneplate"
             ],
             "role": "ADTank"
         },
@@ -3380,8 +3428,8 @@
                 ]
             },
             "recommendItems": [
-                "TFT_Item_RedBuff",
                 "TFT_Item_GargoyleStoneplate",
+                "TFT_Item_RedBuff",
                 "TFT_Item_WarmogsArmor",
                 "TFT_Item_SpectralGauntlet",
                 "TFT_Item_Redemption"
@@ -3478,13 +3526,13 @@
             "skill": {
                 "name": "Dual Blade Technique: Inner Reflection",
                 "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/PBEYone_1752456040-yonepassive.png",
-                "desc": "Passive: Attacks grant 5% stacking Attack Speed and Movement Speed, and alternate between dealing bonus true damage and bonus magic damage.<br><br>Active: Send an echo towards the two furthest enemies, dealing physical damage and briefly Stunning enemies hit.",
+                "desc": "Passive: Attacks grant 4% stacking Attack Speed and Movement Speed, and alternate between dealing bonus true damage and bonus magic damage.<br><br>Active: Send an echo towards the two furthest enemies, dealing physical damage and briefly Stunning enemies hit.",
                 "startingMana": 80,
                 "skillMana": 180,
                 "stats": [
                     "True Damage: 25 / 40 / 400",
                     "Magic Damage: 90 / 135 / 999",
-                    "Strike Damage: 150 / 225 / 9999"
+                    "Strike Damage: 120 / 180 / 9999"
                 ]
             },
             "recommendItems": [
@@ -3543,10 +3591,10 @@
             },
             "recommendItems": [
                 "TFT_Item_JeweledGauntlet",
-                "TFT_Item_HextechGunblade",
                 "TFT_Item_BlueBuff",
-                "TFT_Item_AdaptiveHelm",
-                "TFT_Item_StatikkShiv"
+                "TFT_Item_HextechGunblade",
+                "TFT_Item_StatikkShiv",
+                "TFT_Item_AdaptiveHelm"
             ],
             "role": "APCaster"
         },
@@ -3700,7 +3748,7 @@
                 "skillMana": 100,
                 "stats": [
                     "Plants: 4 / 4 / 20",
-                    "Plant Damage: 70 / 105 / 999",
+                    "Plant Damage: 80 / 120 / 999",
                     "Attack Speed: 15% / 60% / 999%"
                 ]
             },
