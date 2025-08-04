@@ -151,78 +151,93 @@
         },
         {
             "name": "Headliners",
-            "chances": [
-                [
-                    100,
-                    0,
-                    0,
-                    0,
-                    0
+            "chances": {
+                "tables": [
+                    "Level\\Cost 1    2    3    4    5   ",
+                    "Lv.1        100% 0    0    0    0   ",
+                    "Lv.2        100% 0    0    0    0   ",
+                    "Lv.3        100% 0    0    0    0   ",
+                    "Lv.4        80%  20%  0    0    0   ",
+                    "Lv.5        30%  70%  0    0    0   ",
+                    "Lv.6        0    75%  25%  0    0   ",
+                    "Lv.7        0    40%  60%  0    0   ",
+                    "Lv.8        0    0    70%  30%  0   ",
+                    "Lv.9        0    0    0    98%  2%  ",
+                    "Lv.10       0    0    0    30%  70% "
                 ],
-                [
-                    100,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                [
-                    100,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                [
-                    80,
-                    20,
-                    0,
-                    0,
-                    0
-                ],
-                [
-                    30,
-                    70,
-                    0,
-                    0,
-                    0
-                ],
-                [
-                    0,
-                    75,
-                    25,
-                    0,
-                    0
-                ],
-                [
-                    0,
-                    40,
-                    60,
-                    0,
-                    0
-                ],
-                [
-                    0,
-                    0,
-                    70,
-                    30,
-                    0
-                ],
-                [
-                    0,
-                    0,
-                    0,
-                    98,
-                    2
-                ],
-                [
-                    0,
-                    0,
-                    0,
-                    30,
-                    70
+                "nums": [
+                    [
+                        100,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        100,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        100,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        80,
+                        20,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        30,
+                        70,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        75,
+                        25,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        40,
+                        60,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        70,
+                        30,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        98,
+                        2
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        30,
+                        70
+                    ]
                 ]
-            ],
+            },
             "details": [
                 "Players can hold ONLY one headliner.",
                 "One of the headliner's trait counts as 2 of that trait.",
@@ -239,127 +254,162 @@
         },
         {
             "name": "System Changes",
-            "Bag Size Changes": [
-                {
-                    "tier": 1,
-                    "Champion pool size": {
-                        "old": 29,
-                        "new": 22
+            "Bag Size Changes": {
+                "tables": [
+                    " Cost | Size     ",
+                    " 1    | 29 -> 22 ",
+                    " 2    | 22 -> 20 ",
+                    " 3    | 18 -> 17 ",
+                    " 4    | 12 -> 10 ",
+                    " 5    | 10 -> 9  "
+                ],
+                "nums": [
+                    {
+                        "tier": 1,
+                        "Champion pool size": {
+                            "old": 29,
+                            "new": 22
+                        }
+                    },
+                    {
+                        "tier": 2,
+                        "Champion pool size": {
+                            "old": 22,
+                            "new": 20
+                        }
+                    },
+                    {
+                        "tier": 3,
+                        "Champion pool size": {
+                            "old": 18,
+                            "new": 17
+                        }
+                    },
+                    {
+                        "tier": 4,
+                        "Champion pool size": {
+                            "old": 12,
+                            "new": 10
+                        }
+                    },
+                    {
+                        "tier": 5,
+                        "Champion pool size": {
+                            "old": 10,
+                            "new": 9
+                        }
                     }
-                },
-                {
-                    "tier": 2,
-                    "Champion pool size": {
-                        "old": 22,
-                        "new": 20
+                ]
+            },
+            "Leveling Changes": {
+                "tables": [
+                    " Level       | XP            ",
+                    " Lv.5->Lv.6  | 24xp  -> 20xp ",
+                    " Lv.6->Lv.7  | 40xp  -> 36xp ",
+                    " Lv.7->Lv.8  | 60xp  -> 48xp ",
+                    " Lv.8->Lv.9  | 84xp  -> 80xp ",
+                    " Lv.9->Lv.10 | 100xp -> 84xp "
+                ],
+                "nums": [
+                    {
+                        "from": "Lv.5",
+                        "to": "Lv.6",
+                        "old": "24xp",
+                        "new": "20xp"
+                    },
+                    {
+                        "from": "Lv.6",
+                        "to": "Lv.7",
+                        "old": "40xp",
+                        "new": "36xp"
+                    },
+                    {
+                        "from": "Lv.7",
+                        "to": "Lv.8",
+                        "old": "60xp",
+                        "new": "48xp"
+                    },
+                    {
+                        "from": "Lv.8",
+                        "to": "Lv.9",
+                        "old": "84xp",
+                        "new": "80xp"
+                    },
+                    {
+                        "from": "Lv.9",
+                        "to": "Lv.10",
+                        "old": "100xp",
+                        "new": "84xp"
                     }
-                },
-                {
-                    "tier": 3,
-                    "Champion pool size": {
-                        "old": 18,
-                        "new": 17
+                ]
+            },
+            "Shop Odds": {
+                "tables": [
+                    "Level\\Cost 1    2    3    4    5   ",
+                    "Lv.2        100% 0    0    0    0   ",
+                    "Lv.3        75%  25%  0    0    0   ",
+                    "Lv.4        55%  30%  15%  0    0   ",
+                    "Lv.5        45%  33%  20%  2%   0   ",
+                    "Lv.6        30%  40%  25%  5%   0   ",
+                    "Lv.7        19%  35%  35%  10%  1%  ",
+                    "Lv.8        18%  25%  36%  18%  3%  ",
+                    "Lv.9        10%  20%  25%  35%  10% ",
+                    "Lv.10       5%   10%  20%  40%  25% ",
+                    "Lv.11       1%   2%   12%  50%  35% "
+                ],
+                "nums": [
+                    {
+                        "Level": "Lv.6",
+                        "odds": [
+                            30,
+                            40,
+                            25,
+                            5,
+                            0
+                        ]
+                    },
+                    {
+                        "Level": "Lv.7",
+                        "odds": [
+                            19,
+                            35,
+                            35,
+                            10,
+                            1
+                        ]
+                    },
+                    {
+                        "Level": "Lv.8",
+                        "odds": [
+                            18,
+                            25,
+                            36,
+                            18,
+                            3
+                        ]
+                    },
+                    {
+                        "Level": "Lv.9",
+                        "odds": [
+                            10,
+                            20,
+                            25,
+                            35,
+                            10
+                        ]
+                    },
+                    {
+                        "Level": "Lv.10",
+                        "odds": [
+                            5,
+                            10,
+                            20,
+                            40,
+                            25
+                        ]
                     }
-                },
-                {
-                    "tier": 4,
-                    "Champion pool size": {
-                        "old": 12,
-                        "new": 10
-                    }
-                },
-                {
-                    "tier": 5,
-                    "Champion pool size": {
-                        "old": 10,
-                        "new": 9
-                    }
-                }
-            ],
-            "Leveling Changes": [
-                {
-                    "from": "Lv.5",
-                    "to": "Lv.6",
-                    "old": "24xp",
-                    "new": "20xp"
-                },
-                {
-                    "from": "Lv.6",
-                    "to": "Lv.7",
-                    "old": "40xp",
-                    "new": "36xp"
-                },
-                {
-                    "from": "Lv.7",
-                    "to": "Lv.8",
-                    "old": "60xp",
-                    "new": "48xp"
-                },
-                {
-                    "from": "Lv.8",
-                    "to": "Lv.9",
-                    "old": "84xp",
-                    "new": "80xp"
-                },
-                {
-                    "from": "Lv.9",
-                    "to": "Lv.10",
-                    "old": "100xp",
-                    "new": "84xp"
-                }
-            ],
-            "Shop Odds": [
-                {
-                    "Level": "Lv.6",
-                    "odds": [
-                        30,
-                        40,
-                        25,
-                        5,
-                        0
-                    ]
-                },
-                {
-                    "Level": "Lv.7",
-                    "odds": [
-                        19,
-                        35,
-                        35,
-                        10,
-                        1
-                    ]
-                },
-                {
-                    "Level": "Lv.8",
-                    "odds": [
-                        18,
-                        25,
-                        36,
-                        18,
-                        3
-                    ]
-                },
-                {
-                    "Level": "Lv.9",
-                    "odds": [
-                        10,
-                        20,
-                        25,
-                        35,
-                        10
-                    ]
-                },
-                {
-                    "Level": "Lv.10",
-                    "odds": [
-                        5,
-                        10,
-                        20,
-                        40,
-                        25
-                    ]
-                }
-            ],
+                ]
+            },
             "details": [
                 "The maximum level rises to level 10, and the probability of re-roll changes.",
                 "You now need a higher level to pick 5 tier champions."

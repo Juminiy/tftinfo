@@ -2,54 +2,6 @@
     "season": "set15",
     "champions": [
         {
-            "key": "PBEAatrox",
-            "ingameKey": "TEMP_Aatrox",
-            "name": "Aatrox",
-            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/15.15.1/img/champion/Aatrox.png",
-            "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/15.15.1/img/champion/Aatrox.png",
-            "traits": [
-                "MightyMech",
-                "Juggernaut",
-                "Heavyweight"
-            ],
-            "isHidden": true,
-            "cost": [
-                1,
-                3,
-                9
-            ],
-            "health": [
-                650,
-                1170,
-                2106
-            ],
-            "attackDamage": [
-                50,
-                75,
-                113
-            ],
-            "damagePerSecond": [
-                33,
-                49,
-                73
-            ],
-            "attackRange": 1,
-            "attackSpeed": 0.65,
-            "armor": 40,
-            "magicalResistance": 40,
-            "skill": {
-                "name": "PBEAatrox",
-                "imageUrl": "",
-                "desc": "TBA",
-                "startingMana": 20,
-                "skillMana": 80,
-                "stats": [
-                    "TBA: TBA"
-                ]
-            },
-            "role": ""
-        },
-        {
             "key": "Aatrox",
             "ingameKey": "TFT15_Aatrox",
             "name": "Aatrox",
@@ -96,9 +48,9 @@
                 ]
             },
             "recommendItems": [
+                "TFT_Item_RedBuff",
                 "TFT_Item_GargoyleStoneplate",
                 "TFT_Item_WarmogsArmor",
-                "TFT_Item_RedBuff",
                 "TFT_Item_Redemption",
                 "TFT_Item_DragonsClaw"
             ],
@@ -207,8 +159,8 @@
                 "TFT_Item_UnstableConcoction",
                 "TFT_Item_JeweledGauntlet",
                 "TFT_Item_GuardianAngel",
-                "TFT_Item_Bloodthirster",
-                "TFT_Item_RabadonsDeathcap"
+                "TFT_Item_RabadonsDeathcap",
+                "TFT_Item_PowerGauntlet"
             ],
             "role": "APReaper"
         },
@@ -262,7 +214,7 @@
                 "TFT_Item_RunaansHurricane",
                 "TFT_Item_InfinityEdge",
                 "TFT_Item_HextechGunblade",
-                "TFT_Item_MadredsBloodrazor"
+                "TFT_Item_LastWhisper"
             ],
             "role": "ADCarry"
         },
@@ -315,10 +267,10 @@
                 ]
             },
             "recommendItems": [
-                "TFT_Item_WarmogsArmor",
                 "TFT_Item_Bloodthirster",
+                "TFT_Item_WarmogsArmor",
                 "TFT_Item_GargoyleStoneplate",
-                "TFT_Item_RedBuff",
+                "TFT_Item_SteraksGage",
                 "TFT_Item_TitansResolve"
             ],
             "role": "ADFighter"
@@ -372,9 +324,9 @@
             "recommendItems": [
                 "TFT_Item_InfinityEdge",
                 "TFT_Item_SpearOfShojin",
+                "TFT_Item_Deathblade",
                 "TFT_Item_GuinsoosRageblade",
-                "TFT_Item_MadredsBloodrazor",
-                "TFT_Item_LastWhisper"
+                "TFT_Item_MadredsBloodrazor"
             ],
             "role": "ADCaster"
         },
@@ -425,10 +377,10 @@
             },
             "recommendItems": [
                 "TFT_Item_Bloodthirster",
-                "TFT_Item_UnstableConcoction",
                 "TFT_Item_TitansResolve",
-                "TFT_Item_InfinityEdge",
-                "TFT_Item_SteraksGage"
+                "TFT_Item_SteraksGage",
+                "TFT_Item_UnstableConcoction",
+                "TFT_Item_InfinityEdge"
             ],
             "role": "ADFighter"
         },
@@ -478,11 +430,11 @@
                 ]
             },
             "recommendItems": [
-                "TFT_Item_WarmogsArmor",
                 "TFT_Item_GargoyleStoneplate",
-                "TFT_Item_RedBuff",
+                "TFT_Item_WarmogsArmor",
                 "TFT_Item_Redemption",
-                "TFT_Item_GuinsoosRageblade"
+                "TFT_Item_RedBuff",
+                "TFT_Item_DragonsClaw"
             ],
             "role": "ADTank"
         },
@@ -530,9 +482,9 @@
             "recommendItems": [
                 "TFT_Item_UnstableConcoction",
                 "TFT_Item_JeweledGauntlet",
-                "TFT_Item_Bloodthirster",
                 "TFT_Item_GuardianAngel",
-                "TFT_Item_TitansResolve"
+                "TFT_Item_Bloodthirster",
+                "TFT_Item_RabadonsDeathcap"
             ],
             "role": "APFighter"
         },
@@ -584,10 +536,10 @@
             },
             "recommendItems": [
                 "TFT_Item_SpearOfShojin",
-                "TFT_Item_JeweledGauntlet",
                 "TFT_Item_MadredsBloodrazor",
-                "TFT_Item_GuinsoosRageblade",
-                "TFT_Item_HextechGunblade"
+                "TFT_Item_JeweledGauntlet",
+                "TFT_Item_HextechGunblade",
+                "TFT_Item_GuinsoosRageblade"
             ],
             "role": "HCaster"
         },
@@ -774,8 +726,8 @@
             "recommendItems": [
                 "TFT_Item_Bloodthirster",
                 "TFT_Item_GuardianAngel",
-                "TFT_Item_InfinityEdge",
                 "TFT_Item_UnstableConcoction",
+                "TFT_Item_InfinityEdge",
                 "TFT_Item_TitansResolve"
             ],
             "role": "ADFighter"
@@ -938,9 +890,9 @@
             },
             "recommendItems": [
                 "TFT_Item_JeweledGauntlet",
-                "TFT_Item_UnstableConcoction",
                 "TFT_Item_StatikkShiv",
                 "TFT_Item_Morellonomicon",
+                "TFT_Item_UnstableConcoction",
                 "TFT_Item_GuardianAngel"
             ],
             "role": "APFighter"
@@ -992,11 +944,11 @@
                 ]
             },
             "recommendItems": [
-                "TFT_Item_ArchangelsStaff",
                 "TFT_Item_GuinsoosRageblade",
+                "TFT_Item_ArchangelsStaff",
                 "TFT_Item_SpearOfShojin",
-                "TFT_Item_JeweledGauntlet",
-                "TFT_Item_StatikkShiv"
+                "TFT_Item_StatikkShiv",
+                "TFT_Item_JeweledGauntlet"
             ],
             "role": "APCaster"
         },
@@ -1051,7 +1003,7 @@
                 "TFT_Item_WarmogsArmor",
                 "TFT_Item_FrozenHeart",
                 "TFT_Item_RedBuff",
-                "TFT_Item_Redemption"
+                "TFT_Item_DragonsClaw"
             ],
             "role": "APTank"
         },
@@ -1105,8 +1057,8 @@
                 "TFT_Item_Bloodthirster",
                 "TFT_Item_TitansResolve",
                 "TFT_Item_SteraksGage",
-                "TFT_Item_UnstableConcoction",
-                "TFT_Item_WarmogsArmor"
+                "TFT_Item_GuardianAngel",
+                "TFT_Item_UnstableConcoction"
             ],
             "role": "ADFighter"
         },
@@ -1160,7 +1112,7 @@
                 "TFT_Item_GuinsoosRageblade",
                 "TFT_Item_LastWhisper",
                 "TFT_Item_PowerGauntlet",
-                "TFT_Item_MadredsBloodrazor"
+                "TFT_Item_Deathblade"
             ],
             "role": "ADSpecialist"
         },
@@ -1213,9 +1165,9 @@
             "recommendItems": [
                 "TFT_Item_InfinityEdge",
                 "TFT_Item_LastWhisper",
-                "TFT_Item_GuinsoosRageblade",
                 "TFT_Item_PowerGauntlet",
-                "TFT_Item_RunaansHurricane"
+                "TFT_Item_GuinsoosRageblade",
+                "TFT_Item_SpearOfShojin"
             ],
             "role": "ADCaster"
         },
@@ -1320,8 +1272,8 @@
                 "TFT_Item_GuinsoosRageblade",
                 "TFT_Item_InfinityEdge",
                 "TFT_Item_SpearOfShojin",
-                "TFT_Item_LastWhisper",
-                "TFT_Item_PowerGauntlet"
+                "TFT_Item_PowerGauntlet",
+                "TFT_Item_LastWhisper"
             ],
             "role": "ADCaster"
         },
@@ -1372,8 +1324,8 @@
             "recommendItems": [
                 "TFT_Item_JeweledGauntlet",
                 "TFT_Item_SpearOfShojin",
+                "TFT_Item_PowerGauntlet",
                 "TFT_Item_StatikkShiv",
-                "TFT_Item_ArchangelsStaff",
                 "TFT_Item_BlueBuff"
             ],
             "role": "APCaster"
@@ -1428,7 +1380,7 @@
                 "TFT_Item_GuardianAngel",
                 "TFT_Item_PowerGauntlet",
                 "TFT_Item_JeweledGauntlet",
-                "TFT_Item_Bloodthirster"
+                "TFT5_Item_HandOfJusticeRadiant"
             ],
             "role": "APReaper"
         },
@@ -1480,8 +1432,8 @@
             "recommendItems": [
                 "TFT_Item_GuinsoosRageblade",
                 "TFT_Item_JeweledGauntlet",
-                "TFT_Item_HextechGunblade",
                 "TFT_Item_PowerGauntlet",
+                "TFT_Item_HextechGunblade",
                 "TFT_Item_MadredsBloodrazor"
             ],
             "role": "APSpecialist"
@@ -1536,7 +1488,7 @@
             "recommendItems": [
                 "TFT_Item_GuinsoosRageblade",
                 "TFT_Item_JeweledGauntlet",
-                "TFT_Item_ArchangelsStaff",
+                "TFT_Item_PowerGauntlet",
                 "TFT_Item_GargoyleStoneplate",
                 "TFT_Item_WarmogsArmor"
             ],
@@ -1587,10 +1539,10 @@
                 ]
             },
             "recommendItems": [
-                "TFT_Item_RedBuff",
-                "TFT_Item_WarmogsArmor",
                 "TFT_Item_GargoyleStoneplate",
-                "TFT15_Item_StarGuardianEmblemItem",
+                "TFT_Item_WarmogsArmor",
+                "TFT_Item_RedBuff",
+                "TFT_Item_Redemption",
                 "TFT_Item_SpectralGauntlet"
             ],
             "role": "ADTank"
@@ -1644,7 +1596,7 @@
                 "TFT_Item_ArchangelsStaff",
                 "TFT_Item_HextechGunblade",
                 "TFT_Item_JeweledGauntlet",
-                "TFT_Item_SpearOfShojin"
+                "TFT_Item_Leviathan"
             ],
             "role": "APCarry"
         },
@@ -1697,10 +1649,10 @@
             },
             "recommendItems": [
                 "TFT_Item_GargoyleStoneplate",
+                "TFT_Item_GuardianAngel",
                 "TFT_Item_WarmogsArmor",
-                "TFT_Item_RedBuff",
-                "TFT_Item_DragonsClaw",
-                "TFT_Item_Redemption"
+                "TFT_Item_InfinityEdge",
+                "TFT_Item_PowerGauntlet"
             ],
             "role": "ADTank"
         },
@@ -1820,8 +1772,8 @@
                 "TFT_Item_GargoyleStoneplate",
                 "TFT_Item_WarmogsArmor",
                 "TFT_Item_RedBuff",
-                "TFT_Item_DragonsClaw",
-                "TFT_Item_Redemption"
+                "TFT_Item_Redemption",
+                "TFT_Item_DragonsClaw"
             ],
             "role": "APTank"
         },
@@ -1872,9 +1824,9 @@
             "recommendItems": [
                 "TFT_Item_JeweledGauntlet",
                 "TFT_Item_StatikkShiv",
-                "TFT_Item_ArchangelsStaff",
+                "TFT_Item_SpearOfShojin",
                 "TFT_Item_BlueBuff",
-                "TFT_Item_GuinsoosRageblade"
+                "TFT_Item_ArchangelsStaff"
             ],
             "role": "APCaster"
         },
@@ -1923,7 +1875,7 @@
                 "TFT_Item_GuinsoosRageblade",
                 "TFT_Item_InfinityEdge",
                 "TFT_Item_PowerGauntlet",
-                "TFT_Item_MadredsBloodrazor",
+                "TFT_Item_SpearOfShojin",
                 "TFT_Item_ArchangelsStaff"
             ],
             "role": "APCaster"
@@ -2082,9 +2034,9 @@
             "recommendItems": [
                 "TFT_Item_StatikkShiv",
                 "TFT_Item_Morellonomicon",
-                "TFT_Item_JeweledGauntlet",
-                "TFT_Item_HextechGunblade",
-                "TFT_Item_AdaptiveHelm"
+                "TFT_Item_AdaptiveHelm",
+                "TFT_Item_RapidFireCannon",
+                "TFT_Item_HextechGunblade"
             ],
             "role": "APCaster"
         },
@@ -2192,7 +2144,7 @@
                 "TFT_Item_WarmogsArmor",
                 "TFT_Item_RedBuff",
                 "TFT_Item_DragonsClaw",
-                "TFT_Item_IonicSpark"
+                "TFT_Item_Redemption"
             ],
             "role": "APTank"
         },
@@ -2356,7 +2308,7 @@
                 "TFT_Item_WarmogsArmor",
                 "TFT_Item_BrambleVest",
                 "TFT_Item_DragonsClaw",
-                "TFT_Item_RedBuff"
+                "TFT_Item_Redemption"
             ],
             "role": "APTank"
         },
@@ -2572,8 +2524,8 @@
             "recommendItems": [
                 "TFT_Item_InfinityEdge",
                 "TFT_Item_GuinsoosRageblade",
-                "TFT_Item_RapidFireCannon",
                 "TFT_Item_SpearOfShojin",
+                "TFT_Item_RapidFireCannon",
                 "TFT_Item_LastWhisper"
             ],
             "role": "ADCaster"
@@ -2627,7 +2579,7 @@
                 "TFT_Item_JeweledGauntlet",
                 "TFT_Item_StatikkShiv",
                 "TFT_Item_AdaptiveHelm",
-                "TFT_Item_Morellonomicon"
+                "TFT_Item_ArchangelsStaff"
             ],
             "role": "APCaster"
         },
@@ -2683,7 +2635,7 @@
                 "TFT_Item_WarmogsArmor",
                 "TFT_Item_RedBuff",
                 "TFT_Item_Redemption",
-                "TFT_Item_SpectralGauntlet"
+                "TFT_Item_DragonsClaw"
             ],
             "role": "ADTank"
         },
@@ -2841,8 +2793,8 @@
             },
             "recommendItems": [
                 "TFT_Item_InfinityEdge",
-                "TFT_Item_GuinsoosRageblade",
                 "TFT_Item_PowerGauntlet",
+                "TFT_Item_GuinsoosRageblade",
                 "TFT_Item_SpearOfShojin",
                 "TFT_Item_MadredsBloodrazor"
             ],
@@ -2900,8 +2852,8 @@
                 "TFT_Item_GargoyleStoneplate",
                 "TFT_Item_WarmogsArmor",
                 "TFT_Item_RedBuff",
-                "TFT15_Item_StarGuardianEmblemItem",
-                "TFT_Item_Redemption"
+                "TFT_Item_Redemption",
+                "TFT_Item_DragonsClaw"
             ],
             "role": "APTank"
         },
@@ -2952,8 +2904,8 @@
             },
             "recommendItems": [
                 "TFT_Item_JeweledGauntlet",
-                "TFT_Item_AdaptiveHelm",
                 "TFT_Item_SpearOfShojin",
+                "TFT_Item_AdaptiveHelm",
                 "TFT_Item_BlueBuff",
                 "TFT_Item_StatikkShiv"
             ],
@@ -3010,7 +2962,7 @@
                 "TFT_Item_SpearOfShojin",
                 "TFT_Item_InfinityEdge",
                 "TFT_Item_MadredsBloodrazor",
-                "TFT_Item_HextechGunblade"
+                "TFT_Item_RapidFireCannon"
             ],
             "role": "HCarry"
         },
@@ -3062,10 +3014,10 @@
             },
             "recommendItems": [
                 "TFT_Item_RedBuff",
-                "TFT_Item_WarmogsArmor",
                 "TFT_Item_GargoyleStoneplate",
-                "TFT_Item_SpectralGauntlet",
-                "TFT_Item_Redemption"
+                "TFT_Item_WarmogsArmor",
+                "TFT_Item_Redemption",
+                "TFT_Item_SpectralGauntlet"
             ],
             "role": "ADTank"
         },
@@ -3169,11 +3121,11 @@
                 ]
             },
             "recommendItems": [
-                "TFT_Item_Bloodthirster",
                 "TFT_Item_SteraksGage",
+                "TFT_Item_Bloodthirster",
                 "TFT_Item_TitansResolve",
                 "TFT_Item_UnstableConcoction",
-                "TFT_Item_GargoyleStoneplate"
+                "TFT_Item_InfinityEdge"
             ],
             "role": "ADTank"
         },
@@ -3226,8 +3178,8 @@
             "recommendItems": [
                 "TFT_Item_UnstableConcoction",
                 "TFT_Item_JeweledGauntlet",
-                "TFT_Item_Bloodthirster",
                 "TFT_Item_GuardianAngel",
+                "TFT_Item_Bloodthirster",
                 "TFT_Item_TitansResolve"
             ],
             "role": "APFighter"
@@ -3282,7 +3234,7 @@
                 "TFT_Item_TitansResolve",
                 "TFT_Item_SteraksGage",
                 "TFT_Item_UnstableConcoction",
-                "TFT15_Item_SoulFighterEmblemItem"
+                "TFT_Item_GuardianAngel"
             ],
             "role": "ADFighter"
         },
@@ -3378,7 +3330,7 @@
                 "TFT_Item_InfinityEdge",
                 "TFT_Item_RunaansHurricane",
                 "TFT_Item_LastWhisper",
-                "TFT_Item_PowerGauntlet"
+                "TFT_Item_MadredsBloodrazor"
             ],
             "role": "ADCarry"
         },
@@ -3431,8 +3383,8 @@
                 "TFT_Item_GargoyleStoneplate",
                 "TFT_Item_RedBuff",
                 "TFT_Item_WarmogsArmor",
-                "TFT_Item_SpectralGauntlet",
-                "TFT_Item_Redemption"
+                "TFT_Item_Redemption",
+                "TFT_Item_SpectralGauntlet"
             ],
             "role": "ADTank"
         },
@@ -3484,8 +3436,8 @@
                 "TFT_Item_Bloodthirster",
                 "TFT_Item_TitansResolve",
                 "TFT_Item_UnstableConcoction",
-                "TFT_Item_SteraksGage",
-                "TFT_Item_InfinityEdge"
+                "TFT_Item_InfinityEdge",
+                "TFT_Item_GuardianAngel"
             ],
             "role": "ADReaper"
         },
@@ -3591,9 +3543,9 @@
             },
             "recommendItems": [
                 "TFT_Item_JeweledGauntlet",
-                "TFT_Item_BlueBuff",
                 "TFT_Item_HextechGunblade",
                 "TFT_Item_StatikkShiv",
+                "TFT_Item_BlueBuff",
                 "TFT_Item_AdaptiveHelm"
             ],
             "role": "APCaster"
@@ -3644,10 +3596,10 @@
                 ]
             },
             "recommendItems": [
-                "TFT_Item_WarmogsArmor",
                 "TFT_Item_GargoyleStoneplate",
-                "TFT_Item_RedBuff",
+                "TFT_Item_WarmogsArmor",
                 "TFT_Item_Redemption",
+                "TFT_Item_RedBuff",
                 "TFT_Item_DragonsClaw"
             ],
             "role": "APTank"
