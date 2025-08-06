@@ -2,6 +2,7 @@ from meta_data import setlist, augments_tier
 from meta_data import setchampions, setaugments
 
 from meta_func import no_augment_set
+from meta_func import select_augments
 
 from json import dumps
 
@@ -21,7 +22,7 @@ for setof in setlist:
         'champion': []
     }
     for aug in setaugments(setof):
-        if 'isHidden' in aug:
+        if not select_augments(setof, aug):
             continue
         cateof=augments_tier[aug['tier']]
         augdtl={'name': aug['name'],'desc': aug['desc']}
@@ -41,7 +42,7 @@ def augs_compare(setpre: str, setcur: str):
     setpreold={
         aug['name']: augments_tier[aug['tier']]
         for aug in setaugments(setpre)
-        if 'isHidden' not in aug
+        if select_augments(setpre, aug)
     }
     setcurnew:dict[str, list[dict[str,str]]] = {}
     for augcolor,auglist in augs[setcur].items():

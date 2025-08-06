@@ -39,6 +39,12 @@ def select_champions(setof:str, chp:dict) -> bool:
         return str(chp['ingameKey']).startswith(f'TFT{cursetnum}_') and \
                 'isHidden' not in chp
 
+def select_items(setof:str, itm:dict) -> bool:
+    return 'isHidden' not in itm
+
+def select_augments(setof:str, aug:dict) -> bool:
+    return 'isHidden' not in aug
+
 from meta_data import special_components
 from functools import cmp_to_key
 def emblem_cmp_func(s1:str, s2:str) -> int:
@@ -84,3 +90,25 @@ def no_radiant_set(setof: str) -> bool:
 
 def no_augment_set(setof: str) -> bool:
     return setof in ['set1','set2','set3','set4','set5','set3.5','set4.5','set5.5']
+
+from requests import get as httpget
+from requests.exceptions import RequestException
+from urllib.parse import urlparse
+import os
+
+def download_file(fileurl: str, filepath: str, timeout_sec: float) -> tuple[str,str,float]|None:
+    try:
+        if os.path.exists(filepath): # already downloaded
+            return None 
+        if fileurl=='https:None':    # illegal url
+            return None
+        fileresp=httpget(fileurl, stream=True, timeout=timeout_sec)
+        fileresp.raise_for_status()
+        with open(filepath, 'wb') as savefile:
+            for chunk in fileresp.iter_content(chunk_size=1024):
+                savefile.write(chunk)
+            savefile.close()
+        return None
+    except RequestException as re:
+        print(f"[error] download: {fileurl}, error: {re}")
+        return (fileurl, filepath, timeout_sec+1)

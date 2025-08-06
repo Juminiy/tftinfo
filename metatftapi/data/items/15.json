@@ -163,7 +163,7 @@
             ],
             "tags": [],
             "effects": {
-                "AS": 20,
+                "AS": 10,
                 "BuffDamageAmp": 0.05000000074505806,
                 "CritChance": 20,
                 "Duration": 5,
@@ -276,7 +276,7 @@
             "effects": {
                 "AD": 0.10000000149011612,
                 "AP": 10,
-                "AS": 20,
+                "AS": 15,
                 "Armor": 20,
                 "DamageReduction": 100,
                 "HealthThreshold": 60,
@@ -412,11 +412,11 @@
                 "BurnPercent": 1,
                 "GrievousWoundsPercent": 33,
                 "Health": 150,
-                "ManaRegen": 2,
+                "ManaRegen": 1,
                 "MonsterCap": 100,
                 "TicksPerSecond": 1
             },
-            "desc": "Attacks and Abilities deal 1% <TFTKeyword>Burn</TFTKeyword> and 33% <TFTKeyword>Wound</TFTKeyword> to enemies for 10 seconds.<br><br><tftitemrules><tftbold>Burn</tftbold>: Deals a percent of the target\ufffds max Health as true damage every second<br><tftbold>Wound</tftbold>: Reduces healing received</tftitemrules>"
+            "desc": "Attacks and Abilities deal 1% <TFTKeyword>Burn</TFTKeyword> and 33% <TFTKeyword>Wound</TFTKeyword> to enemies for 10 seconds.<br><br><tftitemrules><tftbold>Burn</tftbold>: Deals a percent of the target's max Health as true damage every second<br><tftbold>Wound</tftbold>: Reduces healing received</tftitemrules>"
         },
         {
             "name": "Red Buff",
@@ -615,7 +615,7 @@
                 "AS": 15,
                 "MRShred": 30,
                 "MRShredDuration": 5,
-                "ManaRegen": 2
+                "ManaRegen": 1
             },
             "desc": "Attacks and Ability damage 30% <TFTKeyword>Shred</TFTKeyword> the target for 5 seconds. This effect does not stack.<br><br><tftitemrules><tftbold>Shred</tftbold>: Reduce Magic Resist</tftitemrules>"
         },
@@ -927,7 +927,7 @@
             "composition": [],
             "tags": [],
             "effects": {
-                "AS": 35,
+                "AS": 25,
                 "BuffDamageAmp": 0.07999999821186066,
                 "CritChance": 35,
                 "Duration": 8,
@@ -991,7 +991,7 @@
                 "AS": 60,
                 "MRShred": 30,
                 "MRShredDuration": 90,
-                "ManaRegen": 4
+                "ManaRegen": 3
             },
             "desc": "Attacks and Ability damage 30% <TFTKeyword>Shred</TFTKeyword> the target for <TFTRadiantItemBonus>the rest of combat</TFTRadiantItemBonus>. This effect does not stack.<br><br><tftitemrules><tftbold>Shred</tftbold>: Reduce Magic Resist</tftitemrules>"
         },
@@ -1044,7 +1044,7 @@
                 "BurnPercent": 2,
                 "GrievousWoundsPercent": 33,
                 "Health": 150,
-                "ManaRegen": 4,
+                "ManaRegen": 3,
                 "MonsterCap": 150,
                 "TicksPerSecond": 1
             },
@@ -1170,6 +1170,20 @@
                 "ShieldDuration": 6
             },
             "desc": "At 60% Health, gain a Shield equal to <TFTRadiantItemBonus>100.0%</TFTRadiantItemBonus> of the wearer's maximum Health that rapidly decays over <TFTRadiantItemBonus>6</TFTRadiantItemBonus> seconds."
+        },
+        {
+            "name": "Radiant Spirit Visage",
+            "composition": [],
+            "tags": [],
+            "effects": {
+                "HealTickRate": 1,
+                "Health": 600,
+                "ManaRegen": 2,
+                "MaxHeal": 2000,
+                "MissingHealthHeal": 0.05000000074505806,
+                "{cd951938}": 0.18000000715255737
+            },
+            "desc": "Regenerate <TFTRadiantItemBonus>5.0%</TFTRadiantItemBonus> of missing Health each second."
         },
         {
             "name": "Radiant Edge of Night",
@@ -2267,20 +2281,6 @@
         }
     ],
     "special": [
-        {
-            "name": "Anima's Embrace",
-            "composition": [],
-            "tags": [],
-            "effects": {
-                "HealTickRate": 1,
-                "Health": 600,
-                "ManaRegen": 2,
-                "MaxHeal": 2000,
-                "MissingHealthHeal": 0.05000000074505806,
-                "{cd951938}": 0.18000000715255737
-            },
-            "desc": "Regenerate <TFTRadiantItemBonus>5.0%</TFTRadiantItemBonus> of missing Health each second."
-        },
         {
             "name": "Critical Hit!",
             "composition": [],

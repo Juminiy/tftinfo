@@ -11,6 +11,7 @@ from meta_data import set_specitem_keys
 
 from meta_func import grid_fix_write
 from meta_func import no_radiant_set
+from meta_func import select_items
 
 def parse_attr(fulldesc: str) -> list[str]:
     if len(fulldesc) == 0:
@@ -99,7 +100,7 @@ for setof in setlist:
         return '+'.join(sorted([components_nickname[compof] for compof in itemof['compositions']], key=lambda nickof: components_nickname_priority[nickof]))
 
     for itemof in setitems(setof):
-        if 'isHidden' in itemof:
+        if not select_items(setof, itemof):
             continue
         elif 'isFromItem' in itemof:
             itemTyp[setof]['comp'].append({

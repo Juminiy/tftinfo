@@ -5,7 +5,7 @@ from typing import Any
 from meta_data import settraits, setchampions, setitems
 
 from meta_func import select_traits, select_champions, emblem_cmp_key, grid_fix_write
-from meta_func import select_traits_legal, count_traits_style
+from meta_func import select_traits_legal, count_traits_style, select_items
 
 def parse_stats(statsd: dict[str,str], descs:str) -> str:
     for _,sval in statsd.items():
@@ -18,7 +18,7 @@ def get_traits_table(setof: str) -> tuple[str,str]:
 
     emblems:dict[str,Any]={}
     for emb in setitems(setof):
-        if 'isHidden' in emb:
+        if not select_items(setof, emb):
             continue
         if 'isEmblem' in emb:
             embkeyraw,embnameraw,embkey=str(emb['key']),str(emb['name']),''

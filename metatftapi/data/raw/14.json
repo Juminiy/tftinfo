@@ -4630,7 +4630,11 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Spray Can",
-            "tags": [],
+            "tags": [
+                "2-1",
+                "3-2",
+                "4-2"
+            ],
             "unique": false,
             "en_name": "Spray Can"
         },
@@ -17891,8 +17895,7 @@
             "unitProperties": {
                 "TFT14_TibbersHealth": 800
             },
-            "en_name": "Tibbers",
-            "code": "318"
+            "en_name": "Tibbers"
         },
         {
             "ability": {
@@ -17925,8 +17928,7 @@
             "unitProperties": {
                 "TFT14_HotRod_LaserTooltip_Blank": "<rules>(4- inactive) AND Fire a laser through the current target, dealing <magicDamage>@ModifiedTotalLaserDamage@ (%i:scaleAP%)</magicDamage> magic damage to enemies hit over @LaserDuration@ seconds reduced by @DamageFalloffPercent*100@% per hex away.</rules>"
             },
-            "en_name": "R-080T",
-            "code": "319"
+            "en_name": "R-080T"
         },
         {
             "ability": {
@@ -17959,8 +17961,7 @@
             "unitProperties": {
                 "TFT14_HotRod_LaserTooltip_Blank": "<rules>(4- inactive) AND Fire a laser through the current target, dealing <magicDamage>@ModifiedTotalLaserDamage@ (%i:scaleAP%)</magicDamage> magic damage to enemies hit over @LaserDuration@ seconds reduced by @DamageFalloffPercent*100@% per hex away.</rules>"
             },
-            "en_name": "T-43X",
-            "code": "31a"
+            "en_name": "T-43X"
         },
         {
             "ability": {
@@ -18523,8 +18524,7 @@
             },
             "tileIcon": "ASSETS/Characters/TFT14_Hacked_AurelionSol/HUD/TFT14_Hacked_AurelionSol_Square.TFT_Set14.tex",
             "traits": [],
-            "en_name": "Mechadrone",
-            "code": "3e7"
+            "en_name": "Mechadrone"
         },
         {
             "ability": {
@@ -18633,8 +18633,7 @@
             },
             "tileIcon": "ASSETS/Characters/TFT14_Hacked_AurelionSol/HUD/TFT14_Hacked_AurelionSol_Square.TFT_Set14.tex",
             "traits": [],
-            "en_name": "Mechacannon",
-            "code": "3e6"
+            "en_name": "Mechacannon"
         },
         {
             "ability": {
@@ -18683,8 +18682,7 @@
             },
             "tileIcon": "ASSETS/Characters/TFT14_Hacked_AurelionSol/HUD/TFT14_Hacked_AurelionSol_Square.TFT_Set14.tex",
             "traits": [],
-            "en_name": "Mechasoldier",
-            "code": "3e5"
+            "en_name": "Mechasoldier"
         },
         {
             "ability": {
@@ -18733,8 +18731,7 @@
             },
             "tileIcon": "ASSETS/Characters/TFT14_Hacked_AurelionSol/HUD/TFT14_Hacked_AurelionSol_Square.TFT_Set14.tex",
             "traits": [],
-            "en_name": "Mechaminion",
-            "code": "3e4"
+            "en_name": "Mechaminion"
         },
         {
             "ability": {
@@ -18818,8 +18815,7 @@
             },
             "tileIcon": "ASSETS/Characters/TFT14_Hacked_AurelionSol/HUD/TFT14_Hacked_AurelionSol_Square.TFT_Set14.tex",
             "traits": [],
-            "en_name": "Mechaurelion",
-            "code": "001"
+            "en_name": "Mechaurelion"
         },
         {
             "ability": {
@@ -18911,8 +18907,7 @@
             },
             "tileIcon": "ASSETS/Characters/TFT14_Hacked_AurelionSol/HUD/TFT14_Hacked_AurelionSol_Square.TFT_Set14.tex",
             "traits": [],
-            "en_name": "Mechazir",
-            "code": "3e3"
+            "en_name": "Mechazir"
         },
         {
             "ability": {
@@ -18953,8 +18948,7 @@
             },
             "tileIcon": "ASSETS/Characters/TFT14_HackedEgg/HUD/TFT14_HackedEgg_Square.TFT_Set14.tex",
             "traits": [],
-            "en_name": "Hacked Egg",
-            "code": "325"
+            "en_name": "Hacked Egg"
         },
         {
             "ability": {
@@ -19003,8 +18997,7 @@
             },
             "tileIcon": "ASSETS/Characters/TFT8_TeamUpProp/HUD/Icons2D/TFT5_EmblemArmoryKey_Square.tex",
             "traits": [],
-            "en_name": "Tome of Traits",
-            "code": "00d"
+            "en_name": "Tome of Traits"
         },
         {
             "ability": {
@@ -19044,8 +19037,7 @@
                 "range": 138
             },
             "tileIcon": "ASSETS/Characters/TFT14_GoldenOxProp/HUD/TFT14_GoldenOxProp_Square.TFT_Set14.tex",
-            "traits": [],
-            "code": "270f"
+            "traits": []
         },
         {
             "ability": {
@@ -19077,8 +19069,7 @@
             },
             "tileIcon": "ASSETS/Characters/TFT_ItemUnknown/Skins/Skin0/TFT_Item_Unknown.tex",
             "traits": [],
-            "en_name": "SightWard",
-            "code": "2cb"
+            "en_name": "SightWard"
         },
         {
             "ability": {
@@ -19181,8 +19172,7 @@
                     "name": "Cypher Intel Cache",
                     "desc": "<ShowIfNot.TFT14_Suits_PostTransform>Intel per death: 5<br>Intel per kill: @TFTUnitProperty.:TFT14_Suits_IntelPerKill@<br>Intel per round: 2.5 x Stage<br><br><gold>Current Value: @TFTUnitProperty.:TFT14_Suits_BusinessValue@ g</gold><br><br></ShowIfNot.TFT14_Suits_PostTransform><ShowIf.TFT14_Suits_PostTransform>Intel Traded!</ShowIf.TFT14_Suits_PostTransform>"
                 }
-            },
-            "code": "270e"
+            }
         },
         {
             "ability": {
@@ -19612,7 +19602,10 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Team Building",
-            "tags": [],
+            "tags": [
+                "2-1",
+                "3-2"
+            ],
             "unique": false,
             "en_name": "Team Building",
             "variable_matches": [
@@ -19639,7 +19632,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Latent Forge",
-            "tags": [],
+            "tags": [
+                "2-1"
+            ],
             "unique": false,
             "en_name": "Latent Forge",
             "variable_matches": [
@@ -19678,7 +19673,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Call to Chaos",
-            "tags": [],
+            "tags": [
+                "4-2"
+            ],
             "unique": false,
             "en_name": "Call to Chaos",
             "texture": "{f15aa280}",
@@ -19699,7 +19696,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "At What Cost",
-            "tags": [],
+            "tags": [
+                "2-1"
+            ],
             "unique": false,
             "en_name": "At What Cost",
             "variable_matches": [
@@ -19735,7 +19734,9 @@
             "incompatibleTraits": [],
             "name": "Dynamo Circlet",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Dynamo Circlet",
@@ -19756,7 +19757,9 @@
             "incompatibleTraits": [],
             "name": "Syndicate Circlet",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Syndicate Circlet",
@@ -19777,7 +19780,9 @@
             "incompatibleTraits": [],
             "name": "Vanguard Circlet",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Vanguard Circlet",
@@ -19797,7 +19802,8 @@
             "incompatibleTraits": [],
             "name": "Bastion Crest",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Bastion Crest",
@@ -19820,7 +19826,8 @@
             "incompatibleTraits": [],
             "name": "Reinforcing Skeleture",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Reinforcing Skeleture",
@@ -19854,7 +19861,9 @@
             "incompatibleTraits": [],
             "name": "Divine Ascension",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Divine Ascension",
@@ -19900,7 +19909,8 @@
             "incompatibleTraits": [],
             "name": "Cypher Crown",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Cypher Crown",
@@ -19978,7 +19988,10 @@
             "incompatibleTraits": [],
             "name": "Flatline",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Flatline",
@@ -20023,7 +20036,10 @@
             "incompatibleTraits": [],
             "name": "Speed Kills",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Speed Kills",
@@ -20074,7 +20090,8 @@
             "incompatibleTraits": [],
             "name": "Divinicorp Crown",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Divinicorp Crown",
@@ -20095,7 +20112,8 @@
             "incompatibleTraits": [],
             "name": "Techie Crest",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Techie Crest",
@@ -20116,7 +20134,8 @@
             "incompatibleTraits": [],
             "name": "Dynamo Crest",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Dynamo Crest",
@@ -20137,7 +20156,8 @@
             "incompatibleTraits": [],
             "name": "Dynamo Crown",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Dynamo Crown",
@@ -20164,7 +20184,8 @@
             "name": "Golden Fleece",
             "tags": [
                 "{24d36c27}",
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Golden Fleece",
@@ -20215,7 +20236,9 @@
             "incompatibleTraits": [],
             "name": "Rapidfire Circlet",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Rapidfire Circlet",
@@ -20238,7 +20261,8 @@
             "incompatibleTraits": [],
             "name": "Power Leveling",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Power Leveling",
@@ -20278,7 +20302,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "The Chug Bug+",
-            "tags": [],
+            "tags": [
+                "3-2"
+            ],
             "unique": false,
             "en_name": "The Chug Bug+",
             "variable_matches": [
@@ -20307,7 +20333,8 @@
             "incompatibleTraits": [],
             "name": "Slayer Crown",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Slayer Crown",
@@ -20328,7 +20355,8 @@
             "incompatibleTraits": [],
             "name": "Rapidfire Crest",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Rapidfire Crest",
@@ -20349,7 +20377,8 @@
             "incompatibleTraits": [],
             "name": "Anima Squad Crest",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Anima Squad Crest",
@@ -20374,7 +20403,10 @@
             "incompatibleTraits": [],
             "name": "Keep Your Friends Close",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Keep Your Friends Close",
@@ -20419,7 +20451,8 @@
             "incompatibleTraits": [],
             "name": "Golden Ox Crown",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Golden Ox Crown",
@@ -20440,7 +20473,8 @@
             "incompatibleTraits": [],
             "name": "Bruiser Crown",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Bruiser Crown",
@@ -20466,7 +20500,10 @@
             "incompatibleTraits": [],
             "name": "Dummy With A Gun",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Dummy With A Gun",
@@ -20510,7 +20547,9 @@
             "incompatibleTraits": [],
             "name": "Strategist Circlet",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Strategist Circlet",
@@ -20531,7 +20570,8 @@
             "incompatibleTraits": [],
             "name": "Strategist Crown",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Strategist Crown",
@@ -20552,7 +20592,9 @@
             "incompatibleTraits": [],
             "name": "Divinicorp Circlet",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Divinicorp Circlet",
@@ -20573,7 +20615,8 @@
             "incompatibleTraits": [],
             "name": "Executioner Crest",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Executioner Crest",
@@ -20598,7 +20641,8 @@
             "incompatibleTraits": [],
             "name": "Cognitive Implant",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Cognitive Implant",
@@ -20642,7 +20686,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Cease and Desist",
-            "tags": [],
+            "tags": [
+                "2-1"
+            ],
             "unique": false,
             "en_name": "Cease and Desist",
             "texture": "{f5375636}",
@@ -20662,7 +20708,9 @@
             "incompatibleTraits": [],
             "name": "Exotech Circlet",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Exotech Circlet",
@@ -20683,7 +20731,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Wolf Unchained",
-            "tags": [],
+            "tags": [
+                "2-1"
+            ],
             "unique": false,
             "en_name": "Wolf Unchained",
             "texture": "{6b338586}",
@@ -20703,7 +20753,10 @@
             "incompatibleTraits": [],
             "name": "Capacitor",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Capacitor",
@@ -20725,7 +20778,8 @@
             "incompatibleTraits": [],
             "name": "Street Demon Crest",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Street Demon Crest",
@@ -20753,7 +20807,10 @@
             "incompatibleTraits": [],
             "name": "Support Spire",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Support Spire",
@@ -20785,7 +20842,8 @@
             "incompatibleTraits": [],
             "name": "Lifelong Learning",
             "tags": [
-                "{a7b22c38}"
+                "{a7b22c38}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Lifelong Learning",
@@ -20833,7 +20891,10 @@
             "incompatibleTraits": [],
             "name": "Reactive Shell",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Reactive Shell",
@@ -20931,7 +20992,8 @@
             "incompatibleTraits": [],
             "name": "Polished Chrome",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Polished Chrome",
@@ -21018,7 +21080,8 @@
             "name": "Cutpurse",
             "tags": [
                 "{24d36c27}",
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "3-2"
             ],
             "unique": false,
             "en_name": "Cutpurse",
@@ -21052,7 +21115,10 @@
             "incompatibleTraits": [],
             "name": "Hunter Killer Missile",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Hunter Killer Missile",
@@ -21090,7 +21156,9 @@
             "incompatibleTraits": [],
             "name": "Street Demon Circlet",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Street Demon Circlet",
@@ -21110,7 +21178,8 @@
             "incompatibleTraits": [],
             "name": "Bruiser Crest",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Bruiser Crest",
@@ -21131,7 +21200,8 @@
             "incompatibleTraits": [],
             "name": "Marksman Crown",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Marksman Crown",
@@ -21152,7 +21222,8 @@
             "incompatibleTraits": [],
             "name": "BoomBot Crown",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "BoomBot Crown",
@@ -21173,7 +21244,8 @@
             "incompatibleTraits": [],
             "name": "Vanguard Crown",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Vanguard Crown",
@@ -21193,7 +21265,8 @@
             "incompatibleTraits": [],
             "name": "Techie Crown",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Techie Crown",
@@ -21214,7 +21287,8 @@
             "incompatibleTraits": [],
             "name": "Golden Ox Crest",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Golden Ox Crest",
@@ -21237,7 +21311,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Alter Ego",
-            "tags": [],
+            "tags": [
+                "2-1"
+            ],
             "unique": false,
             "en_name": "Alter Ego",
             "texture": "{216504e8}",
@@ -21260,7 +21336,9 @@
             "incompatibleTraits": [],
             "name": "Tagging Spree",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1",
+                "3-2"
             ],
             "unique": false,
             "en_name": "Tagging Spree",
@@ -21298,7 +21376,8 @@
             "incompatibleTraits": [],
             "name": "Divinicorp Crest",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Divinicorp Crest",
@@ -21323,7 +21402,10 @@
             "incompatibleTraits": [],
             "name": "Lethal Rerouting",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Lethal Rerouting",
@@ -21378,7 +21460,8 @@
             "incompatibleTraits": [],
             "name": "Cypher Crest",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Cypher Crest",
@@ -21399,7 +21482,9 @@
             "incompatibleTraits": [],
             "name": "Techie Circlet",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Techie Circlet",
@@ -21415,7 +21500,7 @@
             "desc": "If you have @NumDivinicorp@ or fewer Divinicorp champions, their bonuses are increased by @BaseBonus*100@% + @BonusPerStage*100@% for each Stage. Gain a Rhaast and a Morgana.",
             "effects": {
                 "BaseBonus": 0.5,
-                "BonusPerStage": null,
+                "BonusPerStage": 0.10000000149011612,
                 "NumDivinicorp": 3
             },
             "from": null,
@@ -21424,7 +21509,10 @@
             "incompatibleTraits": [],
             "name": "Board of Directors",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Board of Directors",
@@ -21450,7 +21538,7 @@
                     "multiplier": "100",
                     "full_match": "@BonusPerStage*100@",
                     "hash": "f1d1efe7",
-                    "value": null
+                    "value": 0.1
                 }
             ],
             "texture": "{11cb793b}",
@@ -21470,7 +21558,8 @@
             "incompatibleTraits": [],
             "name": "Exotech Crest",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Exotech Crest",
@@ -21497,7 +21586,8 @@
             "name": "Golden Fleece+",
             "tags": [
                 "{24d36c27}",
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "3-2"
             ],
             "unique": false,
             "en_name": "Golden Fleece+",
@@ -21547,7 +21637,9 @@
             "incompatibleTraits": [],
             "name": "Anima Squad Circlet",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Anima Squad Circlet",
@@ -21568,7 +21660,9 @@
             "incompatibleTraits": [],
             "name": "Bastion Circlet",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Bastion Circlet",
@@ -21637,7 +21731,8 @@
             "incompatibleTraits": [],
             "name": "Freestyling",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Freestyling",
@@ -21667,7 +21762,8 @@
             "incompatibleTraits": [],
             "name": "Rapidfire Crown",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Rapidfire Crown",
@@ -21683,13 +21779,13 @@
             "desc": "Cyberbosses increase their score when they deal damage. When they reach the next high score gain bonus loot. Gain a Veigar and&nbsp;a&nbsp;Poppy.<br><br>@TFTUnitProperty.item:TFT14_Augment_Cyberbosses_Highscore_Tooltip@",
             "effects": {
                 "AttackSpeed": null,
-                "{be91a648}": null,
-                "{bf91a7db}": null,
-                "{c091a96e}": null,
-                "{c191ab01}": null,
-                "{c391ae27}": null,
-                "{c491afba}": null,
-                "{c591b14d}": null
+                "{be91a648}": 30000,
+                "{bf91a7db}": 60000,
+                "{c091a96e}": 90000,
+                "{c191ab01}": 125000,
+                "{c391ae27}": 1000,
+                "{c491afba}": 10000,
+                "{c591b14d}": 17500
             },
             "from": null,
             "icon": "ASSETS/Maps/TFT/Icons/Augments/Hexcore/HighScore_II.TFT_Set14.tex",
@@ -21697,7 +21793,8 @@
             "incompatibleTraits": [],
             "name": "New High Score",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "New High Score",
@@ -21721,7 +21818,9 @@
             "incompatibleTraits": [],
             "name": "Cyberdeck",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Cyberdeck",
@@ -21758,7 +21857,8 @@
             "incompatibleTraits": [],
             "name": "Slayer Crest",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Slayer Crest",
@@ -21779,7 +21879,9 @@
             "incompatibleTraits": [],
             "name": "Golden Ox Circlet",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Golden Ox Circlet",
@@ -21802,7 +21904,10 @@
             "incompatibleTraits": [],
             "name": "Trial Run",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Trial Run",
@@ -21826,7 +21931,8 @@
             "incompatibleTraits": [],
             "name": "10,000 IQ",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "3-2"
             ],
             "unique": false,
             "en_name": "10,000 IQ",
@@ -21863,7 +21969,8 @@
             "incompatibleTraits": [],
             "name": "Strategist Crest",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Strategist Crest",
@@ -21884,7 +21991,9 @@
             "incompatibleTraits": [],
             "name": "Bruiser Circlet",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Bruiser Circlet",
@@ -21908,7 +22017,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Button Mash",
-            "tags": [],
+            "tags": [
+                "2-1"
+            ],
             "unique": false,
             "en_name": "Button Mash",
             "texture": "{1db987b3}",
@@ -21928,7 +22039,8 @@
             "incompatibleTraits": [],
             "name": "Marksman Crest",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Marksman Crest",
@@ -21952,7 +22064,8 @@
             "incompatibleTraits": [],
             "name": "Memory Bank",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Memory Bank",
@@ -21993,7 +22106,10 @@
             "incompatibleTraits": [],
             "name": "Transistor",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Transistor",
@@ -22086,7 +22202,9 @@
             "incompatibleTraits": [],
             "name": "Slayer Circlet",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Slayer Circlet",
@@ -22109,7 +22227,8 @@
             "incompatibleTraits": [],
             "name": "Liquidate",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Liquidate",
@@ -22192,7 +22311,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Adaptive Strikes",
-            "tags": [],
+            "tags": [
+                "2-1"
+            ],
             "unique": false,
             "en_name": "Adaptive Strikes",
             "texture": "{c58850dc}",
@@ -22212,7 +22333,8 @@
             "incompatibleTraits": [],
             "name": "Street Demon Crown",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Street Demon Crown",
@@ -22236,7 +22358,10 @@
             "incompatibleTraits": [],
             "name": "Cower, Weaklings!",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Cower, Weaklings!",
@@ -22275,7 +22400,8 @@
             "incompatibleTraits": [],
             "name": "Syndicate Crown",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Syndicate Crown",
@@ -22319,7 +22445,8 @@
             "incompatibleTraits": [],
             "name": "Vanguard Crest",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Vanguard Crest",
@@ -22339,7 +22466,8 @@
             "incompatibleTraits": [],
             "name": "Syndicate Crest",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Syndicate Crest",
@@ -22360,7 +22488,9 @@
             "incompatibleTraits": [],
             "name": "BoomBot Circlet",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "BoomBot Circlet",
@@ -22381,7 +22511,8 @@
             "incompatibleTraits": [],
             "name": "Executioner Crown",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Executioner Crown",
@@ -22402,7 +22533,8 @@
             "incompatibleTraits": [],
             "name": "Bastion Crown",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Bastion Crown",
@@ -22425,7 +22557,8 @@
             "incompatibleTraits": [],
             "name": "Reinforcing Skeleture",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Reinforcing Skeleture",
@@ -22457,7 +22590,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "The Chug Bug",
-            "tags": [],
+            "tags": [
+                "2-1"
+            ],
             "unique": false,
             "en_name": "The Chug Bug",
             "variable_matches": [
@@ -22486,7 +22621,8 @@
             "incompatibleTraits": [],
             "name": "Exotech Crown",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Exotech Crown",
@@ -22546,7 +22682,8 @@
             "incompatibleTraits": [],
             "name": "BoomBot Crest",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "BoomBot Crest",
@@ -22567,7 +22704,9 @@
             "incompatibleTraits": [],
             "name": "Executioner Circlet",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Executioner Circlet",
@@ -22587,7 +22726,8 @@
             "incompatibleTraits": [],
             "name": "Anima Squad Crown",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Anima Squad Crown",
@@ -22608,7 +22748,9 @@
             "incompatibleTraits": [],
             "name": "Marksman Circlet",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Marksman Circlet",
@@ -22632,7 +22774,9 @@
             "incompatibleTraits": [],
             "name": "Hostile Takeover",
             "tags": [
-                "{3754d0ae}"
+                "{3754d0ae}",
+                "2-1",
+                "3-2"
             ],
             "unique": false,
             "en_name": "Hostile Takeover",
@@ -22680,7 +22824,10 @@
             "incompatibleTraits": [],
             "name": "Blue Battery III",
             "tags": [
-                "{a7b22c38}"
+                "{a7b22c38}",
+                "2-1",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Blue Battery III",
@@ -22848,7 +22995,8 @@
             "incompatibleTraits": [],
             "name": "Gargantuan Resolve",
             "tags": [
-                "{a7b22c38}"
+                "{a7b22c38}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Gargantuan Resolve",
@@ -22896,7 +23044,8 @@
             "incompatibleTraits": [],
             "name": "Unstable Evolution",
             "tags": [
-                "{a7b22c38}"
+                "{a7b22c38}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Unstable Evolution",
@@ -22948,7 +23097,8 @@
             "incompatibleTraits": [],
             "name": "Gargantuan Resolve",
             "tags": [
-                "{a7b22c38}"
+                "{a7b22c38}",
+                "3-2"
             ],
             "unique": false,
             "en_name": "Gargantuan Resolve",
@@ -22993,7 +23143,10 @@
             "incompatibleTraits": [],
             "name": "Scoped Weapons II",
             "tags": [
-                "{a7b22c38}"
+                "{a7b22c38}",
+                "2-1",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Scoped Weapons II",
@@ -23024,7 +23177,9 @@
             "incompatibleTraits": [],
             "name": "Titanic Strength",
             "tags": [
-                "{a7b22c38}"
+                "{a7b22c38}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Titanic Strength",
@@ -23062,7 +23217,8 @@
             "incompatibleTraits": [],
             "name": "All That Shimmers+",
             "tags": [
-                "{8fba48a3}"
+                "{8fba48a3}",
+                "3-2"
             ],
             "unique": false,
             "en_name": "All That Shimmers+",
@@ -23095,7 +23251,9 @@
             "incompatibleTraits": [],
             "name": "Item Collector II",
             "tags": [
-                "{807eed8a}"
+                "{807eed8a}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Item Collector II",
@@ -23150,7 +23308,10 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Item Collector I",
-            "tags": [],
+            "tags": [
+                "3-2",
+                "4-2"
+            ],
             "unique": false,
             "en_name": "Item Collector I",
             "variable_matches": [
@@ -23188,7 +23349,8 @@
             "incompatibleTraits": [],
             "name": "All That Shimmers",
             "tags": [
-                "{8fba48a3}"
+                "{8fba48a3}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "All That Shimmers",
@@ -23209,7 +23371,8 @@
             "incompatibleTraits": [],
             "name": "The Golden Egg",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "4-2"
             ],
             "unique": false,
             "en_name": "The Golden Egg",
@@ -23239,7 +23402,8 @@
             "incompatibleTraits": [],
             "name": "The Golden Egg",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "4-2"
             ],
             "unique": false,
             "en_name": "The Golden Egg",
@@ -23267,7 +23431,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Living Forge",
-            "tags": [],
+            "tags": [
+                "2-1"
+            ],
             "unique": false,
             "en_name": "Living Forge",
             "variable_matches": [
@@ -23294,7 +23460,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Salvage Bin",
-            "tags": [],
+            "tags": [
+                "2-1"
+            ],
             "unique": false,
             "en_name": "Salvage Bin",
             "variable_matches": [
@@ -23323,7 +23491,10 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Water Lotus I",
-            "tags": [],
+            "tags": [
+                "3-2",
+                "4-2"
+            ],
             "unique": false,
             "en_name": "Water Lotus I",
             "variable_matches": [
@@ -23368,7 +23539,8 @@
             "incompatibleTraits": [],
             "name": "Firesale",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "3-2"
             ],
             "unique": false,
             "en_name": "Firesale",
@@ -23404,7 +23576,10 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Team Building",
-            "tags": [],
+            "tags": [
+                "2-1",
+                "3-2"
+            ],
             "unique": false,
             "en_name": "Team Building",
             "variable_matches": [
@@ -23432,7 +23607,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Tiniest Titan",
-            "tags": [],
+            "tags": [
+                "2-1"
+            ],
             "unique": false,
             "en_name": "Tiniest Titan",
             "variable_matches": [
@@ -23466,7 +23643,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Young and Wild and Free",
-            "tags": [],
+            "tags": [
+                "2-1"
+            ],
             "unique": false,
             "en_name": "Young and Wild and Free",
             "variable_matches": [
@@ -23498,7 +23677,8 @@
             "name": "Tactician's Kitchen",
             "tags": [
                 "{8fba48a3}",
-                "{382a7131}"
+                "{382a7131}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Tactician's Kitchen",
@@ -23529,7 +23709,8 @@
             "incompatibleTraits": [],
             "name": "Hustler",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Hustler",
@@ -23567,7 +23748,9 @@
             "name": "Cybernetic Implants III",
             "tags": [
                 "{ee609993}",
-                "{807eed8a}"
+                "{807eed8a}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Cybernetic Implants III",
@@ -23609,7 +23792,10 @@
             "incompatibleTraits": [],
             "name": "Luden's Echo III",
             "tags": [
-                "{a7b22c38}"
+                "{a7b22c38}",
+                "2-1",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Luden's Echo III",
@@ -23653,7 +23839,9 @@
             "incompatibleTraits": [],
             "name": "Replication",
             "tags": [
-                "{8fba48a3}"
+                "{8fba48a3}",
+                "2-1",
+                "3-2"
             ],
             "unique": false,
             "en_name": "Replication",
@@ -23682,7 +23870,9 @@
             "incompatibleTraits": [],
             "name": "Lucky Gloves+",
             "tags": [
-                "{8fba48a3}"
+                "{8fba48a3}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Lucky Gloves+",
@@ -23713,7 +23903,9 @@
             "incompatibleTraits": [],
             "name": "Anger Issues",
             "tags": [
-                "{a7b22c38}"
+                "{a7b22c38}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Anger Issues",
@@ -23757,7 +23949,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Dummify",
-            "tags": [],
+            "tags": [
+                "3-2"
+            ],
             "unique": false,
             "en_name": "Dummify",
             "variable_matches": [
@@ -23796,7 +23990,10 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Trickster's Treat",
-            "tags": [],
+            "tags": [
+                "3-2",
+                "4-2"
+            ],
             "unique": false,
             "en_name": "Trickster's Treat",
             "variable_matches": [
@@ -23840,7 +24037,8 @@
             "incompatibleTraits": [],
             "name": "Patience is a Virtue",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Patience is a Virtue",
@@ -23862,8 +24060,8 @@
             "composition": [],
             "desc": "Gain a Rabadon's Deathcap. Deathcaps gain @AP@ Ability Power per @Takedowns@ takedowns the wearer gets.",
             "effects": {
-                "AP": null,
-                "TakeDowns": null
+                "AP": 1,
+                "TakeDowns": 4
             },
             "from": null,
             "icon": "ASSETS/Maps/TFT/Icons/Augments/Hexcore/DeadlierCaps_II.TFT_Set15.tex",
@@ -23871,7 +24069,8 @@
             "incompatibleTraits": [],
             "name": "Deadlier Caps",
             "tags": [
-                "{8fba48a3}"
+                "{8fba48a3}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Deadlier Caps",
@@ -23881,14 +24080,14 @@
                     "type": "variable",
                     "full_match": "@AP@",
                     "hash": "5b251bd4",
-                    "value": null
+                    "value": 1
                 },
                 {
                     "match": "Takedowns",
                     "type": "variable",
                     "full_match": "@Takedowns@",
                     "hash": "9fea86d7",
-                    "value": null
+                    "value": 4
                 }
             ],
             "texture": "{87f03b1b}",
@@ -23909,7 +24108,8 @@
             "incompatibleTraits": [],
             "name": "Vampiric Vitality",
             "tags": [
-                "{807eed8a}"
+                "{807eed8a}",
+                "3-2"
             ],
             "unique": false,
             "en_name": "Vampiric Vitality",
@@ -23949,7 +24149,9 @@
             "incompatibleTraits": [],
             "name": "Unleash The Beast",
             "tags": [
-                "{8fba48a3}"
+                "{8fba48a3}",
+                "2-1",
+                "3-2"
             ],
             "unique": false,
             "en_name": "Unleash The Beast",
@@ -23984,7 +24186,10 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Augmented Power",
-            "tags": [],
+            "tags": [
+                "2-1",
+                "3-2"
+            ],
             "unique": false,
             "en_name": "Augmented Power",
             "texture": "{a152d147}",
@@ -24004,7 +24209,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Scapegoat",
-            "tags": [],
+            "tags": [
+                "2-1"
+            ],
             "unique": false,
             "en_name": "Scapegoat",
             "variable_matches": [
@@ -24043,7 +24250,11 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Mess Hall",
-            "tags": [],
+            "tags": [
+                "2-1",
+                "3-2",
+                "4-2"
+            ],
             "unique": false,
             "en_name": "Mess Hall",
             "variable_matches": [
@@ -24086,7 +24297,9 @@
             "incompatibleTraits": [],
             "name": "Missed Connections",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Missed Connections",
@@ -24110,7 +24323,8 @@
             "name": "Scoreboard Scrapper",
             "tags": [
                 "{a7b22c38}",
-                "{807eed8a}"
+                "{807eed8a}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Scoreboard Scrapper",
@@ -24165,7 +24379,8 @@
             "incompatibleTraits": [],
             "name": "Reroll Transfer",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Reroll Transfer",
@@ -24209,7 +24424,10 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Bronze For Life II",
-            "tags": [],
+            "tags": [
+                "3-2",
+                "4-2"
+            ],
             "unique": false,
             "en_name": "Bronze For Life II",
             "variable_matches": [
@@ -24249,7 +24467,10 @@
             "name": "Crown's Will",
             "tags": [
                 "{8fba48a3}",
-                "{807eed8a}"
+                "{807eed8a}",
+                "2-1",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Crown's Will",
@@ -24292,7 +24513,9 @@
             "name": "Trifecta I",
             "tags": [
                 "{ee609993}",
-                "{807eed8a}"
+                "{807eed8a}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Trifecta I",
@@ -24358,7 +24581,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Tomb Raider II",
-            "tags": [],
+            "tags": [
+                "4-2"
+            ],
             "unique": false,
             "en_name": "Tomb Raider II",
             "variable_matches": [
@@ -24388,7 +24613,8 @@
             "incompatibleTraits": [],
             "name": "Wandering Trainer II",
             "tags": [
-                "{382a7131}"
+                "{382a7131}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Wandering Trainer II",
@@ -24426,7 +24652,9 @@
             "incompatibleTraits": [],
             "name": "Wise Spending",
             "tags": [
-                "{a7b22c38}"
+                "{a7b22c38}",
+                "2-1",
+                "3-2"
             ],
             "unique": false,
             "en_name": "Wise Spending",
@@ -24470,7 +24698,10 @@
             "name": "Flurry of Blows",
             "tags": [
                 "{ee609993}",
-                "{8fba48a3}"
+                "{8fba48a3}",
+                "2-1",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Flurry of Blows",
@@ -24498,7 +24729,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Fully Adapted",
-            "tags": [],
+            "tags": [
+                "2-1"
+            ],
             "unique": false,
             "en_name": "Fully Adapted",
             "texture": "{3388a1a6}",
@@ -24519,7 +24752,10 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Health is Wealth I",
-            "tags": [],
+            "tags": [
+                "3-2",
+                "4-2"
+            ],
             "unique": false,
             "en_name": "Health is Wealth I",
             "variable_matches": [
@@ -24563,7 +24799,8 @@
             "incompatibleTraits": [],
             "name": "Prismatic Pipeline",
             "tags": [
-                "{382a7131}"
+                "{382a7131}",
+                "3-2"
             ],
             "unique": false,
             "en_name": "Prismatic Pipeline",
@@ -24589,7 +24826,9 @@
             "incompatibleTraits": [],
             "name": "Trifecta II",
             "tags": [
-                "{807eed8a}"
+                "{807eed8a}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Trifecta II",
@@ -24666,7 +24905,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Chaotic Evolution",
-            "tags": [],
+            "tags": [
+                "2-1"
+            ],
             "unique": false,
             "en_name": "Chaotic Evolution",
             "variable_matches": [
@@ -24726,7 +24967,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Tomb Raider I",
-            "tags": [],
+            "tags": [
+                "4-2"
+            ],
             "unique": false,
             "en_name": "Tomb Raider I",
             "variable_matches": [
@@ -24753,7 +24996,9 @@
             "incompatibleTraits": [],
             "name": "One Buff, Two Buff",
             "tags": [
-                "{8fba48a3}"
+                "{8fba48a3}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "One Buff, Two Buff",
@@ -24775,7 +25020,9 @@
             "incompatibleTraits": [],
             "name": "Glass Cannon I",
             "tags": [
-                "{8e758f9d}"
+                "{8e758f9d}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Glass Cannon I",
@@ -24816,7 +25063,9 @@
             "incompatibleTraits": [],
             "name": "Piercing Lotus II",
             "tags": [
-                "{807eed8a}"
+                "{807eed8a}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Piercing Lotus II",
@@ -24863,7 +25112,9 @@
             "incompatibleTraits": [],
             "name": "Sated Spellweaver",
             "tags": [
-                "{807eed8a}"
+                "{807eed8a}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Sated Spellweaver",
@@ -24908,7 +25159,11 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Pandora's Bench",
-            "tags": [],
+            "tags": [
+                "2-1",
+                "3-2",
+                "4-2"
+            ],
             "unique": false,
             "en_name": "Pandora's Bench",
             "variable_matches": [
@@ -24944,7 +25199,11 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Piercing Sight",
-            "tags": [],
+            "tags": [
+                "2-1",
+                "3-2",
+                "4-2"
+            ],
             "unique": false,
             "en_name": "Piercing Sight",
             "variable_matches": [
@@ -24990,7 +25249,9 @@
             "incompatibleTraits": [],
             "name": "Manaflow I",
             "tags": [
-                "{ee609993}"
+                "{ee609993}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Manaflow I",
@@ -25020,7 +25281,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Max Cap",
-            "tags": [],
+            "tags": [
+                "4-2"
+            ],
             "unique": false,
             "en_name": "Max Cap",
             "variable_matches": [
@@ -25057,7 +25320,10 @@
             "incompatibleTraits": [],
             "name": "Upward Mobility",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "2-1",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Upward Mobility",
@@ -25096,7 +25362,8 @@
             "incompatibleTraits": [],
             "name": "Another One!",
             "tags": [
-                "{8fba48a3}"
+                "{8fba48a3}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Another One!",
@@ -25126,7 +25393,9 @@
             "incompatibleTraits": [],
             "name": "Cybernetic Bulk III",
             "tags": [
-                "{807eed8a}"
+                "{807eed8a}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Cybernetic Bulk III",
@@ -25156,7 +25425,9 @@
             "incompatibleTraits": [],
             "name": "Big Friend I",
             "tags": [
-                "{807eed8a}"
+                "{807eed8a}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Big Friend I",
@@ -25193,7 +25464,8 @@
             "incompatibleTraits": [],
             "name": "Explosive Growth+",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Explosive Growth+",
@@ -25230,7 +25502,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Aim For The Top!",
-            "tags": [],
+            "tags": [
+                "2-1"
+            ],
             "unique": false,
             "en_name": "Aim For The Top!",
             "variable_matches": [
@@ -25266,7 +25540,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Rigged Shop+",
-            "tags": [],
+            "tags": [
+                "3-2"
+            ],
             "unique": false,
             "en_name": "Rigged Shop+",
             "variable_matches": [
@@ -25301,7 +25577,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Silver Destiny",
-            "tags": [],
+            "tags": [
+                "2-1"
+            ],
             "unique": false,
             "en_name": "Silver Destiny",
             "variable_matches": [
@@ -25331,7 +25609,8 @@
             "incompatibleTraits": [],
             "name": "Explosive Growth",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "3-2"
             ],
             "unique": false,
             "en_name": "Explosive Growth",
@@ -25368,7 +25647,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Pumping Up I",
-            "tags": [],
+            "tags": [
+                "2-1"
+            ],
             "unique": false,
             "en_name": "Pumping Up I",
             "variable_matches": [
@@ -25406,7 +25687,9 @@
             "incompatibleTraits": [],
             "name": "Tower Defense",
             "tags": [
-                "{ee609993}"
+                "{ee609993}",
+                "2-1",
+                "3-2"
             ],
             "unique": false,
             "en_name": "Tower Defense",
@@ -25425,7 +25708,10 @@
             "incompatibleTraits": [],
             "name": "Psychic Forge",
             "tags": [
-                "{8fba48a3}"
+                "{8fba48a3}",
+                "2-1",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Psychic Forge",
@@ -25456,7 +25742,8 @@
             "name": "Starry Night+",
             "tags": [
                 "{24d36c27}",
-                "{ee609993}"
+                "{ee609993}",
+                "3-2"
             ],
             "unique": false,
             "en_name": "Starry Night+",
@@ -25486,7 +25773,11 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Best Friends II",
-            "tags": [],
+            "tags": [
+                "2-1",
+                "3-2",
+                "4-2"
+            ],
             "unique": false,
             "en_name": "Best Friends II",
             "variable_matches": [
@@ -25523,7 +25814,8 @@
             "incompatibleTraits": [],
             "name": "Cluttered Mind",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Cluttered Mind",
@@ -25559,7 +25851,11 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Best Friends I",
-            "tags": [],
+            "tags": [
+                "2-1",
+                "3-2",
+                "4-2"
+            ],
             "unique": false,
             "en_name": "Best Friends I",
             "variable_matches": [
@@ -25594,7 +25890,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Silver Destiny+",
-            "tags": [],
+            "tags": [
+                "3-2"
+            ],
             "unique": false,
             "en_name": "Silver Destiny+",
             "variable_matches": [
@@ -25621,7 +25919,9 @@
             "incompatibleTraits": [],
             "name": "Heavy Is The Crown",
             "tags": [
-                "{8fba48a3}"
+                "{8fba48a3}",
+                "2-1",
+                "3-2"
             ],
             "unique": false,
             "en_name": "Heavy Is The Crown",
@@ -25642,7 +25942,8 @@
             "incompatibleTraits": [],
             "name": "Hard Commit",
             "tags": [
-                "{382a7131}"
+                "{382a7131}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Hard Commit",
@@ -25674,7 +25975,9 @@
             "name": "Buried Treasures III",
             "tags": [
                 "{8fba48a3}",
-                "{382a7131}"
+                "{382a7131}",
+                "2-1",
+                "3-2"
             ],
             "unique": false,
             "en_name": "Buried Treasures III",
@@ -25703,7 +26006,11 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Last Second Save",
-            "tags": [],
+            "tags": [
+                "2-1",
+                "3-2",
+                "4-2"
+            ],
             "unique": false,
             "en_name": "Last Second Save",
             "variable_matches": [
@@ -25740,7 +26047,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "A Story of Seven",
-            "tags": [],
+            "tags": [
+                "2-1"
+            ],
             "unique": false,
             "en_name": "A Story of Seven",
             "variable_matches": [
@@ -25770,7 +26079,10 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Howling Gale",
-            "tags": [],
+            "tags": [
+                "3-2",
+                "4-2"
+            ],
             "unique": false,
             "en_name": "Howling Gale",
             "variable_matches": [
@@ -25799,7 +26111,10 @@
             "incompatibleTraits": [],
             "name": "Healing Orbs I",
             "tags": [
-                "{807eed8a}"
+                "{807eed8a}",
+                "2-1",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Healing Orbs I",
@@ -25827,7 +26142,8 @@
             "name": "Pirates",
             "tags": [
                 "{24d36c27}",
-                "{a7b22c38}"
+                "{a7b22c38}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Pirates",
@@ -25847,7 +26163,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Table Scraps",
-            "tags": [],
+            "tags": [
+                "2-1"
+            ],
             "unique": false,
             "en_name": "Table Scraps",
             "variable_matches": [
@@ -25887,7 +26205,9 @@
             "name": "Climb The Ladder II",
             "tags": [
                 "{ee609993}",
-                "{807eed8a}"
+                "{807eed8a}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Climb The Ladder II",
@@ -25938,7 +26258,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "A Golden Quest",
-            "tags": [],
+            "tags": [
+                "3-2"
+            ],
             "unique": false,
             "en_name": "A Golden Quest",
             "variable_matches": [
@@ -25969,7 +26291,10 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Climb The Ladder I",
-            "tags": [],
+            "tags": [
+                "3-2",
+                "4-2"
+            ],
             "unique": false,
             "en_name": "Climb The Ladder I",
             "variable_matches": [
@@ -26021,7 +26346,8 @@
             "incompatibleTraits": [],
             "name": "Lucky Gloves",
             "tags": [
-                "{8fba48a3}"
+                "{8fba48a3}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Lucky Gloves",
@@ -26049,7 +26375,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Gold Destiny",
-            "tags": [],
+            "tags": [
+                "2-1"
+            ],
             "unique": false,
             "en_name": "Gold Destiny",
             "variable_matches": [
@@ -26080,7 +26408,8 @@
             "incompatibleTraits": [],
             "name": "Diversified Portfolio+",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "3-2"
             ],
             "unique": false,
             "en_name": "Diversified Portfolio+",
@@ -26125,7 +26454,10 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Coronation",
-            "tags": [],
+            "tags": [
+                "3-2",
+                "4-2"
+            ],
             "unique": false,
             "en_name": "Coronation",
             "variable_matches": [
@@ -26171,7 +26503,9 @@
             "incompatibleTraits": [],
             "name": "Teaming Up I",
             "tags": [
-                "{8fba48a3}"
+                "{8fba48a3}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Teaming Up I",
@@ -26209,7 +26543,8 @@
             "incompatibleTraits": [],
             "name": "Diversified Portfolio",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Diversified Portfolio",
@@ -26254,7 +26589,9 @@
             "incompatibleTraits": [],
             "name": "Lunch Money",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "2-1",
+                "3-2"
             ],
             "unique": false,
             "en_name": "Lunch Money",
@@ -26292,7 +26629,9 @@
             "incompatibleTraits": [],
             "name": "Woodland Charm",
             "tags": [
-                "{a7b22c38}"
+                "{a7b22c38}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Woodland Charm",
@@ -26330,7 +26669,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Nine Lives",
-            "tags": [],
+            "tags": [
+                "2-1"
+            ],
             "unique": false,
             "en_name": "Nine Lives",
             "variable_matches": [
@@ -26366,7 +26707,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Spoils of War I",
-            "tags": [],
+            "tags": [
+                "2-1"
+            ],
             "unique": false,
             "en_name": "Spoils of War I",
             "variable_matches": [
@@ -26397,7 +26740,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Worth the Wait",
-            "tags": [],
+            "tags": [
+                "2-1"
+            ],
             "unique": false,
             "en_name": "Worth the Wait",
             "variable_matches": [
@@ -26433,7 +26778,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Branching Out+",
-            "tags": [],
+            "tags": [
+                "3-2"
+            ],
             "unique": false,
             "en_name": "Branching Out+",
             "type": "regular"
@@ -26455,7 +26802,9 @@
             "incompatibleTraits": [],
             "name": "Chemtech Overdrive",
             "tags": [
-                "{a7b22c38}"
+                "{a7b22c38}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Chemtech Overdrive",
@@ -26507,7 +26856,10 @@
             "incompatibleTraits": [],
             "name": "Item Grab Bag I",
             "tags": [
-                "{8fba48a3}"
+                "{8fba48a3}",
+                "2-1",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Item Grab Bag I",
@@ -26537,7 +26889,8 @@
             "incompatibleTraits": [],
             "name": "Going Long",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Going Long",
@@ -26579,7 +26932,8 @@
             "incompatibleTraits": [],
             "name": "Expected Unexpectedness",
             "tags": [
-                "{382a7131}"
+                "{382a7131}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Expected Unexpectedness",
@@ -26612,7 +26966,8 @@
             "name": "Dominance",
             "tags": [
                 "{24d36c27}",
-                "{a7b22c38}"
+                "{a7b22c38}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Dominance",
@@ -26657,7 +27012,8 @@
             "incompatibleTraits": [],
             "name": "Placebo+",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "3-2"
             ],
             "unique": false,
             "en_name": "Placebo+",
@@ -26696,7 +27052,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Quiet Quitting",
-            "tags": [],
+            "tags": [
+                "3-2"
+            ],
             "unique": false,
             "en_name": "Quiet Quitting",
             "variable_matches": [
@@ -26732,7 +27090,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Hold The Line",
-            "tags": [],
+            "tags": [
+                "4-2"
+            ],
             "unique": false,
             "en_name": "Hold The Line",
             "variable_matches": [
@@ -26773,7 +27133,8 @@
             "name": "Tactician's Kitchen",
             "tags": [
                 "{8fba48a3}",
-                "{382a7131}"
+                "{382a7131}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Tactician's Kitchen",
@@ -26805,7 +27166,10 @@
             "incompatibleTraits": [],
             "name": "Spirit Link",
             "tags": [
-                "{807eed8a}"
+                "{807eed8a}",
+                "2-1",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Spirit Link",
@@ -26851,7 +27215,11 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Sunfire Board",
-            "tags": [],
+            "tags": [
+                "2-1",
+                "3-2",
+                "4-2"
+            ],
             "unique": false,
             "en_name": "Sunfire Board",
             "variable_matches": [
@@ -26893,7 +27261,8 @@
             "incompatibleTraits": [],
             "name": "Iron Assets",
             "tags": [
-                "{8fba48a3}"
+                "{8fba48a3}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Iron Assets",
@@ -26914,7 +27283,7 @@
             "composition": [],
             "desc": "Your team gains @Health@ Health and size for each time you've rolled this game.<br><br><rules>Rolls: @TFTUnitProperty.Item:TFT_Augment_HeftyRolls_NumRolls@ Health:@TFTUnitProperty.Item:TFT_Augment_HeftyRolls_HealthBonus@</rules>",
             "effects": {
-                "Health": null,
+                "Health": 7,
                 "NumRerolls": null,
                 "Size": 0.019999999552965164,
                 "{3a4f45ba}": 0.800000011920929
@@ -26924,7 +27293,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Hefty Rolls",
-            "tags": [],
+            "tags": [
+                "2-1"
+            ],
             "unique": false,
             "en_name": "Hefty Rolls",
             "variable_matches": [
@@ -26933,7 +27304,7 @@
                     "type": "variable",
                     "full_match": "@Health@",
                     "hash": "6b98ed8f",
-                    "value": null
+                    "value": 7
                 }
             ],
             "texture": "{c1f24d46}",
@@ -26953,7 +27324,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Beggars Can Be Choosers",
-            "tags": [],
+            "tags": [
+                "2-1"
+            ],
             "unique": false,
             "en_name": "Beggars Can Be Choosers",
             "variable_matches": [
@@ -26989,7 +27362,9 @@
             "incompatibleTraits": [],
             "name": "Think Fast",
             "tags": [
-                "{a7b22c38}"
+                "{a7b22c38}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Think Fast",
@@ -27020,7 +27395,9 @@
             "incompatibleTraits": [],
             "name": "Blazing Soul II",
             "tags": [
-                "{807eed8a}"
+                "{807eed8a}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Blazing Soul II",
@@ -27064,7 +27441,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Gold Destiny+",
-            "tags": [],
+            "tags": [
+                "3-2"
+            ],
             "unique": false,
             "en_name": "Gold Destiny+",
             "variable_matches": [
@@ -27097,7 +27476,10 @@
             "name": "Cloning Facility",
             "tags": [
                 "{8e758f9d}",
-                "{807eed8a}"
+                "{807eed8a}",
+                "2-1",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Cloning Facility",
@@ -27136,7 +27518,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Hard Bargain",
-            "tags": [],
+            "tags": [
+                "2-1"
+            ],
             "unique": false,
             "en_name": "Hard Bargain",
             "variable_matches": [
@@ -27173,7 +27557,8 @@
             "incompatibleTraits": [],
             "name": "AFK",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "AFK",
@@ -27210,7 +27595,8 @@
             "incompatibleTraits": [],
             "name": "Hedge Fund",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Hedge Fund",
@@ -27248,7 +27634,11 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Backup Dancers",
-            "tags": [],
+            "tags": [
+                "2-1",
+                "3-2",
+                "4-2"
+            ],
             "unique": false,
             "en_name": "Backup Dancers",
             "variable_matches": [
@@ -27300,7 +27690,8 @@
             "name": "Two Much Value",
             "tags": [
                 "{24d36c27}",
-                "{ee609993}"
+                "{ee609993}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Two Much Value",
@@ -27344,7 +27735,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Heroic Grab Bag+",
-            "tags": [],
+            "tags": [
+                "3-2"
+            ],
             "unique": false,
             "en_name": "Heroic Grab Bag+",
             "variable_matches": [
@@ -27382,7 +27775,10 @@
             "incompatibleTraits": [],
             "name": "Share the Spotlight",
             "tags": [
-                "{a7b22c38}"
+                "{a7b22c38}",
+                "2-1",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Share the Spotlight",
@@ -27428,7 +27824,10 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Plot Armor",
-            "tags": [],
+            "tags": [
+                "3-2",
+                "4-2"
+            ],
             "unique": false,
             "en_name": "Plot Armor",
             "variable_matches": [
@@ -27472,7 +27871,10 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Pocket Recombobulator",
-            "tags": [],
+            "tags": [
+                "2-1",
+                "3-2"
+            ],
             "unique": false,
             "en_name": "Pocket Recombobulator",
             "variable_matches": [
@@ -27509,7 +27911,10 @@
             "name": "Long Distance Pals",
             "tags": [
                 "{8e758f9d}",
-                "{807eed8a}"
+                "{807eed8a}",
+                "2-1",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Long Distance Pals",
@@ -27540,7 +27945,8 @@
             "incompatibleTraits": [],
             "name": "Cruel Pact",
             "tags": [
-                "{a7b22c38}"
+                "{a7b22c38}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Cruel Pact",
@@ -27576,7 +27982,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Heroic Grab Bag++",
-            "tags": [],
+            "tags": [
+                "4-2"
+            ],
             "unique": false,
             "en_name": "Heroic Grab Bag++",
             "variable_matches": [
@@ -27613,7 +28021,10 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Water Lotus II",
-            "tags": [],
+            "tags": [
+                "3-2",
+                "4-2"
+            ],
             "unique": false,
             "en_name": "Water Lotus II",
             "variable_matches": [
@@ -27656,7 +28067,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Salvage Bin",
-            "tags": [],
+            "tags": [
+                "2-1"
+            ],
             "unique": false,
             "en_name": "Salvage Bin",
             "variable_matches": [
@@ -27684,7 +28097,9 @@
             "incompatibleTraits": [],
             "name": "Radiant Refactor",
             "tags": [
-                "{807eed8a}"
+                "{807eed8a}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Radiant Refactor",
@@ -27715,7 +28130,8 @@
             "incompatibleTraits": [],
             "name": "Patient Study",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Patient Study",
@@ -27751,7 +28167,9 @@
             "incompatibleTraits": [],
             "name": "High End Shopping II",
             "tags": [
-                "{a7b22c38}"
+                "{a7b22c38}",
+                "2-1",
+                "3-2"
             ],
             "unique": false,
             "en_name": "High End Shopping II",
@@ -27782,7 +28200,8 @@
             "incompatibleTraits": [],
             "name": "Slammin'",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Slammin'",
@@ -27821,7 +28240,8 @@
             "incompatibleTraits": [],
             "name": "Endless Hordes",
             "tags": [
-                "{a7b22c38}"
+                "{a7b22c38}",
+                "3-2"
             ],
             "unique": false,
             "en_name": "Endless Hordes",
@@ -27866,7 +28286,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Investment Strategy II",
-            "tags": [],
+            "tags": [
+                "2-1"
+            ],
             "unique": false,
             "en_name": "Investment Strategy II",
             "variable_matches": [
@@ -27910,7 +28332,9 @@
             "incompatibleTraits": [],
             "name": "Bronze For Life I",
             "tags": [
-                "{ee609993}"
+                "{ee609993}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Bronze For Life I",
@@ -27940,7 +28364,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Investment Strategy I",
-            "tags": [],
+            "tags": [
+                "2-1"
+            ],
             "unique": false,
             "en_name": "Investment Strategy I",
             "variable_matches": [
@@ -27971,7 +28397,9 @@
             "incompatibleTraits": [],
             "name": "High Voltage",
             "tags": [
-                "{8fba48a3}"
+                "{8fba48a3}",
+                "2-1",
+                "3-2"
             ],
             "unique": false,
             "en_name": "High Voltage",
@@ -28017,7 +28445,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Solo Leveling",
-            "tags": [],
+            "tags": [
+                "2-1"
+            ],
             "unique": false,
             "en_name": "Solo Leveling",
             "variable_matches": [
@@ -28052,8 +28482,8 @@
             "composition": [],
             "desc": "Earn a locked chest each Stage between now and Stage @MaxNumChests@. You can unlock each chest when you spend @GoldNeededPerChest@ Gold on shop rerolls. These chests persist until opened.",
             "effects": {
-                "GoldNeededPerChest": null,
-                "MaxNumChests": null
+                "GoldNeededPerChest": 20,
+                "MaxNumChests": 6
             },
             "from": null,
             "icon": "ASSETS/Maps/TFT/Icons/Augments/Hexcore/TreasureHunt_II.TFT_Set15.tex",
@@ -28061,7 +28491,8 @@
             "incompatibleTraits": [],
             "name": "Treasure Hunt",
             "tags": [
-                "{8fba48a3}"
+                "{8fba48a3}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Treasure Hunt",
@@ -28071,14 +28502,14 @@
                     "type": "variable",
                     "full_match": "@MaxNumChests@",
                     "hash": "b5870d35",
-                    "value": null
+                    "value": 6
                 },
                 {
                     "match": "GoldNeededPerChest",
                     "type": "variable",
                     "full_match": "@GoldNeededPerChest@",
                     "hash": "bc753de6",
-                    "value": null
+                    "value": 20
                 }
             ],
             "texture": "{f437aba6}",
@@ -28101,7 +28532,8 @@
             "name": "Superstars II",
             "tags": [
                 "{ee609993}",
-                "{807eed8a}"
+                "{807eed8a}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Superstars II",
@@ -28149,7 +28581,8 @@
             "incompatibleTraits": [],
             "name": "Endless Hordes +",
             "tags": [
-                "{a7b22c38}"
+                "{a7b22c38}",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Endless Hordes +",
@@ -28191,7 +28624,8 @@
             "incompatibleTraits": [],
             "name": "Two Trick",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Two Trick",
@@ -28214,7 +28648,9 @@
             "incompatibleTraits": [],
             "name": "Blazing Soul I",
             "tags": [
-                "{807eed8a}"
+                "{807eed8a}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Blazing Soul I",
@@ -28260,7 +28696,9 @@
             "incompatibleTraits": [],
             "name": "Find Your Center",
             "tags": [
-                "{8e758f9d}"
+                "{8e758f9d}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Find Your Center",
@@ -28299,7 +28737,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Good For Something I",
-            "tags": [],
+            "tags": [
+                "2-1"
+            ],
             "unique": false,
             "en_name": "Good For Something I",
             "variable_matches": [
@@ -28335,7 +28775,10 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Salvage Bin+",
-            "tags": [],
+            "tags": [
+                "3-2",
+                "4-2"
+            ],
             "unique": false,
             "en_name": "Salvage Bin+",
             "variable_matches": [
@@ -28363,7 +28806,11 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Keepers I",
-            "tags": [],
+            "tags": [
+                "2-1",
+                "3-2",
+                "4-2"
+            ],
             "unique": false,
             "en_name": "Keepers I",
             "variable_matches": [
@@ -28401,7 +28848,8 @@
             "name": "Forward Thinking",
             "tags": [
                 "{24d36c27}",
-                "{ee609993}"
+                "{ee609993}",
+                "3-2"
             ],
             "unique": false,
             "en_name": "Forward Thinking",
@@ -28438,7 +28886,11 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Keepers II",
-            "tags": [],
+            "tags": [
+                "2-1",
+                "3-2",
+                "4-2"
+            ],
             "unique": false,
             "en_name": "Keepers II",
             "variable_matches": [
@@ -28475,7 +28927,8 @@
             "incompatibleTraits": [],
             "name": "Flexible",
             "tags": [
-                "{382a7131}"
+                "{382a7131}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Flexible",
@@ -28514,7 +28967,8 @@
             "incompatibleTraits": [],
             "name": "Restart Mission",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "3-2"
             ],
             "unique": false,
             "en_name": "Restart Mission",
@@ -28559,7 +29013,8 @@
             "incompatibleTraits": [],
             "name": "Duo Queue",
             "tags": [
-                "{8fba48a3}"
+                "{8fba48a3}",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Duo Queue",
@@ -28599,7 +29054,9 @@
             "incompatibleTraits": [],
             "name": "Preparation II",
             "tags": [
-                "{807eed8a}"
+                "{807eed8a}",
+                "2-1",
+                "3-2"
             ],
             "unique": false,
             "en_name": "Preparation II",
@@ -28657,7 +29114,11 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Blood Rage",
-            "tags": [],
+            "tags": [
+                "2-1",
+                "3-2",
+                "4-2"
+            ],
             "unique": false,
             "en_name": "Blood Rage",
             "variable_matches": [
@@ -28703,7 +29164,11 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Blistering Strikes",
-            "tags": [],
+            "tags": [
+                "2-1",
+                "3-2",
+                "4-2"
+            ],
             "unique": false,
             "en_name": "Blistering Strikes",
             "variable_matches": [
@@ -28747,7 +29212,8 @@
             "incompatibleTraits": [],
             "name": "Slammin'+",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "3-2"
             ],
             "unique": false,
             "en_name": "Slammin'+",
@@ -28791,7 +29257,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Level Up!",
-            "tags": [],
+            "tags": [
+                "2-1"
+            ],
             "unique": false,
             "en_name": "Level Up!",
             "variable_matches": [
@@ -28826,7 +29294,11 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Second Wind I",
-            "tags": [],
+            "tags": [
+                "2-1",
+                "3-2",
+                "4-2"
+            ],
             "unique": false,
             "en_name": "Second Wind I",
             "variable_matches": [
@@ -28862,7 +29334,8 @@
             "incompatibleTraits": [],
             "name": "An Exalted Adventure",
             "tags": [
-                "{382a7131}"
+                "{382a7131}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "An Exalted Adventure",
@@ -28893,7 +29366,9 @@
             "incompatibleTraits": [],
             "name": "Stand United I",
             "tags": [
-                "{807eed8a}"
+                "{807eed8a}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Stand United I",
@@ -28930,7 +29405,8 @@
             "incompatibleTraits": [],
             "name": "Stars are Born",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Stars are Born",
@@ -28959,7 +29435,9 @@
             "incompatibleTraits": [],
             "name": "Binary Airdrop",
             "tags": [
-                "{a7b22c38}"
+                "{a7b22c38}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Binary Airdrop",
@@ -28990,7 +29468,8 @@
             "incompatibleTraits": [],
             "name": "One, Two, Five!",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "4-2"
             ],
             "unique": false,
             "en_name": "One, Two, Five!",
@@ -29032,7 +29511,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Silver Spoon",
-            "tags": [],
+            "tags": [
+                "2-1"
+            ],
             "unique": false,
             "en_name": "Silver Spoon",
             "variable_matches": [
@@ -29061,7 +29542,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Care Package",
-            "tags": [],
+            "tags": [
+                "3-2"
+            ],
             "unique": false,
             "en_name": "Care Package",
             "variable_matches": [
@@ -29093,7 +29576,9 @@
             "name": "Calculated Enhancement",
             "tags": [
                 "{ee609993}",
-                "{807eed8a}"
+                "{807eed8a}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Calculated Enhancement",
@@ -29139,7 +29624,8 @@
             "incompatibleTraits": [],
             "name": "Epoch+",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "3-2"
             ],
             "unique": false,
             "en_name": "Epoch+",
@@ -29175,7 +29661,8 @@
             "name": "Final Polish",
             "tags": [
                 "{24d36c27}",
-                "{8fba48a3}"
+                "{8fba48a3}",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Final Polish",
@@ -29197,7 +29684,8 @@
             "incompatibleTraits": [],
             "name": "Survivor",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Survivor",
@@ -29235,7 +29723,10 @@
             "incompatibleTraits": [],
             "name": "Axiom Arc III",
             "tags": [
-                "{a7b22c38}"
+                "{a7b22c38}",
+                "2-1",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Axiom Arc III",
@@ -29266,7 +29757,10 @@
             "name": "Immovable Object",
             "tags": [
                 "{8e758f9d}",
-                "{807eed8a}"
+                "{807eed8a}",
+                "2-1",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Immovable Object",
@@ -29299,7 +29793,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Aura Farming",
-            "tags": [],
+            "tags": [
+                "2-1"
+            ],
             "unique": false,
             "en_name": "Aura Farming",
             "variable_matches": [
@@ -29350,7 +29846,9 @@
             "incompatibleTraits": [],
             "name": "Belt Overflow",
             "tags": [
-                "{8fba48a3}"
+                "{8fba48a3}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Belt Overflow",
@@ -29388,7 +29886,8 @@
             "incompatibleTraits": [],
             "name": "Ones Twos Three",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Ones Twos Three",
@@ -29424,7 +29923,10 @@
             "incompatibleTraits": [],
             "name": "Support Cache",
             "tags": [
-                "{8fba48a3}"
+                "{8fba48a3}",
+                "2-1",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Support Cache",
@@ -29455,7 +29957,8 @@
             "incompatibleTraits": [],
             "name": "Eye For An Eye",
             "tags": [
-                "{8fba48a3}"
+                "{8fba48a3}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Eye For An Eye",
@@ -29495,7 +29998,10 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Tesla Coil",
-            "tags": [],
+            "tags": [
+                "3-2",
+                "4-2"
+            ],
             "unique": false,
             "en_name": "Tesla Coil",
             "variable_matches": [
@@ -29554,7 +30060,8 @@
             "incompatibleTraits": [],
             "name": "Shopping Spree",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Shopping Spree",
@@ -29590,7 +30097,8 @@
             "incompatibleTraits": [],
             "name": "Crafted Crafting",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Crafted Crafting",
@@ -29620,7 +30128,11 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Lit Fuse",
-            "tags": [],
+            "tags": [
+                "2-1",
+                "3-2",
+                "4-2"
+            ],
             "unique": false,
             "en_name": "Lit Fuse",
             "variable_matches": [
@@ -29657,7 +30169,8 @@
             "incompatibleTraits": [],
             "name": "Cursed Crown",
             "tags": [
-                "{a7b22c38}"
+                "{a7b22c38}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Cursed Crown",
@@ -29694,7 +30207,8 @@
             "incompatibleTraits": [],
             "name": "Raining Gold+",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "3-2"
             ],
             "unique": false,
             "en_name": "Raining Gold+",
@@ -29729,7 +30243,8 @@
             "incompatibleTraits": [],
             "name": "Component Buffet",
             "tags": [
-                "{8fba48a3}"
+                "{8fba48a3}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Component Buffet",
@@ -29750,7 +30265,8 @@
             "incompatibleTraits": [],
             "name": "Prizefighter",
             "tags": [
-                "{8fba48a3}"
+                "{8fba48a3}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Prizefighter",
@@ -29787,7 +30303,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Heroic Grab Bag",
-            "tags": [],
+            "tags": [
+                "2-1"
+            ],
             "unique": false,
             "en_name": "Heroic Grab Bag",
             "variable_matches": [
@@ -29824,7 +30342,9 @@
             "incompatibleTraits": [],
             "name": "Exclusive Customization",
             "tags": [
-                "{8fba48a3}"
+                "{8fba48a3}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Exclusive Customization",
@@ -29857,7 +30377,9 @@
             "incompatibleTraits": [],
             "name": "Preparation I",
             "tags": [
-                "{807eed8a}"
+                "{807eed8a}",
+                "2-1",
+                "3-2"
             ],
             "unique": false,
             "en_name": "Preparation I",
@@ -29917,7 +30439,8 @@
             "incompatibleTraits": [],
             "name": "Invested++",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Invested++",
@@ -29969,7 +30492,9 @@
             "incompatibleTraits": [],
             "name": "Wand Overflow",
             "tags": [
-                "{8fba48a3}"
+                "{8fba48a3}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Wand Overflow",
@@ -30004,7 +30529,10 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Roll The Dice",
-            "tags": [],
+            "tags": [
+                "3-2",
+                "4-2"
+            ],
             "unique": false,
             "en_name": "Roll The Dice",
             "type": "regular"
@@ -30027,7 +30555,8 @@
             "incompatibleTraits": [],
             "name": "Greater Moonlight",
             "tags": [
-                "{807eed8a}"
+                "{807eed8a}",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Greater Moonlight",
@@ -30073,7 +30602,9 @@
             "incompatibleTraits": [],
             "name": "Ascension",
             "tags": [
-                "{807eed8a}"
+                "{807eed8a}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Ascension",
@@ -30109,7 +30640,9 @@
             "incompatibleTraits": [],
             "name": "Lineup",
             "tags": [
-                "{8e758f9d}"
+                "{8e758f9d}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Lineup",
@@ -30140,7 +30673,10 @@
             "incompatibleTraits": [],
             "name": "Pandora's Items II",
             "tags": [
-                "{8fba48a3}"
+                "{8fba48a3}",
+                "2-1",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Pandora's Items II",
@@ -30171,7 +30707,9 @@
             "name": "Glass Cannon II",
             "tags": [
                 "{8e758f9d}",
-                "{807eed8a}"
+                "{807eed8a}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Glass Cannon II",
@@ -30209,7 +30747,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Recombobulator",
-            "tags": [],
+            "tags": [
+                "3-2"
+            ],
             "unique": false,
             "en_name": "Recombobulator",
             "variable_matches": [
@@ -30239,7 +30779,8 @@
             "incompatibleTraits": [],
             "name": "Over Encumbered",
             "tags": [
-                "{8fba48a3}"
+                "{8fba48a3}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Over Encumbered",
@@ -30280,7 +30821,9 @@
             "name": "Little Buddies",
             "tags": [
                 "{ee609993}",
-                "{807eed8a}"
+                "{807eed8a}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Little Buddies",
@@ -30318,7 +30861,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Efficient Shopper",
-            "tags": [],
+            "tags": [
+                "2-1"
+            ],
             "unique": false,
             "en_name": "Efficient Shopper",
             "variable_matches": [
@@ -30351,7 +30896,9 @@
             "incompatibleTraits": [],
             "name": "Overheal",
             "tags": [
-                "{807eed8a}"
+                "{807eed8a}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Overheal",
@@ -30401,7 +30948,9 @@
             "incompatibleTraits": [],
             "name": "Thorn-Plated Armor",
             "tags": [
-                "{8fba48a3}"
+                "{8fba48a3}",
+                "2-1",
+                "3-2"
             ],
             "unique": false,
             "en_name": "Thorn-Plated Armor",
@@ -30448,7 +30997,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Time Skip",
-            "tags": [],
+            "tags": [
+                "2-1"
+            ],
             "unique": false,
             "en_name": "Time Skip",
             "variable_matches": [
@@ -30485,7 +31036,8 @@
             "incompatibleTraits": [],
             "name": "Pumping Up III",
             "tags": [
-                "{807eed8a}"
+                "{807eed8a}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Pumping Up III",
@@ -30522,7 +31074,8 @@
             "incompatibleTraits": [],
             "name": "Pumping Up II",
             "tags": [
-                "{807eed8a}"
+                "{807eed8a}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Pumping Up II",
@@ -30559,7 +31112,8 @@
             "incompatibleTraits": [],
             "name": "Called Shot",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Called Shot",
@@ -30598,7 +31152,8 @@
             "incompatibleTraits": [],
             "name": "Eye For An Eye+",
             "tags": [
-                "{8fba48a3}"
+                "{8fba48a3}",
+                "3-2"
             ],
             "unique": false,
             "en_name": "Eye For An Eye+",
@@ -30638,7 +31193,8 @@
             "incompatibleTraits": [],
             "name": "Invested+",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "3-2"
             ],
             "unique": false,
             "en_name": "Invested+",
@@ -30690,7 +31246,8 @@
             "incompatibleTraits": [],
             "name": "Raining Gold",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Raining Gold",
@@ -30730,7 +31287,9 @@
             "incompatibleTraits": [],
             "name": "Cry Me A River",
             "tags": [
-                "{8fba48a3}"
+                "{8fba48a3}",
+                "2-1",
+                "3-2"
             ],
             "unique": false,
             "en_name": "Cry Me A River",
@@ -30779,7 +31338,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "A Magic Roll",
-            "tags": [],
+            "tags": [
+                "3-2"
+            ],
             "unique": false,
             "en_name": "A Magic Roll",
             "texture": "{2aebb2de}",
@@ -30800,7 +31361,9 @@
             "incompatibleTraits": [],
             "name": "Sword Overflow",
             "tags": [
-                "{8fba48a3}"
+                "{8fba48a3}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Sword Overflow",
@@ -30837,7 +31400,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Silver Destiny++",
-            "tags": [],
+            "tags": [
+                "4-2"
+            ],
             "unique": false,
             "en_name": "Silver Destiny++",
             "variable_matches": [
@@ -30866,7 +31431,8 @@
             "incompatibleTraits": [],
             "name": "Clear Mind",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Clear Mind",
@@ -30898,7 +31464,8 @@
             "incompatibleTraits": [],
             "name": "Worth the Wait II",
             "tags": [
-                "{382a7131}"
+                "{382a7131}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Worth the Wait II",
@@ -30927,7 +31494,10 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Titanic Titan",
-            "tags": [],
+            "tags": [
+                "2-1",
+                "3-2"
+            ],
             "unique": false,
             "en_name": "Titanic Titan",
             "variable_matches": [
@@ -30958,7 +31528,8 @@
             "incompatibleTraits": [],
             "name": "Delayed Start",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Delayed Start",
@@ -31003,7 +31574,8 @@
             "incompatibleTraits": [],
             "name": "Wandering Trainer I",
             "tags": [
-                "{ee609993}"
+                "{ee609993}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Wandering Trainer I",
@@ -31039,7 +31611,9 @@
             "incompatibleTraits": [],
             "name": "Rolling For Days I",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Rolling For Days I",
@@ -31069,7 +31643,10 @@
             "incompatibleTraits": [],
             "name": "Clockwork Accelerator",
             "tags": [
-                "{807eed8a}"
+                "{807eed8a}",
+                "2-1",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Clockwork Accelerator",
@@ -31104,7 +31681,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Protagonist",
-            "tags": [],
+            "tags": [
+                "2-1"
+            ],
             "unique": false,
             "en_name": "Protagonist",
             "texture": "{3c6f91f1}",
@@ -31125,7 +31704,8 @@
             "name": "Build a Bud!",
             "tags": [
                 "{24d36c27}",
-                "{382a7131}"
+                "{382a7131}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Build a Bud!",
@@ -31157,7 +31737,9 @@
             "incompatibleTraits": [],
             "name": "Kingslayer",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "2-1",
+                "3-2"
             ],
             "unique": false,
             "en_name": "Kingslayer",
@@ -31204,7 +31786,9 @@
             "incompatibleTraits": [],
             "name": "Final Ascension",
             "tags": [
-                "{807eed8a}"
+                "{807eed8a}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Final Ascension",
@@ -31248,7 +31832,9 @@
             "incompatibleTraits": [],
             "name": "Noble Sacrifice",
             "tags": [
-                "{807eed8a}"
+                "{807eed8a}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Noble Sacrifice",
@@ -31296,7 +31882,8 @@
             "name": "Starry Night",
             "tags": [
                 "{24d36c27}",
-                "{ee609993}"
+                "{ee609993}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Starry Night",
@@ -31326,7 +31913,10 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Corrosion",
-            "tags": [],
+            "tags": [
+                "3-2",
+                "4-2"
+            ],
             "unique": false,
             "en_name": "Corrosion",
             "variable_matches": [
@@ -31362,7 +31952,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Starter Kit",
-            "tags": [],
+            "tags": [
+                "2-1"
+            ],
             "unique": false,
             "en_name": "Starter Kit",
             "variable_matches": [
@@ -31398,7 +31990,8 @@
             "incompatibleTraits": [],
             "name": "Lategame Specialist",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "3-2"
             ],
             "unique": false,
             "en_name": "Lategame Specialist",
@@ -31436,7 +32029,8 @@
             "incompatibleTraits": [],
             "name": "Golemify",
             "tags": [
-                "{ee609993}"
+                "{ee609993}",
+                "3-2"
             ],
             "unique": false,
             "en_name": "Golemify",
@@ -31481,7 +32075,8 @@
             "name": "Birthday Present",
             "tags": [
                 "{24d36c27}",
-                "{382a7131}"
+                "{382a7131}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Birthday Present",
@@ -31510,7 +32105,9 @@
             "incompatibleTraits": [],
             "name": "Pyromaniac",
             "tags": [
-                "{8fba48a3}"
+                "{8fba48a3}",
+                "2-1",
+                "3-2"
             ],
             "unique": false,
             "en_name": "Pyromaniac",
@@ -31541,7 +32138,8 @@
             "incompatibleTraits": [],
             "name": "Shimmerscale Essence",
             "tags": [
-                "{8fba48a3}"
+                "{8fba48a3}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Shimmerscale Essence",
@@ -31572,7 +32170,8 @@
             "incompatibleTraits": [],
             "name": "Cooking Pot",
             "tags": [
-                "{8e758f9d}"
+                "{8e758f9d}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Cooking Pot",
@@ -31602,7 +32201,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Branching Out",
-            "tags": [],
+            "tags": [
+                "2-1"
+            ],
             "unique": false,
             "en_name": "Branching Out",
             "type": "regular"
@@ -31622,7 +32223,8 @@
             "incompatibleTraits": [],
             "name": "Spoils of War III",
             "tags": [
-                "{382a7131}"
+                "{382a7131}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Spoils of War III",
@@ -31652,7 +32254,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Spoils of War II",
-            "tags": [],
+            "tags": [
+                "2-1"
+            ],
             "unique": false,
             "en_name": "Spoils of War II",
             "variable_matches": [
@@ -31680,7 +32284,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Prismatic Destiny",
-            "tags": [],
+            "tags": [
+                "2-1"
+            ],
             "unique": false,
             "en_name": "Prismatic Destiny",
             "variable_matches": [
@@ -31711,7 +32317,10 @@
             "name": "Spear's Will",
             "tags": [
                 "{8fba48a3}",
-                "{807eed8a}"
+                "{807eed8a}",
+                "2-1",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Spear's Will",
@@ -31749,7 +32358,8 @@
             "incompatibleTraits": [],
             "name": "ReinFOURcement",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "4-2"
             ],
             "unique": false,
             "en_name": "ReinFOURcement",
@@ -31780,7 +32390,9 @@
             "incompatibleTraits": [],
             "name": "Backup",
             "tags": [
-                "{ee609993}"
+                "{ee609993}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Backup",
@@ -31818,7 +32430,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Gold For Dummies",
-            "tags": [],
+            "tags": [
+                "2-1"
+            ],
             "unique": false,
             "en_name": "Gold For Dummies",
             "variable_matches": [
@@ -31855,7 +32469,10 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Quality Over Quantity",
-            "tags": [],
+            "tags": [
+                "2-1",
+                "3-2"
+            ],
             "unique": false,
             "en_name": "Quality Over Quantity",
             "variable_matches": [
@@ -31893,7 +32510,8 @@
             "incompatibleTraits": [],
             "name": "Placebo",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Placebo",
@@ -31933,7 +32551,8 @@
             "incompatibleTraits": [],
             "name": "Malicious Monetization",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Malicious Monetization",
@@ -31975,7 +32594,9 @@
             "incompatibleTraits": [],
             "name": "Unlimited Power",
             "tags": [
-                "{8fba48a3}"
+                "{8fba48a3}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Unlimited Power",
@@ -31997,7 +32618,8 @@
             "incompatibleTraits": [],
             "name": "Cooking Pot",
             "tags": [
-                "{8e758f9d}"
+                "{8e758f9d}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Cooking Pot",
@@ -32024,7 +32646,10 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Pandora's Items III",
-            "tags": [],
+            "tags": [
+                "2-1",
+                "3-2"
+            ],
             "unique": false,
             "en_name": "Pandora's Items III",
             "type": "regular"
@@ -32043,7 +32668,10 @@
             "incompatibleTraits": [],
             "name": "Scavenger",
             "tags": [
-                "{807eed8a}"
+                "{807eed8a}",
+                "2-1",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Scavenger",
@@ -32073,7 +32701,8 @@
             "incompatibleTraits": [],
             "name": "Trade Sector",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Trade Sector",
@@ -32102,7 +32731,10 @@
             "incompatibleTraits": [],
             "name": "Pilfer",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "2-1",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Pilfer",
@@ -32125,7 +32757,9 @@
             "incompatibleTraits": [],
             "name": "Big Grab Bag",
             "tags": [
-                "{8fba48a3}"
+                "{8fba48a3}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Big Grab Bag",
@@ -32164,7 +32798,8 @@
             "incompatibleTraits": [],
             "name": "Caretaker's Favor",
             "tags": [
-                "{8fba48a3}"
+                "{8fba48a3}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Caretaker's Favor",
@@ -32216,7 +32851,8 @@
             "incompatibleTraits": [],
             "name": "Caretaker's Chosen",
             "tags": [
-                "{8fba48a3}"
+                "{8fba48a3}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Caretaker's Chosen",
@@ -32258,7 +32894,10 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Prismatic Ticket",
-            "tags": [],
+            "tags": [
+                "2-1",
+                "3-2"
+            ],
             "unique": false,
             "en_name": "Prismatic Ticket",
             "variable_matches": [
@@ -32285,7 +32924,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Caretaker's Ally",
-            "tags": [],
+            "tags": [
+                "2-1"
+            ],
             "unique": false,
             "en_name": "Caretaker's Ally",
             "variable_matches": [
@@ -32313,7 +32954,8 @@
             "incompatibleTraits": [],
             "name": "Calculated Loss",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Calculated Loss",
@@ -32343,7 +32985,9 @@
             "incompatibleTraits": [],
             "name": "Sponging",
             "tags": [
-                "{8e758f9d}"
+                "{8e758f9d}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Sponging",
@@ -32382,7 +33026,8 @@
             "incompatibleTraits": [],
             "name": "Risky Moves",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Risky Moves",
@@ -32430,7 +33075,8 @@
             "name": "Moonlight",
             "tags": [
                 "{ee609993}",
-                "{807eed8a}"
+                "{807eed8a}",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Moonlight",
@@ -32474,7 +33120,11 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Evil Beyond Measure",
-            "tags": [],
+            "tags": [
+                "2-1",
+                "3-2",
+                "4-2"
+            ],
             "unique": false,
             "en_name": "Evil Beyond Measure",
             "variable_matches": [
@@ -32504,7 +33154,10 @@
             "incompatibleTraits": [],
             "name": "Band of Thieves I",
             "tags": [
-                "{8fba48a3}"
+                "{8fba48a3}",
+                "2-1",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Band of Thieves I",
@@ -32538,7 +33191,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Slice of Life",
-            "tags": [],
+            "tags": [
+                "2-1"
+            ],
             "unique": false,
             "en_name": "Slice of Life",
             "variable_matches": [
@@ -32567,7 +33222,8 @@
             "incompatibleTraits": [],
             "name": "Living Forge",
             "tags": [
-                "{8fba48a3}"
+                "{8fba48a3}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Living Forge",
@@ -32600,7 +33256,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Warpath",
-            "tags": [],
+            "tags": [
+                "2-1"
+            ],
             "unique": false,
             "en_name": "Warpath",
             "variable_matches": [
@@ -32632,7 +33290,9 @@
             "name": "Bulky Buddies III",
             "tags": [
                 "{ee609993}",
-                "{807eed8a}"
+                "{807eed8a}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Bulky Buddies III",
@@ -32677,7 +33337,10 @@
             "incompatibleTraits": [],
             "name": "Radiant Relics",
             "tags": [
-                "{8fba48a3}"
+                "{8fba48a3}",
+                "2-1",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Radiant Relics",
@@ -32707,7 +33370,9 @@
             "incompatibleTraits": [],
             "name": "Another One!+",
             "tags": [
-                "{8fba48a3}"
+                "{8fba48a3}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Another One!+",
@@ -32738,7 +33403,9 @@
             "incompatibleTraits": [],
             "name": "Big Friend II",
             "tags": [
-                "{807eed8a}"
+                "{807eed8a}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Big Friend II",
@@ -32776,7 +33443,10 @@
             "name": "Mace's Will",
             "tags": [
                 "{8fba48a3}",
-                "{807eed8a}"
+                "{807eed8a}",
+                "2-1",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Mace's Will",
@@ -32815,7 +33485,10 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Know Your Enemy",
-            "tags": [],
+            "tags": [
+                "3-2",
+                "4-2"
+            ],
             "unique": false,
             "en_name": "Know Your Enemy",
             "variable_matches": [
@@ -32850,7 +33523,8 @@
             "incompatibleTraits": [],
             "name": "Double Trouble",
             "tags": [
-                "{ee609993}"
+                "{ee609993}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Double Trouble",
@@ -32888,7 +33562,10 @@
             "incompatibleTraits": [],
             "name": "I'm the Carry Now",
             "tags": [
-                "{807eed8a}"
+                "{807eed8a}",
+                "2-1",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "I'm the Carry Now",
@@ -32909,7 +33586,9 @@
             "incompatibleTraits": [],
             "name": "Double Trouble III",
             "tags": [
-                "{a7b22c38}"
+                "{a7b22c38}",
+                "2-1",
+                "3-2"
             ],
             "unique": false,
             "en_name": "Double Trouble III",
@@ -32950,7 +33629,10 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Tons of Stats!",
-            "tags": [],
+            "tags": [
+                "3-2",
+                "4-2"
+            ],
             "unique": false,
             "en_name": "Tons of Stats!",
             "variable_matches": [
@@ -33021,7 +33703,9 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Tiniest Titan+",
-            "tags": [],
+            "tags": [
+                "3-2"
+            ],
             "unique": false,
             "en_name": "Tiniest Titan+",
             "variable_matches": [
@@ -33065,7 +33749,8 @@
             "incompatibleTraits": [],
             "name": "Final Reserves",
             "tags": [
-                "{a7b22c38}"
+                "{a7b22c38}",
+                "3-2"
             ],
             "unique": false,
             "en_name": "Final Reserves",
@@ -33109,7 +33794,8 @@
             "name": "Pair of Fours",
             "tags": [
                 "{ee609993}",
-                "{807eed8a}"
+                "{807eed8a}",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Pair of Fours",
@@ -33155,7 +33841,8 @@
             "incompatibleTraits": [],
             "name": "Epoch",
             "tags": [
-                "{24d36c27}"
+                "{24d36c27}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Epoch",
@@ -33192,7 +33879,10 @@
             "incompatibleTraits": [],
             "name": "Healing Orbs II",
             "tags": [
-                "{807eed8a}"
+                "{807eed8a}",
+                "2-1",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Healing Orbs II",
@@ -33221,7 +33911,10 @@
             "incompatibleTraits": [],
             "name": "Pandora's Items",
             "tags": [
-                "{8fba48a3}"
+                "{8fba48a3}",
+                "2-1",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Pandora's Items",
@@ -33250,7 +33943,10 @@
             "incompatibleTraits": [],
             "name": "Portable Forge",
             "tags": [
-                "{ee609993}"
+                "{ee609993}",
+                "2-1",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Portable Forge",
@@ -33279,7 +33975,8 @@
             "incompatibleTraits": [],
             "name": "Latent Forge",
             "tags": [
-                "{8fba48a3}"
+                "{8fba48a3}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Latent Forge",
@@ -33309,7 +34006,9 @@
             "incompatibleTraits": [],
             "name": "Cybernetic Uplink II",
             "tags": [
-                "{807eed8a}"
+                "{807eed8a}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Cybernetic Uplink II",
@@ -33346,7 +34045,9 @@
             "incompatibleTraits": [],
             "name": "Cybernetic Uplink III",
             "tags": [
-                "{807eed8a}"
+                "{807eed8a}",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Cybernetic Uplink III",
@@ -33374,8 +34075,8 @@
             "composition": [],
             "desc": "Gain a Deathblade. Deathblades gain @AD*100@% Attack Damage per @Takedowns@ takedowns the wearer gets.",
             "effects": {
-                "AD": null,
-                "TakeDowns": null
+                "AD": 0.009999999776482582,
+                "TakeDowns": 5
             },
             "from": null,
             "icon": "ASSETS/Maps/TFT/Icons/Augments/Hexcore/DeadlierBlades_II.TFT_Set15.tex",
@@ -33383,7 +34084,8 @@
             "incompatibleTraits": [],
             "name": "Deadlier Blades",
             "tags": [
-                "{8fba48a3}"
+                "{8fba48a3}",
+                "2-1"
             ],
             "unique": false,
             "en_name": "Deadlier Blades",
@@ -33393,7 +34095,7 @@
                     "type": "variable",
                     "full_match": "@Takedowns@",
                     "hash": "9fea86d7",
-                    "value": null
+                    "value": 5
                 },
                 {
                     "match": "AD",
@@ -33401,7 +34103,7 @@
                     "multiplier": "100",
                     "full_match": "@AD*100@",
                     "hash": "4724fc58",
-                    "value": null
+                    "value": 0.01
                 }
             ],
             "texture": "{f0918379}",
@@ -33422,7 +34124,10 @@
             "incompatibleTraits": [],
             "name": "Pandora's Items II",
             "tags": [
-                "{8fba48a3}"
+                "{8fba48a3}",
+                "2-1",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Pandora's Items II",
@@ -33454,7 +34159,10 @@
             "incompatibleTraits": [],
             "name": "Caretaker's Favor",
             "tags": [
-                "{8fba48a3}"
+                "{8fba48a3}",
+                "2-1",
+                "3-2",
+                "4-2"
             ],
             "unique": false,
             "en_name": "Caretaker's Favor",
@@ -33504,7 +34212,11 @@
             "id": null,
             "incompatibleTraits": [],
             "name": "Underdogs",
-            "tags": [],
+            "tags": [
+                "2-1",
+                "3-2",
+                "4-2"
+            ],
             "unique": false,
             "en_name": "Underdogs",
             "variable_matches": [
@@ -41695,9 +42407,7 @@
             "associatedTraits": [],
             "composition": [],
             "desc": "Use on a 1 or 2 cost champion to upgrade them to a unit of 1 higher cost.<br><br><tftitemrules>Not for use on living, mechanical, experimental, imaginary, or reanimated creatures . Keep out of reach of Yordles.</tftitemrules>",
-            "effects": {
-                "{27d80030}": 1
-            },
+            "effects": {},
             "from": null,
             "icon": "ASSETS/Maps/TFT/Icons/Items/Hexcore/Magnetron_Enchant.tex",
             "id": null,
@@ -42084,9 +42794,9 @@
     ],
     "portals": [
         {
-            "name": "HACK: Augment Round Swap",
-            "description": "The augment rounds have been moved earlier this game.",
-            "short": "The augment rounds have been moved earlier this game.",
+            "name": "Augment Round Swap",
+            "description": "Get excited! Augments are given earlier this game.",
+            "short": "Get excited! Augments are given earlier this game.",
             "region_subtitle": "",
             "region": "Unique",
             "apiName": "TFT_Portals_Unique_AugmentRoundSwap",
@@ -42096,7 +42806,7 @@
                 20,
                 255
             ],
-            "icon": "TFT14_Hack_Icon"
+            "icon": "Spatula_Icon"
         },
         {
             "name": "HACK: Fourth Augment",
@@ -43208,7 +43918,7 @@
         },
         "TFT14_OpeningEncounter_Hack_AugmentRoundSwap": {
             "ChampionSkin": "TFT14_NPC_Azir",
-            "EncounterRulesText": "The augment rounds have been moved earlier this game.",
+            "EncounterRulesText": "Get excited! Augments are given earlier this game.",
             "apiName": "TFT14_OpeningEncounter_Hack_AugmentRoundSwap",
             "stages": [
                 1
