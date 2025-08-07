@@ -1,0 +1,78 @@
+# Gizmos & Gadgets
+
+## TimeLine
+### Date
+| {{start_time}} | {{end_time}} |
+| -              | -            |
+| 2021.11.04     |              |
+
+## Traits
+### Origins
+| {{origin_name}} | {{unit_active}} | {{unit_count}} | {{emblem}}               | {{desc}} |
+| -               | -               | -              | -                        | -        |
+| Academy         | 2/4/6/8         | 7              | Spatula+BFSword          |          |
+| Chemtech        | 3/5/7/9         | 8              | Spatula+GiantsBelt       |          |
+| Clockwork       | 2/4/6           | 4              | uncraftable              |          |
+| Enforcer        | 2/4             | 4              | uncraftable              |          |
+| Imperial        | 3/5             | 4              | Spatula+Tearofthegoddess |          |
+| Mercenary       | 3/5/7           | 5              | uncraftable              |          |
+| Mutant          | 3/5             | 6              | Spatula+NegatronCloak    |          |
+| Scrap           | 2/4/6           | 7              | uncraftable              |          |
+| Sister          | 2               | 2              |                          |          |
+| Socialite       | 1/2/3           | 3              | uncraftable              |          |
+| Syndicate       | 3/5/7           | 6              | Spatula+ChainVest        |          |
+| Yordle          | 3/6             | 6              |                          |          |
+
+### Classes
+| {{class_name}} | {{unit_active}} | {{unit_count}} | {{emblem}}                 | {{desc}} |
+| -              | -               | -              | -                          | -        |
+| Arcanist       | 2/4/6/8         | 7              | Spatula+NeedlesslyLargeRod |          |
+| Assassin       | 2/4/6           | 6              | Spatula+SparringGloves     |          |
+| Bodyguard      | 2/4/6/8         | 6              | uncraftable                |          |
+| Bruiser        | 2/4/6/8         | 7              | uncraftable                |          |
+| Challenger     | 2/4/6/8         | 7              | Spatula+RecurveBow         |          |
+| Colossus       | 2               | 3              |                            |          |
+| Enchanter      | 2/3/4/5         | 4              |                            |          |
+| Innovator      | 3/5/7           | 6              | uncraftable                |          |
+| Protector      | 2/3/4/5         | 4              | uncraftable                |          |
+| Scholar        | 2/4/6           | 5              | uncraftable                |          |
+| Sniper         | 2/4/6           | 5              | uncraftable                |          |
+| Twinshot       | 2/4/6           | 5              |                            |          |
+
+### Unique
+| {{name}}    | {{champion}} | {{cost}} |
+| -           | -            | -        |
+| Cuddly      | Yuumi        | 5        |
+| Glutton     | TahmKench    | 5        |
+| Transformer | Jayce        | 5        |
+| YordleLord  | Veigar       | 5        |
+
+### SynergyGrid
+| ****Origins\Classes**** | **Arcanist** | **Assassin** | **Bodyguard** | **Bruiser**      | **Challenger** | **Colossus** | **Enchanter** | **Innovator** | **Protector** | **Scholar**  | **Sniper**  | **Twinshot** |
+| -                       | -            | -            | -             | -                | -              | -            | -             | -             | -             | -            | -           | -            |
+| **Academy**             | Lux          | Katarina     | Leona         |                  | Yone           |              |               |               | Garen         | Yuumi        |             | Graves       |
+| **Chemtech**            | Viktor       | Twitch       |               | DrMundo/Zac      | Warwick        |              |               | Singed        |               | Lissandra    |             | Urgot        |
+| **Clockwork**           |              |              |               |                  | Camille        |              | Orianna       | Zilean        |               |              | Jhin        |              |
+| **Enforcer**            |              |              |               | Vi               | Fiora          |              |               | Jayce         |               |              | Caitlyn     |              |
+| **Imperial**            | Swain        | Talon        |               |                  | Samira         | Sion         |               |               | Sion          |              |             |              |
+| **Mercenary**           |              |              |               | Illaoi/TahmKench | Quinn          |              |               |               |               |              | MissFortune | Gangplank    |
+| **Mutant**              | Malzahar     |              |               | ChoGath/DrMundo  | KaiSa          | ChoGath      |               |               | Kassadin      |              | KogMaw      | KogMaw       |
+| **Scrap**               | Ziggs        | Ekko         | Blitzcrank    | Trundle          |                |              | Janna         | Ezreal        | Blitzcrank    | Janna        |             | Jinx         |
+| **Sister**              |              |              |               | Vi               |                |              |               |               |               |              |             | Jinx         |
+| **Socialite**           |              |              | Galio         |                  |                | Galio        | Taric         | Seraphine     |               |              |             |              |
+| **Syndicate**           | TwistedFate  | Akali/Shaco  | Braum/Darius  |                  |                |              |               |               |               | Zyra         |             |              |
+| **Yordle**              | Vex/Ziggs    |              | Poppy         |                  |                |              | Lulu          | Heimerdinger  |               | Heimerdinger | Tristana    |              |
+
+## Items
+### CraftableGrid
+| ****C1\C2**** | **sword** | **bow**         | **vest**      | **cloak**        | **rod**               | **tear**      | **belt**       | **glove**      | **spatula**       |
+| -             | -         | -               | -             | -                | -                     | -             | -              | -              | -                 |
+| **sword**     | LordsEdge | GiantSlayer     | GuardianAngel | Bloodthirster    | HextechGunblade       | SpearofShojin | ZekesHerald    | InfinityEdge   | MagesCap          |
+| **bow**       |           | RapidFirecannon | TitansResolve | RunaansHurricane | GuinsoosRageblade     | StatikkShiv   | ZzRotPortal    | LastWhisper    | DuelistsZeal      |
+| **vest**      |           |                 | BrambleVest   | IronWill         | LocketoftheIronSolari | FrozenHeart   | SunfireCape    | Shroud         | VanguardsCuirass  |
+| **cloak**     |           |                 |               | DragonsClaw      | IonicSpark            | Chalice       | Zephyr         | Quicksilver    | ElderwoodHeirloom |
+| **rod**       |           |                 |               |                  | RabadonsDeathcap      | LudensEcho    | Morellonomicon | ArcaneGauntlet | MantleofDusk      |
+| **tear**      |           |                 |               |                  |                       | BlueSentinel  | Redemption     | HandofJustice  | SwordoftheDivine  |
+| **belt**      |           |                 |               |                  |                       |               | WarmogsArmor   | Backhand       | WarlordsBanner    |
+| **glove**     |           |                 |               |                  |                       |               |                | ThiefsGloves   | YoumuusGhostblade |
+| **spatula**   |           |                 |               |                  |                       |               |                |                | ForceofNature     |

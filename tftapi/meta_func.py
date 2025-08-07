@@ -42,6 +42,9 @@ def select_champions(setof:str, chp:dict) -> bool:
 def select_items(setof:str, itm:dict) -> bool:
     return 'isHidden' not in itm
 
+def select_item_emblems(setof:str, itm:dict) -> bool:
+    return select_items(setof, itm) and ('isEmblem' in itm or 'affectedTraitKey' in itm)
+
 def select_augments(setof:str, aug:dict) -> bool:
     return 'isHidden' not in aug
 
@@ -57,45 +60,103 @@ def emblem_cmp_func(s1:str, s2:str) -> int:
     return 0
 emblem_cmp_key=cmp_to_key(emblem_cmp_func)
 
-def grid_fix_write(grid2d: list[list[str]], row0: list[str]=[], line0: list[str]=[], hdr00: str='') -> str:
-    if len(row0) > 0:
-        grid2d.insert(0, row0)
-        if len(line0) > 0:
-            line0.insert(0, hdr00)
-            for i in range(len(grid2d)):
-                grid2d[i].insert(0, line0[i])
-    
-    return '\n'.join(grid_convert2_table(grid2d))
-
-def grid_convert2_table(grid2d: list[list[str]]) -> list[str]:
-    if len(grid2d) == 0 or len(grid2d[0]) == 0:
-        return []
-    szs:list[int]=[]
-    for j in range(len(grid2d[0])):
-        mxsz=0
-        for i in range(len(grid2d)):
-            mxsz=max(mxsz, len(grid2d[i][j]))
-        szs.append(mxsz)
-    
-    res:list[str]=[]
-    for i in range(len(grid2d)):
-        resv=''
-        for j in range(len(grid2d[i])):
-            resv+= (f'{grid2d[i][j]:<{szs[j]}}'+(' | ' if j<len(grid2d[i])-1 else ''))
-        res.append(resv)
-    return res
-
 def no_radiant_set(setof: str) -> bool:
     return setof in ['set1','set2','set3','set4','set5','set3.5','set4.5','set6']
 
 def no_augment_set(setof: str) -> bool:
     return setof in ['set1','set2','set3','set4','set5','set3.5','set4.5','set5.5']
 
+class Grid2d():
+    grid2d: list[list[str]]
+    row0: list[str]
+    line0: list[str]
+    hdr00: str
+    md_hll: bool
+
+    def __init__(self, grid2d:list[list[str]], row0:list[str]=[], line0:list[str]=[], hdr00:str='', md_hll:bool=False):
+        self.grid2d,self.row0,self.line0,self.hdr00=grid2d,row0,line0,hdr00
+        self.md_hll=md_hll
+
+    def conv2txt(self, grid2d: list[list[str]], row0: list[str]=[], line0: list[str]=[], hdr00: str='') -> str:
+        if len(row0) > 0:
+            grid2d.insert(0, row0)
+            if len(line0) > 0:
+                line0.insert(0, hdr00)
+                for i in range(len(grid2d)):
+                    grid2d[i].insert(0, line0[i])
+
+        return '\n'.join(self.conv2table(grid2d))
+
+    def conv2table(self, grid2d: list[list[str]]) -> list[str]:
+        if len(grid2d) == 0 or len(grid2d[0]) == 0:
+            return []
+        szs:list[int]=[]
+        for j in range(len(grid2d[0])):
+            mxsz=0
+            for i in range(len(grid2d)):
+                mxsz=max(mxsz, len(grid2d[i][j]))
+            szs.append(mxsz)
+
+        res:list[str]=[]
+        for i in range(len(grid2d)):
+            resv=''
+            for j in range(len(grid2d[i])):
+                resv+= (f'{grid2d[i][j]:<{szs[j]}}'+(' | ' if j<len(grid2d[i])-1 else ''))
+            res.append(resv)
+        return res
+
+    def md_conv2txt(self, grid2d: list[list[str]], row0: list[str]=[], line0: list[str]=[], hdr00: str='') -> str:
+        if len(row0) > 0:
+            grid2d.insert(0, row0)
+            if len(line0) > 0:
+                line0.insert(0, hdr00)
+                for i in range(len(grid2d)):
+                    grid2d[i].insert(0, line0[i])
+
+        # add *txt* for line0, row0
+        if self.md_hll:
+            for lineidx,_ in enumerate(grid2d[0]):
+                grid2d[0][lineidx]=f'**{grid2d[0][lineidx]}**'
+            for rowidx in range(len(grid2d)):
+                grid2d[rowidx][0]=f'**{grid2d[rowidx][0]}**'
+
+        # add | - | for markdown Table
+        grid2d.insert(1, ['-' for _ in grid2d[0]])
+        return '\n'.join(self.md_conv2table(grid2d))
+
+    def md_conv2table(self, grid2d: list[list[str]]) -> list[str]:
+        if len(grid2d) == 0 or len(grid2d[0]) == 0:
+            return []
+        szs:list[int]=[]
+        for j in range(len(grid2d[0])):
+            mxsz=0
+            for i in range(len(grid2d)):
+                mxsz=max(mxsz, len(grid2d[i][j]))
+            szs.append(mxsz)
+
+        res:list[str]=[]
+        for i in range(len(grid2d)):
+            resv=''
+            for j in range(len(grid2d[i])):
+                resv+= (f'{grid2d[i][j]:<{szs[j]}}'+(' | ' if j<len(grid2d[i])-1 else ''))
+            res.append(f'| {resv} |')
+        return res
+
+    def __str_md__(self) -> str:
+        return self.md_conv2txt(self.grid2d, self.row0, self.line0, self.hdr00)
+
+    def __str_txt__(self) -> str:
+        return self.conv2txt(self.grid2d, self.row0, self.line0, self.hdr00)
+
+    def __str__(self) -> str:
+        return self.__str_txt__()
+
+    def __repr__(self) -> str:
+        return str(self)
+
 from requests import get as httpget
 from requests.exceptions import RequestException
-from urllib.parse import urlparse
 import os
-
 def download_file(fileurl: str, filepath: str, timeout_sec: float) -> tuple[str,str,float]|None:
     try:
         if os.path.exists(filepath): # already downloaded
@@ -112,3 +173,10 @@ def download_file(fileurl: str, filepath: str, timeout_sec: float) -> tuple[str,
     except RequestException as re:
         print(f"[error] download: {fileurl}, error: {re}")
         return (fileurl, filepath, timeout_sec+1)
+
+def geturl_extname(commonurl:str) -> str:
+    dotidx = commonurl.rfind('.')
+    if dotidx==-1:
+        return 'jpg'
+    else:
+        return commonurl[dotidx+1:]

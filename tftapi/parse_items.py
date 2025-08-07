@@ -9,9 +9,10 @@ from meta_data import setitems
 from meta_data import craft2radiant_name_set5dot5, craft2radiant_name, special_components
 from meta_data import set_specitem_keys
 
-from meta_func import grid_fix_write
 from meta_func import no_radiant_set
 from meta_func import select_items
+from meta_func import select_item_emblems
+from meta_func import Grid2d
 
 def parse_attr(fulldesc: str) -> list[str]:
     if len(fulldesc) == 0:
@@ -55,6 +56,8 @@ def filter_item_key(setof: str, itemof: dict) -> dict:
             delkeys(['fromDesc'])
         case _:
             pass
+    if 'name' in itemof and 'key' in itemof:
+        itemof['name'] = itemof['key']
     return itemof 
 
 def merge_trait_spec_items(setof: str, setitems: list[dict]) -> list[dict]:
@@ -117,8 +120,7 @@ for setof in setlist:
                 'basic_attrs': parse_attr(str(itemof['fromDesc'])),
                 'add_attrs': itemof['desc'],
             })
-        elif 'isEmblem' in itemof or \
-            'affectedTraitKey' in itemof:
+        elif select_item_emblems(setof, itemof):
             itemTyp[setof]['embl'].append({
                 'name': itemof['key'],
                 'compositions': item_composi_nick(itemof) if valid_composi(itemof) else '',
@@ -160,7 +162,7 @@ for setof in setlist:
         itemsfile.write(dumps(itemTyp[setof], ensure_ascii=True, indent=4))
         itemsfile.close()
 
-def get_craftable_grid(setof: str) -> str:
+def get_craftable_grid(setof: str) -> Grid2d:
     comps=sorted([components_nickname[comp['name']] for comp in itemTyp[setof]['comp']], key=lambda nickof: components_nickname_priority[nickof])
     crafts=itemTyp[setof]['craf']
     emblems=itemTyp[setof]['embl']
@@ -188,7 +190,7 @@ def get_craftable_grid(setof: str) -> str:
             continue
         grid2d[comps.index(compnickitems[0])][comps.index(compnickitems[1])] = crown['name']
     
-    return grid_fix_write(grid2d, comps.copy(), comps.copy(), 'C1\\C2')
+    return Grid2d(grid2d, comps.copy(), comps.copy(), 'C1\\C2', True)
 
 def compare_craftable_radiant_items():
     for setof in setlist:
@@ -279,7 +281,7 @@ def collect_allset_spec_items():
 compare_craftable_radiant_items()
 parse_craftable_item_change()
 collect_allset_spec_items()
-for setof in setlist:
-    with open(f'tftitems/grid/{setof}.txt', 'w+') as gridfile:
-        gridfile.write(get_craftable_grid(setof))
-        gridfile.close()
+# for setof in setlist:
+#     with open(f'tftitems/grid/{setof}.txt', 'w+') as gridfile:
+#         gridfile.write(str(get_craftable_grid(setof)))
+#         gridfile.close()

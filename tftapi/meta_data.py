@@ -182,3 +182,14 @@ set_specitem_keys={
     'set12': ['isFaerie'],
     'set14': ['TFT14_Exotech', 'TFT14_AnimaSquad', 'Consumable', 'Etc'], # ['tags'][0]
 }
+
+set_itemstype={
+    'comp': 'Components',
+    'craf': 'Craftable',
+    'embl': 'Emblems',
+    'crow': 'Crown',
+    'radi': 'Radiant',
+    'arti': 'Artifacts',
+    'supp': 'Support',
+    'spec': 'Special',
+}

@@ -2,7 +2,8 @@ from env import setlist
 
 from meta_data import settraits, setchampions
 
-from meta_func import select_traits, select_champions, grid_fix_write
+from meta_func import select_traits, select_champions
+from meta_func import Grid2d
 
 def two_champions_slash(ch1: str, ch2: str) -> str:
     if len(ch1) > 0:
@@ -10,7 +11,7 @@ def two_champions_slash(ch1: str, ch2: str) -> str:
     else:
         return ch2
 
-def get_synergy_grid(setof: str) -> str:
+def get_synergy_grid(setof: str) -> Grid2d:
     # select traits
     origin_key:list[str]=[]
     class_key:list[str]=[]
@@ -28,7 +29,7 @@ def get_synergy_grid(setof: str) -> str:
     class_key.sort()
     
     # select champions
-    chmps=[(chp['name'], chp['traits']) for chp in setchampions(setof) if select_champions(setof, chp)]
+    chmps=[(chp['key'], chp['traits']) for chp in setchampions(setof) if select_champions(setof, chp)]
     
     # champions grid
     grid2d=[['']*(len(class_key)) for _ in range(len(origin_key))]
@@ -41,13 +42,13 @@ def get_synergy_grid(setof: str) -> str:
                 grid2d[oriidx][clsidx]=two_champions_slash(grid2d[oriidx][clsidx], chpname)
     
     # first row is classls
-    clsnames=[key2name[clskey] for clskey in class_key]
+    # clsnames=[key2name[clskey] for clskey in class_key]
     # header fix
-    orinames=[key2name[orikey] for orikey in origin_key]
+    # orinames=[key2name[orikey] for orikey in origin_key]
     
-    return grid_fix_write(grid2d, clsnames, orinames, 'Origins\\Classes')
+    return Grid2d(grid2d, class_key, origin_key, 'Origins\\Classes', True)
 
-for setof in setlist:
-    with open(f'tfttraits/grid/{setof}.txt', 'w+') as setgridf:
-        setgridf.write(get_synergy_grid(setof))
-        setgridf.close()
+# for setof in setlist:
+#     with open(f'tfttraits/grid/{setof}.txt', 'w+') as setgridf:
+#         setgridf.write(str(get_synergy_grid(setof)))
+#         setgridf.close()

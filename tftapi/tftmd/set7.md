@@ -1,0 +1,77 @@
+# Dragonlands
+
+## TimeLine
+### Date
+| {{start_time}} | {{end_time}} |
+| -              | -            |
+| 2022.06.09     |              |
+
+## Traits
+### Origins
+| {{origin_name}} | {{unit_active}} | {{unit_count}} | {{emblem}}            | {{desc}} |
+| -               | -               | -              | -                     | -        |
+| Astral          | 3/6/9           | 7              |                       |          |
+| Guild           | 1/2/3/4/5/6/7   | 5              | uncraftable           |          |
+| Jade            | 3/6/9/12        | 8              | uncraftable           |          |
+| Mirage          | 2/4/6/8         | 5              | Spatula+NegatronCloak |          |
+| Ragewing        | 3/6/9           | 8              | Spatula+RecurveBow    |          |
+| Revel           | 2/3/4/5         | 4              | uncraftable           |          |
+| Scalescorn      | 2/4/6           | 4              | uncraftable           |          |
+| Shimmerscale    | 3/5/7/9         | 5              | Spatula+BFSword       |          |
+| Tempest         | 2/4/6/8         | 5              | uncraftable           |          |
+| Trainer         | 2/3             | 3              |                       |          |
+| Whispers        | 2/4/6/8         | 5              | uncraftable           |          |
+
+### Classes
+| {{class_name}} | {{unit_active}} | {{unit_count}} | {{emblem}}                 | {{desc}} |
+| -              | -               | -              | -                          | -        |
+| Assassin       | 2/4/6           | 5              | Spatula+SparringGloves     |          |
+| Bruiser        | 2/4/6/8         | 8              | uncraftable                |          |
+| Cannoneer      | 2/3/4/5         | 4              | uncraftable                |          |
+| Cavalier       | 2/3/4/5         | 4              | Spatula+ChainVest          |          |
+| Dragonmancer   | 3/6/9           | 7              | Spatula+NeedlesslyLargeRod |          |
+| Dragons        | 1/2             | 7              |                            |          |
+| Evoker         | 2/4/6           | 4              | uncraftable                |          |
+| Guardian       | 2/4/6           | 5              | Spatula+GiantsBelt         |          |
+| Legend         | 3               | 3              | uncraftable                |          |
+| Mage           | 3/5/7/9         | 7              | Spatula+Tearofthegoddess   |          |
+| Mystic         | 2/3/4/5         | 4              | uncraftable                |          |
+| Shapeshifter   | 2/4/6           | 6              |                            |          |
+| Swiftshot      | 2/4/6           | 5              | uncraftable                |          |
+| Warrior        | 2/4/6           | 5              | uncraftable                |          |
+
+### Unique
+| {{name}}   | {{champion}} | {{cost}} |
+| -          | -            | -        |
+| Bard       | Bard         | 5        |
+| SpellThief | Zoe          | 5        |
+| Starcaller | Soraka       | 5        |
+
+### SynergyGrid
+| ****Origins\Classes**** | **Assassin** | **Bruiser**    | **Cannoneer** | **Cavalier** | **Dragonmancer** | **Dragons** | **Evoker**  | **Guardian** | **Legend** | **Mage**      | **Mystic** | **Shapeshifter** | **Swiftshot** | **Warrior** |
+| -                       | -            | -              | -             | -            | -                | -           | -           | -            | -          | -             | -          | -                | -             | -           |
+| **Astral**              |              | Illaoi/Skarner |               |              |                  | AurelionSol | AurelionSol |              |            | Nami/Vladimir | Nami       | Nidalee          | Varus         |             |
+| **Guild**               | Talon        |                |               | Sejuani      |                  |             |             |              |            | Ryze          | Bard       |                  | Twitch        |             |
+| **Jade**                |              |                |               |              | Ashe/Karma       | ShiOhYu     | Anivia      | Taric        | Anivia     |               | ShiOhYu    | Gnar/Neeko       | Ashe          |             |
+| **Mirage**              |              |                |               | Nunu         | Yasuo            | Daeja       |             | Leona        |            |               |            |                  |               | Yasuo/Yone  |
+| **Ragewing**            | Kayn         | Shen           | Senna         | Hecarim      | Sett/Swain       | Shyvana     |             |              |            |               |            | Shyvana/Swain    | Xayah         | Shen        |
+| **Revel**               |              | TahmKench      | Corki/Jinx    |              |                  |             | Sona        |              |            |               |            |                  |               |             |
+| **Scalescorn**          | Diana        | Olaf           |               | Lillia       |                  |             |             | Braum        |            | Lillia        |            |                  |               | Olaf        |
+| **Shimmerscale**        | Kayn         |                |               |              | Volibear         | Idas        |             | Idas         | Volibear   | Zoe           |            |                  |               | Aatrox      |
+| **Tempest**             | Qiyana       | Ornn           |               |              | LeeSin           | AoShin      |             |              | Ornn       |               |            |                  | Ezreal        |             |
+| **Trainer**             |              |                | Tristana      |              |                  |             | Lulu        |              |            | Heimerdinger  | Lulu       |                  |               |             |
+| **Whispers**            | Pyke         | Syfen/Sylas    |               |              |                  | Syfen       |             | Thresh       |            | Sylas         |            | Elise            |               |             |
+
+## Items
+### CraftableGrid
+| ****C1\C2**** | **sword** | **bow**         | **vest**      | **cloak**        | **rod**               | **tear**      | **belt**       | **glove**      | **spatula**        |
+| -             | -         | -               | -             | -                | -                     | -             | -              | -              | -                  |
+| **sword**     | LordsEdge | GiantSlayer     | GuardianAngel | Bloodthirster    | HextechGunblade       | SpearofShojin | ZekesHerald    | InfinityEdge   | ShimmerscaleEmblem |
+| **bow**       |           | RapidFirecannon | TitansResolve | RunaansHurricane | GuinsoosRageblade     | StatikkShiv   | ZzRotPortal    | LastWhisper    | RagewingEmblem     |
+| **vest**      |           |                 | BrambleVest   | IronWill         | LocketoftheIronSolari | FrozenHeart   | SunfireCape    | Shroud         | CavalierEmblem     |
+| **cloak**     |           |                 |               | DragonsClaw      | IonicSpark            | Chalice       | Zephyr         | Quicksilver    | MirageEmblem       |
+| **rod**       |           |                 |               |                  | RabadonsDeathcap      | LudensEcho    | Morellonomicon | ArcaneGauntlet | DragonmancerEmblem |
+| **tear**      |           |                 |               |                  |                       | BlueSentinel  | Redemption     | HandofJustice  | MageEmblem         |
+| **belt**      |           |                 |               |                  |                       |               | WarmogsArmor   | Backhand       | GuardianEmblem     |
+| **glove**     |           |                 |               |                  |                       |               |                | ThiefsGloves   | YoumuusGhostblade  |
+| **spatula**   |           |                 |               |                  |                       |               |                |                | ForceofNature      |

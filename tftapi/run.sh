@@ -4,9 +4,9 @@ if [ ! -f ".env" ]; then
     cp .env.example .env
 fi
 
-for dir in "tftaugs" "tftitems" "tftitems/craft-vs-radiant" "tftitems/grid" "tfttraits" "tfttraits/grid" "tfttraits/table" "tfttraits/comp" "tftspecs" "tfttxt"
+for dir in "tftaugs" "tftitems" "tftitems/craft-vs-radiant" "tfttraits" "tfttraits/comp" "tftspecs" "tftmd"
 do
-    rm -rf $dir
+    # rm -rf $dir
     mkdir -p $dir
 done
 
