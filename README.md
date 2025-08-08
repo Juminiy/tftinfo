@@ -26,6 +26,7 @@ cd tftapi
 
 # reload tftapi data
 uv run req_raw.py
+# reload tftapi icon
 # refresh parsing data
 ./run.sh
 ```

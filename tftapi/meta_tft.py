@@ -5,10 +5,14 @@ from meta_data import setitems, settraits, setchampions
 from meta_func import Grid2d
 from meta_func import select_items, select_traits, select_champions
 from meta_func import geturl_extname
+from meta_data import components_nickname
+from meta_func import reverse_dict_kv
 
 from parse_traits_grid import get_synergy_grid
 from parse_traits_table import get_traits_table, get_unique_table
 from parse_items import get_craftable_grid
+
+from req_icon import copy_icon_emblem2trait
 
 def write_detail_txt(wtr: TextIOWrapper, setof: str):
     # set_name
@@ -86,13 +90,19 @@ for setof in setlist:
                 objelemkey=objelem['key']
                 objelemurlext=geturl_extname(objelem['imageUrl'])
                 iconpath[f'{setof}-{objof}-{objelemkey}'] = f'![{objelemkey}](../tft{objof}/icon/{setof}/{objelemkey}.{objelemurlext})'
+emblemfixtraits=copy_icon_emblem2trait()
 
+def get_traits_iconpath(setof:str, traitkey: str) -> str:
+    iconkeyofkey=f'{setof}-traits-{traitkey}'
+    blackicon=iconpath[iconkeyofkey] 
+    coloricon=emblemfixtraits[iconkeyofkey] if iconkeyofkey in emblemfixtraits else None
+    return coloricon if coloricon else blackicon
 
 def modify_traittbl_icon(setof: str, tbl: Grid2d) -> Grid2d:
     # modify line0: traitkey
     # modify line3: emblem composition
     for rowidx,row in enumerate(tbl.grid2d):
-        tbl.grid2d[rowidx][0] = iconpath[f'{setof}-traits-{row[0]}']
+        tbl.grid2d[rowidx][0] = get_traits_iconpath(setof, row[0])
         composils=row[3].split('+')
         if len(composils) == 2:
             tbl.grid2d[rowidx][3] = '+'.join([
@@ -107,7 +117,7 @@ def modify_uniquetbl_icon(setof: str, tbl: Grid2d) -> Grid2d:
     for rowidx, row in enumerate(tbl.grid2d):
         tbl.grid2d[rowidx][0] = iconpath[f'{setof}-traits-{row[0]}']
         chmps=tbl.grid2d[rowidx][1].split('/')
-        tbl.grid2d[rowidx][1] = '+'.join([
+        tbl.grid2d[rowidx][1] = '/'.join([
             iconpath[f'{setof}-champions-{chmp}']
             for chmp in chmps
         ])
@@ -118,10 +128,10 @@ def modify_syngrid_icon(setof:str, tbl: Grid2d) -> Grid2d:
     # traits
     # modify row[0][1:]
     for j in range(0, len(tbl.row0)):
-        tbl.row0[j] = iconpath[f'{setof}-traits-{tbl.row0[j]}']
+        tbl.row0[j] = get_traits_iconpath(setof, tbl.row0[j])
     # modify line0
-    for i in range(1, len(tbl.line0)):
-        tbl.line0[i] = iconpath[f'{setof}-traits-{tbl.line0[i]}']
+    for i in range(0, len(tbl.line0)):
+        tbl.line0[i] = get_traits_iconpath(setof, tbl.line0[i])
 
     # champions
     for i in range(0, len(tbl.grid2d)):
@@ -131,6 +141,27 @@ def modify_syngrid_icon(setof:str, tbl: Grid2d) -> Grid2d:
                 for chmp in tbl.grid2d[i][j].split('/')
                 if len(chmp) > 0
             ])
+    
+    return tbl
+
+def modify_crafgrid_icon(setof: str, tbl: Grid2d) -> Grid2d:
+    nickname2cpnt=reverse_dict_kv(components_nickname)
+
+    # traits
+    # modify row[0][1:]
+    for j in range(0, len(tbl.row0)):
+        tbl.row0[j] = nickname2cpnt[tbl.row0[j]]
+        tbl.row0[j] = iconpath[f'{setof}-items-{tbl.row0[j]}']
+    # modify line0
+    for i in range(1, len(tbl.line0)):
+        tbl.line0[i] = nickname2cpnt[tbl.line0[i]]
+        tbl.line0[i] = iconpath[f'{setof}-items-{tbl.line0[i]}']
+
+    # champions
+    for i in range(0, len(tbl.grid2d)):
+        for j in range(0, len(tbl.grid2d[i])):
+            if len(tbl.grid2d[i][j]) > 0:
+                tbl.grid2d[i][j] = iconpath[f'{setof}-items-{tbl.grid2d[i][j]}']
     
     return tbl
 
@@ -171,6 +202,7 @@ def write_detail_md_comic(wtr: TextIOWrapper,setof: str):
     wtr.write('## Items\n')
     wtr.write('### CraftableGrid\n')
     crafgrid = get_craftable_grid(setof)
+    crafgrid = modify_crafgrid_icon(setof, crafgrid)
     wtr.write(crafgrid.__str_md__())
 
 

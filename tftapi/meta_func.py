@@ -157,10 +157,40 @@ class Grid2d():
 from requests import get as httpget
 from requests.exceptions import RequestException
 import os
+toobignotdl=[
+    # items in set9
+    "AdaptiveImplant",              
+    "CrownofDemacia",
+    "HextechExoskeleton",
+    "Masterworkupgrade",
+    "RoboticArm",
+    "Scrollofknowledge",
+    "ShimmerInjector",
+    "TheDarkinBlade",
+    "UnstableChemtank",
+    "VirulentBioware",
+    "Masterworkupgrade",
+    "ShimmerInjector",
+    "HextechExoskeleton",
+    "Scrollofknowledge",
+    "CrownofDemacia",
+    "TheDarkinBlade",
+    
+    # items in set9.5
+    "AdaptiveImplant",
+    "HextechExoskeleton",
+    "RoboticArm",
+    "ShimmerInjector",
+    "UnstableChemtank",
+    "VirulentBioware",
+]
 def download_file(fileurl: str, filepath: str, timeout_sec: float) -> tuple[str,str,float]|None:
     try:
         if os.path.exists(filepath): # already downloaded
             return None 
+        if any([filepath.find(dirpath)!=-1 for dirpath in ['tftitems/icon/set9','tftitems/icon/set9.5']]) and \
+            any([fileurl.find(ignorekey)!=-1 for ignorekey in toobignotdl]): # too big ignore
+            return None
         if fileurl=='https:None':    # illegal url
             return None
         fileresp=httpget(fileurl, stream=True, timeout=timeout_sec)
@@ -180,3 +210,9 @@ def geturl_extname(commonurl:str) -> str:
         return 'jpg'
     else:
         return commonurl[dotidx+1:]
+
+def reverse_dict_kv(dt:dict[str,str]) -> dict[str,str]:
+    ndt:dict[str,str]={}
+    for dtkey,dtval in dt.items():
+        ndt[dtval]=dtkey
+    return ndt

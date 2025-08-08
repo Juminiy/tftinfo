@@ -23,16 +23,16 @@ def settraits(setof: str) -> list[dict]:
 special_components=['Spatula', 'FryingPan', 'ShadowSpatula', 'spatula', 'pan']
 
 components_nickname={
-    'BFSword': 'sword',             'PBEBFSword': 'sword',              'ShadowBFSword': 's-sword',
-    'ChainVest': 'vest',            'PBEChainVest': 'vest',             'ShadowChainVest': 's-vest',
-    'FryingPan': 'pan',             'PBEFryingPan': 'pan',              'ShadowFryingPan': 's-pan',
-    'GiantsBelt': 'belt',           'PBEGiantsBelt': 'belt',            'ShadowGiantsBelt': 's-belt',
-    'NeedlesslyLargeRod': 'rod',    'PBENeedlesslyLargeRod': 'rod',     'ShadowNeedlesslyLargeRod': 's-rod',
-    'NegatronCloak': 'cloak',       'PBENegatronCloak': 'cloak',        'ShadowNegatronCloak': 's-cloak',
-    'RecurveBow': 'bow',            'PBERecurveBow': 'bow',             'ShadowRecurveBow': 's-bow',
-    'SparringGloves': 'glove',      'PBESparringGloves': 'glove',       'ShadowSparringGloves': 's-glove',
-    'Spatula': 'spatula',           'PBESpatula': 'spatula',            'ShadowSpatula': 's-spatula',
-    'Tearofthegoddess': 'tear',     'PBETearofthegoddess': 'tear',      'ShadowTearofthegoddess': 's-tear',
+    'BFSword': 'sword',          'ShadowBFSword': 's-sword',            # 'PBEBFSword': 'sword',         
+    'ChainVest': 'vest',         'ShadowChainVest': 's-vest',           # 'PBEChainVest': 'vest',        
+    'FryingPan': 'pan',          'ShadowFryingPan': 's-pan',            # 'PBEFryingPan': 'pan',         
+    'GiantsBelt': 'belt',        'ShadowGiantsBelt': 's-belt',          # 'PBEGiantsBelt': 'belt',       
+    'NeedlesslyLargeRod': 'rod', 'ShadowNeedlesslyLargeRod': 's-rod',   # 'PBENeedlesslyLargeRod': 'rod',
+    'NegatronCloak': 'cloak',    'ShadowNegatronCloak': 's-cloak',      # 'PBENegatronCloak': 'cloak',   
+    'RecurveBow': 'bow',         'ShadowRecurveBow': 's-bow',           # 'PBERecurveBow': 'bow',        
+    'SparringGloves': 'glove',   'ShadowSparringGloves': 's-glove',     # 'PBESparringGloves': 'glove',  
+    'Spatula': 'spatula',        'ShadowSpatula': 's-spatula',          # 'PBESpatula': 'spatula',       
+    'Tearofthegoddess': 'tear',  'ShadowTearofthegoddess': 's-tear',    # 'PBETearofthegoddess': 'tear', 
 }
 
 components_nickname_priority={
