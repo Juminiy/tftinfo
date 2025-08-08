@@ -8,27 +8,27 @@
 
 ## Traits
 ### Origins
-| {{origin_name}} | {{unit_active}} | {{unit_count}} | {{emblem}}                   | {{desc}} |
-| -               | -               | -              | -                            | -        |
-| Abomination     | 3/4/5           | 4              | Spatula+ShadowSparringGloves |          |
-| Coven           | 3               | 3              |                              |          |
-| Dawnbringer     | 2/4/6/8         | 7              | Spatula+GiantsBelt           |          |
-| Draconic        | 3/5             | 5              |                              |          |
-| Dragonslayer    | 2/4/6           | 4              |                              |          |
-| Forgotten       | 3/6/9           | 9              |                              |          |
-| Hellion         | 3/5/7           | 6              |                              |          |
-| Ironclad        | 2/3/4           | 3              | Spatula+ChainVest            |          |
-| Nightbringer    | 2/4/6/8         | 8              |                              |          |
-| Redeemed        | 3/6/9           | 8              | Spatula+NegatronCloak        |          |
-| Revenant        | 2/3/4           | 3              |                              |          |
-| Verdant         | 2/3             | 3              |                              |          |
+| {{origin_name}} | {{unit_active}} | {{unit_count}} | {{emblem}}                       | {{desc}} |
+| -               | -               | -              | -                                | -        |
+| Abomination     | 3/4/5           | 4              | Spatula+ShadowSparringGloves     |          |
+| Coven           | 3               | 3              | ShadowSpatula+Tearofthegoddess   |          |
+| Dawnbringer     | 2/4/6/8         | 7              | Spatula+GiantsBelt               |          |
+| Draconic        | 3/5             | 5              |                                  |          |
+| Dragonslayer    | 2/4/6           | 4              | ShadowSpatula+NeedlesslyLargeRod |          |
+| Forgotten       | 3/6/9           | 9              | ShadowSpatula+BFSword            |          |
+| Hellion         | 3/5/7           | 6              | ShadowSpatula+RecurveBow         |          |
+| Ironclad        | 2/3/4           | 3              | Spatula+ChainVest                |          |
+| Nightbringer    | 2/4/6/8         | 8              | ShadowSpatula+GiantsBelt         |          |
+| Redeemed        | 3/6/9           | 8              | Spatula+NegatronCloak            |          |
+| Revenant        | 2/3/4           | 3              | ShadowSpatula+NegatronCloak      |          |
+| Verdant         | 2/3             | 3              |                                  |          |
 
 ### Classes
 | {{class_name}} | {{unit_active}} | {{unit_count}} | {{emblem}}                 | {{desc}} |
 | -              | -               | -              | -                          | -        |
 | Assassin       | 2/4/6           | 6              | Spatula+SparringGloves     |          |
 | Brawler        | 2/4             | 5              |                            |          |
-| Cavalier       | 2/3/4           | 4              |                            |          |
+| Cavalier       | 2/3/4           | 4              | ShadowSpatula+ChainVest    |          |
 | Invoker        | 2/4             | 4              |                            |          |
 | Knight         | 2/4/6           | 7              |                            |          |
 | Legionnaire    | 2/4/6/8         | 7              | Spatula+RecurveBow         |          |

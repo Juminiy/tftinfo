@@ -66,7 +66,7 @@
 | **sword**     | LordsEdge | GiantSlayer     | GuardianAngel | Bloodthirster | HextechGunblade       | SpearofShojin  | ZekesHerald    | InfinityEdge      | YoumuusGhostblade    |
 | **bow**       |           | RapidFirecannon | PhantomDancer | CursedBlade   | GuinsoosRageblade     | StatikkShiv    | TitanicHydra   | RepeatingCrossbow | BladeoftheRuinedKing |
 | **vest**      |           |                 | Thornmail     | SwordBreaker  | LocketoftheIronSolari | FrozenHeart    | RedBuff        | IceborneGauntlet  | KnightsVow           |
-| **cloak**     |           |                 |               | DragonsClaw   | IonicSpark            | Hush           | Zephyr         | Quicksilver       |                      |
+| **cloak**     |           |                 |               | DragonsClaw   | IonicSpark            | Hush           | Zephyr         | Quicksilver       | RunaansHurricane     |
 | **rod**       |           |                 |               |               | RabadonsDeathcap      | LudensEcho     | Morellonomicon | ArcaneGauntlet    | Yuumi                |
 | **tear**      |           |                 |               |               |                       | SeraphsEmbrace | Redemption     | HandofJustice     | Darkin               |
 | **belt**      |           |                 |               |               |                       |                | WarmogsArmor   | Backhand          | FrozenMallet         |

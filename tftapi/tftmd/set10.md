@@ -14,7 +14,7 @@
 | Country         | 3/5/7           | 5              | Spatula+NegatronCloak      |          |
 | Disco           | 3/4/5/6         | 5              | uncraftable                |          |
 | EDM             | 2/3/4/5         | 4              |                            |          |
-| EMO             | 2/4/6           | 4              |                            |          |
+| EMO             | 2/4/6           | 4              | Spatula+Tearofthegoddess   |          |
 | Heartsteel      | 3/5/7/10        | 6              | Spatula+GiantsBelt         |          |
 | Hyperpop        | 1/2/3/4         | 2              | uncraftable                |          |
 | Jazz            | 2/3/4           | 3              |                            |          |
@@ -28,7 +28,7 @@
 | -              | -               | -              | -           | -        |
 | BigShot        | 2/4/6           | 5              | uncraftable |          |
 | Brawler        | 2/4/6           | 6              | uncraftable |          |
-| CrowdDiver     | 2/4/6           | 5              | uncraftable |          |
+| CrowdDiver     | 2/4/6           | 5              |             |          |
 | Dazzler        | 2/4/6           | 5              | uncraftable |          |
 | Edgelord       | 3/5/7           | 6              | uncraftable |          |
 | Executioner    | 2/4/6           | 6              | uncraftable |          |

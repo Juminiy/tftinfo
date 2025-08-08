@@ -13,6 +13,7 @@ from meta_func import no_radiant_set
 from meta_func import select_items
 from meta_func import select_item_emblems
 from meta_func import Grid2d
+from meta_func import spatula_in_compositions
 
 def parse_attr(fulldesc: str) -> list[str]:
     if len(fulldesc) == 0:
@@ -111,9 +112,7 @@ for setof in setlist:
                 'attr': itemof['shortDesc'],
             })
         elif valid_composi(itemof) and \
-            'Spatula' not in itemof['compositions'] and \
-            'FryingPan' not in itemof['compositions'] and \
-            'ShadowSpatula' not in itemof['compositions']:
+            not spatula_in_compositions(itemof):
             itemTyp[setof]['craf'].append({
                 'name': itemof['key'],
                 'compositions': item_composi_nick(itemof),
@@ -190,6 +189,14 @@ def get_craftable_grid(setof: str) -> Grid2d:
             continue
         grid2d[comps.index(compnickitems[0])][comps.index(compnickitems[1])] = crown['name']
     
+    # special fix: set1: RunaansHurricane
+    if setof == 'set1':
+        for specitem in itemTyp['set1']['spec']:
+            if 'compositions' in specitem:
+                cpnt0=components_nickname[specitem['compositions'][0]]
+                cpnt1=components_nickname[specitem['compositions'][1]]
+                grid2d[comps.index(cpnt0)][comps.index(cpnt1)] = specitem['name']
+
     return Grid2d(grid2d, comps.copy(), comps.copy(), 'C1\\C2', True)
 
 def compare_craftable_radiant_items():

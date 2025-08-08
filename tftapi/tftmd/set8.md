@@ -13,13 +13,13 @@
 | ADMIN           | 2/4/6           | 4              | Spatula+NegatronCloak      |          |
 | AnimaSquad      | 3/5/7           | 6              | Spatula+NeedlesslyLargeRod |          |
 | Civilian        | 1/2/3           | 3              | uncraftable                |          |
-| Gadgeteen       | 3/5             | 5              |                            |          |
-| LaserCorps      | 3/5/7/9         | 7              |                            |          |
-| MechaPRIME      | 3/5             | 5              |                            |          |
+| Gadgeteen       | 3/5             | 5              | uncraftable                |          |
+| LaserCorps      | 3/5/7/9         | 7              | Spatula+BFSword            |          |
+| MechaPRIME      | 3/5             | 5              | uncraftable                |          |
 | OxForce         | 2/4/6/8         | 6              | Spatula+ChainVest          |          |
 | StarGuardian    | 3/5/7/9         | 8              | uncraftable                |          |
 | Supers          | 3               | 3              |                            |          |
-| Underground     | 3/4/5/6         | 5              |                            |          |
+| Underground     | 3/4/5/6         | 5              | uncraftable                |          |
 
 ### Classes
 | {{class_name}} | {{unit_active}} | {{unit_count}} | {{emblem}}               | {{desc}} |
@@ -35,8 +35,8 @@
 | Prankster      | 2/3             | 3              | uncraftable              |          |
 | Recon          | 2/3/4           | 4              | uncraftable              |          |
 | Renegade       | 3/6             | 5              | Spatula+SparringGloves   |          |
-| Spellslinger   | 2/4/6/8         | 6              |                          |          |
-| Sureshot       | 2/4             | 4              |                          |          |
+| Spellslinger   | 2/4/6/8         | 6              | uncraftable              |          |
+| Sureshot       | 2/4             | 4              | uncraftable              |          |
 
 ### Unique
 | {{name}}   | {{champion}}                                                     | {{cost}}        |

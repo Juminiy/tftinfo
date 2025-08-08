@@ -60,6 +60,10 @@ def emblem_cmp_func(s1:str, s2:str) -> int:
     return 0
 emblem_cmp_key=cmp_to_key(emblem_cmp_func)
 
+def spatula_in_compositions(itm:dict) -> bool:
+    return ('compositions' in itm) and (len(itm['compositions']) == 2) and \
+            any(cpnt in special_components for cpnt in itm['compositions'])
+
 def no_radiant_set(setof: str) -> bool:
     return setof in ['set1','set2','set3','set4','set5','set3.5','set4.5','set6']
 

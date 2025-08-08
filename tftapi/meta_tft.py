@@ -98,6 +98,11 @@ def get_traits_iconpath(setof:str, traitkey: str) -> str:
     coloricon=emblemfixtraits[iconkeyofkey] if iconkeyofkey in emblemfixtraits else None
     return coloricon if coloricon else blackicon
 
+# missing traits
+# ✅ set10 EMO
+# ✅ set8 LaserCorps
+# ✅ set5 ShadowSpatula+*
+# ❌ set4.5 Spatula+*, set4.5 data overlap with s4, vague data, not implement
 def modify_traittbl_icon(setof: str, tbl: Grid2d) -> Grid2d:
     # modify line0: traitkey
     # modify line3: emblem composition
@@ -144,6 +149,8 @@ def modify_syngrid_icon(setof:str, tbl: Grid2d) -> Grid2d:
     
     return tbl
 
+# missing items
+# ✅ set1 Spatula+cloak
 def modify_crafgrid_icon(setof: str, tbl: Grid2d) -> Grid2d:
     nickname2cpnt=reverse_dict_kv(components_nickname)
 
@@ -195,6 +202,7 @@ def write_detail_md_comic(wtr: TextIOWrapper,setof: str):
 
     wtr.write('### SynergyGrid\n')
     syngrid = get_synergy_grid(setof)
+    syngrid.md_hll=False
     syngrid = modify_syngrid_icon(setof, syngrid)
     wtr.write(syngrid.__str_md__());wtr.write('\n\n')
 
@@ -202,6 +210,7 @@ def write_detail_md_comic(wtr: TextIOWrapper,setof: str):
     wtr.write('## Items\n')
     wtr.write('### CraftableGrid\n')
     crafgrid = get_craftable_grid(setof)
+    crafgrid.md_hll=False
     crafgrid = modify_crafgrid_icon(setof, crafgrid)
     wtr.write(crafgrid.__str_md__())
 

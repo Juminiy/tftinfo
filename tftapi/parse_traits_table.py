@@ -5,7 +5,8 @@ from typing import Any
 from meta_data import settraits, setchampions, setitems
 
 from meta_func import select_traits, select_champions, emblem_cmp_key
-from meta_func import select_traits_legal, count_traits_style, select_items
+from meta_func import select_traits_legal, count_traits_style, select_item_emblems
+from meta_func import spatula_in_compositions
 from meta_func import Grid2d
 
 # def parse_stats(statsd: dict[str,str], descs:str) -> str:
@@ -19,18 +20,24 @@ def get_traits_table(setof: str) -> tuple[Grid2d, Grid2d]:
 
     emblems:dict[str,Any]={}
     for emb in setitems(setof):
-        if not select_items(setof, emb):
+        if not select_item_emblems(setof, emb):
             continue
         if 'isEmblem' in emb:
-            embkeyraw,embnameraw,embkey=str(emb['key']),str(emb['name']),''
+            # key chosen
+            embkey=''
+            embkeyraw,embnameraw=str(emb['key']),str(emb['name'])
             if embkeyraw.endswith('Emblem') or embkeyraw.endswith('EmblemItem'):
                 embkey=embkeyraw.removesuffix('Emblem').removesuffix('EmblemItem')
             elif embnameraw.endswith(' Emblem') or embnameraw.endswith(' EmblemItem'):
                 embkey=embnameraw.removesuffix(' Emblem').removesuffix(' EmblemItem')
+            # key chosen special
+            if setof in ['set10','set8','set5'] and emb['affectedTraitKey'] != embkey:
+                embkey=emb['affectedTraitKey']
+            
+            # composi chosen
             embcomposi=[]
             # craftable
-            if ('compositions' in emb) and (len(emb['compositions']) == 2) and \
-                ('Spatula' in emb['compositions'] or 'FryingPan' in emb['compositions']):
+            if spatula_in_compositions(emb):
                 embcomposi = sorted(emb['compositions'], key=emblem_cmp_key)
             # uncraftable
             elif 'compositions' not in emb:
