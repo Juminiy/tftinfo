@@ -4,7 +4,7 @@ from typing import Any
 
 from meta_data import settraits, setchampions, setitems
 
-from meta_func import select_traits, select_champions, emblem_cmp_key
+from meta_func import select_traits, select_champions, component_cmp_key
 from meta_func import select_traits_legal, count_traits_style, select_item_emblems
 from meta_func import spatula_in_compositions
 from meta_func import Grid2d
@@ -38,13 +38,13 @@ def get_traits_table(setof: str) -> tuple[Grid2d, Grid2d]:
             embcomposi=[]
             # craftable
             if spatula_in_compositions(emb):
-                embcomposi = sorted(emb['compositions'], key=emblem_cmp_key)
+                embcomposi = sorted(emb['compositions'], key=component_cmp_key)
             # uncraftable
             elif 'compositions' not in emb:
                 embcomposi = ['uncraftable']
             emblems[embkey] = embcomposi
         elif 'affectedTraitKey' in emb and 'compositions' in emb: # fix set1,set2,set3,set4,set3.5,set4.5
-            emblems[emb['affectedTraitKey']] = sorted(emb['compositions'], key=emblem_cmp_key)
+            emblems[emb['affectedTraitKey']] = sorted(emb['compositions'], key=component_cmp_key)
 
 
     trt2chp:dict[str,set[str]]={}

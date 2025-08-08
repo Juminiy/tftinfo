@@ -10,7 +10,7 @@
 ### Origins
 | {{origin_name}} | {{unit_active}} | {{unit_count}} | {{emblem}}                       | {{desc}} |
 | -               | -               | -              | -                                | -        |
-| Abomination     | 3/4/5           | 4              | Spatula+ShadowSparringGloves     |          |
+| Abomination     | 3/4/5           | 4              | ShadowSparringGloves+Spatula     |          |
 | Coven           | 3               | 3              | ShadowSpatula+Tearofthegoddess   |          |
 | Dawnbringer     | 2/4/6/8         | 7              | Spatula+GiantsBelt               |          |
 | Draconic        | 3/5             | 5              |                                  |          |

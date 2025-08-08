@@ -181,13 +181,15 @@ def get_craftable_grid(setof: str) -> Grid2d:
         if len(compnickitems) != 2:
             continue
         compnickitems.sort(key=lambda compnick: components_nickname_priority[compnick])
-        grid2d[comps.index(compnickitems[0])][comps.index(compnickitems[1])] = embl['name']
+        c1idx,c2idx=comps.index(compnickitems[0]),comps.index(compnickitems[1])
+        grid2d[min(c1idx, c2idx)][max(c1idx,c2idx)] = embl['name']
     
     for crown in crowns:
         compnickitems=str(crown['compositions']).split('+')
         if len(compnickitems) != 2:
             continue
-        grid2d[comps.index(compnickitems[0])][comps.index(compnickitems[1])] = crown['name']
+        c1idx,c2idx=comps.index(compnickitems[0]),comps.index(compnickitems[1])
+        grid2d[min(c1idx,c2idx)][max(c1idx,c2idx)] = crown['name']
     
     # special fix: set1: RunaansHurricane
     if setof == 'set1':

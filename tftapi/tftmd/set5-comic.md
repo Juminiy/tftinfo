@@ -10,7 +10,7 @@
 ### Origins
 | {{origin_name}}                                                    | {{unit_active}} | {{unit_count}} | {{emblem}}                                                                                                                    | {{desc}} |
 | -                                                                  | -               | -              | -                                                                                                                             | -        |
-| ![Abomination](../tfttraits/icon/set5/ShadowYoumuusGhostblade.png) | 3/4/5           | 4              | ![Spatula](../tftitems/icon/set5/Spatula.png)+![ShadowSparringGloves](../tftitems/icon/set5/ShadowSparringGloves.png)         |          |
+| ![Abomination](../tfttraits/icon/set5/ShadowYoumuusGhostblade.png) | 3/4/5           | 4              | ![ShadowSparringGloves](../tftitems/icon/set5/ShadowSparringGloves.png)+![Spatula](../tftitems/icon/set5/Spatula.png)         |          |
 | ![Coven](../tfttraits/icon/set5/ShadowMagesCap.png)                | 3               | 3              | ![ShadowSpatula](../tftitems/icon/set5/ShadowSpatula.png)+![Tearofthegoddess](../tftitems/icon/set5/Tearofthegoddess.png)     |          |
 | ![Dawnbringer](../tfttraits/icon/set5/WarlordsBanner.png)          | 2/4/6/8         | 7              | ![Spatula](../tftitems/icon/set5/Spatula.png)+![GiantsBelt](../tftitems/icon/set5/GiantsBelt.png)                             |          |
 | ![Draconic](../tfttraits/icon/set5/Draconic.svg)                   | 3/5             | 5              |                                                                                                                               |          |

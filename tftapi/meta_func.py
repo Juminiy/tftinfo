@@ -49,16 +49,13 @@ def select_augments(setof:str, aug:dict) -> bool:
     return 'isHidden' not in aug
 
 from meta_data import special_components
+from meta_data import components_nickname,components_nickname_priority
 from functools import cmp_to_key
-def emblem_cmp_func(s1:str, s2:str) -> int:
-    if s1 in special_components and s2 in special_components:
-        return 0
-    elif s1 in special_components:
-        return -1
-    elif s2 in special_components:
-        return 1
-    return 0
-emblem_cmp_key=cmp_to_key(emblem_cmp_func)
+def cpnt_cmp_func(cpnt1:str, cpnt2:str) -> int:
+    def get_prio(cpntname:str) -> int:
+        return components_nickname_priority[components_nickname[cpntname]]
+    return get_prio(cpnt2)-get_prio(cpnt1)
+component_cmp_key=cmp_to_key(cpnt_cmp_func)
 
 def spatula_in_compositions(itm:dict) -> bool:
     return ('compositions' in itm) and (len(itm['compositions']) == 2) and \
