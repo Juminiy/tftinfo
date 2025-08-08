@@ -153,7 +153,7 @@ def modify_crafgrid_icon(setof: str, tbl: Grid2d) -> Grid2d:
         tbl.row0[j] = nickname2cpnt[tbl.row0[j]]
         tbl.row0[j] = iconpath[f'{setof}-items-{tbl.row0[j]}']
     # modify line0
-    for i in range(1, len(tbl.line0)):
+    for i in range(0, len(tbl.line0)):
         tbl.line0[i] = nickname2cpnt[tbl.line0[i]]
         tbl.line0[i] = iconpath[f'{setof}-items-{tbl.line0[i]}']
 
