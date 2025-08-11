@@ -96,7 +96,8 @@ def get_traits_iconpath(setof:str, traitkey: str) -> str:
     iconkeyofkey=f'{setof}-traits-{traitkey}'
     blackicon=iconpath[iconkeyofkey] 
     coloricon=emblemfixtraits[iconkeyofkey] if iconkeyofkey in emblemfixtraits else None
-    return coloricon if coloricon else blackicon
+    return blackicon if setof in ['set1','set2','set3','set3.5','set4','set4.5'] \
+        else coloricon if coloricon else blackicon
 
 # missing traits
 # ✅ set10 EMO
