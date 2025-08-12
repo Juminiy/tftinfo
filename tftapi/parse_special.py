@@ -215,3 +215,7 @@ def trait_compare(setof0: str, trtkey0: str, setof1: str, trtkey1: str):
         cfile.close()
 
 trait_compare('set11', 'Fated', 'set15', 'StarGuardian')
+
+# Rewards
+def set15_rewards():
+    pass

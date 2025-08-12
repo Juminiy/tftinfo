@@ -170,12 +170,6 @@ toobignotdl=[
     "TheDarkinBlade",
     "UnstableChemtank",
     "VirulentBioware",
-    "Masterworkupgrade",
-    "ShimmerInjector",
-    "HextechExoskeleton",
-    "Scrollofknowledge",
-    "CrownofDemacia",
-    "TheDarkinBlade",
     
     # items in set9.5
     "AdaptiveImplant",
