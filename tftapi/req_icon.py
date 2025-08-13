@@ -1,8 +1,8 @@
 from meta_data import setlist
 from meta_data import setchampions, setitems, settraits
 from meta_data import set_itemstype
-from meta_func import select_champions, select_traits, select_items, select_traits_legal
-from meta_func import download_file, select_item_emblems, geturl_extname
+from meta_func import select_champions, select_items, select_traits_legal
+from meta_func import download_file, geturl_extname, copy_icon_emblem2trait, copyfile_src2dst
 from typing import Callable
 from parse_items import itemTyp
 import os
@@ -48,34 +48,6 @@ for reqfn in [req_champions_icon, req_items_icon, req_traits_icon]:
     objof=reqfn.__name__.removeprefix('req_').removesuffix('_icon')
     print(f'icon obj: {objof}')
     reqfn()
-
-def copyfile_src2dst(srcpath:str, dstpath:str):
-    with open(srcpath, 'rb') as srcf, \
-        open(dstpath, 'wb') as dstf:
-        dstf.write(srcf.read())
-        srcf.close()
-        dstf.close()
-
-def copy_icon_emblem2trait() -> dict[str,str]:
-    """
-        return value: onlyfor traits icon used,
-        affectedTraitKey -> iconpath
-    """
-    traitkey2img:dict[str,str]={}
-    for setof in setlist:
-        for itemof in setitems(setof):
-            if select_item_emblems(setof, itemof):
-                itemkey=itemof['key']
-                extname=geturl_extname(itemof['imageUrl'])
-                copyfile_src2dst(
-                    srcpath=f'tftitems/icon/{setof}/{itemkey}.{extname}', 
-                    dstpath=f'tfttraits/icon/{setof}/{itemkey}.{extname}',
-                )
-                if 'affectedTraitKey' in itemof:
-                    traitkey=itemof['affectedTraitKey']
-                    traitkey2img[f'{setof}-traits-{traitkey}'] = f'![{traitkey}](../tfttraits/icon/{setof}/{itemkey}.{extname})'
-
-    return traitkey2img
 
 def classify_items_icon():
     for setof in setlist:

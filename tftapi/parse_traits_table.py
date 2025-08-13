@@ -1,5 +1,3 @@
-from env import setlist
-
 from typing import Any
 
 from meta_data import settraits, setchampions, setitems

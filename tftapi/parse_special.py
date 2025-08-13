@@ -217,5 +217,27 @@ def trait_compare(setof0: str, trtkey0: str, setof1: str, trtkey1: str):
 trait_compare('set11', 'Fated', 'set15', 'StarGuardian')
 
 # Rewards
+# Parse TO Markdown
 def set15_rewards():
+    pass
+
+def set14_rewards():
+    pass
+
+def set13_rewards():
+    pass
+
+def set12_rewards():
+    pass
+
+def set11_rewards():
+    pass
+
+def set10_rewards():
+    pass
+
+def set9_rewards():
+    pass
+
+def set8_rewards():
     pass

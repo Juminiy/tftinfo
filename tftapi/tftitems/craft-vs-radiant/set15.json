@@ -6,7 +6,7 @@
             "basic_attrs": [
                 "+20MR"
             ],
-            "add_attrs": "Gain an additional 15% Mana from all sources. The wearer gains an additional bonus based on their Role:<br><br>Tanks/Fighters: Gain 35 Armor and Magic Resistance.<br><br>Other Roles: Gain 15 Attack Damage and Ability Power."
+            "add_attrs": "Gain an additional 15% Mana from all sources. The wearer gains an additional bonus based on their Role:<br><br>Tanks and Fighters: Gain 35 Armor and Magic Resistance.<br><br>Other Roles: Gain 15 Attack Damage and Ability Power."
         },
         "radiant": {
             "name": "JakshotheProtean",
@@ -14,7 +14,7 @@
                 "+25AP",
                 "+25MR"
             ],
-            "add_attrs": "Gain an additional 40% Mana from all sources. The wearer gains an additional bonus based on their Role:<br><br>Tanks/Fighters: Gain 60 Armor and Magic Resistance.<br><br>Marksman/Caster: Gain 30 Attack Damage and Ability Power."
+            "add_attrs": "Gain an additional 30% Mana from all sources. The wearer gains an additional bonus based on their Role:<br><br>Tank/Fighter: Gain 60 Armor and Magic Resistance.<br><br>Marksman/Caster: Gain 30 Attack Damage and Ability Power."
         }
     },
     {
@@ -92,7 +92,7 @@
             "basic_attrs": [
                 "+100AR"
             ],
-            "add_attrs": "Gain 15% max health.<br><br>Take 25% reduced damage from attacks. When struck by an attack, deal 175 magic damage to all adjacent enemies<br><br>Cooldown: 2 seconds"
+            "add_attrs": "Gain 15% max health.<br><br>Take 25% reduced damage from attacks. When struck by any attack, deal 175 magic damage to all adjacent enemies.<br><br>Cooldown: 2 seconds"
         }
     },
     {
@@ -113,7 +113,7 @@
                 "+40AP",
                 "+40AR"
             ],
-            "add_attrs": "Combat start: Gain a 50% max Health Shield for 8 seconds.<br>When the shield expires, gain 50 Ability Power."
+            "add_attrs": "Combat start: Gain a 50% max Health Shield for 8 seconds. <br>When the shield expires, gain 50 Ability Power."
         }
     },
     {
@@ -130,7 +130,7 @@
             "basic_attrs": [
                 "+115MR"
             ],
-            "add_attrs": "Gain 15% max health.<br><br>Every 2 seconds, regenerate 10% max Health."
+            "add_attrs": "Gain 15% max health.<br><br>Every 2 seconds, heal 10% max Health."
         }
     },
     {
@@ -149,7 +149,7 @@
                 "+500HP",
                 "+30MR"
             ],
-            "add_attrs": "30% Sunder enemies within 3 hexes. Grant 70 Armor and Magic Resist for the first 20 seconds of combat.<br><br>Sunder: Reduce Armor"
+            "add_attrs": "30% Sunder enemies within 3 hexes. Gain 70 Armor and Magic Resist for the first 20 seconds of combat.<br><br>Sunder: Reduce Armor"
         }
     },
     {
@@ -160,7 +160,7 @@
                 "+25AR",
                 "+25MR"
             ],
-            "add_attrs": "Start of Combat: Gain 20 Mana.<br><br>Lifeline: At 40% Health, gain 15 and a Shield equal to 20% max Health."
+            "add_attrs": "Start of Combat: Gain 20 Mana.<br><br>Lifeline: At 40% Health, gain 15 Mana and a Shield equal to 20% max Health."
         },
         "radiant": {
             "name": "FimbulwinterRadiant",
@@ -168,7 +168,7 @@
                 "+50AR",
                 "+50MR"
             ],
-            "add_attrs": "Start of Combat: Gain 30 Mana.<br><br>Lifeline: At 40%% Health, gain 20 and a Shield equal to 45%% max Health."
+            "add_attrs": "Start of Combat: Gain 20 Mana.<br><br>Lifeline: At 40%% Health, gain 20 and a Shield equal to 45%% max Health."
         }
     },
     {
@@ -199,7 +199,7 @@
             "compositions": "belt+glove",
             "basic_attrs": [
                 "+150HP",
-                "+20%AS",
+                "+10%AS",
                 "+20%CR",
                 "+10%DA"
             ],
@@ -209,11 +209,11 @@
             "name": "RadientStridebreaker",
             "basic_attrs": [
                 "+150HP",
-                "+35%AS",
+                "+25%AS",
                 "+35%CR",
                 "+8%DA"
             ],
-            "add_attrs": "After damaging a Shield, gain 30% Damage Amp for 3 seconds."
+            "add_attrs": "Critical Strikes grant 8% Damage Amp for 8 seconds, stacking up to 4 times."
         }
     },
     {
@@ -234,7 +234,7 @@
                 "+30AP",
                 "+40%AS"
             ],
-            "add_attrs": "Lifeline: At 60% Health, briefly become untargetable and shed negative effects. Then, heal 100% missing health."
+            "add_attrs": "Lifeline: At 60% Health, briefly become untargetable and shed negative effects."
         }
     },
     {
@@ -263,14 +263,14 @@
             "basic_attrs": [
                 "+20%CR"
             ],
-            "add_attrs": "Gain 2 effects:<br>- 15% Attack Damage and 15 Ability Power.<br>- 12% Omnivamp<br><br>Attack Damage and Ability Power are doubled above 50% health, and Omnivamp is doubled below 50% health"
+            "add_attrs": "Gain 2 effects:<br>- 15% Attack Damage and 15 Ability Power.<br>- 12% Omnivamp.<br><br>While above 50% health, double the Attack Damage and Ability Power. While below 50% Health, double the Omnivamp."
         },
         "radiant": {
             "name": "RadientHandofJustice",
             "basic_attrs": [
                 "+40%CR"
             ],
-            "add_attrs": "Gain 2 effects:<br>-50% Attack Damage and 50 Ability Power.<br>- 30% Omnivamp<br>Attack Damage and Ability Power are doubled above 50% health, and the Omnivamp is doubled below 50% health"
+            "add_attrs": "Gain 2 effects:<br>-35% Attack Damage and 35 Ability Power.<br>- 20% Omnivamp<br>While above 50% health, double the Attack Damage and Ability Power. While below 50% Health, double the Omnivamp."
         }
     },
     {
@@ -310,7 +310,7 @@
                 "+70%AD",
                 "+75%CR"
             ],
-            "add_attrs": "Ability can critically strike.<br><br>If the holder's abilities can already critically strike, gain 10% Critical Strike Damage instead."
+            "add_attrs": "Abilities can critically strike.<br><br>If the holder's abilities can already critically strike, gain 10% Critical Strike Damage instead."
         }
     },
     {
@@ -373,7 +373,7 @@
                 "+25%AS",
                 "+55%CR"
             ],
-            "add_attrs": "Physical damage 30% Sunders the target for the rest of combat. This effect does not stack.<br><br>Sunder: reduce Armor"
+            "add_attrs": "Physical damage 30% Sunders the target for the rest of combat. This effect does not stack.<br><br>Sunder: Reduce Armor"
         }
     },
     {
@@ -518,7 +518,7 @@
                 "+300HP",
                 "+10%DR"
             ],
-            "add_attrs": "Restore 2.5% of missing Health each second."
+            "add_attrs": "Regenerate 2.5% of missing Health each second."
         },
         "radiant": {
             "name": "RadientRedemption",
@@ -526,7 +526,7 @@
                 "+600HP",
                 "+15%DR"
             ],
-            "add_attrs": "Restore 5% of missing Health each second."
+            "add_attrs": "Regenerate 5% of missing Health each second."
         }
     },
     {
@@ -596,7 +596,7 @@
                 "+300HP",
                 "+40%AD"
             ],
-            "add_attrs": "Lifeline: At 60% Health, gain a Shield equal to 50% of the wearer's maximum Health that rapidly decays over 5 seconds."
+            "add_attrs": "At 60% Health, gain a Shield equal to 50% of the wearer's maximum Health that rapidly decays over 5 seconds."
         },
         "radiant": {
             "name": "SteraksMegashield",
@@ -604,7 +604,7 @@
                 "+600HP",
                 "+80%AD"
             ],
-            "add_attrs": "At 60% Health, gain a shield equal to 100% of the wearer's maximum Health that rapidly decays over 6 seconds."
+            "add_attrs": "At 60% Health, gain a Shield equal to 100% of the wearer's maximum Health that rapidly decays over 6 seconds."
         }
     },
     {
@@ -614,14 +614,14 @@
             "basic_attrs": [
                 "+20AR"
             ],
-            "add_attrs": "Every 2 seconds, deal 1% Burn and 33% Wound to an enemy within 2 hexes for 10 seconds.<br><br>Burn: Deals a percent of the target's max Health as true damage every second<br>Wound: Reduces healing received"
+            "add_attrs": "Gain 8% max Health. <br><br>Every 2 seconds, deal 1% Burn and 33% Wound to an enemy within 2 hexes for 10 seconds.<br><br>Burn: Deals a percent of the target's max Health as true damage every second<br>Wound: Reduces healing received"
         },
         "radiant": {
             "name": "RadientSunfireCape",
             "basic_attrs": [
                 "+40AR"
             ],
-            "add_attrs": "Gain 12% max Health.<br><br>Every 1.5 seconds, deal 2% Burn and 33% Wound to an enemy within 3 hexes for 8 seconds.<br>Burn: Deals a percent of the target's max Health as true damage every second<br>Wound: reduces healing received"
+            "add_attrs": "Gain 12% max Health.<br><br>Every 1.5 seconds, deal 2% Burn and 33% Wound to an enemy within 3 hexes for 8 seconds.<br><br>Burn: Deals a percent of the target's max Health as true damage every second<br>Wound: reduces healing received"
         }
     },
     {
@@ -640,7 +640,7 @@
                 "+150HP",
                 "+20%CR"
             ],
-            "add_attrs": "Each round: Equip 2 random Radiant items.<br><br>[Consumes 3 item slots]"
+            "add_attrs": "Each round: Equip 2 random Radiant items.<br><br>[Consumes 3 item slots.]"
         }
     },
     {
@@ -658,7 +658,7 @@
             "basic_attrs": [
                 "+35AR"
             ],
-            "add_attrs": "Gain 3% Attack Damage and 3 Ability Power when attacking or taking damage, stacking up to 25 times. <br><br>At full stacks, gain 40 Armor and 40 Magic Resist, and gain immunity to crowd control."
+            "add_attrs": "Gain 3% Attack Damage and 3 Ability Power when attacking or taking damage, stacking up to 25 times.<br><br>At full stacks, gain 40 Armor and 40 Magic Resist, and gain immunity to crowd control."
         }
     },
     {
@@ -676,7 +676,7 @@
             "basic_attrs": [
                 "+60%AS"
             ],
-            "add_attrs": "Attacks and Ability Damage 30% Shred the target for the rest of combat. This effect does not stack."
+            "add_attrs": "Attacks and Ability Damage 30% Shred the target for the rest of combat. This effect does not stack.<br><br>Shred: Reduce Magic Resist"
         }
     },
     {

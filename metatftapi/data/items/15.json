@@ -45,7 +45,7 @@
                 "ShieldHealthPercent": 20,
                 "TriggerMana": 15
             },
-            "desc": "Start of Combat: Gain 20 Mana.<br><br>Lifeline: At 40% Health, gain 15 Mana and a Shield equal to 20% max Health."
+            "desc": "Start of Combat: Gain 20 Mana.<br><br>At 40% Health, gain 15 Mana and a Shield equal to 20% max Health."
         },
         {
             "name": "Spirit Visage",
@@ -282,7 +282,7 @@
                 "HealthThreshold": 60,
                 "StealthDuration": 1
             },
-            "desc": "<TFTBonus>Lifeline:</TFTBonus> At 60% Health, briefly become untargetable and shed negative effects."
+            "desc": "At 60% Health, briefly become untargetable and shed negative effects."
         },
         {
             "name": "Titan's Resolve",
@@ -1009,7 +1009,7 @@
                 "ShieldHealthPercent": 45,
                 "TriggerMana": 20
             },
-            "desc": "Start of Combat: Gain 20 Mana.<br><br>Lifeline: At 40% Health, gain <TFTRadiantItemBonus>20 Mana</TFTRadiantItemBonus> and a Shield equal to <TFTRadiantItemBonus>45% max Health</TFTRadiantItemBonus>."
+            "desc": "Start of Combat: Gain 20 Mana.<br><br>At 40% Health, gain <TFTRadiantItemBonus>20 Mana</TFTRadiantItemBonus> and a Shield equal to <TFTRadiantItemBonus>45% max Health</TFTRadiantItemBonus>."
         },
         {
             "name": "Radiant Blue Buff",
@@ -1190,15 +1190,16 @@
             "composition": [],
             "tags": [],
             "effects": {
-                "AD": 0.25,
-                "AP": 30,
-                "AS": 40,
+                "AD": 0.20000000298023224,
+                "AP": 20,
+                "AS": 30,
                 "Armor": 20,
                 "DamageReduction": 100,
                 "HealthThreshold": 60,
+                "MissingHealthRestore": 1,
                 "StealthDuration": 1
             },
-            "desc": "<TFTBonus>Lifeline:</TFTBonus> At 60% Health, briefly become untargetable and shed negative effects."
+            "desc": "At 60% Health, briefly become untargetable, shed negative effects, and <TFTRadiantItemBonus>heal all missing health</TFTRadiantItemBonus>."
         },
         {
             "name": "Radiant Red Buff",

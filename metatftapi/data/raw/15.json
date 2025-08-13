@@ -1140,7 +1140,7 @@
             "apiName": "TFT5_Item_FrozenHeartRadiant",
             "associatedTraits": [],
             "composition": [],
-            "desc": "Start of Combat: Gain @CombatStartMana@ Mana.<br><br>Lifeline: At @HealthThreshold@% Health, gain <TFTRadiantItemBonus>@TriggerMana@ Mana</TFTRadiantItemBonus> and a Shield equal to <TFTRadiantItemBonus>@ShieldHealthPercent@% max Health</TFTRadiantItemBonus>.",
+            "desc": "Start of Combat: Gain @CombatStartMana@ Mana.<br><br>At @HealthThreshold@% Health, gain <TFTRadiantItemBonus>@TriggerMana@ Mana</TFTRadiantItemBonus> and a Shield equal to <TFTRadiantItemBonus>@ShieldHealthPercent@% max Health</TFTRadiantItemBonus>.",
             "effects": {
                 "Armor": 50,
                 "CombatStartMana": 20,
@@ -1730,14 +1730,15 @@
             "apiName": "TFT5_Item_GuardianAngelRadiant",
             "associatedTraits": [],
             "composition": [],
-            "desc": "<TFTBonus>Lifeline:</TFTBonus> At @HealthThreshold@% Health, briefly become untargetable and shed negative effects.",
+            "desc": "At @HealthThreshold@% Health, briefly become untargetable, shed negative effects, and <TFTRadiantItemBonus>heal all missing health</TFTRadiantItemBonus>.",
             "effects": {
-                "AD": 0.25,
-                "AP": 30,
-                "AS": 40,
+                "AD": 0.20000000298023224,
+                "AP": 20,
+                "AS": 30,
                 "Armor": 20,
                 "DamageReduction": 100,
                 "HealthThreshold": 60,
+                "MissingHealthRestore": 1,
                 "StealthDuration": 1
             },
             "from": null,
@@ -2401,7 +2402,7 @@
                 "TFT_Item_TearOfTheGoddess",
                 "TFT_Item_ChainVest"
             ],
-            "desc": "Start of Combat: Gain @CombatStartMana@ Mana.<br><br>Lifeline: At @HealthThreshold@% Health, gain @TriggerMana@ Mana and a Shield equal to @ShieldHealthPercent@% max Health.",
+            "desc": "Start of Combat: Gain @CombatStartMana@ Mana.<br><br>At @HealthThreshold@% Health, gain @TriggerMana@ Mana and a Shield equal to @ShieldHealthPercent@% max Health.",
             "effects": {
                 "Armor": 25,
                 "CombatStartMana": 20,
@@ -5476,7 +5477,7 @@
                 "TFT_Item_BFSword",
                 "TFT_Item_ChainVest"
             ],
-            "desc": "<TFTBonus>Lifeline:</TFTBonus> At @HealthThreshold@% Health, briefly become untargetable and shed negative effects.",
+            "desc": "At @HealthThreshold@% Health, briefly become untargetable and shed negative effects.",
             "effects": {
                 "AD": 0.10000000149011612,
                 "AP": 10,
@@ -8806,8 +8807,7 @@
                     "TFT15_MechanicTrait_Trickster",
                     "TFT15_MechanicTrait_Finalist",
                     "TFT15_MechanicTrait_Supremacy",
-                    "TFT15_MechanicTrait_DarkAmulet",
-                    "TFT15_MechanicTrait_Hemorrhage"
+                    "TFT15_MechanicTrait_DarkAmulet"
                 ],
                 "Secondary": [
                     "TFT15_MechanicTrait_Corrupted",
@@ -9019,8 +9019,8 @@
                     {
                         "name": "BaseSpellDamage",
                         "value": [
-                            580,
-                            870,
+                            575,
+                            865,
                             9001
                         ]
                     },
@@ -9411,9 +9411,9 @@
                     {
                         "name": "BaseDamageAD",
                         "value": [
-                            200,
-                            300,
-                            480
+                            215,
+                            325,
+                            520
                         ]
                     },
                     {
@@ -10395,7 +10395,6 @@
                     "TFT15_MechanicTrait_Unflinching",
                     "TFT15_MechanicTrait_DarkAmulet",
                     "TFT15_MechanicTrait_KeenEye",
-                    "TFT15_MechanicTrait_Hemorrhage",
                     "TFT15_MechanicTrait_MidasTouch"
                 ],
                 "Secondary": [
@@ -10950,7 +10949,7 @@
                         "value": [
                             0.75,
                             0.75,
-                            0.9
+                            0.85
                         ]
                     },
                     {
@@ -12547,8 +12546,8 @@
                         "name": "BaseShield",
                         "value": [
                             325,
-                            425,
-                            550
+                            375,
+                            450
                         ]
                     },
                     {
@@ -12748,9 +12747,9 @@
                         {
                             "name": "KnockupDamageBase",
                             "value": [
-                                135,
-                                200,
-                                315
+                                100,
+                                150,
+                                230
                             ]
                         },
                         {
@@ -15769,16 +15768,16 @@
                     {
                         "name": "SelfMultiplier",
                         "value": [
-                            5,
-                            5,
-                            5
+                            5.5,
+                            5.5,
+                            5.5
                         ]
                     },
                     {
                         "name": "BaseDamage",
                         "value": [
-                            125,
-                            190,
+                            135,
+                            205,
                             2468
                         ]
                     },
@@ -15851,7 +15850,6 @@
                     "TFT15_MechanicTrait_StarSailor",
                     "TFT15_MechanicTrait_SuperGenius",
                     "TFT15_MechanicTrait_RampingRage",
-                    "TFT15_MechanicTrait_ShadowJutsu",
                     "TFT15_MechanicTrait_Classy",
                     "TFT15_MechanicTrait_MindBattery",
                     "TFT15_MechanicTrait_KeenEye",
@@ -17920,8 +17918,8 @@
                     {
                         "name": "BaseDamagePerPage",
                         "value": [
-                            26,
-                            39,
+                            28,
+                            42,
                             150
                         ]
                     },
@@ -19274,7 +19272,6 @@
             ],
             "set15_mechanic": {
                 "Primary": [
-                    "TFT15_MechanicTrait_BulletHell",
                     "TFT15_MechanicTrait_CriticalThreat",
                     "TFT15_MechanicTrait_FairyTail",
                     "TFT15_MechanicTrait_KillerInstinct",
@@ -19306,16 +19303,16 @@
         },
         {
             "ability": {
-                "desc": "Deal <physicalDamage>@TotalDamage@&nbsp;(%i:scaleAD%)</physicalDamage> physical damage to the lowest health enemy within <TFTBonus>@ModifiedCastRange@&nbsp;(%i:scaleRange%)</TFTBonus>&nbsp;hexes. If the target dies, <TFTBonus>@ModifiedGoldChance@% %i:scaleAP%</TFTBonus> chance to gain 1 gold.<br><br>Gold Earned: @TFTUnitProperty.:TFT15_GangplankSpell_GoldCount@",
+                "desc": "Deal <physicalDamage>@TotalDamage@&nbsp;(%i:scaleAD%)</physicalDamage> physical damage to the lowest health enemy within <TFTBonus>@ModifiedCastRange@</TFTBonus>&nbsp;hexes. If the target dies, <TFTBonus>@ModifiedGoldChance@% %i:scaleAP%</TFTBonus> chance to gain 1 gold.<br><br>Gold Earned: @TFTUnitProperty.:TFT15_GangplankSpell_GoldCount@",
                 "icon": "ASSETS/Characters/TFT15_Gangplank/HUD/Icons2D/TFT15_Gangplank_Q.TFT_Set15.tex",
                 "name": "Golden Giga Gun",
                 "variables": [
                     {
                         "name": "ADDamage",
                         "value": [
-                            300,
-                            450,
-                            800
+                            285,
+                            430,
+                            775
                         ]
                     },
                     {
@@ -19371,18 +19368,8 @@
                     ],
                     "ModifiedCastRange": [
                         {
-                            "type": "SumOfSubPartsCalculationPart",
-                            "parts": [
-                                {
-                                    "mStat": 31,
-                                    "mCoefficient": 0.004999999888241291,
-                                    "type": "StatByCoefficientCalculationPart"
-                                },
-                                {
-                                    "mNumber": 1,
-                                    "type": "NumberCalculationPart"
-                                }
-                            ]
+                            "mNumber": 2,
+                            "type": "NumberCalculationPart"
                         }
                     ],
                     "ModifiedGoldChance": [
@@ -19475,9 +19462,9 @@
                     {
                         "name": "BaseHeal",
                         "value": [
-                            325,
-                            380,
-                            450
+                            300,
+                            350,
+                            420
                         ]
                     },
                     {
@@ -22122,9 +22109,9 @@
                     {
                         "name": "ShieldValue",
                         "value": [
-                            425,
+                            450,
                             550,
-                            625
+                            675
                         ]
                     },
                     {
@@ -23260,78 +23247,6 @@
     ],
     "augments": [
         {
-            "apiName": "TFT11_Augment_Calltochaos",
-            "associatedTraits": [],
-            "composition": [],
-            "desc": "Gain a powerful and random reward.<br><br>Reward: @TFTUnitProperty.item:TFT11_Augment_CallToChaos@",
-            "effects": {
-                "Gold": 58,
-                "NumEmblems": 5,
-                "Rerolls": 40,
-                "ThreeStarGold": 20,
-                "XP": 64,
-                "numtg": 3,
-                "{4ffe8c09}": null,
-                "{8c58ac06}": 3,
-                "{8f15cad2}": 3,
-                "{917f9e2f}": 0.5,
-                "{927f9fc2}": 50,
-                "{96847027}": 25,
-                "{96f12d22}": 3
-            },
-            "from": null,
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/Hexcore/CallToChaos_III.tex",
-            "id": null,
-            "incompatibleTraits": [],
-            "name": "Call to Chaos",
-            "tags": [
-                "4-2"
-            ],
-            "unique": false,
-            "en_name": "Call to Chaos",
-            "texture": "{f15aa280}",
-            "type": "regular"
-        },
-        {
-            "apiName": "TFT11_Augment_AtWhatCost",
-            "associatedTraits": [],
-            "composition": [],
-            "desc": "Immediately go to level @Level@ and gain @XP@ XP. You don't get to choose your future augments.",
-            "effects": {
-                "Gold": null,
-                "Level": 6,
-                "XP": 4
-            },
-            "from": null,
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/Hexcore/AtWhatCost_III.tex",
-            "id": null,
-            "incompatibleTraits": [],
-            "name": "At What Cost",
-            "tags": [
-                "2-1"
-            ],
-            "unique": false,
-            "en_name": "At What Cost",
-            "variable_matches": [
-                {
-                    "match": "Level",
-                    "type": "variable",
-                    "full_match": "@Level@",
-                    "hash": "9b99e7dd",
-                    "value": 6
-                },
-                {
-                    "match": "XP",
-                    "type": "variable",
-                    "full_match": "@XP@",
-                    "hash": "516374d5",
-                    "value": 4
-                }
-            ],
-            "texture": "{6f44e7b7}",
-            "type": "regular"
-        },
-        {
             "apiName": "TFT15_Augment_BattleAcademia_Hero101",
             "associatedTraits": [
                 "TFT15_BattleAcademia"
@@ -23378,7 +23293,7 @@
                     "value": 0.15
                 }
             ],
-            "texture": "{78507b24}",
+            "texture": "Hero101_II",
             "type": "regular"
         },
         {
@@ -23399,7 +23314,7 @@
             ],
             "unique": false,
             "en_name": "Edgelord Crown",
-            "texture": "{d032b027}",
+            "texture": "Crown_Edgelord_III",
             "type": "regular"
         },
         {
@@ -23420,7 +23335,7 @@
             ],
             "unique": false,
             "en_name": "Protector Crest",
-            "texture": "{f4cb06b6}",
+            "texture": "Crest_Protector_II",
             "type": "regular"
         },
         {
@@ -23441,7 +23356,7 @@
             ],
             "unique": false,
             "en_name": "Bastion Crest",
-            "texture": "{96fb9668}",
+            "texture": "Crest_Bastion_II",
             "type": "regular"
         },
         {
@@ -23462,7 +23377,7 @@
             ],
             "unique": false,
             "en_name": "Prodigy Crown",
-            "texture": "{be9c2eeb}",
+            "texture": "Crown_Prodigy_III",
             "type": "regular"
         },
         {
@@ -23484,7 +23399,7 @@
             ],
             "unique": false,
             "en_name": "Supreme Cells Circlet",
-            "texture": "{ab64de05}",
+            "texture": "Crown_SupremeCells_III",
             "type": "regular"
         },
         {
@@ -23505,7 +23420,7 @@
             ],
             "unique": false,
             "en_name": "Space Camp",
-            "texture": "{bf458ab1}",
+            "texture": "SpaceCamp_II",
             "type": "regular"
         },
         {
@@ -23528,7 +23443,7 @@
             ],
             "unique": false,
             "en_name": "Nine Thousand Volts",
-            "texture": "{a987cce7}",
+            "texture": "NineThousandVolts_I",
             "type": "regular"
         },
         {
@@ -23550,7 +23465,7 @@
             ],
             "unique": false,
             "en_name": "Give 'em the Chair!",
-            "texture": "{fef016bb}",
+            "texture": "GiveEmTheChair_II",
             "type": "regular"
         },
         {
@@ -23608,7 +23523,7 @@
                     "value": 0.1
                 }
             ],
-            "texture": "{3a5496b4}",
+            "texture": "DiamondHands_II",
             "type": "regular"
         },
         {
@@ -23637,7 +23552,7 @@
             ],
             "unique": false,
             "en_name": "Golden Guillotine",
-            "texture": "{2989a9c7}",
+            "texture": "GoldenGuillotine_II",
             "type": "regular"
         },
         {
@@ -23658,7 +23573,7 @@
             ],
             "unique": false,
             "en_name": "Luchador Crest",
-            "texture": "{1d8d2ea2}",
+            "texture": "Crest_Luchador_II",
             "type": "regular"
         },
         {
@@ -23717,7 +23632,7 @@
                     "value": 0.5
                 }
             ],
-            "texture": "{045d43b9}",
+            "texture": "UnboundArcane_II",
             "type": "regular"
         },
         {
@@ -23768,7 +23683,7 @@
                     "value": 0.08
                 }
             ],
-            "texture": "{904915af}",
+            "texture": "Class-President_II",
             "type": "regular"
         },
         {
@@ -23820,7 +23735,7 @@
                     "value": 0.2
                 }
             ],
-            "texture": "{a6def17f}",
+            "texture": "RingTheBellHeavyweight_II",
             "type": "regular"
         },
         {
@@ -23841,7 +23756,7 @@
             ],
             "unique": false,
             "en_name": "Sniper Crown",
-            "texture": "{b38a36c2}",
+            "texture": "Crown_Sniper_III",
             "type": "regular"
         },
         {
@@ -23863,7 +23778,7 @@
             ],
             "unique": false,
             "en_name": "Crystal Gambit Circlet",
-            "texture": "{cbdb961f}",
+            "texture": "Crown_CrystalGambit_III",
             "type": "regular"
         },
         {
@@ -23898,7 +23813,7 @@
                     "value": 1.5
                 }
             ],
-            "texture": "{dd655cd3}",
+            "texture": "StarSailors_II",
             "type": "regular"
         },
         {
@@ -23920,7 +23835,7 @@
             ],
             "unique": false,
             "en_name": "Bastion Circlet",
-            "texture": "{0b0ee8e3}",
+            "texture": "Crown_Bastion_III",
             "type": "regular"
         },
         {
@@ -23941,7 +23856,7 @@
             ],
             "unique": false,
             "en_name": "Star Guardian Crest",
-            "texture": "{0aa2d4b3}",
+            "texture": "Crest_StarGuardian_II",
             "type": "regular"
         },
         {
@@ -23962,7 +23877,7 @@
             ],
             "unique": false,
             "en_name": "Battle Academia Crown",
-            "texture": "{ea29bf22}",
+            "texture": "Crown_BattleAcademia_III",
             "type": "regular"
         },
         {
@@ -23984,7 +23899,7 @@
             ],
             "unique": false,
             "en_name": "Strategist Circlet",
-            "texture": "{dce4a915}",
+            "texture": "StrategistCrown_III",
             "type": "regular"
         },
         {
@@ -24005,7 +23920,7 @@
             ],
             "unique": false,
             "en_name": "Sorcerer Crown",
-            "texture": "{a485600c}",
+            "texture": "Crown_Sorcerer_III",
             "type": "regular"
         },
         {
@@ -24027,7 +23942,7 @@
             ],
             "unique": false,
             "en_name": "Tectonic Titan",
-            "texture": "{a1e98aa4}",
+            "texture": "TectonicTitan_I",
             "type": "regular"
         },
         {
@@ -24062,7 +23977,7 @@
                     "value": 0.08
                 }
             ],
-            "texture": "{5eca25f6}",
+            "texture": "AllForOne_II",
             "type": "regular"
         },
         {
@@ -24083,7 +23998,7 @@
             ],
             "unique": false,
             "en_name": "Soul Fighter Crown",
-            "texture": "{1f5df907}",
+            "texture": "Crown_SoulFighter_III",
             "type": "regular"
         },
         {
@@ -24134,7 +24049,7 @@
                     "value": 0.12
                 }
             ],
-            "texture": "{20f67010}",
+            "texture": "AwakenTheGodsEye_II",
             "type": "regular"
         },
         {
@@ -24178,7 +24093,7 @@
                     "value": 0.2
                 }
             ],
-            "texture": "{2e0f93a9}",
+            "texture": "RaidBoss_II",
             "type": "regular"
         },
         {
@@ -24199,7 +24114,7 @@
             ],
             "unique": false,
             "en_name": "Strategist Crown",
-            "texture": "{dce4a915}",
+            "texture": "StrategistCrown_III",
             "type": "regular"
         },
         {
@@ -24233,7 +24148,7 @@
                     "value": 0.5
                 }
             ],
-            "texture": "{a93b228b}",
+            "texture": "LeanFromTheBest_II",
             "type": "regular"
         },
         {
@@ -24254,7 +24169,7 @@
             ],
             "unique": false,
             "en_name": "Executioner Crown",
-            "texture": "{db9988da}",
+            "texture": "Crown_Executioner_III",
             "type": "regular"
         },
         {
@@ -24275,7 +24190,7 @@
             ],
             "unique": false,
             "en_name": "Juggernaut Crest",
-            "texture": "{8073b92e}",
+            "texture": "Crest_Juggernaut_II",
             "type": "regular"
         },
         {
@@ -24315,7 +24230,7 @@
                     "value": 100
                 }
             ],
-            "texture": "{7d1e9682}",
+            "texture": "IllBeTheLegs_II",
             "type": "regular"
         },
         {
@@ -24359,7 +24274,7 @@
                     "value": 3
                 }
             ],
-            "texture": "{75fa81ed}",
+            "texture": "GrandSlam_II",
             "type": "regular"
         },
         {
@@ -24381,7 +24296,7 @@
             ],
             "unique": false,
             "en_name": "Juggernaut Circlet",
-            "texture": "{7e9521f5}",
+            "texture": "Crown_Juggernaut_III",
             "type": "regular"
         },
         {
@@ -24428,7 +24343,7 @@
             ],
             "unique": false,
             "en_name": "Battle Academia Circlet",
-            "texture": "{ea29bf22}",
+            "texture": "Crown_BattleAcademia_III",
             "type": "regular"
         },
         {
@@ -24450,7 +24365,7 @@
             ],
             "unique": false,
             "en_name": "Duelist Circlet",
-            "texture": "{674e6c4d}",
+            "texture": "Crown_Duelist_III",
             "type": "regular"
         },
         {
@@ -24499,7 +24414,7 @@
                     "value": 20
                 }
             ],
-            "texture": "{53221ba6}",
+            "texture": "PowerOfFriendship_II",
             "type": "regular"
         },
         {
@@ -24520,7 +24435,7 @@
             ],
             "unique": false,
             "en_name": "Crystal Gambit Crest",
-            "texture": "{54f84a5c}",
+            "texture": "Crest_CrystalGambit_II",
             "type": "regular"
         },
         {
@@ -24542,7 +24457,7 @@
             ],
             "unique": false,
             "en_name": "Starfall",
-            "texture": "{8a6eb42a}",
+            "texture": "DropBloosom_II",
             "type": "regular"
         },
         {
@@ -24563,7 +24478,7 @@
             ],
             "unique": false,
             "en_name": "Sorcerer Crest",
-            "texture": "{f41d471d}",
+            "texture": "Crest_Sorcerer_II",
             "type": "regular"
         },
         {
@@ -24585,7 +24500,7 @@
             ],
             "unique": false,
             "en_name": "Heavyweight Circlet",
-            "texture": "{7ab245d4}",
+            "texture": "Crown_Heavyweight_III",
             "type": "regular"
         },
         {
@@ -24606,7 +24521,7 @@
             ],
             "unique": false,
             "en_name": "Heavyweight Crown",
-            "texture": "{7ab245d4}",
+            "texture": "Crown_Heavyweight_III",
             "type": "regular"
         },
         {
@@ -24647,7 +24562,7 @@
                     "value": 0.01
                 }
             ],
-            "texture": "{b097604e}",
+            "texture": "EscapeVelocity_II",
             "type": "regular"
         },
         {
@@ -24682,7 +24597,7 @@
                     "value": 2
                 }
             ],
-            "texture": "{08071609}",
+            "texture": "GainTheEdge_II",
             "type": "regular"
         },
         {
@@ -24717,7 +24632,7 @@
                     "value": 0.5
                 }
             ],
-            "texture": "{d2a21797}",
+            "texture": "NewContenders_II",
             "type": "regular"
         },
         {
@@ -24738,7 +24653,7 @@
             ],
             "unique": false,
             "en_name": "Burning Bright",
-            "texture": "{cbfb669d}",
+            "texture": "TigerStance_II",
             "type": "regular"
         },
         {
@@ -24759,7 +24674,7 @@
             ],
             "unique": false,
             "en_name": "Duelist Crest",
-            "texture": "{f3e7daa6}",
+            "texture": "Crest_Duelist_II",
             "type": "regular"
         },
         {
@@ -24811,7 +24726,7 @@
                     "value": 0.02
                 }
             ],
-            "texture": "{65eef948}",
+            "texture": "Indomitable_II",
             "type": "regular"
         },
         {
@@ -24848,7 +24763,7 @@
                     "value": 3
                 }
             ],
-            "texture": "{e197191e}",
+            "texture": "ShadowHomunculous_II",
             "type": "regular"
         },
         {
@@ -24869,7 +24784,7 @@
             ],
             "unique": false,
             "en_name": "Star Guardian Crown",
-            "texture": "{21ca007e}",
+            "texture": "Crown_StarGuardian_III",
             "type": "regular"
         },
         {
@@ -24919,7 +24834,7 @@
                     "value": 0.15
                 }
             ],
-            "texture": "{fd244f01}",
+            "texture": "AndIllBeTheHead_III",
             "type": "regular"
         },
         {
@@ -24962,7 +24877,7 @@
                     "value": 0.1
                 }
             ],
-            "texture": "{642ee57d}",
+            "texture": "SecretTechniqueUpload_II",
             "type": "regular"
         },
         {
@@ -24997,7 +24912,7 @@
                     "value": 0.14
                 }
             ],
-            "texture": "{8e8e38a6}",
+            "texture": "PreemptiveProtection_II",
             "type": "regular"
         },
         {
@@ -25019,7 +24934,7 @@
             ],
             "unique": false,
             "en_name": "Perfect Form",
-            "texture": "{6b593c62}",
+            "texture": "PerfectForm_I",
             "type": "regular"
         },
         {
@@ -25054,7 +24969,7 @@
                     "value": 0.1
                 }
             ],
-            "texture": "{712dac2e}",
+            "texture": "TeachersCouncil_II",
             "type": "regular"
         },
         {
@@ -25075,7 +24990,7 @@
             ],
             "unique": false,
             "en_name": "Wraith Crest",
-            "texture": "{3dded12b}",
+            "texture": "Crest_Wraith_II",
             "type": "regular"
         },
         {
@@ -25097,7 +25012,7 @@
             ],
             "unique": false,
             "en_name": "Protector Circlet",
-            "texture": "{a1675efd}",
+            "texture": "Crown_Protector_III",
             "type": "regular"
         },
         {
@@ -25148,7 +25063,7 @@
                     "value": 1
                 }
             ],
-            "texture": "{62e1fc9d}",
+            "texture": "GamePlan_II",
             "type": "regular"
         },
         {
@@ -25169,7 +25084,7 @@
             ],
             "unique": false,
             "en_name": "Edgelord Crest",
-            "texture": "{13bb3444}",
+            "texture": "Crest_Edgelord_II",
             "type": "regular"
         },
         {
@@ -25191,7 +25106,7 @@
             ],
             "unique": false,
             "en_name": "Sniper Circlet",
-            "texture": "{b38a36c2}",
+            "texture": "Crown_Sniper_III",
             "type": "regular"
         },
         {
@@ -25241,7 +25156,7 @@
                     "value": 0.05
                 }
             ],
-            "texture": "{7f43c97a}",
+            "texture": "TournamentTitans_II",
             "type": "regular"
         },
         {
@@ -25263,7 +25178,7 @@
             ],
             "unique": false,
             "en_name": "Executioner Circlet",
-            "texture": "{db9988da}",
+            "texture": "Crown_Executioner_III",
             "type": "regular"
         },
         {
@@ -25284,7 +25199,7 @@
             ],
             "unique": false,
             "en_name": "Bastion Crown",
-            "texture": "{0b0ee8e3}",
+            "texture": "Crown_Bastion_III",
             "type": "regular"
         },
         {
@@ -25305,7 +25220,7 @@
             ],
             "unique": false,
             "en_name": "Supreme Cells Crown",
-            "texture": "{ab64de05}",
+            "texture": "Crown_SupremeCells_III",
             "type": "regular"
         },
         {
@@ -25327,7 +25242,7 @@
             ],
             "unique": false,
             "en_name": "Edgelord Circlet",
-            "texture": "{d032b027}",
+            "texture": "Crown_Edgelord_III",
             "type": "regular"
         },
         {
@@ -25370,7 +25285,7 @@
                     "value": 0.25
                 }
             ],
-            "texture": "{77e6ea81}",
+            "texture": "DazzlingDisplay_II",
             "type": "regular"
         },
         {
@@ -25392,7 +25307,7 @@
             ],
             "unique": false,
             "en_name": "Wraith Circlet",
-            "texture": "{8af293f6}",
+            "texture": "Crown_Wraith_III",
             "type": "regular"
         },
         {
@@ -25413,7 +25328,7 @@
             ],
             "unique": false,
             "en_name": "Luchador Crown",
-            "texture": "{4c6d45c1}",
+            "texture": "Crown_Luchador_III",
             "type": "regular"
         },
         {
@@ -25434,7 +25349,7 @@
             ],
             "unique": false,
             "en_name": "Protector Crown",
-            "texture": "{a1675efd}",
+            "texture": "Crown_Protector_III",
             "type": "regular"
         },
         {
@@ -25455,7 +25370,7 @@
             ],
             "unique": false,
             "en_name": "Heavyweight Crest",
-            "texture": "{de648405}",
+            "texture": "Crest_Heavyweight_II",
             "type": "regular"
         },
         {
@@ -25498,7 +25413,7 @@
                     "value": 1.75
                 }
             ],
-            "texture": "{3eef07a3}",
+            "texture": "TinyTeam_II",
             "type": "regular"
         },
         {
@@ -25520,7 +25435,7 @@
             ],
             "unique": false,
             "en_name": "Knuckledusters",
-            "texture": "{0c5c8ff2}",
+            "texture": "Knuckleduster_II",
             "type": "regular"
         },
         {
@@ -25541,7 +25456,7 @@
             ],
             "unique": false,
             "en_name": "Wraith Crown",
-            "texture": "{8af293f6}",
+            "texture": "Crown_Wraith_III",
             "type": "regular"
         },
         {
@@ -25584,7 +25499,7 @@
                     "value": 0.05
                 }
             ],
-            "texture": "{60162946}",
+            "texture": "DeeperShadows_II",
             "type": "regular"
         },
         {
@@ -25605,7 +25520,7 @@
             ],
             "unique": false,
             "en_name": "Juggernaut Crown",
-            "texture": "{7e9521f5}",
+            "texture": "Crown_Juggernaut_III",
             "type": "regular"
         },
         {
@@ -25627,7 +25542,7 @@
             ],
             "unique": false,
             "en_name": "Star Guardian Circlet",
-            "texture": "{21ca007e}",
+            "texture": "Crown_StarGuardian_III",
             "type": "regular"
         },
         {
@@ -25649,7 +25564,7 @@
             ],
             "unique": false,
             "en_name": "Soul Fighter Circlet",
-            "texture": "{1f5df907}",
+            "texture": "Crown_SoulFighter_III",
             "type": "regular"
         },
         {
@@ -25670,7 +25585,7 @@
             ],
             "unique": false,
             "en_name": "Prodigy Crest",
-            "texture": "{65bd7290}",
+            "texture": "Crest_Prodigy_II",
             "type": "regular"
         },
         {
@@ -25691,7 +25606,7 @@
             ],
             "unique": false,
             "en_name": "Battle Academia Crest",
-            "texture": "{09fae16f}",
+            "texture": "Crest_BattleAcademia_II",
             "type": "regular"
         },
         {
@@ -25713,7 +25628,7 @@
             ],
             "unique": false,
             "en_name": "Prodigy Circlet",
-            "texture": "{be9c2eeb}",
+            "texture": "Crown_Prodigy_III",
             "type": "regular"
         },
         {
@@ -25742,7 +25657,7 @@
             ],
             "unique": false,
             "en_name": "Tournament Favorites",
-            "texture": "{82776b54}",
+            "texture": "TournamentFavorites_II",
             "type": "regular"
         },
         {
@@ -25792,7 +25707,7 @@
                     "value": 0.1
                 }
             ],
-            "texture": "{439419f2}",
+            "texture": "AndIllbethehead_II",
             "type": "regular"
         },
         {
@@ -25838,7 +25753,7 @@
             ],
             "unique": false,
             "en_name": "Strategist Crest",
-            "texture": "{a5b66ce6}",
+            "texture": "StrategistCrest_II",
             "type": "regular"
         },
         {
@@ -25889,7 +25804,7 @@
                     "value": 0.02
                 }
             ],
-            "texture": "{2692c4cd}",
+            "texture": "AdaptiveStyle_II",
             "type": "regular"
         },
         {
@@ -25910,7 +25825,7 @@
             ],
             "unique": false,
             "en_name": "Duelist Crown",
-            "texture": "{674e6c4d}",
+            "texture": "Crown_Duelist_III",
             "type": "regular"
         },
         {
@@ -25942,7 +25857,7 @@
                     "value": 2
                 }
             ],
-            "texture": "{8116d7af}",
+            "texture": "TransferStudents_II",
             "type": "regular"
         },
         {
@@ -25963,7 +25878,7 @@
             ],
             "unique": false,
             "en_name": "Crystal Gambit Crown",
-            "texture": "{cbdb961f}",
+            "texture": "Crown_CrystalGambit_III",
             "type": "regular"
         },
         {
@@ -25985,7 +25900,7 @@
             ],
             "unique": false,
             "en_name": "Luchador Circlet",
-            "texture": "{4c6d45c1}",
+            "texture": "Crown_Luchador_III",
             "type": "regular"
         },
         {
@@ -26028,7 +25943,7 @@
                     "value": 0.85
                 }
             ],
-            "texture": "{6cb80ecf}",
+            "texture": "PreciseShot_II",
             "type": "regular"
         },
         {
@@ -26049,7 +25964,7 @@
             ],
             "unique": false,
             "en_name": "Executioner Crest",
-            "texture": "{bc6aebe7}",
+            "texture": "Crest_Executioner_II",
             "type": "regular"
         },
         {
@@ -26072,7 +25987,7 @@
             ],
             "unique": false,
             "en_name": "Twilight Assault",
-            "texture": "{c362af7c}",
+            "texture": "EtherealBlade_II",
             "type": "regular"
         },
         {
@@ -26098,7 +26013,7 @@
             ],
             "unique": false,
             "en_name": "Sniper Crest",
-            "texture": "{5feef3af}",
+            "texture": "Crest_Sniper_II",
             "type": "regular"
         },
         {
@@ -26120,7 +26035,7 @@
             ],
             "unique": false,
             "en_name": "Schoolyard Justice",
-            "texture": "{a836a71c}",
+            "texture": "HerosJourney_I",
             "type": "regular"
         },
         {
@@ -26157,7 +26072,7 @@
                     "value": 0.4
                 }
             ],
-            "texture": "{60c601c0}",
+            "texture": "MultiMech_II",
             "type": "regular"
         },
         {
@@ -26190,7 +26105,7 @@
                     "value": 0.6
                 }
             ],
-            "texture": "{df894188}",
+            "texture": "IllBeTheArms_II",
             "type": "regular"
         },
         {
@@ -26242,7 +26157,7 @@
                     "value": 0.1
                 }
             ],
-            "texture": "{86fe30f9}",
+            "texture": "SoulSurge_II",
             "type": "regular"
         },
         {
@@ -26263,7 +26178,7 @@
             ],
             "unique": false,
             "en_name": "Soul Fighter Crest",
-            "texture": "{01750224}",
+            "texture": "Crest_SoulFighter_II",
             "type": "regular"
         },
         {
@@ -26285,7 +26200,7 @@
             ],
             "unique": false,
             "en_name": "Sorcerer Circlet",
-            "texture": "{a485600c}",
+            "texture": "Crown_Sorcerer_III",
             "type": "regular"
         },
         {
@@ -26306,7 +26221,79 @@
             ],
             "unique": false,
             "en_name": "Supreme Cells Crest",
-            "texture": "{d6c801fe}",
+            "texture": "Crest_SupremeCells_II",
+            "type": "regular"
+        },
+        {
+            "apiName": "TFT11_Augment_Calltochaos",
+            "associatedTraits": [],
+            "composition": [],
+            "desc": "Gain a powerful and random reward.<br><br>Reward: @TFTUnitProperty.item:TFT11_Augment_CallToChaos@",
+            "effects": {
+                "Gold": 58,
+                "NumEmblems": 5,
+                "Rerolls": 40,
+                "ThreeStarGold": 20,
+                "XP": 64,
+                "numtg": 3,
+                "{4ffe8c09}": null,
+                "{8c58ac06}": 3,
+                "{8f15cad2}": 3,
+                "{917f9e2f}": 0.5,
+                "{927f9fc2}": 50,
+                "{96847027}": 25,
+                "{96f12d22}": 3
+            },
+            "from": null,
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/Hexcore/CallToChaos_III.tex",
+            "id": null,
+            "incompatibleTraits": [],
+            "name": "Call to Chaos",
+            "tags": [
+                "4-2"
+            ],
+            "unique": false,
+            "en_name": "Call to Chaos",
+            "texture": "CallToChaos_III",
+            "type": "regular"
+        },
+        {
+            "apiName": "TFT11_Augment_AtWhatCost",
+            "associatedTraits": [],
+            "composition": [],
+            "desc": "Immediately go to level @Level@ and gain @XP@ XP. You don't get to choose your future augments.",
+            "effects": {
+                "Gold": null,
+                "Level": 6,
+                "XP": 4
+            },
+            "from": null,
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/Hexcore/AtWhatCost_III.tex",
+            "id": null,
+            "incompatibleTraits": [],
+            "name": "At What Cost",
+            "tags": [
+                "2-1"
+            ],
+            "unique": false,
+            "en_name": "At What Cost",
+            "variable_matches": [
+                {
+                    "match": "Level",
+                    "type": "variable",
+                    "full_match": "@Level@",
+                    "hash": "9b99e7dd",
+                    "value": 6
+                },
+                {
+                    "match": "XP",
+                    "type": "variable",
+                    "full_match": "@XP@",
+                    "hash": "516374d5",
+                    "value": 4
+                }
+            ],
+            "texture": "AtWhatCost_III",
             "type": "regular"
         },
         {
@@ -26394,7 +26381,7 @@
                     "value": 0.01
                 }
             ],
-            "texture": "{3919a245}",
+            "texture": "ItemCollector_II",
             "type": "regular"
         },
         {
@@ -26437,7 +26424,7 @@
                     "value": 0.01
                 }
             ],
-            "texture": "{8cab93ae}",
+            "texture": "ItemCollector_I",
             "type": "regular"
         },
         {
@@ -26565,7 +26552,7 @@
                     "value": 0.05
                 }
             ],
-            "texture": "{e2229494}",
+            "texture": "WaterLotus_II",
             "type": "regular"
         },
         {
@@ -26603,7 +26590,7 @@
                     "value": 1
                 }
             ],
-            "texture": "{df73e192}",
+            "texture": "Firesale_I",
             "type": "regular"
         },
         {
@@ -26732,7 +26719,7 @@
                     "value": 6
                 }
             ],
-            "texture": "{2b30728e}",
+            "texture": "TacticiansKitchen_III",
             "type": "regular"
         },
         {
@@ -26946,7 +26933,7 @@
                     "value": 1000
                 }
             ],
-            "texture": "{e019850a}",
+            "texture": "Dummify_I",
             "type": "regular"
         },
         {
@@ -26995,7 +26982,7 @@
                     "value": 120
                 }
             ],
-            "texture": "{ffcd3c9b}",
+            "texture": "TrickstersTreat_III",
             "type": "regular"
         },
         {
@@ -27026,7 +27013,7 @@
                     "value": 2
                 }
             ],
-            "texture": "{164327b3}",
+            "texture": "PatienceIsAVirtue_I",
             "type": "regular"
         },
         {
@@ -27064,7 +27051,7 @@
                     "value": 3
                 }
             ],
-            "texture": "{87f03b1b}",
+            "texture": "DeadlierCaps_II",
             "type": "regular"
         },
         {
@@ -27104,7 +27091,7 @@
                     "value": 0.12
                 }
             ],
-            "texture": "{316169d1}",
+            "texture": "Dhampyr_II",
             "type": "regular"
         },
         {
@@ -27124,7 +27111,7 @@
             ],
             "unique": false,
             "en_name": "Augmented Power",
-            "texture": "{a152d147}",
+            "texture": "PowerUp_I",
             "type": "regular"
         },
         {
@@ -27162,7 +27149,7 @@
                     "value": 1
                 }
             ],
-            "texture": "{b9024e55}",
+            "texture": "TheScapegoat_II",
             "type": "regular"
         },
         {
@@ -27214,7 +27201,7 @@
                     "value": 1.4
                 }
             ],
-            "texture": "{a7c36f8e}",
+            "texture": "Foodfighttactics_III",
             "type": "regular"
         },
         {
@@ -27289,7 +27276,7 @@
                     "value": 0.1
                 }
             ],
-            "texture": "{5d1d7cec}",
+            "texture": "ScoreboardScrapper_II",
             "type": "regular"
         },
         {
@@ -27335,7 +27322,7 @@
                     "value": 3
                 }
             ],
-            "texture": "{3a229b34}",
+            "texture": "RerollTransfer_I",
             "type": "regular"
         },
         {
@@ -27376,7 +27363,7 @@
                     "value": 0.01
                 }
             ],
-            "texture": "{6e8af97c}",
+            "texture": "BronzeForLife_III",
             "type": "regular"
         },
         {
@@ -27416,7 +27403,7 @@
                     "value": 8
                 }
             ],
-            "texture": "{1d6cacdf}",
+            "texture": "CrownguardSpirit_II",
             "type": "regular"
         },
         {
@@ -27488,7 +27475,7 @@
                     "value": 0.2
                 }
             ],
-            "texture": "{77842d5a}",
+            "texture": "Trifecta_II",
             "type": "regular"
         },
         {
@@ -27519,7 +27506,7 @@
                     "value": 1
                 }
             ],
-            "texture": "{1a30538a}",
+            "texture": "TombRaider_III",
             "type": "regular"
         },
         {
@@ -27575,7 +27562,7 @@
             ],
             "unique": false,
             "en_name": "Fully Adapted",
-            "texture": "{3388a1a6}",
+            "texture": "FullyAdapted_II",
             "type": "regular"
         },
         {
@@ -27596,7 +27583,7 @@
             ],
             "unique": false,
             "en_name": "Prismatic Pipeline",
-            "texture": "{7e5eeadf}",
+            "texture": "PrismaticPipeline_III",
             "type": "regular"
         },
         {
@@ -27676,7 +27663,7 @@
                     "value": 0.25
                 }
             ],
-            "texture": "{58132749}",
+            "texture": "Trifecta_III",
             "type": "regular"
         },
         {
@@ -27741,7 +27728,7 @@
                     "value": 0.1
                 }
             ],
-            "texture": "{bda3d37e}",
+            "texture": "ChaosEvolution_I",
             "type": "regular"
         },
         {
@@ -27772,7 +27759,7 @@
                     "value": 3
                 }
             ],
-            "texture": "{2b8b3ce7}",
+            "texture": "TombRaider_II",
             "type": "regular"
         },
         {
@@ -27792,7 +27779,7 @@
             ],
             "unique": false,
             "en_name": "One Buff, Two Buff",
-            "texture": "{9d444f33}",
+            "texture": "OneBuffTwoBuff_III",
             "type": "regular"
         },
         {
@@ -27833,7 +27820,7 @@
                     "value": 0.13
                 }
             ],
-            "texture": "{2ae99c66}",
+            "texture": "GlassCannon_I",
             "type": "regular"
         },
         {
@@ -27881,7 +27868,7 @@
                     "value": 0.15
                 }
             ],
-            "texture": "{4695308b}",
+            "texture": "SatedSpellweaver_II",
             "type": "regular"
         },
         {
@@ -27971,7 +27958,7 @@
                     "value": 0.2
                 }
             ],
-            "texture": "{bc4cc32c}",
+            "texture": "Crossfire_II",
             "type": "regular"
         },
         {
@@ -28009,7 +27996,7 @@
                     "value": 50
                 }
             ],
-            "texture": "{175fd0fd}",
+            "texture": "MaxCap_III",
             "type": "regular"
         },
         {
@@ -28031,7 +28018,7 @@
             ],
             "unique": false,
             "en_name": "Isekai",
-            "texture": "{37c8fba3}",
+            "texture": "Isekai_III",
             "type": "regular"
         },
         {
@@ -28071,7 +28058,7 @@
                     "value": 2
                 }
             ],
-            "texture": "{5b7bfdfc}",
+            "texture": "UpwardMobility_III",
             "type": "regular"
         },
         {
@@ -28133,7 +28120,7 @@
                     "value": 1
                 }
             ],
-            "texture": "{b9ea8411}",
+            "texture": "AnotherOne_II",
             "type": "regular"
         },
         {
@@ -28174,7 +28161,7 @@
                     "value": 0.05
                 }
             ],
-            "texture": "{ca7f4a1b}",
+            "texture": "HallofMirrors_III",
             "type": "regular"
         },
         {
@@ -28280,7 +28267,7 @@
                     "value": 11
                 }
             ],
-            "texture": "{c0ddf18b}",
+            "texture": "ExplosiveGrowth_II",
             "type": "regular"
         },
         {
@@ -28318,7 +28305,7 @@
                     "value": 3
                 }
             ],
-            "texture": "{14dd99d4}",
+            "texture": "AimForTheTop_II",
             "type": "regular"
         },
         {
@@ -28356,7 +28343,7 @@
                     "value": 5
                 }
             ],
-            "texture": "{c4a0db2b}",
+            "texture": "RiggedShop_I",
             "type": "regular"
         },
         {
@@ -28386,7 +28373,7 @@
                     "value": 3
                 }
             ],
-            "texture": "{f2d75ad8}",
+            "texture": "SilverDestiny_I",
             "type": "regular"
         },
         {
@@ -28424,7 +28411,7 @@
                     "value": 8
                 }
             ],
-            "texture": "{c0ddf18b}",
+            "texture": "ExplosiveGrowth_II",
             "type": "regular"
         },
         {
@@ -28486,7 +28473,7 @@
             ],
             "unique": false,
             "en_name": "Tower Defense",
-            "texture": "{0fcef3c5}",
+            "texture": "TowerDefense_II",
             "type": "regular"
         },
         {
@@ -28507,7 +28494,7 @@
             ],
             "unique": false,
             "en_name": "Psychic Forge",
-            "texture": "{739a2ccc}",
+            "texture": "PsychicForge_II",
             "type": "regular"
         },
         {
@@ -28633,7 +28620,7 @@
             "composition": [],
             "desc": "Gain a random Silver Augment and @Gold@ gold.",
             "effects": {
-                "Gold": 5
+                "Gold": 4
             },
             "from": null,
             "icon": "ASSETS/Maps/TFT/Icons/Augments/Hexcore/SilverDestiny_I.TFT_Set15.tex",
@@ -28651,10 +28638,10 @@
                     "type": "variable",
                     "full_match": "@Gold@",
                     "hash": "ec66d793",
-                    "value": 5
+                    "value": 4
                 }
             ],
-            "texture": "{f2d75ad8}",
+            "texture": "SilverDestiny_I",
             "type": "regular"
         },
         {
@@ -28674,7 +28661,7 @@
             ],
             "unique": false,
             "en_name": "Heavy Is The Crown",
-            "texture": "{1f4cc653}",
+            "texture": "HeavyIsTheCrown_II",
             "type": "regular"
         },
         {
@@ -28704,7 +28691,7 @@
                     "value": 2
                 }
             ],
-            "texture": "{467efd22}",
+            "texture": "HardCommit_III",
             "type": "regular"
         },
         {
@@ -28777,7 +28764,7 @@
                     "value": 0.22
                 }
             ],
-            "texture": "{18e73f85}",
+            "texture": "LastSecondSave_II",
             "type": "regular"
         },
         {
@@ -28807,7 +28794,7 @@
                     "value": 7
                 }
             ],
-            "texture": "{037968c5}",
+            "texture": "QuestForTheSeven_II",
             "type": "regular"
         },
         {
@@ -28840,7 +28827,7 @@
                     "value": 600
                 }
             ],
-            "texture": "{bc462039}",
+            "texture": "HowlingGale_II",
             "type": "regular"
         },
         {
@@ -28891,7 +28878,7 @@
             ],
             "unique": false,
             "en_name": "Isekai",
-            "texture": "{37c8fba3}",
+            "texture": "Isekai_III",
             "type": "regular"
         },
         {
@@ -28929,7 +28916,7 @@
                     "value": 1
                 }
             ],
-            "texture": "{9fb7221d}",
+            "texture": "TableScraps_I",
             "type": "regular"
         },
         {
@@ -28985,7 +28972,7 @@
                     "value": 0.05
                 }
             ],
-            "texture": "{ddbc6264}",
+            "texture": "ClimbtheLadder_II",
             "type": "regular"
         },
         {
@@ -29015,7 +29002,7 @@
                     "value": 165
                 }
             ],
-            "texture": "{3a04f58b}",
+            "texture": "AGoldenQuest_II",
             "type": "regular"
         },
         {
@@ -29071,7 +29058,7 @@
                     "value": 0.03
                 }
             ],
-            "texture": "{f42222e5}",
+            "texture": "ClimbtheLadder_I",
             "type": "regular"
         },
         {
@@ -29131,7 +29118,7 @@
                     "value": 4
                 }
             ],
-            "texture": "{992b4e0f}",
+            "texture": "GoldenDestiny_II",
             "type": "regular"
         },
         {
@@ -29177,7 +29164,7 @@
                     "value": 3
                 }
             ],
-            "texture": "{d467a8b0}",
+            "texture": "DiversifiedPortfolio1_I",
             "type": "regular"
         },
         {
@@ -29226,7 +29213,7 @@
                     "value": 0.25
                 }
             ],
-            "texture": "{d1461399}",
+            "texture": "Coronation_III",
             "type": "regular"
         },
         {
@@ -29310,7 +29297,7 @@
                     "value": 3
                 }
             ],
-            "texture": "{73f1fa85}",
+            "texture": "DiversifiedPortfolio_I",
             "type": "regular"
         },
         {
@@ -29349,7 +29336,7 @@
                     "value": 2
                 }
             ],
-            "texture": "{b057655f}",
+            "texture": "BloodBank_I",
             "type": "regular"
         },
         {
@@ -29387,7 +29374,7 @@
                     "value": 1
                 }
             ],
-            "texture": "{16c0a58c}",
+            "texture": "NineLives_III",
             "type": "regular"
         },
         {
@@ -29458,7 +29445,7 @@
                     "value": 2
                 }
             ],
-            "texture": "{21ea960d}",
+            "texture": "WorthTheWait_II",
             "type": "regular"
         },
         {
@@ -29548,7 +29535,7 @@
                     "value": 4
                 }
             ],
-            "texture": "{1f7cff68}",
+            "texture": "GoingLong_III",
             "type": "regular"
         },
         {
@@ -29583,7 +29570,7 @@
                     "value": 2
                 }
             ],
-            "texture": "{ff0fc483}",
+            "texture": "ExpectedUnexpectedness_III",
             "type": "regular"
         },
         {
@@ -29622,7 +29609,7 @@
                     "value": 0.01
                 }
             ],
-            "texture": "{0314f3f4}",
+            "texture": "Placebo_I",
             "type": "regular"
         },
         {
@@ -29661,7 +29648,7 @@
                     "value": 16
                 }
             ],
-            "texture": "{ef308d5d}",
+            "texture": "QuietQuitting_II",
             "type": "regular"
         },
         {
@@ -29700,7 +29687,7 @@
                     "value": 0.09
                 }
             ],
-            "texture": "{cad4b5c9}",
+            "texture": "HoldTheLine_III",
             "type": "regular"
         },
         {
@@ -29749,7 +29736,7 @@
                     "value": 0.05
                 }
             ],
-            "texture": "{bfb6831f}",
+            "texture": "SpiritLink_II",
             "type": "regular"
         },
         {
@@ -29858,7 +29845,7 @@
                     "value": 7
                 }
             ],
-            "texture": "{c1f24d46}",
+            "texture": "HeftyRolls_II",
             "type": "regular"
         },
         {
@@ -29896,7 +29883,7 @@
                     "value": 7
                 }
             ],
-            "texture": "{030af82e}",
+            "texture": "BeggarsCanBeChoosers_I",
             "type": "regular"
         },
         {
@@ -29944,7 +29931,7 @@
                     "value": 0.35
                 }
             ],
-            "texture": "{379bc495}",
+            "texture": "BlazingSoul_III",
             "type": "regular"
         },
         {
@@ -29953,7 +29940,7 @@
             "composition": [],
             "desc": "Gain a random Gold Augment and @Gold@ gold.",
             "effects": {
-                "Gold": 8
+                "Gold": 6
             },
             "from": null,
             "icon": "ASSETS/Maps/TFT/Icons/Augments/Hexcore/GoldenDestiny_II.TFT_Set15.tex",
@@ -29971,10 +29958,10 @@
                     "type": "variable",
                     "full_match": "@Gold@",
                     "hash": "ec66d793",
-                    "value": 8
+                    "value": 6
                 }
             ],
-            "texture": "{992b4e0f}",
+            "texture": "GoldenDestiny_II",
             "type": "regular"
         },
         {
@@ -30018,7 +30005,7 @@
                     "value": 0.1
                 }
             ],
-            "texture": "{e6062066}",
+            "texture": "TrickMirror_II",
             "type": "regular"
         },
         {
@@ -30056,7 +30043,7 @@
                     "value": 9
                 }
             ],
-            "texture": "{a58f5f1f}",
+            "texture": "HardBargain_II",
             "type": "regular"
         },
         {
@@ -30180,7 +30167,7 @@
                     "value": 0.03
                 }
             ],
-            "texture": "{8082a1e6}",
+            "texture": "BackupDancers_II",
             "type": "regular"
         },
         {
@@ -30231,7 +30218,7 @@
                     "value": 2
                 }
             ],
-            "texture": "{89a14918}",
+            "texture": "TwoMuchValue_II",
             "type": "regular"
         },
         {
@@ -30269,7 +30256,7 @@
                     "value": 9
                 }
             ],
-            "texture": "{03ab589d}",
+            "texture": "HeroicGrabBag_II",
             "type": "regular"
         },
         {
@@ -30317,7 +30304,7 @@
                     "value": 0.5
                 }
             ],
-            "texture": "{cae4ec2a}",
+            "texture": "PlotArmor_II",
             "type": "regular"
         },
         {
@@ -30356,7 +30343,7 @@
                     "value": 2
                 }
             ],
-            "texture": "{480d9008}",
+            "texture": "PocketRecombulator_I",
             "type": "regular"
         },
         {
@@ -30426,7 +30413,7 @@
                     "value": 13
                 }
             ],
-            "texture": "{03ab589d}",
+            "texture": "HeroicGrabBag_II",
             "type": "regular"
         },
         {
@@ -30474,7 +30461,7 @@
                     "value": 0.2
                 }
             ],
-            "texture": "{f9708a47}",
+            "texture": "WaterLotus_III",
             "type": "regular"
         },
         {
@@ -30534,7 +30521,7 @@
                     "value": 1
                 }
             ],
-            "texture": "{a1d0f49a}",
+            "texture": "RadiantRefactor_III",
             "type": "regular"
         },
         {
@@ -30610,7 +30597,7 @@
                     "value": 2
                 }
             ],
-            "texture": "{439d17ad}",
+            "texture": "Slammin_II",
             "type": "regular"
         },
         {
@@ -30656,7 +30643,7 @@
                     "value": 3
                 }
             ],
-            "texture": "{362dc2b3}",
+            "texture": "InvestmentStrategy_III",
             "type": "regular"
         },
         {
@@ -30689,7 +30676,7 @@
                     "value": 0.025
                 }
             ],
-            "texture": "{8bf9fe7d}",
+            "texture": "BronzeForLife_II",
             "type": "regular"
         },
         {
@@ -30719,7 +30706,7 @@
                     "value": 7
                 }
             ],
-            "texture": "{a9806e08}",
+            "texture": "InvestmentStrategy_II",
             "type": "regular"
         },
         {
@@ -30760,7 +30747,7 @@
                     "value": 0.15
                 }
             ],
-            "texture": "{2edb1ce5}",
+            "texture": "HighVoltage_II",
             "type": "regular"
         },
         {
@@ -30813,7 +30800,7 @@
                     "value": 2
                 }
             ],
-            "texture": "{325711d5}",
+            "texture": "SoloLeveling_II",
             "type": "regular"
         },
         {
@@ -30851,7 +30838,7 @@
                     "value": 20
                 }
             ],
-            "texture": "{f437aba6}",
+            "texture": "TreasureHunt_II",
             "type": "regular"
         },
         {
@@ -30870,7 +30857,7 @@
             ],
             "unique": false,
             "en_name": "Two Trick",
-            "texture": "{6c02e058}",
+            "texture": "TwoTricks_II",
             "type": "regular"
         },
         {
@@ -30918,7 +30905,7 @@
                     "value": 0.2
                 }
             ],
-            "texture": "{af539a5e}",
+            "texture": "BlazingSoul_II",
             "type": "regular"
         },
         {
@@ -30959,7 +30946,7 @@
                     "value": 0.15
                 }
             ],
-            "texture": "{3ca14e7d}",
+            "texture": "FindYourCenter_I",
             "type": "regular"
         },
         {
@@ -30998,7 +30985,7 @@
                     "value": 0.5
                 }
             ],
-            "texture": "{62dc7822}",
+            "texture": "GoodForSomething_I",
             "type": "regular"
         },
         {
@@ -31106,7 +31093,7 @@
                     "value": 70
                 }
             ],
-            "texture": "{6859d749}",
+            "texture": "ForwardThinking_II",
             "type": "regular"
         },
         {
@@ -31230,7 +31217,7 @@
                     "value": 1
                 }
             ],
-            "texture": "{768a8cdb}",
+            "texture": "RestartMission_I",
             "type": "regular"
         },
         {
@@ -31268,7 +31255,7 @@
                     "value": 2
                 }
             ],
-            "texture": "{fdf760c6}",
+            "texture": "DuoQueue_II",
             "type": "regular"
         },
         {
@@ -31379,7 +31366,7 @@
                     "value": 0.35
                 }
             ],
-            "texture": "{702d4e2b}",
+            "texture": "BloodRage_II",
             "type": "regular"
         },
         {
@@ -31425,7 +31412,7 @@
                     "value": 2
                 }
             ],
-            "texture": "{439d17ad}",
+            "texture": "Slammin_II",
             "type": "regular"
         },
         {
@@ -31532,7 +31519,7 @@
                     "value": 2
                 }
             ],
-            "texture": "{5ddbf8a4}",
+            "texture": "ExaltedAdventure_III",
             "type": "regular"
         },
         {
@@ -31706,7 +31693,7 @@
                     "value": 3
                 }
             ],
-            "texture": "{b4aa2d19}",
+            "texture": "CarePackage_II",
             "type": "regular"
         },
         {
@@ -31744,7 +31731,7 @@
                     "value": 3
                 }
             ],
-            "texture": "{012a68b3}",
+            "texture": "Epoch_II",
             "type": "regular"
         },
         {
@@ -31782,7 +31769,7 @@
                     "value": 92
                 }
             ],
-            "texture": "{286fa2f3}",
+            "texture": "Survivor_I",
             "type": "regular"
         },
         {
@@ -31836,7 +31823,7 @@
                     "value": 6
                 }
             ],
-            "texture": "{ebe501db}",
+            "texture": "AuraFarming_II",
             "type": "regular"
         },
         {
@@ -31875,7 +31862,7 @@
                     "value": 60
                 }
             ],
-            "texture": "{9adc1d04}",
+            "texture": "BeltOverflow_III",
             "type": "regular"
         },
         {
@@ -31951,7 +31938,7 @@
                     "value": 3
                 }
             ],
-            "texture": "{7ec6a9df}",
+            "texture": "EyeforanEye_I",
             "type": "regular"
         },
         {
@@ -32014,7 +32001,7 @@
                     "value": 375
                 }
             ],
-            "texture": "{46edbf60}",
+            "texture": "TeslaCoil_II",
             "type": "regular"
         },
         {
@@ -32082,7 +32069,7 @@
                     "value": 2
                 }
             ],
-            "texture": "{6c41511e}",
+            "texture": "CraftedCrafting_I",
             "type": "regular"
         },
         {
@@ -32122,7 +32109,7 @@
                     "value": 6
                 }
             ],
-            "texture": "{887e299f}",
+            "texture": "Incoming_I",
             "type": "regular"
         },
         {
@@ -32160,7 +32147,7 @@
                     "value": 1
                 }
             ],
-            "texture": "{08c1bc10}",
+            "texture": "RainingGold_II",
             "type": "regular"
         },
         {
@@ -32216,7 +32203,7 @@
                     "value": 5
                 }
             ],
-            "texture": "{7524a539}",
+            "texture": "PrizeFighter_II",
             "type": "regular"
         },
         {
@@ -32254,7 +32241,7 @@
                     "value": 7
                 }
             ],
-            "texture": "{03ab589d}",
+            "texture": "HeroicGrabBag_II",
             "type": "regular"
         },
         {
@@ -32286,7 +32273,7 @@
                     "value": 5
                 }
             ],
-            "texture": "{5eb37ee1}",
+            "texture": "ExclusiveCustomization_II",
             "type": "regular"
         },
         {
@@ -32401,7 +32388,7 @@
                     "value": 80
                 }
             ],
-            "texture": "{10be1f9a}",
+            "texture": "Invested_III",
             "type": "regular"
         },
         {
@@ -32441,7 +32428,7 @@
                     "value": 0.05
                 }
             ],
-            "texture": "{39b4d76f}",
+            "texture": "WandOverflow_III",
             "type": "regular"
         },
         {
@@ -32509,7 +32496,7 @@
                     "value": 0.05
                 }
             ],
-            "texture": "{45311912}",
+            "texture": "GreaterMoonlight_III",
             "type": "regular"
         },
         {
@@ -32578,7 +32565,7 @@
                     "value": 2
                 }
             ],
-            "texture": "{d2ad88f2}",
+            "texture": "Lineup_I",
             "type": "regular"
         },
         {
@@ -32651,7 +32638,7 @@
                     "value": 0.2
                 }
             ],
-            "texture": "{9cc0ab9d}",
+            "texture": "GlassCannon_II",
             "type": "regular"
         },
         {
@@ -32719,7 +32706,7 @@
                     "value": 2
                 }
             ],
-            "texture": "{95b145c3}",
+            "texture": "OverEncumbered_I",
             "type": "regular"
         },
         {
@@ -32761,7 +32748,7 @@
                     "value": 0.06
                 }
             ],
-            "texture": "{b6f26200}",
+            "texture": "TinyButMighty_II",
             "type": "regular"
         },
         {
@@ -32792,7 +32779,7 @@
                     "value": 4
                 }
             ],
-            "texture": "{18fe2449}",
+            "texture": "EfficientShopper_I",
             "type": "regular"
         },
         {
@@ -32843,7 +32830,7 @@
                     "value": 0.5
                 }
             ],
-            "texture": "{300a5724}",
+            "texture": "Overheal_II",
             "type": "regular"
         },
         {
@@ -32895,7 +32882,7 @@
                     "value": 0.3
                 }
             ],
-            "texture": "{382a6517}",
+            "texture": "ThornPlatedArmor_II",
             "type": "regular"
         },
         {
@@ -32933,7 +32920,7 @@
                     "value": 28
                 }
             ],
-            "texture": "{9a3ce828}",
+            "texture": "TimeSkip_II",
             "type": "regular"
         },
         {
@@ -33045,7 +33032,7 @@
                     "value": 4
                 }
             ],
-            "texture": "{e7792b35}",
+            "texture": "CalledShot_I",
             "type": "regular"
         },
         {
@@ -33084,7 +33071,7 @@
                     "value": 2
                 }
             ],
-            "texture": "{7ec6a9df}",
+            "texture": "EyeforanEye_I",
             "type": "regular"
         },
         {
@@ -33138,7 +33125,7 @@
                     "value": 80
                 }
             ],
-            "texture": "{10be1f9a}",
+            "texture": "Invested_III",
             "type": "regular"
         },
         {
@@ -33176,7 +33163,7 @@
                     "value": 1
                 }
             ],
-            "texture": "{08c1bc10}",
+            "texture": "RainingGold_II",
             "type": "regular"
         },
         {
@@ -33224,7 +33211,7 @@
                     "value": 2
                 }
             ],
-            "texture": "{c3ddb4db}",
+            "texture": "CryMeARiver_II",
             "type": "regular"
         },
         {
@@ -33251,7 +33238,7 @@
             ],
             "unique": false,
             "en_name": "A Magic Roll",
-            "texture": "{2aebb2de}",
+            "texture": "MagicRoll_II",
             "type": "regular"
         },
         {
@@ -33291,7 +33278,7 @@
                     "value": 0.02
                 }
             ],
-            "texture": "{1149c245}",
+            "texture": "BladeOverflow_III",
             "type": "regular"
         },
         {
@@ -33321,7 +33308,7 @@
                     "value": 7
                 }
             ],
-            "texture": "{f2d75ad8}",
+            "texture": "SilverDestiny_I",
             "type": "regular"
         },
         {
@@ -33383,7 +33370,7 @@
                     "value": 2
                 }
             ],
-            "texture": "{c84abf6c}",
+            "texture": "WorthTheWait_III",
             "type": "regular"
         },
         {
@@ -33414,7 +33401,7 @@
                     "value": 25
                 }
             ],
-            "texture": "{cd570d35}",
+            "texture": "TitanicTitan_I",
             "type": "regular"
         },
         {
@@ -33460,7 +33447,7 @@
                     "value": 3
                 }
             ],
-            "texture": "{9a6efe36}",
+            "texture": "HeadStart_I",
             "type": "regular"
         },
         {
@@ -33546,7 +33533,7 @@
             ],
             "unique": false,
             "en_name": "Protagonist",
-            "texture": "{3c6f91f1}",
+            "texture": "Protaganist_III",
             "type": "regular"
         },
         {
@@ -33576,7 +33563,7 @@
                     "value": 8
                 }
             ],
-            "texture": "{783ce681}",
+            "texture": "BuildABud_III",
             "type": "regular"
         },
         {
@@ -33623,7 +33610,7 @@
                     "value": 1
                 }
             ],
-            "texture": "{1c96e454}",
+            "texture": "Kingslayer_I",
             "type": "regular"
         },
         {
@@ -33710,7 +33697,7 @@
                     "value": 0.1
                 }
             ],
-            "texture": "{9f2d2fe0}",
+            "texture": "ANobleSacrifice_II",
             "type": "regular"
         },
         {
@@ -33749,7 +33736,7 @@
                     "value": 2
                 }
             ],
-            "texture": "{e5e6eaa1}",
+            "texture": "Corrosion_I",
             "type": "regular"
         },
         {
@@ -33869,7 +33856,7 @@
                     "value": 1000
                 }
             ],
-            "texture": "{6ba44d96}",
+            "texture": "Golemify_II",
             "type": "regular"
         },
         {
@@ -33930,7 +33917,7 @@
                     "value": 0.5
                 }
             ],
-            "texture": "{b5750ed5}",
+            "texture": "Pyromaniac_II",
             "type": "regular"
         },
         {
@@ -33960,7 +33947,7 @@
                     "value": 5
                 }
             ],
-            "texture": "{847ecce9}",
+            "texture": "ShimmerscaleEssence_III",
             "type": "regular"
         },
         {
@@ -34073,7 +34060,7 @@
                     "value": 5
                 }
             ],
-            "texture": "{5eff033b}",
+            "texture": "PrismaticDestiny_III",
             "type": "regular"
         },
         {
@@ -34114,7 +34101,7 @@
                     "value": 0.1
                 }
             ],
-            "texture": "{1f592db7}",
+            "texture": "ShowjinSpirit_II",
             "type": "regular"
         },
         {
@@ -34144,7 +34131,7 @@
                     "value": 12
                 }
             ],
-            "texture": "{b2171370}",
+            "texture": "Reinfourcement_II",
             "type": "regular"
         },
         {
@@ -34182,7 +34169,7 @@
                     "value": 1
                 }
             ],
-            "texture": "{7b806625}",
+            "texture": "GoldforDummies_II",
             "type": "regular"
         },
         {
@@ -34223,7 +34210,7 @@
                     "value": 0.04
                 }
             ],
-            "texture": "{e6691013}",
+            "texture": "QualityoverQuantity_III",
             "type": "regular"
         },
         {
@@ -34262,7 +34249,7 @@
                     "value": 0.01
                 }
             ],
-            "texture": "{0314f3f4}",
+            "texture": "Placebo_I",
             "type": "regular"
         },
         {
@@ -34308,7 +34295,7 @@
                     "value": 2
                 }
             ],
-            "texture": "{be3c3c69}",
+            "texture": "MirroredMonetization_II",
             "type": "regular"
         },
         {
@@ -34328,7 +34315,7 @@
             ],
             "unique": false,
             "en_name": "Unlimited Power",
-            "texture": "{562d98ed}",
+            "texture": "UnlimitedPower_III",
             "type": "regular"
         },
         {
@@ -34359,7 +34346,7 @@
                     "value": 40
                 }
             ],
-            "texture": "{dd385f8d}",
+            "texture": "CookingPot_II",
             "type": "regular"
         },
         {
@@ -34410,7 +34397,7 @@
                     "value": 5
                 }
             ],
-            "texture": "{c3c8a00a}",
+            "texture": "Scavenger_II",
             "type": "regular"
         },
         {
@@ -34462,7 +34449,7 @@
             ],
             "unique": false,
             "en_name": "Pilfer",
-            "texture": "{a56bf595}",
+            "texture": "Pilfer_II",
             "type": "regular"
         },
         {
@@ -34726,7 +34713,7 @@
                     "value": 1
                 }
             ],
-            "texture": "{2e2f777a}",
+            "texture": "Sponging_III",
             "type": "regular"
         },
         {
@@ -34820,7 +34807,7 @@
                     "value": 0.45
                 }
             ],
-            "texture": "{6c4665fb}",
+            "texture": "Moonlight_II",
             "type": "regular"
         },
         {
@@ -34853,7 +34840,7 @@
                     "value": 0.045
                 }
             ],
-            "texture": "{937dc3b5}",
+            "texture": "EvilBeyondMeasure_II",
             "type": "regular"
         },
         {
@@ -34875,7 +34862,7 @@
             ],
             "unique": false,
             "en_name": "Isekai",
-            "texture": "{37c8fba3}",
+            "texture": "Isekai_III",
             "type": "regular"
         },
         {
@@ -34942,7 +34929,7 @@
                     "value": 1
                 }
             ],
-            "texture": "{fdd21ca0}",
+            "texture": "Slice_of_Life_I",
             "type": "regular"
         },
         {
@@ -35006,7 +34993,7 @@
                     "value": 80
                 }
             ],
-            "texture": "{1243e605}",
+            "texture": "Warpath_II",
             "type": "regular"
         },
         {
@@ -35069,7 +35056,7 @@
                     "value": 1
                 }
             ],
-            "texture": "{b9ea8411}",
+            "texture": "AnotherOne_II",
             "type": "regular"
         },
         {
@@ -35149,7 +35136,7 @@
                     "value": 0.2
                 }
             ],
-            "texture": "{80530efc}",
+            "texture": "WilloftheFlail_II",
             "type": "regular"
         },
         {
@@ -35398,7 +35385,7 @@
                     "value": 0.244
                 }
             ],
-            "texture": "{e5b33128}",
+            "texture": "PairofFours_II",
             "type": "regular"
         },
         {
@@ -35436,7 +35423,7 @@
                     "value": 2
                 }
             ],
-            "texture": "{012a68b3}",
+            "texture": "Epoch_II",
             "type": "regular"
         },
         {
@@ -35673,7 +35660,7 @@
                     "value": 0.01
                 }
             ],
-            "texture": "{f0918379}",
+            "texture": "DeadlierBlades_II",
             "type": "regular"
         },
         {
@@ -36647,6 +36634,8 @@
                         "7PeiceMult": 1.5,
                         "7PieceAmp": 0.30000001192092896,
                         "7PieceHealth": 500,
+                        "GPPerDeathPVE": 3,
+                        "GPPerRoundPVE": 15,
                         "NumCombats": 3,
                         "NumCombatsPVE": 3,
                         "PercentIncreaseGPPVE": 1,
@@ -36724,6 +36713,8 @@
                         "7PieceAmp": 0.30000001192092896,
                         "7PieceHealth": 500,
                         "DamageReduction": 0.9900000095367432,
+                        "GPPerDeathPVE": 3,
+                        "GPPerRoundPVE": 15,
                         "NumCombats": 3,
                         "NumCombatsPVE": 3,
                         "PercentIncreaseGPPVE": 1,
@@ -37745,7 +37736,7 @@
                         "{02914815}": 0.10000000149011612,
                         "{05ce3a8e}": 3,
                         "{1bb9c993}": 60,
-                        "{39509739}": 0.05000000074505806,
+                        "{39509739}": 0.03999999910593033,
                         "{40cdc45f}": 2,
                         "{53e50c19}": 0.07000000029802322,
                         "{5416a34e}": 50,
@@ -37803,7 +37794,7 @@
                         "{02914815}": 0.10000000149011612,
                         "{05ce3a8e}": 3,
                         "{1bb9c993}": 60,
-                        "{39509739}": 0.05000000074505806,
+                        "{39509739}": 0.03999999910593033,
                         "{40cdc45f}": 2,
                         "{53e50c19}": 0.07000000029802322,
                         "{5416a34e}": 50,
@@ -37861,7 +37852,7 @@
                         "{02914815}": 0.10000000149011612,
                         "{05ce3a8e}": 3,
                         "{1bb9c993}": 60,
-                        "{39509739}": 0.05000000074505806,
+                        "{39509739}": 0.03999999910593033,
                         "{40cdc45f}": 2,
                         "{53e50c19}": 0.07000000029802322,
                         "{5416a34e}": 50,
@@ -37919,7 +37910,7 @@
                         "{02914815}": 0.10000000149011612,
                         "{05ce3a8e}": 3,
                         "{1bb9c993}": 60,
-                        "{39509739}": 0.05000000074505806,
+                        "{39509739}": 0.03999999910593033,
                         "{40cdc45f}": 2,
                         "{53e50c19}": 0.07000000029802322,
                         "{5416a34e}": 50,
@@ -37977,7 +37968,7 @@
                         "{02914815}": 0.10000000149011612,
                         "{05ce3a8e}": 3,
                         "{1bb9c993}": 60,
-                        "{39509739}": 0.05000000074505806,
+                        "{39509739}": 0.03999999910593033,
                         "{40cdc45f}": 2,
                         "{53e50c19}": 0.07000000029802322,
                         "{5416a34e}": 50,
@@ -38035,7 +38026,7 @@
                         "{02914815}": 0.10000000149011612,
                         "{05ce3a8e}": 3,
                         "{1bb9c993}": 60,
-                        "{39509739}": 0.05000000074505806,
+                        "{39509739}": 0.03999999910593033,
                         "{40cdc45f}": 2,
                         "{53e50c19}": 0.07000000029802322,
                         "{5416a34e}": 50,
@@ -38093,7 +38084,7 @@
                         "{02914815}": 0.10000000149011612,
                         "{05ce3a8e}": 3,
                         "{1bb9c993}": 60,
-                        "{39509739}": 0.05000000074505806,
+                        "{39509739}": 0.03999999910593033,
                         "{40cdc45f}": 2,
                         "{53e50c19}": 0.07000000029802322,
                         "{5416a34e}": 50,
@@ -38151,7 +38142,7 @@
                         "{02914815}": 0.10000000149011612,
                         "{05ce3a8e}": 3,
                         "{1bb9c993}": 60,
-                        "{39509739}": 0.05000000074505806,
+                        "{39509739}": 0.03999999910593033,
                         "{40cdc45f}": 2,
                         "{53e50c19}": 0.07000000029802322,
                         "{5416a34e}": 50,
@@ -38179,7 +38170,7 @@
                         "{02914815}": 0.10000000149011612,
                         "{05ce3a8e}": 3,
                         "{1bb9c993}": 60,
-                        "{39509739}": 0.05000000074505806,
+                        "{39509739}": 0.03999999910593033,
                         "{40cdc45f}": 2,
                         "{53e50c19}": 0.07000000029802322,
                         "{5416a34e}": 50,
@@ -38237,7 +38228,7 @@
                         "{02914815}": 0.10000000149011612,
                         "{05ce3a8e}": 3,
                         "{1bb9c993}": 60,
-                        "{39509739}": 0.05000000074505806,
+                        "{39509739}": 0.03999999910593033,
                         "{40cdc45f}": 2,
                         "{53e50c19}": 0.07000000029802322,
                         "{5416a34e}": 50,
@@ -38265,7 +38256,7 @@
                         "{02914815}": 0.10000000149011612,
                         "{05ce3a8e}": 3,
                         "{1bb9c993}": 60,
-                        "{39509739}": 0.05000000074505806,
+                        "{39509739}": 0.03999999910593033,
                         "{40cdc45f}": 2,
                         "{53e50c19}": 0.07000000029802322,
                         "{5416a34e}": 50,
@@ -38323,7 +38314,7 @@
                         "{02914815}": 0.10000000149011612,
                         "{05ce3a8e}": 3,
                         "{1bb9c993}": 60,
-                        "{39509739}": 0.05000000074505806,
+                        "{39509739}": 0.03999999910593033,
                         "{40cdc45f}": 2,
                         "{53e50c19}": 0.07000000029802322,
                         "{5416a34e}": 50,
@@ -39680,7 +39671,7 @@
             "name": "S.O.L.E. Fighter",
             "en_name": "S.O.L.E. Fighter",
             "set15_mechanic": {
-                "MaxStage": 2,
+                "MaxStage": 9,
                 "MinStage": 9,
                 "IsPVEAllowed": true
             }
@@ -39971,6 +39962,7 @@
             "name": "Max Speed",
             "en_name": "Max Speed",
             "set15_mechanic": {
+                "Weight": 10,
                 "MaxStage": 2,
                 "IsStacking": true,
                 "IsPVEAllowed": true
@@ -40691,6 +40683,7 @@
                     "TFT15_Kayle",
                     "TFT15_Jhin"
                 ],
+                "Weight": 5,
                 "IsCommon": true,
                 "IsPVEAllowed": true
             }
@@ -41277,7 +41270,7 @@
                     "minUnits": 1,
                     "style": 1,
                     "variables": {
-                        "IncreasedProjectiles": 35,
+                        "IncreasedProjectiles": 30,
                         "{28c023cc}": 100
                     },
                     "variable_matches": [
@@ -41287,7 +41280,7 @@
                             "level": "1",
                             "full_match": "@TFTTrait.TFT15_MechanicTrait_BulletHell.1:IncreasedProjectiles@",
                             "hash": "d3c74481",
-                            "value": 35
+                            "value": 30
                         }
                     ]
                 }
@@ -42279,7 +42272,8 @@
             "name": "Corrupted",
             "en_name": "Corrupted",
             "set15_mechanic": {
-                "MinLevel": 10,
+                "MaxStage": 9,
+                "MinStage": 9,
                 "IsWeird": true,
                 "IsPVEAllowed": true
             }
@@ -44291,7 +44285,7 @@
                     "minUnits": 3,
                     "style": 3,
                     "variables": {
-                        "ProdigyBonusMana": 5,
+                        "ProdigyBonusMana": 4,
                         "TeamBonusMana": 1
                     },
                     "variable_matches": [
@@ -44314,7 +44308,7 @@
                             "type": "variable",
                             "full_match": "@ProdigyBonusMana@",
                             "hash": "435d3b19",
-                            "value": 5
+                            "value": 4
                         }
                     ]
                 },
@@ -44323,7 +44317,7 @@
                     "minUnits": 4,
                     "style": 3,
                     "variables": {
-                        "ProdigyBonusMana": 7,
+                        "ProdigyBonusMana": 6,
                         "TeamBonusMana": 2
                     },
                     "variable_matches": [
@@ -44346,7 +44340,7 @@
                             "type": "variable",
                             "full_match": "@ProdigyBonusMana@",
                             "hash": "435d3b19",
-                            "value": 7
+                            "value": 6
                         }
                     ]
                 },
@@ -44355,8 +44349,8 @@
                     "minUnits": 5,
                     "style": 5,
                     "variables": {
-                        "AllyHealing": 0.10000000149011612,
-                        "ProdigyBonusMana": 9,
+                        "AllyHealing": 0.11999999731779099,
+                        "ProdigyBonusMana": 7,
                         "TeamBonusMana": 3
                     },
                     "variable_matches": [
@@ -44379,7 +44373,7 @@
                             "type": "variable",
                             "full_match": "@ProdigyBonusMana@",
                             "hash": "435d3b19",
-                            "value": 9
+                            "value": 7
                         },
                         {
                             "match": "AllyHealing",
@@ -44387,7 +44381,7 @@
                             "multiplier": "100",
                             "full_match": "@AllyHealing*100@",
                             "hash": "e95bf29b",
-                            "value": 0.1
+                            "value": 0.12
                         }
                     ]
                 }

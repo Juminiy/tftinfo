@@ -3,7 +3,6 @@ from io import TextIOWrapper
 from meta_data import setname, setopentime, setlist
 from meta_data import setitems, settraits, setchampions
 from meta_func import Grid2d
-from meta_func import select_items, select_traits, select_champions
 from meta_func import geturl_extname
 from meta_data import components_nickname
 from meta_func import reverse_dict_kv
@@ -12,7 +11,7 @@ from parse_traits_grid import get_synergy_grid
 from parse_traits_table import get_traits_table, get_unique_table
 from parse_items import get_craftable_grid
 
-from req_icon import copy_icon_emblem2trait
+from meta_func import copy_icon_emblem2trait
 
 def write_detail_txt(wtr: TextIOWrapper, setof: str):
     # set_name

@@ -1,5 +1,3 @@
-from env import setlist
-
 from meta_data import settraits, setchampions
 
 from meta_func import select_traits, select_champions

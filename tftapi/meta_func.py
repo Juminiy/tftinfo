@@ -156,7 +156,9 @@ class Grid2d():
         return str(self)
 
 from requests import get as httpget
-from requests.exceptions import RequestException
+from requests.exceptions import RequestException, Timeout
+from env import setlist
+from meta_data import setitems
 import os
 toobignotdl=[
     # items in set9
@@ -195,16 +197,47 @@ def download_file(fileurl: str, filepath: str, timeout_sec: float) -> tuple[str,
                 savefile.write(chunk)
             savefile.close()
         return None
-    except RequestException as re:
-        print(f"[error] download: {fileurl}, error: {re}")
+    except Timeout as reqtimeout:
+        print(f"[error] download: {fileurl}, timeout: {reqtimeout}")
         return (fileurl, filepath, timeout_sec+1)
-
+    except RequestException as otherexcep:
+        print(f"[error] download: {fileurl}, error: {otherexcep}")
+        return None
+            
 def geturl_extname(commonurl:str) -> str:
     dotidx = commonurl.rfind('.')
     if dotidx==-1:
         return 'jpg'
     else:
         return commonurl[dotidx+1:]
+
+def copyfile_src2dst(srcpath:str, dstpath:str):
+    with open(srcpath, 'rb') as srcf, \
+        open(dstpath, 'wb') as dstf:
+        dstf.write(srcf.read())
+        srcf.close()
+        dstf.close()
+
+def copy_icon_emblem2trait() -> dict[str,str]:
+    """
+        return value: onlyfor traits icon used,
+        affectedTraitKey -> iconpath
+    """
+    traitkey2img:dict[str,str]={}
+    for setof in setlist:
+        for itemof in setitems(setof):
+            if select_item_emblems(setof, itemof):
+                itemkey=itemof['key']
+                extname=geturl_extname(itemof['imageUrl'])
+                copyfile_src2dst(
+                    srcpath=f'tftitems/icon/{setof}/{itemkey}.{extname}', 
+                    dstpath=f'tfttraits/icon/{setof}/{itemkey}.{extname}',
+                )
+                if 'affectedTraitKey' in itemof:
+                    traitkey=itemof['affectedTraitKey']
+                    traitkey2img[f'{setof}-traits-{traitkey}'] = f'![{traitkey}](../tfttraits/icon/{setof}/{itemkey}.{extname})'
+
+    return traitkey2img
 
 def reverse_dict_kv(dt:dict[str,str]) -> dict[str,str]:
     ndt:dict[str,str]={}
