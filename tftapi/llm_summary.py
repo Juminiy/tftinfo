@@ -54,7 +54,8 @@ stats: [18 Armor & MR, 36 Armor & MR, 70 Armor & MR; Non-Bastions gain an additi
         print(f'{setof}, bond: {trtname}, progess: {idx+1}/{len(seltrts)}')
     return resd
 
-for setof in setlist:
-    with open(f'tftllm/traitsdesc/{modelname}/{setof}.json', 'w+') as descfile:
-        descfile.write(dumps(get_traits_desc(setof), ensure_ascii=True, indent=4))
-        descfile.close()
+if __name__ == '__main__':
+    for setof in setlist:
+        with open(f'tftllm/traitsdesc/{modelname}/{setof}.json', 'w+') as descfile:
+            descfile.write(dumps(get_traits_desc(setof), ensure_ascii=True, indent=4))
+            descfile.close()

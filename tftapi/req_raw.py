@@ -3,12 +3,14 @@ import requests
 from env import setlist,hllist,qklist,pthlist,baseurl
 
 from json import dumps
-for setof in setlist:
-    for pathof in pthlist:
-        requrl=f'{baseurl}{pathof}?{qklist[0]}={hllist[0]}&{qklist[1]}={setof}'
-        print(f'request to {requrl}')
-        setresp=requests.get(requrl)
-        with open(f'tftraw/{setof}-{pathof}.json', 'w+') as setjsonf:
-            setjsonf.write(dumps(setresp.json(), ensure_ascii=False, indent=4))
-            setjsonf.close()
-        setresp.close()
+
+if __name__ == '__main__':
+    for setof in setlist:
+        for pathof in pthlist:
+            requrl=f'{baseurl}{pathof}?{qklist[0]}={hllist[0]}&{qklist[1]}={setof}'
+            print(f'request to {requrl}')
+            setresp=requests.get(requrl)
+            with open(f'tftraw/{setof}-{pathof}.json', 'w+') as setjsonf:
+                setjsonf.write(dumps(setresp.json(), ensure_ascii=False, indent=4))
+                setjsonf.close()
+            setresp.close()

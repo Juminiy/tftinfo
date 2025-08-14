@@ -124,13 +124,15 @@ def get_unique_table(setof: str) -> Grid2d:
             row0=['{{name}}', '{{champion}}', '{{cost}}'],
         )
 
-# for setof in setlist:
-#     origintbl, classtbl= get_traits_table(setof)
-#     uniquetbl = get_unique_table(setof)
-#     with open(f'tfttraits/table/{setof}.txt', 'w+') as tblfile:
-#         tblfile.write(str(origintbl))
-#         tblfile.write('\n\n')
-#         tblfile.write(str(classtbl))
-#         tblfile.write('\n\n')
-#         tblfile.write(str(uniquetbl))
-#         tblfile.close()
+if __name__ == '__main__':
+    # for setof in setlist:
+    #     origintbl, classtbl= get_traits_table(setof)
+    #     uniquetbl = get_unique_table(setof)
+    #     with open(f'tfttraits/table/{setof}.txt', 'w+') as tblfile:
+    #         tblfile.write(str(origintbl))
+    #         tblfile.write('\n\n')
+    #         tblfile.write(str(classtbl))
+    #         tblfile.write('\n\n')
+    #         tblfile.write(str(uniquetbl))
+    #         tblfile.close()
+    pass

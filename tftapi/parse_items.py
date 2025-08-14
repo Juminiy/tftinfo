@@ -84,7 +84,7 @@ def merge_trait_spec_items(setof: str, setitems: list[dict]) -> list[dict]:
 
     return newsetls
 
-
+# Must Trigger
 itemTyp:Dict[str,Any] = {}
 for setof in setlist:
     itemTyp[setof]={
@@ -287,10 +287,11 @@ def collect_allset_spec_items():
         }, ensure_ascii=True, indent=4))
         specf.close()
 
-compare_craftable_radiant_items()
-parse_craftable_item_change()
-collect_allset_spec_items()
-# for setof in setlist:
-#     with open(f'tftitems/grid/{setof}.txt', 'w+') as gridfile:
-#         gridfile.write(str(get_craftable_grid(setof)))
-#         gridfile.close()
+if __name__ == '__main__':
+    compare_craftable_radiant_items()
+    parse_craftable_item_change()
+    collect_allset_spec_items()
+    # for setof in setlist:
+    #     with open(f'tftitems/grid/{setof}.txt', 'w+') as gridfile:
+    #         gridfile.write(str(get_craftable_grid(setof)))
+    #         gridfile.close()

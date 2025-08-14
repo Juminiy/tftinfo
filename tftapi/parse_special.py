@@ -5,6 +5,8 @@ from json import dumps,loads
 
 from typing import Any
 
+from meta_func import Grid2d
+
 def parse_expr_desc_vars(desc: str, vars: dict) -> str:
     def find_all_ch(raws: str, subs: str) -> list[int]:
         return [idx for idx in range(len(raws)) if raws[idx]==subs]
@@ -31,7 +33,8 @@ def parse_expr_desc_vars(desc: str, vars: dict) -> str:
 
     return descres
 
-
+# Special
+# Parse Set SpecialEffect
 def set15_power_up():
     set15_powerups=[
         {
@@ -183,9 +186,6 @@ def set9_set9dot5_portal():
         }, ensure_ascii=True, indent=4))
         ptlfile.close()
 
-for fn in [set15_power_up, set13_teamup, set13_anomalies, set12_charms, set12_portal, set11_encounters, set10_portal, set9_set9dot5_portal]:
-    fn()
-
 def trait_compare(setof0: str, trtkey0: str, setof1: str, trtkey1: str):
     def get_settraitchampion(setof:str, trtkey:str) -> dict:
         trt=next(filter(lambda trt: trt['key'] == trtkey, settraits(setof)), {})
@@ -214,30 +214,101 @@ def trait_compare(setof0: str, trtkey0: str, setof1: str, trtkey1: str):
         }, ensure_ascii=True, indent=4))
         cfile.close()
 
-trait_compare('set11', 'Fated', 'set15', 'StarGuardian')
-
 # Rewards
-# Parse TO Markdown
-def set15_rewards():
-    pass
+# Parse TO Markdown (text version and icon version)
+def parse_rewards():
+    for setof, setcfg in {
+        'set15': {
+            'stacklist_keys': ['Trait', 'CrystalGambit', 'GemPower'], 
+            'stacked_key': 'GemPower',
+            'rewards_key': 'Rewards',
+            'rewards_odds_key': 'Odds',
+            'rewards_list_key': 'List'
+        },
+        'set14': {
+            'stacklist_keys': ['Trait', 'Cypher'], 
+            'stacked_key': 'Intel',
+            'rewards_key': 'Rewards',
+            'rewards_odds_key': 'Odds',
+            'rewards_list_key': 'List'
+        },
+        'set13': {
+            'stacklist_keys': ['Trait', 'Chem-Baron', 'StackedShimmer'], 
+            'stacked_key': 'Shimmer',
+            'rewards_key': 'Rewards',
+            'rewards_odds_key': 'Rates',
+            'rewards_list_key': 'List'
+        },
+        'set12': {
+            'stacklist_keys': ['Augment', 'Fortune Favors the Bold'], 
+            'stacked_key': 'Loss',
+            'rewards_key': 'Rewards',
+            'rewards_odds_key': 'Odds',
+            'rewards_list_key': 'List'
+        },
+        'set11': {
+            'stacklist_keys': ['Trait', 'Fortune'], 
+            'stacked_key': 'Luck',
+            'rewards_key': 'Rewards',
+            'rewards_odds_key': 'Rates',
+            'rewards_list_key': 'List'
+        },
+        'set10': {
+            'stacklist_keys': ['Trait', 'Heartsteel'], 
+            'stacked_key': 'Hearts',
+            'rewards_key': 'Rewards',
+            'rewards_odds_key': 'Odds',
+            'rewards_list_key': 'List'
+        },
+        'set9': {
+            'stacklist_keys': ['Trait', 'Piltover', 'Loss'], 
+            'stacked_key': 'Loss',
+            'rewards_key': 'Rewards',
+            'rewards_odds_key': 'Odds',
+            'rewards_list_key': 'List'
+        },
+        'set8': {
+            'stacklist_keys': ['Trait', 'Underground'], 
+            'stacked_key': 'Heist',
+            'rewards_key': 'Rewards',
+            'rewards_odds_key': 'Percentage',
+            'rewards_list_key': 'List'
+        },
+    }.items():
+        parse_set_rewards(setof, setcfg)
 
-def set14_rewards():
-    pass
+def parse_set_rewards(setof:str, setcfgkeys:dict[str,Any]):
+    stacklevel:list[dict[str,Any]]=[]
+    with open(f'tftraw/specs/{setof}-rewards.json') as rwdfile:
+        rwdsobj = loads(rwdfile.read())
+        for stkkeyofkey in setcfgkeys['stacklist_keys']:
+            rwdsobj=rwdsobj[stkkeyofkey]
+        stacklevel=rwdsobj
+        rwdfile.close()
+    
+    rwdgrid2d:list[list[str]]=[]
+    for eachstk in stacklevel:
+        rwdrow:list[str]=[eachstk[setcfgkeys['stacked_key']]]
+        for rwd in eachstk[setcfgkeys['rewards_key']]:
+            rwdodds=rwd[setcfgkeys['rewards_odds_key']]
+            rwdlist=' + '.join(rwd[setcfgkeys['rewards_list_key']])
+            rwdrow.append(f'{rwdodds}: {rwdlist}')
+        rwdgrid2d.append(rwdrow)
+        
+    with open(f'tftmd/rewards/{setof}.md', 'w+') as rwdmd:
+        rwdmd.write(
+            Grid2d(
+                grid2d=rwdgrid2d, 
+                row0=[setcfgkeys['stacked_key'], setcfgkeys['rewards_key']],
+                md_hll=True,
+            ).__str_md__()
+        )
+        rwdmd.close()
 
-def set13_rewards():
-    pass
+if __name__ == '__main__':
+    for fn in [set15_power_up, set13_teamup, set13_anomalies, set12_charms, set12_portal, set11_encounters, set10_portal, set9_set9dot5_portal]:
+        fn()
+    
+    trait_compare('set11', 'Fated', 'set15', 'StarGuardian')
 
-def set12_rewards():
-    pass
-
-def set11_rewards():
-    pass
-
-def set10_rewards():
-    pass
-
-def set9_rewards():
-    pass
-
-def set8_rewards():
-    pass
+    parse_rewards()

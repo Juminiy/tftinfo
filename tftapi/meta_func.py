@@ -74,8 +74,27 @@ class Grid2d():
     hdr00: str
     md_hll: bool
 
-    def __init__(self, grid2d:list[list[str]], row0:list[str]=[], line0:list[str]=[], hdr00:str='', md_hll:bool=False):
-        self.grid2d,self.row0,self.line0,self.hdr00=grid2d,row0,line0,hdr00
+    # grid2d:
+    # - - - -
+    # - - - -
+    # - - - - 
+    # row0:
+    # - - - -
+    def __init__(self, grid2d:list[list[str]], row0:list[str]|None=None, line0:list[str]|None=None, hdr00:str|None=None, md_hll:bool=False):
+        # to ensure each row's line_count equal
+        maxcols = max([len(gridrow) for gridrow in grid2d])
+        for rowidx,gridrow in enumerate(grid2d):
+            if len(gridrow) < maxcols:
+                grid2d[rowidx].extend(['']*(maxcols-len(gridrow)))
+        if row0 and len(row0) < maxcols:
+            row0.extend(['']*(maxcols-len(row0)))
+        if line0 and hdr00 and len(line0)+1 < len(grid2d):
+            line0.extend(['']*(len(grid2d)-len(line0)-1))
+
+        self.grid2d=grid2d
+        self.row0=row0 or []
+        self.line0=line0 or []
+        self.hdr00=hdr00 or ''
         self.md_hll=md_hll
 
     def conv2txt(self, grid2d: list[list[str]], row0: list[str]=[], line0: list[str]=[], hdr00: str='') -> str:
@@ -117,9 +136,9 @@ class Grid2d():
         # add *txt* for line0, row0
         if self.md_hll:
             for lineidx,_ in enumerate(grid2d[0]):
-                grid2d[0][lineidx]=f'**{grid2d[0][lineidx]}**'
+                grid2d[0][lineidx]=f'**{grid2d[0][lineidx]}**' if len(grid2d[0][lineidx]) > 0 else ''
             for rowidx in range(len(grid2d)):
-                grid2d[rowidx][0]=f'**{grid2d[rowidx][0]}**'
+                grid2d[rowidx][0]=f'**{grid2d[rowidx][0]}**' if len(grid2d[rowidx][0]) > 0 else ''
 
         # add | - | for markdown Table
         grid2d.insert(1, ['-' for _ in grid2d[0]])

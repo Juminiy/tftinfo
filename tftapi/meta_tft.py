@@ -76,6 +76,7 @@ def write_detail_md(wtr: TextIOWrapper,setof: str):
 def md_icon(dirpath:str, iconkey:str, extname:str) -> str:
     return f'![{iconkey}]({dirpath}/{iconkey}.{extname})'
 
+# Must Trigger
 iconpath:dict[str, str]={}
 for setof in setlist:
     for objof, objfn in {
@@ -214,14 +215,14 @@ def write_detail_md_comic(wtr: TextIOWrapper,setof: str):
     crafgrid = modify_crafgrid_icon(setof, crafgrid)
     wtr.write(crafgrid.__str_md__())
 
-
-for setof in setlist:
-    # with open(f'tfttxt/{setof}.txt', 'w+') as metaf:
-    #     write_detail_txt(metaf, setof)
-    #     metaf.close()
-    with open(f'tftmd/{setof}.md', 'w+') as mdf:
-        write_detail_md(mdf, setof)
-        mdf.close()
-    with open(f'tftmd/{setof}-comic.md', 'w+') as mdf:
-        write_detail_md_comic(mdf, setof)
-        mdf.close()
+if __name__ == '__main__':
+    for setof in setlist:
+        # with open(f'tfttxt/{setof}.txt', 'w+') as metaf:
+        #     write_detail_txt(metaf, setof)
+        #     metaf.close()
+        with open(f'tftmd/{setof}.md', 'w+') as mdf:
+            write_detail_md(mdf, setof)
+            mdf.close()
+        with open(f'tftmd/{setof}-comic.md', 'w+') as mdf:
+            write_detail_md_comic(mdf, setof)
+            mdf.close()

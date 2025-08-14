@@ -6,6 +6,7 @@ from meta_func import select_augments
 
 from json import dumps
 
+# Must Trigger
 augs:dict[str,dict[str, list[dict[str,str]]]]={}
 # setof -> silver/gold/prismatic -> (name, desc)
 for setof in setlist:
@@ -54,4 +55,5 @@ def augs_compare(setpre: str, setcur: str):
         s15augf.write(dumps(setcurnew, ensure_ascii=True, indent=4))
         s15augf.close()
 
-augs_compare('set14', 'set15')
+if __name__ == '__main__':
+    augs_compare('set14', 'set15')

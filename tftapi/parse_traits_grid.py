@@ -46,7 +46,9 @@ def get_synergy_grid(setof: str) -> Grid2d:
     
     return Grid2d(grid2d, class_key, origin_key, 'Origins\\Classes', True)
 
-# for setof in setlist:
-#     with open(f'tfttraits/grid/{setof}.txt', 'w+') as setgridf:
-#         setgridf.write(str(get_synergy_grid(setof)))
-#         setgridf.close()
+if __name__ == '__main__':
+    # for setof in setlist:
+    #     with open(f'tfttraits/grid/{setof}.txt', 'w+') as setgridf:
+    #         setgridf.write(str(get_synergy_grid(setof)))
+    #         setgridf.close()
+    pass

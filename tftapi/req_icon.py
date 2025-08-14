@@ -44,11 +44,6 @@ def req_items_icon():
 def req_traits_icon():
     gen_req_func('tfttraits', settraits, select_traits_legal)
 
-for reqfn in [req_champions_icon, req_items_icon, req_traits_icon]:
-    objof=reqfn.__name__.removeprefix('req_').removesuffix('_icon')
-    print(f'icon obj: {objof}')
-    reqfn()
-
 def classify_items_icon():
     for setof in setlist:
         itemkey2img={itemof['key']:itemof['imageUrl'] for itemof in setitems(setof)}
@@ -68,5 +63,11 @@ def classify_items_icon():
                 )
                 # os.remove(f'tftitems/icon/{setof}/{itemkey}.{extname}')
 
-copy_icon_emblem2trait()
-classify_items_icon()
+if __name__ == '__main__':
+    for reqfn in [req_champions_icon, req_items_icon, req_traits_icon]:
+        objof=reqfn.__name__.removeprefix('req_').removesuffix('_icon')
+        print(f'icon obj: {objof}')
+        reqfn()
+
+    copy_icon_emblem2trait()
+    classify_items_icon()
