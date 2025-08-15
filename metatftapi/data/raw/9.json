@@ -1413,7 +1413,10 @@
         {
             "apiName": "TFT5_Item_SteraksGageRadiant",
             "associatedTraits": [],
-            "composition": [],
+            "composition": [
+                "TFT_Item_BFSword",
+                "TFT_Item_GiantsBelt"
+            ],
             "desc": "Once per combat at @HealthThreshold@% Health, gain <TFTRadiantItemBonus>@BonusMaxHealthPerc@% max Health</TFTRadiantItemBonus> and <TFTRadiantItemBonus>@BonusADToGive@% Attack Damage</TFTRadiantItemBonus>.",
             "effects": {
                 "AD": 0.30000001192092896,
@@ -1860,9 +1863,9 @@
             "desc": "Gain <TFTRadiantItemBonus>@ArmorPerEnemy@</TFTRadiantItemBonus> Armor and <TFTRadiantItemBonus>@MRPerEnemy@</TFTRadiantItemBonus> Magic Resist for each enemy targeting the holder.<br><br><TFTRadiantItemBonus>Also, regenerate @MaxHealthRegen@% maximum Health each second.</TFTRadiantItemBonus>",
             "effects": {
                 "Armor": 25,
-                "ArmorPerEnemy": 25,
+                "ArmorPerEnemy": 30,
                 "HealthRegenInterval": 1,
-                "MRPerEnemy": 25,
+                "MRPerEnemy": 30,
                 "MagicResist": 25,
                 "MaxHealthRegen": 2
             },
@@ -1878,14 +1881,14 @@
                     "type": "variable",
                     "full_match": "@ArmorPerEnemy@",
                     "hash": "7c694b41",
-                    "value": 25
+                    "value": 30
                 },
                 {
                     "match": "MRPerEnemy",
                     "type": "variable",
                     "full_match": "@MRPerEnemy@",
                     "hash": "7ba8c0e3",
-                    "value": 25
+                    "value": 30
                 },
                 {
                     "match": "MaxHealthRegen",
@@ -2043,7 +2046,7 @@
             "apiName": "TFT5_Item_AdaptiveHelmRadiant",
             "associatedTraits": [],
             "composition": [],
-            "desc": "Combat start: The holder gains two effects, <TFTRadiantItemBonus>regardless of starting position</TFTRadiantItemBonus>.<br><br>Front Two Rows: <TFTRadiantItemBonus>@FrontRowBonusResists@ Armor and Magic Resist</TFTRadiantItemBonus>.<br><br>Back Two Rows: <TFTRadiantItemBonus>@TotalAPBonus@ Ability Power. Gain @ManaPerTickrate@ Mana every @ManaTickrate@ seconds</TFTRadiantItemBonus>.<br>",
+            "desc": "Combat start: The holder gains two effects, <TFTRadiantItemBonus>regardless of starting position</TFTRadiantItemBonus>.<br><br>Front Two Rows: @FrontRowBonusResists@ Armor and Magic Resist.<br><br>Back Two Rows: @TotalAPBonus@ Ability Power. Gain @ManaPerTickrate@ Mana every @ManaTickrate@ seconds.<br>",
             "effects": {
                 "AP": 15,
                 "FrontRowBonusResists": 45,
@@ -2363,7 +2366,7 @@
             ],
             "desc": "The holder gains the Vanquisher trait.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
             "effects": {
-                "CritChance": 20
+                "CritChance": 15
             },
             "from": null,
             "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Traits/Spatula/Set9/Vanquisher.TFT_Set9_Stage2.tex",
@@ -4705,7 +4708,7 @@
             "composition": [],
             "desc": "Combat start: The holder and allies within @HexRange@ hexes in the same row gain a @1StarShieldValue@ Shield, @BonusResists@ Armor, and @BonusResists@ Magic Resist for @ShieldDuration@ seconds.<br><br>​​<tftitemrules>[Support item]</tftitemrules>",
             "effects": {
-                "1StarShieldValue": 250,
+                "1StarShieldValue": 200,
                 "2StarShieldValue": 250,
                 "3StarShieldValue": 250,
                 "BonusResists": 20,
@@ -4733,7 +4736,7 @@
                     "type": "variable",
                     "full_match": "@1StarShieldValue@",
                     "hash": "6fb9af6a",
-                    "value": 250
+                    "value": 200
                 },
                 {
                     "match": "BonusResists",
@@ -5270,9 +5273,9 @@
                 "Armor": 25,
                 "BaseDamageAmpPct": 12,
                 "CritChance": 20,
-                "DamageAmpPct": 13,
+                "DamageAmpPct": 18,
                 "MissingHPForMax": 60,
-                "TOOLTIPTotalDamageAmp": 25
+                "TOOLTIPTotalDamageAmp": 30
             },
             "from": null,
             "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Standard/Night_Harvester.tex",
@@ -5300,7 +5303,7 @@
                     "type": "variable",
                     "full_match": "@TOOLTIPTotalDamageAmp@",
                     "hash": "299be1e7",
-                    "value": 25
+                    "value": 30
                 }
             ]
         },
@@ -5919,6 +5922,17 @@
                     }
                 ],
                 "calculations": {
+                    "ModifiedAttackSpeed": [
+                        {
+                            "mRatio": 0.01,
+                            "displayAsPercent": true,
+                            "type": "SubPartScaledProportionalToStat",
+                            "part": {
+                                "name": "AttackSpeed",
+                                "type": "NamedDataValueCalculationPart"
+                            }
+                        }
+                    ],
                     "ExplosionDamage": [
                         {
                             "mStat": 2,
@@ -5931,17 +5945,6 @@
                             "mStat": 2,
                             "name": "PercentAttackDamage",
                             "type": "StatByNamedDataValueCalculationPart"
-                        }
-                    ],
-                    "ModifiedAttackSpeed": [
-                        {
-                            "mRatio": 0.01,
-                            "displayAsPercent": true,
-                            "type": "SubPartScaledProportionalToStat",
-                            "part": {
-                                "name": "AttackSpeed",
-                                "type": "NamedDataValueCalculationPart"
-                            }
                         }
                     ],
                     "4StarShotDamage": [
@@ -6121,6 +6124,13 @@
                     }
                 ],
                 "calculations": {
+                    "GreatswordDamage": [
+                        {
+                            "mStat": 2,
+                            "name": "GreatswordADRatio",
+                            "type": "StatByNamedDataValueCalculationPart"
+                        }
+                    ],
                     "ModifiedOmnivamp": [
                         {
                             "mRatio": 0.01,
@@ -6130,13 +6140,6 @@
                                 "name": "Omnivamp",
                                 "type": "NamedDataValueCalculationPart"
                             }
-                        }
-                    ],
-                    "GreatswordDamage": [
-                        {
-                            "mStat": 2,
-                            "name": "GreatswordADRatio",
-                            "type": "StatByNamedDataValueCalculationPart"
                         }
                     ]
                 }
@@ -6223,12 +6226,12 @@
                     }
                 ],
                 "calculations": {
-                    "ModifiedEssenceDamage": [
+                    "ModifiedMagicDamage": [
                         {
                             "mRatio": 0.01,
                             "type": "SubPartScaledProportionalToStat",
                             "part": {
-                                "name": "EssenceDamage",
+                                "name": "MagicDamage",
                                 "type": "NamedDataValueCalculationPart"
                             }
                         }
@@ -6248,12 +6251,12 @@
                             ]
                         }
                     ],
-                    "ModifiedMagicDamage": [
+                    "ModifiedEssenceDamage": [
                         {
                             "mRatio": 0.01,
                             "type": "SubPartScaledProportionalToStat",
                             "part": {
-                                "name": "MagicDamage",
+                                "name": "EssenceDamage",
                                 "type": "NamedDataValueCalculationPart"
                             }
                         }
@@ -6430,6 +6433,21 @@
                     }
                 ],
                 "calculations": {
+                    "ArrowDamage": [
+                        {
+                            "type": "SumOfSubPartsCalculationPart",
+                            "parts": [
+                                {
+                                    "mStat": 2,
+                                    "type": "StatBySubPartCalculationPart",
+                                    "part": {
+                                        "name": "ADPercent",
+                                        "type": "NamedDataValueCalculationPart"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
                     "ModifiedDamage": [
                         {
                             "mRatio": 0.01,
@@ -6448,21 +6466,6 @@
                                 "name": "Duration",
                                 "type": "NamedDataValueCalculationPart"
                             }
-                        }
-                    ],
-                    "ArrowDamage": [
-                        {
-                            "type": "SumOfSubPartsCalculationPart",
-                            "parts": [
-                                {
-                                    "mStat": 2,
-                                    "type": "StatBySubPartCalculationPart",
-                                    "part": {
-                                        "name": "ADPercent",
-                                        "type": "NamedDataValueCalculationPart"
-                                    }
-                                }
-                            ]
                         }
                     ]
                 }
@@ -6611,9 +6614,9 @@
                     {
                         "name": "PercentAD",
                         "value": [
-                            0.7,
-                            0.7,
-                            0.7
+                            0.65,
+                            0.65,
+                            0.65
                         ]
                     },
                     {
@@ -6629,7 +6632,7 @@
                         "value": [
                             18,
                             30,
-                            100
+                            50
                         ]
                     },
                     {
@@ -6753,7 +6756,7 @@
                     }
                 ],
                 "calculations": {
-                    "{5b31e270}": [
+                    "ModifiedBonusDamage": [
                         {
                             "mRatio": 0.01,
                             "type": "SubPartScaledProportionalToStat",
@@ -6850,7 +6853,7 @@
                     }
                 ],
                 "calculations": {
-                    "{fac096d7}": [
+                    "ModifiedAbilityScaleDamage": [
                         {
                             "mRatio": 0.01,
                             "type": "SubPartScaledProportionalToStat",
@@ -7082,16 +7085,6 @@
                             }
                         }
                     ],
-                    "ModifiedDuration": [
-                        {
-                            "mRatio": 0.01,
-                            "type": "SubPartScaledProportionalToStat",
-                            "part": {
-                                "name": "SpinDuration",
-                                "type": "NamedDataValueCalculationPart"
-                            }
-                        }
-                    ],
                     "SpinsTooltip": [
                         {
                             "type": "SumOfSubPartsCalculationPart",
@@ -7114,6 +7107,16 @@
                                     ]
                                 }
                             ]
+                        }
+                    ],
+                    "ModifiedDuration": [
+                        {
+                            "mRatio": 0.01,
+                            "type": "SubPartScaledProportionalToStat",
+                            "part": {
+                                "name": "SpinDuration",
+                                "type": "NamedDataValueCalculationPart"
+                            }
                         }
                     ]
                 }
@@ -7422,6 +7425,17 @@
                     }
                 ],
                 "calculations": {
+                    "ModifiedPercentAttackSpeed": [
+                        {
+                            "mRatio": 0.01,
+                            "displayAsPercent": true,
+                            "type": "SubPartScaledProportionalToStat",
+                            "part": {
+                                "name": "PercentAttackSpeed",
+                                "type": "NamedDataValueCalculationPart"
+                            }
+                        }
+                    ],
                     "TotalDamage": [
                         {
                             "mStat": 2,
@@ -7436,17 +7450,6 @@
                             "type": "SubPartScaledProportionalToStat",
                             "part": {
                                 "name": "SelfAttackSpeed",
-                                "type": "NamedDataValueCalculationPart"
-                            }
-                        }
-                    ],
-                    "ModifiedPercentAttackSpeed": [
-                        {
-                            "mRatio": 0.01,
-                            "displayAsPercent": true,
-                            "type": "SubPartScaledProportionalToStat",
-                            "part": {
-                                "name": "PercentAttackSpeed",
                                 "type": "NamedDataValueCalculationPart"
                             }
                         }
@@ -7610,7 +7613,7 @@
                             }
                         }
                     ],
-                    "{c9f34916}": [
+                    "SpellRange": [
                         {
                             "type": "SumOfSubPartsCalculationPart",
                             "parts": [
@@ -7849,13 +7852,6 @@
                     }
                 ],
                 "calculations": {
-                    "Shield": [
-                        {
-                            "mStat": 11,
-                            "name": "ShieldPercent",
-                            "type": "StatByNamedDataValueCalculationPart"
-                        }
-                    ],
                     "ModifiedAttackSpeedPercent": [
                         {
                             "mRatio": 0.01,
@@ -7865,6 +7861,13 @@
                                 "name": "AttackSpeedPercent",
                                 "type": "NamedDataValueCalculationPart"
                             }
+                        }
+                    ],
+                    "Shield": [
+                        {
+                            "mStat": 11,
+                            "name": "ShieldPercent",
+                            "type": "StatByNamedDataValueCalculationPart"
                         }
                     ]
                 }
@@ -7953,6 +7956,16 @@
                             }
                         }
                     ],
+                    "CollisionDamage": [
+                        {
+                            "mRatio": 0.01,
+                            "type": "SubPartScaledProportionalToStat",
+                            "part": {
+                                "name": "Damage",
+                                "type": "NamedDataValueCalculationPart"
+                            }
+                        }
+                    ],
                     "HealAmount": [
                         {
                             "mStat": 33,
@@ -7961,16 +7974,6 @@
                                 "mStat": 11,
                                 "name": "PercentHealthHeal",
                                 "type": "StatByNamedDataValueCalculationPart"
-                            }
-                        }
-                    ],
-                    "CollisionDamage": [
-                        {
-                            "mRatio": 0.01,
-                            "type": "SubPartScaledProportionalToStat",
-                            "part": {
-                                "name": "Damage",
-                                "type": "NamedDataValueCalculationPart"
                             }
                         }
                     ]
@@ -8362,8 +8365,8 @@
                     {
                         "name": "SelfShieldAmount",
                         "value": [
-                            350,
-                            450,
+                            300,
+                            400,
                             2000
                         ]
                     },
@@ -8514,7 +8517,7 @@
                             }
                         }
                     ],
-                    "{435fa3bd}": [
+                    "ModifiedHealPercent": [
                         {
                             "mRatio": 0.01,
                             "displayAsPercent": true,
@@ -9097,6 +9100,16 @@
                             }
                         }
                     ],
+                    "ModifiedMagicDamage": [
+                        {
+                            "mRatio": 0.01,
+                            "type": "SubPartScaledProportionalToStat",
+                            "part": {
+                                "name": "MagicDamage",
+                                "type": "NamedDataValueCalculationPart"
+                            }
+                        }
+                    ],
                     "TooltipBonusHeal": [
                         {
                             "type": "ProductOfSubPartsCalculationPart",
@@ -9106,16 +9119,6 @@
                             },
                             "part2": {
                                 "name": "EmpoweredHealPercent",
-                                "type": "NamedDataValueCalculationPart"
-                            }
-                        }
-                    ],
-                    "ModifiedMagicDamage": [
-                        {
-                            "mRatio": 0.01,
-                            "type": "SubPartScaledProportionalToStat",
-                            "part": {
-                                "name": "MagicDamage",
                                 "type": "NamedDataValueCalculationPart"
                             }
                         }
@@ -9215,22 +9218,22 @@
                             }
                         }
                     ],
-                    "ModifiedSecondaryBonusHealth": [
-                        {
-                            "mRatio": 0.01,
-                            "type": "SubPartScaledProportionalToStat",
-                            "part": {
-                                "name": "SecondaryBonusMaxHealth",
-                                "type": "NamedDataValueCalculationPart"
-                            }
-                        }
-                    ],
                     "ModifiedSecondaryDamage": [
                         {
                             "mRatio": 0.01,
                             "type": "SubPartScaledProportionalToStat",
                             "part": {
                                 "name": "SecondaryDamage",
+                                "type": "NamedDataValueCalculationPart"
+                            }
+                        }
+                    ],
+                    "ModifiedSecondaryBonusHealth": [
+                        {
+                            "mRatio": 0.01,
+                            "type": "SubPartScaledProportionalToStat",
+                            "part": {
+                                "name": "SecondaryBonusMaxHealth",
                                 "type": "NamedDataValueCalculationPart"
                             }
                         }
@@ -9664,13 +9667,7 @@
                             ]
                         }
                     ],
-                    "SpellRangeTooltip": [
-                        {
-                            "name": "HexRange",
-                            "type": "NamedDataValueCalculationPart"
-                        }
-                    ],
-                    "ModifiedAOEDamage": [
+                    "ModifiedAoEDamage": [
                         {
                             "mStat": 2,
                             "type": "StatBySubPartCalculationPart",
@@ -9678,6 +9675,12 @@
                                 "name": "AOEADPercent",
                                 "type": "NamedDataValueCalculationPart"
                             }
+                        }
+                    ],
+                    "SpellRangeTooltip": [
+                        {
+                            "name": "HexRange",
+                            "type": "NamedDataValueCalculationPart"
                         }
                     ]
                 }
@@ -9929,6 +9932,16 @@
                     }
                 ],
                 "calculations": {
+                    "ModifiedBaseDamage": [
+                        {
+                            "mRatio": 0.01,
+                            "type": "SubPartScaledProportionalToStat",
+                            "part": {
+                                "name": "BaseDamage",
+                                "type": "NamedDataValueCalculationPart"
+                            }
+                        }
+                    ],
                     "BonusDamage": [
                         {
                             "type": "ProductOfSubPartsCalculationPart",
@@ -9942,16 +9955,6 @@
                             },
                             "part2": {
                                 "name": "DamageAmp",
-                                "type": "NamedDataValueCalculationPart"
-                            }
-                        }
-                    ],
-                    "ModifiedBaseDamage": [
-                        {
-                            "mRatio": 0.01,
-                            "type": "SubPartScaledProportionalToStat",
-                            "part": {
-                                "name": "BaseDamage",
                                 "type": "NamedDataValueCalculationPart"
                             }
                         }
@@ -10237,6 +10240,16 @@
                     }
                 ],
                 "calculations": {
+                    "ModifiedShieldAmount": [
+                        {
+                            "mRatio": 0.01,
+                            "type": "SubPartScaledProportionalToStat",
+                            "part": {
+                                "name": "ShieldAmount",
+                                "type": "NamedDataValueCalculationPart"
+                            }
+                        }
+                    ],
                     "TotalDamage": [
                         {
                             "type": "SumOfSubPartsCalculationPart",
@@ -10247,16 +10260,6 @@
                                     "type": "StatByNamedDataValueCalculationPart"
                                 }
                             ]
-                        }
-                    ],
-                    "ModifiedShieldAmount": [
-                        {
-                            "mRatio": 0.01,
-                            "type": "SubPartScaledProportionalToStat",
-                            "part": {
-                                "name": "ShieldAmount",
-                                "type": "NamedDataValueCalculationPart"
-                            }
                         }
                     ]
                 }
@@ -10482,22 +10485,22 @@
                     }
                 ],
                 "calculations": {
-                    "TotalDamage": [
-                        {
-                            "mStat": 2,
-                            "type": "StatBySubPartCalculationPart",
-                            "part": {
-                                "name": "ADPercent",
-                                "type": "NamedDataValueCalculationPart"
-                            }
-                        }
-                    ],
                     "ModifiedArmorShred": [
                         {
                             "mRatio": 0.01,
                             "type": "SubPartScaledProportionalToStat",
                             "part": {
                                 "name": "ArmorShred",
+                                "type": "NamedDataValueCalculationPart"
+                            }
+                        }
+                    ],
+                    "TotalDamage": [
+                        {
+                            "mStat": 2,
+                            "type": "StatBySubPartCalculationPart",
+                            "part": {
+                                "name": "ADPercent",
                                 "type": "NamedDataValueCalculationPart"
                             }
                         }
@@ -10561,7 +10564,7 @@
                     }
                 ],
                 "calculations": {
-                    "{c209f33e}": [
+                    "ModifiedFlameBreathDamage": [
                         {
                             "mRatio": 0.01,
                             "type": "SubPartScaledProportionalToStat",
@@ -10721,9 +10724,9 @@
                     {
                         "name": "BlastPercentAD",
                         "value": [
-                            2.4,
-                            2.4,
-                            7.5
+                            2.25,
+                            2.25,
+                            5
                         ]
                     },
                     {
@@ -10737,8 +10740,8 @@
                     {
                         "name": "ChakramPercentAD",
                         "value": [
-                            0.06,
-                            0.06,
+                            0.05,
+                            0.05,
                             0.15
                         ]
                     },
@@ -11321,22 +11324,22 @@
                     }
                 ],
                 "calculations": {
-                    "ModifiedBoulderDamage": [
-                        {
-                            "mRatio": 0.01,
-                            "type": "SubPartScaledProportionalToStat",
-                            "part": {
-                                "name": "BoulderDamage",
-                                "type": "NamedDataValueCalculationPart"
-                            }
-                        }
-                    ],
                     "ModifiedSpellDamage": [
                         {
                             "mRatio": 0.01,
                             "type": "SubPartScaledProportionalToStat",
                             "part": {
                                 "name": "SpellDamage",
+                                "type": "NamedDataValueCalculationPart"
+                            }
+                        }
+                    ],
+                    "ModifiedBoulderDamage": [
+                        {
+                            "mRatio": 0.01,
+                            "type": "SubPartScaledProportionalToStat",
+                            "part": {
+                                "name": "BoulderDamage",
                                 "type": "NamedDataValueCalculationPart"
                             }
                         }
@@ -11538,7 +11541,7 @@
                     }
                 ],
                 "calculations": {
-                    "{7cd71e4c}": [
+                    "ModifiedMissingHealthPercentBonus": [
                         {
                             "mRatio": 0.01,
                             "displayAsPercent": true,
@@ -11572,7 +11575,7 @@
                             ]
                         }
                     ],
-                    "{5b31e270}": [
+                    "ModifiedBonusDamage": [
                         {
                             "mRatio": 0.01,
                             "type": "SubPartScaledProportionalToStat",
@@ -13786,7 +13789,7 @@
             "composition": [],
             "desc": "Gain a Kassadin. Before casting, your strongest Kassadin gains @AP@ Ability Power and blinks to the furthest enemy within @HexRadius@ hexes, but his ability no longer disarms or shields. His Mana cost is reduced by @ManaReduction@.",
             "effects": {
-                "AP": 35,
+                "AP": 32,
                 "HexRadius": 3,
                 "ManaReduction": 30
             },
@@ -13802,7 +13805,7 @@
                     "type": "variable",
                     "full_match": "@AP@",
                     "hash": "5b251bd4",
-                    "value": 35
+                    "value": 32
                 },
                 {
                     "match": "HexRadius",
@@ -15302,8 +15305,7 @@
             "desc": "Gain @NumOfDummies@ Training Dummy(s). In @PlayerCombatRounds@ player combats, equip the dummy(s) with @NumOfItems@ random Support Item(s), which cannot be removed.",
             "effects": {
                 "NumOfItems": 1,
-                "PlayerCombatRounds": 4,
-                "{1cabeb76}": 1
+                "PlayerCombatRounds": 4
             },
             "from": null,
             "icon": "ASSETS/Maps/TFT/Icons/Augments/Hexcore/Stationary-Support-I.TFT_Set9_Stage2.tex",
@@ -15312,13 +15314,6 @@
             "name": "Stationary Support I",
             "unique": false,
             "variable_matches": [
-                {
-                    "match": "NumOfDummies",
-                    "type": "variable",
-                    "full_match": "@NumOfDummies@",
-                    "hash": "1cabeb76",
-                    "value": 1
-                },
                 {
                     "match": "PlayerCombatRounds",
                     "type": "variable",
@@ -18281,7 +18276,7 @@
             "composition": [],
             "desc": "When your Vanquisher's attacks and Abilities critically strike, they heal the ally with the most missing Health by @HealthPercent*100@% of that ally's max Health. Gain 2 Vanquishers.",
             "effects": {
-                "HealthPercent": 0.014999999664723873
+                "HealthPercent": 0.02500000037252903
             },
             "from": null,
             "icon": "ASSETS/Maps/TFT/Icons/Augments/Hexcore/Stolen-Vitality-II.TFT_Set9_Stage2.tex",
@@ -18296,7 +18291,7 @@
                     "multiplier": "100",
                     "full_match": "@HealthPercent*100@",
                     "hash": "7fd0bc64",
-                    "value": 0.015
+                    "value": 0.025
                 }
             ],
             "type": "regular"
@@ -19448,7 +19443,7 @@
             "composition": [],
             "desc": "Allies heal for @BaseRegen*100@% of their max Health every @Frequency@ seconds. Allies that started combat in an elemental hex heal for @EnhancedRegen*100@% instead. Gain 2 Ixtal champions.",
             "effects": {
-                "BaseRegen": 0.07999999821186066,
+                "BaseRegen": 0.10000000149011612,
                 "Frequency": 5,
                 "{21795f4c}": 0.15000000596046448
             },
@@ -19472,7 +19467,7 @@
                     "multiplier": "100",
                     "full_match": "@BaseRegen*100@",
                     "hash": "1eec5a01",
-                    "value": 0.08
+                    "value": 0.1
                 },
                 {
                     "match": "EnhancedRegen",
@@ -20428,7 +20423,7 @@
             "composition": [],
             "desc": "Gain @NumOfDummies@ Training Dummy(s). They have @NumOfItems@ random Support Item(s) equipped, which cannot be removed.",
             "effects": {
-                "NumOfItems": 2,
+                "NumOfItems": 3,
                 "{1cabeb76}": 1
             },
             "from": null,
@@ -20450,7 +20445,7 @@
                     "type": "variable",
                     "full_match": "@NumOfItems@",
                     "hash": "c36b4df2",
-                    "value": 2
+                    "value": 3
                 }
             ],
             "type": "regular"
@@ -25788,7 +25783,7 @@
                     "minUnits": 4,
                     "style": 3,
                     "variables": {
-                        "BonusAP": 50,
+                        "BonusAP": 45,
                         "HealthPct": 0.10000000149011612,
                         "{08335318}": 1,
                         "{a34f32df}": 3
@@ -25806,7 +25801,7 @@
                             "type": "variable",
                             "full_match": "@BonusAP@",
                             "hash": "d49caf5d",
-                            "value": 50
+                            "value": 45
                         },
                         {
                             "match": "TargetNum",
@@ -25830,7 +25825,7 @@
                     "minUnits": 6,
                     "style": 4,
                     "variables": {
-                        "BonusAP": 90,
+                        "BonusAP": 80,
                         "HealthPct": 0.11999999731779099,
                         "{08335318}": 2,
                         "{a34f32df}": 3
@@ -25848,7 +25843,7 @@
                             "type": "variable",
                             "full_match": "@BonusAP@",
                             "hash": "d49caf5d",
-                            "value": 90
+                            "value": 80
                         },
                         {
                             "match": "TargetNum",
@@ -25872,7 +25867,7 @@
                     "minUnits": 8,
                     "style": 4,
                     "variables": {
-                        "BonusAP": 135,
+                        "BonusAP": 125,
                         "HealthPct": 0.15000000596046448,
                         "{08335318}": 2,
                         "{a34f32df}": 3
@@ -25890,7 +25885,7 @@
                             "type": "variable",
                             "full_match": "@BonusAP@",
                             "hash": "d49caf5d",
-                            "value": 135
+                            "value": 125
                         },
                         {
                             "match": "TargetNum",
@@ -26513,7 +26508,7 @@
                         "HealthThreshold": 0.5,
                         "HexRange": 4,
                         "StealthDuration": 1.5,
-                        "{fdaf3546}": 0.6000000238418579
+                        "{fdaf3546}": 0.699999988079071
                     },
                     "variable_matches": [
                         {
@@ -26551,7 +26546,7 @@
                             "multiplier": "100",
                             "full_match": "@BleedPct*100@",
                             "hash": "fdaf3546",
-                            "value": 0.6
+                            "value": 0.7
                         }
                     ]
                 }
@@ -27244,10 +27239,10 @@
                     "minUnits": 7,
                     "style": 4,
                     "variables": {
-                        "AD": 42,
-                        "AP": 42,
+                        "AD": 45,
+                        "AP": 45,
                         "BonusRatio": 0.05000000074505806,
-                        "Health": 420
+                        "Health": 450
                     },
                     "variable_matches": [
                         {
@@ -27262,21 +27257,21 @@
                             "type": "variable",
                             "full_match": "@Health@",
                             "hash": "6b98ed8f",
-                            "value": 420
+                            "value": 450
                         },
                         {
                             "match": "AP",
                             "type": "variable",
                             "full_match": "@AP@",
                             "hash": "5b251bd4",
-                            "value": 42
+                            "value": 45
                         },
                         {
                             "match": "AD",
                             "type": "variable",
                             "full_match": "@AD@",
                             "hash": "4724fc58",
-                            "value": 42
+                            "value": 45
                         },
                         {
                             "match": "BonusRatio",
@@ -28103,7 +28098,7 @@
                     "style": 4,
                     "variables": {
                         "MaxStacks": 8,
-                        "PercentAD": 12
+                        "PercentAD": 14
                     },
                     "variable_matches": [
                         {
@@ -28125,7 +28120,7 @@
                             "type": "variable",
                             "full_match": "@PercentAD@",
                             "hash": "df3d2f5f",
-                            "value": 12
+                            "value": 14
                         }
                     ]
                 },
@@ -28877,7 +28872,7 @@
                     "style": 4,
                     "variables": {
                         "{c4441218}": 35,
-                        "{ecb9c76f}": 30
+                        "{ecb9c76f}": 25
                     },
                     "variable_matches": [
                         {
@@ -28899,7 +28894,7 @@
                             "type": "variable",
                             "full_match": "@CritDmg@",
                             "hash": "ecb9c76f",
-                            "value": 30
+                            "value": 25
                         }
                     ]
                 },
@@ -28909,7 +28904,7 @@
                     "style": 4,
                     "variables": {
                         "{c4441218}": 55,
-                        "{ecb9c76f}": 50
+                        "{ecb9c76f}": 40
                     },
                     "variable_matches": [
                         {
@@ -28931,7 +28926,7 @@
                             "type": "variable",
                             "full_match": "@CritDmg@",
                             "hash": "ecb9c76f",
-                            "value": 50
+                            "value": 40
                         }
                     ]
                 }
@@ -28998,8 +28993,8 @@
                     "style": 3,
                     "variables": {
                         "Duration": 7,
-                        "{012399e1}": 0.20000000298023224,
-                        "{5532c3ef}": 0.3499999940395355
+                        "{012399e1}": 0.25,
+                        "{5532c3ef}": 0.4000000059604645
                     },
                     "variable_matches": [
                         {
@@ -29015,7 +29010,7 @@
                             "multiplier": "100",
                             "full_match": "@MinDR*100@",
                             "hash": "012399e1",
-                            "value": 0.2
+                            "value": 0.25
                         },
                         {
                             "match": "MaxDR",
@@ -29023,7 +29018,7 @@
                             "multiplier": "100",
                             "full_match": "@MaxDR*100@",
                             "hash": "5532c3ef",
-                            "value": 0.35
+                            "value": 0.4
                         }
                     ]
                 },
@@ -29033,8 +29028,8 @@
                     "style": 4,
                     "variables": {
                         "Duration": 7,
-                        "{012399e1}": 0.30000001192092896,
-                        "{5532c3ef}": 0.44999998807907104
+                        "{012399e1}": 0.3499999940395355,
+                        "{5532c3ef}": 0.5
                     },
                     "variable_matches": [
                         {
@@ -29050,7 +29045,7 @@
                             "multiplier": "100",
                             "full_match": "@MinDR*100@",
                             "hash": "012399e1",
-                            "value": 0.3
+                            "value": 0.35
                         },
                         {
                             "match": "MaxDR",
@@ -29058,7 +29053,7 @@
                             "multiplier": "100",
                             "full_match": "@MaxDR*100@",
                             "hash": "5532c3ef",
-                            "value": 0.45
+                            "value": 0.5
                         }
                     ]
                 }

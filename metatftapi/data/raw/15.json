@@ -1140,7 +1140,7 @@
             "apiName": "TFT5_Item_FrozenHeartRadiant",
             "associatedTraits": [],
             "composition": [],
-            "desc": "Start of Combat: Gain @CombatStartMana@ Mana.<br><br>At @HealthThreshold@% Health, gain <TFTRadiantItemBonus>@TriggerMana@ Mana</TFTRadiantItemBonus> and a Shield equal to <TFTRadiantItemBonus>@ShieldHealthPercent@% max Health</TFTRadiantItemBonus>.",
+            "desc": "Start of Combat: Gain @CombatStartMana@ Mana.<br><br>Lifeline: At @HealthThreshold@% Health, gain <TFTRadiantItemBonus>@TriggerMana@ Mana</TFTRadiantItemBonus> and a Shield equal to <TFTRadiantItemBonus>@ShieldHealthPercent@% max Health</TFTRadiantItemBonus>.",
             "effects": {
                 "Armor": 50,
                 "CombatStartMana": 20,
@@ -1730,15 +1730,14 @@
             "apiName": "TFT5_Item_GuardianAngelRadiant",
             "associatedTraits": [],
             "composition": [],
-            "desc": "At @HealthThreshold@% Health, briefly become untargetable, shed negative effects, and <TFTRadiantItemBonus>heal all missing health</TFTRadiantItemBonus>.",
+            "desc": "<TFTBonus>Lifeline:</TFTBonus> At @HealthThreshold@% Health, briefly become untargetable and shed negative effects.",
             "effects": {
-                "AD": 0.20000000298023224,
-                "AP": 20,
-                "AS": 30,
+                "AD": 0.25,
+                "AP": 30,
+                "AS": 40,
                 "Armor": 20,
                 "DamageReduction": 100,
                 "HealthThreshold": 60,
-                "MissingHealthRestore": 1,
                 "StealthDuration": 1
             },
             "from": null,
@@ -2402,7 +2401,7 @@
                 "TFT_Item_TearOfTheGoddess",
                 "TFT_Item_ChainVest"
             ],
-            "desc": "Start of Combat: Gain @CombatStartMana@ Mana.<br><br>At @HealthThreshold@% Health, gain @TriggerMana@ Mana and a Shield equal to @ShieldHealthPercent@% max Health.",
+            "desc": "Start of Combat: Gain @CombatStartMana@ Mana.<br><br>Lifeline: At @HealthThreshold@% Health, gain @TriggerMana@ Mana and a Shield equal to @ShieldHealthPercent@% max Health.",
             "effects": {
                 "Armor": 25,
                 "CombatStartMana": 20,
@@ -5477,7 +5476,7 @@
                 "TFT_Item_BFSword",
                 "TFT_Item_ChainVest"
             ],
-            "desc": "At @HealthThreshold@% Health, briefly become untargetable and shed negative effects.",
+            "desc": "<TFTBonus>Lifeline:</TFTBonus> At @HealthThreshold@% Health, briefly become untargetable and shed negative effects.",
             "effects": {
                 "AD": 0.10000000149011612,
                 "AP": 10,
@@ -19303,7 +19302,7 @@
         },
         {
             "ability": {
-                "desc": "Deal <physicalDamage>@TotalDamage@&nbsp;(%i:scaleAD%)</physicalDamage> physical damage to the lowest health enemy within <TFTBonus>@ModifiedCastRange@</TFTBonus>&nbsp;hexes. If the target dies, <TFTBonus>@ModifiedGoldChance@% %i:scaleAP%</TFTBonus> chance to gain 1 gold.<br><br>Gold Earned: @TFTUnitProperty.:TFT15_GangplankSpell_GoldCount@",
+                "desc": "Deal <physicalDamage>@TotalDamage@&nbsp;(%i:scaleAD%)</physicalDamage> physical damage to the lowest health enemy within <TFTBonus>@ModifiedCastRange@&nbsp;(%i:scaleRange%)</TFTBonus>&nbsp;hexes. If the target dies, <TFTBonus>@ModifiedGoldChance@% %i:scaleAP%</TFTBonus> chance to gain 1 gold.<br><br>Gold Earned: @TFTUnitProperty.:TFT15_GangplankSpell_GoldCount@",
                 "icon": "ASSETS/Characters/TFT15_Gangplank/HUD/Icons2D/TFT15_Gangplank_Q.TFT_Set15.tex",
                 "name": "Golden Giga Gun",
                 "variables": [
@@ -23247,6 +23246,78 @@
     ],
     "augments": [
         {
+            "apiName": "TFT11_Augment_Calltochaos",
+            "associatedTraits": [],
+            "composition": [],
+            "desc": "Gain a powerful and random reward.<br><br>Reward: @TFTUnitProperty.item:TFT11_Augment_CallToChaos@",
+            "effects": {
+                "Gold": 58,
+                "NumEmblems": 5,
+                "Rerolls": 40,
+                "ThreeStarGold": 20,
+                "XP": 64,
+                "numtg": 3,
+                "{4ffe8c09}": null,
+                "{8c58ac06}": 3,
+                "{8f15cad2}": 3,
+                "{917f9e2f}": 0.5,
+                "{927f9fc2}": 50,
+                "{96847027}": 25,
+                "{96f12d22}": 3
+            },
+            "from": null,
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/Hexcore/CallToChaos_III.tex",
+            "id": null,
+            "incompatibleTraits": [],
+            "name": "Call to Chaos",
+            "tags": [
+                "4-2"
+            ],
+            "unique": false,
+            "en_name": "Call to Chaos",
+            "texture": "CallToChaos_III",
+            "type": "regular"
+        },
+        {
+            "apiName": "TFT11_Augment_AtWhatCost",
+            "associatedTraits": [],
+            "composition": [],
+            "desc": "Immediately go to level @Level@ and gain @XP@ XP. You don't get to choose your future augments.",
+            "effects": {
+                "Gold": null,
+                "Level": 6,
+                "XP": 4
+            },
+            "from": null,
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/Hexcore/AtWhatCost_III.tex",
+            "id": null,
+            "incompatibleTraits": [],
+            "name": "At What Cost",
+            "tags": [
+                "2-1"
+            ],
+            "unique": false,
+            "en_name": "At What Cost",
+            "variable_matches": [
+                {
+                    "match": "Level",
+                    "type": "variable",
+                    "full_match": "@Level@",
+                    "hash": "9b99e7dd",
+                    "value": 6
+                },
+                {
+                    "match": "XP",
+                    "type": "variable",
+                    "full_match": "@XP@",
+                    "hash": "516374d5",
+                    "value": 4
+                }
+            ],
+            "texture": "AtWhatCost_III",
+            "type": "regular"
+        },
+        {
             "apiName": "TFT15_Augment_BattleAcademia_Hero101",
             "associatedTraits": [
                 "TFT15_BattleAcademia"
@@ -26222,78 +26293,6 @@
             "unique": false,
             "en_name": "Supreme Cells Crest",
             "texture": "Crest_SupremeCells_II",
-            "type": "regular"
-        },
-        {
-            "apiName": "TFT11_Augment_Calltochaos",
-            "associatedTraits": [],
-            "composition": [],
-            "desc": "Gain a powerful and random reward.<br><br>Reward: @TFTUnitProperty.item:TFT11_Augment_CallToChaos@",
-            "effects": {
-                "Gold": 58,
-                "NumEmblems": 5,
-                "Rerolls": 40,
-                "ThreeStarGold": 20,
-                "XP": 64,
-                "numtg": 3,
-                "{4ffe8c09}": null,
-                "{8c58ac06}": 3,
-                "{8f15cad2}": 3,
-                "{917f9e2f}": 0.5,
-                "{927f9fc2}": 50,
-                "{96847027}": 25,
-                "{96f12d22}": 3
-            },
-            "from": null,
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/Hexcore/CallToChaos_III.tex",
-            "id": null,
-            "incompatibleTraits": [],
-            "name": "Call to Chaos",
-            "tags": [
-                "4-2"
-            ],
-            "unique": false,
-            "en_name": "Call to Chaos",
-            "texture": "CallToChaos_III",
-            "type": "regular"
-        },
-        {
-            "apiName": "TFT11_Augment_AtWhatCost",
-            "associatedTraits": [],
-            "composition": [],
-            "desc": "Immediately go to level @Level@ and gain @XP@ XP. You don't get to choose your future augments.",
-            "effects": {
-                "Gold": null,
-                "Level": 6,
-                "XP": 4
-            },
-            "from": null,
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/Hexcore/AtWhatCost_III.tex",
-            "id": null,
-            "incompatibleTraits": [],
-            "name": "At What Cost",
-            "tags": [
-                "2-1"
-            ],
-            "unique": false,
-            "en_name": "At What Cost",
-            "variable_matches": [
-                {
-                    "match": "Level",
-                    "type": "variable",
-                    "full_match": "@Level@",
-                    "hash": "9b99e7dd",
-                    "value": 6
-                },
-                {
-                    "match": "XP",
-                    "type": "variable",
-                    "full_match": "@XP@",
-                    "hash": "516374d5",
-                    "value": 4
-                }
-            ],
-            "texture": "AtWhatCost_III",
             "type": "regular"
         },
         {
@@ -39962,7 +39961,6 @@
             "name": "Max Speed",
             "en_name": "Max Speed",
             "set15_mechanic": {
-                "Weight": 10,
                 "MaxStage": 2,
                 "IsStacking": true,
                 "IsPVEAllowed": true
@@ -40683,7 +40681,6 @@
                     "TFT15_Kayle",
                     "TFT15_Jhin"
                 ],
-                "Weight": 5,
                 "IsCommon": true,
                 "IsPVEAllowed": true
             }
@@ -44904,8 +44901,11 @@
             "name": "Frost Touch",
             "en_name": "Frost Touch",
             "set15_mechanic": {
-                "Weight": 10,
                 "AllowMultiple": true,
+                "MaxLevel": 10,
+                "MinLevel": 10,
+                "MaxStage": 9,
+                "MinStage": 9,
                 "IsPVEAllowed": true
             }
         },

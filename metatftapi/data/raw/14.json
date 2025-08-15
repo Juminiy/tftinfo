@@ -42407,7 +42407,9 @@
             "associatedTraits": [],
             "composition": [],
             "desc": "Use on a 1 or 2 cost champion to upgrade them to a unit of 1 higher cost.<br><br><tftitemrules>Not for use on living, mechanical, experimental, imaginary, or reanimated creatures . Keep out of reach of Yordles.</tftitemrules>",
-            "effects": {},
+            "effects": {
+                "{27d80030}": 1
+            },
             "from": null,
             "icon": "ASSETS/Maps/TFT/Icons/Items/Hexcore/Magnetron_Enchant.tex",
             "id": null,
@@ -42794,9 +42796,9 @@
     ],
     "portals": [
         {
-            "name": "Augment Round Swap",
-            "description": "Get excited! Augments are given earlier this game.",
-            "short": "Get excited! Augments are given earlier this game.",
+            "name": "HACK: Augment Round Swap",
+            "description": "The augment rounds have been moved earlier this game.",
+            "short": "The augment rounds have been moved earlier this game.",
             "region_subtitle": "",
             "region": "Unique",
             "apiName": "TFT_Portals_Unique_AugmentRoundSwap",
@@ -42806,7 +42808,7 @@
                 20,
                 255
             ],
-            "icon": "Spatula_Icon"
+            "icon": "TFT14_Hack_Icon"
         },
         {
             "name": "HACK: Fourth Augment",
@@ -43918,7 +43920,7 @@
         },
         "TFT14_OpeningEncounter_Hack_AugmentRoundSwap": {
             "ChampionSkin": "TFT14_NPC_Azir",
-            "EncounterRulesText": "Get excited! Augments are given earlier this game.",
+            "EncounterRulesText": "The augment rounds have been moved earlier this game.",
             "apiName": "TFT14_OpeningEncounter_Hack_AugmentRoundSwap",
             "stages": [
                 1

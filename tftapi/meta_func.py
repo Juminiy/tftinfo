@@ -225,10 +225,14 @@ def download_file(fileurl: str, filepath: str, timeout_sec: float) -> tuple[str,
             
 def geturl_extname(commonurl:str) -> str:
     dotidx = commonurl.rfind('.')
+    quesidx = commonurl.rfind('?')
     if dotidx==-1:
         return 'jpg'
     else:
-        return commonurl[dotidx+1:]
+        if quesidx == -1 or quesidx < dotidx:
+            return commonurl[dotidx+1:]
+        else:
+            return commonurl[dotidx+1:quesidx]
 
 def copyfile_src2dst(srcpath:str, dstpath:str):
     with open(srcpath, 'rb') as srcf, \

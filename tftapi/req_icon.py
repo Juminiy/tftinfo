@@ -3,9 +3,10 @@ from meta_data import setchampions, setitems, settraits
 from meta_data import set_itemstype
 from meta_func import select_champions, select_items, select_traits_legal
 from meta_func import download_file, geturl_extname, copy_icon_emblem2trait, copyfile_src2dst
-from typing import Callable
+from typing import Callable,Any
 from parse_items import itemTyp
 import os
+from json import loads
 
 def req_timeout_sieve(tpls: list[tuple[str,str,float]]):
     while len(tpls) > 0:
@@ -63,11 +64,35 @@ def classify_items_icon():
                 )
                 # os.remove(f'tftitems/icon/{setof}/{itemkey}.{extname}')
 
-if __name__ == '__main__':
-    for reqfn in [req_champions_icon, req_items_icon, req_traits_icon]:
-        objof=reqfn.__name__.removeprefix('req_').removesuffix('_icon')
-        print(f'icon obj: {objof}')
-        reqfn()
+def req_fight_attrs():
+    attrsobj:dict[str,Any]={}
+    with open('tftraw/specs/fight-attrs.json') as attrfile:
+        attrsobj=loads(attrfile.read())
+        attrfile.close()
 
-    copy_icon_emblem2trait()
-    classify_items_icon()
+    for _, elval in attrsobj.items():
+        urlfmt=str(elval['url_fmt'])
+        for attrof in elval['attrs']:
+            fileurl=urlfmt.format(attrof)
+            extname=geturl_extname(fileurl)
+            download_file(
+                fileurl=fileurl,
+                filepath=f'tftspecs/icon/fights/{attrof}.{extname}',
+                timeout_sec=5,
+            )
+
+def req_rewards():
+    pass
+
+if __name__ == '__main__':
+    # set15.2 update, some icons download have been restricted, temp to skip it.
+    # for reqfn in [req_champions_icon, req_items_icon, req_traits_icon]:
+    #     objof=reqfn.__name__.removeprefix('req_').removesuffix('_icon')
+    #     print(f'icon obj: {objof}')
+    #     reqfn()
+
+    # copy_icon_emblem2trait()
+    # classify_items_icon()
+
+    req_fight_attrs()
+    req_rewards()

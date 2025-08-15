@@ -305,6 +305,13 @@ def parse_set_rewards(setof:str, setcfgkeys:dict[str,Any]):
         )
         rwdmd.close()
 
+def parse_set_rewards_comic():
+    # parse List Values
+    """
+        follow the rule in: rewards-rules.txt
+    """
+    pass
+
 if __name__ == '__main__':
     for fn in [set15_power_up, set13_teamup, set13_anomalies, set12_charms, set12_portal, set11_encounters, set10_portal, set9_set9dot5_portal]:
         fn()

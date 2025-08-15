@@ -5023,7 +5023,7 @@
                 "hp": 500,
                 "initialMana": 0,
                 "magicResist": 15,
-                "mana": 70,
+                "mana": 60,
                 "range": 4
             },
             "traits": [
@@ -5102,7 +5102,7 @@
         },
         {
             "ability": {
-                "desc": "PASSIVE: Kai'Sa's attacks apply Plasma. Her next attack against a target with 2 stacks of Plasma deals @ModifiedDamage@ magic damage and removes the Plasma.<br><br>ACTIVE: Kai'Sa gains @AttackSpeed*100@% Attack Speed for @Duration@ seconds. This bonus stacks!<br>",
+                "desc": "Passive: Kai'Sa's attacks apply Plasma. Her next attack against a target with 2 stacks of Plasma deals @ModifiedDamage@ magic damage and removes the Plasma.<br><br>Active: Kai'Sa gains @AttackSpeed*100@% Attack Speed for @Duration@ seconds. This bonus stacks!<br>",
                 "icon": "ASSETS/Characters/Kaisa/HUD/Icons2D/Kaisa_E2.dds",
                 "name": "Starcharged",
                 "variables": [
@@ -5551,7 +5551,7 @@
         },
         {
             "ability": {
-                "desc": "PASSIVE: Jax leaps to his target and deals @ModifiedBaseDamage@ bonus magic damage every 3rd attack. The bonus damage increases by @ModifiedStackDamage@ every 3rd attack, and stacks up to @TotalStacks@ times.<br><br>Current Damage on hit: @TFTUnitProperty.:TFT8_Jax_TotalDamage@",
+                "desc": "Passive: Jax leaps to his target and deals @ModifiedBaseDamage@ bonus magic damage every 3rd attack. The bonus damage increases by @ModifiedStackDamage@ every 3rd attack, and stacks up to @TotalStacks@ times.<br><br>Current Damage on hit: @TFTUnitProperty.:TFT8_Jax_TotalDamage@",
                 "icon": "ASSETS/Characters/Jax/HUD/Icons2D/Armsmaster_RelentlessAssault.dds",
                 "name": "Adaptive Strike",
                 "variables": [
@@ -6549,7 +6549,7 @@
         },
         {
             "ability": {
-                "desc": "PASSIVE: Nunu and Willump roll a ball around the arena towards the furthest enemy. The ball deals @ModifiedDamage@ magic damage to all enemies it passes through. When they reach their target, they will find a new destination. Nunu and Willump gain @ManaPerSecond@ Mana per second.<br><br>ACTIVE: Nunu and Willump grow the ball, increasing their movement speed, the size of the ball, and the amount of damage by @IncreasedDamagePercent*100@%.",
+                "desc": "Passive: Nunu and Willump roll a ball around the arena towards the furthest enemy. The ball deals @ModifiedDamage@ magic damage to all enemies it passes through. When they reach their target, they will find a new destination. Nunu and Willump gain @ManaPerSecond@ Mana per second.<br><br>Active: Nunu and Willump grow the ball, increasing their movement speed, the size of the ball, and the amount of damage by @IncreasedDamagePercent*100@%.",
                 "icon": "ASSETS/Characters/Nunu/HUD/Icons2D/NunuW1.dds",
                 "name": "Biggest Roboball Ever!",
                 "variables": [
@@ -6748,7 +6748,7 @@
         },
         {
             "ability": {
-                "desc": "Gangplank fires a flaming bullet at his target. It deals @ModifiedDamage@ magic damage and @HealingReductionPct@% <TFTKeyword>Wounds</TFTKeyword> the enemy for @Duration@ seconds.<br><br><tftitemrules><tftbold>Wound</tftbold>: reduces healing received</tftitemrules>",
+                "desc": "Gangplank sheds crowd control effects, then fires a flaming bullet at his target. It deals @ModifiedDamage@ magic damage and @HealingReductionPct@% <TFTKeyword>Wounds</TFTKeyword> the enemy for @Duration@ seconds.<br><br><tftitemrules><tftbold>Wound</tftbold>: reduces healing received</tftitemrules>",
                 "icon": "ASSETS/Characters/Gangplank/HUD/Icons2D/Gangplank_Q.dds",
                 "name": "Trial by Fire",
                 "variables": [
@@ -7088,7 +7088,7 @@
         },
         {
             "ability": {
-                "desc": "PASSIVE: +@PassiveArmor@ Armor<br> <br>ACTIVE: Rammus powers himself up and leaps to the largest group of nearby enemies, dealing <scaleArmor>@TotalDamage@</scaleArmor> magic damage (@PercentArmor*100@% Armor %i:scaleArmor% + @ModifiedBonusDamage@), knocking them up for @StunDuration@ seconds, and reducing their Attack Damage %i:scaleAD% by @ADreduction@% for @ADReductionDuration@ seconds.",
+                "desc": "Passive: +@PassiveArmor@ Armor<br> <br>Active: Rammus powers himself up and leaps to the largest group of nearby enemies, dealing <scaleArmor>@TotalDamage@</scaleArmor> magic damage (@PercentArmor*100@% Armor %i:scaleArmor% + @ModifiedBonusDamage@), knocking them up for @StunDuration@ seconds, and reducing their Attack Damage %i:scaleAD% by @ADreduction@% for @ADReductionDuration@ seconds.",
                 "icon": "ASSETS/Characters/Rammus/HUD/Icons2D/Armordillo_RecklessCharge.dds",
                 "name": "Sand Slam",
                 "variables": [
@@ -7300,7 +7300,7 @@
         },
         {
             "ability": {
-                "desc": "PASSIVE: Urgot's claw fires @AttacksPerSecond@ attacks per second, each dealing @DamagePerShot@ (<scaleAD>@ADModified@</scaleAD>+<scaleAS>@ASModified@</scaleAS>) physical damage.<br><br>ACTIVE: Urgot summons a gigantic wave behind his enemies that deals @MaxHPPercent*100@% of their maximum Health as magic damage. The wave knocks enemies forward 1 hex, <TFTKeyword>Stuns</TFTKeyword> them for @StunDuration@ seconds, and has a <scaleAP>@ModifiedTreasureChance@</scaleAP> chance to dredge up treasure (gold and loot).<br><br><tftitemrules><tftbold>Stun</tftbold>: cannot move, attack, or cast Abilities</tftitemrules>",
+                "desc": "Passive: Urgot's claw fires @AttacksPerSecond@ attacks per second, each dealing @DamagePerShot@ (<scaleAD>@ADModified@</scaleAD>+<scaleAS>@ASModified@</scaleAS>) physical damage.<br><br>Active: Urgot summons a gigantic wave behind his enemies that deals @MaxHPPercent*100@% of their maximum Health as magic damage. The wave knocks enemies forward 1 hex, <TFTKeyword>Stuns</TFTKeyword> them for @StunDuration@ seconds, and has a <scaleAP>@ModifiedTreasureChance@</scaleAP> chance to dredge up treasure (gold and loot).<br><br><tftitemrules><tftbold>Stun</tftbold>: cannot move, attack, or cast Abilities</tftitemrules>",
                 "icon": "ASSETS/Characters/Nami/HUD/Icons2D/NamiR.dds",
                 "name": "Undertow",
                 "variables": [
@@ -7509,7 +7509,7 @@
         },
         {
             "ability": {
-                "desc": "PASSIVE: Urgot focuses fire on the nearest enemy, raining blasts into them that deal physical damage.<br><br>ACTIVE: Urgot summons 2 gigantic waves from above and below that converge towards the center of the board and each deal @ModifiedDamage@ magic damage. The force of the wave knocks back enemies 1 hex and stuns them for @StunDuration@ seconds.",
+                "desc": "Passive: Urgot focuses fire on the nearest enemy, raining blasts into them that deal physical damage.<br><br>Active: Urgot summons 2 gigantic waves from above and below that converge towards the center of the board and each deal @ModifiedDamage@ magic damage. The force of the wave knocks back enemies 1 hex and stuns them for @StunDuration@ seconds.",
                 "icon": "ASSETS/Characters/Nami/HUD/Icons2D/NamiR.dds",
                 "name": "Undertow",
                 "variables": [
@@ -7644,7 +7644,7 @@
         },
         {
             "ability": {
-                "desc": "PASSIVE: Aurelion Sol's attacks @PercentBurn@% <TFTKeyword>Burn</TFTKeyword> his target and a random ally.<br><br>ACTIVE: Aurelion Sol calls down @NumMeteors@ meteors on random enemies. Meteors deal @ModifiedDamage@ magic damage, then @PercentBurn@% <TFTKeyword>Burn</TFTKeyword> and  @HealingReduction@% <TFTKeyword>Wound</TFTKeyword> enemies for @Duration@ seconds. <br><br><tftitemrules><tftbold>Burn</tftbold>: deals some of the target's maximum Health as true damage<br><tftbold>Wound</tftbold>: reduces healing received</tftitemrules>",
+                "desc": "Passive: Aurelion Sol's attacks @PercentBurn@% <TFTKeyword>Burn</TFTKeyword> his target and a random ally.<br><br>Active: Aurelion Sol calls down @NumMeteors@ meteors on random enemies. Meteors deal @ModifiedDamage@ magic damage, then @PercentBurn@% <TFTKeyword>Burn</TFTKeyword> and  @HealingReduction@% <TFTKeyword>Wound</TFTKeyword> enemies for @Duration@ seconds. <br><br><tftitemrules><tftbold>Burn</tftbold>: deals some of the target's maximum Health as true damage<br><tftbold>Wound</tftbold>: reduces healing received</tftitemrules>",
                 "icon": "ASSETS/Characters/Brand/HUD/Icons2D/BrandPillarOfFlame.dds",
                 "name": "Meteor Shower",
                 "variables": [
@@ -15855,13 +15855,13 @@
                 "Set8_Pulsefire"
             ],
             "composition": [],
-            "desc": "Your team counts as having 1 additional InfiniTeam. Gain a Guinsoo's Rageblade and a Sivir.",
+            "desc": "Your team counts as having 1 additional Infiniteam. Gain a Guinsoo's Rageblade and a Sivir.",
             "effects": {},
             "from": null,
             "icon": "ASSETS/Maps/TFT/Icons/Augments/Hexcore/InfiniTeam-Crown-III.TFT_Set8_Stage2.dds",
             "id": null,
             "incompatibleTraits": [],
-            "name": "InfiniTeam Soul",
+            "name": "Infiniteam Soul",
             "unique": false,
             "type": "regular"
         },
@@ -15872,7 +15872,7 @@
                 "Set8_GunMage"
             ],
             "composition": [],
-            "desc": "Gain a Kai'Sa. At the start of combat, Kai'Sa and her @NumAllies@ closest allied champions gain @CritChance*100@% Critical Strike Chance and their spells can critically strike.",
+            "desc": "Gain a Kai'Sa. At the start of combat, Kai'Sa and her @NumAllies@ closest allied champions gain @CritChance*100@ Critical Strike Chance and their spells can critically strike.",
             "effects": {
                 "CritChance": 0.4000000059604645,
                 "{79a51d61}": 2
@@ -15881,7 +15881,7 @@
             "icon": "ASSETS/Characters/TFT8_Kaisa/HUD/TFT8_Kaisa.TFT_Set8.dds",
             "id": null,
             "incompatibleTraits": [],
-            "name": "Reconnaissance Team",
+            "name": "Reconnasiance Team",
             "unique": false,
             "variable_matches": [
                 {
@@ -15994,7 +15994,7 @@
             "desc": "Gain a Malphite. He has Ability Power equal to @ArmorPercent*100@% of his Armor, and his Ability's Armor duration is increased by @Duration@ seconds.",
             "effects": {
                 "Duration": 4,
-                "{abfc283d}": 1.2999999523162842
+                "{abfc283d}": 1.600000023841858
             },
             "from": null,
             "icon": "ASSETS/Characters/TFT8_Malphite/HUD/TFT8_Malphite.TFT_Set8.dds",
@@ -16016,7 +16016,7 @@
                     "multiplier": "100",
                     "full_match": "@ArmorPercent*100@",
                     "hash": "abfc283d",
-                    "value": 1.3
+                    "value": 1.6
                 }
             ],
             "type": "hero"
@@ -16481,7 +16481,7 @@
                 "Set8_Pulsefire"
             ],
             "composition": [],
-            "desc": "Gain an InfiniTeam Emblem and a Sivir.",
+            "desc": "Gain an Infiniteam Emblem and a Sivir.",
             "effects": {},
             "from": null,
             "icon": "ASSETS/Maps/TFT/Icons/Augments/Hexcore/InfiniTeam-Crest-II.TFT_Set8_Stage2.dds",
@@ -16757,8 +16757,8 @@
             "composition": [],
             "desc": "Gain a Shen. His Ability lasts an additional @ExtraDuration@ seconds and his tethered ally deals @BonusDamage*100@% more damage while protected.",
             "effects": {
-                "BonusDamage": 0.33000001311302185,
-                "{9ee66d29}": 6
+                "BonusDamage": 0.30000001192092896,
+                "{9ee66d29}": 5
             },
             "from": null,
             "icon": "ASSETS/Characters/TFT8_Shen/HUD/TFT8_Shen_Square.TFT_Set8_Stage2.dds",
@@ -16772,7 +16772,7 @@
                     "type": "variable",
                     "full_match": "@ExtraDuration@",
                     "hash": "9ee66d29",
-                    "value": 6
+                    "value": 5
                 },
                 {
                     "match": "BonusDamage",
@@ -16780,7 +16780,7 @@
                     "multiplier": "100",
                     "full_match": "@BonusDamage*100@",
                     "hash": "58022635",
-                    "value": 0.33
+                    "value": 0.3
                 }
             ],
             "type": "hero"
@@ -17094,7 +17094,7 @@
                 "Set8_Deadeye"
             ],
             "composition": [],
-            "desc": "Gain a Sivir. After player combats, gain @Gold@ gold for every @ADThreshold@ Attack Damage your strongest Sivir has.",
+            "desc": "Gain a Sivir. At the start of player combat rounds, gain @Gold@ gold for every @ADThreshold@ Attack Damage your strongest Sivir has.",
             "effects": {
                 "Gold": 1,
                 "{94b55f9b}": 42
@@ -17492,7 +17492,7 @@
             "effects": {
                 "AS": 4,
                 "{27c79872}": 100,
-                "{2acb3e58}": 40
+                "{2acb3e58}": 65
             },
             "from": null,
             "icon": "ASSETS/Characters/TFT8_Renekton/HUD/TFT8_Renekton.TFT_Set8.dds",
@@ -17506,7 +17506,7 @@
                     "type": "variable",
                     "full_match": "@BaseAS@",
                     "hash": "2acb3e58",
-                    "value": 40
+                    "value": 65
                 },
                 {
                     "match": "AS",
@@ -17889,7 +17889,7 @@
             "composition": [],
             "desc": " Gain a Kai'Sa. Every @Attacks@ attacks, she fires a bonus attack at a nearby enemy.",
             "effects": {
-                "Attacks": 2
+                "Attacks": 3
             },
             "from": null,
             "icon": "ASSETS/Characters/TFT8_Kaisa/HUD/TFT8_Kaisa.TFT_Set8.dds",
@@ -17903,7 +17903,7 @@
                     "type": "variable",
                     "full_match": "@Attacks@",
                     "hash": "18b1878a",
-                    "value": 2
+                    "value": 3
                 }
             ],
             "type": "hero"
@@ -19233,7 +19233,7 @@
                 "Set8_StarGuardian"
             ],
             "composition": [],
-            "desc": "Gain a Syndra. When you field her, your team gains @BonusAP@ Ability Power for each occupied slot on your bench.",
+            "desc": "Gain a Syndra. When you field her, your team gains @BonusAP@ Ability Power per champion on your bench.",
             "effects": {
                 "{d49caf5d}": 5
             },
@@ -19334,7 +19334,7 @@
                 "Set8_Deadeye"
             ],
             "composition": [],
-            "desc": "Gain a Sivir. After player combats, gain @Gold@ gold for every @ADThreshold@ Attack Damage your strongest Sivir has.",
+            "desc": "Gain a Sivir. At the start of player combat rounds, gain @Gold@ gold for every @ADThreshold@ Attack Damage your strongest Sivir has.",
             "effects": {
                 "Gold": 2,
                 "{94b55f9b}": 42
@@ -19430,14 +19430,25 @@
                 "Set8_Hacker"
             ],
             "composition": [],
-            "desc": "Your team counts as having 1 additional Hacker. Gain a Pyke.",
-            "effects": {},
+            "desc": "Your team counts as having 1 additional Hacker. Gain @Gold@ gold.",
+            "effects": {
+                "Gold": 2
+            },
             "from": null,
             "icon": "ASSETS/Maps/TFT/Icons/Augments/Hexcore/Hacker-Heart.TFT_Set8.dds",
             "id": null,
             "incompatibleTraits": [],
             "name": "Hacker Heart",
             "unique": false,
+            "variable_matches": [
+                {
+                    "match": "Gold",
+                    "type": "variable",
+                    "full_match": "@Gold@",
+                    "hash": "ec66d793",
+                    "value": 2
+                }
+            ],
             "type": "regular"
         },
         {
@@ -20471,13 +20482,13 @@
                 "Set8_Pulsefire"
             ],
             "composition": [],
-            "desc": "Gain an InfiniTeam Emblem, a Guinsoo's Rageblade, and a Sivir.",
+            "desc": "Gain an Infiniteam Emblem, a Guinsoo's Rageblade, and a Sivir.",
             "effects": {},
             "from": null,
             "icon": "ASSETS/Maps/TFT/Icons/Augments/Hexcore/InfiniTeam-Crown-III.TFT_Set8_Stage2.dds",
             "id": null,
             "incompatibleTraits": [],
-            "name": "InfiniTeam Crown",
+            "name": "Infiniteam Crown",
             "unique": false,
             "type": "regular"
         },
@@ -20979,7 +20990,7 @@
             "composition": [],
             "desc": "Gain a Vayne. Her Ability also fires at @NumTargets@ other nearby enemies, dealing @DamagePercent@% damage.",
             "effects": {
-                "DamagePercent": 50,
+                "DamagePercent": 60,
                 "{f0f10b3f}": 2
             },
             "from": null,
@@ -21001,7 +21012,7 @@
                     "type": "variable",
                     "full_match": "@DamagePercent@",
                     "hash": "994018d1",
-                    "value": 50
+                    "value": 60
                 }
             ],
             "type": "hero"
@@ -21948,7 +21959,9 @@
             ],
             "composition": [],
             "desc": "Gain a Hacker Emblem and a Pyke.",
-            "effects": {},
+            "effects": {
+                "Gold": 2
+            },
             "from": null,
             "icon": "ASSETS/Maps/TFT/Icons/Augments/Hexcore/Hacker-Crest.TFT_Set8.dds",
             "id": null,
@@ -22230,13 +22243,13 @@
                 "Set8_Pulsefire"
             ],
             "composition": [],
-            "desc": "Your team counts as having 1 additional InfiniTeam. Gain a Sivir.",
+            "desc": "Your team counts as having 1 additional Infiniteam. Gain a Sivir.",
             "effects": {},
             "from": null,
             "icon": "ASSETS/Maps/TFT/Icons/Augments/Hexcore/InfiniTeam-Heart-I.TFT_Set8_Stage2.dds",
             "id": null,
             "incompatibleTraits": [],
-            "name": "InfiniTeam Heart",
+            "name": "Infiniteam Heart",
             "unique": false,
             "type": "regular"
         },
@@ -27150,7 +27163,7 @@
                     "style": 4,
                     "variables": {
                         "ICD": 0.4000000059604645,
-                        "MagicDamage": 60,
+                        "MagicDamage": 65,
                         "{1b0b983d}": 1,
                         "{2ba800f8}": 1,
                         "{59d091e2}": 1,
@@ -27176,7 +27189,7 @@
                             "type": "variable",
                             "full_match": "@MagicDamage@",
                             "hash": "61a7ccad",
-                            "value": 60
+                            "value": 65
                         },
                         {
                             "match": "MinUnits",
@@ -27190,7 +27203,7 @@
                             "type": "variable",
                             "full_match": "@MagicDamage@",
                             "hash": "61a7ccad",
-                            "value": 60
+                            "value": 65
                         },
                         {
                             "match": "MinUnits",
@@ -27204,7 +27217,7 @@
                             "type": "variable",
                             "full_match": "@MagicDamage@",
                             "hash": "61a7ccad",
-                            "value": 60
+                            "value": 65
                         },
                         {
                             "match": "MinUnits",
@@ -27218,7 +27231,7 @@
                             "type": "variable",
                             "full_match": "@MagicDamage@",
                             "hash": "61a7ccad",
-                            "value": 60
+                            "value": 65
                         }
                     ]
                 },
@@ -27228,7 +27241,7 @@
                     "style": 5,
                     "variables": {
                         "ICD": 0.4000000059604645,
-                        "MagicDamage": 90,
+                        "MagicDamage": 99,
                         "{1b0b983d}": 1,
                         "{2ba800f8}": 1,
                         "{59d091e2}": 1,
@@ -27254,7 +27267,7 @@
                             "type": "variable",
                             "full_match": "@MagicDamage@",
                             "hash": "61a7ccad",
-                            "value": 90
+                            "value": 99
                         },
                         {
                             "match": "MinUnits",
@@ -27268,7 +27281,7 @@
                             "type": "variable",
                             "full_match": "@MagicDamage@",
                             "hash": "61a7ccad",
-                            "value": 90
+                            "value": 99
                         },
                         {
                             "match": "MinUnits",
@@ -27282,7 +27295,7 @@
                             "type": "variable",
                             "full_match": "@MagicDamage@",
                             "hash": "61a7ccad",
-                            "value": 90
+                            "value": 99
                         },
                         {
                             "match": "MinUnits",
@@ -27296,7 +27309,7 @@
                             "type": "variable",
                             "full_match": "@MagicDamage@",
                             "hash": "61a7ccad",
-                            "value": 90
+                            "value": 99
                         }
                     ]
                 }
@@ -27773,7 +27786,7 @@
                     "minUnits": 3,
                     "style": 3,
                     "variables": {
-                        "{c9e8f369}": 1.2000000476837158,
+                        "{c9e8f369}": 1.149999976158142,
                         "{f71c4cde}": 2
                     },
                     "variable_matches": [
@@ -27804,7 +27817,7 @@
                             "multiplier": "100",
                             "full_match": "@DamageModifier*100@",
                             "hash": "c9e8f369",
-                            "value": 1.2
+                            "value": 1.15
                         },
                         {
                             "match": "DamageModifier",
@@ -27812,7 +27825,7 @@
                             "multiplier": "100",
                             "full_match": "@DamageModifier*100@",
                             "hash": "c9e8f369",
-                            "value": 1.2
+                            "value": 1.15
                         },
                         {
                             "match": "DamageModifier",
@@ -27820,7 +27833,7 @@
                             "multiplier": "100",
                             "full_match": "@DamageModifier*100@",
                             "hash": "c9e8f369",
-                            "value": 1.2
+                            "value": 1.15
                         }
                     ]
                 },
@@ -27829,7 +27842,7 @@
                     "minUnits": 4,
                     "style": 4,
                     "variables": {
-                        "{c9e8f369}": 1.850000023841858,
+                        "{c9e8f369}": 1.75,
                         "{f71c4cde}": 2
                     },
                     "variable_matches": [
@@ -27860,7 +27873,7 @@
                             "multiplier": "100",
                             "full_match": "@DamageModifier*100@",
                             "hash": "c9e8f369",
-                            "value": 1.85
+                            "value": 1.75
                         },
                         {
                             "match": "DamageModifier",
@@ -27868,7 +27881,7 @@
                             "multiplier": "100",
                             "full_match": "@DamageModifier*100@",
                             "hash": "c9e8f369",
-                            "value": 1.85
+                            "value": 1.75
                         },
                         {
                             "match": "DamageModifier",
@@ -27876,7 +27889,7 @@
                             "multiplier": "100",
                             "full_match": "@DamageModifier*100@",
                             "hash": "c9e8f369",
-                            "value": 1.85
+                            "value": 1.75
                         }
                     ]
                 }
@@ -28259,7 +28272,7 @@
                     "style": 3,
                     "variables": {
                         "MaxStacks": 12,
-                        "{43afcd64}": 8,
+                        "{43afcd64}": 9,
                         "{b53fb400}": "null"
                     },
                     "variable_matches": [
@@ -28282,7 +28295,7 @@
                             "type": "variable",
                             "full_match": "@ASPerStack@",
                             "hash": "43afcd64",
-                            "value": 8
+                            "value": 9
                         },
                         {
                             "match": "MinUnits",
@@ -28296,7 +28309,7 @@
                             "type": "variable",
                             "full_match": "@ASPerStack@",
                             "hash": "43afcd64",
-                            "value": 8
+                            "value": 9
                         },
                         {
                             "match": "MinUnits",
@@ -28310,7 +28323,7 @@
                             "type": "variable",
                             "full_match": "@ASPerStack@",
                             "hash": "43afcd64",
-                            "value": 8
+                            "value": 9
                         },
                         {
                             "match": "DRPercent",
@@ -28331,7 +28344,7 @@
                             "type": "variable",
                             "full_match": "@ASPerStack@",
                             "hash": "43afcd64",
-                            "value": 8
+                            "value": 9
                         },
                         {
                             "match": "DRPercent",
@@ -28348,7 +28361,7 @@
                     "style": 4,
                     "variables": {
                         "MaxStacks": 12,
-                        "{43afcd64}": 10,
+                        "{43afcd64}": 13,
                         "{b53fb400}": 10
                     },
                     "variable_matches": [
@@ -28371,7 +28384,7 @@
                             "type": "variable",
                             "full_match": "@ASPerStack@",
                             "hash": "43afcd64",
-                            "value": 10
+                            "value": 13
                         },
                         {
                             "match": "MinUnits",
@@ -28385,7 +28398,7 @@
                             "type": "variable",
                             "full_match": "@ASPerStack@",
                             "hash": "43afcd64",
-                            "value": 10
+                            "value": 13
                         },
                         {
                             "match": "MinUnits",
@@ -28399,7 +28412,7 @@
                             "type": "variable",
                             "full_match": "@ASPerStack@",
                             "hash": "43afcd64",
-                            "value": 10
+                            "value": 13
                         },
                         {
                             "match": "DRPercent",
@@ -28420,7 +28433,7 @@
                             "type": "variable",
                             "full_match": "@ASPerStack@",
                             "hash": "43afcd64",
-                            "value": 10
+                            "value": 13
                         },
                         {
                             "match": "DRPercent",
@@ -28437,7 +28450,7 @@
                     "style": 5,
                     "variables": {
                         "MaxStacks": 12,
-                        "{43afcd64}": 16,
+                        "{43afcd64}": 20,
                         "{b53fb400}": 20
                     },
                     "variable_matches": [
@@ -28460,7 +28473,7 @@
                             "type": "variable",
                             "full_match": "@ASPerStack@",
                             "hash": "43afcd64",
-                            "value": 16
+                            "value": 20
                         },
                         {
                             "match": "MinUnits",
@@ -28474,7 +28487,7 @@
                             "type": "variable",
                             "full_match": "@ASPerStack@",
                             "hash": "43afcd64",
-                            "value": 16
+                            "value": 20
                         },
                         {
                             "match": "MinUnits",
@@ -28488,7 +28501,7 @@
                             "type": "variable",
                             "full_match": "@ASPerStack@",
                             "hash": "43afcd64",
-                            "value": 16
+                            "value": 20
                         },
                         {
                             "match": "DRPercent",
@@ -28509,7 +28522,7 @@
                             "type": "variable",
                             "full_match": "@ASPerStack@",
                             "hash": "43afcd64",
-                            "value": 16
+                            "value": 20
                         },
                         {
                             "match": "DRPercent",

@@ -6415,46 +6415,6 @@
             ]
         },
         {
-            "apiName": "TFT13_GoopBuff_VoraciousAppetite_Consumable",
-            "associatedTraits": [],
-            "composition": [],
-            "desc": "Consume @HealthToFeed@ player health for Health&nbsp;%i:scaleHealth% and Damage&nbsp;Amp&nbsp;%i:scaleDA%.",
-            "effects": {
-                "{0f7b1cb2}": 3
-            },
-            "from": null,
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/TFT13/TFT13_Ravenous_LightSnack.TFT_Set13.tex",
-            "id": null,
-            "incompatibleTraits": [],
-            "name": "A Chromatic Snack",
-            "unique": false,
-            "en_name": "A Chromatic Snack",
-            "tags": [],
-            "variable_matches": [
-                {
-                    "match": "HealthToFeed",
-                    "type": "variable",
-                    "full_match": "@HealthToFeed@",
-                    "hash": "0f7b1cb2",
-                    "value": 3
-                }
-            ]
-        },
-        {
-            "apiName": "TFT13_Item_SquadStolenItem",
-            "associatedTraits": [],
-            "composition": [],
-            "desc": "This dangerous item has been confiscated by the Enforcers. You can have it back after serving your time.",
-            "effects": {},
-            "from": null,
-            "icon": "ASSETS/Maps/TFT/Icons/Items/Hexcore/TFT13_Item_SquadStolenItem.TFT_Set13.tex",
-            "id": null,
-            "incompatibleTraits": [],
-            "name": "Confiscated!",
-            "unique": false,
-            "en_name": "Confiscated!"
-        },
-        {
             "apiName": "TFT_Item_UnstableConcoction",
             "associatedTraits": [],
             "composition": [
@@ -7190,6 +7150,20 @@
             "name": "Zz'Rot Portal",
             "unique": false,
             "en_name": "Zz'Rot Portal"
+        },
+        {
+            "apiName": "TFT13_Item_SquadStolenItem",
+            "associatedTraits": [],
+            "composition": [],
+            "desc": "This dangerous item has been confiscated by the Enforcers. You can have it back after serving your time.",
+            "effects": {},
+            "from": null,
+            "icon": "ASSETS/Maps/TFT/Icons/Items/Hexcore/TFT13_Item_SquadStolenItem.TFT_Set13.tex",
+            "id": null,
+            "incompatibleTraits": [],
+            "name": "Confiscated!",
+            "unique": false,
+            "en_name": "Confiscated!"
         },
         {
             "apiName": "TFT_Item_EternalFlame",
@@ -15273,7 +15247,7 @@
                         "value": [
                             175,
                             175,
-                            75
+                            175
                         ]
                     },
                     {
@@ -15311,9 +15285,9 @@
                     {
                         "name": "ShieldDuration",
                         "value": [
-                            3,
-                            3,
-                            3
+                            5,
+                            5,
+                            5
                         ]
                     },
                     {
@@ -15327,9 +15301,9 @@
                     {
                         "name": "StunDuration",
                         "value": [
-                            1,
-                            1,
-                            1
+                            1.5,
+                            1.5,
+                            1.5
                         ]
                     },
                     {
@@ -27898,8 +27872,8 @@
                     "style": 3,
                     "variables": {
                         "ConversionDamagePct": 0.25,
-                        "MagicDamage": 400,
-                        "Resists": 60,
+                        "MagicDamage": 450,
+                        "Resists": 70,
                         "TriggerNumCrystals": 20,
                         "{a142f31c}": 1
                     },
@@ -27923,14 +27897,14 @@
                             "type": "variable",
                             "full_match": "@MagicDamage@",
                             "hash": "61a7ccad",
-                            "value": 400
+                            "value": 450
                         },
                         {
                             "match": "Resists",
                             "type": "variable",
                             "full_match": "@Resists@",
                             "hash": "a6f37cec",
-                            "value": 60
+                            "value": 70
                         },
                         {
                             "match": "ConversionDamagePct",
@@ -27948,8 +27922,8 @@
                     "style": 5,
                     "variables": {
                         "ConversionDamagePct": 0.25,
-                        "MagicDamage": 1100,
-                        "Resists": 140,
+                        "MagicDamage": 1200,
+                        "Resists": 150,
                         "TriggerNumCrystals": 20,
                         "{a142f31c}": 1
                     },
@@ -27973,14 +27947,14 @@
                             "type": "variable",
                             "full_match": "@MagicDamage@",
                             "hash": "61a7ccad",
-                            "value": 1100
+                            "value": 1200
                         },
                         {
                             "match": "Resists",
                             "type": "variable",
                             "full_match": "@Resists@",
                             "hash": "a6f37cec",
-                            "value": 140
+                            "value": 150
                         },
                         {
                             "match": "ConversionDamagePct",
@@ -34064,71 +34038,12 @@
                     "multiplier": "100",
                     "full_match": "@DamageAmp*100@",
                     "hash": "4c67d4fe",
-                    "value": 0.05
+                    "value": 0.06
                 }
             ],
             "effects": {
                 "PerHealthAmount": 10,
-                "DamageAmp": 0.05000000074505806
-            }
-        },
-        "TFT13_GoopBuff_VoraciousAppetite": {
-            "apiName": "TFT13_GoopBuff_VoraciousAppetite",
-            "TitleTra": "Voracious Appetite",
-            "SubtitleTra": "(Damage Amp)",
-            "DescriptionTra": "This champion gains @BaseHealth@ Health and @DamageAmp*100@% Damage Amp. Each round gain a consumable that grants @HealthPerSacrifice@ %i:scaleHealth% and @DamageAmpPerSacrifice*100@% %i:scaleDA% in exchange for @PlayerHealthSacrifice@ player health. <TFTTrackerLabel>(Total: @TFTUnitProperty.:TFT13_GoopBuff_VoraciousAppetite_Health@ %i:scaleHealth% @TFTUnitProperty.:TFT13_GoopBuff_VoraciousAppetite_DA*100@% %i:scaleDA%)</TFTTrackerLabel>",
-            "Tags": [
-                "{03c95748}",
-                "{7013d630}",
-                "{897b5f7a}",
-                "{aa95b730}",
-                "Melee"
-            ],
-            "variable_matches": [
-                {
-                    "match": "BaseHealth",
-                    "type": "variable",
-                    "full_match": "@BaseHealth@",
-                    "hash": "b9eefbce",
-                    "value": 300
-                },
-                {
-                    "match": "HealthPerSacrifice",
-                    "type": "variable",
-                    "full_match": "@HealthPerSacrifice@",
-                    "hash": "535adedf",
-                    "value": 120
-                },
-                {
-                    "match": "PlayerHealthSacrifice",
-                    "type": "variable",
-                    "full_match": "@PlayerHealthSacrifice@",
-                    "hash": "2cc83557",
-                    "value": 3
-                },
-                {
-                    "match": "DamageAmp",
-                    "type": "multiplier",
-                    "multiplier": "100",
-                    "full_match": "@DamageAmp*100@",
-                    "hash": "4c67d4fe",
-                    "value": 0.15
-                },
-                {
-                    "match": "DamageAmpPerSacrifice",
-                    "type": "multiplier",
-                    "multiplier": "100",
-                    "full_match": "@DamageAmpPerSacrifice*100@",
-                    "hash": "45a0d41e",
-                    "value": 0.015
-                }
-            ],
-            "effects": {
-                "BaseHealth": 300,
-                "DamageAmp": 0.15000000596046448,
-                "{2cc83557}": 3,
-                "{535adedf}": 120,
-                "{45a0d41e}": 0.014999999664723873
+                "DamageAmp": 0.05999999865889549
             }
         },
         "TFT13_GoopBuff_TitanicStrikes": {
@@ -34246,54 +34161,6 @@
                 "BonusArmor": 40,
                 "BonusMR": 40,
                 "HealthThreshold": 50
-            }
-        },
-        "TFT13_GoopBuff_InfectiousAnomaly": {
-            "apiName": "TFT13_GoopBuff_InfectiousAnomaly",
-            "TitleTra": "Infectious Anomaly",
-            "SubtitleTra": "(Power)",
-            "DescriptionTra": "Gain @AmountAD*100@%&nbsp;Attack Damage and @AmountAP@&nbsp;Ability Power. At the start of each round, grant a random ally this Anomaly. If they already have it, instead grant them @BonusAD*100@%&nbsp;%i:scaleAD% and @BonusAP@&nbsp;%i:scaleAP%. <TFTTrackerLabel>(Total: @TFTUnitProperty.:TFT13_GoopBuff_InfectiousAnomaly_AD*100@%&nbsp;%i:scaleAD% @TFTUnitProperty.:TFT13_GoopBuff_InfectiousAnomaly_AP@&nbsp;%i:scaleAP%)</TFTTrackerLabel>",
-            "Tags": [
-                "{0c285a89}",
-                "{03c95748}"
-            ],
-            "variable_matches": [
-                {
-                    "match": "AmountAP",
-                    "type": "variable",
-                    "full_match": "@AmountAP@",
-                    "hash": "666fee18",
-                    "value": 15
-                },
-                {
-                    "match": "BonusAP",
-                    "type": "variable",
-                    "full_match": "@BonusAP@",
-                    "hash": "d49caf5d",
-                    "value": 3
-                },
-                {
-                    "match": "AmountAD",
-                    "type": "multiplier",
-                    "multiplier": "100",
-                    "full_match": "@AmountAD*100@",
-                    "hash": "7a700d94",
-                    "value": 0.15
-                },
-                {
-                    "match": "BonusAD",
-                    "type": "multiplier",
-                    "multiplier": "100",
-                    "full_match": "@BonusAD*100@",
-                    "hash": "e09cc241",
-                    "value": 0.03
-                }
-            ],
-            "effects": {
-                "{7a700d94}": 0.15000000596046448,
-                "{666fee18}": 15,
-                "BonusAD": 0.029999999329447746,
-                "BonusAP": 3
             }
         },
         "TFT13_GoopBuff_HardenedMind": {
@@ -35375,44 +35242,6 @@
             "effects": {
                 "BonusTrueDamage": 12,
                 "BaseTrueDamage": 30
-            }
-        },
-        "TFT13_GoopBuff_BrutalClaws": {
-            "apiName": "TFT13_GoopBuff_BrutalClaws",
-            "TitleTra": "Brutal Claws",
-            "SubtitleTra": "(Power)",
-            "DescriptionTra": "This champion gains @CritChance@% Critical Strike chance and Critical Strikes bleed for @BleedPercent@% of their damage over @BleedDuration@ seconds.",
-            "Tags": [
-                "{7013d630}",
-                "{03c95748}"
-            ],
-            "variable_matches": [
-                {
-                    "match": "CritChance",
-                    "type": "variable",
-                    "full_match": "@CritChance@",
-                    "hash": "3abb8549",
-                    "value": 40
-                },
-                {
-                    "match": "BleedPercent",
-                    "type": "variable",
-                    "full_match": "@BleedPercent@",
-                    "hash": "3b50bee8",
-                    "value": 40
-                },
-                {
-                    "match": "BleedDuration",
-                    "type": "variable",
-                    "full_match": "@BleedDuration@",
-                    "hash": "0bc5955f",
-                    "value": 5
-                }
-            ],
-            "effects": {
-                "CritChance": 40,
-                "{3b50bee8}": 40,
-                "BleedDuration": 5
             }
         },
         "TFT13_GoopBuff_AvariceIncarnate": {
