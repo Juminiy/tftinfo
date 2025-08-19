@@ -194,3 +194,209 @@ set_itemstype={
     'supp': 'Support',
     'spec': 'Special',
 }
+
+set_rewards_config={
+    'set15': {
+        'stacklist_keys': ['Trait', 'CrystalGambit', 'GemPower'], 
+        'stacked_key': 'GemPower',
+        'rewards_key': 'Rewards',
+        'rewards_odds_key': 'Odds',
+        'rewards_list_key': 'List'
+    },
+    'set14': {
+        'stacklist_keys': ['Trait', 'Cypher'], 
+        'stacked_key': 'Intel',
+        'rewards_key': 'Rewards',
+        'rewards_odds_key': 'Odds',
+        'rewards_list_key': 'List'
+    },
+    'set13': {
+        'stacklist_keys': ['Trait', 'Chem-Baron', 'StackedShimmer'], 
+        'stacked_key': 'Shimmer',
+        'rewards_key': 'Rewards',
+        'rewards_odds_key': 'Rates',
+        'rewards_list_key': 'List'
+    },
+    'set12': {
+        'stacklist_keys': ['Augment', 'Fortune Favors the Bold'], 
+        'stacked_key': 'Loss',
+        'rewards_key': 'Rewards',
+        'rewards_odds_key': 'Odds',
+        'rewards_list_key': 'List'
+    },
+    'set11': {
+        'stacklist_keys': ['Trait', 'Fortune'], 
+        'stacked_key': 'Luck',
+        'rewards_key': 'Rewards',
+        'rewards_odds_key': 'Rates',
+        'rewards_list_key': 'List'
+    },
+    'set10': {
+        'stacklist_keys': ['Trait', 'Heartsteel'], 
+        'stacked_key': 'Hearts',
+        'rewards_key': 'Rewards',
+        'rewards_odds_key': 'Odds',
+        'rewards_list_key': 'List'
+    },
+    'set9': {
+        'stacklist_keys': ['Trait', 'Piltover', 'Loss'], 
+        'stacked_key': 'Loss',
+        'rewards_key': 'Rewards',
+        'rewards_odds_key': 'Odds',
+        'rewards_list_key': 'List'
+    },
+    'set8': {
+        'stacklist_keys': ['Trait', 'Underground'], 
+        'stacked_key': 'Heist',
+        'rewards_key': 'Rewards',
+        'rewards_odds_key': 'Percentage',
+        'rewards_list_key': 'List'
+    },
+}
+
+set_item_iconkey_fix={
+    'set15': {
+        'Crown': {
+            'TacticiansCrown': 'ForceofNature',
+        },
+        'Artifacts': {
+            'Manazane': 'OrnnItemMuramana',
+            'Flickerblades': 'Flickerblade',
+        },
+        'Emblems': {
+            'ProtectorEmblem': 'ProtectorEmblemItem',
+            'SniperEmblem': 'SniperEmblemItem',
+        },
+        'Craftable': {
+            'BlueBuff': 'BlueSentinel',
+            'JeweledGauntlet': 'ArcaneGauntlet',
+            'StrikersFail': 'Guardbreaker',
+        },
+        'Radiant': {
+            'RadiantBlueBuff': 'RadientBlueBuff',
+            'RadiantThiefsGloves': 'RadientThiefsGloves',
+        }
+    },
+    'set14': {
+        'Crown': {
+            'TacticiansCrown': 'ForceofNature',
+        },
+        'Artifacts': {
+            'FishBones': 'Fishbones',
+            'DeathsDefiance': 'OrnnItemDeathsDance',
+            'InfinityForce': 'OrnnItemTrinityForce',
+            'LightshieldCrests': 'LightshieldCrest',
+            'DeathfireGrasps': 'DeathfireGrasp',
+        },
+        'Emblems': {},
+        'Craftable': {
+            'BloodThirster': 'Bloodthirster',
+            'Deathblades': 'LordsEdge',
+            'ProtectorsVow': 'Fimbulwinter',
+        },
+        'Radiant': {
+            'RadiantThiefsGloves': 'RadientThiefsGloves',
+            'RadiantInfinityEdge': 'RadientInfinityEdge',
+            'RadiantSpearofShojin': 'RadientSpearofShojin',
+            'RadiantGargoyleStoneplate': 'RadientGargoyleStoneplate',
+            'RadiantSteadFastHeart': 'RadientSteadfastHeart',
+            'RadiantCrownguard': 'CrownguardRadiant',
+            'RadiantQuickSilver': 'RadientQuicksilver',
+            'RadiantEdgeofNight': 'RadientEdgeofNight',
+            'RadiantHandofJustice': 'RadientHandofJustice',
+            'RadiantWarmogsArmor': 'RadientWarmogsArmor',
+            'RadiantIonicSpark': 'RadientIonicSpark'
+        },
+        'Support': {
+            'Lockets': 'LocketoftheIronSolari',
+            'Zekes': 'ZekesHerald',
+            'RanduinsOmens': 'OrnnItemRanduinsOmen',
+            'SummonStampede': 'ZzRotPortal',
+            'ShroudofStillness': 'Shroud',
+        }
+    },
+    'set12': {
+        'Crown': {
+            'TacticiansCrown': 'ForceofNature',
+        },
+        'Artifacts': {
+        },
+        'Emblems': {},
+        'Craftable': {
+        },
+        'Radiant': {
+            'RadiantThiefsGloves': 'RadientThiefsGloves',
+        },
+        'Support': {
+        }
+    },
+    'set11': {
+        'Crown': {
+            'TacticiansCrown': 'ForceofNature',
+        },
+        'Artifacts': {
+        },
+        'Emblems': {},
+        'Craftable': {
+            'BlueBuff': 'BlueSentinel',
+            'RedBuff': 'RedBuffItem',
+            'Deathblade': 'LordsEdge',
+        },
+        'Radiant': {
+            'RadiantThiefsGloves': 'RadientThiefsGloves',
+            'RadiantWarmogsArmor': 'RadientWarmogsArmor',
+            'RadiantBloodthirster': 'RadientBloodthirster',
+            'RadiantInfinityEdge': 'RadientInfinityEdge'
+        },
+        'Support': {
+        }
+    },
+    'set10': {
+        'Crown': {
+            'TacticiansCrown': 'ForceofNature',
+        },
+        'Artifacts': {
+        },
+        'Emblems': {
+        },
+        'Craftable': {
+        },
+        'Radiant': {
+            'RadiantThiefsGloves': 'RadientThiefsGloves'
+        },
+        'Support': {
+            'ShroudofStillness': 'Shroud'
+        }
+    },
+    'set9': {
+        'Crown': {
+            'TacticiansCrown': 'ForceofNature',
+        },
+        'Artifacts': {
+        },
+        'Emblems': {
+        },
+        'Craftable': {
+        },
+        'Radiant': {
+            'RadiantThiefsGloves': 'RadientThiefsGloves'
+        },
+        'Support': {
+        }
+    },
+    'set8': {
+        'Crown': {
+            'TacticiansCrown': 'ForceofNature',
+        },
+        'Artifacts': {
+        },
+        'Emblems': {
+        },
+        'Craftable': {
+        },
+        'Radiant': {
+        },
+        'Support': {
+        }
+    }
+}

@@ -1,11 +1,13 @@
 from meta_data import settraits, setchampions
-from meta_data import stat_icons
+from meta_data import stat_icons, set_rewards_config
+from meta_data import set_item_iconkey_fix
 
 from json import dumps,loads
 
-from typing import Any
+from typing import Any,Literal
 
 from meta_func import Grid2d
+import os
 
 def parse_expr_desc_vars(desc: str, vars: dict) -> str:
     def find_all_ch(raws: str, subs: str) -> list[int]:
@@ -217,69 +219,16 @@ def trait_compare(setof0: str, trtkey0: str, setof1: str, trtkey1: str):
 # Rewards
 # Parse TO Markdown (text version and icon version)
 def parse_rewards():
-    for setof, setcfg in {
-        'set15': {
-            'stacklist_keys': ['Trait', 'CrystalGambit', 'GemPower'], 
-            'stacked_key': 'GemPower',
-            'rewards_key': 'Rewards',
-            'rewards_odds_key': 'Odds',
-            'rewards_list_key': 'List'
-        },
-        'set14': {
-            'stacklist_keys': ['Trait', 'Cypher'], 
-            'stacked_key': 'Intel',
-            'rewards_key': 'Rewards',
-            'rewards_odds_key': 'Odds',
-            'rewards_list_key': 'List'
-        },
-        'set13': {
-            'stacklist_keys': ['Trait', 'Chem-Baron', 'StackedShimmer'], 
-            'stacked_key': 'Shimmer',
-            'rewards_key': 'Rewards',
-            'rewards_odds_key': 'Rates',
-            'rewards_list_key': 'List'
-        },
-        'set12': {
-            'stacklist_keys': ['Augment', 'Fortune Favors the Bold'], 
-            'stacked_key': 'Loss',
-            'rewards_key': 'Rewards',
-            'rewards_odds_key': 'Odds',
-            'rewards_list_key': 'List'
-        },
-        'set11': {
-            'stacklist_keys': ['Trait', 'Fortune'], 
-            'stacked_key': 'Luck',
-            'rewards_key': 'Rewards',
-            'rewards_odds_key': 'Rates',
-            'rewards_list_key': 'List'
-        },
-        'set10': {
-            'stacklist_keys': ['Trait', 'Heartsteel'], 
-            'stacked_key': 'Hearts',
-            'rewards_key': 'Rewards',
-            'rewards_odds_key': 'Odds',
-            'rewards_list_key': 'List'
-        },
-        'set9': {
-            'stacklist_keys': ['Trait', 'Piltover', 'Loss'], 
-            'stacked_key': 'Loss',
-            'rewards_key': 'Rewards',
-            'rewards_odds_key': 'Odds',
-            'rewards_list_key': 'List'
-        },
-        'set8': {
-            'stacklist_keys': ['Trait', 'Underground'], 
-            'stacked_key': 'Heist',
-            'rewards_key': 'Rewards',
-            'rewards_odds_key': 'Percentage',
-            'rewards_list_key': 'List'
-        },
-    }.items():
-        parse_set_rewards(setof, setcfg)
+    for setof, setcfg in set_rewards_config.items():
+        if setof in ['set15', 'set14', 'set12', 'set11', 'set10', 'set9', 'set8']:
+            parse_set_rewards_scheme(setof, setcfg, 'desc')
+            parse_set_rewards_scheme(setof, setcfg, 'comic')
 
-def parse_set_rewards(setof:str, setcfgkeys:dict[str,Any]):
+def parse_set_rewards_scheme(setof:str, setcfgkeys:dict[str,Any], outputtyp:Literal['desc','comic']):
     stacklevel:list[dict[str,Any]]=[]
-    with open(f'tftraw/specs/{setof}-rewards.json') as rwdfile:
+    if not os.path.exists(f'tftraw/specs/{setof}-rewards-hard.json'):
+        return
+    with open(f'tftraw/specs/{setof}-rewards-hard.json') as rwdfile:
         rwdsobj = loads(rwdfile.read())
         for stkkeyofkey in setcfgkeys['stacklist_keys']:
             rwdsobj=rwdsobj[stkkeyofkey]
@@ -291,11 +240,11 @@ def parse_set_rewards(setof:str, setcfgkeys:dict[str,Any]):
         rwdrow:list[str]=[eachstk[setcfgkeys['stacked_key']]]
         for rwd in eachstk[setcfgkeys['rewards_key']]:
             rwdodds=rwd[setcfgkeys['rewards_odds_key']]
-            rwdlist=' + '.join(rwd[setcfgkeys['rewards_list_key']])
+            rwdlist=' + '.join([explain_rewards(setof, rwdraw, outputtyp) for rwdraw in rwd[setcfgkeys['rewards_list_key']]])
             rwdrow.append(f'{rwdodds}: {rwdlist}')
         rwdgrid2d.append(rwdrow)
         
-    with open(f'tftmd/rewards/{setof}.md', 'w+') as rwdmd:
+    with open(f'tftmd/rewards/{setof}-{outputtyp}.md', 'w+') as rwdmd:
         rwdmd.write(
             Grid2d(
                 grid2d=rwdgrid2d, 
@@ -305,12 +254,121 @@ def parse_set_rewards(setof:str, setcfgkeys:dict[str,Any]):
         )
         rwdmd.close()
 
-def parse_set_rewards_comic():
-    # parse List Values
+def parse_set_rewards_scheme_v2(setof:str, setcfgkeys:dict[str,Any],outputtyp:Literal['desc','comic']):
+    pass
+
+def explain_rewards(setof: str, desc:str, outputtyp:Literal['desc','comic']) -> str:
     """
         follow the rule in: rewards-rules.txt
     """
-    pass
+    def getcntval(cntval:str) -> str:
+        if cntval == '1' or cntval == '' or not cntval.isnumeric():
+            return ''
+        else:
+            return f'{cntval} * '
+    def getfileext(pathkey:str) -> str:
+        for extname in ['png','jpg','jpeg','svg']:
+            if os.path.exists(f'{pathkey}.{extname}'):
+                return extname
+        return 'NONE'
+    def geticonpath(pathkey:str,restricted:bool=True) -> str:
+        extname=getfileext(pathkey=pathkey)
+        fulliconpath=f'{pathkey}.{extname}'
+        if not os.path.exists(fulliconpath) and restricted:
+            # print(f'ERROR: (1 try) NOT FOUND: Rewards iconpath {fulliconpath}')
+            parsedpaths=pathkey.split('/')
+            match parsedpaths[0]:
+                case 'tftitems':
+                    pathkey=pathkey.replace(parsedpaths[4],set_item_iconkey_fix[parsedpaths[2]][parsedpaths[3]][parsedpaths[4]])
+                    extname=getfileext(pathkey=pathkey)
+                    fulliconpath=f'{pathkey}.{extname}'
+                    if not os.path.exists(fulliconpath):
+                        print(f'ERROR: (2 try) NOT FOUND: Rewards iconpath {fulliconpath}')
+                case _:
+                    print(f'ERROR: NOT CAUGHT CASE: {parsedpaths}')
+        return fulliconpath
+
+    descparts=desc.split(':')
+    descpartsz=len(descparts)
+
+    # Set Special Rewards
+    if descparts[0].startswith('Set'):
+        cntval=getcntval(descparts[descpartsz-1])
+        iconpath=geticonpath(f'tftspecs/icon/rewards/{descparts[0]}_{descparts[1]}', False)
+        iconpath=iconpath if os.path.exists(iconpath) else geticonpath('tftspecs/icon/rewards/mystery_item')
+        return f'{cntval}{descparts[1]}' if outputtyp=='desc' else f'{cntval}![{descparts[1]}](../../{iconpath})'
+    
+    # Partial2 Rewards
+    if len(descparts)<=2:
+        cntval=getcntval(descparts[1]) if len(descparts)==2 else ''
+        iconpath=geticonpath(f'tftspecs/icon/rewards/{descparts[0]}')
+        return f'{cntval}{descparts[0]}' if outputtyp=='desc' else f'{cntval}![{descparts[0]}](../../{iconpath})'
+    
+    # Complex Rewards
+    match descparts[0]:
+        case 'Champion':
+            starval=descparts[1]
+            costval=descparts[2]
+            cntval=getcntval(descparts[3])
+            return f'{cntval}{starval}Star {costval}Cost Unit' if outputtyp=='desc' \
+            else f'{cntval}![Unit_Star](../../tftspecs/icon/rewards/Champion_Star_{starval}.png)![Unit_Cost](../../tftspecs/icon/rewards/Champion_Cost_{costval}.png)'
+        case 'Champions':
+            starval=descparts[1]
+            championkey=descparts[2]
+            cntval=getcntval(descparts[3])
+            iconpath=geticonpath(f'tftchampions/icon/{setof}/{championkey}')
+            return f'{cntval}{starval}Star {championkey}' if outputtyp=='desc' \
+            else f'{cntval}![Unit_Star](../../tftspecs/icon/rewards/Champion_Star_{starval}.png)![{championkey}](../../{iconpath})'
+        case 'Items':
+            itemtyp=descparts[1]
+            itemkey=descparts[2]
+            cntval=getcntval(descparts[3])
+            iconpath=geticonpath(f'tftitems/icon/{setof}/{itemtyp}/{itemkey}')
+            return f'{cntval}{itemkey}' if outputtyp=='desc' \
+            else f'{cntval}![{itemkey}](../../{iconpath})'
+        case _:
+            print(f'ERROR: NOT FOUND: Rewards {descparts}')
+            return 'NONE'
+    return ''
+
+def gen_rewards_detail():
+    rwddtlfilename='tftraw/specs/rewards-gens.txt'
+    # if os.path.exists(rwddtlfilename):
+    #     return
+
+    rwdenumcnt:list[str]=[]
+    with open('tftraw/specs/rewards-rules.txt') as rwdrlfile:
+        rwdlines=rwdrlfile.readlines()[1:]
+        rwdenumcnt=[ln[:ln.find(' ')] for ln in rwdlines]
+        rwdrlfile.close()
+
+    cntls:dict[str,list[int]]={
+        'Gold': [i for i in range(1,10,1)]+[i for i in range(10,101,5)],
+        '-': [1,2,3,4,5],
+    }
+    with open(rwddtlfilename, 'w+') as rwdgenfile:
+        lss:list[str]=[]
+        for rwd0 in rwdenumcnt:
+            rwdparts=rwd0.split(':')
+            sz=len(rwdparts)
+            if sz==1 or rwdparts[sz-1]!='$cnt':
+                lss.append(f'{rwd0}')
+            elif rwdparts[0]=='Champion':
+                for ucnt in cntls['-']:
+                    for ustar in range(1,5,1):
+                        for ucost in range(1,7,1):
+                            lss.append(f'Champion:{ustar}:{ucost}:{ucnt}')
+            elif rwdparts[0]=='Champions':
+                for ustar in range(1,5,1):
+                    for ucnt in cntls['-']:
+                        lss.append(f'Champions:{ustar}:$key:{ucnt}')
+            else:
+                for cntof in cntls['Gold'] if rwdparts[0]=='Gold' else cntls['-']:
+                    exceptcntall=rwd0.removesuffix(':$cnt')
+                    lss.append(f'{exceptcntall}:{cntof}')
+
+        rwdgenfile.write('\n'.join(sorted(lss)))
+        rwdgenfile.close()
 
 if __name__ == '__main__':
     for fn in [set15_power_up, set13_teamup, set13_anomalies, set12_charms, set12_portal, set11_encounters, set10_portal, set9_set9dot5_portal]:
@@ -318,4 +376,5 @@ if __name__ == '__main__':
     
     trait_compare('set11', 'Fated', 'set15', 'StarGuardian')
 
+    gen_rewards_detail()
     parse_rewards()

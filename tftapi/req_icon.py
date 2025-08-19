@@ -82,7 +82,27 @@ def req_fight_attrs():
             )
 
 def req_rewards():
-    pass
+    def dlbyurl(keyof:str, rwdof:Any):
+        if type(rwdof)==str:
+            extname=geturl_extname(rwdof)
+            download_file(rwdof, f'tftspecs/icon/rewards/{keyof}.{extname}', 5)
+        elif type(rwdof) == dict and 'url_fmt' in rwdof and 'val' in rwdof:
+            extname=geturl_extname(rwdof['url_fmt'])
+            for valof in rwdof['val']:
+                download_file(str(rwdof['url_fmt']).format(valof), f'tftspecs/icon/rewards/{keyof}_{valof}.{extname}', 5)
+    
+    rewardsobj:dict[str,Any]={}
+    with open('tftraw/specs/rewards-icons.json') as rwdifile:
+        rewardsobj=loads(rwdifile.read())
+        rwdifile.close()
+
+    for rwdkey, rwdobj in rewardsobj.items():
+        if rwdkey.startswith('Set'):
+            for keyof, objof in rwdobj.items():
+                dlbyurl(f'{rwdkey}_{keyof}', objof)
+        else:
+            dlbyurl(rwdkey, rwdobj)
+            
 
 if __name__ == '__main__':
     # set15.2 update, some icons download have been restricted, temp to skip it.
