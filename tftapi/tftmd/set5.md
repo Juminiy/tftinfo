@@ -47,24 +47,24 @@
 | GodKing   | Darius/Garen | 5/5      |
 
 ### SynergyGrid
-| ****Origins\Classes**** | **Assassin**   | **Brawler** | **Cavalier** | **Invoker** | **Knight** | **Legionnaire** | **Mystic** | **Ranger** | **Renewer**  | **Skirmisher**   | **Spellweaver** |
-| -                       | -              | -           | -            | -           | -          | -               | -          | -          | -            | -                | -               |
-| **Abomination**         |                | Nunu        |              |             |            | Kalista         | Ryze       |            |              |                  | Brand           |
-| **Coven**               | Leblanc        |             |              |             |            |                 | Morgana    |            | Lissandra    |                  |                 |
-| **Dawnbringer**         | Khazix         | Gragas      |              | Karma       | Garen      | Riven           |            |            | Soraka       | Nidalee          |                 |
-| **Draconic**            |                | Sett        |              |             |            |                 |            | Ashe       | Heimerdinger | Udyr             | Zyra            |
-| **Dragonslayer**        | Diana          |             |              |             |            | Mordekaiser     |            |            |              | Pantheon/Trundle |                 |
-| **Forgotten**           | Katarina/Viego | Warwick     | Hecarim      |             | Thresh     | Draven          | Ryze       | Vayne      |              | Viego            | Viktor          |
-| **Hellion**             |                |             | Kled         | Teemo       | Poppy      |                 | Lulu       |            |              | Kennen           | Ziggs           |
-| **Ironclad**            |                |             | Rell         |             | Nautilus   |                 |            |            |              | Jax              |                 |
-| **Nightbringer**        | Diana          |             | Sejuani      |             | Darius     | Yasuo           | Morgana    | Aphelios   | Vladimir     | LeeSin           |                 |
-| **Redeemed**            |                |             | Rell         | Syndra      | Leona      | Aatrox/Kayle    | Lux        | Varus      |              |                  | Velkoz          |
-| **Revenant**            | Nocturne       | Volibear    |              | Ivern       |            |                 |            |            | Ivern        |                  |                 |
-| **Verdant**             |                |             |              |             | Taric      | Kayle           |            | Ashe       |              |                  |                 |
+| **Origins\Classes** | **Assassin**   | **Brawler** | **Cavalier** | **Invoker** | **Knight** | **Legionnaire** | **Mystic** | **Ranger** | **Renewer**  | **Skirmisher**   | **Spellweaver** |
+| -                   | -              | -           | -            | -           | -          | -               | -          | -          | -            | -                | -               |
+| **Abomination**     |                | Nunu        |              |             |            | Kalista         | Ryze       |            |              |                  | Brand           |
+| **Coven**           | Leblanc        |             |              |             |            |                 | Morgana    |            | Lissandra    |                  |                 |
+| **Dawnbringer**     | Khazix         | Gragas      |              | Karma       | Garen      | Riven           |            |            | Soraka       | Nidalee          |                 |
+| **Draconic**        |                | Sett        |              |             |            |                 |            | Ashe       | Heimerdinger | Udyr             | Zyra            |
+| **Dragonslayer**    | Diana          |             |              |             |            | Mordekaiser     |            |            |              | Pantheon/Trundle |                 |
+| **Forgotten**       | Katarina/Viego | Warwick     | Hecarim      |             | Thresh     | Draven          | Ryze       | Vayne      |              | Viego            | Viktor          |
+| **Hellion**         |                |             | Kled         | Teemo       | Poppy      |                 | Lulu       |            |              | Kennen           | Ziggs           |
+| **Ironclad**        |                |             | Rell         |             | Nautilus   |                 |            |            |              | Jax              |                 |
+| **Nightbringer**    | Diana          |             | Sejuani      |             | Darius     | Yasuo           | Morgana    | Aphelios   | Vladimir     | LeeSin           |                 |
+| **Redeemed**        |                |             | Rell         | Syndra      | Leona      | Aatrox/Kayle    | Lux        | Varus      |              |                  | Velkoz          |
+| **Revenant**        | Nocturne       | Volibear    |              | Ivern       |            |                 |            |            | Ivern        |                  |                 |
+| **Verdant**         |                |             |              |             | Taric      | Kayle           |            | Ashe       |              |                  |                 |
 
 ## Items
 ### CraftableGrid
-| ****C1\C2**** | **sword** | **bow**         | **vest**      | **cloak**        | **rod**               | **tear**      | **belt**       | **glove**      | **spatula**       | **s-sword**      | **s-bow**        | **s-vest**             | **s-cloak**            | **s-rod**              | **s-tear**          | **s-belt**         | **s-glove**             | **s-spatula**           |
+| **C1\C2**     | **sword** | **bow**         | **vest**      | **cloak**        | **rod**               | **tear**      | **belt**       | **glove**      | **spatula**       | **s-sword**      | **s-bow**        | **s-vest**             | **s-cloak**            | **s-rod**              | **s-tear**          | **s-belt**         | **s-glove**             | **s-spatula**           |
 | -             | -         | -               | -             | -                | -                     | -             | -              | -              | -                 | -                | -                | -                      | -                      | -                      | -                   | -                  | -                       | -                       |
 | **sword**     | LordsEdge | GiantSlayer     | GuardianAngel | Bloodthirster    | HextechGunblade       | SpearofShojin | ZekesHerald    | InfinityEdge   | SwordoftheDivine  | CursedDeathblade | EvilGiantSlayer  | GuardianFallenAngel    | Riskthirster           | CursedHextechGunblade  | CursedSpearofShojin | ZekesEvilHerald    | CursedInfinityEdge      | ShadowSwordoftheDivine  |
 | **bow**       |           | RapidFirecannon | TitansResolve | RunaansHurricane | GuinsoosRageblade     | StatikkShiv   | ZzRotPortal    | LastWhisper    | DuelistsZeal      |                  | RapidDeathcannon | TitansExplosiveResolve | RunaansEvilHurricane   | GuinsoosEvilRageblade  | EvilStatikkShiv     | ZzRotDarkPortal    | FinalWhisper            | ShadowDuelistsZeal      |

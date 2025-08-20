@@ -47,31 +47,31 @@
 | Ravenous         | Briar        | 5        |
 
 ### SynergyGrid
-| ****Origins\Classes**** | **Bastion** | **Blaster** | **Hunter**  | **Incantor** | **Mage**         | **Multistriker** | **Preserver** | **Scholar** | **Shapeshifter** | **Vanguard** | **Warrior** |
-| -                       | -           | -           | -           | -            | -                | -                | -             | -           | -                | -            | -           |
-| **Arcana**              | Hecarim     |             |             |              |                  | Hecarim          |               | Ahri        |                  | TahmKench    |             |
-| **Chrono**              |             |             |             | Karma        | Vex              | Camille/Jax      | Zilean        |             |                  |              |             |
-| **Dragon**              |             | Smolder     | Nomsy       |              |                  |                  |               |             | Shyvana          |              |             |
-| **Eldritch**            |             |             |             | Syndra       | Nami             | Ashe             |               |             | Briar/Elise      | Mordekaiser  | Nilah       |
-| **Faerie**              | Lillia      | Tristana    |             |              | Seraphine        | Kalista          | Rakan         | Milio       |                  |              | Katarina    |
-| **Frost**               | Diana       | Hwei        | Olaf/Twitch |              |                  |                  | Zilean        |             | Swain            | Warwick      |             |
-| **Honeymancy**          | Nunu        |             | KogMaw      | Ziggs        | Veigar           |                  |               |             |                  | Blitzcrank   |             |
-| **Portal**              | Taric       | Ezreal      |             |              | Galio/NorraYuumi | Kassadin         |               | Ryze/Zoe    | Jayce            | Galio        |             |
-| **Pyro**                | Shen        | Varus       |             |              |                  | Akali            |               |             | Nasus            |              | Akali       |
-| **Sugarcraft**          |             | Rumble      | Jinx        |              | Soraka           |                  | Bard          | Bard        |                  | Rumble       | Gwen        |
-| **Witchcraft**          | Poppy       |             |             | Cassiopeia   |                  |                  | Morgana       | Zoe         | Neeko            |              | Fiora       |
+| **Origins\Classes** | **Bastion** | **Blaster** | **Hunter**  | **Incantor** | **Mage**         | **Multistriker** | **Preserver** | **Scholar** | **Shapeshifter** | **Vanguard** | **Warrior** |
+| -                   | -           | -           | -           | -            | -                | -                | -             | -           | -                | -            | -           |
+| **Arcana**          | Hecarim     |             |             |              |                  | Hecarim          |               | Ahri        |                  | TahmKench    |             |
+| **Chrono**          |             |             |             | Karma        | Vex              | Camille/Jax      | Zilean        |             |                  |              |             |
+| **Dragon**          |             | Smolder     | Nomsy       |              |                  |                  |               |             | Shyvana          |              |             |
+| **Eldritch**        |             |             |             | Syndra       | Nami             | Ashe             |               |             | Briar/Elise      | Mordekaiser  | Nilah       |
+| **Faerie**          | Lillia      | Tristana    |             |              | Seraphine        | Kalista          | Rakan         | Milio       |                  |              | Katarina    |
+| **Frost**           | Diana       | Hwei        | Olaf/Twitch |              |                  |                  | Zilean        |             | Swain            | Warwick      |             |
+| **Honeymancy**      | Nunu        |             | KogMaw      | Ziggs        | Veigar           |                  |               |             |                  | Blitzcrank   |             |
+| **Portal**          | Taric       | Ezreal      |             |              | Galio/NorraYuumi | Kassadin         |               | Ryze/Zoe    | Jayce            | Galio        |             |
+| **Pyro**            | Shen        | Varus       |             |              |                  | Akali            |               |             | Nasus            |              | Akali       |
+| **Sugarcraft**      |             | Rumble      | Jinx        |              | Soraka           |                  | Bard          | Bard        |                  | Rumble       | Gwen        |
+| **Witchcraft**      | Poppy       |             |             | Cassiopeia   |                  |                  | Morgana       | Zoe         | Neeko            |              | Fiora       |
 
 ## Items
 ### CraftableGrid
-| ****C1\C2**** | **sword** | **bow**     | **vest**      | **cloak**        | **rod**           | **tear**      | **belt**       | **glove**      | **spatula**      | **pan**            |
-| -             | -         | -           | -             | -                | -                 | -             | -              | -              | -                | -                  |
-| **sword**     | LordsEdge | GiantSlayer | GuardianAngel | Bloodthirster    | HextechGunblade   | SpearofShojin | SteraksGage    | InfinityEdge   | SugarcraftEmblem | HunterEmblem       |
-| **bow**       |           | RedBuffItem | TitansResolve | RunaansHurricane | GuinsoosRageblade | StatikkShiv   | NashorsTooth   | LastWhisper    | PyroEmblem       | MultistrikerEmblem |
-| **vest**      |           |             | BrambleVest   | IronWill         | Crownguard        | Fimbulwinter  | SunfireCape    | SteadfastHeart | FrostEmblem      | BastionEmblem      |
-| **cloak**     |           |             |               | DragonsClaw      | IonicSpark        | AdaptiveHelm  | Evenshroud     | Quicksilver    | WitchcraftEmblem | PreserverEmblem    |
-| **rod**       |           |             |               |                  | RabadonsDeathcap  | LudensEcho    | Morellonomicon | ArcaneGauntlet | PortalEmblem     | MageEmblem         |
-| **tear**      |           |             |               |                  |                   | BlueSentinel  | Redemption     | HandofJustice  | FaerieEmblem     | ScholarEmblem      |
-| **belt**      |           |             |               |                  |                   |               | WarmogsArmor   | Guardbreaker   | EldritchEmblem   | ShapeshifterEmblem |
-| **glove**     |           |             |               |                  |                   |               |                | ThiefsGloves   | HoneymancyEmblem | WarriorEmblem      |
-| **spatula**   |           |             |               |                  |                   |               |                |                | ForceofNature    | TacticiansCape     |
-| **pan**       |           |             |               |                  |                   |               |                |                |                  | TacticiansShield   |
+| **C1\C2**   | **sword** | **bow**     | **vest**      | **cloak**        | **rod**           | **tear**      | **belt**       | **glove**      | **spatula**      | **pan**            |
+| -           | -         | -           | -             | -                | -                 | -             | -              | -              | -                | -                  |
+| **sword**   | LordsEdge | GiantSlayer | GuardianAngel | Bloodthirster    | HextechGunblade   | SpearofShojin | SteraksGage    | InfinityEdge   | SugarcraftEmblem | HunterEmblem       |
+| **bow**     |           | RedBuffItem | TitansResolve | RunaansHurricane | GuinsoosRageblade | StatikkShiv   | NashorsTooth   | LastWhisper    | PyroEmblem       | MultistrikerEmblem |
+| **vest**    |           |             | BrambleVest   | IronWill         | Crownguard        | Fimbulwinter  | SunfireCape    | SteadfastHeart | FrostEmblem      | BastionEmblem      |
+| **cloak**   |           |             |               | DragonsClaw      | IonicSpark        | AdaptiveHelm  | Evenshroud     | Quicksilver    | WitchcraftEmblem | PreserverEmblem    |
+| **rod**     |           |             |               |                  | RabadonsDeathcap  | LudensEcho    | Morellonomicon | ArcaneGauntlet | PortalEmblem     | MageEmblem         |
+| **tear**    |           |             |               |                  |                   | BlueSentinel  | Redemption     | HandofJustice  | FaerieEmblem     | ScholarEmblem      |
+| **belt**    |           |             |               |                  |                   |               | WarmogsArmor   | Guardbreaker   | EldritchEmblem   | ShapeshifterEmblem |
+| **glove**   |           |             |               |                  |                   |               |                | ThiefsGloves   | HoneymancyEmblem | WarriorEmblem      |
+| **spatula** |           |             |               |                  |                   |               |                |                | ForceofNature    | TacticiansCape     |
+| **pan**     |           |             |               |                  |                   |               |                |                |                  | TacticiansShield   |

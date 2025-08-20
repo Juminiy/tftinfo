@@ -44,31 +44,31 @@
 | Robot    | Blitzcrank   | 2        |
 
 ### SynergyGrid
-| ****Origins\Classes**** | **Assassin** | **Blademaster** | **Brawler**    | **Elementalist** | **Guardian** | **Gunslinger**               | **Knight**  | **Ranger** | **Shapeshifter** | **Sorcerer** |
-| -                       | -            | -               | -              | -                | -            | -                            | -           | -          | -                | -            |
-| **Demon**               | Evelynn      | Aatrox          |                | Brand            |              |                              |             | Varus      | Elise/Swain      | Morgana      |
-| **Dragon**              |              |                 |                |                  | Pantheon     |                              |             |            | Shyvana          | AurelionSol  |
-| **Glacial**             |              |                 | Volibear       | Anivia/Lissandra | Braum        |                              | Sejuani     | Ashe       |                  |              |
-| **Hextech**             |              | Camille         | Vi             |                  |              | Jinx                         |             |            | Jayce            |              |
-| **Imperial**            | Katarina     | Draven          |                |                  |              |                              | Darius      |            | Swain            |              |
-| **Ninja**               | Akali/Zed    | Shen            |                | Kennen           |              |                              |             |            |                  |              |
-| **Noble**               |              | Fiora           |                |                  | Leona        | Lucian                       | Garen/Kayle | Vayne      |                  |              |
-| **Phantom**             |              |                 |                |                  |              |                              | Mordekaiser | Kindred    |                  | Karthus      |
-| **Pirate**              | Pyke         | Gangplank       |                |                  |              | Gangplank/Graves/MissFortune |             |            |                  | TwistedFate  |
-| **Void**                | Kaisa/Khazix |                 | Chogath/RekSai |                  |              |                              |             | Kaisa      |                  | Kassadin     |
-| **Wild**                | Rengar       |                 | Warwick        |                  |              |                              |             |            | Gnar/Nidalee     | Ahri         |
-| **Yordle**              |              |                 |                | Kennen           |              | Tristana                     | Poppy       |            | Gnar             | Lulu/Veigar  |
+| **Origins\Classes** | **Assassin** | **Blademaster** | **Brawler**    | **Elementalist** | **Guardian** | **Gunslinger**               | **Knight**  | **Ranger** | **Shapeshifter** | **Sorcerer** |
+| -                   | -            | -               | -              | -                | -            | -                            | -           | -          | -                | -            |
+| **Demon**           | Evelynn      | Aatrox          |                | Brand            |              |                              |             | Varus      | Elise/Swain      | Morgana      |
+| **Dragon**          |              |                 |                |                  | Pantheon     |                              |             |            | Shyvana          | AurelionSol  |
+| **Glacial**         |              |                 | Volibear       | Anivia/Lissandra | Braum        |                              | Sejuani     | Ashe       |                  |              |
+| **Hextech**         |              | Camille         | Vi             |                  |              | Jinx                         |             |            | Jayce            |              |
+| **Imperial**        | Katarina     | Draven          |                |                  |              |                              | Darius      |            | Swain            |              |
+| **Ninja**           | Akali/Zed    | Shen            |                | Kennen           |              |                              |             |            |                  |              |
+| **Noble**           |              | Fiora           |                |                  | Leona        | Lucian                       | Garen/Kayle | Vayne      |                  |              |
+| **Phantom**         |              |                 |                |                  |              |                              | Mordekaiser | Kindred    |                  | Karthus      |
+| **Pirate**          | Pyke         | Gangplank       |                |                  |              | Gangplank/Graves/MissFortune |             |            |                  | TwistedFate  |
+| **Void**            | Kaisa/Khazix |                 | Chogath/RekSai |                  |              |                              |             | Kaisa      |                  | Kassadin     |
+| **Wild**            | Rengar       |                 | Warwick        |                  |              |                              |             |            | Gnar/Nidalee     | Ahri         |
+| **Yordle**          |              |                 |                | Kennen           |              | Tristana                     | Poppy       |            | Gnar             | Lulu/Veigar  |
 
 ## Items
 ### CraftableGrid
-| ****C1\C2**** | **sword** | **bow**         | **vest**      | **cloak**     | **rod**               | **tear**       | **belt**       | **glove**         | **spatula**          |
-| -             | -         | -               | -             | -             | -                     | -              | -              | -                 | -                    |
-| **sword**     | LordsEdge | GiantSlayer     | GuardianAngel | Bloodthirster | HextechGunblade       | SpearofShojin  | ZekesHerald    | InfinityEdge      | YoumuusGhostblade    |
-| **bow**       |           | RapidFirecannon | PhantomDancer | CursedBlade   | GuinsoosRageblade     | StatikkShiv    | TitanicHydra   | RepeatingCrossbow | BladeoftheRuinedKing |
-| **vest**      |           |                 | Thornmail     | SwordBreaker  | LocketoftheIronSolari | FrozenHeart    | RedBuff        | IceborneGauntlet  | KnightsVow           |
-| **cloak**     |           |                 |               | DragonsClaw   | IonicSpark            | Hush           | Zephyr         | Quicksilver       | RunaansHurricane     |
-| **rod**       |           |                 |               |               | RabadonsDeathcap      | LudensEcho     | Morellonomicon | ArcaneGauntlet    | Yuumi                |
-| **tear**      |           |                 |               |               |                       | SeraphsEmbrace | Redemption     | HandofJustice     | Darkin               |
-| **belt**      |           |                 |               |               |                       |                | WarmogsArmor   | Backhand          | FrozenMallet         |
-| **glove**     |           |                 |               |               |                       |                |                | ThiefsGloves      | Mittens              |
-| **spatula**   |           |                 |               |               |                       |                |                |                   | ForceofNature        |
+| **C1\C2**   | **sword** | **bow**         | **vest**      | **cloak**     | **rod**               | **tear**       | **belt**       | **glove**         | **spatula**          |
+| -           | -         | -               | -             | -             | -                     | -              | -              | -                 | -                    |
+| **sword**   | LordsEdge | GiantSlayer     | GuardianAngel | Bloodthirster | HextechGunblade       | SpearofShojin  | ZekesHerald    | InfinityEdge      | YoumuusGhostblade    |
+| **bow**     |           | RapidFirecannon | PhantomDancer | CursedBlade   | GuinsoosRageblade     | StatikkShiv    | TitanicHydra   | RepeatingCrossbow | BladeoftheRuinedKing |
+| **vest**    |           |                 | Thornmail     | SwordBreaker  | LocketoftheIronSolari | FrozenHeart    | RedBuff        | IceborneGauntlet  | KnightsVow           |
+| **cloak**   |           |                 |               | DragonsClaw   | IonicSpark            | Hush           | Zephyr         | Quicksilver       | RunaansHurricane     |
+| **rod**     |           |                 |               |               | RabadonsDeathcap      | LudensEcho     | Morellonomicon | ArcaneGauntlet    | Yuumi                |
+| **tear**    |           |                 |               |               |                       | SeraphsEmbrace | Redemption     | HandofJustice     | Darkin               |
+| **belt**    |           |                 |               |               |                       |                | WarmogsArmor   | Backhand          | FrozenMallet         |
+| **glove**   |           |                 |               |               |                       |                |                | ThiefsGloves      | Mittens              |
+| **spatula** |           |                 |               |               |                       |                |                |                   | ForceofNature        |

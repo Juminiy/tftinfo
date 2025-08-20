@@ -48,30 +48,30 @@
 | Starcaller | Soraka       | 5        |
 
 ### SynergyGrid
-| ****Origins\Classes**** | **Assassin** | **Bruiser**    | **Cannoneer** | **Cavalier** | **Dragonmancer** | **Dragons** | **Evoker**  | **Guardian** | **Legend** | **Mage**      | **Mystic** | **Shapeshifter** | **Swiftshot** | **Warrior** |
-| -                       | -            | -              | -             | -            | -                | -           | -           | -            | -          | -             | -          | -                | -             | -           |
-| **Astral**              |              | Illaoi/Skarner |               |              |                  | AurelionSol | AurelionSol |              |            | Nami/Vladimir | Nami       | Nidalee          | Varus         |             |
-| **Guild**               | Talon        |                |               | Sejuani      |                  |             |             |              |            | Ryze          | Bard       |                  | Twitch        |             |
-| **Jade**                |              |                |               |              | Ashe/Karma       | ShiOhYu     | Anivia      | Taric        | Anivia     |               | ShiOhYu    | Gnar/Neeko       | Ashe          |             |
-| **Mirage**              |              |                |               | Nunu         | Yasuo            | Daeja       |             | Leona        |            |               |            |                  |               | Yasuo/Yone  |
-| **Ragewing**            | Kayn         | Shen           | Senna         | Hecarim      | Sett/Swain       | Shyvana     |             |              |            |               |            | Shyvana/Swain    | Xayah         | Shen        |
-| **Revel**               |              | TahmKench      | Corki/Jinx    |              |                  |             | Sona        |              |            |               |            |                  |               |             |
-| **Scalescorn**          | Diana        | Olaf           |               | Lillia       |                  |             |             | Braum        |            | Lillia        |            |                  |               | Olaf        |
-| **Shimmerscale**        | Kayn         |                |               |              | Volibear         | Idas        |             | Idas         | Volibear   | Zoe           |            |                  |               | Aatrox      |
-| **Tempest**             | Qiyana       | Ornn           |               |              | LeeSin           | AoShin      |             |              | Ornn       |               |            |                  | Ezreal        |             |
-| **Trainer**             |              |                | Tristana      |              |                  |             | Lulu        |              |            | Heimerdinger  | Lulu       |                  |               |             |
-| **Whispers**            | Pyke         | Syfen/Sylas    |               |              |                  | Syfen       |             | Thresh       |            | Sylas         |            | Elise            |               |             |
+| **Origins\Classes** | **Assassin** | **Bruiser**    | **Cannoneer** | **Cavalier** | **Dragonmancer** | **Dragons** | **Evoker**  | **Guardian** | **Legend** | **Mage**      | **Mystic** | **Shapeshifter** | **Swiftshot** | **Warrior** |
+| -                   | -            | -              | -             | -            | -                | -           | -           | -            | -          | -             | -          | -                | -             | -           |
+| **Astral**          |              | Illaoi/Skarner |               |              |                  | AurelionSol | AurelionSol |              |            | Nami/Vladimir | Nami       | Nidalee          | Varus         |             |
+| **Guild**           | Talon        |                |               | Sejuani      |                  |             |             |              |            | Ryze          | Bard       |                  | Twitch        |             |
+| **Jade**            |              |                |               |              | Ashe/Karma       | ShiOhYu     | Anivia      | Taric        | Anivia     |               | ShiOhYu    | Gnar/Neeko       | Ashe          |             |
+| **Mirage**          |              |                |               | Nunu         | Yasuo            | Daeja       |             | Leona        |            |               |            |                  |               | Yasuo/Yone  |
+| **Ragewing**        | Kayn         | Shen           | Senna         | Hecarim      | Sett/Swain       | Shyvana     |             |              |            |               |            | Shyvana/Swain    | Xayah         | Shen        |
+| **Revel**           |              | TahmKench      | Corki/Jinx    |              |                  |             | Sona        |              |            |               |            |                  |               |             |
+| **Scalescorn**      | Diana        | Olaf           |               | Lillia       |                  |             |             | Braum        |            | Lillia        |            |                  |               | Olaf        |
+| **Shimmerscale**    | Kayn         |                |               |              | Volibear         | Idas        |             | Idas         | Volibear   | Zoe           |            |                  |               | Aatrox      |
+| **Tempest**         | Qiyana       | Ornn           |               |              | LeeSin           | AoShin      |             |              | Ornn       |               |            |                  | Ezreal        |             |
+| **Trainer**         |              |                | Tristana      |              |                  |             | Lulu        |              |            | Heimerdinger  | Lulu       |                  |               |             |
+| **Whispers**        | Pyke         | Syfen/Sylas    |               |              |                  | Syfen       |             | Thresh       |            | Sylas         |            | Elise            |               |             |
 
 ## Items
 ### CraftableGrid
-| ****C1\C2**** | **sword** | **bow**         | **vest**      | **cloak**        | **rod**               | **tear**      | **belt**       | **glove**      | **spatula**        |
-| -             | -         | -               | -             | -                | -                     | -             | -              | -              | -                  |
-| **sword**     | LordsEdge | GiantSlayer     | GuardianAngel | Bloodthirster    | HextechGunblade       | SpearofShojin | ZekesHerald    | InfinityEdge   | ShimmerscaleEmblem |
-| **bow**       |           | RapidFirecannon | TitansResolve | RunaansHurricane | GuinsoosRageblade     | StatikkShiv   | ZzRotPortal    | LastWhisper    | RagewingEmblem     |
-| **vest**      |           |                 | BrambleVest   | IronWill         | LocketoftheIronSolari | FrozenHeart   | SunfireCape    | Shroud         | CavalierEmblem     |
-| **cloak**     |           |                 |               | DragonsClaw      | IonicSpark            | Chalice       | Zephyr         | Quicksilver    | MirageEmblem       |
-| **rod**       |           |                 |               |                  | RabadonsDeathcap      | LudensEcho    | Morellonomicon | ArcaneGauntlet | DragonmancerEmblem |
-| **tear**      |           |                 |               |                  |                       | BlueSentinel  | Redemption     | HandofJustice  | MageEmblem         |
-| **belt**      |           |                 |               |                  |                       |               | WarmogsArmor   | Backhand       | GuardianEmblem     |
-| **glove**     |           |                 |               |                  |                       |               |                | ThiefsGloves   | YoumuusGhostblade  |
-| **spatula**   |           |                 |               |                  |                       |               |                |                | ForceofNature      |
+| **C1\C2**   | **sword** | **bow**         | **vest**      | **cloak**        | **rod**               | **tear**      | **belt**       | **glove**      | **spatula**        |
+| -           | -         | -               | -             | -                | -                     | -             | -              | -              | -                  |
+| **sword**   | LordsEdge | GiantSlayer     | GuardianAngel | Bloodthirster    | HextechGunblade       | SpearofShojin | ZekesHerald    | InfinityEdge   | ShimmerscaleEmblem |
+| **bow**     |           | RapidFirecannon | TitansResolve | RunaansHurricane | GuinsoosRageblade     | StatikkShiv   | ZzRotPortal    | LastWhisper    | RagewingEmblem     |
+| **vest**    |           |                 | BrambleVest   | IronWill         | LocketoftheIronSolari | FrozenHeart   | SunfireCape    | Shroud         | CavalierEmblem     |
+| **cloak**   |           |                 |               | DragonsClaw      | IonicSpark            | Chalice       | Zephyr         | Quicksilver    | MirageEmblem       |
+| **rod**     |           |                 |               |                  | RabadonsDeathcap      | LudensEcho    | Morellonomicon | ArcaneGauntlet | DragonmancerEmblem |
+| **tear**    |           |                 |               |                  |                       | BlueSentinel  | Redemption     | HandofJustice  | MageEmblem         |
+| **belt**    |           |                 |               |                  |                       |               | WarmogsArmor   | Backhand       | GuardianEmblem     |
+| **glove**   |           |                 |               |                  |                       |               |                | ThiefsGloves   | YoumuusGhostblade  |
+| **spatula** |           |                 |               |                  |                       |               |                |                | ForceofNature      |

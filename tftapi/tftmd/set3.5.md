@@ -38,29 +38,29 @@
 | Starship  | AurelionSol  | 5        |
 
 ### SynergyGrid
-| ****Origins\Classes**** | **Blademaster** | **Blaster** | **Brawler** | **Demolitionist** | **Infiltrator** | **ManaReaver** | **Mystic** | **Protector** | **Sniper** | **Sorcerer**    | **Vanguard** |
-| -                       | -               | -           | -           | -                 | -               | -              | -          | -             | -          | -               | -            |
-| **Astro**               |                 |             | Gnar        |                   |                 |                | Bard       |               | Teemo      |                 | Nautilus     |
-| **Battlecast**          |                 | KogMaw      | Illaoi      |                   | Nocturne        |                | Cassiopeia | Urgot         |            | Viktor          |              |
-| **Celestial**           | Xayah           |             |             |                   |                 |                | Lulu       | Rakan/XinZhao | Ashe       |                 |              |
-| **Chrono**              | Riven/Shen      | Ezreal      | Blitzcrank  |                   |                 | Thresh         |            |               | Caitlyn    | TwistedFate     | MonkeyKing   |
-| **Cybernetic**          | Fiora/Irelia    | Lucian      | Vi          |                   | Ekko            | Irelia         |            |               | Vayne      |                 | Leona        |
-| **DarkStar**            |                 |             |             |                   | Shaco           |                | Karma      | JarvanIV      | Jhin       | Xerath          | Mordekaiser  |
-| **MechPilot**           |                 |             |             | Rumble            | Fizz            |                |            |               |            | Annie           |              |
-| **Rebel**               | MasterYi/Yasuo  | Jinx        | Malphite    | Ziggs             | Zed             |                |            |               |            |                 |              |
-| **SpacePirate**         |                 | Graves      |             | Gangplank         |                 | Darius         |            |               |            |                 | Jayce        |
-| **StarGuardian**        |                 |             |             |                   |                 |                | Soraka     | Neeko         |            | Ahri/Syndra/Zoe | Poppy        |
+| **Origins\Classes** | **Blademaster** | **Blaster** | **Brawler** | **Demolitionist** | **Infiltrator** | **ManaReaver** | **Mystic** | **Protector** | **Sniper** | **Sorcerer**    | **Vanguard** |
+| -                   | -               | -           | -           | -                 | -               | -              | -          | -             | -          | -               | -            |
+| **Astro**           |                 |             | Gnar        |                   |                 |                | Bard       |               | Teemo      |                 | Nautilus     |
+| **Battlecast**      |                 | KogMaw      | Illaoi      |                   | Nocturne        |                | Cassiopeia | Urgot         |            | Viktor          |              |
+| **Celestial**       | Xayah           |             |             |                   |                 |                | Lulu       | Rakan/XinZhao | Ashe       |                 |              |
+| **Chrono**          | Riven/Shen      | Ezreal      | Blitzcrank  |                   |                 | Thresh         |            |               | Caitlyn    | TwistedFate     | MonkeyKing   |
+| **Cybernetic**      | Fiora/Irelia    | Lucian      | Vi          |                   | Ekko            | Irelia         |            |               | Vayne      |                 | Leona        |
+| **DarkStar**        |                 |             |             |                   | Shaco           |                | Karma      | JarvanIV      | Jhin       | Xerath          | Mordekaiser  |
+| **MechPilot**       |                 |             |             | Rumble            | Fizz            |                |            |               |            | Annie           |              |
+| **Rebel**           | MasterYi/Yasuo  | Jinx        | Malphite    | Ziggs             | Zed             |                |            |               |            |                 |              |
+| **SpacePirate**     |                 | Graves      |             | Gangplank         |                 | Darius         |            |               |            |                 | Jayce        |
+| **StarGuardian**    |                 |             |             |                   |                 |                | Soraka     | Neeko         |            | Ahri/Syndra/Zoe | Poppy        |
 
 ## Items
 ### CraftableGrid
-| ****C1\C2**** | **sword** | **bow**         | **vest**      | **cloak**        | **rod**               | **tear**      | **belt**       | **glove**      | **spatula**          |
-| -             | -         | -               | -             | -                | -                     | -             | -              | -              | -                    |
-| **sword**     | LordsEdge | GiantSlayer     | GuardianAngel | Bloodthirster    | HextechGunblade       | SpearofShojin | ZekesHerald    | InfinityEdge   | BladeoftheRuinedKing |
-| **bow**       |           | RapidFirecannon | TitansResolve | RunaansHurricane | GuinsoosRageblade     | StatikkShiv   | ZzRotPortal    | LastWhisper    | Infiltrator          |
-| **vest**      |           |                 | BrambleVest   | SwordBreaker     | LocketoftheIronSolari | FrozenHeart   | RedBuff        | Shroud         | RebelMedal           |
-| **cloak**     |           |                 |               | DragonsClaw      | IonicSpark            | Chalice       | Zephyr         | Quicksilver    | Celestial            |
-| **rod**       |           |                 |               |                  | RabadonsDeathcap      | LudensEcho    | Morellonomicon | ArcaneGauntlet | BattlecastArmor      |
-| **tear**      |           |                 |               |                  |                       | BlueSentinel  | Redemption     | HandofJustice  | Starguardian         |
-| **belt**      |           |                 |               |                  |                       |               | WarmogsArmor   | Backhand       | Protector            |
-| **glove**     |           |                 |               |                  |                       |               |                | ThiefsGloves   | Darkstar             |
-| **spatula**   |           |                 |               |                  |                       |               |                |                | ForceofNature        |
+| **C1\C2**   | **sword** | **bow**         | **vest**      | **cloak**        | **rod**               | **tear**      | **belt**       | **glove**      | **spatula**          |
+| -           | -         | -               | -             | -                | -                     | -             | -              | -              | -                    |
+| **sword**   | LordsEdge | GiantSlayer     | GuardianAngel | Bloodthirster    | HextechGunblade       | SpearofShojin | ZekesHerald    | InfinityEdge   | BladeoftheRuinedKing |
+| **bow**     |           | RapidFirecannon | TitansResolve | RunaansHurricane | GuinsoosRageblade     | StatikkShiv   | ZzRotPortal    | LastWhisper    | Infiltrator          |
+| **vest**    |           |                 | BrambleVest   | SwordBreaker     | LocketoftheIronSolari | FrozenHeart   | RedBuff        | Shroud         | RebelMedal           |
+| **cloak**   |           |                 |               | DragonsClaw      | IonicSpark            | Chalice       | Zephyr         | Quicksilver    | Celestial            |
+| **rod**     |           |                 |               |                  | RabadonsDeathcap      | LudensEcho    | Morellonomicon | ArcaneGauntlet | BattlecastArmor      |
+| **tear**    |           |                 |               |                  |                       | BlueSentinel  | Redemption     | HandofJustice  | Starguardian         |
+| **belt**    |           |                 |               |                  |                       |               | WarmogsArmor   | Backhand       | Protector            |
+| **glove**   |           |                 |               |                  |                       |               |                | ThiefsGloves   | Darkstar             |
+| **spatula** |           |                 |               |                  |                       |               |                |                | ForceofNature        |

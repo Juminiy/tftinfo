@@ -46,30 +46,30 @@
 | Tormented | Kayn         | 5        |
 
 ### SynergyGrid
-| ****Origins\Classes**** | **Adept** | **Assassin** | **Brawler** | **Dazzler** | **Duelist** | **Hunter** | **Keeper**    | **Mage**    | **Mystic** | **Shade** | **Sharpshooter** | **Vanguard** |
-| -                       | -         | -            | -           | -           | -           | -          | -             | -           | -          | -         | -                | -            |
-| **Cultist**             |           | Pyke         |             |             | Kalista     |            | Elise         | TwistedFate | Zilean     | Evelynn   | Jhin             | Aatrox       |
-| **Divine**              | Irelia    |              | Warwick     | Lux         | Jax/LeeSin  | Warwick    |               |             |            |           |                  | MonkeyKing   |
-| **Dusk**                |           |              |             |             |             |            | Riven         | Lillia      | Cassiopeia |           | Vayne            | Thresh       |
-| **Elderwood**           |           |              | Maokai/Nunu | Ezreal      |             | Ashe       |               | Lulu/Veigar |            |           |                  | Hecarim      |
-| **Enlightened**         | Irelia    | Talon        |             | Morgana     | Fiora       |            |               | Nami        | Janna      |           |                  |              |
-| **Exile**               | Yone      |              |             |             | Yasuo       |            |               |             |            |           |                  |              |
-| **Fortune**             |           | Katarina     | TahmKench   |             |             |            |               | Annie       |            |           | Jinx             | Sejuani      |
-| **Moonlight**           |           | Diana        | Sylas       | Lissandra   |             | Aphelios   |               |             |            |           |                  |              |
-| **Ninja**               | Shen      | Akali        |             |             |             |            | Kennen        |             | Shen       | Zed       |                  |              |
-| **Spirit**              |           |              |             |             |             | Kindred    |               | Ahri        | Yuumi      |           | Teemo            |              |
-| **Warlord**             |           | Katarina     | Vi          |             | XinZhao     |            | Azir/JarvanIV |             |            |           | Nidalee          | Garen        |
+| **Origins\Classes** | **Adept** | **Assassin** | **Brawler** | **Dazzler** | **Duelist** | **Hunter** | **Keeper**    | **Mage**    | **Mystic** | **Shade** | **Sharpshooter** | **Vanguard** |
+| -                   | -         | -            | -           | -           | -           | -          | -             | -           | -          | -         | -                | -            |
+| **Cultist**         |           | Pyke         |             |             | Kalista     |            | Elise         | TwistedFate | Zilean     | Evelynn   | Jhin             | Aatrox       |
+| **Divine**          | Irelia    |              | Warwick     | Lux         | Jax/LeeSin  | Warwick    |               |             |            |           |                  | MonkeyKing   |
+| **Dusk**            |           |              |             |             |             |            | Riven         | Lillia      | Cassiopeia |           | Vayne            | Thresh       |
+| **Elderwood**       |           |              | Maokai/Nunu | Ezreal      |             | Ashe       |               | Lulu/Veigar |            |           |                  | Hecarim      |
+| **Enlightened**     | Irelia    | Talon        |             | Morgana     | Fiora       |            |               | Nami        | Janna      |           |                  |              |
+| **Exile**           | Yone      |              |             |             | Yasuo       |            |               |             |            |           |                  |              |
+| **Fortune**         |           | Katarina     | TahmKench   |             |             |            |               | Annie       |            |           | Jinx             | Sejuani      |
+| **Moonlight**       |           | Diana        | Sylas       | Lissandra   |             | Aphelios   |               |             |            |           |                  |              |
+| **Ninja**           | Shen      | Akali        |             |             |             |            | Kennen        |             | Shen       | Zed       |                  |              |
+| **Spirit**          |           |              |             |             |             | Kindred    |               | Ahri        | Yuumi      |           | Teemo            |              |
+| **Warlord**         |           | Katarina     | Vi          |             | XinZhao     |            | Azir/JarvanIV |             |            |           | Nidalee          | Garen        |
 
 ## Items
 ### CraftableGrid
-| ****C1\C2**** | **sword** | **bow**         | **vest**      | **cloak**        | **rod**               | **tear**      | **belt**       | **glove**      | **spatula**       |
-| -             | -         | -               | -             | -                | -                     | -             | -              | -              | -                 |
-| **sword**     | LordsEdge | GiantSlayer     | GuardianAngel | Bloodthirster    | HextechGunblade       | SpearofShojin | ZekesHerald    | InfinityEdge   | SwordoftheDivine  |
-| **bow**       |           | RapidFirecannon | TitansResolve | RunaansHurricane | GuinsoosRageblade     | StatikkShiv   | ZzRotPortal    | LastWhisper    | DuelistsZeal      |
-| **vest**      |           |                 | BrambleVest   | IronWill         | LocketoftheIronSolari | FrozenHeart   | SunfireCape    | Shroud         | VanguardsCuirass  |
-| **cloak**     |           |                 |               | DragonsClaw      | IonicSpark            | Chalice       | Zephyr         | Quicksilver    | ElderwoodHeirloom |
-| **rod**       |           |                 |               |                  | RabadonsDeathcap      | LudensEcho    | Morellonomicon | ArcaneGauntlet | MantleofDusk      |
-| **tear**      |           |                 |               |                  |                       | BlueSentinel  | Redemption     | HandofJustice  | MagesCap          |
-| **belt**      |           |                 |               |                  |                       |               | WarmogsArmor   | Backhand       | WarlordsBanner    |
-| **glove**     |           |                 |               |                  |                       |               |                | ThiefsGloves   | YoumuusGhostblade |
-| **spatula**   |           |                 |               |                  |                       |               |                |                | ForceofNature     |
+| **C1\C2**   | **sword** | **bow**         | **vest**      | **cloak**        | **rod**               | **tear**      | **belt**       | **glove**      | **spatula**       |
+| -           | -         | -               | -             | -                | -                     | -             | -              | -              | -                 |
+| **sword**   | LordsEdge | GiantSlayer     | GuardianAngel | Bloodthirster    | HextechGunblade       | SpearofShojin | ZekesHerald    | InfinityEdge   | SwordoftheDivine  |
+| **bow**     |           | RapidFirecannon | TitansResolve | RunaansHurricane | GuinsoosRageblade     | StatikkShiv   | ZzRotPortal    | LastWhisper    | DuelistsZeal      |
+| **vest**    |           |                 | BrambleVest   | IronWill         | LocketoftheIronSolari | FrozenHeart   | SunfireCape    | Shroud         | VanguardsCuirass  |
+| **cloak**   |           |                 |               | DragonsClaw      | IonicSpark            | Chalice       | Zephyr         | Quicksilver    | ElderwoodHeirloom |
+| **rod**     |           |                 |               |                  | RabadonsDeathcap      | LudensEcho    | Morellonomicon | ArcaneGauntlet | MantleofDusk      |
+| **tear**    |           |                 |               |                  |                       | BlueSentinel  | Redemption     | HandofJustice  | MagesCap          |
+| **belt**    |           |                 |               |                  |                       |               | WarmogsArmor   | Backhand       | WarlordsBanner    |
+| **glove**   |           |                 |               |                  |                       |               |                | ThiefsGloves   | YoumuusGhostblade |
+| **spatula** |           |                 |               |                  |                       |               |                |                | ForceofNature     |

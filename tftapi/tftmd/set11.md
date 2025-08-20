@@ -47,30 +47,30 @@
 | SpiritWalker | Udyr         | 5        |
 
 ### SynergyGrid
-| ****Origins\Classes**** | **Altruist** | **Arcanist**  | **Behemoth** | **Bruiser** | **Duelist** | **Exalted** | **Invoker**   | **Reaper** | **Sage**   | **Sniper** | **Trickshot** | **Warden** |
-| -                       | -            | -             | -            | -           | -           | -           | -             | -          | -          | -          | -             | -          |
-| **Dragonlord**          | Rakan        |               |              |             | LeeSin      |             | Janna         |            | Diana      |            | Xayah         |            |
-| **Dryad**               |              |               | Ornn         | RekSai      |             |             | Azir          | Kindred    |            |            |               | Gnar       |
-| **Fated**               |              | Ahri/Syndra   | Thresh       |             | Yasuo       |             |               | Kindred    |            | Aphelios   |               | Sett       |
-| **Fortune**             |              | Zoe           |              | Kobuko      | Tristana    |             | Annie         |            |            |            | Teemo         |            |
-| **Ghostly**             |              | Illaoi        | Shen         | Aatrox      |             |             |               | Kayn       | Morgana    | Caitlyn    |               | Illaoi     |
-| **Heavenly**            | Soraka       | Neeko         | Malphite     |             | Qiyana      |             |               | Khazix     | MonkeyKing |            |               |            |
-| **Inkshadow**           |              |               | Udyr         | Aatrox      | Volibear    |             |               |            |            | Senna      | Kaisa         | Jax        |
-| **Mythic**              |              | Neeko         | ChoGath      | TahmKench   |             |             | KogMaw/Lillia |            |            | KogMaw     | Bard          | Nautilus   |
-| **Porcelain**           |              | Lissandra/Lux |              |             |             |             |               |            |            | Ashe       |               | Amumu      |
-| **Storyweaver**         | Riven        | Zoe           |              | Galio/Riven | Irelia      |             |               |            | Zyra       |            | Sivir         | Garen      |
-| **Umbral**              |              |               | Yorick       | Sylas       | Darius      |             | Alune         | Yone       |            |            |               | Sett       |
+| **Origins\Classes** | **Altruist** | **Arcanist**  | **Behemoth** | **Bruiser** | **Duelist** | **Exalted** | **Invoker**   | **Reaper** | **Sage**   | **Sniper** | **Trickshot** | **Warden** |
+| -                   | -            | -             | -            | -           | -           | -           | -             | -          | -          | -          | -             | -          |
+| **Dragonlord**      | Rakan        |               |              |             | LeeSin      |             | Janna         |            | Diana      |            | Xayah         |            |
+| **Dryad**           |              |               | Ornn         | RekSai      |             |             | Azir          | Kindred    |            |            |               | Gnar       |
+| **Fated**           |              | Ahri/Syndra   | Thresh       |             | Yasuo       |             |               | Kindred    |            | Aphelios   |               | Sett       |
+| **Fortune**         |              | Zoe           |              | Kobuko      | Tristana    |             | Annie         |            |            |            | Teemo         |            |
+| **Ghostly**         |              | Illaoi        | Shen         | Aatrox      |             |             |               | Kayn       | Morgana    | Caitlyn    |               | Illaoi     |
+| **Heavenly**        | Soraka       | Neeko         | Malphite     |             | Qiyana      |             |               | Khazix     | MonkeyKing |            |               |            |
+| **Inkshadow**       |              |               | Udyr         | Aatrox      | Volibear    |             |               |            |            | Senna      | Kaisa         | Jax        |
+| **Mythic**          |              | Neeko         | ChoGath      | TahmKench   |             |             | KogMaw/Lillia |            |            | KogMaw     | Bard          | Nautilus   |
+| **Porcelain**       |              | Lissandra/Lux |              |             |             |             |               |            |            | Ashe       |               | Amumu      |
+| **Storyweaver**     | Riven        | Zoe           |              | Galio/Riven | Irelia      |             |               |            | Zyra       |            | Sivir         | Garen      |
+| **Umbral**          |              |               | Yorick       | Sylas       | Darius      |             | Alune         | Yone       |            |            |               | Sett       |
 
 ## Items
 ### CraftableGrid
-| ****C1\C2**** | **sword** | **bow**     | **vest**      | **cloak**        | **rod**           | **tear**      | **belt**       | **glove**      | **spatula**       |
-| -             | -         | -           | -             | -                | -                 | -             | -              | -              | -                 |
-| **sword**     | LordsEdge | GiantSlayer | GuardianAngel | Bloodthirster    | HextechGunblade   | SpearofShojin | SteraksGage    | InfinityEdge   | GhostlyEmblem     |
-| **bow**       |           | RedBuffItem | TitansResolve | RunaansHurricane | GuinsoosRageblade | StatikkShiv   | NashorsTooth   | LastWhisper    | PorcelainEmblem   |
-| **vest**      |           |             | BrambleVest   | IronWill         | Crownguard        | Fimbulwinter  | SunfireCape    | SteadfastHeart | StoryweaverEmblem |
-| **cloak**     |           |             |               | DragonsClaw      | IonicSpark        | AdaptiveHelm  | Evenshroud     | Quicksilver    | HeavenlyEmblem    |
-| **rod**       |           |             |               |                  | RabadonsDeathcap  | LudensEcho    | Morellonomicon | ArcaneGauntlet | FatedEmblem       |
-| **tear**      |           |             |               |                  |                   | BlueSentinel  | Redemption     | HandofJustice  | MythicEmblem      |
-| **belt**      |           |             |               |                  |                   |               | WarmogsArmor   | Guardbreaker   | DryadEmblem       |
-| **glove**     |           |             |               |                  |                   |               |                | ThiefsGloves   | UmbralEmblem      |
-| **spatula**   |           |             |               |                  |                   |               |                |                | ForceofNature     |
+| **C1\C2**   | **sword** | **bow**     | **vest**      | **cloak**        | **rod**           | **tear**      | **belt**       | **glove**      | **spatula**       |
+| -           | -         | -           | -             | -                | -                 | -             | -              | -              | -                 |
+| **sword**   | LordsEdge | GiantSlayer | GuardianAngel | Bloodthirster    | HextechGunblade   | SpearofShojin | SteraksGage    | InfinityEdge   | GhostlyEmblem     |
+| **bow**     |           | RedBuffItem | TitansResolve | RunaansHurricane | GuinsoosRageblade | StatikkShiv   | NashorsTooth   | LastWhisper    | PorcelainEmblem   |
+| **vest**    |           |             | BrambleVest   | IronWill         | Crownguard        | Fimbulwinter  | SunfireCape    | SteadfastHeart | StoryweaverEmblem |
+| **cloak**   |           |             |               | DragonsClaw      | IonicSpark        | AdaptiveHelm  | Evenshroud     | Quicksilver    | HeavenlyEmblem    |
+| **rod**     |           |             |               |                  | RabadonsDeathcap  | LudensEcho    | Morellonomicon | ArcaneGauntlet | FatedEmblem       |
+| **tear**    |           |             |               |                  |                   | BlueSentinel  | Redemption     | HandofJustice  | MythicEmblem      |
+| **belt**    |           |             |               |                  |                   |               | WarmogsArmor   | Guardbreaker   | DryadEmblem       |
+| **glove**   |           |             |               |                  |                   |               |                | ThiefsGloves   | UmbralEmblem      |
+| **spatula** |           |             |               |                  |                   |               |                |                | ForceofNature     |

@@ -220,21 +220,13 @@ def trait_compare(setof0: str, trtkey0: str, setof1: str, trtkey1: str):
 # Parse TO Markdown (text version and icon version)
 def parse_rewards():
     for setof, setcfg in set_rewards_config.items():
-        if setof in ['set15', 'set14', 'set12', 'set11', 'set10', 'set9', 'set8']:
-            parse_set_rewards_scheme(setof, setcfg, 'desc')
-            parse_set_rewards_scheme(setof, setcfg, 'comic')
+        # parse_set_rewards_scheme(setof, setcfg, 'desc')
+        parse_set_rewards_scheme(setof, setcfg, 'comic')
+        # parse_set_rewards_scheme_sparse(setof, setcfg, 'desc')
+        parse_set_rewards_scheme_sparse(setof, setcfg, 'comic')
 
 def parse_set_rewards_scheme(setof:str, setcfgkeys:dict[str,Any], outputtyp:Literal['desc','comic']):
-    stacklevel:list[dict[str,Any]]=[]
-    if not os.path.exists(f'tftraw/specs/{setof}-rewards-hard.json'):
-        return
-    with open(f'tftraw/specs/{setof}-rewards-hard.json') as rwdfile:
-        rwdsobj = loads(rwdfile.read())
-        for stkkeyofkey in setcfgkeys['stacklist_keys']:
-            rwdsobj=rwdsobj[stkkeyofkey]
-        stacklevel=rwdsobj
-        rwdfile.close()
-    
+    stacklevel=get_set_rewards_hard_objlist(setof, setcfgkeys)
     rwdgrid2d:list[list[str]]=[]
     for eachstk in stacklevel:
         rwdrow:list[str]=[eachstk[setcfgkeys['stacked_key']]]
@@ -254,8 +246,44 @@ def parse_set_rewards_scheme(setof:str, setcfgkeys:dict[str,Any], outputtyp:Lite
         )
         rwdmd.close()
 
-def parse_set_rewards_scheme_v2(setof:str, setcfgkeys:dict[str,Any],outputtyp:Literal['desc','comic']):
-    pass
+def parse_set_rewards_scheme_sparse(setof:str, setcfgkeys:dict[str,Any],outputtyp:Literal['desc','comic']):
+    stacklevel=get_set_rewards_hard_objlist(setof, setcfgkeys)
+
+    with open(f'tftmd/rewards/{setof}-{outputtyp}-sparse.md', 'w+') as rwdmd:
+        stkkey=setcfgkeys['stacked_key']
+        rwdkey=setcfgkeys['rewards_key']
+        oddskey=setcfgkeys['rewards_odds_key']
+        rwdlistkey=setcfgkeys['rewards_list_key']
+        for eachstk in stacklevel:
+            rwdgrid2d:list[list[str]]=[]
+            rwdmd.write(f'# {stkkey}: {eachstk[stkkey]}\n')
+            for rwd in eachstk[rwdkey]:
+                rwdgrid2d.append(
+                    [rwd[oddskey]]+[explain_rewards(setof, rwdraw, outputtyp) for rwdraw in rwd[rwdlistkey]]
+                )
+
+            rwdmd.write(
+                Grid2d(
+                    grid2d=rwdgrid2d, 
+                    row0=[oddskey, rwdkey],
+                    md_hll=True,
+                ).__str_md__()
+            )
+            rwdmd.write('\n')
+        rwdmd.close()
+
+def get_set_rewards_hard_objlist(setof:str, setcfgkeys:dict[str,Any]) -> list[dict[str,Any]]:
+    stacklevel:list[dict[str,Any]]=[]
+    setfilename=f'tftraw/specs/{setof}-rewards-hard.json'
+    if not os.path.exists(setfilename):
+        return []
+    with open(setfilename) as rwdfile:
+        rwdsobj = loads(rwdfile.read())
+        for stkkeyofkey in setcfgkeys['stacklist_keys']:
+            rwdsobj=rwdsobj[stkkeyofkey]
+        stacklevel=rwdsobj
+        rwdfile.close()
+    return stacklevel
 
 def explain_rewards(setof: str, desc:str, outputtyp:Literal['desc','comic']) -> str:
     """

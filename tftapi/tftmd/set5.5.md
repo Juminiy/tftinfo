@@ -40,29 +40,29 @@
 | Victorious | Garen        | 5        |
 
 ### SynergyGrid
-| ****Origins\Classes**** | **Assassin** | **Brawler** | **Cannoneer** | **Cavalier** | **Invoker** | **Knight** | **Legionnaire** | **Mystic**   | **Ranger** | **Renewer**  | **Skirmisher** | **Spellweaver** |
-| -                       | -            | -           | -             | -            | -           | -          | -               | -            | -          | -            | -              | -               |
-| **Abomination**         |              | Nunu        |               |              |             |            | Kalista         | Fiddlesticks |            |              |                | Brand           |
-| **Dawnbringer**         | Khazix       | Gragas      |               |              | Karma       | Garen      | Riven           |              |            | Soraka       | Nidalee        |                 |
-| **Draconic**            |              | Sett        |               |              |             | Galio      |                 |              | Ashe       | Heimerdinger | Udyr           | Zyra            |
-| **Forgotten**           | Viego        |             | MissFortune   | Hecarim      |             | Thresh     | Draven          |              | Vayne      |              | Viego          |                 |
-| **Hellion**             |              |             | Tristana      | Kled         | Teemo       | Poppy      |                 | Lulu         |            |              | Kennen         | Ziggs           |
-| **Ironclad**            |              |             |               | Rell         |             | Nautilus   |                 |              |            |              | Jax            |                 |
-| **Nightbringer**        | Diana        | Sejuani     |               | Sejuani      |             |            | Yasuo           |              | Aphelios   | Vladimir     | LeeSin         |                 |
-| **Redeemed**            |              |             |               | Rell         | Syndra      | Leona      | Aatrox/Kayle    | Lux          | Varus      |              |                | Velkoz          |
-| **Revenant**            | Nocturne     | Volibear    |               |              | Ivern       |            |                 | Fiddlesticks |            | Ivern        |                |                 |
-| **Sentinel**            | Pyke         |             | Lucian/Senna  |              |             | Galio      | Irelia          |              | Akshan     | Rakan        | Irelia/Olaf    |                 |
+| **Origins\Classes** | **Assassin** | **Brawler** | **Cannoneer** | **Cavalier** | **Invoker** | **Knight** | **Legionnaire** | **Mystic**   | **Ranger** | **Renewer**  | **Skirmisher** | **Spellweaver** |
+| -                   | -            | -           | -             | -            | -           | -          | -               | -            | -          | -            | -              | -               |
+| **Abomination**     |              | Nunu        |               |              |             |            | Kalista         | Fiddlesticks |            |              |                | Brand           |
+| **Dawnbringer**     | Khazix       | Gragas      |               |              | Karma       | Garen      | Riven           |              |            | Soraka       | Nidalee        |                 |
+| **Draconic**        |              | Sett        |               |              |             | Galio      |                 |              | Ashe       | Heimerdinger | Udyr           | Zyra            |
+| **Forgotten**       | Viego        |             | MissFortune   | Hecarim      |             | Thresh     | Draven          |              | Vayne      |              | Viego          |                 |
+| **Hellion**         |              |             | Tristana      | Kled         | Teemo       | Poppy      |                 | Lulu         |            |              | Kennen         | Ziggs           |
+| **Ironclad**        |              |             |               | Rell         |             | Nautilus   |                 |              |            |              | Jax            |                 |
+| **Nightbringer**    | Diana        | Sejuani     |               | Sejuani      |             |            | Yasuo           |              | Aphelios   | Vladimir     | LeeSin         |                 |
+| **Redeemed**        |              |             |               | Rell         | Syndra      | Leona      | Aatrox/Kayle    | Lux          | Varus      |              |                | Velkoz          |
+| **Revenant**        | Nocturne     | Volibear    |               |              | Ivern       |            |                 | Fiddlesticks |            | Ivern        |                |                 |
+| **Sentinel**        | Pyke         |             | Lucian/Senna  |              |             | Galio      | Irelia          |              | Akshan     | Rakan        | Irelia/Olaf    |                 |
 
 ## Items
 ### CraftableGrid
-| ****C1\C2**** | **sword** | **bow**         | **vest**      | **cloak**        | **rod**               | **tear**      | **belt**       | **glove**      | **spatula**       |
-| -             | -         | -               | -             | -                | -                     | -             | -              | -              | -                 |
-| **sword**     | LordsEdge | GiantSlayer     | GuardianAngel | Bloodthirster    | HextechGunblade       | SpearofShojin | ZekesHerald    | InfinityEdge   | SwordoftheDivine  |
-| **bow**       |           | RapidFirecannon | TitansResolve | RunaansHurricane | GuinsoosRageblade     | StatikkShiv   | ZzRotPortal    | LastWhisper    | DuelistsZeal      |
-| **vest**      |           |                 | BrambleVest   | IronWill         | LocketoftheIronSolari | FrozenHeart   | SunfireCape    | Shroud         | VanguardsCuirass  |
-| **cloak**     |           |                 |               | DragonsClaw      | IonicSpark            | Chalice       | Zephyr         | Quicksilver    | ElderwoodHeirloom |
-| **rod**       |           |                 |               |                  | RabadonsDeathcap      | LudensEcho    | Morellonomicon | ArcaneGauntlet | MantleofDusk      |
-| **tear**      |           |                 |               |                  |                       | BlueSentinel  | Redemption     | HandofJustice  | MagesCap          |
-| **belt**      |           |                 |               |                  |                       |               | WarmogsArmor   | Backhand       | WarlordsBanner    |
-| **glove**     |           |                 |               |                  |                       |               |                | ThiefsGloves   | YoumuusGhostblade |
-| **spatula**   |           |                 |               |                  |                       |               |                |                | ForceofNature     |
+| **C1\C2**   | **sword** | **bow**         | **vest**      | **cloak**        | **rod**               | **tear**      | **belt**       | **glove**      | **spatula**       |
+| -           | -         | -               | -             | -                | -                     | -             | -              | -              | -                 |
+| **sword**   | LordsEdge | GiantSlayer     | GuardianAngel | Bloodthirster    | HextechGunblade       | SpearofShojin | ZekesHerald    | InfinityEdge   | SwordoftheDivine  |
+| **bow**     |           | RapidFirecannon | TitansResolve | RunaansHurricane | GuinsoosRageblade     | StatikkShiv   | ZzRotPortal    | LastWhisper    | DuelistsZeal      |
+| **vest**    |           |                 | BrambleVest   | IronWill         | LocketoftheIronSolari | FrozenHeart   | SunfireCape    | Shroud         | VanguardsCuirass  |
+| **cloak**   |           |                 |               | DragonsClaw      | IonicSpark            | Chalice       | Zephyr         | Quicksilver    | ElderwoodHeirloom |
+| **rod**     |           |                 |               |                  | RabadonsDeathcap      | LudensEcho    | Morellonomicon | ArcaneGauntlet | MantleofDusk      |
+| **tear**    |           |                 |               |                  |                       | BlueSentinel  | Redemption     | HandofJustice  | MagesCap          |
+| **belt**    |           |                 |               |                  |                       |               | WarmogsArmor   | Backhand       | WarlordsBanner    |
+| **glove**   |           |                 |               |                  |                       |               |                | ThiefsGloves   | YoumuusGhostblade |
+| **spatula** |           |                 |               |                  |                       |               |                |                | ForceofNature     |

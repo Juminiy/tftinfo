@@ -46,30 +46,30 @@
 | Virus       | Zac          | 5        |
 
 ### SynergyGrid
-| ****Origins\Classes**** | **AMP** | **Bastion** | **Bruiser** | **Dynamo**  | **Executioner** | **Marksman** | **Rapidfire** | **Slayer** | **Strategist** | **Techie**   | **Vanguard** |
-| -                       | -       | -           | -           | -           | -               | -            | -             | -          | -              | -            | -            |
-| **AnimaSquad**          | Yuumi   | Illaoi      |             | Aurora      |                 | Xayah        |               | Vayne      | Yuumi          | Seraphine    | Leona/Sylas  |
-| **BoomBots**            |         |             | Chogath     |             | Urgot           |              | KogMaw        |            |                | Fiddlesticks | Skarner      |
-| **Cyberboss**           |         | Poppy       | Kobuko      |             |                 |              |               |            | Ziggs          | Veigar       |              |
-| **Cypher**              |         | Galio       |             |             |                 |              | Draven        | Zed        | Leblanc        |              | Vi           |
-| **Divinicorp**          |         | Renekton    | Gragas      | Morgana     | Vex             |              |               | Senna      |                |              | Rhaast       |
-| **Exotech**             | Naafiri | Jax/Sejuani | Mordekaiser | Jhin        | Varus           | Jhin         | Zeri          |            |                | Mordekaiser  |              |
-| **GoldenOx**            | Annie   |             | Alistar     |             | Graves          | Aphelios     |               | JarvanIV   |                | Viego        | JarvanIV     |
-| **Nitro**               | Nidalee | Shyvana     |             | Elise       |                 | Kindred      | Kindred       |            |                | Shyvana      |              |
-| **StreetDemon**         | Samira  |             | DrMundo     |             | Rengar          | Jinx         |               | DrMundo    | Ekko/Neeko     | Brand/Zyra   |              |
-| **Syndicate**           |         |             | Darius      | MissFortune |                 |              | TwistedFate   | Shaco      |                |              | Braum        |
+| **Origins\Classes** | **AMP** | **Bastion** | **Bruiser** | **Dynamo**  | **Executioner** | **Marksman** | **Rapidfire** | **Slayer** | **Strategist** | **Techie**   | **Vanguard** |
+| -                   | -       | -           | -           | -           | -               | -            | -             | -          | -              | -            | -            |
+| **AnimaSquad**      | Yuumi   | Illaoi      |             | Aurora      |                 | Xayah        |               | Vayne      | Yuumi          | Seraphine    | Leona/Sylas  |
+| **BoomBots**        |         |             | Chogath     |             | Urgot           |              | KogMaw        |            |                | Fiddlesticks | Skarner      |
+| **Cyberboss**       |         | Poppy       | Kobuko      |             |                 |              |               |            | Ziggs          | Veigar       |              |
+| **Cypher**          |         | Galio       |             |             |                 |              | Draven        | Zed        | Leblanc        |              | Vi           |
+| **Divinicorp**      |         | Renekton    | Gragas      | Morgana     | Vex             |              |               | Senna      |                |              | Rhaast       |
+| **Exotech**         | Naafiri | Jax/Sejuani | Mordekaiser | Jhin        | Varus           | Jhin         | Zeri          |            |                | Mordekaiser  |              |
+| **GoldenOx**        | Annie   |             | Alistar     |             | Graves          | Aphelios     |               | JarvanIV   |                | Viego        | JarvanIV     |
+| **Nitro**           | Nidalee | Shyvana     |             | Elise       |                 | Kindred      | Kindred       |            |                | Shyvana      |              |
+| **StreetDemon**     | Samira  |             | DrMundo     |             | Rengar          | Jinx         |               | DrMundo    | Ekko/Neeko     | Brand/Zyra   |              |
+| **Syndicate**       |         |             | Darius      | MissFortune |                 |              | TwistedFate   | Shaco      |                |              | Braum        |
 
 ## Items
 ### CraftableGrid
-| ****C1\C2**** | **sword** | **bow**     | **vest**      | **cloak**        | **rod**           | **tear**      | **belt**       | **glove**      | **spatula**       | **pan**           |
-| -             | -         | -           | -             | -                | -                 | -             | -              | -              | -                 | -                 |
-| **sword**     | LordsEdge | GiantSlayer | GuardianAngel | Bloodthirster    | HextechGunblade   | SpearofShojin | SteraksGage    | InfinityEdge   | StrategistEmblem  | MarksmanEmblem    |
-| **bow**       |           | RedBuffItem | TitansResolve | RunaansHurricane | GuinsoosRageblade | VoidStaff     | NashorsTooth   | LastWhisper    | DivinicorpEmblem  | RapidfireEmblem   |
-| **vest**      |           |             | BrambleVest   | IronWill         | Crownguard        | Fimbulwinter  | SunfireCape    | SteadfastHeart | BoomBotsEmblem    | BastionEmblem     |
-| **cloak**     |           |             |               | DragonsClaw      | IonicSpark        | AdaptiveHelm  | Evenshroud     | Quicksilver    | SyndicateEmblem   | SlayerEmblem      |
-| **rod**       |           |             |               |                  | RabadonsDeathcap  | LudensEcho    | Morellonomicon | ArcaneGauntlet | StreetDemonEmblem | TechieEmblem      |
-| **tear**      |           |             |               |                  |                   | BlueSentinel  | Redemption     | HandofJustice  | AnimaSquadEmblem  | DynamoEmblem      |
-| **belt**      |           |             |               |                  |                   |               | WarmogsArmor   | Guardbreaker   | GoldenOxEmblem    | BruiserEmblem     |
-| **glove**     |           |             |               |                  |                   |               |                | ThiefsGloves   | ExotechEmblem     | ExecutionerEmblem |
-| **spatula**   |           |             |               |                  |                   |               |                |                | ForceofNature     | TacticiansCape    |
-| **pan**       |           |             |               |                  |                   |               |                |                |                   | TacticiansShield  |
+| **C1\C2**   | **sword** | **bow**     | **vest**      | **cloak**        | **rod**           | **tear**      | **belt**       | **glove**      | **spatula**       | **pan**           |
+| -           | -         | -           | -             | -                | -                 | -             | -              | -              | -                 | -                 |
+| **sword**   | LordsEdge | GiantSlayer | GuardianAngel | Bloodthirster    | HextechGunblade   | SpearofShojin | SteraksGage    | InfinityEdge   | StrategistEmblem  | MarksmanEmblem    |
+| **bow**     |           | RedBuffItem | TitansResolve | RunaansHurricane | GuinsoosRageblade | VoidStaff     | NashorsTooth   | LastWhisper    | DivinicorpEmblem  | RapidfireEmblem   |
+| **vest**    |           |             | BrambleVest   | IronWill         | Crownguard        | Fimbulwinter  | SunfireCape    | SteadfastHeart | BoomBotsEmblem    | BastionEmblem     |
+| **cloak**   |           |             |               | DragonsClaw      | IonicSpark        | AdaptiveHelm  | Evenshroud     | Quicksilver    | SyndicateEmblem   | SlayerEmblem      |
+| **rod**     |           |             |               |                  | RabadonsDeathcap  | LudensEcho    | Morellonomicon | ArcaneGauntlet | StreetDemonEmblem | TechieEmblem      |
+| **tear**    |           |             |               |                  |                   | BlueSentinel  | Redemption     | HandofJustice  | AnimaSquadEmblem  | DynamoEmblem      |
+| **belt**    |           |             |               |                  |                   |               | WarmogsArmor   | Guardbreaker   | GoldenOxEmblem    | BruiserEmblem     |
+| **glove**   |           |             |               |                  |                   |               |                | ThiefsGloves   | ExotechEmblem     | ExecutionerEmblem |
+| **spatula** |           |             |               |                  |                   |               |                |                | ForceofNature     | TacticiansCape    |
+| **pan**     |           |             |               |                  |                   |               |                |                |                   | TacticiansShield  |

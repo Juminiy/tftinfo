@@ -42,30 +42,30 @@
 | YordleLord  | Veigar       | 5        |
 
 ### SynergyGrid
-| ****Origins\Classes**** | **Arcanist** | **Assassin** | **Bodyguard** | **Bruiser**      | **Challenger**     | **Colossus** | **Enchanter** | **Innovator** | **Scholar** | **Sniper**  | **Striker**    | **Twinshot** |
-| -                       | -            | -            | -             | -                | -                  | -            | -             | -             | -           | -           | -              | -            |
-| **Chemtech**            | Viktor       | Twitch       |               | Zac              | Tryndamere/Warwick |              |               | Singed        | Renata      |             |                |              |
-| **Clockwork**           |              |              |               |                  | Camille            |              | Orianna       | Zilean        |             | Jhin        |                |              |
-| **Debonair**            | Brand        | Talon        | Leona         |                  | Draven             |              |               |               | Syndra      | Zeri        |                |              |
-| **Enforcer**            |              |              |               | Vi/Sejuani       |                    |              |               | Jayce         |             | Caitlyn     |                |              |
-| **Hextech**             | Swain        | Nocturne     |               | Sejuani          |                    | Alistar      |               |               |             |             | JarvanIV/Sivir | Lucian       |
-| **Mercenary**           |              |              |               | Illaoi/TahmKench | Quinn              |              |               |               |             | MissFortune |                | Gangplank    |
-| **Mutant**              | Malzahar     | Khazix       |               | ChoGath/RekSai   | KaiSa              | ChoGath      |               |               | Kassadin    |             | RekSai         |              |
-| **Scrap**               | Ziggs        | Ekko         | Blitzcrank    |                  |                    |              |               | Ekko/Ezreal   |             |             | Irelia         | Jinx         |
-| **Socialite**           |              |              | Galio         |                  |                    | Galio        | Senna         | Seraphine     |             |             | Gnar           |              |
-| **Syndicate**           | Ahri         |              | Braum/Darius  |                  |                    |              | Morgana       |               | Zyra        | Ashe        |                |              |
-| **Yordle**              | Vex/Ziggs    |              | Poppy         |                  |                    |              | Lulu          |               |             |             | Gnar           | Corki        |
+| **Origins\Classes** | **Arcanist** | **Assassin** | **Bodyguard** | **Bruiser**      | **Challenger**     | **Colossus** | **Enchanter** | **Innovator** | **Scholar** | **Sniper**  | **Striker**    | **Twinshot** |
+| -                   | -            | -            | -             | -                | -                  | -            | -             | -             | -           | -           | -              | -            |
+| **Chemtech**        | Viktor       | Twitch       |               | Zac              | Tryndamere/Warwick |              |               | Singed        | Renata      |             |                |              |
+| **Clockwork**       |              |              |               |                  | Camille            |              | Orianna       | Zilean        |             | Jhin        |                |              |
+| **Debonair**        | Brand        | Talon        | Leona         |                  | Draven             |              |               |               | Syndra      | Zeri        |                |              |
+| **Enforcer**        |              |              |               | Vi/Sejuani       |                    |              |               | Jayce         |             | Caitlyn     |                |              |
+| **Hextech**         | Swain        | Nocturne     |               | Sejuani          |                    | Alistar      |               |               |             |             | JarvanIV/Sivir | Lucian       |
+| **Mercenary**       |              |              |               | Illaoi/TahmKench | Quinn              |              |               |               |             | MissFortune |                | Gangplank    |
+| **Mutant**          | Malzahar     | Khazix       |               | ChoGath/RekSai   | KaiSa              | ChoGath      |               |               | Kassadin    |             | RekSai         |              |
+| **Scrap**           | Ziggs        | Ekko         | Blitzcrank    |                  |                    |              |               | Ekko/Ezreal   |             |             | Irelia         | Jinx         |
+| **Socialite**       |              |              | Galio         |                  |                    | Galio        | Senna         | Seraphine     |             |             | Gnar           |              |
+| **Syndicate**       | Ahri         |              | Braum/Darius  |                  |                    |              | Morgana       |               | Zyra        | Ashe        |                |              |
+| **Yordle**          | Vex/Ziggs    |              | Poppy         |                  |                    |              | Lulu          |               |             |             | Gnar           | Corki        |
 
 ## Items
 ### CraftableGrid
-| ****C1\C2**** | **sword** | **bow**         | **vest**      | **cloak**        | **rod**               | **tear**      | **belt**       | **glove**      | **spatula**       |
-| -             | -         | -               | -             | -                | -                     | -             | -              | -              | -                 |
-| **sword**     | LordsEdge | GiantSlayer     | GuardianAngel | Bloodthirster    | HextechGunblade       | SpearofShojin | ZekesHerald    | InfinityEdge   | SwordoftheDivine  |
-| **bow**       |           | RapidFirecannon | TitansResolve | RunaansHurricane | GuinsoosRageblade     | StatikkShiv   | ZzRotPortal    | LastWhisper    | DuelistsZeal      |
-| **vest**      |           |                 | BrambleVest   | IronWill         | LocketoftheIronSolari | FrozenHeart   | SunfireCape    | Shroud         | VanguardsCuirass  |
-| **cloak**     |           |                 |               | DragonsClaw      | IonicSpark            | Chalice       | Zephyr         | Quicksilver    | ElderwoodHeirloom |
-| **rod**       |           |                 |               |                  | RabadonsDeathcap      | LudensEcho    | Morellonomicon | ArcaneGauntlet | MantleofDusk      |
-| **tear**      |           |                 |               |                  |                       | BlueSentinel  | Redemption     | HandofJustice  | MagesCap          |
-| **belt**      |           |                 |               |                  |                       |               | WarmogsArmor   | Backhand       | WarlordsBanner    |
-| **glove**     |           |                 |               |                  |                       |               |                | ThiefsGloves   | YoumuusGhostblade |
-| **spatula**   |           |                 |               |                  |                       |               |                |                | ForceofNature     |
+| **C1\C2**   | **sword** | **bow**         | **vest**      | **cloak**        | **rod**               | **tear**      | **belt**       | **glove**      | **spatula**       |
+| -           | -         | -               | -             | -                | -                     | -             | -              | -              | -                 |
+| **sword**   | LordsEdge | GiantSlayer     | GuardianAngel | Bloodthirster    | HextechGunblade       | SpearofShojin | ZekesHerald    | InfinityEdge   | SwordoftheDivine  |
+| **bow**     |           | RapidFirecannon | TitansResolve | RunaansHurricane | GuinsoosRageblade     | StatikkShiv   | ZzRotPortal    | LastWhisper    | DuelistsZeal      |
+| **vest**    |           |                 | BrambleVest   | IronWill         | LocketoftheIronSolari | FrozenHeart   | SunfireCape    | Shroud         | VanguardsCuirass  |
+| **cloak**   |           |                 |               | DragonsClaw      | IonicSpark            | Chalice       | Zephyr         | Quicksilver    | ElderwoodHeirloom |
+| **rod**     |           |                 |               |                  | RabadonsDeathcap      | LudensEcho    | Morellonomicon | ArcaneGauntlet | MantleofDusk      |
+| **tear**    |           |                 |               |                  |                       | BlueSentinel  | Redemption     | HandofJustice  | MagesCap          |
+| **belt**    |           |                 |               |                  |                       |               | WarmogsArmor   | Backhand       | WarlordsBanner    |
+| **glove**   |           |                 |               |                  |                       |               |                | ThiefsGloves   | YoumuusGhostblade |
+| **spatula** |           |                 |               |                  |                       |               |                |                | ForceofNature     |

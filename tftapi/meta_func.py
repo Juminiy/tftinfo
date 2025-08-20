@@ -125,6 +125,11 @@ class Grid2d():
             res.append(resv)
         return res
 
+    def md_value_hll(self, valtxt:str) -> str:
+        return '' if len(valtxt)==0 \
+        else valtxt if valtxt.startswith('**') and valtxt.endswith('**') \
+                    else f'**{valtxt}**'
+
     def md_conv2txt(self, grid2d: list[list[str]], row0: list[str]=[], line0: list[str]=[], hdr00: str='') -> str:
         if len(row0) > 0:
             grid2d.insert(0, row0)
@@ -133,12 +138,12 @@ class Grid2d():
                 for i in range(len(grid2d)):
                     grid2d[i].insert(0, line0[i])
 
-        # add *txt* for line0, row0
+        # add **txt** for line0, row0
         if self.md_hll:
             for lineidx,_ in enumerate(grid2d[0]):
-                grid2d[0][lineidx]=f'**{grid2d[0][lineidx]}**' if len(grid2d[0][lineidx]) > 0 else ''
+                grid2d[0][lineidx]=self.md_value_hll(grid2d[0][lineidx])
             for rowidx in range(len(grid2d)):
-                grid2d[rowidx][0]=f'**{grid2d[rowidx][0]}**' if len(grid2d[rowidx][0]) > 0 else ''
+                grid2d[rowidx][0]=self.md_value_hll(grid2d[rowidx][0])
 
         # add | - | for markdown Table
         grid2d.insert(1, ['-' for _ in grid2d[0]])

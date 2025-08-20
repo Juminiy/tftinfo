@@ -47,33 +47,33 @@
 | Avatar    | Lux          | 7        |
 
 ### SynergyGrid
-| ****Origins\Classes**** | **Assassin** | **Berserker** | **Blademaster** | **Druid**          | **Mage**        | **Mystic** | **Predator** | **Ranger**    | **Soulbound** | **Summoner** | **Warden**      |
-| -                       | -            | -             | -               | -                  | -               | -          | -            | -             | -             | -            | -               |
-| **Crystal**             |              |               |                 |                    |                 |            | Skarner      | Ashe          |               |              | Taric           |
-| **Desert**              | Khazix       | Renekton      | Sivir           |                    |                 |            |              |               |               | Azir         |                 |
-| **Electric**            | Zed          | Volibear      |                 |                    |                 |            |              |               |               | Zed          | Ornn            |
-| **Forest**              | Leblanc      |               |                 | Ivern/Maokai/Neeko | Leblanc         |            |              |               |               |              |                 |
-| **Glacial**             |              | Olaf/Volibear |                 |                    |                 |            | Warwick      | Ezreal        |               |              | Braum           |
-| **Inferno**             | Diana/Qiyana |               |                 |                    | Brand           |            |              | Kindred/Varus |               | Annie/Zyra   | Amumu           |
-| **Light**               |              | Jax           | Aatrox          |                    |                 | Soraka     |              | Vayne         | Lucian        | Yorick       | Nasus           |
-| **Lunar**               |              |               |                 |                    |                 | Karma      |              |               |               |              | Leona           |
-| **Mountain**            | Qiyana       |               |                 |                    | Taliyah         |            |              |               |               |              | Malphite        |
-| **Ocean**               | Qiyana       |               |                 |                    | Syndra/Vladimir | Nami       |              |               |               |              | Nautilus/Thresh |
-| **Poison**              |              | DrMundo       |                 |                    |                 |            | KogMaw       | Twitch        |               |              |                 |
-| **Shadow**              |              | Sion          | MasterYi        |                    | Veigar          | MasterYi   |              | Kindred       | Senna         | Malzahar     |                 |
-| **Steel**               | Nocturne     |               |                 |                    |                 |            | RekSai       |               |               |              |                 |
-| **Wind**                | Qiyana       |               | Yasuo           |                    |                 | Janna      |              |               |               |              |                 |
+| **Origins\Classes** | **Assassin** | **Berserker** | **Blademaster** | **Druid**          | **Mage**        | **Mystic** | **Predator** | **Ranger**    | **Soulbound** | **Summoner** | **Warden**      |
+| -                   | -            | -             | -               | -                  | -               | -          | -            | -             | -             | -            | -               |
+| **Crystal**         |              |               |                 |                    |                 |            | Skarner      | Ashe          |               |              | Taric           |
+| **Desert**          | Khazix       | Renekton      | Sivir           |                    |                 |            |              |               |               | Azir         |                 |
+| **Electric**        | Zed          | Volibear      |                 |                    |                 |            |              |               |               | Zed          | Ornn            |
+| **Forest**          | Leblanc      |               |                 | Ivern/Maokai/Neeko | Leblanc         |            |              |               |               |              |                 |
+| **Glacial**         |              | Olaf/Volibear |                 |                    |                 |            | Warwick      | Ezreal        |               |              | Braum           |
+| **Inferno**         | Diana/Qiyana |               |                 |                    | Brand           |            |              | Kindred/Varus |               | Annie/Zyra   | Amumu           |
+| **Light**           |              | Jax           | Aatrox          |                    |                 | Soraka     |              | Vayne         | Lucian        | Yorick       | Nasus           |
+| **Lunar**           |              |               |                 |                    |                 | Karma      |              |               |               |              | Leona           |
+| **Mountain**        | Qiyana       |               |                 |                    | Taliyah         |            |              |               |               |              | Malphite        |
+| **Ocean**           | Qiyana       |               |                 |                    | Syndra/Vladimir | Nami       |              |               |               |              | Nautilus/Thresh |
+| **Poison**          |              | DrMundo       |                 |                    |                 |            | KogMaw       | Twitch        |               |              |                 |
+| **Shadow**          |              | Sion          | MasterYi        |                    | Veigar          | MasterYi   |              | Kindred       | Senna         | Malzahar     |                 |
+| **Steel**           | Nocturne     |               |                 |                    |                 |            | RekSai       |               |               |              |                 |
+| **Wind**            | Qiyana       |               | Yasuo           |                    |                 | Janna      |              |               |               |              |                 |
 
 ## Items
 ### CraftableGrid
-| ****C1\C2**** | **sword** | **bow**         | **vest**      | **cloak**        | **rod**               | **tear**       | **belt**       | **glove**        | **spatula**          |
-| -             | -         | -               | -             | -                | -                     | -              | -              | -                | -                    |
-| **sword**     | LordsEdge | GiantSlayer     | GuardianAngel | Bloodthirster    | HextechGunblade       | SpearofShojin  | ZekesHerald    | InfinityEdge     | YoumuusGhostblade    |
-| **bow**       |           | RapidFirecannon | TitansResolve | RunaansHurricane | GuinsoosRageblade     | StatikkShiv    | TitanicHydra   | LastWhisper      | BladeoftheRuinedKing |
-| **vest**      |           |                 | BrambleVest   | SwordBreaker     | LocketoftheIronSolari | FrozenHeart    | RedBuff        | IceborneGauntlet | WardensMail          |
-| **cloak**     |           |                 |               | DragonsClaw      | IonicSpark            | Hush           | Zephyr         | Quicksilver      | TalismanofLight      |
-| **rod**       |           |                 |               |                  | RabadonsDeathcap      | LudensEcho     | Morellonomicon | ArcaneGauntlet   | InfernoCinder        |
-| **tear**      |           |                 |               |                  |                       | SeraphsEmbrace | Redemption     | HandofJustice    | MagesCap             |
-| **belt**      |           |                 |               |                  |                       |                | WarmogsArmor   | Backhand         | FrozenMallet         |
-| **glove**     |           |                 |               |                  |                       |                |                | ThiefsGloves     | BerserkerAxe         |
-| **spatula**   |           |                 |               |                  |                       |                |                |                  | ForceofNature        |
+| **C1\C2**   | **sword** | **bow**         | **vest**      | **cloak**        | **rod**               | **tear**       | **belt**       | **glove**        | **spatula**          |
+| -           | -         | -               | -             | -                | -                     | -              | -              | -                | -                    |
+| **sword**   | LordsEdge | GiantSlayer     | GuardianAngel | Bloodthirster    | HextechGunblade       | SpearofShojin  | ZekesHerald    | InfinityEdge     | YoumuusGhostblade    |
+| **bow**     |           | RapidFirecannon | TitansResolve | RunaansHurricane | GuinsoosRageblade     | StatikkShiv    | TitanicHydra   | LastWhisper      | BladeoftheRuinedKing |
+| **vest**    |           |                 | BrambleVest   | SwordBreaker     | LocketoftheIronSolari | FrozenHeart    | RedBuff        | IceborneGauntlet | WardensMail          |
+| **cloak**   |           |                 |               | DragonsClaw      | IonicSpark            | Hush           | Zephyr         | Quicksilver      | TalismanofLight      |
+| **rod**     |           |                 |               |                  | RabadonsDeathcap      | LudensEcho     | Morellonomicon | ArcaneGauntlet   | InfernoCinder        |
+| **tear**    |           |                 |               |                  |                       | SeraphsEmbrace | Redemption     | HandofJustice    | MagesCap             |
+| **belt**    |           |                 |               |                  |                       |                | WarmogsArmor   | Backhand         | FrozenMallet         |
+| **glove**   |           |                 |               |                  |                       |                |                | ThiefsGloves     | BerserkerAxe         |
+| **spatula** |           |                 |               |                  |                       |                |                |                  | ForceofNature        |

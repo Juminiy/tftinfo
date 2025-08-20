@@ -49,31 +49,31 @@
 | Wildcard  | Kayn         | 5        |
 
 ### SynergyGrid
-| ****Origins\Classes**** | **BigShot** | **Brawler** | **CrowdDiver** | **Dazzler**      | **Edgelord** | **Executioner** | **Guardian** | **Mosher**  | **Rapidfire** | **Sentinel** | **Spellweaver** | **Superfan** |
-| -                       | -           | -           | -              | -                | -            | -               | -            | -           | -             | -            | -               | -            |
-| **8Bit**                | Corki       |             |                |                  | Riven        |                 |              |             | Caitlyn       | Garen        |                 |              |
-| **Country**             |             | TahmKench   | Katarina       |                  |              | Samira          | Thresh       | Urgot       |               |              |                 |              |
-| **Disco**               |             | Gragas      |                | Nami/TwistedFate |              |                 | Taric        |             |               | Blitzcrank   | Gragas          |              |
-| **EDM**                 |             | Zac         | Zed            | Lux              |              |                 |              | Jax         |               |              |                 |              |
-| **EMO**                 |             |             |                |                  |              | Vex             | Amumu        | Poppy       |               |              | Annie           |              |
-| **Heartsteel**          | Ezreal      | Sett        | Yone           |                  | Kayn/Yone    |                 |              | Sett        | Aphelios      | KSante       |                 |              |
-| **Hyperpop**            |             |             |                | Ziggs            |              |                 |              |             |               |              | Lulu            |              |
-| **Jazz**                | MissFortune |             |                | Bard             |              |                 |              |             | Lucian        |              |                 |              |
-| **KDA**                 | Kaisa       |             | Evelynn        |                  |              | Akali2          | Neeko        |             |               | Lillia       | Ahri/Seraphine  | Lillia/Neeko |
-| **Pentakill**           |             | Olaf        |                |                  | Kayle/Viego  | Karthus         | Yorick       | Gnar/Yorick |               | Mordekaiser  |                 | Gnar         |
-| **Punk**                |             |             |                |                  |              | Twitch          | Pantheon     | Vi          | Jinx          |              |                 |              |
-| **TrueDamage**          |             |             | Qiyana         |                  | Yasuo        | Akali           | Kennen       |             | Senna         | Ekko         | Ekko            | Kennen       |
+| **Origins\Classes** | **BigShot** | **Brawler** | **CrowdDiver** | **Dazzler**      | **Edgelord** | **Executioner** | **Guardian** | **Mosher**  | **Rapidfire** | **Sentinel** | **Spellweaver** | **Superfan** |
+| -                   | -           | -           | -              | -                | -            | -               | -            | -           | -             | -            | -               | -            |
+| **8Bit**            | Corki       |             |                |                  | Riven        |                 |              |             | Caitlyn       | Garen        |                 |              |
+| **Country**         |             | TahmKench   | Katarina       |                  |              | Samira          | Thresh       | Urgot       |               |              |                 |              |
+| **Disco**           |             | Gragas      |                | Nami/TwistedFate |              |                 | Taric        |             |               | Blitzcrank   | Gragas          |              |
+| **EDM**             |             | Zac         | Zed            | Lux              |              |                 |              | Jax         |               |              |                 |              |
+| **EMO**             |             |             |                |                  |              | Vex             | Amumu        | Poppy       |               |              | Annie           |              |
+| **Heartsteel**      | Ezreal      | Sett        | Yone           |                  | Kayn/Yone    |                 |              | Sett        | Aphelios      | KSante       |                 |              |
+| **Hyperpop**        |             |             |                | Ziggs            |              |                 |              |             |               |              | Lulu            |              |
+| **Jazz**            | MissFortune |             |                | Bard             |              |                 |              |             | Lucian        |              |                 |              |
+| **KDA**             | Kaisa       |             | Evelynn        |                  |              | Akali2          | Neeko        |             |               | Lillia       | Ahri/Seraphine  | Lillia/Neeko |
+| **Pentakill**       |             | Olaf        |                |                  | Kayle/Viego  | Karthus         | Yorick       | Gnar/Yorick |               | Mordekaiser  |                 | Gnar         |
+| **Punk**            |             |             |                |                  |              | Twitch          | Pantheon     | Vi          | Jinx          |              |                 |              |
+| **TrueDamage**      |             |             | Qiyana         |                  | Yasuo        | Akali           | Kennen       |             | Senna         | Ekko         | Ekko            | Kennen       |
 
 ## Items
 ### CraftableGrid
-| ****C1\C2**** | **sword** | **bow**     | **vest**      | **cloak**        | **rod**           | **tear**      | **belt**       | **glove**      | **spatula**      |
-| -             | -         | -           | -             | -                | -                 | -             | -              | -              | -                |
-| **sword**     | LordsEdge | GiantSlayer | GuardianAngel | Bloodthirster    | HextechGunblade   | SpearofShojin | SteraksGage    | InfinityEdge   | TrueDamageEmblem |
-| **bow**       |           | RedBuffItem | TitansResolve | RunaansHurricane | GuinsoosRageblade | StatikkShiv   | NashorsTooth   | LastWhisper    | 8BitEmblem       |
-| **vest**      |           |             | BrambleVest   | IronWill         | Crownguard        | Fimbulwinter  | SunfireCape    | SteadfastHeart | PentakillEmblem  |
-| **cloak**     |           |             |               | DragonsClaw      | IonicSpark        | AdaptiveHelm  | Evenshroud     | Quicksilver    | CountryEmblem    |
-| **rod**       |           |             |               |                  | RabadonsDeathcap  | LudensEcho    | Morellonomicon | ArcaneGauntlet | KDAEmblem        |
-| **tear**      |           |             |               |                  |                   | BlueSentinel  | Redemption     | HandofJustice  | EmoEmblem        |
-| **belt**      |           |             |               |                  |                   |               | WarmogsArmor   | Guardbreaker   | HeartsteelEmblem |
-| **glove**     |           |             |               |                  |                   |               |                | ThiefsGloves   | PunkEmblem       |
-| **spatula**   |           |             |               |                  |                   |               |                |                | ForceofNature    |
+| **C1\C2**   | **sword** | **bow**     | **vest**      | **cloak**        | **rod**           | **tear**      | **belt**       | **glove**      | **spatula**      |
+| -           | -         | -           | -             | -                | -                 | -             | -              | -              | -                |
+| **sword**   | LordsEdge | GiantSlayer | GuardianAngel | Bloodthirster    | HextechGunblade   | SpearofShojin | SteraksGage    | InfinityEdge   | TrueDamageEmblem |
+| **bow**     |           | RedBuffItem | TitansResolve | RunaansHurricane | GuinsoosRageblade | StatikkShiv   | NashorsTooth   | LastWhisper    | 8BitEmblem       |
+| **vest**    |           |             | BrambleVest   | IronWill         | Crownguard        | Fimbulwinter  | SunfireCape    | SteadfastHeart | PentakillEmblem  |
+| **cloak**   |           |             |               | DragonsClaw      | IonicSpark        | AdaptiveHelm  | Evenshroud     | Quicksilver    | CountryEmblem    |
+| **rod**     |           |             |               |                  | RabadonsDeathcap  | LudensEcho    | Morellonomicon | ArcaneGauntlet | KDAEmblem        |
+| **tear**    |           |             |               |                  |                   | BlueSentinel  | Redemption     | HandofJustice  | EmoEmblem        |
+| **belt**    |           |             |               |                  |                   |               | WarmogsArmor   | Guardbreaker   | HeartsteelEmblem |
+| **glove**   |           |             |               |                  |                   |               |                | ThiefsGloves   | PunkEmblem       |
+| **spatula** |           |             |               |                  |                   |               |                |                | ForceofNature    |

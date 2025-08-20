@@ -32,26 +32,26 @@
 | Daredevil  | Samira       | 5        |
 
 ### SynergyGrid
-| ****Origins\Classes**** | **Adept** | **Assassin** | **Brawler** | **Executioner** | **Mage**          | **Mystic** | **Sharpshooter** | **Syphoner** | **Vanguard** |
-| -                       | -         | -            | -           | -               | -                 | -          | -                | -            | -            |
-| **Dragonsoul**          |           |              | Shyvana     |                 | AurelionSol/Brand |            | Tristana         | Swain        | Braum        |
-| **Elderwood**           |           |              | Maokai/Nunu | Xayah           | Lulu/Veigar       |            |                  |              | Ornn         |
-| **Enlightened**         | Irelia    | Talon        |             |                 |                   | Janna      |                  | Morgana      |              |
-| **Exile**               | Yone      |              |             |                 |                   |            |                  |              |              |
-| **Fabled**              |           |              | Chogath     |                 |                   | Neeko      |                  |              | Nautilus     |
-| **Ninja**               | Shen      | Akali        |             |                 |                   | Shen       |                  |              |              |
-| **Spirit**              |           | Diana        |             | Kindred         |                   | Yuumi      | Teemo            |              |              |
+| **Origins\Classes** | **Adept** | **Assassin** | **Brawler** | **Executioner** | **Mage**          | **Mystic** | **Sharpshooter** | **Syphoner** | **Vanguard** |
+| -                   | -         | -            | -           | -               | -                 | -          | -                | -            | -            |
+| **Dragonsoul**      |           |              | Shyvana     |                 | AurelionSol/Brand |            | Tristana         | Swain        | Braum        |
+| **Elderwood**       |           |              | Maokai/Nunu | Xayah           | Lulu/Veigar       |            |                  |              | Ornn         |
+| **Enlightened**     | Irelia    | Talon        |             |                 |                   | Janna      |                  | Morgana      |              |
+| **Exile**           | Yone      |              |             |                 |                   |            |                  |              |              |
+| **Fabled**          |           |              | Chogath     |                 |                   | Neeko      |                  |              | Nautilus     |
+| **Ninja**           | Shen      | Akali        |             |                 |                   | Shen       |                  |              |              |
+| **Spirit**          |           | Diana        |             | Kindred         |                   | Yuumi      | Teemo            |              |              |
 
 ## Items
 ### CraftableGrid
-| ****C1\C2**** | **sword** | **bow**         | **vest**      | **cloak**        | **rod**               | **tear**      | **belt**       | **glove**      | **spatula**       |
-| -             | -         | -               | -             | -                | -                     | -             | -              | -              | -                 |
-| **sword**     | LordsEdge | GiantSlayer     | GuardianAngel | Bloodthirster    | HextechGunblade       | SpearofShojin | ZekesHerald    | InfinityEdge   | SwordoftheDivine  |
-| **bow**       |           | RapidFirecannon | TitansResolve | RunaansHurricane | GuinsoosRageblade     | StatikkShiv   | ZzRotPortal    | LastWhisper    | DuelistsZeal      |
-| **vest**      |           |                 | BrambleVest   | IronWill         | LocketoftheIronSolari | FrozenHeart   | SunfireCape    | Shroud         | VanguardsCuirass  |
-| **cloak**     |           |                 |               | DragonsClaw      | IonicSpark            | Chalice       | Zephyr         | Quicksilver    | ElderwoodHeirloom |
-| **rod**       |           |                 |               |                  | RabadonsDeathcap      | LudensEcho    | Morellonomicon | ArcaneGauntlet | MantleofDusk      |
-| **tear**      |           |                 |               |                  |                       | BlueSentinel  | Redemption     | HandofJustice  | MagesCap          |
-| **belt**      |           |                 |               |                  |                       |               | WarmogsArmor   | Backhand       | WarlordsBanner    |
-| **glove**     |           |                 |               |                  |                       |               |                | ThiefsGloves   | YoumuusGhostblade |
-| **spatula**   |           |                 |               |                  |                       |               |                |                | ForceofNature     |
+| **C1\C2**   | **sword** | **bow**         | **vest**      | **cloak**        | **rod**               | **tear**      | **belt**       | **glove**      | **spatula**       |
+| -           | -         | -               | -             | -                | -                     | -             | -              | -              | -                 |
+| **sword**   | LordsEdge | GiantSlayer     | GuardianAngel | Bloodthirster    | HextechGunblade       | SpearofShojin | ZekesHerald    | InfinityEdge   | SwordoftheDivine  |
+| **bow**     |           | RapidFirecannon | TitansResolve | RunaansHurricane | GuinsoosRageblade     | StatikkShiv   | ZzRotPortal    | LastWhisper    | DuelistsZeal      |
+| **vest**    |           |                 | BrambleVest   | IronWill         | LocketoftheIronSolari | FrozenHeart   | SunfireCape    | Shroud         | VanguardsCuirass  |
+| **cloak**   |           |                 |               | DragonsClaw      | IonicSpark            | Chalice       | Zephyr         | Quicksilver    | ElderwoodHeirloom |
+| **rod**     |           |                 |               |                  | RabadonsDeathcap      | LudensEcho    | Morellonomicon | ArcaneGauntlet | MantleofDusk      |
+| **tear**    |           |                 |               |                  |                       | BlueSentinel  | Redemption     | HandofJustice  | MagesCap          |
+| **belt**    |           |                 |               |                  |                       |               | WarmogsArmor   | Backhand       | WarlordsBanner    |
+| **glove**   |           |                 |               |                  |                       |               |                | ThiefsGloves   | YoumuusGhostblade |
+| **spatula** |           |                 |               |                  |                       |               |                |                | ForceofNature     |

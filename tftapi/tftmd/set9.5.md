@@ -42,31 +42,31 @@
 | Wanderer     | Ryze/RyzeBandleCity/RyzeBilgewater/RyzeDemacia/RyzeFreljord/RyzeIonia/RyzeIxtal/RyzeNoxus/RyzePiltover/RyzeShadowIsles/RyzeShurima/RyzeTargon/RyzeZaun | 5/5/5/5/5/5/5/5/5/5/5/5/5 |
 
 ### SynergyGrid
-| ****Origins\Classes**** | **Bastion** | **Bruiser** | **Challenger** | **Gunner**       | **Invoker** | **Juggernaut** | **Multicaster** | **Rogue** | **Slayer**  | **Sorcerer**    | **Strategist** | **Vanquisher** |
-| -                       | -           | -           | -              | -                | -           | -              | -               | -         | -           | -               | -              | -              |
-| **Bilgewater**          | Illaoi      |             |                | Gangplank/Graves |             | Nautilus       | TwistedFate     | Graves    |             |                 | MissFortune    | Nilah          |
-| **Darkin**              |             |             | Naafiri        |                  |             | Aatrox         |                 |           | Aatrox      |                 |                |                |
-| **Demacia**             | Poppy       |             | Fiora          |                  | Galio       |                | Sona            |           | Kayle/Quinn |                 | JarvanIV       |                |
-| **Freljord**            |             | Sejuani     |                |                  |             |                |                 |           |             |                 |                | Ashe           |
-| **Ionia**               | Shen        |             | Irelia         |                  | Karma/Shen  | Sett           |                 |           |             | Ahri            |                | Jhin/Xayah     |
-| **Ixtal**               | Neeko       |             |                |                  | Milio       |                |                 | Qiyana    | Qiyana      |                 |                |                |
-| **Noxus**               |             | Sion        | Samira         |                  | Cassiopeia  | Darius         |                 | Katarina  | Mordekaiser | Swain           | Swain          | Darius         |
-| **Piltover**            |             | Vi          |                | Jayce            |             |                |                 | Ekko      |             | Orianna         |                |                |
-| **Shurima**             | KSante      | Renekton    | Naafiri        |                  | Cassiopeia  | Nasus          | Taliyah         |           |             |                 | Azir           |                |
-| **Targon**              | Taric       |             |                | Aphelios         | Soraka      |                |                 |           |             | Taric           |                |                |
-| **Void**                | Kassadin    | Chogath     | Kaisa          |                  |             |                | Velkoz          |           |             | Malzahar/Velkoz |                |                |
-| **Zaun**                |             |             | Warwick        | Jinx             |             | Warwick        |                 | Ekko      |             | Silco           |                |                |
+| **Origins\Classes** | **Bastion** | **Bruiser** | **Challenger** | **Gunner**       | **Invoker** | **Juggernaut** | **Multicaster** | **Rogue** | **Slayer**  | **Sorcerer**    | **Strategist** | **Vanquisher** |
+| -                   | -           | -           | -              | -                | -           | -              | -               | -         | -           | -               | -              | -              |
+| **Bilgewater**      | Illaoi      |             |                | Gangplank/Graves |             | Nautilus       | TwistedFate     | Graves    |             |                 | MissFortune    | Nilah          |
+| **Darkin**          |             |             | Naafiri        |                  |             | Aatrox         |                 |           | Aatrox      |                 |                |                |
+| **Demacia**         | Poppy       |             | Fiora          |                  | Galio       |                | Sona            |           | Kayle/Quinn |                 | JarvanIV       |                |
+| **Freljord**        |             | Sejuani     |                |                  |             |                |                 |           |             |                 |                | Ashe           |
+| **Ionia**           | Shen        |             | Irelia         |                  | Karma/Shen  | Sett           |                 |           |             | Ahri            |                | Jhin/Xayah     |
+| **Ixtal**           | Neeko       |             |                |                  | Milio       |                |                 | Qiyana    | Qiyana      |                 |                |                |
+| **Noxus**           |             | Sion        | Samira         |                  | Cassiopeia  | Darius         |                 | Katarina  | Mordekaiser | Swain           | Swain          | Darius         |
+| **Piltover**        |             | Vi          |                | Jayce            |             |                |                 | Ekko      |             | Orianna         |                |                |
+| **Shurima**         | KSante      | Renekton    | Naafiri        |                  | Cassiopeia  | Nasus          | Taliyah         |           |             |                 | Azir           |                |
+| **Targon**          | Taric       |             |                | Aphelios         | Soraka      |                |                 |           |             | Taric           |                |                |
+| **Void**            | Kassadin    | Chogath     | Kaisa          |                  |             |                | Velkoz          |           |             | Malzahar/Velkoz |                |                |
+| **Zaun**            |             |             | Warwick        | Jinx             |             | Warwick        |                 | Ekko      |             | Silco           |                |                |
 
 ## Items
 ### CraftableGrid
-| ****C1\C2**** | **sword** | **bow**         | **vest**      | **cloak**        | **rod**           | **tear**      | **belt**       | **glove**      | **spatula**      |
-| -             | -         | -               | -             | -                | -                 | -             | -              | -              | -                |
-| **sword**     | LordsEdge | GiantSlayer     | GuardianAngel | Bloodthirster    | HextechGunblade   | SpearofShojin | SteraksGage    | InfinityEdge   | IoniaEmblem      |
-| **bow**       |           | RapidFirecannon | TitansResolve | RunaansHurricane | GuinsoosRageblade | StatikkShiv   | NashorsTooth   | LastWhisper    | ChallengerEmblem |
-| **vest**      |           |                 | BrambleVest   | IronWill         | Crownguard        | Fimbulwinter  | SunfireCape    | NightHarvester | JuggernautEmblem |
-| **cloak**     |           |                 |               | DragonsClaw      | IonicSpark        | AdaptiveHelm  | Evenshroud     | Quicksilver    | BilgewaterEmblem |
-| **rod**       |           |                 |               |                  | RabadonsDeathcap  | LudensEcho    | Morellonomicon | ArcaneGauntlet | ShurimaEmblem    |
-| **tear**      |           |                 |               |                  |                   | BlueSentinel  | Redemption     | HandofJustice  | SorcererEmblem   |
-| **belt**      |           |                 |               |                  |                   |               | WarmogsArmor   | Guardbreaker   | NoxusEmblem      |
-| **glove**     |           |                 |               |                  |                   |               |                | ThiefsGloves   | VanquisherEmblem |
-| **spatula**   |           |                 |               |                  |                   |               |                |                | ForceofNature    |
+| **C1\C2**   | **sword** | **bow**         | **vest**      | **cloak**        | **rod**           | **tear**      | **belt**       | **glove**      | **spatula**      |
+| -           | -         | -               | -             | -                | -                 | -             | -              | -              | -                |
+| **sword**   | LordsEdge | GiantSlayer     | GuardianAngel | Bloodthirster    | HextechGunblade   | SpearofShojin | SteraksGage    | InfinityEdge   | IoniaEmblem      |
+| **bow**     |           | RapidFirecannon | TitansResolve | RunaansHurricane | GuinsoosRageblade | StatikkShiv   | NashorsTooth   | LastWhisper    | ChallengerEmblem |
+| **vest**    |           |                 | BrambleVest   | IronWill         | Crownguard        | Fimbulwinter  | SunfireCape    | NightHarvester | JuggernautEmblem |
+| **cloak**   |           |                 |               | DragonsClaw      | IonicSpark        | AdaptiveHelm  | Evenshroud     | Quicksilver    | BilgewaterEmblem |
+| **rod**     |           |                 |               |                  | RabadonsDeathcap  | LudensEcho    | Morellonomicon | ArcaneGauntlet | ShurimaEmblem    |
+| **tear**    |           |                 |               |                  |                   | BlueSentinel  | Redemption     | HandofJustice  | SorcererEmblem   |
+| **belt**    |           |                 |               |                  |                   |               | WarmogsArmor   | Guardbreaker   | NoxusEmblem      |
+| **glove**   |           |                 |               |                  |                   |               |                | ThiefsGloves   | VanquisherEmblem |
+| **spatula** |           |                 |               |                  |                   |               |                |                | ForceofNature    |

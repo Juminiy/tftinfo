@@ -48,30 +48,30 @@
 | Wanderer     | Ryze/RyzeBandleCity/RyzeDemacia/RyzeFreljord/RyzeIonia/RyzeNoxus/RyzePiltover/RyzeShadowIsles/RyzeShurima/RyzeTargon/RyzeZaun | 5/5/5/5/5/5/5/5/5/5/5 |
 
 ### SynergyGrid
-| ****Origins\Classes**** | **Bastion** | **Bruiser** | **Challenger** | **Deadeye** | **Gunner** | **Invoker** | **Juggernaut** | **Multicaster** | **Rogue** | **Slayer** | **Sorcerer**    | **Strategist** |
-| -                       | -           | -           | -              | -           | -          | -           | -              | -               | -         | -          | -               | -              |
-| **Demacia**             | Poppy       |             |                |             |            | Galio       | Garen          | Sona            |           | Kayle      | Lux             | JarvanIV       |
-| **Freljord**            |             | Sejuani     |                | Ashe        |            | Lissandra   |                |                 |           |            |                 |                |
-| **Ionia**               | Shen        |             | Irelia/Yasuo   | Jhin        |            | Karma/Shen  | Sett           |                 | Zed       | Zed        | Ahri            |                |
-| **Noxus**               |             | Sion        | Samira         |             |            | Cassiopeia  | Darius         |                 | Katarina  | Kled       | Swain           | Swain          |
-| **Piltover**            |             | Vi          |                |             | Jayce      |             |                |                 | Ekko      |            | Orianna         |                |
-| **ShadowIsles**         | Maokai      |             | Kalista        |             | Senna      |             |                |                 | Viego     | Gwen       |                 |                |
-| **Shurima**             | KSante      | Renekton    |                | Akshan      |            | Cassiopeia  | Nasus          | Taliyah         |           |            |                 | Azir           |
-| **Targon**              | Taric       |             |                | Aphelios    |            | Soraka      |                |                 |           |            | Taric           |                |
-| **Void**                | Kassadin    | Chogath     | Kaisa          |             |            |             |                | Velkoz          |           |            | Malzahar/Velkoz |                |
-| **Yordle**              | Poppy       |             |                |             | Tristana   |             |                | Teemo           |           | Kled       |                 | Teemo          |
-| **Zaun**                |             |             | Warwick        | Urgot       | Jinx/Zeri  |             | Warwick        |                 | Ekko      |            |                 |                |
+| **Origins\Classes** | **Bastion** | **Bruiser** | **Challenger** | **Deadeye** | **Gunner** | **Invoker** | **Juggernaut** | **Multicaster** | **Rogue** | **Slayer** | **Sorcerer**    | **Strategist** |
+| -                   | -           | -           | -              | -           | -          | -           | -              | -               | -         | -          | -               | -              |
+| **Demacia**         | Poppy       |             |                |             |            | Galio       | Garen          | Sona            |           | Kayle      | Lux             | JarvanIV       |
+| **Freljord**        |             | Sejuani     |                | Ashe        |            | Lissandra   |                |                 |           |            |                 |                |
+| **Ionia**           | Shen        |             | Irelia/Yasuo   | Jhin        |            | Karma/Shen  | Sett           |                 | Zed       | Zed        | Ahri            |                |
+| **Noxus**           |             | Sion        | Samira         |             |            | Cassiopeia  | Darius         |                 | Katarina  | Kled       | Swain           | Swain          |
+| **Piltover**        |             | Vi          |                |             | Jayce      |             |                |                 | Ekko      |            | Orianna         |                |
+| **ShadowIsles**     | Maokai      |             | Kalista        |             | Senna      |             |                |                 | Viego     | Gwen       |                 |                |
+| **Shurima**         | KSante      | Renekton    |                | Akshan      |            | Cassiopeia  | Nasus          | Taliyah         |           |            |                 | Azir           |
+| **Targon**          | Taric       |             |                | Aphelios    |            | Soraka      |                |                 |           |            | Taric           |                |
+| **Void**            | Kassadin    | Chogath     | Kaisa          |             |            |             |                | Velkoz          |           |            | Malzahar/Velkoz |                |
+| **Yordle**          | Poppy       |             |                |             | Tristana   |             |                | Teemo           |           | Kled       |                 | Teemo          |
+| **Zaun**            |             |             | Warwick        | Urgot       | Jinx/Zeri  |             | Warwick        |                 | Ekko      |            |                 |                |
 
 ## Items
 ### CraftableGrid
-| ****C1\C2**** | **sword** | **bow**         | **vest**      | **cloak**        | **rod**               | **tear**      | **belt**       | **glove**      | **spatula**      |
-| -             | -         | -               | -             | -                | -                     | -             | -              | -              | -                |
-| **sword**     | LordsEdge | GiantSlayer     | GuardianAngel | Bloodthirster    | HextechGunblade       | SpearofShojin | ZekesHerald    | InfinityEdge   | IoniaEmblem      |
-| **bow**       |           | RapidFirecannon | TitansResolve | RunaansHurricane | GuinsoosRageblade     | StatikkShiv   | ZzRotPortal    | LastWhisper    | ChallengerEmblem |
-| **vest**      |           |                 | BrambleVest   | IronWill         | LocketoftheIronSolari | Fimbulwinter  | SunfireCape    | Shroud         | JuggernautEmblem |
-| **cloak**     |           |                 |               | DragonsClaw      | IonicSpark            | Chalice       | Zephyr         | Quicksilver    | DemaciaEmblem    |
-| **rod**       |           |                 |               |                  | RabadonsDeathcap      | LudensEcho    | Morellonomicon | ArcaneGauntlet | ShurimaEmblem    |
-| **tear**      |           |                 |               |                  |                       | BlueSentinel  | Redemption     | HandofJustice  | SorcererEmblem   |
-| **belt**      |           |                 |               |                  |                       |               | WarmogsArmor   | Guardbreaker   | NoxusEmblem      |
-| **glove**     |           |                 |               |                  |                       |               |                | ThiefsGloves   | SlayerEmblem     |
-| **spatula**   |           |                 |               |                  |                       |               |                |                | ForceofNature    |
+| **C1\C2**   | **sword** | **bow**         | **vest**      | **cloak**        | **rod**               | **tear**      | **belt**       | **glove**      | **spatula**      |
+| -           | -         | -               | -             | -                | -                     | -             | -              | -              | -                |
+| **sword**   | LordsEdge | GiantSlayer     | GuardianAngel | Bloodthirster    | HextechGunblade       | SpearofShojin | ZekesHerald    | InfinityEdge   | IoniaEmblem      |
+| **bow**     |           | RapidFirecannon | TitansResolve | RunaansHurricane | GuinsoosRageblade     | StatikkShiv   | ZzRotPortal    | LastWhisper    | ChallengerEmblem |
+| **vest**    |           |                 | BrambleVest   | IronWill         | LocketoftheIronSolari | Fimbulwinter  | SunfireCape    | Shroud         | JuggernautEmblem |
+| **cloak**   |           |                 |               | DragonsClaw      | IonicSpark            | Chalice       | Zephyr         | Quicksilver    | DemaciaEmblem    |
+| **rod**     |           |                 |               |                  | RabadonsDeathcap      | LudensEcho    | Morellonomicon | ArcaneGauntlet | ShurimaEmblem    |
+| **tear**    |           |                 |               |                  |                       | BlueSentinel  | Redemption     | HandofJustice  | SorcererEmblem   |
+| **belt**    |           |                 |               |                  |                       |               | WarmogsArmor   | Guardbreaker   | NoxusEmblem      |
+| **glove**   |           |                 |               |                  |                       |               |                | ThiefsGloves   | SlayerEmblem     |
+| **spatula** |           |                 |               |                  |                       |               |                |                | ForceofNature    |

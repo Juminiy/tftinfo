@@ -46,30 +46,30 @@
 | Rosemother     | Zyra                       | 5        |
 
 ### SynergyGrid
-| ****Origins\Classes**** | **Bastion** | **Duelist** | **Edgelord** | **Executioner** | **Heavyweight** | **Juggernaut** | **Prodigy**      | **Protector** | **Sniper** | **Sorcerer** | **Strategist** |
-| -                       | -           | -           | -            | -               | -               | -              | -                | -             | -          | -            | -              |
-| **BattleAcademia**      | Garen/Leona |             |              | Katarina        | Jayce           |                | Ezreal/Yuumi     | Rakan         | Caitlyn    |              |                |
-| **CrystalGambit**       | Swain       | Ashe        |              |                 |                 | Vi             | Syndra           | Janna         |            | Swain        | Janna          |
-| **Luchador**            | Braum       |             | Volibear     |                 |                 | DrMundo        |                  |               | Gnar       |              |                |
-| **Mentor**              |             | Udyr        | Yasuo        | Ryze            | Kobuko          | Udyr           |                  |               |            |              | Ryze           |
-| **MightyMech**          |             | Gangplank   | Yone         | Senna           | Aatrox          | Aatrox         |                  |               |            | Karma/Lucian | JarvanIV       |
-| **SoulFighter**         | XinZhao     | Viego       | Samira       | Kalista         |                 | Naafiri/Sett   |                  |               |            | Gwen/Lux     |                |
-| **StarGuardian**        | Rell        |             | Xayah        |                 | Poppy           |                | Seraphine/Syndra | Neeko         | Jinx       | Ahri         |                |
-| **SupremeCells**        |             | KaiSa       |              | Akali           | Darius          |                |                  | Kennen        |            | Kennen       |                |
-| **TheCrew**             | Shen        |             | Shen         |                 |                 |                |                  | Malphite      | Sivir      |              | Ziggs          |
-| **Wraith**              |             | Kayle       |              |                 | Zac             |                | Malzahar         | KSante        | Jhin/Varus |              |                |
+| **Origins\Classes** | **Bastion** | **Duelist** | **Edgelord** | **Executioner** | **Heavyweight** | **Juggernaut** | **Prodigy**      | **Protector** | **Sniper** | **Sorcerer** | **Strategist** |
+| -                   | -           | -           | -            | -               | -               | -              | -                | -             | -          | -            | -              |
+| **BattleAcademia**  | Garen/Leona |             |              | Katarina        | Jayce           |                | Ezreal/Yuumi     | Rakan         | Caitlyn    |              |                |
+| **CrystalGambit**   | Swain       | Ashe        |              |                 |                 | Vi             | Syndra           | Janna         |            | Swain        | Janna          |
+| **Luchador**        | Braum       |             | Volibear     |                 |                 | DrMundo        |                  |               | Gnar       |              |                |
+| **Mentor**          |             | Udyr        | Yasuo        | Ryze            | Kobuko          | Udyr           |                  |               |            |              | Ryze           |
+| **MightyMech**      |             | Gangplank   | Yone         | Senna           | Aatrox          | Aatrox         |                  |               |            | Karma/Lucian | JarvanIV       |
+| **SoulFighter**     | XinZhao     | Viego       | Samira       | Kalista         |                 | Naafiri/Sett   |                  |               |            | Gwen/Lux     |                |
+| **StarGuardian**    | Rell        |             | Xayah        |                 | Poppy           |                | Seraphine/Syndra | Neeko         | Jinx       | Ahri         |                |
+| **SupremeCells**    |             | KaiSa       |              | Akali           | Darius          |                |                  | Kennen        |            | Kennen       |                |
+| **TheCrew**         | Shen        |             | Shen         |                 |                 |                |                  | Malphite      | Sivir      |              | Ziggs          |
+| **Wraith**          |             | Kayle       |              |                 | Zac             |                | Malzahar         | KSante        | Jhin/Varus |              |                |
 
 ## Items
 ### CraftableGrid
-| ****C1\C2**** | **sword** | **bow**     | **vest**      | **cloak**        | **rod**           | **tear**      | **belt**       | **glove**      | **spatula**          | **pan**           |
-| -             | -         | -           | -             | -                | -                 | -             | -              | -              | -                    | -                 |
-| **sword**     | LordsEdge | GiantSlayer | GuardianAngel | Bloodthirster    | HextechGunblade   | SpearofShojin | SteraksGage    | InfinityEdge   | SoulFighterEmblem    | EdgelordEmblem    |
-| **bow**       |           | RedBuffItem | TitansResolve | RunaansHurricane | GuinsoosRageblade | VoidStaff     | NashorsTooth   | LastWhisper    | SupremeCellsEmblem   | DuelistEmblem     |
-| **vest**      |           |             | BrambleVest   | IronWill         | Crownguard        | Fimbulwinter  | SunfireCape    | SteadfastHeart | WraithEmblem         | BastionEmblem     |
-| **cloak**     |           |             |               | DragonsClaw      | IonicSpark        | AdaptiveHelm  | Evenshroud     | Quicksilver    | StrategistEmblem     | JuggernautEmblem  |
-| **rod**       |           |             |               |                  | RabadonsDeathcap  | LudensEcho    | Morellonomicon | ArcaneGauntlet | StarGuardianEmblem   | SorcererEmblem    |
-| **tear**      |           |             |               |                  |                   | BlueSentinel  | Redemption     | HandofJustice  | BattleAcademiaEmblem | ProdigyEmblem     |
-| **belt**      |           |             |               |                  |                   |               | WarmogsArmor   | Guardbreaker   | CrystalGambitEmblem  | HeavyweightEmblem |
-| **glove**     |           |             |               |                  |                   |               |                | ThiefsGloves   | LuchadorEmblem       | ExecutionerEmblem |
-| **spatula**   |           |             |               |                  |                   |               |                |                | ForceofNature        | TacticiansCape    |
-| **pan**       |           |             |               |                  |                   |               |                |                |                      | TacticiansShield  |
+| **C1\C2**   | **sword** | **bow**     | **vest**      | **cloak**        | **rod**           | **tear**      | **belt**       | **glove**      | **spatula**          | **pan**           |
+| -           | -         | -           | -             | -                | -                 | -             | -              | -              | -                    | -                 |
+| **sword**   | LordsEdge | GiantSlayer | GuardianAngel | Bloodthirster    | HextechGunblade   | SpearofShojin | SteraksGage    | InfinityEdge   | SoulFighterEmblem    | EdgelordEmblem    |
+| **bow**     |           | RedBuffItem | TitansResolve | RunaansHurricane | GuinsoosRageblade | VoidStaff     | NashorsTooth   | LastWhisper    | SupremeCellsEmblem   | DuelistEmblem     |
+| **vest**    |           |             | BrambleVest   | IronWill         | Crownguard        | Fimbulwinter  | SunfireCape    | SteadfastHeart | WraithEmblem         | BastionEmblem     |
+| **cloak**   |           |             |               | DragonsClaw      | IonicSpark        | AdaptiveHelm  | Evenshroud     | Quicksilver    | StrategistEmblem     | JuggernautEmblem  |
+| **rod**     |           |             |               |                  | RabadonsDeathcap  | LudensEcho    | Morellonomicon | ArcaneGauntlet | StarGuardianEmblem   | SorcererEmblem    |
+| **tear**    |           |             |               |                  |                   | BlueSentinel  | Redemption     | HandofJustice  | BattleAcademiaEmblem | ProdigyEmblem     |
+| **belt**    |           |             |               |                  |                   |               | WarmogsArmor   | Guardbreaker   | CrystalGambitEmblem  | HeavyweightEmblem |
+| **glove**   |           |             |               |                  |                   |               |                | ThiefsGloves   | LuchadorEmblem       | ExecutionerEmblem |
+| **spatula** |           |             |               |                  |                   |               |                |                | ForceofNature        | TacticiansCape    |
+| **pan**     |           |             |               |                  |                   |               |                |                |                      | TacticiansShield  |

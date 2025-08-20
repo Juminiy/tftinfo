@@ -47,29 +47,29 @@
 | Threat     | AurelionSol/BelVeth/Chogath/Fiddlesticks/Rammus/Urgot/Velkoz/Zac | 4/4/3/5/3/5/3/4 |
 
 ### SynergyGrid
-| ****Origins\Classes**** | **Ace**     | **Aegis** | **Brawler**      | **Defender**    | **Duelist** | **Hacker** | **Heart**    | **Mascot** | **Prankster** | **Recon** | **Renegade** | **Spellslinger** | **Sureshot** |
-| -                       | -           | -         | -                | -               | -           | -          | -            | -          | -             | -         | -            | -                | -            |
-| **ADMIN**               |             |           | Blitzcrank       |                 |             | Leblanc    | Soraka       |            |               |           | Camille      | Leblanc          |              |
-| **AnimaSquad**          | MissFortune |           | Riven            | Riven           | Vayne       |            |              | Nasus      | Jinx          | Vayne     | Sylas        |                  |              |
-| **Civilian**            |             |           |                  |                 |             |            |              | Galio      |               |           |              | Janna            | Sivir        |
-| **Gadgeteen**           |             |           |                  | Poppy           |             | Zoe        | Lulu         | Nunu       | Zoe           |           |              | Annie            |              |
-| **LaserCorps**          | Mordekaiser |           | Renekton/Sejuani |                 | Yasuo/Zed   | Zed        |              |            |               | Ashe      |              |                  | Senna        |
-| **MechaPRIME**          | Draven      | Leona     | Jax              | Sett/MonkeyKing |             |            |              |            |               |           | Leona        |                  |              |
-| **OxForce**             |             | Alistar   |                  |                 | Fiora       |            |              | Alistar    |               |           | Talon/Viego  | Annie            | Aphelios     |
-| **StarGuardian**        |             | Ekko      |                  | Rell            | Nilah       |            | Syndra/Yuumi | Yuumi      | Ekko          | Kaisa     |              | Lux/Taliyah      |              |
-| **Supers**              |             |           | LeeSin           |                 | Gangplank   |            | LeeSin       | Malphite   |               |           |              |                  |              |
-| **Underground**         | Samira      | Vi        | Vi               |                 | Kayle       |            | Sona         |            |               | Ezreal    |              | Sona             | Samira       |
+| **Origins\Classes** | **Ace**     | **Aegis** | **Brawler**      | **Defender**    | **Duelist** | **Hacker** | **Heart**    | **Mascot** | **Prankster** | **Recon** | **Renegade** | **Spellslinger** | **Sureshot** |
+| -                   | -           | -         | -                | -               | -           | -          | -            | -          | -             | -         | -            | -                | -            |
+| **ADMIN**           |             |           | Blitzcrank       |                 |             | Leblanc    | Soraka       |            |               |           | Camille      | Leblanc          |              |
+| **AnimaSquad**      | MissFortune |           | Riven            | Riven           | Vayne       |            |              | Nasus      | Jinx          | Vayne     | Sylas        |                  |              |
+| **Civilian**        |             |           |                  |                 |             |            |              | Galio      |               |           |              | Janna            | Sivir        |
+| **Gadgeteen**       |             |           |                  | Poppy           |             | Zoe        | Lulu         | Nunu       | Zoe           |           |              | Annie            |              |
+| **LaserCorps**      | Mordekaiser |           | Renekton/Sejuani |                 | Yasuo/Zed   | Zed        |              |            |               | Ashe      |              |                  | Senna        |
+| **MechaPRIME**      | Draven      | Leona     | Jax              | Sett/MonkeyKing |             |            |              |            |               |           | Leona        |                  |              |
+| **OxForce**         |             | Alistar   |                  |                 | Fiora       |            |              | Alistar    |               |           | Talon/Viego  | Annie            | Aphelios     |
+| **StarGuardian**    |             | Ekko      |                  | Rell            | Nilah       |            | Syndra/Yuumi | Yuumi      | Ekko          | Kaisa     |              | Lux/Taliyah      |              |
+| **Supers**          |             |           | LeeSin           |                 | Gangplank   |            | LeeSin       | Malphite   |               |           |              |                  |              |
+| **Underground**     | Samira      | Vi        | Vi               |                 | Kayle       |            | Sona         |            |               | Ezreal    |              | Sona             | Samira       |
 
 ## Items
 ### CraftableGrid
-| ****C1\C2**** | **sword** | **bow**         | **vest**      | **cloak**        | **rod**               | **tear**      | **belt**       | **glove**      | **spatula**            |
-| -             | -         | -               | -             | -                | -                     | -             | -              | -              | -                      |
-| **sword**     | LordsEdge | GiantSlayer     | GuardianAngel | Bloodthirster    | HextechGunblade       | SpearofShojin | ZekesHerald    | InfinityEdge   | InterPolarisEmblemItem |
-| **bow**       |           | RapidFirecannon | TitansResolve | RunaansHurricane | GuinsoosRageblade     | StatikkShiv   | ZzRotPortal    | LastWhisper    | DuelistEmblemItem      |
-| **vest**      |           |                 | BrambleVest   | IronWill         | LocketoftheIronSolari | Fimbulwinter  | SunfireCape    | Shroud         | OxForceEmblemItem      |
-| **cloak**     |           |                 |               | DragonsClaw      | IonicSpark            | Chalice       | Zephyr         | Quicksilver    | ADMINEmblemItem        |
-| **rod**       |           |                 |               |                  | RabadonsDeathcap      | LudensEcho    | Morellonomicon | ArcaneGauntlet | AnimaSquadEmblemItem   |
-| **tear**      |           |                 |               |                  |                       | BlueSentinel  | Redemption     | HandofJustice  | HeartEmblemItem        |
-| **belt**      |           |                 |               |                  |                       |               | WarmogsArmor   | Guardbreaker   | MascotEmblemItem       |
-| **glove**     |           |                 |               |                  |                       |               |                | ThiefsGloves   | RenegadeEmblemItem     |
-| **spatula**   |           |                 |               |                  |                       |               |                |                | ForceofNature          |
+| **C1\C2**   | **sword** | **bow**         | **vest**      | **cloak**        | **rod**               | **tear**      | **belt**       | **glove**      | **spatula**            |
+| -           | -         | -               | -             | -                | -                     | -             | -              | -              | -                      |
+| **sword**   | LordsEdge | GiantSlayer     | GuardianAngel | Bloodthirster    | HextechGunblade       | SpearofShojin | ZekesHerald    | InfinityEdge   | InterPolarisEmblemItem |
+| **bow**     |           | RapidFirecannon | TitansResolve | RunaansHurricane | GuinsoosRageblade     | StatikkShiv   | ZzRotPortal    | LastWhisper    | DuelistEmblemItem      |
+| **vest**    |           |                 | BrambleVest   | IronWill         | LocketoftheIronSolari | Fimbulwinter  | SunfireCape    | Shroud         | OxForceEmblemItem      |
+| **cloak**   |           |                 |               | DragonsClaw      | IonicSpark            | Chalice       | Zephyr         | Quicksilver    | ADMINEmblemItem        |
+| **rod**     |           |                 |               |                  | RabadonsDeathcap      | LudensEcho    | Morellonomicon | ArcaneGauntlet | AnimaSquadEmblemItem   |
+| **tear**    |           |                 |               |                  |                       | BlueSentinel  | Redemption     | HandofJustice  | HeartEmblemItem        |
+| **belt**    |           |                 |               |                  |                       |               | WarmogsArmor   | Guardbreaker   | MascotEmblemItem       |
+| **glove**   |           |                 |               |                  |                       |               |                | ThiefsGloves   | RenegadeEmblemItem     |
+| **spatula** |           |                 |               |                  |                       |               |                |                | ForceofNature          |

@@ -66,7 +66,7 @@ def classify_items_icon():
 
 def req_fight_attrs():
     attrsobj:dict[str,Any]={}
-    with open('tftraw/specs/fight-attrs.json') as attrfile:
+    with open('tftraw/specs/fight-attrs-icons.json') as attrfile:
         attrsobj=loads(attrfile.read())
         attrfile.close()
 

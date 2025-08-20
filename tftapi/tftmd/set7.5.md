@@ -43,32 +43,32 @@
 | Starcaller | Soraka       | 5        |
 
 ### SynergyGrid
-| ****Origins\Classes**** | **Assassin** | **Bruiser** | **Cannoneer** | **Cavalier** | **Dragonmancer** | **Dragons** | **Evoker**  | **Guardian** | **Mage**     | **Mystic** | **Shapeshifter** | **Swiftshot** | **Warrior** |
-| -                       | -            | -           | -             | -            | -                | -           | -           | -            | -            | -          | -                | -             | -           |
-| **Astral**              |              | Skarner     |               |              |                  | AurelionSol | AurelionSol |              | Lux/Vladimir |            | Nidalee          | Varus         |             |
-| **Darkflight**          | Rengar       |             | Aphelios      | Rell         |                  | Swain       |             |              |              |            |                  |               |             |
-| **Guild**               |              |             |               | Sejuani      |                  | Zippy       |             |              |              | Bard       | Jayce            | Twitch        |             |
-| **Jade**                |              | Jax         |               |              | Karma            | ShiOhYu     |             |              |              | ShiOhYu    | Gnar             |               | MonkeyKing  |
-| **Lagoon**              | Nilah        | Malphite    | Zeri          |              | Kaisa            | Sohm        | Seraphine   | Zac          | Sohm/Taliyah | Seraphine  |                  |               |             |
-| **Mirage**              |              |             |               | Nunu         | Yasuo            | Daeja       |             | Leona        |              |            |                  |               | Yasuo/Yone  |
-| **Monolith**            |              |             |               |              |                  | Terra       |             |              |              |            |                  |               |             |
-| **Prodigy**             |              |             |               |              |                  | Nomsy       |             |              |              |            |                  |               |             |
-| **Ragewing**            |              |             | Senna         | Hecarim      | Sett             | Shyvana     |             | Rakan        |              | Rakan      | Shyvana          | Xayah         |             |
-| **Scalescorn**          | Diana        | Olaf        |               | Lillia       |                  |             |             | Braum        | Lillia       |            |                  |               | Olaf        |
-| **Shimmerscale**        |              | Jax         |               |              | Volibear         | Idas        |             | Idas/Nasus   | Zoe          |            |                  |               |             |
-| **Tempest**             | Qiyana       |             | Graves        |              | LeeSin           | AoShin      |             |              |              |            |                  | Ezreal        |             |
-| **Whispers**            |              | Syfen/Sylas |               |              |                  | Syfen       | Zyra        |              | Sylas        |            |                  |               | Pantheon    |
+| **Origins\Classes** | **Assassin** | **Bruiser** | **Cannoneer** | **Cavalier** | **Dragonmancer** | **Dragons** | **Evoker**  | **Guardian** | **Mage**     | **Mystic** | **Shapeshifter** | **Swiftshot** | **Warrior** |
+| -                   | -            | -           | -             | -            | -                | -           | -           | -            | -            | -          | -                | -             | -           |
+| **Astral**          |              | Skarner     |               |              |                  | AurelionSol | AurelionSol |              | Lux/Vladimir |            | Nidalee          | Varus         |             |
+| **Darkflight**      | Rengar       |             | Aphelios      | Rell         |                  | Swain       |             |              |              |            |                  |               |             |
+| **Guild**           |              |             |               | Sejuani      |                  | Zippy       |             |              |              | Bard       | Jayce            | Twitch        |             |
+| **Jade**            |              | Jax         |               |              | Karma            | ShiOhYu     |             |              |              | ShiOhYu    | Gnar             |               | MonkeyKing  |
+| **Lagoon**          | Nilah        | Malphite    | Zeri          |              | Kaisa            | Sohm        | Seraphine   | Zac          | Sohm/Taliyah | Seraphine  |                  |               |             |
+| **Mirage**          |              |             |               | Nunu         | Yasuo            | Daeja       |             | Leona        |              |            |                  |               | Yasuo/Yone  |
+| **Monolith**        |              |             |               |              |                  | Terra       |             |              |              |            |                  |               |             |
+| **Prodigy**         |              |             |               |              |                  | Nomsy       |             |              |              |            |                  |               |             |
+| **Ragewing**        |              |             | Senna         | Hecarim      | Sett             | Shyvana     |             | Rakan        |              | Rakan      | Shyvana          | Xayah         |             |
+| **Scalescorn**      | Diana        | Olaf        |               | Lillia       |                  |             |             | Braum        | Lillia       |            |                  |               | Olaf        |
+| **Shimmerscale**    |              | Jax         |               |              | Volibear         | Idas        |             | Idas/Nasus   | Zoe          |            |                  |               |             |
+| **Tempest**         | Qiyana       |             | Graves        |              | LeeSin           | AoShin      |             |              |              |            |                  | Ezreal        |             |
+| **Whispers**        |              | Syfen/Sylas |               |              |                  | Syfen       | Zyra        |              | Sylas        |            |                  |               | Pantheon    |
 
 ## Items
 ### CraftableGrid
-| ****C1\C2**** | **sword** | **bow**         | **vest**      | **cloak**        | **rod**               | **tear**      | **belt**       | **glove**      | **spatula**        |
-| -             | -         | -               | -             | -                | -                     | -             | -              | -              | -                  |
-| **sword**     | LordsEdge | GiantSlayer     | GuardianAngel | Bloodthirster    | HextechGunblade       | SpearofShojin | ZekesHerald    | InfinityEdge   | ShimmerscaleEmblem |
-| **bow**       |           | RapidFirecannon | TitansResolve | RunaansHurricane | GuinsoosRageblade     | StatikkShiv   | ZzRotPortal    | LastWhisper    | SwiftshotEmblem    |
-| **vest**      |           |                 | BrambleVest   | IronWill         | LocketoftheIronSolari | Fimbulwinter  | SunfireCape    | Shroud         | CavalierEmblem     |
-| **cloak**     |           |                 |               | DragonsClaw      | IonicSpark            | Chalice       | Zephyr         | Quicksilver    | MirageEmblem       |
-| **rod**       |           |                 |               |                  | RabadonsDeathcap      | LudensEcho    | Morellonomicon | ArcaneGauntlet | DragonmancerEmblem |
-| **tear**      |           |                 |               |                  |                       | BlueSentinel  | Redemption     | HandofJustice  | MageEmblem         |
-| **belt**      |           |                 |               |                  |                       |               | WarmogsArmor   | Backhand       | GuardianEmblem     |
-| **glove**     |           |                 |               |                  |                       |               |                | ThiefsGloves   | LagoonEmblem       |
-| **spatula**   |           |                 |               |                  |                       |               |                |                | ForceofNature      |
+| **C1\C2**   | **sword** | **bow**         | **vest**      | **cloak**        | **rod**               | **tear**      | **belt**       | **glove**      | **spatula**        |
+| -           | -         | -               | -             | -                | -                     | -             | -              | -              | -                  |
+| **sword**   | LordsEdge | GiantSlayer     | GuardianAngel | Bloodthirster    | HextechGunblade       | SpearofShojin | ZekesHerald    | InfinityEdge   | ShimmerscaleEmblem |
+| **bow**     |           | RapidFirecannon | TitansResolve | RunaansHurricane | GuinsoosRageblade     | StatikkShiv   | ZzRotPortal    | LastWhisper    | SwiftshotEmblem    |
+| **vest**    |           |                 | BrambleVest   | IronWill         | LocketoftheIronSolari | Fimbulwinter  | SunfireCape    | Shroud         | CavalierEmblem     |
+| **cloak**   |           |                 |               | DragonsClaw      | IonicSpark            | Chalice       | Zephyr         | Quicksilver    | MirageEmblem       |
+| **rod**     |           |                 |               |                  | RabadonsDeathcap      | LudensEcho    | Morellonomicon | ArcaneGauntlet | DragonmancerEmblem |
+| **tear**    |           |                 |               |                  |                       | BlueSentinel  | Redemption     | HandofJustice  | MageEmblem         |
+| **belt**    |           |                 |               |                  |                       |               | WarmogsArmor   | Backhand       | GuardianEmblem     |
+| **glove**   |           |                 |               |                  |                       |               |                | ThiefsGloves   | LagoonEmblem       |
+| **spatula** |           |                 |               |                  |                       |               |                |                | ForceofNature      |
