@@ -26,6 +26,22 @@
             "desc": "Abilities can critically strike."
         },
         {
+            "name": "Sterak's Megashield",
+            "composition": [
+                "TFT_Item_BFSword",
+                "TFT_Item_GiantsBelt"
+            ],
+            "tags": [],
+            "effects": {
+                "AD": 0.30000001192092896,
+                "BonusADToGive": 55,
+                "BonusMaxHealthPerc": 30,
+                "Health": 400,
+                "HealthThreshold": 60
+            },
+            "desc": "Once per combat at 60% Health, gain <TFTRadiantItemBonus>30% max Health</TFTRadiantItemBonus> and <TFTRadiantItemBonus>55% Attack Damage</TFTRadiantItemBonus>."
+        },
+        {
             "name": "Protector's Vow",
             "composition": [
                 "TFT_Item_TearOfTheGoddess",
@@ -497,11 +513,11 @@
                 "Armor": 25,
                 "BaseDamageAmpPct": 12,
                 "CritChance": 20,
-                "DamageAmpPct": 13,
+                "DamageAmpPct": 18,
                 "MissingHPForMax": 60,
-                "TOOLTIPTotalDamageAmp": 25
+                "TOOLTIPTotalDamageAmp": 30
             },
-            "desc": "Deal 12% bonus damage. After falling below 60% Health, increase this to 25% for the rest of combat."
+            "desc": "Deal 12% bonus damage. After falling below 60% Health, increase this to 30% for the rest of combat."
         },
         {
             "name": "Tactician's Crown",
@@ -692,7 +708,7 @@
             ],
             "tags": [],
             "effects": {
-                "CritChance": 20
+                "CritChance": 15
             },
             "desc": "The holder gains the Vanquisher trait.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>"
         },
@@ -1250,19 +1266,6 @@
             "desc": "<TFTRadiantItemBonus>Regenerate 1% maximum Health per second.</TFTRadiantItemBonus>"
         },
         {
-            "name": "Sterak's Megashield",
-            "composition": [],
-            "tags": [],
-            "effects": {
-                "AD": 0.30000001192092896,
-                "BonusADToGive": 55,
-                "BonusMaxHealthPerc": 30,
-                "Health": 400,
-                "HealthThreshold": 60
-            },
-            "desc": "Once per combat at 60% Health, gain <TFTRadiantItemBonus>30% max Health</TFTRadiantItemBonus> and <TFTRadiantItemBonus>55% Attack Damage</TFTRadiantItemBonus>."
-        },
-        {
             "name": "Absolution",
             "composition": [],
             "tags": [],
@@ -1401,13 +1404,13 @@
             "tags": [],
             "effects": {
                 "Armor": 25,
-                "ArmorPerEnemy": 25,
+                "ArmorPerEnemy": 30,
                 "HealthRegenInterval": 1,
-                "MRPerEnemy": 25,
+                "MRPerEnemy": 30,
                 "MagicResist": 25,
                 "MaxHealthRegen": 2
             },
-            "desc": "Gain <TFTRadiantItemBonus>25</TFTRadiantItemBonus> Armor and <TFTRadiantItemBonus>25</TFTRadiantItemBonus> Magic Resist for each enemy targeting the holder.<br><br><TFTRadiantItemBonus>Also, regenerate 2% maximum Health each second.</TFTRadiantItemBonus>"
+            "desc": "Gain <TFTRadiantItemBonus>30</TFTRadiantItemBonus> Armor and <TFTRadiantItemBonus>30</TFTRadiantItemBonus> Magic Resist for each enemy targeting the holder.<br><br><TFTRadiantItemBonus>Also, regenerate 2% maximum Health each second.</TFTRadiantItemBonus>"
         },
         {
             "name": "The Baron's Gift",
@@ -1480,7 +1483,7 @@
                 "ManaTickrate": 3,
                 "TotalAPBonus": 35
             },
-            "desc": "Combat start: The holder gains two effects, <TFTRadiantItemBonus>regardless of starting position</TFTRadiantItemBonus>.<br><br>Front Two Rows: <TFTRadiantItemBonus>45 Armor and Magic Resist</TFTRadiantItemBonus>.<br><br>Back Two Rows: <TFTRadiantItemBonus>35 Ability Power. Gain 15 Mana every 3 seconds</TFTRadiantItemBonus>.<br>"
+            "desc": "Combat start: The holder gains two effects, <TFTRadiantItemBonus>regardless of starting position</TFTRadiantItemBonus>.<br><br>Front Two Rows: 45 Armor and Magic Resist.<br><br>Back Two Rows: 35 Ability Power. Gain 15 Mana every 3 seconds.<br>"
         },
         {
             "name": "Tactician's Crown",
@@ -1929,7 +1932,7 @@
             "composition": [],
             "tags": [],
             "effects": {
-                "1StarShieldValue": 250,
+                "1StarShieldValue": 200,
                 "2StarShieldValue": 250,
                 "3StarShieldValue": 250,
                 "BonusResists": 20,
@@ -1938,7 +1941,7 @@
                 "ShieldDuration": 20,
                 "{c78af25f}": 250
             },
-            "desc": "Combat start: The holder and allies within 2 hexes in the same row gain a 250 Shield, 20 Armor, and 20 Magic Resist for 20 seconds.<br><br>\u200b\u200b<tftitemrules>[Support item]</tftitemrules>"
+            "desc": "Combat start: The holder and allies within 2 hexes in the same row gain a 200 Shield, 20 Armor, and 20 Magic Resist for 20 seconds.<br><br>\u200b\u200b<tftitemrules>[Support item]</tftitemrules>"
         },
         {
             "name": "B.F. Sword",

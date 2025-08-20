@@ -404,5 +404,5 @@ if __name__ == '__main__':
     
     trait_compare('set11', 'Fated', 'set15', 'StarGuardian')
 
-    gen_rewards_detail()
+    # gen_rewards_detail()
     parse_rewards()

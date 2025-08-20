@@ -62,7 +62,7 @@ attributes_nickname={
     'Damage Amp': 'DA', 'DA': 'DA',
     'Durability': 'DR',
     'Crit Chance': 'CR', 'Critical Strike Chance': 'CR',
-    'Critical Strike Damage': 'DPS', 'Critical Strike': 'DPS',
+    'Critical Strike Damage': 'CS', 'Critical Strike': 'CS',
     'Dodge Chance': 'DC',
 }
 
@@ -288,7 +288,6 @@ set_item_iconkey_fix={
             'LightshieldCrests': 'LightshieldCrest',
             'DeathfireGrasps': 'DeathfireGrasp',
         },
-        'Emblems': {},
         'Craftable': {
             'BloodThirster': 'Bloodthirster',
             'Deathblades': 'LordsEdge',
@@ -319,24 +318,14 @@ set_item_iconkey_fix={
         'Crown': {
             'TacticiansCrown': 'ForceofNature',
         },
-        'Artifacts': {
-        },
-        'Emblems': {},
-        'Craftable': {
-        },
         'Radiant': {
             'RadiantThiefsGloves': 'RadientThiefsGloves',
         },
-        'Support': {
-        }
     },
     'set11': {
         'Crown': {
             'TacticiansCrown': 'ForceofNature',
         },
-        'Artifacts': {
-        },
-        'Emblems': {},
         'Craftable': {
             'BlueBuff': 'BlueSentinel',
             'RedBuff': 'RedBuffItem',
@@ -348,18 +337,10 @@ set_item_iconkey_fix={
             'RadiantBloodthirster': 'RadientBloodthirster',
             'RadiantInfinityEdge': 'RadientInfinityEdge'
         },
-        'Support': {
-        }
     },
     'set10': {
         'Crown': {
             'TacticiansCrown': 'ForceofNature',
-        },
-        'Artifacts': {
-        },
-        'Emblems': {
-        },
-        'Craftable': {
         },
         'Radiant': {
             'RadiantThiefsGloves': 'RadientThiefsGloves'
@@ -372,31 +353,13 @@ set_item_iconkey_fix={
         'Crown': {
             'TacticiansCrown': 'ForceofNature',
         },
-        'Artifacts': {
-        },
-        'Emblems': {
-        },
-        'Craftable': {
-        },
         'Radiant': {
             'RadiantThiefsGloves': 'RadientThiefsGloves'
         },
-        'Support': {
-        }
     },
     'set8': {
         'Crown': {
             'TacticiansCrown': 'ForceofNature',
         },
-        'Artifacts': {
-        },
-        'Emblems': {
-        },
-        'Craftable': {
-        },
-        'Radiant': {
-        },
-        'Support': {
-        }
     }
 }

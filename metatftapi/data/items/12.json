@@ -88,7 +88,7 @@
                 "CritChance": 20,
                 "Health": 150
             },
-            "desc": "Each round: Equip 2 random items.<br><br><tftitemrules>[Consumes 3 item slots.]</tftitemrules><br>@TFTUnitProperty.:TFT_BindOnEquipTRA@"
+            "desc": "Each round: Equip 2 random items.<br><br><tftitemrules>[Consumes 3 item slots.]</tftitemrules>"
         },
         {
             "name": "Guinsoo's Rageblade",
@@ -165,12 +165,12 @@
                 "AP": 10,
                 "AS": 20,
                 "CritChance": 20,
-                "DamageAmp": 0.15000000596046448,
+                "DamageAmp": 0.25,
+                "DamageAmpPct": 25,
                 "Duration": 3,
-                "Health": 150,
-                "{1543aa48}": 0.10000000149011612
+                "Health": 150
             },
-            "desc": "After damaging a Shield, gain 15.0% additional Damage Amp for 3 seconds."
+            "desc": "After damaging a Shield, gain 25.0% Damage Amp for 3 seconds."
         },
         {
             "name": "Gargoyle Stoneplate",
@@ -219,12 +219,11 @@
                 "AD": 0.25,
                 "AP": 25,
                 "AS": 10,
-                "DamageAmp": 0.20000000298023224,
+                "DamageAmp": 0.25,
                 "HealthThreshold": 1750,
-                "LargeBonusPct": 25,
-                "{1543aa48}": 0.05000000074505806
+                "LargeBonusPct": 25
             },
-            "desc": "Gain 20.0% additional Damage Amp against enemies with more than 1750 max Health."
+            "desc": "Gain 25.0% Damage Amp against enemies with more than 1750 max Health."
         },
         {
             "name": "Sunfire Cape",
@@ -235,16 +234,15 @@
             "tags": [],
             "effects": {
                 "Armor": 20,
-                "BonusPercentHP": 0.07999999821186066,
                 "BurnDuration": 10,
                 "BurnPercent": 1,
                 "GrievousWoundsPercent": 33,
-                "Health": 150,
+                "Health": 250,
                 "HexRange": 2,
                 "ICD": 2,
                 "MonsterCap": 100
             },
-            "desc": "Gain 8.0% max Health. <br><br>Every 2 seconds, deal 1% <TFTKeyword>Burn</TFTKeyword> and 33% <TFTKeyword>Wound</TFTKeyword> to an enemy within 2 hexes for 10 seconds.<br><br><tftitemrules>[Unique - only 1 per champion]<br><tftbold>Burn</tftbold>: Deals a percent of the target's max Health as true damage every second<br><tftbold>Wound</tftbold>: Reduces healing received</tftitemrules>"
+            "desc": "Every 2 seconds, deal 1% <TFTKeyword>Burn</TFTKeyword> and 33% <TFTKeyword>Wound</TFTKeyword> to an enemy within 2 hexes for 10 seconds.<br><br><tftitemrules>[Unique - only 1 per champion]<br><tftbold>Burn</tftbold>: Deals a percent of the target's max Health as true damage every second<br><tftbold>Wound</tftbold>: Reduces healing received</tftitemrules>"
         },
         {
             "name": "Hand Of Justice",
@@ -254,15 +252,17 @@
             ],
             "tags": [],
             "effects": {
-                "AD_NotStatBar": 0.15000000596046448,
-                "AP_NotStatBar": 15,
+                "BaseAD": 0.15000000596046448,
+                "BaseHeal": 15,
+                "BaseSP": 15,
+                "BonusADPercent": 0.15000000596046448,
+                "BonusSP": 15,
                 "CritChance": 20,
-                "HealthThreshold": 0.5,
                 "Mana": 15,
-                "StatOmnivamp_NotStatBar": 0.15000000596046448,
-                "{f23e83fc}": 2
+                "Omnivamp": 0.15000000596046448,
+                "{a60806db}": 66.66699981689453
             },
-            "desc": "Gain 2 effects:<li>15.0% Attack Damage and 15 Ability Power.<li>15.0% Omnivamp.<br><br>While above 50.0% health, double the Attack Damage and Ability Power. While below 50.0% Health, double the Omnivamp."
+            "desc": "Gain 2 effects:<li>15.0% Attack Damage and 15 Ability Power.<li>15.0% Omnivamp<br><br>Each round, randomly double 1 of these effects."
         },
         {
             "name": "Edge of Night",
@@ -484,11 +484,11 @@
                 "AD": 0.15000000596046448,
                 "AP": 15,
                 "DamageAmp": 0.05000000074505806,
-                "Mana": 30,
-                "ManaRefund": 10,
+                "Mana": 20,
+                "ManaReduction": 10,
                 "TakedownTimer": 8
             },
-            "desc": "Gain 10 Mana after casting. <br><br>When the holder gets a takedown, they deal 5.0% more damage for 8 seconds.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>"
+            "desc": "Max mana reduced by 10. <br><br>When the holder gets a takedown, they deal 5.0% more damage for 8 seconds.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>"
         },
         {
             "name": "Last Whisper",
@@ -563,11 +563,11 @@
                 "AS": 30,
                 "CritChance": 20,
                 "MagicResist": 20,
-                "ProcAttackSpeed": 0.029999999329447746,
+                "ProcAttackSpeed": 0.03999999910593033,
                 "ProcInterval": 2,
-                "SpellShieldDuration": 18
+                "SpellShieldDuration": 14
             },
-            "desc": "Combat start: Gain immunity to crowd control for 18 seconds. During this time, gain 3.0% Attack Speed every 2 seconds.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>"
+            "desc": "Combat start: Gain immunity to crowd control for 14 seconds. During this time, gain 4.0% Attack Speed every 2 seconds.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>"
         },
         {
             "name": "Deathblade",
@@ -577,7 +577,7 @@
             ],
             "tags": [],
             "effects": {
-                "AD": 0.550000011920929,
+                "AD": 0.5,
                 "BonusDamage": 0.07999999821186066,
                 "{1543aa48}": 0.07999999821186066
             },
@@ -638,13 +638,13 @@
             ],
             "tags": [],
             "effects": {
-                "AD": 0.20000000298023224,
-                "AP": 20,
-                "AllyHealing": 0.25,
-                "Omnivamp": 15,
-                "StatOmnivamp": 0.15000000596046448
+                "AD": 0.15000000596046448,
+                "AP": 15,
+                "AllyHealing": 0.20000000298023224,
+                "Omnivamp": 20,
+                "StatOmnivamp": 0.20000000298023224
             },
-            "desc": "Heal the lowest percent Health ally for 25.0% of damage dealt.<br><br><TFTTrackerLabel>Ally Healing:</TFTTrackerLabel> <TFTHighlight>@TFTUnitProperty.item:TFT_Tracker_Value1@</TFTHighlight>"
+            "desc": "Heal the lowest percent Health ally for 20.0% of damage dealt.<br><br><TFTTrackerLabel>Ally Healing:</TFTTrackerLabel> <TFTHighlight>@TFTUnitProperty.item:TFT_Tracker_Value1@</TFTHighlight>"
         }
     ],
     "emblem": [
@@ -953,12 +953,13 @@
                 "Artifact"
             ],
             "effects": {
+                "AS": 30,
                 "Armor": 35,
-                "ExtraADandAP": 20,
+                "ExtraADandAP": 25,
                 "ExtraHealth": 600,
                 "MagicResist": 35
             },
-            "desc": "Combat Start: If there are no adjacent allies, gain 600 Health, 20% Attack Damage, and 20 Ability Power."
+            "desc": "Combat start: If there are no adjacent allies, gain 600 Health, 25 Attack Damage, and 25 Ability Power."
         },
         {
             "name": "Manazane",
@@ -986,11 +987,11 @@
                 "BaseHealthPerStack": 7,
                 "BaseResistsPerStack": 1,
                 "GoldAtFullStacks": 1,
-                "GoldInterval": 8,
+                "GoldInterval": 9,
                 "Health": 50,
                 "StackCap": 35
             },
-            "desc": "Grants 1 Armor, 1 Magic Resist, and 7 Health when taking damage, stacking up to 35 times.<br><br>At full stacks, grant %i:goldCoins% 1 gold and continue gaining %i:goldCoins% 1 gold every 8 seconds.<br><br><tftitemrules>Gold generated this game: @TFTUnitProperty.item:TFT_Item_GoldGenerated@<br>[Unique - only 1 per champion]</tftitemrules>"
+            "desc": "Grants 1 Armor, 1 Magic Resist, and 7 Health when taking damage, stacking up to 35 times.<br><br>At full stacks, grant %i:goldCoins% 1 gold and continue gaining %i:goldCoins% 1 gold every 9 seconds.<br><br><tftitemrules>Gold generated this game: @TFTUnitProperty.item:TFT_Item_GoldGenerated@<br>[Unique - only 1 per champion]</tftitemrules>"
         },
         {
             "name": "Gambler's Blade",
@@ -1081,7 +1082,7 @@
             ],
             "effects": {
                 "AP": 30,
-                "AS": 30,
+                "AS": 20,
                 "{9b6d43b2}": 480,
                 "{9d6d46d8}": 480,
                 "{9e6d486b}": 480,
@@ -1141,10 +1142,10 @@
             ],
             "effects": {
                 "Armor": 40,
-                "Health": 350,
-                "PercentDamage": 150
+                "Health": 400,
+                "PercentDamage": 160
             },
-            "desc": "Whenever a Shield on the holder breaks, 150% of that Shield's initial value is dealt to the nearest enemy as magic damage."
+            "desc": "Whenever a Shield on the holder breaks, 160% of that Shield's initial value is dealt to the nearest enemy as magic damage."
         },
         {
             "name": "Eternal Winter",
@@ -1241,13 +1242,12 @@
                 "Artifact"
             ],
             "effects": {
-                "Armor": 55,
-                "MagicResist": 55,
+                "Armor": 70,
+                "MagicResist": 70,
                 "PercentOfResists": 70,
-                "ShieldDuration": 5,
                 "TriggerRate": 3
             },
-            "desc": "Every 3 seconds, Shields the lowest percent Health ally for 70% of the holder's combined Armor and Magic Resist for 5 seconds.<br><br>On death grants this shield to all allies."
+            "desc": "Every 3 seconds, Shields the lowest percent Health ally for 70% of the holder's combined Armor and Magic Resist.<br><br>On death grants this shield to all allies."
         },
         {
             "name": "Death's Defiance",
@@ -1276,7 +1276,7 @@
                 "CritChance": 30,
                 "Health": 200
             },
-            "desc": "Each round: Equip 2 random Ornn Artifacts.<br><br><tftitemrules>[Consumes 3 item slots.]</tftitemrules><br>@TFTUnitProperty.:TFT_BindOnEquipTRA@"
+            "desc": "Each round: Equip 2 random Ornn Artifacts.<br><br><tftitemrules>[Consumes 3 item slots.]</tftitemrules>"
         },
         {
             "name": "Blighting Jewel",
@@ -1287,7 +1287,6 @@
             "effects": {
                 "AP": 40,
                 "MRReduction": 4,
-                "Mana": 15,
                 "ManaGain": 5
             },
             "desc": "Dealing magic damage reduces the target's Magic Resist by 4. If their Magic Resist is 0, grant the holder 5 Mana instead."
@@ -1361,24 +1360,12 @@
             ],
             "effects": {
                 "AP": 30,
-                "Mana": 15,
+                "Mana": 30,
                 "PercentMaxHealthDamage": 40,
                 "RepeatTime": 13,
-                "{1543aa48}": 0.25
+                "{1543aa48}": 0.30000001192092896
             },
             "desc": "Combat start: Blast the current target for 40% of their max Health as magic damage. Repeat this every 13 seconds."
-        },
-        {
-            "name": "Corrupt Vampiric Scepter",
-            "composition": [],
-            "tags": [
-                "Artifact"
-            ],
-            "effects": {
-                "AS": 60,
-                "PercentDamage": 60
-            },
-            "desc": "Attacks deal an additional 60% Attack Damage %i:scaleAD% as physical damage and heal the holder for the damage dealt.<br><br><TFTShadowItemBonus>The holder cannot cast their Ability or gain Mana.</TFTShadowItemBonus><br>"
         },
         {
             "name": "Wit's End",
@@ -1473,7 +1460,7 @@
                 "ExecutePercent": 12,
                 "GoldChance": 40
             },
-            "desc": "Attacks and Abilities execute enemies below 12% of their maximum Health. Executions have a 40% chance to drop %i:goldCoins% 1 gold.<br><br><TFTTrackerLabel>Gold Collected:</TFTTrackerLabel> <TFTHighlight>@TFTUnitProperty.item:TFT_Tracker_Value1@g</TFTHighlight><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>"
+            "desc": "Attacks and Abilities execute enemies below 12% of their maximum Health. Executions have a 40% chance to drop %i:goldCoins% 1 gold.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>"
         }
     ],
     "support": [
@@ -1503,7 +1490,7 @@
                 "Health": 150,
                 "{4516a18d}": 60
             },
-            "desc": "Combat start: Shoot a beam that 30% <TFTKeyword>Mana Reaves</TFTKeyword> enemies.<br><br>Your team gains 60 Health.<br><br><tftitemrules>[Support item] [Unique - only 1 per champion]<br><tftbold>Mana Reave</tftbold>: increase maximum Mana until the next cast</tftitemrules><br>@TFTUnitProperty.:TFT_BindOnEquipTRA@"
+            "desc": "Combat start: Shoot a beam that 30% <TFTKeyword>Mana Reaves</TFTKeyword> enemies.<br><br>Your team gains 60 Health.<br><br><tftitemrules>\u200b\u200b[Support item] [Unique - only 1 per champion]<br><tftbold>Mana Reave</tftbold>: increase maximum Mana until the next cast</tftitemrules>"
         },
         {
             "name": "Banshee's Veil",
@@ -1530,7 +1517,7 @@
                 "BanishDuration": 5,
                 "Health": 150
             },
-            "desc": "Combat start: Summon a whirlwind on the opposite side of the arena that removes the closest enemy from combat for 5 seconds. <br><br>Your team gains 2% Attack Speed.<br><br><tftitemrules>[Support item]<br>[Ignores crowd control immunity.]<br>[Unique - only 1 per champion]</tftitemrules><br>@TFTUnitProperty.:TFT_BindOnEquipTRA@"
+            "desc": "Combat start: Summon a whirlwind on the opposite side of the arena that removes the closest enemy from combat for 5 seconds. <br><br>Your team gains 2% Attack Speed.<br><br><tftitemrules>[Support item]<br>[Ignores crowd control immunity.]<br>[Unique - only 1 per champion]</tftitemrules>"
         },
         {
             "name": "Needlessly Big Gem",
@@ -1678,7 +1665,7 @@
                 "Duration": 2,
                 "Health": 150
             },
-            "desc": "Combat start: The holder and all adjacent allies gain 15.0% Attack Damage and 20 Ability Power.<br><br>When the holder dies, Stun all enemies within 2-hexes for 2 seconds.<br><br>\u200b\u200b<tftitemrules>[Support item]</tftitemrules>"
+            "desc": "Combat start: The holder and all adjacent allies gain 15.0 Attack Damage and 20 Ability Power.<br><br>When the holder dies, Stun all enemies within 2-hexes for 2 seconds.<br><br>\u200b\u200b<tftitemrules>[Support item]</tftitemrules>"
         },
         {
             "name": "Randuin's Omen",
@@ -1762,12 +1749,12 @@
                 "AP": 30,
                 "AS": 30,
                 "CritChance": 20,
-                "DamageAmp": 0.30000001192092896,
+                "DamageAmp": 0.5,
+                "DamageAmpPct": 50,
                 "Duration": 3,
-                "Health": 150,
-                "{1543aa48}": 0.20000000298023224
+                "Health": 150
             },
-            "desc": "After damaging a Shield, gain <TFTRadiantItemBonus>30.0%</TFTRadiantItemBonus> additional Damage Amp for 3 seconds."
+            "desc": "After damaging a Shield, gain <TFTRadiantItemBonus>50.0%</TFTRadiantItemBonus> Damage Amp for 3 seconds."
         },
         {
             "name": "Covalent Spark",
@@ -1791,14 +1778,14 @@
             "tags": [],
             "effects": {
                 "AS": 50,
-                "ASTotalDuration": 18,
+                "ASTotalDuration": 14,
                 "CritChance": 40,
                 "MagicResist": 30,
-                "ProcAttackSpeed": 0.07000000029802322,
+                "ProcAttackSpeed": 0.09000000357627869,
                 "ProcInterval": 2,
-                "SpellShieldDuration": 45
+                "SpellShieldDuration": 30
             },
-            "desc": "Combat start: Gain immunity to crowd control for <TFTRadiantItemBonus>45</TFTRadiantItemBonus> seconds. <TFTRadiantItemBonus>For 18 seconds, gain 7.000000000000001% Attack Speed every 2 seconds.</TFTRadiantItemBonus><br><br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>"
+            "desc": "Combat start: Gain immunity to crowd control for <TFTRadiantItemBonus>30</TFTRadiantItemBonus> seconds. <TFTRadiantItemBonus>For 14 seconds, gain 9.0% Attack Speed every 2 seconds.</TFTRadiantItemBonus><br><br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>"
         },
         {
             "name": "Hextech Lifeblade",
@@ -1807,11 +1794,11 @@
             "effects": {
                 "AD": 0.4000000059604645,
                 "AP": 40,
-                "AllyHealing": 0.4000000059604645,
+                "AllyHealing": 0.3499999940395355,
                 "Omnivamp": 35,
-                "StatOmnivamp": 0.30000001192092896
+                "StatOmnivamp": 0.3499999940395355
             },
-            "desc": "Heal the lowest percent Health ally for <TFTRadiantItemBonus>40.0%</TFTRadiantItemBonus> of damage dealt.<br><br><TFTTrackerLabel>Ally Healing:</TFTTrackerLabel> <TFTHighlight>@TFTUnitProperty.item:TFT_Tracker_Value1@</TFTHighlight>"
+            "desc": "Heal the lowest percent Health ally for <TFTRadiantItemBonus>35.0%</TFTRadiantItemBonus> of damage dealt.<br><br><TFTTrackerLabel>Ally Healing:</TFTTrackerLabel> <TFTHighlight>@TFTUnitProperty.item:TFT_Tracker_Value1@</TFTHighlight>"
         },
         {
             "name": "Statikk's Favor",
@@ -1829,7 +1816,7 @@
                 "{15144cec}": 8,
                 "{79e2ec7b}": 8
             },
-            "desc": "Every 3rd attack deals <TFTRadiantItemBonus>95</TFTRadiantItemBonus> magic damage and 30% <TFTKeyword>Shreds</TFTKeyword> <TFTRadiantItemBonus>8</TFTRadiantItemBonus> enemies for 5 seconds.<br><br><tftitemrules><tftbold>Shred</tftbold>: Reduce Magic Resist</tftitemrules>"
+            "desc": "Every 3rd attack deals <TFTRadiantItemBonus>95</TFTRadiantItemBonus> magic damage and  30% <TFTKeyword>Shreds</TFTKeyword> <TFTRadiantItemBonus>8</TFTRadiantItemBonus> enemies for 5 seconds.<br><br><tftitemrules><tftbold>Shred</tftbold>: Reduce Magic Resist</tftitemrules>"
         },
         {
             "name": "Bulwark's Oath",
@@ -1853,11 +1840,11 @@
                 "AD": 0.5,
                 "AP": 50,
                 "DamageAmp": 0.20000000298023224,
-                "Mana": 30,
-                "ManaRefund": 10,
+                "Mana": 20,
+                "ManaReduction": 10,
                 "TakedownTimer": 12
             },
-            "desc": "Gain 10 Mana after casting. <br><br>When the holder gets a takedown, they deal <TFTRadiantItemBonus>20.0%</TFTRadiantItemBonus> more damage for <TFTRadiantItemBonus>12</TFTRadiantItemBonus> seconds.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules><br><br>"
+            "desc": "Max mana reduced by 10. <br><br>When the holder gets a takedown, they deal <TFTRadiantItemBonus>20.0%</TFTRadiantItemBonus> more damage for <TFTRadiantItemBonus>12</TFTRadiantItemBonus> seconds.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules><br><br>"
         },
         {
             "name": "Urf-Angel's Staff",
@@ -1932,15 +1919,14 @@
             "composition": [],
             "tags": [],
             "effects": {
-                "AD_NotStatBar": 0.3499999940395355,
-                "AP_NotStatBar": 35,
+                "ADBuff": 0.5,
+                "APBuff": 50,
                 "CritChance": 40,
-                "HealthThreshold": 0.5,
                 "Mana": 15,
-                "StatOmnivamp_NotStatBar": 0.20000000298023224,
-                "{f23e83fc}": 2
+                "Omnivamp": 0.30000001192092896,
+                "TraitMultiplier": 30
             },
-            "desc": "Gain 2 effects:<li><TFTRadiantItemBonus>35.0%</TFTRadiantItemBonus> Attack Damage and <TFTRadiantItemBonus>35</TFTRadiantItemBonus> Ability Power.<li><TFTRadiantItemBonus>20.0%</TFTRadiantItemBonus> Omnivamp.<br><br>While above 50.0% health, double the Attack Damage and Ability Power. While below 50.0% Health, double the Omnivamp."
+            "desc": "Gain 2 effects:<li><TFTRadiantItemBonus>50.0%</TFTRadiantItemBonus> Attack Damage and <TFTRadiantItemBonus>50</TFTRadiantItemBonus> Ability Power.<li><TFTRadiantItemBonus>30.0%</TFTRadiantItemBonus> Omnivamp"
         },
         {
             "name": "Sunlight Cape",
@@ -1948,18 +1934,17 @@
             "tags": [],
             "effects": {
                 "Armor": 40,
-                "BonusPercentHP": 0.11999999731779099,
                 "BurnDuration": 30,
                 "BurnPercent": 2,
                 "GrievousWoundsPercent": 33,
-                "Health": 300,
+                "Health": 450,
                 "HealthRegenInterval": null,
                 "HexRange": 3,
                 "ICD": 1.5,
                 "MaxHealthRegen": null,
                 "MonsterCap": 150
             },
-            "desc": "Gain <TFTRadiantItemBonus>12.0%</TFTRadiantItemBonus> max Health.<br><br>Every <TFTRadiantItemBonus>1.5</TFTRadiantItemBonus> seconds, deal <TFTRadiantItemBonus>2%</TFTRadiantItemBonus> <TFTKeyword>Burn</TFTKeyword> and 33% <TFTKeyword>Wound</TFTKeyword> to an enemy within <TFTRadiantItemBonus>3</TFTRadiantItemBonus> hexes for <TFTRadiantItemBonus>30</TFTRadiantItemBonus> seconds.<br><br><tftitemrules>[Unique - only 1 per champion]<br><tftbold>Burn</tftbold>: Deals a percent of the target's max Health as true damage every second<br><tftbold>Wound</tftbold>: reduces healing received</tftitemrules>"
+            "desc": "Every <TFTRadiantItemBonus>1.5</TFTRadiantItemBonus> seconds, deal <TFTRadiantItemBonus>2%</TFTRadiantItemBonus> <TFTKeyword>Burn</TFTKeyword> and 33% <TFTKeyword>Wound</TFTKeyword> to an enemy within <TFTRadiantItemBonus>3</TFTRadiantItemBonus> hexes for <TFTRadiantItemBonus>30</TFTRadiantItemBonus> seconds.<br><br><tftitemrules>[Unique - only 1 per champion]<br><tftbold>Burn</tftbold>: Deals a percent of the target's max Health as true damage every second<br><tftbold>Wound</tftbold>: reduces healing received</tftitemrules>"
         },
         {
             "name": "Eternal Whisper",
@@ -1982,7 +1967,7 @@
                 "CritChance": 20,
                 "Health": 150
             },
-            "desc": "Each round: Equip 2 random <TFTRadiantItemBonus>Radiant</TFTRadiantItemBonus> items.<br><br><tftitemrules>[Consumes 3 item slots.]</tftitemrules><br>@TFTUnitProperty.:TFT_BindOnEquipTRA@"
+            "desc": "Each round: Equip 2 random <TFTRadiantItemBonus>Radiant</TFTRadiantItemBonus> items.<br><br><tftitemrules>[Consumes 3 item slots.]</tftitemrules>"
         },
         {
             "name": "Warmog's Pride",
@@ -2093,12 +2078,11 @@
                 "AD": 0.5,
                 "AP": 50,
                 "AS": 10,
-                "DamageAmp": 0.30000001192092896,
+                "DamageAmp": 0.5,
                 "HealthThreshold": 1750,
-                "LargeBonusPct": 60,
-                "{1543aa48}": 0.20000000298023224
+                "LargeBonusPct": 60
             },
-            "desc": "Gain <TFTRadiantItemBonus>30.0%</TFTRadiantItemBonus> additional Damage Amp against enemies with more than 1750 max Health."
+            "desc": "Gain <TFTRadiantItemBonus>50.0%</TFTRadiantItemBonus> Damage Amp against enemies with more than 1750 max Health."
         },
         {
             "name": "Royal Crownshield",
@@ -2373,102 +2357,17 @@
             "desc": "The holder deals 100.0% less damage. They also take 20.0% of their max health as true damage per second, and heal Milio for the same amount.  "
         },
         {
-            "name": "Magnetic Remover <rules>(8 uses left!)</rules>",
-            "composition": [],
-            "tags": [],
-            "effects": {
-                "{27d80030}": 8
-            },
-            "desc": "Use on a champion to unequip all items. <br><br><tftitemrules> [Cannot be used on champions in combat.]<br>[Consumable - This item disappears when used.]</tftitemrules>"
-        },
-        {
-            "name": "Magnetic Remover <rules>(9 uses left!)</rules>",
-            "composition": [],
-            "tags": [],
-            "effects": {
-                "{27d80030}": 9
-            },
-            "desc": "Use on a champion to unequip all items. <br><br><tftitemrules> [Cannot be used on champions in combat.]<br>[Consumable - This item disappears when used.]</tftitemrules>"
-        },
-        {
             "name": "Reforger",
             "composition": [],
             "tags": [],
-            "effects": {
-                "{27d80030}": 1
-            },
+            "effects": {},
             "desc": "Unequip all items and randomly transform them into new ones of a similar type and quality.<br><br><tftitemrules>[Consumable - This item disappears when used.]</tftitemrules>"
-        },
-        {
-            "name": "Magnetic Remover <rules>(2 uses left!)</rules>",
-            "composition": [],
-            "tags": [],
-            "effects": {
-                "{27d80030}": 2
-            },
-            "desc": "Use on a champion to unequip all items. <br><br><tftitemrules> [Cannot be used on champions in combat.]<br>[Consumable - This item disappears when used.]</tftitemrules>"
-        },
-        {
-            "name": "Reforger <rules>(10 uses left!)</rules>",
-            "composition": [],
-            "tags": [],
-            "effects": {
-                "{27d80030}": 10
-            },
-            "desc": "Unequip all items and randomly transform them into new ones of a similar type and quality.<br><br><tftitemrules>[Consumable - This item disappears when used.]</tftitemrules>"
-        },
-        {
-            "name": "Magnetic Remover <rules>(3 uses left!)</rules>",
-            "composition": [],
-            "tags": [],
-            "effects": {
-                "{27d80030}": 3
-            },
-            "desc": "Use on a champion to unequip all items. <br><br><tftitemrules> [Cannot be used on champions in combat.]<br>[Consumable - This item disappears when used.]</tftitemrules>"
-        },
-        {
-            "name": "Magnetic Remover <rules>(4 uses left!)</rules>",
-            "composition": [],
-            "tags": [],
-            "effects": {
-                "{27d80030}": 4
-            },
-            "desc": "Use on a champion to unequip all items. <br><br><tftitemrules> [Cannot be used on champions in combat.]<br>[Consumable - This item disappears when used.]</tftitemrules>"
-        },
-        {
-            "name": "Magnetic Remover <rules>(5 uses left!)</rules>",
-            "composition": [],
-            "tags": [],
-            "effects": {
-                "{27d80030}": 5
-            },
-            "desc": "Use on a champion to unequip all items. <br><br><tftitemrules> [Cannot be used on champions in combat.]<br>[Consumable - This item disappears when used.]</tftitemrules>"
-        },
-        {
-            "name": "Magnetic Remover <rules>(6 uses left!)</rules>",
-            "composition": [],
-            "tags": [],
-            "effects": {
-                "{27d80030}": 6
-            },
-            "desc": "Use on a champion to unequip all items. <br><br><tftitemrules> [Cannot be used on champions in combat.]<br>[Consumable - This item disappears when used.]</tftitemrules>"
-        },
-        {
-            "name": "Magnetic Remover <rules>(7 uses left!)</rules>",
-            "composition": [],
-            "tags": [],
-            "effects": {
-                "{27d80030}": 7
-            },
-            "desc": "Use on a champion to unequip all items. <br><br><tftitemrules> [Cannot be used on champions in combat.]<br>[Consumable - This item disappears when used.]</tftitemrules>"
         },
         {
             "name": "Magnetic Remover",
             "composition": [],
             "tags": [],
-            "effects": {
-                "{27d80030}": 1
-            },
+            "effects": {},
             "desc": "Use on a champion to unequip all items. <br><br><tftitemrules> [Cannot be used on champions in combat.]<br>[Consumable - This item disappears when used.]</tftitemrules>"
         },
         {
@@ -2477,13 +2376,6 @@
             "tags": [],
             "effects": {},
             "desc": "Cause this unit to deal @TFTUnitProperty.:TFT_UnitProperty_Debug@% damage on their next attack."
-        },
-        {
-            "name": "",
-            "composition": [],
-            "tags": [],
-            "effects": {},
-            "desc": "<tftrules> This transforms into a random item at the start of combat!</tftrules>"
         },
         {
             "name": "Reforger",
@@ -2665,15 +2557,6 @@
             "desc": "Use on a champion to reroll a special Shop that contains only champions sharing a Trait with the source champion. <br><br><tftitemrules>[Consumable - This item disappears when used.]</tftitemrules>"
         },
         {
-            "name": "Magnetic Remover <rules>(10 uses left!)</rules>",
-            "composition": [],
-            "tags": [],
-            "effects": {
-                "{27d80030}": 10
-            },
-            "desc": "Use on a champion to unequip all items. <br><br><tftitemrules> [Cannot be used on champions in combat.]<br>[Consumable - This item disappears when used.]</tftitemrules>"
-        },
-        {
             "name": "Giant's Belt",
             "composition": [],
             "tags": [],
@@ -2713,61 +2596,7 @@
                 "CritChance": 20,
                 "Health": 150
             },
-            "desc": "Each round: Equip 2 random Support items.<br><br><tftitemrules>[Consumes 3 item slots.]</tftitemrules><br>@TFTUnitProperty.:TFT_BindOnEquipTRA@"
-        },
-        {
-            "name": "Reforger <rules>(5 uses left!)</rules>",
-            "composition": [],
-            "tags": [],
-            "effects": {
-                "{27d80030}": 5
-            },
-            "desc": "Unequip all items and randomly transform them into new ones of a similar type and quality.<br><br><tftitemrules>[Consumable - This item disappears when used.]</tftitemrules>"
-        },
-        {
-            "name": "Reforger <rules>(4 uses left!)</rules>",
-            "composition": [],
-            "tags": [],
-            "effects": {
-                "{27d80030}": 4
-            },
-            "desc": "Unequip all items and randomly transform them into new ones of a similar type and quality.<br><br><tftitemrules>[Consumable - This item disappears when used.]</tftitemrules>"
-        },
-        {
-            "name": "Reforger <rules>(7 uses left!)</rules>",
-            "composition": [],
-            "tags": [],
-            "effects": {
-                "{27d80030}": 7
-            },
-            "desc": "Unequip all items and randomly transform them into new ones of a similar type and quality.<br><br><tftitemrules>[Consumable - This item disappears when used.]</tftitemrules>"
-        },
-        {
-            "name": "Reforger <rules>(6 uses left!)</rules>",
-            "composition": [],
-            "tags": [],
-            "effects": {
-                "{27d80030}": 6
-            },
-            "desc": "Unequip all items and randomly transform them into new ones of a similar type and quality.<br><br><tftitemrules>[Consumable - This item disappears when used.]</tftitemrules>"
-        },
-        {
-            "name": "Reforger <rules>(3 uses left!)</rules>",
-            "composition": [],
-            "tags": [],
-            "effects": {
-                "{27d80030}": 3
-            },
-            "desc": "Unequip all items and randomly transform them into new ones of a similar type and quality.<br><br><tftitemrules>[Consumable - This item disappears when used.]</tftitemrules>"
-        },
-        {
-            "name": "Reforger <rules>(2 uses left!)</rules>",
-            "composition": [],
-            "tags": [],
-            "effects": {
-                "{27d80030}": 2
-            },
-            "desc": "Unequip all items and randomly transform them into new ones of a similar type and quality.<br><br><tftitemrules>[Consumable - This item disappears when used.]</tftitemrules>"
+            "desc": "Each round: Equip 2 random Support items.<br><br><tftitemrules>[Consumes 3 item slots.]</tftitemrules>"
         },
         {
             "name": "Unusable Slot",
@@ -2775,24 +2604,6 @@
             "tags": [],
             "effects": {},
             "desc": "This slot can't hold an item."
-        },
-        {
-            "name": "Reforger <rules>(9 uses left!)</rules>",
-            "composition": [],
-            "tags": [],
-            "effects": {
-                "{27d80030}": 9
-            },
-            "desc": "Unequip all items and randomly transform them into new ones of a similar type and quality.<br><br><tftitemrules>[Consumable - This item disappears when used.]</tftitemrules>"
-        },
-        {
-            "name": "Reforger <rules>(8 uses left!)</rules>",
-            "composition": [],
-            "tags": [],
-            "effects": {
-                "{27d80030}": 8
-            },
-            "desc": "Unequip all items and randomly transform them into new ones of a similar type and quality.<br><br><tftitemrules>[Consumable - This item disappears when used.]</tftitemrules>"
         }
     ]
 }

@@ -1,8 +1,10 @@
 [
     {
-        "name": "tft_trait_displayname_TFT11_Ghostly",
+        "name": "Ghostly",
         "desc": [
-            "tft_trait_description_TFT11_Ghostly"
+            "Upon dealing or taking damage @NumInstances@ times, Ghostly units send @NumSpectres@ spectres to haunt nearby enemies and heal @HealingPercent*100@%&nbsp;max Health every @TickRate@ seconds. ",
+            "Haunted enemies take bonus damage for each spectre on them, and pass spectres on death.",
+            "<expandRow>(@MinUnits@) @DamagePercent*100@% per spectre</expandRow>"
         ],
         "unit_count": 6,
         "units": "Caitlyn(1)/Aatrox(2)/Shen(2)/Illaoi(3)/Kayn(4)/Morgana(4)",
@@ -10,9 +12,14 @@
         "trait_desc": "(DamagePercent,HealingPercent,NumInstances,NumSpectres,TickRate): (0.05,0.02,5,2,2)/(0.10,0.02,5,2,2)/(0.16,0.02,5,2,2)/(0.36,0.02,5,2,2)"
     },
     {
-        "name": "tft_trait_displayname_TFT11_Fortune",
+        "name": "Fortune",
         "desc": [
-            "tft_trait_description_TFT11_Fortune"
+            "When you lose a player combat, gain Luck. The more fights in a row you lose, the more Luck you get.",
+            "Lose Luck when you win. ",
+            "<row>(@MinUnits@) Roll a die; in that many player combats, hold a Festival where you may convert your Luck into rewards.</row>",
+            "<row>(@MinUnits@) Heal @Heal@ player health at the start of each player combat. </row>",
+            "<row>@TFTUnitProperty.:TFT11_Trait_Fortune7Tooltip@</row>",
+            "<rules>Each Festival, roll a new die.</rules>"
         ],
         "unit_count": 5,
         "units": "FortuneYord(1)/Teemo(2)/Tristana(3)/Zoe(3)/Annie(4)",
@@ -20,9 +27,12 @@
         "trait_desc": "(Heal,HealDU,HealHR,WinPenalty): (null,null,null,0.10)/(2,1,1,0.10)/(2,1,1,null)"
     },
     {
-        "name": "tft_trait_displayname_TFT11_Lovers",
+        "name": "Lovers",
         "desc": [
-            "tft_trait_description_TFT11_Lovers"
+            "Change which Lover takes the field depending on whether they are placed in the front or back 2 rows. ",
+            "When the fielded Lover casts, the other provides a bonus&nbsp;effect.",
+            "Front: Altruist Rakan",
+            "Back: Trickshot Xayah"
         ],
         "unit_count": 3,
         "units": "Xayah(5)/Rakan(5)/XayahRakanDummy(5)",
@@ -30,9 +40,10 @@
         "trait_desc": "(): ()"
     },
     {
-        "name": "tft_trait_displayname_TFT11_Reaper",
+        "name": "Reaper",
         "desc": [
-            "tft_trait_description_TFT11_Reaper"
+            "<row>(@MinUnits@) Reapers' Abilities can critically strike and they gain @CritChance*100@% Critical Strike Chance.</row>",
+            "<row>(@MinUnits@) Additionally, Reapers bleed enemies for @BleedDamage*100@% bonus true damage over @Duration@&nbsp;seconds.</row>"
         ],
         "unit_count": 4,
         "units": "KhaZix(1)/Kindred(2)/Yone(3)/Kayn(4)",
@@ -40,9 +51,9 @@
         "trait_desc": "(BleedDamage,CritChance,Duration): (null,0.25,2)/(0.50,0.25,2)"
     },
     {
-        "name": "tft_trait_displayname_TFT11_TrickshotAltruist",
+        "name": "Trickshot/Altruist",
         "desc": [
-            "tft_trait_description_TFT11_TrickshotAltruist"
+            "Place in the back two rows to get Trickshot, place in the front two rows to get Altruist!"
         ],
         "unit_count": 1,
         "units": "XayahRakanDummy(5)",
@@ -50,9 +61,14 @@
         "trait_desc": "(): ()"
     },
     {
-        "name": "tft_trait_displayname_TFT11_Akana",
+        "name": "Umbral",
         "desc": [
-            "tft_trait_description_TFT11_Akana_Desire"
+            "The moon illuminates hexes, Shielding units placed in them at the start of combat. ",
+            "Umbral units in illuminated hexes execute low Health enemies.",
+            "<row>(@MinUnits@) @ShieldAmount@&nbsp;Shield; @DesireExecuteThreshhold@% Health execute</row>",
+            "<row>(@MinUnits@) @ShieldAmount@&nbsp;Shield; @DesireExecuteThreshhold@% Health execute. More hexes are illuminated </row>",
+            "<row>(@MinUnits@) @ShieldAmount@&nbsp;Shield; @DesireExecuteThreshhold@% Health execute. Illuminate the whole board</row>",
+            "<row>(@MinUnits@) Executed enemies have a @DesireExecuteRewardPercent*100@% chance to drop loot; @DesireExecuteThreshhold@% Health execute </row>"
         ],
         "unit_count": 6,
         "units": "Darius(1)/Yorick(2)/Alune(3)/Yone(3)/Sylas(4)/Sett(5)",
@@ -60,9 +76,12 @@
         "trait_desc": "(DesireExecuteRewardPercent,DesireExecuteRewardPercentHR,DesireExecuteThreshhold,ShieldAmount): (null,10,200)/(null,18,450)/(null,25,900)/(1,1,60,1000)"
     },
     {
-        "name": "tft_trait_displayname_TFT11_Dryad",
+        "name": "Dryad",
         "desc": [
-            "tft_trait_description_TFT11_Dryad"
+            "Dryads gain Ability Power and @StartingHealth@ Health. Each enemy death grants permanent additional Health.",
+            "<expandRow>(@MinUnits@) @AP@&nbsp;%i:scaleAP%; @HealthPerCompost@&nbsp;%i:scaleHealth% per enemy death</expandRow>",
+            "<TFTTrackerLabel>(Total health: @TFTUnitProperty.trait:TFT11_Trait_DryadHealth@&nbsp;%i:scaleHealth%)</TFTTrackerLabel>",
+            "<TFTTrackerLabel>(Enemies killed: @TFTUnitProperty.trait:TFT11_Trait_DryadCompost@)</TFTTrackerLabel>"
         ],
         "unit_count": 5,
         "units": "RekSai(1)/Kindred(2)/Gnar(2)/Ornn(4)/Azir(5)",
@@ -70,9 +89,10 @@
         "trait_desc": "(AP,Duration,HealthPerCompost,HealthPerCompostHR,StartingHealth,StartingHealthHR): (15,4,3,4,150,150)/(30,4,7,12,150,150)/(55,4,10,20,150,150)"
     },
     {
-        "name": "tft_trait_displayname_TFT11_Sage",
+        "name": "Sage",
         "desc": [
-            "tft_trait_description_TFT11_Sage"
+            "Combat start: Allies in the front 2&nbsp;rows gain Omnivamp. Allies in the back 2&nbsp;rows gain Ability&nbsp;Power.",
+            "<expandRow>(@MinUnits@) @Omnivamp*100@%&nbsp;Omnivamp, @APAmount@&nbsp;%i:scaleAP%</expandRow>"
         ],
         "unit_count": 4,
         "units": "Zyra(2)/Diana(3)/Morgana(4)/WuKong(5)",
@@ -80,9 +100,13 @@
         "trait_desc": "(APAmount,Omnivamp): (15,0.12)/(30,0.20)/(45,0.30)/(75,0.45)"
     },
     {
-        "name": "tft_trait_displayname_TFT11_Enchantress",
+        "name": "Arcanist",
         "desc": [
-            "tft_trait_description_TFT11_Enchantress"
+            "Arcanists gain Ability&nbsp;Power and grant Ability&nbsp;Power to allies.",
+            "<row>(@MinUnits@) @TeamAbilityPower@&nbsp;%i:scaleAP% to all allies.</row>",
+            "<row>(@MinUnits@) @ArcanistAbilityPower@&nbsp;%i:scaleAP% for Arcanists; @TeamAbilityPower@&nbsp;%i:scaleAP% for others</row>",
+            "<row>(@MinUnits@) @ArcanistAbilityPower@&nbsp;%i:scaleAP% for Arcanists; @TeamAbilityPower@&nbsp;%i:scaleAP% for others</row>",
+            "<row>(@MinUnits@) @ArcanistAbilityPower@&nbsp;%i:scaleAP% for Arcanists; @TeamAbilityPower@&nbsp;%i:scaleAP% for others</row>"
         ],
         "unit_count": 7,
         "units": "Ahri(1)/Lux(2)/Neeko(2)/Illaoi(3)/Zoe(3)/Syndra(4)/Lissandra(5)",
@@ -90,9 +114,12 @@
         "trait_desc": "(ArcanistAbilityPower,TeamAbilityPower): (20,20)/(50,20)/(90,50)/(135,135)"
     },
     {
-        "name": "tft_trait_displayname_TFT11_InkShadow",
+        "name": "Inkshadow",
         "desc": [
-            "tft_trait_description_TFT11_InkShadow"
+            "Gain unique Inkshadow items. Inkshadow champions gain @PercentBuff@% bonus damage and damage reduction.",
+            "<row>(@MinUnits@) @TFTUnitProperty.trait:TFT11_Trait_Inkshadow_Item1@</row>",
+            "<row>(@MinUnits@) @TFTUnitProperty.trait:TFT11_Trait_Inkshadow_Item2@ and @IncreasedPercentBuff@% more bonus damage and damage reduction </row>",
+            "<row>(@MinUnits@) @TFTUnitProperty.trait:TFT11_Trait_Inkshadow_Item3@, @TFTUnitProperty.trait:TFT11_Trait_Inkshadow_Item4@, and @IncreasedPercentBuff@% more bonus damage and damage reduction.</row>"
         ],
         "unit_count": 6,
         "units": "Jax(1)/Aatrox(2)/Senna(2)/Volibear(3)/Kaisa(4)/Udyr(5)",
@@ -100,9 +127,10 @@
         "trait_desc": "(IncreasedPercentBuff,PercentBuff): (null,5)/(11,5)/(17,5)"
     },
     {
-        "name": "tft_trait_displayname_TFT11_Honorbound",
+        "name": "Altruist",
         "desc": [
-            "tft_trait_description_TFT11_Honorbound"
+            "Altruists heal the lowest Health ally for @PercentDamageToHeal*100@% of damage they deal. Your team gains Armor and Magic Resist.",
+            "<expandRow>(@MinUnits@) @Resists@&nbsp;%i:scaleArmor%%i:scaleMR%</expandRow>"
         ],
         "unit_count": 3,
         "units": "Riven(2)/Soraka(3)/Rakan(5)",
@@ -110,9 +138,10 @@
         "trait_desc": "(PercentDamageToHeal,Resists): (0.15,10)/(0.15,20)/(0.15,40)"
     },
     {
-        "name": "tft_trait_displayname_TFT11_Artist",
+        "name": "Artist",
         "desc": [
-            "tft_trait_description_TFT11_Artist"
+            "The Artist paints the champion you place in a special bench slot. Get a 1-star copy of the champion placed there when the Artist's work is complete.",
+            "<TFTBonus>Rounds to Complete&nbsp;= Unit Cost</TFTBonus>"
         ],
         "unit_count": 1,
         "units": "Hwei(5)",
@@ -120,9 +149,14 @@
         "trait_desc": "(ExtraTurns): (null)"
     },
     {
-        "name": "tft_trait_displayname_TFT11_Shapeshifter",
+        "name": "Exalted",
         "desc": [
-            "tft_trait_description_TFT11_Shapeshifter"
+            "Your team gains @BaseDamageAmp@% bonus damage, plus more based on your level.",
+            "After combat, store XP in a Soul Core. Sell the Core to claim the XP.",
+            "<row>(@MinUnits@) @DamageAmpPerLevel@% damage per level, @BaseAmountXP@ XP.</row>",
+            "<row>(@MinUnits@) @DamageAmpPerLevel@% damage per level, @BaseAmountXP@ XP.</row>",
+            "(<TFTBonus>Current bonus: @TFTUnitProperty.trait:TFT11_Trait_Exalted_CurrentBonus@%</TFTBonus>). ",
+            "<rules>Each game a different set of units is Exalted.</rules>"
         ],
         "unit_count": 0,
         "units": "",
@@ -130,9 +164,18 @@
         "trait_desc": "(BaseAmountXP,BaseDamageAmp,DamageAmpPerLevel,HRGold): (1,7,1,2)/(2,7,3,4)"
     },
     {
-        "name": "tft_trait_displayname_TFT11_Heavenly",
+        "name": "Heavenly",
         "desc": [
-            "tft_trait_description_TFT11_HeavenlyShort"
+            "Heavenly units grant unique stats to your team, increased for each Heavenly unit in play. ",
+            "Heavenly units gain @SelfishHeavenlyBonus*100@% more.",
+            "<expandRow>(@MinUnits@) <TFTGuildActive>@HeavenlyBonus*100@%</TFTGuildActive>&nbsp;bonus.</expandRow>",
+            "<TFTGuildActive enabled=TFT11_Trait_Heavenly_ActiveCrit alternate=TFTGuildInactive>Kha'Zix - </TFTGuildActive>&nbsp;%i:scaleCrit% <spellActive enabled=TFT11_Trait_Heavenly_ActiveCrit alternate=TFTGuildInactive>@TFTUnitProperty.trait:TFT11_Trait_Heavenly_Crit@%</spellActive>",
+            "<TFTGuildActive enabled=TFT11_Trait_Heavenly_ActiveDefenses alternate=TFTGuildInactive>Malphite - </TFTGuildActive>&nbsp;%i:scaleArmor%&nbsp;%i:scaleMR% <spellActive enabled=TFT11_Trait_Heavenly_ActiveDefenses alternate=TFTGuildInactive>@TFTUnitProperty.trait:TFT11_Trait_Heavenly_Defenses@</spellActive>",
+            "<TFTGuildActive enabled=TFT11_Trait_Heavenly_ActiveHealth alternate=TFTGuildInactive>Neeko - </TFTGuildActive>&nbsp;%i:scaleHealth% <spellActive enabled=TFT11_Trait_Heavenly_ActiveHealth alternate=TFTGuildInactive>@TFTUnitProperty.trait:TFT11_Trait_Heavenly_Health@</spellActive>",
+            "<TFTGuildActive enabled=TFT11_Trait_Heavenly_ActiveAttackDamage alternate=TFTGuildInactive>Qiyana - </TFTGuildActive>&nbsp;%i:scaleAD% <spellActive enabled=TFT11_Trait_Heavenly_ActiveAttackDamage alternate=TFTGuildInactive>@TFTUnitProperty.trait:TFT11_Trait_Heavenly_AD@%</spellActive>",
+            "<TFTGuildActive enabled=TFT11_Trait_Heavenly_ActiveAP alternate=TFTGuildInactive>Soraka - </TFTGuildActive>&nbsp;%i:scaleAP% <spellActive enabled=TFT11_Trait_Heavenly_ActiveAP alternate=TFTGuildInactive>@TFTUnitProperty.trait:TFT11_Trait_Heavenly_AP@%</spellActive>",
+            "<TFTGuildActive enabled=TFT11_Trait_Heavenly_ActiveAttackSpeed alternate=TFTGuildInactive>Wukong - </TFTGuildActive>&nbsp;%i:scaleAS% <spellActive enabled=TFT11_Trait_Heavenly_ActiveAttackSpeed alternate=TFTGuildInactive>@TFTUnitProperty.trait:TFT11_Trait_Heavenly_AS@%</spellActive>",
+            "<TFTGuildActive enabled=TFT11_Trait_Heavenly_ActiveOmnivamp alternate=TFTGuildInactive>Emblem - &nbsp;Omnivamp </TFTGuildActive><spellActive enabled=TFT11_Trait_Heavenly_ActiveOmnivamp alternate=TFTGuildInactive>@TFTUnitProperty.trait:TFT11_Trait_Heavenly_Omnivamp@%</spellActive>"
         ],
         "unit_count": 6,
         "units": "KhaZix(1)/Malphite(1)/Neeko(2)/Qiyana(2)/Soraka(3)/WuKong(5)",
@@ -140,9 +183,10 @@
         "trait_desc": "(HeavenlyBonus,SelfishHeavenlyBonus): (1,0.70)/(1.10,0.70)/(1.25,0.70)/(1.45,0.70)/(1.70,0.70)/(2,0.70)"
     },
     {
-        "name": "tft_trait_displayname_TFT11_Porcelain",
+        "name": "Porcelain",
         "desc": [
-            "tft_trait_description_TFT11_Porcelain"
+            "After casting, Porcelain champions boil, gaining Attack Speed and taking less damage for @Duration@&nbsp;seconds.",
+            "<expandRow>(@MinUnits@) @AS*100@%&nbsp;%i:scaleAS%; @DR*100@%&nbsp;reduced damage</expandRow>"
         ],
         "unit_count": 4,
         "units": "Lux(2)/Amumu(3)/Ashe(4)/Lissandra(5)",
@@ -150,9 +194,13 @@
         "trait_desc": "(AS,DR,Duration): (0.30,0.20,4)/(0.55,0.33,4)/(1,0.50,4)"
     },
     {
-        "name": "tft_trait_displayname_TFT11_Martialist",
+        "name": "Duelist",
         "desc": [
-            "tft_trait_description_TFT11_Martialist"
+            "Duelists gain Attack&nbsp;Speed on each attack, stacking up to @MaxStacks@&nbsp;times.",
+            "<row>(@MinUnits@) @AttackSpeedPercent*100@%&nbsp;%i:scaleAS%</row>",
+            "<row>(@MinUnits@) @AttackSpeedPercent*100@%&nbsp;%i:scaleAS%</row>",
+            "<row>(@MinUnits@) @AttackSpeedPercent*100@%&nbsp;%i:scaleAS%; Duelists take @DamageReduction*100@%&nbsp;less damage</row>",
+            "<row>(@MinUnits@) @AttackSpeedPercent*100@%&nbsp;%i:scaleAS%; Duelists take @DamageReduction*100@%&nbsp;less damage</row>"
         ],
         "unit_count": 7,
         "units": "Darius(1)/Yasuo(1)/Qiyana(2)/Tristana(3)/Volibear(3)/LeeSin(4)/Irelia(5)",
@@ -160,9 +208,13 @@
         "trait_desc": "(AttackSpeedPercent,DamageReduction,MaxStacks): (0.05,null,12)/(0.09,null,12)/(0.13,0.12,12)/(0.18,0.18,12)"
     },
     {
-        "name": "tft_trait_displayname_TFT11_Dragonlord",
+        "name": "Dragonlord",
         "desc": [
-            "tft_trait_description_TFT11_Dragonlord"
+            "After @FirstDelay@ seconds of combat, the Dragon strikes the board, dealing true damage to enemies and granting all allies Attack Speed for the rest of combat.",
+            "<row>(@MinUnits@) <trueDamage>@TrueDamageHPRatio*100@%&nbsp;%i:scaleHealth%</trueDamage> damage, @AttackSpeedBuff*100@% %i:scaleAS%.</row>",
+            "<row>(@MinUnits@) <trueDamage>@TrueDamageHPRatio*100@%&nbsp;%i:scaleHealth%</trueDamage> damage, @AttackSpeedBuff*100@% %i:scaleAS%.</row>",
+            "<row>(@MinUnits@) <trueDamage>@TrueDamageHPRatio*100@%&nbsp;%i:scaleHealth%</trueDamage> damage and Stuns for @StunDuration@ seconds.</row>",
+            "<row>(@MinUnits@) <trueDamage>@TrueDamageHPRatio*100@%&nbsp;%i:scaleHealth%</trueDamage> damage, @AttackSpeedBuff*100@% %i:scaleAS%.</row>"
         ],
         "unit_count": 6,
         "units": "Janna(2)/Diana(3)/LeeSin(4)/Xayah(5)/Rakan(5)/XayahRakanDummy(5)",
@@ -170,9 +222,13 @@
         "trait_desc": "(ASDuration,AttackSpeedBuff,FirstDelay,StunDuration,TrueDamageHPRatio): (60,0.12,8,0.05)/(60,0.18,8,1.25,0.10)/(60,0.18,8,1.50,0.10)/(60,0.45,8,1.50,0.15)"
     },
     {
-        "name": "tft_trait_displayname_TFT11_Titan",
+        "name": "Bruiser",
         "desc": [
-            "tft_trait_description_TFT11_Titan"
+            "Your team gains @TeamBonusHealth@ maximum Health. Bruisers gain additional maximum Health. ",
+            "<row>(@MinUnits@) @BonusPercentHealth*100@%&nbsp;%i:scaleHealth%</row>",
+            "<row>(@MinUnits@) @BonusPercentHealth*100@%&nbsp;%i:scaleHealth%</row>",
+            "<row>(@MinUnits@) @BonusPercentHealth*100@%&nbsp;%i:scaleHealth%</row>",
+            "<row>(@MinUnits@) @BonusPercentHealth*100@%&nbsp;%i:scaleHealth%; Every @RefreshSeconds@&nbsp;seconds, Bruisers deal @SlamPercentHealth*100@%&nbsp;%i:scaleHealth% bonus physical&nbsp;damage on their next attack.</row>"
         ],
         "unit_count": 7,
         "units": "FortuneYord(1)/RekSai(1)/Aatrox(2)/Riven(2)/TahmKench(3)/Galio(4)/Sylas(4)",
@@ -180,9 +236,11 @@
         "trait_desc": "(BonusPercentHealth,RefreshSeconds,SlamPercentHealth,TeamBonusHealth): (0.20,3,null,100)/(0.40,3,null,100)/(0.65,3,null,100)/(0.80,3,0.06,100)"
     },
     {
-        "name": "tft_trait_displayname_TFT11_Sharpshooter",
+        "name": "Trickshot",
         "desc": [
-            "tft_trait_description_TFT11_Sharpshooter"
+            "Trickshots' abilities ricochet. Each ricochet deals a percentage of the previous bounce's damage.",
+            "<row>(@MinUnits@) @MaxBounces@&nbsp;ricochet; @PercentDamage*100@% of previous damage</row>",
+            "<row>(@MinUnits@) @MaxBounces@&nbsp;ricochets; @PercentDamage*100@% of previous damage</row>"
         ],
         "unit_count": 5,
         "units": "Sivir(1)/Teemo(2)/Bard(3)/Kaisa(4)/Xayah(5)",
@@ -190,9 +248,13 @@
         "trait_desc": "(MaxBounces,PercentDamage): (1,0.45)/(2,0.60)"
     },
     {
-        "name": "tft_trait_displayname_TFT11_Kanmei",
+        "name": "Fated",
         "desc": [
-            "tft_trait_description_TFT11_Kanmei"
+            "Hover one Fated unit over another to form a pair and unlock a <TFTBonus>Fated Bonus</TFTBonus>. Your pair gains @PairHPBonus*100@% %i:scaleHealth%.",
+            "<row>(@MinUnits@) Pair gets the Fated Bonus. </row>",
+            "<row>(@MinUnits@) All Fated champions get @BondIncreasePercent*100@% of the Fated Bonus </row>",
+            "<row>(@MinUnits@) All Fated champions get @BondIncreasePercent*100@% of the Fated Bonus </row>",
+            "<row>(@MinUnits@) All Fated champions gain @BondIncreasePercent*100@% of EVERY Fated Bonus </row>"
         ],
         "unit_count": 7,
         "units": "Ahri(1)/Yasuo(1)/Kindred(2)/Aphelios(3)/Thresh(3)/Syndra(4)/Sett(5)",
@@ -200,9 +262,12 @@
         "trait_desc": "(BondIncreasePercent,PairHPBonus): (1,0.20)/(2,0.20)/(3,0.20)/(3,0.20)"
     },
     {
-        "name": "tft_trait_displayname_TFT11_Esper",
+        "name": "Invoker",
         "desc": [
-            "tft_trait_description_TFT11_Esper"
+            "Every @TickRate@ seconds, your units gain Mana.",
+            "<row>(@MinUnits@) @TeamMana@&nbsp;%i:scaleMana% to all allies.</row>",
+            "<row>(@MinUnits@) @InvokerMana@&nbsp;%i:scaleMana% to Invokers; @TeamMana@&nbsp;%i:scaleMana% to others.</row>",
+            "<row>(@MinUnits@) @InvokerMana@&nbsp;%i:scaleMana% to Invokers; @TeamMana@&nbsp;%i:scaleMana% to others.</row>"
         ],
         "unit_count": 6,
         "units": "KogMaw(1)/Janna(2)/Alune(3)/Annie(4)/Lillia(4)/Azir(5)",
@@ -210,9 +275,9 @@
         "trait_desc": "(InvokerMana,TeamAP,TeamMana,TickRate): (5,null,5,3)/(20,null,5,3)/(35,null,20,3)"
     },
     {
-        "name": "tft_trait_displayname_TFT11_Trickster",
+        "name": "Great",
         "desc": [
-            "tft_trait_description_TFT11_Trickster"
+            "Every @CastCount@ casts, Wukong grows his weapon, modifying his Abilities."
         ],
         "unit_count": 1,
         "units": "WuKong(5)",
@@ -220,9 +285,13 @@
         "trait_desc": "(CastCount): (3)"
     },
     {
-        "name": "tft_trait_displayname_TFT11_Sniper",
+        "name": "Sniper",
         "desc": [
-            "tft_trait_description_TFT11_Sniper"
+            "Innate: Snipers gain @HexRangeIncrease@&nbsp;Attack&nbsp;Range. ",
+            "Snipers deal more damage to targets farther away.",
+            "<row>(@MinUnits@) @PercentDamageIncrease@%&nbsp;damage per hex.</row>",
+            "<row>(@MinUnits@) @PercentDamageIncrease@%&nbsp;damage per hex.</row>",
+            "<row>(@MinUnits@) @PercentDamageIncrease@%&nbsp;damage per hex. Snipers gain an additional @BonusHexRangeIncrease@ Attack Range.</row>"
         ],
         "unit_count": 5,
         "units": "Caitlyn(1)/KogMaw(1)/Senna(2)/Aphelios(3)/Ashe(4)",
@@ -230,9 +299,14 @@
         "trait_desc": "(BonusHexRangeIncrease,HexRangeIncrease,PercentDamageIncrease): (null,1,8)/(null,1,17.90)/(2,1,34.70)"
     },
     {
-        "name": "tft_trait_displayname_TFT11_Mythic",
+        "name": "Mythic",
         "desc": [
-            "tft_trait_description_TFT11_Mythic"
+            "Mythic champions gain Health, Ability Power, and Attack Damage.",
+            "After 4 player combats, they become Epic, increasing the bonus by @Multiplier*100@%.",
+            "<row>(@MinUnits@) +@HealthPct*100@%&nbsp;%i:scaleHealth%, @AP@%&nbsp;%i:scaleAP%%i:scaleAD%</row>",
+            "<row>(@MinUnits@) +@HealthPct*100@%&nbsp;%i:scaleHealth%, @AP@%&nbsp;%i:scaleAP%%i:scaleAD%</row>",
+            "<row>(@MinUnits@) +@HealthPct*100@%&nbsp;%i:scaleHealth%, @AP@%&nbsp;%i:scaleAP%%i:scaleAD%</row>",
+            "<row>(@MinUnits@) Instantly become Epic. The bonus is increased by @PrismaticMultiplier*100@% instead.</row>"
         ],
         "unit_count": 8,
         "units": "ChoGath(1)/KogMaw(1)/Neeko(2)/Bard(3)/TahmKench(3)/Lillia(4)/Nautilus(4)/Hwei(5)",
@@ -240,9 +314,9 @@
         "trait_desc": "(AP,HealthPct,Multiplier,PrismaticMultiplier): (11,0.08,0.50)/(22,0.18,0.50)/(35,0.25,0.50)/(35,0.25,0.50,2.50)"
     },
     {
-        "name": "tft_trait_displayname_TFT11_SpiritWalker",
+        "name": "Spirit Walker",
         "desc": [
-            "tft_trait_description_TFT11_SpiritWalker"
+            "The first time the Spirit Walker drops below @RevivePercent*100@% Health, he unleashes the rage within, healing to full Health, gaining increased movement speed, and changing his Ability from Ram Slam to Tiger Strikes."
         ],
         "unit_count": 1,
         "units": "Udyr(5)",
@@ -250,9 +324,10 @@
         "trait_desc": "(DamageReduction,OmnivampPercent,RevivePercent): (100,null,0.50)"
     },
     {
-        "name": "tft_trait_displayname_TFT11_Guardian",
+        "name": "Warden",
         "desc": [
-            "tft_trait_description_TFT11_Guardian"
+            "Wardens take less damage. For the first @Duration@&nbsp;seconds of combat, they take an additional @StartOfCombatDRPercent@% less damage. ",
+            "<expandRow>(@MinUnits@) @DRPercent@% less damage</expandRow>"
         ],
         "unit_count": 7,
         "units": "Garen(1)/Jax(1)/Gnar(2)/Amumu(3)/Illaoi(3)/Nautilus(4)/Sett(5)",
@@ -260,9 +335,10 @@
         "trait_desc": "(DRPercent,Duration,StartOfCombatDRPercent): (10,10,18)/(22,10,18)/(35,10,18)/(45,10,18)"
     },
     {
-        "name": "tft_trait_displayname_TFT11_Behemoth",
+        "name": "Behemoth",
         "desc": [
-            "tft_trait_description_TFT11_Behemoth"
+            "Behemoths gain increased Armor and Magic&nbsp;Resist. Whenever a Behemoth dies, the nearest Behemoth gains @BonusPercent*100@% more for @Duration@ seconds.",
+            "<expandRow>(@MinUnits@) @Defenses@&nbsp;%i:scaleArmor%%i:scaleMR%</expandRow>"
         ],
         "unit_count": 7,
         "units": "ChoGath(1)/Malphite(1)/Shen(2)/Yorick(2)/Thresh(3)/Ornn(4)/Udyr(5)",
@@ -270,9 +346,14 @@
         "trait_desc": "(BonusPercent,Defenses,Duration): (0.50,25,8)/(0.50,55,8)/(0.50,85,8)/(0.50,115,8)"
     },
     {
-        "name": "tft_trait_displayname_TFT11_Storyweaver",
+        "name": "Storyweaver",
         "desc": [
-            "tft_trait_description_TFT11_Storyweaver"
+            "Storyweavers summon a Hero named Kayle and evolve her. Storyweavers gain max Health.",
+            "<row>(@MinUnits@) Pick a supportive effect. @Health@&nbsp;%i:scaleHealth%</row>",
+            "<row>(@MinUnits@) Pick a combat effect. @Health@&nbsp;%i:scaleHealth%</row>",
+            "<row>(@MinUnits@) Pick a combat effect. @Health@&nbsp;%i:scaleHealth%</row>",
+            "<row>(@MinUnits@) Ascend. @Health@&nbsp;%i:scaleHealth%</row>",
+            "<rules>Each Storyweaver star level increases Kayle's Health and Ability Power. Kayle gets @BonusASPerStage*100@% Attack Speed for each game Stage.</rules>"
         ],
         "unit_count": 7,
         "units": "Garen(1)/Sivir(1)/Riven(2)/Zyra(2)/Zoe(3)/Galio(4)/Irelia(5)",

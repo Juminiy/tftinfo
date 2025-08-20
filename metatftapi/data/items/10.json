@@ -12,7 +12,7 @@
                 "BonusDamage": 0.15000000596046448,
                 "{1543aa48}": 0.15000000596046448
             },
-            "desc": "<tftitemrules>This humble hat can help you make, or unmake, the world itself.</tftitemrules><br><br>@TFTUnitProperty.:TFT_Augment_DeadlierCaps_TRAKey@"
+            "desc": "<tftitemrules>This humble hat can help you make, or unmake, the world itself.</tftitemrules>"
         },
         {
             "name": "Infinity Edge",
@@ -36,16 +36,14 @@
             ],
             "tags": [],
             "effects": {
-                "Armor": 25,
+                "Armor": 20,
                 "HealthThreshold": 40,
-                "MagicResist": 25,
-                "ManaRegen": 1,
-                "ShieldDuration": 60,
-                "ShieldHealthPercent": 20,
-                "{5d219074}": 20,
-                "{ef728864}": 20
+                "Mana": 30,
+                "ShieldDuration": 5,
+                "ShieldHealthPercent": 25,
+                "Stats": 20
             },
-            "desc": "Start of Combat: Gain 20 Mana.<br><br>Lifeline: At 40% Health, gain 20 Mana and a Shield equal to 20% max Health."
+            "desc": "Once per combat at 40% Health, gain a 25% max Health Shield that lasts 5 seconds and gain 20 Armor and 20 Magic Resist."
         },
         {
             "name": "Spirit Visage",
@@ -57,7 +55,7 @@
             "effects": {
                 "HealTickRate": 1,
                 "Health": 300,
-                "ManaRegen": 2,
+                "Mana": 15,
                 "MaxHeal": 250,
                 "MissingHealthHeal": 0.02500000037252903,
                 "{cd951938}": 0.10000000149011612
@@ -185,9 +183,7 @@
                 "ArmorPerEnemy": 10,
                 "Health": 100,
                 "MRPerEnemy": 10,
-                "MagicResist": 25,
-                "SizeIncrease": 0.07500000298023224,
-                "{4dc0582f}": 20
+                "MagicResist": 25
             },
             "desc": "Gain 10 Armor and 10 Magic Resist for each enemy targeting the holder."
         },
@@ -219,14 +215,15 @@
             ],
             "tags": [],
             "effects": {
-                "AD": 0.20000000298023224,
-                "AP": 20,
-                "AS": 15,
-                "DamageAmp": 0.15000000596046448,
-                "{1543aa48}": 0.10000000149011612,
-                "{abb9f4ce}": 25
+                "AD": 0.25,
+                "AP": 25,
+                "AS": 10,
+                "DamageAmp": 0.20000000298023224,
+                "HealthThreshold": 1750,
+                "LargeBonusPct": 25,
+                "{1543aa48}": 0.05000000074505806
             },
-            "desc": "Gain 15.0% additional Damage Amp against Tanks."
+            "desc": "Gain 20.0% additional Damage Amp against enemies with more than 1750 max Health."
         },
         {
             "name": "Sunfire Cape",
@@ -246,7 +243,7 @@
                 "ICD": 2,
                 "MonsterCap": 100
             },
-            "desc": "Gain 8.0% max Health. <br><br>Every 2 seconds, deal 1% <TFTKeyword>Burn</TFTKeyword> and 33% <TFTKeyword>Wound</TFTKeyword> to an enemy within 2 hexes for 10 seconds.<br><br><tftitemrules><tftbold>Burn</tftbold>: Deals a percent of the target\ufffds max Health as true damage every second<br><tftbold>Wound</tftbold>: Reduces healing received</tftitemrules>"
+            "desc": "Gain 8.0% max Health. <br><br>Every 2 seconds, deal 1% <TFTKeyword>Burn</TFTKeyword> and 33% <TFTKeyword>Wound</TFTKeyword> to an enemy within 2 hexes for 10 seconds.<br><br><tftitemrules>[Unique - only 1 per champion]<br><tftbold>Burn</tftbold>: Deals a percent of the target's max Health as true damage every second<br><tftbold>Wound</tftbold>: Reduces healing received</tftitemrules>"
         },
         {
             "name": "Hand Of Justice",
@@ -260,7 +257,7 @@
                 "AP_NotStatBar": 15,
                 "CritChance": 20,
                 "HealthThreshold": 0.5,
-                "ManaRegen": 1,
+                "Mana": 15,
                 "StatOmnivamp_NotStatBar": 0.11999999731779099,
                 "{f23e83fc}": 2
             },
@@ -275,14 +272,13 @@
             "tags": [],
             "effects": {
                 "AD": 0.10000000149011612,
-                "AP": 10,
-                "AS": 20,
                 "Armor": 20,
+                "AttackSpeed": 15,
                 "DamageReduction": 100,
                 "HealthThreshold": 60,
                 "StealthDuration": 1
             },
-            "desc": "<TFTBonus>Lifeline:</TFTBonus> At 60% Health, briefly become untargetable and shed negative effects."
+            "desc": "Once per combat: At 60% Health, briefly become untargetable and shed negative effects. Then, gain 15% bonus Attack Speed.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>"
         },
         {
             "name": "Titan's Resolve",
@@ -294,12 +290,12 @@
             "effects": {
                 "AS": 10,
                 "Armor": 20,
-                "BonusResistsAtStackCap": 15,
+                "BonusResistsAtStackCap": 20,
                 "StackCap": 25,
                 "StackingAD": 0.019999999552965164,
                 "StackingSP": 2
             },
-            "desc": "Gain 2.0% Attack Damage and 2 Ability Power when attacking or taking damage, stacking up to 25 times.  <br><br>At full stacks, gain 15 Armor and 15 Magic Resist, and gain immunity to crowd control."
+            "desc": "Gain 2.0% Attack Damage and 2 Ability Power when attacking or taking damage, stacking up to 25 times.  <br><br>At full stacks, gain 20 Armor and 20 Magic Resist."
         },
         {
             "name": "Kraken's Fury",
@@ -309,7 +305,7 @@
             ],
             "tags": [],
             "effects": {
-                "AD": 0.20000000298023224,
+                "AD": 0.15000000596046448,
                 "ADOnAttack": 0.029999999329447746,
                 "AS": 10,
                 "MagicResist": 20
@@ -346,7 +342,7 @@
                 "AP": 20,
                 "APPerInterval": 30,
                 "IntervalSeconds": 5,
-                "ManaRegen": 1
+                "Mana": 15
             },
             "desc": "Combat start: Gain 30 Ability Power every 5 seconds in combat."
         },
@@ -358,10 +354,10 @@
             ],
             "tags": [],
             "effects": {
-                "AD": 0.20000000298023224,
-                "AP": 10,
+                "AD": 0.15000000596046448,
+                "AP": 15,
                 "FlatManaRestore": 5,
-                "ManaRegen": 1
+                "Mana": 15
             },
             "desc": "Attacks grant 5 bonus Mana."
         },
@@ -390,14 +386,13 @@
             ],
             "tags": [],
             "effects": {
-                "AP": 25,
+                "AP": 10,
                 "AS": 10,
                 "ASDuration": 5,
-                "AttackSpeedToGive": 30,
-                "Health": 150,
-                "ManaRegen": 2
+                "AttackSpeedToGive": 60,
+                "Health": 150
             },
-            "desc": "After casting an Ability, gain 30% Attack Speed for 5 seconds."
+            "desc": "After casting an Ability, gain 60% Attack Speed for 5 seconds."
         },
         {
             "name": "Morellonomicon",
@@ -407,16 +402,16 @@
             ],
             "tags": [],
             "effects": {
-                "AP": 20,
+                "AP": 25,
+                "AS": 10,
                 "BurnDuration": 10,
                 "BurnPercent": 1,
                 "GrievousWoundsPercent": 33,
                 "Health": 150,
-                "ManaRegen": 2,
                 "MonsterCap": 100,
                 "TicksPerSecond": 1
             },
-            "desc": "Attacks and Abilities deal 1% <TFTKeyword>Burn</TFTKeyword> and 33% <TFTKeyword>Wound</TFTKeyword> to enemies for 10 seconds.<br><br><tftitemrules><tftbold>Burn</tftbold>: Deals a percent of the target\ufffds max Health as true damage every second<br><tftbold>Wound</tftbold>: Reduces healing received</tftitemrules>"
+            "desc": "Attacks and Abilities deal 1% <TFTKeyword>Burn</TFTKeyword> and 33% <TFTKeyword>Wound</TFTKeyword> to enemies for 10 seconds.<br><br><tftitemrules>[Unique - only 1 per champion]<br><tftbold>Burn</tftbold>: Deals a percent of the target's max Health as true damage every second<br><tftbold>Wound</tftbold>: Reduces healing received</tftitemrules>"
         },
         {
             "name": "Red Buff",
@@ -426,7 +421,7 @@
             ],
             "tags": [],
             "effects": {
-                "AS": 40,
+                "AS": 35,
                 "BonusDamage": 0.05999999865889549,
                 "BurnPercent": 1,
                 "Duration": 5,
@@ -464,13 +459,17 @@
             ],
             "tags": [],
             "effects": {
+                "AP": 10,
+                "BackRowBonusAP": 15,
+                "FrontLineManaPerHit": 1,
+                "FrontRowBonusResists": 40,
                 "MagicResist": 20,
-                "ManaRegen": 2,
-                "{58fab714}": 15,
-                "{a6001a11}": 35,
-                "{bf30ae56}": 0.15000000596046448
+                "Mana": 15,
+                "ManaPerTickrate": 10,
+                "ManaTickrate": 3,
+                "{d357c9f2}": null
             },
-            "desc": "Gain an additional 15.0% Mana from all sources. The wearer gains an additional bonus based on their Role:<br><br>Tanks and Fighters: Gain 35 Armor and Magic Resistance.<br><br>Other Roles: Gain 15 Attack Damage and Ability Power. "
+            "desc": "Combat start: Gain different bonuses based on starting position.<br><br>Front Two Rows: 40 Armor and Magic Resist. Gain 1 Mana when struck by an attack.<br><br>Back Two Rows: 15 Ability Power. Gain 10 Mana every 3 seconds.<br>"
         },
         {
             "name": "Blue Buff",
@@ -482,9 +481,12 @@
             "effects": {
                 "AD": 0.15000000596046448,
                 "AP": 15,
-                "ManaRegen": 5
+                "DamageAmp": 0.05000000074505806,
+                "Mana": 30,
+                "ManaRefund": 10,
+                "TakedownTimer": 8
             },
-            "desc": "<tftitemrules>A golem's essence, overflowing with arcane potential.</tftitemrules>"
+            "desc": "Gain 10 Mana after casting. <br><br>When the holder gets a takedown, they deal 5.0% more damage for 8 seconds.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>"
         },
         {
             "name": "Last Whisper",
@@ -500,7 +502,7 @@
                 "ArmorReductionPercent": 30,
                 "CritChance": 20
             },
-            "desc": "Physical damage 30% <TFTKeyword>Sunders</TFTKeyword> the target for 3 seconds. This effect does not stack.<br><br><tftitemrules><tftbold>Sunder</tftbold>: Reduce Armor</tftitemrules>"
+            "desc": "Physical damage 30% <TFTKeyword>Sunders</TFTKeyword> the target for 3 seconds. This effect does not stack.<br><br><tftitemrules>[Unique - only 1 per champion]<br><tftbold>Sunder</tftbold>: Reduce Armor</tftitemrules>"
         },
         {
             "name": "Jeweled Gauntlet",
@@ -575,7 +577,7 @@
                 "BonusDamage": 0.10000000149011612,
                 "{1543aa48}": 0.10000000149011612
             },
-            "desc": "<tftitemrules>Perfect peace and calm for the holder - and all who face it.</tftitemrules><br><br><br>@TFTUnitProperty.:TFT_Augment_TragicalBlade_TRAKey@"
+            "desc": "<tftitemrules>Perfect peace and calm for the holder - and all who face it.</tftitemrules>"
         },
         {
             "name": "Tactician's Shield",
@@ -615,7 +617,7 @@
                 "AS": 15,
                 "MRShred": 30,
                 "MRShredDuration": 5,
-                "ManaRegen": 2
+                "Mana": 15
             },
             "desc": "Attacks and Ability damage 30% <TFTKeyword>Shred</TFTKeyword> the target for 5 seconds. This effect does not stack.<br><br><tftitemrules><tftbold>Shred</tftbold>: Reduce Magic Resist</tftitemrules>"
         },
@@ -630,9 +632,7 @@
                 "AD": 0.20000000298023224,
                 "AP": 20,
                 "AllyHealing": 0.20000000298023224,
-                "ManaRegen": 1,
-                "Omnivamp": 18,
-                "StatOmnivamp": 0.15000000596046448
+                "StatOmnivamp": 0.18000000715255737
             },
             "desc": "Heal the lowest percent Health ally for 20.0% of damage dealt.<br><br><TFTTrackerLabel>Ally Healing:</TFTTrackerLabel> <TFTHighlight>@TFTUnitProperty.item:TFT_Tracker_Value1@</TFTHighlight>"
         }
@@ -965,7 +965,6 @@
                 "AD": 0.4000000059604645,
                 "AP": 40,
                 "AllyHealing": 0.4000000059604645,
-                "ManaRegen": 1,
                 "Omnivamp": 35,
                 "StatOmnivamp": 0.30000001192092896
             },
@@ -980,7 +979,7 @@
                 "AS": 60,
                 "MRShred": 30,
                 "MRShredDuration": 90,
-                "ManaRegen": 4
+                "Mana": 30
             },
             "desc": "Attacks and Ability damage 30% <TFTKeyword>Shred</TFTKeyword> the target for <TFTRadiantItemBonus>the rest of combat</TFTRadiantItemBonus>. This effect does not stack.<br><br><tftitemrules><tftbold>Shred</tftbold>: Reduce Magic Resist</tftitemrules>"
         },
@@ -989,16 +988,14 @@
             "composition": [],
             "tags": [],
             "effects": {
-                "Armor": 50,
+                "Armor": 40,
                 "HealthThreshold": 40,
-                "MagicResist": 50,
-                "ManaRegen": 2,
-                "ShieldDuration": 30,
-                "ShieldHealthPercent": 45,
-                "{5d219074}": 20,
-                "{ef728864}": 30
+                "Mana": 30,
+                "ShieldDuration": 10,
+                "ShieldHealthPercent": 50,
+                "Stats": 60
             },
-            "desc": "Start of Combat: Gain 20 Mana.<br><br>Lifeline: At 40% Health, gain <TFTRadiantItemBonus>30 Mana</TFTRadiantItemBonus> and a Shield equal to <TFTRadiantItemBonus>45% max Health</TFTRadiantItemBonus>."
+            "desc": "Once per combat at 40% Health, gain a <TFTRadiantItemBonus>50%</TFTRadiantItemBonus> max Health Shield that lasts <TFTRadiantItemBonus>10</TFTRadiantItemBonus> seconds and gain <TFTRadiantItemBonus>60</TFTRadiantItemBonus> Armor and <TFTRadiantItemBonus>60</TFTRadiantItemBonus> Magic Resist.<br>"
         },
         {
             "name": "Radiant Blue Buff",
@@ -1007,9 +1004,12 @@
             "effects": {
                 "AD": 0.6000000238418579,
                 "AP": 60,
-                "ManaRegen": 10
+                "DamageAmp": 0.20000000298023224,
+                "Mana": 30,
+                "ManaRefund": 10,
+                "TakedownTimer": 12
             },
-            "desc": "<tftitemrules>A blessing from the golem spirits, granting overflowing arcane energy.</tftitemrules>"
+            "desc": "Gain 10 Mana after casting. <br><br>When the holder gets a takedown, they deal <TFTRadiantItemBonus>20.0%</TFTRadiantItemBonus> more damage for <TFTRadiantItemBonus>12</TFTRadiantItemBonus> seconds.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules><br><br>"
         },
         {
             "name": "Radiant Archangel's Staff",
@@ -1019,7 +1019,7 @@
                 "AP": 60,
                 "APPerInterval": 40,
                 "IntervalSeconds": 4,
-                "ManaRegen": 2
+                "Mana": 15
             },
             "desc": "Combat start: Gain <TFTRadiantItemBonus>40</TFTRadiantItemBonus> Ability Power every <TFTRadiantItemBonus>4</TFTRadiantItemBonus> seconds in combat."
         },
@@ -1029,15 +1029,15 @@
             "tags": [],
             "effects": {
                 "AP": 50,
+                "AS": 25,
                 "BurnDuration": 8,
                 "BurnPercent": 2,
                 "GrievousWoundsPercent": 33,
                 "Health": 150,
-                "ManaRegen": 4,
                 "MonsterCap": 150,
                 "TicksPerSecond": 1
             },
-            "desc": "Attacks and Abilities deal <TFTRadiantItemBonus>2%</TFTRadiantItemBonus> <TFTKeyword>Burn</TFTKeyword> and 33% <TFTKeyword>Wound</TFTKeyword> to enemies for <TFTRadiantItemBonus>8</TFTRadiantItemBonus> seconds.<br><br><tftitemrules><tftbold>Burn</tftbold>: Deals a percent of the target's max Health as true damage every second<br><tftbold>Wound</tftbold>: Reduces healing received</tftitemrules>"
+            "desc": "Attacks and Abilities deal <TFTRadiantItemBonus>2%</TFTRadiantItemBonus> <TFTKeyword>Burn</TFTKeyword> and 33% <TFTKeyword>Wound</TFTKeyword> to enemies for <TFTRadiantItemBonus>8</TFTRadiantItemBonus> seconds.<br><br><tftitemrules>[Unique - only 1 per champion]<br><tftbold>Burn</tftbold>: Deals a percent of the target's max Health as true damage every second<br><tftbold>Wound</tftbold>: Reduces healing received</tftitemrules>"
         },
         {
             "name": "Radiant Bramble Vest",
@@ -1087,7 +1087,7 @@
                 "AP_NotStatBar": 35,
                 "CritChance": 40,
                 "HealthThreshold": 0.5,
-                "ManaRegen": 2,
+                "Mana": 15,
                 "StatOmnivamp_NotStatBar": 0.20000000298023224,
                 "{f23e83fc}": 2
             },
@@ -1110,7 +1110,7 @@
                 "MaxHealthRegen": null,
                 "MonsterCap": 150
             },
-            "desc": "Gain <TFTRadiantItemBonus>12.0%</TFTRadiantItemBonus> max Health.<br><br>Every <TFTRadiantItemBonus>1.5</TFTRadiantItemBonus> seconds, deal <TFTRadiantItemBonus>2%</TFTRadiantItemBonus> <TFTKeyword>Burn</TFTKeyword> and 33% <TFTKeyword>Wound</TFTKeyword> to an enemy within <TFTRadiantItemBonus>3</TFTRadiantItemBonus> hexes for <TFTRadiantItemBonus>8</TFTRadiantItemBonus> seconds.<br><br><tftitemrules><tftbold>Burn</tftbold>: Deals a percent of the target's max Health as true damage every second<br><tftbold>Wound</tftbold>: reduces healing received</tftitemrules>"
+            "desc": "Gain <TFTRadiantItemBonus>12.0%</TFTRadiantItemBonus> max Health.<br><br>Every <TFTRadiantItemBonus>1.5</TFTRadiantItemBonus> seconds, deal <TFTRadiantItemBonus>2%</TFTRadiantItemBonus> <TFTKeyword>Burn</TFTKeyword> and 33% <TFTKeyword>Wound</TFTKeyword> to an enemy within <TFTRadiantItemBonus>3</TFTRadiantItemBonus> hexes for <TFTRadiantItemBonus>8</TFTRadiantItemBonus> seconds.<br><br><tftitemrules>[Unique - only 1 per champion]<br><tftbold>Burn</tftbold>: Deals a percent of the target's max Health as true damage every second<br><tftbold>Wound</tftbold>: reduces healing received</tftitemrules>"
         },
         {
             "name": "Radiant Last Whisper",
@@ -1123,7 +1123,7 @@
                 "ArmorReductionPercent": 30,
                 "CritChance": 55
             },
-            "desc": "Physical damage 30% <TFTKeyword>Sunders</TFTKeyword> the target for <TFTRadiantItemBonus>the rest of combat.</TFTRadiantItemBonus> This effect does not stack.<br><br><tftitemrules><tftbold>Sunder</tftbold>: Reduce Armor</tftitemrules>"
+            "desc": "Physical damage 30% <TFTKeyword>Sunders</TFTKeyword> the target for <TFTRadiantItemBonus>the rest of combat.</TFTRadiantItemBonus> This effect does not stack.<br><br><tftitemrules>[Unique - only 1 per champion]<br><tftbold>Sunder</tftbold>: Reduce Armor</tftitemrules>"
         },
         {
             "name": "Radiant Thief's Gloves",
@@ -1161,19 +1161,34 @@
             "desc": "At 60% Health, gain a Shield equal to <TFTRadiantItemBonus>100.0%</TFTRadiantItemBonus> of the wearer's maximum Health that rapidly decays over <TFTRadiantItemBonus>6</TFTRadiantItemBonus> seconds."
         },
         {
+            "name": "Radiant Spirit Visage",
+            "composition": [],
+            "tags": [],
+            "effects": {
+                "HealTickRate": 1,
+                "Health": 600,
+                "Mana": 15,
+                "MaxHeal": 2000,
+                "MissingHealthHeal": 0.05000000074505806,
+                "{cd951938}": 0.18000000715255737
+            },
+            "desc": "Regenerate <TFTRadiantItemBonus>5.0%</TFTRadiantItemBonus> of missing Health each second."
+        },
+        {
             "name": "Radiant Edge of Night",
             "composition": [],
             "tags": [],
             "effects": {
-                "AD": 0.25,
-                "AP": 30,
-                "AS": 40,
-                "Armor": 20,
+                "AD": 0.30000001192092896,
+                "Armor": 30,
+                "AttackSpeed": 85,
                 "DamageReduction": 100,
                 "HealthThreshold": 60,
+                "HealthThreshold2": 30,
+                "MissingHealthRestore": 1,
                 "StealthDuration": 1
             },
-            "desc": "<TFTBonus>Lifeline:</TFTBonus> At 60% Health, briefly become untargetable and shed negative effects."
+            "desc": "Once per combat: At 60% Health, briefly become untargetable and shed negative effects. Then, <TFTRadiantItemBonus>heal 100.0% missing health and gain 85% bonus Attack Speed</TFTRadiantItemBonus>. <br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>"
         },
         {
             "name": "Radiant Red Buff",
@@ -1213,12 +1228,12 @@
             "effects": {
                 "AS": 30,
                 "Armor": 35,
-                "BonusResistsAtStackCap": 40,
+                "BonusResistsAtStackCap": 50,
                 "StackCap": 25,
                 "StackingAD": 0.029999999329447746,
                 "StackingSP": 3
             },
-            "desc": "Gain <TFTRadiantItemBonus>3.0%</TFTRadiantItemBonus> Attack Damage and <TFTRadiantItemBonus>3</TFTRadiantItemBonus> Ability Power when attacking or taking damage, stacking up to 25 times.<br><br>At full stacks, gain <TFTRadiantItemBonus>40</TFTRadiantItemBonus> Armor and <TFTRadiantItemBonus>40</TFTRadiantItemBonus> Magic Resist, and gain immunity to crowd control."
+            "desc": "Gain <TFTRadiantItemBonus>3.0%</TFTRadiantItemBonus> Attack Damage and <TFTRadiantItemBonus>3</TFTRadiantItemBonus> Ability Power when attacking or taking damage, stacking up to 25 times.<br><br>At full stacks, gain <TFTRadiantItemBonus>50</TFTRadiantItemBonus> Armor and <TFTRadiantItemBonus>50</TFTRadiantItemBonus> Magic Resist."
         },
         {
             "name": "Radiant Giant Slayer",
@@ -1227,12 +1242,13 @@
             "effects": {
                 "AD": 0.5,
                 "AP": 50,
-                "AS": 20,
-                "DamageAmp": 0.25,
-                "{1543aa48}": 0.20000000298023224,
-                "{abb9f4ce}": 25
+                "AS": 10,
+                "DamageAmp": 0.30000001192092896,
+                "HealthThreshold": 1750,
+                "LargeBonusPct": 60,
+                "{1543aa48}": 0.20000000298023224
             },
-            "desc": "Gain <TFTRadiantItemBonus>25.0%</TFTRadiantItemBonus> additional Damage Amp against Tanks."
+            "desc": "Gain <TFTRadiantItemBonus>30.0%</TFTRadiantItemBonus> additional Damage Amp against enemies with more than 1750 max Health."
         },
         {
             "name": "Radiant Crownguard",
@@ -1275,7 +1291,7 @@
                 "BonusDamage": 0.5,
                 "{1543aa48}": 0.33000001311302185
             },
-            "desc": "<tftitemrules>It's witnessed - and unleashed - miracles and calamities both.</tftitemrules><br><br>@TFTUnitProperty.:TFT_Augment_DeadlierCaps_TRAKey@"
+            "desc": "<tftitemrules>It's witnessed - and unleashed - miracles and calamities both.</tftitemrules>"
         },
         {
             "name": "Radiant Jeweled Gauntlet",
@@ -1299,35 +1315,32 @@
                 "HealthRegenInterval": 1,
                 "MRPerEnemy": 15,
                 "MagicResist": 50,
-                "MaxHealthRegen": 1.5,
-                "SizeIncrease": 0.07500000298023224,
-                "{4dc0582f}": 20
+                "MaxHealthRegen": 1.5
             },
-            "desc": "<TFTRadiantItemBonus>Heal 1.5% max Health each second.</TFTRadiantItemBonus><br><br>Gain <TFTRadiantItemBonus>15</TFTRadiantItemBonus> Armor and <TFTRadiantItemBonus>15</TFTRadiantItemBonus> Magic Resist for each enemy targeting the holder."
+            "desc": "Gain <TFTRadiantItemBonus>15</TFTRadiantItemBonus> Armor and <TFTRadiantItemBonus>15</TFTRadiantItemBonus> Magic Resist for each enemy targeting the holder.<br><br><TFTRadiantItemBonus>Also, heal 1.5% max Health each second.</TFTRadiantItemBonus>"
         },
         {
             "name": "Radiant Nashor's Tooth",
             "composition": [],
             "tags": [],
             "effects": {
-                "AP": 60,
+                "AP": 30,
                 "AS": 20,
                 "ASDuration": 8,
-                "AttackSpeedToGive": 60,
-                "Health": 200,
-                "ManaRegen": 4
+                "AttackSpeedToGive": 120,
+                "Health": 200
             },
-            "desc": "After casting an Ability, gain <TFTRadiantItemBonus>60% Attack Speed</TFTRadiantItemBonus> for <TFTRadiantItemBonus>8 seconds</TFTRadiantItemBonus>."
+            "desc": "After casting an Ability, gain <TFTRadiantItemBonus>120% Attack Speed</TFTRadiantItemBonus> for <TFTRadiantItemBonus>8 seconds</TFTRadiantItemBonus>."
         },
         {
             "name": "Radiant Spear of Shojin",
             "composition": [],
             "tags": [],
             "effects": {
-                "AD": 0.4000000059604645,
-                "AP": 30,
+                "AD": 0.3499999940395355,
+                "AP": 35,
                 "FlatManaRestore": 10,
-                "ManaRegen": 2
+                "Mana": 20
             },
             "desc": "Attacks grant <TFTRadiantItemBonus>10 bonus Mana</TFTRadiantItemBonus>."
         },
@@ -1365,20 +1378,24 @@
                 "BonusDamage": 0.20000000298023224,
                 "{1543aa48}": 0.20000000298023224
             },
-            "desc": "<tftitemrules>It glows in the presence of enemies. Or friends. Or anything alive, really.</tftitemrules><br><br>@TFTUnitProperty.:TFT_Augment_TragicalBlade_TRAKey@"
+            "desc": "<tftitemrules>It glows in the presence of enemies. Or friends. Or anything alive, really.</tftitemrules>"
         },
         {
             "name": "Radiant Adaptive Helm",
             "composition": [],
             "tags": [],
             "effects": {
-                "MagicResist": 40,
-                "ManaRegen": 4,
-                "{58fab714}": 30,
-                "{a6001a11}": 60,
-                "{bf30ae56}": 0.30000001192092896
+                "AP": 25,
+                "BackRowBonusAP": 40,
+                "FrontLineManaPerHit": 2,
+                "FrontRowBonusResists": 60,
+                "MagicResist": 30,
+                "Mana": 15,
+                "ManaPerTickrate": 20,
+                "ManaTickrate": 3,
+                "TotalAPBonus": 40
             },
-            "desc": "Gain an additional <TFTRadiantItemBonus>30.0%</TFTRadiantItemBonus> Mana from all sources. The wearer gains an additional bonus based on their Role:<br><br>Tank/Fighter: Gain <TFTRadiantItemBonus>60</TFTRadiantItemBonus> Armor and Magic Resistance.<br><br>Marksman/Caster: Gain <TFTRadiantItemBonus>30</TFTRadiantItemBonus> Attack Damage and Ability Power. "
+            "desc": "Combat start: Gain different bonuses based on starting position.<br><br>Front Two Rows: <TFTRadiantItemBonus>60</TFTRadiantItemBonus> Armor and Magic Resist. Gain <TFTRadiantItemBonus>2</TFTRadiantItemBonus> Mana when struck by an attack.<br><br>Back Two Rows: <TFTRadiantItemBonus>40</TFTRadiantItemBonus> Ability Power. Gain <TFTRadiantItemBonus>20</TFTRadiantItemBonus> Mana every 3 seconds.<br>"
         }
     ],
     "artifact": [
@@ -1391,7 +1408,7 @@
             "effects": {
                 "Duration": 3,
                 "Health": 150,
-                "ManaRegen": 2,
+                "Mana": 15,
                 "PercentHealth": 20,
                 "PercentMana": 2
             },
@@ -1432,11 +1449,11 @@
                 "Artifact"
             ],
             "effects": {
-                "AD": 0.15000000596046448,
+                "AD": 0.10000000149011612,
                 "AP": 10,
-                "AS": 15,
+                "AS": 10,
+                "Mana": 5,
                 "ManaDuration": 5,
-                "ManaRegen": 1,
                 "ManaRestore": 120
             },
             "desc": "After casting the first time in combat, gain 120 Mana over 5 seconds.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>"
@@ -1732,22 +1749,6 @@
             "desc": "Gain %i:scaleRange% 2 Attack Range. Gain 9.0% Damage Amp against a target for each hex between the holder and the target."
         },
         {
-            "name": "Dawncore",
-            "composition": [],
-            "tags": [
-                "Artifact"
-            ],
-            "effects": {
-                "AD": 0.15000000596046448,
-                "AP": 15,
-                "ManaRegen": 2,
-                "{4b2f7692}": 0.10000000149011612,
-                "{50449d10}": 15,
-                "{f00d3802}": 10
-            },
-            "desc": "Reduce the holder's max Mana by 10. Subsequent spellcasts reduce max Mana by 10.0%, to a minimum of 15."
-        },
-        {
             "name": "Lightshield Crest",
             "composition": [],
             "tags": [
@@ -1800,8 +1801,8 @@
             "effects": {
                 "AP": 40,
                 "MRReduction": 4,
-                "ManaGain": 5,
-                "ManaRegen": 2
+                "Mana": 15,
+                "ManaGain": 5
             },
             "desc": "Dealing magic damage reduces the target's Magic Resist by 4. If their Magic Resist is 0, grant the holder 5 Mana instead."
         },
@@ -1874,7 +1875,7 @@
             ],
             "effects": {
                 "AP": 30,
-                "ManaRegen": 2,
+                "Mana": 15,
                 "PercentMaxHealthDamage": 40,
                 "RepeatTime": 13,
                 "{1543aa48}": 0.25
@@ -1882,7 +1883,7 @@
             "desc": "Combat start: Blast the current target for 40% of their max Health as magic damage. Repeat this every 13 seconds."
         },
         {
-            "name": "Navori Flickerblades",
+            "name": "Flickerblade",
             "composition": [],
             "tags": [
                 "Artifact"
@@ -1895,7 +1896,7 @@
                 "ASPerStack": 0.07000000029802322,
                 "StacksPerBonus": 5
             },
-            "desc": "Attacks grant 7.000000000000001% stacking Attack Speed. Every 5 attacks also grant 4.0 Attack Damage and 5 Ability Power."
+            "desc": "Attacks grant 7.000000000000001% stacking Attack Speed. Every 5 attacks also grant 4.0% Attack Damage and 5% Ability Power."
         },
         {
             "name": "Corrupt Vampiric Scepter",
@@ -1942,7 +1943,7 @@
                 "Armor": 20,
                 "Health": 250,
                 "MagicResist": 20,
-                "ManaRegen": 2,
+                "Mana": 15,
                 "PercentHealthDamage": 30
             },
             "desc": "Stunning an enemy causes lightning to strike them, dealing 30% of their max Health as magic damage.<br>"
@@ -1973,10 +1974,9 @@
                 "Armor": 50,
                 "AttackSpeedCap": 0.5,
                 "MagicResist": 50,
-                "ManaConversion": 0.019999999552965164,
                 "StunDuration": 0.800000011920929
             },
-            "desc": "Grants immunity to Stuns and the holder's attacks Stun the target for 0.8 seconds. Convert 2.0% of damage taken into mana.<br><br><TFTShadowItemBonus>The holder's Attack Speed is locked at 0.5.</TFTShadowItemBonus>"
+            "desc": "Grants immunity to Stuns and the holder's attacks Stun the target for 0.8 seconds.<br><br><TFTShadowItemBonus>The holder's Attack Speed is locked at 0.5.</TFTShadowItemBonus>"
         },
         {
             "name": "Seeker's Armguard",
@@ -2259,20 +2259,6 @@
     ],
     "special": [
         {
-            "name": "Anima's Embrace",
-            "composition": [],
-            "tags": [],
-            "effects": {
-                "HealTickRate": 1,
-                "Health": 600,
-                "ManaRegen": 2,
-                "MaxHeal": 2000,
-                "MissingHealthHeal": 0.05000000074505806,
-                "{cd951938}": 0.18000000715255737
-            },
-            "desc": "Regenerate <TFTRadiantItemBonus>5.0%</TFTRadiantItemBonus> of missing Health each second."
-        },
-        {
             "name": "Critical Hit!",
             "composition": [],
             "tags": [],
@@ -2365,9 +2351,9 @@
             "composition": [],
             "tags": [],
             "effects": {
-                "ManaRegen": 1
+                "Mana": 15
             },
-            "desc": "%i:TFTManaRegen% +1 Mana Regen"
+            "desc": "%i:scaleMana% +15 Mana"
         },
         {
             "name": "Negatron Cloak",

@@ -71,6 +71,10 @@ def req_fight_attrs():
         attrfile.close()
 
     for _, elval in attrsobj.items():
+        for skey,saddr in elval.items():
+            if skey not in ['url_fmt','attrs'] and type(saddr)==str:
+                extname=geturl_extname(saddr)
+                download_file(fileurl=saddr,filepath=f'tftspecs/icon/fights/{skey}.{extname}',timeout_sec=5)
         urlfmt=str(elval['url_fmt'])
         for attrof in elval['attrs']:
             fileurl=urlfmt.format(attrof)
