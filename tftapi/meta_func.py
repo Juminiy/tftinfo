@@ -1,3 +1,4 @@
+# Traits Func
 def select_traits(setof:str, trt:dict) -> bool:
     return count_traits_style(trt) > 1 and \
         select_traits_legal(setof, trt)
@@ -27,6 +28,7 @@ def select_traits_legal(setof:str, trt:dict) -> bool:
             'isHidden' not in trt
     return False
 
+# Champions Func
 def select_champions(setof:str, chp:dict) -> bool:
     cursetnum=setof.removeprefix('set').removesuffix('.5')
     if setof.endswith('.5'):
@@ -39,14 +41,19 @@ def select_champions(setof:str, chp:dict) -> bool:
         return str(chp['ingameKey']).startswith(f'TFT{cursetnum}_') and \
                 'isHidden' not in chp
 
+# Augments Func
+def select_augments(setof:str, aug:dict) -> bool:
+    return 'isHidden' not in aug
+
+def no_augment_set(setof: str) -> bool:
+    return setof in ['set1','set2','set3','set4','set5','set3.5','set4.5','set5.5']
+
+# Items Func
 def select_items(setof:str, itm:dict) -> bool:
     return 'isHidden' not in itm
 
 def select_item_emblems(setof:str, itm:dict) -> bool:
     return select_items(setof, itm) and ('isEmblem' in itm or 'affectedTraitKey' in itm)
-
-def select_augments(setof:str, aug:dict) -> bool:
-    return 'isHidden' not in aug
 
 from meta_data import special_components
 from meta_data import components_nickname,components_nickname_priority
@@ -64,9 +71,37 @@ def spatula_in_compositions(itm:dict) -> bool:
 def no_radiant_set(setof: str) -> bool:
     return setof in ['set1','set2','set3','set4','set5','set3.5','set4.5','set6']
 
-def no_augment_set(setof: str) -> bool:
-    return setof in ['set1','set2','set3','set4','set5','set3.5','set4.5','set5.5']
-
+# item classify func
+def item_valid_compositions(itemof: dict) -> bool:
+    return 'compositions' in itemof and len(itemof['compositions']) == 2
+def item_Components(itemof:dict) -> bool:
+    return 'isFromItem' in itemof
+def item_Craftable(itemof:dict) -> bool:
+    return item_valid_compositions(itemof) and \
+            not spatula_in_compositions(itemof)
+def item_Emblems(setof:str, itemof:dict) -> bool:
+    return select_item_emblems(setof, itemof)
+def item_Crown(itemof:dict) -> bool:
+    return item_valid_compositions(itemof) and \
+            itemof['compositions'][0] in special_components and \
+            itemof['compositions'][1] in special_components
+def item_Radiant(itemof:dict) -> bool:
+    return 'isRadiant' in itemof
+def item_Artifacts(itemof:dict)->bool:
+    return 'isArtifact' in itemof
+def item_Support(itemof:dict) -> bool:
+    return 'isSupport' in itemof
+item_classify={
+    'Components': item_Components,
+    'Craftable':  item_Craftable,
+    'Emblems':    item_Emblems,
+    'Crown':      item_Crown,
+    'Radiant':    item_Radiant,
+    'Artifacts':  item_Artifacts,
+    'Support':    item_Support,
+    'Special':    lambda itemof:True,
+}
+# Draw Grid Class
 class Grid2d():
     grid2d: list[list[str]]
     row0: list[str]
@@ -267,6 +302,15 @@ def copy_icon_emblem2trait() -> dict[str,str]:
 
     return traitkey2img
 
+def geticon_extname(pathkey:str) -> str:
+    for extname in ['png','jpg','jpeg','svg']:
+        if os.path.exists(f'{pathkey}.{extname}'):
+            return extname
+    return 'NONE'
+def geticon_fullpath(pathkey:str) -> str:
+    return f'{pathkey}.{geticon_extname(pathkey)}'
+
+# Util Func
 def reverse_dict_kv(dt:dict[str,str]) -> dict[str,str]:
     ndt:dict[str,str]={}
     for dtkey,dtval in dt.items():

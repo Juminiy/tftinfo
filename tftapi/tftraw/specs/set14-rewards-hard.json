@@ -742,5 +742,445 @@
                 ]
             }
         ]
+    },
+    "Augment": {
+        "NewHighScore": [
+            {
+                "Stack": "OnAchieve",
+                "Rewards": [
+                    {
+                        "HighScore": "1000",
+                        "List": [
+                            "Gold:1"
+                        ]
+                    },
+                    {
+                        "HighScore": "10000",
+                        "List": [
+                            "Gold:2"
+                        ]
+                    },
+                    {
+                        "HighScore": "17500",
+                        "List": [
+                            "Gold:3"
+                        ]
+                    },
+                    {
+                        "HighScore": "30000",
+                        "List": [
+                            "Component:1"
+                        ]
+                    },
+                    {
+                        "HighScore": "60000",
+                        "List": [
+                            "Gold:10"
+                        ]
+                    },
+                    {
+                        "HighScore": "9000",
+                        "List": [
+                            "Gold:8",
+                            "Champions:1:Ziggs:1"
+                        ]
+                    },
+                    {
+                        "HighScore": "125000",
+                        "List": [
+                            "Gold:8",
+                            "Champions:1:Kobuko:1"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "AMagicRoll": [
+            {
+                "Stack": "OnAchieve",
+                "Rewards": [
+                    {
+                        "DiceTotal": "4,5,6,7,8",
+                        "List": [
+                            "fight:hp:250"
+                        ]
+                    },
+                    {
+                        "DiceTotal": "9,10,11",
+                        "List": [
+                            "Champion:2:3:2",
+                            "Champion:2:2:1"
+                        ]
+                    },
+                    {
+                        "DiceTotal": "12,13,14,15",
+                        "List": [
+                            "Component:4"
+                        ]
+                    },
+                    {
+                        "DiceTotal": "16,17",
+                        "List": [
+                            "Items:Components:FryingPan:1",
+                            "Component:2"
+                        ]
+                    },
+                    {
+                        "DiceTotal": "Dice:444,555,666",
+                        "List": [
+                            "Items:Crown:TacticiansCape:1"
+                        ]
+                    },
+                    {
+                        "DiceTotal": "Dice:111,222,333",
+                        "List": [
+                            "LesserChampionDuplicator:3",
+                            "Gold:6"
+                        ]
+                    },
+                    {
+                        "DiceTotal": "Dice:6-2-6",
+                        "List": [
+                            "Items:Crown:TacticiansCrown:1",
+                            "Champion:1:5:2",
+                            "Gold:5"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "ExpectedUnexpectedness": [
+            {
+                "Phase": "2-1",
+                "Rewards": [
+                    {
+                        "DiceTotal": "4,5,6,7,8",
+                        "List": [
+                            "Gold:11"
+                        ]
+                    },
+                    {
+                        "DiceTotal": "9,10,11",
+                        "List": [
+                            "Champion:1:4:2"
+                        ]
+                    },
+                    {
+                        "DiceTotal": "12,13,14,15",
+                        "List": [
+                            "ItemAnvil:1",
+                            "Reforger:3"
+                        ]
+                    },
+                    {
+                        "DiceTotal": "16,17",
+                        "List": [
+                            "masterwork_upgrade:1"
+                        ]
+                    },
+                    {
+                        "DiceTotal": "111,222,333,444,555,666",
+                        "List": [
+                            "Items:Crown:TacticiansCrown:1"
+                        ]
+                    }
+                ]
+            },
+            {
+                "Phase": "3-1",
+                "Rewards": [
+                    {
+                        "DiceTotal": "4,5,6,7,8",
+                        "List": [
+                            "Gold:18"
+                        ]
+                    },
+                    {
+                        "DiceTotal": "9,10,11",
+                        "List": [
+                            "LesserChampionDuplicator:2",
+                            "Gold:10"
+                        ]
+                    },
+                    {
+                        "DiceTotal": "12,13,14,15",
+                        "List": [
+                            "ArtifactAnvil:1"
+                        ]
+                    },
+                    {
+                        "DiceTotal": "16,17",
+                        "List": [
+                            "Component:3"
+                        ]
+                    },
+                    {
+                        "DiceTotal": "111,222,333,444,555,666",
+                        "List": [
+                            "Emblem:2"
+                        ]
+                    }
+                ]
+            },
+            {
+                "Phase": "4-1",
+                "Rewards": [
+                    {
+                        "DiceTotal": "4,5,6,7,8",
+                        "List": [
+                            "Gold:24"
+                        ]
+                    },
+                    {
+                        "DiceTotal": "9,10,11",
+                        "List": [
+                            "Champion:1:5:3"
+                        ]
+                    },
+                    {
+                        "DiceTotal": "12,13,14,15",
+                        "List": [
+                            "SupportAnvil:1"
+                        ]
+                    },
+                    {
+                        "DiceTotal": "16,17",
+                        "List": [
+                            "Item:1",
+                            "Component:2"
+                        ]
+                    },
+                    {
+                        "DiceTotal": "111,222,333,444,555,666",
+                        "List": [
+                            "Champion:1:5:2",
+                            "ChampionDuplicator:1"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "AnExaltedAdventure": [
+            {
+                "Stack": "OnAchieve",
+                "Rewards": [
+                    {
+                        "Rates": "18%",
+                        "List": [
+                            "Items:Radiant:RadiantGiantSlayer:1",
+                            "Items:Radiant:RadiantWarmogsArmor:1",
+                            "Reforger:2",
+                            "Gold:5"
+                        ]
+                    },
+                    {
+                        "Rates": "18%",
+                        "List": [
+                            "masterwork_upgrade:1",
+                            "ItemAnvil:2",
+                            "GoldenRemover",
+                            "Gold:8"
+                        ]
+                    },
+                    {
+                        "Rates": "16%",
+                        "List": [
+                            "Items:Crown:TacticiansCrown:1",
+                            "Items:Artifacts:IndomitableGauntlet:1",
+                            "ItemAnvil:1"
+                        ]
+                    },
+                    {
+                        "Rates": "16%",
+                        "List": [
+                            "Items:Radiant:RadiantThiefsGloves:1",
+                            "ArtifactAnvil:1",
+                            "GoldenRemover",
+                            "Reforger:1"
+                        ]
+                    },
+                    {
+                        "Rates": "16%",
+                        "List": [
+                            "Items:Radiant:RadiantCrownguard:1",
+                            "Items:Artifacts:UnendingDespair:1",
+                            "Items:Support:MoonstoneRenewer:1",
+                            "MagneticRemover:2",
+                            "Gold:2"
+                        ]
+                    },
+                    {
+                        "Rates": "16%",
+                        "List": [
+                            "Items:Artifacts:InfinityForce:1",
+                            "Items:Artifacts:DeathsDefiance:1",
+                            "SupportAnvil:1",
+                            "GoldenRemover",
+                            "Gold:12"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Warpath": [
+            {
+                "Stack": "OnAchieve",
+                "Rewards": [
+                    {
+                        "Rates": "100%",
+                        "List": [
+                            "Champion:1:5:3",
+                            "Champion:2:4:1",
+                            "ItemAnvil:2"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "PrismaticPipeline": [
+            {
+                "Stack": "OnAchieve",
+                "Rewards": [
+                    {
+                        "Rates": "15%",
+                        "List": [
+                            "ItemAnvil:1",
+                            "masterwork_upgrade:1",
+                            "MagneticRemover:1",
+                            "Gold:8"
+                        ]
+                    },
+                    {
+                        "Rates": "15%",
+                        "List": [
+                            "ArtifactAnvil:1",
+                            "SupportAnvil:1",
+                            "MagneticRemover:1"
+                        ]
+                    },
+                    {
+                        "Rates": "15%",
+                        "List": [
+                            "Artifact:2",
+                            "MagneticRemover:1"
+                        ]
+                    },
+                    {
+                        "Rates": "15%",
+                        "List": [
+                            "masterwork_upgrade:1",
+                            "Gold:24"
+                        ]
+                    },
+                    {
+                        "Rates": "10%",
+                        "List": [
+                            "Artifact:1",
+                            "MagneticRemover:1",
+                            "Gold:25"
+                        ]
+                    },
+                    {
+                        "Rates": "10%",
+                        "List": [
+                            "SupportAnvil:1",
+                            "Gold:25"
+                        ]
+                    },
+                    {
+                        "Rates": "10%",
+                        "List": [
+                            "SupportAnvil:1",
+                            "ComponentAnvil:1",
+                            "Items:Components:Spatula:1",
+                            "Reforger:1",
+                            "Gold:8"
+                        ]
+                    },
+                    {
+                        "Rates": "10%",
+                        "List": [
+                            "SupportAnvil:1",
+                            "ComponentAnvil:1",
+                            "Items:Components:FryingPan:1",
+                            "Reforger:1",
+                            "Gold:8"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "CalltoChaos": [
+            {
+                "Stack": "OnAchieve",
+                "Rewards": [
+                    {
+                        "Rates": "10%",
+                        "List": [
+                            "Gold:58"
+                        ]
+                    },
+                    {
+                        "Rates": "10%",
+                        "List": [
+                            "Champion:3:3:1",
+                            "Gold:20"
+                        ]
+                    },
+                    {
+                        "Rates": "10%",
+                        "List": [
+                            "Items:Artifacts:Hullcrusher:3",
+                            "MagneticRemover:1"
+                        ]
+                    },
+                    {
+                        "Rates": "10%",
+                        "List": [
+                            "Items:Artifacts:SnipersFocus:3",
+                            "MagneticRemover:1"
+                        ]
+                    },
+                    {
+                        "Rates": "10%",
+                        "List": [
+                            "Items:Craftable:ThiefsGloves:3"
+                        ]
+                    },
+                    {
+                        "Rates": "10%",
+                        "List": [
+                            "Dummy:1",
+                            "Items:Support:Lockets:2"
+                        ]
+                    },
+                    {
+                        "Rates": "10%",
+                        "List": [
+                            "Dummy:1",
+                            "Items:Support:Zekes:2"
+                        ]
+                    },
+                    {
+                        "Rates": "10%",
+                        "List": [
+                            "Emblem:5"
+                        ]
+                    },
+                    {
+                        "Rates": "10%",
+                        "List": [
+                            "exp:64"
+                        ]
+                    },
+                    {
+                        "Rates": "10%",
+                        "List": [
+                            "Reroll:40"
+                        ]
+                    }
+                ]
+            }
+        ]
     }
 }

@@ -6,14 +6,14 @@ from json import dumps
 
 from meta_data import components_nickname, attributes_nickname, allstats, components_nickname_priority
 from meta_data import setitems
-from meta_data import craft2radiant_name_set5dot5, craft2radiant_name, special_components
+from meta_data import craft2radiant_name_set5dot5, craft2radiant_name
 from meta_data import set_specitem_keys
 
 from meta_func import no_radiant_set
 from meta_func import select_items
-from meta_func import select_item_emblems
 from meta_func import Grid2d
-from meta_func import spatula_in_compositions
+from meta_func import item_Components,item_Craftable,item_Emblems,item_Crown,item_Radiant,item_Artifacts,item_Support
+from meta_func import item_classify,geticon_fullpath
 
 def parse_attr(fulldesc: str) -> list[str]:
     if len(fulldesc) == 0:
@@ -106,46 +106,43 @@ for setof in setlist:
     for itemof in setitems(setof):
         if not select_items(setof, itemof):
             continue
-        elif 'isFromItem' in itemof:
+        elif item_Components(itemof):
             itemTyp[setof]['comp'].append({
                 'name': itemof['key'],
                 'attr': itemof['shortDesc'],
             })
-        elif valid_composi(itemof) and \
-            not spatula_in_compositions(itemof):
+        elif item_Craftable(itemof):
             itemTyp[setof]['craf'].append({
                 'name': itemof['key'],
                 'compositions': item_composi_nick(itemof),
                 'basic_attrs': parse_attr(str(itemof['fromDesc'])),
                 'add_attrs': itemof['desc'],
             })
-        elif select_item_emblems(setof, itemof):
+        elif item_Emblems(setof, itemof):
             itemTyp[setof]['embl'].append({
                 'name': itemof['key'],
                 'compositions': item_composi_nick(itemof) if valid_composi(itemof) else '',
                 'gain_trait': itemof['affectedTraitKey'] if 'affectedTraitKey' in itemof else '',
                 'add_attrs': itemof['desc'],
             })
-        elif valid_composi(itemof) and \
-            itemof['compositions'][0] in special_components and \
-            itemof['compositions'][1] in special_components:
+        elif item_Crown(itemof):
             itemTyp[setof]['crow'].append({
                 'name': itemof['key'],
                 'compositions': item_composi_nick(itemof)
             })
-        elif 'isRadiant' in itemof:
+        elif item_Radiant(itemof):
             itemTyp[setof]['radi'].append({
                 'name': itemof['key'],
                 'basic_attrs': parse_attr(str(itemof['fromDesc'])),
                 'add_attrs': itemof['desc'],
             })
-        elif 'isArtifact' in itemof:
+        elif item_Artifacts(itemof):
             itemTyp[setof]['arti'].append({
                 'name': itemof['key'],
                 'basic_attrs': parse_attr(str(itemof['fromDesc'])),
                 'add_attrs': itemof['desc'],
             })
-        elif 'isSupport' in itemof:
+        elif item_Support(itemof):
             itemTyp[setof]['supp'].append({
                 'name': itemof['key'],
                 'basic_attrs': parse_attr(str(itemof['fromDesc'])),
@@ -287,6 +284,52 @@ def collect_allset_spec_items():
         }, ensure_ascii=True, indent=4))
         specf.close()
 
+def parse_item_key2name() -> dict[str,dict[str,str]]:
+    """
+        return item_fakename2key
+    """
+    item_fakename2key:dict[str,dict[str,str]]={}
+    for setof in setlist:
+        item_fakename2key[setof]={}
+        itemlist:dict[str,list[dict[str,str]]]={
+            'Components': [],
+            'Craftable': [],
+            'Emblems': [],
+            'Crown': [],
+            'Radiant': [],
+            'Artifacts': [],
+            'Support': [],
+            "Special": [],
+        }
+        for itemof in setitems(setof):
+            if not select_items(setof, itemof):
+                continue
+            for itemcate, catefunc in item_classify.items():
+                judgeval=catefunc(itemof) if catefunc.__code__.co_argcount == 1 \
+                else catefunc(setof, itemof)
+                if judgeval:
+                    item_fakename2key[setof][str(itemof['name']).replace('.','').replace('.','').replace(' ','')]=itemof['key']
+                    iconpath=geticon_fullpath(f'tftitems/icon/{setof}/{itemcate}/{itemof["key"]}') if itemcate != 'Special'\
+                    else geticon_fullpath(f'tftitems/icon/{setof}/{itemof["key"]}')
+                    itemlist[itemcate].append({
+                        'name': itemof['name'],
+                        'key': itemof['key'],
+                        'icon': f'![{itemof["key"]}](../../{iconpath})'
+                    })
+                    break
+        with open(f'tftitems/md/{setof}.md', 'w+') as itemsfile:
+            for itemcate, itemls in itemlist.items():
+                if len(itemls) == 0:
+                    continue
+                itemsfile.write(f'# {itemcate}\n')
+                itemsfile.write(Grid2d([
+                    [itemofst['name'], itemofst['key'], itemofst['icon']]
+                    for itemofst in itemls
+                ], row0=['name','key','icon']).__str_md__())
+                itemsfile.write('\n')
+            itemsfile.close()
+    return item_fakename2key
+
 if __name__ == '__main__':
     compare_craftable_radiant_items()
     parse_craftable_item_change()
@@ -295,3 +338,5 @@ if __name__ == '__main__':
     #     with open(f'tftitems/grid/{setof}.txt', 'w+') as gridfile:
     #         gridfile.write(str(get_craftable_grid(setof)))
     #         gridfile.close()
+
+    parse_item_key2name()

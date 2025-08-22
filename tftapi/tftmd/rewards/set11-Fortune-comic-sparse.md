@@ -87,5 +87,5 @@
 # Luck: 225
 | **Rates** | **Rewards**                                                         |                                                                                                                            |
 | -         | -                                                                   | -                                                                                                                          |
-| **25%**   | ![MagneticRemover](../../tftspecs/icon/rewards/MagneticRemover.png) | ![MysteryGift](../../tftspecs/icon/rewards/mystery_item.jpg)                                                               |
+| **25%**   | ![MagneticRemover](../../tftspecs/icon/rewards/MagneticRemover.png) | MysteryGift![MysteryGift](../../tftspecs/icon/rewards/mystery_item.jpg)                                                    |
 | **25%**   | ![MagneticRemover](../../tftspecs/icon/rewards/MagneticRemover.png) | ![Unit_Star](../../tftspecs/icon/rewards/Champion_Star_3.png)![Unit_Cost](../../tftspecs/icon/rewards/Champion_Cost_5.png) |

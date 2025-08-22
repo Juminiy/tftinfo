@@ -540,13 +540,13 @@
                         {
                             "Odds": "50%",
                             "List": [
-                                "4 Cost Unit"
+                                "Champion:1:4:1"
                             ]
                         },
                         {
                             "Odds": "50%",
                             "List": [
-                                "4 Gold"
+                                "Gold:4"
                             ]
                         }
                     ]
@@ -557,13 +557,13 @@
                         {
                             "Odds": "50%",
                             "List": [
-                                "2 * Lesser Champion Duplicator"
+                                "LesserChampionDuplicator:2"
                             ]
                         },
                         {
                             "Odds": "50%",
                             "List": [
-                                "2 * 4 Cost Unit"
+                                "Champion:1:4:2"
                             ]
                         }
                     ]
@@ -574,14 +574,14 @@
                         {
                             "Odds": "50%",
                             "List": [
-                                "Component",
-                                "6 Gold"
+                                "Component:1",
+                                "Gold:6"
                             ]
                         },
                         {
                             "Odds": "50%",
                             "List": [
-                                "Duelist Emblem"
+                                "Items:Emblems:DuelistEmblem:1"
                             ]
                         }
                     ]
@@ -592,21 +592,24 @@
                         {
                             "Odds": "1/3",
                             "List": [
-                                "Item",
-                                "Reforger",
-                                "5 Cost Unit"
+                                "Item:1",
+                                "Reforger:1",
+                                "Champion:1:5:1"
                             ]
                         },
                         {
                             "Odds": "1/3",
                             "List": [
-                                "3 Gold",
-                                "Strategist Emblem"
+                                "Gold:3",
+                                "Items:Emblems:StrategistEmblem:1"
                             ]
                         },
                         {
                             "Odds": "1/3",
-                            "List": []
+                            "List": [
+                                "Component:2",
+                                "Gold:3"
+                            ]
                         }
                     ]
                 },
@@ -616,34 +619,1102 @@
                         {
                             "Odds": "25%",
                             "List": [
-                                "The Indomitable",
-                                "5 Gold"
+                                "Items:Artifacts:IndomitableGauntlet:1",
+                                "Gold:5"
                             ]
                         },
                         {
                             "Odds": "25%",
                             "List": [
-                                "Manazane",
-                                "5 Gold"
+                                "Items:Artifacts:Manazane:1",
+                                "Gold:5"
                             ]
                         },
                         {
                             "Odds": "25%",
                             "List": [
-                                "Flickerblades",
-                                "5 Gold"
+                                "lucky_chest:1",
+                                "Gold:10"
                             ]
                         },
                         {
                             "Odds": "25%",
                             "List": [
-                                "Item Anvil",
-                                "10 Gold"
+                                "ItemAnvil:1",
+                                "Gold:10"
                             ]
                         }
                     ]
                 }
             ]
-        }
+        },
+        "RogueCaptain": [
+            {
+                "Round": "1",
+                "Rewards": [
+                    {
+                        "Rates": "20%",
+                        "List": [
+                            "Gold:2"
+                        ]
+                    },
+                    {
+                        "Rates": "20%",
+                        "List": [
+                            "Reroll:2"
+                        ]
+                    },
+                    {
+                        "Rates": "20%",
+                        "List": [
+                            "fight:AS:15%"
+                        ]
+                    },
+                    {
+                        "Rates": "20%",
+                        "List": [
+                            "fight:AP:18"
+                        ]
+                    },
+                    {
+                        "Rates": "20%",
+                        "List": [
+                            "fight:Shield:160:8s"
+                        ]
+                    }
+                ]
+            },
+            {
+                "Round": "2",
+                "Rewards": [
+                    {
+                        "Rates": "100%",
+                        "List": [
+                            "fight:TankBuff:hp:40"
+                        ]
+                    }
+                ]
+            },
+            {
+                "Round": "3",
+                "Rewards": [
+                    {
+                        "Rates": "1/3",
+                        "List": [
+                            "Gold:6"
+                        ]
+                    },
+                    {
+                        "Rates": "1/3",
+                        "List": [
+                            "fight:DealBuff:da:2%"
+                        ]
+                    },
+                    {
+                        "Rates": "1/3",
+                        "List": [
+                            "Set15:CrewBuff:hp:60"
+                        ]
+                    }
+                ]
+            },
+            {
+                "Round": "4",
+                "Rewards": [
+                    {
+                        "Rates": "25%",
+                        "List": [
+                            "LesserChampionDuplicator:1"
+                        ]
+                    },
+                    {
+                        "Rates": "25%",
+                        "List": [
+                            "exp:12"
+                        ]
+                    },
+                    {
+                        "Rates": "25%",
+                        "List": [
+                            "Champion:1:5:1"
+                        ]
+                    },
+                    {
+                        "Rates": "25%",
+                        "List": [
+                            "Set15:CrewGoldBuff"
+                        ]
+                    }
+                ]
+            },
+            {
+                "Round": "5",
+                "Rewards": [
+                    {
+                        "Rates": "50%",
+                        "List": [
+                            "Champion:3:1:1"
+                        ]
+                    },
+                    {
+                        "Rates": "50%",
+                        "List": [
+                            "Component:1"
+                        ]
+                    }
+                ]
+            },
+            {
+                "Round": "6",
+                "Rewards": [
+                    {
+                        "Rates": "100%",
+                        "List": [
+                            "Gold:12"
+                        ]
+                    }
+                ]
+            },
+            {
+                "Round": "7",
+                "Rewards": [
+                    {
+                        "Rates": "100%",
+                        "List": [
+                            "ItemAnvil:1"
+                        ]
+                    }
+                ]
+            },
+            {
+                "Round": "10",
+                "Rewards": [
+                    {
+                        "Rates": "100%",
+                        "List": [
+                            "ArtifactAnvil:1"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Augment": {
+        "NineLives": [
+            {
+                "Lives": "8",
+                "Rewards": [
+                    {
+                        "Rates": "100%",
+                        "List": [
+                            "Champion:2:1:1"
+                        ]
+                    }
+                ]
+            },
+            {
+                "Lives": "7",
+                "Rewards": [
+                    {
+                        "Rates": "100%",
+                        "List": [
+                            "Champion:1:2:2"
+                        ]
+                    }
+                ]
+            },
+            {
+                "Lives": "6",
+                "Rewards": [
+                    {
+                        "Rates": "100%",
+                        "List": [
+                            "Champion:1:3:2"
+                        ]
+                    }
+                ]
+            },
+            {
+                "Lives": "5",
+                "Rewards": [
+                    {
+                        "Rates": "100%",
+                        "List": [
+                            "Champion:1:4:1",
+                            "Gold:8"
+                        ]
+                    }
+                ]
+            },
+            {
+                "Lives": "4",
+                "Rewards": [
+                    {
+                        "Rates": "100%",
+                        "List": [
+                            "Item:1",
+                            "Reforger:1"
+                        ]
+                    }
+                ]
+            },
+            {
+                "Lives": "3",
+                "Rewards": [
+                    {
+                        "Rates": "35%",
+                        "List": [
+                            "Gold:16"
+                        ]
+                    },
+                    {
+                        "Rates": "35%",
+                        "List": [
+                            "Champion:1:5:1",
+                            "ComponentAnvil:1"
+                        ]
+                    },
+                    {
+                        "Rates": "30%",
+                        "List": [
+                            "ChampionDuplicator:1",
+                            "LesserChampionDuplicator:1",
+                            "Gold:3"
+                        ]
+                    }
+                ]
+            },
+            {
+                "Lives": "2",
+                "Rewards": [
+                    {
+                        "Rates": "50%",
+                        "List": [
+                            "ItemAnvil:1",
+                            "MagneticRemover:1",
+                            "Gold:2"
+                        ]
+                    },
+                    {
+                        "Rates": "50%",
+                        "List": [
+                            "Items:Craftable:ThiefsGloves:1",
+                            "MagneticRemover:1",
+                            "Gold:3"
+                        ]
+                    }
+                ]
+            },
+            {
+                "Lives": "1",
+                "Rewards": [
+                    {
+                        "Rates": "50%",
+                        "List": [
+                            "ArtifactAnvil:1",
+                            "MagneticRemover:1"
+                        ]
+                    },
+                    {
+                        "Rates": "50%",
+                        "List": [
+                            "masterwork_upgrade:1"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "AStoryofSeven": [
+            {
+                "Wins": "7",
+                "Rewards": [
+                    {
+                        "Rates": "100%",
+                        "List": [
+                            "Gold:7",
+                            "Component:3"
+                        ]
+                    }
+                ]
+            },
+            {
+                "Wins": "14",
+                "Rewards": [
+                    {
+                        "Rates": "100%",
+                        "List": [
+                            "Gold:3",
+                            "masterwork_upgrade:1"
+                        ]
+                    }
+                ]
+            },
+            {
+                "Wins": "21",
+                "Rewards": [
+                    {
+                        "Rates": "100%",
+                        "List": [
+                            "RadiantItem:1",
+                            "GoldenRemover",
+                            "Reforger:1",
+                            "Gold:21"
+                        ]
+                    }
+                ]
+            },
+            {
+                "Wins": "28",
+                "Rewards": [
+                    {
+                        "Rates": "100%",
+                        "List": [
+                            "Champion:3:5:1",
+                            "MagneticRemover:1"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "TournamentFavorites": [
+            {
+                "Fame": "1000",
+                "Rewards": [
+                    {
+                        "Rates": "100%",
+                        "List": [
+                            "Gold:1"
+                        ]
+                    }
+                ]
+            },
+            {
+                "Fame": "5000",
+                "Rewards": [
+                    {
+                        "Rates": "100%",
+                        "List": [
+                            "Gold:3"
+                        ]
+                    }
+                ]
+            },
+            {
+                "Fame": "10000",
+                "Rewards": [
+                    {
+                        "Rates": "100%",
+                        "List": [
+                            "Gold:5"
+                        ]
+                    }
+                ]
+            },
+            {
+                "Fame": "20000",
+                "Rewards": [
+                    {
+                        "Rates": "100%",
+                        "List": [
+                            "Component:1"
+                        ]
+                    }
+                ]
+            },
+            {
+                "Fame": "50000",
+                "Rewards": [
+                    {
+                        "Rates": "100%",
+                        "List": [
+                            "Gold:15"
+                        ]
+                    }
+                ]
+            },
+            {
+                "Fame": "90000",
+                "Rewards": [
+                    {
+                        "Rates": "100%",
+                        "List": [
+                            "Component:1",
+                            "Champions:1:Samira:1"
+                        ]
+                    }
+                ]
+            },
+            {
+                "Fame": "115000",
+                "Rewards": [
+                    {
+                        "Rates": "100%",
+                        "List": [
+                            "Gold:8",
+                            "Champions:1:Gwen:1"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "CarePackage": [
+            {
+                "Stage": "2,3,4",
+                "Rewards": [
+                    {
+                        "Rates": "35%",
+                        "List": [
+                            "Component:1",
+                            "Gold:3"
+                        ]
+                    },
+                    {
+                        "Rates": "35%",
+                        "List": [
+                            "Component:1",
+                            "Reforger:2",
+                            "Gold:2"
+                        ]
+                    },
+                    {
+                        "Rates": "30%",
+                        "List": [
+                            "Component:1",
+                            "LesserChampionDuplicator:1",
+                            "Gold:1"
+                        ]
+                    }
+                ]
+            },
+            {
+                "Stage": "5,6,7,8",
+                "Rewards": [
+                    {
+                        "Rates": "35%",
+                        "List": [
+                            "lucky_chest:1"
+                        ]
+                    },
+                    {
+                        "Rates": "35%",
+                        "List": [
+                            "Item:1",
+                            "Gold:3"
+                        ]
+                    },
+                    {
+                        "Rates": "30%",
+                        "List": [
+                            "Component:1",
+                            "LesserChampionDuplicator:1",
+                            "Gold:8"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "TreasureHunt": [
+            {
+                "Stage": "2",
+                "Rewards": [
+                    {
+                        "Rates": "50%",
+                        "List": [
+                            "Champion:2:3:1"
+                        ]
+                    },
+                    {
+                        "Rates": "50%",
+                        "List": [
+                            "ComponentAnvil:1"
+                        ]
+                    }
+                ]
+            },
+            {
+                "Stage": "3",
+                "Rewards": [
+                    {
+                        "Rates": "50%",
+                        "List": [
+                            "LesserChampionDuplicator:2"
+                        ]
+                    },
+                    {
+                        "Rates": "50%",
+                        "List": [
+                            "spatula_or_pan:1",
+                            "Reforger:1"
+                        ]
+                    }
+                ]
+            },
+            {
+                "Stage": "4",
+                "Rewards": [
+                    {
+                        "Rates": "50%",
+                        "List": [
+                            "Gold:16"
+                        ]
+                    },
+                    {
+                        "Rates": "50%",
+                        "List": [
+                            "Item:1"
+                        ]
+                    }
+                ]
+            },
+            {
+                "Stage": "5",
+                "Rewards": [
+                    {
+                        "Rates": "50%",
+                        "List": [
+                            "Artifact:1"
+                        ]
+                    },
+                    {
+                        "Rates": "50%",
+                        "List": [
+                            "ItemAnvil:1",
+                            "Gold:5"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "AGoldenQuest": [
+            {
+                "Stack": "OnAchieve",
+                "Rewards": [
+                    {
+                        "Rates": "12.5%",
+                        "List": [
+                            "Champions:2:Braum:1",
+                            "Items:Craftable:Bloodthirster:1",
+                            "Items:Artifacts:OrnnItemDeathsDance:1"
+                        ]
+                    },
+                    {
+                        "Rates": "12.5%",
+                        "List": [
+                            "Champions:2:Gwen:1",
+                            "Items:Craftable:JeweledGauntlet:1",
+                            "Items:Artifacts:Dawncore:1"
+                        ]
+                    },
+                    {
+                        "Rates": "12.5%",
+                        "List": [
+                            "Champions:2:LeeSin:1",
+                            "Items:Craftable:TitansResolve:1",
+                            "Items:Artifacts:OrnnItemTrinityForce:1"
+                        ]
+                    },
+                    {
+                        "Rates": "12.5%",
+                        "List": [
+                            "Champions:2:Seraphine:1",
+                            "Items:Craftable:LudensEcho:1",
+                            "Items:Artifacts:Manazane:1"
+                        ]
+                    },
+                    {
+                        "Rates": "12.5%",
+                        "List": [
+                            "Champions:2:TwistedFate:1",
+                            "Items:Craftable:GiantSlayer:1",
+                            "Items:Artifacts:StatikkShiv:1"
+                        ]
+                    },
+                    {
+                        "Rates": "12.5%",
+                        "List": [
+                            "Champions:2:Varus:1",
+                            "Items:Craftable:LordsEdge:1",
+                            "Items:Artifacts:SnipersFocus:1"
+                        ]
+                    },
+                    {
+                        "Rates": "12.5%",
+                        "List": [
+                            "Champions:2:Yone:1",
+                            "Items:Craftable:HandofJustice:1",
+                            "Items:Artifacts:Flickerblades:1"
+                        ]
+                    },
+                    {
+                        "Rates": "12.5%",
+                        "List": [
+                            "Champions:2:Zyra:1",
+                            "Items:Craftable:HextechGunblade:1",
+                            "Items:Artifacts:Manazane:1"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "TheGoldenEgg": [
+            {
+                "Stack": "OnAchieve",
+                "Rewards": [
+                    {
+                        "Rates": "15%",
+                        "List": [
+                            "Items:Crown:TacticiansCrown:1",
+                            "Gold:88"
+                        ]
+                    },
+                    {
+                        "Rates": "15%",
+                        "List": [
+                            "Items:Crown:TacticiansCrown:1",
+                            "RadiantItem:2",
+                            "Gold:10"
+                        ]
+                    },
+                    {
+                        "Rates": "15%",
+                        "List": [
+                            "Items:Crown:TacticiansCrown:2",
+                            "Items:Craftable:ThiefsGloves:1",
+                            "Gold:30"
+                        ]
+                    },
+                    {
+                        "Rates": "15%",
+                        "List": [
+                            "Items:Crown:TacticiansCrown:1",
+                            "Items:Radiant:RadiantThiefsGloves:1",
+                            "Items:Craftable:ThiefsGloves:1",
+                            "Gold:25"
+                        ]
+                    },
+                    {
+                        "Rates": "10%",
+                        "List": [
+                            "Items:Crown:TacticiansCrown:1",
+                            "Champion:1:5:4",
+                            "ChampionDuplicator:2",
+                            "Gold:30"
+                        ]
+                    },
+                    {
+                        "Rates": "10%",
+                        "List": [
+                            "Items:Crown:TacticiansCrown:1",
+                            "RadiantItem:1",
+                            "Artifact:1",
+                            "Item:1",
+                            "MagneticRemover:1",
+                            "Gold:10"
+                        ]
+                    },
+                    {
+                        "Rates": "10%",
+                        "List": [
+                            "Items:Artifacts:OrnnItemTrinityForce:1",
+                            "Items:Artifacts:OrnnItemZhonyasHourglass:1",
+                            "Items:Craftable:Redemption:1",
+                            "ChampionDuplicator:1",
+                            "MagneticRemover:2",
+                            "Gold:25"
+                        ]
+                    },
+                    {
+                        "Rates": "10%",
+                        "List": [
+                            "Items:Crown:TacticiansCrown:1",
+                            "Items:Craftable:InfinityEdge:1",
+                            "Items:Craftable:JeweledGauntlet:1",
+                            "Items:Craftable:StrikersFail:1",
+                            "Items:Craftable:HandofJustice:1",
+                            "Items:Craftable:Quicksilver:1",
+                            "MagneticRemover:1",
+                            "Gold:10"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "AMagicRoll": [
+            {
+                "Stack": "OnAchieve",
+                "Rewards": [
+                    {
+                        "DiceTotal": "4,5,6,7,8",
+                        "List": [
+                            "fight:hp:250"
+                        ]
+                    },
+                    {
+                        "DiceTotal": "9,10,11",
+                        "List": [
+                            "Champion:2:3:2",
+                            "Champion:2:2:1"
+                        ]
+                    },
+                    {
+                        "DiceTotal": "12,13,14,15",
+                        "List": [
+                            "Component:4"
+                        ]
+                    },
+                    {
+                        "DiceTotal": "16,17",
+                        "List": [
+                            "Items:Components:FryingPan:1",
+                            "Component:2"
+                        ]
+                    },
+                    {
+                        "DiceTotal": "Dice:444,555,666",
+                        "List": [
+                            "Items:Crown:TacticiansCape:1"
+                        ]
+                    },
+                    {
+                        "DiceTotal": "Dice:111,222,333",
+                        "List": [
+                            "LesserChampionDuplicator:3",
+                            "Gold:6"
+                        ]
+                    },
+                    {
+                        "DiceTotal": "Dice:6-2-6",
+                        "List": [
+                            "Items:Crown:TacticiansCrown:1",
+                            "Champion:1:5:2",
+                            "Gold:5"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "ExpectedUnexpectedness": [
+            {
+                "Phase": "2-1",
+                "Rewards": [
+                    {
+                        "DiceTotal": "4,5,6,7,8",
+                        "List": [
+                            "Gold:11"
+                        ]
+                    },
+                    {
+                        "DiceTotal": "9,10,11",
+                        "List": [
+                            "Champion:1:4:2"
+                        ]
+                    },
+                    {
+                        "DiceTotal": "12,13,14,15",
+                        "List": [
+                            "ItemAnvil:1",
+                            "Reforger:3"
+                        ]
+                    },
+                    {
+                        "DiceTotal": "16,17",
+                        "List": [
+                            "masterwork_upgrade:1"
+                        ]
+                    },
+                    {
+                        "DiceTotal": "111,222,333,444,555,666",
+                        "List": [
+                            "Items:Crown:TacticiansCrown:1"
+                        ]
+                    }
+                ]
+            },
+            {
+                "Phase": "3-1",
+                "Rewards": [
+                    {
+                        "DiceTotal": "4,5,6,7,8",
+                        "List": [
+                            "Gold:18"
+                        ]
+                    },
+                    {
+                        "DiceTotal": "9,10,11",
+                        "List": [
+                            "LesserChampionDuplicator:2",
+                            "Gold:10"
+                        ]
+                    },
+                    {
+                        "DiceTotal": "12,13,14,15",
+                        "List": [
+                            "ArtifactAnvil:1"
+                        ]
+                    },
+                    {
+                        "DiceTotal": "16,17",
+                        "List": [
+                            "Component:3"
+                        ]
+                    },
+                    {
+                        "DiceTotal": "111,222,333,444,555,666",
+                        "List": [
+                            "Emblem:2"
+                        ]
+                    }
+                ]
+            },
+            {
+                "Phase": "4-1",
+                "Rewards": [
+                    {
+                        "DiceTotal": "4,5,6,7,8",
+                        "List": [
+                            "Gold:24"
+                        ]
+                    },
+                    {
+                        "DiceTotal": "9,10,11",
+                        "List": [
+                            "Champion:1:5:3"
+                        ]
+                    },
+                    {
+                        "DiceTotal": "12,13,14,15",
+                        "List": [
+                            "SupportAnvil:1"
+                        ]
+                    },
+                    {
+                        "DiceTotal": "16,17",
+                        "List": [
+                            "Item:1",
+                            "Component:2"
+                        ]
+                    },
+                    {
+                        "DiceTotal": "111,222,333,444,555,666",
+                        "List": [
+                            "Champion:1:5:2",
+                            "ChampionDuplicator:1"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "AnExaltedAdventure": [
+            {
+                "Stack": "OnAchieve",
+                "Rewards": [
+                    {
+                        "Rates": "18%",
+                        "List": [
+                            "Items:Radiant:RadientGiantSlayer:1",
+                            "Items:Radiant:RadientWarmogsArmor:1",
+                            "Reforger:2",
+                            "Gold:5"
+                        ]
+                    },
+                    {
+                        "Rates": "18%",
+                        "List": [
+                            "masterwork_upgrade:1",
+                            "ItemAnvil:2",
+                            "GoldenRemover",
+                            "Gold:8"
+                        ]
+                    },
+                    {
+                        "Rates": "16%",
+                        "List": [
+                            "Items:Crown:TacticiansCrown:1",
+                            "Items:Artifacts:IndomitableGauntlet:1",
+                            "ItemAnvil:1"
+                        ]
+                    },
+                    {
+                        "Rates": "16%",
+                        "List": [
+                            "Items:Radiant:RadiantThiefsGloves:1",
+                            "ArtifactAnvil:1",
+                            "GoldenRemover",
+                            "Reforger:1"
+                        ]
+                    },
+                    {
+                        "Rates": "16%",
+                        "List": [
+                            "Items:Radiant:CrownguardRadiant:1",
+                            "Items:Artifacts:UnendingDespair:1",
+                            "ItemAnvil:1",
+                            "MagneticRemover:2",
+                            "Gold:2"
+                        ]
+                    },
+                    {
+                        "Rates": "16%",
+                        "List": [
+                            "Items:Artifacts:OrnnItemTrinityForce:1",
+                            "Items:Artifacts:OrnnItemDeathsDance:1",
+                            "ItemAnvil:1",
+                            "GoldenRemover",
+                            "Gold:20"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Warpath": [
+            {
+                "Stack": "OnAchieve",
+                "Rewards": [
+                    {
+                        "Rates": "100%",
+                        "List": [
+                            "Champion:1:5:3",
+                            "Champion:2:4:1",
+                            "ItemAnvil:2"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "PrismaticPipeline": [
+            {
+                "Stack": "OnAchieve",
+                "Rewards": [
+                    {
+                        "Rates": "10%",
+                        "List": [
+                            "ArtifactAnvil:1",
+                            "MagneticRemover:1",
+                            "Gold:25"
+                        ]
+                    },
+                    {
+                        "Rates": "15%",
+                        "List": [
+                            "Gold:55"
+                        ]
+                    },
+                    {
+                        "Rates": "15%",
+                        "List": [
+                            "masterwork_upgrade:1",
+                            "Gold:24"
+                        ]
+                    },
+                    {
+                        "Rates": "15%",
+                        "List": [
+                            "Artifact:2",
+                            "MagneticRemover:1"
+                        ]
+                    },
+                    {
+                        "Rates": "15%",
+                        "List": [
+                            "ItemAnvil:1",
+                            "masterwork_upgrade:1",
+                            "MagneticRemover:1",
+                            "Gold:8"
+                        ]
+                    },
+                    {
+                        "Rates": "15%",
+                        "List": [
+                            "ItemAnvil:1",
+                            "Component:1",
+                            "Items:Components:Spatula:1",
+                            "Reforger:1",
+                            "Gold:18"
+                        ]
+                    },
+                    {
+                        "Rates": "15%",
+                        "List": [
+                            "ItemAnvil:1",
+                            "Component:1",
+                            "Items:Components:FryingPan:1",
+                            "Reforger:1",
+                            "Gold:18"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "CalltoChaos": [
+            {
+                "Stack": "OnAchieve",
+                "Rewards": [
+                    {
+                        "Rates": "10%",
+                        "List": [
+                            "Gold:58"
+                        ]
+                    },
+                    {
+                        "Rates": "10%",
+                        "List": [
+                            "Champion:3:3:1",
+                            "Gold:20"
+                        ]
+                    },
+                    {
+                        "Rates": "10%",
+                        "List": [
+                            "Items:Artifacts:Hullcrusher:3"
+                        ]
+                    },
+                    {
+                        "Rates": "10%",
+                        "List": [
+                            "Items:Artifacts:SnipersFocus:3"
+                        ]
+                    },
+                    {
+                        "Rates": "10%",
+                        "List": [
+                            "Items:Craftable:ThiefsGloves:3"
+                        ]
+                    },
+                    {
+                        "Rates": "10%",
+                        "List": [
+                            "lucky_chest:3"
+                        ]
+                    },
+                    {
+                        "Rates": "10%",
+                        "List": [
+                            "Golem:1",
+                            "RadiantItem:1",
+                            "Artifact:1",
+                            "Emblem:1"
+                        ]
+                    },
+                    {
+                        "Rates": "10%",
+                        "List": [
+                            "Emblem:5"
+                        ]
+                    },
+                    {
+                        "Rates": "10%",
+                        "List": [
+                            "exp:64"
+                        ]
+                    },
+                    {
+                        "Rates": "10%",
+                        "List": [
+                            "Reroll:40"
+                        ]
+                    }
+                ]
+            }
+        ]
     }
 }

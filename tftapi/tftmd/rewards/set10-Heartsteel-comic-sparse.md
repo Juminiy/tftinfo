@@ -29,18 +29,18 @@
 | **25%**  | ![ThiefsGloves](../../tftitems/icon/set10/Craftable/ThiefsGloves.png) | 3 * ![Gold](../../tftspecs/icon/rewards/Gold.png)                                                                              |
 | **25%**  | 6 * ![Gold](../../tftspecs/icon/rewards/Gold.png)                     | 2 * ![Unit_Star](../../tftspecs/icon/rewards/Champion_Star_1.png)![Unit_Cost](../../tftspecs/icon/rewards/Champion_Cost_4.png) |
 # Hearts: 100
-| **Odds** | **Rewards**                                                  |                                               |                                                   |
-| -        | -                                                            | -                                             | -                                                 |
-| **40%**  | 2 * ![Component](../../tftspecs/icon/rewards/Component.jpg)  | ![Gold](../../tftspecs/icon/rewards/Gold.png) |                                                   |
-| **30%**  | ![Reforger](../../tftspecs/icon/rewards/Reforger.png)        | ![Item](../../tftspecs/icon/rewards/Item.png) | 2 * ![Gold](../../tftspecs/icon/rewards/Gold.png) |
-| **30%**  | ![SupportItem](../../tftspecs/icon/rewards/mystery_item.jpg) |                                               |                                                   |
+| **Odds** | **Rewards**                                                             |                                               |                                                   |
+| -        | -                                                                       | -                                             | -                                                 |
+| **40%**  | 2 * ![Component](../../tftspecs/icon/rewards/Component.jpg)             | ![Gold](../../tftspecs/icon/rewards/Gold.png) |                                                   |
+| **30%**  | ![Reforger](../../tftspecs/icon/rewards/Reforger.png)                   | ![Item](../../tftspecs/icon/rewards/Item.png) | 2 * ![Gold](../../tftspecs/icon/rewards/Gold.png) |
+| **30%**  | SupportItem![SupportItem](../../tftspecs/icon/rewards/mystery_item.jpg) |                                               |                                                   |
 # Hearts: 130
-| **Odds** | **Rewards**                                                   |                                                              |                                                   |
-| -        | -                                                             | -                                                            | -                                                 |
-| **25%**  | ![Item](../../tftspecs/icon/rewards/Item.png)                 | ![Component](../../tftspecs/icon/rewards/Component.jpg)      |                                                   |
-| **25%**  | ![TomeofTraits](../../tftspecs/icon/rewards/TomeofTraits.png) |                                                              |                                                   |
-| **25%**  | ![Reforger](../../tftspecs/icon/rewards/Reforger.png)         | ![SupportItem](../../tftspecs/icon/rewards/mystery_item.jpg) | 3 * ![Gold](../../tftspecs/icon/rewards/Gold.png) |
-| **25%**  | ![Reforger](../../tftspecs/icon/rewards/Reforger.png)         | ![Artifact](../../tftspecs/icon/rewards/Artifact.png)        | 3 * ![Gold](../../tftspecs/icon/rewards/Gold.png) |
+| **Odds** | **Rewards**                                                   |                                                                         |                                                   |
+| -        | -                                                             | -                                                                       | -                                                 |
+| **25%**  | ![Item](../../tftspecs/icon/rewards/Item.png)                 | ![Component](../../tftspecs/icon/rewards/Component.jpg)                 |                                                   |
+| **25%**  | ![TomeofTraits](../../tftspecs/icon/rewards/TomeofTraits.png) |                                                                         |                                                   |
+| **25%**  | ![Reforger](../../tftspecs/icon/rewards/Reforger.png)         | SupportItem![SupportItem](../../tftspecs/icon/rewards/mystery_item.jpg) | 3 * ![Gold](../../tftspecs/icon/rewards/Gold.png) |
+| **25%**  | ![Reforger](../../tftspecs/icon/rewards/Reforger.png)         | ![Artifact](../../tftspecs/icon/rewards/Artifact.png)                   | 3 * ![Gold](../../tftspecs/icon/rewards/Gold.png) |
 # Hearts: 160
 | **Odds** | **Rewards**                                                                     |                                                    |
 | -        | -                                                                               | -                                                  |

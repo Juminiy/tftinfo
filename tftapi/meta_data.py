@@ -195,62 +195,80 @@ set_itemstype={
     'spec': 'Special',
 }
 
+class RewardConfig():
+    stacklist_keys:list[str]
+    stacked_key:str
+    rewards_key:str
+    rewards_odds_key:str
+    rewards_list_key:str
+
+    def __init__(self, slks:list[str],sk:str='Stack',rk:str='Rewards',rok:str='Rates',rlk:str='List'):
+        self.stacklist_keys=slks
+        self.stacked_key=sk
+        self.rewards_key=rk
+        self.rewards_odds_key=rok
+        self.rewards_list_key=rlk
+
+    def __getitem__(self, key:str) -> Any:
+        match key:
+            case 'stacklist_keys':
+                return self.stacklist_keys
+            case 'stacked_key':
+                return self.stacked_key
+            case 'rewards_key':
+                return self.rewards_key
+            case 'rewards_odds_key':
+                return self.rewards_odds_key
+            case 'rewards_list_key':
+                return self.rewards_list_key
+            case _:
+                return None
+
 set_rewards_config={
     'set15': {
-        'stacklist_keys': ['Trait', 'CrystalGambit', 'GemPower'], 
-        'stacked_key': 'GemPower',
-        'rewards_key': 'Rewards',
-        'rewards_odds_key': 'Odds',
-        'rewards_list_key': 'List'
+        'CrystalGambit': RewardConfig(['Trait', 'CrystalGambit', 'GemPower'], 'GemPower', 'Rewards', 'Odds', 'List'),
+        'RogueCaptain': RewardConfig(['Trait', 'RogueCaptain'], 'Round'),
+        'NineLives': RewardConfig(['Augment', 'NineLives'], 'Lives'),
+        'AStoryofSeven': RewardConfig(['Augment', 'AStoryofSeven'], 'Wins'),
+        'TournamentFavorites': RewardConfig(['Augment', 'TournamentFavorites'], 'Fame'),
+        'CarePackage': RewardConfig(['Augment', 'CarePackage'], 'Stage'),
+        'TreasureHunt': RewardConfig(['Augment', 'TreasureHunt'], 'Stage'),
+        'AGoldenQuest': RewardConfig(['Augment', 'AGoldenQuest']),
+        'TheGoldenEgg': RewardConfig(['Augment', 'TheGoldenEgg']),
+        'AMagicRoll': RewardConfig(['Augment', 'AMagicRoll'], rok='DiceTotal'),
+        'ExpectedUnexpectedness': RewardConfig(['Augment', 'ExpectedUnexpectedness'], sk='Phase', rok='DiceTotal'),
+        'AnExaltedAdventure': RewardConfig(['Augment', 'AnExaltedAdventure']),
+        'Warpath': RewardConfig(['Augment', 'Warpath']),
+        'PrismaticPipeline': RewardConfig(['Augment', 'PrismaticPipeline']),
+        'CalltoChaos': RewardConfig(['Augment', 'CalltoChaos']),
     },
     'set14': {
-        'stacklist_keys': ['Trait', 'Cypher'], 
-        'stacked_key': 'Intel',
-        'rewards_key': 'Rewards',
-        'rewards_odds_key': 'Odds',
-        'rewards_list_key': 'List'
+        'Cypher': RewardConfig(['Trait', 'Cypher'], 'Intel', 'Rewards', 'Odds', 'List'),
+        'NewHighScore': RewardConfig(['Augment', 'NewHighScore'], rok='HighScore'),
+        'AMagicRoll': RewardConfig(['Augment', 'AMagicRoll'], rok='DiceTotal'),
+        'ExpectedUnexpectedness': RewardConfig(['Augment', 'ExpectedUnexpectedness'], sk='Phase', rok='DiceTotal'),
+        'AnExaltedAdventure': RewardConfig(['Augment', 'AnExaltedAdventure']),
+        'Warpath': RewardConfig(['Augment', 'Warpath']),
+        'PrismaticPipeline': RewardConfig(['Augment', 'PrismaticPipeline']),
+        'CalltoChaos': RewardConfig(['Augment', 'CalltoChaos']),
     },
     'set13': {
-        'stacklist_keys': ['Trait', 'Chem-Baron', 'StackedShimmer'], 
-        'stacked_key': 'Shimmer',
-        'rewards_key': 'Rewards',
-        'rewards_odds_key': 'Rates',
-        'rewards_list_key': 'List'
+        'Chem-Baron': RewardConfig(['Trait', 'Chem-Baron', 'StackedShimmer'], 'Shimmer', 'Rewards', 'Rates', 'List'),
     },
     'set12': {
-        'stacklist_keys': ['Augment', 'Fortune Favors the Bold'], 
-        'stacked_key': 'Loss',
-        'rewards_key': 'Rewards',
-        'rewards_odds_key': 'Odds',
-        'rewards_list_key': 'List'
+        'FotuneFavortheBold': RewardConfig(['Augment', 'Fortune Favors the Bold'], 'Loss', 'Rewards', 'Odds', 'List'),
     },
     'set11': {
-        'stacklist_keys': ['Trait', 'Fortune'], 
-        'stacked_key': 'Luck',
-        'rewards_key': 'Rewards',
-        'rewards_odds_key': 'Rates',
-        'rewards_list_key': 'List'
+        'Fortune': RewardConfig(['Trait', 'Fortune'], 'Luck', 'Rewards', 'Rates', 'List'),
     },
     'set10': {
-        'stacklist_keys': ['Trait', 'Heartsteel'], 
-        'stacked_key': 'Hearts',
-        'rewards_key': 'Rewards',
-        'rewards_odds_key': 'Odds',
-        'rewards_list_key': 'List'
+        'Heartsteel': RewardConfig(['Trait', 'Heartsteel'], 'Hearts', 'Rewards', 'Odds', 'List'),
     },
     'set9': {
-        'stacklist_keys': ['Trait', 'Piltover', 'Loss'], 
-        'stacked_key': 'Loss',
-        'rewards_key': 'Rewards',
-        'rewards_odds_key': 'Odds',
-        'rewards_list_key': 'List'
+        'Piltover': RewardConfig(['Trait', 'Piltover', 'Loss'], 'Loss', 'Rewards', 'Odds', 'List'),
     },
     'set8': {
-        'stacklist_keys': ['Trait', 'Underground'], 
-        'stacked_key': 'Heist',
-        'rewards_key': 'Rewards',
-        'rewards_odds_key': 'Percentage',
-        'rewards_list_key': 'List'
+        'Underground': RewardConfig(['Trait', 'Underground'], 'Heist', 'Rewards', 'Percentage', 'List'),
     },
 }
 
