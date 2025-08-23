@@ -50,7 +50,7 @@ def classify_items_icon():
         itemkey2img={itemof['key']:itemof['imageUrl'] for itemof in setitems(setof)}
         for itemtyp,itemls in itemTyp[setof].items():
             if len(itemls) ==0:
-                break
+                continue
             itemtyp=set_itemstype[itemtyp]
             os.makedirs(f'tftitems/icon/{setof}/{itemtyp}', exist_ok=True)
             for itemof in itemls:
@@ -110,13 +110,13 @@ def req_rewards():
 
 if __name__ == '__main__':
     # set15.2 update, some icons download have been restricted, temp to skip it.
-    # for reqfn in [req_champions_icon, req_items_icon, req_traits_icon]:
-    #     objof=reqfn.__name__.removeprefix('req_').removesuffix('_icon')
-    #     print(f'icon obj: {objof}')
-    #     reqfn()
+    for reqfn in [req_items_icon]: #[req_champions_icon, req_items_icon, req_traits_icon]:
+        objof=reqfn.__name__.removeprefix('req_').removesuffix('_icon')
+        print(f'icon obj: {objof}')
+        reqfn()
 
-    # copy_icon_emblem2trait()
-    # classify_items_icon()
+    copy_icon_emblem2trait()
+    classify_items_icon()
 
     req_fight_attrs()
     req_rewards()

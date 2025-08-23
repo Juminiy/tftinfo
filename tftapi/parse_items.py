@@ -13,7 +13,7 @@ from meta_func import no_radiant_set
 from meta_func import select_items
 from meta_func import Grid2d
 from meta_func import item_Components,item_Craftable,item_Emblems,item_Crown,item_Radiant,item_Artifacts,item_Support
-from meta_func import item_classify,geticon_fullpath
+from meta_func import item_classify,geticon_fullpath,str_delete
 
 def parse_attr(fulldesc: str) -> list[str]:
     if len(fulldesc) == 0:
@@ -308,7 +308,7 @@ def parse_item_key2name() -> dict[str,dict[str,str]]:
                 judgeval=catefunc(itemof) if catefunc.__code__.co_argcount == 1 \
                 else catefunc(setof, itemof)
                 if judgeval:
-                    item_fakename2key[setof][str(itemof['name']).replace('.','').replace('.','').replace(' ','')]=itemof['key']
+                    item_fakename2key[setof][str_delete(str(itemof['name']), ['.',"'",' '])]=itemof['key']
                     iconpath=geticon_fullpath(f'tftitems/icon/{setof}/{itemcate}/{itemof["key"]}') if itemcate != 'Special'\
                     else geticon_fullpath(f'tftitems/icon/{setof}/{itemof["key"]}')
                     itemlist[itemcate].append({

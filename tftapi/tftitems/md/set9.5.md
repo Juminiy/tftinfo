@@ -153,9 +153,9 @@
 # Special
 | name                | key                | icon                                                                     |
 | -                   | -                  | -                                                                        |
-| Adaptive Implant    | AdaptiveImplant    | ![AdaptiveImplant](../../tftitems/icon/set9.5/AdaptiveImplant.NONE)      |
+| Adaptive Implant    | AdaptiveImplant    | ![AdaptiveImplant](../../tftitems/icon/set9.5/AdaptiveImplant.png)       |
 | Hextech Exoskeleton | HextechExoskeleton | ![HextechExoskeleton](../../tftitems/icon/set9.5/HextechExoskeleton.png) |
-| Robotic Arm         | RoboticArm         | ![RoboticArm](../../tftitems/icon/set9.5/RoboticArm.NONE)                |
+| Robotic Arm         | RoboticArm         | ![RoboticArm](../../tftitems/icon/set9.5/RoboticArm.png)                 |
 | Shimmer Injector    | ShimmerInjector    | ![ShimmerInjector](../../tftitems/icon/set9.5/ShimmerInjector.png)       |
-| Unstable Chemtank   | UnstableChemtank   | ![UnstableChemtank](../../tftitems/icon/set9.5/UnstableChemtank.NONE)    |
-| Virulent Bioware    | VirulentBioware    | ![VirulentBioware](../../tftitems/icon/set9.5/VirulentBioware.NONE)      |
+| Unstable Chemtank   | UnstableChemtank   | ![UnstableChemtank](../../tftitems/icon/set9.5/UnstableChemtank.png)     |
+| Virulent Bioware    | VirulentBioware    | ![VirulentBioware](../../tftitems/icon/set9.5/VirulentBioware.png)       |

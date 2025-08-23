@@ -244,9 +244,9 @@ def download_file(fileurl: str, filepath: str, timeout_sec: float) -> tuple[str,
     try:
         if os.path.exists(filepath): # already downloaded
             return None 
-        if any([filepath.find(dirpath)!=-1 for dirpath in ['tftitems/icon/set9','tftitems/icon/set9.5']]) and \
-            any([fileurl.find(ignorekey)!=-1 for ignorekey in toobignotdl]): # too big ignore
-            return None
+        # if any([filepath.find(dirpath)!=-1 for dirpath in ['tftitems/icon/set9','tftitems/icon/set9.5']]) and \
+        #     any([fileurl.find(ignorekey)!=-1 for ignorekey in toobignotdl]): # too big ignore
+        #     return None
         if fileurl=='https:None':    # illegal url
             return None
         fileresp=httpget(fileurl, stream=True, timeout=timeout_sec)
@@ -316,3 +316,8 @@ def reverse_dict_kv(dt:dict[str,str]) -> dict[str,str]:
     for dtkey,dtval in dt.items():
         ndt[dtval]=dtkey
     return ndt
+
+def str_delete(src:str, slist:list[str]) -> str:
+    for sof in slist:
+        src=src.replace(sof,'')
+    return src

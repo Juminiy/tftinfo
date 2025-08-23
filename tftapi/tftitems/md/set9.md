@@ -136,12 +136,12 @@
 # Special
 | name                | key                | icon                                                                   |
 | -                   | -                  | -                                                                      |
-| Adaptive Implant    | AdaptiveImplant    | ![AdaptiveImplant](../../tftitems/icon/set9/AdaptiveImplant.NONE)      |
-| Virulent Bioware    | VirulentBioware    | ![VirulentBioware](../../tftitems/icon/set9/VirulentBioware.NONE)      |
+| Adaptive Implant    | AdaptiveImplant    | ![AdaptiveImplant](../../tftitems/icon/set9/AdaptiveImplant.png)       |
+| Virulent Bioware    | VirulentBioware    | ![VirulentBioware](../../tftitems/icon/set9/VirulentBioware.png)       |
 | Hextech Exoskeleton | HextechExoskeleton | ![HextechExoskeleton](../../tftitems/icon/set9/HextechExoskeleton.png) |
 | Shimmer Injector    | ShimmerInjector    | ![ShimmerInjector](../../tftitems/icon/set9/ShimmerInjector.png)       |
-| Robotic Arm         | RoboticArm         | ![RoboticArm](../../tftitems/icon/set9/RoboticArm.NONE)                |
-| Unstable Chemtank   | UnstableChemtank   | ![UnstableChemtank](../../tftitems/icon/set9/UnstableChemtank.NONE)    |
+| Robotic Arm         | RoboticArm         | ![RoboticArm](../../tftitems/icon/set9/RoboticArm.png)                 |
+| Unstable Chemtank   | UnstableChemtank   | ![UnstableChemtank](../../tftitems/icon/set9/UnstableChemtank.png)     |
 | Needlessly Big Gem  | NeedlesslyBigGem   | ![NeedlesslyBigGem](../../tftitems/icon/set9/NeedlesslyBigGem.png)     |
 | Draven's Axe        | DravensAxe         | ![DravensAxe](../../tftitems/icon/set9/DravensAxe.png)                 |
 | Gambler's Blade     | GamblersBlade      | ![GamblersBlade](../../tftitems/icon/set9/GamblersBlade.png)           |

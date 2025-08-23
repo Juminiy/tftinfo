@@ -220,9 +220,9 @@ if __name__ == '__main__':
         # with open(f'tfttxt/{setof}.txt', 'w+') as metaf:
         #     write_detail_txt(metaf, setof)
         #     metaf.close()
-        with open(f'tftmd/{setof}.md', 'w+') as mdf:
-            write_detail_md(mdf, setof)
-            mdf.close()
+        # with open(f'tftmd/{setof}.md', 'w+') as mdf:
+        #     write_detail_md(mdf, setof)
+        #     mdf.close()
         with open(f'tftmd/{setof}-comic.md', 'w+') as mdf:
             write_detail_md_comic(mdf, setof)
             mdf.close()

@@ -76,15 +76,15 @@
 | -                 | -             | -                                                                  |
 | Tactician's Crown | ForceofNature | ![ForceofNature](../../tftitems/icon/set6/Crown/ForceofNature.png) |
 # Artifacts
-| name                  | key                         | icon                                                                                                |
-| -                     | -                           | -                                                                                                   |
-| Gold Collector        | OrnnItemTheCollector        | ![OrnnItemTheCollector](../../tftitems/icon/set6/Artifacts/OrnnItemTheCollector.NONE)               |
-| Randuin's Sanctum     | OrnnItemRanduinsOmen        | ![OrnnItemRanduinsOmen](../../tftitems/icon/set6/Artifacts/OrnnItemRanduinsOmen.NONE)               |
-| Obsidian Cleaver      | OrnnItemBlackCleaver        | ![OrnnItemBlackCleaver](../../tftitems/icon/set6/Artifacts/OrnnItemBlackCleaver.NONE)               |
-| Anima Visage          | OrnnItemSpiritVisage        | ![OrnnItemSpiritVisage](../../tftitems/icon/set6/Artifacts/OrnnItemSpiritVisage.NONE)               |
-| Infinity Force        | OrnnItemTrinityForce        | ![OrnnItemTrinityForce](../../tftitems/icon/set6/Artifacts/OrnnItemTrinityForce.NONE)               |
-| Rocket-Propelled Fist | OrnnItemRocketPropelledFist | ![OrnnItemRocketPropelledFist](../../tftitems/icon/set6/Artifacts/OrnnItemRocketPropelledFist.NONE) |
-| Eternal Winter        | OrnnItemEverfrost           | ![OrnnItemEverfrost](../../tftitems/icon/set6/Artifacts/OrnnItemEverfrost.NONE)                     |
-| Zhonya's Paradox      | OrnnItemZhonyasHourglass    | ![OrnnItemZhonyasHourglass](../../tftitems/icon/set6/Artifacts/OrnnItemZhonyasHourglass.NONE)       |
-| Death's Defiance      | OrnnItemDeathsDance         | ![OrnnItemDeathsDance](../../tftitems/icon/set6/Artifacts/OrnnItemDeathsDance.NONE)                 |
-| Manazane              | OrnnItemMuramana            | ![OrnnItemMuramana](../../tftitems/icon/set6/Artifacts/OrnnItemMuramana.NONE)                       |
+| name                  | key                         | icon                                                                                               |
+| -                     | -                           | -                                                                                                  |
+| Gold Collector        | OrnnItemTheCollector        | ![OrnnItemTheCollector](../../tftitems/icon/set6/Artifacts/OrnnItemTheCollector.png)               |
+| Randuin's Sanctum     | OrnnItemRanduinsOmen        | ![OrnnItemRanduinsOmen](../../tftitems/icon/set6/Artifacts/OrnnItemRanduinsOmen.png)               |
+| Obsidian Cleaver      | OrnnItemBlackCleaver        | ![OrnnItemBlackCleaver](../../tftitems/icon/set6/Artifacts/OrnnItemBlackCleaver.png)               |
+| Anima Visage          | OrnnItemSpiritVisage        | ![OrnnItemSpiritVisage](../../tftitems/icon/set6/Artifacts/OrnnItemSpiritVisage.png)               |
+| Infinity Force        | OrnnItemTrinityForce        | ![OrnnItemTrinityForce](../../tftitems/icon/set6/Artifacts/OrnnItemTrinityForce.png)               |
+| Rocket-Propelled Fist | OrnnItemRocketPropelledFist | ![OrnnItemRocketPropelledFist](../../tftitems/icon/set6/Artifacts/OrnnItemRocketPropelledFist.png) |
+| Eternal Winter        | OrnnItemEverfrost           | ![OrnnItemEverfrost](../../tftitems/icon/set6/Artifacts/OrnnItemEverfrost.png)                     |
+| Zhonya's Paradox      | OrnnItemZhonyasHourglass    | ![OrnnItemZhonyasHourglass](../../tftitems/icon/set6/Artifacts/OrnnItemZhonyasHourglass.png)       |
+| Death's Defiance      | OrnnItemDeathsDance         | ![OrnnItemDeathsDance](../../tftitems/icon/set6/Artifacts/OrnnItemDeathsDance.png)                 |
+| Manazane              | OrnnItemMuramana            | ![OrnnItemMuramana](../../tftitems/icon/set6/Artifacts/OrnnItemMuramana.png)                       |

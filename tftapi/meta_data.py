@@ -202,12 +202,12 @@ class RewardConfig():
     rewards_odds_key:str
     rewards_list_key:str
 
-    def __init__(self, slks:list[str],sk:str='Stack',rk:str='Rewards',rok:str='Rates',rlk:str='List'):
-        self.stacklist_keys=slks
-        self.stacked_key=sk
-        self.rewards_key=rk
-        self.rewards_odds_key=rok
-        self.rewards_list_key=rlk
+    def __init__(self, stkls:list[str],stk:str='Stack',rwd:str='Rewards',rwdodds:str='Rates',rwdls:str='List'):
+        self.stacklist_keys=stkls
+        self.stacked_key=stk
+        self.rewards_key=rwd
+        self.rewards_odds_key=rwdodds
+        self.rewards_list_key=rwdls
 
     def __getitem__(self, key:str) -> Any:
         match key:
@@ -235,8 +235,8 @@ set_rewards_config={
         'TreasureHunt': RewardConfig(['Augment', 'TreasureHunt'], 'Stage'),
         'AGoldenQuest': RewardConfig(['Augment', 'AGoldenQuest']),
         'TheGoldenEgg': RewardConfig(['Augment', 'TheGoldenEgg']),
-        'AMagicRoll': RewardConfig(['Augment', 'AMagicRoll'], rok='DiceTotal'),
-        'ExpectedUnexpectedness': RewardConfig(['Augment', 'ExpectedUnexpectedness'], sk='Phase', rok='DiceTotal'),
+        'AMagicRoll': RewardConfig(['Augment', 'AMagicRoll'], rwdodds='DiceTotal'),
+        'ExpectedUnexpectedness': RewardConfig(['Augment', 'ExpectedUnexpectedness'], stk='Phase', rwdodds='DiceTotal'),
         'AnExaltedAdventure': RewardConfig(['Augment', 'AnExaltedAdventure']),
         'Warpath': RewardConfig(['Augment', 'Warpath']),
         'PrismaticPipeline': RewardConfig(['Augment', 'PrismaticPipeline']),
@@ -244,9 +244,9 @@ set_rewards_config={
     },
     'set14': {
         'Cypher': RewardConfig(['Trait', 'Cypher'], 'Intel', 'Rewards', 'Odds', 'List'),
-        'NewHighScore': RewardConfig(['Augment', 'NewHighScore'], rok='HighScore'),
-        'AMagicRoll': RewardConfig(['Augment', 'AMagicRoll'], rok='DiceTotal'),
-        'ExpectedUnexpectedness': RewardConfig(['Augment', 'ExpectedUnexpectedness'], sk='Phase', rok='DiceTotal'),
+        'NewHighScore': RewardConfig(['Augment', 'NewHighScore'], rwdodds='HighScore'),
+        'AMagicRoll': RewardConfig(['Augment', 'AMagicRoll'], rwdodds='DiceTotal'),
+        'ExpectedUnexpectedness': RewardConfig(['Augment', 'ExpectedUnexpectedness'], stk='Phase', rwdodds='DiceTotal'),
         'AnExaltedAdventure': RewardConfig(['Augment', 'AnExaltedAdventure']),
         'Warpath': RewardConfig(['Augment', 'Warpath']),
         'PrismaticPipeline': RewardConfig(['Augment', 'PrismaticPipeline']),
@@ -254,9 +254,20 @@ set_rewards_config={
     },
     'set13': {
         'Chem-Baron': RewardConfig(['Trait', 'Chem-Baron', 'StackedShimmer'], 'Shimmer', 'Rewards', 'Rates', 'List'),
+        'Conqueror': RewardConfig(['Trait', 'Conqueror'], stk='Conquest'),
+        'Family': RewardConfig(['Trait', 'Family'], stk='HeistObjective'),
+        'AnExaltedAdventure': RewardConfig(['Augment', 'AnExaltedAdventure']),
+        'Warpath': RewardConfig(['Augment', 'Warpath']),
+        'PrismaticPipeline': RewardConfig(['Augment', 'PrismaticPipeline']),
+        'CalltoChaos': RewardConfig(['Augment', 'CalltoChaos']),
+        'TheGoldenEgg': RewardConfig(['Augment', 'TheGoldenEgg']),
+        'MelsBlessing': RewardConfig(['Champion', 'MelsBlessing'])
     },
     'set12': {
+        'SugarCraft': RewardConfig(['Trait', 'SugarCraft'], stk='Stacks'),
         'FotuneFavortheBold': RewardConfig(['Augment', 'Fortune Favors the Bold'], 'Loss', 'Rewards', 'Odds', 'List'),
+        'AnUpgradeAdventure': RewardConfig(['Augment', 'An Upgrade Adventure']),
+        'AGoldenQuest': RewardConfig(['Augment', 'A Golden Quest']),
     },
     'set11': {
         'Fortune': RewardConfig(['Trait', 'Fortune'], 'Luck', 'Rewards', 'Rates', 'List'),
@@ -274,110 +285,87 @@ set_rewards_config={
 
 set_item_iconkey_fix={
     'set15': {
-        'Crown': {
-            'TacticiansCrown': 'ForceofNature',
-        },
-        'Artifacts': {
-            'Manazane': 'OrnnItemMuramana',
-            'Flickerblades': 'Flickerblade',
-        },
-        'Emblems': {
-            'ProtectorEmblem': 'ProtectorEmblemItem',
-            'SniperEmblem': 'SniperEmblemItem',
-        },
         'Craftable': {
-            'BlueBuff': 'BlueSentinel',
-            'JeweledGauntlet': 'ArcaneGauntlet',
             'StrikersFail': 'Guardbreaker',
         },
-        'Radiant': {
-            'RadiantBlueBuff': 'RadientBlueBuff',
-            'RadiantThiefsGloves': 'RadientThiefsGloves',
-        }
     },
     'set14': {
-        'Crown': {
-            'TacticiansCrown': 'ForceofNature',
-        },
-        'Artifacts': {
-            'FishBones': 'Fishbones',
-            'DeathsDefiance': 'OrnnItemDeathsDance',
-            'InfinityForce': 'OrnnItemTrinityForce',
-            'LightshieldCrests': 'LightshieldCrest',
-            'DeathfireGrasps': 'DeathfireGrasp',
-        },
         'Craftable': {
             'BloodThirster': 'Bloodthirster',
             'Deathblades': 'LordsEdge',
-            'ProtectorsVow': 'Fimbulwinter',
+        },
+        'Artifacts': {
+            'FishBones': 'Fishbones',
+            'LightshieldCrests': 'LightshieldCrest',
+            'DeathfireGrasps': 'DeathfireGrasp',
         },
         'Radiant': {
-            'RadiantThiefsGloves': 'RadientThiefsGloves',
-            'RadiantInfinityEdge': 'RadientInfinityEdge',
-            'RadiantSpearofShojin': 'RadientSpearofShojin',
-            'RadiantGargoyleStoneplate': 'RadientGargoyleStoneplate',
             'RadiantSteadFastHeart': 'RadientSteadfastHeart',
-            'RadiantCrownguard': 'CrownguardRadiant',
             'RadiantQuickSilver': 'RadientQuicksilver',
-            'RadiantEdgeofNight': 'RadientEdgeofNight',
-            'RadiantHandofJustice': 'RadientHandofJustice',
-            'RadiantWarmogsArmor': 'RadientWarmogsArmor',
-            'RadiantIonicSpark': 'RadientIonicSpark'
+            'RadiantHandofJustice': 'RadientHandofJustice'
         },
         'Support': {
             'Lockets': 'LocketoftheIronSolari',
             'Zekes': 'ZekesHerald',
             'RanduinsOmens': 'OrnnItemRanduinsOmen',
             'SummonStampede': 'ZzRotPortal',
-            'ShroudofStillness': 'Shroud',
-        }
+        },
+    },
+    'set13': {
+        'Craftable': {
+            'StrikersFail': 'Guardbreaker',
+        },
+        'Artifacts': {
+            'FishBones': 'Fishbones',
+        },
+        'Radiant': {
+            'RadiantGiantSlayer': 'RadientGiantSlayer',
+            'RadiantWarmogsArmor': 'RadientWarmogsArmor',
+            'RadiantThiefsGloves': 'RadientThiefsGloves',
+            'RadiantCrownguard': 'CrownguardRadiant',
+        },
+        'Support': {
+            'Lockets': 'LocketoftheIronSolari',
+            'Zekes': 'ZekesHerald',
+        },
     },
     'set12': {
-        'Crown': {
-            'TacticiansCrown': 'ForceofNature',
+        'Craftable': {
+            'SpiritVisage': 'Redemption',
         },
         'Radiant': {
             'RadiantThiefsGloves': 'RadientThiefsGloves',
         },
+        'Artifacts': {
+            'TalismanofAscension': 'TalismanOfAscension',
+            'TrickerstersGlass': 'TrickstersGlass',
+            'SeekerArmguard': 'SeekersArmguard',
+        },
+        'Support': {
+            'ZekesHarald': 'ZekesHerald',
+        },
     },
     'set11': {
-        'Crown': {
-            'TacticiansCrown': 'ForceofNature',
-        },
-        'Craftable': {
-            'BlueBuff': 'BlueSentinel',
-            'RedBuff': 'RedBuffItem',
-            'Deathblade': 'LordsEdge',
-        },
         'Radiant': {
             'RadiantThiefsGloves': 'RadientThiefsGloves',
             'RadiantWarmogsArmor': 'RadientWarmogsArmor',
             'RadiantBloodthirster': 'RadientBloodthirster',
-            'RadiantInfinityEdge': 'RadientInfinityEdge'
+            'RadiantInfinityEdge': 'RadientInfinityEdge',
         },
     },
     'set10': {
-        'Crown': {
-            'TacticiansCrown': 'ForceofNature',
-        },
         'Radiant': {
-            'RadiantThiefsGloves': 'RadientThiefsGloves'
+            'RadiantThiefsGloves': 'RadientThiefsGloves',
         },
-        'Support': {
-            'ShroudofStillness': 'Shroud'
-        }
     },
     'set9': {
-        'Crown': {
-            'TacticiansCrown': 'ForceofNature',
-        },
         'Radiant': {
-            'RadiantThiefsGloves': 'RadientThiefsGloves'
+            'RadiantThiefsGloves': 'RadientThiefsGloves',
         },
     },
     'set8': {
-        'Crown': {
-            'TacticiansCrown': 'ForceofNature',
+        'Radiant': {
+            'RadiantThiefsGloves': 'RadientThiefsGloves',
         },
     }
 }

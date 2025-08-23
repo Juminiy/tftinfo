@@ -3,39 +3,64 @@
         "SugarCraft": [
             {
                 "Stacks": "600",
-                "List": [
-                    "Gold:10",
-                    "Component:1"
+                "Rewards": [
+                    {
+                        "Rates": "100%",
+                        "List": [
+                            "Gold:10",
+                            "Component:1"
+                        ]
+                    }
                 ]
             },
             {
                 "Stacks": "975",
-                "List": [
-                    "Gold:15",
-                    "GoldenRemover",
-                    "Component:1"
+                "Rewards": [
+                    {
+                        "Rates": "100%",
+                        "List": [
+                            "Gold:15",
+                            "GoldenRemover",
+                            "Component:1"
+                        ]
+                    }
                 ]
             },
             {
                 "Stacks": "1375",
-                "List": [
-                    "Gold:10",
-                    "Component:2",
-                    "ChampionDuplicator:1"
+                "Rewards": [
+                    {
+                        "Rates": "100%",
+                        "List": [
+                            "Gold:10",
+                            "Component:2",
+                            "ChampionDuplicator:1"
+                        ]
+                    }
                 ]
             },
             {
                 "Stacks": "1800",
-                "List": [
-                    "Gold:20",
-                    "masterwork_upgrade:1"
+                "Rewards": [
+                    {
+                        "Rates": "100%",
+                        "List": [
+                            "Gold:20",
+                            "masterwork_upgrade:1"
+                        ]
+                    }
                 ]
             },
             {
                 "Stacks": "2300",
-                "List": [
-                    "Items:Crown:TacticiansCrown:1",
-                    "Set12:fight_cake"
+                "Rewards": [
+                    {
+                        "Rates": "100%",
+                        "List": [
+                            "Items:Crown:TacticiansCrown:1",
+                            "Set12:fight_cake"
+                        ]
+                    }
                 ]
             }
         ]
@@ -401,136 +426,146 @@
         ],
         "An Upgrade Adventure": [
             {
-                "Rates": "15%",
-                "List": [
-                    "ItemAnvil:1",
-                    "Items:Artifacts:TalismanofAscension:1",
-                    "Items:Artifacts:DeathsDefiance:1",
-                    "Items:Support:AccomplicesGloves:1",
-                    "MagneticRemover:1"
-                ]
-            },
-            {
-                "Rates": "15%",
-                "List": [
-                    "ItemAnvil:1",
-                    "Items:Support:AccomplicesGloves:1",
-                    "Items:Support:ZekesHarald:1",
-                    "Items:Support:ChaliceofPower:1"
-                ]
-            },
-            {
-                "Rates": "14%",
-                "List": [
-                    "Gold:25",
-                    "Items:Artifacts:InfinityForce:1",
-                    "Items:Artifacts:AnimaVisage:1",
-                    "Items:Artifacts:Fishbones:1",
-                    "MagneticRemover:2"
-                ]
-            },
-            {
-                "Rates": "14%",
-                "List": [
-                    "Gold:8",
-                    "Items:Radiant:RadiantThiefsGloves:1",
-                    "Items:Craftable:ThiefsGloves:1",
-                    "Items:Support:AccomplicesGloves:1",
-                    "MagneticRemover:1"
-                ]
-            },
-            {
-                "Rates": "14%",
-                "List": [
-                    "ItemAnvil:1",
-                    "ComponentAnvil:1",
-                    "Items:Support:UnstableTreasureChest:2",
-                    "Items:Artifacts:TrickerstersGlass:1"
-                ]
-            },
-            {
-                "Rates": "14%",
-                "List": [
-                    "Gold:14",
-                    "ItemAnvil:1",
-                    "Items:Craftable:SpiritVisage:1",
-                    "Items:Craftable:WarmogsArmor:1",
-                    "masterwork_upgrade:1"
-                ]
-            },
-            {
-                "Rates": "14%",
-                "List": [
-                    "Gold:30",
-                    "Items:Radiant:RadiantThiefsGloves:1",
-                    "Items:Crown:TacticiansCrown:1",
-                    "MagneticRemover:1"
+                "Stack": "OnAchieve",
+                "Rewards": [
+                    {
+                        "Rates": "15%",
+                        "List": [
+                            "ItemAnvil:1",
+                            "Items:Artifacts:TalismanofAscension:1",
+                            "Items:Artifacts:DeathsDefiance:1",
+                            "Items:Support:AccomplicesGloves:1",
+                            "MagneticRemover:1"
+                        ]
+                    },
+                    {
+                        "Rates": "15%",
+                        "List": [
+                            "ItemAnvil:1",
+                            "Items:Support:AccomplicesGloves:1",
+                            "Items:Support:ZekesHarald:1",
+                            "Items:Support:ChaliceofPower:1"
+                        ]
+                    },
+                    {
+                        "Rates": "14%",
+                        "List": [
+                            "Gold:25",
+                            "Items:Artifacts:InfinityForce:1",
+                            "Items:Artifacts:AnimaVisage:1",
+                            "Items:Artifacts:Fishbones:1",
+                            "MagneticRemover:2"
+                        ]
+                    },
+                    {
+                        "Rates": "14%",
+                        "List": [
+                            "Gold:8",
+                            "Items:Radiant:RadiantThiefsGloves:1",
+                            "Items:Craftable:ThiefsGloves:1",
+                            "Items:Support:AccomplicesGloves:1",
+                            "MagneticRemover:1"
+                        ]
+                    },
+                    {
+                        "Rates": "14%",
+                        "List": [
+                            "ItemAnvil:1",
+                            "ComponentAnvil:1",
+                            "Items:Support:UnstableTreasureChest:2",
+                            "Items:Artifacts:TrickerstersGlass:1"
+                        ]
+                    },
+                    {
+                        "Rates": "14%",
+                        "List": [
+                            "Gold:14",
+                            "ItemAnvil:1",
+                            "Items:Craftable:SpiritVisage:1",
+                            "Items:Craftable:WarmogsArmor:1",
+                            "masterwork_upgrade:1"
+                        ]
+                    },
+                    {
+                        "Rates": "14%",
+                        "List": [
+                            "Gold:30",
+                            "Items:Radiant:RadiantThiefsGloves:1",
+                            "Items:Crown:TacticiansCrown:1",
+                            "MagneticRemover:1"
+                        ]
+                    }
                 ]
             }
         ],
         "A Golden Quest": [
             {
-                "Rates": "12.5%",
-                "List": [
-                    "Champions:2:Briar:1",
-                    "Items:Craftable:SteraksGage:1",
-                    "Items:Artifacts:InfinityForce:1"
-                ]
-            },
-            {
-                "Rates": "12.5%",
-                "List": [
-                    "Champions:2:Camille:1",
-                    "Items:Craftable:InfinityEdge:1",
-                    "Items:Artifacts:DeathsDefiance:1"
-                ]
-            },
-            {
-                "Rates": "12.5%",
-                "List": [
-                    "Champions:2:Diana:1",
-                    "Items:Craftable:ProtectorsVow:1",
-                    "Items:Artifacts:SeekerArmguard:1"
-                ]
-            },
-            {
-                "Rates": "12.5%",
-                "List": [
-                    "Champions:2:Milio:1",
-                    "Items:Craftable:SpearofShojin:1",
-                    "Items:Artifacts:Manazane:1"
-                ]
-            },
-            {
-                "Rates": "12.5%",
-                "List": [
-                    "Champions:2:Morgana:1",
-                    "Items:Craftable:SpiritVisage:1",
-                    "Items:Artifacts:AnimaVisage:1"
-                ]
-            },
-            {
-                "Rates": "12.5%",
-                "List": [
-                    "Champions:2:Norra:1",
-                    "Items:Craftable:AdaptiveHelm:1",
-                    "Items:Artifacts:DeathfireGrasp:1"
-                ]
-            },
-            {
-                "Rates": "12.5%",
-                "List": [
-                    "Champions:2:Smolder:1",
-                    "Items:Craftable:GuinsoosRageblade:1",
-                    "Items:Artifacts:Mittens:1"
-                ]
-            },
-            {
-                "Rates": "12.5%",
-                "List": [
-                    "Champions:2:Xerath:1",
-                    "Items:Craftable:ArchangelsStaff:1",
-                    "Items:Artifacts:ZhonyasParadox:1"
+                "Stack": "OnAchieve",
+                "Rewards": [
+                    {
+                        "Rates": "12.5%",
+                        "List": [
+                            "Champions:2:Briar:1",
+                            "Items:Craftable:SteraksGage:1",
+                            "Items:Artifacts:InfinityForce:1"
+                        ]
+                    },
+                    {
+                        "Rates": "12.5%",
+                        "List": [
+                            "Champions:2:Camille:1",
+                            "Items:Craftable:InfinityEdge:1",
+                            "Items:Artifacts:DeathsDefiance:1"
+                        ]
+                    },
+                    {
+                        "Rates": "12.5%",
+                        "List": [
+                            "Champions:2:Diana:1",
+                            "Items:Craftable:ProtectorsVow:1",
+                            "Items:Artifacts:SeekerArmguard:1"
+                        ]
+                    },
+                    {
+                        "Rates": "12.5%",
+                        "List": [
+                            "Champions:2:Milio:1",
+                            "Items:Craftable:SpearofShojin:1",
+                            "Items:Artifacts:Manazane:1"
+                        ]
+                    },
+                    {
+                        "Rates": "12.5%",
+                        "List": [
+                            "Champions:2:Morgana:1",
+                            "Items:Craftable:SpiritVisage:1",
+                            "Items:Artifacts:AnimaVisage:1"
+                        ]
+                    },
+                    {
+                        "Rates": "12.5%",
+                        "List": [
+                            "Champions:2:NorraYuumi:1",
+                            "Items:Craftable:AdaptiveHelm:1",
+                            "Items:Artifacts:DeathfireGrasp:1"
+                        ]
+                    },
+                    {
+                        "Rates": "12.5%",
+                        "List": [
+                            "Champions:2:Smolder:1",
+                            "Items:Craftable:GuinsoosRageblade:1",
+                            "Items:Artifacts:Mittens:1"
+                        ]
+                    },
+                    {
+                        "Rates": "12.5%",
+                        "List": [
+                            "Champions:2:Xerath:1",
+                            "Items:Craftable:ArchangelsStaff:1",
+                            "Items:Artifacts:ZhonyasParadox:1"
+                        ]
+                    }
                 ]
             }
         ]

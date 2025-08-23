@@ -65,15 +65,15 @@
 | -               | -             | -                                                                    |
 | Force of Nature | ForceofNature | ![ForceofNature](../../tftitems/icon/set4.5/Crown/ForceofNature.png) |
 # Artifacts
-| name                  | key                 | icon                                                                                  |
-| -                     | -                   | -                                                                                     |
-| Anima Visage          | AnimaVisage         | ![AnimaVisage](../../tftitems/icon/set4.5/Artifacts/AnimaVisage.NONE)                 |
-| Death's Defiance      | DeathsDefiance      | ![DeathsDefiance](../../tftitems/icon/set4.5/Artifacts/DeathsDefiance.NONE)           |
-| Eternal Winter        | EternalWinter       | ![EternalWinter](../../tftitems/icon/set4.5/Artifacts/EternalWinter.NONE)             |
-| Infinity Force        | InfinityForce       | ![InfinityForce](../../tftitems/icon/set4.5/Artifacts/InfinityForce.NONE)             |
-| Manazane              | Manazane            | ![Manazane](../../tftitems/icon/set4.5/Artifacts/Manazane.NONE)                       |
-| Obsidian Cleaver      | ObsidianCleaver     | ![ObsidianCleaver](../../tftitems/icon/set4.5/Artifacts/ObsidianCleaver.NONE)         |
-| Randuin's Sanctum     | RanduinsSanctum     | ![RanduinsSanctum](../../tftitems/icon/set4.5/Artifacts/RanduinsSanctum.NONE)         |
-| Rocket-Propelled Fist | RocketPropelledFist | ![RocketPropelledFist](../../tftitems/icon/set4.5/Artifacts/RocketPropelledFist.NONE) |
-| Gold Collector        | GoldCollector       | ![GoldCollector](../../tftitems/icon/set4.5/Artifacts/GoldCollector.NONE)             |
-| Zhonya's Paradox      | ZhonyasParadox      | ![ZhonyasParadox](../../tftitems/icon/set4.5/Artifacts/ZhonyasParadox.NONE)           |
+| name                  | key                 | icon                                                                                 |
+| -                     | -                   | -                                                                                    |
+| Anima Visage          | AnimaVisage         | ![AnimaVisage](../../tftitems/icon/set4.5/Artifacts/AnimaVisage.png)                 |
+| Death's Defiance      | DeathsDefiance      | ![DeathsDefiance](../../tftitems/icon/set4.5/Artifacts/DeathsDefiance.png)           |
+| Eternal Winter        | EternalWinter       | ![EternalWinter](../../tftitems/icon/set4.5/Artifacts/EternalWinter.png)             |
+| Infinity Force        | InfinityForce       | ![InfinityForce](../../tftitems/icon/set4.5/Artifacts/InfinityForce.png)             |
+| Manazane              | Manazane            | ![Manazane](../../tftitems/icon/set4.5/Artifacts/Manazane.png)                       |
+| Obsidian Cleaver      | ObsidianCleaver     | ![ObsidianCleaver](../../tftitems/icon/set4.5/Artifacts/ObsidianCleaver.png)         |
+| Randuin's Sanctum     | RanduinsSanctum     | ![RanduinsSanctum](../../tftitems/icon/set4.5/Artifacts/RanduinsSanctum.png)         |
+| Rocket-Propelled Fist | RocketPropelledFist | ![RocketPropelledFist](../../tftitems/icon/set4.5/Artifacts/RocketPropelledFist.png) |
+| Gold Collector        | GoldCollector       | ![GoldCollector](../../tftitems/icon/set4.5/Artifacts/GoldCollector.png)             |
+| Zhonya's Paradox      | ZhonyasParadox      | ![ZhonyasParadox](../../tftitems/icon/set4.5/Artifacts/ZhonyasParadox.png)           |
