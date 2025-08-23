@@ -12,6 +12,7 @@ from parse_traits_table import get_traits_table, get_unique_table
 from parse_items import get_craftable_grid
 
 from meta_func import copy_icon_emblem2trait
+from meta_func import geticon_fullpath
 
 def write_detail_txt(wtr: TextIOWrapper, setof: str):
     # set_name
@@ -89,7 +90,8 @@ for setof in setlist:
                 'imageUrl' in objelem and objelem['imageUrl']:
                 objelemkey=objelem['key']
                 objelemurlext=geturl_extname(objelem['imageUrl'])
-                iconpath[f'{setof}-{objof}-{objelemkey}'] = f'![{objelemkey}](../tft{objof}/icon/{setof}/{objelemkey}.{objelemurlext})'
+                realpath=geticon_fullpath(f'tft{objof}/icon/{setof}/{objelemkey}')
+                iconpath[f'{setof}-{objof}-{objelemkey}'] = f'![{objelemkey}](../{realpath})'
 emblemfixtraits=copy_icon_emblem2trait()
 
 def get_traits_iconpath(setof:str, traitkey: str) -> str:

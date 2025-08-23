@@ -264,6 +264,9 @@ def download_file(fileurl: str, filepath: str, timeout_sec: float) -> tuple[str,
         return None
             
 def geturl_extname(commonurl:str) -> str:
+    for extname in ['png','jpg','jpeg','svg']:
+        if commonurl.endswith(extname):
+            return extname
     dotidx = commonurl.rfind('.')
     quesidx = commonurl.rfind('?')
     if dotidx==-1:
