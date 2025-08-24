@@ -306,6 +306,7 @@ def explain_rewards(setof: str, desc:str, outputtyp:Literal['desc','comic']) -> 
             return f'{cntval} * '
     
     def iconkey_fix(itemcate:str, itemname:str) -> str:
+        # print(setof, itemcate, itemname)
         return setitem_fakedkey2name[setof][itemname] if itemname in setitem_fakedkey2name[setof] \
         else set_item_iconkey_fix[setof][itemcate][itemname]
 

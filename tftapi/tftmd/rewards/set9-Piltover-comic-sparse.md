@@ -28,7 +28,7 @@
 # Loss: 5
 | **Odds** | **Rewards**                                                          |                                                   |
 | -        | -                                                                    | -                                                 |
-| **40%**  | ![Component](../../tftspecs/icon/rewards/Component.jpg)              | 4 * ![Gold](../../tftspecs/icon/rewards/Gold.png) |
+| **40%**  | 2 * ![Component](../../tftspecs/icon/rewards/Component.jpg)          | 4 * ![Gold](../../tftspecs/icon/rewards/Gold.png) |
 | **30%**  | ![TomeofTraits](../../tftspecs/icon/rewards/TomeofTraits.png)        | ![Gold](../../tftspecs/icon/rewards/Gold.png)     |
 | **30%**  | ![ThiefsGloves](../../tftitems/icon/set9/Craftable/ThiefsGloves.png) | 9 * ![Gold](../../tftspecs/icon/rewards/Gold.png) |
 # Loss: 6

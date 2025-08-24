@@ -251,6 +251,8 @@ set_rewards_config={
         'Warpath': RewardConfig(['Augment', 'Warpath']),
         'PrismaticPipeline': RewardConfig(['Augment', 'PrismaticPipeline']),
         'CalltoChaos': RewardConfig(['Augment', 'CalltoChaos']),
+        'TreasureDragon': RewardConfig(['HACK', 'TreasureDragon']),
+        'EggArmory': RewardConfig(['HACK', 'EggArmory'], stk='Round'),
     },
     'set13': {
         'Chem-Baron': RewardConfig(['Trait', 'Chem-Baron', 'StackedShimmer'], 'Shimmer', 'Rewards', 'Rates', 'List'),
@@ -261,7 +263,7 @@ set_rewards_config={
         'PrismaticPipeline': RewardConfig(['Augment', 'PrismaticPipeline']),
         'CalltoChaos': RewardConfig(['Augment', 'CalltoChaos']),
         'TheGoldenEgg': RewardConfig(['Augment', 'TheGoldenEgg']),
-        'MelsBlessing': RewardConfig(['Champion', 'MelsBlessing'])
+        'MelsBlessing': RewardConfig(['Champion', 'MelsBlessing']),
     },
     'set12': {
         'SugarCraft': RewardConfig(['Trait', 'SugarCraft'], stk='Stacks'),
@@ -274,12 +276,19 @@ set_rewards_config={
     },
     'set10': {
         'Heartsteel': RewardConfig(['Trait', 'Heartsteel'], 'Hearts', 'Rewards', 'Odds', 'List'),
+        "8Bit": RewardConfig(['Trait', '8Bit']),
     },
     'set9': {
         'Piltover': RewardConfig(['Trait', 'Piltover', 'Loss'], 'Loss', 'Rewards', 'Odds', 'List'),
     },
     'set8': {
         'Underground': RewardConfig(['Trait', 'Underground'], 'Heist', 'Rewards', 'Percentage', 'List'),
+    },
+    'set6': {
+        'Mercenary': RewardConfig(['Trait', 'Mercenary', 'Loss'], 'Loss'),
+    },
+    'set4': {
+        'Fortune': RewardConfig(['Trait', 'Fortune', 'Loss'], 'Loss'),
     },
 }
 
