@@ -1,4 +1,4 @@
-# Components
+# ItemType: Components, Count: 9
 | name                 | key                | icon                                                                              |
 | -                    | -                  | -                                                                                 |
 | B.F. Sword           | BFSword            | ![BFSword](../../tftitems/icon/set4/Components/BFSword.png)                       |
@@ -10,7 +10,7 @@
 | Giant's Belt         | GiantsBelt         | ![GiantsBelt](../../tftitems/icon/set4/Components/GiantsBelt.png)                 |
 | Spatula              | Spatula            | ![Spatula](../../tftitems/icon/set4/Components/Spatula.png)                       |
 | Sparring Gloves      | SparringGloves     | ![SparringGloves](../../tftitems/icon/set4/Components/SparringGloves.png)         |
-# Craftable
+# ItemType: Craftable, Count: 36
 | name                      | key                   | icon                                                                                   |
 | -                         | -                     | -                                                                                      |
 | Deathblade                | LordsEdge             | ![LordsEdge](../../tftitems/icon/set4/Craftable/LordsEdge.png)                         |
@@ -49,7 +49,7 @@
 | Warmog's Armor            | WarmogsArmor          | ![WarmogsArmor](../../tftitems/icon/set4/Craftable/WarmogsArmor.png)                   |
 | Trap Claw                 | Backhand              | ![Backhand](../../tftitems/icon/set4/Craftable/Backhand.png)                           |
 | Thief's Gloves            | ThiefsGloves          | ![ThiefsGloves](../../tftitems/icon/set4/Craftable/ThiefsGloves.png)                   |
-# Emblems
+# ItemType: Emblems, Count: 8
 | name                | key               | icon                                                                         |
 | -                   | -                 | -                                                                            |
 | Sword of the Divine | SwordoftheDivine  | ![SwordoftheDivine](../../tftitems/icon/set4/Emblems/SwordoftheDivine.png)   |
@@ -60,7 +60,7 @@
 | Elderwood Sprout    | ElderwoodHeirloom | ![ElderwoodHeirloom](../../tftitems/icon/set4/Emblems/ElderwoodHeirloom.png) |
 | Warlord's Banner    | WarlordsBanner    | ![WarlordsBanner](../../tftitems/icon/set4/Emblems/WarlordsBanner.png)       |
 | Youmuu's Ghostblade | YoumuusGhostblade | ![YoumuusGhostblade](../../tftitems/icon/set4/Emblems/YoumuusGhostblade.png) |
-# Crown
+# ItemType: Crown, Count: 1
 | name            | key           | icon                                                               |
 | -               | -             | -                                                                  |
 | Force of Nature | ForceofNature | ![ForceofNature](../../tftitems/icon/set4/Crown/ForceofNature.png) |

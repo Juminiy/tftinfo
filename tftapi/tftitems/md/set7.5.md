@@ -1,4 +1,4 @@
-# Components
+# ItemType: Components, Count: 9
 | name                 | key                | icon                                                                                |
 | -                    | -                  | -                                                                                   |
 | B.F. Sword           | BFSword            | ![BFSword](../../tftitems/icon/set7.5/Components/BFSword.png)                       |
@@ -10,7 +10,7 @@
 | Sparring Gloves      | SparringGloves     | ![SparringGloves](../../tftitems/icon/set7.5/Components/SparringGloves.png)         |
 | Spatula              | Spatula            | ![Spatula](../../tftitems/icon/set7.5/Components/Spatula.png)                       |
 | Tear of the Goddess  | Tearofthegoddess   | ![Tearofthegoddess](../../tftitems/icon/set7.5/Components/Tearofthegoddess.png)     |
-# Craftable
+# ItemType: Craftable, Count: 36
 | name                      | key                   | icon                                                                                     |
 | -                         | -                     | -                                                                                        |
 | Jeweled Gauntlet          | ArcaneGauntlet        | ![ArcaneGauntlet](../../tftitems/icon/set7.5/Craftable/ArcaneGauntlet.png)               |
@@ -49,7 +49,7 @@
 | Zephyr                    | Zephyr                | ![Zephyr](../../tftitems/icon/set7.5/Craftable/Zephyr.png)                               |
 | Zz'Rot Portal             | ZzRotPortal           | ![ZzRotPortal](../../tftitems/icon/set7.5/Craftable/ZzRotPortal.png)                     |
 | Protector's Vow           | Fimbulwinter          | ![Fimbulwinter](../../tftitems/icon/set7.5/Craftable/Fimbulwinter.png)                   |
-# Emblems
+# ItemType: Emblems, Count: 19
 | name                | key                | icon                                                                             |
 | -                   | -                  | -                                                                                |
 | Bruiser Emblem      | BruiserEmblem      | ![BruiserEmblem](../../tftitems/icon/set7.5/Emblems/BruiserEmblem.png)           |
@@ -71,11 +71,11 @@
 | Assassin Emblem     | YoumuusGhostblade  | ![YoumuusGhostblade](../../tftitems/icon/set7.5/Emblems/YoumuusGhostblade.png)   |
 | Darkflight Emblem   | DarkflightEmblem   | ![DarkflightEmblem](../../tftitems/icon/set7.5/Emblems/DarkflightEmblem.png)     |
 | Lagoon Emblem       | LagoonEmblem       | ![LagoonEmblem](../../tftitems/icon/set7.5/Emblems/LagoonEmblem.png)             |
-# Crown
+# ItemType: Crown, Count: 1
 | name              | key           | icon                                                                 |
 | -                 | -             | -                                                                    |
 | Tactician's Crown | ForceofNature | ![ForceofNature](../../tftitems/icon/set7.5/Crown/ForceofNature.png) |
-# Radiant
+# ItemType: Radiant, Count: 36
 | name                        | key                          | icon                                                                                                 |
 | -                           | -                            | -                                                                                                    |
 | Urf-Angel's Staff           | RadientArchangelsStaff       | ![RadientArchangelsStaff](../../tftitems/icon/set7.5/Radiant/RadientArchangelsStaff.png)             |
@@ -114,7 +114,7 @@
 | Mistral                     | RadientZephyr                | ![RadientZephyr](../../tftitems/icon/set7.5/Radiant/RadientZephyr.png)                               |
 | Zz'Rots Invitation          | RadientZzRotPortal           | ![RadientZzRotPortal](../../tftitems/icon/set7.5/Radiant/RadientZzRotPortal.png)                     |
 | Bulwark's Oath              | FimbulwinterRadiant          | ![FimbulwinterRadiant](../../tftitems/icon/set7.5/Radiant/FimbulwinterRadiant.png)                   |
-# Artifacts
+# ItemType: Artifacts, Count: 10
 | name                  | key                         | icon                                                                                                 |
 | -                     | -                           | -                                                                                                    |
 | Obsidian Cleaver      | OrnnItemBlackCleaver        | ![OrnnItemBlackCleaver](../../tftitems/icon/set7.5/Artifacts/OrnnItemBlackCleaver.png)               |
@@ -127,7 +127,7 @@
 | Gold Collector        | OrnnItemTheCollector        | ![OrnnItemTheCollector](../../tftitems/icon/set7.5/Artifacts/OrnnItemTheCollector.png)               |
 | Infinity Force        | OrnnItemTrinityForce        | ![OrnnItemTrinityForce](../../tftitems/icon/set7.5/Artifacts/OrnnItemTrinityForce.png)               |
 | Zhonya's Paradox      | OrnnItemZhonyasHourglass    | ![OrnnItemZhonyasHourglass](../../tftitems/icon/set7.5/Artifacts/OrnnItemZhonyasHourglass.png)       |
-# Special
+# ItemType: Special, Count: 10
 | name                | key                   | icon                                                                           |
 | -                   | -                     | -                                                                              |
 | Crown of Champions  | CrownofChampions      | ![CrownofChampions](../../tftitems/icon/set7.5/CrownofChampions.png)           |

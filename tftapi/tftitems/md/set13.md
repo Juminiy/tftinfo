@@ -1,4 +1,4 @@
-# Components
+# ItemType: Components, Count: 10
 | name                 | key                | icon                                                                               |
 | -                    | -                  | -                                                                                  |
 | B.F. Sword           | BFSword            | ![BFSword](../../tftitems/icon/set13/Components/BFSword.png)                       |
@@ -11,7 +11,7 @@
 | Sparring Gloves      | SparringGloves     | ![SparringGloves](../../tftitems/icon/set13/Components/SparringGloves.png)         |
 | Spatula              | Spatula            | ![Spatula](../../tftitems/icon/set13/Components/Spatula.png)                       |
 | Tear of the Goddess  | Tearofthegoddess   | ![Tearofthegoddess](../../tftitems/icon/set13/Components/Tearofthegoddess.png)     |
-# Craftable
+# ItemType: Craftable, Count: 36
 | name                | key               | icon                                                                            |
 | -                   | -                 | -                                                                               |
 | Adaptive Helm       | AdaptiveHelm      | ![AdaptiveHelm](../../tftitems/icon/set13/Craftable/AdaptiveHelm.png)           |
@@ -50,7 +50,7 @@
 | Thief's Gloves      | ThiefsGloves      | ![ThiefsGloves](../../tftitems/icon/set13/Craftable/ThiefsGloves.png)           |
 | Titan’s Resolve     | TitansResolve     | ![TitansResolve](../../tftitems/icon/set13/Craftable/TitansResolve.png)         |
 | Warmog's Armor      | WarmogsArmor      | ![WarmogsArmor](../../tftitems/icon/set13/Craftable/WarmogsArmor.png)           |
-# Emblems
+# ItemType: Emblems, Count: 21
 | name                | key                | icon                                                                            |
 | -                   | -                  | -                                                                               |
 | Black Rose Emblem   | BlackRoseEmblem    | ![BlackRoseEmblem](../../tftitems/icon/set13/Emblems/BlackRoseEmblem.png)       |
@@ -74,13 +74,13 @@
 | Sentinel Emblem     | SentinelEmblem     | ![SentinelEmblem](../../tftitems/icon/set13/Emblems/SentinelEmblem.png)         |
 | Watcher Emblem      | WatcherEmblem      | ![WatcherEmblem](../../tftitems/icon/set13/Emblems/WatcherEmblem.png)           |
 | Dominator Emblem    | DominatorEmblem    | ![DominatorEmblem](../../tftitems/icon/set13/Emblems/DominatorEmblem.png)       |
-# Crown
+# ItemType: Crown, Count: 3
 | name               | key              | icon                                                                      |
 | -                  | -                | -                                                                         |
 | Tactician's Crown  | ForceofNature    | ![ForceofNature](../../tftitems/icon/set13/Crown/ForceofNature.png)       |
 | Tactician's Cape   | TacticiansCape   | ![TacticiansCape](../../tftitems/icon/set13/Crown/TacticiansCape.png)     |
 | Tactician's Shield | TacticiansShield | ![TacticiansShield](../../tftitems/icon/set13/Crown/TacticiansShield.png) |
-# Radiant
+# ItemType: Radiant, Count: 36
 | name                        | key                       | icon                                                                                          |
 | -                           | -                         | -                                                                                             |
 | Royal Crownshield           | CrownguardRadiant         | ![CrownguardRadiant](../../tftitems/icon/set13/Radiant/CrownguardRadiant.png)                 |
@@ -119,7 +119,7 @@
 | Titan's Vow                 | RadientTitansResolve      | ![RadientTitansResolve](../../tftitems/icon/set13/Radiant/RadientTitansResolve.png)           |
 | Warmog's Pride              | RadientWarmogsArmor       | ![RadientWarmogsArmor](../../tftitems/icon/set13/Radiant/RadientWarmogsArmor.png)             |
 | Sterak's Megashield         | SteraksMegashield         | ![SteraksMegashield](../../tftitems/icon/set13/Radiant/SteraksMegashield.png)                 |
-# Artifacts
+# ItemType: Artifacts, Count: 30
 | name                   | key                      | icon                                                                                          |
 | -                      | -                        | -                                                                                             |
 | Blacksmith's Gloves    | BlacksmithsGloves        | ![BlacksmithsGloves](../../tftitems/icon/set13/Artifacts/BlacksmithsGloves.png)               |
@@ -152,7 +152,7 @@
 | Tricksters Glass       | TrickstersGlass          | ![TrickstersGlass](../../tftitems/icon/set13/Artifacts/TrickstersGlass.png)                   |
 | Unending Despair       | UnendingDespair          | ![UnendingDespair](../../tftitems/icon/set13/Artifacts/UnendingDespair.png)                   |
 | Wit's End              | WitsEnd                  | ![WitsEnd](../../tftitems/icon/set13/Artifacts/WitsEnd.png)                                   |
-# Support
+# ItemType: Support, Count: 18
 | name                      | key                   | icon                                                                                  |
 | -                         | -                     | -                                                                                     |
 | Accomplice's Gloves       | AccomplicesGloves     | ![AccomplicesGloves](../../tftitems/icon/set13/Support/AccomplicesGloves.png)         |

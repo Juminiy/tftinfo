@@ -1,4 +1,4 @@
-# Components
+# ItemType: Components, Count: 9
 | name                 | key                | icon                                                                               |
 | -                    | -                  | -                                                                                  |
 | B.F. Sword           | BFSword            | ![BFSword](../../tftitems/icon/set11/Components/BFSword.png)                       |
@@ -10,7 +10,7 @@
 | Sparring Gloves      | SparringGloves     | ![SparringGloves](../../tftitems/icon/set11/Components/SparringGloves.png)         |
 | Spatula              | Spatula            | ![Spatula](../../tftitems/icon/set11/Components/Spatula.png)                       |
 | Tear of the Goddess  | Tearofthegoddess   | ![Tearofthegoddess](../../tftitems/icon/set11/Components/Tearofthegoddess.png)     |
-# Craftable
+# ItemType: Craftable, Count: 36
 | name                | key               | icon                                                                            |
 | -                   | -                 | -                                                                               |
 | Adaptive Helm       | AdaptiveHelm      | ![AdaptiveHelm](../../tftitems/icon/set11/Craftable/AdaptiveHelm.png)           |
@@ -49,7 +49,7 @@
 | Thief's Gloves      | ThiefsGloves      | ![ThiefsGloves](../../tftitems/icon/set11/Craftable/ThiefsGloves.png)           |
 | Titan’s Resolve     | TitansResolve     | ![TitansResolve](../../tftitems/icon/set11/Craftable/TitansResolve.png)         |
 | Warmog's Armor      | WarmogsArmor      | ![WarmogsArmor](../../tftitems/icon/set11/Craftable/WarmogsArmor.png)           |
-# Emblems
+# ItemType: Emblems, Count: 21
 | name               | key               | icon                                                                          |
 | -                  | -                 | -                                                                             |
 | Ghostly Emblem     | GhostlyEmblem     | ![GhostlyEmblem](../../tftitems/icon/set11/Emblems/GhostlyEmblem.png)         |
@@ -73,11 +73,11 @@
 | Dragonlord Emblem  | DragonlordEmblem  | ![DragonlordEmblem](../../tftitems/icon/set11/Emblems/DragonlordEmblem.png)   |
 | Duelist Emblem     | DuelistEmblem     | ![DuelistEmblem](../../tftitems/icon/set11/Emblems/DuelistEmblem.png)         |
 | Invoker Emblem     | InvokerEmblem     | ![InvokerEmblem](../../tftitems/icon/set11/Emblems/InvokerEmblem.png)         |
-# Crown
+# ItemType: Crown, Count: 1
 | name              | key           | icon                                                                |
 | -                 | -             | -                                                                   |
 | Tactician's Crown | ForceofNature | ![ForceofNature](../../tftitems/icon/set11/Crown/ForceofNature.png) |
-# Radiant
+# ItemType: Radiant, Count: 36
 | name                        | key                       | icon                                                                                          |
 | -                           | -                         | -                                                                                             |
 | Royal Crownshield           | CrownguardRadiant         | ![CrownguardRadiant](../../tftitems/icon/set11/Radiant/CrownguardRadiant.png)                 |
@@ -116,7 +116,7 @@
 | Titan's Vow                 | RadientTitansResolve      | ![RadientTitansResolve](../../tftitems/icon/set11/Radiant/RadientTitansResolve.png)           |
 | Warmog's Pride              | RadientWarmogsArmor       | ![RadientWarmogsArmor](../../tftitems/icon/set11/Radiant/RadientWarmogsArmor.png)             |
 | Sterak's Megashield         | SteraksMegashield         | ![SteraksMegashield](../../tftitems/icon/set11/Radiant/SteraksMegashield.png)                 |
-# Artifacts
+# ItemType: Artifacts, Count: 33
 | name                     | key                      | icon                                                                                          |
 | -                        | -                        | -                                                                                             |
 | Blacksmith's Gloves      | BlacksmithsGloves        | ![BlacksmithsGloves](../../tftitems/icon/set11/Artifacts/BlacksmithsGloves.png)               |
@@ -152,7 +152,7 @@
 | Lich Bane                | LichBane                 | ![LichBane](../../tftitems/icon/set11/Artifacts/LichBane.png)                                 |
 | Lightshield Crest        | LightshieldCrest         | ![LightshieldCrest](../../tftitems/icon/set11/Artifacts/LightshieldCrest.png)                 |
 | Seeker's Armguard        | SeekersArmguard          | ![SeekersArmguard](../../tftitems/icon/set11/Artifacts/SeekersArmguard.png)                   |
-# Support
+# ItemType: Support, Count: 18
 | name                      | key                   | icon                                                                                  |
 | -                         | -                     | -                                                                                     |
 | Aegis of the Legion       | AegisoftheLegion      | ![AegisoftheLegion](../../tftitems/icon/set11/Support/AegisoftheLegion.png)           |
@@ -173,7 +173,7 @@
 | Moonstone Renewer         | MoonstoneRenewer      | ![MoonstoneRenewer](../../tftitems/icon/set11/Support/MoonstoneRenewer.png)           |
 | Spite                     | Spite                 | ![Spite](../../tftitems/icon/set11/Support/Spite.png)                                 |
 | Unstable Treasure Chest   | UnstableTreasureChest | ![UnstableTreasureChest](../../tftitems/icon/set11/Support/UnstableTreasureChest.png) |
-# Special
+# ItemType: Special, Count: 14
 | name                  | key                | icon                                                                    |
 | -                     | -                  | -                                                                       |
 | Tattoo of Bombardment | TatooofBombardment | ![TatooofBombardment](../../tftitems/icon/set11/TatooofBombardment.png) |

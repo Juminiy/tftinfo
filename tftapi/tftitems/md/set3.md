@@ -1,4 +1,4 @@
-# Components
+# ItemType: Components, Count: 9
 | name                 | key                | icon                                                                              |
 | -                    | -                  | -                                                                                 |
 | B.F. Sword           | BFSword            | ![BFSword](../../tftitems/icon/set3/Components/BFSword.png)                       |
@@ -10,7 +10,7 @@
 | Giant's Belt         | GiantsBelt         | ![GiantsBelt](../../tftitems/icon/set3/Components/GiantsBelt.png)                 |
 | Spatula              | Spatula            | ![Spatula](../../tftitems/icon/set3/Components/Spatula.png)                       |
 | Sparring Gloves      | SparringGloves     | ![SparringGloves](../../tftitems/icon/set3/Components/SparringGloves.png)         |
-# Craftable
+# ItemType: Craftable, Count: 36
 | name                      | key                   | icon                                                                                   |
 | -                         | -                     | -                                                                                      |
 | Deathblade                | LordsEdge             | ![LordsEdge](../../tftitems/icon/set3/Craftable/LordsEdge.png)                         |
@@ -49,7 +49,7 @@
 | Warmog's Armor            | WarmogsArmor          | ![WarmogsArmor](../../tftitems/icon/set3/Craftable/WarmogsArmor.png)                   |
 | Trap Claw                 | Backhand              | ![Backhand](../../tftitems/icon/set3/Craftable/Backhand.png)                           |
 | Thief's Gloves            | ThiefsGloves          | ![ThiefsGloves](../../tftitems/icon/set3/Craftable/ThiefsGloves.png)                   |
-# Emblems
+# ItemType: Emblems, Count: 8
 | name                     | key                  | icon                                                                               |
 | -                        | -                    | -                                                                                  |
 | Blade of the Ruined King | BladeoftheRuinedKing | ![BladeoftheRuinedKing](../../tftitems/icon/set3/Emblems/BladeoftheRuinedKing.png) |
@@ -60,7 +60,7 @@
 | Celestial Orb            | Celestial            | ![Celestial](../../tftitems/icon/set3/Emblems/Celestial.png)                       |
 | Protector's Chestguard   | Protector            | ![Protector](../../tftitems/icon/set3/Emblems/Protector.png)                       |
 | Dark Star's Heart        | Darkstar             | ![Darkstar](../../tftitems/icon/set3/Emblems/Darkstar.png)                         |
-# Crown
+# ItemType: Crown, Count: 1
 | name            | key           | icon                                                               |
 | -               | -             | -                                                                  |
 | Force of Nature | ForceofNature | ![ForceofNature](../../tftitems/icon/set3/Crown/ForceofNature.png) |

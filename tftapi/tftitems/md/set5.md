@@ -1,4 +1,4 @@
-# Components
+# ItemType: Components, Count: 18
 | name                 | key                      | icon                                                                                          |
 | -                    | -                        | -                                                                                             |
 | B.F. Sword           | BFSword                  | ![BFSword](../../tftitems/icon/set5/Components/BFSword.png)                                   |
@@ -19,7 +19,7 @@
 | Shadow Belt          | ShadowGiantsBelt         | ![ShadowGiantsBelt](../../tftitems/icon/set5/Components/ShadowGiantsBelt.png)                 |
 | Shadow Spatula       | ShadowSpatula            | ![ShadowSpatula](../../tftitems/icon/set5/Components/ShadowSpatula.png)                       |
 | Shadow Gloves        | ShadowSparringGloves     | ![ShadowSparringGloves](../../tftitems/icon/set5/Components/ShadowSparringGloves.png)         |
-# Craftable
+# ItemType: Craftable, Count: 72
 | name                               | key                    | icon                                                                                     |
 | -                                  | -                      | -                                                                                        |
 | Deathblade                         | LordsEdge              | ![LordsEdge](../../tftitems/icon/set5/Craftable/LordsEdge.png)                           |
@@ -94,7 +94,7 @@
 | Warmog's Sacrificial Armor         | WarmogsPoisonArmor     | ![WarmogsPoisonArmor](../../tftitems/icon/set5/Craftable/WarmogsPoisonArmor.png)         |
 | Banshee’s Claw                     | ExplosiveTrapClaw      | ![ExplosiveTrapClaw](../../tftitems/icon/set5/Craftable/ExplosiveTrapClaw.png)           |
 | Trickster's Gloves                 | CursedThiefsGlove      | ![CursedThiefsGlove](../../tftitems/icon/set5/Craftable/CursedThiefsGlove.png)           |
-# Emblems
+# ItemType: Emblems, Count: 16
 | name                | key                     | icon                                                                                     |
 | -                   | -                       | -                                                                                        |
 | Skirmisher Emblem   | SwordoftheDivine        | ![SwordoftheDivine](../../tftitems/icon/set5/Emblems/SwordoftheDivine.png)               |
@@ -113,7 +113,7 @@
 | Revenant Emblem     | ShadowElderwoodHeirloom | ![ShadowElderwoodHeirloom](../../tftitems/icon/set5/Emblems/ShadowElderwoodHeirloom.png) |
 | Nightbringer Emblem | ShadowWarlordsBanner    | ![ShadowWarlordsBanner](../../tftitems/icon/set5/Emblems/ShadowWarlordsBanner.png)       |
 | Abomination Emblem  | ShadowYoumuusGhostblade | ![ShadowYoumuusGhostblade](../../tftitems/icon/set5/Emblems/ShadowYoumuusGhostblade.png) |
-# Crown
+# ItemType: Crown, Count: 2
 | name              | key             | icon                                                                   |
 | -                 | -               | -                                                                      |
 | Force of Nature   | ForceofNature   | ![ForceofNature](../../tftitems/icon/set5/Crown/ForceofNature.png)     |

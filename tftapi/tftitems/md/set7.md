@@ -1,4 +1,4 @@
-# Components
+# ItemType: Components, Count: 9
 | name                 | key                | icon                                                                              |
 | -                    | -                  | -                                                                                 |
 | B.F. Sword           | BFSword            | ![BFSword](../../tftitems/icon/set7/Components/BFSword.png)                       |
@@ -10,7 +10,7 @@
 | Sparring Gloves      | SparringGloves     | ![SparringGloves](../../tftitems/icon/set7/Components/SparringGloves.png)         |
 | Spatula              | Spatula            | ![Spatula](../../tftitems/icon/set7/Components/Spatula.png)                       |
 | Tear of the Goddess  | Tearofthegoddess   | ![Tearofthegoddess](../../tftitems/icon/set7/Components/Tearofthegoddess.png)     |
-# Craftable
+# ItemType: Craftable, Count: 36
 | name                      | key                   | icon                                                                                   |
 | -                         | -                     | -                                                                                      |
 | Jeweled Gauntlet          | ArcaneGauntlet        | ![ArcaneGauntlet](../../tftitems/icon/set7/Craftable/ArcaneGauntlet.png)               |
@@ -49,7 +49,7 @@
 | Zeke's Herald             | ZekesHerald           | ![ZekesHerald](../../tftitems/icon/set7/Craftable/ZekesHerald.png)                     |
 | Zephyr                    | Zephyr                | ![Zephyr](../../tftitems/icon/set7/Craftable/Zephyr.png)                               |
 | Zz'Rot Portal             | ZzRotPortal           | ![ZzRotPortal](../../tftitems/icon/set7/Craftable/ZzRotPortal.png)                     |
-# Emblems
+# ItemType: Emblems, Count: 21
 | name                | key                | icon                                                                           |
 | -                   | -                  | -                                                                              |
 | Bruiser Emblem      | BruiserEmblem      | ![BruiserEmblem](../../tftitems/icon/set7/Emblems/BruiserEmblem.png)           |
@@ -73,11 +73,11 @@
 | Evoker Emblem       | EvokerEmblem       | ![EvokerEmblem](../../tftitems/icon/set7/Emblems/EvokerEmblem.png)             |
 | Mystic Emblem       | MysticEmblem       | ![MysticEmblem](../../tftitems/icon/set7/Emblems/MysticEmblem.png)             |
 | Swiftshot Emblem    | SwiftshotEmblem    | ![SwiftshotEmblem](../../tftitems/icon/set7/Emblems/SwiftshotEmblem.png)       |
-# Crown
+# ItemType: Crown, Count: 1
 | name              | key           | icon                                                               |
 | -                 | -             | -                                                                  |
 | Tactician's Crown | ForceofNature | ![ForceofNature](../../tftitems/icon/set7/Crown/ForceofNature.png) |
-# Radiant
+# ItemType: Radiant, Count: 36
 | name                        | key                          | icon                                                                                               |
 | -                           | -                            | -                                                                                                  |
 | Urf-Angel's Staff           | RadientArchangelsStaff       | ![RadientArchangelsStaff](../../tftitems/icon/set7/Radiant/RadientArchangelsStaff.png)             |
@@ -116,7 +116,7 @@
 | Zeke's Harmony              | RadientZekesHerald           | ![RadientZekesHerald](../../tftitems/icon/set7/Radiant/RadientZekesHerald.png)                     |
 | Mistral                     | RadientZephyr                | ![RadientZephyr](../../tftitems/icon/set7/Radiant/RadientZephyr.png)                               |
 | Zz'Rots Invitation          | RadientZzRotPortal           | ![RadientZzRotPortal](../../tftitems/icon/set7/Radiant/RadientZzRotPortal.png)                     |
-# Artifacts
+# ItemType: Artifacts, Count: 10
 | name                  | key                         | icon                                                                                               |
 | -                     | -                           | -                                                                                                  |
 | Obsidian Cleaver      | OrnnItemBlackCleaver        | ![OrnnItemBlackCleaver](../../tftitems/icon/set7/Artifacts/OrnnItemBlackCleaver.png)               |
@@ -129,7 +129,7 @@
 | Gold Collector        | OrnnItemTheCollector        | ![OrnnItemTheCollector](../../tftitems/icon/set7/Artifacts/OrnnItemTheCollector.png)               |
 | Infinity Force        | OrnnItemTrinityForce        | ![OrnnItemTrinityForce](../../tftitems/icon/set7/Artifacts/OrnnItemTrinityForce.png)               |
 | Zhonya's Paradox      | OrnnItemZhonyasHourglass    | ![OrnnItemZhonyasHourglass](../../tftitems/icon/set7/Artifacts/OrnnItemZhonyasHourglass.png)       |
-# Special
+# ItemType: Special, Count: 10
 | name                | key                   | icon                                                                         |
 | -                   | -                     | -                                                                            |
 | Draven's Axe        | DravensAxe            | ![DravensAxe](../../tftitems/icon/set7/DravensAxe.png)                       |

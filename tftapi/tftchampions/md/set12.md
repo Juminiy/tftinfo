@@ -1,0 +1,75 @@
+# Cost: 1, Count: 14
+| key        | name       | icon                                        |
+| -          | -          | -                                           |
+| Ashe       | Ashe       | ![Ashe](../icon/set12/Ashe.png)             |
+| Blitzcrank | Blitzcrank | ![Blitzcrank](../icon/set12/Blitzcrank.png) |
+| Elise      | Elise      | ![Elise](../icon/set12/Elise.png)           |
+| Jax        | Jax        | ![Jax](../icon/set12/Jax.png)               |
+| Jayce      | Jayce      | ![Jayce](../icon/set12/Jayce.png)           |
+| Lillia     | Lillia     | ![Lillia](../icon/set12/Lillia.png)         |
+| Nomsy      | Nomsy      | ![Nomsy](../icon/set12/Nomsy.png)           |
+| Poppy      | Poppy      | ![Poppy](../icon/set12/Poppy.png)           |
+| Seraphine  | Seraphine  | ![Seraphine](../icon/set12/Seraphine.png)   |
+| Soraka     | Soraka     | ![Soraka](../icon/set12/Soraka.png)         |
+| Twitch     | Twitch     | ![Twitch](../icon/set12/Twitch.png)         |
+| Warwick    | Warwick    | ![Warwick](../icon/set12/Warwick.png)       |
+| Ziggs      | Ziggs      | ![Ziggs](../icon/set12/Ziggs.png)           |
+| Zoe        | Zoe        | ![Zoe](../icon/set12/Zoe.png)               |
+# Cost: 2, Count: 13
+| key        | name       | icon                                        |
+| -          | -          | -                                           |
+| Ahri       | Ahri       | ![Ahri](../icon/set12/Ahri.png)             |
+| Akali      | Akali      | ![Akali](../icon/set12/Akali.png)           |
+| Cassiopeia | Cassiopeia | ![Cassiopeia](../icon/set12/Cassiopeia.png) |
+| Galio      | Galio      | ![Galio](../icon/set12/Galio.png)           |
+| Kassadin   | Kassadin   | ![Kassadin](../icon/set12/Kassadin.png)     |
+| KogMaw     | Kog'Maw    | ![KogMaw](../icon/set12/KogMaw.png)         |
+| Nilah      | Nilah      | ![Nilah](../icon/set12/Nilah.png)           |
+| Nunu       | Nunu       | ![Nunu](../icon/set12/Nunu.png)             |
+| Rumble     | Rumble     | ![Rumble](../icon/set12/Rumble.png)         |
+| Shyvana    | Shyvana    | ![Shyvana](../icon/set12/Shyvana.png)       |
+| Syndra     | Syndra     | ![Syndra](../icon/set12/Syndra.png)         |
+| Tristana   | Tristana   | ![Tristana](../icon/set12/Tristana.png)     |
+| Zilean     | Zilean     | ![Zilean](../icon/set12/Zilean.png)         |
+# Cost: 3, Count: 13
+| key         | name        | icon                                          |
+| -           | -           | -                                             |
+| Bard        | Bard        | ![Bard](../icon/set12/Bard.png)               |
+| Ezreal      | Ezreal      | ![Ezreal](../icon/set12/Ezreal.png)           |
+| Hecarim     | Hecarim     | ![Hecarim](../icon/set12/Hecarim.png)         |
+| Hwei        | Hwei        | ![Hwei](../icon/set12/Hwei.png)               |
+| Jinx        | Jinx        | ![Jinx](../icon/set12/Jinx.png)               |
+| Katarina    | Katarina    | ![Katarina](../icon/set12/Katarina.png)       |
+| Mordekaiser | Mordekaiser | ![Mordekaiser](../icon/set12/Mordekaiser.png) |
+| Neeko       | Neeko       | ![Neeko](../icon/set12/Neeko.png)             |
+| Shen        | Shen        | ![Shen](../icon/set12/Shen.png)               |
+| Swain       | Swain       | ![Swain](../icon/set12/Swain.png)             |
+| Veigar      | Veigar      | ![Veigar](../icon/set12/Veigar.png)           |
+| Vex         | Vex         | ![Vex](../icon/set12/Vex.png)                 |
+| MonkeyKing  | Wukong      | ![MonkeyKing](../icon/set12/MonkeyKing.png)   |
+# Cost: 4, Count: 12
+| key       | name       | icon                                      |
+| -         | -          | -                                         |
+| Fiora     | Fiora      | ![Fiora](../icon/set12/Fiora.png)         |
+| Gwen      | Gwen       | ![Gwen](../icon/set12/Gwen.png)           |
+| Kalista   | Kalista    | ![Kalista](../icon/set12/Kalista.png)     |
+| Karma     | Karma      | ![Karma](../icon/set12/Karma.png)         |
+| Nami      | Nami       | ![Nami](../icon/set12/Nami.png)           |
+| Nasus     | Nasus      | ![Nasus](../icon/set12/Nasus.png)         |
+| Olaf      | Olaf       | ![Olaf](../icon/set12/Olaf.png)           |
+| Rakan     | Rakan      | ![Rakan](../icon/set12/Rakan.png)         |
+| Ryze      | Ryze       | ![Ryze](../icon/set12/Ryze.png)           |
+| TahmKench | Tahm Kench | ![TahmKench](../icon/set12/TahmKench.png) |
+| Taric     | Taric      | ![Taric](../icon/set12/Taric.png)         |
+| Varus     | Varus      | ![Varus](../icon/set12/Varus.png)         |
+# Cost: 5, Count: 8
+| key        | name    | icon                                        |
+| -          | -       | -                                           |
+| Briar      | Briar   | ![Briar](../icon/set12/Briar.png)           |
+| Camille    | Camille | ![Camille](../icon/set12/Camille.png)       |
+| Diana      | Diana   | ![Diana](../icon/set12/Diana.png)           |
+| Milio      | Milio   | ![Milio](../icon/set12/Milio.png)           |
+| Morgana    | Morgana | ![Morgana](../icon/set12/Morgana.png)       |
+| NorraYuumi | Norra   | ![NorraYuumi](../icon/set12/NorraYuumi.png) |
+| Smolder    | Smolder | ![Smolder](../icon/set12/Smolder.png)       |
+| Xerath     | Xerath  | ![Xerath](../icon/set12/Xerath.png)         |

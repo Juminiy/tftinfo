@@ -1,4 +1,4 @@
-# Components
+# ItemType: Components, Count: 10
 | name                 | key                | icon                                                                               |
 | -                    | -                  | -                                                                                  |
 | B.F. Sword           | BFSword            | ![BFSword](../../tftitems/icon/set14/Components/BFSword.png)                       |
@@ -11,7 +11,7 @@
 | Sparring Gloves      | SparringGloves     | ![SparringGloves](../../tftitems/icon/set14/Components/SparringGloves.png)         |
 | Spatula              | Spatula            | ![Spatula](../../tftitems/icon/set14/Components/Spatula.png)                       |
 | Tear of the Goddess  | Tearofthegoddess   | ![Tearofthegoddess](../../tftitems/icon/set14/Components/Tearofthegoddess.png)     |
-# Craftable
+# ItemType: Craftable, Count: 36
 | name                | key               | icon                                                                            |
 | -                   | -                 | -                                                                               |
 | Adaptive Helm       | AdaptiveHelm      | ![AdaptiveHelm](../../tftitems/icon/set14/Craftable/AdaptiveHelm.png)           |
@@ -50,7 +50,7 @@
 | Titan’s Resolve     | TitansResolve     | ![TitansResolve](../../tftitems/icon/set14/Craftable/TitansResolve.png)         |
 | Warmog's Armor      | WarmogsArmor      | ![WarmogsArmor](../../tftitems/icon/set14/Craftable/WarmogsArmor.png)           |
 | Void Staff          | VoidStaff         | ![VoidStaff](../../tftitems/icon/set14/Craftable/VoidStaff.png)                 |
-# Emblems
+# ItemType: Emblems, Count: 18
 | name                | key               | icon                                                                          |
 | -                   | -                 | -                                                                             |
 | Bruiser Emblem      | BruiserEmblem     | ![BruiserEmblem](../../tftitems/icon/set14/Emblems/BruiserEmblem.png)         |
@@ -71,13 +71,13 @@
 | Syndicate Emblem    | SyndicateEmblem   | ![SyndicateEmblem](../../tftitems/icon/set14/Emblems/SyndicateEmblem.png)     |
 | Techie Emblem       | TechieEmblem      | ![TechieEmblem](../../tftitems/icon/set14/Emblems/TechieEmblem.png)           |
 | Vanguard Emblem     | VanguardEmblem    | ![VanguardEmblem](../../tftitems/icon/set14/Emblems/VanguardEmblem.png)       |
-# Crown
+# ItemType: Crown, Count: 3
 | name               | key              | icon                                                                      |
 | -                  | -                | -                                                                         |
 | Tactician's Crown  | ForceofNature    | ![ForceofNature](../../tftitems/icon/set14/Crown/ForceofNature.png)       |
 | Tactician's Cape   | TacticiansCape   | ![TacticiansCape](../../tftitems/icon/set14/Crown/TacticiansCape.png)     |
 | Tactician's Shield | TacticiansShield | ![TacticiansShield](../../tftitems/icon/set14/Crown/TacticiansShield.png) |
-# Radiant
+# ItemType: Radiant, Count: 36
 | name                        | key                       | icon                                                                                          |
 | -                           | -                         | -                                                                                             |
 | Radiant Crownguard          | CrownguardRadiant         | ![CrownguardRadiant](../../tftitems/icon/set14/Radiant/CrownguardRadiant.png)                 |
@@ -116,7 +116,7 @@
 | Radiant Titan’s Resolve     | RadientTitansResolve      | ![RadientTitansResolve](../../tftitems/icon/set14/Radiant/RadientTitansResolve.png)           |
 | Radiant Warmog's Armor      | RadientWarmogsArmor       | ![RadientWarmogsArmor](../../tftitems/icon/set14/Radiant/RadientWarmogsArmor.png)             |
 | Radiant Sterak's Gage       | SteraksMegashield         | ![SteraksMegashield](../../tftitems/icon/set14/Radiant/SteraksMegashield.png)                 |
-# Artifacts
+# ItemType: Artifacts, Count: 32
 | name                   | key                      | icon                                                                                          |
 | -                      | -                        | -                                                                                             |
 | Blighting Jewel        | BlightingJewel           | ![BlightingJewel](../../tftitems/icon/set14/Artifacts/BlightingJewel.png)                     |
@@ -151,7 +151,7 @@
 | Flickerblade           | Flickerblade             | ![Flickerblade](../../tftitems/icon/set14/Artifacts/Flickerblade.jpg)                         |
 | The Indomitable        | IndomitableGauntlet      | ![IndomitableGauntlet](../../tftitems/icon/set14/Artifacts/IndomitableGauntlet.jpg)           |
 | Titanic Hydra          | TitanicHydra             | ![TitanicHydra](../../tftitems/icon/set14/Artifacts/TitanicHydra.jpg)                         |
-# Support
+# ItemType: Support, Count: 16
 | name                      | key                   | icon                                                                                  |
 | -                         | -                     | -                                                                                     |
 | Aegis of the Legion       | AegisoftheLegion      | ![AegisoftheLegion](../../tftitems/icon/set14/Support/AegisoftheLegion.png)           |
@@ -170,7 +170,7 @@
 | Zeke's Herald             | ZekesHerald           | ![ZekesHerald](../../tftitems/icon/set14/Support/ZekesHerald.png)                     |
 | Zephyr                    | Zephyr                | ![Zephyr](../../tftitems/icon/set14/Support/Zephyr.png)                               |
 | Zz'Rot Portal             | ZzRotPortal           | ![ZzRotPortal](../../tftitems/icon/set14/Support/ZzRotPortal.png)                     |
-# Special
+# ItemType: Special, Count: 28
 | name                         | key                       | icon                                                                                  |
 | -                            | -                         | -                                                                                     |
 | Corrupted Chassis            | CorruptedChassis          | ![CorruptedChassis](../../tftitems/icon/set14/CorruptedChassis.png)                   |

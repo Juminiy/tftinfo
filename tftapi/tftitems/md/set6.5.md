@@ -1,4 +1,4 @@
-# Components
+# ItemType: Components, Count: 9
 | name                 | key                | icon                                                                                |
 | -                    | -                  | -                                                                                   |
 | B.F. Sword           | BFSword            | ![BFSword](../../tftitems/icon/set6.5/Components/BFSword.png)                       |
@@ -10,7 +10,7 @@
 | Sparring Gloves      | SparringGloves     | ![SparringGloves](../../tftitems/icon/set6.5/Components/SparringGloves.png)         |
 | Spatula              | Spatula            | ![Spatula](../../tftitems/icon/set6.5/Components/Spatula.png)                       |
 | Tear of the Goddess  | Tearofthegoddess   | ![Tearofthegoddess](../../tftitems/icon/set6.5/Components/Tearofthegoddess.png)     |
-# Craftable
+# ItemType: Craftable, Count: 36
 | name                      | key                   | icon                                                                                     |
 | -                         | -                     | -                                                                                        |
 | Jeweled Gauntlet          | ArcaneGauntlet        | ![ArcaneGauntlet](../../tftitems/icon/set6.5/Craftable/ArcaneGauntlet.png)               |
@@ -49,7 +49,7 @@
 | Zeke's Herald             | ZekesHerald           | ![ZekesHerald](../../tftitems/icon/set6.5/Craftable/ZekesHerald.png)                     |
 | Zephyr                    | Zephyr                | ![Zephyr](../../tftitems/icon/set6.5/Craftable/Zephyr.png)                               |
 | Zz'Rot Portal             | ZzRotPortal           | ![ZzRotPortal](../../tftitems/icon/set6.5/Craftable/ZzRotPortal.png)                     |
-# Emblems
+# ItemType: Emblems, Count: 19
 | name              | key               | icon                                                                           |
 | -                 | -                 | -                                                                              |
 | Bodyguard Emblem  | BodyguardEmblem   | ![BodyguardEmblem](../../tftitems/icon/set6.5/Emblems/BodyguardEmblem.png)     |
@@ -71,11 +71,11 @@
 | Chemtech Emblem   | WarlordsBanner    | ![WarlordsBanner](../../tftitems/icon/set6.5/Emblems/WarlordsBanner.png)       |
 | Assassin Emblem   | YoumuusGhostblade | ![YoumuusGhostblade](../../tftitems/icon/set6.5/Emblems/YoumuusGhostblade.png) |
 | Syndicate Emblem  | SyndicateEmblem   | ![SyndicateEmblem](../../tftitems/icon/set6.5/Emblems/SyndicateEmblem.png)     |
-# Crown
+# ItemType: Crown, Count: 1
 | name              | key           | icon                                                                 |
 | -                 | -             | -                                                                    |
 | Tactician's Crown | ForceofNature | ![ForceofNature](../../tftitems/icon/set6.5/Crown/ForceofNature.png) |
-# Radiant
+# ItemType: Radiant, Count: 36
 | name                        | key                          | icon                                                                                                 |
 | -                           | -                            | -                                                                                                    |
 | Banshee's Silence           | RadientBansheesClaw          | ![RadientBansheesClaw](../../tftitems/icon/set6.5/Radiant/RadientBansheesClaw.png)                   |
@@ -114,7 +114,7 @@
 | Zeke's Harmony              | RadientZekesHerald           | ![RadientZekesHerald](../../tftitems/icon/set6.5/Radiant/RadientZekesHerald.png)                     |
 | Zenith Edge                 | RadientInfinityEdge          | ![RadientInfinityEdge](../../tftitems/icon/set6.5/Radiant/RadientInfinityEdge.png)                   |
 | Zz'Rots Invitation          | RadientZzRotPortal           | ![RadientZzRotPortal](../../tftitems/icon/set6.5/Radiant/RadientZzRotPortal.png)                     |
-# Artifacts
+# ItemType: Artifacts, Count: 10
 | name                  | key                         | icon                                                                                                 |
 | -                     | -                           | -                                                                                                    |
 | Gold Collector        | OrnnItemTheCollector        | ![OrnnItemTheCollector](../../tftitems/icon/set6.5/Artifacts/OrnnItemTheCollector.png)               |

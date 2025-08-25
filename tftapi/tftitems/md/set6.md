@@ -1,4 +1,4 @@
-# Components
+# ItemType: Components, Count: 9
 | name                 | key                | icon                                                                              |
 | -                    | -                  | -                                                                                 |
 | B.F. Sword           | BFSword            | ![BFSword](../../tftitems/icon/set6/Components/BFSword.png)                       |
@@ -10,7 +10,7 @@
 | Giant's Belt         | GiantsBelt         | ![GiantsBelt](../../tftitems/icon/set6/Components/GiantsBelt.png)                 |
 | Spatula              | Spatula            | ![Spatula](../../tftitems/icon/set6/Components/Spatula.png)                       |
 | Sparring Gloves      | SparringGloves     | ![SparringGloves](../../tftitems/icon/set6/Components/SparringGloves.png)         |
-# Craftable
+# ItemType: Craftable, Count: 36
 | name                      | key                   | icon                                                                                   |
 | -                         | -                     | -                                                                                      |
 | Bloodthirster             | Bloodthirster         | ![Bloodthirster](../../tftitems/icon/set6/Craftable/Bloodthirster.png)                 |
@@ -49,7 +49,7 @@
 | Blue Buff                 | BlueSentinel          | ![BlueSentinel](../../tftitems/icon/set6/Craftable/BlueSentinel.png)                   |
 | Gargoyle Stoneplate       | IronWill              | ![IronWill](../../tftitems/icon/set6/Craftable/IronWill.png)                           |
 | Sunfire Cape              | SunfireCape           | ![SunfireCape](../../tftitems/icon/set6/Craftable/SunfireCape.png)                     |
-# Emblems
+# ItemType: Emblems, Count: 19
 | name              | key               | icon                                                                         |
 | -                 | -                 | -                                                                            |
 | Syndicate Emblem  | VanguardsCuirass  | ![VanguardsCuirass](../../tftitems/icon/set6/Emblems/VanguardsCuirass.png)   |
@@ -71,11 +71,11 @@
 | Scrap Emblem      | ScrapEmblem       | ![ScrapEmblem](../../tftitems/icon/set6/Emblems/ScrapEmblem.png)             |
 | Sniper Emblem     | SniperEmblem      | ![SniperEmblem](../../tftitems/icon/set6/Emblems/SniperEmblem.png)           |
 | Socialite Emblem  | SocialiteEmblem   | ![SocialiteEmblem](../../tftitems/icon/set6/Emblems/SocialiteEmblem.png)     |
-# Crown
+# ItemType: Crown, Count: 1
 | name              | key           | icon                                                               |
 | -                 | -             | -                                                                  |
 | Tactician's Crown | ForceofNature | ![ForceofNature](../../tftitems/icon/set6/Crown/ForceofNature.png) |
-# Artifacts
+# ItemType: Artifacts, Count: 10
 | name                  | key                         | icon                                                                                               |
 | -                     | -                           | -                                                                                                  |
 | Gold Collector        | OrnnItemTheCollector        | ![OrnnItemTheCollector](../../tftitems/icon/set6/Artifacts/OrnnItemTheCollector.png)               |

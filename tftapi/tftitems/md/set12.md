@@ -1,4 +1,4 @@
-# Components
+# ItemType: Components, Count: 10
 | name                 | key                | icon                                                                               |
 | -                    | -                  | -                                                                                  |
 | B.F. Sword           | BFSword            | ![BFSword](../../tftitems/icon/set12/Components/BFSword.png)                       |
@@ -11,7 +11,7 @@
 | Spatula              | Spatula            | ![Spatula](../../tftitems/icon/set12/Components/Spatula.png)                       |
 | Tear of the Goddess  | Tearofthegoddess   | ![Tearofthegoddess](../../tftitems/icon/set12/Components/Tearofthegoddess.png)     |
 | Frying Pan           | FryingPan          | ![FryingPan](../../tftitems/icon/set12/Components/FryingPan.png)                   |
-# Craftable
+# ItemType: Craftable, Count: 36
 | name                | key               | icon                                                                            |
 | -                   | -                 | -                                                                               |
 | Adaptive Helm       | AdaptiveHelm      | ![AdaptiveHelm](../../tftitems/icon/set12/Craftable/AdaptiveHelm.png)           |
@@ -50,7 +50,7 @@
 | Thief's Gloves      | ThiefsGloves      | ![ThiefsGloves](../../tftitems/icon/set12/Craftable/ThiefsGloves.png)           |
 | Titan’s Resolve     | TitansResolve     | ![TitansResolve](../../tftitems/icon/set12/Craftable/TitansResolve.png)         |
 | Warmog's Armor      | WarmogsArmor      | ![WarmogsArmor](../../tftitems/icon/set12/Craftable/WarmogsArmor.png)           |
-# Emblems
+# ItemType: Emblems, Count: 21
 | name                | key                | icon                                                                            |
 | -                   | -                  | -                                                                               |
 | Pyro Emblem         | PyroEmblem         | ![PyroEmblem](../../tftitems/icon/set12/Emblems/PyroEmblem.png)                 |
@@ -74,13 +74,13 @@
 | Preserver Emblem    | PreserverEmblem    | ![PreserverEmblem](../../tftitems/icon/set12/Emblems/PreserverEmblem.png)       |
 | Mage Emblem         | MageEmblem         | ![MageEmblem](../../tftitems/icon/set12/Emblems/MageEmblem.png)                 |
 | Incantor Emblem     | IncantorEmblem     | ![IncantorEmblem](../../tftitems/icon/set12/Emblems/IncantorEmblem.png)         |
-# Crown
+# ItemType: Crown, Count: 3
 | name               | key              | icon                                                                      |
 | -                  | -                | -                                                                         |
 | Tactician's Crown  | ForceofNature    | ![ForceofNature](../../tftitems/icon/set12/Crown/ForceofNature.png)       |
 | Tactician's Cape   | TacticiansCape   | ![TacticiansCape](../../tftitems/icon/set12/Crown/TacticiansCape.png)     |
 | Tactician's Shield | TacticiansShield | ![TacticiansShield](../../tftitems/icon/set12/Crown/TacticiansShield.png) |
-# Radiant
+# ItemType: Radiant, Count: 36
 | name                        | key                       | icon                                                                                          |
 | -                           | -                         | -                                                                                             |
 | Royal Crownshield           | CrownguardRadiant         | ![CrownguardRadiant](../../tftitems/icon/set12/Radiant/CrownguardRadiant.png)                 |
@@ -119,7 +119,7 @@
 | Titan's Vow                 | RadientTitansResolve      | ![RadientTitansResolve](../../tftitems/icon/set12/Radiant/RadientTitansResolve.png)           |
 | Warmog's Pride              | RadientWarmogsArmor       | ![RadientWarmogsArmor](../../tftitems/icon/set12/Radiant/RadientWarmogsArmor.png)             |
 | Sterak's Megashield         | SteraksMegashield         | ![SteraksMegashield](../../tftitems/icon/set12/Radiant/SteraksMegashield.png)                 |
-# Artifacts
+# ItemType: Artifacts, Count: 30
 | name                   | key                      | icon                                                                                          |
 | -                      | -                        | -                                                                                             |
 | Blacksmith's Gloves    | BlacksmithsGloves        | ![BlacksmithsGloves](../../tftitems/icon/set12/Artifacts/BlacksmithsGloves.png)               |
@@ -152,7 +152,7 @@
 | Tricksters Glass       | TrickstersGlass          | ![TrickstersGlass](../../tftitems/icon/set12/Artifacts/TrickstersGlass.png)                   |
 | Unending Despair       | UnendingDespair          | ![UnendingDespair](../../tftitems/icon/set12/Artifacts/UnendingDespair.png)                   |
 | Wit's End              | WitsEnd                  | ![WitsEnd](../../tftitems/icon/set12/Artifacts/WitsEnd.png)                                   |
-# Support
+# ItemType: Support, Count: 18
 | name                      | key                   | icon                                                                                  |
 | -                         | -                     | -                                                                                     |
 | Accomplice's Gloves       | AccomplicesGloves     | ![AccomplicesGloves](../../tftitems/icon/set12/Support/AccomplicesGloves.png)         |
@@ -173,7 +173,7 @@
 | Zeke's Herald             | ZekesHerald           | ![ZekesHerald](../../tftitems/icon/set12/Support/ZekesHerald.png)                     |
 | Zephyr                    | Zephyr                | ![Zephyr](../../tftitems/icon/set12/Support/Zephyr.png)                               |
 | Zz'Rot Portal             | ZzRotPortal           | ![ZzRotPortal](../../tftitems/icon/set12/Support/ZzRotPortal.png)                     |
-# Special
+# ItemType: Special, Count: 4
 | name                    | key                  | icon                                                                        |
 | -                       | -                    | -                                                                           |
 | Faerie Queen's Crown    | FaerieQueensCrown    | ![FaerieQueensCrown](../../tftitems/icon/set12/FaerieQueensCrown.png)       |

@@ -1,7 +1,7 @@
 from meta_data import setlist
-from meta_data import setchampions, setitems, settraits
+from meta_data import setchampions, setitems, settraits, setaugments
 from meta_data import set_itemstype
-from meta_func import select_champions, select_items, select_traits_legal
+from meta_func import select_champions, select_items, select_traits_legal, select_augments
 from meta_func import download_file, geturl_extname, copy_icon_emblem2trait, copyfile_src2dst
 from typing import Callable,Any
 from parse_items import itemTyp
@@ -44,6 +44,9 @@ def req_items_icon():
 
 def req_traits_icon():
     gen_req_func('tfttraits', settraits, select_traits_legal)
+
+def req_augs_icon():
+    gen_req_func('tftaugs', setaugments, select_augments)
 
 def classify_items_icon():
     for setof in setlist:
@@ -110,10 +113,10 @@ def req_rewards():
 
 if __name__ == '__main__':
     # set15.2 update, some icons download have been restricted, temp to skip it.
-    # for reqfn in [req_items_icon]: #[req_champions_icon, req_items_icon, req_traits_icon]:
-    #     objof=reqfn.__name__.removeprefix('req_').removesuffix('_icon')
-    #     print(f'icon obj: {objof}')
-    #     reqfn()
+    for reqfn in [req_items_icon, req_traits_icon, req_augs_icon]: #[req_champions_icon]:
+        objof=reqfn.__name__.removeprefix('req_').removesuffix('_icon')
+        print(f'icon obj: {objof}')
+        reqfn()
 
     copy_icon_emblem2trait()
     classify_items_icon()

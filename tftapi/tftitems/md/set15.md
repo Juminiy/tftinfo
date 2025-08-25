@@ -1,4 +1,4 @@
-# Components
+# ItemType: Components, Count: 10
 | name                 | key                | icon                                                                               |
 | -                    | -                  | -                                                                                  |
 | B.F. Sword           | BFSword            | ![BFSword](../../tftitems/icon/set15/Components/BFSword.png)                       |
@@ -11,7 +11,7 @@
 | Sparring Gloves      | SparringGloves     | ![SparringGloves](../../tftitems/icon/set15/Components/SparringGloves.png)         |
 | Spatula              | Spatula            | ![Spatula](../../tftitems/icon/set15/Components/Spatula.png)                       |
 | Tear of the Goddess  | Tearofthegoddess   | ![Tearofthegoddess](../../tftitems/icon/set15/Components/Tearofthegoddess.png)     |
-# Craftable
+# ItemType: Craftable, Count: 36
 | name                | key               | icon                                                                            |
 | -                   | -                 | -                                                                               |
 | Adaptive Helm       | AdaptiveHelm      | ![AdaptiveHelm](../../tftitems/icon/set15/Craftable/AdaptiveHelm.png)           |
@@ -50,7 +50,7 @@
 | Titan's Resolve     | TitansResolve     | ![TitansResolve](../../tftitems/icon/set15/Craftable/TitansResolve.png)         |
 | Void Staff          | VoidStaff         | ![VoidStaff](../../tftitems/icon/set15/Craftable/VoidStaff.png)                 |
 | Warmog's Armor      | WarmogsArmor      | ![WarmogsArmor](../../tftitems/icon/set15/Craftable/WarmogsArmor.png)           |
-# Emblems
+# ItemType: Emblems, Count: 18
 | name                   | key                  | icon                                                                                |
 | -                      | -                    | -                                                                                   |
 | Bastion Emblem         | BastionEmblem        | ![BastionEmblem](../../tftitems/icon/set15/Emblems/BastionEmblem.png)               |
@@ -71,13 +71,13 @@
 | Battle Academia Emblem | BattleAcademiaEmblem | ![BattleAcademiaEmblem](../../tftitems/icon/set15/Emblems/BattleAcademiaEmblem.png) |
 | Sniper Emblem          | SniperEmblemItem     | ![SniperEmblemItem](../../tftitems/icon/set15/Emblems/SniperEmblemItem.png)         |
 | Protector Emblem       | ProtectorEmblemItem  | ![ProtectorEmblemItem](../../tftitems/icon/set15/Emblems/ProtectorEmblemItem.png)   |
-# Crown
+# ItemType: Crown, Count: 3
 | name               | key              | icon                                                                      |
 | -                  | -                | -                                                                         |
 | Tactician's Crown  | ForceofNature    | ![ForceofNature](../../tftitems/icon/set15/Crown/ForceofNature.png)       |
 | Tactician's Cape   | TacticiansCape   | ![TacticiansCape](../../tftitems/icon/set15/Crown/TacticiansCape.png)     |
 | Tactician's Shield | TacticiansShield | ![TacticiansShield](../../tftitems/icon/set15/Crown/TacticiansShield.png) |
-# Radiant
+# ItemType: Radiant, Count: 36
 | name                        | key                       | icon                                                                                          |
 | -                           | -                         | -                                                                                             |
 | Radiant Crownguard          | CrownguardRadiant         | ![CrownguardRadiant](../../tftitems/icon/set15/Radiant/CrownguardRadiant.png)                 |
@@ -116,7 +116,7 @@
 | Radiant Titan's Resolve     | RadientTitansResolve      | ![RadientTitansResolve](../../tftitems/icon/set15/Radiant/RadientTitansResolve.png)           |
 | Radiant Warmog's Armor      | RadientWarmogsArmor       | ![RadientWarmogsArmor](../../tftitems/icon/set15/Radiant/RadientWarmogsArmor.png)             |
 | Radiant Sterak's Gage       | SteraksMegashield         | ![SteraksMegashield](../../tftitems/icon/set15/Radiant/SteraksMegashield.png)                 |
-# Artifacts
+# ItemType: Artifacts, Count: 33
 | name                   | key                      | icon                                                                                          |
 | -                      | -                        | -                                                                                             |
 | Dawncore               | Dawncore                 | ![Dawncore](../../tftitems/icon/set15/Artifacts/Dawncore.png)                                 |

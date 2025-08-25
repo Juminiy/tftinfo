@@ -1,4 +1,4 @@
-# Components
+# ItemType: Components, Count: 9
 | name                 | key                | icon                                                                               |
 | -                    | -                  | -                                                                                  |
 | B.F. Sword           | BFSword            | ![BFSword](../../tftitems/icon/set10/Components/BFSword.png)                       |
@@ -10,7 +10,7 @@
 | Sparring Gloves      | SparringGloves     | ![SparringGloves](../../tftitems/icon/set10/Components/SparringGloves.png)         |
 | Spatula              | Spatula            | ![Spatula](../../tftitems/icon/set10/Components/Spatula.png)                       |
 | Tear of the Goddess  | Tearofthegoddess   | ![Tearofthegoddess](../../tftitems/icon/set10/Components/Tearofthegoddess.png)     |
-# Craftable
+# ItemType: Craftable, Count: 36
 | name                | key               | icon                                                                            |
 | -                   | -                 | -                                                                               |
 | Adaptive Helm       | AdaptiveHelm      | ![AdaptiveHelm](../../tftitems/icon/set10/Craftable/AdaptiveHelm.png)           |
@@ -49,7 +49,7 @@
 | Warmog's Armor      | WarmogsArmor      | ![WarmogsArmor](../../tftitems/icon/set10/Craftable/WarmogsArmor.png)           |
 | Red Buff            | RedBuffItem       | ![RedBuffItem](../../tftitems/icon/set10/Craftable/RedBuffItem.png)             |
 | Steadfast Heart     | SteadfastHeart    | ![SteadfastHeart](../../tftitems/icon/set10/Craftable/SteadfastHeart.png)       |
-# Emblems
+# ItemType: Emblems, Count: 22
 | name               | key               | icon                                                                          |
 | -                  | -                 | -                                                                             |
 | Bruiser Emblem     | BrawlerEmblem     | ![BrawlerEmblem](../../tftitems/icon/set10/Emblems/BrawlerEmblem.png)         |
@@ -74,11 +74,11 @@
 | Sentinel Emblem    | SentinelEmblem    | ![SentinelEmblem](../../tftitems/icon/set10/Emblems/SentinelEmblem.png)       |
 | Spellweaver Emblem | SpellweaverEmblem | ![SpellweaverEmblem](../../tftitems/icon/set10/Emblems/SpellweaverEmblem.png) |
 | Superfan Emblem    | SuperfanEmblem    | ![SuperfanEmblem](../../tftitems/icon/set10/Emblems/SuperfanEmblem.png)       |
-# Crown
+# ItemType: Crown, Count: 1
 | name              | key           | icon                                                                |
 | -                 | -             | -                                                                   |
 | Tactician's Crown | ForceofNature | ![ForceofNature](../../tftitems/icon/set10/Crown/ForceofNature.png) |
-# Radiant
+# ItemType: Radiant, Count: 36
 | name                        | key                       | icon                                                                                          |
 | -                           | -                         | -                                                                                             |
 | Royal Crownshield           | CrownguardRadiant         | ![CrownguardRadiant](../../tftitems/icon/set10/Radiant/CrownguardRadiant.png)                 |
@@ -117,7 +117,7 @@
 | Sterak's Megashield         | SteraksMegashield         | ![SteraksMegashield](../../tftitems/icon/set10/Radiant/SteraksMegashield.png)                 |
 | Crest of Cinders            | RadientRedBuff            | ![RadientRedBuff](../../tftitems/icon/set10/Radiant/RadientRedBuff.png)                       |
 | Legacy of the Colossus      | RadientSteadfastHeart     | ![RadientSteadfastHeart](../../tftitems/icon/set10/Radiant/RadientSteadfastHeart.png)         |
-# Artifacts
+# ItemType: Artifacts, Count: 16
 | name                | key                      | icon                                                                                          |
 | -                   | -                        | -                                                                                             |
 | Blacksmith's Gloves | BlacksmithsGloves        | ![BlacksmithsGloves](../../tftitems/icon/set10/Artifacts/BlacksmithsGloves.png)               |
@@ -136,7 +136,7 @@
 | Zhonya's Paradox    | OrnnItemZhonyasHourglass | ![OrnnItemZhonyasHourglass](../../tftitems/icon/set10/Artifacts/OrnnItemZhonyasHourglass.png) |
 | Sniper's Focus      | SnipersFocus             | ![SnipersFocus](../../tftitems/icon/set10/Artifacts/SnipersFocus.png)                         |
 | Tricksters Glass    | TrickstersGlass          | ![TrickstersGlass](../../tftitems/icon/set10/Artifacts/TrickstersGlass.png)                   |
-# Support
+# ItemType: Support, Count: 12
 | name                      | key                   | icon                                                                                  |
 | -                         | -                     | -                                                                                     |
 | Aegis of the Legion       | AegisoftheLegion      | ![AegisoftheLegion](../../tftitems/icon/set10/Support/AegisoftheLegion.png)           |

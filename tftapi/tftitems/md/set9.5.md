@@ -1,4 +1,4 @@
-# Components
+# ItemType: Components, Count: 9
 | name                 | key                | icon                                                                                |
 | -                    | -                  | -                                                                                   |
 | B.F. Sword           | BFSword            | ![BFSword](../../tftitems/icon/set9.5/Components/BFSword.png)                       |
@@ -10,7 +10,7 @@
 | Sparring Gloves      | SparringGloves     | ![SparringGloves](../../tftitems/icon/set9.5/Components/SparringGloves.png)         |
 | Spatula              | Spatula            | ![Spatula](../../tftitems/icon/set9.5/Components/Spatula.png)                       |
 | Tear of the Goddess  | Tearofthegoddess   | ![Tearofthegoddess](../../tftitems/icon/set9.5/Components/Tearofthegoddess.png)     |
-# Craftable
+# ItemType: Craftable, Count: 36
 | name                | key               | icon                                                                             |
 | -                   | -                 | -                                                                                |
 | Jeweled Gauntlet    | ArcaneGauntlet    | ![ArcaneGauntlet](../../tftitems/icon/set9.5/Craftable/ArcaneGauntlet.png)       |
@@ -49,7 +49,7 @@
 | Evenshroud          | Evenshroud        | ![Evenshroud](../../tftitems/icon/set9.5/Craftable/Evenshroud.png)               |
 | Night Harvester     | NightHarvester    | ![NightHarvester](../../tftitems/icon/set9.5/Craftable/NightHarvester.png)       |
 | Crownguard          | Crownguard        | ![Crownguard](../../tftitems/icon/set9.5/Craftable/Crownguard.png)               |
-# Emblems
+# ItemType: Emblems, Count: 22
 | name              | key              | icon                                                                         |
 | -                 | -                | -                                                                            |
 | Bastion Emblem    | BastionEmblem    | ![BastionEmblem](../../tftitems/icon/set9.5/Emblems/BastionEmblem.png)       |
@@ -74,11 +74,11 @@
 | Bilgewater Emblem | BilgewaterEmblem | ![BilgewaterEmblem](../../tftitems/icon/set9.5/Emblems/BilgewaterEmblem.png) |
 | Ixtal Emblem      | IxtalEmblem      | ![IxtalEmblem](../../tftitems/icon/set9.5/Emblems/IxtalEmblem.png)           |
 | Vanquisher Emblem | VanquisherEmblem | ![VanquisherEmblem](../../tftitems/icon/set9.5/Emblems/VanquisherEmblem.png) |
-# Crown
+# ItemType: Crown, Count: 1
 | name              | key           | icon                                                                 |
 | -                 | -             | -                                                                    |
 | Tactician's Crown | ForceofNature | ![ForceofNature](../../tftitems/icon/set9.5/Crown/ForceofNature.png) |
-# Radiant
+# ItemType: Radiant, Count: 36
 | name                        | key                       | icon                                                                                           |
 | -                           | -                         | -                                                                                              |
 | Bulwark's Oath              | FimbulwinterRadiant       | ![FimbulwinterRadiant](../../tftitems/icon/set9.5/Radiant/FimbulwinterRadiant.png)             |
@@ -117,7 +117,7 @@
 | Royal Crownshield           | CrownguardRadiant         | ![CrownguardRadiant](../../tftitems/icon/set9.5/Radiant/CrownguardRadiant.png)                 |
 | Equinox                     | EvenshroudRadiant         | ![EvenshroudRadiant](../../tftitems/icon/set9.5/Radiant/EvenshroudRadiant.png)                 |
 | Nashors' Tooth Radiant      | NashorsToothRadiant       | ![NashorsToothRadiant](../../tftitems/icon/set9.5/Radiant/NashorsToothRadiant.png)             |
-# Artifacts
+# ItemType: Artifacts, Count: 14
 | name                | key                      | icon                                                                                           |
 | -                   | -                        | -                                                                                              |
 | Blacksmith's Gloves | BlacksmithsGloves        | ![BlacksmithsGloves](../../tftitems/icon/set9.5/Artifacts/BlacksmithsGloves.png)               |
@@ -134,7 +134,7 @@
 | Zhonya's Paradox    | OrnnItemZhonyasHourglass | ![OrnnItemZhonyasHourglass](../../tftitems/icon/set9.5/Artifacts/OrnnItemZhonyasHourglass.png) |
 | Sniper's Focus      | SnipersFocus             | ![SnipersFocus](../../tftitems/icon/set9.5/Artifacts/SnipersFocus.png)                         |
 | Tricksters Glass    | TrickstersGlass          | ![TrickstersGlass](../../tftitems/icon/set9.5/Artifacts/TrickstersGlass.png)                   |
-# Support
+# ItemType: Support, Count: 13
 | name                      | key                   | icon                                                                                   |
 | -                         | -                     | -                                                                                      |
 | Needlessly Big Gem        | NeedlesslyBigGem      | ![NeedlesslyBigGem](../../tftitems/icon/set9.5/Support/NeedlesslyBigGem.png)           |
@@ -150,7 +150,7 @@
 | Zeke's Herald             | ZekesHerald           | ![ZekesHerald](../../tftitems/icon/set9.5/Support/ZekesHerald.png)                     |
 | Zephyr                    | Zephyr                | ![Zephyr](../../tftitems/icon/set9.5/Support/Zephyr.png)                               |
 | Zz'Rot Portal             | ZzRotPortal           | ![ZzRotPortal](../../tftitems/icon/set9.5/Support/ZzRotPortal.png)                     |
-# Special
+# ItemType: Special, Count: 6
 | name                | key                | icon                                                                     |
 | -                   | -                  | -                                                                        |
 | Adaptive Implant    | AdaptiveImplant    | ![AdaptiveImplant](../../tftitems/icon/set9.5/AdaptiveImplant.png)       |

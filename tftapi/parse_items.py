@@ -321,7 +321,7 @@ def parse_item_key2name() -> dict[str,dict[str,str]]:
             for itemcate, itemls in itemlist.items():
                 if len(itemls) == 0:
                     continue
-                itemsfile.write(f'# {itemcate}\n')
+                itemsfile.write(f'# ItemType: {itemcate}, Count: {len(itemls)}\n')
                 itemsfile.write(Grid2d([
                     [itemofst['name'], itemofst['key'], itemofst['icon']]
                     for itemofst in itemls

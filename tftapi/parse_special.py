@@ -424,7 +424,7 @@ if __name__ == '__main__':
     for fn in [set15_power_up, set13_teamup, set13_anomalies, set12_charms, set12_portal, set11_encounters, set10_portal, set9_set9dot5_portal]:
         fn()
     
-    trait_compare('set11', 'Fated', 'set15', 'StarGuardian')
+    # trait_compare('set11', 'Fated', 'set15', 'StarGuardian')
 
     # gen_rewards_detail()
     parse_rewards()

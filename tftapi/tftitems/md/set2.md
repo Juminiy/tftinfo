@@ -1,4 +1,4 @@
-# Components
+# ItemType: Components, Count: 9
 | name                 | key                | icon                                                                              |
 | -                    | -                  | -                                                                                 |
 | B.F. Sword           | BFSword            | ![BFSword](../../tftitems/icon/set2/Components/BFSword.png)                       |
@@ -10,7 +10,7 @@
 | Giant's Belt         | GiantsBelt         | ![GiantsBelt](../../tftitems/icon/set2/Components/GiantsBelt.png)                 |
 | Spatula              | Spatula            | ![Spatula](../../tftitems/icon/set2/Components/Spatula.png)                       |
 | Sparring Gloves      | SparringGloves     | ![SparringGloves](../../tftitems/icon/set2/Components/SparringGloves.png)         |
-# Craftable
+# ItemType: Craftable, Count: 36
 | name                      | key                   | icon                                                                                   |
 | -                         | -                     | -                                                                                      |
 | Deathblade                | LordsEdge             | ![LordsEdge](../../tftitems/icon/set2/Craftable/LordsEdge.png)                         |
@@ -49,7 +49,7 @@
 | Warmog's Armor            | WarmogsArmor          | ![WarmogsArmor](../../tftitems/icon/set2/Craftable/WarmogsArmor.png)                   |
 | Trap Claw                 | Backhand              | ![Backhand](../../tftitems/icon/set2/Craftable/Backhand.png)                           |
 | Thief's Gloves            | ThiefsGloves          | ![ThiefsGloves](../../tftitems/icon/set2/Craftable/ThiefsGloves.png)                   |
-# Emblems
+# ItemType: Emblems, Count: 8
 | name                     | key                  | icon                                                                               |
 | -                        | -                    | -                                                                                  |
 | Youmuu's Ghostblade      | YoumuusGhostblade    | ![YoumuusGhostblade](../../tftitems/icon/set2/Emblems/YoumuusGhostblade.png)       |
@@ -60,11 +60,11 @@
 | Talisman of Light        | TalismanofLight      | ![TalismanofLight](../../tftitems/icon/set2/Emblems/TalismanofLight.png)           |
 | Frozen Mallet            | FrozenMallet         | ![FrozenMallet](../../tftitems/icon/set2/Emblems/FrozenMallet.png)                 |
 | Berserker Axe            | BerserkerAxe         | ![BerserkerAxe](../../tftitems/icon/set2/Emblems/BerserkerAxe.png)                 |
-# Crown
+# ItemType: Crown, Count: 1
 | name            | key           | icon                                                               |
 | -               | -             | -                                                                  |
 | Force of Nature | ForceofNature | ![ForceofNature](../../tftitems/icon/set2/Crown/ForceofNature.png) |
-# Special
+# ItemType: Special, Count: 3
 | name               | key               | icon                                                                 |
 | -                  | -                 | -                                                                    |
 | Phantom Dancer     | PhantomDancer     | ![PhantomDancer](../../tftitems/icon/set2/PhantomDancer.png)         |

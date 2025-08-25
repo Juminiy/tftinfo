@@ -1,4 +1,4 @@
-# Components
+# ItemType: Components, Count: 9
 | name                 | key                | icon                                                                                |
 | -                    | -                  | -                                                                                   |
 | B.F. Sword           | BFSword            | ![BFSword](../../tftitems/icon/set5.5/Components/BFSword.png)                       |
@@ -10,7 +10,7 @@
 | Giant's Belt         | GiantsBelt         | ![GiantsBelt](../../tftitems/icon/set5.5/Components/GiantsBelt.png)                 |
 | Spatula              | Spatula            | ![Spatula](../../tftitems/icon/set5.5/Components/Spatula.png)                       |
 | Sparring Gloves      | SparringGloves     | ![SparringGloves](../../tftitems/icon/set5.5/Components/SparringGloves.png)         |
-# Craftable
+# ItemType: Craftable, Count: 36
 | name                      | key                   | icon                                                                                     |
 | -                         | -                     | -                                                                                        |
 | Deathblade                | LordsEdge             | ![LordsEdge](../../tftitems/icon/set5.5/Craftable/LordsEdge.png)                         |
@@ -49,7 +49,7 @@
 | Warmog's Armor            | WarmogsArmor          | ![WarmogsArmor](../../tftitems/icon/set5.5/Craftable/WarmogsArmor.png)                   |
 | Banshee’s Claw            | Backhand              | ![Backhand](../../tftitems/icon/set5.5/Craftable/Backhand.png)                           |
 | Thief's Gloves            | ThiefsGloves          | ![ThiefsGloves](../../tftitems/icon/set5.5/Craftable/ThiefsGloves.png)                   |
-# Emblems
+# ItemType: Emblems, Count: 22
 | name                | key                     | icon                                                                                       |
 | -                   | -                       | -                                                                                          |
 | Skirmisher Emblem   | SwordoftheDivine        | ![SwordoftheDivine](../../tftitems/icon/set5.5/Emblems/SwordoftheDivine.png)               |
@@ -74,11 +74,11 @@
 | Cannoneer Emblem    | CannoneerEmblem         | ![CannoneerEmblem](../../tftitems/icon/set5.5/Emblems/CannoneerEmblem.png)                 |
 | Knight Emblem       | KnightEmblem            | ![KnightEmblem](../../tftitems/icon/set5.5/Emblems/KnightEmblem.png)                       |
 | Mystic Emblem       | MysticEmblem            | ![MysticEmblem](../../tftitems/icon/set5.5/Emblems/MysticEmblem.png)                       |
-# Crown
+# ItemType: Crown, Count: 1
 | name            | key           | icon                                                                 |
 | -               | -             | -                                                                    |
 | Force of Nature | ForceofNature | ![ForceofNature](../../tftitems/icon/set5.5/Crown/ForceofNature.png) |
-# Radiant
+# ItemType: Radiant, Count: 36
 | name                        | key                          | icon                                                                                                 |
 | -                           | -                            | -                                                                                                    |
 | Luminous Deathblade         | RadiantDeathblade            | ![RadiantDeathblade](../../tftitems/icon/set5.5/Radiant/RadiantDeathblade.png)                       |
