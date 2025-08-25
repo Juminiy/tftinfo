@@ -13,21 +13,22 @@ uv sync
 cd metatftapi
 ./run.sh
 
-# reload metatftapi data
+# redownload metatftapi data
 uv run req_raw.py
-# refresh parsing data
+# refresh parsed data
 ./run.sh
 ```
 
 ## RUN tftapi
 ```bash
+# refresh parsed data
 cd tftapi
 ./run.sh
 
-# reload tftapi data
+# redownload tftapi data
 uv run req_raw.py
-# reload tftapi icon
+# redownload tftapi icon
 uv run req_icon.py
-# refresh parsing data
+# refresh parsed data
 ./run.sh
 ```
