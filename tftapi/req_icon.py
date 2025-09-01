@@ -113,7 +113,7 @@ def req_rewards():
 
 if __name__ == '__main__':
     # set15.2 update, some icons download have been restricted, temp to skip it.
-    for reqfn in [req_items_icon, req_traits_icon, req_augs_icon]: #[req_champions_icon]:
+    for reqfn in [req_items_icon, req_traits_icon, req_augs_icon, req_champions_icon]: #[]:
         objof=reqfn.__name__.removeprefix('req_').removesuffix('_icon')
         print(f'icon obj: {objof}')
         reqfn()

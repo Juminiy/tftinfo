@@ -3,8 +3,8 @@
 | -         | -                                                       |
 | **20%**   | 2 * ![Gold](../../tftspecs/icon/rewards/Gold.png)       |
 | **20%**   | 2 * ![Reroll](../../tftspecs/icon/rewards/Reroll.png)   |
-| **20%**   | ![AS](../../tftspecs/icon/fights/AS.svg),15%            |
-| **20%**   | ![AP](../../tftspecs/icon/fights/AP.svg),18             |
+| **20%**   | ![as](../../tftspecs/icon/fights/as.png),15%            |
+| **20%**   | ![ap](../../tftspecs/icon/fights/ap.png),18             |
 | **20%**   | ![Shield](../../tftspecs/icon/fights/Shield.jpg),160,8s |
 # Round: 2
 | **Rates** | **Rewards**                                                                                      |

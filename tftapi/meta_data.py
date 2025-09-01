@@ -241,6 +241,8 @@ set_rewards_config={
         'Warpath': RewardConfig(['Augment', 'Warpath']),
         'PrismaticPipeline': RewardConfig(['Augment', 'PrismaticPipeline']),
         'CalltoChaos': RewardConfig(['Augment', 'CalltoChaos']),
+        'LootOrbs': RewardConfig(['Loot', 'Orbs'], stk='Orb:Stage'),
+        'LootSubscription': RewardConfig(['Loot', 'Subscription']),
     },
     'set14': {
         'Cypher': RewardConfig(['Trait', 'Cypher'], 'Intel', 'Rewards', 'Odds', 'List'),

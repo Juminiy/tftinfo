@@ -13,7 +13,7 @@
 | **9,10,11**                 | 2 * ![LesserChampionDuplicator](../../tftspecs/icon/rewards/LesserChampionDuplicator.png) | 10 * ![Gold](../../tftspecs/icon/rewards/Gold.png) |
 | **12,13,14,15**             | ![ArtifactAnvil](../../tftspecs/icon/rewards/ArtifactAnvil.png)                           |                                                    |
 | **16,17**                   | 3 * ![Component](../../tftspecs/icon/rewards/Component.jpg)                               |                                                    |
-| **111,222,333,444,555,666** | 2 * ![Emblem](../../tftspecs/icon/rewards/Emblem.png)                                     |                                                    |
+| **111,222,333,444,555,666** | 2 * ![Emblem](../../tftspecs/icon/rewards/Emblem.jpg)                                     |                                                    |
 # Phase: 4-1
 | **DiceTotal**               | **Rewards**                                                                                                                    |                                                                           |
 | -                           | -                                                                                                                              | -                                                                         |

@@ -8,6 +8,6 @@
 | **10%**   | 3 * ![ThiefsGloves](../../tftitems/icon/set13/Craftable/ThiefsGloves.png)                                                  |                                                                             |
 | **10%**   | ![Dummy](../../tftspecs/icon/rewards/Dummy.png)                                                                            | 2 * ![Lockets](../../tftitems/icon/set13/Support/LocketoftheIronSolari.png) |
 | **10%**   | ![Dummy](../../tftspecs/icon/rewards/Dummy.png)                                                                            | 2 * ![Zekes](../../tftitems/icon/set13/Support/ZekesHerald.png)             |
-| **10%**   | 5 * ![Emblem](../../tftspecs/icon/rewards/Emblem.png)                                                                      |                                                                             |
+| **10%**   | 5 * ![Emblem](../../tftspecs/icon/rewards/Emblem.jpg)                                                                      |                                                                             |
 | **10%**   | 64 * ![exp](../../tftspecs/icon/rewards/exp.png)                                                                           |                                                                             |
 | **10%**   | 40 * ![Reroll](../../tftspecs/icon/rewards/Reroll.png)                                                                     |                                                                             |
