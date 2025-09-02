@@ -225,12 +225,12 @@ setitem_fakedkey2name=parse_item_key2name()
 def parse_rewards():
     for setof, setrwds in set_rewards_config.items():
         for nameof, cfgkey in setrwds.items():
-            # parse_set_rewards_scheme(setof, nameof, cfgkey, 'desc')
+            # parse_set_rewards_scheme(setof, nameof, cfgkey, 'text')
             # parse_set_rewards_scheme(setof, nameof, cfgkey, 'comic')
-            # parse_set_rewards_scheme_sparse(setof, nameof, cfgkey, 'desc')
+            # parse_set_rewards_scheme_sparse(setof, nameof, cfgkey, 'text')
             parse_set_rewards_scheme_sparse(setof, nameof, cfgkey, 'comic')
 
-def parse_set_rewards_scheme(setof:str, nameof:str, cfgkey:RewardConfig, outputtyp:Literal['desc','comic']):
+def parse_set_rewards_scheme(setof:str, nameof:str, cfgkey:RewardConfig, outputtyp:Literal['text','comic']='comic'):
     stacklevel=get_set_rewards_hard_objlist(setof, cfgkey)
 
     rwdgrid2d:list[list[str]]=[]
@@ -256,10 +256,14 @@ def parse_set_rewards_scheme(setof:str, nameof:str, cfgkey:RewardConfig, outputt
         )
         rwdmd.close()
 
-def parse_set_rewards_scheme_sparse(setof:str, nameof:str, cfgkey:RewardConfig,outputtyp:Literal['desc','comic']):
+def parse_set_rewards_scheme_sparse(setof:str, nameof:str, cfgkey:RewardConfig,outputtyp:Literal['text','comic']='comic',shortname:bool=True):
     stacklevel=get_set_rewards_hard_objlist(setof, cfgkey)
 
-    with open(f'tftmd/rewards/{setof}-{nameof}-{outputtyp}-sparse.md', 'w+') as rwdmd:
+    mdfilename=f'tftmd/rewards/{setof}-{nameof}-{outputtyp}-sparse.md'
+    if shortname:
+        mdfilename=f'tftmd/rewards/{setof}-{nameof}.md'
+
+    with open(mdfilename, 'w+') as rwdmd:
         stkkey=cfgkey['stacked_key']
         rwdkey=cfgkey['rewards_key']
         oddskey=cfgkey['rewards_odds_key']
@@ -295,7 +299,7 @@ def get_set_rewards_hard_objlist(setof:str, cfgkey:RewardConfig) -> list[dict[st
         rwdfile.close()
     return stacklevel
 
-def explain_rewards(setof: str, desc:str, outputtyp:Literal['desc','comic']) -> str:
+def explain_rewards(setof: str, desc:str, outputtyp:Literal['text','comic']) -> str:
     """
         follow the rule in: rewards-rules.txt
     """
