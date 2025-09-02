@@ -1140,7 +1140,7 @@
             "apiName": "TFT5_Item_FrozenHeartRadiant",
             "associatedTraits": [],
             "composition": [],
-            "desc": "Start of Combat: Gain @CombatStartMana@ Mana.<br><br>Lifeline: At @HealthThreshold@% Health, gain <TFTRadiantItemBonus>@TriggerMana@ Mana</TFTRadiantItemBonus> and a Shield equal to <TFTRadiantItemBonus>@ShieldHealthPercent@% max Health</TFTRadiantItemBonus>.",
+            "desc": "Start of Combat: Gain @CombatStartMana@ Mana.<br><br>At @HealthThreshold@% Health, gain <TFTRadiantItemBonus>@TriggerMana@ Mana</TFTRadiantItemBonus> and a Shield equal to <TFTRadiantItemBonus>@ShieldHealthPercent@% max Health</TFTRadiantItemBonus>.",
             "effects": {
                 "Armor": 50,
                 "CombatStartMana": 20,
@@ -1196,8 +1196,8 @@
             "composition": [],
             "desc": "<tftitemrules>A blessing from the golem spirits, granting overflowing arcane energy.</tftitemrules>",
             "effects": {
-                "AD": 0.6000000238418579,
-                "AP": 60,
+                "AD": 0.44999998807907104,
+                "AP": 45,
                 "ManaRegen": 10
             },
             "from": null,
@@ -1407,8 +1407,8 @@
             "desc": "Gain <TFTRadiantItemBonus>@AttackSpeedPerStack@%</TFTRadiantItemBonus> stacking Attack Speed every second.",
             "effects": {
                 "AP": 30,
-                "AS": 30,
-                "AttackSpeedPerStack": 14
+                "AS": 25,
+                "AttackSpeedPerStack": 12
             },
             "from": null,
             "icon": "ASSETS/Maps/TFT/Icons/Items/Hexcore/TFT5_Item_GuinsoosRagebladeRadiant.TFT_Set13.tex",
@@ -1424,7 +1424,7 @@
                     "type": "variable",
                     "full_match": "@AttackSpeedPerStack@",
                     "hash": "aa03e0b1",
-                    "value": 14
+                    "value": 12
                 }
             ]
         },
@@ -1730,14 +1730,15 @@
             "apiName": "TFT5_Item_GuardianAngelRadiant",
             "associatedTraits": [],
             "composition": [],
-            "desc": "<TFTBonus>Lifeline:</TFTBonus> At @HealthThreshold@% Health, briefly become untargetable and shed negative effects.",
+            "desc": "At @HealthThreshold@% Health, briefly become untargetable, shed negative effects, and <TFTRadiantItemBonus>heal all missing health</TFTRadiantItemBonus>.",
             "effects": {
-                "AD": 0.25,
-                "AP": 30,
-                "AS": 40,
+                "AD": 0.20000000298023224,
+                "AP": 20,
+                "AS": 30,
                 "Armor": 20,
                 "DamageReduction": 100,
                 "HealthThreshold": 60,
+                "MissingHealthRestore": 1,
                 "StealthDuration": 1
             },
             "from": null,
@@ -2180,8 +2181,8 @@
             "composition": [],
             "desc": "Attacks grant <TFTRadiantItemBonus>@FlatManaRestore@ bonus Mana</TFTRadiantItemBonus>.",
             "effects": {
-                "AD": 0.3499999940395355,
-                "AP": 30,
+                "AD": 0.30000001192092896,
+                "AP": 25,
                 "FlatManaRestore": 10,
                 "ManaRegen": 2
             },
@@ -2261,7 +2262,7 @@
             "composition": [],
             "desc": "Abilities can critically strike.<br><br>If the holder's abilities can already critically strike, gain @CritDamageToGive*100@% Critical Strike Damage instead.",
             "effects": {
-                "AD": 0.699999988079071,
+                "AD": 0.6499999761581421,
                 "CritChance": 75,
                 "CritDamageToGive": 0.10000000149011612
             },
@@ -2309,8 +2310,8 @@
             "composition": [],
             "desc": "Gain an additional <TFTRadiantItemBonus>@ManaPercIncrease*100@%</TFTRadiantItemBonus> Mana from all sources. The wearer gains an additional bonus based on their Role:<br><br>Tank/Fighter: Gain <TFTRadiantItemBonus>@FrontlineResists@</TFTRadiantItemBonus> Armor and Magic Resistance.<br><br>Marksman/Caster: Gain <TFTRadiantItemBonus>@BacklineADAP@</TFTRadiantItemBonus> Attack Damage and Ability Power. ",
             "effects": {
-                "BacklineADAP": 30,
-                "FrontlineResists": 60,
+                "BacklineADAP": 45,
+                "FrontlineResists": 75,
                 "MagicResist": 40,
                 "ManaPercIncrease": 0.30000001192092896,
                 "ManaRegen": 4
@@ -2329,14 +2330,14 @@
                     "type": "variable",
                     "full_match": "@FrontlineResists@",
                     "hash": "a6001a11",
-                    "value": 60
+                    "value": 75
                 },
                 {
                     "match": "BacklineADAP",
                     "type": "variable",
                     "full_match": "@BacklineADAP@",
                     "hash": "58fab714",
-                    "value": 30
+                    "value": 45
                 },
                 {
                     "match": "ManaPercIncrease",
@@ -2401,7 +2402,7 @@
                 "TFT_Item_TearOfTheGoddess",
                 "TFT_Item_ChainVest"
             ],
-            "desc": "Start of Combat: Gain @CombatStartMana@ Mana.<br><br>Lifeline: At @HealthThreshold@% Health, gain @TriggerMana@ Mana and a Shield equal to @ShieldHealthPercent@% max Health.",
+            "desc": "Start of Combat: Gain @CombatStartMana@ Mana.<br><br>At @HealthThreshold@% Health, gain @TriggerMana@ Mana and a Shield equal to @ShieldHealthPercent@% max Health.",
             "effects": {
                 "Armor": 25,
                 "CombatStartMana": 20,
@@ -4475,7 +4476,7 @@
             "effects": {
                 "AP": 10,
                 "AS": 10,
-                "AttackSpeedPerStack": 7
+                "AttackSpeedPerStack": 6
             },
             "from": null,
             "icon": "ASSETS/Maps/TFT/Icons/Items/Hexcore/TFT_Item_GuinsoosRageblade.TFT_Set13.tex",
@@ -4491,7 +4492,7 @@
                     "type": "variable",
                     "full_match": "@AttackSpeedPerStack@",
                     "hash": "aa03e0b1",
-                    "value": 7
+                    "value": 6
                 }
             ]
         },
@@ -5476,7 +5477,7 @@
                 "TFT_Item_BFSword",
                 "TFT_Item_ChainVest"
             ],
-            "desc": "<TFTBonus>Lifeline:</TFTBonus> At @HealthThreshold@% Health, briefly become untargetable and shed negative effects.",
+            "desc": "At @HealthThreshold@% Health, briefly become untargetable and shed negative effects.",
             "effects": {
                 "AD": 0.10000000149011612,
                 "AP": 10,
@@ -6399,7 +6400,7 @@
             ],
             "desc": "Attacks grant @FlatManaRestore@ bonus Mana.",
             "effects": {
-                "AD": 0.18000000715255737,
+                "AD": 0.15000000596046448,
                 "AP": 10,
                 "FlatManaRestore": 5,
                 "ManaRegen": 1
@@ -7059,7 +7060,7 @@
                 "AP": 10,
                 "APPerBonus": 5,
                 "AS": 15,
-                "ASPerStack": 0.07000000029802322,
+                "ASPerStack": 0.05999999865889549,
                 "StacksPerBonus": 5
             },
             "from": null,
@@ -7093,7 +7094,7 @@
                     "multiplier": "100",
                     "full_match": "@ASPerStack*100@",
                     "hash": "43afcd64",
-                    "value": 0.07
+                    "value": 0.06
                 },
                 {
                     "match": "ADPerBonus",
@@ -7116,7 +7117,7 @@
             "effects": {
                 "AD": 0.15000000596046448,
                 "AP": 15,
-                "ManaRegen": 5
+                "ManaRegen": 6
             },
             "from": null,
             "icon": "ASSETS/Maps/TFT/Icons/Items/Hexcore/TFT_Item_BlueBuff.TFT_Set13.tex",
@@ -7766,13 +7767,13 @@
             "apiName": "TFT_Item_Artifact_SilvermereDawn",
             "associatedTraits": [],
             "composition": [],
-            "desc": "Grants immunity to Stuns and the holder's attacks Stun the target for @StunDuration@ seconds. Convert @ManaConversion*100@% of damage taken into mana.<br><br><TFTShadowItemBonus>The holder's Attack Speed is locked at @AttackSpeedCap@.</TFTShadowItemBonus>",
+            "desc": "Grants immunity to Stuns and the holder's attacks Stun the target for @StunDuration@ seconds.<br><br><TFTShadowItemBonus>The holder's Attack Speed is locked at @AttackSpeedCap@.</TFTShadowItemBonus>",
             "effects": {
                 "AD": 1.100000023841858,
-                "Armor": 50,
+                "Armor": 60,
                 "AttackSpeedCap": 0.5,
-                "MagicResist": 50,
-                "ManaConversion": 0.009999999776482582,
+                "MagicResist": 60,
+                "ManaConversion": null,
                 "StunDuration": 0.800000011920929
             },
             "from": null,
@@ -7799,14 +7800,6 @@
                     "full_match": "@AttackSpeedCap@",
                     "hash": "aa475e00",
                     "value": 0.5
-                },
-                {
-                    "match": "ManaConversion",
-                    "type": "multiplier",
-                    "multiplier": "100",
-                    "full_match": "@ManaConversion*100@",
-                    "hash": "9f76cbea",
-                    "value": 0.01
                 }
             ]
         },
@@ -7902,7 +7895,7 @@
             "composition": [],
             "desc": "Takedowns increase the holder's Armor, Magic Resist, and Ability Power by @StatsPerTakedown@, increased to @StatsPerKill@ if they score the kill.",
             "effects": {
-                "AP": 30,
+                "AP": 40,
                 "Armor": 30,
                 "MagicResist": 30,
                 "StatsPerKill": 20,
@@ -8561,7 +8554,7 @@
                         "value": [
                             430,
                             650,
-                            1100
+                            1175
                         ]
                     },
                     {
@@ -8780,14 +8773,14 @@
             "squareIcon": "ASSETS/Characters/TFT15_Akali/Skins/Base/Images/TFT15_Akali_Mobile.TFT_Set15.tex",
             "stats": {
                 "armor": 65,
-                "attackSpeed": 0.85,
+                "attackSpeed": 0.8,
                 "critChance": 0.25,
                 "critMultiplier": 1.4,
                 "damage": 30,
                 "hp": 1050,
                 "initialMana": 0,
                 "magicResist": 65,
-                "mana": 30,
+                "mana": 40,
                 "range": 1
             },
             "tileIcon": "ASSETS/Characters/TFT15_Akali/HUD/TFT15_Akali_Square.TFT_Set15.tex",
@@ -9208,9 +9201,9 @@
                     {
                         "name": "ADDamage",
                         "value": [
-                            350,
-                            525,
-                            840
+                            330,
+                            495,
+                            790
                         ]
                     },
                     {
@@ -9224,9 +9217,9 @@
                     {
                         "name": "SecondaryAD",
                         "value": [
-                            95,
-                            145,
-                            240
+                            85,
+                            130,
+                            205
                         ]
                     },
                     {
@@ -9515,7 +9508,6 @@
                     "TFT15_MechanicTrait_FinalBoss",
                     "TFT15_MechanicTrait_Finalist",
                     "TFT15_MechanicTrait_Health",
-                    "TFT15_MechanicTrait_KillerInstinct",
                     "TFT15_MechanicTrait_Supremacy",
                     "TFT15_MechanicTrait_Thrillseeker",
                     "TFT15_MechanicTrait_Trickster",
@@ -10128,9 +10120,9 @@
                         {
                             "name": "BonusBaseAS",
                             "value": [
-                                0.20000000298023224,
-                                0.20000000298023224,
-                                0.20000000298023224
+                                0.30000001192092896,
+                                0.30000001192092896,
+                                0.30000001192092896
                             ]
                         },
                         {
@@ -10288,6 +10280,11 @@
                         "type": "BaseConeDamage",
                         "nameOverride": "Spell_TFT15_GwenSpell_ConeDamage",
                         "name": "Cone Damage: <magicDamage>@ModifiedConeDamage@ (%i:scaleAP%)</magicDamage>"
+                    },
+                    {
+                        "type": "ConeSplitDamage",
+                        "nameOverride": "Spell_TFT15_Gwen_ConeSplitDamage",
+                        "name": "Cone Split Damage: <magicDamage>@ModifiedConeSplitDamage@ (%i:scaleAP%)</magicDamage>"
                     },
                     {
                         "type": "BaseNeedleDamage",
@@ -10602,7 +10599,7 @@
                         "value": [
                             100,
                             150,
-                            2000
+                            3000
                         ]
                     },
                     {
@@ -10626,7 +10623,7 @@
                         "value": [
                             400,
                             450,
-                            2000
+                            1500
                         ]
                     },
                     {
@@ -11060,9 +11057,9 @@
                     {
                         "name": "RocketAttackAoEDamage",
                         "value": [
-                            520,
-                            750,
-                            3600
+                            575,
+                            875,
+                            4000
                         ]
                     },
                     {
@@ -11262,7 +11259,7 @@
                         "value": [
                             1.2,
                             1.8,
-                            8
+                            12
                         ]
                     },
                     {
@@ -12731,8 +12728,8 @@
                             "name": "BaseShield",
                             "value": [
                                 325,
-                                425,
-                                550
+                                400,
+                                500
                             ]
                         },
                         {
@@ -12794,17 +12791,17 @@
                         {
                             "name": "KnockupDamageHealthScale",
                             "value": [
-                                0.25,
-                                0.25,
-                                0.25
+                                0.18000000715255737,
+                                0.18000000715255737,
+                                0.18000000715255737
                             ]
                         },
                         {
                             "name": "LineDamageHealthScale",
                             "value": [
-                                0.10000000149011612,
-                                0.10000000149011612,
-                                0.10000000149011612
+                                0.07999999821186066,
+                                0.07999999821186066,
+                                0.07999999821186066
                             ]
                         },
                         {
@@ -13034,8 +13031,8 @@
                         {
                             "name": "BaseStrikeDamage",
                             "value": [
-                                295,
-                                445,
+                                325,
+                                500,
                                 8000
                             ]
                         },
@@ -13336,8 +13333,8 @@
                         {
                             "name": "InitialDamage",
                             "value": [
-                                450,
-                                675,
+                                525,
+                                800,
                                 50000
                             ]
                         },
@@ -13430,7 +13427,7 @@
                         "value": [
                             0.5,
                             0.75,
-                            5
+                            8
                         ]
                     },
                     {
@@ -14374,9 +14371,9 @@
                         {
                             "name": "BonusBaseAS",
                             "value": [
-                                0.25,
-                                0.25,
-                                0.25
+                                0.5,
+                                0.5,
+                                0.5
                             ]
                         }
                     ],
@@ -14624,8 +14621,8 @@
                     {
                         "name": "BaseShield",
                         "value": [
-                            100,
-                            120,
+                            90,
+                            110,
                             150
                         ]
                     },
@@ -14784,7 +14781,7 @@
                         "value": [
                             200,
                             300,
-                            2000
+                            3000
                         ]
                     },
                     {
@@ -14808,7 +14805,7 @@
                         "value": [
                             60,
                             90,
-                            600
+                            1000
                         ]
                     },
                     {
@@ -15274,8 +15271,8 @@
                     {
                         "name": "Damage",
                         "value": [
-                            720,
-                            1080,
+                            770,
+                            1155,
                             6000
                         ]
                     },
@@ -15284,7 +15281,7 @@
                         "value": [
                             110,
                             165,
-                            550
+                            1200
                         ]
                     }
                 ],
@@ -15456,8 +15453,8 @@
                         {
                             "name": "Damage",
                             "value": [
-                                750,
-                                1125,
+                                800,
+                                1200,
                                 6000
                             ]
                         },
@@ -15466,7 +15463,7 @@
                             "value": [
                                 110,
                                 165,
-                                550
+                                1200
                             ]
                         },
                         {
@@ -15482,7 +15479,7 @@
                             "value": [
                                 50,
                                 75,
-                                250
+                                450
                             ]
                         },
                         {
@@ -15533,8 +15530,8 @@
                     {
                         "name": "MegaCastAD",
                         "value": [
-                            280,
-                            420,
+                            230,
+                            345,
                             2200
                         ]
                     },
@@ -15549,8 +15546,8 @@
                     {
                         "name": "QBulletDamage",
                         "value": [
-                            90,
-                            135,
+                            80,
+                            120,
                             650
                         ]
                     },
@@ -15654,7 +15651,6 @@
                 "Primary": [
                     "TFT15_MechanicTrait_AttackExpert",
                     "TFT15_MechanicTrait_EssenceShare",
-                    "TFT15_MechanicTrait_FairyTail",
                     "TFT15_MechanicTrait_Finalist",
                     "TFT15_MechanicTrait_KillerInstinct",
                     "TFT15_MechanicTrait_ShadowJutsu",
@@ -15775,8 +15771,8 @@
                     {
                         "name": "BaseDamage",
                         "value": [
-                            135,
-                            205,
+                            150,
+                            225,
                             2468
                         ]
                     },
@@ -16275,9 +16271,9 @@
                     {
                         "name": "Damage",
                         "value": [
-                            230,
-                            345,
-                            520
+                            215,
+                            325,
+                            485
                         ]
                     },
                     {
@@ -17115,7 +17111,7 @@
                         "value": [
                             30,
                             45,
-                            70
+                            80
                         ]
                     },
                     {
@@ -17123,7 +17119,7 @@
                         "value": [
                             100,
                             150,
-                            250
+                            270
                         ]
                     },
                     {
@@ -17131,7 +17127,7 @@
                         "value": [
                             210,
                             315,
-                            530
+                            560
                         ]
                     },
                     {
@@ -17278,9 +17274,9 @@
                     {
                         "name": "Damage",
                         "value": [
-                            40,
-                            60,
-                            95
+                            50,
+                            75,
+                            115
                         ]
                     },
                     {
@@ -17547,17 +17543,17 @@
                     {
                         "name": "ADDamage",
                         "value": [
-                            135,
-                            200,
-                            330
+                            150,
+                            225,
+                            360
                         ]
                     },
                     {
                         "name": "APDamage",
                         "value": [
-                            40,
-                            60,
-                            100
+                            30,
+                            45,
+                            70
                         ]
                     }
                 ],
@@ -17692,25 +17688,25 @@
                         {
                             "name": "ADDamage",
                             "value": [
-                                135,
-                                200,
-                                330
+                                150,
+                                225,
+                                360
                             ]
                         },
                         {
                             "name": "TransformDamageRatio",
                             "value": [
-                                140,
-                                210,
-                                335
+                                100,
+                                150,
+                                240
                             ]
                         },
                         {
                             "name": "APDamage",
                             "value": [
-                                40,
-                                60,
-                                100
+                                30,
+                                45,
+                                70
                             ]
                         }
                     ],
@@ -17762,16 +17758,16 @@
                     {
                         "name": "ASPerAttack",
                         "value": [
-                            0.04,
-                            0.04,
+                            0.045,
+                            0.045,
                             0.25
                         ]
                     },
                     {
                         "name": "AttackMagicDamage",
                         "value": [
-                            90,
-                            135,
+                            100,
+                            160,
                             999
                         ]
                     },
@@ -17949,9 +17945,9 @@
                     {
                         "name": "PercentPageDamagePerPotential",
                         "value": [
-                            0.32,
-                            0.32,
-                            0.32
+                            0.3,
+                            0.3,
+                            0.3
                         ]
                     },
                     {
@@ -18538,9 +18534,9 @@
                     {
                         "name": "ADDamage",
                         "value": [
-                            110,
-                            165,
-                            650
+                            125,
+                            190,
+                            750
                         ]
                     },
                     {
@@ -18570,9 +18566,9 @@
                     {
                         "name": "TargetChangePercent",
                         "value": [
-                            1.2,
-                            1.2,
-                            1.2
+                            0.7,
+                            0.7,
+                            0.7
                         ]
                     }
                 ],
@@ -18891,9 +18887,9 @@
                     {
                         "name": "FireballDamage",
                         "value": [
-                            225,
-                            340,
-                            540
+                            215,
+                            325,
+                            515
                         ]
                     },
                     {
@@ -19050,9 +19046,9 @@
                     {
                         "name": "ADDamage",
                         "value": [
-                            350,
-                            525,
-                            870
+                            385,
+                            580,
+                            960
                         ]
                     },
                     {
@@ -19074,9 +19070,9 @@
                     {
                         "name": "APDamage",
                         "value": [
-                            35,
-                            55,
-                            85
+                            40,
+                            60,
+                            95
                         ]
                     }
                 ],
@@ -19302,16 +19298,16 @@
         },
         {
             "ability": {
-                "desc": "Deal <physicalDamage>@TotalDamage@&nbsp;(%i:scaleAD%)</physicalDamage> physical damage to the lowest health enemy within <TFTBonus>@ModifiedCastRange@&nbsp;(%i:scaleRange%)</TFTBonus>&nbsp;hexes. If the target dies, <TFTBonus>@ModifiedGoldChance@% %i:scaleAP%</TFTBonus> chance to gain 1 gold.<br><br>Gold Earned: @TFTUnitProperty.:TFT15_GangplankSpell_GoldCount@",
+                "desc": "Deal <physicalDamage>@TotalDamage@&nbsp;(%i:scaleAD%)</physicalDamage> physical damage to the lowest health enemy within <TFTBonus>@ModifiedCastRange@</TFTBonus>&nbsp;hexes. If the target dies, <TFTBonus>@ModifiedGoldChance@% %i:scaleAP%</TFTBonus> chance to gain 1 gold.<br><br>Gold Earned: @TFTUnitProperty.:TFT15_GangplankSpell_GoldCount@",
                 "icon": "ASSETS/Characters/TFT15_Gangplank/HUD/Icons2D/TFT15_Gangplank_Q.TFT_Set15.tex",
                 "name": "Golden Giga Gun",
                 "variables": [
                     {
                         "name": "ADDamage",
                         "value": [
-                            285,
-                            430,
-                            775
+                            305,
+                            460,
+                            815
                         ]
                     },
                     {
@@ -19329,9 +19325,9 @@
                     {
                         "name": "GoldChanceAPRatio",
                         "value": [
-                            40,
-                            40,
-                            40
+                            30,
+                            30,
+                            30
                         ]
                     }
                 ],
@@ -19401,14 +19397,14 @@
             "squareIcon": "ASSETS/Characters/TFT15_Gangplank/Skins/Base/Images/TFT15_Gangplank_Mobile.TFT_Set15.tex",
             "stats": {
                 "armor": 50,
-                "attackSpeed": 0.8,
+                "attackSpeed": 0.75,
                 "critChance": 0.25,
                 "critMultiplier": 1.4,
-                "damage": 50,
+                "damage": 45,
                 "hp": 750,
                 "initialMana": 0,
                 "magicResist": 50,
-                "mana": 40,
+                "mana": 50,
                 "range": 1
             },
             "tileIcon": "ASSETS/Characters/TFT15_Gangplank/HUD/TFT15_Gangplank_Square.TFT_Set15.tex",
@@ -19461,9 +19457,9 @@
                     {
                         "name": "BaseHeal",
                         "value": [
-                            300,
-                            350,
-                            420
+                            240,
+                            280,
+                            350
                         ]
                     },
                     {
@@ -19682,9 +19678,9 @@
                         {
                             "name": "PercentHPChairDamage",
                             "value": [
-                                0.05999999865889549,
-                                0.05999999865889549,
-                                0.05999999865889549
+                                0.07000000029802322,
+                                0.07000000029802322,
+                                0.07000000029802322
                             ]
                         },
                         {
@@ -19979,8 +19975,8 @@
                     {
                         "name": "Damage",
                         "value": [
-                            1125,
-                            1700,
+                            1050,
+                            1575,
                             6500
                         ]
                     },
@@ -22720,9 +22716,9 @@
                         {
                             "name": "Heal",
                             "value": [
-                                250,
-                                350,
-                                450
+                                300,
+                                400,
+                                550
                             ]
                         },
                         {
@@ -22772,9 +22768,9 @@
                         {
                             "name": "BonusBaseAS",
                             "value": [
-                                0.20000000298023224,
-                                0.20000000298023224,
-                                0.20000000298023224
+                                0.5,
+                                0.5,
+                                0.5
                             ]
                         }
                     ],
@@ -23246,78 +23242,6 @@
     ],
     "augments": [
         {
-            "apiName": "TFT11_Augment_Calltochaos",
-            "associatedTraits": [],
-            "composition": [],
-            "desc": "Gain a powerful and random reward.<br><br>Reward: @TFTUnitProperty.item:TFT11_Augment_CallToChaos@",
-            "effects": {
-                "Gold": 58,
-                "NumEmblems": 5,
-                "Rerolls": 40,
-                "ThreeStarGold": 20,
-                "XP": 64,
-                "numtg": 3,
-                "{4ffe8c09}": null,
-                "{8c58ac06}": 3,
-                "{8f15cad2}": 3,
-                "{917f9e2f}": 0.5,
-                "{927f9fc2}": 50,
-                "{96847027}": 25,
-                "{96f12d22}": 3
-            },
-            "from": null,
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/Hexcore/CallToChaos_III.tex",
-            "id": null,
-            "incompatibleTraits": [],
-            "name": "Call to Chaos",
-            "tags": [
-                "4-2"
-            ],
-            "unique": false,
-            "en_name": "Call to Chaos",
-            "texture": "CallToChaos_III",
-            "type": "regular"
-        },
-        {
-            "apiName": "TFT11_Augment_AtWhatCost",
-            "associatedTraits": [],
-            "composition": [],
-            "desc": "Immediately go to level @Level@ and gain @XP@ XP. You don't get to choose your future augments.",
-            "effects": {
-                "Gold": null,
-                "Level": 6,
-                "XP": 4
-            },
-            "from": null,
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/Hexcore/AtWhatCost_III.tex",
-            "id": null,
-            "incompatibleTraits": [],
-            "name": "At What Cost",
-            "tags": [
-                "2-1"
-            ],
-            "unique": false,
-            "en_name": "At What Cost",
-            "variable_matches": [
-                {
-                    "match": "Level",
-                    "type": "variable",
-                    "full_match": "@Level@",
-                    "hash": "9b99e7dd",
-                    "value": 6
-                },
-                {
-                    "match": "XP",
-                    "type": "variable",
-                    "full_match": "@XP@",
-                    "hash": "516374d5",
-                    "value": 4
-                }
-            ],
-            "texture": "AtWhatCost_III",
-            "type": "regular"
-        },
-        {
             "apiName": "TFT15_Augment_BattleAcademia_Hero101",
             "associatedTraits": [
                 "TFT15_BattleAcademia"
@@ -23558,7 +23482,13 @@
             "incompatibleTraits": [],
             "name": "Diamond Hands",
             "tags": [
-                "3-2"
+                "{ce1fd21c}",
+                "{b72bd3bf}",
+                "{39baf1c1}",
+                "{3754d0ae}",
+                "{7aaa3b47}",
+                "{d02ae323}",
+                "{d22ae649}"
             ],
             "unique": false,
             "en_name": "Diamond Hands",
@@ -24272,7 +24202,7 @@
             "composition": [],
             "desc": "The Mighty Mech gains @BonusDefenses@ Armor and Magic Resist and @BonusHealth@ Health. Gain 3 Mighty Mech champions. <br><br>Field 7 Mighty Mech, reach level 10, and hold all 3 Mighty Mech Augments to activate MECHA-MERGE PROTOCOL.",
             "effects": {
-                "BonusDefenses": 15,
+                "BonusDefenses": 10,
                 "BonusHealth": 100
             },
             "from": null,
@@ -24291,7 +24221,7 @@
                     "type": "variable",
                     "full_match": "@BonusDefenses@",
                     "hash": "bd072701",
-                    "value": 15
+                    "value": 10
                 },
                 {
                     "match": "BonusHealth",
@@ -24864,11 +24794,11 @@
                 "TFT15_SentaiRanger"
             ],
             "composition": [],
-            "desc": "The Mighty Mech gains @Health@ Health, @DA*100@% Damage Amp, and @DR*100@% Durability.<br><br>Field 7 Mighty Mech, reach level 10, and hold all 3 Mighty Mech Augments to activate MECHA-MERGE PROTOCOL.",
+            "desc": "The Mighty Mech gains @Health@ Health, @DA*100@% Damage Amp, and @DR*100@% Durability. Gain a Yone.<br><br>Field 7 Mighty Mech, reach level 10, and hold all 3 Mighty Mech Augments to activate MECHA-MERGE PROTOCOL.",
             "effects": {
-                "DA": 0.25,
+                "DA": 0.15000000596046448,
                 "DR": 0.15000000596046448,
-                "Health": 800
+                "Health": 350
             },
             "from": null,
             "icon": "ASSETS/Maps/TFT/Icons/Augments/Hexcore/AndIllBeTheHead_III.TFT_Set15.tex",
@@ -24886,7 +24816,7 @@
                     "type": "variable",
                     "full_match": "@Health@",
                     "hash": "6b98ed8f",
-                    "value": 800
+                    "value": 350
                 },
                 {
                     "match": "DA",
@@ -24894,7 +24824,7 @@
                     "multiplier": "100",
                     "full_match": "@DA*100@",
                     "hash": "581cc856",
-                    "value": 0.25
+                    "value": 0.15
                 },
                 {
                     "match": "DR",
@@ -24925,9 +24855,7 @@
             "incompatibleTraits": [],
             "name": "Power Upload",
             "tags": [
-                "2-1",
-                "3-2",
-                "4-2"
+                "2-1"
             ],
             "unique": false,
             "en_name": "Power Upload",
@@ -25095,7 +25023,7 @@
             "desc": "Mark 1 hex per Strategist fielded. Allies standing in marked hexes gain @FlatHealth@ Health and @BonusDamage*100@% Damage Amp, Strategists gain @PercentIncrease*100@% more. Gain a Janna and Ziggs.",
             "effects": {
                 "BonusDamage": 0.11999999731779099,
-                "FlatHealth": 200,
+                "FlatHealth": 150,
                 "PercentIncrease": 1
             },
             "from": null,
@@ -25115,7 +25043,7 @@
                     "type": "variable",
                     "full_match": "@FlatHealth@",
                     "hash": "54f15a70",
-                    "value": 200
+                    "value": 150
                 },
                 {
                     "match": "BonusDamage",
@@ -25258,7 +25186,7 @@
                 "TFT15_Bastion"
             ],
             "composition": [],
-            "desc": "Gain a Bastion Emblem, an Crownguard, and a Swain.",
+            "desc": "Gain a Bastion Emblem, a Crownguard, and a Swain.",
             "effects": {},
             "from": null,
             "icon": "ASSETS/Maps/TFT/Icons/Augments/Hexcore/Crown_Bastion_III.TFT_Set15.tex",
@@ -25324,7 +25252,7 @@
             "composition": [],
             "desc": "Enemies who take damage from Sorcerer Abilities deal @DamageReduction*100%@ less damage for @Duration@ seconds. Gain a Lux and a Lucian.",
             "effects": {
-                "DamageReduction": 0.25,
+                "DamageReduction": 0.20000000298023224,
                 "Duration": 6
             },
             "from": null,
@@ -25353,7 +25281,7 @@
                     "multiplier": "100%",
                     "full_match": "@DamageReduction*100%@",
                     "hash": "c1154e11",
-                    "value": 0.25
+                    "value": 0.2
                 }
             ],
             "texture": "DazzlingDisplay_II",
@@ -25452,7 +25380,7 @@
             "composition": [],
             "desc": "When you field @MaxStarGuardians@ or less Star Guardians, increase Star Guardian bonuses by @BonusIncrease*100@%. Gain a Syndra and Rell.",
             "effects": {
-                "BonusIncrease": 1.75,
+                "BonusIncrease": 2,
                 "MaxStarGuardians": 3
             },
             "from": null,
@@ -25481,7 +25409,7 @@
                     "multiplier": "100",
                     "full_match": "@BonusIncrease*100@",
                     "hash": "0f411994",
-                    "value": 1.75
+                    "value": 2
                 }
             ],
             "texture": "TinyTeam_II",
@@ -25538,8 +25466,8 @@
             "composition": [],
             "desc": "At combat start and whenever the Shadow Realm strikes, Wraith champions gain @AD*100@% Attack Damage and @AP@ Ability Power. Gain a Jhin and Zac.",
             "effects": {
-                "AD": 0.05000000074505806,
-                "AP": 5
+                "AD": 0.05999999865889549,
+                "AP": 6
             },
             "from": null,
             "icon": "ASSETS/Maps/TFT/Icons/Augments/Hexcore/DeeperShadows_II.TFT_Set15.tex",
@@ -25559,7 +25487,7 @@
                     "type": "variable",
                     "full_match": "@AP@",
                     "hash": "5b251bd4",
-                    "value": 5
+                    "value": 6
                 },
                 {
                     "match": "AD",
@@ -25567,7 +25495,7 @@
                     "multiplier": "100",
                     "full_match": "@AD*100@",
                     "hash": "4724fc58",
-                    "value": 0.05
+                    "value": 0.06
                 }
             ],
             "texture": "DeeperShadows_II",
@@ -25579,7 +25507,7 @@
                 "TFT15_Juggernaut"
             ],
             "composition": [],
-            "desc": "Get a Juggernaut Emblem, an Anima Visage, and a Dr. Mundo.",
+            "desc": "Get a Juggernaut Emblem, a Spirit Visage, and a Dr. Mundo.",
             "effects": {},
             "from": null,
             "icon": "ASSETS/Maps/TFT/Icons/Augments/Hexcore/Crown_Juggernaut_III.TFT_Set15.tex",
@@ -25713,10 +25641,10 @@
                 "Breakpoint1": 1000,
                 "Breakpoint2": 5000,
                 "Breakpoint3": 10000,
-                "Breakpoint4": 20000,
-                "Breakpoint5": 50000,
-                "Breakpoint6": 90000,
-                "Breakpoint7": 115000
+                "Breakpoint4": 25000,
+                "Breakpoint5": 60000,
+                "Breakpoint6": 100000,
+                "Breakpoint7": 130000
             },
             "from": null,
             "icon": "ASSETS/Maps/TFT/Icons/Augments/Hexcore/TournamentFavorites_II.TFT_Set15.tex",
@@ -25741,7 +25669,7 @@
             "effects": {
                 "DA": 0.10000000149011612,
                 "DR": 0.10000000149011612,
-                "Health": 400
+                "Health": 250
             },
             "from": null,
             "icon": "ASSETS/Maps/TFT/Icons/Augments/Hexcore/AndIllbethehead_II.TFT_Set15.tex",
@@ -25759,7 +25687,7 @@
                     "type": "variable",
                     "full_match": "@Health@",
                     "hash": "6b98ed8f",
-                    "value": 400
+                    "value": 250
                 },
                 {
                     "match": "DA",
@@ -26152,9 +26080,9 @@
                 "TFT15_SentaiRanger"
             ],
             "composition": [],
-            "desc": "The Mighty Mech gains @BonusAS*100@% Attack Speed. Gain a Senna and Gangplank.<br><br>Field 7 Mighty Mech, reach level 10, and hold all 3 Mighty Mech Augments to activate MECHA-MERGE PROTOCOL.",
+            "desc": "The Mighty Mech gains @BonusAS*100@% Attack Speed.<br><br>Field 7 Mighty Mech, reach level 10, and hold all 3 Mighty Mech Augments to activate MECHA-MERGE PROTOCOL.",
             "effects": {
-                "BonusAS": 0.6000000238418579
+                "BonusAS": 0.44999998807907104
             },
             "from": null,
             "icon": "ASSETS/Maps/TFT/Icons/Augments/Hexcore/IllBeTheArms_II.TFT_Set15.tex",
@@ -26173,7 +26101,7 @@
                     "multiplier": "100",
                     "full_match": "@BonusAS*100@",
                     "hash": "d19caaa4",
-                    "value": 0.6
+                    "value": 0.45
                 }
             ],
             "texture": "IllBeTheArms_II",
@@ -26293,6 +26221,78 @@
             "unique": false,
             "en_name": "Supreme Cells Crest",
             "texture": "Crest_SupremeCells_II",
+            "type": "regular"
+        },
+        {
+            "apiName": "TFT11_Augment_Calltochaos",
+            "associatedTraits": [],
+            "composition": [],
+            "desc": "Gain a powerful and random reward.<br><br>Reward: @TFTUnitProperty.item:TFT11_Augment_CallToChaos@",
+            "effects": {
+                "Gold": 58,
+                "NumEmblems": 5,
+                "Rerolls": 40,
+                "ThreeStarGold": 20,
+                "XP": 64,
+                "numtg": 3,
+                "{4ffe8c09}": null,
+                "{8c58ac06}": 3,
+                "{8f15cad2}": 3,
+                "{917f9e2f}": 0.5,
+                "{927f9fc2}": 50,
+                "{96847027}": 25,
+                "{96f12d22}": 3
+            },
+            "from": null,
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/Hexcore/CallToChaos_III.tex",
+            "id": null,
+            "incompatibleTraits": [],
+            "name": "Call to Chaos",
+            "tags": [
+                "4-2"
+            ],
+            "unique": false,
+            "en_name": "Call to Chaos",
+            "texture": "CallToChaos_III",
+            "type": "regular"
+        },
+        {
+            "apiName": "TFT11_Augment_AtWhatCost",
+            "associatedTraits": [],
+            "composition": [],
+            "desc": "Immediately go to level @Level@ and gain @XP@ XP. You don't get to choose your future augments.",
+            "effects": {
+                "Gold": null,
+                "Level": 6,
+                "XP": 4
+            },
+            "from": null,
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/Hexcore/AtWhatCost_III.tex",
+            "id": null,
+            "incompatibleTraits": [],
+            "name": "At What Cost",
+            "tags": [
+                "2-1"
+            ],
+            "unique": false,
+            "en_name": "At What Cost",
+            "variable_matches": [
+                {
+                    "match": "Level",
+                    "type": "variable",
+                    "full_match": "@Level@",
+                    "hash": "9b99e7dd",
+                    "value": 6
+                },
+                {
+                    "match": "XP",
+                    "type": "variable",
+                    "full_match": "@XP@",
+                    "hash": "516374d5",
+                    "value": 4
+                }
+            ],
+            "texture": "AtWhatCost_III",
             "type": "regular"
         },
         {
@@ -28004,7 +28004,7 @@
                 "TFT15_Spellslinger"
             ],
             "composition": [],
-            "desc": "Summon a magical hero from another universe to fight for you. This hero is a  <TFTRadiantItemBonus>Sorcerer</TFTRadiantItemBonus> this game. Gain a Hand of Justice.<br><br>",
+            "desc": "Summon a magical hero from another universe to fight for you. This hero is a  <TFTRadiantItemBonus>Sorcerer</TFTRadiantItemBonus> this game.",
             "effects": {},
             "from": null,
             "icon": "ASSETS/Maps/TFT/Icons/Augments/Hexcore/Isekai_III.TFT_Set15.tex",
@@ -28802,7 +28802,7 @@
             "composition": [],
             "desc": "For every @ManaPerWhirlwind@ Mana your team spends, summon a whirlwind that knocks up enemies.",
             "effects": {
-                "ManaPerWhirlwind": 600,
+                "ManaPerWhirlwind": 550,
                 "StunDuration": 1.5,
                 "{67abbfa8}": 360
             },
@@ -28823,7 +28823,7 @@
                     "type": "variable",
                     "full_match": "@ManaPerWhirlwind@",
                     "hash": "a8cdaf35",
-                    "value": 600
+                    "value": 550
                 }
             ],
             "texture": "HowlingGale_II",
@@ -28864,7 +28864,7 @@
             "apiName": "TFT_Augment_Isekai_Strategist",
             "associatedTraits": [],
             "composition": [],
-            "desc": "Summon a magical hero from another universe to fight for you. This hero is a <TFTRadiantItemBonus>Strategist</TFTRadiantItemBonus> this game. Gain a Hand of Justice.<br><br>",
+            "desc": "Summon a magical hero from another universe to fight for you. This hero is a <TFTRadiantItemBonus>Strategist</TFTRadiantItemBonus> this game.<br>",
             "effects": {},
             "from": null,
             "icon": "ASSETS/Maps/TFT/Icons/Augments/Hexcore/Isekai_III.TFT_Set15.tex",
@@ -29744,9 +29744,9 @@
             "composition": [],
             "desc": "Combat Start: Burn all enemies for @TotalBurnPercent@% of their max Health over @Duration@ seconds and reduce healing received by @GrievousWoundsPercent@%.",
             "effects": {
-                "Duration": 12,
+                "Duration": 15,
                 "GrievousWoundsPercent": 33,
-                "TotalBurnPercent": 12
+                "TotalBurnPercent": 15
             },
             "from": null,
             "icon": "ASSETS/Maps/TFT/Icons/Augments/Hexcore/SunfireBoard2.tex",
@@ -29766,14 +29766,14 @@
                     "type": "variable",
                     "full_match": "@TotalBurnPercent@",
                     "hash": "4f70b3d1",
-                    "value": 12
+                    "value": 15
                 },
                 {
                     "match": "Duration",
                     "type": "variable",
                     "full_match": "@Duration@",
                     "hash": "2fa0fd0d",
-                    "value": 12
+                    "value": 15
                 },
                 {
                     "match": "GrievousWoundsPercent",
@@ -34845,10 +34845,10 @@
         {
             "apiName": "TFT_Augment_Isekai_Prodigy",
             "associatedTraits": [
-                "TFT15_Strategist"
+                "TFT15_Prodigy"
             ],
             "composition": [],
-            "desc": "Summon a magical hero from another universe to fight for you. This hero is a  <TFTRadiantItemBonus>Prodigy</TFTRadiantItemBonus> this game. Gain a Hand of Justice.<br><br>",
+            "desc": "Summon a magical hero from another universe to fight for you. This hero is a  <TFTRadiantItemBonus>Prodigy</TFTRadiantItemBonus> this game.<br><br>",
             "effects": {},
             "from": null,
             "icon": "ASSETS/Maps/TFT/Icons/Augments/Hexcore/Isekai_III.TFT_Set15.tex",
@@ -36142,7 +36142,7 @@
                     "minUnits": 1,
                     "style": 1,
                     "variables": {
-                        "Health": 300,
+                        "Health": 150,
                         "StunDuration": 1
                     },
                     "variable_matches": [
@@ -36151,7 +36151,7 @@
                             "type": "variable",
                             "full_match": "@Health@",
                             "hash": "6b98ed8f",
-                            "value": 300
+                            "value": 150
                         },
                         {
                             "match": "StunDuration",
@@ -36475,7 +36475,7 @@
                     "style": 1,
                     "variables": {
                         "7PeiceMult": 1.5,
-                        "7PieceAmp": 0.30000001192092896,
+                        "7PieceAmp": 0.20000000298023224,
                         "7PieceHealth": 500,
                         "GPPerDeathPVE": 2,
                         "GPPerRoundPVE": 10,
@@ -36487,7 +36487,7 @@
                         "PercentLost": 0.5,
                         "{0c71c65f}": 1,
                         "{4d6b4df4}": 2,
-                        "{83265d73}": 11,
+                        "{83265d73}": 13,
                         "{ce703dbd}": 1.25,
                         "{d45997e0}": 1.850000023841858
                     },
@@ -36543,7 +36543,7 @@
                             "multiplier": "100",
                             "full_match": "@7PieceAmp*100@",
                             "hash": "23edece6",
-                            "value": 0.3
+                            "value": 0.2
                         }
                     ]
                 },
@@ -36553,7 +36553,7 @@
                     "style": 5,
                     "variables": {
                         "7PeiceMult": 1.5,
-                        "7PieceAmp": 0.30000001192092896,
+                        "7PieceAmp": 0.20000000298023224,
                         "7PieceHealth": 500,
                         "GPPerDeathPVE": 3,
                         "GPPerRoundPVE": 15,
@@ -36565,7 +36565,7 @@
                         "PercentLost": 0.5,
                         "{0c71c65f}": 1,
                         "{4d6b4df4}": 2,
-                        "{83265d73}": 11,
+                        "{83265d73}": 13,
                         "{ce703dbd}": 1.25,
                         "{d45997e0}": 1.850000023841858
                     },
@@ -36621,7 +36621,7 @@
                             "multiplier": "100",
                             "full_match": "@7PieceAmp*100@",
                             "hash": "23edece6",
-                            "value": 0.3
+                            "value": 0.2
                         }
                     ]
                 },
@@ -36631,7 +36631,7 @@
                     "style": 5,
                     "variables": {
                         "7PeiceMult": 1.5,
-                        "7PieceAmp": 0.30000001192092896,
+                        "7PieceAmp": 0.20000000298023224,
                         "7PieceHealth": 500,
                         "GPPerDeathPVE": 3,
                         "GPPerRoundPVE": 15,
@@ -36643,7 +36643,7 @@
                         "PercentLost": 0.5,
                         "{0c71c65f}": 1,
                         "{4d6b4df4}": 2,
-                        "{83265d73}": 11,
+                        "{83265d73}": 13,
                         "{ce703dbd}": 1.25,
                         "{d45997e0}": 1.850000023841858
                     },
@@ -36699,7 +36699,7 @@
                             "multiplier": "100",
                             "full_match": "@7PieceAmp*100@",
                             "hash": "23edece6",
-                            "value": 0.3
+                            "value": 0.2
                         }
                     ]
                 },
@@ -36709,7 +36709,7 @@
                     "style": 6,
                     "variables": {
                         "7PeiceMult": 1.5,
-                        "7PieceAmp": 0.30000001192092896,
+                        "7PieceAmp": 0.20000000298023224,
                         "7PieceHealth": 500,
                         "DamageReduction": 0.9900000095367432,
                         "GPPerDeathPVE": 3,
@@ -36722,7 +36722,7 @@
                         "PercentLost": 0.5,
                         "{0c71c65f}": 1,
                         "{4d6b4df4}": 2,
-                        "{83265d73}": 11,
+                        "{83265d73}": 13,
                         "{ad97aeef}": 500,
                         "{ce703dbd}": 1.25,
                         "{d45997e0}": 1.850000023841858
@@ -36779,7 +36779,7 @@
                             "multiplier": "100",
                             "full_match": "@7PieceAmp*100@",
                             "hash": "23edece6",
-                            "value": 0.3
+                            "value": 0.2
                         }
                     ]
                 }
@@ -36792,7 +36792,7 @@
                 "PercentIncreasedGP": 1,
                 "PercentLost": 0.5,
                 "7PeiceMult": 1.5,
-                "7PieceAmp": 0.30000001192092896
+                "7PieceAmp": 0.20000000298023224
             },
             "units": [
                 {
@@ -36831,7 +36831,7 @@
                     "minUnits": 1,
                     "style": 1,
                     "variables": {
-                        "PercentDamage": 1.5
+                        "PercentDamage": 1.75
                     },
                     "variable_matches": [
                         {
@@ -36840,7 +36840,7 @@
                             "multiplier": "100",
                             "full_match": "@PercentDamage*100@",
                             "hash": "43961cf7",
-                            "value": 1.5
+                            "value": 1.75
                         }
                     ]
                 }
@@ -36862,9 +36862,9 @@
                     "minUnits": 1,
                     "style": 1,
                     "variables": {
-                        "Amount": 10,
+                        "Amount": 12,
                         "Interval": 10,
-                        "PerCombatAmount": 35
+                        "PerCombatAmount": 40
                     },
                     "variable_matches": [
                         {
@@ -36872,7 +36872,7 @@
                             "type": "variable",
                             "full_match": "@PerCombatAmount@",
                             "hash": "497d48e0",
-                            "value": 35
+                            "value": 40
                         },
                         {
                             "match": "Interval",
@@ -36886,7 +36886,7 @@
                             "type": "variable",
                             "full_match": "@Amount@",
                             "hash": "f785ce49",
-                            "value": 10
+                            "value": 12
                         }
                     ]
                 }
@@ -36910,14 +36910,14 @@
                     "minUnits": 1,
                     "style": 1,
                     "variables": {
-                        "AS1": 20,
-                        "AS2": 35,
-                        "AS3": 50,
-                        "AS4": 65,
+                        "AS1": 30,
+                        "AS2": 45,
+                        "AS3": 65,
+                        "AS4": 85,
                         "HP1": 300,
                         "HP2": 400,
-                        "HP3": 600,
-                        "HP4": 800,
+                        "HP3": 750,
+                        "HP4": 1000,
                         "Multiplier": 0.20000000298023224
                     },
                     "variable_matches": [
@@ -36935,7 +36935,7 @@
                             "level": "1",
                             "full_match": "@TFTTrait.TFT15_MechanicTrait_BuiltDifferent.1:HP4@",
                             "hash": "30991583",
-                            "value": 800
+                            "value": 1000
                         },
                         {
                             "match": "AS1",
@@ -36943,7 +36943,7 @@
                             "level": "1",
                             "full_match": "@TFTTrait.TFT15_MechanicTrait_BuiltDifferent.1:AS1@",
                             "hash": "f07287f4",
-                            "value": 20
+                            "value": 30
                         },
                         {
                             "match": "AS4",
@@ -36951,7 +36951,7 @@
                             "level": "1",
                             "full_match": "@TFTTrait.TFT15_MechanicTrait_BuiltDifferent.1:AS4@",
                             "hash": "ed72833b",
-                            "value": 65
+                            "value": 85
                         }
                     ]
                 }
@@ -36977,7 +36977,7 @@
                     "variables": {
                         "BonusDA": 0.10000000149011612,
                         "BonusDR": 0.20000000298023224,
-                        "BonusHealth": 1000
+                        "BonusHealth": 900
                     },
                     "variable_matches": [
                         {
@@ -36992,7 +36992,7 @@
                             "type": "variable",
                             "full_match": "@BonusHealth@",
                             "hash": "5260b352",
-                            "value": 1000
+                            "value": 900
                         },
                         {
                             "match": "BonusDR",
@@ -37017,9 +37017,9 @@
                     "minUnits": 2,
                     "style": 1,
                     "variables": {
-                        "BonusDA": 0.30000001192092896,
+                        "BonusDA": 0.20000000298023224,
                         "BonusDR": 0.25,
-                        "BonusHealth": 1400
+                        "BonusHealth": 1250
                     },
                     "variable_matches": [
                         {
@@ -37034,7 +37034,7 @@
                             "type": "variable",
                             "full_match": "@BonusHealth@",
                             "hash": "5260b352",
-                            "value": 1400
+                            "value": 1250
                         },
                         {
                             "match": "BonusDR",
@@ -37050,7 +37050,7 @@
                             "multiplier": "100",
                             "full_match": "@BonusDA*100@",
                             "hash": "a78f9c93",
-                            "value": 0.3
+                            "value": 0.2
                         }
                     ]
                 }
@@ -37077,7 +37077,7 @@
                     "style": 1,
                     "variables": {
                         "HealthPct": 10,
-                        "StatsPct": 35
+                        "StatsPct": 50
                     },
                     "variable_matches": [
                         {
@@ -37086,7 +37086,7 @@
                             "level": "1",
                             "full_match": "@TFTTrait.TFT15_MechanicTrait_RobustRanger.1:StatsPct@",
                             "hash": "6e817a73",
-                            "value": 35
+                            "value": 50
                         },
                         {
                             "match": "HealthPct",
@@ -37729,11 +37729,11 @@
                     "variables": {
                         "AhriDuration": 2,
                         "EmblemBonus": 0.10000000149011612,
-                        "ManaToPrismatic": 20000,
+                        "ManaToPrismatic": 18500,
                         "Multiplier": 1,
                         "SyndraTimer": 3,
                         "{02914815}": 0.10000000149011612,
-                        "{05ce3a8e}": 3,
+                        "{05ce3a8e}": 5,
                         "{1bb9c993}": 60,
                         "{39509739}": 0.03999999910593033,
                         "{40cdc45f}": 2,
@@ -37754,7 +37754,7 @@
                             "type": "variable",
                             "full_match": "@ManaToPrismatic@",
                             "hash": "b88c6065",
-                            "value": 20000
+                            "value": 18500
                         },
                         {
                             "match": "SyndraTimer",
@@ -37787,11 +37787,11 @@
                     "variables": {
                         "AhriDuration": 2,
                         "EmblemBonus": 0.10000000149011612,
-                        "ManaToPrismatic": 20000,
+                        "ManaToPrismatic": 18500,
                         "Multiplier": 1.100000023841858,
                         "SyndraTimer": 3,
                         "{02914815}": 0.10000000149011612,
-                        "{05ce3a8e}": 3,
+                        "{05ce3a8e}": 5,
                         "{1bb9c993}": 60,
                         "{39509739}": 0.03999999910593033,
                         "{40cdc45f}": 2,
@@ -37812,7 +37812,7 @@
                             "type": "variable",
                             "full_match": "@ManaToPrismatic@",
                             "hash": "b88c6065",
-                            "value": 20000
+                            "value": 18500
                         },
                         {
                             "match": "SyndraTimer",
@@ -37845,11 +37845,11 @@
                     "variables": {
                         "AhriDuration": 2,
                         "EmblemBonus": 0.10000000149011612,
-                        "ManaToPrismatic": 20000,
+                        "ManaToPrismatic": 18500,
                         "Multiplier": 1.2000000476837158,
                         "SyndraTimer": 3,
                         "{02914815}": 0.10000000149011612,
-                        "{05ce3a8e}": 3,
+                        "{05ce3a8e}": 5,
                         "{1bb9c993}": 60,
                         "{39509739}": 0.03999999910593033,
                         "{40cdc45f}": 2,
@@ -37870,7 +37870,7 @@
                             "type": "variable",
                             "full_match": "@ManaToPrismatic@",
                             "hash": "b88c6065",
-                            "value": 20000
+                            "value": 18500
                         },
                         {
                             "match": "SyndraTimer",
@@ -37903,11 +37903,11 @@
                     "variables": {
                         "AhriDuration": 2,
                         "EmblemBonus": 0.10000000149011612,
-                        "ManaToPrismatic": 20000,
+                        "ManaToPrismatic": 18500,
                         "Multiplier": 1.2999999523162842,
                         "SyndraTimer": 3,
                         "{02914815}": 0.10000000149011612,
-                        "{05ce3a8e}": 3,
+                        "{05ce3a8e}": 5,
                         "{1bb9c993}": 60,
                         "{39509739}": 0.03999999910593033,
                         "{40cdc45f}": 2,
@@ -37928,7 +37928,7 @@
                             "type": "variable",
                             "full_match": "@ManaToPrismatic@",
                             "hash": "b88c6065",
-                            "value": 20000
+                            "value": 18500
                         },
                         {
                             "match": "SyndraTimer",
@@ -37961,11 +37961,11 @@
                     "variables": {
                         "AhriDuration": 2,
                         "EmblemBonus": 0.10000000149011612,
-                        "ManaToPrismatic": 20000,
+                        "ManaToPrismatic": 18500,
                         "Multiplier": 1.399999976158142,
                         "SyndraTimer": 3,
                         "{02914815}": 0.10000000149011612,
-                        "{05ce3a8e}": 3,
+                        "{05ce3a8e}": 5,
                         "{1bb9c993}": 60,
                         "{39509739}": 0.03999999910593033,
                         "{40cdc45f}": 2,
@@ -37986,7 +37986,7 @@
                             "type": "variable",
                             "full_match": "@ManaToPrismatic@",
                             "hash": "b88c6065",
-                            "value": 20000
+                            "value": 18500
                         },
                         {
                             "match": "SyndraTimer",
@@ -38019,11 +38019,11 @@
                     "variables": {
                         "AhriDuration": 2,
                         "EmblemBonus": 0.10000000149011612,
-                        "ManaToPrismatic": 20000,
+                        "ManaToPrismatic": 18500,
                         "Multiplier": 1.4500000476837158,
                         "SyndraTimer": 3,
                         "{02914815}": 0.10000000149011612,
-                        "{05ce3a8e}": 3,
+                        "{05ce3a8e}": 5,
                         "{1bb9c993}": 60,
                         "{39509739}": 0.03999999910593033,
                         "{40cdc45f}": 2,
@@ -38044,7 +38044,7 @@
                             "type": "variable",
                             "full_match": "@ManaToPrismatic@",
                             "hash": "b88c6065",
-                            "value": 20000
+                            "value": 18500
                         },
                         {
                             "match": "SyndraTimer",
@@ -38077,11 +38077,11 @@
                     "variables": {
                         "AhriDuration": 2,
                         "EmblemBonus": 0.10000000149011612,
-                        "ManaToPrismatic": 20000,
+                        "ManaToPrismatic": 18500,
                         "Multiplier": 1.5,
                         "SyndraTimer": 3,
                         "{02914815}": 0.10000000149011612,
-                        "{05ce3a8e}": 3,
+                        "{05ce3a8e}": 5,
                         "{1bb9c993}": 60,
                         "{39509739}": 0.03999999910593033,
                         "{40cdc45f}": 2,
@@ -38102,7 +38102,7 @@
                             "type": "variable",
                             "full_match": "@ManaToPrismatic@",
                             "hash": "b88c6065",
-                            "value": 20000
+                            "value": 18500
                         },
                         {
                             "match": "SyndraTimer",
@@ -38135,11 +38135,11 @@
                     "variables": {
                         "AhriDuration": 2,
                         "EmblemBonus": 0.10000000149011612,
-                        "ManaToPrismatic": 20000,
+                        "ManaToPrismatic": 18500,
                         "Multiplier": 1.5,
                         "SyndraTimer": 3,
                         "{02914815}": 0.10000000149011612,
-                        "{05ce3a8e}": 3,
+                        "{05ce3a8e}": 5,
                         "{1bb9c993}": 60,
                         "{39509739}": 0.03999999910593033,
                         "{40cdc45f}": 2,
@@ -38163,11 +38163,11 @@
                     "variables": {
                         "AhriDuration": 2,
                         "EmblemBonus": 0.10000000149011612,
-                        "ManaToPrismatic": 20000,
+                        "ManaToPrismatic": 18500,
                         "Multiplier": 1.600000023841858,
                         "SyndraTimer": 3,
                         "{02914815}": 0.10000000149011612,
-                        "{05ce3a8e}": 3,
+                        "{05ce3a8e}": 5,
                         "{1bb9c993}": 60,
                         "{39509739}": 0.03999999910593033,
                         "{40cdc45f}": 2,
@@ -38188,7 +38188,7 @@
                             "type": "variable",
                             "full_match": "@ManaToPrismatic@",
                             "hash": "b88c6065",
-                            "value": 20000
+                            "value": 18500
                         },
                         {
                             "match": "SyndraTimer",
@@ -38221,11 +38221,11 @@
                     "variables": {
                         "AhriDuration": 2,
                         "EmblemBonus": 0.10000000149011612,
-                        "ManaToPrismatic": 20000,
+                        "ManaToPrismatic": 18500,
                         "Multiplier": 1.600000023841858,
                         "SyndraTimer": 3,
                         "{02914815}": 0.10000000149011612,
-                        "{05ce3a8e}": 3,
+                        "{05ce3a8e}": 5,
                         "{1bb9c993}": 60,
                         "{39509739}": 0.03999999910593033,
                         "{40cdc45f}": 2,
@@ -38249,11 +38249,11 @@
                     "variables": {
                         "AhriDuration": 2,
                         "EmblemBonus": 0.10000000149011612,
-                        "ManaToPrismatic": 20000,
+                        "ManaToPrismatic": 18500,
                         "Multiplier": 2,
                         "SyndraTimer": 3,
                         "{02914815}": 0.10000000149011612,
-                        "{05ce3a8e}": 3,
+                        "{05ce3a8e}": 5,
                         "{1bb9c993}": 60,
                         "{39509739}": 0.03999999910593033,
                         "{40cdc45f}": 2,
@@ -38274,7 +38274,7 @@
                             "type": "variable",
                             "full_match": "@ManaToPrismatic@",
                             "hash": "b88c6065",
-                            "value": 20000
+                            "value": 18500
                         },
                         {
                             "match": "SyndraTimer",
@@ -38307,11 +38307,11 @@
                     "variables": {
                         "AhriDuration": 2,
                         "EmblemBonus": 0.10000000149011612,
-                        "ManaToPrismatic": 20000,
+                        "ManaToPrismatic": 18500,
                         "Multiplier": 2,
                         "SyndraTimer": 3,
                         "{02914815}": 0.10000000149011612,
-                        "{05ce3a8e}": 3,
+                        "{05ce3a8e}": 5,
                         "{1bb9c993}": 60,
                         "{39509739}": 0.03999999910593033,
                         "{40cdc45f}": 2,
@@ -38343,7 +38343,7 @@
                 "TFT15_StarGuardian_SeraphineValue": 0.05000000074505806
             },
             "baseEffects": {
-                "ManaToPrismatic": 20000,
+                "ManaToPrismatic": 18500,
                 "SyndraTimer": 3,
                 "AhriDuration": 2,
                 "EmblemBonus": 0.10000000149011612
@@ -38479,7 +38479,7 @@
                         "ASScale": 0.009999999776482582,
                         "AttackAmount": 1.2999999523162842,
                         "ForcedAttackSpeed": 0.699999988079071,
-                        "Mana": 10
+                        "Mana": 5
                     },
                     "variable_matches": [
                         {
@@ -38488,7 +38488,7 @@
                             "level": "1",
                             "full_match": "@TFTTrait.TFT15_MechanicTrait_Precision.1:Mana@",
                             "hash": "d997830a",
-                            "value": 10
+                            "value": 5
                         },
                         {
                             "match": "ForcedAttackSpeed",
@@ -38550,7 +38550,7 @@
                         "Chill": 20,
                         "ChillDuration": 4,
                         "Duration": 3,
-                        "PctSpellDamage": 0.20000000298023224
+                        "PctSpellDamage": 0.30000001192092896
                     },
                     "variable_matches": [
                         {
@@ -38580,7 +38580,7 @@
                             "multiplier": "100",
                             "full_match": "@PctSpellDamage*100@",
                             "hash": "16eee037",
-                            "value": 0.2
+                            "value": 0.3
                         }
                     ]
                 }
@@ -38804,7 +38804,7 @@
                     "style": 1,
                     "variables": {
                         "AS": 0.6000000238418579,
-                        "Durability": 0.18000000715255737,
+                        "Durability": 0.11999999731779099,
                         "NumWeights": 10,
                         "PercentReduction": 0.5,
                         "WeightPerCombat": 1
@@ -38846,7 +38846,7 @@
                             "multiplier": "100",
                             "full_match": "@Durability*100@",
                             "hash": "bafa44a6",
-                            "value": 0.18
+                            "value": 0.12
                         }
                     ]
                 }
@@ -39035,7 +39035,7 @@
                     "variables": {
                         "Armor": 40,
                         "Damage": 25,
-                        "DamagePerStage": 5,
+                        "DamagePerStage": 8,
                         "ICD": 1
                     },
                     "variable_matches": [
@@ -39058,7 +39058,7 @@
                             "type": "variable",
                             "full_match": "@DamagePerStage@",
                             "hash": "50df1ce3",
-                            "value": 5
+                            "value": 8
                         },
                         {
                             "match": "ICD",
@@ -39292,8 +39292,8 @@
                     "minUnits": 1,
                     "style": 1,
                     "variables": {
-                        "HealthShare": 0.5,
-                        "MechHealth": 0.5,
+                        "HealthShare": 0.6000000238418579,
+                        "MechHealth": 0.6000000238418579,
                         "OtherStatShare": 1
                     },
                     "variable_matches": [
@@ -39310,7 +39310,7 @@
                             "multiplier": "100",
                             "full_match": "@HealthShare*100@",
                             "hash": "5e114466",
-                            "value": 0.5
+                            "value": 0.6
                         },
                         {
                             "match": "OtherStatShare",
@@ -39326,7 +39326,7 @@
                             "multiplier": "100",
                             "full_match": "@MechHealth*100@",
                             "hash": "2a84718a",
-                            "value": 0.5
+                            "value": 0.6
                         }
                     ]
                 },
@@ -39335,8 +39335,8 @@
                     "minUnits": 2,
                     "style": 1,
                     "variables": {
-                        "HealthShare": 0.5,
-                        "MechHealth": 0.5,
+                        "HealthShare": 0.6000000238418579,
+                        "MechHealth": 0.6000000238418579,
                         "OtherStatShare": 1
                     },
                     "variable_matches": [
@@ -39353,7 +39353,7 @@
                             "multiplier": "100",
                             "full_match": "@HealthShare*100@",
                             "hash": "5e114466",
-                            "value": 0.5
+                            "value": 0.6
                         },
                         {
                             "match": "OtherStatShare",
@@ -39369,7 +39369,7 @@
                             "multiplier": "100",
                             "full_match": "@MechHealth*100@",
                             "hash": "2a84718a",
-                            "value": 0.5
+                            "value": 0.6
                         }
                     ]
                 }
@@ -39377,7 +39377,7 @@
             "icon": "ASSETS/UX/TraitIcons/Trait_Icon_15_SecretTechnique.TFT_Set15.tex",
             "name": "Mech Pilot",
             "baseEffects": {
-                "MechHealth": 0.5
+                "MechHealth": 0.6000000238418579
             },
             "en_name": "Mech Pilot",
             "set15_mechanic": {
@@ -39873,7 +39873,7 @@
                     "minUnits": 1,
                     "style": 1,
                     "variables": {
-                        "PercentHealth": 85
+                        "PercentHealth": 60
                     },
                     "variable_matches": [
                         {
@@ -39882,7 +39882,7 @@
                             "level": "1",
                             "full_match": "@TFTTrait.TFT15_MechanicTrait_RoundTwo.1:PercentHealth@",
                             "hash": "f880a530",
-                            "value": 85
+                            "value": 60
                         }
                     ]
                 }
@@ -39921,8 +39921,7 @@
             "set15_mechanic": {
                 "Weight": 10,
                 "MaxStage": 2,
-                "IsStacking": true,
-                "IsPVEAllowed": true
+                "IsStacking": true
             }
         },
         {
@@ -39934,8 +39933,8 @@
                     "minUnits": 1,
                     "style": 1,
                     "variables": {
-                        "Amount": 0.009999999776482582,
-                        "Base": 0.07999999821186066
+                        "Amount": 0.014999999664723873,
+                        "Base": 0.10000000149011612
                     },
                     "variable_matches": [
                         {
@@ -39944,7 +39943,7 @@
                             "multiplier": "100",
                             "full_match": "@Base*100@",
                             "hash": "3ddc94d8",
-                            "value": 0.08
+                            "value": 0.1
                         },
                         {
                             "match": "Amount",
@@ -39952,7 +39951,7 @@
                             "multiplier": "100",
                             "full_match": "@Amount*100@",
                             "hash": "f785ce49",
-                            "value": 0.01
+                            "value": 0.015
                         }
                     ]
                 }
@@ -39961,6 +39960,7 @@
             "name": "Max Speed",
             "en_name": "Max Speed",
             "set15_mechanic": {
+                "Weight": 10,
                 "MaxStage": 2,
                 "IsStacking": true,
                 "IsPVEAllowed": true
@@ -40388,7 +40388,7 @@
                     "style": 1,
                     "variables": {
                         "ADAPPerHat": 0.75,
-                        "BaseADAP": 20,
+                        "BaseADAP": 16,
                         "PercentHatLoss": 0.5
                     },
                     "variable_matches": [
@@ -40397,7 +40397,7 @@
                             "type": "variable",
                             "full_match": "@BaseADAP@",
                             "hash": "2768bb1c",
-                            "value": 20
+                            "value": 16
                         },
                         {
                             "match": "ADAPPerHat",
@@ -40487,7 +40487,7 @@
                     "style": 1,
                     "variables": {
                         "Amount": 1,
-                        "Base": 20
+                        "Base": 22
                     },
                     "variable_matches": [
                         {
@@ -40495,7 +40495,7 @@
                             "type": "variable",
                             "full_match": "@Base@",
                             "hash": "3ddc94d8",
-                            "value": 20
+                            "value": 22
                         },
                         {
                             "match": "Amount",
@@ -40681,6 +40681,7 @@
                     "TFT15_Kayle",
                     "TFT15_Jhin"
                 ],
+                "Weight": 5,
                 "IsCommon": true,
                 "IsPVEAllowed": true
             }
@@ -41146,7 +41147,7 @@
                     "style": 1,
                     "variables": {
                         "BonusNeedles": 2,
-                        "ReducedDamage": 0.5
+                        "ReducedDamage": 0.44999998807907104
                     },
                     "variable_matches": [
                         {
@@ -41162,7 +41163,7 @@
                             "multiplier": "100",
                             "full_match": "@ReducedDamage*100@",
                             "hash": "69ebc1b4",
-                            "value": 0.5
+                            "value": 0.45
                         }
                     ]
                 }
@@ -41366,7 +41367,7 @@
                     "variables": {
                         "ResistsPerDamageInstanceMagic": 6,
                         "ResistsPerDamageInstancePhysical": 1,
-                        "TotalResists": 55
+                        "TotalResists": 60
                     },
                     "variable_matches": [
                         {
@@ -41391,7 +41392,7 @@
                             "level": "1",
                             "full_match": "@TFTTrait.TFT15_MechanicTrait_AdaptiveSkin.1:TotalResists@",
                             "hash": "c7a0c9e4",
-                            "value": 55
+                            "value": 60
                         }
                     ]
                 }
@@ -41453,9 +41454,9 @@
                     "style": 1,
                     "variables": {
                         "APDamage1": 80,
-                        "APDamage2": 110,
-                        "APDamage3": 150,
-                        "APDamage4": 220,
+                        "APDamage2": 125,
+                        "APDamage3": 175,
+                        "APDamage4": 250,
                         "Duration": 8
                     },
                     "variable_matches": [
@@ -41473,7 +41474,7 @@
                             "level": "1",
                             "full_match": "@TFTTrait.TFT15_MechanicTrait_FairyTail.1:APDamage4@",
                             "hash": "7aeba763",
-                            "value": 220
+                            "value": 250
                         },
                         {
                             "match": "Duration",
@@ -42056,8 +42057,8 @@
                     "minUnits": 1,
                     "style": 1,
                     "variables": {
-                        "DamagePercent": 0.25,
-                        "{fee776bd}": 0.75
+                        "DamagePercent": 0.2199999988079071,
+                        "{fee776bd}": 0.5
                     },
                     "variable_matches": [
                         {
@@ -42067,7 +42068,7 @@
                             "multiplier": "100",
                             "full_match": "@TFTTrait.TFT15_MechanicTrait_ShadowJutsu.1:DamagePercent*100@",
                             "hash": "994018d1",
-                            "value": 0.25
+                            "value": 0.22
                         },
                         {
                             "match": "HealthMod",
@@ -42076,7 +42077,7 @@
                             "multiplier": "100",
                             "full_match": "@TFTTrait.TFT15_MechanicTrait_ShadowJutsu.1:HealthMod*100@",
                             "hash": "fee776bd",
-                            "value": 0.75
+                            "value": 0.5
                         }
                     ]
                 }
@@ -42183,7 +42184,7 @@
                     "minUnits": 1,
                     "style": 1,
                     "variables": {
-                        "APGain": 5,
+                        "APGain": 8,
                         "NumAdditionalShots": 1
                     },
                     "variable_matches": [
@@ -42199,7 +42200,7 @@
                             "type": "variable",
                             "full_match": "@APGain@",
                             "hash": "654f6457",
-                            "value": 5
+                            "value": 8
                         }
                     ]
                 }
@@ -42567,7 +42568,7 @@
                     "minUnits": 1,
                     "style": 1,
                     "variables": {
-                        "Reduction": 20
+                        "Reduction": 15
                     },
                     "variable_matches": [
                         {
@@ -42575,7 +42576,7 @@
                             "type": "variable",
                             "full_match": "@Reduction@",
                             "hash": "6f904512",
-                            "value": 20
+                            "value": 15
                         }
                     ]
                 }
@@ -42697,7 +42698,7 @@
                     "minUnits": 1,
                     "style": 1,
                     "variables": {
-                        "FlatDR": 30,
+                        "FlatDR": 25,
                         "Resists": null
                     },
                     "variable_matches": [
@@ -42707,7 +42708,7 @@
                             "level": "1",
                             "full_match": "@TFTTrait.TFT15_MechanicTrait_Resistant.1:FlatDR@",
                             "hash": "c9ad2078",
-                            "value": 30
+                            "value": 25
                         }
                     ]
                 }
@@ -43033,7 +43034,7 @@
                     "style": 1,
                     "variables": {
                         "Duration": 6,
-                        "ShieldAmount": 120
+                        "ShieldAmount": 135
                     },
                     "variable_matches": [
                         {
@@ -43042,7 +43043,7 @@
                             "level": "1",
                             "full_match": "@TFTTrait.TFT15_MechanicTrait_Caretaker.1:ShieldAmount@",
                             "hash": "40ee74ec",
-                            "value": 120
+                            "value": 135
                         },
                         {
                             "match": "Duration",
@@ -43823,7 +43824,7 @@
                         "NumDeathsStage3": 6,
                         "NumDeathsStage4": 4,
                         "Omnivamp": 10,
-                        "PctHealth": 25,
+                        "PctHealth": 18,
                         "Stats": 25
                     },
                     "variable_matches": [
@@ -43840,7 +43841,7 @@
                             "level": "1",
                             "full_match": "@TFTTrait.TFT15_MechanicTrait_NotDoneYet.1:PctHealth@",
                             "hash": "5ec66996",
-                            "value": 25
+                            "value": 18
                         },
                         {
                             "match": "Omnivamp",
@@ -44026,7 +44027,7 @@
                     "minUnits": 2,
                     "style": 1,
                     "variables": {
-                        "DamagePercent": 0.18000000715255737,
+                        "DamagePercent": 0.20000000298023224,
                         "HealPercent": 0.18000000715255737,
                         "NumEnemy": 3,
                         "RealmTimer": 5
@@ -44067,7 +44068,7 @@
                             "multiplier": "100",
                             "full_match": "@DamagePercent*100@",
                             "hash": "994018d1",
-                            "value": 0.18
+                            "value": 0.2
                         }
                     ]
                 },
@@ -44076,7 +44077,7 @@
                     "minUnits": 4,
                     "style": 3,
                     "variables": {
-                        "DamagePercent": 0.36000001430511475,
+                        "DamagePercent": 0.4000000059604645,
                         "HealPercent": 0.18000000715255737,
                         "NumEnemy": 3,
                         "RealmTimer": 5
@@ -44117,7 +44118,7 @@
                             "multiplier": "100",
                             "full_match": "@DamagePercent*100@",
                             "hash": "994018d1",
-                            "value": 0.36
+                            "value": 0.4
                         }
                     ]
                 },
@@ -44126,7 +44127,7 @@
                     "minUnits": 6,
                     "style": 5,
                     "variables": {
-                        "DamagePercent": 0.5,
+                        "DamagePercent": 0.6000000238418579,
                         "HealPercent": 0.18000000715255737,
                         "NumEnemy": 3,
                         "RealmTimer": 5
@@ -44167,7 +44168,7 @@
                             "multiplier": "100",
                             "full_match": "@DamagePercent*100@",
                             "hash": "994018d1",
-                            "value": 0.5
+                            "value": 0.6
                         }
                     ]
                 }
@@ -44420,7 +44421,7 @@
                     "variables": {
                         "NumHexes": 2,
                         "PercentHealth": 0.009999999776482582,
-                        "PermanentHealth": 8
+                        "PermanentHealth": 10
                     },
                     "variable_matches": [
                         {
@@ -44435,7 +44436,7 @@
                             "type": "variable",
                             "full_match": "@PermanentHealth@",
                             "hash": "b40a730f",
-                            "value": 8
+                            "value": 10
                         },
                         {
                             "match": "PercentHealth",
@@ -44591,7 +44592,7 @@
                     "minUnits": 1,
                     "style": 1,
                     "variables": {
-                        "Cadence": 1.5
+                        "Cadence": 2
                     },
                     "variable_matches": [
                         {
@@ -44599,7 +44600,7 @@
                             "type": "variable",
                             "full_match": "@Cadence@",
                             "hash": "c152cffc",
-                            "value": 1.5
+                            "value": 2
                         }
                     ]
                 }
@@ -44609,6 +44610,8 @@
             "en_name": "Super Genius",
             "set15_mechanic": {
                 "Weight": 10,
+                "MaxStage": 9,
+                "MinStage": 3,
                 "IsCommon": true,
                 "IsPVEAllowed": true
             }
@@ -44814,10 +44817,10 @@
         },
         {
             "apiName": "TFT15_MechanicTrait_FrostTouch",
-            "desc": "<row>(@MinUnits@) Attacks have a @PercentageChanceToTrigger@% chance to <TFTKeyword>Stun</TFTKeyword> the target for @StunDuration@ seconds.</row><br><row>(@MinUnits@) These attacks deal @DamagePerStage@ bonus magic damage per Stage.</row>",
+            "desc": "Attacks have a @PercentageChanceToTrigger@% chance to <TFTKeyword>Stun</TFTKeyword> the target for @StunDuration@ second.",
             "effects": [
                 {
-                    "maxUnits": 1,
+                    "maxUnits": 25000,
                     "minUnits": 1,
                     "style": 1,
                     "variables": {
@@ -44826,13 +44829,6 @@
                         "StunDuration": 1
                     },
                     "variable_matches": [
-                        {
-                            "match": "MinUnits",
-                            "type": "variable",
-                            "full_match": "@MinUnits@",
-                            "hash": "8912eb52",
-                            "value": 1
-                        },
                         {
                             "match": "PercentageChanceToTrigger",
                             "type": "variable",
@@ -44846,53 +44842,6 @@
                             "full_match": "@StunDuration@",
                             "hash": "29f3d7f1",
                             "value": 1
-                        },
-                        {
-                            "match": "DamagePerStage",
-                            "type": "variable",
-                            "full_match": "@DamagePerStage@",
-                            "hash": "50df1ce3",
-                            "value": 55
-                        }
-                    ]
-                },
-                {
-                    "maxUnits": 25000,
-                    "minUnits": 2,
-                    "style": 1,
-                    "variables": {
-                        "DamagePerStage": 55,
-                        "PercentageChanceToTrigger": 25,
-                        "StunDuration": 1
-                    },
-                    "variable_matches": [
-                        {
-                            "match": "MinUnits",
-                            "type": "variable",
-                            "full_match": "@MinUnits@",
-                            "hash": "8912eb52",
-                            "value": 2
-                        },
-                        {
-                            "match": "PercentageChanceToTrigger",
-                            "type": "variable",
-                            "full_match": "@PercentageChanceToTrigger@",
-                            "hash": "3e02154c",
-                            "value": 25
-                        },
-                        {
-                            "match": "StunDuration",
-                            "type": "variable",
-                            "full_match": "@StunDuration@",
-                            "hash": "29f3d7f1",
-                            "value": 1
-                        },
-                        {
-                            "match": "DamagePerStage",
-                            "type": "variable",
-                            "full_match": "@DamagePerStage@",
-                            "hash": "50df1ce3",
-                            "value": 55
                         }
                     ]
                 }
@@ -45111,7 +45060,7 @@
         },
         {
             "apiName": "TFT15_BattleAcademia",
-            "desc": "Battle Academia champions upgrade their abilities and gain Potential %i:set14AmpIcon%. Potential improves their abilities. <br><ShowIf.TFT15_BattleAcademia_NoPrismatic><br><rules>Prismatic: Field 7 Battle Academia champions, then earn @PrismaticItemRequirement@ points by using items.</rules><br></ShowIf.TFT15_BattleAcademia_NoPrismatic><ShowIf.TFT15_BattleAcademia_PrismaticPending><br><TFTRadiantItemBonus>Prismatic:</TFTRadiantItemBonus> Earn 1 point for every Completed item a champions uses in combat. Graduate at @PrismaticItemRequirement@ points. (@TFTUnitProperty.trait:TFT15_BattleAcademia_PrismaticNumItems@/@PrismaticItemRequirement@).<br></ShowIf.TFT15_BattleAcademia_PrismaticPending><ShowIf.TFT15_BattleAcademia_PrismaticActive><br><TFTRadiantItemBonus><br>True Potential Unlocked: +@UltimateNumPotential@ %i:set14AmpIcon%</TFTRadiantItemBonus><br></ShowIf.TFT15_BattleAcademia_PrismaticActive><br><row>(@MinUnits@) @NumPotential@ %i:set14AmpIcon%</row><br><row>(@MinUnits@) @NumPotential@ %i:set14AmpIcon%</row><br><row>(@MinUnits@) @NumPotential@ %i:set14AmpIcon%</row>",
+            "desc": "Battle Academia champions upgrade their abilities and gain Potential %i:set14AmpIcon%. Potential improves their abilities. <br><ShowIf.TFT15_BattleAcademia_NoPrismatic><br><rules>Prismatic: Field 7 Battle Academia champions, then earn @PrismaticItemRequirement@ points by equipping items on champions.</rules><br></ShowIf.TFT15_BattleAcademia_NoPrismatic><ShowIf.TFT15_BattleAcademia_PrismaticPending><br><TFTRadiantItemBonus>Prismatic:</TFTRadiantItemBonus> Earn 1 point for every Completed item a champions uses in combat. Graduate at @PrismaticItemRequirement@ points. (@TFTUnitProperty.trait:TFT15_BattleAcademia_PrismaticNumItems@/@PrismaticItemRequirement@).<br></ShowIf.TFT15_BattleAcademia_PrismaticPending><ShowIf.TFT15_BattleAcademia_PrismaticActive><br><TFTRadiantItemBonus><br>True Potential Unlocked: +@UltimateNumPotential@ %i:set14AmpIcon%</TFTRadiantItemBonus><br></ShowIf.TFT15_BattleAcademia_PrismaticActive><br><row>(@MinUnits@) @NumPotential@ %i:set14AmpIcon%</row><br><row>(@MinUnits@) @NumPotential@ %i:set14AmpIcon%</row><br><row>(@MinUnits@) @NumPotential@ %i:set14AmpIcon%</row>",
             "effects": [
                 {
                     "maxUnits": 4,
@@ -45121,7 +45070,7 @@
                         "DA": 0.10000000149011612,
                         "DR": 0.05000000074505806,
                         "NumPotential": 3,
-                        "PrismaticItemRequirement": 175,
+                        "PrismaticItemRequirement": 160,
                         "UltimateNumPotential": 10
                     },
                     "variable_matches": [
@@ -45130,7 +45079,7 @@
                             "type": "variable",
                             "full_match": "@PrismaticItemRequirement@",
                             "hash": "79bf7897",
-                            "value": 175
+                            "value": 160
                         },
                         {
                             "match": "UltimateNumPotential",
@@ -45163,7 +45112,7 @@
                         "DA": 0.25,
                         "DR": 0.10000000149011612,
                         "NumPotential": 5,
-                        "PrismaticItemRequirement": 175,
+                        "PrismaticItemRequirement": 160,
                         "UltimateNumPotential": 10
                     },
                     "variable_matches": [
@@ -45172,7 +45121,7 @@
                             "type": "variable",
                             "full_match": "@PrismaticItemRequirement@",
                             "hash": "79bf7897",
-                            "value": 175
+                            "value": 160
                         },
                         {
                             "match": "UltimateNumPotential",
@@ -45205,7 +45154,7 @@
                         "DA": 0.5,
                         "DR": 0.25,
                         "NumPotential": 7,
-                        "PrismaticItemRequirement": 175,
+                        "PrismaticItemRequirement": 160,
                         "UltimateNumPotential": 10
                     },
                     "variable_matches": [
@@ -45214,7 +45163,7 @@
                             "type": "variable",
                             "full_match": "@PrismaticItemRequirement@",
                             "hash": "79bf7897",
-                            "value": 175
+                            "value": 160
                         },
                         {
                             "match": "UltimateNumPotential",
@@ -45247,7 +45196,7 @@
                         "DA": 0.5,
                         "DR": 0.25,
                         "NumPotential": 7,
-                        "PrismaticItemRequirement": 175,
+                        "PrismaticItemRequirement": 160,
                         "UltimateNumPotential": 10
                     },
                     "variable_matches": []
@@ -45256,7 +45205,7 @@
             "icon": "ASSETS/UX/TraitIcons/Trait_Icon_15_BattleClub.TFT_Set15.tex",
             "name": "Battle Academia",
             "baseEffects": {
-                "PrismaticItemRequirement": 175,
+                "PrismaticItemRequirement": 160,
                 "UltimateNumPotential": 10
             },
             "units": [
@@ -45573,7 +45522,7 @@
             "name": "Fan Service",
             "en_name": "Fan Service",
             "set15_mechanic": {
-                "Weight": 15,
+                "Weight": 20,
                 "AllowMultiple": true,
                 "MaxStage": 4,
                 "IsDuo": true,
@@ -45628,9 +45577,9 @@
                     "style": 1,
                     "variables": {
                         "DamageAmp": 0.11999999731779099,
-                        "Health": 200,
+                        "Health": 150,
                         "ManaPerSecond": null,
-                        "NumRounds": 3,
+                        "NumRounds": 5,
                         "PercentIncrease": 2
                     },
                     "variable_matches": [
@@ -45639,14 +45588,14 @@
                             "type": "variable",
                             "full_match": "@NumRounds@",
                             "hash": "2a0d265e",
-                            "value": 3
+                            "value": 5
                         },
                         {
                             "match": "Health",
                             "type": "variable",
                             "full_match": "@Health@",
                             "hash": "6b98ed8f",
-                            "value": 200
+                            "value": 150
                         },
                         {
                             "match": "DamageAmp",
@@ -45764,7 +45713,7 @@
                     "minUnits": 1,
                     "style": 1,
                     "variables": {
-                        "ManaPct": 0.25,
+                        "ManaPct": 0.3499999940395355,
                         "NumAllies": 2
                     },
                     "variable_matches": [
@@ -45782,7 +45731,7 @@
                             "multiplier": "100",
                             "full_match": "@TFTTrait.TFT15_MechanicTrait_EssenceShare.1:ManaPct*100@",
                             "hash": "c2d9b759",
-                            "value": 0.25
+                            "value": 0.35
                         }
                     ]
                 }
@@ -45805,7 +45754,7 @@
                     "minUnits": 1,
                     "style": 1,
                     "variables": {
-                        "PercentIgnore": 35
+                        "PercentIgnore": 40
                     },
                     "variable_matches": [
                         {
@@ -45813,7 +45762,7 @@
                             "type": "variable",
                             "full_match": "@PercentIgnore@",
                             "hash": "8f0cca7c",
-                            "value": 35
+                            "value": 40
                         }
                     ]
                 }
@@ -45835,7 +45784,7 @@
                     "minUnits": 1,
                     "style": 1,
                     "variables": {
-                        "IncreasedDamage": 0.4000000059604645,
+                        "IncreasedDamage": 0.3499999940395355,
                         "NumEnemies": 1
                     },
                     "variable_matches": [
@@ -45845,7 +45794,7 @@
                             "multiplier": "100",
                             "full_match": "@IncreasedDamage*100@",
                             "hash": "78fa1b6a",
-                            "value": 0.4
+                            "value": 0.35
                         }
                     ]
                 }
@@ -45902,7 +45851,7 @@
                     "style": 1,
                     "variables": {
                         "ADBonus": 0.15000000596046448,
-                        "HealRatio": 0.20000000298023224,
+                        "HealRatio": 0.15000000596046448,
                         "HealthRatio": 0.5,
                         "ShieldDuration": 5,
                         "StunDuration": 1
@@ -45944,7 +45893,7 @@
                             "multiplier": "100",
                             "full_match": "@HealRatio*100@",
                             "hash": "83dbe64e",
-                            "value": 0.2
+                            "value": 0.15
                         }
                     ]
                 },
@@ -45954,7 +45903,7 @@
                     "style": 5,
                     "variables": {
                         "ADBonus": 0.4000000059604645,
-                        "HealRatio": 0.5,
+                        "HealRatio": 0.3499999940395355,
                         "HealthRatio": 0.5,
                         "ShieldDuration": 5,
                         "StunDuration": 1
@@ -45996,7 +45945,7 @@
                             "multiplier": "100",
                             "full_match": "@HealRatio*100@",
                             "hash": "83dbe64e",
-                            "value": 0.5
+                            "value": 0.35
                         }
                     ]
                 }
@@ -46076,8 +46025,8 @@
                     "minUnits": 1,
                     "style": 1,
                     "variables": {
-                        "MagicResist": 10,
-                        "ShieldPercent": 0.4000000059604645
+                        "MagicResist": 25,
+                        "ShieldPercent": 0.5
                     },
                     "variable_matches": [
                         {
@@ -46085,7 +46034,7 @@
                             "type": "variable",
                             "full_match": "@MagicResist@",
                             "hash": "b6f318ee",
-                            "value": 10
+                            "value": 25
                         },
                         {
                             "match": "ShieldPercent",
@@ -46093,7 +46042,7 @@
                             "multiplier": "100",
                             "full_match": "@ShieldPercent*100@",
                             "hash": "13eac741",
-                            "value": 0.4
+                            "value": 0.5
                         }
                     ]
                 }
@@ -46155,7 +46104,7 @@
                     "style": 1,
                     "variables": {
                         "AutoAttackDamage": 65,
-                        "GalioHealRatio": 0.10000000149011612,
+                        "GalioHealRatio": 0.12099999934434891,
                         "NumItems": 1,
                         "{0d36fce1}": 1,
                         "{2b3aecac}": 0.1599999964237213,
@@ -46182,7 +46131,7 @@
                             "multiplier": "100",
                             "full_match": "@GalioHealRatio*100@",
                             "hash": "1beaf4d0",
-                            "value": 0.1
+                            "value": 0.121
                         }
                     ]
                 },
@@ -46192,7 +46141,7 @@
                     "style": 3,
                     "variables": {
                         "AutoAttackDamage": 100,
-                        "GalioHealRatio": 0.10000000149011612,
+                        "GalioHealRatio": 0.12099999934434891,
                         "Health": 1300,
                         "NumItems": 2,
                         "{0d36fce1}": 2,
@@ -46220,7 +46169,7 @@
                             "multiplier": "100",
                             "full_match": "@GalioHealRatio*100@",
                             "hash": "1beaf4d0",
-                            "value": 0.1
+                            "value": 0.121
                         }
                     ]
                 },
@@ -46230,7 +46179,7 @@
                     "style": 5,
                     "variables": {
                         "AutoAttackDamage": 110,
-                        "GalioHealRatio": 0.10000000149011612,
+                        "GalioHealRatio": 0.12099999934434891,
                         "Health": 2000,
                         "NumItems": 3,
                         "{0d36fce1}": 3,
@@ -46258,7 +46207,7 @@
                             "multiplier": "100",
                             "full_match": "@GalioHealRatio*100@",
                             "hash": "1beaf4d0",
-                            "value": 0.1
+                            "value": 0.121
                         }
                     ]
                 },
@@ -46268,7 +46217,7 @@
                     "style": 6,
                     "variables": {
                         "AutoAttackDamage": 120,
-                        "GalioHealRatio": 0.10000000149011612,
+                        "GalioHealRatio": 0.12099999934434891,
                         "Health": 2000,
                         "NumItems": 3,
                         "{0d36fce1}": 4,
@@ -46288,7 +46237,7 @@
             "icon": "ASSETS/UX/TraitIcons/Trait_Icon_15_RoboRangers.TFT_Set15.tex",
             "name": "Mighty Mech",
             "baseEffects": {
-                "GalioHealRatio": 0.10000000149011612
+                "GalioHealRatio": 0.12099999934434891
             },
             "units": [
                 {
@@ -49040,6 +48989,7 @@
         },
         "TFT15_OpeningEncounter_BeachEpisode": {
             "ChampionSkin": "TFT15_Ahri",
+            "EncounterRulesText": "Beach Episode! Gain a beach ball that Tacticians can toss around!",
             "apiName": "TFT15_OpeningEncounter_BeachEpisode",
             "stages": [
                 1
@@ -49055,6 +49005,7 @@
         },
         "TFT15_OpeningEncounter_WinnersCircle": {
             "ChampionSkin": "TFT15_Sett",
+            "EncounterRulesText": "After Top 4, remaining players gain 10 gold and two Component Anvils.",
             "apiName": "TFT15_OpeningEncounter_WinnersCircle",
             "stages": [
                 1

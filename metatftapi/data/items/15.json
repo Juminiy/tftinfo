@@ -45,7 +45,7 @@
                 "ShieldHealthPercent": 20,
                 "TriggerMana": 15
             },
-            "desc": "Start of Combat: Gain 20 Mana.<br><br>Lifeline: At 40% Health, gain 15 Mana and a Shield equal to 20% max Health."
+            "desc": "Start of Combat: Gain 20 Mana.<br><br>At 40% Health, gain 15 Mana and a Shield equal to 20% max Health."
         },
         {
             "name": "Spirit Visage",
@@ -101,9 +101,9 @@
             "effects": {
                 "AP": 10,
                 "AS": 10,
-                "AttackSpeedPerStack": 7
+                "AttackSpeedPerStack": 6
             },
-            "desc": "Gain 7% stacking Attack Speed every second."
+            "desc": "Gain 6% stacking Attack Speed every second."
         },
         {
             "name": "Ionic Spark",
@@ -282,7 +282,7 @@
                 "HealthThreshold": 60,
                 "StealthDuration": 1
             },
-            "desc": "<TFTBonus>Lifeline:</TFTBonus> At 60% Health, briefly become untargetable and shed negative effects."
+            "desc": "At 60% Health, briefly become untargetable and shed negative effects."
         },
         {
             "name": "Titan's Resolve",
@@ -358,7 +358,7 @@
             ],
             "tags": [],
             "effects": {
-                "AD": 0.18000000715255737,
+                "AD": 0.15000000596046448,
                 "AP": 10,
                 "FlatManaRestore": 5,
                 "ManaRegen": 1
@@ -482,7 +482,7 @@
             "effects": {
                 "AD": 0.15000000596046448,
                 "AP": 15,
-                "ManaRegen": 5
+                "ManaRegen": 6
             },
             "desc": "<tftitemrules>A golem's essence, overflowing with arcane potential.</tftitemrules>"
         },
@@ -1009,15 +1009,15 @@
                 "ShieldHealthPercent": 45,
                 "TriggerMana": 20
             },
-            "desc": "Start of Combat: Gain 20 Mana.<br><br>Lifeline: At 40% Health, gain <TFTRadiantItemBonus>20 Mana</TFTRadiantItemBonus> and a Shield equal to <TFTRadiantItemBonus>45% max Health</TFTRadiantItemBonus>."
+            "desc": "Start of Combat: Gain 20 Mana.<br><br>At 40% Health, gain <TFTRadiantItemBonus>20 Mana</TFTRadiantItemBonus> and a Shield equal to <TFTRadiantItemBonus>45% max Health</TFTRadiantItemBonus>."
         },
         {
             "name": "Radiant Blue Buff",
             "composition": [],
             "tags": [],
             "effects": {
-                "AD": 0.6000000238418579,
-                "AP": 60,
+                "AD": 0.44999998807907104,
+                "AP": 45,
                 "ManaRegen": 10
             },
             "desc": "<tftitemrules>A blessing from the golem spirits, granting overflowing arcane energy.</tftitemrules>"
@@ -1084,10 +1084,10 @@
             "tags": [],
             "effects": {
                 "AP": 30,
-                "AS": 30,
-                "AttackSpeedPerStack": 14
+                "AS": 25,
+                "AttackSpeedPerStack": 12
             },
-            "desc": "Gain <TFTRadiantItemBonus>14%</TFTRadiantItemBonus> stacking Attack Speed every second."
+            "desc": "Gain <TFTRadiantItemBonus>12%</TFTRadiantItemBonus> stacking Attack Speed every second."
         },
         {
             "name": "Radiant Hand of Justice",
@@ -1190,15 +1190,16 @@
             "composition": [],
             "tags": [],
             "effects": {
-                "AD": 0.25,
-                "AP": 30,
-                "AS": 40,
+                "AD": 0.20000000298023224,
+                "AP": 20,
+                "AS": 30,
                 "Armor": 20,
                 "DamageReduction": 100,
                 "HealthThreshold": 60,
+                "MissingHealthRestore": 1,
                 "StealthDuration": 1
             },
-            "desc": "<TFTBonus>Lifeline:</TFTBonus> At 60% Health, briefly become untargetable and shed negative effects."
+            "desc": "At 60% Health, briefly become untargetable, shed negative effects, and <TFTRadiantItemBonus>heal all missing health</TFTRadiantItemBonus>."
         },
         {
             "name": "Radiant Red Buff",
@@ -1349,8 +1350,8 @@
             "composition": [],
             "tags": [],
             "effects": {
-                "AD": 0.3499999940395355,
-                "AP": 30,
+                "AD": 0.30000001192092896,
+                "AP": 25,
                 "FlatManaRestore": 10,
                 "ManaRegen": 2
             },
@@ -1375,7 +1376,7 @@
             "composition": [],
             "tags": [],
             "effects": {
-                "AD": 0.699999988079071,
+                "AD": 0.6499999761581421,
                 "CritChance": 75,
                 "CritDamageToGive": 0.10000000149011612
             },
@@ -1397,13 +1398,13 @@
             "composition": [],
             "tags": [],
             "effects": {
-                "BacklineADAP": 30,
-                "FrontlineResists": 60,
+                "BacklineADAP": 45,
+                "FrontlineResists": 75,
                 "MagicResist": 40,
                 "ManaPercIncrease": 0.30000001192092896,
                 "ManaRegen": 4
             },
-            "desc": "Gain an additional <TFTRadiantItemBonus>30.0%</TFTRadiantItemBonus> Mana from all sources. The wearer gains an additional bonus based on their Role:<br><br>Tank/Fighter: Gain <TFTRadiantItemBonus>60</TFTRadiantItemBonus> Armor and Magic Resistance.<br><br>Marksman/Caster: Gain <TFTRadiantItemBonus>30</TFTRadiantItemBonus> Attack Damage and Ability Power. "
+            "desc": "Gain an additional <TFTRadiantItemBonus>30.0%</TFTRadiantItemBonus> Mana from all sources. The wearer gains an additional bonus based on their Role:<br><br>Tank/Fighter: Gain <TFTRadiantItemBonus>75</TFTRadiantItemBonus> Armor and Magic Resistance.<br><br>Marksman/Caster: Gain <TFTRadiantItemBonus>45</TFTRadiantItemBonus> Attack Damage and Ability Power. "
         }
     ],
     "artifact": [
@@ -1915,10 +1916,10 @@
                 "AP": 10,
                 "APPerBonus": 5,
                 "AS": 15,
-                "ASPerStack": 0.07000000029802322,
+                "ASPerStack": 0.05999999865889549,
                 "StacksPerBonus": 5
             },
-            "desc": "Attacks grant 7.000000000000001% stacking Attack Speed. Every 5 attacks also grant 4.0 Attack Damage and 5 Ability Power."
+            "desc": "Attacks grant 6.0% stacking Attack Speed. Every 5 attacks also grant 4.0 Attack Damage and 5 Ability Power."
         },
         {
             "name": "Corrupt Vampiric Scepter",
@@ -1993,13 +1994,13 @@
             ],
             "effects": {
                 "AD": 1.100000023841858,
-                "Armor": 50,
+                "Armor": 60,
                 "AttackSpeedCap": 0.5,
-                "MagicResist": 50,
-                "ManaConversion": 0.009999999776482582,
+                "MagicResist": 60,
+                "ManaConversion": null,
                 "StunDuration": 0.800000011920929
             },
-            "desc": "Grants immunity to Stuns and the holder's attacks Stun the target for 0.8 seconds. Convert 1.0% of damage taken into mana.<br><br><TFTShadowItemBonus>The holder's Attack Speed is locked at 0.5.</TFTShadowItemBonus>"
+            "desc": "Grants immunity to Stuns and the holder's attacks Stun the target for 0.8 seconds.<br><br><TFTShadowItemBonus>The holder's Attack Speed is locked at 0.5.</TFTShadowItemBonus>"
         },
         {
             "name": "Seeker's Armguard",
@@ -2008,7 +2009,7 @@
                 "Artifact"
             ],
             "effects": {
-                "AP": 30,
+                "AP": 40,
                 "Armor": 30,
                 "MagicResist": 30,
                 "StatsPerKill": 20,

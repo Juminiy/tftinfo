@@ -44,7 +44,7 @@
         "unit_count": 6,
         "units": "Syndra(1)/Janna(2)/Vi(2)/Swain(3)/Ashe(4)/Zyra(5)",
         "trait_active": "3/5/7/10",
-        "trait_desc": "(7PeiceMult,7PieceAmp,7PieceHealth,DamageReduction,GPPerDeathPVE,GPPerRoundPVE,NumCombats,NumCombatsPVE,PercentIncreaseGPPVE,PercentIncreasedGP,PercentLossPVE,PercentLost): (1.50,0.30,500,2,10,3,3,1,1,0.50,0.50)/(1.50,0.30,500,3,15,3,3,1,1,0.50,0.50)/(1.50,0.30,500,3,15,3,3,1,1,0.50,0.50)/(1.50,0.30,500,0.99,3,15,3,3,1,1,0.50,0.50)"
+        "trait_desc": "(7PeiceMult,7PieceAmp,7PieceHealth,DamageReduction,GPPerDeathPVE,GPPerRoundPVE,NumCombats,NumCombatsPVE,PercentIncreaseGPPVE,PercentIncreasedGP,PercentLossPVE,PercentLost): (1.50,0.20,500,2,10,3,3,1,1,0.50,0.50)/(1.50,0.20,500,3,15,3,3,1,1,0.50,0.50)/(1.50,0.20,500,3,15,3,3,1,1,0.50,0.50)/(1.50,0.20,500,0.99,3,15,3,3,1,1,0.50,0.50)"
     },
     {
         "name": "Sniper",
@@ -80,7 +80,7 @@
         "unit_count": 8,
         "units": "Rell(1)/Syndra(1)/Xayah(2)/Ahri(3)/Neeko(3)/Jinx(4)/Poppy(4)/Seraphine(5)",
         "trait_active": "2/3/4/5/6/7/8/8/9/9/10/10",
-        "trait_desc": "(AhriDuration,EmblemBonus,ManaToPrismatic,Multiplier,SyndraTimer): (2,0.10,20000,1,3)/(2,0.10,20000,1.10,3)/(2,0.10,20000,1.20,3)/(2,0.10,20000,1.30,3)/(2,0.10,20000,1.40,3)/(2,0.10,20000,1.45,3)/(2,0.10,20000,1.50,3)/(2,0.10,20000,1.50,3)/(2,0.10,20000,1.60,3)/(2,0.10,20000,1.60,3)/(2,0.10,20000,2,3)/(2,0.10,20000,2,3)"
+        "trait_desc": "(AhriDuration,EmblemBonus,ManaToPrismatic,Multiplier,SyndraTimer): (2,0.10,18500,1,3)/(2,0.10,18500,1.10,3)/(2,0.10,18500,1.20,3)/(2,0.10,18500,1.30,3)/(2,0.10,18500,1.40,3)/(2,0.10,18500,1.45,3)/(2,0.10,18500,1.50,3)/(2,0.10,18500,1.50,3)/(2,0.10,18500,1.60,3)/(2,0.10,18500,1.60,3)/(2,0.10,18500,2,3)/(2,0.10,18500,2,3)"
     },
     {
         "name": "Heavyweight",
@@ -286,7 +286,7 @@
         "unit_count": 6,
         "units": "Kayle(1)/Zac(1)/Jhin(2)/Malzahar(3)/KSante(4)/Varus(5)",
         "trait_active": "2/4/6",
-        "trait_desc": "(DamagePercent,HealPercent,NumEnemy,RealmTimer): (0.18,0.18,3,5)/(0.36,0.18,3,5)/(0.50,0.18,3,5)"
+        "trait_desc": "(DamagePercent,HealPercent,NumEnemy,RealmTimer): (0.20,0.18,3,5)/(0.40,0.18,3,5)/(0.60,0.18,3,5)"
     },
     {
         "name": "Prodigy",
@@ -319,7 +319,7 @@
         "desc": [
             "Battle Academia champions upgrade their abilities and gain Potential %i:set14AmpIcon%. Potential improves their abilities. ",
             "<ShowIf.TFT15_BattleAcademia_NoPrismatic>",
-            "<rules>Prismatic: Field 7 Battle Academia champions, then earn @PrismaticItemRequirement@ points by using items.</rules>",
+            "<rules>Prismatic: Field 7 Battle Academia champions, then earn @PrismaticItemRequirement@ points by equipping items on champions.</rules>",
             "</ShowIf.TFT15_BattleAcademia_NoPrismatic><ShowIf.TFT15_BattleAcademia_PrismaticPending>",
             "<TFTRadiantItemBonus>Prismatic:</TFTRadiantItemBonus> Earn 1 point for every Completed item a champions uses in combat. Graduate at @PrismaticItemRequirement@ points. (@TFTUnitProperty.trait:TFT15_BattleAcademia_PrismaticNumItems@/@PrismaticItemRequirement@).",
             "</ShowIf.TFT15_BattleAcademia_PrismaticPending><ShowIf.TFT15_BattleAcademia_PrismaticActive>",
@@ -333,7 +333,7 @@
         "unit_count": 8,
         "units": "Ezreal(1)/Garen(1)/Katarina(2)/Rakan(2)/Caitlyn(3)/Jayce(3)/Leona(4)/Yuumi(4)",
         "trait_active": "3/5/7/7",
-        "trait_desc": "(DA,DR,NumPotential,PrismaticItemRequirement,UltimateNumPotential): (0.10,0.05,3,175,10)/(0.25,0.10,5,175,10)/(0.50,0.25,7,175,10)/(0.50,0.25,7,175,10)"
+        "trait_desc": "(DA,DR,NumPotential,PrismaticItemRequirement,UltimateNumPotential): (0.10,0.05,3,160,10)/(0.25,0.10,5,160,10)/(0.50,0.25,7,160,10)/(0.50,0.25,7,160,10)"
     },
     {
         "name": "Luchador",
@@ -346,7 +346,7 @@
         "unit_count": 4,
         "units": "Gnar(1)/DrMundo(2)/Volibear(4)/Braum(5)",
         "trait_active": "2/4",
-        "trait_desc": "(ADBonus,HealRatio,HealthRatio,ShieldDuration,StunDuration): (0.15,0.20,0.50,5,1)/(0.40,0.50,0.50,5,1)"
+        "trait_desc": "(ADBonus,HealRatio,HealthRatio,ShieldDuration,StunDuration): (0.15,0.15,0.50,5,1)/(0.40,0.35,0.50,5,1)"
     },
     {
         "name": "Mighty Mech",
@@ -363,6 +363,6 @@
         "unit_count": 7,
         "units": "Aatrox(1)/Lucian(1)/Gangplank(2)/Senna(3)/JarvanIV(4)/Karma(4)/Yone(5)",
         "trait_active": "3/5/7/7",
-        "trait_desc": "(AutoAttackDamage,GalioHealRatio,Health,NumItems): (65,0.10,1)/(100,0.10,1300,2)/(110,0.10,2000,3)/(120,0.10,2000,3)"
+        "trait_desc": "(AutoAttackDamage,GalioHealRatio,Health,NumItems): (65,0.12,1)/(100,0.12,1300,2)/(110,0.12,2000,3)/(120,0.12,2000,3)"
     }
 ]
