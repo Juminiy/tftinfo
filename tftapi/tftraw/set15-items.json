@@ -5,9 +5,9 @@
             "key": "Dawncore",
             "ingameKey": "TFT_Item_Artifact_Dawncore",
             "name": "Dawncore",
-            "desc": "Reduce the holder's max Mana by 10. Subsequent spellcasts reduce max Mana by 10%. to a minimum of 15.",
+            "desc": "Reduce the holder's max Mana by 10. Subsequent spellcasts reduce max Mana by 10%, to a minimum of 15.",
             "shortDesc": "",
-            "fromDesc": "+20% Attack Damage<br>+20 Ability Power",
+            "fromDesc": "%i:scaleAD% +20%<br>%i:scaleAP% +20",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/PBEDawncore_1752038401-Dawncore.png",
             "isArtifact": true,
             "isNew": true
@@ -19,10 +19,9 @@
             "name": "Accomplice's Gloves",
             "desc": "Each round: Equip 2 random Support items.<br><br>[Consumes 3 item slots.]",
             "shortDesc": "",
-            "fromDesc": "+150 Health<br>+20% Critical Strike Chance",
+            "fromDesc": "%i:scaleHealth% +150<br>%i:scaleCrit% +20%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/AccomplicesGloves_1709501151-thieves_gloves.png",
             "isHidden": true,
-            "isUnique": true,
             "isSupport": true
         },
         {
@@ -31,8 +30,8 @@
             "ingameIcon": "Item_Icons/Standard/Adaptive_Helm",
             "name": "Adaptive Helm",
             "desc": "Gain an additional 15% Mana from all sources. The wearer gains an additional bonus based on their Role:<br><br>Tanks and Fighters: Gain 35 Armor and Magic Resistance.<br><br>Other Roles: Gain 15 Attack Damage and Ability Power.",
-            "shortDesc": "All sources<br>gain Mana<br>Tanks/Fighters:<br>Bouns AR/MR<br>Other Roles:<br>Bouns AD/AP",
-            "fromDesc": "+20 Magic Resist<br>+2 Mana Regen",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleMR% +20<br>%i:TFTManaRegen% +2",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/AdaptiveHelm_1693209131-6665_tank_t4_jakshotheprotean.png",
             "compositions": [
                 "NegatronCloak",
@@ -45,9 +44,9 @@
             "ingameKey": "TFT_Item_AegisOfTheLegion",
             "ingameIcon": "Item_Icons/TFT9_SupportItems/Aegis",
             "name": "Aegis of the Legion",
-            "desc": "Combat start: Grant 25% Attack Speed and 15 Armor and Magic Resist to the holder, adjacent allies, and all allies behind them for 12 seconds.<br><br>​​[Support item]",
+            "desc": "Combat start: Grant 25% Attack Speed and 15 Armor and Magic Resist to the holder, adjacent allies in the same row, and all allies behind them for 12 seconds.<br><br>[Support item]",
             "shortDesc": "",
-            "fromDesc": "+150 Health",
+            "fromDesc": "%i:scaleHealth% +150",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/AegisoftheLegion_1693365506-ZzRotPortal_1667202928-zzrot_portal.png",
             "isHidden": true,
             "isSupport": true
@@ -58,8 +57,8 @@
             "ingameIcon": "Item_Icons/Standard/Jeweled_Guantlet",
             "name": "Jeweled Gauntlet",
             "desc": "Abilities can critically strike.<br><br>If the holder's abilities can already critically strike, gain 10% Critical Strike Damage instead.",
-            "shortDesc": "Holder's ability<br>can crit and<br>deals bonus<br>critical dmg",
-            "fromDesc": "+35 Ability Power<br>+35% Crit Chance",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleAP% +35<br>%i:scaleCrit% +35%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/ArcaneGauntlet_1710227032-jeweled_guantlet.png",
             "compositions": [
                 "NeedlesslyLargeRod",
@@ -72,12 +71,11 @@
             "ingameKey": "TFT_Item_BansheesVeil",
             "ingameIcon": "Item_Icons/TFT9_SupportItems/Banshees_Veil",
             "name": "Banshee's Veil",
-            "desc": "Combat Start: Grant the holder and all allies within 1 hexes in the same row immunity to crowd control and 25% Attack Speed for 18 seconds<br><br>[Support item] [Unique - only 1 per champion]",
-            "shortDesc": "Immunity to<br>crowd control<br>for all allies<br>within 1 hex<br>in same row",
-            "fromDesc": "+150 Health",
+            "desc": "Combat start: Grant the holder and allies within 1 hexes in the same row immunity to crowd control and 25% Attack Speed for 18 seconds.<br><br>[Support item] [Unique - only 1 per champion]",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleHealth% +150",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/BansheesVeil_1693365519-banshees_veil.png",
             "isHidden": true,
-            "isUnique": true,
             "isSupport": true
         },
         {
@@ -85,15 +83,14 @@
             "ingameKey": "TFT15_Item_BastionEmblemItem",
             "name": "Bastion Emblem",
             "desc": "The holder gains the Bastion trait.<br>Gain 15% of Armor as Attack Damage.<br>Gain 15% of Magic Resistance as Ability Power.",
-            "shortDesc": "Holder gains<br>Bastion trait",
-            "fromDesc": "+20 Armor",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleArmor% +20",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/PBEBastionEmblem_1752647516-tft15_emblem_bastion.tft_set15.png",
             "compositions": [
                 "ChainVest",
                 "FryingPan"
             ],
             "affectedTraitKey": "Bastion",
-            "isUnique": true,
             "isEmblem": true,
             "isNew": true
         },
@@ -102,9 +99,9 @@
             "ingameKey": "TFT_Item_BFSword",
             "ingameIcon": "Item_Icons/Standard/BF_Sword",
             "name": "B.F. Sword",
-            "desc": "+10% Attack Damage",
-            "shortDesc": "+10% AD",
-            "fromDesc": "",
+            "desc": "%i:scaleAD% +10% Attack Damage",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleAD% +10%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/BFSword_1658364277-1038.png",
             "isFromItem": true
         },
@@ -113,9 +110,9 @@
             "ingameKey": "TFT9_Item_OrnnPrototypeForge",
             "ingameIcon": "Item_Icons/Ornn_Items/TFT9_OrnnItem_BlacksmithsGloves",
             "name": "Blacksmith's Gloves",
-            "desc": "Each round: Equip 2 random Ornn Artifacts.<br><br>[Consumes 3 item slots]",
+            "desc": "Each round: Equip 2 random Ornn Artifacts.<br><br>[Consumes 3 item slots.]",
             "shortDesc": "",
-            "fromDesc": "+200 Health<br>+30% Crit Chance",
+            "fromDesc": "%i:scaleHealth% +200<br>%i:scaleCrit% +30%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/BlacksmithsGloves_1710226718-tft9_ornnitem_blacksmithsgloves.png",
             "isHidden": true,
             "isUnique": true,
@@ -128,7 +125,7 @@
             "name": "Blighting Jewel",
             "desc": "Dealing magic damage reduces the target's Magic Resist by 4. If their Magic Resist is 0, grant the holder 5 Mana instead.",
             "shortDesc": "",
-            "fromDesc": "+40 Abiltiy Power<br>+2 Mana Regen",
+            "fromDesc": "%i:scaleAP% +40<br>%i:TFTManaRegen% +2",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/BlightingJewel_1714029927-tft_item_artifact_blightingjewel.png",
             "isArtifact": true
         },
@@ -138,8 +135,8 @@
             "ingameIcon": "Item_Icons/Standard/Bloodthirster",
             "name": "Bloodthirster",
             "desc": "Once per combat at 40% Health, gain a 25% max Health Shield that lasts up to 5 seconds.",
-            "shortDesc": "Damage<br>dealt 20%<br>heal and<br>gain shield",
-            "fromDesc": "+15% Attack Damage<br>+15 Ability Power<br>+20% Omnivamp<br>+20 Magic Resist",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleAD% +15%<br>%i:scaleAP% +15<br>%i:scaleMR% +20<br>%i:scaleSV% +20%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/Bloodthirster_1710231772-bloodthirster.png",
             "compositions": [
                 "BFSword",
@@ -152,15 +149,14 @@
             "ingameKey": "TFT_Item_BlueBuff",
             "ingameIcon": "Item_Icons/Standard/Blue_Buff",
             "name": "Blue Buff",
-            "desc": "A golem's essence, overflowing with arcane potential.",
-            "shortDesc": "+15% AD<br>+15 AP<br>+5 Mana Regen",
-            "fromDesc": "+15% Attack Damage<br>+15 Ability Power<br>+6 Mana Regen",
+            "desc": "Gain 10% additional Attack Damage and Ability Power from all sources.",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleAD% +15%<br>%i:scaleAP% +15<br>%i:TFTManaRegen% +5",
             "imageUrl": "//cdn.lolchess.gg/images/tft/item/BlueBuff.png",
             "compositions": [
                 "Tearofthegoddess",
                 "Tearofthegoddess"
             ],
-            "isUnique": true,
             "isNormal": true
         },
         {
@@ -169,8 +165,8 @@
             "ingameIcon": "Item_Icons/Standard/Bramble_Vest",
             "name": "Bramble Vest",
             "desc": "Gain 7% max health.<br><br>Take 8% reduced damage from attacks. When struck by any attack, deal 100 magic damage to all adjacent enemies.<br><br>Cooldown: 2 seconds",
-            "shortDesc": "Gain Bonus HP &<br>Reduce ATK DMG &<br>reflect dmg<br>to enemies",
-            "fromDesc": "+65 Armor",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleArmor% +65",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/BrambleVest_1640058438.png",
             "compositions": [
                 "ChainVest",
@@ -183,9 +179,9 @@
             "ingameKey": "TFT_Item_ChainVest",
             "ingameIcon": "Item_Icons/Standard/Chain_Vest",
             "name": "Chain Vest",
-            "desc": "+20 Armor",
-            "shortDesc": "+20 Armor",
-            "fromDesc": "",
+            "desc": "%i:scaleArmor% +20 Armor",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleArmor% +20",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/ChainVest_1640058945.png",
             "isFromItem": true
         },
@@ -195,8 +191,8 @@
             "ingameIcon": "Item_Icons/TFT9_SupportItems/Chalice_of_Power",
             "name": "Chalice of Power",
             "desc": "Combat start: Grant 25 Ability Power and 10 Mana to the holder and allies within 2 hexes in the same row.<br><br>[Support item]",
-            "shortDesc": "+25 AP<br>+10 Mana<br>for all allies<br>within 2 hex<br>in same row",
-            "fromDesc": "+150 Health",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleHealth% +150",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/Chalice_1693365587-chalice_of_power.png",
             "isHidden": true,
             "isSupport": true
@@ -206,9 +202,9 @@
             "ingameKey": "TFT_Item_Artifact_CursedVampiricScepter",
             "ingameIcon": "Item_Icons/Ornn_Items/TFT_Item_Artifact_CursedVampiricScepter",
             "name": "Corrupt Vampiric Scepter",
-            "desc": "Attacks deal an additional 60% Attack Damage  as physical damage and heal the holder for the damage dealt.<br><br>The holder cannot cast their Ability or gain Mana.",
+            "desc": "Attacks deal an additional 60% Attack Damage %i:scaleAD% as physical damage and heal the holder for the damage dealt.<br><br>The holder cannot cast their Ability or gain Mana.",
             "shortDesc": "",
-            "fromDesc": "Attack Speed +60%",
+            "fromDesc": "%i:scaleAS% +60%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/CorruptVampiricScepter_1714028130-tft_item_artifact_cursedvampiricscepter.png",
             "isHidden": true,
             "isArtifact": true
@@ -218,9 +214,9 @@
             "ingameKey": "TFT_Item_Crownguard",
             "ingameIcon": "Item_Icons/Standard/Crownguard",
             "name": "Crownguard",
-            "desc": "Combat start: Gain a 25% max Health Shield for 8 seconds.<br>When the shield expires, gain 25 Ability Power.",
-            "shortDesc": "Gain Shield<br>And AP",
-            "fromDesc": "+100 Health<br>+20 AP<br>+20 Armor",
+            "desc": "Combat Start: Gain a 25% max Health Shield for 8 seconds.<br><br>When the Shield expires, gain 25 Ability Power.",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleHealth% +100<br>%i:scaleAP% +20<br>%i:scaleArmor% +20",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/Crownguard_1710227947-crownguard.png",
             "compositions": [
                 "ChainVest",
@@ -233,9 +229,9 @@
             "ingameKey": "TFT5_Item_CrownguardRadiant",
             "ingameIcon": "Item_Icons/Radiant/Crownguard_Radiant",
             "name": "Radiant Crownguard",
-            "desc": "Combat start: Gain a 50% max Health Shield for 8 seconds. <br>When the shield expires, gain 50 Ability Power.",
+            "desc": "Combat Start: Gain a 50% max Health Shield for 8 seconds.<br><br>When the Shield expires, gain 50 Ability Power.",
             "shortDesc": "",
-            "fromDesc": "+200 Health<br>+40 AP<br>+40 Armor",
+            "fromDesc": "%i:scaleHealth% +200<br>%i:scaleAP% +40<br>%i:scaleArmor% +40",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/CrownguardRadiant_1693376378-crownguard_radiant.png",
             "isRadiant": true
         },
@@ -246,7 +242,7 @@
             "name": "Deathfire Grasp",
             "desc": "Combat start: Blast the current target for 40% of their max Health as magic damage. Repeat this every 13 seconds.",
             "shortDesc": "",
-            "fromDesc": "+30 Ability Power<br>+2 Mana Regen",
+            "fromDesc": "%i:scaleAP% +30<br>%i:scaleDA% +25%<br>%i:TFTManaRegen% +2",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/DeathfireGrasp_1710227752-tft9_ornnitem_deathfiregrasp.png",
             "isUnique": true,
             "isArtifact": true
@@ -256,9 +252,9 @@
             "ingameKey": "TFT7_Item_ShimmerscaleDiamondHands",
             "ingameIcon": "Item_Icons/Ornn_Items/TFT10_DiamondHands",
             "name": "Diamond Hands",
-            "desc": "Once per combat: At 50% Health, become invulnerable for 1.5 seconds and grant 1 gold.<br><br>[Unique - only 1 per champion]",
+            "desc": "Once per combat: At 50% Health, become invulnerable for 1.5 seconds and grant %i:goldCoins% 1 gold.<br><br>[Unique - only 1 per champion]",
             "shortDesc": "",
-            "fromDesc": "+300 Health, +25 Ability Power",
+            "fromDesc": "%i:scaleHealth% +200<br>%i:scaleAP% +25",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/DiamondHands_1699930360-tft10_diamondhands.tft_set10 (1).png",
             "isHidden": true,
             "isUnique": true,
@@ -270,8 +266,8 @@
             "ingameIcon": "Item_Icons/Standard/Dragons_Claw",
             "name": "Dragon's Claw",
             "desc": "Gain 9% max health.<br><br>Every 2 seconds, heal 2.5% max Health.",
-            "shortDesc": "Gain HP<br>and HP regen bonus",
-            "fromDesc": "+75 Magic Resist",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleMR% +75",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/DragonsClaw_1640058416.png",
             "compositions": [
                 "NegatronCloak",
@@ -285,12 +281,12 @@
             "ingameIcon": "Item_Icons/Standard/Evenshroud",
             "name": "Evenshroud",
             "desc": "30% Sunder enemies within 2 hexes. Gain 25 Armor and Magic Resist for the first 15 seconds of combat.<br><br>Sunder: Reduce Armor",
-            "shortDesc": "+25 AR & MR<br>Sunder enemy<br>within 2 Hexes",
-            "fromDesc": "+150 Health<br>+20 Magic Resist",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleHealth% +150<br>%i:scaleMR% +20",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/Evenshroud_1693041191-3001_support_lunari.png",
             "compositions": [
-                "NegatronCloak",
-                "GiantsBelt"
+                "GiantsBelt",
+                "NegatronCloak"
             ],
             "isNormal": true
         },
@@ -300,9 +296,10 @@
             "ingameIcon": "Item_Icons/Radiant/Evenshroud_Radiant",
             "name": "Radiant Evenshroud",
             "desc": "30% Sunder enemies within 3 hexes. Gain 70 Armor and Magic Resist for the first 20 seconds of combat.<br><br>Sunder: Reduce Armor",
-            "shortDesc": "+70 AR & MR<br>Reduce enemy<br>AR and taking<br>within 3 Hex",
-            "fromDesc": "+500 Health<br>+30 Magic Resist",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleHealth% +500<br>%i:scaleMR% +30",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/EvenshroudRadiant_1693376501-evenshroud_radiant.png",
+            "isUnique": true,
             "isRadiant": true
         },
         {
@@ -310,15 +307,14 @@
             "ingameKey": "TFT15_Item_DestroyerEmblemItem",
             "name": "Executioner Emblem",
             "desc": "The holder gains the Executioner trait.<br>Attacks and Abilities that critically strike deal 20% bonus true damage over 3 seconds.",
-            "shortDesc": "Holder gains<br>Executioner trait",
-            "fromDesc": "+20% Crit Chance",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleCrit% +20%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/PBEExecutionerEmblem_1752646811-tft15_emblem_executioner.tft_set15.png",
             "compositions": [
                 "FryingPan",
                 "SparringGloves"
             ],
             "affectedTraitKey": "Executioner",
-            "isUnique": true,
             "isEmblem": true,
             "isNew": true
         },
@@ -327,9 +323,9 @@
             "ingameKey": "TFT_Item_FrozenHeart",
             "ingameIcon": "Item_Icons/Standard/Winters_Approach",
             "name": "Protector's Vow",
-            "desc": "Start of Combat: Gain 20 Mana.<br><br>At 40% Health, gain 15 Mana and a Shield equal to 20% max Health.",
-            "shortDesc": "Grant mana,<br>shields at<br>40% HP",
-            "fromDesc": "+25 Armor<br>+25 Magic Resist<br>+1 Mana Regen",
+            "desc": "Combat Start: Gain 20 Mana.<br><br>At 40% Health, gain 15 Mana and a Shield equal to 20% max Health.",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleArmor% +25<br>%i:scaleMR% +25<br>%i:TFTManaRegen% +1",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/Fimbulwinter_1660869394-3119_wintersapproach.png",
             "compositions": [
                 "ChainVest",
@@ -342,10 +338,11 @@
             "ingameKey": "TFT5_Item_FrozenHeartRadiant",
             "ingameIcon": "Item_Icons/Radiant/Fimbulwinter_Radiant",
             "name": "Radiant Protector's Vow",
-            "desc": "Start of Combat: Gain 20 Mana.<br><br>At 40%% Health, gain 20 and a Shield equal to 45%% max Health.",
-            "shortDesc": "Grant mana,<br>shields at<br>40% HP",
-            "fromDesc": "+50 Armor<br>+50 Magic Resist<br>+3 Mana Regen",
+            "desc": "Combat Start: Gain 20 Mana.<br><br>At 40% Health, gain 20 Mana and a Shield equal to 45% max Health.",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleArmor% +50<br>%i:scaleMR% +50<br>%i:TFTManaRegen% +2",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/FimbulwinterRadiant_1662688928-fimbulwinter_radiant.png",
+            "isUnique": true,
             "isRadiant": true
         },
         {
@@ -355,7 +352,7 @@
             "name": "Fishbones",
             "desc": "Doubles the holder's attack range, and causes each of their attacks to target a random enemy.",
             "shortDesc": "",
-            "fromDesc": "+20% Attack Damage<br>+50% Attack Speed",
+            "fromDesc": "%i:scaleAD% +20%<br>%i:scaleAS% +30%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/Fishbones_1714028339-tft_item_artifact_fishbones.png",
             "isArtifact": true
         },
@@ -363,9 +360,9 @@
             "key": "Flickerblade",
             "ingameKey": "TFT_Item_Artifact_NavoriFlickerblades",
             "name": "Flickerblades",
-            "desc": "Attacks grant 6% stacking Attack Speed. Every 5 attacks also grant 4 Attack Damage and 5 Ability Power.",
+            "desc": "Attacks grant 6% stacking Attack Speed. Every 5 attacks also grant 3 Attack Damage and 4 Ability Power.",
             "shortDesc": "",
-            "fromDesc": "+15% Attack Speed<br>+10% Attack Damage<br>+10 Ability Power",
+            "fromDesc": "%i:scaleAP% +10<br>%i:scaleAS% +15%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/Flickerblade_1748484851-명멸검.jpg",
             "isArtifact": true
         },
@@ -376,7 +373,7 @@
             "name": "Forbidden Idol",
             "desc": "Shields have 50% of their value converted to max Health instead.",
             "shortDesc": "",
-            "fromDesc": "+200 Health<br>+25 Armor<br>+25 Magic Resist",
+            "fromDesc": "%i:scaleHealth% +200<br>%i:scaleArmor% +25<br>%i:scaleMR% +25",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/ForbiddenIdol_1714030179-tft_item_artifact_forbiddenidol.png",
             "isHidden": true,
             "isArtifact": true
@@ -387,13 +384,14 @@
             "ingameIcon": "Item_Icons/Standard/Tacticians_Crown",
             "name": "Tactician's Crown",
             "desc": "Your team gains +1 max team size.<br><br>10% chance to drop 1 gold when you win combat.<br><br>\"...the Heart of a hero...\"",
-            "shortDesc": "+1<br>Team size",
+            "shortDesc": "",
             "fromDesc": "",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/ForceofNature_1726200222-tacticians_crown.png",
             "compositions": [
                 "Spatula",
                 "Spatula"
             ],
+            "isUnique": true,
             "isNormal": true
         },
         {
@@ -402,7 +400,7 @@
             "ingameIcon": "Item_Icons/Standard/Frying_Pan",
             "name": "Frying Pan",
             "desc": "...why else would it be here?",
-            "shortDesc": "You will get<br>special ability",
+            "shortDesc": "",
             "fromDesc": "",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/FryingPan_1724990105-frying_pan.png",
             "isFromItem": true,
@@ -413,9 +411,9 @@
             "ingameKey": "TFT7_Item_ShimmerscaleGamblersBlade",
             "ingameIcon": "Item_Icons/Ornn_Items/TFT10_GamblersBlade",
             "name": "Gambler's Blade",
-            "desc": "Grant 1% bonus Attack Speed per gold in your bank (up to 30 gold).<br><br>Each attack has a 5% chance to drop 1 gold.<br><br>[Unique - only 1 per champion]",
+            "desc": "Grant %i:scaleAS% 1% bonus Attack Speed per %i:goldCoins% gold in your bank (up to %i:goldCoins% 30 gold).<br><br>Each attack has a 5% chance to drop %i:goldCoins% 1 gold.<br><br>[Unique - only 1 per champion]<br>Gold generated this game: 0",
             "shortDesc": "",
-            "fromDesc": "+10 Ability Power, +35% Attack Speed",
+            "fromDesc": "%i:scaleAP% +10<br>%i:scaleAS% +35%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/GamblersBlade_1699930369-tft10_gamblersblade.tft_set10 (1).png",
             "isUnique": true,
             "isArtifact": true
@@ -438,9 +436,9 @@
             "ingameKey": "TFT_Item_GiantsBelt",
             "ingameIcon": "Item_Icons/Standard/Gaints_Belt",
             "name": "Giant's Belt",
-            "desc": "+150 Health",
-            "shortDesc": "+150 HP",
-            "fromDesc": "",
+            "desc": "%i:scaleHealth% +150 Health",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleHealth% +150",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/GiantsBelt_1658368751-1011.png",
             "isFromItem": true
         },
@@ -450,8 +448,8 @@
             "ingameIcon": "Item_Icons/Standard/Giant_Slayer",
             "name": "Giant Slayer",
             "desc": "Gain 15% additional Damage Amp against Tanks.",
-            "shortDesc": "Bonus dmg<br>enemy Tanks",
-            "fromDesc": "+20% Attack Damage<br>+20 Ability power<br>+15% Attack Speed<br>+10% Damage Amp",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleAD% +20%<br>%i:scaleAP% +20<br>%i:scaleAS% +15%<br>%i:scaleDA% +15%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/GiantSlayer_1670462997-giant_slayer.png",
             "compositions": [
                 "BFSword",
@@ -465,8 +463,8 @@
             "ingameIcon": "Item_Icons/Standard/Stridebreaker",
             "name": "Striker's Flail",
             "desc": "Critical Strikes grant 5% Damage Amp for 5 seconds, stacking up to 4 times.",
-            "shortDesc": "Damage Amp<br>after attack<br>a Crit Chance",
-            "fromDesc": "+150 Health<br>+10% Attack Speed<br>+20% Crit Chance<br>+10% Damage Amp",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleHealth% +150<br>%i:scaleAS% +10%<br>%i:scaleCrit% +20%<br>%i:scaleDA% +10%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/Guardbreaker_1710231640-stridebreaker.png",
             "compositions": [
                 "GiantsBelt",
@@ -480,14 +478,13 @@
             "ingameIcon": "Item_Icons/Standard/Edge_Of_Night",
             "name": "Edge of Night",
             "desc": "At 60% Health, briefly become untargetable and shed negative effects.",
-            "shortDesc": "When HP is low<br>shedding debuffs<br>& being stealth",
-            "fromDesc": "+10% Attack Damage<br>+10 Ability Power<br>+15% Attack Speed",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleAD% +10%<br>%i:scaleAP% +10<br>%i:scaleArmor% +20<br>%i:scaleAS% +15%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/GuardianAngel_1643780049.png",
             "compositions": [
                 "BFSword",
                 "ChainVest"
             ],
-            "isUnique": true,
             "isNormal": true
         },
         {
@@ -496,12 +493,12 @@
             "ingameIcon": "Item_Icons/Standard/Guinsoos_Rageblade",
             "name": "Guinsoo's Rageblade",
             "desc": "Gain 6% stacking Attack Speed every second.",
-            "shortDesc": "+6% AS<br>Stackable",
-            "fromDesc": "+10 Ability Power<br>+10% Attack Speed",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleAP% +10<br>%i:scaleAS% +10%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/GuinsoosRageblade_1710231593-guinsoos_rageblade.png",
             "compositions": [
-                "RecurveBow",
-                "NeedlesslyLargeRod"
+                "NeedlesslyLargeRod",
+                "RecurveBow"
             ],
             "isNormal": true
         },
@@ -511,12 +508,12 @@
             "ingameIcon": "Item_Icons/Standard/Hand_of_Justice",
             "name": "Hand Of Justice",
             "desc": "Gain 2 effects:<br>- 15% Attack Damage and 15 Ability Power.<br>- 12% Omnivamp.<br><br>While above 50% health, double the Attack Damage and Ability Power. While below 50% Health, double the Omnivamp.",
-            "shortDesc": "+15% AD,<br>+15 AP and<br>12% heals<br>on hit",
-            "fromDesc": "+20% Crit Chance<br>+1 Mana Regen",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleCrit% +20%<br>%i:TFTManaRegen% +1",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/HandofJustice_1710227464-hand_of_justice.png",
             "compositions": [
-                "Tearofthegoddess",
-                "SparringGloves"
+                "SparringGloves",
+                "Tearofthegoddess"
             ],
             "isNormal": true
         },
@@ -526,8 +523,8 @@
             "ingameIcon": "Item_Icons/Standard/Hextech_Gunblade",
             "name": "Hextech Gunblade",
             "desc": "Heal the lowest percent Health ally for 20% of damage dealt.",
-            "shortDesc": "Heal from<br>all dmg.<br>The lowest ally<br>also heals",
-            "fromDesc": "+20% Attack Damage<br>+20 Ability Power<br>+18% Damage Amp<br>+1 Mana Regen",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleAD% +20%<br>%i:scaleAP% +20<br>%i:scaleSV% +15%<br>%i:TFTManaRegen% +1",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/HextechGunblade_1640058876.png",
             "compositions": [
                 "BFSword",
@@ -542,7 +539,7 @@
             "name": "Horizon Focus",
             "desc": "Stunning an enemy causes lightning to strike them, dealing 30% of their max Health as magic damage.",
             "shortDesc": "",
-            "fromDesc": "+250 Health<br>+15 Mana<br>+20 Armor<br>+20 Magic resist<br>+2 Mana Regen",
+            "fromDesc": "%i:scaleHealth% +250<br>%i:scaleArmor% +20<br>%i:scaleMR% +20<br>%i:TFTManaRegen% +2",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/HorizonFocus_1714029051-tft_item_artifact_horizonfocus.png",
             "isArtifact": true
         },
@@ -551,10 +548,11 @@
             "ingameKey": "TFT9_Item_OrnnHullbreaker",
             "ingameIcon": "Item_Icons/Ornn_Items/TFT9_OrnnItem_Hullbreaker",
             "name": "Hullcrusher",
-            "desc": "Combat start: If there are no adjacent allies, gain 600 Health, 20% Attack Damage, and 20 Ability Power.",
+            "desc": "Combat Start: If there are no adjacent allies, gain 600 Health, 20% Attack Damage, and 20 Ability Power.",
             "shortDesc": "",
-            "fromDesc": "+35 Armor<br>+35 Magic Resist",
+            "fromDesc": "%i:scaleArmor% +35<br>%i:scaleMR% +35",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/Hullcrusher_1710227062-tft9_ornnitem_hullbreaker.png",
+            "isUnique": true,
             "isArtifact": true
         },
         {
@@ -563,7 +561,7 @@
             "name": "The Indomitable",
             "desc": "The holder's Move Speed is drastically reduced.<br><br>Gain 10% max Health, stun immunity, and pull the current target into melee range.",
             "shortDesc": "",
-            "fromDesc": "+450 Health<br>+25 Armor<br>+25 Magic Resist",
+            "fromDesc": "%i:scaleHealth% +400<br>%i:scaleArmor% +25<br>%i:scaleMR% +25",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/IndomitableGauntlet_1748484841-불굴.jpg",
             "isArtifact": true
         },
@@ -573,8 +571,8 @@
             "ingameIcon": "Item_Icons/Standard/Infinity_Edge",
             "name": "Infinity Edge",
             "desc": "Abilities can critically strike.<br><br>If the holder's abilities can already critically strike, gain 10% Critical Strike Damage instead.",
-            "shortDesc": "Ability can crit.<br><br>If effect available<br>gain crit dmg.",
-            "fromDesc": "+35% Attack Damage<br>+35% Crit Chance",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleAD% +35%<br>%i:scaleCrit% +35%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/InfinityEdge_1710231787-infinity_edge.png",
             "compositions": [
                 "BFSword",
@@ -587,9 +585,9 @@
             "ingameKey": "TFT_Item_Artifact_InnervatingLocket",
             "ingameIcon": "Item_Icons/Ornn_Items/TFT_Item_Artifact_InnervatingLocket",
             "name": "Innervating Locket",
-            "desc": "The holder gains 2% of their total Mana whenever they're hit by an attack.<br><br>Each cast restores 20% of the holder's max Health over 3 seconds.",
+            "desc": "The holder gains 1% of their total Mana whenever they're hit by an attack.<br><br>Each cast restores 20% of the holder's max Health over 3 seconds.",
             "shortDesc": "",
-            "fromDesc": "+150 Health<br>+2 Mana Regen",
+            "fromDesc": "%i:scaleHealth% +150<br>%i:TFTManaRegen% +2",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/InnervatingLocket_1714029384-tft_item_artifact_innervatinglocket.png",
             "isArtifact": true
         },
@@ -599,12 +597,12 @@
             "ingameIcon": "Item_Icons/Standard/Ionic_Spark",
             "name": "Ionic Spark",
             "desc": "30% Shred enemies within 2 hexes. When enemies cast an Ability, deal magic damage equal to 160% of the Mana spent.<br><br>Shred: Reduce Magic Resist",
-            "shortDesc": "Reduce enemy<br>MR and taking<br>Magic dmg<br>within 2 Hex",
-            "fromDesc": "+150 Health<br>+15 Ability Power<br>+25 Magic Resist",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleHealth% +150<br>%i:scaleAP% +15<br>%i:scaleMR% +25",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/IonicSpark_1640059091.png",
             "compositions": [
-                "NegatronCloak",
-                "NeedlesslyLargeRod"
+                "NeedlesslyLargeRod",
+                "NegatronCloak"
             ],
             "isNormal": true
         },
@@ -614,8 +612,8 @@
             "ingameIcon": "Item_Icons/Standard/Gargoyle_Stoneplate",
             "name": "Gargoyle Stoneplate",
             "desc": "Gain 10 Armor and 10 Magic Resist for each enemy targeting the holder.",
-            "shortDesc": "+10 AR &<br>+10 MR<br>for each<br>enemy<br>targeting them",
-            "fromDesc": "+100 Health<br>+25 Armor<br>+25 Magic Resist",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleHealth% +100<br>%i:scaleArmor% +25<br>%i:scaleMR% +25",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/IronWill_AnyIyxtEcc5fby5mgL1NNIwzm76wiG0yxwcPQ7nj.png",
             "compositions": [
                 "ChainVest",
@@ -628,9 +626,9 @@
             "ingameKey": "TFT5_Item_AdaptiveHelmRadiant",
             "ingameIcon": "Item_Icons/Radiant/Adaptive_Helm_Radiant",
             "name": "Radiant Adaptive Helm",
-            "desc": "Gain an additional 30% Mana from all sources. The wearer gains an additional bonus based on their Role:<br><br>Tank/Fighter: Gain 75 Armor and Magic Resistance.<br><br>Marksman/Caster: Gain 45 Attack Damage and Ability Power.",
-            "shortDesc": "All sources<br>gain Mana<br>Tanks/Fighters:<br>Bouns AR/MR<br>Other Roles:<br>Bouns AD/AP",
-            "fromDesc": "+25 Ability Power<br>+25 Magic Resist<br>+5 Mana Regen",
+            "desc": "Gain an additional 30% Mana from all sources. The wearer gains an additional bonus based on their Role:<br><br>Tank/Fighter: Gain 90 Armor and Magic Resistance.<br><br>Marksman/Caster: Gain 60 Attack Damage and Ability Power.",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleMR% +40<br>%i:TFTManaRegen% +4",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/JakshotheProtean_1693364692-adaptive_helm_radiant.png",
             "isRadiant": true
         },
@@ -638,10 +636,10 @@
             "key": "KnightsVow",
             "ingameKey": "TFT_Item_SupportKnightsVow",
             "ingameIcon": "Item_Icons/TFT9_SupportItems/Knights_Vow",
-            "name": "Knights Vow",
-            "desc": "Combat start: Grant 200 Health and 15% Omnivamp to the holder and allies within 1 hex in the same row.<br><br>​​[Support item]",
+            "name": "Knight's Vow",
+            "desc": "Combat start: Grant 200 Health and 15% Omnivamp to the holder and allies within 1 hex in the same row.<br><br>[Support item]",
             "shortDesc": "",
-            "fromDesc": "Health +50",
+            "fromDesc": "%i:scaleHealth% +50",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/KnightsVow_1714027510-knights_vow.png",
             "isHidden": true,
             "isSupport": true
@@ -651,15 +649,14 @@
             "ingameKey": "TFT_Item_LastWhisper",
             "ingameIcon": "Item_Icons/Standard/Last_Whisper",
             "name": "Last Whisper",
-            "desc": "Physical damage 30% Sunders the target for 3 seconds. This effect does not stack.<br><br>Sunder: reduce Armor",
-            "shortDesc": "Target's<br>armor<br>-30%<br>on phycial dmg.",
-            "fromDesc": "+15% Attack Damage<br>+20% Attack Speed<br>+20% Crit Chance",
+            "desc": "Physical damage 30% Sunders the target for 3 seconds. This effect does not stack.<br><br>Sunder: Reduce Armor",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleAD% +15%<br>%i:scaleAS% +20%<br>%i:scaleCrit% +20%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/LastWhisper_1710227918-last_whisper.png",
             "compositions": [
                 "RecurveBow",
                 "SparringGloves"
             ],
-            "isUnique": true,
             "isNormal": true
         },
         {
@@ -667,9 +664,9 @@
             "ingameKey": "TFT_Item_Artifact_LichBane",
             "ingameIcon": "Item_Icons/Ornn_Items/TFT_Item_Artifact_LichBane",
             "name": "Lich Bane",
-            "desc": "The holder's first attack after each Ability cast deals 240-540 bonus magic damage.<br><br>Damage increases based on Stage.",
+            "desc": "The holder's first attack after each Ability cast deals 0 bonus magic damage.<br><br>Damage increases based on Stage.",
             "shortDesc": "",
-            "fromDesc": "+30% Attack Speed<br>+30 Ability Power",
+            "fromDesc": "%i:scaleAP% +30<br>%i:scaleAS% +30%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/LichBane_1714030255-tft_item_artifact_lichbane.png",
             "isArtifact": true
         },
@@ -680,7 +677,7 @@
             "name": "Lightshield Crest",
             "desc": "Every 3 seconds, Shields the lowest percent Health ally for 70% of the holder's combined Armor and Magic Resist for 5 seconds.<br><br>On death grants this shield to all allies.",
             "shortDesc": "",
-            "fromDesc": "+70 Armor<br>+70 Magic Resist",
+            "fromDesc": "%i:scaleArmor% +55<br>%i:scaleMR% +55",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/LightshieldCrest_1714030338-tft_item_artifact_lightshieldcrest.png",
             "isArtifact": true
         },
@@ -689,9 +686,9 @@
             "ingameKey": "TFT_Item_LocketOfTheIronSolari",
             "ingameIcon": "Item_Icons/TFT9_SupportItems/Locket_of_the_Iron_Solari",
             "name": "Locket of the Iron Solari",
-            "desc": "Combat start: The holder and allies within 2 hexes in the same row gain a 250 Shield, 20 Armor, and 20 Magic Resist for 20 seconds.<br><br>[Support Item]",
-            "shortDesc": "Gain shield<br>AR & MR<br>for 20s<br>adjacent allies<br>in 2 Hexes",
-            "fromDesc": "+150 Health",
+            "desc": "Combat start: The holder and allies within 2 hexes in the same row gain a 250 Shield, 20 Armor, and 20 Magic Resist for 20 seconds.<br><br>[Support item]",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleHealth% +150",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/LocketoftheIronSolari_1693365491-locket_of_the_iron_solari.png",
             "isHidden": true,
             "isSupport": true
@@ -702,8 +699,8 @@
             "ingameIcon": "Item_Icons/Standard/Death_Blade",
             "name": "Deathblade",
             "desc": "Perfect peace and calm for the holder - and all who face it.",
-            "shortDesc": "+55% AD<br>+10% DA",
-            "fromDesc": "+55% Attack Damage<br>+10% Damage Amp",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleAD% +55%<br>%i:scaleDA% +10%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/LordsEdge_1710227794-death_blade.png",
             "compositions": [
                 "BFSword",
@@ -716,9 +713,9 @@
             "ingameKey": "TFT_Item_ArchangelsStaff",
             "ingameIcon": "Item_Icons/Standard/Archangel_Staff",
             "name": "Archangel's Staff",
-            "desc": "Combat start: Gain 30 Ability Power every 5 seconds in combat.",
-            "shortDesc": "Gain 30 AP<br>every 5 seconds.",
-            "fromDesc": "+20 Ability Power<br>+1 Mana Regen",
+            "desc": "Combat start: Gain 20 Ability Power every 5 seconds in combat.",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleAP% +30<br>%i:TFTManaRegen% +1",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/LudensEcho_1667202278-archangel_staff.png",
             "compositions": [
                 "NeedlesslyLargeRod",
@@ -733,7 +730,7 @@
             "name": "Luden's Tempest",
             "desc": "100% of overkill damage plus 100 is dealt as magic damage to the three enemies nearest the target.",
             "shortDesc": "",
-            "fromDesc": "+45% Attack Damage<br>+45 Ability Power",
+            "fromDesc": "%i:scaleAD% +45%<br>%i:scaleAP% +45",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/LudensTempest_1714029478-tft_item_artifact_ludenstempest.png",
             "isArtifact": true
         },
@@ -744,7 +741,7 @@
             "name": "Mittens",
             "desc": "Shrinks the holder, granting them increased movement speed and immunity to Chill.<br><br>Chill: reduce Attack Speed",
             "shortDesc": "",
-            "fromDesc": "+60% Attack Speed<br>+25% Durability",
+            "fromDesc": "%i:scaleAS% +60%<br>%i:scaleDR% +25%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/Mittens_1714029155-tft_item_artifact_mittens.png",
             "isArtifact": true
         },
@@ -753,9 +750,9 @@
             "ingameKey": "TFT7_Item_ShimmerscaleMogulsMail",
             "ingameIcon": "Item_Icons/Ornn_Items/Moguls_Mail",
             "name": "Mogul's Mail",
-            "desc": "Grants 1 Armor, 1 Magic Resist, and 10 Health when taking damage, stacking up to 35 times.<br><br>At full stacks, grant 1 gold and continue gaining 1 gold every 8 seconds.<br><br>[Unique - only 1 per champion]",
+            "desc": "Grants 1 Armor, 1 Magic Resist, and 10 Health when taking damage, stacking up to 35 times.<br><br>At full stacks, grant %i:goldCoins% 1 gold and continue gaining %i:goldCoins% 1 gold every 10 seconds.<br><br>Gold generated this game: 0<br>[Unique - only 1 per champion]",
             "shortDesc": "",
-            "fromDesc": "+100 Health",
+            "fromDesc": "%i:scaleHealth% +100",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/MogulsMail_1693364912-moguls_mail.png",
             "isUnique": true,
             "isArtifact": true
@@ -767,7 +764,7 @@
             "name": "Moonstone Renewer",
             "desc": "Every 4 seconds, grant a 55-325 Shield (based on Stage) to the 2 lowest percent health allies for 4 seconds.<br><br>[Support item]",
             "shortDesc": "",
-            "fromDesc": "+150 Health",
+            "fromDesc": "%i:scaleHealth% +150",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/MoonstoneRenewer_1714027625-moonstone.png",
             "isHidden": true,
             "isSupport": true
@@ -778,14 +775,13 @@
             "ingameIcon": "Item_Icons/Standard/Morellonomicon",
             "name": "Morellonomicon",
             "desc": "Attacks and Abilities deal 1% Burn and 33% Wound to enemies for 10 seconds.<br><br>Burn: Deals a percent of the target's max Health as true damage every second<br>Wound: Reduces healing received",
-            "shortDesc": "Abilities burn<br>target dealing<br>dmg and<br>reduce healing",
-            "fromDesc": "+150 Health<br>+20 Ability Power<br>+1 Mana Regen",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleHealth% +150<br>%i:scaleAP% +20<br>%i:TFTManaRegen% +1",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/Morellonomicon_1710231609-morellonomicon.png",
             "compositions": [
-                "NeedlesslyLargeRod",
-                "GiantsBelt"
+                "GiantsBelt",
+                "NeedlesslyLargeRod"
             ],
-            "isUnique": true,
             "isNormal": true
         },
         {
@@ -793,13 +789,13 @@
             "ingameKey": "TFT_Item_Leviathan",
             "ingameIcon": "Item_Icons/Standard/Nashors_Tooth",
             "name": "Nashor's Tooth",
-            "desc": "After casting an Ability, gain 30% Attack Speed for 5 seconds.",
-            "shortDesc": "+30% AS<br>After casting<br>an Ability",
-            "fromDesc": "+150 Health<br>+25 Ability Power<br>+10% Attack Speed<br>+2 Mana Regen",
+            "desc": "Attacks grant 2 bonus Mana, increased to 4 if they critically strike.",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleHealth% +150<br>%i:scaleAP% +15<br>%i:scaleAS% +10%<br>%i:scaleCrit% +20%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/NashorsTooth_1693041452-3115_mage_t3_nashorstooth.png",
             "compositions": [
-                "RecurveBow",
-                "GiantsBelt"
+                "GiantsBelt",
+                "RecurveBow"
             ],
             "isNormal": true
         },
@@ -808,9 +804,9 @@
             "ingameKey": "TFT5_Item_LeviathanRadiant",
             "ingameIcon": "Item_Icons/Radiant/Nashors_Tooth_Radiant",
             "name": "Radiant Nashor's Tooth",
-            "desc": "After casting an Ability, gain 60% Attack Speed for 8 seconds.",
-            "shortDesc": "+60 AS<br>After casting<br>an Ability",
-            "fromDesc": "+200 Health<br>+60 Ability Power<br>+20% Attack Speed<br>+4 Mana Regen",
+            "desc": "Attacks grant 4 bonus Mana, increased to 8 if they critically strike.",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleHealth% +200<br>%i:scaleAP% +30<br>%i:scaleAS% +20%<br>%i:scaleCrit% +35%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/NashorsToothRadiant_1693376535-nashors_tooth_radiant.png",
             "isRadiant": true
         },
@@ -819,11 +815,12 @@
             "ingameKey": "TFT7_Item_ShimmerscaleHeartOfGold",
             "ingameIcon": "Item_Icons/TFT9_SupportItems/Needlessy_Large_Gem",
             "name": "Needlessly Big Gem",
-            "desc": "Your team deals 5% bonus damage. Each second the holder is alive, your team deals an additional 1% bonus damage, up to a total of 20%.<br><br>[Support item]",
+            "desc": "Your team gains 5% Damage Amp. Each second the holder is alive, your team gains an additional 1% Damage Amp, up to a total of 20%.<br><br>[Support item]",
             "shortDesc": "",
-            "fromDesc": "+150 Health",
+            "fromDesc": "%i:scaleHealth% +150",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/NeedlesslyBigGem_1693365545-needlessy_large_gem.png",
             "isHidden": true,
+            "isUnique": true,
             "isSupport": true
         },
         {
@@ -831,9 +828,9 @@
             "ingameKey": "TFT_Item_NeedlesslyLargeRod",
             "ingameIcon": "Item_Icons/Standard/Needlessly_Large_Rod",
             "name": "Needlessly Large Rod",
-            "desc": "+10 Ability Power",
-            "shortDesc": "+10 AP",
-            "fromDesc": "",
+            "desc": "%i:scaleAP% +10 Ability Power",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleAP% +10",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/NeedlesslyLargeRod_1640059008.png",
             "isFromItem": true
         },
@@ -842,9 +839,9 @@
             "ingameKey": "TFT_Item_NegatronCloak",
             "ingameIcon": "Item_Icons/Standard/Negatron_Cloak",
             "name": "Negatron Cloak",
-            "desc": "+20 Magic Resist",
-            "shortDesc": "+20 MR",
-            "fromDesc": "",
+            "desc": "%i:scaleMR% +20 Magic Resist",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleMR% +20",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/NegatronCloak_1640059073.png",
             "isFromItem": true
         },
@@ -854,8 +851,8 @@
             "ingameIcon": "Item_Icons/TFT9_SupportItems/Obsidian_Cleaver",
             "name": "Obsidian Cleaver",
             "desc": "Damage dealt 30% Shreds and 30% Sunders enemies for 15 seconds.<br><br>Your team gains 8% Attack Damage and 8 Ability Power.<br><br>[Support item] [Unique - only 1 per champion]<br>Shred: Reduce Magic Resist<br>Sunder: Reduce Armor",
-            "shortDesc": "Shred enemy<br>AR and MR<br>for 15 seconds.",
-            "fromDesc": "+150 Health",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleHealth% +150",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/OrnnItemBlackCleaver_1693365581-obsidian_cleaver.png",
             "isHidden": true,
             "isUnique": true,
@@ -867,8 +864,8 @@
             "ingameIcon": "Item_Icons/Ornn_Items/TFT4_OrnnItem_Fighter_T3_DeathsDance",
             "name": "Death's Defiance",
             "desc": "50% of the damage the holder receives is instead dealt over 4 seconds as non-lethal damage.<br><br>[Unique - only 1 per champion]",
-            "shortDesc": "Change damage<br>to non-lethal",
-            "fromDesc": "+10% Attack Damage<br>+30 Armor, +25% Attack Speed<br>+25% Omnivamp",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleAD% +10%<br>%i:scaleArmor% +30<br>%i:scaleAS% +25%<br>%i:scaleSV% +25%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/OrnnItemDeathsDance_1644815852.png",
             "isUnique": true,
             "isArtifact": true
@@ -878,9 +875,9 @@
             "ingameKey": "TFT4_Item_OrnnEternalWinter",
             "ingameIcon": "Item_Icons/Ornn_Items/TFT4_OrnnItem_Mage_T4_Everfrost",
             "name": "Eternal Winter",
-            "desc": "Enemies who damage the holder are 20% Chilled for 1.5 seconds. After 7 Chills from this them, the attacker is Stunned instead. (Cooldown: 15 seconds).<br><br>[Unique - Only One Per Champion]<br>Chill: reduce Attack Speed<br>Stun: cannot move, attack, or cast Abilities",
-            "shortDesc": "Slow enemies<br>hit the wearer<br>and stun them",
-            "fromDesc": "+200 Health<br>+20 Armor",
+            "desc": "Enemies who damage the holder are 20% Chilled for 1.5 seconds. After 7 Chills from this item, the attacker is Stunned instead (Cooldown: 15 seconds).<br><br>[Unique - only 1 per champion]<br>Chill: reduce Attack Speed<br>Stun: cannot move, attack, or cast Abilities",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleHealth% +200<br>%i:scaleArmor% +20",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/OrnnItemEverfrost_1644815863.png",
             "isHidden": true,
             "isUnique": true,
@@ -891,9 +888,9 @@
             "ingameKey": "TFT4_Item_OrnnMuramana",
             "ingameIcon": "Item_Icons/Ornn_Items/TFT4_OrnnItem_Marksman_T3_Muramana",
             "name": "Manazane",
-            "desc": "After casting the first time in combat, gain 120 Mana over 5 seconds.<br><br>[Unique - only 1 per champion]",
-            "shortDesc": "Restore mana<br>after first spell",
-            "fromDesc": "+15% Attack Damage<br>+15% Attack Speed<br>+10 Ability Power<br>+2 Mana Regen",
+            "desc": "After casting the first time in combat, gain 100 Mana over 5 seconds.<br><br>[Unique - only 1 per champion]",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleAD% +15%<br>%i:scaleAP% +10<br>%i:scaleAS% +15%<br>%i:TFTManaRegen% +1",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/OrnnItemMuramana_1644815872.png",
             "isUnique": true,
             "isArtifact": true
@@ -903,11 +900,12 @@
             "ingameKey": "TFT4_Item_OrnnRanduinsSanctum",
             "ingameIcon": "Item_Icons/TFT9_SupportItems/Randuins_Sanctum_Support",
             "name": "Randuin's Omen",
-            "desc": "Combat start: Grant 30 Armor and 30 Magic Resistance to the holder and adjacent allies.<br><br>[Support item]",
-            "shortDesc": "Grant +30<br>AR and MR<br>all adjacent allies",
-            "fromDesc": "+150 Health",
+            "desc": "Combat start: Grant %i:scaleArmor% 30 Armor and %i:scaleMR% 30 Magic Resistance to the holder and adjacent allies.<br><br>[Support item]",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleHealth% +150",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/OrnnItemRanduinsOmen_1693365512-randuins_sanctum_support.png",
             "isHidden": true,
+            "isUnique": true,
             "isSupport": true
         },
         {
@@ -927,9 +925,9 @@
             "ingameKey": "TFT4_Item_OrnnTheCollector",
             "ingameIcon": "Item_Icons/Ornn_Items/TFT4_OrnnItem_Marksman_T3_TheCollector",
             "name": "Gold Collector",
-            "desc": "Attacks and Abilities execute enemies below 12% of their max Health. Executions have a 33% chance to drop 1 gold .<br><br>[Unique - Only One Per Champion]",
-            "shortDesc": "Execute enemy<br>and get 1 gold<br>33% chance",
-            "fromDesc": "+25% Attack Damage<br>+30% Crit Chance",
+            "desc": "Attacks and Abilities execute enemies below 12% of their maximum Health. Executions have a 33% chance to drop %i:goldCoins% 1 gold.<br><br>[Unique - only 1 per champion]",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleAD% +25%<br>%i:scaleCrit% +30%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/OrnnItemTheCollector_1644815905.png",
             "isUnique": true,
             "isArtifact": true
@@ -939,10 +937,11 @@
             "ingameKey": "TFT4_Item_OrnnInfinityForce",
             "ingameIcon": "Item_Icons/Ornn_Items/TFT4_OrnnItem_Fighter_T4_TrinityForce",
             "name": "Infinity Force",
-            "desc": "Health +250, Attack Damage +25%, Ability Power +25, Armor +25, Magic Resist +25, Attack Speed +25%",
-            "shortDesc": "+25 All Stats",
-            "fromDesc": "+250 Health<br>+25(%) All Stats",
+            "desc": "Tons of EVERYTHING!",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleHealth% +300<br>%i:scaleAD% +30%<br>%i:scaleAP% +30<br>%i:scaleArmor% +30<br>%i:scaleMR% +30<br>%i:scaleAS% +30%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/OrnnItemTrinityForce_1644815912.png",
+            "isUnique": true,
             "isArtifact": true
         },
         {
@@ -951,8 +950,8 @@
             "ingameIcon": "Item_Icons/Ornn_Items/TFT4_OrnnItem_Mage_T3_ZhonyasHourglass",
             "name": "Zhonya's Paradox",
             "desc": "Once per combat at 40% Health, become invulnerable and untargetable for 3 seconds.<br><br>[Unique - only 1 per champion]",
-            "shortDesc": "Become<br>statis",
-            "fromDesc": "+40 Ability Power<br>+30 Armor<br>+30 Magic Resist",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleAP% +40<br>%i:scaleArmor% +30<br>%i:scaleMR% +30",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/OrnnItemZhonyasHourglass_1644815918.png",
             "isUnique": true,
             "isArtifact": true
@@ -964,7 +963,7 @@
             "name": "Prowler's Claw",
             "desc": "After killing a target, shed negative effects and dash to the farthest target within 4 hexes. The next 2 critical attacks deal 60% bonus Critical Strike Damage.",
             "shortDesc": "",
-            "fromDesc": "+40% Attack Damage<br>+50% Crit Chance<br>+200 Health",
+            "fromDesc": "%i:scaleHealth% +200<br>%i:scaleAD% +30%<br>%i:scaleCrit% +50%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/ProwlersClaw_1714029686-tft_item_artifact_prowlersclaw.png",
             "isArtifact": true
         },
@@ -973,15 +972,14 @@
             "ingameKey": "TFT_Item_Quicksilver",
             "ingameIcon": "Item_Icons/Standard/Quicksilver",
             "name": "Quicksilver",
-            "desc": "Combat start: Gain immunity to crowd control for 18 seconds. During this time, gain 3% Attack Speed every 2 seconds.<br><br>[Unique - only 1 per champion]",
-            "shortDesc": "Immune to CC<br>for first 18s",
-            "fromDesc": "+20 Magic Resist<br>+30% Attack speed<br>+20% Crit",
+            "desc": "Combat Start: Gain immunity to crowd control for 18 seconds.<br><br>Gain 3% stacking Attack Speed every second.",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleMR% +20<br>%i:scaleAS% +15%<br>%i:scaleCrit% +20%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/Quicksilver_1710231779-quicksilver.png",
             "compositions": [
                 "NegatronCloak",
                 "SparringGloves"
             ],
-            "isUnique": true,
             "isNormal": true
         },
         {
@@ -990,8 +988,8 @@
             "ingameIcon": "Item_Icons/Standard/Rabadons_Deathcap",
             "name": "Rabadon's Deathcap",
             "desc": "This humble hat can help you make, or unmake, the world itself.",
-            "shortDesc": "Deal bonus Dmg.",
-            "fromDesc": "+50 Ability Power<br>+15% Damage Amp",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleAP% +50<br>%i:scaleDA% +15%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/RabadonsDeathcap_1658368695-3089.png",
             "compositions": [
                 "NeedlesslyLargeRod",
@@ -1004,10 +1002,11 @@
             "ingameKey": "TFT5_Item_ArchangelsStaffRadiant",
             "ingameIcon": "Item_Icons/Radiant/Archangel_Staff_Radiant",
             "name": "Radiant Archangel's Staff",
-            "desc": "Combat start: Gain 40 Ability Power every 4 seconds in combat.",
-            "shortDesc": "Gain 40 AP<br>every 4 seconds.",
-            "fromDesc": "+60 Ability Power<br>+2 Mana Regen",
+            "desc": "Combat start: Gain 35 Ability Power every 4 seconds in combat.",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleAP% +55<br>%i:TFTManaRegen% +2",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/RadientArchangelsStaff_1651209951.png",
+            "isUnique": true,
             "isRadiant": true
         },
         {
@@ -1016,9 +1015,10 @@
             "ingameIcon": "Item_Icons/Radiant/Bloodthirster_Radiant",
             "name": "Radiant Bloodthirster",
             "desc": "Once per combat: At 40% Health, gain a 40% max Health Shield that lasts up to 5 seconds.",
-            "shortDesc": "Gain shield<br>if HP is low",
-            "fromDesc": "+40% Attack Damage<br>+40 Ability Power<br>+20 Magic Resist<br>+40% Omnivamp",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleAD% +40%<br>%i:scaleAP% +40<br>%i:scaleMR% +20<br>%i:scaleSV% +40%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/RadientBloodthirster_1651209965.png",
+            "isUnique": true,
             "isRadiant": true
         },
         {
@@ -1026,9 +1026,9 @@
             "ingameKey": "TFT5_Item_BlueBuffRadiant",
             "ingameIcon": "Item_Icons/Radiant/Blue_Buff_Radiant",
             "name": "Radiant Blue Buff",
-            "desc": "A blessing from the golem spirits, granting overflowing arcane energy.",
-            "shortDesc": "+45% Attack Damage<br>+45 Ability Power<br>+10 Mana Regen",
-            "fromDesc": "+45% Attack Damage<br>+45 Ability Power<br>+10 Mana Regen",
+            "desc": "Gain 20% additional Attack Damage and Ability Power from all sources.",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleAD% +30%<br>%i:scaleAP% +30<br>%i:TFTManaRegen% +10",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/RadientBlueBuff_1651209972.png",
             "isUnique": true,
             "isRadiant": true
@@ -1039,9 +1039,10 @@
             "ingameIcon": "Item_Icons/Radiant/Bramble_Vest_Radiant",
             "name": "Radiant Bramble Vest",
             "desc": "Gain 15% max health.<br><br>Take 25% reduced damage from attacks. When struck by any attack, deal 175 magic damage to all adjacent enemies.<br><br>Cooldown: 2 seconds",
-            "shortDesc": "Negate<br>bonus dmg<br>from crit. and<br>reflect dmg<br>to enemies",
-            "fromDesc": "+100 Armor",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleArmor% +100",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/RadientBrambleVest_1651209978.png",
+            "isUnique": true,
             "isRadiant": true
         },
         {
@@ -1050,9 +1051,10 @@
             "ingameIcon": "Item_Icons/Radiant/Death_Blade_Radiant",
             "name": "Radiant Deathblade",
             "desc": "It glows in the presence of enemies. Or friends. Or anything alive, really.",
-            "shortDesc": "+105% AD<br>+12% DA",
-            "fromDesc": "+105% Attack Damage<br>+12% Damage Amp",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleAD% +105%<br>%i:scaleDA% +20%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/RadientDeathblade_1651209988.png",
+            "isUnique": true,
             "isRadiant": true
         },
         {
@@ -1061,9 +1063,10 @@
             "ingameIcon": "Item_Icons/Radiant/Dragons_Claw_Radiant",
             "name": "Radiant Dragon's Claw",
             "desc": "Gain 15% max health.<br><br>Every 2 seconds, heal 10% max Health.",
-            "shortDesc": "Bonus HP<br>and HP regen bonus",
-            "fromDesc": "+115 Magic Resist",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleMR% +115",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/RadientDragonsClaw_1651209994.png",
+            "isUnique": true,
             "isRadiant": true
         },
         {
@@ -1071,9 +1074,9 @@
             "ingameKey": "TFT5_Item_GuardianAngelRadiant",
             "ingameIcon": "Item_Icons/Radiant/Edge_Of_Night_Radiant",
             "name": "Radiant Edge of Night",
-            "desc": "At 60% Health, briefly become untargetable and shed negative effects. Then, heal 100% missing health",
-            "shortDesc": "When HP is low<br>shedding debuffs<br>gain HP & AS<br>",
-            "fromDesc": "+20% Attack Damage<br>+20 Ability Power<br>+30% Attack Speed",
+            "desc": "At 60% Health, briefly become untargetable, shed negative effects, and heal all missing health.",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleAD% +20%<br>%i:scaleAP% +20<br>%i:scaleArmor% +20<br>%i:scaleAS% +30%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/RadientEdgeofNight_1651209999.png",
             "isUnique": true,
             "isRadiant": true
@@ -1084,9 +1087,10 @@
             "ingameIcon": "Item_Icons/Radiant/Gargoyle_Stoneplate_Radiant",
             "name": "Radiant Gargoyle Stoneplate",
             "desc": "Heal 1.5% max Health each second.<br><br>Gain 15 Armor and 15 Magic Resist for each enemy targeting the holder.",
-            "shortDesc": "+15 AR &<br>+15 MR<br>for each<br>enemy<br>targeting them",
-            "fromDesc": "+250 Health<br>+50 Armor<br>+50 Magic Resist",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleHealth% +250<br>%i:scaleArmor% +50<br>%i:scaleMR% +50",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/RadientGargoyleStoneplate_1651210010.png",
+            "isUnique": true,
             "isRadiant": true
         },
         {
@@ -1095,9 +1099,10 @@
             "ingameIcon": "Item_Icons/Radiant/Giant_Slayer_Radiant",
             "name": "Radiant Giant Slayer",
             "desc": "Gain 25% additional Damage Amp against Tanks.",
-            "shortDesc": "Bonus dmg<br>enemy Tanks",
-            "fromDesc": "+50% Attack Damage<br>+50 Ability Power<br>+20% Attack Speed<br>+20 Damage Amp",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleAD% +50%<br>%i:scaleAP% +50<br>%i:scaleAS% +20%<br>%i:scaleDA% +20%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/RadientGiantSlayer_1651210017.png",
+            "isUnique": true,
             "isRadiant": true
         },
         {
@@ -1106,9 +1111,10 @@
             "ingameIcon": "Item_Icons/Radiant/Guinsoos_Rageblade_Radiant",
             "name": "Radiant Guinsoo's Rageblade",
             "desc": "Gain 12% stacking Attack Speed every second.",
-            "shortDesc": "+12% AS<br>Stackable",
-            "fromDesc": "+30 Ability Power<br>+25% Attack Speed",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleAP% +30<br>%i:scaleAS% +25%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/RadientGuinsoosRageblade_1651210023.png",
+            "isUnique": true,
             "isRadiant": true
         },
         {
@@ -1116,10 +1122,11 @@
             "ingameKey": "TFT5_Item_HandOfJusticeRadiant",
             "ingameIcon": "Item_Icons/Radiant/Hand_of_Justice_Radiant",
             "name": "Radiant Hand of Justice",
-            "desc": "Gain 2 effects:<br>-35% Attack Damage and 35 Ability Power.<br>- 20% Omnivamp<br>While above 50% health, double the Attack Damage and Ability Power. While below 50% Health, double the Omnivamp.",
+            "desc": "Gain 2 effects:<br>- 35% Attack Damage and 35 Ability Power.<br>- 20% Omnivamp.<br><br>While above 50% health, double the Attack Damage and Ability Power. While below 50% Health, double the Omnivamp.",
             "shortDesc": "",
-            "fromDesc": "+40% Crit Chance<br>+2 Mana Regen",
+            "fromDesc": "%i:scaleCrit% +40%<br>%i:TFTManaRegen% +2",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/RadientHandofJustice_1651210027.png",
+            "isUnique": true,
             "isRadiant": true
         },
         {
@@ -1128,9 +1135,10 @@
             "ingameIcon": "Item_Icons/Radiant/Hextech_Gunblade_Radiant",
             "name": "Radiant Hextech Gunblade",
             "desc": "Heal the lowest percent Health ally for 40% of damage dealt.",
-            "shortDesc": "The lowest ally<br>also heals",
-            "fromDesc": "Omnivamp +30%<br>Attack Damage +40%<br>Ability Power +40",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleAD% +40%<br>%i:scaleAP% +40<br>%i:scaleSV% +30%<br>%i:TFTManaRegen% +1",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/RadientHextechGunblade_1651210032.png",
+            "isUnique": true,
             "isRadiant": true
         },
         {
@@ -1139,9 +1147,10 @@
             "ingameIcon": "Item_Icons/Radiant/Infinity_Edge_Radiant",
             "name": "Radiant Infinity Edge",
             "desc": "Abilities can critically strike.<br><br>If the holder's abilities can already critically strike, gain 10% Critical Strike Damage instead.",
-            "shortDesc": "Ability can crit.<br><br>If effect available<br>gain crit dmg.",
-            "fromDesc": "+65% Attack Damage<br>+75% Crit Chance",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleAD% +65%<br>%i:scaleCrit% +75%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/RadientInfinityEdge_1651210037.png",
+            "isUnique": true,
             "isRadiant": true
         },
         {
@@ -1150,9 +1159,10 @@
             "ingameIcon": "Item_Icons/Radiant/Ionic_Spark_Radiant",
             "name": "Radiant Ionic Spark",
             "desc": "30% Shred enemies within 3 hexes. When enemies cast an Ability, deal magic damage equal to 200% of the Mana spent..<br><br>Also, heal 1.5% max Health per second.<br><br>[Direct damage item]<br>Shred: Reduce Magic Resist",
-            "shortDesc": "Reduce enemy<br>MR and taking<br>Magic dmg<br>within 3 Hex",
-            "fromDesc": "+200 Health<br>+15 Ability Power<br>+40 Magic Resist",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleHealth% +200<br>%i:scaleAP% +15<br>%i:scaleMR% +40",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/RadientIonicSpark_1651210041.png",
+            "isUnique": true,
             "isRadiant": true
         },
         {
@@ -1161,9 +1171,10 @@
             "ingameIcon": "Item_Icons/Radiant/Jeweled_Gauntlet_Radiant",
             "name": "Radiant Jeweled Gauntlet",
             "desc": "Abilities can critically strike.<br><br>If the holder's abilities can already critically strike, gain 10% Critical Strike Damage instead.",
-            "shortDesc": "Holder's ability<br>can crit and<br>deals bonus<br>critical dmg",
-            "fromDesc": "+70 Ability Power<br>+75% Crit Chance",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleAP% +70<br>%i:scaleCrit% +75%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/RadientJeweledGauntlet_1651210047.png",
+            "isUnique": true,
             "isRadiant": true
         },
         {
@@ -1172,8 +1183,8 @@
             "ingameIcon": "Item_Icons/Radiant/Last_Whisper_Radiant",
             "name": "Radiant Last Whisper",
             "desc": "Physical damage 30% Sunders the target for the rest of combat. This effect does not stack.<br><br>Sunder: Reduce Armor",
-            "shortDesc": "Target's<br>armor<br>-30%<br>on phycial dmg.",
-            "fromDesc": "+45% Attack Damage<br>+25% Attack Speed<br>+55% Crit Chance",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleAD% +45%<br>%i:scaleAS% +25%<br>%i:scaleCrit% +55%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/RadientLastWhisper_1651210053.png",
             "isUnique": true,
             "isRadiant": true
@@ -1184,8 +1195,8 @@
             "ingameIcon": "Item_Icons/Radiant/Morellonomicon_Radiant",
             "name": "Radiant Morellonomicon",
             "desc": "Attacks and Abilities deal 2% Burn and 33% Wound to enemies for 8 seconds.<br><br>Burn: Deals a percent of the target's max Health as true damage every second<br>Wound: Reduces healing received",
-            "shortDesc": "Abilities burn<br>target dealing<br>dmg and<br>reduce healing",
-            "fromDesc": "+150 Health<br>+50 Ability Power<br>+25% Attack Speed<br>+3 Mana Regen",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleHealth% +150<br>%i:scaleAP% +50<br>%i:TFTManaRegen% +3",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/RadientMorellonomicon_1651210062.png",
             "isUnique": true,
             "isRadiant": true
@@ -1195,9 +1206,9 @@
             "ingameKey": "TFT5_Item_QuicksilverRadiant",
             "ingameIcon": "Item_Icons/Radiant/Quicksilver_Radiant",
             "name": "Radiant Quicksilver",
-            "desc": "Combat start: Gain immunity to crowd control for 45 seconds. For 18 seconds, gain 7% Attack Speed every 2 seconds.<br><br>[Unique - only 1 per champion]",
-            "shortDesc": "Immune to CC<br>for first 45s",
-            "fromDesc": "+30 Magic Resist<br>+50% Attack Speed<br>+40% Crit Chance",
+            "desc": "Combat Start: Gain immunity to crowd control for 45 seconds.<br><br>Gain 6% stacking Attack Speed every second.",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleMR% +30<br>%i:scaleAS% +40%<br>%i:scaleCrit% +40%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/RadientQuicksilver_1651210070.png",
             "isUnique": true,
             "isRadiant": true
@@ -1208,9 +1219,10 @@
             "ingameIcon": "Item_Icons/Radiant/Rabadons_Deathcap_Radiant",
             "name": "Radiant Rabadon's Deathcap",
             "desc": "It's witnessed - and unleashed - miracles and calamities both.",
-            "shortDesc": "+80 AP<br>+33% DA",
-            "fromDesc": "+80 Ability Power<br>+33% Damage Amp",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleAP% +80<br>%i:scaleDA% +33%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/RadientRabadonsDeathcap_1651210075.png",
+            "isUnique": true,
             "isRadiant": true
         },
         {
@@ -1219,9 +1231,10 @@
             "ingameIcon": "Item_Icons/Radiant/RedBuff_Radiant",
             "name": "Radiant Red Buff",
             "desc": "Attacks and Abilities 2% Burn and 33% Wound enemies for 5 seconds.<br><br>Burn: Deals a percent of the target's max Health as true damage every second<br>Wound: Reduces healing received",
-            "shortDesc": "Damage Amp<br>Burn and wound",
-            "fromDesc": "Attack Speed +60%<br>Damage Amp +5%",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleAS% +65%<br>%i:scaleDA% +10%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/RadientRedBuff_1699258675-RadiantCrestofCinders.png",
+            "isUnique": true,
             "isRadiant": true
         },
         {
@@ -1230,9 +1243,10 @@
             "ingameIcon": "Item_Icons/Radiant/Redemption_Radiant",
             "name": "Radiant Spirit Visage",
             "desc": "Regenerate 5% of missing Health each second.",
-            "shortDesc": "Restore<br>missing Health<br>each second",
-            "fromDesc": "+600 Health<br>+15% Durability<br>+2 Mana Regen",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleHealth% +600<br>%i:scaleDR% +18%<br>%i:TFTManaRegen% +2",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/RadientRedemption_1748484766-정령의 형상.jpg",
+            "isUnique": true,
             "isRadiant": true
         },
         {
@@ -1240,10 +1254,11 @@
             "ingameKey": "TFT5_Item_RunaansHurricaneRadiant",
             "ingameIcon": "Item_Icons/Radiant/Runaans_Hurricane_Radiant",
             "name": "Radiant Kraken's Fury",
-            "desc": "Attacks grant 6% stacking Attack Damage",
+            "desc": "Attacks grant 6% stacking Attack Damage, up to 20 attacks. After 20 attacks, gain 80% Attack Speed.",
             "shortDesc": "",
-            "fromDesc": "+30% Attack Damage<br>+25% Attack Speed<br>+20 Magic Resist",
+            "fromDesc": "%i:scaleAD% +20%<br>%i:scaleMR% +20<br>%i:scaleAS% +25%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/RadientRunaansHurricane_1748484792-크라켄.jpg",
+            "isUnique": true,
             "isRadiant": true
         },
         {
@@ -1252,19 +1267,21 @@
             "ingameIcon": "Item_Icons/Radiant/Spear_of_Shojin_Radiant",
             "name": "Radiant Spear of Shojin",
             "desc": "Attacks grant 10 bonus Mana.",
-            "shortDesc": "Restore<br>10 Mana<br>on-hit",
-            "fromDesc": "+30% Attack Damage<br>+25 Ability Power<br>+2 Mana Regen",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleAD% +30%<br>%i:scaleAP% +25<br>%i:TFTManaRegen% +2",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/RadientSpearofShojin_1670373892-spear_of_shojin_radiant.png",
+            "isUnique": true,
             "isRadiant": true
         },
         {
             "key": "RadientStatikkShiv",
             "ingameKey": "TFT5_Item_StatikkShivRadiant",
             "name": "Radiant Void Staff",
-            "desc": "Attacks and Ability Damage 30% Shred the target for the rest of combat. This effect does not stack.<br><br>Shred: Reduce Magic Resist",
-            "shortDesc": "Dmg<br>rest of combat<br>MR shred",
-            "fromDesc": "+60 Ability power<br>+60% Attack Speed<br>+3 Mana Regen",
+            "desc": "Attacks and Ability damage 30% Shred the target for the rest of combat. This effect does not stack.<br><br>Shred: Reduce Magic Resist",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleAP% +60<br>%i:scaleAS% +60%<br>%i:TFTManaRegen% +3",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/RadientStatikkShiv_1748484780-공허의지팡이.jpg",
+            "isUnique": true,
             "isRadiant": true
         },
         {
@@ -1272,9 +1289,9 @@
             "ingameKey": "TFT5_Item_NightHarvesterRadiant",
             "ingameIcon": "Item_Icons/Radiant/Behemoth_Radiant",
             "name": "Radiant Steadfast Heart",
-            "desc": "Gain 16% Durability. While above 40% Health, instead gain 30% Durability.",
+            "desc": "Gain 16% durability. While above 40% Health, instead gain 30% Durability.",
             "shortDesc": "",
-            "fromDesc": "+500 Health<br>+40 Armor<br>+20% Crit Chance",
+            "fromDesc": "%i:scaleHealth% +500<br>%i:scaleArmor% +40<br>%i:scaleCrit% +20%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/RadientSteadfastHeart_1699383911-legacy-of-the-colossus.png",
             "isRadiant": true
         },
@@ -1284,9 +1301,10 @@
             "ingameIcon": "Item_Icons/Radiant/Stridebreaker-Radiant",
             "name": "Radiant Striker's Flail",
             "desc": "Critical Strikes grant 8% Damage Amp for 8 seconds, stacking up to 4 times.",
-            "shortDesc": "Deals more for<br>Shielded enemy<br>",
-            "fromDesc": "+150 Health<br>+25% Attack Speed<br>+35% Crit Chance<br>+8% Damage Amp",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleHealth% +150<br>%i:scaleAS% +25%<br>%i:scaleCrit% +35%<br>%i:scaleDA% +20%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/Stridebreaker_1670373984-stridebreaker-radiant.png",
+            "isUnique": true,
             "isRadiant": true
         },
         {
@@ -1295,8 +1313,8 @@
             "ingameIcon": "Item_Icons/Radiant/Sunfire_Cape_Radiant",
             "name": "Radiant Sunfire Cape",
             "desc": "Gain 12% max Health.<br><br>Every 1.5 seconds, deal 2% Burn and 33% Wound to an enemy within 3 hexes for 8 seconds.<br><br>Burn: Deals a percent of the target's max Health as true damage every second<br>Wound: reduces healing received",
-            "shortDesc": "Burn an enemy<br>within 3 hexes<br>dealt dmg<br>reduce healing",
-            "fromDesc": "+300 Helath<br>+40 Armor",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleHealth% +300<br>%i:scaleArmor% +40",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/RadientSunfireCape_1651210116.png",
             "isUnique": true,
             "isRadiant": true
@@ -1308,7 +1326,7 @@
             "name": "Radiant Thief's Gloves",
             "desc": "Each round: Equip 2 random Radiant items.<br><br>[Consumes 3 item slots.]",
             "shortDesc": "",
-            "fromDesc": "+150 Health<br>Crit Chance +20%",
+            "fromDesc": "%i:scaleHealth% +150<br>%i:scaleCrit% +20%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/RadientThiefsGloves_1651210121.png",
             "isUnique": true,
             "isRadiant": true
@@ -1318,10 +1336,11 @@
             "ingameKey": "TFT5_Item_TitansResolveRadiant",
             "ingameIcon": "Item_Icons/Radiant/Titans_Resolve_Radiant",
             "name": "Radiant Titan's Resolve",
-            "desc": "Gain 3% Attack Damage and 3 Ability Power when attacking or taking damage, stacking up to 25 times.<br><br>At full stacks, gain 40 Armor and 40 Magic Resist, and gain immunity to crowd control.",
-            "shortDesc": "Stack AD&AP<br>when taken<br>dmg or crit hit.<br>At max stacks<br>gain +AR&MR<br>Immune to CC",
-            "fromDesc": "Armor +35<br>Attack speed +30%",
+            "desc": "Gain 3% Attack Damage and 3 Ability Power when attacking or taking damage, stacking up to 25 times.<br><br>At full stacks, gain 20% Damage Amp and gain immunity to crowd control.",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleArmor% +35<br>%i:scaleAS% +30%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/RadientTitansResolve_1651210127.png",
+            "isUnique": true,
             "isRadiant": true
         },
         {
@@ -1330,9 +1349,10 @@
             "ingameIcon": "Item_Icons/Radiant/Warmogs_Armor_Radiant",
             "name": "Radiant Warmog's Armor",
             "desc": "Gain 20% max health.<br><br>Heal 1.5% max Health per second.",
-            "shortDesc": "Gain max HP<br>and HP regen",
-            "fromDesc": "+1000 Health",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleHealth% +1000",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/RadientWarmogsArmor_1651210131.png",
+            "isUnique": true,
             "isRadiant": true
         },
         {
@@ -1342,7 +1362,7 @@
             "name": "Rapid Firecannon",
             "desc": "Gain +1 Attack Range, increased by 1 whenever the holder kills an enemy.",
             "shortDesc": "",
-            "fromDesc": "+66% Attack Speed",
+            "fromDesc": "%i:scaleAS% +75%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/RapidFirecannon_1714029325-tft_item_artifact_rapidfirecannon.png",
             "isArtifact": true
         },
@@ -1351,9 +1371,9 @@
             "ingameKey": "TFT_Item_RecurveBow",
             "ingameIcon": "Item_Icons/Standard/Recurve_Bow",
             "name": "Recurve Bow",
-            "desc": "+10% Attack Speed",
-            "shortDesc": "+10% AS",
-            "fromDesc": "",
+            "desc": "%i:scaleAS% +10% Attack Speed",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleAS% +10%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/RecurveBow_1640058784.png",
             "isFromItem": true
         },
@@ -1363,8 +1383,8 @@
             "ingameIcon": "Item_Icons/Standard/RedBuff",
             "name": "Red Buff",
             "desc": "Attacks and Abilities 1% Burn and 33% Wound enemies for 5 seconds.<br><br>Burn: Deals a percent of the target's max Health as true damage every second<br>Wound: Reduces healing received",
-            "shortDesc": "Damage Amp<br>Burn and wound",
-            "fromDesc": "+40% Attack Speed<br>+3% Damage Amp",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleAS% +45%<br>%i:scaleDA% +3%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/RedBuffItem_1700526699-redbuff.png",
             "compositions": [
                 "RecurveBow",
@@ -1378,12 +1398,12 @@
             "ingameIcon": "Item_Icons/Standard/spiritvisage_xl",
             "name": "Spirit Visage",
             "desc": "Regenerate 2.5% of missing Health each second.",
-            "shortDesc": "Restore<br>missing Health<br>each second",
-            "fromDesc": "+300 Health<br>+10% Durability<br>+2 Mana Regen",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleHealth% +300<br>%i:scaleDR% +10%<br>%i:TFTManaRegen% +2",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/Redemption_1748475217-5e0668acd02f73dfc316d1e02d2286f37149da08-512x512.png",
             "compositions": [
-                "Tearofthegoddess",
-                "GiantsBelt"
+                "GiantsBelt",
+                "Tearofthegoddess"
             ],
             "isNormal": true
         },
@@ -1420,13 +1440,13 @@
             "ingameKey": "TFT_Item_RunaansHurricane",
             "ingameIcon": "Item_Icons/Standard/Runaans_Hurricane",
             "name": "Kraken's Fury",
-            "desc": "Attacks grant 3% stacking Attack Damage.",
-            "shortDesc": "Attacks<br>grant 3%<br>stacking AD",
-            "fromDesc": "+20% Attack Damage<br>+10% Attack Speed<br>+20 Magic Resist",
+            "desc": "Attacks grant 3% stacking Attack Damage, up to 20 attacks. After 20 attacks, gain 40% Attack Speed.",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleAD% +10%<br>%i:scaleMR% +20<br>%i:scaleAS% +10%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/RunaansHurricane_1748474476-54e36c2efc36a585799d963fccb76e10f8d51da6-512x512.png",
             "compositions": [
-                "RecurveBow",
-                "NegatronCloak"
+                "NegatronCloak",
+                "RecurveBow"
             ],
             "isNormal": true
         },
@@ -1465,7 +1485,7 @@
             "name": "Seeker's Armguard",
             "desc": "Takedowns increase the holder's Armor, Magic Resist, and Ability Power by 15, increased to 20 if they score the kill.",
             "shortDesc": "",
-            "fromDesc": "+40 Ability Power<br>+30 Armor<br>+30 Magic Resist",
+            "fromDesc": "%i:scaleAP% +40<br>%i:scaleArmor% +30<br>%i:scaleMR% +30",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/SeekersArmguard_1714030423-tft_item_artifact_seekersarmguard.png",
             "isArtifact": true
         },
@@ -1479,6 +1499,7 @@
             "fromDesc": "",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/SentinelSwarm_1721785633-SentinelSwarm.png",
             "isHidden": true,
+            "isUnique": true,
             "isNormal": true,
             "isNew": true
         },
@@ -1489,10 +1510,9 @@
             "name": "Shroud of Stillness",
             "desc": "Combat start: Shoot a beam that 30% Mana Reaves enemies.<br><br>Your team gains 60 Health.<br><br>[Support item] [Unique - only 1 per champion]<br>Mana Reave: increase maximum Mana until the next cast",
             "shortDesc": "",
-            "fromDesc": "+150 Health",
+            "fromDesc": "%i:scaleHealth% +150",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/Shroud_1693365565-shroud_of_stillness.png",
             "isHidden": true,
-            "isUnique": true,
             "isSupport": true
         },
         {
@@ -1500,9 +1520,9 @@
             "ingameKey": "TFT_Item_Artifact_SilvermereDawn",
             "ingameIcon": "Item_Icons/Ornn_Items/TFT_Item_Artifact_SilvermereDawn",
             "name": "Silvermere Dawn",
-            "desc": "Grants immunity to Stuns and the holder's attacks Stun the target for 0.8 seconds. <br><br>The holder's Attack Speed is locked at 0.5.",
+            "desc": "Grants immunity to Stuns and the holder's attacks Stun the target for 0.8 seconds.<br><br>The holder's Attack Speed is locked at 0.5.",
             "shortDesc": "",
-            "fromDesc": "+110% Attack Damage<br>+60 Armor<br>+60 Magic Resist",
+            "fromDesc": "%i:scaleAD% +140%<br>%i:scaleArmor% +80<br>%i:scaleMR% +80",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/SilvermereDawn_1714029565-tft_item_artifact_silvermeredawn.png",
             "isArtifact": true
         },
@@ -1511,10 +1531,11 @@
             "ingameKey": "TFT9_Item_OrnnHorizonFocus",
             "ingameIcon": "Item_Icons/Ornn_Items/TFT9_OrnnItem_SnipersFocus",
             "name": "Sniper's Focus",
-            "desc": "Gain +2 Attack Range. Gain 9% Damage Amp against a target for each hex between the holder and the target.",
+            "desc": "Gain %i:scaleRange% 2 Attack Range. Gain 9% Damage Amp against a target for each hex between the holder and the target.",
             "shortDesc": "",
-            "fromDesc": "+15% Attack Damage<br>+15 Ability Power<br>+15% Attack Speed<br>+1 Range",
+            "fromDesc": "%i:scaleAD% +15%<br>%i:scaleAP% +15<br>%i:scaleAS% +15%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/SnipersFocus_1686308390-tft9_ornnitem_snipersfocus.tft_set9.png",
+            "isUnique": true,
             "isArtifact": true
         },
         {
@@ -1522,9 +1543,9 @@
             "ingameKey": "TFT_Item_SparringGloves",
             "ingameIcon": "Item_Icons/Standard/Sparring_Gloves",
             "name": "Sparring Gloves",
-            "desc": "+20% Critical Strike Chance",
-            "shortDesc": "+20%<br>Crit chance",
-            "fromDesc": "",
+            "desc": "+20 Critical Strike Chance",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleCrit% +20%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/SparringGloves_1640059055.png",
             "isFromItem": true
         },
@@ -1534,7 +1555,7 @@
             "ingameIcon": "Item_Icons/Standard/Spatula",
             "name": "Spatula",
             "desc": "It must do something...",
-            "shortDesc": "You will get<br>special ability",
+            "shortDesc": "",
             "fromDesc": "",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/Spatula_1658364227-4403.png",
             "isFromItem": true
@@ -1545,8 +1566,8 @@
             "ingameIcon": "Item_Icons/Standard/Spear_of_Shojin",
             "name": "Spear of Shojin",
             "desc": "Attacks grant 5 bonus Mana.",
-            "shortDesc": "Restore<br>5 Mana<br>on-hit",
-            "fromDesc": "+15% Attack Damage<br>+10 Ability power<br>+1 Mana Regen",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleAD% +15%<br>%i:scaleAP% +10<br>%i:TFTManaRegen% +1",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/SpearofShojin_1669258937-spear_of_shojin.png",
             "compositions": [
                 "BFSword",
@@ -1561,7 +1582,7 @@
             "name": "Spectral Cutlass",
             "desc": "Combat start: Teleport the holder to the mirrored hex on the enemy's side of the board. After 8 seconds, the holder returns to their original location.",
             "shortDesc": "",
-            "fromDesc": "+40% Attack Damage<br>+20% Crit Chance<br>+40 Armor<br>+40 Magic Resist",
+            "fromDesc": "%i:scaleAD% +40%<br>%i:scaleArmor% +40<br>%i:scaleMR% +40<br>%i:scaleCrit% +20%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/SpectralCutlass_1714029856-tft_item_artifact_spectralcutlass.png",
             "isArtifact": true
         },
@@ -1582,9 +1603,9 @@
             "ingameKey": "TFT_Item_Artifact_StatikkShiv",
             "ingameIcon": "Item_Icons/Standard/Statikk_Shiv",
             "name": "Statikk Shiv",
-            "desc": "Every 3rd attack deals 40 + 40% of the holder's bonus Ability Power as bonus magic damage to 4 enemies.",
-            "shortDesc": "Magic dmg<br>to 4 emenies<br>every 3rd ATK",
-            "fromDesc": "+40 Ability Power<br>+40% Attack Speed",
+            "desc": "Every 3rd attack deals 40 + 40% of the holder's bonus Ability Power as additional magic damage to 4 enemies.",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleAP% +40<br>%i:scaleAS% +40%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/StatikkShiv_1748484859-스태틱.jpg",
             "isArtifact": true
         },
@@ -1622,8 +1643,8 @@
             "ingameIcon": "Item_Icons/Standard/Behemoth",
             "name": "Steadfast Heart",
             "desc": "Gain 10% Durability. While above 50% Health, instead gain 18% Durability.",
-            "shortDesc": "Take less<br>Damage<br>depends on<br>HP",
-            "fromDesc": "+250 Helath<br>+20 Armor<br>+20% Crit Chance",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleHealth% +250<br>%i:scaleArmor% +20<br>%i:scaleCrit% +20%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/SteadfastHeart_1699383455-3084_tank_t4_heartsteel.png",
             "compositions": [
                 "ChainVest",
@@ -1637,8 +1658,8 @@
             "ingameIcon": "Item_Icons/Standard/Steraks_Gage",
             "name": "Sterak's Gage",
             "desc": "At 60% Health, gain a Shield equal to 50% of the wearer's maximum Health that rapidly decays over 5 seconds.",
-            "shortDesc": "Below 60% HP<br>50% HP<br>Gain Shield",
-            "fromDesc": "+300 Health<br>+40% Attack Damage",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleHealth% +300<br>%i:scaleAD% +40%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/SteraksGage_1693041113-3053_steraks_gage.png",
             "compositions": [
                 "BFSword",
@@ -1653,7 +1674,7 @@
             "name": "Radiant Sterak's Gage",
             "desc": "At 60% Health, gain a Shield equal to 100% of the wearer's maximum Health that rapidly decays over 6 seconds.",
             "shortDesc": "",
-            "fromDesc": "+600 Health, +80% Attack Damage",
+            "fromDesc": "%i:scaleHealth% +600<br>%i:scaleAD% +80%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/SteraksMegashield_1693365188-steraks_gage_radiant.png",
             "isRadiant": true
         },
@@ -1662,15 +1683,14 @@
             "ingameKey": "TFT15_Item_ShotcallerEmblemItem",
             "name": "Strategist Emblem",
             "desc": "The holder gains the Strategist trait.<br><br>Combat Start: The holder and allies within 1 hex in the same row gain bonuses.<br>Front 2 rows: 20 Armor and Magic Resist<br>Back 2 rows: 15% Attack Speed",
-            "shortDesc": "Holder gains<br>Strategist trait",
-            "fromDesc": "+20 Magic Resist",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleMR% +20",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/PBEStrategistEmblem_1752646750-tft15_emblem_strategist.tft_set15.png",
             "compositions": [
                 "NegatronCloak",
                 "Spatula"
             ],
             "affectedTraitKey": "Strategist",
-            "isUnique": true,
             "isEmblem": true,
             "isNew": true
         },
@@ -1679,15 +1699,14 @@
             "ingameKey": "TFT_Item_RedBuff",
             "ingameIcon": "Item_Icons/Standard/Sunfire_Cape",
             "name": "Sunfire Cape",
-            "desc": "Gain 8% max Health. <br><br>Every 2 seconds, deal 1% Burn and 33% Wound to an enemy within 2 hexes for 10 seconds.<br><br>Burn: Deals a percent of the target's max Health as true damage every second<br>Wound: Reduces healing received",
-            "shortDesc": "Burn an enemy<br>within 2 hexes<br>dealt dmg<br>reduce healing",
-            "fromDesc": "+150 Helath<br>+20 Armor",
+            "desc": "Gain 8% max Health. <br><br>Every 2 seconds, deal 1% Burn and 33% Wound to an enemy within 2 hexes for 10 seconds.<br><br>Burn: Deals a percent of the target�s max Health as true damage every second<br>Wound: Reduces healing received",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleHealth% +150<br>%i:scaleArmor% +20",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/SunfireCape_1640059158.png",
             "compositions": [
                 "ChainVest",
                 "GiantsBelt"
             ],
-            "isUnique": true,
             "isNormal": true
         },
         {
@@ -1697,9 +1716,8 @@
             "name": "Suspicious Trench Coat",
             "desc": "Once per combat at 60% Health, the holder splits into 3 copies of themself each with 33% of their max Health.<br><br>[Unique - only 1 per champion]",
             "shortDesc": "",
-            "fromDesc": "+100 Health<br>+15% Attack Speed",
+            "fromDesc": "%i:scaleHealth% +100<br>%i:scaleAS% +15%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/SuspiciousTrenchCoat_1714027929-tft_item_artifact_suspicioustrenchcoat.png",
-            "isUnique": true,
             "isArtifact": true
         },
         {
@@ -1708,13 +1726,14 @@
             "ingameIcon": "Item_Icons/Standard/Tacticians_Ring",
             "name": "Tactician's Cape",
             "desc": "Your team gains +1 max team size.<br><br>10% chance to drop 1 gold after 10 seconds of combat.<br><br>\"...and a bit of Luck.\"",
-            "shortDesc": "+1<br>Team size",
+            "shortDesc": "",
             "fromDesc": "",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/TacticiansCape_1724990309-tacticians_ring.png",
             "compositions": [
-                "Spatula",
-                "FryingPan"
+                "FryingPan",
+                "Spatula"
             ],
+            "isUnique": true,
             "isNormal": true
         },
         {
@@ -1723,13 +1742,14 @@
             "ingameIcon": "Item_Icons/Standard/Tacticians_Scepter",
             "name": "Tactician's Shield",
             "desc": "Your team gains +1 max team size.<br><br>10% chance to drop 1 gold when the holder dies.<br><br>\"Imbued with a Philosopher's wisdom...\"",
-            "shortDesc": "+1<br>Team size",
+            "shortDesc": "",
             "fromDesc": "",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/TacticiansShield_1724990428-tacticians_scepter.png",
             "compositions": [
                 "FryingPan",
                 "FryingPan"
             ],
+            "isUnique": true,
             "isNormal": true
         },
         {
@@ -1739,7 +1759,7 @@
             "name": "Talisman Of Ascension",
             "desc": "After 22 seconds gain 100% max Health and 120% Damage Amp for the rest of combat.",
             "shortDesc": "",
-            "fromDesc": "+300 Health<br>+20% Attack Damage<br>+20 Ability Power",
+            "fromDesc": "%i:scaleHealth% +500<br>%i:scaleAD% +20%<br>%i:scaleAP% +20",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/TalismanOfAscension_1714028034-tft_item_artifact_talismanofascension.png",
             "isArtifact": true
         },
@@ -1748,9 +1768,9 @@
             "ingameKey": "TFT_Item_TearOfTheGoddess",
             "ingameIcon": "Item_Icons/Standard/Tear_of_the_Goddess",
             "name": "Tear of the Goddess",
-            "desc": "+1 Mana Regen",
-            "shortDesc": "+1<br>Mana Regen",
-            "fromDesc": "+1 Mana Regen",
+            "desc": "%i:TFTManaRegen% +1 Mana Regen",
+            "shortDesc": "",
+            "fromDesc": "%i:TFTManaRegen% +1",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/Tearofthegoddess_1640059037.png",
             "isFromItem": true
         },
@@ -1759,9 +1779,9 @@
             "ingameKey": "TFT_Item_EternalFlame",
             "ingameIcon": "Item_Icons/TFT9_SupportItems/Eternal_Flame",
             "name": "The Eternal Flame",
-            "desc": "While the holder is alive, all enemies are 33% Wounded and all allies deal 8% Damage Amp. This effect refreshes every 5 seconds.<br><br>​​[Support item]<br>Wound: Reduces healing received",
+            "desc": "While the holder is alive, all enemies are 33% Wounded and all allies gain 8% Damage Amp. This effect refreshes every 5 seconds.<br><br>[Support item]<br>Wound: Reduces healing received",
             "shortDesc": "",
-            "fromDesc": "+150 Health",
+            "fromDesc": "%i:scaleHealth% +150",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/TheEternalFlame_1714027272-eternal_flame.png",
             "isHidden": true,
             "isSupport": true
@@ -1772,14 +1792,13 @@
             "ingameIcon": "Item_Icons/Standard/Thieves_Gloves",
             "name": "Thief's Gloves",
             "desc": "Each round: Equip 2 random items.<br><br>[Consumes 3 item slots.]",
-            "shortDesc": "Fetch two<br>temporary<br>items",
-            "fromDesc": "+150 Health<br>+20% Critical Strike Chance",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleHealth% +150<br>%i:scaleCrit% +20%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/ThiefsGloves_9PTkdu1Iyw6L1voQbNlsP5U74TzF7suIeq5RQjbh.png",
             "compositions": [
                 "SparringGloves",
                 "SparringGloves"
             ],
-            "isUnique": true,
             "isNormal": true
         },
         {
@@ -1788,7 +1807,7 @@
             "name": "Titanic Hydra",
             "desc": "Attacks deal 3% of the holder's max Health plus 8% of their Attack Damage as bonus physical damage to the target and adjacent enemies.",
             "shortDesc": "",
-            "fromDesc": "+300 Health<br>+20% Attack Damage<br>+20% Attack Speed",
+            "fromDesc": "%i:scaleHealth% +300<br>%i:scaleAD% +20%<br>%i:scaleAS% +20%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/TitanicHydra_1748484828-거대한히드라.jpg",
             "isArtifact": true
         },
@@ -1797,13 +1816,13 @@
             "ingameKey": "TFT_Item_TitansResolve",
             "ingameIcon": "Item_Icons/Standard/Titans_Resolve",
             "name": "Titan's Resolve",
-            "desc": "Gain 2% Attack Damage and 2 Ability Power when attacking or taking damage, stacking up to 25 times. <br><br>At full stacks, gain 15 Armor and 15 Magic Resist, and gain immunity to crowd control.",
-            "shortDesc": "Stack AD&AP<br>when taken<br>dmg or crit hit.<br>At max stacks<br>gain +AR&MR<br>Immune to CC",
-            "fromDesc": "+20 Armor<br>+10% Attack Speed",
+            "desc": "Gain 2% Attack Damage and 2 Ability Power when attacking or taking damage, stacking up to 25 times. <br><br>At full stacks, gain 10% Damage Amp and gain immunity to crowd control.",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleArmor% +20<br>%i:scaleAS% +10%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/TitansResolve_1640058512.png",
             "compositions": [
-                "RecurveBow",
-                "ChainVest"
+                "ChainVest",
+                "RecurveBow"
             ],
             "isNormal": true
         },
@@ -1814,7 +1833,7 @@
             "name": "Trickster's Glass",
             "desc": "Summon a clone with 70% base Health and +10% max Mana. You cannot equip items to the clone.<br><br>The clone benefits from active traits<br><br>[Unique - only 1 per champion]",
             "shortDesc": "",
-            "fromDesc": "+10 Armor, +10 Magic Resist, +10% Attack Speed, +15% Crit Chance",
+            "fromDesc": "%i:scaleArmor% +10<br>%i:scaleMR% +10<br>%i:scaleAS% +10%<br>%i:scaleCrit% +15%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/TrickstersGlass_1710227727-tft9_ornnitem_trickstersglass.png",
             "isUnique": true,
             "isArtifact": true
@@ -1826,7 +1845,7 @@
             "name": "Unending Despair",
             "desc": "Whenever a Shield on the holder breaks, 150% of that Shield's initial value is dealt to the nearest enemy as magic damage.",
             "shortDesc": "",
-            "fromDesc": "+350 Health<br>+40 Armor",
+            "fromDesc": "%i:scaleHealth% +350<br>%i:scaleArmor% +40",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/UnendingDespair_1714029241-tft_item_artifact_unendingdespair.png",
             "isArtifact": true
         },
@@ -1835,9 +1854,9 @@
             "ingameKey": "TFT_Item_UnstableTreasureChest",
             "ingameIcon": "Item_Icons/TFT9_SupportItems/Unstable_Treasure_Chest",
             "name": "Unstable Treasure Chest",
-            "desc": "When the holder dies, the 4 closest allies gain a temporary completed item.<br><br>​​[Support item]",
+            "desc": "When the holder dies, the 4 highest percent health allies gain a temporary completed item.<br><br>[Support item]",
             "shortDesc": "",
-            "fromDesc": "+150 Health",
+            "fromDesc": "%i:scaleHealth% +150",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/UnstableTreasureChest_1714027854-unstable_treasure_chest.png",
             "isHidden": true,
             "isSupport": true
@@ -1849,7 +1868,7 @@
             "name": "Virtue of the Martyr",
             "desc": "Every 5 seconds, heal your team for 7% of their max Health. When the holder dies, the healing increases to 14% max Health for 2 extra heals.<br><br>[Support item]",
             "shortDesc": "",
-            "fromDesc": "+150 Health",
+            "fromDesc": "%i:scaleHealth% +150",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/VirtueoftheMartyr_1693365499-radiant_virtue.png",
             "isHidden": true,
             "isSupport": true
@@ -1858,9 +1877,9 @@
             "key": "VoidStaff",
             "ingameKey": "TFT_Item_StatikkShiv",
             "name": "Void Staff",
-            "desc": "Attacks and Ability damage 30% shred the target for 5 seconds. This effect does not stack.<br><br>Shred: Reduce Magic Resist",
-            "shortDesc": "AD/AP<br>damage<br>30% shred<br>target for 5s",
-            "fromDesc": "+35 Ability Power<br>+15% Attack Speed<br>+1 Mana Regen",
+            "desc": "Attacks and Ability damage 30% Shred the target for 5 seconds. This effect does not stack.<br><br>Shred: Reduce Magic Resist",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleAP% +35<br>%i:scaleAS% +15%<br>%i:TFTManaRegen% +1",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/VoidStaff_1747207480-6f3e0c3861b876d768c4f9b501fbaabc585c3bc3-512x512.png",
             "compositions": [
                 "RecurveBow",
@@ -1874,8 +1893,8 @@
             "ingameIcon": "Item_Icons/Standard/Warmogs_Armor",
             "name": "Warmog's Armor",
             "desc": "Gain 12% max health.",
-            "shortDesc": "Gain bonus HP",
-            "fromDesc": "+600 Health",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleHealth% +600",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/WarmogsArmor_1710228144-warmogs_armor.png",
             "compositions": [
                 "GiantsBelt",
@@ -1888,9 +1907,9 @@
             "ingameKey": "TFT_Item_Artifact_WitsEnd",
             "ingameIcon": "Item_Icons/Ornn_Items/TFT_Item_Artifact_WitsEnd",
             "name": "Wit's End",
-            "desc": "Attacks deal 42-100 bonus magic damage.<br><br>Heals the holder for 35% of all magic damage dealt.<br><br>Damage increases based on Stage.",
+            "desc": "Attacks deal 0 bonus magic damage.<br><br>Heals the holder for 35% of all magic damage dealt.<br><br>Damage increases based on Stage.",
             "shortDesc": "",
-            "fromDesc": "+30% Attack Speed<br>+30 Mana<br>+300 Health<br>+30 Armor",
+            "fromDesc": "%i:scaleHealth% +300<br>%i:scaleArmor% +30<br>%i:scaleMR% +30<br>%i:scaleAS% +30%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/WitsEnd_1714029999-tft_item_artifact_witsend.png",
             "isArtifact": true
         },
@@ -1899,9 +1918,9 @@
             "ingameKey": "TFT_Item_ZekesHerald",
             "ingameIcon": "Item_Icons/TFT9_SupportItems/Zekes_Herald",
             "name": "Zeke's Herald",
-            "desc": "Combat start: Grant 30% Attack Speed to the holder and allies within 2 hexes in the same row.<br><br>[Support item]",
-            "shortDesc": "+AS<br>wearer and<br>allies within<br>2 hex in<br>the same row",
-            "fromDesc": "+150 Health",
+            "desc": "Combat start: Grant %i:scaleAS% 30% Attack Speed to the holder and allies within 2 hexes in the same row.<br><br>[Support item]",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleHealth% +150",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/ZekesHerald_1693365559-zekes_herald.png",
             "isHidden": true,
             "isSupport": true
@@ -1911,12 +1930,11 @@
             "ingameKey": "TFT_Item_Zephyr",
             "ingameIcon": "Item_Icons/TFT9_SupportItems/Zephyr",
             "name": "Zephyr",
-            "desc": "Combat start: Summon a whirlwind on the opposite side of the arena that removes the closest enemy from combat for 5 seconds.<br><br>Your team gains 2% Attack Speed.<br><br>[Support item]<br>[Ignores crowd control immunity.]<br>[Unique - only 1 per champion]",
+            "desc": "Combat start: Summon a whirlwind on the opposite side of the arena that removes the closest enemy from combat for 5 seconds. <br><br>Your team gains 2% Attack Speed.<br><br>[Support item]<br>[Ignores crowd control immunity.]<br>[Unique - only 1 per champion]",
             "shortDesc": "",
-            "fromDesc": "+150 Health",
+            "fromDesc": "%i:scaleHealth% +150",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/Zephyr_1693365537-zephyr.png",
             "isHidden": true,
-            "isUnique": true,
             "isSupport": true
         },
         {
@@ -1926,7 +1944,7 @@
             "name": "Zz'Rot Portal",
             "desc": "Summon a large Voidspawn. Its strength increases with each Stage.<br><br>[Support item]<br>[Unique - only 1 per champion]",
             "shortDesc": "",
-            "fromDesc": "+150 Health",
+            "fromDesc": "%i:scaleHealth% +150",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/ZzRotPortal_1693365550-zzrot_portal.png",
             "isHidden": true,
             "isSupport": true
@@ -1936,15 +1954,14 @@
             "ingameKey": "TFT15_Item_StarGuardianEmblemItem",
             "name": "Star Guardian Emblem",
             "desc": "The holder gains the Star Guardian trait.<br><br>Teamwork: Non-emblem Star Guardian bonuses are increased by 10%. This effect stacks.<br><br>[Unique - only 1 per champion.]",
-            "shortDesc": "Holder gains<br>Star Guardian trait",
-            "fromDesc": "+10% Ability Power",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleAP% +10",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/PBEStarGuardianEmblem_1752646670-tft15_emblem_starguardian.tft_set15.png",
             "compositions": [
                 "NeedlesslyLargeRod",
                 "Spatula"
             ],
             "affectedTraitKey": "StarGuardian",
-            "isUnique": true,
             "isEmblem": true,
             "isNew": true
         },
@@ -1953,15 +1970,14 @@
             "ingameKey": "TFT15_Item_SupremeCellsEmblemItem",
             "name": "Supreme Cells Emblem",
             "desc": "The holder gains the Supreme Cells trait.",
-            "shortDesc": "Holder gains<br>Supreme Cells trait",
-            "fromDesc": "+10% Attack Speed",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleAS% +10%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/PBESupremeCellsEmblem_1752646694-tft15_emblem_supremecells.tft_set15.png",
             "compositions": [
                 "RecurveBow",
                 "Spatula"
             ],
             "affectedTraitKey": "SupremeCells",
-            "isUnique": true,
             "isEmblem": true,
             "isNew": true
         },
@@ -1970,15 +1986,14 @@
             "ingameKey": "TFT15_Item_SoulFighterEmblemItem",
             "name": "Soul Fighter Emblem",
             "desc": "The holder gains the Soul Fighter trait.",
-            "shortDesc": "Holder gains<br>Soul Fighter trait",
-            "fromDesc": "+10% Attack Damage",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleAD% +10%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/PBESoulFighterEmblem_1752646679-tft15_emblem_soulfighter.tft_set15.png",
             "compositions": [
                 "BFSword",
                 "Spatula"
             ],
             "affectedTraitKey": "SoulFighter",
-            "isUnique": true,
             "isEmblem": true,
             "isNew": true
         },
@@ -1987,15 +2002,14 @@
             "ingameKey": "TFT15_Item_RingKingsEmblemItem",
             "name": "Luchador Emblem",
             "desc": "The holder gains the Luchador trait.",
-            "shortDesc": "Holder gains<br>Luchador trait",
-            "fromDesc": "+20% Crit Chance",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleCrit% +20%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/PBELuchadorEmblem_1752646889-tft15_emblem_luchador.tft_set15.png",
             "compositions": [
                 "SparringGloves",
                 "Spatula"
             ],
             "affectedTraitKey": "Luchador",
-            "isUnique": true,
             "isEmblem": true,
             "isNew": true
         },
@@ -2004,15 +2018,14 @@
             "ingameKey": "TFT15_Item_CrystalRoseEmblemItem",
             "name": "Crystal Gambit Emblem",
             "desc": "The holder gains the Crystal Gambit trait.",
-            "shortDesc": "Holder gains<br>Crystal Gambit trait",
-            "fromDesc": "+150 Health",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleHealth% +150",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/PBECrystalGambitEmblem_1752646688-tft15_emblem_crystalgambit.tft_set15.png",
             "compositions": [
                 "GiantsBelt",
                 "Spatula"
             ],
             "affectedTraitKey": "CrystalGambit",
-            "isUnique": true,
             "isEmblem": true,
             "isNew": true
         },
@@ -2021,15 +2034,14 @@
             "ingameKey": "TFT15_Item_EmpyreanEmblemItem",
             "name": "Wraith Emblem",
             "desc": "The holder gains the Wraith trait.",
-            "shortDesc": "Holder gains<br>Wraith trait",
-            "fromDesc": "+20 Armor",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleArmor% +20",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/PBEWraithEmblem_1752646711-tft15_emblem_empyrean.tft_set15.png",
             "compositions": [
                 "ChainVest",
                 "Spatula"
             ],
             "affectedTraitKey": "Wraith",
-            "isUnique": true,
             "isEmblem": true,
             "isNew": true
         },
@@ -2038,15 +2050,14 @@
             "ingameKey": "TFT15_Item_SpellslingerEmblemItem",
             "name": "Sorcerer Emblem",
             "desc": "The holder gains the Sorcerer trait.<br>The holder gains 18% more Ability Power from all sources.",
-            "shortDesc": "Holder gains<br>Techie trait",
-            "fromDesc": "+10% Ability Power",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleAP% +10",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/PBESorcererEmblem_1752646659-tft15_emblem_sorceror.tft_set15.png",
             "compositions": [
                 "FryingPan",
                 "NeedlesslyLargeRod"
             ],
             "affectedTraitKey": "Sorcerer",
-            "isUnique": true,
             "isEmblem": true,
             "isNew": true
         },
@@ -2055,15 +2066,14 @@
             "ingameKey": "TFT15_Item_ChallengerEmblemItem",
             "name": "Duelist Emblem",
             "desc": "The holder gains the Duelist trait.<br><br>Attacks deal 12 bonus true damage, plus 6 bonus true damage for each time the target was damaged by this effect.",
-            "shortDesc": "Holder gains<br>Duelist trait",
-            "fromDesc": "+10% Attack Speed",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleAS% +10%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/PBEDuelistEmblem_1752646652-tft15_emblem_duelist.tft_set15.png",
             "compositions": [
-                "RecurveBow",
-                "FryingPan"
+                "FryingPan",
+                "RecurveBow"
             ],
             "affectedTraitKey": "Duelist",
-            "isUnique": true,
             "isEmblem": true,
             "isNew": true
         },
@@ -2072,15 +2082,14 @@
             "ingameKey": "TFT15_Item_EdgelordEmblemItem",
             "name": "Edgelord Emblem",
             "desc": "The holder gains the Edgelord trait.<br>Dealing physical damage to an enemy reduces their Armor by 2.",
-            "shortDesc": "Holder gains<br>Edgelord trait",
-            "fromDesc": "+10% Attack Damage",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleAD% +10%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/PBEEdgelordEmblem_1752646717-tft15_emblem_edgelord.tft_set15.png",
             "compositions": [
                 "BFSword",
                 "FryingPan"
             ],
             "affectedTraitKey": "Edgelord",
-            "isUnique": true,
             "isEmblem": true,
             "isNew": true
         },
@@ -2089,15 +2098,14 @@
             "ingameKey": "TFT15_Item_ProdigyEmblemItem",
             "name": "Prodigy Emblem",
             "desc": "The holder gains the Prodigy trait.<br>On cast, shield the lowest percent Health ally for 250% of mana spent.",
-            "shortDesc": "Holder gains<br>Prodigy trait",
-            "fromDesc": "+2.5 Mana Regen",
+            "shortDesc": "",
+            "fromDesc": "%i:TFTManaRegen% +1",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/PBEProdigyEmblem_1752646703-tft15_emblem_prodigy.tft_set15.png",
             "compositions": [
                 "FryingPan",
                 "Tearofthegoddess"
             ],
             "affectedTraitKey": "Prodigy",
-            "isUnique": true,
             "isEmblem": true,
             "isNew": true
         },
@@ -2106,15 +2114,14 @@
             "ingameKey": "TFT15_Item_HeavyweightEmblemItem",
             "name": "Heavyweight Emblem",
             "desc": "The holder gains the Heavyweight trait, and gains 150 max Health on takedown.",
-            "shortDesc": "Holder gains<br>Heavyweight trait",
-            "fromDesc": "+150 Health",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleHealth% +150",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/PBEHeavyweightEmblem_1752646899-tft15_emblem_heavyweight.tft_set15.png",
             "compositions": [
                 "FryingPan",
                 "GiantsBelt"
             ],
             "affectedTraitKey": "Heavyweight",
-            "isUnique": true,
             "isEmblem": true,
             "isNew": true
         },
@@ -2123,15 +2130,14 @@
             "ingameKey": "TFT15_Item_JuggernautEmblemItem",
             "name": "Juggernaut Emblem",
             "desc": "The holder gains the Juggernaut trait.<br>While above 50% Health, gain 30% Attack Speed.",
-            "shortDesc": "Holder gains<br>Juggernaut trait",
-            "fromDesc": "+20 Magic Resist",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleMR% +20",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/PBEJuggernautEmblem_1752646728-tft15_emblem_juggernaut.tft_set15.png",
             "compositions": [
                 "FryingPan",
                 "NegatronCloak"
             ],
             "affectedTraitKey": "Juggernaut",
-            "isUnique": true,
             "isEmblem": true,
             "isNew": true
         },
@@ -2139,16 +2145,15 @@
             "key": "BattleAcademiaEmblem",
             "ingameKey": "TFT15_Item_BattleAcademiaEmblemItem",
             "name": "Battle Academia Emblem",
-            "desc": "The holder gains the Battle Academia trait, and 120 Health and 6% Damage Amp per Potential.",
-            "shortDesc": "Holder gains<br>Battle Academida trait",
-            "fromDesc": "+1 Mana Regen",
+            "desc": "The holder gains the Battle Academia trait, and 120 Health and 6% Damage Amp per %i:set14AmpIcon%.",
+            "shortDesc": "",
+            "fromDesc": "%i:TFTManaRegen% +1",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/PBEBattleAcademiaEmblem_1752646740-tft15_emblem_battleacademia.tft_set15.png",
             "compositions": [
                 "Spatula",
                 "Tearofthegoddess"
             ],
             "affectedTraitKey": "BattleAcademia",
-            "isUnique": true,
             "isEmblem": true,
             "isNew": true
         },
@@ -2180,7 +2185,7 @@
             "key": "RoboRangerCore",
             "ingameKey": "TFT15_RoboRanger_Core",
             "name": "Combination Core",
-            "desc": "Mighty Mech champions heal The Mighty Mech for ?% of the damage they deal.<br><br>By our powers combined!",
+            "desc": "Mighty Mech champions heal The Mighty Mech for 0% of the damage they deal.<br><br>By our powers combined!",
             "shortDesc": "",
             "fromDesc": "",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/PBERoboRangerCore_1752648365-tft15_shieldmatrix.tft_set15.png",
@@ -2194,7 +2199,7 @@
             "name": "Mega Blade Upgrade",
             "desc": "Deal an additional 10% of all damage dealt as true damage.<br><br>Bring down the blade of justice!",
             "shortDesc": "",
-            "fromDesc": "+25% Attack Speed<br>+10% Omnivamp",
+            "fromDesc": "%i:scaleAS% +25%<br>%i:scaleSV% +10%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/PBERoboRangerSlicer_1752648279-tft15_roboranger_galioslicer.tft_set15.png",
             "isHidden": true,
             "isNormal": true,
@@ -2206,7 +2211,7 @@
             "name": "Mighty Blade",
             "desc": "Attacks now cleave in a cone dealing 50% physical damage to adjacent enemies.<br><br>We slice through evil with unbreakable resolve.",
             "shortDesc": "",
-            "fromDesc": "+25% Attack Damage",
+            "fromDesc": "%i:scaleAD% +25%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/PBERoboRangerSword_1752648377-tft15_roboranger_galiosword.tft_set15.png",
             "isHidden": true,
             "isNormal": true,
@@ -2216,9 +2221,9 @@
             "key": "CrownOfDemacia",
             "ingameKey": "TFT9_Item_CrownOfDemacia",
             "name": "Crown of Demacia",
-            "desc": "If the holder begins combat in the front 2 rows, regenerate 3-21% maximum Health every 2 seconds (based on stage). If they start in the back 2 rows, gain 10% Attack Damage and Ability Power every 2 seconds instead. <br><br>If the holder of this item dies, you instantly lose the fight.<br><br>You can remove this item by benching the holder.",
+            "desc": "If the holder is a Tank, regenerate 3-@HealingPercentPerTickPerStage*7@% maximum Health every 2 seconds (based on stage). Otherwise, gain 10% %i:scaleAD% Attack Damage and %i:scaleAP% Ability Power every 2 seconds instead. <br><br>If the holder of this item dies, you instantly lose the fight.<br><br>You can remove this item by benching the holder.",
             "shortDesc": "",
-            "fromDesc": "+300 Health<br>+30% Attack Speed",
+            "fromDesc": "%i:scaleHealth% +300<br>%i:scaleAS% +30%",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/PBECrownOfDemacia_1752647957-crownofdemacia.png",
             "isHidden": true,
             "isNormal": true,
@@ -2230,7 +2235,7 @@
             "name": "Sniper Emblem",
             "desc": "The holder gains the Sniper trait and 2 range.",
             "shortDesc": "",
-            "fromDesc": "+150 Health",
+            "fromDesc": "%i:scaleHealth% +150",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/PBESniperEmblemItem_1752647096-tft15_emblem_sniper.tft_set15.png",
             "affectedTraitKey": "Sniper",
             "isEmblem": true,
@@ -2242,10 +2247,9 @@
             "name": "Protector Emblem",
             "desc": "The holder gains the Protector trait.<br>When a shield on the holder breaks, heal the holder and the nearest ally for 20% of the shield's initial value.",
             "shortDesc": "",
-            "fromDesc": "+150 Health",
+            "fromDesc": "%i:scaleHealth% +150",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/PBEProtectorEmblemItem_1752647001-tft15_emblem_protector.tft_set15.png",
             "affectedTraitKey": "Protector",
-            "isUnique": true,
             "isEmblem": true,
             "isNew": true
         },
@@ -2255,11 +2259,35 @@
             "name": "Crystalline Reinforcements",
             "desc": "Your team gains 1000 health. Whenever a unit dies, a crystalline copy one star level lower joins the fight!",
             "shortDesc": "",
-            "fromDesc": "",
+            "fromDesc": "%i:scaleHealth% +1000",
             "imageUrl": "//cdn.lolchess.gg/upload/images/items/Crystalrosehellionitem_1753671150-TFT15_item_crystalrosehellionitem.png",
             "isHidden": true,
+            "isUnique": true,
             "isNormal": true,
             "isNew": true
+        },
+        {
+            "key": "ZzRotPortalOld",
+            "ingameKey": "TFT_Item_TitanicHydra",
+            "name": "Zz'Rot Portal",
+            "desc": "Combat start: Taunt.<br>On death, a Voidspawn arises, Taunting nearby enemies. The Voidspawn has massively reduced effectiveness when created by a summoned unit.<br><br>Taunt: enemies that are able and in range must attack the taunter",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleHealth% +150<br>%i:scaleAS% +10%",
+            "imageUrl": null,
+            "isHidden": true,
+            "isNormal": true
+        },
+        {
+            "key": "DeterminedInvestor",
+            "ingameKey": "TFT7_Item_ShimmerscaleDeterminedInvestor",
+            "name": "Determined Investor",
+            "desc": "After dying during combat 8 times, this item is destroyed. Upon destruction, grant the item Diamond Hands, 1 Champion Duplicator, and %i:goldCoins% 5 gold.",
+            "shortDesc": "",
+            "fromDesc": "%i:scaleHealth% +150",
+            "imageUrl": null,
+            "isHidden": true,
+            "isUnique": true,
+            "isNormal": true
         }
     ]
 }

@@ -2,372 +2,260 @@
     "comp": [
         {
             "name": "BFSword",
-            "attr": "+10% AD"
+            "attr": ""
         },
         {
             "name": "ChainVest",
-            "attr": "+20 Armor"
+            "attr": ""
         },
         {
             "name": "FryingPan",
-            "attr": "You will get<br>special ability"
+            "attr": ""
         },
         {
             "name": "GiantsBelt",
-            "attr": "+150 HP"
+            "attr": ""
         },
         {
             "name": "NeedlesslyLargeRod",
-            "attr": "+10 AP"
+            "attr": ""
         },
         {
             "name": "NegatronCloak",
-            "attr": "+20 MR"
+            "attr": ""
         },
         {
             "name": "RecurveBow",
-            "attr": "+10% AS"
+            "attr": ""
         },
         {
             "name": "SparringGloves",
-            "attr": "+20%<br>Crit chance"
+            "attr": ""
         },
         {
             "name": "Spatula",
-            "attr": "You will get<br>special ability"
+            "attr": ""
         },
         {
             "name": "Tearofthegoddess",
-            "attr": "+1<br>Mana Regen"
+            "attr": ""
         }
     ],
     "craf": [
         {
             "name": "AdaptiveHelm",
             "compositions": "cloak+tear",
-            "basic_attrs": [
-                "+20MR"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Gain an additional 15% Mana from all sources. The wearer gains an additional bonus based on their Role:<br><br>Tanks and Fighters: Gain 35 Armor and Magic Resistance.<br><br>Other Roles: Gain 15 Attack Damage and Ability Power."
         },
         {
             "name": "ArcaneGauntlet",
             "compositions": "rod+glove",
-            "basic_attrs": [
-                "+35AP",
-                "+35%CR"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Abilities can critically strike.<br><br>If the holder's abilities can already critically strike, gain 10% Critical Strike Damage instead."
         },
         {
             "name": "Bloodthirster",
             "compositions": "sword+cloak",
-            "basic_attrs": [
-                "+15%AD",
-                "+15AP",
-                "+20%OV",
-                "+20MR"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Once per combat at 40% Health, gain a 25% max Health Shield that lasts up to 5 seconds."
         },
         {
             "name": "BlueSentinel",
             "compositions": "tear+tear",
-            "basic_attrs": [
-                "+15%AD",
-                "+15AP"
-            ],
-            "add_attrs": "A golem's essence, overflowing with arcane potential."
+            "basic_attrs": [],
+            "add_attrs": "Gain 10% additional Attack Damage and Ability Power from all sources."
         },
         {
             "name": "BrambleVest",
             "compositions": "vest+vest",
-            "basic_attrs": [
-                "+65AR"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Gain 7% max health.<br><br>Take 8% reduced damage from attacks. When struck by any attack, deal 100 magic damage to all adjacent enemies.<br><br>Cooldown: 2 seconds"
         },
         {
             "name": "Crownguard",
             "compositions": "vest+rod",
-            "basic_attrs": [
-                "+100HP",
-                "+20AP",
-                "+20AR"
-            ],
-            "add_attrs": "Combat start: Gain a 25% max Health Shield for 8 seconds.<br>When the shield expires, gain 25 Ability Power."
+            "basic_attrs": [],
+            "add_attrs": "Combat Start: Gain a 25% max Health Shield for 8 seconds.<br><br>When the Shield expires, gain 25 Ability Power."
         },
         {
             "name": "DragonsClaw",
             "compositions": "cloak+cloak",
-            "basic_attrs": [
-                "+75MR"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Gain 9% max health.<br><br>Every 2 seconds, heal 2.5% max Health."
         },
         {
             "name": "Evenshroud",
             "compositions": "cloak+belt",
-            "basic_attrs": [
-                "+150HP",
-                "+20MR"
-            ],
+            "basic_attrs": [],
             "add_attrs": "30% Sunder enemies within 2 hexes. Gain 25 Armor and Magic Resist for the first 15 seconds of combat.<br><br>Sunder: Reduce Armor"
         },
         {
             "name": "Fimbulwinter",
             "compositions": "vest+tear",
-            "basic_attrs": [
-                "+25AR",
-                "+25MR"
-            ],
-            "add_attrs": "Start of Combat: Gain 20 Mana.<br><br>At 40% Health, gain 15 Mana and a Shield equal to 20% max Health."
+            "basic_attrs": [],
+            "add_attrs": "Combat Start: Gain 20 Mana.<br><br>At 40% Health, gain 15 Mana and a Shield equal to 20% max Health."
         },
         {
             "name": "GiantSlayer",
             "compositions": "sword+bow",
-            "basic_attrs": [
-                "+20%AD",
-                "+15%AS",
-                "+10%DA"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Gain 15% additional Damage Amp against Tanks."
         },
         {
             "name": "Guardbreaker",
             "compositions": "belt+glove",
-            "basic_attrs": [
-                "+150HP",
-                "+10%AS",
-                "+20%CR",
-                "+10%DA"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Critical Strikes grant 5% Damage Amp for 5 seconds, stacking up to 4 times."
         },
         {
             "name": "GuardianAngel",
             "compositions": "sword+vest",
-            "basic_attrs": [
-                "+10%AD",
-                "+10AP",
-                "+15%AS"
-            ],
+            "basic_attrs": [],
             "add_attrs": "At 60% Health, briefly become untargetable and shed negative effects."
         },
         {
             "name": "GuinsoosRageblade",
             "compositions": "bow+rod",
-            "basic_attrs": [
-                "+10AP",
-                "+10%AS"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Gain 6% stacking Attack Speed every second."
         },
         {
             "name": "HandofJustice",
             "compositions": "tear+glove",
-            "basic_attrs": [
-                "+20%CR"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Gain 2 effects:<br>- 15% Attack Damage and 15 Ability Power.<br>- 12% Omnivamp.<br><br>While above 50% health, double the Attack Damage and Ability Power. While below 50% Health, double the Omnivamp."
         },
         {
             "name": "HextechGunblade",
             "compositions": "sword+rod",
-            "basic_attrs": [
-                "+20%AD",
-                "+20AP",
-                "+18%DA"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Heal the lowest percent Health ally for 20% of damage dealt."
         },
         {
             "name": "InfinityEdge",
             "compositions": "sword+glove",
-            "basic_attrs": [
-                "+35%AD",
-                "+35%CR"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Abilities can critically strike.<br><br>If the holder's abilities can already critically strike, gain 10% Critical Strike Damage instead."
         },
         {
             "name": "IonicSpark",
             "compositions": "cloak+rod",
-            "basic_attrs": [
-                "+150HP",
-                "+15AP",
-                "+25MR"
-            ],
+            "basic_attrs": [],
             "add_attrs": "30% Shred enemies within 2 hexes. When enemies cast an Ability, deal magic damage equal to 160% of the Mana spent.<br><br>Shred: Reduce Magic Resist"
         },
         {
             "name": "IronWill",
             "compositions": "vest+cloak",
-            "basic_attrs": [
-                "+100HP",
-                "+25AR",
-                "+25MR"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Gain 10 Armor and 10 Magic Resist for each enemy targeting the holder."
         },
         {
             "name": "LastWhisper",
             "compositions": "bow+glove",
-            "basic_attrs": [
-                "+15%AD",
-                "+20%AS",
-                "+20%CR"
-            ],
-            "add_attrs": "Physical damage 30% Sunders the target for 3 seconds. This effect does not stack.<br><br>Sunder: reduce Armor"
+            "basic_attrs": [],
+            "add_attrs": "Physical damage 30% Sunders the target for 3 seconds. This effect does not stack.<br><br>Sunder: Reduce Armor"
         },
         {
             "name": "LordsEdge",
             "compositions": "sword+sword",
-            "basic_attrs": [
-                "+55%AD",
-                "+10%DA"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Perfect peace and calm for the holder - and all who face it."
         },
         {
             "name": "LudensEcho",
             "compositions": "rod+tear",
-            "basic_attrs": [
-                "+20AP"
-            ],
-            "add_attrs": "Combat start: Gain 30 Ability Power every 5 seconds in combat."
+            "basic_attrs": [],
+            "add_attrs": "Combat start: Gain 20 Ability Power every 5 seconds in combat."
         },
         {
             "name": "Morellonomicon",
             "compositions": "rod+belt",
-            "basic_attrs": [
-                "+150HP",
-                "+20AP"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Attacks and Abilities deal 1% Burn and 33% Wound to enemies for 10 seconds.<br><br>Burn: Deals a percent of the target's max Health as true damage every second<br>Wound: Reduces healing received"
         },
         {
             "name": "NashorsTooth",
             "compositions": "bow+belt",
-            "basic_attrs": [
-                "+150HP",
-                "+25AP",
-                "+10%AS"
-            ],
-            "add_attrs": "After casting an Ability, gain 30% Attack Speed for 5 seconds."
+            "basic_attrs": [],
+            "add_attrs": "Attacks grant 2 bonus Mana, increased to 4 if they critically strike."
         },
         {
             "name": "Quicksilver",
             "compositions": "cloak+glove",
-            "basic_attrs": [
-                "+20MR"
-            ],
-            "add_attrs": "Combat start: Gain immunity to crowd control for 18 seconds. During this time, gain 3% Attack Speed every 2 seconds.<br><br>[Unique - only 1 per champion]"
+            "basic_attrs": [],
+            "add_attrs": "Combat Start: Gain immunity to crowd control for 18 seconds.<br><br>Gain 3% stacking Attack Speed every second."
         },
         {
             "name": "RabadonsDeathcap",
             "compositions": "rod+rod",
-            "basic_attrs": [
-                "+50AP",
-                "+15%DA"
-            ],
+            "basic_attrs": [],
             "add_attrs": "This humble hat can help you make, or unmake, the world itself."
         },
         {
             "name": "RedBuffItem",
             "compositions": "bow+bow",
-            "basic_attrs": [
-                "+40%AS",
-                "+3%DA"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Attacks and Abilities 1% Burn and 33% Wound enemies for 5 seconds.<br><br>Burn: Deals a percent of the target's max Health as true damage every second<br>Wound: Reduces healing received"
         },
         {
             "name": "Redemption",
             "compositions": "tear+belt",
-            "basic_attrs": [
-                "+300HP",
-                "+10%DR"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Regenerate 2.5% of missing Health each second."
         },
         {
             "name": "RunaansHurricane",
             "compositions": "bow+cloak",
-            "basic_attrs": [
-                "+20%AD",
-                "+10%AS",
-                "+20MR"
-            ],
-            "add_attrs": "Attacks grant 3% stacking Attack Damage."
+            "basic_attrs": [],
+            "add_attrs": "Attacks grant 3% stacking Attack Damage, up to 20 attacks. After 20 attacks, gain 40% Attack Speed."
         },
         {
             "name": "SpearofShojin",
             "compositions": "sword+tear",
-            "basic_attrs": [
-                "+15%AD"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Attacks grant 5 bonus Mana."
         },
         {
             "name": "SteadfastHeart",
             "compositions": "vest+glove",
-            "basic_attrs": [
-                "+20AR",
-                "+20%CR"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Gain 10% Durability. While above 50% Health, instead gain 18% Durability."
         },
         {
             "name": "SteraksGage",
             "compositions": "sword+belt",
-            "basic_attrs": [
-                "+300HP",
-                "+40%AD"
-            ],
+            "basic_attrs": [],
             "add_attrs": "At 60% Health, gain a Shield equal to 50% of the wearer's maximum Health that rapidly decays over 5 seconds."
         },
         {
             "name": "SunfireCape",
             "compositions": "vest+belt",
-            "basic_attrs": [
-                "+20AR"
-            ],
-            "add_attrs": "Gain 8% max Health. <br><br>Every 2 seconds, deal 1% Burn and 33% Wound to an enemy within 2 hexes for 10 seconds.<br><br>Burn: Deals a percent of the target's max Health as true damage every second<br>Wound: Reduces healing received"
+            "basic_attrs": [],
+            "add_attrs": "Gain 8% max Health. <br><br>Every 2 seconds, deal 1% Burn and 33% Wound to an enemy within 2 hexes for 10 seconds.<br><br>Burn: Deals a percent of the target\ufffds max Health as true damage every second<br>Wound: Reduces healing received"
         },
         {
             "name": "ThiefsGloves",
             "compositions": "glove+glove",
-            "basic_attrs": [
-                "+150HP",
-                "+20%CR"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Each round: Equip 2 random items.<br><br>[Consumes 3 item slots.]"
         },
         {
             "name": "TitansResolve",
             "compositions": "bow+vest",
-            "basic_attrs": [
-                "+20AR",
-                "+10%AS"
-            ],
-            "add_attrs": "Gain 2% Attack Damage and 2 Ability Power when attacking or taking damage, stacking up to 25 times. <br><br>At full stacks, gain 15 Armor and 15 Magic Resist, and gain immunity to crowd control."
+            "basic_attrs": [],
+            "add_attrs": "Gain 2% Attack Damage and 2 Ability Power when attacking or taking damage, stacking up to 25 times. <br><br>At full stacks, gain 10% Damage Amp and gain immunity to crowd control."
         },
         {
             "name": "VoidStaff",
             "compositions": "bow+tear",
-            "basic_attrs": [
-                "+35AP",
-                "+15%AS"
-            ],
-            "add_attrs": "Attacks and Ability damage 30% shred the target for 5 seconds. This effect does not stack.<br><br>Shred: Reduce Magic Resist"
+            "basic_attrs": [],
+            "add_attrs": "Attacks and Ability damage 30% Shred the target for 5 seconds. This effect does not stack.<br><br>Shred: Reduce Magic Resist"
         },
         {
             "name": "WarmogsArmor",
             "compositions": "belt+belt",
-            "basic_attrs": [
-                "+600HP"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Gain 12% max health."
         }
     ],
@@ -466,7 +354,7 @@
             "name": "BattleAcademiaEmblem",
             "compositions": "tear+spatula",
             "gain_trait": "BattleAcademia",
-            "add_attrs": "The holder gains the Battle Academia trait, and 120 Health and 6% Damage Amp per Potential."
+            "add_attrs": "The holder gains the Battle Academia trait, and 120 Health and 6% Damage Amp per %i:set14AmpIcon%."
         },
         {
             "name": "SniperEmblemItem",
@@ -498,579 +386,350 @@
     "radi": [
         {
             "name": "CrownguardRadiant",
-            "basic_attrs": [
-                "+200HP",
-                "+40AP",
-                "+40AR"
-            ],
-            "add_attrs": "Combat start: Gain a 50% max Health Shield for 8 seconds. <br>When the shield expires, gain 50 Ability Power."
+            "basic_attrs": [],
+            "add_attrs": "Combat Start: Gain a 50% max Health Shield for 8 seconds.<br><br>When the Shield expires, gain 50 Ability Power."
         },
         {
             "name": "EvenshroudRadiant",
-            "basic_attrs": [
-                "+500HP",
-                "+30MR"
-            ],
+            "basic_attrs": [],
             "add_attrs": "30% Sunder enemies within 3 hexes. Gain 70 Armor and Magic Resist for the first 20 seconds of combat.<br><br>Sunder: Reduce Armor"
         },
         {
             "name": "FimbulwinterRadiant",
-            "basic_attrs": [
-                "+50AR",
-                "+50MR"
-            ],
-            "add_attrs": "Start of Combat: Gain 20 Mana.<br><br>At 40%% Health, gain 20 and a Shield equal to 45%% max Health."
+            "basic_attrs": [],
+            "add_attrs": "Combat Start: Gain 20 Mana.<br><br>At 40% Health, gain 20 Mana and a Shield equal to 45% max Health."
         },
         {
             "name": "JakshotheProtean",
-            "basic_attrs": [
-                "+25AP",
-                "+25MR"
-            ],
-            "add_attrs": "Gain an additional 30% Mana from all sources. The wearer gains an additional bonus based on their Role:<br><br>Tank/Fighter: Gain 75 Armor and Magic Resistance.<br><br>Marksman/Caster: Gain 45 Attack Damage and Ability Power."
+            "basic_attrs": [],
+            "add_attrs": "Gain an additional 30% Mana from all sources. The wearer gains an additional bonus based on their Role:<br><br>Tank/Fighter: Gain 90 Armor and Magic Resistance.<br><br>Marksman/Caster: Gain 60 Attack Damage and Ability Power."
         },
         {
             "name": "NashorsToothRadiant",
-            "basic_attrs": [
-                "+200HP",
-                "+60AP",
-                "+20%AS"
-            ],
-            "add_attrs": "After casting an Ability, gain 60% Attack Speed for 8 seconds."
+            "basic_attrs": [],
+            "add_attrs": "Attacks grant 4 bonus Mana, increased to 8 if they critically strike."
         },
         {
             "name": "RadientArchangelsStaff",
-            "basic_attrs": [
-                "+60AP"
-            ],
-            "add_attrs": "Combat start: Gain 40 Ability Power every 4 seconds in combat."
+            "basic_attrs": [],
+            "add_attrs": "Combat start: Gain 35 Ability Power every 4 seconds in combat."
         },
         {
             "name": "RadientBloodthirster",
-            "basic_attrs": [
-                "+40%AD",
-                "+40AP",
-                "+20MR",
-                "+40%OV"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Once per combat: At 40% Health, gain a 40% max Health Shield that lasts up to 5 seconds."
         },
         {
             "name": "RadientBlueBuff",
-            "basic_attrs": [
-                "+45%AD",
-                "+45AP"
-            ],
-            "add_attrs": "A blessing from the golem spirits, granting overflowing arcane energy."
+            "basic_attrs": [],
+            "add_attrs": "Gain 20% additional Attack Damage and Ability Power from all sources."
         },
         {
             "name": "RadientBrambleVest",
-            "basic_attrs": [
-                "+100AR"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Gain 15% max health.<br><br>Take 25% reduced damage from attacks. When struck by any attack, deal 175 magic damage to all adjacent enemies.<br><br>Cooldown: 2 seconds"
         },
         {
             "name": "RadientDeathblade",
-            "basic_attrs": [
-                "+105%AD",
-                "+12%DA"
-            ],
+            "basic_attrs": [],
             "add_attrs": "It glows in the presence of enemies. Or friends. Or anything alive, really."
         },
         {
             "name": "RadientDragonsClaw",
-            "basic_attrs": [
-                "+115MR"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Gain 15% max health.<br><br>Every 2 seconds, heal 10% max Health."
         },
         {
             "name": "RadientEdgeofNight",
-            "basic_attrs": [
-                "+20%AD",
-                "+20AP",
-                "+30%AS"
-            ],
-            "add_attrs": "At 60% Health, briefly become untargetable and shed negative effects. Then, heal 100% missing health"
+            "basic_attrs": [],
+            "add_attrs": "At 60% Health, briefly become untargetable, shed negative effects, and heal all missing health."
         },
         {
             "name": "RadientGargoyleStoneplate",
-            "basic_attrs": [
-                "+250HP",
-                "+50AR",
-                "+50MR"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Heal 1.5% max Health each second.<br><br>Gain 15 Armor and 15 Magic Resist for each enemy targeting the holder."
         },
         {
             "name": "RadientGiantSlayer",
-            "basic_attrs": [
-                "+50%AD",
-                "+50AP",
-                "+20%AS",
-                "+20DA"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Gain 25% additional Damage Amp against Tanks."
         },
         {
             "name": "RadientGuinsoosRageblade",
-            "basic_attrs": [
-                "+30AP",
-                "+25%AS"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Gain 12% stacking Attack Speed every second."
         },
         {
             "name": "RadientHandofJustice",
-            "basic_attrs": [
-                "+40%CR"
-            ],
-            "add_attrs": "Gain 2 effects:<br>-35% Attack Damage and 35 Ability Power.<br>- 20% Omnivamp<br>While above 50% health, double the Attack Damage and Ability Power. While below 50% Health, double the Omnivamp."
+            "basic_attrs": [],
+            "add_attrs": "Gain 2 effects:<br>- 35% Attack Damage and 35 Ability Power.<br>- 20% Omnivamp.<br><br>While above 50% health, double the Attack Damage and Ability Power. While below 50% Health, double the Omnivamp."
         },
         {
             "name": "RadientHextechGunblade",
-            "basic_attrs": [
-                "+30%OV",
-                "+40%AD",
-                "+40AP"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Heal the lowest percent Health ally for 40% of damage dealt."
         },
         {
             "name": "RadientInfinityEdge",
-            "basic_attrs": [
-                "+65%AD",
-                "+75%CR"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Abilities can critically strike.<br><br>If the holder's abilities can already critically strike, gain 10% Critical Strike Damage instead."
         },
         {
             "name": "RadientIonicSpark",
-            "basic_attrs": [
-                "+200HP",
-                "+15AP",
-                "+40MR"
-            ],
+            "basic_attrs": [],
             "add_attrs": "30% Shred enemies within 3 hexes. When enemies cast an Ability, deal magic damage equal to 200% of the Mana spent..<br><br>Also, heal 1.5% max Health per second.<br><br>[Direct damage item]<br>Shred: Reduce Magic Resist"
         },
         {
             "name": "RadientJeweledGauntlet",
-            "basic_attrs": [
-                "+70AP",
-                "+75%CR"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Abilities can critically strike.<br><br>If the holder's abilities can already critically strike, gain 10% Critical Strike Damage instead."
         },
         {
             "name": "RadientLastWhisper",
-            "basic_attrs": [
-                "+45%AD",
-                "+25%AS",
-                "+55%CR"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Physical damage 30% Sunders the target for the rest of combat. This effect does not stack.<br><br>Sunder: Reduce Armor"
         },
         {
             "name": "RadientMorellonomicon",
-            "basic_attrs": [
-                "+150HP",
-                "+50AP",
-                "+25%AS"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Attacks and Abilities deal 2% Burn and 33% Wound to enemies for 8 seconds.<br><br>Burn: Deals a percent of the target's max Health as true damage every second<br>Wound: Reduces healing received"
         },
         {
             "name": "RadientQuicksilver",
-            "basic_attrs": [
-                "+30MR",
-                "+50%AS",
-                "+40%CR"
-            ],
-            "add_attrs": "Combat start: Gain immunity to crowd control for 45 seconds. For 18 seconds, gain 7% Attack Speed every 2 seconds.<br><br>[Unique - only 1 per champion]"
+            "basic_attrs": [],
+            "add_attrs": "Combat Start: Gain immunity to crowd control for 45 seconds.<br><br>Gain 6% stacking Attack Speed every second."
         },
         {
             "name": "RadientRabadonsDeathcap",
-            "basic_attrs": [
-                "+80AP",
-                "+33%DA"
-            ],
+            "basic_attrs": [],
             "add_attrs": "It's witnessed - and unleashed - miracles and calamities both."
         },
         {
             "name": "RadientRedBuff",
-            "basic_attrs": [
-                "+60%AS",
-                "+5%DA"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Attacks and Abilities 2% Burn and 33% Wound enemies for 5 seconds.<br><br>Burn: Deals a percent of the target's max Health as true damage every second<br>Wound: Reduces healing received"
         },
         {
             "name": "RadientRedemption",
-            "basic_attrs": [
-                "+600HP",
-                "+15%DR"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Regenerate 5% of missing Health each second."
         },
         {
             "name": "RadientRunaansHurricane",
-            "basic_attrs": [
-                "+30%AD",
-                "+25%AS",
-                "+20MR"
-            ],
-            "add_attrs": "Attacks grant 6% stacking Attack Damage"
+            "basic_attrs": [],
+            "add_attrs": "Attacks grant 6% stacking Attack Damage, up to 20 attacks. After 20 attacks, gain 80% Attack Speed."
         },
         {
             "name": "RadientSpearofShojin",
-            "basic_attrs": [
-                "+30%AD",
-                "+25AP"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Attacks grant 10 bonus Mana."
         },
         {
             "name": "RadientStatikkShiv",
-            "basic_attrs": [
-                "+60%AS"
-            ],
-            "add_attrs": "Attacks and Ability Damage 30% Shred the target for the rest of combat. This effect does not stack.<br><br>Shred: Reduce Magic Resist"
+            "basic_attrs": [],
+            "add_attrs": "Attacks and Ability damage 30% Shred the target for the rest of combat. This effect does not stack.<br><br>Shred: Reduce Magic Resist"
         },
         {
             "name": "RadientSteadfastHeart",
-            "basic_attrs": [
-                "+500HP",
-                "+40AR",
-                "+20%CR"
-            ],
-            "add_attrs": "Gain 16% Durability. While above 40% Health, instead gain 30% Durability."
+            "basic_attrs": [],
+            "add_attrs": "Gain 16% durability. While above 40% Health, instead gain 30% Durability."
         },
         {
             "name": "RadientStridebreaker",
-            "basic_attrs": [
-                "+150HP",
-                "+25%AS",
-                "+35%CR",
-                "+8%DA"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Critical Strikes grant 8% Damage Amp for 8 seconds, stacking up to 4 times."
         },
         {
             "name": "RadientSunfireCape",
-            "basic_attrs": [
-                "+40AR"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Gain 12% max Health.<br><br>Every 1.5 seconds, deal 2% Burn and 33% Wound to an enemy within 3 hexes for 8 seconds.<br><br>Burn: Deals a percent of the target's max Health as true damage every second<br>Wound: reduces healing received"
         },
         {
             "name": "RadientThiefsGloves",
-            "basic_attrs": [
-                "+150HP",
-                "+20%CR"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Each round: Equip 2 random Radiant items.<br><br>[Consumes 3 item slots.]"
         },
         {
             "name": "RadientTitansResolve",
-            "basic_attrs": [
-                "+35AR"
-            ],
-            "add_attrs": "Gain 3% Attack Damage and 3 Ability Power when attacking or taking damage, stacking up to 25 times.<br><br>At full stacks, gain 40 Armor and 40 Magic Resist, and gain immunity to crowd control."
+            "basic_attrs": [],
+            "add_attrs": "Gain 3% Attack Damage and 3 Ability Power when attacking or taking damage, stacking up to 25 times.<br><br>At full stacks, gain 20% Damage Amp and gain immunity to crowd control."
         },
         {
             "name": "RadientWarmogsArmor",
-            "basic_attrs": [
-                "+1000HP"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Gain 20% max health.<br><br>Heal 1.5% max Health per second."
         },
         {
             "name": "SteraksMegashield",
-            "basic_attrs": [
-                "+600HP",
-                "+80%AD"
-            ],
+            "basic_attrs": [],
             "add_attrs": "At 60% Health, gain a Shield equal to 100% of the wearer's maximum Health that rapidly decays over 6 seconds."
         }
     ],
     "arti": [
         {
             "name": "Dawncore",
-            "basic_attrs": [
-                "+20%AD",
-                "+20AP"
-            ],
-            "add_attrs": "Reduce the holder's max Mana by 10. Subsequent spellcasts reduce max Mana by 10%. to a minimum of 15."
+            "basic_attrs": [],
+            "add_attrs": "Reduce the holder's max Mana by 10. Subsequent spellcasts reduce max Mana by 10%, to a minimum of 15."
         },
         {
             "name": "BlightingJewel",
-            "basic_attrs": [
-                "+40AP"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Dealing magic damage reduces the target's Magic Resist by 4. If their Magic Resist is 0, grant the holder 5 Mana instead."
         },
         {
             "name": "DeathfireGrasp",
-            "basic_attrs": [
-                "+30AP"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Combat start: Blast the current target for 40% of their max Health as magic damage. Repeat this every 13 seconds."
         },
         {
             "name": "Fishbones",
-            "basic_attrs": [
-                "+20%AD",
-                "+50%AS"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Doubles the holder's attack range, and causes each of their attacks to target a random enemy."
         },
         {
             "name": "Flickerblade",
-            "basic_attrs": [
-                "+15%AS",
-                "+10%AD",
-                "+10AP"
-            ],
-            "add_attrs": "Attacks grant 6% stacking Attack Speed. Every 5 attacks also grant 4 Attack Damage and 5 Ability Power."
+            "basic_attrs": [],
+            "add_attrs": "Attacks grant 6% stacking Attack Speed. Every 5 attacks also grant 3 Attack Damage and 4 Ability Power."
         },
         {
             "name": "GamblersBlade",
-            "basic_attrs": [
-                "+10AP",
-                "+35%AS"
-            ],
-            "add_attrs": "Grant 1% bonus Attack Speed per gold in your bank (up to 30 gold).<br><br>Each attack has a 5% chance to drop 1 gold.<br><br>[Unique - only 1 per champion]"
+            "basic_attrs": [],
+            "add_attrs": "Grant %i:scaleAS% 1% bonus Attack Speed per %i:goldCoins% gold in your bank (up to %i:goldCoins% 30 gold).<br><br>Each attack has a 5% chance to drop %i:goldCoins% 1 gold.<br><br>[Unique - only 1 per champion]<br>Gold generated this game: 0"
         },
         {
             "name": "HorizonFocus",
-            "basic_attrs": [
-                "+250HP",
-                "+15MP",
-                "+20AR"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Stunning an enemy causes lightning to strike them, dealing 30% of their max Health as magic damage."
         },
         {
             "name": "Hullcrusher",
-            "basic_attrs": [
-                "+35AR",
-                "+35MR"
-            ],
-            "add_attrs": "Combat start: If there are no adjacent allies, gain 600 Health, 20% Attack Damage, and 20 Ability Power."
+            "basic_attrs": [],
+            "add_attrs": "Combat Start: If there are no adjacent allies, gain 600 Health, 20% Attack Damage, and 20 Ability Power."
         },
         {
             "name": "IndomitableGauntlet",
-            "basic_attrs": [
-                "+450HP",
-                "+25AR",
-                "+25MR"
-            ],
+            "basic_attrs": [],
             "add_attrs": "The holder's Move Speed is drastically reduced.<br><br>Gain 10% max Health, stun immunity, and pull the current target into melee range."
         },
         {
             "name": "InnervatingLocket",
-            "basic_attrs": [
-                "+150HP"
-            ],
-            "add_attrs": "The holder gains 2% of their total Mana whenever they're hit by an attack.<br><br>Each cast restores 20% of the holder's max Health over 3 seconds."
+            "basic_attrs": [],
+            "add_attrs": "The holder gains 1% of their total Mana whenever they're hit by an attack.<br><br>Each cast restores 20% of the holder's max Health over 3 seconds."
         },
         {
             "name": "LichBane",
-            "basic_attrs": [
-                "+30%AS",
-                "+30AP"
-            ],
-            "add_attrs": "The holder's first attack after each Ability cast deals 240-540 bonus magic damage.<br><br>Damage increases based on Stage."
+            "basic_attrs": [],
+            "add_attrs": "The holder's first attack after each Ability cast deals 0 bonus magic damage.<br><br>Damage increases based on Stage."
         },
         {
             "name": "LightshieldCrest",
-            "basic_attrs": [
-                "+70AR",
-                "+70MR"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Every 3 seconds, Shields the lowest percent Health ally for 70% of the holder's combined Armor and Magic Resist for 5 seconds.<br><br>On death grants this shield to all allies."
         },
         {
             "name": "LudensTempest",
-            "basic_attrs": [
-                "+45%AD",
-                "+45AP"
-            ],
+            "basic_attrs": [],
             "add_attrs": "100% of overkill damage plus 100 is dealt as magic damage to the three enemies nearest the target."
         },
         {
             "name": "Mittens",
-            "basic_attrs": [
-                "+60%AS",
-                "+25%DR"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Shrinks the holder, granting them increased movement speed and immunity to Chill.<br><br>Chill: reduce Attack Speed"
         },
         {
             "name": "MogulsMail",
-            "basic_attrs": [
-                "+100HP"
-            ],
-            "add_attrs": "Grants 1 Armor, 1 Magic Resist, and 10 Health when taking damage, stacking up to 35 times.<br><br>At full stacks, grant 1 gold and continue gaining 1 gold every 8 seconds.<br><br>[Unique - only 1 per champion]"
+            "basic_attrs": [],
+            "add_attrs": "Grants 1 Armor, 1 Magic Resist, and 10 Health when taking damage, stacking up to 35 times.<br><br>At full stacks, grant %i:goldCoins% 1 gold and continue gaining %i:goldCoins% 1 gold every 10 seconds.<br><br>Gold generated this game: 0<br>[Unique - only 1 per champion]"
         },
         {
             "name": "OrnnItemDeathsDance",
-            "basic_attrs": [
-                "+10%AD",
-                "+30 Armor, +25%AS",
-                "+25%OV"
-            ],
+            "basic_attrs": [],
             "add_attrs": "50% of the damage the holder receives is instead dealt over 4 seconds as non-lethal damage.<br><br>[Unique - only 1 per champion]"
         },
         {
             "name": "OrnnItemMuramana",
-            "basic_attrs": [
-                "+15%AD",
-                "+15%AS",
-                "+10AP"
-            ],
-            "add_attrs": "After casting the first time in combat, gain 120 Mana over 5 seconds.<br><br>[Unique - only 1 per champion]"
+            "basic_attrs": [],
+            "add_attrs": "After casting the first time in combat, gain 100 Mana over 5 seconds.<br><br>[Unique - only 1 per champion]"
         },
         {
             "name": "OrnnItemTheCollector",
-            "basic_attrs": [
-                "+25%AD",
-                "+30%CR"
-            ],
-            "add_attrs": "Attacks and Abilities execute enemies below 12% of their max Health. Executions have a 33% chance to drop 1 gold .<br><br>[Unique - Only One Per Champion]"
+            "basic_attrs": [],
+            "add_attrs": "Attacks and Abilities execute enemies below 12% of their maximum Health. Executions have a 33% chance to drop %i:goldCoins% 1 gold.<br><br>[Unique - only 1 per champion]"
         },
         {
             "name": "OrnnItemTrinityForce",
-            "basic_attrs": [
-                "+250HP"
-            ],
-            "add_attrs": "Health +250, Attack Damage +25%, Ability Power +25, Armor +25, Magic Resist +25, Attack Speed +25%"
+            "basic_attrs": [],
+            "add_attrs": "Tons of EVERYTHING!"
         },
         {
             "name": "OrnnItemZhonyasHourglass",
-            "basic_attrs": [
-                "+40AP",
-                "+30AR",
-                "+30MR"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Once per combat at 40% Health, become invulnerable and untargetable for 3 seconds.<br><br>[Unique - only 1 per champion]"
         },
         {
             "name": "ProwlersClaw",
-            "basic_attrs": [
-                "+40%AD",
-                "+50%CR",
-                "+200HP"
-            ],
+            "basic_attrs": [],
             "add_attrs": "After killing a target, shed negative effects and dash to the farthest target within 4 hexes. The next 2 critical attacks deal 60% bonus Critical Strike Damage."
         },
         {
             "name": "RapidFirecannon",
-            "basic_attrs": [
-                "+66%AS"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Gain +1 Attack Range, increased by 1 whenever the holder kills an enemy."
         },
         {
             "name": "SeekersArmguard",
-            "basic_attrs": [
-                "+40AP",
-                "+30AR",
-                "+30MR"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Takedowns increase the holder's Armor, Magic Resist, and Ability Power by 15, increased to 20 if they score the kill."
         },
         {
             "name": "SilvermereDawn",
-            "basic_attrs": [
-                "+110%AD",
-                "+60AR",
-                "+60MR"
-            ],
-            "add_attrs": "Grants immunity to Stuns and the holder's attacks Stun the target for 0.8 seconds. <br><br>The holder's Attack Speed is locked at 0.5."
+            "basic_attrs": [],
+            "add_attrs": "Grants immunity to Stuns and the holder's attacks Stun the target for 0.8 seconds.<br><br>The holder's Attack Speed is locked at 0.5."
         },
         {
             "name": "SnipersFocus",
-            "basic_attrs": [
-                "+15%AD",
-                "+15AP",
-                "+15%AS",
-                "+1RG"
-            ],
-            "add_attrs": "Gain +2 Attack Range. Gain 9% Damage Amp against a target for each hex between the holder and the target."
+            "basic_attrs": [],
+            "add_attrs": "Gain %i:scaleRange% 2 Attack Range. Gain 9% Damage Amp against a target for each hex between the holder and the target."
         },
         {
             "name": "SpectralCutlass",
-            "basic_attrs": [
-                "+40%AD",
-                "+20%CR",
-                "+40AR",
-                "+40MR"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Combat start: Teleport the holder to the mirrored hex on the enemy's side of the board. After 8 seconds, the holder returns to their original location."
         },
         {
             "name": "StatikkShiv",
-            "basic_attrs": [
-                "+40AP",
-                "+40%AS"
-            ],
-            "add_attrs": "Every 3rd attack deals 40 + 40% of the holder's bonus Ability Power as bonus magic damage to 4 enemies."
+            "basic_attrs": [],
+            "add_attrs": "Every 3rd attack deals 40 + 40% of the holder's bonus Ability Power as additional magic damage to 4 enemies."
         },
         {
             "name": "SuspiciousTrenchCoat",
-            "basic_attrs": [
-                "+100HP",
-                "+15%AS"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Once per combat at 60% Health, the holder splits into 3 copies of themself each with 33% of their max Health.<br><br>[Unique - only 1 per champion]"
         },
         {
             "name": "TalismanOfAscension",
-            "basic_attrs": [
-                "+300HP",
-                "+20%AD",
-                "+20AP"
-            ],
+            "basic_attrs": [],
             "add_attrs": "After 22 seconds gain 100% max Health and 120% Damage Amp for the rest of combat."
         },
         {
             "name": "TitanicHydra",
-            "basic_attrs": [
-                "+300HP",
-                "+20%AD",
-                "+20%AS"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Attacks deal 3% of the holder's max Health plus 8% of their Attack Damage as bonus physical damage to the target and adjacent enemies."
         },
         {
             "name": "TrickstersGlass",
-            "basic_attrs": [
-                "+10AR",
-                "+10MR",
-                "+10%AS",
-                "+15%CR"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Summon a clone with 70% base Health and +10% max Mana. You cannot equip items to the clone.<br><br>The clone benefits from active traits<br><br>[Unique - only 1 per champion]"
         },
         {
             "name": "UnendingDespair",
-            "basic_attrs": [
-                "+350HP",
-                "+40AR"
-            ],
+            "basic_attrs": [],
             "add_attrs": "Whenever a Shield on the holder breaks, 150% of that Shield's initial value is dealt to the nearest enemy as magic damage."
         },
         {
             "name": "WitsEnd",
-            "basic_attrs": [
-                "+30%AS",
-                "+30MP",
-                "+300HP",
-                "+30AR"
-            ],
-            "add_attrs": "Attacks deal 42-100 bonus magic damage.<br><br>Heals the holder for 35% of all magic damage dealt.<br><br>Damage increases based on Stage."
+            "basic_attrs": [],
+            "add_attrs": "Attacks deal 0 bonus magic damage.<br><br>Heals the holder for 35% of all magic damage dealt.<br><br>Damage increases based on Stage."
         }
     ],
     "supp": [],

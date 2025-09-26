@@ -27,16 +27,16 @@
                 }
             ],
             "stats": {
-                "2": "18 Armor & MR",
-                "4": "40 Armor & MR",
-                "6": "75 Armor & MR; Non-Bastions gain an additional 25 Armor & MR."
+                "2": "18 %i:scaleArmor%%i:scaleMR%",
+                "4": "40 %i:scaleArmor%%i:scaleMR%",
+                "6": "75 %i:scaleArmor%%i:scaleMR%; Non-Bastions gain an additional 25 %i:scaleArmor%%i:scaleMR%."
             }
         },
         {
             "key": "BattleAcademia",
             "ingameKey": "TFT15_BattleAcademia",
             "name": "Battle Academia",
-            "desc": "Battle Academia champions upgrade their abilities and gain Potential. Potential improves their abilities.<br><br>>Prismatic: Field 7, then earn 160 points by using items.<br><br>\r\nTrue Potential Unlocked: +10 Potential",
+            "desc": "Battle Academia champions upgrade their abilities and gain Potential %i:set14AmpIcon%. Potential improves their abilities. <br><br>Prismatic: Field 7 Battle Academia champions, then earn 160 points by equipping items on champions.",
             "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEBattleAcademia_normal_1752196661-Battle Academia.svg",
             "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEBattleAcademia_black_1752196661-Battle Academia.svg",
             "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEBattleAcademia_white_1752196661-Battle Academia.svg",
@@ -58,9 +58,9 @@
                 }
             ],
             "stats": {
-                "3": "3 Potentials",
-                "5": "5 Potentials",
-                "7": "7 Potentials"
+                "3": "3 %i:set14AmpIcon%",
+                "5": "5 %i:set14AmpIcon%",
+                "7": "7 %i:set14AmpIcon%"
             }
         },
         {
@@ -75,11 +75,12 @@
             "styles": [
                 {
                     "style": "gold",
-                    "min": 1
+                    "min": 1,
+                    "max": 1
                 }
             ],
             "stats": {
-                "1": "Twisted Fate upgrades the Crew Ship to deal 15% of it's damage as true damage and draws Bounty Cards each round that grant random rewards.<br><br>Bounty Cards get better for each player combat."
+                "1": "Twisted Fate upgrades the Crew Ship to deal 15% of it's damage as true damage and draws Bounty Cards each round that grant random rewards.<br><br>Bounty Cards get better for each player combat. (Rounds Fielded: 0)<br><br>Current Bounty Card:<br>No active Bounty."
             }
         },
         {
@@ -113,10 +114,10 @@
                 }
             ],
             "stats": {
-                "2": "25% Crit Chance; 10% Crit Damage",
-                "3": "35% Crit Chance; 12% Crit Damage",
-                "4": "50% Crit Chance; 18% Crit Damage",
-                "5": "55% Crit Chance; 28% Crit Damage"
+                "2": "25% %i:scaleCrit%; 10% %i:scaleCritMult%",
+                "3": "35% %i:scaleCrit%; 12% %i:scaleCritMult%",
+                "4": "50% %i:scaleCrit%; 18% %i:scaleCritMult%",
+                "5": "55% %i:scaleCrit%; 28% %i:scaleCritMult%"
             }
         },
         {
@@ -164,9 +165,9 @@
                 }
             ],
             "stats": {
-                "2": "4% AS",
-                "4": "7% AS",
-                "6": "10% AS; Duelists gain 12% DR"
+                "2": "4% %i:scaleAS%",
+                "4": "7% %i:scaleAS%",
+                "6": "10% %i:scaleAS%; Duelists gain 12% %i:scaleDR%"
             }
         },
         {
@@ -195,9 +196,9 @@
                 }
             ],
             "stats": {
-                "2": "10% Omnivamp, 15% AD",
-                "4": "12% Omnivamp, 35% AD",
-                "6": "15% Omnivamp, 55% AD"
+                "2": "10% %i:scaleSV%, 15% %i:scaleAD%",
+                "4": "12% %i:scaleSV%, 40% %i:scaleAD%",
+                "6": "15% %i:scaleSV%, 60% %i:scaleAD%"
             }
         },
         {
@@ -216,14 +217,14 @@
                 }
             ],
             "stats": {
-                "1": "The Champ's victories against players grant 2 Poro-fans! On loss Poro-fans prevent 1 Tactician damage each, then you lose 100% of your fans."
+                "1": "The Champ's victories against players grant Poro-fans equal to his star level. On loss, Poro-fans prevent 1 Tactician damage each, then lose all of your Poro-fans.<br><br>Poro Fanbase: 0"
             }
         },
         {
             "key": "Wraith",
             "ingameKey": "TFT15_Empyrean",
             "name": "Wraith",
-            "desc": "Every 5 seconds, the Shadow Realm strikes the 3 closest enemies, dealing total magic damage equal to a portion of damage dealt by Wraiths since the last trigger.<br><br>Your lowest health Wraith heals for 18% of damage dealt by Wraiths and the Shadow Realm.",
+            "desc": "Every 4 seconds, the Shadow Realm strikes the 3 closest enemies, dealing total magic damage equal to a portion of damage dealt by Wraiths since the last trigger.<br><br>Your lowest health Wraith heals for 18% of damage dealt by Wraiths and the Shadow Realm.",
             "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEWraith_normal_1752196331-Wraith.svg",
             "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEWraith_black_1752196331-Wraith.svg",
             "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEWraith_white_1752196331-Wraith.svg",
@@ -282,8 +283,8 @@
             ],
             "stats": {
                 "3": "? per kill; ? per loss",
-                "5": "And every ? kills, gain bonus loot and reroll a new kill number.",
-                "7": "150% rewards. Crystal Gambit units gain 500 Health and 20% DA."
+                "5": "AND every ? kills, gain bonus loot and reroll a new kill number. (Kills: 0)",
+                "7": "150% rewards. Crystal Gambit units gain 300 %i:scaleHealth% and 15% %i:scaleDA%"
             }
         },
         {
@@ -312,9 +313,9 @@
                 }
             ],
             "stats": {
-                "2": "20% Health | 0.2% Health to AD",
-                "4": "40% Health | 0.4% Health to AD",
-                "6": "60% Health | 0.6% Health to AD"
+                "2": "20% %i:scaleHealth% | 0.2% %i:scaleHealth% to %i:scaleAD%",
+                "4": "40% %i:scaleHealth% | 0.4% %i:scaleHealth% to %i:scaleAD%",
+                "6": "65% %i:scaleHealth% | 0.6% %i:scaleHealth% to %i:scaleAD%"
             }
         },
         {
@@ -343,9 +344,9 @@
                 }
             ],
             "stats": {
-                "2": "15% or 25% DR",
-                "4": "20% or 30% DR",
-                "6": "25% or 35% DR"
+                "2": "15% or 25% %i:scaleDR%",
+                "4": "20% or 30% %i:scaleDR%",
+                "6": "25% or 35% %i:scaleDR%"
             }
         },
         {
@@ -369,8 +370,8 @@
                 }
             ],
             "stats": {
-                "2": "15 AD; 15% Health heal",
-                "4": "40 AD; 35% Health heal"
+                "2": "15 %i:scaleAD%; 25% %i:scaleHealth% heal",
+                "4": "40 %i:scaleAD%; 50% %i:scaleHealth% heal"
             }
         },
         {
@@ -3506,7 +3507,7 @@
             "key": "MonsterTrainer",
             "ingameKey": "TFT15_MonsterTrainer",
             "name": "Monster Trainer",
-            "desc": "Choose which monster Lulu summons to replace her in combat! It gains XP after each combat and bonus XP for each takedown it participates in.<br><br>When your Monster levels up, it gains 1% Health. At level 15 and 30 its spell evolves!",
+            "desc": "",
             "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEMonsterTrainer_normal_1752196388-Monster Trainer.svg",
             "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEMonsterTrainer_black_1752196389-Monster Trainer.svg",
             "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEMonsterTrainer_white_1752196389-Monster Trainer.svg",
@@ -3518,7 +3519,7 @@
                 }
             ],
             "stats": {
-                "1": "Choose a Monster"
+                "1": "Choose which monster Lulu summons to replace her in combat!"
             }
         },
         {
@@ -3578,10 +3579,10 @@
                 }
             ],
             "stats": {
-                "2": "1 Mana Regen | 3 Mana Regen",
-                "3": "1 Mana Regen | 5 Mana Regen",
-                "4": "2 Mana Regen | 7 Mana Regen",
-                "5": "3 Mana Regen | 8 Mana Regen | Prodigy abilities heal an ally for 12% of the damage dealt."
+                "2": "1 %i:TFTManaRegen% | 3 %i:TFTManaRegen%",
+                "3": "1 %i:TFTManaRegen% | 4 %i:TFTManaRegen%",
+                "4": "1 %i:TFTManaRegen% | 6 %i:TFTManaRegen%",
+                "5": "1 %i:TFTManaRegen% | 7 %i:TFTManaRegen% | Prodigy abilities heal an ally for 12% of the damage dealt."
             }
         },
         {
@@ -3610,9 +3611,9 @@
                 }
             ],
             "stats": {
-                "2": "20% Health shield",
-                "4": "40% Health shield",
-                "6": "60% Health shield"
+                "2": "18% %i:scaleHealth% shield",
+                "4": "36% %i:scaleHealth% shield",
+                "6": "55% %i:scaleHealth% shield"
             }
         },
         {
@@ -3627,7 +3628,8 @@
             "styles": [
                 {
                     "style": "gold",
-                    "min": 1
+                    "min": 1,
+                    "max": 1
                 }
             ],
             "stats": {
@@ -3696,10 +3698,10 @@
                 }
             ],
             "stats": {
-                "2": "13% DA; +3% DA per hex",
-                "3": "16% DA; +5% DA per hex",
-                "4": "22% DA; +7% DA per hex",
-                "5": "25% DA; +10% DA per hex"
+                "2": "13% %i:scaleDA%; +3% %i:scaleDA% per hex",
+                "3": "16% %i:scaleDA%; +5% %i:scaleDA% per hex",
+                "4": "22% %i:scaleDA%; +7% %i:scaleDA% per hex",
+                "5": "25% %i:scaleDA%; +10% %i:scaleDA% per hex"
             }
         },
         {
@@ -3733,10 +3735,10 @@
                 }
             ],
             "stats": {
-                "2": "120 Health, 1% AD and AP, +10% damage",
-                "4": "240 Health, 2% AD and AP, +16% damage",
-                "6": "450 Health, 3% AD and AP, +22% damage",
-                "8": "650 Health, 4% AD and AP, +28% damage"
+                "2": "120 %i:scaleHealth%, 1% %i:scaleAD%%i:scaleAP%, +10% damage",
+                "4": "240 %i:scaleHealth%, 2% %i:scaleAD%%i:scaleAP%, +16% damage",
+                "6": "450 %i:scaleHealth%, 3% %i:scaleAD%%i:scaleAP%, +22% damage",
+                "8": "650 %i:scaleHealth%, 4% %i:scaleAD%%i:scaleAP%, +28% damage"
             }
         },
         {
@@ -3765,16 +3767,16 @@
                 }
             ],
             "stats": {
-                "2": "20 AP; 8% max Health",
-                "4": "50 AP; 10% max Health",
-                "6": "80 AP; 12% max Health to 2 enemies"
+                "2": "20 %i:scaleAP%; 8% max %i:scaleHealth%",
+                "4": "50 %i:scaleAP%; 10% max %i:scaleHealth%",
+                "6": "80 %i:scaleAP%; 12% max %i:scaleHealth% to 2 enemies"
             }
         },
         {
             "key": "StarGuardian",
             "ingameKey": "TFT15_StarGuardian",
             "name": "Star Guardian",
-            "desc": "Star Guardians have a unique Teamwork bonus that is granted to all Star Guardians. Every Star Guardian fielded increases the bonus!<br><br>Prismatic: Field 8, then spend 18,500 mana.<br><br>Rell: Gain shields.<br>Syndra: Gain Ability Power<br>Xayah: Magic damage on attack<br>Ahri: On cast, gain Mana<br>Neeko: Increase heals & shields<br>Poppy: Heal at low Health<br>Jinx: Gain Attack Speed<br>Seraphine: Gain every stat<br>Emblem: Increase other bonuses",
+            "desc": "Star Guardians have a unique Teamwork bonus that is granted to all Star Guardians. Every Star Guardian fielded increases the bonus!<br><br>Prismatic: Field 8, then spend 18500 mana.<br><br>Rell: Gain shields<br>Syndra: Gain Ability Power<br>Xayah: Magic damage on attack<br>Ahri: On cast, gain Mana<br>Neeko: Increase heals & shields<br>Poppy: Heal at low Health<br>Jinx: Gain Attack Speed<br>Seraphine: Gain every stat<br>Emblem: Increase other bonuses",
             "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEStarGuardian_normal_1752196479-Star Guardian.svg",
             "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEStarGuardian_black_1752196479-Star Guardian.svg",
             "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEStarGuardian_white_1752196479-Star Guardian.svg",
@@ -3868,10 +3870,10 @@
                 }
             ],
             "stats": {
-                "2": "150 Shield; 4% DA",
-                "3": "225 Shield; 6% DA",
-                "4": "350 Shield; 10% DA",
-                "5": "450 Shield; 14% DA"
+                "2": "150 Shield; 4% %i:scaleDA%",
+                "3": "225 Shield; 6% %i:scaleDA%",
+                "4": "350 Shield; 10% %i:scaleDA%",
+                "5": "450 Shield; 14% %i:scaleDA%"
             }
         },
         {
@@ -3900,16 +3902,16 @@
                 }
             ],
             "stats": {
-                "2": "8% DA | 12% DA",
-                "3": "18% DA | 30% DA",
-                "4": "28% DA | 50% DA. Gain a second Supreme"
+                "2": "8% %i:scaleDA% | 12% %i:scaleDA%",
+                "3": "18% %i:scaleDA% | 30% %i:scaleDA%",
+                "4": "28% %i:scaleDA% | 50% %i:scaleDA%. Gain a second Supreme"
             }
         },
         {
             "key": "TheCrew",
             "ingameKey": "TFT15_TheCrew",
             "name": "The Crew",
-            "desc": "Crew champions gain 5% Health and Attack Speed for each Crew member fielded.<br><br>Every 3-star Crew champion grants an additional bonus.<br><br>1x : +1 XP per paid reroll, and Crew unit odds never drop with player level.<br>2x: +1 free reroll / round.<br>3x : Deal 280 damage to fire a rocket dealing 80.<br>4x : Fire rockets 2.5% more often per player level.<br>5x : Fire the Planet Cracker.",
+            "desc": "Crew champions gain 5% Health and Attack Speed for each Crew member fielded.<br><br>Every 3-star Crew champion grants an additional bonus.<br><br>(1x ☆☆☆): +1 XP per paid reroll, and Crew unit odds never drop with player level.<br>(2x ☆☆☆): +1 free reroll / round.<br>(3x ☆☆☆): Deal 280 damage to fire a rocket dealing 75.<br>(4x ☆☆☆): Fire rockets 2.5% more often per player level.<br>(5x ☆☆☆): Fire the Planet Cracker.",
             "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBETheCrew_normal_1752196271-The Crew.svg",
             "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBETheCrew_black_1752196272-The Crew.svg",
             "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBETheCrew_white_1752196272-The Crew.svg",
@@ -3928,7 +3930,11 @@
                 {
                     "style": "gold",
                     "min": 4,
-                    "max": 5
+                    "max": 4
+                },
+                {
+                    "style": "gold",
+                    "min": 5
                 }
             ],
             "stats": {
