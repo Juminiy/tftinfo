@@ -116,7 +116,7 @@
 | Radiant Titan's Resolve     | RadientTitansResolve      | ![RadientTitansResolve](../../tftitems/icon/set15/Radiant/RadientTitansResolve.png)           |
 | Radiant Warmog's Armor      | RadientWarmogsArmor       | ![RadientWarmogsArmor](../../tftitems/icon/set15/Radiant/RadientWarmogsArmor.png)             |
 | Radiant Sterak's Gage       | SteraksMegashield         | ![SteraksMegashield](../../tftitems/icon/set15/Radiant/SteraksMegashield.png)                 |
-# ItemType: Artifacts, Count: 33
+# ItemType: Artifacts, Count: 32
 | name                   | key                      | icon                                                                                          |
 | -                      | -                        | -                                                                                             |
 | Dawncore               | Dawncore                 | ![Dawncore](../../tftitems/icon/set15/Artifacts/Dawncore.png)                                 |
@@ -131,7 +131,6 @@
 | Innervating Locket     | InnervatingLocket        | ![InnervatingLocket](../../tftitems/icon/set15/Artifacts/InnervatingLocket.png)               |
 | Lich Bane              | LichBane                 | ![LichBane](../../tftitems/icon/set15/Artifacts/LichBane.png)                                 |
 | Lightshield Crest      | LightshieldCrest         | ![LightshieldCrest](../../tftitems/icon/set15/Artifacts/LightshieldCrest.png)                 |
-| Luden's Tempest        | LudensTempest            | ![LudensTempest](../../tftitems/icon/set15/Artifacts/LudensTempest.png)                       |
 | Mittens                | Mittens                  | ![Mittens](../../tftitems/icon/set15/Artifacts/Mittens.png)                                   |
 | Mogul's Mail           | MogulsMail               | ![MogulsMail](../../tftitems/icon/set15/Artifacts/MogulsMail.png)                             |
 | Death's Defiance       | OrnnItemDeathsDance      | ![OrnnItemDeathsDance](../../tftitems/icon/set15/Artifacts/OrnnItemDeathsDance.png)           |
