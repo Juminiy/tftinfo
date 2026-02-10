@@ -5,242 +5,44 @@
             "attr": "+15 AD"
         },
         {
-            "name": "RecurveBow",
-            "attr": "+15% AS"
-        },
-        {
-            "name": "NeedlesslyLargeRod",
-            "attr": "AP +20%"
-        },
-        {
-            "name": "Tearofthegoddess",
-            "attr": "+15<br>Starting Mana"
-        },
-        {
             "name": "ChainVest",
             "attr": ""
-        },
-        {
-            "name": "NegatronCloak",
-            "attr": "+25 MR"
         },
         {
             "name": "GiantsBelt",
             "attr": "+200 HP"
         },
         {
-            "name": "Spatula",
-            "attr": "You will get<br>special ability"
+            "name": "NeedlesslyLargeRod",
+            "attr": "AP +20%"
+        },
+        {
+            "name": "NegatronCloak",
+            "attr": "+25 MR"
+        },
+        {
+            "name": "RecurveBow",
+            "attr": "+15% AS"
         },
         {
             "name": "SparringGloves",
             "attr": "+10%<br>Dodge change<br>Crit chance"
+        },
+        {
+            "name": "Spatula",
+            "attr": "You will get<br>special ability"
+        },
+        {
+            "name": "Tearofthegoddess",
+            "attr": "+15<br>Starting Mana"
         }
     ],
     "craf": [
-        {
-            "name": "LordsEdge",
-            "compositions": "sword+sword",
-            "basic_attrs": [],
-            "add_attrs": "Contributing to a kill grants +25 Attack Damage for the remainder of combat. This effect can stack any number of times (starting at 2)."
-        },
-        {
-            "name": "GiantSlayer",
-            "compositions": "sword+bow",
-            "basic_attrs": [],
-            "add_attrs": "The holder's spells and basic attacks do 20% bonus true damage. if the target has more than 1750 maximum Health, the bonus increases to 80%"
-        },
-        {
-            "name": "HextechGunblade",
-            "compositions": "sword+rod",
-            "basic_attrs": [],
-            "add_attrs": "45% healing from spell damage. Overhealing with this item now generates a shield (max 400 Health)."
-        },
-        {
-            "name": "SpearofShojin",
-            "compositions": "sword+tear",
-            "basic_attrs": [],
-            "add_attrs": "After first casting their spell, the holder's basic attacks restore 18% of their maximum mana on-hit"
-        },
-        {
-            "name": "GuardianAngel",
-            "compositions": "sword+vest",
-            "basic_attrs": [],
-            "add_attrs": "Wearer revives with 400 HP"
-        },
-        {
-            "name": "Bloodthirster",
-            "compositions": "sword+cloak",
-            "basic_attrs": [],
-            "add_attrs": "Basic Attacks heal the wearer for 45% of the damage dealt."
-        },
-        {
-            "name": "ZekesHerald",
-            "compositions": "sword+belt",
-            "basic_attrs": [],
-            "add_attrs": "When combat begins, the wearer and all allies within 1 hex in the same row gain +30% Attack Speed for the rest of combat."
-        },
-        {
-            "name": "InfinityEdge",
-            "compositions": "sword+glove",
-            "basic_attrs": [],
-            "add_attrs": "[Unique] The holder gains 20% bonus critical strike damage, and 100% critical hit chance."
-        },
-        {
-            "name": "RapidFirecannon",
-            "compositions": "bow+bow",
-            "basic_attrs": [],
-            "add_attrs": "+200% Range and holder\u2019s attacks can\u2019t miss."
-        },
-        {
-            "name": "GuinsoosRageblade",
-            "compositions": "bow+rod",
-            "basic_attrs": [],
-            "add_attrs": "Basic Attacks grant +5% bonus Attack Speed for the rest of combat. No stacking limit."
-        },
-        {
-            "name": "StatikkShiv",
-            "compositions": "bow+tear",
-            "basic_attrs": [],
-            "add_attrs": "Every third Basic Attack from the wearer deals 85 magic damage to 3/4/5 enemies. Additional 85 True Damage if the target has a shield or is CC\u2019d."
-        },
-        {
-            "name": "TitansResolve",
-            "compositions": "bow+vest",
-            "basic_attrs": [],
-            "add_attrs": "When the wearer takes damage or inflicts a critical hit, they gain a 2% stacking damage bonus. Stacks up to 25 times, at which point the wearer gains 25 Armor and Magic Resistance, and increases in size."
-        },
-        {
-            "name": "RunaansHurricane",
-            "compositions": "bow+cloak",
-            "basic_attrs": [],
-            "add_attrs": "Basic Attacks fire a bolt at another nearby enemy, dealing 75% of the wearer's Attack Damage and applying on-hit effects."
-        },
-        {
-            "name": "ZzRotPortal",
-            "compositions": "bow+belt",
-            "basic_attrs": [],
-            "add_attrs": "When the wearer dies, a Construct with 1500/2250/3000 \u2605 Health aries to continue the fight."
-        },
-        {
-            "name": "LastWhisper",
-            "compositions": "bow+glove",
-            "basic_attrs": [],
-            "add_attrs": "When the wearer inflicts a critical hit, the target's Armor is reduced by 75% for 3 seconds. This effect does not stack"
-        },
-        {
-            "name": "RabadonsDeathcap",
-            "compositions": "rod+rod",
-            "basic_attrs": [],
-            "add_attrs": "Wearer's Spell Power stat is amplified by 50%"
-        },
-        {
-            "name": "LudensEcho",
-            "compositions": "rod+tear",
-            "basic_attrs": [],
-            "add_attrs": "When the wearer casts their spell, the first target dealt magic damage and up to 3 nearby enemies are dealt an additional 200 magic damage."
-        },
-        {
-            "name": "LocketoftheIronSolari",
-            "compositions": "vest+rod",
-            "basic_attrs": [],
-            "add_attrs": "Shields allies within two hexes in the same row for 250 / 300 / 375 damage for 8 seconds (scales with wearer\u2019s Star Level)"
-        },
-        {
-            "name": "IonicSpark",
-            "compositions": "cloak+rod",
-            "basic_attrs": [],
-            "add_attrs": "Enemies within 2 hexes have their Magic Resist reduced by 40% (does not stack). When they cast a spell, they are zapped taking magic damage equal to 225% of their max Mana."
-        },
-        {
-            "name": "Morellonomicon",
-            "compositions": "rod+belt",
-            "basic_attrs": [],
-            "add_attrs": "When the wearer deals damage with their spell, they burn the target, dealing 25% of the target's Maximum Health as true damage over 10 seconds and reducing healing by 50% for the duration of the burn."
-        },
         {
             "name": "ArcaneGauntlet",
             "compositions": "rod+glove",
             "basic_attrs": [],
             "add_attrs": "Holder\u2019s spells can crit and holder gains +30% Critical Strike Damage."
-        },
-        {
-            "name": "BlueSentinel",
-            "compositions": "tear+tear",
-            "basic_attrs": [],
-            "add_attrs": "[Unique] Sets holder's mana to 20 after each cast."
-        },
-        {
-            "name": "FrozenHeart",
-            "compositions": "vest+tear",
-            "basic_attrs": [],
-            "add_attrs": "Angrenzende Gegner verlieren 50% Angriffstempo. (Stacking increases the radius of this effect, not the amount of the slow)"
-        },
-        {
-            "name": "Chalice",
-            "compositions": "cloak+tear",
-            "basic_attrs": [],
-            "add_attrs": "At start of combat, the holder and their left and right neighbors gain 30 AP for 20 seconds."
-        },
-        {
-            "name": "Redemption",
-            "compositions": "tear+belt",
-            "basic_attrs": [],
-            "add_attrs": "When the wearer dies, allies are healed for 800 Health."
-        },
-        {
-            "name": "HandofJustice",
-            "compositions": "tear+glove",
-            "basic_attrs": [],
-            "add_attrs": "At the begining of Each planning phase, gain one: Deal +45% more damage / Grants 45% healing from damage done by both abilities and basic attacks."
-        },
-        {
-            "name": "BrambleVest",
-            "compositions": "vest+vest",
-            "basic_attrs": [],
-            "add_attrs": "Negates bonus damage from incoming critical hits. On being hit by a Basic Attack, deal 100 / 140 / 200 magic damage to all nearby enemies (once every 2.5 second maximum). Scales with wearer\u2019s Star Level."
-        },
-        {
-            "name": "SwordBreaker",
-            "compositions": "vest+cloak",
-            "basic_attrs": [],
-            "add_attrs": "33% chance to disarm for 3 seconds"
-        },
-        {
-            "name": "RedBuff",
-            "compositions": "vest+belt",
-            "basic_attrs": [],
-            "add_attrs": "Gains 10% max hp true damage over 4 seconds on hit in addition to its burn. And reducing healing by 50% for the duration of the burn."
-        },
-        {
-            "name": "Shroud",
-            "compositions": "vest+glove",
-            "basic_attrs": [],
-            "add_attrs": "When combat begins, shoots a beam straight ahead that delays affected enemies' first spellcast, increasing their max Mana by 30% until they cast."
-        },
-        {
-            "name": "DragonsClaw",
-            "compositions": "cloak+cloak",
-            "basic_attrs": [],
-            "add_attrs": "Reduces incoming magic damage by 50%"
-        },
-        {
-            "name": "Zephyr",
-            "compositions": "cloak+belt",
-            "basic_attrs": [],
-            "add_attrs": "When combat begins, the wearer summons a whirlwind on the opposite side of the arena that removes the closest enemy from combat for 5 seconds."
-        },
-        {
-            "name": "Quicksilver",
-            "compositions": "cloak+glove",
-            "basic_attrs": [],
-            "add_attrs": "[UNIQUE] The wearer is immute to croud control for the first 10 seconds of combat"
-        },
-        {
-            "name": "WarmogsArmor",
-            "compositions": "belt+belt",
-            "basic_attrs": [],
-            "add_attrs": "+600 Additional Health."
         },
         {
             "name": "Backhand",
@@ -249,25 +51,211 @@
             "add_attrs": "Start combat with a spell shield. Stun the champion that breaks it for 4 sec"
         },
         {
+            "name": "Bloodthirster",
+            "compositions": "sword+cloak",
+            "basic_attrs": [],
+            "add_attrs": "Basic Attacks heal the wearer for 45% of the damage dealt."
+        },
+        {
+            "name": "BlueSentinel",
+            "compositions": "tear+tear",
+            "basic_attrs": [],
+            "add_attrs": "[Unique] Sets holder's mana to 20 after each cast."
+        },
+        {
+            "name": "BrambleVest",
+            "compositions": "vest+vest",
+            "basic_attrs": [],
+            "add_attrs": "Negates bonus damage from incoming critical hits. On being hit by a Basic Attack, deal 100 / 140 / 200 magic damage to all nearby enemies (once every 2.5 second maximum). Scales with wearer\u2019s Star Level."
+        },
+        {
+            "name": "Chalice",
+            "compositions": "cloak+tear",
+            "basic_attrs": [],
+            "add_attrs": "At start of combat, the holder and their left and right neighbors gain 30 AP for 20 seconds."
+        },
+        {
+            "name": "DragonsClaw",
+            "compositions": "cloak+cloak",
+            "basic_attrs": [],
+            "add_attrs": "Reduces incoming magic damage by 50%"
+        },
+        {
+            "name": "FrozenHeart",
+            "compositions": "vest+tear",
+            "basic_attrs": [],
+            "add_attrs": "Angrenzende Gegner verlieren 50% Angriffstempo. (Stacking increases the radius of this effect, not the amount of the slow)"
+        },
+        {
+            "name": "GiantSlayer",
+            "compositions": "sword+bow",
+            "basic_attrs": [],
+            "add_attrs": "The holder's spells and basic attacks do 20% bonus true damage. if the target has more than 1750 maximum Health, the bonus increases to 80%"
+        },
+        {
+            "name": "GuardianAngel",
+            "compositions": "sword+vest",
+            "basic_attrs": [],
+            "add_attrs": "Wearer revives with 400 HP"
+        },
+        {
+            "name": "GuinsoosRageblade",
+            "compositions": "bow+rod",
+            "basic_attrs": [],
+            "add_attrs": "Basic Attacks grant +5% bonus Attack Speed for the rest of combat. No stacking limit."
+        },
+        {
+            "name": "HandofJustice",
+            "compositions": "tear+glove",
+            "basic_attrs": [],
+            "add_attrs": "At the begining of Each planning phase, gain one: Deal +45% more damage / Grants 45% healing from damage done by both abilities and basic attacks."
+        },
+        {
+            "name": "HextechGunblade",
+            "compositions": "sword+rod",
+            "basic_attrs": [],
+            "add_attrs": "45% healing from spell damage. Overhealing with this item now generates a shield (max 400 Health)."
+        },
+        {
+            "name": "InfinityEdge",
+            "compositions": "sword+glove",
+            "basic_attrs": [],
+            "add_attrs": "[Unique] The holder gains 20% bonus critical strike damage, and 100% critical hit chance."
+        },
+        {
+            "name": "IonicSpark",
+            "compositions": "cloak+rod",
+            "basic_attrs": [],
+            "add_attrs": "Enemies within 2 hexes have their Magic Resist reduced by 40% (does not stack). When they cast a spell, they are zapped taking magic damage equal to 225% of their max Mana."
+        },
+        {
+            "name": "LastWhisper",
+            "compositions": "bow+glove",
+            "basic_attrs": [],
+            "add_attrs": "When the wearer inflicts a critical hit, the target's Armor is reduced by 75% for 3 seconds. This effect does not stack"
+        },
+        {
+            "name": "LocketoftheIronSolari",
+            "compositions": "vest+rod",
+            "basic_attrs": [],
+            "add_attrs": "Shields allies within two hexes in the same row for 250 / 300 / 375 damage for 8 seconds (scales with wearer\u2019s Star Level)"
+        },
+        {
+            "name": "LordsEdge",
+            "compositions": "sword+sword",
+            "basic_attrs": [],
+            "add_attrs": "Contributing to a kill grants +25 Attack Damage for the remainder of combat. This effect can stack any number of times (starting at 2)."
+        },
+        {
+            "name": "LudensEcho",
+            "compositions": "rod+tear",
+            "basic_attrs": [],
+            "add_attrs": "When the wearer casts their spell, the first target dealt magic damage and up to 3 nearby enemies are dealt an additional 200 magic damage."
+        },
+        {
+            "name": "Morellonomicon",
+            "compositions": "rod+belt",
+            "basic_attrs": [],
+            "add_attrs": "When the wearer deals damage with their spell, they burn the target, dealing 25% of the target's Maximum Health as true damage over 10 seconds and reducing healing by 50% for the duration of the burn."
+        },
+        {
+            "name": "Quicksilver",
+            "compositions": "cloak+glove",
+            "basic_attrs": [],
+            "add_attrs": "[UNIQUE] The wearer is immute to croud control for the first 10 seconds of combat"
+        },
+        {
+            "name": "RabadonsDeathcap",
+            "compositions": "rod+rod",
+            "basic_attrs": [],
+            "add_attrs": "Wearer's Spell Power stat is amplified by 50%"
+        },
+        {
+            "name": "RapidFirecannon",
+            "compositions": "bow+bow",
+            "basic_attrs": [],
+            "add_attrs": "+200% Range and holder\u2019s attacks can\u2019t miss."
+        },
+        {
+            "name": "RedBuff",
+            "compositions": "vest+belt",
+            "basic_attrs": [],
+            "add_attrs": "Gains 10% max hp true damage over 4 seconds on hit in addition to its burn. And reducing healing by 50% for the duration of the burn."
+        },
+        {
+            "name": "Redemption",
+            "compositions": "tear+belt",
+            "basic_attrs": [],
+            "add_attrs": "When the wearer dies, allies are healed for 800 Health."
+        },
+        {
+            "name": "RunaansHurricane",
+            "compositions": "bow+cloak",
+            "basic_attrs": [],
+            "add_attrs": "Basic Attacks fire a bolt at another nearby enemy, dealing 75% of the wearer's Attack Damage and applying on-hit effects."
+        },
+        {
+            "name": "Shroud",
+            "compositions": "vest+glove",
+            "basic_attrs": [],
+            "add_attrs": "When combat begins, shoots a beam straight ahead that delays affected enemies' first spellcast, increasing their max Mana by 30% until they cast."
+        },
+        {
+            "name": "SpearofShojin",
+            "compositions": "sword+tear",
+            "basic_attrs": [],
+            "add_attrs": "After first casting their spell, the holder's basic attacks restore 18% of their maximum mana on-hit"
+        },
+        {
+            "name": "StatikkShiv",
+            "compositions": "bow+tear",
+            "basic_attrs": [],
+            "add_attrs": "Every third Basic Attack from the wearer deals 85 magic damage to 3/4/5 enemies. Additional 85 True Damage if the target has a shield or is CC\u2019d."
+        },
+        {
+            "name": "SwordBreaker",
+            "compositions": "vest+cloak",
+            "basic_attrs": [],
+            "add_attrs": "33% chance to disarm for 3 seconds"
+        },
+        {
             "name": "ThiefsGloves",
             "compositions": "glove+glove",
             "basic_attrs": [],
             "add_attrs": "Each planning phase, fetch two temporary items, quality based upon your player level. [Consumes Three item Slots]"
+        },
+        {
+            "name": "TitansResolve",
+            "compositions": "bow+vest",
+            "basic_attrs": [],
+            "add_attrs": "When the wearer takes damage or inflicts a critical hit, they gain a 2% stacking damage bonus. Stacks up to 25 times, at which point the wearer gains 25 Armor and Magic Resistance, and increases in size."
+        },
+        {
+            "name": "WarmogsArmor",
+            "compositions": "belt+belt",
+            "basic_attrs": [],
+            "add_attrs": "+600 Additional Health."
+        },
+        {
+            "name": "ZekesHerald",
+            "compositions": "sword+belt",
+            "basic_attrs": [],
+            "add_attrs": "When combat begins, the wearer and all allies within 1 hex in the same row gain +30% Attack Speed for the rest of combat."
+        },
+        {
+            "name": "Zephyr",
+            "compositions": "cloak+belt",
+            "basic_attrs": [],
+            "add_attrs": "When combat begins, the wearer summons a whirlwind on the opposite side of the arena that removes the closest enemy from combat for 5 seconds."
+        },
+        {
+            "name": "ZzRotPortal",
+            "compositions": "bow+belt",
+            "basic_attrs": [],
+            "add_attrs": "When the wearer dies, a Construct with 1500/2250/3000 \u2605 Health aries to continue the fight."
         }
     ],
     "embl": [
-        {
-            "name": "BladeoftheRuinedKing",
-            "compositions": "sword+spatula",
-            "gain_trait": "Blademaster",
-            "add_attrs": "Wearer is also a Blademaster"
-        },
-        {
-            "name": "Infiltrator",
-            "compositions": "bow+spatula",
-            "gain_trait": "Infiltrator",
-            "add_attrs": "The wearer gains the Infiltrator trait."
-        },
         {
             "name": "BattlecastArmor",
             "compositions": "rod+spatula",
@@ -275,16 +263,10 @@
             "add_attrs": "The wearer gains the Battlecast trait."
         },
         {
-            "name": "Starguardian",
-            "compositions": "tear+spatula",
-            "gain_trait": "StarGuardian",
-            "add_attrs": "The wearer gains the Star Guardian trait."
-        },
-        {
-            "name": "RebelMedal",
-            "compositions": "vest+spatula",
-            "gain_trait": "Rebel",
-            "add_attrs": "The wearer gains the Rebel trait."
+            "name": "BladeoftheRuinedKing",
+            "compositions": "sword+spatula",
+            "gain_trait": "Blademaster",
+            "add_attrs": "Wearer is also a Blademaster"
         },
         {
             "name": "Celestial",
@@ -293,16 +275,34 @@
             "add_attrs": "The wearer gains the Celestial trait."
         },
         {
+            "name": "Darkstar",
+            "compositions": "glove+spatula",
+            "gain_trait": "DarkStar",
+            "add_attrs": "The wearer gains the Dark Star trait."
+        },
+        {
+            "name": "Infiltrator",
+            "compositions": "bow+spatula",
+            "gain_trait": "Infiltrator",
+            "add_attrs": "The wearer gains the Infiltrator trait."
+        },
+        {
             "name": "Protector",
             "compositions": "belt+spatula",
             "gain_trait": "Protector",
             "add_attrs": "The wearer gains the Protector trait."
         },
         {
-            "name": "Darkstar",
-            "compositions": "glove+spatula",
-            "gain_trait": "DarkStar",
-            "add_attrs": "The wearer gains the Dark Star trait."
+            "name": "RebelMedal",
+            "compositions": "vest+spatula",
+            "gain_trait": "Rebel",
+            "add_attrs": "The wearer gains the Rebel trait."
+        },
+        {
+            "name": "Starguardian",
+            "compositions": "tear+spatula",
+            "gain_trait": "StarGuardian",
+            "add_attrs": "The wearer gains the Star Guardian trait."
         }
     ],
     "crow": [

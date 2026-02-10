@@ -36,7 +36,7 @@
             "key": "BattleAcademia",
             "ingameKey": "TFT15_BattleAcademia",
             "name": "Battle Academia",
-            "desc": "Battle Academia champions upgrade their abilities and gain Potential %i:set14AmpIcon%. Potential improves their abilities.<br><br>Prismatic: Field 7 Battle Academia champions, then earn 160 points by equipping items on champions.",
+            "desc": "Battle Academia champions upgrade their abilities and gain Potential %i:set14AmpIcon%. Potential improves their abilities.<br><br>Prismatic: Field 7 Battle Academia champions, then earn 140 points by equipping items on champions.",
             "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEBattleAcademia_normal_1752196661-Battle%20Academia.svg",
             "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEBattleAcademia_black_1752196661-Battle%20Academia.svg",
             "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEBattleAcademia_white_1752196661-Battle%20Academia.svg",
@@ -64,76 +64,40 @@
             }
         },
         {
-            "key": "RogueCaptain",
-            "ingameKey": "TFT15_Captain",
-            "name": "Rogue Captain",
-            "desc": "Twisted Fate upgrades the Crew Ship to deal 15% of it's damage as true damage and draws Bounty Cards each round that grant random rewards.<br><br>Bounty Cards get better for each player combat. (Rounds Fielded: ?)<br><br>Current Bounty Card:<br>No active Bounty.",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBERogueCaptain_normal_1752196037-Rogue%20Captain.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBERogueCaptain_black_1752196037-Rogue%20Captain.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBERogueCaptain_white_1752196037-Rogue%20Captain.svg",
+            "key": "CrystalGambit",
+            "ingameKey": "TFT15_GemForce",
+            "name": "Crystal Gambit",
+            "desc": "Kills and losses during player combats earn Gem Power. Every 3 player combats choose to convert Gem Power into rewards or Double Down.<br><br>While Double Down is active losses grant 100% more Gem Power, but wins lose 50% Gem Power and cash out immediately.<br><br>Gem Power gains increase at stages 3 and 4.",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBECrystalGambit_normal_1752195958-Crystal%20Gambit.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBECrystalGambit_black_1752195958-Crystal%20Gambit.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBECrystalGambit_white_1752195958-Crystal%20Gambit.svg",
             "type": "ORIGIN",
             "styles": [
                 {
-                    "style": "gold",
-                    "min": 1,
-                    "max": 1
-                }
-            ],
-            "stats": {}
-        },
-        {
-            "key": "Executioner",
-            "ingameKey": "TFT15_Destroyer",
-            "name": "Executioner",
-            "desc": "Executioners gain Critical Strike Chance and Critical Strike Damage. Their Ability can critically strike.",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEExecutioner_normal_1752196692-Executioner.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEExecutioner_black_1752196692-Executioner.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEExecutioner_white_1752196692-Executioner.svg",
-            "type": "CLASS",
-            "styles": [
-                {
                     "style": "bronze",
-                    "min": 2,
-                    "max": 2
-                },
-                {
-                    "style": "silver",
                     "min": 3,
-                    "max": 3
-                },
-                {
-                    "style": "silver",
-                    "min": 4,
                     "max": 4
                 },
                 {
                     "style": "gold",
-                    "min": 5
+                    "min": 5,
+                    "max": 6
+                },
+                {
+                    "style": "gold",
+                    "min": 7,
+                    "max": 9
+                },
+                {
+                    "style": "chromatic",
+                    "min": 10
                 }
             ],
             "stats": {
-                "2": "25% %i:scaleCrit%; 10% %i:scaleCritMult%",
-                "3": "35% %i:scaleCrit%; 12% %i:scaleCritMult%",
-                "4": "50% %i:scaleCrit%; 18% %i:scaleCritMult%",
-                "5": "55% %i:scaleCrit%; 28% %i:scaleCritMult%"
+                "3": "? per kill; ? per loss",
+                "5": "AND every ? kills, gain bonus loot and reroll a new kill number. (Kills: ?)",
+                "7": "130% rewards. Crystal Gambit units gain 300 %i:scaleHealth% and 15% %i:scaleDA%"
             }
-        },
-        {
-            "key": "StanceMaster",
-            "ingameKey": "TFT15_DragonFist",
-            "name": "Stance Master",
-            "desc": "When you field Lee Sin, choose between Duelist Stance, Executioner Stance, and Juggernaut Stance! Each stance has a unique ability, and grants Lee Sin the associated trait.",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEStanceMaster_normal_1752196170-Stance%20Master.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEStanceMaster_black_1752196170-Stance%20Master.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEStanceMaster_white_1752196170-Stance%20Master.svg",
-            "type": "ORIGIN",
-            "styles": [
-                {
-                    "style": "gold",
-                    "min": 1
-                }
-            ],
-            "stats": {}
         },
         {
             "key": "Duelist",
@@ -193,92 +157,45 @@
             ],
             "stats": {
                 "2": "10% %i:scaleSV%, 15% %i:scaleAD%",
-                "4": "12% %i:scaleSV%, 40% %i:scaleAD%",
+                "4": "12% %i:scaleSV%, 30% %i:scaleAD%",
                 "6": "15% %i:scaleSV%, 60% %i:scaleAD%"
             }
         },
         {
-            "key": "TheChamp",
-            "ingameKey": "TFT15_ElTigre",
-            "name": "The Champ",
-            "desc": "The Champ's victories against players grant Poro-fans equal to his star level. On loss, Poro-fans prevent 1 Tactician damage each, then lose all of your Poro-fans.<br><br>Poro Fanbase: ?",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBETheChamp_normal_1752196253-The%20Champ.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBETheChamp_black_1752196254-The%20Champ.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBETheChamp_white_1752196254-The%20Champ.svg",
-            "type": "ORIGIN",
-            "styles": [
-                {
-                    "style": "gold",
-                    "min": 1
-                }
-            ],
-            "stats": {}
-        },
-        {
-            "key": "Wraith",
-            "ingameKey": "TFT15_Empyrean",
-            "name": "Wraith",
-            "desc": "Every 4 seconds, the Shadow Realm strikes the 3 closest enemies, dealing total magic damage equal to a portion of damage dealt by Wraiths since the last trigger.<br><br>Your lowest health Wraith heals for 18% of damage dealt by Wraiths and the Shadow Realm.",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEWraith_normal_1752196331-Wraith.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEWraith_black_1752196331-Wraith.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEWraith_white_1752196331-Wraith.svg",
-            "type": "ORIGIN",
+            "key": "Executioner",
+            "ingameKey": "TFT15_Destroyer",
+            "name": "Executioner",
+            "desc": "Executioners gain Critical Strike Chance and Critical Strike Damage. Their Ability can critically strike.",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEExecutioner_normal_1752196692-Executioner.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEExecutioner_black_1752196692-Executioner.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEExecutioner_white_1752196692-Executioner.svg",
+            "type": "CLASS",
             "styles": [
                 {
                     "style": "bronze",
                     "min": 2,
+                    "max": 2
+                },
+                {
+                    "style": "silver",
+                    "min": 3,
                     "max": 3
                 },
                 {
                     "style": "silver",
                     "min": 4,
-                    "max": 5
-                },
-                {
-                    "style": "gold",
-                    "min": 6
-                }
-            ],
-            "stats": {
-                "2": "20% damage.",
-                "4": "45% damage.",
-                "6": "60% damage."
-            }
-        },
-        {
-            "key": "CrystalGambit",
-            "ingameKey": "TFT15_GemForce",
-            "name": "Crystal Gambit",
-            "desc": "Kills and losses during player combats earn Gem Power. Every 3 player combats choose to convert Gem Power into rewards or Double Down.<br><br>While Double Down is active losses grant 100% more Gem Power, but wins lose 50% Gem Power and cash out immediately.<br><br>Gem Power gains increase at stages 3 and 4.",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBECrystalGambit_normal_1752195958-Crystal%20Gambit.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBECrystalGambit_black_1752195958-Crystal%20Gambit.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBECrystalGambit_white_1752195958-Crystal%20Gambit.svg",
-            "type": "ORIGIN",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 3,
                     "max": 4
                 },
                 {
                     "style": "gold",
-                    "min": 5,
-                    "max": 6
-                },
-                {
-                    "style": "gold",
-                    "min": 7,
-                    "max": 9
-                },
-                {
-                    "style": "chromatic",
-                    "min": 10
+                    "min": 5
                 }
             ],
             "stats": {
-                "3": "? per kill; ? per loss",
-                "5": "AND every ? kills, gain bonus loot and reroll a new kill number. (Kills: ?)",
-                "7": "130% rewards. Crystal Gambit units gain 300 %i:scaleHealth% and 15% %i:scaleDA%"
+                "2": "25% %i:scaleCrit%; 10% %i:scaleCritMult%",
+                "3": "35% %i:scaleCrit%; 12% %i:scaleCritMult%",
+                "4": "50% %i:scaleCrit%; 18% %i:scaleCritMult%",
+                "5": "55% %i:scaleCrit%; 28% %i:scaleCritMult%"
             }
         },
         {
@@ -369,23 +286,6 @@
             }
         },
         {
-            "key": "MonsterTrainer",
-            "ingameKey": "TFT15_MonsterTrainer",
-            "name": "Monster Trainer",
-            "desc": "Choose which monster Lulu summons to replace her in combat!",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEMonsterTrainer_normal_1752196388-Monster%20Trainer.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEMonsterTrainer_black_1752196389-Monster%20Trainer.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEMonsterTrainer_white_1752196389-Monster%20Trainer.svg",
-            "type": "ORIGIN",
-            "styles": [
-                {
-                    "style": "gold",
-                    "min": 1
-                }
-            ],
-            "stats": {}
-        },
-        {
             "key": "Mentor",
             "ingameKey": "TFT15_OldMentor",
             "name": "Mentor",
@@ -410,6 +310,54 @@
                 "1": "Allies gain the bonus",
                 "4": "Mentors gain all bonuses and upgrade their abilities. Other allies gain nothing."
             }
+        },
+        {
+            "key": "MightyMech",
+            "ingameKey": "TFT15_SentaiRanger",
+            "name": "Mighty Mech",
+            "desc": "Gain The Mighty Mech. Mighty Mechs heal it for 12% of the damage they deal.<br><br>Each Mighty Mech champion's star level increases The Mighty Mech's power.",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEMightyMech_normal_1752196347-Mighty%20Mech.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEMightyMech_black_1752196347-Mighty%20Mech.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEMightyMech_white_1752196347-Mighty%20Mech.svg",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 3,
+                    "max": 4
+                },
+                {
+                    "style": "silver",
+                    "min": 5,
+                    "max": 6
+                },
+                {
+                    "style": "gold",
+                    "min": 7
+                }
+            ],
+            "stats": {
+                "3": "The Mighty Mech arrives",
+                "5": "Blade Protocol: Level 1",
+                "7": "Blade Protocol: Level 2"
+            }
+        },
+        {
+            "key": "MonsterTrainer",
+            "ingameKey": "TFT15_MonsterTrainer",
+            "name": "Monster Trainer",
+            "desc": "Choose which monster Lulu summons to replace her in combat!",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEMonsterTrainer_normal_1752196388-Monster%20Trainer.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEMonsterTrainer_black_1752196389-Monster%20Trainer.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEMonsterTrainer_white_1752196389-Monster%20Trainer.svg",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "gold",
+                    "min": 1
+                }
+            ],
+            "stats": {}
         },
         {
             "key": "Prodigy",
@@ -480,6 +428,24 @@
             }
         },
         {
+            "key": "RogueCaptain",
+            "ingameKey": "TFT15_Captain",
+            "name": "Rogue Captain",
+            "desc": "Twisted Fate upgrades the Crew Ship to deal 15% of it's damage as true damage and draws Bounty Cards each round that grant random rewards.<br><br>Bounty Cards get better for each player combat. (Rounds Fielded: ?)<br><br>Current Bounty Card:<br>No active Bounty.<br><br>In Choncc's Treasure, Twisted Fate will not draw a Bounty Card until Stage 3-5.",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBERogueCaptain_normal_1752196037-Rogue%20Captain.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBERogueCaptain_black_1752196037-Rogue%20Captain.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBERogueCaptain_white_1752196037-Rogue%20Captain.svg",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "gold",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "stats": {}
+        },
+        {
             "key": "Rosemother",
             "ingameKey": "TFT15_Rosemother",
             "name": "Rosemother",
@@ -493,299 +459,6 @@
                     "style": "gold",
                     "min": 1,
                     "max": 1
-                }
-            ],
-            "stats": {}
-        },
-        {
-            "key": "MightyMech",
-            "ingameKey": "TFT15_SentaiRanger",
-            "name": "Mighty Mech",
-            "desc": "Gain The Mighty Mech. Mighty Mechs heal it for 12% of the damage they deal.<br><br>Each Mighty Mech champion's star level increases The Mighty Mech's power.",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEMightyMech_normal_1752196347-Mighty%20Mech.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEMightyMech_black_1752196347-Mighty%20Mech.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEMightyMech_white_1752196347-Mighty%20Mech.svg",
-            "type": "ORIGIN",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 3,
-                    "max": 4
-                },
-                {
-                    "style": "silver",
-                    "min": 5,
-                    "max": 6
-                },
-                {
-                    "style": "gold",
-                    "min": 7
-                }
-            ],
-            "stats": {
-                "3": "The Mighty Mech arrives",
-                "5": "Blade Protocol: Level 1",
-                "7": "Blade Protocol: Level 2"
-            }
-        },
-        {
-            "key": "Sniper",
-            "ingameKey": "TFT15_Sniper",
-            "name": "Sniper",
-            "desc": "Snipers gain Damage Amp, increased against targets farther away.",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBESniper_normal_1752196621-Sniper.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBESniper_black_1752196621-Sniper.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBESniper_white_1752196621-Sniper.svg",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 2
-                },
-                {
-                    "style": "silver",
-                    "min": 3,
-                    "max": 3
-                },
-                {
-                    "style": "silver",
-                    "min": 4,
-                    "max": 4
-                },
-                {
-                    "style": "gold",
-                    "min": 5
-                }
-            ],
-            "stats": {
-                "2": "13% %i:scaleDA%; +3% %i:scaleDA% per hex",
-                "3": "18% %i:scaleDA%; +5% %i:scaleDA% per hex",
-                "4": "25% %i:scaleDA%; +7% %i:scaleDA% per hex",
-                "5": "25% %i:scaleDA%; +10% %i:scaleDA% per hex"
-            }
-        },
-        {
-            "key": "SoulFighter",
-            "ingameKey": "TFT15_SoulFighter",
-            "name": "Soul Fighter",
-            "desc": "Soul Fighters gain bonus Health, and gain Attack Damage and Ability Power every second up to 8 stacks. At max stacks deal bonus true damage.<br><br>Prismatic: Field 8, then win 10 combats.",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBESoulFighter_normal_1752196501-Soul%20Fighter.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBESoulFighter_black_1752196501-Soul%20Fighter.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBESoulFighter_white_1752196501-Soul%20Fighter.svg",
-            "type": "ORIGIN",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 3
-                },
-                {
-                    "style": "silver",
-                    "min": 4,
-                    "max": 5
-                },
-                {
-                    "style": "silver",
-                    "min": 6,
-                    "max": 7
-                },
-                {
-                    "style": "gold",
-                    "min": 8
-                }
-            ],
-            "stats": {
-                "2": "120 %i:scaleHealth%, 1% %i:scaleAD%%i:scaleAP%, +10% damage",
-                "4": "240 %i:scaleHealth%, 2.5% %i:scaleAD%%i:scaleAP%, +16% damage",
-                "6": "425 %i:scaleHealth%, 4% %i:scaleAD%%i:scaleAP%, +22% damage",
-                "8": "600 %i:scaleHealth%, 4% %i:scaleAD%%i:scaleAP%, +28% damage"
-            }
-        },
-        {
-            "key": "Sorcerer",
-            "ingameKey": "TFT15_Spellslinger",
-            "name": "Sorcerer",
-            "desc": "Sorcerers gain bonus Ability Power.<br><br>When an enemy dies after being damaged by a Sorcerer, they deal a percentage of that enemy's maximum Health to another enemy.",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBESorcerer_normal_1752196437-Sorcerer.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBESorcerer_black_1752196438-Sorcerer.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBESorcerer_white_1752196438-Sorcerer.svg",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 3
-                },
-                {
-                    "style": "silver",
-                    "min": 4,
-                    "max": 5
-                },
-                {
-                    "style": "gold",
-                    "min": 6
-                }
-            ],
-            "stats": {
-                "2": "20% %i:scaleAP%; 8% max %i:scaleHealth%",
-                "4": "55% %i:scaleAP%; 10% max %i:scaleHealth%",
-                "6": "80% %i:scaleAP%; 12% max %i:scaleHealth% to 2 enemies"
-            }
-        },
-        {
-            "key": "StarGuardian",
-            "ingameKey": "TFT15_StarGuardian",
-            "name": "Star Guardian",
-            "desc": "Star Guardians have a unique Teamwork bonus that is granted to all Star Guardians. Every Star Guardian fielded increases the bonus!<br><br>Prismatic: Field 8, then spend 18500 mana.<br><br>Rell: Gain shields<br>Syndra: Gain Ability Power<br>Xayah: Magic damage on attack<br>Ahri: On cast, gain Mana<br>Neeko: Increase heals & shields<br>Poppy: Heal at low Health<br>Jinx: Gain Attack Speed<br>Seraphine: Gain every stat<br>Emblem: Increase other bonuses",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEStarGuardian_normal_1752196479-Star%20Guardian.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEStarGuardian_black_1752196479-Star%20Guardian.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEStarGuardian_white_1752196479-Star%20Guardian.svg",
-            "type": "ORIGIN",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 2
-                },
-                {
-                    "style": "silver",
-                    "min": 3,
-                    "max": 3
-                },
-                {
-                    "style": "silver",
-                    "min": 4,
-                    "max": 4
-                },
-                {
-                    "style": "silver",
-                    "min": 5,
-                    "max": 5
-                },
-                {
-                    "style": "gold",
-                    "min": 6,
-                    "max": 6
-                },
-                {
-                    "style": "gold",
-                    "min": 7,
-                    "max": 7
-                },
-                {
-                    "style": "gold",
-                    "min": 8,
-                    "max": 8
-                },
-                {
-                    "style": "gold",
-                    "min": 9,
-                    "max": 9
-                },
-                {
-                    "style": "gold",
-                    "min": 10
-                }
-            ],
-            "stats": {}
-        },
-        {
-            "key": "Strategist",
-            "ingameKey": "TFT15_Strategist",
-            "name": "Strategist",
-            "desc": "Combat Start: Allies in the front 2 rows gain a shield for 15 seconds. Allies in the back 2 rows gain Damage Amp. Strategists gain triple.",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEStrategist_normal_1752196677-Strategist.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEStrategist_black_1752196677-Strategist.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEStrategist_white_1752196677-Strategist.svg",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 2
-                },
-                {
-                    "style": "silver",
-                    "min": 3,
-                    "max": 3
-                },
-                {
-                    "style": "gold",
-                    "min": 4,
-                    "max": 4
-                },
-                {
-                    "style": "gold",
-                    "min": 5
-                }
-            ],
-            "stats": {
-                "2": "150 Shield; 4% %i:scaleDA%",
-                "3": "200 Shield; 6% %i:scaleDA%",
-                "4": "300 Shield; 10% %i:scaleDA%",
-                "5": "400 Shield; 14% %i:scaleDA%"
-            }
-        },
-        {
-            "key": "SupremeCells",
-            "ingameKey": "TFT15_SupremeCells",
-            "name": "Supreme Cells",
-            "desc": "The Cell who dealt the most damage last combat is Supreme. When the Supreme Cell dies, the Cell with the highest current damage becomes Supreme.<br><br>Cells gain Damage Amp. The Supreme Cell gains more and executes enemies under 10% Health.",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBESupremeCells_normal_1752196234-Supreme%20Cells.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBESupremeCells_black_1752196234-Supreme%20Cells.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBESupremeCells_white_1752196234-Supreme%20Cells.svg",
-            "type": "ORIGIN",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 2
-                },
-                {
-                    "style": "silver",
-                    "min": 3,
-                    "max": 3
-                },
-                {
-                    "style": "gold",
-                    "min": 4
-                }
-            ],
-            "stats": {
-                "2": "8% %i:scaleDA% | 12% %i:scaleDA%",
-                "3": "18% %i:scaleDA% | 30% %i:scaleDA%",
-                "4": "28% %i:scaleDA% | 50% %i:scaleDA%. Gain a second Supreme"
-            }
-        },
-        {
-            "key": "TheCrew",
-            "ingameKey": "TFT15_TheCrew",
-            "name": "The Crew",
-            "desc": "Crew champions gain 5% Health and Attack Speed for each Crew member fielded.<br><br>Every 3-star Crew champion grants an additional bonus.<br><br>(1x ☆☆☆): +1 XP per paid reroll, and Crew unit odds never drop with player level.<br>(2x ☆☆☆): +1 free reroll / round.<br>(3x ☆☆☆): Deal 280 damage to fire a rocket dealing 75.<br>(4x ☆☆☆): Fire rockets 2.5% more often per player level.<br>(5x ☆☆☆): Fire the Planet Cracker.",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBETheCrew_normal_1752196271-The%20Crew.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBETheCrew_black_1752196272-The%20Crew.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBETheCrew_white_1752196272-The%20Crew.svg",
-            "type": "ORIGIN",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 2
-                },
-                {
-                    "style": "silver",
-                    "min": 3,
-                    "max": 3
-                },
-                {
-                    "style": "gold",
-                    "min": 4,
-                    "max": 4
-                },
-                {
-                    "style": "gold",
-                    "min": 5
                 }
             ],
             "stats": {}
@@ -944,9 +617,9 @@
                 }
             ],
             "stats": {
-                "2": "150% %i:TFTBaseAD%",
-                "4": "300% %i:TFTBaseAD%",
-                "6": "500% %i:TFTBaseAD%"
+                "2": "175% %i:TFTBaseAD%",
+                "4": "350% %i:TFTBaseAD%",
+                "6": "575% %i:TFTBaseAD%"
             },
             "isRevival": true,
             "isRevivalOnly": true,
@@ -1029,12 +702,53 @@
                 }
             ],
             "stats": {
-                "2": "600 %i:scaleHealth%",
-                "4": "900 %i:scaleHealth%",
-                "6": "1500 %i:scaleHealth%",
-                "8": "2250 %i:scaleHealth%"
+                "2": "750 %i:scaleHealth%",
+                "4": "1050 %i:scaleHealth%",
+                "6": "1650 %i:scaleHealth%",
+                "8": "2400 %i:scaleHealth%"
             },
             "isPbe": true,
+            "isRevival": true,
+            "isRevivalOnly": true,
+            "isHidden": true
+        },
+        {
+            "key": "Set7Dragonmancer",
+            "ingameKey": "TFT7_Dragonmancer",
+            "name": "Dragonmancer",
+            "desc": "Use the Dragonmancer Blessing item to choose a Hero. The Hero gains massively increased Health and Ability Power, which increases by 20% per star level of your Dragonmancers.",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Dragonmancer_normal_1660832841-dragonmancer.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Dragonmancer_black_1660832841-dragonmancer%20(1).svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Dragonmancer_white_1660832841-dragonmancer%20(2).svg",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "silver",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6,
+                    "max": 8
+                },
+                {
+                    "style": "chromatic",
+                    "min": 9,
+                    "max": 999
+                }
+            ],
+            "stats": {
+                "2": "+300 %i:scaleHealth%, +30% %i:scaleAP%",
+                "4": "+600 %i:scaleHealth%, +45% %i:scaleAP%",
+                "6": "+850 %i:scaleHealth%, +60% %i:scaleAP%",
+                "9": "+1600 %i:scaleHealth%, +145% %i:scaleAP%"
+            },
             "isRevival": true,
             "isRevivalOnly": true,
             "isHidden": true
@@ -1086,47 +800,6 @@
                 "4": "and +1 to team size",
                 "5": "and heal 40 Health every second",
                 "6": "and your Dragons ascend! 300 %i:scaleHealth%, 30 %i:scaleArmor% and %i:scaleMR%, 30 Attack Damage, 30 Ability Power, 30% Attack Speed"
-            },
-            "isRevival": true,
-            "isRevivalOnly": true,
-            "isHidden": true
-        },
-        {
-            "key": "Set7Dragonmancer",
-            "ingameKey": "TFT7_Dragonmancer",
-            "name": "Dragonmancer",
-            "desc": "Use the Dragonmancer Blessing item to choose a Hero. The Hero gains massively increased Health and Ability Power, which increases by 20% per star level of your Dragonmancers.",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Dragonmancer_normal_1660832841-dragonmancer.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Dragonmancer_black_1660832841-dragonmancer%20(1).svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Dragonmancer_white_1660832841-dragonmancer%20(2).svg",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 3
-                },
-                {
-                    "style": "silver",
-                    "min": 4,
-                    "max": 5
-                },
-                {
-                    "style": "gold",
-                    "min": 6,
-                    "max": 8
-                },
-                {
-                    "style": "chromatic",
-                    "min": 9,
-                    "max": 999
-                }
-            ],
-            "stats": {
-                "2": "+275 %i:scaleHealth%, +25% %i:scaleAP%",
-                "4": "+575 %i:scaleHealth%, +40% %i:scaleAP%",
-                "6": "+800 %i:scaleHealth%, +55% %i:scaleAP%",
-                "9": "+1600 %i:scaleHealth%, +140% %i:scaleAP%"
             },
             "isRevival": true,
             "isRevivalOnly": true,
@@ -1199,10 +872,10 @@
                 }
             ],
             "stats": {
-                "2": "30% %i:scaleHealth% Shield",
-                "4": "45% %i:scaleHealth% Shield",
-                "6": "90% %i:scaleHealth% Shield",
-                "8": "140% %i:scaleHealth% Shield"
+                "2": "35% %i:scaleHealth% Shield",
+                "4": "50% %i:scaleHealth% Shield",
+                "6": "100% %i:scaleHealth% Shield",
+                "8": "150% %i:scaleHealth% Shield"
             },
             "isRevival": true,
             "isRevivalOnly": true,
@@ -1295,18 +968,18 @@
                 {
                     "style": "gold",
                     "min": 7,
-                    "max": 9
+                    "max": 10
                 },
                 {
                     "style": "chromatic",
-                    "min": 10
+                    "min": 11
                 }
             ],
             "stats": {
                 "3": "1 statue, 2% %i:scaleHealth%, 10% %i:scaleAS%",
                 "5": "2 statues, 3% %i:scaleHealth%, 22% %i:scaleAS%",
                 "7": "3 statues, 5% %i:scaleHealth%, 55% %i:scaleAS%",
-                "10": "4 special statues, 8% %i:scaleHealth%, 88% %i:scaleAS%"
+                "11": "4 special statues, 8% %i:scaleHealth%, 88% %i:scaleAS%"
             },
             "isRevival": true,
             "isRevivalOnly": true,
@@ -1731,9 +1404,9 @@
             ],
             "stats": {
                 "2": "10% %i:scaleAS%",
-                "3": "15% %i:scaleAS%",
-                "4": "25% %i:scaleAS%",
-                "5": "40% %i:scaleAS%"
+                "3": "20% %i:scaleAS%",
+                "4": "30% %i:scaleAS%",
+                "5": "45% %i:scaleAS%"
             },
             "isRevival": true,
             "isRevivalOnly": true,
@@ -1852,6 +1525,333 @@
             "isRevival": true,
             "isRevivalOnly": true,
             "isHidden": true
+        },
+        {
+            "key": "Sniper",
+            "ingameKey": "TFT15_Sniper",
+            "name": "Sniper",
+            "desc": "Snipers gain Damage Amp, increased against targets farther away.",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBESniper_normal_1752196621-Sniper.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBESniper_black_1752196621-Sniper.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBESniper_white_1752196621-Sniper.svg",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 2
+                },
+                {
+                    "style": "silver",
+                    "min": 3,
+                    "max": 3
+                },
+                {
+                    "style": "silver",
+                    "min": 4,
+                    "max": 4
+                },
+                {
+                    "style": "gold",
+                    "min": 5
+                }
+            ],
+            "stats": {
+                "2": "13% %i:scaleDA%; +3% %i:scaleDA% per hex",
+                "3": "18% %i:scaleDA%; +5% %i:scaleDA% per hex",
+                "4": "25% %i:scaleDA%; +7% %i:scaleDA% per hex",
+                "5": "25% %i:scaleDA%; +10% %i:scaleDA% per hex"
+            }
+        },
+        {
+            "key": "Sorcerer",
+            "ingameKey": "TFT15_Spellslinger",
+            "name": "Sorcerer",
+            "desc": "Sorcerers gain bonus Ability Power.<br><br>When an enemy dies after being damaged by a Sorcerer, they deal a percentage of that enemy's maximum Health to another enemy.",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBESorcerer_normal_1752196437-Sorcerer.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBESorcerer_black_1752196438-Sorcerer.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBESorcerer_white_1752196438-Sorcerer.svg",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "silver",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6
+                }
+            ],
+            "stats": {
+                "2": "20% %i:scaleAP%; 8% max %i:scaleHealth%",
+                "4": "55% %i:scaleAP%; 10% max %i:scaleHealth%",
+                "6": "80% %i:scaleAP%; 12% max %i:scaleHealth% to 2 enemies"
+            }
+        },
+        {
+            "key": "SoulFighter",
+            "ingameKey": "TFT15_SoulFighter",
+            "name": "Soul Fighter",
+            "desc": "Soul Fighters gain bonus Health, and gain Attack Damage and Ability Power every second up to 8 stacks. At max stacks deal bonus true damage.<br><br>Prismatic: Field 8, then win 10 combats.",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBESoulFighter_normal_1752196501-Soul%20Fighter.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBESoulFighter_black_1752196501-Soul%20Fighter.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBESoulFighter_white_1752196501-Soul%20Fighter.svg",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "silver",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "silver",
+                    "min": 6,
+                    "max": 7
+                },
+                {
+                    "style": "gold",
+                    "min": 8
+                }
+            ],
+            "stats": {
+                "2": "120 %i:scaleHealth%, 1% %i:scaleAD%%i:scaleAP%, +10% damage",
+                "4": "240 %i:scaleHealth%, 2.5% %i:scaleAD%%i:scaleAP%, +16% damage",
+                "6": "425 %i:scaleHealth%, 4% %i:scaleAD%%i:scaleAP%, +22% damage",
+                "8": "600 %i:scaleHealth%, 4% %i:scaleAD%%i:scaleAP%, +28% damage"
+            }
+        },
+        {
+            "key": "StanceMaster",
+            "ingameKey": "TFT15_DragonFist",
+            "name": "Stance Master",
+            "desc": "When you field Lee Sin, choose between Duelist Stance, Executioner Stance, and Juggernaut Stance! Each stance has a unique ability, and grants Lee Sin the associated trait.",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEStanceMaster_normal_1752196170-Stance%20Master.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEStanceMaster_black_1752196170-Stance%20Master.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEStanceMaster_white_1752196170-Stance%20Master.svg",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "gold",
+                    "min": 1
+                }
+            ],
+            "stats": {}
+        },
+        {
+            "key": "StarGuardian",
+            "ingameKey": "TFT15_StarGuardian",
+            "name": "Star Guardian",
+            "desc": "Star Guardians have a unique Teamwork bonus that is granted to all Star Guardians. Every Star Guardian fielded increases the bonus!<br><br>Prismatic: Field 8, then spend 16000 mana.<br><br>Rell: Gain shields<br>Syndra: Gain Ability Power<br>Xayah: Magic damage on attack<br>Ahri: On cast, gain Mana<br>Neeko: Increase heals & shields<br>Poppy: Heal at low Health<br>Jinx: Gain Attack Speed<br>Seraphine: Gain every stat<br>Emblem: Increase other bonuses",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEStarGuardian_normal_1752196479-Star%20Guardian.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEStarGuardian_black_1752196479-Star%20Guardian.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEStarGuardian_white_1752196479-Star%20Guardian.svg",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 2
+                },
+                {
+                    "style": "silver",
+                    "min": 3,
+                    "max": 3
+                },
+                {
+                    "style": "silver",
+                    "min": 4,
+                    "max": 4
+                },
+                {
+                    "style": "silver",
+                    "min": 5,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6,
+                    "max": 6
+                },
+                {
+                    "style": "gold",
+                    "min": 7,
+                    "max": 7
+                },
+                {
+                    "style": "gold",
+                    "min": 8,
+                    "max": 8
+                },
+                {
+                    "style": "gold",
+                    "min": 9,
+                    "max": 9
+                },
+                {
+                    "style": "gold",
+                    "min": 10
+                }
+            ],
+            "stats": {}
+        },
+        {
+            "key": "Strategist",
+            "ingameKey": "TFT15_Strategist",
+            "name": "Strategist",
+            "desc": "Combat Start: Allies in the front 2 rows gain a shield for 15 seconds. Allies in the back 2 rows gain Damage Amp. Strategists gain triple.",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEStrategist_normal_1752196677-Strategist.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEStrategist_black_1752196677-Strategist.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEStrategist_white_1752196677-Strategist.svg",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 2
+                },
+                {
+                    "style": "silver",
+                    "min": 3,
+                    "max": 3
+                },
+                {
+                    "style": "gold",
+                    "min": 4,
+                    "max": 4
+                },
+                {
+                    "style": "gold",
+                    "min": 5
+                }
+            ],
+            "stats": {
+                "2": "150 Shield; 4% %i:scaleDA%",
+                "3": "200 Shield; 6% %i:scaleDA%",
+                "4": "300 Shield; 10% %i:scaleDA%",
+                "5": "400 Shield; 14% %i:scaleDA%"
+            }
+        },
+        {
+            "key": "SupremeCells",
+            "ingameKey": "TFT15_SupremeCells",
+            "name": "Supreme Cells",
+            "desc": "The Cell who dealt the most damage last combat is Supreme. When the Supreme Cell dies, the Cell with the highest current damage becomes Supreme.<br><br>Cells gain Damage Amp. The Supreme Cell gains more and executes enemies under 10% Health.",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBESupremeCells_normal_1752196234-Supreme%20Cells.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBESupremeCells_black_1752196234-Supreme%20Cells.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBESupremeCells_white_1752196234-Supreme%20Cells.svg",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 2
+                },
+                {
+                    "style": "silver",
+                    "min": 3,
+                    "max": 3
+                },
+                {
+                    "style": "gold",
+                    "min": 4
+                }
+            ],
+            "stats": {
+                "2": "8% %i:scaleDA% | 12% %i:scaleDA%",
+                "3": "18% %i:scaleDA% | 30% %i:scaleDA%",
+                "4": "28% %i:scaleDA% | 50% %i:scaleDA%. Gain a second Supreme"
+            }
+        },
+        {
+            "key": "TheChamp",
+            "ingameKey": "TFT15_ElTigre",
+            "name": "The Champ",
+            "desc": "The Champ's victories against players grant Poro-fans equal to his star level. On loss, Poro-fans prevent 1 Tactician damage each, then lose all of your Poro-fans.<br><br>Poro Fanbase: ?",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBETheChamp_normal_1752196253-The%20Champ.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBETheChamp_black_1752196254-The%20Champ.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBETheChamp_white_1752196254-The%20Champ.svg",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "gold",
+                    "min": 1
+                }
+            ],
+            "stats": {}
+        },
+        {
+            "key": "TheCrew",
+            "ingameKey": "TFT15_TheCrew",
+            "name": "The Crew",
+            "desc": "Crew champions gain 5% Health and Attack Speed for each Crew member fielded.<br><br>Every 3-star Crew champion grants an additional bonus.<br><br>(1x ☆☆☆): +1 XP per paid reroll, and Crew unit odds never drop with player level.<br>(2x ☆☆☆): +1 free reroll / round.<br>(3x ☆☆☆): Deal 280 damage to fire a rocket dealing 75.<br>(4x ☆☆☆): Fire rockets 2.5% more often per player level.<br>(5x ☆☆☆): Fire the Planet Cracker.",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBETheCrew_normal_1752196271-The%20Crew.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBETheCrew_black_1752196272-The%20Crew.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBETheCrew_white_1752196272-The%20Crew.svg",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 2
+                },
+                {
+                    "style": "silver",
+                    "min": 3,
+                    "max": 3
+                },
+                {
+                    "style": "gold",
+                    "min": 4,
+                    "max": 4
+                },
+                {
+                    "style": "gold",
+                    "min": 5
+                }
+            ],
+            "stats": {}
+        },
+        {
+            "key": "Wraith",
+            "ingameKey": "TFT15_Empyrean",
+            "name": "Wraith",
+            "desc": "Every 4 seconds, the Shadow Realm strikes the 3 closest enemies, dealing total magic damage equal to a portion of damage dealt by Wraiths since the last trigger.<br><br>Your lowest health Wraith heals for 18% of damage dealt by Wraiths and the Shadow Realm.",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEWraith_normal_1752196331-Wraith.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEWraith_black_1752196331-Wraith.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/PBEWraith_white_1752196331-Wraith.svg",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "silver",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6
+                }
+            ],
+            "stats": {
+                "2": "20% damage.",
+                "4": "45% damage.",
+                "6": "60% damage."
+            }
         }
     ]
 }

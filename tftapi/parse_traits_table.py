@@ -75,6 +75,8 @@ def get_traits_table(setof: str) -> tuple[Grid2d, Grid2d]:
             case 'CLASS':
                 setclasses.append(trtdetail)
     
+    # print('set origins-classes', setorigins, setclasses)
+
     # write grid
     trtsz=len(setorigins)
     clssz=len(setclasses)
@@ -89,6 +91,7 @@ def get_traits_table(setof: str) -> tuple[Grid2d, Grid2d]:
     origins2d.sort(key=lambda ls: ls[0])
     classes2d.sort(key=lambda ls: ls[0])
 
+    # print("grid2d", origins2d, classes2d)
     return (
         Grid2d(origins2d, row0=["{{origin_name}}", "{{unit_active}}", "{{unit_count}}", "{{emblem}}", "{{desc}}"]),
         Grid2d(classes2d, row0=["{{class_name}}", "{{unit_active}}", "{{unit_count}}", "{{emblem}}", "{{desc}}"]),

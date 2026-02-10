@@ -5,6 +5,7 @@
 | Karma      | Karma    | ![Karma](../icon/set7.5/Karma.png)           |
 | Leona      | Leona    | ![Leona](../icon/set7.5/Leona.png)           |
 | Malphite   | Malphite | ![Malphite](../icon/set7.5/Malphite.jpg)     |
+| MonkeyKing | Wukong   | ![MonkeyKing](../icon/set7.5/MonkeyKing.jpg) |
 | Nasus      | Nasus    | ![Nasus](../icon/set7.5/Nasus.jpg)           |
 | Nidalee    | Nidalee  | ![Nidalee](../icon/set7.5/Nidalee.png)       |
 | Sejuani    | Sejuani  | ![Sejuani](../icon/set7.5/Sejuani.png)       |
@@ -13,7 +14,6 @@
 | Skarner    | Skarner  | ![Skarner](../icon/set7.5/Skarner.png)       |
 | Taliyah    | Taliyah  | ![Taliyah](../icon/set7.5/Taliyah.jpg)       |
 | Vladimir   | Vladimir | ![Vladimir](../icon/set7.5/Vladimir.png)     |
-| MonkeyKing | Wukong   | ![MonkeyKing](../icon/set7.5/MonkeyKing.jpg) |
 # Cost: 2, Count: 13
 | key      | name     | icon                                     |
 | -        | -        | -                                        |
@@ -33,7 +33,6 @@
 # Cost: 3, Count: 11
 | key       | name      | icon                                       |
 | -         | -         | -                                          |
-| Volibear  | Volibear  | ![Volibear](../icon/set7.5/Volibear.png)   |
 | Diana     | Diana     | ![Diana](../icon/set7.5/Diana.png)         |
 | LeeSin    | Lee Sin   | ![LeeSin](../icon/set7.5/LeeSin.png)       |
 | Nunu      | Nunu      | ![Nunu](../icon/set7.5/Nunu.png)           |
@@ -43,6 +42,7 @@
 | Seraphine | Seraphine | ![Seraphine](../icon/set7.5/Seraphine.jpg) |
 | Sylas     | Sylas     | ![Sylas](../icon/set7.5/Sylas.png)         |
 | Varus     | Varus     | ![Varus](../icon/set7.5/Varus.png)         |
+| Volibear  | Volibear  | ![Volibear](../icon/set7.5/Volibear.png)   |
 | Zeri      | Zeri      | ![Zeri](../icon/set7.5/Zeri.jpg)           |
 # Cost: 4, Count: 6
 | key      | name     | icon                                     |
@@ -63,21 +63,21 @@
 # Cost: 6, Count: 2
 | key   | name  | icon                               |
 | -     | -     | -                                  |
-| Zippy | Zippy | ![Zippy](../icon/set7.5/Zippy.png) |
 | Nomsy | Nomsy | ![Nomsy](../icon/set7.5/Nomsy.jpg) |
+| Zippy | Zippy | ![Zippy](../icon/set7.5/Zippy.png) |
 # Cost: 7, Count: 6
 | key     | name         | icon                                   |
 | -       | -            | -                                      |
-| Sohm    | Sohm         | ![Sohm](../icon/set7.5/Sohm.jpg)       |
 | Daeja   | Daeja        | ![Daeja](../icon/set7.5/Daeja.png)     |
 | Idas    | Idas         | ![Idas](../icon/set7.5/Idas.png)       |
 | ShiOhYu | Shi Oh Yu    | ![ShiOhYu](../icon/set7.5/ShiOhYu.png) |
-| Syfen   | Sy'fen       | ![Syfen](../icon/set7.5/Syfen.png)     |
+| Sohm    | Sohm         | ![Sohm](../icon/set7.5/Sohm.jpg)       |
 | Swain   | Tyrant Swain | ![Swain](../icon/set7.5/Swain.jpg)     |
+| Syfen   | Sy'fen       | ![Syfen](../icon/set7.5/Syfen.png)     |
 # Cost: 8, Count: 4
 | key         | name         | icon                                           |
 | -           | -            | -                                              |
 | AoShin      | Ao Shin      | ![AoShin](../icon/set7.5/AoShin.png)           |
 | AurelionSol | Aurelion Sol | ![AurelionSol](../icon/set7.5/AurelionSol.png) |
-| Terra       | Terra        | ![Terra](../icon/set7.5/Terra.jpg)             |
 | Shyvana     | Shyvana      | ![Shyvana](../icon/set7.5/Shyvana.png)         |
+| Terra       | Terra        | ![Terra](../icon/set7.5/Terra.jpg)             |

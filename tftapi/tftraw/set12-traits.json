@@ -266,26 +266,6 @@
             "isPbe": true
         },
         {
-            "key": "TFT12BestFriends",
-            "ingameKey": "TFT12_Explorer",
-            "name": "Best Friends",
-            "desc": "",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/TFT12BestFriends_normal_1720774208-Best-Friends.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/TFT12BestFriends_black_1720774208-Best-Friends.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/TFT12BestFriends_white_1720774208-Best-Friends.svg",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "gold",
-                    "min": 1
-                }
-            ],
-            "stats": {
-                "1": "Norra summons Yuumi to help your team! She can be attached to allies by holding her over them. Yuumi shares her Ability Power with Norra and dies when Norra does."
-            },
-            "isPbe": true
-        },
-        {
             "key": "Faerie",
             "ingameKey": "TFT12_Faerie",
             "name": "Faerie",
@@ -690,184 +670,6 @@
                 "2": "3 Mana per attack, 10 AP",
                 "4": "6 Mana per attack, 20 AP",
                 "6": "12 Mana per attack, 20 AP, and Abilities heal an ally for 10% of the damage dealt"
-            },
-            "isPbe": true
-        },
-        {
-            "key": "Shapeshifter",
-            "ingameKey": "TFT12_Shapeshifter",
-            "name": "Shapeshifter",
-            "desc": "Shapeshifters gain bonus max Health. After their first Ability cast, they triple this effect.",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Shapeshifter_normal_1720774437-Shapeshifter.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Shapeshifter_black_1720774437-Shapeshifter.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Shapeshifter_white_1720774438-Shapeshifter.svg",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 3
-                },
-                {
-                    "style": "silver",
-                    "min": 4,
-                    "max": 5
-                },
-                {
-                    "style": "gold",
-                    "min": 6,
-                    "max": 9
-                },
-                {
-                    "style": "chromatic",
-                    "min": 10
-                }
-            ],
-            "stats": {
-                "2": "10% Health",
-                "4": "18% Health",
-                "6": "27% Health",
-                "8": "33% Health, 6% HP regen per 2 seconds"
-            },
-            "isPbe": true
-        },
-        {
-            "key": "Sugarcraft",
-            "ingameKey": "TFT12_Sugarcraft",
-            "name": "Sugarcraft",
-            "desc": "Sugarcrafters build a layer cake from sugar. Gain sugar for each component your champions are holding after player combat.<br><br>They gain Attack Damage and Ability Power, increased by 10% for each cake layer. When the cake has reached 7 layers, gain treats instead!",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Sugarcraft_normal_1720774861-Sugarcraft.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Sugarcraft_black_1720774861-Sugarcraft.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Sugarcraft_white_1720774861-Sugarcraft.svg",
-            "type": "ORIGIN",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 3
-                },
-                {
-                    "style": "silver",
-                    "min": 4,
-                    "max": 5
-                },
-                {
-                    "style": "gold",
-                    "min": 6,
-                    "max": 7
-                },
-                {
-                    "style": "chromatic",
-                    "min": 8
-                }
-            ],
-            "stats": {
-                "2": "3 sugar, 22 AD/AP",
-                "4": "4 sugar, 33 AD/AP",
-                "6": "6 sugar, 36 AD/AP, team gains 100 Health",
-                "8": "10 sugar, 50 AD/AP, team gains 500 Health"
-            },
-            "isPbe": true
-        },
-        {
-            "key": "Vanguard",
-            "ingameKey": "TFT12_Vanguard",
-            "name": "Vanguard",
-            "desc": "Vanguards gain 10% Durability while Shielded.<br><br>Combat start and at 50% Health: Gain a Shield for a percent of max Health for 10 seconds.",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Vanguard_normal_1720774453-Vanguard.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Vanguard_black_1720774453-Vanguard.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Vanguard_white_1720774453-Vanguard.svg",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 3
-                },
-                {
-                    "style": "silver",
-                    "min": 4,
-                    "max": 5
-                },
-                {
-                    "style": "gold",
-                    "min": 6
-                }
-            ],
-            "stats": {
-                "2": "18% max Health",
-                "4": "35% max Health",
-                "6": "50% max Health, 15% Durability while Shielded"
-            },
-            "isPbe": true
-        },
-        {
-            "key": "Warrior",
-            "ingameKey": "TFT12_Warrior",
-            "name": "Warrior",
-            "desc": "Warriors gain Omnivamp and Damage Amp. When Warriors drop below 70% health, they gain double Damage Amp.",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Warrior_normal_1720774469-Warrior.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Warrior_black_1720774469-Warrior.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Warrior_white_1720774469-Warrior.svg",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 3
-                },
-                {
-                    "style": "silver",
-                    "min": 4,
-                    "max": 5
-                },
-                {
-                    "style": "gold",
-                    "min": 6
-                }
-            ],
-            "stats": {
-                "2": "10% Omnivamp, 10% Damage Amp",
-                "4": "20% Omnivamp, 20% Damage Amp",
-                "6": "25% Omnivamp, 25% Damage Amp, 15% Durability"
-            },
-            "isPbe": true
-        },
-        {
-            "key": "Witchcraft",
-            "ingameKey": "TFT12_Witchcraft",
-            "name": "Witchcraft",
-            "desc": "Now poisons enemies, dealing 4% of their maximum HP per second as magic damage.",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Witchcraft_normal_1720774880-Witchcraft.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Witchcraft_black_1720774880-Witchcraft.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Witchcraft_white_1720774880-Witchcraft.svg",
-            "type": "ORIGIN",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 3
-                },
-                {
-                    "style": "silver",
-                    "min": 4,
-                    "max": 5
-                },
-                {
-                    "style": "gold",
-                    "min": 6,
-                    "max": 7
-                },
-                {
-                    "style": "gold",
-                    "min": 8
-                }
-            ],
-            "stats": {
-                "2": "smaller, losing 120 of their max Health",
-                "4": "AND green, taking 6% of their max Health as magic damage per second",
-                "6": "AND frail, taking 25% bonus true damage from Witches",
-                "8": "AND a frog, stunned for 2 seconds every 8 seconds. All other curse effects are increased by 50%."
             },
             "isPbe": true
         },
@@ -1702,6 +1504,204 @@
                 "1": "When Victorious champions score a kill, their next attack is empowered to deal 60% of the target's missing Health as bonus magic damage."
             },
             "isHidden": true
+        },
+        {
+            "key": "Shapeshifter",
+            "ingameKey": "TFT12_Shapeshifter",
+            "name": "Shapeshifter",
+            "desc": "Shapeshifters gain bonus max Health. After their first Ability cast, they triple this effect.",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Shapeshifter_normal_1720774437-Shapeshifter.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Shapeshifter_black_1720774437-Shapeshifter.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Shapeshifter_white_1720774438-Shapeshifter.svg",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "silver",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6,
+                    "max": 9
+                },
+                {
+                    "style": "chromatic",
+                    "min": 10
+                }
+            ],
+            "stats": {
+                "2": "10% Health",
+                "4": "18% Health",
+                "6": "27% Health",
+                "8": "33% Health, 6% HP regen per 2 seconds"
+            },
+            "isPbe": true
+        },
+        {
+            "key": "Sugarcraft",
+            "ingameKey": "TFT12_Sugarcraft",
+            "name": "Sugarcraft",
+            "desc": "Sugarcrafters build a layer cake from sugar. Gain sugar for each component your champions are holding after player combat.<br><br>They gain Attack Damage and Ability Power, increased by 10% for each cake layer. When the cake has reached 7 layers, gain treats instead!",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Sugarcraft_normal_1720774861-Sugarcraft.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Sugarcraft_black_1720774861-Sugarcraft.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Sugarcraft_white_1720774861-Sugarcraft.svg",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "silver",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6,
+                    "max": 7
+                },
+                {
+                    "style": "chromatic",
+                    "min": 8
+                }
+            ],
+            "stats": {
+                "2": "3 sugar, 22 AD/AP",
+                "4": "4 sugar, 33 AD/AP",
+                "6": "6 sugar, 36 AD/AP, team gains 100 Health",
+                "8": "10 sugar, 50 AD/AP, team gains 500 Health"
+            },
+            "isPbe": true
+        },
+        {
+            "key": "TFT12BestFriends",
+            "ingameKey": "TFT12_Explorer",
+            "name": "Best Friends",
+            "desc": "",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/TFT12BestFriends_normal_1720774208-Best-Friends.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/TFT12BestFriends_black_1720774208-Best-Friends.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/TFT12BestFriends_white_1720774208-Best-Friends.svg",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "gold",
+                    "min": 1
+                }
+            ],
+            "stats": {
+                "1": "Norra summons Yuumi to help your team! She can be attached to allies by holding her over them. Yuumi shares her Ability Power with Norra and dies when Norra does."
+            },
+            "isPbe": true
+        },
+        {
+            "key": "Vanguard",
+            "ingameKey": "TFT12_Vanguard",
+            "name": "Vanguard",
+            "desc": "Vanguards gain 10% Durability while Shielded.<br><br>Combat start and at 50% Health: Gain a Shield for a percent of max Health for 10 seconds.",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Vanguard_normal_1720774453-Vanguard.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Vanguard_black_1720774453-Vanguard.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Vanguard_white_1720774453-Vanguard.svg",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "silver",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6
+                }
+            ],
+            "stats": {
+                "2": "18% max Health",
+                "4": "35% max Health",
+                "6": "50% max Health, 15% Durability while Shielded"
+            },
+            "isPbe": true
+        },
+        {
+            "key": "Warrior",
+            "ingameKey": "TFT12_Warrior",
+            "name": "Warrior",
+            "desc": "Warriors gain Omnivamp and Damage Amp. When Warriors drop below 70% health, they gain double Damage Amp.",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Warrior_normal_1720774469-Warrior.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Warrior_black_1720774469-Warrior.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Warrior_white_1720774469-Warrior.svg",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "silver",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6
+                }
+            ],
+            "stats": {
+                "2": "10% Omnivamp, 10% Damage Amp",
+                "4": "20% Omnivamp, 20% Damage Amp",
+                "6": "25% Omnivamp, 25% Damage Amp, 15% Durability"
+            },
+            "isPbe": true
+        },
+        {
+            "key": "Witchcraft",
+            "ingameKey": "TFT12_Witchcraft",
+            "name": "Witchcraft",
+            "desc": "Now poisons enemies, dealing 4% of their maximum HP per second as magic damage.",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Witchcraft_normal_1720774880-Witchcraft.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Witchcraft_black_1720774880-Witchcraft.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Witchcraft_white_1720774880-Witchcraft.svg",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "silver",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6,
+                    "max": 7
+                },
+                {
+                    "style": "gold",
+                    "min": 8
+                }
+            ],
+            "stats": {
+                "2": "smaller, losing 120 of their max Health",
+                "4": "AND green, taking 6% of their max Health as magic damage per second",
+                "6": "AND frail, taking 25% bonus true damage from Witches",
+                "8": "AND a frog, stunned for 2 seconds every 8 seconds. All other curse effects are increased by 50%."
+            },
+            "isPbe": true
         }
     ]
 }

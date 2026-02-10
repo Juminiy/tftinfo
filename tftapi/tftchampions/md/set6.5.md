@@ -49,7 +49,6 @@
 # Cost: 4, Count: 12
 | key       | name         | icon                                       |
 | -         | -            | -                                          |
-| Vi        | Vi           | ![Vi](../icon/set6.5/Vi.png)               |
 | Ahri      | Ahri         | ![Ahri](../icon/set6.5/Ahri.png)           |
 | Alistar   | Alistar      | ![Alistar](../icon/set6.5/Alistar.png)     |
 | Braum     | Braum        | ![Braum](../icon/set6.5/Braum.png)         |
@@ -61,6 +60,7 @@
 | Renata    | Renata Glasc | ![Renata](../icon/set6.5/Renata.png)       |
 | Seraphine | Seraphine    | ![Seraphine](../icon/set6.5/Seraphine.png) |
 | Sivir     | Sivir        | ![Sivir](../icon/set6.5/Sivir.png)         |
+| Vi        | Vi           | ![Vi](../icon/set6.5/Vi.png)               |
 # Cost: 5, Count: 9
 | key       | name       | icon                                       |
 | -         | -          | -                                          |

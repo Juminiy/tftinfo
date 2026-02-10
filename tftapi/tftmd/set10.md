@@ -42,10 +42,10 @@
 ### Unique
 | {{name}}                                            | {{champion}}                                                                                    | {{cost}} |
 | -                                                   | -                                                                                               | -        |
-| ![Breakout](../tfttraits/icon/set10/Breakout.svg)   | ![Akali2](../tftchampions/icon/set10/Akali2.jpg)/![Akali](../tftchampions/icon/set10/Akali.jpg) | 4/4      |
+| ![Breakout](../tfttraits/icon/set10/Breakout.svg)   | ![Akali](../tftchampions/icon/set10/Akali.jpg)/![Akali2](../tftchampions/icon/set10/Akali2.jpg) | 4/4      |
+| ![ILLBEATS](../tfttraits/icon/set10/ILLBEATS.svg)   | ![Illaoi](../tftchampions/icon/set10/Illaoi.jpg)                                                | 5        |
 | ![Maestro](../tfttraits/icon/set10/Maestro.svg)     | ![Jhin](../tftchampions/icon/set10/Jhin.jpg)                                                    | 5        |
 | ![Mixmaster](../tfttraits/icon/set10/Mixmaster.svg) | ![Sona](../tftchampions/icon/set10/Sona.jpg)                                                    | 5        |
-| ![ILLBEATS](../tfttraits/icon/set10/ILLBEATS.svg)   | ![Illaoi](../tftchampions/icon/set10/Illaoi.jpg)                                                | 5        |
 | ![Wildcard](../tfttraits/icon/set10/Wildcard.svg)   | ![Kayn](../tftchampions/icon/set10/Kayn.jpg)                                                    | 5        |
 
 ### SynergyGrid

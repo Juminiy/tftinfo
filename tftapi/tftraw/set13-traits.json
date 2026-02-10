@@ -39,32 +39,6 @@
             }
         },
         {
-            "key": "Emissary",
-            "ingameKey": "TFT13_Ambassador",
-            "name": "Emissary",
-            "desc": "This trait is active only when you have exactly 1 or 4 unique Emissaries.",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Emissary_normal_1731045378-Emissary.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Emissary_black_1731045378-Emissary.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Emissary_white_1731045378-Emissary.svg",
-            "type": "ORIGIN",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 1,
-                    "max": 1
-                },
-                {
-                    "style": "gold",
-                    "min": 4,
-                    "max": 4
-                }
-            ],
-            "stats": {
-                "1": "Gain that Emissary's bonus",
-                "4": "Gain all bonuses. Emissaries gain 250 Health and 20% Damage Amp.<br><br>Ambessa: Allies gain 2 Armor and Magic Resist for each opponent defeated.<br><br>Garen: On Combat Start, Garen and allies to his left and right gain 20% of his max Health.<br><br>Nami: Allies' attacks grant 3 bonus Mana.<br><br>Tristana: Allies gain 6% Attack Speed per star level."
-            }
-        },
-        {
             "key": "Ambusher",
             "ingameKey": "TFT13_Ambusher",
             "name": "Ambusher",
@@ -100,6 +74,165 @@
                 "4": "45% Crit, 25% Crit Mult",
                 "5": "55% Crit, 25% Crit Mult; also gain 15% Durability"
             }
+        },
+        {
+            "key": "Artillerist",
+            "ingameKey": "TFT13_Martialist",
+            "name": "Artillerist",
+            "desc": "Every 5 attacks, Artillerists launch a rocket that deals 125% Attack Damage around the target. They also gain Attack Damage.",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Artillerist_normal_1731045912-Artillerist.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Artillerist_black_1731045912-Artillerist.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Artillerist_white_1731045912-Artillerist.svg",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "silver",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6
+                }
+            ],
+            "stats": {
+                "2": "10% AD",
+                "4": "45% AD",
+                "6": "70% AD, Launch a rocket every 3 attacks that deals double damage."
+            }
+        },
+        {
+            "key": "Automata",
+            "ingameKey": "TFT13_Hextech",
+            "name": "Automata",
+            "desc": "Automata gain a crystal when they deal damage. At 20 crystals, they blast their current target, dealing magic damage + 25% of damage dealt since the previous blast and reset. They also gain Armor and Magic Resist.",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Automata_normal_1731045428-Automata.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Automata_black_1731045428-Automata.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Automata_white_1731045428-Automata.svg",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "silver",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6
+                }
+            ],
+            "stats": {
+                "2": "150 damage, 25 AR/MR",
+                "4": "450 damage, 60 AR/MR",
+                "6": "1337 damage, 111 AR/MR"
+            }
+        },
+        {
+            "key": "BanishedMage",
+            "ingameKey": "TFT13_MissMageTrait",
+            "name": "Banished Mage",
+            "desc": "",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/BanishedMage_normal_1732695185-banishedmage.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/BanishedMage_black_1732695186-banishedmage.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/BanishedMage_white_1732695186-banishedmage.svg",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "gold",
+                    "min": 1
+                }
+            ],
+            "stats": {
+                "1": "The first time you would be eliminated, if Mel has cast 12 times during player combat this game, she saves you and you remain alive.<br><br>Afterwards, Mel permanently gains 10% Damage Amp."
+            },
+            "isPbe": true
+        },
+        {
+            "key": "Betrayal",
+            "ingameKey": "TFT13_Teamup_Betrayal",
+            "name": "Betrayal",
+            "desc": "",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Betrayal_normal_1732695290-betrayal.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Betrayal_black_1732695290-betrayal.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Betrayal_white_1732695290-betrayal.svg",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "gold",
+                    "min": 2
+                }
+            ],
+            "stats": {
+                "2": "Maddie always targets Ambessa's target with her Ability and attacks. Every round where either gets at least 2 kill, gain a Maddie."
+            },
+            "isHidden": true
+        },
+        {
+            "key": "BlackRose",
+            "ingameKey": "TFT13_Cabal",
+            "name": "Black Rose",
+            "desc": "Each Black Rose champion's star level increases Sion's power.",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/BlackRose_normal_1731044449-Blackrose.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/BlackRose_black_1731044449-Blackrose.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/BlackRose_white_1731044449-Blackrose.svg",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 3,
+                    "max": 3
+                },
+                {
+                    "style": "silver",
+                    "min": 4,
+                    "max": 4
+                },
+                {
+                    "style": "gold",
+                    "min": 5,
+                    "max": 6
+                },
+                {
+                    "style": "gold",
+                    "min": 7
+                }
+            ],
+            "stats": {
+                "3": "Summon a chained Sion. He is freed after 5 casts from Black Rose units or when he drops below 65% health.",
+                "4": "Sion grows stronger and his enemies take more damage from Black Rose units.",
+                "5": "Sion unleashes dark magic and heals to full Health when freed.",
+                "7": "When Sion dies, he restores to life with power beyond death!"
+            }
+        },
+        {
+            "key": "BloodBrothers",
+            "ingameKey": "TFT13_Teamup_BloodBrothers",
+            "name": "What Could Have Been",
+            "desc": "",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/BloodBrothers_normal_1731912427-What%20Could%20Have%20Been.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/BloodBrothers_black_1731912427-What%20Could%20Have%20Been.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/BloodBrothers_white_1731912427-What%20Could%20Have%20Been.svg",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "gold",
+                    "min": 2
+                }
+            ],
+            "stats": {
+                "2": "Vander gains 30 permanent max Health each time Silco casts. Silco gains 6 permanent Ability Power each time Vander dies."
+            },
+            "isHidden": true
         },
         {
             "key": "BloodHunter",
@@ -153,74 +286,6 @@
             }
         },
         {
-            "key": "BlackRose",
-            "ingameKey": "TFT13_Cabal",
-            "name": "Black Rose",
-            "desc": "Each Black Rose champion's star level increases Sion's power.",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/BlackRose_normal_1731044449-Blackrose.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/BlackRose_black_1731044449-Blackrose.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/BlackRose_white_1731044449-Blackrose.svg",
-            "type": "ORIGIN",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 3,
-                    "max": 3
-                },
-                {
-                    "style": "silver",
-                    "min": 4,
-                    "max": 4
-                },
-                {
-                    "style": "gold",
-                    "min": 5,
-                    "max": 6
-                },
-                {
-                    "style": "gold",
-                    "min": 7
-                }
-            ],
-            "stats": {
-                "3": "Summon a chained Sion. He is freed after 5 casts from Black Rose units or when he drops below 65% health.",
-                "4": "Sion grows stronger and his enemies take more damage from Black Rose units.",
-                "5": "Sion unleashes dark magic and heals to full Health when freed.",
-                "7": "When Sion dies, he restores to life with power beyond death!"
-            }
-        },
-        {
-            "key": "Quickstriker",
-            "ingameKey": "TFT13_Challenger",
-            "name": "Quickstriker",
-            "desc": "Quickstrikers move faster and gain Attack Speed, based on their target's missing Health.",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Quickstriker_normal_1731045806-QuickStriker.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Quickstriker_black_1731045806-QuickStriker.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Quickstriker_white_1731045806-QuickStriker.svg",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 2
-                },
-                {
-                    "style": "silver",
-                    "min": 3,
-                    "max": 3
-                },
-                {
-                    "style": "gold",
-                    "min": 4
-                }
-            ],
-            "stats": {
-                "2": "20-60% AS",
-                "3": "30-80% AS",
-                "4": "40-100% AS. On target death, Quickstrikers dash to a new target and gain 200 shield for 3 seconds."
-            }
-        },
-        {
             "key": "ChemBaron",
             "ingameKey": "TFT13_Crime",
             "name": "Chem-Baron",
@@ -260,6 +325,143 @@
                 "4": "Per Combat 15 or loss streak 50; 60 Health",
                 "5": "Per Combat 20 or loss streak 70; 100 Health",
                 "6": "Per Combat 20 or loss streak 90; 150 Health"
+            }
+        },
+        {
+            "key": "Conqueror",
+            "ingameKey": "TFT13_Warband",
+            "name": "Conqueror",
+            "desc": "Conquerors' takedowns grant stacks of Conquest. After gaining enough Conquest, open War Chests full of loot!<br><br>Conquerors gain Attack Damage and Ability Power, increased by 5% for each War Chest opened.",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Conqueror_normal_1731045441-Conqueror.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Conqueror_black_1731045441-Conqueror.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Conqueror_white_1731045441-Conqueror.svg",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "silver",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6,
+                    "max": 8
+                },
+                {
+                    "style": "chromatic",
+                    "min": 9
+                }
+            ],
+            "stats": {
+                "2": "22% AD/AP%; 1x Conquest",
+                "4": "33% AD/AP%; 3x Conquest",
+                "6": "45% AD/AP%; 6x Conquest",
+                "9": "100% AD/AP%; 20x Conquest"
+            }
+        },
+        {
+            "key": "Dominator",
+            "ingameKey": "TFT13_Infused",
+            "name": "Dominator",
+            "desc": "Combat start: Dominators gain a Shield for 15 seconds.<br><br>When Dominators cast, they gain stacking Ability Power based on the Mana spent.",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Dominator_normal_1731045899-Dominator.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Dominator_black_1731045899-Dominator.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Dominator_white_1731045899-Dominator.svg",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "silver",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6
+                }
+            ],
+            "stats": {
+                "2": "350 Shield, 25% AP",
+                "4": "550 Shield, 45% AP",
+                "6": "800 Shield, 65% AP"
+            }
+        },
+        {
+            "key": "Emissary",
+            "ingameKey": "TFT13_Ambassador",
+            "name": "Emissary",
+            "desc": "This trait is active only when you have exactly 1 or 4 unique Emissaries.",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Emissary_normal_1731045378-Emissary.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Emissary_black_1731045378-Emissary.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Emissary_white_1731045378-Emissary.svg",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "style": "gold",
+                    "min": 4,
+                    "max": 4
+                }
+            ],
+            "stats": {
+                "1": "Gain that Emissary's bonus",
+                "4": "Gain all bonuses. Emissaries gain 250 Health and 20% Damage Amp.<br><br>Ambessa: Allies gain 2 Armor and Magic Resist for each opponent defeated.<br><br>Garen: On Combat Start, Garen and allies to his left and right gain 20% of his max Health.<br><br>Nami: Allies' attacks grant 3 bonus Mana.<br><br>Tristana: Allies gain 6% Attack Speed per star level."
+            }
+        },
+        {
+            "key": "Enforcer",
+            "ingameKey": "TFT13_Squad",
+            "name": "Enforcer",
+            "desc": "Combat Start: Enforcers gain Shield and Damage Amp. The highest Health enemy units become WANTED!<br><br>When a Wanted enemy dies, Enforcers gain 30% Attack Speed.",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Enforcer_normal_1731045576-Enforcer.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Enforcer_black_1731045576-Enforcer.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Enforcer_white_1731045577-Enforcer.svg",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "silver",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6,
+                    "max": 7
+                },
+                {
+                    "style": "gold",
+                    "min": 8,
+                    "max": 9
+                },
+                {
+                    "style": "chromatic",
+                    "min": 10
+                }
+            ],
+            "stats": {
+                "2": "1 units; 12% Health, 12% DA",
+                "4": "2 units; 22% Health, 20% DA",
+                "6": "4 units; 33% Health, 33% DA",
+                "8": "5 units; 44% Health, 44% DA",
+                "10": "ALL enemies; 100% Health, 150% DA, Combat Start: Confiscate all enemy items!"
             }
         },
         {
@@ -325,87 +527,6 @@
             }
         },
         {
-            "key": "FormSwapper",
-            "ingameKey": "TFT13_FormSwapper",
-            "name": "Form Swapper",
-            "desc": "Innate: Form Swappers change their stats and ability based on if they're placed in the front 2 rows or back 2 rows.<br><br>Frontline Form Swappers gain Durability. Backline Form Swappers gain Damage Amp.",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/FormSwapper_normal_1731045938-Swapper.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/FormSwapper_black_1731045938-Swapper.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/FormSwapper_white_1731045938-Swapper.svg",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 2
-                },
-                {
-                    "style": "silver",
-                    "min": 3,
-                    "max": 3
-                },
-                {
-                    "style": "gold",
-                    "min": 4
-                }
-            ],
-            "stats": {
-                "2": "15% Durability or 20% Damage Amp",
-                "3": "22% Durability or 33% Damage Amp",
-                "4": "33% Durability or 44% Damage Amp"
-            }
-        },
-        {
-            "key": "Automata",
-            "ingameKey": "TFT13_Hextech",
-            "name": "Automata",
-            "desc": "Automata gain a crystal when they deal damage. At 20 crystals, they blast their current target, dealing magic damage + 25% of damage dealt since the previous blast and reset. They also gain Armor and Magic Resist.",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Automata_normal_1731045428-Automata.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Automata_black_1731045428-Automata.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Automata_white_1731045428-Automata.svg",
-            "type": "ORIGIN",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 3
-                },
-                {
-                    "style": "silver",
-                    "min": 4,
-                    "max": 5
-                },
-                {
-                    "style": "gold",
-                    "min": 6
-                }
-            ],
-            "stats": {
-                "2": "150 damage, 25 AR/MR",
-                "4": "450 damage, 60 AR/MR",
-                "6": "1337 damage, 111 AR/MR"
-            }
-        },
-        {
-            "key": "HighRoller",
-            "ingameKey": "TFT13_HighRoller",
-            "name": "High Roller",
-            "desc": "",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/HighRoller_normal_1731045617-HighRoller.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/HighRoller_black_1731045617-HighRoller.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/HighRoller_white_1731045617-HighRoller.svg",
-            "type": "ORIGIN",
-            "styles": [
-                {
-                    "style": "gold",
-                    "min": 1
-                }
-            ],
-            "stats": {
-                "1": "When casting, Sevika rolls a random Jinx modification to her Ability and gains 80% Durability for 1.5 seconds.<br><br>Mods:<br>-Rocket: Launch 8 rockets that deal 100 physical damage each<br>-Shield: Gain 500 Shield for 4 seconds<br>-Coin: Gain 3 gold<br>-Triple: Enhance her rolled ability!"
-            }
-        },
-        {
             "key": "Firelight",
             "ingameKey": "TFT13_Hoverboard",
             "name": "Firelight",
@@ -437,65 +558,73 @@
             }
         },
         {
-            "key": "Dominator",
-            "ingameKey": "TFT13_Infused",
-            "name": "Dominator",
-            "desc": "Combat start: Dominators gain a Shield for 15 seconds.<br><br>When Dominators cast, they gain stacking Ability Power based on the Mana spent.",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Dominator_normal_1731045899-Dominator.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Dominator_black_1731045899-Dominator.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Dominator_white_1731045899-Dominator.svg",
+            "key": "FormSwapper",
+            "ingameKey": "TFT13_FormSwapper",
+            "name": "Form Swapper",
+            "desc": "Innate: Form Swappers change their stats and ability based on if they're placed in the front 2 rows or back 2 rows.<br><br>Frontline Form Swappers gain Durability. Backline Form Swappers gain Damage Amp.",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/FormSwapper_normal_1731045938-Swapper.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/FormSwapper_black_1731045938-Swapper.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/FormSwapper_white_1731045938-Swapper.svg",
             "type": "CLASS",
             "styles": [
                 {
                     "style": "bronze",
                     "min": 2,
-                    "max": 3
+                    "max": 2
                 },
                 {
                     "style": "silver",
-                    "min": 4,
-                    "max": 5
+                    "min": 3,
+                    "max": 3
                 },
                 {
                     "style": "gold",
-                    "min": 6
+                    "min": 4
                 }
             ],
             "stats": {
-                "2": "350 Shield, 25% AP",
-                "4": "550 Shield, 45% AP",
-                "6": "800 Shield, 65% AP"
+                "2": "15% Durability or 20% Damage Amp",
+                "3": "22% Durability or 33% Damage Amp",
+                "4": "33% Durability or 44% Damage Amp"
             }
         },
         {
-            "key": "Visionary",
-            "ingameKey": "TFT13_Invoker",
-            "name": "Visionary",
-            "desc": "Whenever Visionaries gain Mana, they gain more.",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Visionary_normal_1731045850-Visonary.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Visionary_black_1731045850-Visonary.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Visionary_white_1731045850-Visonary.svg",
+            "key": "Geniuses",
+            "ingameKey": "TFT13_Teamup_Geniuses",
+            "name": "Geniuses",
+            "desc": "",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Geniuses_normal_1731912519-Geniuses.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Geniuses_black_1731912519-Geniuses.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Geniuses_white_1731912519-Geniuses.svg",
             "type": "CLASS",
             "styles": [
                 {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 3
-                },
-                {
-                    "style": "silver",
-                    "min": 4,
-                    "max": 5
-                },
-                {
                     "style": "gold",
-                    "min": 6
+                    "min": 2
                 }
             ],
             "stats": {
-                "2": "25% Mana",
-                "4": "50% Mana",
-                "6": "75% Mana, Abilities heal an ally for 16% of damage dealt"
+                "2": "When Heimerdinger casts, Ekko releases 3 afterimages, each dealing 33% damage. When Ekko casts, Heimerdinger fires 3 missiles, each dealing 105% damage."
+            },
+            "isHidden": true
+        },
+        {
+            "key": "HighRoller",
+            "ingameKey": "TFT13_HighRoller",
+            "name": "High Roller",
+            "desc": "",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/HighRoller_normal_1731045617-HighRoller.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/HighRoller_black_1731045617-HighRoller.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/HighRoller_white_1731045617-HighRoller.svg",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "gold",
+                    "min": 1
+                }
+            ],
+            "stats": {
+                "1": "When casting, Sevika rolls a random Jinx modification to her Ability and gains 80% Durability for 1.5 seconds.<br><br>Mods:<br>-Rocket: Launch 8 rockets that deal 100 physical damage each<br>-Shield: Gain 500 Shield for 4 seconds<br>-Coin: Gain 3 gold<br>-Triple: Enhance her rolled ability!"
             }
         },
         {
@@ -538,55 +667,44 @@
             "isPbe": true
         },
         {
-            "key": "Artillerist",
-            "ingameKey": "TFT13_Martialist",
-            "name": "Artillerist",
-            "desc": "Every 5 attacks, Artillerists launch a rocket that deals 125% Attack Damage around the target. They also gain Attack Damage.",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Artillerist_normal_1731045912-Artillerist.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Artillerist_black_1731045912-Artillerist.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Artillerist_white_1731045912-Artillerist.svg",
+            "key": "MartialLaw",
+            "ingameKey": "TFT13_Teamup_Mentorship",
+            "name": "Martial Law",
+            "desc": "",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/MartialLaw_normal_1731912399-Martial%20Law.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/MartialLaw_black_1731912399-Martial%20Law.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/MartialLaw_white_1731912399-Martial%20Law.svg",
             "type": "CLASS",
             "styles": [
                 {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 3
-                },
-                {
-                    "style": "silver",
-                    "min": 4,
-                    "max": 5
-                },
-                {
                     "style": "gold",
-                    "min": 6
+                    "min": 2
                 }
             ],
             "stats": {
-                "2": "10% AD",
-                "4": "45% AD",
-                "6": "70% AD, Launch a rocket every 3 attacks that deals double damage."
-            }
+                "2": "When Ambessa casts, Caitlyn fires an empowered attack at the target, dealing 225% damage. Ambessa gains 30% of Caitlyn's Attack Damage."
+            },
+            "isHidden": true
         },
         {
-            "key": "BanishedMage",
-            "ingameKey": "TFT13_MissMageTrait",
-            "name": "Banished Mage",
+            "key": "Menaces",
+            "ingameKey": "TFT13_Teamup_Menaces",
+            "name": "Menaces",
             "desc": "",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/BanishedMage_normal_1732695185-banishedmage.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/BanishedMage_black_1732695186-banishedmage.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/BanishedMage_white_1732695186-banishedmage.svg",
-            "type": "ORIGIN",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Menaces_normal_1731912471-Menaces.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Menaces_black_1731912471-Menaces.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Menaces_white_1731912471-Menaces.svg",
+            "type": "CLASS",
             "styles": [
                 {
                     "style": "gold",
-                    "min": 1
+                    "min": 2
                 }
             ],
             "stats": {
-                "1": "The first time you would be eliminated, if Mel has cast 12 times during player combat this game, she saves you and you remain alive.<br><br>Afterwards, Mel permanently gains 10% Damage Amp."
+                "2": "Powder gains Dominator but no longer benefits from Family. When her monkey explodes, it creates 3 of Silco's monstrosities."
             },
-            "isPbe": true
+            "isHidden": true
         },
         {
             "key": "PitFighter",
@@ -623,6 +741,37 @@
                 "4": "12% true damage, 35% Health",
                 "6": "22% true damage, 55% Health",
                 "8": "35% true damage, 80% Health"
+            }
+        },
+        {
+            "key": "Quickstriker",
+            "ingameKey": "TFT13_Challenger",
+            "name": "Quickstriker",
+            "desc": "Quickstrikers move faster and gain Attack Speed, based on their target's missing Health.",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Quickstriker_normal_1731045806-QuickStriker.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Quickstriker_black_1731045806-QuickStriker.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Quickstriker_white_1731045806-QuickStriker.svg",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 2
+                },
+                {
+                    "style": "silver",
+                    "min": 3,
+                    "max": 3
+                },
+                {
+                    "style": "gold",
+                    "min": 4
+                }
+            ],
+            "stats": {
+                "2": "20-60% AS",
+                "3": "30-80% AS",
+                "4": "40-100% AS. On target death, Quickstrikers dash to a new target and gain 200 shield for 3 seconds."
             }
         },
         {
@@ -663,6 +812,26 @@
             }
         },
         {
+            "key": "Reunion",
+            "ingameKey": "TFT13_Teamup_Reunion",
+            "name": "Reunion",
+            "desc": "",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Reunion_normal_1731912504-Reunion.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Reunion_black_1731912504-Reunion.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Reunion_white_1731912504-Reunion.svg",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "gold",
+                    "min": 2
+                }
+            ],
+            "stats": {
+                "2": "When Vi casts, Ekko releases 3 afterimages towards her target each dealing 50% damage. When Ekko casts, Vi slams an earthquake towards his target dealing 150% damage."
+            },
+            "isHidden": true
+        },
+        {
             "key": "Scrap",
             "ingameKey": "TFT13_Scrap",
             "name": "Scrap",
@@ -700,271 +869,6 @@
             }
         },
         {
-            "key": "Sniper",
-            "ingameKey": "TFT13_Sniper",
-            "name": "Sniper",
-            "desc": "Snipers deal more damage to targets farther away.",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Sniper_normal_1731045886-Sniper.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Sniper_black_1731045886-Sniper.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Sniper_white_1731045886-Sniper.svg",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 3
-                },
-                {
-                    "style": "gold",
-                    "min": 4,
-                    "max": 5
-                },
-                {
-                    "style": "gold",
-                    "min": 6
-                }
-            ],
-            "stats": {
-                "2": "Damage Amp 5%, 5% damage per hex",
-                "4": "Damage Amp 35%, 10% damage per hex",
-                "6": "Damage Amp 75%, 20% damage per hex and +5 Attack Range"
-            }
-        },
-        {
-            "key": "Sorcerer",
-            "ingameKey": "TFT13_Sorcerer",
-            "name": "Sorcerer",
-            "desc": "Your team gains 10 Ability Power. Sorcerers gain more.",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Sorcerer_normal_1731045823-Sorcerer.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Sorcerer_black_1731045823-Sorcerer.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Sorcerer_white_1731045823-Sorcerer.svg",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 3
-                },
-                {
-                    "style": "silver",
-                    "min": 4,
-                    "max": 5
-                },
-                {
-                    "style": "gold",
-                    "min": 6
-                }
-            ],
-            "stats": {
-                "2": "20 AP",
-                "4": "55 AP",
-                "6": "90 AP, Abilities reduce their target's damage by 20% for 3 seconds"
-            }
-        },
-        {
-            "key": "Enforcer",
-            "ingameKey": "TFT13_Squad",
-            "name": "Enforcer",
-            "desc": "Combat Start: Enforcers gain Shield and Damage Amp. The highest Health enemy units become WANTED!<br><br>When a Wanted enemy dies, Enforcers gain 30% Attack Speed.",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Enforcer_normal_1731045576-Enforcer.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Enforcer_black_1731045576-Enforcer.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Enforcer_white_1731045577-Enforcer.svg",
-            "type": "ORIGIN",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 3
-                },
-                {
-                    "style": "silver",
-                    "min": 4,
-                    "max": 5
-                },
-                {
-                    "style": "gold",
-                    "min": 6,
-                    "max": 7
-                },
-                {
-                    "style": "gold",
-                    "min": 8,
-                    "max": 9
-                },
-                {
-                    "style": "chromatic",
-                    "min": 10
-                }
-            ],
-            "stats": {
-                "2": "1 units; 12% Health, 12% DA",
-                "4": "2 units; 22% Health, 20% DA",
-                "6": "4 units; 33% Health, 33% DA",
-                "8": "5 units; 44% Health, 44% DA",
-                "10": "ALL enemies; 100% Health, 150% DA, Combat Start: Confiscate all enemy items!"
-            }
-        },
-        {
-            "key": "Betrayal",
-            "ingameKey": "TFT13_Teamup_Betrayal",
-            "name": "Betrayal",
-            "desc": "",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Betrayal_normal_1732695290-betrayal.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Betrayal_black_1732695290-betrayal.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Betrayal_white_1732695290-betrayal.svg",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "gold",
-                    "min": 2
-                }
-            ],
-            "stats": {
-                "2": "Maddie always targets Ambessa's target with her Ability and attacks. Every round where either gets at least 2 kill, gain a Maddie."
-            },
-            "isHidden": true
-        },
-        {
-            "key": "BloodBrothers",
-            "ingameKey": "TFT13_Teamup_BloodBrothers",
-            "name": "What Could Have Been",
-            "desc": "",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/BloodBrothers_normal_1731912427-What%20Could%20Have%20Been.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/BloodBrothers_black_1731912427-What%20Could%20Have%20Been.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/BloodBrothers_white_1731912427-What%20Could%20Have%20Been.svg",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "gold",
-                    "min": 2
-                }
-            ],
-            "stats": {
-                "2": "Vander gains 30 permanent max Health each time Silco casts. Silco gains 6 permanent Ability Power each time Vander dies."
-            },
-            "isHidden": true
-        },
-        {
-            "key": "Geniuses",
-            "ingameKey": "TFT13_Teamup_Geniuses",
-            "name": "Geniuses",
-            "desc": "",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Geniuses_normal_1731912519-Geniuses.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Geniuses_black_1731912519-Geniuses.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Geniuses_white_1731912519-Geniuses.svg",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "gold",
-                    "min": 2
-                }
-            ],
-            "stats": {
-                "2": "When Heimerdinger casts, Ekko releases 3 afterimages, each dealing 33% damage. When Ekko casts, Heimerdinger fires 3 missiles, each dealing 105% damage."
-            },
-            "isHidden": true
-        },
-        {
-            "key": "Menaces",
-            "ingameKey": "TFT13_Teamup_Menaces",
-            "name": "Menaces",
-            "desc": "",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Menaces_normal_1731912471-Menaces.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Menaces_black_1731912471-Menaces.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Menaces_white_1731912471-Menaces.svg",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "gold",
-                    "min": 2
-                }
-            ],
-            "stats": {
-                "2": "Powder gains Dominator but no longer benefits from Family. When her monkey explodes, it creates 3 of Silco's monstrosities."
-            },
-            "isHidden": true
-        },
-        {
-            "key": "MartialLaw",
-            "ingameKey": "TFT13_Teamup_Mentorship",
-            "name": "Martial Law",
-            "desc": "",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/MartialLaw_normal_1731912399-Martial%20Law.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/MartialLaw_black_1731912399-Martial%20Law.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/MartialLaw_white_1731912399-Martial%20Law.svg",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "gold",
-                    "min": 2
-                }
-            ],
-            "stats": {
-                "2": "When Ambessa casts, Caitlyn fires an empowered attack at the target, dealing 225% damage. Ambessa gains 30% of Caitlyn's Attack Damage."
-            },
-            "isHidden": true
-        },
-        {
-            "key": "Reunion",
-            "ingameKey": "TFT13_Teamup_Reunion",
-            "name": "Reunion",
-            "desc": "",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Reunion_normal_1731912504-Reunion.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Reunion_black_1731912504-Reunion.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Reunion_white_1731912504-Reunion.svg",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "gold",
-                    "min": 2
-                }
-            ],
-            "stats": {
-                "2": "When Vi casts, Ekko releases 3 afterimages towards her target each dealing 50% damage. When Ekko casts, Vi slams an earthquake towards his target dealing 150% damage."
-            },
-            "isHidden": true
-        },
-        {
-            "key": "Sisters",
-            "ingameKey": "TFT13_Teamup_Sisters",
-            "name": "Sisters",
-            "desc": "",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Sisters_normal_1731912487-Sisters.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Sisters_black_1731912487-Sisters.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Sisters_white_1731912487-Sisters.svg",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "gold",
-                    "min": 2
-                }
-            ],
-            "stats": {
-                "2": "When Jinx scores a takedown, Vi gains 40% bonus Attack Damage for 7 seconds. When Vi scores a takedown, Jinx gains 75% bonus Attack Speed for 5 seconds."
-            },
-            "isHidden": true
-        },
-        {
-            "key": "UnlikelyDuo",
-            "ingameKey": "TFT13_Teamup_UnlikelyDuo",
-            "name": "Unlikely Duo",
-            "desc": "",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/UnlikelyDuo_normal_1731912447-Unlikely%20Duo.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/UnlikelyDuo_black_1731912448-Unlikely%20Duo.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/UnlikelyDuo_white_1731912448-Unlikely%20Duo.svg",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "gold",
-                    "min": 2
-                }
-            ],
-            "stats": {
-                "2": "Jinx and Sevika gain 10% Attack Damage and 150 Health. Whenever one casts, they grant the other 15 mana. Sevika's arm is luckier."
-            },
-            "isHidden": true
-        },
-        {
             "key": "Sentinel",
             "ingameKey": "TFT13_Titan",
             "name": "Sentinel",
@@ -994,74 +898,6 @@
                 "2": "12 AR/MR",
                 "4": "25 AR/MR",
                 "6": "42 AR/MR"
-            }
-        },
-        {
-            "key": "Conqueror",
-            "ingameKey": "TFT13_Warband",
-            "name": "Conqueror",
-            "desc": "Conquerors' takedowns grant stacks of Conquest. After gaining enough Conquest, open War Chests full of loot!<br><br>Conquerors gain Attack Damage and Ability Power, increased by 5% for each War Chest opened.",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Conqueror_normal_1731045441-Conqueror.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Conqueror_black_1731045441-Conqueror.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Conqueror_white_1731045441-Conqueror.svg",
-            "type": "ORIGIN",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 3
-                },
-                {
-                    "style": "silver",
-                    "min": 4,
-                    "max": 5
-                },
-                {
-                    "style": "gold",
-                    "min": 6,
-                    "max": 8
-                },
-                {
-                    "style": "chromatic",
-                    "min": 9
-                }
-            ],
-            "stats": {
-                "2": "22% AD/AP%; 1x Conquest",
-                "4": "33% AD/AP%; 3x Conquest",
-                "6": "45% AD/AP%; 6x Conquest",
-                "9": "100% AD/AP%; 20x Conquest"
-            }
-        },
-        {
-            "key": "Watcher",
-            "ingameKey": "TFT13_Watcher",
-            "name": "Watcher",
-            "desc": "Watchers gain Durability, increased while above 50% Health.",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Watcher_normal_1731045790-Watcher.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Watcher_black_1731045790-Watcher.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Watcher_white_1731045790-Watcher.svg",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 3
-                },
-                {
-                    "style": "silver",
-                    "min": 4,
-                    "max": 5
-                },
-                {
-                    "style": "gold",
-                    "min": 6
-                }
-            ],
-            "stats": {
-                "2": "15% or 30% DR",
-                "4": "25% or 45% DR",
-                "6": "40% or 50% DR"
             }
         },
         {
@@ -1145,26 +981,6 @@
             ],
             "stats": {
                 "1": "After each combat Ornn participates in, he makes progress forging an Artifact item. The higher his star-level, the faster he works."
-            },
-            "isHidden": true
-        },
-        {
-            "key": "Set4TheBoss",
-            "ingameKey": "TFT4_Boss",
-            "name": "The Boss",
-            "desc": "",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Set4TheBoss_normal_1736747518-TheBoss.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set4TheBoss_black_1736747521-TheBoss.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set4TheBoss_white_1736747521-TheBoss.svg",
-            "type": "ORIGIN",
-            "styles": [
-                {
-                    "style": "gold",
-                    "min": 1
-                }
-            ],
-            "stats": {
-                "1": "When Sett first drops below 40% Health, he leaves combat to start doing sit-ups. Each sit-up restores 15% of his maximum Health and gives him 40% Attack and Move Speed. If he reaches full Health he returns to combat Pumped Up: all of his attacks and spells deal true damage. If all of his allies die, he will immediately return to combat."
             },
             "isHidden": true
         },
@@ -1843,6 +1659,26 @@
             "isHidden": true
         },
         {
+            "key": "Set4TheBoss",
+            "ingameKey": "TFT4_Boss",
+            "name": "The Boss",
+            "desc": "",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Set4TheBoss_normal_1736747518-TheBoss.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set4TheBoss_black_1736747521-TheBoss.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Set4TheBoss_white_1736747521-TheBoss.svg",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "gold",
+                    "min": 1
+                }
+            ],
+            "stats": {
+                "1": "When Sett first drops below 40% Health, he leaves combat to start doing sit-ups. Each sit-up restores 15% of his maximum Health and gives him 40% Attack and Move Speed. If he reaches full Health he returns to combat Pumped Up: all of his attacks and spells deal true damage. If all of his allies die, he will immediately return to combat."
+            },
+            "isHidden": true
+        },
+        {
             "key": "Set4Vanguard",
             "ingameKey": "TFT4_Vanguard",
             "name": "Vanguard",
@@ -1917,6 +1753,170 @@
                 "11": "1500 HP and 150% AP; Combat Start: The Warlord's army joins the fight."
             },
             "isHidden": true
+        },
+        {
+            "key": "Sisters",
+            "ingameKey": "TFT13_Teamup_Sisters",
+            "name": "Sisters",
+            "desc": "",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Sisters_normal_1731912487-Sisters.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Sisters_black_1731912487-Sisters.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Sisters_white_1731912487-Sisters.svg",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "gold",
+                    "min": 2
+                }
+            ],
+            "stats": {
+                "2": "When Jinx scores a takedown, Vi gains 40% bonus Attack Damage for 7 seconds. When Vi scores a takedown, Jinx gains 75% bonus Attack Speed for 5 seconds."
+            },
+            "isHidden": true
+        },
+        {
+            "key": "Sniper",
+            "ingameKey": "TFT13_Sniper",
+            "name": "Sniper",
+            "desc": "Snipers deal more damage to targets farther away.",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Sniper_normal_1731045886-Sniper.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Sniper_black_1731045886-Sniper.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Sniper_white_1731045886-Sniper.svg",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "gold",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6
+                }
+            ],
+            "stats": {
+                "2": "Damage Amp 5%, 5% damage per hex",
+                "4": "Damage Amp 35%, 10% damage per hex",
+                "6": "Damage Amp 75%, 20% damage per hex and +5 Attack Range"
+            }
+        },
+        {
+            "key": "Sorcerer",
+            "ingameKey": "TFT13_Sorcerer",
+            "name": "Sorcerer",
+            "desc": "Your team gains 10 Ability Power. Sorcerers gain more.",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Sorcerer_normal_1731045823-Sorcerer.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Sorcerer_black_1731045823-Sorcerer.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Sorcerer_white_1731045823-Sorcerer.svg",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "silver",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6
+                }
+            ],
+            "stats": {
+                "2": "20 AP",
+                "4": "55 AP",
+                "6": "90 AP, Abilities reduce their target's damage by 20% for 3 seconds"
+            }
+        },
+        {
+            "key": "UnlikelyDuo",
+            "ingameKey": "TFT13_Teamup_UnlikelyDuo",
+            "name": "Unlikely Duo",
+            "desc": "",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/UnlikelyDuo_normal_1731912447-Unlikely%20Duo.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/UnlikelyDuo_black_1731912448-Unlikely%20Duo.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/UnlikelyDuo_white_1731912448-Unlikely%20Duo.svg",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "gold",
+                    "min": 2
+                }
+            ],
+            "stats": {
+                "2": "Jinx and Sevika gain 10% Attack Damage and 150 Health. Whenever one casts, they grant the other 15 mana. Sevika's arm is luckier."
+            },
+            "isHidden": true
+        },
+        {
+            "key": "Visionary",
+            "ingameKey": "TFT13_Invoker",
+            "name": "Visionary",
+            "desc": "Whenever Visionaries gain Mana, they gain more.",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Visionary_normal_1731045850-Visonary.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Visionary_black_1731045850-Visonary.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Visionary_white_1731045850-Visonary.svg",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "silver",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6
+                }
+            ],
+            "stats": {
+                "2": "25% Mana",
+                "4": "50% Mana",
+                "6": "75% Mana, Abilities heal an ally for 16% of damage dealt"
+            }
+        },
+        {
+            "key": "Watcher",
+            "ingameKey": "TFT13_Watcher",
+            "name": "Watcher",
+            "desc": "Watchers gain Durability, increased while above 50% Health.",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Watcher_normal_1731045790-Watcher.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Watcher_black_1731045790-Watcher.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Watcher_white_1731045790-Watcher.svg",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "silver",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6
+                }
+            ],
+            "stats": {
+                "2": "15% or 30% DR",
+                "4": "25% or 45% DR",
+                "6": "40% or 50% DR"
+            }
         }
     ]
 }

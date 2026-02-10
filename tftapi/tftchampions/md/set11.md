@@ -5,10 +5,10 @@
 | Caitlyn  | Caitlyn  | ![Caitlyn](../icon/set11/Caitlyn.jpg)   |
 | ChoGath  | Cho'Gath | ![ChoGath](../icon/set11/ChoGath.jpg)   |
 | Darius   | Darius   | ![Darius](../icon/set11/Darius.jpg)     |
-| Kobuko   | Kobuko   | ![Kobuko](../icon/set11/Kobuko.jpg)     |
 | Garen    | Garen    | ![Garen](../icon/set11/Garen.jpg)       |
 | Jax      | Jax      | ![Jax](../icon/set11/Jax.jpg)           |
 | Khazix   | Kha'Zix  | ![Khazix](../icon/set11/Khazix.jpg)     |
+| Kobuko   | Kobuko   | ![Kobuko](../icon/set11/Kobuko.jpg)     |
 | KogMaw   | Kog'Maw  | ![KogMaw](../icon/set11/KogMaw.jpg)     |
 | Malphite | Malphite | ![Malphite](../icon/set11/Malphite.jpg) |
 | RekSai   | Rek'Sai  | ![RekSai](../icon/set11/RekSai.jpg)     |
@@ -68,10 +68,10 @@
 | Hwei       | Hwei      | ![Hwei](../icon/set11/Hwei.jpg)             |
 | Irelia     | Irelia    | ![Irelia](../icon/set11/Irelia.jpg)         |
 | Lissandra  | Lissandra | ![Lissandra](../icon/set11/Lissandra.jpg)   |
+| MonkeyKing | Wukong    | ![MonkeyKing](../icon/set11/MonkeyKing.jpg) |
 | Rakan      | Rakan     | ![Rakan](../icon/set11/Rakan.jpg)           |
 | Sett       | Sett      | ![Sett](../icon/set11/Sett.jpg)             |
 | Udyr       | Udyr      | ![Udyr](../icon/set11/Udyr.jpg)             |
-| MonkeyKing | Wukong    | ![MonkeyKing](../icon/set11/MonkeyKing.jpg) |
 | Xayah      | Xayah     | ![Xayah](../icon/set11/Xayah.jpg)           |
 # Cost: -1, Count: 1
 | key   | name  | icon                              |

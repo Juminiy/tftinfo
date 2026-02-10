@@ -21,6 +21,31 @@
             }
         },
         {
+            "key": "Assassin",
+            "ingameKey": "Set2_Assassin",
+            "name": "Assassin",
+            "desc": "Innate: At the start of combat, Assassins leap to the farthest enemy. Assassins gain bonus Critical Strike Damage and Chance.",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_assassin.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_assassin.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_assassin.png",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 3,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6
+                }
+            ],
+            "stats": {
+                "3": "+70% Critical Strike Damage & +10% Critical Strike Chance",
+                "6": "+210% Critical Strike Damage & +20% Critical Strike Chance"
+            }
+        },
+        {
             "key": "Avatar",
             "ingameKey": "Avatar",
             "name": "Avatar",
@@ -65,22 +90,34 @@
             }
         },
         {
-            "key": "Lunar",
-            "ingameKey": "Celestial",
-            "name": "Lunar",
-            "desc": "Moonlight transforms unit durability into a win condition for team comps that are built with drawn out battles in mind.",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_lunar.png",
-            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_lunar.png",
-            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_lunar.png",
-            "type": "ORIGIN",
+            "key": "Blademaster",
+            "ingameKey": "Set2_Blademaster",
+            "name": "Blademaster",
+            "desc": "Blademaster Basic Attacks have a 40% chance to trigger additional attacks against their target. These additional attacks deal damage like Basic Attacks and trigger on-hit effects.",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_blademaster.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_blademaster.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_blademaster.png",
+            "type": "CLASS",
             "styles": [
                 {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "silver",
+                    "min": 4,
+                    "max": 5
+                },
+                {
                     "style": "gold",
-                    "min": 2
+                    "min": 6
                 }
             ],
             "stats": {
-                "2": "Every 7 seconds, your team gains 15% Critical Strike Chance, 15% Critical Strike Damage, and 15% Spell Power. (Stacks up to 4 times)"
+                "2": "1 Additional Attack",
+                "4": "2 Additional Attacks",
+                "6": "3 Additional Attacks"
             }
         },
         {
@@ -209,6 +246,37 @@
             }
         },
         {
+            "key": "Glacial",
+            "ingameKey": "Set2_Glacial",
+            "name": "Glacial",
+            "desc": "Basic Attacks from Glacials have 25% chance to stun their target for 1.5 seconds, bonus Magic Damage on stun.",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_glacial.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_glacial.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_glacial.png",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "silver",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6
+                }
+            ],
+            "stats": {
+                "2": "75 bonus Magic Damage",
+                "4": "175 bonus Magic Damage",
+                "6": "375 bonus Magic Damage"
+            }
+        },
+        {
             "key": "Inferno",
             "ingameKey": "Inferno",
             "name": "Inferno",
@@ -271,6 +339,25 @@
             }
         },
         {
+            "key": "Lunar",
+            "ingameKey": "Celestial",
+            "name": "Lunar",
+            "desc": "Moonlight transforms unit durability into a win condition for team comps that are built with drawn out battles in mind.",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_lunar.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_lunar.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_lunar.png",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "gold",
+                    "min": 2
+                }
+            ],
+            "stats": {
+                "2": "Every 7 seconds, your team gains 15% Critical Strike Chance, 15% Critical Strike Damage, and 15% Spell Power. (Stacks up to 4 times)"
+            }
+        },
+        {
             "key": "Mage",
             "ingameKey": "Mage",
             "name": "Mage",
@@ -312,6 +399,31 @@
             ],
             "stats": {
                 "2": "At the start of combat, a random ally gains a 1500 health Stoneshield"
+            }
+        },
+        {
+            "key": "Mystic",
+            "ingameKey": "Set2_Mystic",
+            "name": "Mystic",
+            "desc": "All allies gain increased Magic Resist",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_mystic.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_mystic.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_mystic.png",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "gold",
+                    "min": 4
+                }
+            ],
+            "stats": {
+                "2": "40 Magic Resist",
+                "4": "120 Magic Resist"
             }
         },
         {
@@ -381,118 +493,6 @@
             ],
             "stats": {
                 "3": "Predators instantly kill enemies they damage who are below 25% health"
-            }
-        },
-        {
-            "key": "Assassin",
-            "ingameKey": "Set2_Assassin",
-            "name": "Assassin",
-            "desc": "Innate: At the start of combat, Assassins leap to the farthest enemy. Assassins gain bonus Critical Strike Damage and Chance.",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_assassin.png",
-            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_assassin.png",
-            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_assassin.png",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 3,
-                    "max": 5
-                },
-                {
-                    "style": "gold",
-                    "min": 6
-                }
-            ],
-            "stats": {
-                "3": "+70% Critical Strike Damage & +10% Critical Strike Chance",
-                "6": "+210% Critical Strike Damage & +20% Critical Strike Chance"
-            }
-        },
-        {
-            "key": "Blademaster",
-            "ingameKey": "Set2_Blademaster",
-            "name": "Blademaster",
-            "desc": "Blademaster Basic Attacks have a 40% chance to trigger additional attacks against their target. These additional attacks deal damage like Basic Attacks and trigger on-hit effects.",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_blademaster.png",
-            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_blademaster.png",
-            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_blademaster.png",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 3
-                },
-                {
-                    "style": "silver",
-                    "min": 4,
-                    "max": 5
-                },
-                {
-                    "style": "gold",
-                    "min": 6
-                }
-            ],
-            "stats": {
-                "2": "1 Additional Attack",
-                "4": "2 Additional Attacks",
-                "6": "3 Additional Attacks"
-            }
-        },
-        {
-            "key": "Glacial",
-            "ingameKey": "Set2_Glacial",
-            "name": "Glacial",
-            "desc": "Basic Attacks from Glacials have 25% chance to stun their target for 1.5 seconds, bonus Magic Damage on stun.",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_glacial.png",
-            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_glacial.png",
-            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_glacial.png",
-            "type": "ORIGIN",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 3
-                },
-                {
-                    "style": "silver",
-                    "min": 4,
-                    "max": 5
-                },
-                {
-                    "style": "gold",
-                    "min": 6
-                }
-            ],
-            "stats": {
-                "2": "75 bonus Magic Damage",
-                "4": "175 bonus Magic Damage",
-                "6": "375 bonus Magic Damage"
-            }
-        },
-        {
-            "key": "Mystic",
-            "ingameKey": "Set2_Mystic",
-            "name": "Mystic",
-            "desc": "All allies gain increased Magic Resist",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_mystic.png",
-            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_mystic.png",
-            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_mystic.png",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 3
-                },
-                {
-                    "style": "gold",
-                    "min": 4
-                }
-            ],
-            "stats": {
-                "2": "40 Magic Resist",
-                "4": "120 Magic Resist"
             }
         },
         {

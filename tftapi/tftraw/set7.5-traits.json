@@ -227,6 +227,43 @@
             "isPbe": true
         },
         {
+            "key": "Dragonmancer",
+            "ingameKey": "Set7_Dragonmancer",
+            "name": "Dragonmancer",
+            "desc": "Use the Dragonmancer Blessing item to choose a Hero. The Hero gains massively increased Health and Ability Power, which increases by 20% per star level of your Dragonmancers.",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Dragonmancer_normal_1660832841-dragonmancer.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Dragonmancer_black_1660832841-dragonmancer%20(1).svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Dragonmancer_white_1660832841-dragonmancer%20(2).svg",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "silver",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6,
+                    "max": 7
+                },
+                {
+                    "style": "chromatic",
+                    "min": 8
+                }
+            ],
+            "stats": {
+                "2": "+275 Health, +25 Ability Power",
+                "4": "+575 Health, +40 Ability Power",
+                "6": "+775 Health, +50 Ability Power",
+                "8": "+1000 Health, +70 Ability Power"
+            }
+        },
+        {
             "key": "Dragons",
             "ingameKey": "Set7_Dragon",
             "name": "Dragon",
@@ -263,43 +300,6 @@
                 "4": "and +1 to team size",
                 "5": "and Heal 40 Health every second",
                 "6": "and Dragons to ascend"
-            }
-        },
-        {
-            "key": "Dragonmancer",
-            "ingameKey": "Set7_Dragonmancer",
-            "name": "Dragonmancer",
-            "desc": "Use the Dragonmancer Blessing item to choose a Hero. The Hero gains massively increased Health and Ability Power, which increases by 20% per star level of your Dragonmancers.",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Dragonmancer_normal_1660832841-dragonmancer.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Dragonmancer_black_1660832841-dragonmancer%20(1).svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Dragonmancer_white_1660832841-dragonmancer%20(2).svg",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 3
-                },
-                {
-                    "style": "silver",
-                    "min": 4,
-                    "max": 5
-                },
-                {
-                    "style": "gold",
-                    "min": 6,
-                    "max": 7
-                },
-                {
-                    "style": "chromatic",
-                    "min": 8
-                }
-            ],
-            "stats": {
-                "2": "+275 Health, +25 Ability Power",
-                "4": "+575 Health, +40 Ability Power",
-                "6": "+775 Health, +50 Ability Power",
-                "8": "+1000 Health, +70 Ability Power"
             }
         },
         {

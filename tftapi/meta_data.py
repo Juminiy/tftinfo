@@ -137,6 +137,7 @@ setopentime={
     'set13': '2024.11.21',
     'set14': '2025.04.02',
     'set15': '2025.08.01',
+    'set16': '2025.11.18',
 }
 
 setname={
@@ -155,6 +156,7 @@ setname={
     'set13': 'Into the Arcane',
     'set14': 'CyberCity',
     'set15': 'K.O. Coliseum',
+    'set16': 'Lore & Legends',
 }
 
 settrait_entertainment={

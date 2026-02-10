@@ -41,8 +41,8 @@
 ### Unique
 | {{name}}                                           | {{champion}}                                | {{cost}} |
 | -                                                  | -                                           | -        |
-| ![TheBoss](../tfttraits/icon/set4/TheBoss.png)     | ![Sett](../tftchampions/icon/set4/Sett.png) | 5        |
 | ![Emperor](../tfttraits/icon/set4/Emperor.png)     | ![Azir](../tftchampions/icon/set4/Azir.png) | 5        |
+| ![TheBoss](../tfttraits/icon/set4/TheBoss.png)     | ![Sett](../tftchampions/icon/set4/Sett.png) | 5        |
 | ![Tormented](../tfttraits/icon/set4/Tormented.png) | ![Kayn](../tftchampions/icon/set4/Kayn.png) | 5        |
 
 ### SynergyGrid

@@ -2,47 +2,6 @@
     "season": "set9",
     "champions": [
         {
-            "key": "Dummy",
-            "ingameKey": null,
-            "name": "Dummy",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Dummy_1689746192-tft_trainingdummy_donothing.png",
-            "traits": [],
-            "isHidden": true,
-            "cost": [
-                0,
-                -1,
-                -1
-            ],
-            "health": [
-                800,
-                1440,
-                2592
-            ],
-            "attackDamage": [
-                50,
-                75,
-                113
-            ],
-            "damagePerSecond": [
-                10,
-                15,
-                23
-            ],
-            "attackRange": 0,
-            "attackSpeed": 0.2,
-            "armor": 40,
-            "magicalResistance": 40,
-            "skill": {
-                "name": "Training Dummy",
-                "imageUrl": "",
-                "desc": "Use on a champion to spawn a movable target dummy nearby. Cannot be used in combat.",
-                "startingMana": 0,
-                "skillMana": 0,
-                "stats": []
-            },
-            "role": ""
-        },
-        {
             "key": "Aatrox",
             "ingameKey": "TFT9_Aatrox",
             "name": "Aatrox",
@@ -183,6 +142,50 @@
                 "skillMana": 110,
                 "stats": [
                     "Damage: 20% / 35% / 60%"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "ApexTurret",
+            "ingameKey": "TFT9_HeimerdingerTurret",
+            "name": "ApexTurret",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/ApexTurret_1686125890-tft9_heimerdingerturret_square.tft_set9.png",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/apexturret.jpg",
+            "traits": [],
+            "isHidden": true,
+            "cost": [
+                0,
+                -1,
+                -1
+            ],
+            "health": [
+                800,
+                1440,
+                2592
+            ],
+            "attackDamage": [
+                40,
+                60,
+                90
+            ],
+            "damagePerSecond": [
+                30,
+                45,
+                68
+            ],
+            "attackRange": 10,
+            "attackSpeed": 0.75,
+            "armor": 60,
+            "magicalResistance": 60,
+            "skill": {
+                "name": "H-28G Laser Beam",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/ApexTurret_1686713377-tft9_heimerdingerturret_square.tft_set9.png",
+                "desc": "Heimerdinger's turret fires a laser beam in its target's direction, dealing to all enemies it passes through.",
+                "startingMana": 0,
+                "skillMana": 100,
+                "stats": [
+                    "Damage: 185 / 275 / 4000"
                 ]
             },
             "role": ""
@@ -338,7 +341,6 @@
             "ingameKey": "TFT9_BaronNashor",
             "name": "Baron Nashor",
             "imageUrl": "//cdn.lolchess.gg/upload/images/champions/BaronNashor_1686125963-tft9_baronnashor_square.tft_set9.png",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/baronnashor.jpg",
             "traits": [],
             "isHidden": true,
             "cost": [
@@ -572,6 +574,47 @@
                     "Recast Effectiveness: 82% / 85% / 90%",
                     "Damage: 350% AD + 100% / 120% / 150% AP"
                 ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Dummy",
+            "ingameKey": null,
+            "name": "Dummy",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Dummy_1689746192-tft_trainingdummy_donothing.png",
+            "traits": [],
+            "isHidden": true,
+            "cost": [
+                0,
+                -1,
+                -1
+            ],
+            "health": [
+                800,
+                1440,
+                2592
+            ],
+            "attackDamage": [
+                50,
+                75,
+                113
+            ],
+            "damagePerSecond": [
+                10,
+                15,
+                23
+            ],
+            "attackRange": 0,
+            "attackSpeed": 0.2,
+            "armor": 40,
+            "magicalResistance": 40,
+            "skill": {
+                "name": "Training Dummy",
+                "imageUrl": "",
+                "desc": "Use on a champion to spawn a movable target dummy nearby. Cannot be used in combat.",
+                "startingMana": 0,
+                "skillMana": 0,
+                "stats": []
             },
             "role": ""
         },
@@ -815,50 +858,6 @@
                 "stats": [
                     "Damage: 150% / 225% / 3141%",
                     "Stun Duration: 1.5 / 2 / 15"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "ApexTurret",
-            "ingameKey": "TFT9_HeimerdingerTurret",
-            "name": "ApexTurret",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/ApexTurret_1686125890-tft9_heimerdingerturret_square.tft_set9.png",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/apexturret.jpg",
-            "traits": [],
-            "isHidden": true,
-            "cost": [
-                0,
-                -1,
-                -1
-            ],
-            "health": [
-                800,
-                1440,
-                2592
-            ],
-            "attackDamage": [
-                40,
-                60,
-                90
-            ],
-            "damagePerSecond": [
-                30,
-                45,
-                68
-            ],
-            "attackRange": 10,
-            "attackSpeed": 0.75,
-            "armor": 60,
-            "magicalResistance": 60,
-            "skill": {
-                "name": "H-28G Laser Beam",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/ApexTurret_1686713377-tft9_heimerdingerturret_square.tft_set9.png",
-                "desc": "Heimerdinger's turret fires a laser beam in its target's direction, dealing to all enemies it passes through.",
-                "startingMana": 0,
-                "skillMana": 100,
-                "stats": [
-                    "Damage: 185 / 275 / 4000"
                 ]
             },
             "role": ""
@@ -1931,7 +1930,6 @@
             "ingameKey": "TFT9_RiftHerald",
             "name": "Rift Herald",
             "imageUrl": "//cdn.lolchess.gg/upload/images/champions/RiftHerald_1686126023-tft9_riftherald_square.tft_set9.png",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/riftherald.jpg",
             "traits": [],
             "isHidden": true,
             "cost": [
@@ -3109,7 +3107,6 @@
             "ingameKey": "TFT9_THex",
             "name": "T-Hex",
             "imageUrl": "//cdn.lolchess.gg/upload/images/champions/THex_1686126500-tft9_thex_square.tft_set9.png",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/thex.jpg",
             "traits": [],
             "isHidden": true,
             "cost": [

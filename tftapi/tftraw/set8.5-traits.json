@@ -164,43 +164,6 @@
             }
         },
         {
-            "key": "Spellslinger",
-            "ingameKey": "Set8_Channeler",
-            "name": "Spellslinger",
-            "desc": "Every 5 seconds, the next attack instead fires a magic orb at a random target, which explodes for 50% Ability Power as magic damage.",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Spellslinger_normal_1668171686-Spellslinger.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Spellslinger_black_1668171686-Spellslinger.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Spellslinger_white_1668171686-Spellslinger.svg",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 3
-                },
-                {
-                    "style": "silver",
-                    "min": 4,
-                    "max": 5
-                },
-                {
-                    "style": "gold",
-                    "min": 6,
-                    "max": 7
-                },
-                {
-                    "style": "chromatic",
-                    "min": 8
-                }
-            ],
-            "stats": {
-                "2": "+25 Ability Power",
-                "4": "+45 Ability Power",
-                "6": "+70 Ability Power",
-                "8": "+110 Ability Power, Orb Damage 100%"
-            }
-        },
-        {
             "key": "Corrupted",
             "ingameKey": "Set8_Corrupted",
             "name": "Corrupted",
@@ -217,43 +180,6 @@
             ],
             "stats": {
                 "1": "Combat starts: Lie dormant while absorbing the souls of allies that die. Gain 40 Ability Power for each soul.<br><br>Once per combat at 70% Health (or when your team has died), come alive and fight."
-            }
-        },
-        {
-            "key": "Sureshot",
-            "ingameKey": "Set8_Deadeye",
-            "name": "Sureshot",
-            "desc": "Combat start: gain bonus Attack Damage now, and every 4 seconds.",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Sureshot_normal_1668171615-Sureshot.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Sureshot_black_1668171615-Sureshot.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Sureshot_white_1668171615-Sureshot.svg",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 2
-                },
-                {
-                    "style": "silver",
-                    "min": 3,
-                    "max": 3
-                },
-                {
-                    "style": "gold",
-                    "min": 4,
-                    "max": 4
-                },
-                {
-                    "style": "chromatic",
-                    "min": 5
-                }
-            ],
-            "stats": {
-                "2": "+7% Attack Damage",
-                "3": "+12% Attack Damage",
-                "4": "+18% Attack Damage",
-                "5": "+25% Attack Damage"
             }
         },
         {
@@ -325,31 +251,6 @@
             }
         },
         {
-            "key": "MechaPRIME",
-            "ingameKey": "Set8_ExoPrime",
-            "name": "Mecha: PRIME",
-            "desc": "Use the Mecha selector item to choose a PRIME.<br><br>Combat start: the PRIME combines with the 2 nearest Mecha, absorbing 90% of their Health.",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/MechaPRIME_normal_1668171595-Mecha%20_%20PRIME.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/MechaPRIME_black_1668174304-Mecha%20_%20PRIME.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/MechaPRIME_white_1668171928-Mecha%20_%20PRIME.svg",
-            "type": "ORIGIN",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 3,
-                    "max": 4
-                },
-                {
-                    "style": "gold",
-                    "min": 5
-                }
-            ],
-            "stats": {
-                "3": "The PRIME gains 60 Ability Power and 60% Attack Damage",
-                "5": "All Mechas gain 55 Ability Power and 55% Attack Damage; The PRIME gains double this amount."
-            }
-        },
-        {
             "key": "Forecaster",
             "ingameKey": "Set8_Forecaster",
             "name": "Forecaster",
@@ -392,38 +293,6 @@
                 "3": "Create 1 item, 4% per item.",
                 "5": "Create 2 item, 8% per item."
             }
-        },
-        {
-            "key": "Quickdraw",
-            "ingameKey": "Set8_GunMage",
-            "name": "Quickdraw",
-            "desc": "After every 2 damaging ability projectiles, Quickdraw units fire a bonus ability projectile. Bonus shots deal:",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Quickdraw_normal_1677912305-Quickdraw_gray.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Quickdraw_black_1677912306-Quickdraw_black.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Quickdraw_white_1677912306-Quickdraw_white.svg",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 2
-                },
-                {
-                    "style": "silver",
-                    "min": 3,
-                    "max": 3
-                },
-                {
-                    "style": "gold",
-                    "min": 4
-                }
-            ],
-            "stats": {
-                "2": "70% total damage.",
-                "3": "150% total damage.",
-                "4": "235% total damage."
-            },
-            "isPbe": true
         },
         {
             "key": "Hacker",
@@ -489,6 +358,75 @@
             }
         },
         {
+            "key": "Infiniteam",
+            "ingameKey": "Set8_Pulsefire",
+            "name": "InfiniTeam",
+            "desc": "The InfiniTeam opens a portal to an alternate timeline. At the start of combat, any InfiniTeam unit placed on a portal summons an alternate version of themself with different items. They get 1 for each Augment you own.<br><br>The copies have reduced Health and damage.",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/InfiniTeam_normal_1677912452-InfiniTeam_gray.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/InfiniTeam_black_1677912452-InfiniTeam_black.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/InfiniTeam_white_1677912452-InfiniTeam_white.svg",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 3,
+                    "max": 4
+                },
+                {
+                    "style": "gold",
+                    "min": 5,
+                    "max": 6
+                },
+                {
+                    "style": "chromatic",
+                    "min": 7
+                }
+            ],
+            "stats": {
+                "3": "1 portal opens, 45% damage and 45% HP.",
+                "5": "2 portal opens, 50% damage and 50% HP.",
+                "7": "2 portal opens, 85% damage and 85% HP."
+            },
+            "isPbe": true
+        },
+        {
+            "key": "LaserCorps",
+            "ingameKey": "Set8_SpaceCorps",
+            "name": "LaserCorps",
+            "desc": "When a LaserCorp agent attacks or is hit by an attack, their combat drone deal magic damage to the agent's target (0.4 second cooldown). When a LaserCorps agent dies, their drone is reassigned to the nearest living agent.<br><br>Drones lasers deal:",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/LaserCorps_normal_1668171618-LaserCorps.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/LaserCorps_black_1668174243-LaserCorps.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/LaserCorps_white_1668171947-LaserCorps.svg",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 3,
+                    "max": 3
+                },
+                {
+                    "style": "silver",
+                    "min": 4,
+                    "max": 4
+                },
+                {
+                    "style": "gold",
+                    "min": 5,
+                    "max": 5
+                },
+                {
+                    "style": "chromatic",
+                    "min": 6
+                }
+            ],
+            "stats": {
+                "3": "27 magic damage.",
+                "4": "35 magic damage. All units get a LaserCorp drone.",
+                "5": "55 magic damage. All units get a LaserCorp drone.",
+                "6": "80 magic damage. All units get a LaserCorp drone."
+            }
+        },
+        {
             "key": "Mascot",
             "ingameKey": "Set8_Mascot",
             "name": "Mascot",
@@ -517,6 +455,31 @@
                 "2": "1.5% healing",
                 "4": "3% healing",
                 "6": "6% healing"
+            }
+        },
+        {
+            "key": "MechaPRIME",
+            "ingameKey": "Set8_ExoPrime",
+            "name": "Mecha: PRIME",
+            "desc": "Use the Mecha selector item to choose a PRIME.<br><br>Combat start: the PRIME combines with the 2 nearest Mecha, absorbing 90% of their Health.",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/MechaPRIME_normal_1668171595-Mecha%20_%20PRIME.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/MechaPRIME_black_1668174304-Mecha%20_%20PRIME.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/MechaPRIME_white_1668171928-Mecha%20_%20PRIME.svg",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 3,
+                    "max": 4
+                },
+                {
+                    "style": "gold",
+                    "min": 5
+                }
+            ],
+            "stats": {
+                "3": "The PRIME gains 60 Ability Power and 60% Attack Damage",
+                "5": "All Mechas gain 55 Ability Power and 55% Attack Damage; The PRIME gains double this amount."
             }
         },
         {
@@ -602,34 +565,34 @@
             }
         },
         {
-            "key": "Infiniteam",
-            "ingameKey": "Set8_Pulsefire",
-            "name": "InfiniTeam",
-            "desc": "The InfiniTeam opens a portal to an alternate timeline. At the start of combat, any InfiniTeam unit placed on a portal summons an alternate version of themself with different items. They get 1 for each Augment you own.<br><br>The copies have reduced Health and damage.",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/InfiniTeam_normal_1677912452-InfiniTeam_gray.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/InfiniTeam_black_1677912452-InfiniTeam_black.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/InfiniTeam_white_1677912452-InfiniTeam_white.svg",
-            "type": "ORIGIN",
+            "key": "Quickdraw",
+            "ingameKey": "Set8_GunMage",
+            "name": "Quickdraw",
+            "desc": "After every 2 damaging ability projectiles, Quickdraw units fire a bonus ability projectile. Bonus shots deal:",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Quickdraw_normal_1677912305-Quickdraw_gray.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Quickdraw_black_1677912306-Quickdraw_black.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Quickdraw_white_1677912306-Quickdraw_white.svg",
+            "type": "CLASS",
             "styles": [
                 {
                     "style": "bronze",
+                    "min": 2,
+                    "max": 2
+                },
+                {
+                    "style": "silver",
                     "min": 3,
-                    "max": 4
+                    "max": 3
                 },
                 {
                     "style": "gold",
-                    "min": 5,
-                    "max": 6
-                },
-                {
-                    "style": "chromatic",
-                    "min": 7
+                    "min": 4
                 }
             ],
             "stats": {
-                "3": "1 portal opens, 45% damage and 45% HP.",
-                "5": "2 portal opens, 50% damage and 50% HP.",
-                "7": "2 portal opens, 85% damage and 85% HP."
+                "2": "70% total damage.",
+                "3": "150% total damage.",
+                "4": "235% total damage."
             },
             "isPbe": true
         },
@@ -685,40 +648,40 @@
             "isPbe": true
         },
         {
-            "key": "LaserCorps",
-            "ingameKey": "Set8_SpaceCorps",
-            "name": "LaserCorps",
-            "desc": "When a LaserCorp agent attacks or is hit by an attack, their combat drone deal magic damage to the agent's target (0.4 second cooldown). When a LaserCorps agent dies, their drone is reassigned to the nearest living agent.<br><br>Drones lasers deal:",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/LaserCorps_normal_1668171618-LaserCorps.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/LaserCorps_black_1668174243-LaserCorps.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/LaserCorps_white_1668171947-LaserCorps.svg",
-            "type": "ORIGIN",
+            "key": "Spellslinger",
+            "ingameKey": "Set8_Channeler",
+            "name": "Spellslinger",
+            "desc": "Every 5 seconds, the next attack instead fires a magic orb at a random target, which explodes for 50% Ability Power as magic damage.",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Spellslinger_normal_1668171686-Spellslinger.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Spellslinger_black_1668171686-Spellslinger.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Spellslinger_white_1668171686-Spellslinger.svg",
+            "type": "CLASS",
             "styles": [
                 {
                     "style": "bronze",
-                    "min": 3,
+                    "min": 2,
                     "max": 3
                 },
                 {
                     "style": "silver",
                     "min": 4,
-                    "max": 4
-                },
-                {
-                    "style": "gold",
-                    "min": 5,
                     "max": 5
                 },
                 {
+                    "style": "gold",
+                    "min": 6,
+                    "max": 7
+                },
+                {
                     "style": "chromatic",
-                    "min": 6
+                    "min": 8
                 }
             ],
             "stats": {
-                "3": "27 magic damage.",
-                "4": "35 magic damage. All units get a LaserCorp drone.",
-                "5": "55 magic damage. All units get a LaserCorp drone.",
-                "6": "80 magic damage. All units get a LaserCorp drone."
+                "2": "+25 Ability Power",
+                "4": "+45 Ability Power",
+                "6": "+70 Ability Power",
+                "8": "+110 Ability Power, Orb Damage 100%"
             }
         },
         {
@@ -775,6 +738,43 @@
             ],
             "stats": {
                 "3": "Combat start: strike a pose that grants your team 18% bonus damage, which increases by 3% for every 3-star champion on your team."
+            }
+        },
+        {
+            "key": "Sureshot",
+            "ingameKey": "Set8_Deadeye",
+            "name": "Sureshot",
+            "desc": "Combat start: gain bonus Attack Damage now, and every 4 seconds.",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Sureshot_normal_1668171615-Sureshot.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Sureshot_black_1668171615-Sureshot.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Sureshot_white_1668171615-Sureshot.svg",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 2
+                },
+                {
+                    "style": "silver",
+                    "min": 3,
+                    "max": 3
+                },
+                {
+                    "style": "gold",
+                    "min": 4,
+                    "max": 4
+                },
+                {
+                    "style": "chromatic",
+                    "min": 5
+                }
+            ],
+            "stats": {
+                "2": "+7% Attack Damage",
+                "3": "+12% Attack Damage",
+                "4": "+18% Attack Damage",
+                "5": "+25% Attack Damage"
             }
         },
         {

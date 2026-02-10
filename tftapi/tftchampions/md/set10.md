@@ -50,8 +50,8 @@
 | key         | name                | icon                                          |
 | -           | -                   | -                                             |
 | Ahri        | Ahri                | ![Ahri](../icon/set10/Ahri.jpg)               |
-| Akali2      | Akali (K/DA)        | ![Akali2](../icon/set10/Akali2.jpg)           |
 | Akali       | Akali (True Damage) | ![Akali](../icon/set10/Akali.jpg)             |
+| Akali2      | Akali (K/DA)        | ![Akali2](../icon/set10/Akali2.jpg)           |
 | Blitzcrank  | Blitzcrank          | ![Blitzcrank](../icon/set10/Blitzcrank.jpg)   |
 | Caitlyn     | Caitlyn             | ![Caitlyn](../icon/set10/Caitlyn.jpg)         |
 | Ezreal      | Ezreal              | ![Ezreal](../icon/set10/Ezreal.jpg)           |

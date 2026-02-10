@@ -32,3 +32,17 @@ uv run req_icon.py
 # refresh parsed data
 ./run.sh
 ```
+
+# Set Update
+1. update raw data and icon data
+```bash
+# redownload tftapi data
+uv run req_raw.py
+# redownload tftapi icon
+uv run req_icon.py
+# refresh parsed data
+./run.sh
+```
+
+2. tftapi/meta_data.py:setname,setopentime
+3. tftapi/meta_func.py:select_traits_legal

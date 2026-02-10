@@ -2,6 +2,44 @@
     "season": "set4.5",
     "items": [
         {
+            "key": "AnimaVisage",
+            "ingameKey": "TFT4_Item_OrnnAnimaVisage",
+            "name": "Anima Visage",
+            "desc": "The wearer regenerates 8% of their maximum Health each second. +200 HP, +25 MR",
+            "shortDesc": "",
+            "fromDesc": "",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/item/AnimaVisage.png",
+            "isArtifact": true
+        },
+        {
+            "key": "ArcaneGauntlet",
+            "ingameKey": "TFT_Item_JeweledGauntlet",
+            "name": "Jeweled Gauntlet",
+            "desc": "The holder's spells can cause critical hits, and holder gains +40% bonus critical strike damage.",
+            "shortDesc": "Your spells<br>can crit and<br>40% bonus when crit",
+            "fromDesc": "",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/item/ArcaneGauntlet.png",
+            "compositions": [
+                "NeedlesslyLargeRod",
+                "SparringGloves"
+            ],
+            "isNormal": true
+        },
+        {
+            "key": "Backhand",
+            "ingameKey": "TFT_Item_PowerGauntlet",
+            "name": "Trap Claw",
+            "desc": "Blocks the first enemy spell that hits the wearer, and stuns the spell's caster for 4 seconds.",
+            "shortDesc": "Block a spell<br>and stun<br>the caster<br>for 4secs..",
+            "fromDesc": "",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/item/Backhand.png",
+            "compositions": [
+                "GiantsBelt",
+                "SparringGloves"
+            ],
+            "isNormal": true
+        },
+        {
             "key": "BFSword",
             "ingameKey": "TFT_Item_BFSword",
             "name": "B.F. Sword",
@@ -10,156 +48,6 @@
             "fromDesc": "",
             "imageUrl": "//ddragon.leagueoflegends.com/cdn/10.22.1/img/item/1038.png",
             "isFromItem": true
-        },
-        {
-            "key": "RecurveBow",
-            "ingameKey": "TFT_Item_RecurveBow",
-            "name": "Recurve Bow",
-            "desc": "+15% Attack Speed",
-            "shortDesc": "+15% AS",
-            "fromDesc": "",
-            "imageUrl": "//ddragon.leagueoflegends.com/cdn/10.22.1/img/item/1043.png",
-            "isFromItem": true
-        },
-        {
-            "key": "NeedlesslyLargeRod",
-            "ingameKey": "TFT_Item_NeedlesslyLargeRod",
-            "name": "Needlessly Large Rod",
-            "desc": "+15% Spell Power",
-            "shortDesc": "AP +15%",
-            "fromDesc": "",
-            "imageUrl": "//ddragon.leagueoflegends.com/cdn/10.22.1/img/item/1058.png",
-            "isFromItem": true
-        },
-        {
-            "key": "Tearofthegoddess",
-            "ingameKey": "TFT_Item_TearOfTheGoddess",
-            "name": "Tear of the Goddess",
-            "desc": "+15 Mana",
-            "shortDesc": "+15<br>Starting Mana",
-            "fromDesc": "",
-            "imageUrl": "//ddragon.leagueoflegends.com/cdn/10.22.1/img/item/3070.png",
-            "isFromItem": true
-        },
-        {
-            "key": "ChainVest",
-            "ingameKey": "TFT_Item_ChainVest",
-            "name": "Chain Vest",
-            "desc": "+25 Armor",
-            "shortDesc": "",
-            "fromDesc": "",
-            "imageUrl": "//ddragon.leagueoflegends.com/cdn/10.22.1/img/item/1031.png",
-            "isFromItem": true
-        },
-        {
-            "key": "NegatronCloak",
-            "ingameKey": "TFT_Item_NegatronCloak",
-            "name": "Negatron Cloak",
-            "desc": "+25 Magic Resist",
-            "shortDesc": "+25 MR",
-            "fromDesc": "",
-            "imageUrl": "//ddragon.leagueoflegends.com/cdn/10.22.1/img/item/1057.png",
-            "isFromItem": true
-        },
-        {
-            "key": "GiantsBelt",
-            "ingameKey": "TFT_Item_GiantsBelt",
-            "name": "Giant's Belt",
-            "desc": "+200 Health",
-            "shortDesc": "+200 HP",
-            "fromDesc": "",
-            "imageUrl": "//ddragon.leagueoflegends.com/cdn/10.22.1/img/item/1011.png",
-            "isFromItem": true
-        },
-        {
-            "key": "Spatula",
-            "ingameKey": "TFT_Item_Spatula",
-            "name": "Spatula",
-            "desc": "You will get a special ability",
-            "shortDesc": "You will get<br>special ability",
-            "fromDesc": "",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/item/Spatula.png",
-            "isFromItem": true
-        },
-        {
-            "key": "SparringGloves",
-            "ingameKey": "TFT_Item_SparringGloves",
-            "name": "Sparring Gloves",
-            "desc": "+10% Critical Strike Chance, +10% Dodge Chance",
-            "shortDesc": "+10%<br>Crit chance<br>+10%<br>Dodge chance",
-            "fromDesc": "",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/item/BrawlersGloves.png",
-            "isFromItem": true
-        },
-        {
-            "key": "LordsEdge",
-            "ingameKey": "TFT_Item_Deathblade",
-            "name": "Deathblade",
-            "desc": "Contributing to a kill grants the holder +10 additional Attack Damage for the rest of combat. This effect can stack any number of times (starting at 3).",
-            "shortDesc": "On takedown<br>gain<br>+10 AD",
-            "fromDesc": "",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/item/LordsEdge.png",
-            "compositions": [
-                "BFSword",
-                "BFSword"
-            ],
-            "isNormal": true
-        },
-        {
-            "key": "GiantSlayer",
-            "ingameKey": "TFT_Item_MadredsBloodrazor",
-            "name": "Giant Slayer",
-            "desc": "The holder's spells and basic attacks do 10% bonus damage. If the target has more than 1750 maximum Health, the bonus increases to 80%.",
-            "shortDesc": "+10% dmg<br>If enemy has<br>>1750 HP<br>+80% dmg",
-            "fromDesc": "",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/item/GiantSlayer.png",
-            "compositions": [
-                "BFSword",
-                "RecurveBow"
-            ],
-            "isNormal": true
-        },
-        {
-            "key": "HextechGunblade",
-            "ingameKey": "TFT_Item_HextechGunblade",
-            "name": "Hextech Gunblade",
-            "desc": "The holder's spells heal them for 33% of the damage dealt. Excess healing fuels a shield that protects the holder against up to 300 damage.",
-            "shortDesc": "Heal 33% from<br>spell Dmg<br>Overhealing<br>convert to shield",
-            "fromDesc": "",
-            "imageUrl": "//ddragon.leagueoflegends.com/cdn/10.22.1/img/item/3146.png",
-            "compositions": [
-                "BFSword",
-                "NeedlesslyLargeRod"
-            ],
-            "isNormal": true
-        },
-        {
-            "key": "SpearofShojin",
-            "ingameKey": "TFT_Item_SpearOfShojin",
-            "name": "Spear of Shojin",
-            "desc": "The holder's basic attacks restore 5 Mana on-hit.",
-            "shortDesc": "Restore<br>5 Mana<br>on-hit",
-            "fromDesc": "",
-            "imageUrl": "//ddragon.leagueoflegends.com/cdn/10.22.1/img/item/3161.png",
-            "compositions": [
-                "BFSword",
-                "Tearofthegoddess"
-            ],
-            "isNormal": true
-        },
-        {
-            "key": "GuardianAngel",
-            "ingameKey": "TFT_Item_GuardianAngel",
-            "name": "Guardian Angel",
-            "desc": "Prevents the wearer's first death, placing them in stasis instead. After 2 seconds, they return with 400 Health and shed all negative effects.",
-            "shortDesc": "Revive with<br>400 HP<br>after<br>2 secs.",
-            "fromDesc": "",
-            "imageUrl": "//ddragon.leagueoflegends.com/cdn/10.22.1/img/item/3026.png",
-            "compositions": [
-                "BFSword",
-                "ChainVest"
-            ],
-            "isNormal": true
         },
         {
             "key": "Bloodthirster",
@@ -176,131 +64,79 @@
             "isNormal": true
         },
         {
-            "key": "ZekesHerald",
-            "ingameKey": "TFT_Item_ZekesHerald",
-            "name": "Zeke's Herald",
-            "desc": "When combat begins, the wearer and all allies within 1 hex in the same row gain +30% Attack Speed for the rest of combat.",
-            "shortDesc": "+30% AS<br>wearer and<br>allies within<br>the 1 hex in<br>the same row",
+            "key": "BlueSentinel",
+            "ingameKey": "TFT_Item_SeraphsEmbrace",
+            "name": "Blue Buff",
+            "desc": "[Unique] After casting their spell, the wearer's Mana is set to 20.",
+            "shortDesc": "After casting<br>a spell<br>wearer's Mana<br>is set to 20.",
             "fromDesc": "",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/item/ZekesHerald.png",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/item/BlueBuff.png",
             "compositions": [
-                "BFSword",
-                "GiantsBelt"
-            ],
-            "isNormal": true
-        },
-        {
-            "key": "SwordoftheDivine",
-            "ingameKey": "TFT4_Item_DivineSpatulaItem",
-            "name": "Sword of the Divine",
-            "desc": "[Unique] The holder gains the Divine trait.",
-            "shortDesc": "Holder gains<br>Divine trait",
-            "fromDesc": "",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/item/SwordoftheDivine2.png",
-            "compositions": [
-                "BFSword",
-                "Spatula"
-            ],
-            "affectedTraitKey": "Divine",
-            "isUnique": true,
-            "isNormal": true
-        },
-        {
-            "key": "InfinityEdge",
-            "ingameKey": "TFT_Item_InfinityEdge",
-            "name": "Infinity Edge",
-            "desc": "[Unique] Grants 75% Critical Strike Chance (including components). Each point of Critical Strike Chance above 100% becomes +1% Critical Strike Damage.",
-            "shortDesc": "+75% Crit.<br>(>100% Crit Chance become<br>+1% Crit Dmg)",
-            "fromDesc": "",
-            "imageUrl": "//ddragon.leagueoflegends.com/cdn/10.22.1/img/item/3031.png",
-            "compositions": [
-                "BFSword",
-                "SparringGloves"
-            ],
-            "isUnique": true,
-            "isNormal": true
-        },
-        {
-            "key": "RapidFirecannon",
-            "ingameKey": "TFT_Item_RapidFireCannon",
-            "name": "Rapid Firecannon",
-            "desc": "The holder gains 200% Attack Range, and their Basic Attacks can’t miss.",
-            "shortDesc": "+200%<br>Attack<br>Range",
-            "fromDesc": "",
-            "imageUrl": "//ddragon.leagueoflegends.com/cdn/10.22.1/img/item/3094.png",
-            "compositions": [
-                "RecurveBow",
-                "RecurveBow"
-            ],
-            "isNormal": true
-        },
-        {
-            "key": "GuinsoosRageblade",
-            "ingameKey": "TFT_Item_GuinsoosRageblade",
-            "name": "Guinsoo's Rageblade",
-            "desc": "Basic Attacks grant +6% bonus Attack Speed for the rest of combat. This effect can stack any number of times.",
-            "shortDesc": "+6% AS<br>(Stacked)",
-            "fromDesc": "",
-            "imageUrl": "//ddragon.leagueoflegends.com/cdn/10.22.1/img/item/3124.png",
-            "compositions": [
-                "RecurveBow",
-                "NeedlesslyLargeRod"
-            ],
-            "isNormal": true
-        },
-        {
-            "key": "StatikkShiv",
-            "ingameKey": "TFT_Item_StatikkShiv",
-            "name": "Statikk Shiv",
-            "desc": "Every third Basic Attack from the wearer deals 65 magic damage to 3 enemies. This effect can now critically strike, and its crits reduce the Magic Resist of targets hit by 60% for 6 seconds.",
-            "shortDesc": "Deal 65 AP<br>to 3<br>emenies<br>every 3rd atk",
-            "fromDesc": "",
-            "imageUrl": "//ddragon.leagueoflegends.com/cdn/10.22.1/img/item/3087.png",
-            "compositions": [
-                "RecurveBow",
+                "Tearofthegoddess",
                 "Tearofthegoddess"
             ],
+            "isUnique": true,
             "isNormal": true
         },
         {
-            "key": "TitansResolve",
-            "ingameKey": "TFT_Item_TitansResolve",
-            "name": "Titan’s Resolve",
-            "desc": "When the wearer takes damage or inflicts a critical hit, they gain a 2% stacking damage bonus. Stacks up to 25 times, at which point the wearer gains 25 Armor and Magic Resistance, and increases in size.",
-            "shortDesc": "+2% dmg<br>stack when<br>taken dmg<br>or crit hit.<br>max 50stacks",
+            "key": "BrambleVest",
+            "ingameKey": "TFT_Item_BrambleVest",
+            "name": "Bramble Vest",
+            "desc": "Negates bonus damage from incoming critical hits. On being hit by a Basic Attack, deal 80/100/150 ★ magic damage to all nearby enemies (once every 2.5 seconds).",
+            "shortDesc": "Negate<br>bonus dmg<br>from crit. and<br>reflect dmg<br>to enemies",
             "fromDesc": "",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/item/TitansResolve.png",
+            "imageUrl": "//ddragon.leagueoflegends.com/cdn/10.22.1/img/item/3076.png",
             "compositions": [
-                "RecurveBow",
+                "ChainVest",
                 "ChainVest"
             ],
             "isNormal": true
         },
         {
-            "key": "RunaansHurricane",
-            "ingameKey": "TFT_Item_RunaansHurricane",
-            "name": "Runaan's Hurricane",
-            "desc": "Basic Attacks fire a bolt at another nearby enemy, dealing 80% of the wearer's Attack Damage and applying on-hit effects. These bolts can critical strike.",
-            "shortDesc": "Attack<br>+1 enemies<br>(80% Dmg)",
+            "key": "ChainVest",
+            "ingameKey": "TFT_Item_ChainVest",
+            "name": "Chain Vest",
+            "desc": "+25 Armor",
+            "shortDesc": "",
             "fromDesc": "",
-            "imageUrl": "//ddragon.leagueoflegends.com/cdn/10.22.1/img/item/3085.png",
+            "imageUrl": "//ddragon.leagueoflegends.com/cdn/10.22.1/img/item/1031.png",
+            "isFromItem": true
+        },
+        {
+            "key": "Chalice",
+            "ingameKey": "TFT_Item_Chalice",
+            "name": "Chalice of Power",
+            "desc": "When combat begins, the wearer and all allies within 1 hex in the same row gain 30 Spell Power for the rest of combat.",
+            "shortDesc": "+30 SP<br>for all allies<br>within 1 hex<br>in same row",
+            "fromDesc": "",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/item/ChaliceOfPower2.png",
             "compositions": [
-                "RecurveBow",
+                "Tearofthegoddess",
                 "NegatronCloak"
             ],
             "isNormal": true
         },
         {
-            "key": "ZzRotPortal",
-            "ingameKey": "TFT_Item_TitanicHydra",
-            "name": "Zz'Rot Portal",
-            "desc": "At the start of combat, the wearer taunts enemies within 2 hexes for 1 second. When the wearer dies, a Construct with 1500/2250/3000 ★ Health arises and taunts all nearby enemies again.",
-            "shortDesc": "Taunts enemies,<br>Construct arises and<br>taunts again",
+            "key": "DeathsDefiance",
+            "ingameKey": "TFT4_Item_OrnnDeathsDefiance",
+            "name": "Death's Defiance",
+            "desc": "60% of the damage the wearer receives is instead dealt over 5 seconds as non-lethal damage. +15 AD, +15 AS, +25 Armor",
+            "shortDesc": "",
             "fromDesc": "",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/item/ZzRotPortal.png",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/item/DeathsDefiance.png",
+            "isArtifact": true
+        },
+        {
+            "key": "DragonsClaw",
+            "ingameKey": "TFT_Item_DragonsClaw",
+            "name": "Dragons Claw",
+            "desc": "Reduces incoming magic damage by 60%",
+            "shortDesc": "Reduce<br>magic damage<br>by 60%",
+            "fromDesc": "",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/item/DragonsClaw.png",
             "compositions": [
-                "RecurveBow",
-                "GiantsBelt"
+                "NegatronCloak",
+                "NegatronCloak"
             ],
             "isNormal": true
         },
@@ -321,134 +157,43 @@
             "isEmblem": true
         },
         {
-            "key": "LastWhisper",
-            "ingameKey": "TFT_Item_LastWhisper",
-            "name": "Last Whisper",
-            "desc": "[Unique] When the wearer inflicts a critical hit, the target's Armor is reduced by 70% for 5 seconds. This effect does not stack.",
-            "shortDesc": "Target's<br>armor<br>-70%<br>on crit.",
+            "key": "ElderwoodHeirloom",
+            "ingameKey": "TFT4_Item_ElderwoodSpatulaItem",
+            "name": "Elderwood Sprout",
+            "desc": "[Unique] The holder gains the Elderwood trait.",
+            "shortDesc": "Holder gains<br>Elderwood trait",
             "fromDesc": "",
-            "imageUrl": "//ddragon.leagueoflegends.com/cdn/10.22.1/img/item/3033.png",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/item/ElderwoodHeirloom.png",
             "compositions": [
-                "RecurveBow",
-                "SparringGloves"
-            ],
-            "isUnique": true,
-            "isNormal": true
-        },
-        {
-            "key": "RabadonsDeathcap",
-            "ingameKey": "TFT_Item_RabadonsDeathcap",
-            "name": "Rabadon's Deathcap",
-            "desc": "The holder gains 50 additional Spell Power.",
-            "shortDesc": "+50 SP",
-            "fromDesc": "",
-            "imageUrl": "//ddragon.leagueoflegends.com/cdn/10.22.1/img/item/3089.png",
-            "compositions": [
-                "NeedlesslyLargeRod",
-                "NeedlesslyLargeRod"
-            ],
-            "isNormal": true
-        },
-        {
-            "key": "LudensEcho",
-            "ingameKey": "TFT_Item_LudensEcho",
-            "name": "Luden's Echo",
-            "desc": "When the holder casts their spell, the first target dealt magic damage and up to 3 nearby enemies are dealt an additional 180 magic damage, plus 180 if they are crowd-controlled.",
-            "shortDesc": "Deal 180<br>splash dmg<br>nearby<br>3 enemies",
-            "fromDesc": "",
-            "imageUrl": "//ddragon.leagueoflegends.com/cdn/10.22.1/img/item/3285.png",
-            "compositions": [
-                "NeedlesslyLargeRod",
-                "Tearofthegoddess"
-            ],
-            "isNormal": true
-        },
-        {
-            "key": "LocketoftheIronSolari",
-            "ingameKey": "TFT_Item_LocketOfTheIronSolari",
-            "name": "Locket of the Iron Solari",
-            "desc": "When combat begins, the wearer and all allies within 2 hexes in the same row gain a shield that blocks 300 / 350 / 400 ★ damage for 8 seconds.",
-            "shortDesc": "Gain shield<br>for 8s<br>adjacent allies",
-            "fromDesc": "",
-            "imageUrl": "//ddragon.leagueoflegends.com/cdn/10.22.1/img/item/3190.png",
-            "compositions": [
-                "NeedlesslyLargeRod",
-                "ChainVest"
-            ],
-            "isNormal": true
-        },
-        {
-            "key": "IonicSpark",
-            "ingameKey": "TFT_Item_IonicSpark",
-            "name": "Ionic Spark",
-            "desc": "Enemies within 2 hexes have their Magic Resist reduced by 40% (does not stack). When they cast a spell, they are zapped taking magic damage equal to 225% of their max Mana.",
-            "shortDesc": "Reduce MR and taking Magic Dmg within 2 hexes enemies",
-            "fromDesc": "",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/item/IonicSpark.png",
-            "compositions": [
-                "NeedlesslyLargeRod",
-                "NegatronCloak"
-            ],
-            "isNormal": true
-        },
-        {
-            "key": "Morellonomicon",
-            "ingameKey": "TFT_Item_Morellonomicon",
-            "name": "Morellonomicon",
-            "desc": "[Unique] When the holder deals magic damage with their spell, they burn the target, dealing 25% of the target's maximum Health as true damage over 10 seconds, and reducing healing by 50% for the duration of the burn.",
-            "shortDesc": "Spells burn<br>target dealing<br>25% Max HP<br>reducing healing",
-            "fromDesc": "",
-            "imageUrl": "//ddragon.leagueoflegends.com/cdn/10.22.1/img/item/3165.png",
-            "compositions": [
-                "NeedlesslyLargeRod",
-                "GiantsBelt"
-            ],
-            "isUnique": true,
-            "isNormal": true
-        },
-        {
-            "key": "MantleofDusk",
-            "ingameKey": "TFT4_Item_DragonsoulSpatulaItem",
-            "name": "Spirit of the Dragon",
-            "desc": "[Unique] The holder gains the Dragonsoul trait.",
-            "shortDesc": "Holder gains<br>Dragonsoul trait",
-            "fromDesc": "",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/item/SpiritoftheDragon.png",
-            "compositions": [
-                "NeedlesslyLargeRod",
+                "NegatronCloak",
                 "Spatula"
             ],
-            "affectedTraitKey": "Dragonsoul",
+            "affectedTraitKey": "Elderwood",
             "isUnique": true,
             "isEmblem": true
         },
         {
-            "key": "ArcaneGauntlet",
-            "ingameKey": "TFT_Item_JeweledGauntlet",
-            "name": "Jeweled Gauntlet",
-            "desc": "The holder's spells can cause critical hits, and holder gains +40% bonus critical strike damage.",
-            "shortDesc": "Your spells<br>can crit and<br>40% bonus when crit",
+            "key": "EternalWinter",
+            "ingameKey": "TFT4_Item_OrnnEternalWinter",
+            "name": "Eternal Winter",
+            "desc": "Enemies who damage the wearer have their Attack Speed slowed by 35% for 2 seconds. After being slowed this way 7 time, the attacker is Frozen for the duration instead. An enemy can only be Frozen once every 10 seconds. +200 HP, +25 Armor",
+            "shortDesc": "",
             "fromDesc": "",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/item/ArcaneGauntlet.png",
-            "compositions": [
-                "NeedlesslyLargeRod",
-                "SparringGloves"
-            ],
-            "isNormal": true
+            "imageUrl": "//cdn.lolchess.gg/images/tft/item/EternalWinter.png",
+            "isArtifact": true
         },
         {
-            "key": "BlueSentinel",
-            "ingameKey": "TFT_Item_SeraphsEmbrace",
-            "name": "Blue Buff",
-            "desc": "[Unique] After casting their spell, the wearer's Mana is set to 20.",
-            "shortDesc": "After casting<br>a spell<br>wearer's Mana<br>is set to 20.",
+            "key": "ForceofNature",
+            "ingameKey": "TFT_Item_ForceOfNature",
+            "name": "Force of Nature",
+            "desc": "Wearer's team gains +1 maximum team size.",
+            "shortDesc": "Team size<br>+1",
             "fromDesc": "",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/item/BlueBuff.png",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/item/ForceOfNature.png",
             "compositions": [
-                "Tearofthegoddess",
-                "Tearofthegoddess"
+                "Spatula",
+                "Spatula"
             ],
-            "isUnique": true,
             "isNormal": true
         },
         {
@@ -466,30 +211,202 @@
             "isNormal": true
         },
         {
-            "key": "Chalice",
-            "ingameKey": "TFT_Item_Chalice",
-            "name": "Chalice of Power",
-            "desc": "When combat begins, the wearer and all allies within 1 hex in the same row gain 30 Spell Power for the rest of combat.",
-            "shortDesc": "+30 SP<br>for all allies<br>within 1 hex<br>in same row",
+            "key": "GiantsBelt",
+            "ingameKey": "TFT_Item_GiantsBelt",
+            "name": "Giant's Belt",
+            "desc": "+200 Health",
+            "shortDesc": "+200 HP",
             "fromDesc": "",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/item/ChaliceOfPower2.png",
+            "imageUrl": "//ddragon.leagueoflegends.com/cdn/10.22.1/img/item/1011.png",
+            "isFromItem": true
+        },
+        {
+            "key": "GiantSlayer",
+            "ingameKey": "TFT_Item_MadredsBloodrazor",
+            "name": "Giant Slayer",
+            "desc": "The holder's spells and basic attacks do 10% bonus damage. If the target has more than 1750 maximum Health, the bonus increases to 80%.",
+            "shortDesc": "+10% dmg<br>If enemy has<br>>1750 HP<br>+80% dmg",
+            "fromDesc": "",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/item/GiantSlayer.png",
+            "compositions": [
+                "BFSword",
+                "RecurveBow"
+            ],
+            "isNormal": true
+        },
+        {
+            "key": "GoldCollector",
+            "ingameKey": "TFT4_Item_OrnnTheCollector",
+            "name": "Gold Collector",
+            "desc": "The wearer executes enemies below 10% on hit. Executions gernerate 1 gold. +30 AD, +20% Critical Strike Chance",
+            "shortDesc": "",
+            "fromDesc": "",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/item/GoldCollector.png",
+            "isArtifact": true
+        },
+        {
+            "key": "GuardianAngel",
+            "ingameKey": "TFT_Item_GuardianAngel",
+            "name": "Guardian Angel",
+            "desc": "Prevents the wearer's first death, placing them in stasis instead. After 2 seconds, they return with 400 Health and shed all negative effects.",
+            "shortDesc": "Revive with<br>400 HP<br>after<br>2 secs.",
+            "fromDesc": "",
+            "imageUrl": "//ddragon.leagueoflegends.com/cdn/10.22.1/img/item/3026.png",
+            "compositions": [
+                "BFSword",
+                "ChainVest"
+            ],
+            "isNormal": true
+        },
+        {
+            "key": "GuinsoosRageblade",
+            "ingameKey": "TFT_Item_GuinsoosRageblade",
+            "name": "Guinsoo's Rageblade",
+            "desc": "Basic Attacks grant +6% bonus Attack Speed for the rest of combat. This effect can stack any number of times.",
+            "shortDesc": "+6% AS<br>(Stacked)",
+            "fromDesc": "",
+            "imageUrl": "//ddragon.leagueoflegends.com/cdn/10.22.1/img/item/3124.png",
+            "compositions": [
+                "RecurveBow",
+                "NeedlesslyLargeRod"
+            ],
+            "isNormal": true
+        },
+        {
+            "key": "HandofJustice",
+            "ingameKey": "TFT_Item_UnstableConcoction",
+            "name": "Hand of Justice",
+            "desc": "At the begining of each planning phase, the wearer gains one of the following: Basic attacks and spells deal +40% Damage / Basic attacks and spells heal for 40% of damage dealt.",
+            "shortDesc": "+40% Damage<br>or<br>40% heals on hit",
+            "fromDesc": "",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/item/HandofJustice.png",
             "compositions": [
                 "Tearofthegoddess",
+                "SparringGloves"
+            ],
+            "isNormal": true
+        },
+        {
+            "key": "HextechGunblade",
+            "ingameKey": "TFT_Item_HextechGunblade",
+            "name": "Hextech Gunblade",
+            "desc": "The holder's spells heal them for 33% of the damage dealt. Excess healing fuels a shield that protects the holder against up to 300 damage.",
+            "shortDesc": "Heal 33% from<br>spell Dmg<br>Overhealing<br>convert to shield",
+            "fromDesc": "",
+            "imageUrl": "//ddragon.leagueoflegends.com/cdn/10.22.1/img/item/3146.png",
+            "compositions": [
+                "BFSword",
+                "NeedlesslyLargeRod"
+            ],
+            "isNormal": true
+        },
+        {
+            "key": "InfinityEdge",
+            "ingameKey": "TFT_Item_InfinityEdge",
+            "name": "Infinity Edge",
+            "desc": "[Unique] Grants 75% Critical Strike Chance (including components). Each point of Critical Strike Chance above 100% becomes +1% Critical Strike Damage.",
+            "shortDesc": "+75% Crit.<br>(>100% Crit Chance become<br>+1% Crit Dmg)",
+            "fromDesc": "",
+            "imageUrl": "//ddragon.leagueoflegends.com/cdn/10.22.1/img/item/3031.png",
+            "compositions": [
+                "BFSword",
+                "SparringGloves"
+            ],
+            "isUnique": true,
+            "isNormal": true
+        },
+        {
+            "key": "InfinityForce",
+            "ingameKey": "TFT4_Item_OrnnInfinityForce",
+            "name": "Infinity Force",
+            "desc": "+33 AD, +33 AS, +33 AP, +33 Armor, +33 MR, +33 HP, +33% Critical Strike Chance",
+            "shortDesc": "",
+            "fromDesc": "",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/item/InfinityForce.png",
+            "isArtifact": true
+        },
+        {
+            "key": "IonicSpark",
+            "ingameKey": "TFT_Item_IonicSpark",
+            "name": "Ionic Spark",
+            "desc": "Enemies within 2 hexes have their Magic Resist reduced by 40% (does not stack). When they cast a spell, they are zapped taking magic damage equal to 225% of their max Mana.",
+            "shortDesc": "Reduce MR and taking Magic Dmg within 2 hexes enemies",
+            "fromDesc": "",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/item/IonicSpark.png",
+            "compositions": [
+                "NeedlesslyLargeRod",
                 "NegatronCloak"
             ],
             "isNormal": true
         },
         {
-            "key": "Redemption",
-            "ingameKey": "TFT_Item_Redemption",
-            "name": "Redemption",
-            "desc": "When the wearer dies, allies are healed for 800 Health.",
-            "shortDesc": "Heal allies<br>for 800 HP<br>when die",
+            "key": "IronWill",
+            "ingameKey": "TFT_Item_GargoyleStoneplate",
+            "name": "Gargoyle Stoneplate",
+            "desc": "The holder gains 20 Armor and 20 Magic Resist for each enemy targeting them.",
+            "shortDesc": "+20 Armor<br>+20 MR<br>for each enemy<br>targeting them",
             "fromDesc": "",
-            "imageUrl": "//ddragon.leagueoflegends.com/cdn/10.22.1/img/item/3107.png",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/item/gargoylestoneplate_6254.png",
             "compositions": [
-                "Tearofthegoddess",
-                "GiantsBelt"
+                "ChainVest",
+                "NegatronCloak"
+            ],
+            "isNormal": true
+        },
+        {
+            "key": "LastWhisper",
+            "ingameKey": "TFT_Item_LastWhisper",
+            "name": "Last Whisper",
+            "desc": "[Unique] When the wearer inflicts a critical hit, the target's Armor is reduced by 70% for 5 seconds. This effect does not stack.",
+            "shortDesc": "Target's<br>armor<br>-70%<br>on crit.",
+            "fromDesc": "",
+            "imageUrl": "//ddragon.leagueoflegends.com/cdn/10.22.1/img/item/3033.png",
+            "compositions": [
+                "RecurveBow",
+                "SparringGloves"
+            ],
+            "isUnique": true,
+            "isNormal": true
+        },
+        {
+            "key": "LocketoftheIronSolari",
+            "ingameKey": "TFT_Item_LocketOfTheIronSolari",
+            "name": "Locket of the Iron Solari",
+            "desc": "When combat begins, the wearer and all allies within 2 hexes in the same row gain a shield that blocks 300 / 350 / 400 ★ damage for 8 seconds.",
+            "shortDesc": "Gain shield<br>for 8s<br>adjacent allies",
+            "fromDesc": "",
+            "imageUrl": "//ddragon.leagueoflegends.com/cdn/10.22.1/img/item/3190.png",
+            "compositions": [
+                "NeedlesslyLargeRod",
+                "ChainVest"
+            ],
+            "isNormal": true
+        },
+        {
+            "key": "LordsEdge",
+            "ingameKey": "TFT_Item_Deathblade",
+            "name": "Deathblade",
+            "desc": "Contributing to a kill grants the holder +10 additional Attack Damage for the rest of combat. This effect can stack any number of times (starting at 3).",
+            "shortDesc": "On takedown<br>gain<br>+10 AD",
+            "fromDesc": "",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/item/LordsEdge.png",
+            "compositions": [
+                "BFSword",
+                "BFSword"
+            ],
+            "isNormal": true
+        },
+        {
+            "key": "LudensEcho",
+            "ingameKey": "TFT_Item_LudensEcho",
+            "name": "Luden's Echo",
+            "desc": "When the holder casts their spell, the first target dealt magic damage and up to 3 nearby enemies are dealt an additional 180 magic damage, plus 180 if they are crowd-controlled.",
+            "shortDesc": "Deal 180<br>splash dmg<br>nearby<br>3 enemies",
+            "fromDesc": "",
+            "imageUrl": "//ddragon.leagueoflegends.com/cdn/10.22.1/img/item/3285.png",
+            "compositions": [
+                "NeedlesslyLargeRod",
+                "Tearofthegoddess"
             ],
             "isNormal": true
         },
@@ -510,44 +427,236 @@
             "isEmblem": true
         },
         {
-            "key": "HandofJustice",
-            "ingameKey": "TFT_Item_UnstableConcoction",
-            "name": "Hand of Justice",
-            "desc": "At the begining of each planning phase, the wearer gains one of the following: Basic attacks and spells deal +40% Damage / Basic attacks and spells heal for 40% of damage dealt.",
-            "shortDesc": "+40% Damage<br>or<br>40% heals on hit",
+            "key": "Manazane",
+            "ingameKey": "TFT4_Item_OrnnMuramana",
+            "name": "Manazane",
+            "desc": "After the wearer casts their spell for the first time each combat, they restore 100 Mana over 4 seconds. +15 AD, +15 AS, +15 Mana",
+            "shortDesc": "",
             "fromDesc": "",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/item/HandofJustice.png",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/item/Manazane.png",
+            "isArtifact": true
+        },
+        {
+            "key": "MantleofDusk",
+            "ingameKey": "TFT4_Item_DragonsoulSpatulaItem",
+            "name": "Spirit of the Dragon",
+            "desc": "[Unique] The holder gains the Dragonsoul trait.",
+            "shortDesc": "Holder gains<br>Dragonsoul trait",
+            "fromDesc": "",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/item/SpiritoftheDragon.png",
+            "compositions": [
+                "NeedlesslyLargeRod",
+                "Spatula"
+            ],
+            "affectedTraitKey": "Dragonsoul",
+            "isUnique": true,
+            "isEmblem": true
+        },
+        {
+            "key": "Morellonomicon",
+            "ingameKey": "TFT_Item_Morellonomicon",
+            "name": "Morellonomicon",
+            "desc": "[Unique] When the holder deals magic damage with their spell, they burn the target, dealing 25% of the target's maximum Health as true damage over 10 seconds, and reducing healing by 50% for the duration of the burn.",
+            "shortDesc": "Spells burn<br>target dealing<br>25% Max HP<br>reducing healing",
+            "fromDesc": "",
+            "imageUrl": "//ddragon.leagueoflegends.com/cdn/10.22.1/img/item/3165.png",
+            "compositions": [
+                "NeedlesslyLargeRod",
+                "GiantsBelt"
+            ],
+            "isUnique": true,
+            "isNormal": true
+        },
+        {
+            "key": "NeedlesslyLargeRod",
+            "ingameKey": "TFT_Item_NeedlesslyLargeRod",
+            "name": "Needlessly Large Rod",
+            "desc": "+15% Spell Power",
+            "shortDesc": "AP +15%",
+            "fromDesc": "",
+            "imageUrl": "//ddragon.leagueoflegends.com/cdn/10.22.1/img/item/1058.png",
+            "isFromItem": true
+        },
+        {
+            "key": "NegatronCloak",
+            "ingameKey": "TFT_Item_NegatronCloak",
+            "name": "Negatron Cloak",
+            "desc": "+25 Magic Resist",
+            "shortDesc": "+25 MR",
+            "fromDesc": "",
+            "imageUrl": "//ddragon.leagueoflegends.com/cdn/10.22.1/img/item/1057.png",
+            "isFromItem": true
+        },
+        {
+            "key": "ObsidianCleaver",
+            "ingameKey": "TFT4_Item_OrnnObsidianCleaver",
+            "name": "Obsidian Cleaver",
+            "desc": "The wearer's attacks and spell damage shred enemy Armor and Magic Resistance by 40% for 3 seconds. +200 HP, +30 AD",
+            "shortDesc": "",
+            "fromDesc": "",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/item/ObsidianCleaver.png",
+            "isArtifact": true
+        },
+        {
+            "key": "Quicksilver",
+            "ingameKey": "TFT_Item_Quicksilver",
+            "name": "Quicksilver",
+            "desc": "[Unique] The wearer is immune to crowd control for the first 10 seconds of combat.",
+            "shortDesc": "Immune to CC<br>for first 10s",
+            "fromDesc": "",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/item/Quicksilver.png",
+            "compositions": [
+                "NegatronCloak",
+                "SparringGloves"
+            ],
+            "isUnique": true,
+            "isNormal": true
+        },
+        {
+            "key": "RabadonsDeathcap",
+            "ingameKey": "TFT_Item_RabadonsDeathcap",
+            "name": "Rabadon's Deathcap",
+            "desc": "The holder gains 50 additional Spell Power.",
+            "shortDesc": "+50 SP",
+            "fromDesc": "",
+            "imageUrl": "//ddragon.leagueoflegends.com/cdn/10.22.1/img/item/3089.png",
+            "compositions": [
+                "NeedlesslyLargeRod",
+                "NeedlesslyLargeRod"
+            ],
+            "isNormal": true
+        },
+        {
+            "key": "RanduinsSanctum",
+            "ingameKey": "TFT4_Item_OrnnRanduinsSanctum",
+            "name": "Randuin's Sanctum",
+            "desc": "At the start of combat, all allies adjacent to the wearer gain 40 Armor and Magic Resistance for the rest of combat. +25 Armor, +25 MR, +200 HP",
+            "shortDesc": "",
+            "fromDesc": "",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/item/RanduinsSanctum.png",
+            "isArtifact": true
+        },
+        {
+            "key": "RapidFirecannon",
+            "ingameKey": "TFT_Item_RapidFireCannon",
+            "name": "Rapid Firecannon",
+            "desc": "The holder gains 200% Attack Range, and their Basic Attacks can’t miss.",
+            "shortDesc": "+200%<br>Attack<br>Range",
+            "fromDesc": "",
+            "imageUrl": "//ddragon.leagueoflegends.com/cdn/10.22.1/img/item/3094.png",
+            "compositions": [
+                "RecurveBow",
+                "RecurveBow"
+            ],
+            "isNormal": true
+        },
+        {
+            "key": "RecurveBow",
+            "ingameKey": "TFT_Item_RecurveBow",
+            "name": "Recurve Bow",
+            "desc": "+15% Attack Speed",
+            "shortDesc": "+15% AS",
+            "fromDesc": "",
+            "imageUrl": "//ddragon.leagueoflegends.com/cdn/10.22.1/img/item/1043.png",
+            "isFromItem": true
+        },
+        {
+            "key": "Redemption",
+            "ingameKey": "TFT_Item_Redemption",
+            "name": "Redemption",
+            "desc": "When the wearer dies, allies are healed for 800 Health.",
+            "shortDesc": "Heal allies<br>for 800 HP<br>when die",
+            "fromDesc": "",
+            "imageUrl": "//ddragon.leagueoflegends.com/cdn/10.22.1/img/item/3107.png",
             "compositions": [
                 "Tearofthegoddess",
+                "GiantsBelt"
+            ],
+            "isNormal": true
+        },
+        {
+            "key": "RocketPropelledFist",
+            "ingameKey": "TFT4_Item_OrnnRocketPropelledFist",
+            "name": "Rocket-Propelled Fist",
+            "desc": "At the start of combat, the wearer pulls the farthest enemy into melee range, stunning them for 1.50 seconds. Allies within range will prioritize attacking that enemy. +15 Mana, +25 Armor, +200 HP",
+            "shortDesc": "",
+            "fromDesc": "",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/item/RocketPropelledFist.png",
+            "isArtifact": true
+        },
+        {
+            "key": "RunaansHurricane",
+            "ingameKey": "TFT_Item_RunaansHurricane",
+            "name": "Runaan's Hurricane",
+            "desc": "Basic Attacks fire a bolt at another nearby enemy, dealing 80% of the wearer's Attack Damage and applying on-hit effects. These bolts can critical strike.",
+            "shortDesc": "Attack<br>+1 enemies<br>(80% Dmg)",
+            "fromDesc": "",
+            "imageUrl": "//ddragon.leagueoflegends.com/cdn/10.22.1/img/item/3085.png",
+            "compositions": [
+                "RecurveBow",
+                "NegatronCloak"
+            ],
+            "isNormal": true
+        },
+        {
+            "key": "Shroud",
+            "ingameKey": "TFT_Item_Shroud",
+            "name": "Shroud of Stillness",
+            "desc": "[Unique] When combat begins, shoots a beam straight ahead that delays affected enemies' first spellcast, increasing their max Mana by 35% until they cast.",
+            "shortDesc": "Beamed<br>enemies<br>Max MP<br>+35%",
+            "fromDesc": "",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/item/Shroud.png",
+            "compositions": [
+                "ChainVest",
                 "SparringGloves"
             ],
             "isNormal": true
         },
         {
-            "key": "BrambleVest",
-            "ingameKey": "TFT_Item_BrambleVest",
-            "name": "Bramble Vest",
-            "desc": "Negates bonus damage from incoming critical hits. On being hit by a Basic Attack, deal 80/100/150 ★ magic damage to all nearby enemies (once every 2.5 seconds).",
-            "shortDesc": "Negate<br>bonus dmg<br>from crit. and<br>reflect dmg<br>to enemies",
+            "key": "SparringGloves",
+            "ingameKey": "TFT_Item_SparringGloves",
+            "name": "Sparring Gloves",
+            "desc": "+10% Critical Strike Chance, +10% Dodge Chance",
+            "shortDesc": "+10%<br>Crit chance<br>+10%<br>Dodge chance",
             "fromDesc": "",
-            "imageUrl": "//ddragon.leagueoflegends.com/cdn/10.22.1/img/item/3076.png",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/item/BrawlersGloves.png",
+            "isFromItem": true
+        },
+        {
+            "key": "Spatula",
+            "ingameKey": "TFT_Item_Spatula",
+            "name": "Spatula",
+            "desc": "You will get a special ability",
+            "shortDesc": "You will get<br>special ability",
+            "fromDesc": "",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/item/Spatula.png",
+            "isFromItem": true
+        },
+        {
+            "key": "SpearofShojin",
+            "ingameKey": "TFT_Item_SpearOfShojin",
+            "name": "Spear of Shojin",
+            "desc": "The holder's basic attacks restore 5 Mana on-hit.",
+            "shortDesc": "Restore<br>5 Mana<br>on-hit",
+            "fromDesc": "",
+            "imageUrl": "//ddragon.leagueoflegends.com/cdn/10.22.1/img/item/3161.png",
             "compositions": [
-                "ChainVest",
-                "ChainVest"
+                "BFSword",
+                "Tearofthegoddess"
             ],
             "isNormal": true
         },
         {
-            "key": "IronWill",
-            "ingameKey": "TFT_Item_GargoyleStoneplate",
-            "name": "Gargoyle Stoneplate",
-            "desc": "The holder gains 20 Armor and 20 Magic Resist for each enemy targeting them.",
-            "shortDesc": "+20 Armor<br>+20 MR<br>for each enemy<br>targeting them",
+            "key": "StatikkShiv",
+            "ingameKey": "TFT_Item_StatikkShiv",
+            "name": "Statikk Shiv",
+            "desc": "Every third Basic Attack from the wearer deals 65 magic damage to 3 enemies. This effect can now critically strike, and its crits reduce the Magic Resist of targets hit by 60% for 6 seconds.",
+            "shortDesc": "Deal 65 AP<br>to 3<br>emenies<br>every 3rd atk",
             "fromDesc": "",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/item/gargoylestoneplate_6254.png",
+            "imageUrl": "//ddragon.leagueoflegends.com/cdn/10.22.1/img/item/3087.png",
             "compositions": [
-                "ChainVest",
-                "NegatronCloak"
+                "RecurveBow",
+                "Tearofthegoddess"
             ],
             "isNormal": true
         },
@@ -567,6 +676,60 @@
             "isNormal": true
         },
         {
+            "key": "SwordoftheDivine",
+            "ingameKey": "TFT4_Item_DivineSpatulaItem",
+            "name": "Sword of the Divine",
+            "desc": "[Unique] The holder gains the Divine trait.",
+            "shortDesc": "Holder gains<br>Divine trait",
+            "fromDesc": "",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/item/SwordoftheDivine2.png",
+            "compositions": [
+                "BFSword",
+                "Spatula"
+            ],
+            "affectedTraitKey": "Divine",
+            "isUnique": true,
+            "isNormal": true
+        },
+        {
+            "key": "Tearofthegoddess",
+            "ingameKey": "TFT_Item_TearOfTheGoddess",
+            "name": "Tear of the Goddess",
+            "desc": "+15 Mana",
+            "shortDesc": "+15<br>Starting Mana",
+            "fromDesc": "",
+            "imageUrl": "//ddragon.leagueoflegends.com/cdn/10.22.1/img/item/3070.png",
+            "isFromItem": true
+        },
+        {
+            "key": "ThiefsGloves",
+            "ingameKey": "TFT_Item_ThiefsGloves",
+            "name": "Thief's Gloves",
+            "desc": "At the beginning of each planning phase, the wearer equip 2 temporary items. Temporary items increase in power based on your player level. [Consumes Three item Slots]",
+            "shortDesc": "Fetch two<br>temporary<br>items",
+            "fromDesc": "",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/item/ThiefsGloves.png",
+            "compositions": [
+                "SparringGloves",
+                "SparringGloves"
+            ],
+            "isNormal": true
+        },
+        {
+            "key": "TitansResolve",
+            "ingameKey": "TFT_Item_TitansResolve",
+            "name": "Titan’s Resolve",
+            "desc": "When the wearer takes damage or inflicts a critical hit, they gain a 2% stacking damage bonus. Stacks up to 25 times, at which point the wearer gains 25 Armor and Magic Resistance, and increases in size.",
+            "shortDesc": "+2% dmg<br>stack when<br>taken dmg<br>or crit hit.<br>max 50stacks",
+            "fromDesc": "",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/item/TitansResolve.png",
+            "compositions": [
+                "RecurveBow",
+                "ChainVest"
+            ],
+            "isNormal": true
+        },
+        {
             "key": "VanguardsCuirass",
             "ingameKey": "TFT4_Item_VanguardSpatulaItem",
             "name": "Vanguard's Cuirass",
@@ -581,94 +744,6 @@
             "affectedTraitKey": "Vanguard",
             "isUnique": true,
             "isEmblem": true
-        },
-        {
-            "key": "Shroud",
-            "ingameKey": "TFT_Item_Shroud",
-            "name": "Shroud of Stillness",
-            "desc": "[Unique] When combat begins, shoots a beam straight ahead that delays affected enemies' first spellcast, increasing their max Mana by 35% until they cast.",
-            "shortDesc": "Beamed<br>enemies<br>Max MP<br>+35%",
-            "fromDesc": "",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/item/Shroud.png",
-            "compositions": [
-                "ChainVest",
-                "SparringGloves"
-            ],
-            "isNormal": true
-        },
-        {
-            "key": "DragonsClaw",
-            "ingameKey": "TFT_Item_DragonsClaw",
-            "name": "Dragons Claw",
-            "desc": "Reduces incoming magic damage by 60%",
-            "shortDesc": "Reduce<br>magic damage<br>by 60%",
-            "fromDesc": "",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/item/DragonsClaw.png",
-            "compositions": [
-                "NegatronCloak",
-                "NegatronCloak"
-            ],
-            "isNormal": true
-        },
-        {
-            "key": "Zephyr",
-            "ingameKey": "TFT_Item_Zephyr",
-            "name": "Zephyr",
-            "desc": "[Unique] When combat begins, the wearer summons a whirlwind on the opposite side of the arena that removes the closest enemy from combat for 5 seconds.",
-            "shortDesc": "Banish<br>an enemy<br>for 5 secs",
-            "fromDesc": "",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/item/Zephyr.png",
-            "compositions": [
-                "NegatronCloak",
-                "GiantsBelt"
-            ],
-            "isUnique": true,
-            "isNormal": true
-        },
-        {
-            "key": "ElderwoodHeirloom",
-            "ingameKey": "TFT4_Item_ElderwoodSpatulaItem",
-            "name": "Elderwood Sprout",
-            "desc": "[Unique] The holder gains the Elderwood trait.",
-            "shortDesc": "Holder gains<br>Elderwood trait",
-            "fromDesc": "",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/item/ElderwoodHeirloom.png",
-            "compositions": [
-                "NegatronCloak",
-                "Spatula"
-            ],
-            "affectedTraitKey": "Elderwood",
-            "isUnique": true,
-            "isEmblem": true
-        },
-        {
-            "key": "Quicksilver",
-            "ingameKey": "TFT_Item_Quicksilver",
-            "name": "Quicksilver",
-            "desc": "[Unique] The wearer is immune to crowd control for the first 10 seconds of combat.",
-            "shortDesc": "Immune to CC<br>for first 10s",
-            "fromDesc": "",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/item/Quicksilver.png",
-            "compositions": [
-                "NegatronCloak",
-                "SparringGloves"
-            ],
-            "isUnique": true,
-            "isNormal": true
-        },
-        {
-            "key": "WarmogsArmor",
-            "ingameKey": "TFT_Item_WarmogsArmor",
-            "name": "Warmog's Armor",
-            "desc": "Grants 1000 bonus Health (including components).",
-            "shortDesc": "HP<br>+1000",
-            "fromDesc": "",
-            "imageUrl": "//ddragon.leagueoflegends.com/cdn/10.22.1/img/item/3083.png",
-            "compositions": [
-                "GiantsBelt",
-                "GiantsBelt"
-            ],
-            "isNormal": true
         },
         {
             "key": "WarlordsBanner",
@@ -687,30 +762,16 @@
             "isEmblem": true
         },
         {
-            "key": "Backhand",
-            "ingameKey": "TFT_Item_PowerGauntlet",
-            "name": "Trap Claw",
-            "desc": "Blocks the first enemy spell that hits the wearer, and stuns the spell's caster for 4 seconds.",
-            "shortDesc": "Block a spell<br>and stun<br>the caster<br>for 4secs..",
+            "key": "WarmogsArmor",
+            "ingameKey": "TFT_Item_WarmogsArmor",
+            "name": "Warmog's Armor",
+            "desc": "Grants 1000 bonus Health (including components).",
+            "shortDesc": "HP<br>+1000",
             "fromDesc": "",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/item/Backhand.png",
+            "imageUrl": "//ddragon.leagueoflegends.com/cdn/10.22.1/img/item/3083.png",
             "compositions": [
                 "GiantsBelt",
-                "SparringGloves"
-            ],
-            "isNormal": true
-        },
-        {
-            "key": "ForceofNature",
-            "ingameKey": "TFT_Item_ForceOfNature",
-            "name": "Force of Nature",
-            "desc": "Wearer's team gains +1 maximum team size.",
-            "shortDesc": "Team size<br>+1",
-            "fromDesc": "",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/item/ForceOfNature.png",
-            "compositions": [
-                "Spatula",
-                "Spatula"
+                "GiantsBelt"
             ],
             "isNormal": true
         },
@@ -731,108 +792,33 @@
             "isNormal": true
         },
         {
-            "key": "ThiefsGloves",
-            "ingameKey": "TFT_Item_ThiefsGloves",
-            "name": "Thief's Gloves",
-            "desc": "At the beginning of each planning phase, the wearer equip 2 temporary items. Temporary items increase in power based on your player level. [Consumes Three item Slots]",
-            "shortDesc": "Fetch two<br>temporary<br>items",
+            "key": "ZekesHerald",
+            "ingameKey": "TFT_Item_ZekesHerald",
+            "name": "Zeke's Herald",
+            "desc": "When combat begins, the wearer and all allies within 1 hex in the same row gain +30% Attack Speed for the rest of combat.",
+            "shortDesc": "+30% AS<br>wearer and<br>allies within<br>the 1 hex in<br>the same row",
             "fromDesc": "",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/item/ThiefsGloves.png",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/item/ZekesHerald.png",
             "compositions": [
-                "SparringGloves",
-                "SparringGloves"
+                "BFSword",
+                "GiantsBelt"
             ],
             "isNormal": true
         },
         {
-            "key": "AnimaVisage",
-            "ingameKey": "TFT4_Item_OrnnAnimaVisage",
-            "name": "Anima Visage",
-            "desc": "The wearer regenerates 8% of their maximum Health each second. +200 HP, +25 MR",
-            "shortDesc": "",
+            "key": "Zephyr",
+            "ingameKey": "TFT_Item_Zephyr",
+            "name": "Zephyr",
+            "desc": "[Unique] When combat begins, the wearer summons a whirlwind on the opposite side of the arena that removes the closest enemy from combat for 5 seconds.",
+            "shortDesc": "Banish<br>an enemy<br>for 5 secs",
             "fromDesc": "",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/item/AnimaVisage.png",
-            "isArtifact": true
-        },
-        {
-            "key": "DeathsDefiance",
-            "ingameKey": "TFT4_Item_OrnnDeathsDefiance",
-            "name": "Death's Defiance",
-            "desc": "60% of the damage the wearer receives is instead dealt over 5 seconds as non-lethal damage. +15 AD, +15 AS, +25 Armor",
-            "shortDesc": "",
-            "fromDesc": "",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/item/DeathsDefiance.png",
-            "isArtifact": true
-        },
-        {
-            "key": "EternalWinter",
-            "ingameKey": "TFT4_Item_OrnnEternalWinter",
-            "name": "Eternal Winter",
-            "desc": "Enemies who damage the wearer have their Attack Speed slowed by 35% for 2 seconds. After being slowed this way 7 time, the attacker is Frozen for the duration instead. An enemy can only be Frozen once every 10 seconds. +200 HP, +25 Armor",
-            "shortDesc": "",
-            "fromDesc": "",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/item/EternalWinter.png",
-            "isArtifact": true
-        },
-        {
-            "key": "InfinityForce",
-            "ingameKey": "TFT4_Item_OrnnInfinityForce",
-            "name": "Infinity Force",
-            "desc": "+33 AD, +33 AS, +33 AP, +33 Armor, +33 MR, +33 HP, +33% Critical Strike Chance",
-            "shortDesc": "",
-            "fromDesc": "",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/item/InfinityForce.png",
-            "isArtifact": true
-        },
-        {
-            "key": "Manazane",
-            "ingameKey": "TFT4_Item_OrnnMuramana",
-            "name": "Manazane",
-            "desc": "After the wearer casts their spell for the first time each combat, they restore 100 Mana over 4 seconds. +15 AD, +15 AS, +15 Mana",
-            "shortDesc": "",
-            "fromDesc": "",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/item/Manazane.png",
-            "isArtifact": true
-        },
-        {
-            "key": "ObsidianCleaver",
-            "ingameKey": "TFT4_Item_OrnnObsidianCleaver",
-            "name": "Obsidian Cleaver",
-            "desc": "The wearer's attacks and spell damage shred enemy Armor and Magic Resistance by 40% for 3 seconds. +200 HP, +30 AD",
-            "shortDesc": "",
-            "fromDesc": "",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/item/ObsidianCleaver.png",
-            "isArtifact": true
-        },
-        {
-            "key": "RanduinsSanctum",
-            "ingameKey": "TFT4_Item_OrnnRanduinsSanctum",
-            "name": "Randuin's Sanctum",
-            "desc": "At the start of combat, all allies adjacent to the wearer gain 40 Armor and Magic Resistance for the rest of combat. +25 Armor, +25 MR, +200 HP",
-            "shortDesc": "",
-            "fromDesc": "",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/item/RanduinsSanctum.png",
-            "isArtifact": true
-        },
-        {
-            "key": "RocketPropelledFist",
-            "ingameKey": "TFT4_Item_OrnnRocketPropelledFist",
-            "name": "Rocket-Propelled Fist",
-            "desc": "At the start of combat, the wearer pulls the farthest enemy into melee range, stunning them for 1.50 seconds. Allies within range will prioritize attacking that enemy. +15 Mana, +25 Armor, +200 HP",
-            "shortDesc": "",
-            "fromDesc": "",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/item/RocketPropelledFist.png",
-            "isArtifact": true
-        },
-        {
-            "key": "GoldCollector",
-            "ingameKey": "TFT4_Item_OrnnTheCollector",
-            "name": "Gold Collector",
-            "desc": "The wearer executes enemies below 10% on hit. Executions gernerate 1 gold. +30 AD, +20% Critical Strike Chance",
-            "shortDesc": "",
-            "fromDesc": "",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/item/GoldCollector.png",
-            "isArtifact": true
+            "imageUrl": "//cdn.lolchess.gg/images/tft/item/Zephyr.png",
+            "compositions": [
+                "NegatronCloak",
+                "GiantsBelt"
+            ],
+            "isUnique": true,
+            "isNormal": true
         },
         {
             "key": "ZhonyasParadox",
@@ -843,6 +829,20 @@
             "fromDesc": "",
             "imageUrl": "//cdn.lolchess.gg/images/tft/item/ZhonyasParadox.png",
             "isArtifact": true
+        },
+        {
+            "key": "ZzRotPortal",
+            "ingameKey": "TFT_Item_TitanicHydra",
+            "name": "Zz'Rot Portal",
+            "desc": "At the start of combat, the wearer taunts enemies within 2 hexes for 1 second. When the wearer dies, a Construct with 1500/2250/3000 ★ Health arises and taunts all nearby enemies again.",
+            "shortDesc": "Taunts enemies,<br>Construct arises and<br>taunts again",
+            "fromDesc": "",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/item/ZzRotPortal.png",
+            "compositions": [
+                "RecurveBow",
+                "GiantsBelt"
+            ],
+            "isNormal": true
         }
     ]
 }

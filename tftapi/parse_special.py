@@ -1,4 +1,4 @@
-from meta_data import settraits, setchampions
+from meta_data import settraits, setchampions, setlist
 from meta_data import stat_icons, set_rewards_config
 from meta_data import set_item_iconkey_fix
 

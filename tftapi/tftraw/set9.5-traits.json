@@ -2,6 +2,43 @@
     "season": "set9.5",
     "traits": [
         {
+            "key": "Bastion",
+            "ingameKey": "Set9_Bastion",
+            "name": "Bastion",
+            "desc": "Bastion champions gain Armor and Magic Resist. This is increased by 100% for the first 10 seconds of combat.",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Bastion_normal_1685072597-Bastion-gray.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Bastion_black_1685072597-Bastion-black.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Bastion_white_1685072597-Bastion-white.svg",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "silver",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6,
+                    "max": 7
+                },
+                {
+                    "style": "chromatic",
+                    "min": 8
+                }
+            ],
+            "stats": {
+                "2": "20 Defenses",
+                "4": "45 Defenses",
+                "6": "75 Defenses",
+                "8": "140 Defenses"
+            }
+        },
+        {
             "key": "Bilgewater",
             "ingameKey": "Set9b_Bilgewater",
             "name": "Bilgewater",
@@ -38,131 +75,6 @@
                 "9": "999 + 135% Damage dealt; nearby enemies take 50% of cannonball damage"
             },
             "isPbe": true
-        },
-        {
-            "key": "Darkin",
-            "ingameKey": "Set9b_Darkin",
-            "name": "Darkin",
-            "desc": "",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Darkin_normal_1685076446-Darkin-gray.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Darkin_black_1685076446-Darkin-black.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Darkin_white_1685076446-Darkin-white.svg",
-            "type": "ORIGIN",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 1,
-                    "max": 1
-                },
-                {
-                    "style": "gold",
-                    "min": 2
-                }
-            ],
-            "stats": {
-                "1": "Darkin are possessed by a weapon. When they die, the weapon possesses the nearest ally champion, granting them the weapon's power.",
-                "2": "Weapon powers become 50% stronger.<br><br>Weapon powers are described in each Darkin's Ability tooltip."
-            }
-        },
-        {
-            "key": "Vanquisher",
-            "ingameKey": "Set9b_Vanquisher",
-            "name": "Vanquisher",
-            "desc": "Damage from Vanquisher Abilities can critically strike. Vanquishers gain bonus Critical Strike Chance and Critical Strike Damage.",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Vanquisher_normal_1693031680-Vanquisher-gray.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Vanquisher_black_1693031680-Vanquisher-black.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Vanquisher_white_1693031680-Vanquisher-white.svg",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 3
-                },
-                {
-                    "style": "gold",
-                    "min": 4,
-                    "max": 5
-                },
-                {
-                    "style": "chromatic",
-                    "min": 6
-                }
-            ],
-            "stats": {
-                "2": "15% chance, 10% damage",
-                "4": "35% chance, 35% damage",
-                "6": "55% chance, 55% damage"
-            },
-            "isPbe": true
-        },
-        {
-            "key": "Juggernaut",
-            "ingameKey": "Set9_Armorclad",
-            "name": "Juggernaut",
-            "desc": "Juggernaut champions take less damage as their Health decreases.",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Juggernaut_normal_1685072534-Juggernaut-gray.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Juggernaut_black_1685072534-Juggernaut-black.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Juggernaut_white_1685072534-Juggernaut-white.svg",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 3
-                },
-                {
-                    "style": "silver",
-                    "min": 4,
-                    "max": 5
-                },
-                {
-                    "style": "gold",
-                    "min": 6
-                }
-            ],
-            "stats": {
-                "2": "15% to 25% damage reduction",
-                "4": "20% to 35% damage reduction",
-                "6": "35% to 50% damage reduction"
-            }
-        },
-        {
-            "key": "Bastion",
-            "ingameKey": "Set9_Bastion",
-            "name": "Bastion",
-            "desc": "Bastion champions gain Armor and Magic Resist. This is increased by 100% for the first 10 seconds of combat.",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Bastion_normal_1685072597-Bastion-gray.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Bastion_black_1685072597-Bastion-black.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Bastion_white_1685072597-Bastion-white.svg",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 3
-                },
-                {
-                    "style": "silver",
-                    "min": 4,
-                    "max": 5
-                },
-                {
-                    "style": "gold",
-                    "min": 6,
-                    "max": 7
-                },
-                {
-                    "style": "chromatic",
-                    "min": 8
-                }
-            ],
-            "stats": {
-                "2": "20 Defenses",
-                "4": "45 Defenses",
-                "6": "75 Defenses",
-                "8": "140 Defenses"
-            }
         },
         {
             "key": "Bruiser",
@@ -236,6 +148,31 @@
                 "4": "65% Attack Speed.",
                 "6": "105% Attack Speed.",
                 "8": "150% Attack Speed."
+            }
+        },
+        {
+            "key": "Darkin",
+            "ingameKey": "Set9b_Darkin",
+            "name": "Darkin",
+            "desc": "",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Darkin_normal_1685076446-Darkin-gray.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Darkin_black_1685076446-Darkin-black.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Darkin_white_1685076446-Darkin-white.svg",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "style": "gold",
+                    "min": 2
+                }
+            ],
+            "stats": {
+                "1": "Darkin are possessed by a weapon. When they die, the weapon possesses the nearest ally champion, granting them the weapon's power.",
+                "2": "Weapon powers become 50% stronger.<br><br>Weapon powers are described in each Darkin's Ability tooltip."
             }
         },
         {
@@ -320,6 +257,74 @@
             }
         },
         {
+            "key": "Gunner",
+            "ingameKey": "Set9_Marksman",
+            "name": "Gunner",
+            "desc": "When Gunner champions attack, they gain bonus Attack Damage, up to 8 stacks.",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Gunner_normal_1685072585-Gunner-gray.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Gunner_black_1685072586-Gunner-black.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Gunner_white_1685072586-Gunner-white.svg",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "gold",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "chromatic",
+                    "min": 6
+                }
+            ],
+            "stats": {
+                "2": "7% Attack Damage per attack",
+                "4": "13% Attack Damage per attack",
+                "6": "25% Attack Damage per attack"
+            }
+        },
+        {
+            "key": "Invoker",
+            "ingameKey": "Set9_Preserver",
+            "name": "Invoker",
+            "desc": "Every 3 seconds, your units gain Mana.",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Invoker_normal_1685072460-Invoker-gray.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Invoker_black_1685072460-Invoker-black.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Invoker_white_1685072460-Invoker-white.svg",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "silver",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6,
+                    "max": 7
+                },
+                {
+                    "style": "chromatic",
+                    "min": 8
+                }
+            ],
+            "stats": {
+                "2": "5 to all",
+                "4": "Additional 15 to Invokers",
+                "6": "20 to all, additional 15 to Invokers",
+                "8": "40 to all, and start with an additional 30 Ability Power"
+            }
+        },
+        {
             "key": "Ionia",
             "ingameKey": "Set9_Ionia",
             "name": "Ionia",
@@ -383,13 +388,13 @@
             "isPbe": true
         },
         {
-            "key": "Gunner",
-            "ingameKey": "Set9_Marksman",
-            "name": "Gunner",
-            "desc": "When Gunner champions attack, they gain bonus Attack Damage, up to 8 stacks.",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Gunner_normal_1685072585-Gunner-gray.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Gunner_black_1685072586-Gunner-black.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Gunner_white_1685072586-Gunner-white.svg",
+            "key": "Juggernaut",
+            "ingameKey": "Set9_Armorclad",
+            "name": "Juggernaut",
+            "desc": "Juggernaut champions take less damage as their Health decreases.",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Juggernaut_normal_1685072534-Juggernaut-gray.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Juggernaut_black_1685072534-Juggernaut-black.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Juggernaut_white_1685072534-Juggernaut-white.svg",
             "type": "CLASS",
             "styles": [
                 {
@@ -398,19 +403,19 @@
                     "max": 3
                 },
                 {
-                    "style": "gold",
+                    "style": "silver",
                     "min": 4,
                     "max": 5
                 },
                 {
-                    "style": "chromatic",
+                    "style": "gold",
                     "min": 6
                 }
             ],
             "stats": {
-                "2": "7% Attack Damage per attack",
-                "4": "13% Attack Damage per attack",
-                "6": "25% Attack Damage per attack"
+                "2": "15% to 25% damage reduction",
+                "4": "20% to 35% damage reduction",
+                "6": "35% to 50% damage reduction"
             }
         },
         {
@@ -505,43 +510,6 @@
             "stats": {
                 "3": "Gain the T-Hex.",
                 "6": "Gain bonus loot every round. Each loss counts as 2 losses instead."
-            }
-        },
-        {
-            "key": "Invoker",
-            "ingameKey": "Set9_Preserver",
-            "name": "Invoker",
-            "desc": "Every 3 seconds, your units gain Mana.",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Invoker_normal_1685072460-Invoker-gray.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Invoker_black_1685072460-Invoker-black.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Invoker_white_1685072460-Invoker-white.svg",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 3
-                },
-                {
-                    "style": "silver",
-                    "min": 4,
-                    "max": 5
-                },
-                {
-                    "style": "gold",
-                    "min": 6,
-                    "max": 7
-                },
-                {
-                    "style": "chromatic",
-                    "min": 8
-                }
-            ],
-            "stats": {
-                "2": "5 to all",
-                "4": "Additional 15 to Invokers",
-                "6": "20 to all, additional 15 to Invokers",
-                "8": "40 to all, and start with an additional 30 Ability Power"
             }
         },
         {
@@ -781,6 +749,38 @@
             "stats": {
                 "1": "Gain a placeable Apex Turret with 3 upgrade slots. Upgrades to the Apex Turret will show up in your shop for 6 gold. The Apex Turret shares Heimerdinger's Attack Speed and Ability Power.<br><br>You may only have 1 Apex Turret."
             }
+        },
+        {
+            "key": "Vanquisher",
+            "ingameKey": "Set9b_Vanquisher",
+            "name": "Vanquisher",
+            "desc": "Damage from Vanquisher Abilities can critically strike. Vanquishers gain bonus Critical Strike Chance and Critical Strike Damage.",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Vanquisher_normal_1693031680-Vanquisher-gray.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Vanquisher_black_1693031680-Vanquisher-black.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Vanquisher_white_1693031680-Vanquisher-white.svg",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "gold",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "chromatic",
+                    "min": 6
+                }
+            ],
+            "stats": {
+                "2": "15% chance, 10% damage",
+                "4": "35% chance, 35% damage",
+                "6": "55% chance, 55% damage"
+            },
+            "isPbe": true
         },
         {
             "key": "Void",

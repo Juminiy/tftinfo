@@ -2,6 +2,37 @@
     "season": "set3",
     "traits": [
         {
+            "key": "Blademaster",
+            "ingameKey": "Set3_Blademaster",
+            "name": "Blademaster",
+            "desc": "Blademasters' Basic Attacks have a chance to trigger two additional attacks against their target. These additional attacks deal damage like Basic Attacks and trigger on-hit effects.",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_blademaster.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_blademaster.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_blademaster.png",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 3,
+                    "max": 5
+                },
+                {
+                    "style": "silver",
+                    "min": 6,
+                    "max": 8
+                },
+                {
+                    "style": "gold",
+                    "min": 9
+                }
+            ],
+            "stats": {
+                "3": "30% Chance to trigger",
+                "6": "55% Chance to trigger",
+                "9": "100% Chance to trigger"
+            }
+        },
+        {
             "key": "Blaster",
             "ingameKey": "Blaster",
             "name": "Blaster",
@@ -24,6 +55,62 @@
             "stats": {
                 "2": "3 Additional Attacks",
                 "4": "5 Additional Attacks"
+            }
+        },
+        {
+            "key": "Brawler",
+            "ingameKey": "Set3_Brawler",
+            "name": "Brawler",
+            "desc": "Brawlers gain bonus Maximum Health.",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_brawler.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_brawler.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_brawler.png",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "gold",
+                    "min": 4
+                }
+            ],
+            "stats": {
+                "2": "350 Bonus Health",
+                "4": "650 Bonus Health"
+            }
+        },
+        {
+            "key": "Celestial",
+            "ingameKey": "Set3_Celestial",
+            "name": "Celestial",
+            "desc": "All allies heal for some of the damage they deal with spells and attacks.",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_celestial.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_celestial.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_celestial.png",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "silver",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6
+                }
+            ],
+            "stats": {
+                "2": "15% Healing",
+                "4": "35% Healing",
+                "6": "60% Healing"
             }
         },
         {
@@ -308,90 +395,22 @@
             }
         },
         {
-            "key": "Blademaster",
-            "ingameKey": "Set3_Blademaster",
-            "name": "Blademaster",
-            "desc": "Blademasters' Basic Attacks have a chance to trigger two additional attacks against their target. These additional attacks deal damage like Basic Attacks and trigger on-hit effects.",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_blademaster.png",
-            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_blademaster.png",
-            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_blademaster.png",
+            "key": "Sniper",
+            "ingameKey": "Sniper",
+            "name": "Sniper",
+            "desc": "",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_sniper.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_sniper.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_sniper.png",
             "type": "CLASS",
             "styles": [
                 {
-                    "style": "bronze",
-                    "min": 3,
-                    "max": 5
-                },
-                {
-                    "style": "silver",
-                    "min": 6,
-                    "max": 8
-                },
-                {
                     "style": "gold",
-                    "min": 9
+                    "min": 2
                 }
             ],
             "stats": {
-                "3": "30% Chance to trigger",
-                "6": "55% Chance to trigger",
-                "9": "100% Chance to trigger"
-            }
-        },
-        {
-            "key": "Brawler",
-            "ingameKey": "Set3_Brawler",
-            "name": "Brawler",
-            "desc": "Brawlers gain bonus Maximum Health.",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_brawler.png",
-            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_brawler.png",
-            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_brawler.png",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 3
-                },
-                {
-                    "style": "gold",
-                    "min": 4
-                }
-            ],
-            "stats": {
-                "2": "350 Bonus Health",
-                "4": "650 Bonus Health"
-            }
-        },
-        {
-            "key": "Celestial",
-            "ingameKey": "Set3_Celestial",
-            "name": "Celestial",
-            "desc": "All allies heal for some of the damage they deal with spells and attacks.",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_celestial.png",
-            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_celestial.png",
-            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_celestial.png",
-            "type": "ORIGIN",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 3
-                },
-                {
-                    "style": "silver",
-                    "min": 4,
-                    "max": 5
-                },
-                {
-                    "style": "gold",
-                    "min": 6
-                }
-            ],
-            "stats": {
-                "2": "15% Healing",
-                "4": "35% Healing",
-                "6": "60% Healing"
+                "2": "Snipers deal 15% increased damage for each hex between themselves and their target."
             }
         },
         {
@@ -429,44 +448,6 @@
                 "4": "40% Spell Power",
                 "6": "75% Spell Power",
                 "8": "120% Spell Power"
-            }
-        },
-        {
-            "key": "Void",
-            "ingameKey": "Set3_Void",
-            "name": "Void",
-            "desc": "",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_void.png",
-            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_void.png",
-            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_void.png",
-            "type": "ORIGIN",
-            "styles": [
-                {
-                    "style": "gold",
-                    "min": 3
-                }
-            ],
-            "stats": {
-                "3": "Attacks and spells from Void champions deal true damage."
-            }
-        },
-        {
-            "key": "Sniper",
-            "ingameKey": "Sniper",
-            "name": "Sniper",
-            "desc": "",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_sniper.png",
-            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_sniper.png",
-            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_sniper.png",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "gold",
-                    "min": 2
-                }
-            ],
-            "stats": {
-                "2": "Snipers deal 15% increased damage for each hex between themselves and their target."
             }
         },
         {
@@ -580,6 +561,25 @@
             "stats": {
                 "2": "125 Armor",
                 "4": "250 Armor"
+            }
+        },
+        {
+            "key": "Void",
+            "ingameKey": "Set3_Void",
+            "name": "Void",
+            "desc": "",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_void.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_void.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_void.png",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "gold",
+                    "min": 3
+                }
+            ],
+            "stats": {
+                "3": "Attacks and spells from Void champions deal true damage."
             }
         }
     ]

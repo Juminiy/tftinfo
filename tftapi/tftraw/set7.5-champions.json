@@ -2,192 +2,6 @@
     "season": "set7.5",
     "champions": [
         {
-            "key": "Heimerdinger",
-            "ingameKey": "TFT7b_Heimerdinger",
-            "name": "Heimerdinger",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Heimerdinger_1653030456.png",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/heimerdinger.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Heimerdinger_12.jpg",
-            "traits": [],
-            "isHidden": true,
-            "cost": [
-                0,
-                -1,
-                -1
-            ],
-            "health": [
-                600,
-                1080,
-                1944
-            ],
-            "attackDamage": [
-                50,
-                75,
-                113
-            ],
-            "damagePerSecond": [
-                33,
-                49,
-                73
-            ],
-            "attackRange": 4,
-            "attackSpeed": 0.65,
-            "armor": 25,
-            "magicalResistance": 25,
-            "skill": {
-                "name": "Egg Toss",
-                "imageUrl": "//ddragon.leagueoflegends.com/cdn/12.13.1/img/spell/HeimerdingerE.png",
-                "desc": "Heimerdinger lobs an egg at the highest Health enemy, dealing magic damage and stunning them for 0.5 second.",
-                "startingMana": 50,
-                "skillMana": 100,
-                "stats": [
-                    "Magic Damage: 225 / 325 / 475"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Lulu",
-            "ingameKey": "TFT7b_Lulu",
-            "name": "Lulu",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Lulu_1653029752.png",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/lulu.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Lulu_12.jpg",
-            "traits": [],
-            "isHidden": true,
-            "cost": [
-                0,
-                -1,
-                -1
-            ],
-            "health": [
-                600,
-                1080,
-                1944
-            ],
-            "attackDamage": [
-                50,
-                75,
-                113
-            ],
-            "damagePerSecond": [
-                33,
-                49,
-                73
-            ],
-            "attackRange": 4,
-            "attackSpeed": 0.65,
-            "armor": 25,
-            "magicalResistance": 25,
-            "skill": {
-                "name": "Whimsy",
-                "imageUrl": "//ddragon.leagueoflegends.com/cdn/12.13.1/img/spell/LuluW.png",
-                "desc": "Lulu enchants the nearest units. Enchanted allies gain Attack Speed for 5 seconds. Enchanted enemies are stunned and transformed into harmless dragonlings for 1 seconds. If there are fewer units nearby, Lulu will enchant herself.",
-                "startingMana": 50,
-                "skillMana": 100,
-                "stats": [
-                    "Number of Targets: 3 / 3 / 3",
-                    "Attack Speed %: 40% / 50% / 70%"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Tristana",
-            "ingameKey": "TFT7b_Tristana",
-            "name": "Tristana",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Tristana_1653030415.png",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/tristana.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Tristana_12.jpg",
-            "traits": [],
-            "isHidden": true,
-            "cost": [
-                0,
-                -1,
-                -1
-            ],
-            "health": [
-                600,
-                1080,
-                1944
-            ],
-            "attackDamage": [
-                60,
-                90,
-                135
-            ],
-            "damagePerSecond": [
-                45,
-                68,
-                101
-            ],
-            "attackRange": 4,
-            "attackSpeed": 0.75,
-            "armor": 25,
-            "magicalResistance": 25,
-            "skill": {
-                "name": "Explosive Charge",
-                "imageUrl": "//ddragon.leagueoflegends.com/cdn/12.13.1/img/spell/TristanaE.png",
-                "desc": "Passive: Tristana grants Nomsy bonus Attack Damage.<br><br>Tristana fires up to 1 explosive charges, prioritizing the closest targets without a charge. Charges detonate after 1 seconds, dealing physical damage to nearby enemies and an additional magic damage to the target.",
-                "startingMana": 50,
-                "skillMana": 100,
-                "stats": [
-                    "% Attack Damage: 140% / 170% / 210%",
-                    "Magic Damage: 130 / 160 / 200",
-                    "Bonus Attack Damage: 50 / 75 / 120"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Volibear",
-            "ingameKey": "TFT7b_Volibear",
-            "name": "Volibear",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Volibear_1653029788.png",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/volibear.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Volibear_12.jpg",
-            "traits": [
-                "Shimmerscale",
-                "Dragonmancer"
-            ],
-            "cost": [
-                3,
-                8,
-                26
-            ],
-            "health": [
-                800,
-                1440,
-                2592
-            ],
-            "attackDamage": [
-                50,
-                75,
-                113
-            ],
-            "damagePerSecond": [
-                38,
-                56,
-                84
-            ],
-            "attackRange": 1,
-            "attackSpeed": 0.75,
-            "armor": 50,
-            "magicalResistance": 50,
-            "skill": {
-                "name": "Relentless Storm",
-                "imageUrl": "//ddragon.leagueoflegends.com/cdn/12.13.1/img/passive/Volibear_Icon_P.png",
-                "desc": "Volibear rages, gaining bonus Health. For the rest of combat, every 3rd attack deals bonus magic damage to the target, and magic damage to additional enemies.",
-                "startingMana": 0,
-                "skillMana": 40,
-                "stats": [
-                    "Damage: 115 / 170 / 240",
-                    "Bonus Health: 400 / 700 / 1200"
-                ]
-            },
-            "role": ""
-        },
-        {
             "key": "AoShin",
             "ingameKey": "TFT7_AoShin",
             "name": "Ao Shin",
@@ -278,55 +92,6 @@
                 "stats": [
                     "Stun Duration: 1.25 / 1.5 / 1.75",
                     "Secondary Bolts: 5 / 5 / 7"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Sohm",
-            "ingameKey": "TFT7_AquaticDragon",
-            "name": "Sohm",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Sohm_1660918930-Sohm.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/sohm.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Sohm_12.jpg",
-            "traits": [
-                "Lagoon",
-                "Mage",
-                "Dragons"
-            ],
-            "cost": [
-                7,
-                20,
-                62
-            ],
-            "health": [
-                800,
-                1440,
-                2592
-            ],
-            "attackDamage": [
-                30,
-                45,
-                68
-            ],
-            "damagePerSecond": [
-                23,
-                34,
-                51
-            ],
-            "attackRange": 4,
-            "attackSpeed": 0.75,
-            "armor": 30,
-            "magicalResistance": 30,
-            "skill": {
-                "name": "Tideblossom",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Sohm_1660816993-nilahq.nilah.png",
-                "desc": "Sohm sends out a tide to an unmarked target, marking them with a Tideblossom transfer to nearby target if the enemy dies.<br><br>After 3 casts, his next cast instead summons a vortex under each Tideblossom, daling magic damage to enemies in the area.",
-                "startingMana": 0,
-                "skillMana": 40,
-                "stats": [
-                    "Magic Damage: 165 / 225 / 600",
-                    "Magic Damage: 285 / 400 / 1400"
                 ]
             },
             "role": ""
@@ -476,55 +241,6 @@
             "role": ""
         },
         {
-            "key": "Diana",
-            "ingameKey": "TFT7_Diana",
-            "name": "Diana",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Diana_1653029713.png",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/diana.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Diana_12.jpg",
-            "traits": [
-                "Scalescorn",
-                "Assassin"
-            ],
-            "cost": [
-                3,
-                8,
-                26
-            ],
-            "health": [
-                700,
-                1260,
-                2268
-            ],
-            "attackDamage": [
-                55,
-                83,
-                124
-            ],
-            "damagePerSecond": [
-                41,
-                62,
-                93
-            ],
-            "attackRange": 1,
-            "attackSpeed": 0.75,
-            "armor": 35,
-            "magicalResistance": 35,
-            "skill": {
-                "name": "Pale Cascade",
-                "imageUrl": "//ddragon.leagueoflegends.com/cdn/12.13.1/img/spell/DianaOrbs.png",
-                "desc": "Diana shields herself for 6 seconds and summons number of orbs around her. These orbs burst magic damage when they hit an enemy. When the final orb bursts, her shield refreshes.",
-                "startingMana": 30,
-                "skillMana": 90,
-                "stats": [
-                    "Orbs: 5 / 6 / 7",
-                    "Damage: 90 / 105 / 120",
-                    "Shield Amount: 300 / 350 / 400"
-                ]
-            },
-            "role": ""
-        },
-        {
             "key": "Daeja",
             "ingameKey": "TFT7_DragonBlue",
             "name": "Daeja",
@@ -573,291 +289,50 @@
             "role": ""
         },
         {
-            "key": "Terra",
-            "ingameKey": "TFT7_DragonEarth",
-            "name": "Terra",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Terra_1660918949-Terra.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/terra.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Terra_12.jpg",
+            "key": "Diana",
+            "ingameKey": "TFT7_Diana",
+            "name": "Diana",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Diana_1653029713.png",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/diana.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Diana_12.jpg",
             "traits": [
-                "Monolith",
-                "Dragons"
+                "Scalescorn",
+                "Assassin"
             ],
             "cost": [
+                3,
                 8,
-                23,
-                71
+                26
             ],
             "health": [
-                1050,
-                1890,
-                3402
+                700,
+                1260,
+                2268
             ],
             "attackDamage": [
-                80,
-                120,
-                180
+                55,
+                83,
+                124
             ],
             "damagePerSecond": [
-                52,
-                78,
-                117
-            ],
-            "attackRange": 1,
-            "attackSpeed": 0.65,
-            "armor": 100,
-            "magicalResistance": 100,
-            "skill": {
-                "name": "Earthquake",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Terra_1660872449-taliyah_e.png",
-                "desc": "Terra stomps three times causing an earthquake around them, dealing physical damage. At the end of the earthquake Terra's scales are hardened for 8 seconds, granting Armor and Magic Resist.",
-                "startingMana": 30,
-                "skillMana": 70,
-                "stats": [
-                    "Armor and Magic Resist Damage Percent: 150% / 200% / 2500%",
-                    "Armor and Magic Resist Buff: 130 / 165 / 4000"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Idas",
-            "ingameKey": "TFT7_DragonGold",
-            "name": "Idas",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Idas_1653029461.png",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/idas.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Idas_12.jpg",
-            "traits": [
-                "Shimmerscale",
-                "Guardian",
-                "Dragons"
-            ],
-            "cost": [
-                7,
-                20,
-                62
-            ],
-            "health": [
-                950,
-                1710,
-                3078
-            ],
-            "attackDamage": [
-                90,
-                135,
-                203
-            ],
-            "damagePerSecond": [
-                50,
-                74,
-                111
-            ],
-            "attackRange": 1,
-            "attackSpeed": 0.55,
-            "armor": 60,
-            "magicalResistance": 60,
-            "skill": {
-                "name": "Golden Scales",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Idas_1653184194.png",
-                "desc": "Idas hardens her scales for 2 seconds, reducing incoming damage. She then roars, healing herself and shielding other allies for 5 seconds. The shield grants 30% attack speed while it holds.",
-                "startingMana": 80,
-                "skillMana": 160,
-                "stats": [
-                    "Damage Reduction: 30 / 50 / 300",
-                    "Heal: 450 / 600 / 3000",
-                    "Shield Amount: 150 / 250 / 1200"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "ShiOhYu",
-            "ingameKey": "TFT7_DragonGreen",
-            "name": "Shi Oh Yu",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/ShiOhYu_1653187776.png",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/shiohyu.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/ShiOhYu_12.jpg",
-            "traits": [
-                "Jade",
-                "Mystic",
-                "Dragons"
-            ],
-            "cost": [
-                7,
-                20,
-                62
-            ],
-            "health": [
-                850,
-                1530,
-                2754
-            ],
-            "attackDamage": [
-                75,
-                113,
-                169
-            ],
-            "damagePerSecond": [
-                56,
-                84,
-                127
+                41,
+                62,
+                93
             ],
             "attackRange": 1,
             "attackSpeed": 0.75,
-            "armor": 60,
-            "magicalResistance": 60,
+            "armor": 35,
+            "magicalResistance": 35,
             "skill": {
-                "name": "Jade Form",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/ShiOhYu_1653184508.png",
-                "desc": "Shi Oh Yu enters Jade stance, gaining damage reduction, immunity to crowd control, and empowering her next 3 attacks with special effects that deal damage.<br><br>Attack 1: Deals physical damage and knocks the target into the air for 1 second.<br>Attack 2: Deals true damage<br>Attack 3: Ends the stance, dealing physical damage to all enemies in a line and knocking them up for 1 second.",
+                "name": "Pale Cascade",
+                "imageUrl": "//ddragon.leagueoflegends.com/cdn/12.13.1/img/spell/DianaOrbs.png",
+                "desc": "Diana shields herself for 6 seconds and summons number of orbs around her. These orbs burst magic damage when they hit an enemy. When the final orb bursts, her shield refreshes.",
                 "startingMana": 30,
-                "skillMana": 100,
+                "skillMana": 90,
                 "stats": [
-                    "% Attack Damage: 250 / 300 / 1000",
-                    "Damage Reduction: 20% / 25% / 40%"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Zippy",
-            "ingameKey": "TFT7_DragonGuild",
-            "name": "Zippy",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Zippy_1664508034-Zippy_1661407350-tft7_zippy_square.tft_set7_stage2.png",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/zippy.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Zippy_12.jpg",
-            "traits": [
-                "Guild",
-                "Dragons"
-            ],
-            "cost": [
-                6,
-                17,
-                53
-            ],
-            "health": [
-                800,
-                1440,
-                2592
-            ],
-            "attackDamage": [
-                85,
-                128,
-                191
-            ],
-            "damagePerSecond": [
-                64,
-                96,
-                143
-            ],
-            "attackRange": 1,
-            "attackSpeed": 0.75,
-            "armor": 50,
-            "magicalResistance": 50,
-            "skill": {
-                "name": "Somersault Assault",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Zippy_1660875544-SkaarlSquare.webp",
-                "desc": "Zippy shields himself for 2 seconds and somersaults toward the highest percent health enemy, dealing physical damage and knocking them back slightly.",
-                "startingMana": 40,
-                "skillMana": 100,
-                "stats": [
-                    "Shield Amount: 375 / 450 / 650",
-                    "Percent of Attack Damage: 400% / 425% / 600%"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Syfen",
-            "ingameKey": "TFT7_DragonPurple",
-            "name": "Sy'fen",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Syfen_1653029452.png",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/syfen.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Syfen_12.jpg",
-            "traits": [
-                "Whispers",
-                "Bruiser",
-                "Dragons"
-            ],
-            "cost": [
-                7,
-                20,
-                62
-            ],
-            "health": [
-                900,
-                1620,
-                2916
-            ],
-            "attackDamage": [
-                90,
-                135,
-                203
-            ],
-            "damagePerSecond": [
-                63,
-                94,
-                142
-            ],
-            "attackRange": 1,
-            "attackSpeed": 0.7,
-            "armor": 60,
-            "magicalResistance": 60,
-            "skill": {
-                "name": "Rampage",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Syfen_1653184340.png",
-                "desc": "Sy'fen charges toward the farthest enemy within 2.5 hexes, dealing physical damage and knocking up enemies they pass through.<br><br>After charging, Sy'fen bites an enemy, dealing physical damage and ignoring 33% of the target's Armor.",
-                "startingMana": 100,
-                "skillMana": 170,
-                "stats": [
-                    "Bite Percent of Attack Damage: 450% / 550% / 2500%"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Swain",
-            "ingameKey": "TFT7_DragonSwain",
-            "name": "Tyrant Swain",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Swain_1661160992-Swain,%20Dragon%20Tyrant.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/swain.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Swain_12.jpg",
-            "traits": [
-                "Darkflight",
-                "Dragons"
-            ],
-            "cost": [
-                7,
-                20,
-                62
-            ],
-            "health": [
-                900,
-                1620,
-                2916
-            ],
-            "attackDamage": [
-                40,
-                60,
-                90
-            ],
-            "damagePerSecond": [
-                24,
-                36,
-                54
-            ],
-            "attackRange": 2,
-            "attackSpeed": 0.6,
-            "armor": 70,
-            "magicalResistance": 70,
-            "skill": {
-                "name": "Dragon Master's Decree",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Swain_1660816670-swain_p.png",
-                "desc": "Swain releases his dragonling flock, launching 8 dragonlings toward nearby enemies that each deal magic damage to their target, then return to Swain and heal him for 12% of his missing Health.",
-                "startingMana": 60,
-                "skillMana": 120,
-                "stats": [
-                    "Damage: 90 / 130 / 600"
+                    "Orbs: 5 / 6 / 7",
+                    "Damage: 90 / 105 / 120",
+                    "Shield Amount: 300 / 350 / 400"
                 ]
             },
             "role": ""
@@ -1048,6 +523,101 @@
                 "stats": [
                     "Damage: 200 / 300 / 1500",
                     "Stun Duration: 1.5 / 2 / 8"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Heimerdinger",
+            "ingameKey": "TFT7b_Heimerdinger",
+            "name": "Heimerdinger",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Heimerdinger_1653030456.png",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/heimerdinger.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Heimerdinger_12.jpg",
+            "traits": [],
+            "isHidden": true,
+            "cost": [
+                0,
+                -1,
+                -1
+            ],
+            "health": [
+                600,
+                1080,
+                1944
+            ],
+            "attackDamage": [
+                50,
+                75,
+                113
+            ],
+            "damagePerSecond": [
+                33,
+                49,
+                73
+            ],
+            "attackRange": 4,
+            "attackSpeed": 0.65,
+            "armor": 25,
+            "magicalResistance": 25,
+            "skill": {
+                "name": "Egg Toss",
+                "imageUrl": "//ddragon.leagueoflegends.com/cdn/12.13.1/img/spell/HeimerdingerE.png",
+                "desc": "Heimerdinger lobs an egg at the highest Health enemy, dealing magic damage and stunning them for 0.5 second.",
+                "startingMana": 50,
+                "skillMana": 100,
+                "stats": [
+                    "Magic Damage: 225 / 325 / 475"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Idas",
+            "ingameKey": "TFT7_DragonGold",
+            "name": "Idas",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Idas_1653029461.png",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/idas.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Idas_12.jpg",
+            "traits": [
+                "Shimmerscale",
+                "Guardian",
+                "Dragons"
+            ],
+            "cost": [
+                7,
+                20,
+                62
+            ],
+            "health": [
+                950,
+                1710,
+                3078
+            ],
+            "attackDamage": [
+                90,
+                135,
+                203
+            ],
+            "damagePerSecond": [
+                50,
+                74,
+                111
+            ],
+            "attackRange": 1,
+            "attackSpeed": 0.55,
+            "armor": 60,
+            "magicalResistance": 60,
+            "skill": {
+                "name": "Golden Scales",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Idas_1653184194.png",
+                "desc": "Idas hardens her scales for 2 seconds, reducing incoming damage. She then roars, healing herself and shielding other allies for 5 seconds. The shield grants 30% attack speed while it holds.",
+                "startingMana": 80,
+                "skillMana": 160,
+                "stats": [
+                    "Damage Reduction: 30 / 50 / 300",
+                    "Heal: 450 / 600 / 3000",
+                    "Shield Amount: 150 / 250 / 1200"
                 ]
             },
             "role": ""
@@ -1390,6 +960,52 @@
             "role": ""
         },
         {
+            "key": "Lulu",
+            "ingameKey": "TFT7b_Lulu",
+            "name": "Lulu",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Lulu_1653029752.png",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/lulu.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Lulu_12.jpg",
+            "traits": [],
+            "isHidden": true,
+            "cost": [
+                0,
+                -1,
+                -1
+            ],
+            "health": [
+                600,
+                1080,
+                1944
+            ],
+            "attackDamage": [
+                50,
+                75,
+                113
+            ],
+            "damagePerSecond": [
+                33,
+                49,
+                73
+            ],
+            "attackRange": 4,
+            "attackSpeed": 0.65,
+            "armor": 25,
+            "magicalResistance": 25,
+            "skill": {
+                "name": "Whimsy",
+                "imageUrl": "//ddragon.leagueoflegends.com/cdn/12.13.1/img/spell/LuluW.png",
+                "desc": "Lulu enchants the nearest units. Enchanted allies gain Attack Speed for 5 seconds. Enchanted enemies are stunned and transformed into harmless dragonlings for 1 seconds. If there are fewer units nearby, Lulu will enchant herself.",
+                "startingMana": 50,
+                "skillMana": 100,
+                "stats": [
+                    "Number of Targets: 3 / 3 / 3",
+                    "Attack Speed %: 40% / 50% / 70%"
+                ]
+            },
+            "role": ""
+        },
+        {
             "key": "Lux",
             "ingameKey": "TFT7_Lux",
             "name": "Lux",
@@ -1480,6 +1096,55 @@
                 "skillMana": 90,
                 "stats": [
                     "Base Shield Amount: 200 / 250 / 325"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "MonkeyKing",
+            "ingameKey": "TFT7_Wukong",
+            "name": "Wukong",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/MonkeyKing_1661160962-Wukong.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/monkeyking.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/MonkeyKing_12_1705913761-Wukong.jpg",
+            "traits": [
+                "Jade",
+                "Warrior"
+            ],
+            "cost": [
+                1,
+                3,
+                9
+            ],
+            "health": [
+                650,
+                1170,
+                2106
+            ],
+            "attackDamage": [
+                65,
+                98,
+                146
+            ],
+            "damagePerSecond": [
+                46,
+                68,
+                102
+            ],
+            "attackRange": 1,
+            "attackSpeed": 0.7,
+            "armor": 45,
+            "magicalResistance": 45,
+            "skill": {
+                "name": "Crushing Blow",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/MonkeyKing_1660872185-monkeykingcrushingblow.png",
+                "desc": "Wukong slams his target with his staff, dealing physical damage and stunning them.",
+                "startingMana": 0,
+                "skillMana": 60,
+                "stats": [
+                    "% Attack Damage: 185% / 200% / 250%",
+                    "Stun Duration: 1 / 1.25 / 1.5",
+                    "Base Damage: 50 / 75 / 100"
                 ]
             },
             "role": ""
@@ -2352,6 +2017,55 @@
             "role": ""
         },
         {
+            "key": "ShiOhYu",
+            "ingameKey": "TFT7_DragonGreen",
+            "name": "Shi Oh Yu",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/ShiOhYu_1653187776.png",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/shiohyu.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/ShiOhYu_12.jpg",
+            "traits": [
+                "Jade",
+                "Mystic",
+                "Dragons"
+            ],
+            "cost": [
+                7,
+                20,
+                62
+            ],
+            "health": [
+                850,
+                1530,
+                2754
+            ],
+            "attackDamage": [
+                75,
+                113,
+                169
+            ],
+            "damagePerSecond": [
+                56,
+                84,
+                127
+            ],
+            "attackRange": 1,
+            "attackSpeed": 0.75,
+            "armor": 60,
+            "magicalResistance": 60,
+            "skill": {
+                "name": "Jade Form",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/ShiOhYu_1653184508.png",
+                "desc": "Shi Oh Yu enters Jade stance, gaining damage reduction, immunity to crowd control, and empowering her next 3 attacks with special effects that deal damage.<br><br>Attack 1: Deals physical damage and knocks the target into the air for 1 second.<br>Attack 2: Deals true damage<br>Attack 3: Ends the stance, dealing physical damage to all enemies in a line and knocking them up for 1 second.",
+                "startingMana": 30,
+                "skillMana": 100,
+                "stats": [
+                    "% Attack Damage: 250 / 300 / 1000",
+                    "Damage Reduction: 20% / 25% / 40%"
+                ]
+            },
+            "role": ""
+        },
+        {
             "key": "Shyvana",
             "ingameKey": "TFT7_Shyvana",
             "name": "Shyvana",
@@ -2450,6 +2164,55 @@
             "role": ""
         },
         {
+            "key": "Sohm",
+            "ingameKey": "TFT7_AquaticDragon",
+            "name": "Sohm",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Sohm_1660918930-Sohm.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/sohm.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Sohm_12.jpg",
+            "traits": [
+                "Lagoon",
+                "Mage",
+                "Dragons"
+            ],
+            "cost": [
+                7,
+                20,
+                62
+            ],
+            "health": [
+                800,
+                1440,
+                2592
+            ],
+            "attackDamage": [
+                30,
+                45,
+                68
+            ],
+            "damagePerSecond": [
+                23,
+                34,
+                51
+            ],
+            "attackRange": 4,
+            "attackSpeed": 0.75,
+            "armor": 30,
+            "magicalResistance": 30,
+            "skill": {
+                "name": "Tideblossom",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Sohm_1660816993-nilahq.nilah.png",
+                "desc": "Sohm sends out a tide to an unmarked target, marking them with a Tideblossom transfer to nearby target if the enemy dies.<br><br>After 3 casts, his next cast instead summons a vortex under each Tideblossom, daling magic damage to enemies in the area.",
+                "startingMana": 0,
+                "skillMana": 40,
+                "stats": [
+                    "Magic Damage: 165 / 225 / 600",
+                    "Magic Damage: 285 / 400 / 1400"
+                ]
+            },
+            "role": ""
+        },
+        {
             "key": "Soraka",
             "ingameKey": "TFT7_Soraka",
             "name": "Soraka",
@@ -2492,6 +2255,101 @@
                 "skillMana": 200,
                 "stats": [
                     "Healing: 105 / 165 / 1000"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Swain",
+            "ingameKey": "TFT7_DragonSwain",
+            "name": "Tyrant Swain",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Swain_1661160992-Swain,%20Dragon%20Tyrant.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/swain.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Swain_12.jpg",
+            "traits": [
+                "Darkflight",
+                "Dragons"
+            ],
+            "cost": [
+                7,
+                20,
+                62
+            ],
+            "health": [
+                900,
+                1620,
+                2916
+            ],
+            "attackDamage": [
+                40,
+                60,
+                90
+            ],
+            "damagePerSecond": [
+                24,
+                36,
+                54
+            ],
+            "attackRange": 2,
+            "attackSpeed": 0.6,
+            "armor": 70,
+            "magicalResistance": 70,
+            "skill": {
+                "name": "Dragon Master's Decree",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Swain_1660816670-swain_p.png",
+                "desc": "Swain releases his dragonling flock, launching 8 dragonlings toward nearby enemies that each deal magic damage to their target, then return to Swain and heal him for 12% of his missing Health.",
+                "startingMana": 60,
+                "skillMana": 120,
+                "stats": [
+                    "Damage: 90 / 130 / 600"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Syfen",
+            "ingameKey": "TFT7_DragonPurple",
+            "name": "Sy'fen",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Syfen_1653029452.png",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/syfen.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Syfen_12.jpg",
+            "traits": [
+                "Whispers",
+                "Bruiser",
+                "Dragons"
+            ],
+            "cost": [
+                7,
+                20,
+                62
+            ],
+            "health": [
+                900,
+                1620,
+                2916
+            ],
+            "attackDamage": [
+                90,
+                135,
+                203
+            ],
+            "damagePerSecond": [
+                63,
+                94,
+                142
+            ],
+            "attackRange": 1,
+            "attackSpeed": 0.7,
+            "armor": 60,
+            "magicalResistance": 60,
+            "skill": {
+                "name": "Rampage",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Syfen_1653184340.png",
+                "desc": "Sy'fen charges toward the farthest enemy within 2.5 hexes, dealing physical damage and knocking up enemies they pass through.<br><br>After charging, Sy'fen bites an enemy, dealing physical damage and ignoring 33% of the target's Armor.",
+                "startingMana": 100,
+                "skillMana": 170,
+                "stats": [
+                    "Bite Percent of Attack Damage: 450% / 550% / 2500%"
                 ]
             },
             "role": ""
@@ -2588,6 +2446,101 @@
                 "skillMana": 60,
                 "stats": [
                     "Damage: 160 / 240 / 380"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Terra",
+            "ingameKey": "TFT7_DragonEarth",
+            "name": "Terra",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Terra_1660918949-Terra.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/terra.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Terra_12.jpg",
+            "traits": [
+                "Monolith",
+                "Dragons"
+            ],
+            "cost": [
+                8,
+                23,
+                71
+            ],
+            "health": [
+                1050,
+                1890,
+                3402
+            ],
+            "attackDamage": [
+                80,
+                120,
+                180
+            ],
+            "damagePerSecond": [
+                52,
+                78,
+                117
+            ],
+            "attackRange": 1,
+            "attackSpeed": 0.65,
+            "armor": 100,
+            "magicalResistance": 100,
+            "skill": {
+                "name": "Earthquake",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Terra_1660872449-taliyah_e.png",
+                "desc": "Terra stomps three times causing an earthquake around them, dealing physical damage. At the end of the earthquake Terra's scales are hardened for 8 seconds, granting Armor and Magic Resist.",
+                "startingMana": 30,
+                "skillMana": 70,
+                "stats": [
+                    "Armor and Magic Resist Damage Percent: 150% / 200% / 2500%",
+                    "Armor and Magic Resist Buff: 130 / 165 / 4000"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Tristana",
+            "ingameKey": "TFT7b_Tristana",
+            "name": "Tristana",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Tristana_1653030415.png",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/tristana.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Tristana_12.jpg",
+            "traits": [],
+            "isHidden": true,
+            "cost": [
+                0,
+                -1,
+                -1
+            ],
+            "health": [
+                600,
+                1080,
+                1944
+            ],
+            "attackDamage": [
+                60,
+                90,
+                135
+            ],
+            "damagePerSecond": [
+                45,
+                68,
+                101
+            ],
+            "attackRange": 4,
+            "attackSpeed": 0.75,
+            "armor": 25,
+            "magicalResistance": 25,
+            "skill": {
+                "name": "Explosive Charge",
+                "imageUrl": "//ddragon.leagueoflegends.com/cdn/12.13.1/img/spell/TristanaE.png",
+                "desc": "Passive: Tristana grants Nomsy bonus Attack Damage.<br><br>Tristana fires up to 1 explosive charges, prioritizing the closest targets without a charge. Charges detonate after 1 seconds, dealing physical damage to nearby enemies and an additional magic damage to the target.",
+                "startingMana": 50,
+                "skillMana": 100,
+                "stats": [
+                    "% Attack Damage: 140% / 170% / 210%",
+                    "Magic Damage: 130 / 160 / 200",
+                    "Bonus Attack Damage: 50 / 75 / 120"
                 ]
             },
             "role": ""
@@ -2736,50 +2689,49 @@
             "role": ""
         },
         {
-            "key": "MonkeyKing",
-            "ingameKey": "TFT7_Wukong",
-            "name": "Wukong",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/MonkeyKing_1661160962-Wukong.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/monkeyking.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/MonkeyKing_12_1705913761-Wukong.jpg",
+            "key": "Volibear",
+            "ingameKey": "TFT7b_Volibear",
+            "name": "Volibear",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Volibear_1653029788.png",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/volibear.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Volibear_12.jpg",
             "traits": [
-                "Jade",
-                "Warrior"
+                "Shimmerscale",
+                "Dragonmancer"
             ],
             "cost": [
-                1,
                 3,
-                9
+                8,
+                26
             ],
             "health": [
-                650,
-                1170,
-                2106
+                800,
+                1440,
+                2592
             ],
             "attackDamage": [
-                65,
-                98,
-                146
+                50,
+                75,
+                113
             ],
             "damagePerSecond": [
-                46,
-                68,
-                102
+                38,
+                56,
+                84
             ],
             "attackRange": 1,
-            "attackSpeed": 0.7,
-            "armor": 45,
-            "magicalResistance": 45,
+            "attackSpeed": 0.75,
+            "armor": 50,
+            "magicalResistance": 50,
             "skill": {
-                "name": "Crushing Blow",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/MonkeyKing_1660872185-monkeykingcrushingblow.png",
-                "desc": "Wukong slams his target with his staff, dealing physical damage and stunning them.",
+                "name": "Relentless Storm",
+                "imageUrl": "//ddragon.leagueoflegends.com/cdn/12.13.1/img/passive/Volibear_Icon_P.png",
+                "desc": "Volibear rages, gaining bonus Health. For the rest of combat, every 3rd attack deals bonus magic damage to the target, and magic damage to additional enemies.",
                 "startingMana": 0,
-                "skillMana": 60,
+                "skillMana": 40,
                 "stats": [
-                    "% Attack Damage: 185% / 200% / 250%",
-                    "Stun Duration: 1 / 1.25 / 1.5",
-                    "Base Damage: 50 / 75 / 100"
+                    "Damage: 115 / 170 / 240",
+                    "Bonus Health: 400 / 700 / 1200"
                 ]
             },
             "role": ""
@@ -3021,6 +2973,54 @@
                 "stats": [
                     "Damage: 200 / 300 / 600",
                     "Percent of Attack Damage: 110% / 115% / 120%"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Zippy",
+            "ingameKey": "TFT7_DragonGuild",
+            "name": "Zippy",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Zippy_1664508034-Zippy_1661407350-tft7_zippy_square.tft_set7_stage2.png",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/zippy.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Zippy_12.jpg",
+            "traits": [
+                "Guild",
+                "Dragons"
+            ],
+            "cost": [
+                6,
+                17,
+                53
+            ],
+            "health": [
+                800,
+                1440,
+                2592
+            ],
+            "attackDamage": [
+                85,
+                128,
+                191
+            ],
+            "damagePerSecond": [
+                64,
+                96,
+                143
+            ],
+            "attackRange": 1,
+            "attackSpeed": 0.75,
+            "armor": 50,
+            "magicalResistance": 50,
+            "skill": {
+                "name": "Somersault Assault",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Zippy_1660875544-SkaarlSquare.webp",
+                "desc": "Zippy shields himself for 2 seconds and somersaults toward the highest percent health enemy, dealing physical damage and knocking them back slightly.",
+                "startingMana": 40,
+                "skillMana": 100,
+                "stats": [
+                    "Shield Amount: 375 / 450 / 650",
+                    "Percent of Attack Damage: 400% / 425% / 600%"
                 ]
             },
             "role": ""

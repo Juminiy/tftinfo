@@ -2,198 +2,6 @@
     "season": "set4.5",
     "champions": [
         {
-            "key": "Diana",
-            "ingameKey": "TFT4b_Diana",
-            "name": "Diana",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set4.5/Diana.png",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/diana.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Diana_6.jpg",
-            "traits": [
-                "Spirit",
-                "Assassin"
-            ],
-            "cost": [
-                1,
-                3,
-                9
-            ],
-            "health": [
-                550,
-                990,
-                1782
-            ],
-            "attackDamage": [
-                50,
-                90,
-                162
-            ],
-            "damagePerSecond": [
-                35,
-                63,
-                113
-            ],
-            "attackRange": 1,
-            "attackSpeed": 0.7,
-            "armor": 30,
-            "magicalResistance": 20,
-            "skill": {
-                "name": "Pale Cascade",
-                "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/diana_palecascade.png",
-                "desc": "Diana shields herself against damage over 4 seconds and summons some orbs to orbit around her. These orbs explode for magic damage when they hit an enemy, refreshing her Shield the final one explodes.",
-                "startingMana": 0,
-                "skillMana": 70,
-                "stats": [
-                    "Orbs: 4 / 5 / 6",
-                    "Damage: 80 / 85 / 90",
-                    "Shield Amount: 200 / 300 / 450"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Kindred",
-            "ingameKey": "TFT4b_Kindred",
-            "name": "Kindred",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set4.5/Kindred.png",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/kindred.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Kindred_6_1705912978-Kindred_5.jpg",
-            "traits": [
-                "Spirit",
-                "Executioner"
-            ],
-            "cost": [
-                3,
-                8,
-                26
-            ],
-            "health": [
-                650,
-                1170,
-                2106
-            ],
-            "attackDamage": [
-                70,
-                126,
-                227
-            ],
-            "damagePerSecond": [
-                56,
-                101,
-                181
-            ],
-            "attackRange": 3,
-            "attackSpeed": 0.8,
-            "armor": 20,
-            "magicalResistance": 20,
-            "skill": {
-                "name": "Dance of Dread",
-                "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/kindred_danceofdread.png",
-                "desc": "Wolf mauls Kindred's target, dealing magic damage and reducing their healing by 50% for 5 seconds. Meanwhile, Lamb leaps away from Kindred's target.",
-                "startingMana": 0,
-                "skillMana": 35,
-                "stats": [
-                    "Damage: 400 / 600 / 1000"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Morgana",
-            "ingameKey": "TFT4b_Morgana",
-            "name": "Morgana",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set4.5/Morgana.png",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/morgana.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Morgana_6_1705912682-Morgana_5.jpg",
-            "traits": [
-                "Enlightened",
-                "Syphoner"
-            ],
-            "cost": [
-                4,
-                11,
-                35
-            ],
-            "health": [
-                750,
-                1350,
-                2430
-            ],
-            "attackDamage": [
-                50,
-                90,
-                162
-            ],
-            "damagePerSecond": [
-                35,
-                63,
-                113
-            ],
-            "attackRange": 2,
-            "attackSpeed": 0.7,
-            "armor": 60,
-            "magicalResistance": 60,
-            "skill": {
-                "name": "Hallowed Ground",
-                "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/morgana_hallowedground.png",
-                "desc": "Morgana hallows the ground beneath a random enemy, dealing magic damage to enemies over 5 seconds, shredding their Attack Damage.",
-                "startingMana": 60,
-                "skillMana": 120,
-                "stats": [
-                    "Damage: 250 / 400 / 1600",
-                    "AD Reduction: 40% / 40% / 80%"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Zed",
-            "ingameKey": "TFT4b_Zed",
-            "name": "Zed",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set4.5/Zed.png",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/zed.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Zed_6.jpg",
-            "traits": [
-                "Ninja",
-                "Slayer"
-            ],
-            "cost": [
-                2,
-                5,
-                17
-            ],
-            "health": [
-                600,
-                1080,
-                1944
-            ],
-            "attackDamage": [
-                55,
-                99,
-                178
-            ],
-            "damagePerSecond": [
-                41,
-                74,
-                134
-            ],
-            "attackRange": 1,
-            "attackSpeed": 0.75,
-            "armor": 20,
-            "magicalResistance": 20,
-            "skill": {
-                "name": "Contempt For The Weak",
-                "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/zed_contemptfortheweak.png",
-                "desc": "Innate: When combat starts, Zed teleports to the enemy backline.\r\nPassive: Every third attack, Zed deals bonus magic damage and steals % of the target's current Attack Damage.",
-                "startingMana": 0,
-                "skillMana": 0,
-                "stats": [
-                    "Attack Damage Stolen: 30% / 30% / 30%",
-                    "Damage: 25 / 50 / 75"
-                ]
-            },
-            "role": ""
-        },
-        {
             "key": "Aatrox",
             "ingameKey": "TFT4_Aatrox",
             "name": "Aatrox",
@@ -618,6 +426,55 @@
                 "stats": [
                     "Damage: 550 / 850 / 1400",
                     "Damage Falloff: 25% / 20% / 15%"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Diana",
+            "ingameKey": "TFT4b_Diana",
+            "name": "Diana",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set4.5/Diana.png",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/diana.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Diana_6.jpg",
+            "traits": [
+                "Spirit",
+                "Assassin"
+            ],
+            "cost": [
+                1,
+                3,
+                9
+            ],
+            "health": [
+                550,
+                990,
+                1782
+            ],
+            "attackDamage": [
+                50,
+                90,
+                162
+            ],
+            "damagePerSecond": [
+                35,
+                63,
+                113
+            ],
+            "attackRange": 1,
+            "attackSpeed": 0.7,
+            "armor": 30,
+            "magicalResistance": 20,
+            "skill": {
+                "name": "Pale Cascade",
+                "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/diana_palecascade.png",
+                "desc": "Diana shields herself against damage over 4 seconds and summons some orbs to orbit around her. These orbs explode for magic damage when they hit an enemy, refreshing her Shield the final one explodes.",
+                "startingMana": 0,
+                "skillMana": 70,
+                "stats": [
+                    "Orbs: 4 / 5 / 6",
+                    "Damage: 80 / 85 / 90",
+                    "Shield Amount: 200 / 300 / 450"
                 ]
             },
             "role": ""
@@ -1149,6 +1006,53 @@
             "role": ""
         },
         {
+            "key": "Kindred",
+            "ingameKey": "TFT4b_Kindred",
+            "name": "Kindred",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set4.5/Kindred.png",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/kindred.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Kindred_6_1705912978-Kindred_5.jpg",
+            "traits": [
+                "Spirit",
+                "Executioner"
+            ],
+            "cost": [
+                3,
+                8,
+                26
+            ],
+            "health": [
+                650,
+                1170,
+                2106
+            ],
+            "attackDamage": [
+                70,
+                126,
+                227
+            ],
+            "damagePerSecond": [
+                56,
+                101,
+                181
+            ],
+            "attackRange": 3,
+            "attackSpeed": 0.8,
+            "armor": 20,
+            "magicalResistance": 20,
+            "skill": {
+                "name": "Dance of Dread",
+                "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/kindred_danceofdread.png",
+                "desc": "Wolf mauls Kindred's target, dealing magic damage and reducing their healing by 50% for 5 seconds. Meanwhile, Lamb leaps away from Kindred's target.",
+                "startingMana": 0,
+                "skillMana": 35,
+                "stats": [
+                    "Damage: 400 / 600 / 1000"
+                ]
+            },
+            "role": ""
+        },
+        {
             "key": "LeeSin",
             "ingameKey": "TFT4_LeeSin",
             "name": "Lee Sin",
@@ -1334,6 +1238,54 @@
                 "stats": [
                     "Percent of Attack Damage: 240% / 250% / 260%",
                     "Stun Duration: 1.5 / 2 / 3"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Morgana",
+            "ingameKey": "TFT4b_Morgana",
+            "name": "Morgana",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set4.5/Morgana.png",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/morgana.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Morgana_6_1705912682-Morgana_5.jpg",
+            "traits": [
+                "Enlightened",
+                "Syphoner"
+            ],
+            "cost": [
+                4,
+                11,
+                35
+            ],
+            "health": [
+                750,
+                1350,
+                2430
+            ],
+            "attackDamage": [
+                50,
+                90,
+                162
+            ],
+            "damagePerSecond": [
+                35,
+                63,
+                113
+            ],
+            "attackRange": 2,
+            "attackSpeed": 0.7,
+            "armor": 60,
+            "magicalResistance": 60,
+            "skill": {
+                "name": "Hallowed Ground",
+                "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/morgana_hallowedground.png",
+                "desc": "Morgana hallows the ground beneath a random enemy, dealing magic damage to enemies over 5 seconds, shredding their Attack Damage.",
+                "startingMana": 60,
+                "skillMana": 120,
+                "stats": [
+                    "Damage: 250 / 400 / 1600",
+                    "AD Reduction: 40% / 40% / 80%"
                 ]
             },
             "role": ""
@@ -2729,6 +2681,54 @@
                 "stats": [
                     "Healing: 30% / 45% / 90%",
                     "Attack Speed: 30% / 40% / 60%"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Zed",
+            "ingameKey": "TFT4b_Zed",
+            "name": "Zed",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/champions/set4.5/Zed.png",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/zed.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Zed_6.jpg",
+            "traits": [
+                "Ninja",
+                "Slayer"
+            ],
+            "cost": [
+                2,
+                5,
+                17
+            ],
+            "health": [
+                600,
+                1080,
+                1944
+            ],
+            "attackDamage": [
+                55,
+                99,
+                178
+            ],
+            "damagePerSecond": [
+                41,
+                74,
+                134
+            ],
+            "attackRange": 1,
+            "attackSpeed": 0.75,
+            "armor": 20,
+            "magicalResistance": 20,
+            "skill": {
+                "name": "Contempt For The Weak",
+                "imageUrl": "//cdn.lolchess.gg/images/tft/champion-skills/zed_contemptfortheweak.png",
+                "desc": "Innate: When combat starts, Zed teleports to the enemy backline.\r\nPassive: Every third attack, Zed deals bonus magic damage and steals % of the target's current Attack Damage.",
+                "startingMana": 0,
+                "skillMana": 0,
+                "stats": [
+                    "Attack Damage Stolen: 30% / 30% / 30%",
+                    "Damage: 25 / 50 / 75"
                 ]
             },
             "role": ""

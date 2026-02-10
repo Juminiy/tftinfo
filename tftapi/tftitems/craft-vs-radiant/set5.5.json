@@ -1,19 +1,149 @@
 [
     {
         "craftable": {
-            "name": "LordsEdge",
-            "compositions": "sword+sword",
+            "name": "ArcaneGauntlet",
+            "compositions": "rod+glove",
             "basic_attrs": [
-                "+20AD"
+                "+15%CR",
+                "+10AP"
             ],
-            "add_attrs": "Contributing to a kill grants the holder +10 Attack Damage for the rest of combat.<br>This effect can stack any number of times (starting at 4)."
+            "add_attrs": "The holder's magic and true damage from their Ability can critically strike. The holder gains 40% bonus Critical Strike Damage."
         },
         "radiant": {
-            "name": "RadiantDeathblade",
+            "name": "RadiantJeweledGauntlet",
             "basic_attrs": [
-                "+20AD"
+                "+15%CR",
+                "+10AP"
             ],
-            "add_attrs": "Contributing to a kill grants the holder 15 Attack Damage for the rest of combat. This effect can stack any number of times (starting at 4)."
+            "add_attrs": "The holder's magic and true damage from their Ability can critically strike. The holder gains 90% bonus Critical Strike Damage."
+        }
+    },
+    {
+        "craftable": {
+            "name": "Backhand",
+            "compositions": "belt+glove",
+            "basic_attrs": [
+                "+15%DC",
+                "+150HP"
+            ],
+            "add_attrs": "When combat begins, the holder and all allies within 1 hex(es) in the same row gain a shield that blocks the first enemy Ability."
+        },
+        "radiant": {
+            "name": "RadiantTrapClaw",
+            "basic_attrs": [
+                "+15%DC",
+                "+150HP"
+            ],
+            "add_attrs": "[Unique] When combat begins, the holder and all allies gain a shield that blocks the first enemy Ability.<br><br>Radiant Bonus: +50 Health for all allies at the start of combat."
+        }
+    },
+    {
+        "craftable": {
+            "name": "Bloodthirster",
+            "compositions": "sword+cloak",
+            "basic_attrs": [
+                "+10AD",
+                "+20MR"
+            ],
+            "add_attrs": "Physical damage heals the holder for 33% of the damage dealt.<br><br>Upon falling below 40% Health, the holder gains a 30% max health shield that lasts up to 5 seconds."
+        },
+        "radiant": {
+            "name": "RadiantBloodthirster",
+            "basic_attrs": [
+                "+30AD",
+                "+20MR"
+            ],
+            "add_attrs": "Physical damage heals the holder for 60% of the damage dealt. Upon falling below 40% Health. the holder gain a 40% max Health shield that lasts up to 5 seconds<br><br>Radiant Bounus: +20 Attack Damage"
+        }
+    },
+    {
+        "craftable": {
+            "name": "BlueSentinel",
+            "compositions": "tear+tear",
+            "basic_attrs": [
+                "+30MP"
+            ],
+            "add_attrs": "After casting their Ability, the holder gains 20 mana.<br><br>[Unique - Only One Per Champion]"
+        },
+        "radiant": {
+            "name": "RadiantBlueBuff",
+            "basic_attrs": [
+                "+30MP",
+                "+40AP"
+            ],
+            "add_attrs": "[Unique] After casting their Ability, the holder gains 30 mana.<br><br>Radiant Bonus: +40 Ability Power"
+        }
+    },
+    {
+        "craftable": {
+            "name": "BrambleVest",
+            "compositions": "vest+vest",
+            "basic_attrs": [
+                "+40AR"
+            ],
+            "add_attrs": "Negates bonus damage from incoming critical strikes. On being hit by an attack, deal 80/100/150 \u2605 magic damage to all nearby enemies (once every 2.5 seconds)."
+        },
+        "radiant": {
+            "name": "RadiantBrambleVest",
+            "basic_attrs": [
+                "+40AR"
+            ],
+            "add_attrs": "Negates bonus damage from incoming critical hits. On being hit by a Basic Attack, deal 250/300/350 \u2605 magic damage to all nearby enemies (once every 2.5 seconds).<br><br>Radiant Bonus: Regenerate 2% max Health per second"
+        }
+    },
+    {
+        "craftable": {
+            "name": "Chalice",
+            "compositions": "cloak+tear",
+            "basic_attrs": [
+                "+20MR",
+                "+15MP"
+            ],
+            "add_attrs": "When combat begins, the holder and all allies within 1 hex in the same row gain 30 Ability Power for the rest of combat."
+        },
+        "radiant": {
+            "name": "RadiantChaliceofPower",
+            "basic_attrs": [
+                "+20MR",
+                "+15MP"
+            ],
+            "add_attrs": "When combat begins, the holder and all allies within 1 hex in the same row gain 50 Ability Power and 10% Spellvamp for the rest of combat."
+        }
+    },
+    {
+        "craftable": {
+            "name": "DragonsClaw",
+            "compositions": "cloak+cloak",
+            "basic_attrs": [
+                "+200MR"
+            ],
+            "add_attrs": "Grants 200 bonus Magic Resist (including components). On being hit by magic or true damage from an Ability, launch a fireball at the Ability's caster that deals magic damage equal to 30% of their max Health (1 second cooldown)."
+        },
+        "radiant": {
+            "name": "RadiantDragonsClaw",
+            "basic_attrs": [
+                "+300MR"
+            ],
+            "add_attrs": "Grants 300 bonus Magic Resist (including components). On being hit by magic or true damage from an Ability, launch a fireball at the Ability's caster that deals magic damage equal to 40% of their max Health (1 second cooldown).<br><br>Radiant Bonus: Regenerate 2% max Health per second"
+        }
+    },
+    {
+        "craftable": {
+            "name": "FrozenHeart",
+            "compositions": "vest+tear",
+            "basic_attrs": [
+                "+20AR",
+                "+15MP"
+            ],
+            "add_attrs": "Reduces the Attack Speed of enemies within 2 hexes by 25%.<br><br>[Unique - Only One Per Champion]"
+        },
+        "radiant": {
+            "name": "RadiantFrozenHeart",
+            "basic_attrs": [
+                "+20AR",
+                "+45MP"
+            ],
+            "add_attrs": "[Unique] Reduces the Attack Speed of enemies within 2 hexes by 50%.<br><br>Radiant Bonus: +30 Starting Mana"
         }
     },
     {
@@ -33,45 +163,6 @@
                 "+10AS"
             ],
             "add_attrs": "The holder's Abilities and attacks do 40% bonus damage. If the target has more than 1400 maximum Health, the bonus increases to 80%."
-        }
-    },
-    {
-        "craftable": {
-            "name": "HextechGunblade",
-            "compositions": "sword+rod",
-            "basic_attrs": [
-                "+10AD",
-                "+10AP"
-            ],
-            "add_attrs": "The holder's magic and true damage from Abilities heal them for 33% of the damage dealt. Excess healing fuels a shield that protects the holder against up to 400 damage."
-        },
-        "radiant": {
-            "name": "RadiantHextechGunblade",
-            "basic_attrs": [
-                "+10AD",
-                "+40AP"
-            ],
-            "add_attrs": "The holder's magic and true damage from Abilities heal them for 40% of the damage dealt. Excess healing fuels a shield that protects the holder against up to 300 damage. The holder also heals their lowest health ally for the same amount.<br><br>Radiant Bonus: +30 Ability Power"
-        }
-    },
-    {
-        "craftable": {
-            "name": "SpearofShojin",
-            "compositions": "sword+tear",
-            "basic_attrs": [
-                "+10AD",
-                "+15MP"
-            ],
-            "add_attrs": "The holder's attacks restore 8 additional Mana."
-        },
-        "radiant": {
-            "name": "RadiantSpearofShojin",
-            "basic_attrs": [
-                "+10AD",
-                "+15MP",
-                "+20AP"
-            ],
-            "add_attrs": "The wearer's Basic Attacks restore 15 additional Mana.<br><br>Radiant Bonus: +20 Ability Power"
         }
     },
     {
@@ -96,40 +187,59 @@
     },
     {
         "craftable": {
-            "name": "Bloodthirster",
-            "compositions": "sword+cloak",
+            "name": "GuinsoosRageblade",
+            "compositions": "bow+rod",
             "basic_attrs": [
-                "+10AD",
-                "+20MR"
+                "+10AP",
+                "+10AS"
             ],
-            "add_attrs": "Physical damage heals the holder for 33% of the damage dealt.<br><br>Upon falling below 40% Health, the holder gains a 30% max health shield that lasts up to 5 seconds."
+            "add_attrs": "Attacks grant +6% bonus Attack Speed for the rest of combat.<br><br>This effect can stack any number of times."
         },
         "radiant": {
-            "name": "RadiantBloodthirster",
+            "name": "RadiantGuinsoosRageblade",
             "basic_attrs": [
-                "+30AD",
-                "+20MR"
+                "+10AP",
+                "+40AS"
             ],
-            "add_attrs": "Physical damage heals the holder for 60% of the damage dealt. Upon falling below 40% Health. the holder gain a 40% max Health shield that lasts up to 5 seconds<br><br>Radiant Bounus: +20 Attack Damage"
+            "add_attrs": "Attacks grant +10% bonus Attack Speed for the rest of combat.<br><br>This effect can stack any number of times.<br><br>Radiant Bonus: +30 Attack Speed"
         }
     },
     {
         "craftable": {
-            "name": "ZekesHerald",
-            "compositions": "sword+belt",
+            "name": "HandofJustice",
+            "compositions": "tear+glove",
             "basic_attrs": [
-                "+10AD",
-                "+150HP"
+                "+15%CR",
+                "+15MP"
             ],
-            "add_attrs": "When combat begins, the holder and all allies within 1 hexes in the same row gain +30% Attack Speed for the rest of combat."
+            "add_attrs": "The holder gains both of the following:<br>- +10 Attack Damage and +10 Ability Power.<br>- Attacks and Abilities heal for 10% of damage dealt.<br><br>At the beginning of each planning phase, one of these buffs is increased to 35(%)."
         },
         "radiant": {
-            "name": "RadiantZekesHerald",
+            "name": "RadiantHandofJustice",
+            "basic_attrs": [
+                "+15%CR",
+                "+15MP"
+            ],
+            "add_attrs": "At the beginning of each planning phase, the holder gains both of the following:<br>- +40 Attack Damage and +40 Ability Power.<br>- Attacks and Abilities heal for 40% of damage dealt."
+        }
+    },
+    {
+        "craftable": {
+            "name": "HextechGunblade",
+            "compositions": "sword+rod",
             "basic_attrs": [
                 "+10AD",
-                "+150HP"
+                "+10AP"
             ],
-            "add_attrs": "When combat begins, the holder and all allies within 1 hexes in the same row gain 50% Attack Speed and 10% Lifesteal for the rest of combat."
+            "add_attrs": "The holder's magic and true damage from Abilities heal them for 33% of the damage dealt. Excess healing fuels a shield that protects the holder against up to 400 damage."
+        },
+        "radiant": {
+            "name": "RadiantHextechGunblade",
+            "basic_attrs": [
+                "+10AD",
+                "+40AP"
+            ],
+            "add_attrs": "The holder's magic and true damage from Abilities heal them for 40% of the damage dealt. Excess healing fuels a shield that protects the holder against up to 300 damage. The holder also heals their lowest health ally for the same amount.<br><br>Radiant Bonus: +30 Ability Power"
         }
     },
     {
@@ -153,114 +263,37 @@
     },
     {
         "craftable": {
-            "name": "RapidFirecannon",
-            "compositions": "bow+bow",
-            "basic_attrs": [
-                "+40%AS"
-            ],
-            "add_attrs": "Increases the holder's Attack Range by 1 hex and grants 40% bonus Attack Speed.<br><br>The wearer's Basic Attacks can no longer miss."
-        },
-        "radiant": {
-            "name": "RadiantRapidfireCannon",
-            "basic_attrs": [
-                "+70%AS"
-            ],
-            "add_attrs": "Increases the wearer's Attack Range by 2 hex and grants 40% bonus Attack Speed.<br><br>The wearer's attacks can no longer miss.<br><br>Radiant Bonus: +30% Attack Speed"
-        }
-    },
-    {
-        "craftable": {
-            "name": "GuinsoosRageblade",
-            "compositions": "bow+rod",
+            "name": "IonicSpark",
+            "compositions": "cloak+rod",
             "basic_attrs": [
                 "+10AP",
-                "+10AS"
-            ],
-            "add_attrs": "Attacks grant +6% bonus Attack Speed for the rest of combat.<br><br>This effect can stack any number of times."
-        },
-        "radiant": {
-            "name": "RadiantGuinsoosRageblade",
-            "basic_attrs": [
-                "+10AP",
-                "+40AS"
-            ],
-            "add_attrs": "Attacks grant +10% bonus Attack Speed for the rest of combat.<br><br>This effect can stack any number of times.<br><br>Radiant Bonus: +30 Attack Speed"
-        }
-    },
-    {
-        "craftable": {
-            "name": "StatikkShiv",
-            "compositions": "bow+tear",
-            "basic_attrs": [
-                "+10AS",
-                "+15MP"
-            ],
-            "add_attrs": "Every third attack from the holder unleashes a chain lightning that bounces to 4 enemies, dealing 70 magic damage and reducing their Magic Resist by 50% for 5 seconds."
-        },
-        "radiant": {
-            "name": "RadiantStatikkShiv",
-            "basic_attrs": [
-                "+10AS",
-                "+15MP"
-            ],
-            "add_attrs": "Every third Basic Attack from the holder unleashes a chain lightning that bounces to 8 enemies, dealing 115 magic damage and reducing their Magic Resist by 70% for 5 seconds."
-        }
-    },
-    {
-        "craftable": {
-            "name": "TitansResolve",
-            "compositions": "bow+vest",
-            "basic_attrs": [
-                "+10AS",
-                "+20AR"
-            ],
-            "add_attrs": "When the holder attacks or takes damage, they gain 2 Attack Damage and Ability Power.<br><br>This stacks up to 25 times, at which point the holder gains 25 Armor and Magic Resist."
-        },
-        "radiant": {
-            "name": "RadiantTitansResolve",
-            "basic_attrs": [
-                "+10%AS",
-                "+20AR"
-            ],
-            "add_attrs": "When the holder attacks or takes damage, they gain 4 Attack Damage and Spell Power.<br><br>This stacks up to 25 times, at which point the wearer gains 50 Armor and Magic Resist."
-        }
-    },
-    {
-        "craftable": {
-            "name": "RunaansHurricane",
-            "compositions": "bow+cloak",
-            "basic_attrs": [
-                "+20MR",
-                "+10AS"
-            ],
-            "add_attrs": "The holder's attacks fire a bolt at another nearby enemy, dealing 75% of the holder's Attack Damage and applying on-hit effects. These bolts can critically strike."
-        },
-        "radiant": {
-            "name": "RadiantRunaansHurricane",
-            "basic_attrs": [
-                "+40%AS",
                 "+20MR"
             ],
-            "add_attrs": "The holder's attacks fire a bolt at another nearby enemy, dealing 110% of the holder's Attack Damage and applying on-hit effect. These bolts can critically strike.<br><br>Radiant Bonus: +30% Attack Speed"
+            "add_attrs": "Enemies within 2 hexes have their Magic Resist reduced by 50%. When they cast an Ability, they are zapped taking magic damage equal to 250% of their max Mana."
+        },
+        "radiant": {
+            "name": "RadiantIonicSpark",
+            "basic_attrs": [],
+            "add_attrs": "Enemies within 4 hexes have their Magic Resist reduced by 50%. When they cast an Ability, they are zapped taking magic damage equal to 300% of their max Mana.<br><br>Radiant Bonus: Regenerate 1% max Health per second"
         }
     },
     {
         "craftable": {
-            "name": "ZzRotPortal",
-            "compositions": "bow+belt",
+            "name": "IronWill",
+            "compositions": "vest+cloak",
             "basic_attrs": [
-                "+10AS",
-                "+150HP"
+                "+20AR",
+                "+20MR"
             ],
-            "add_attrs": "At the start of combat, the holder taunts enemies within 4 hexes.<br><br>When the holder dies, a Voidspawn arises taunting nearby enemies. Voidspawns that arise from summoned units are 25% effective."
+            "add_attrs": "The holder gains 18 Armor and 18 Magic Resist for each enemy targeting them."
         },
         "radiant": {
-            "name": "RadiantZzrotPortal",
+            "name": "RadiantGargoyleStoneplate",
             "basic_attrs": [
-                "+10AS",
-                "+150HP"
+                "+20AR",
+                "+20MR"
             ],
-            "add_attrs": "At the start of combat, a Radiant Voidmother with bonus Health and Attack Damage aries and taunts enemies within 4 hexes. Radiant Voidmother that aries from summoned units are 25% effective."
+            "add_attrs": "The holder gains 30 Armor and 30 Magic Resist for each enemy targeting them.<br><br>Radiant Bonus: Regenerate 3% max Health per second"
         }
     },
     {
@@ -284,42 +317,6 @@
     },
     {
         "craftable": {
-            "name": "RabadonsDeathcap",
-            "compositions": "rod+rod",
-            "basic_attrs": [
-                "+75AP"
-            ],
-            "add_attrs": "Grants 75 bonus Ability Power (including components)."
-        },
-        "radiant": {
-            "name": "RadiantRabadonsDeathcap",
-            "basic_attrs": [
-                "+110AP"
-            ],
-            "add_attrs": "Grants 120 bonus Ability Power (including components)."
-        }
-    },
-    {
-        "craftable": {
-            "name": "LudensEcho",
-            "compositions": "rod+tear",
-            "basic_attrs": [
-                "+10AP",
-                "+15MP"
-            ],
-            "add_attrs": "Each time the holder casts their Ability, they gain bonus Ability Power equal to 40% of their maximum Mana (this bonus applies to that Ability cast)."
-        },
-        "radiant": {
-            "name": "RadiantArchangelsStaff",
-            "basic_attrs": [
-                "+10AP",
-                "+30MP"
-            ],
-            "add_attrs": "Each time the holder casts their Ability, they gain bonus Ability Power equal to 60% of their maximum Mana (this bonus applies to that Ability cast).<br><br>Radiant Bonus: +15 Starting Mana"
-        }
-    },
-    {
-        "craftable": {
             "name": "LocketoftheIronSolari",
             "compositions": "vest+rod",
             "basic_attrs": [
@@ -339,18 +336,38 @@
     },
     {
         "craftable": {
-            "name": "IonicSpark",
-            "compositions": "cloak+rod",
+            "name": "LordsEdge",
+            "compositions": "sword+sword",
             "basic_attrs": [
-                "+10AP",
-                "+20MR"
+                "+20AD"
             ],
-            "add_attrs": "Enemies within 2 hexes have their Magic Resist reduced by 50%. When they cast an Ability, they are zapped taking magic damage equal to 250% of their max Mana."
+            "add_attrs": "Contributing to a kill grants the holder +10 Attack Damage for the rest of combat.<br>This effect can stack any number of times (starting at 4)."
         },
         "radiant": {
-            "name": "RadiantIonicSpark",
-            "basic_attrs": [],
-            "add_attrs": "Enemies within 4 hexes have their Magic Resist reduced by 50%. When they cast an Ability, they are zapped taking magic damage equal to 300% of their max Mana.<br><br>Radiant Bonus: Regenerate 1% max Health per second"
+            "name": "RadiantDeathblade",
+            "basic_attrs": [
+                "+20AD"
+            ],
+            "add_attrs": "Contributing to a kill grants the holder 15 Attack Damage for the rest of combat. This effect can stack any number of times (starting at 4)."
+        }
+    },
+    {
+        "craftable": {
+            "name": "LudensEcho",
+            "compositions": "rod+tear",
+            "basic_attrs": [
+                "+10AP",
+                "+15MP"
+            ],
+            "add_attrs": "Each time the holder casts their Ability, they gain bonus Ability Power equal to 40% of their maximum Mana (this bonus applies to that Ability cast)."
+        },
+        "radiant": {
+            "name": "RadiantArchangelsStaff",
+            "basic_attrs": [
+                "+10AP",
+                "+30MP"
+            ],
+            "add_attrs": "Each time the holder casts their Ability, they gain bonus Ability Power equal to 60% of their maximum Mana (this bonus applies to that Ability cast).<br><br>Radiant Bonus: +15 Starting Mana"
         }
     },
     {
@@ -375,77 +392,56 @@
     },
     {
         "craftable": {
-            "name": "ArcaneGauntlet",
-            "compositions": "rod+glove",
+            "name": "Quicksilver",
+            "compositions": "cloak+glove",
             "basic_attrs": [
-                "+15%CR",
-                "+10AP"
+                "+15%DC",
+                "+20MR"
             ],
-            "add_attrs": "The holder's magic and true damage from their Ability can critically strike. The holder gains 40% bonus Critical Strike Damage."
+            "add_attrs": "The holder gains immunity to crowd control in combat for 15 seconds.<br><br>[Unique - Only One Per Champion]"
         },
         "radiant": {
-            "name": "RadiantJeweledGauntlet",
+            "name": "RadiantQuicksilver",
             "basic_attrs": [
-                "+15%CR",
-                "+10AP"
-            ],
-            "add_attrs": "The holder's magic and true damage from their Ability can critically strike. The holder gains 90% bonus Critical Strike Damage."
-        }
-    },
-    {
-        "craftable": {
-            "name": "BlueSentinel",
-            "compositions": "tear+tear",
-            "basic_attrs": [
-                "+30MP"
-            ],
-            "add_attrs": "After casting their Ability, the holder gains 20 mana.<br><br>[Unique - Only One Per Champion]"
-        },
-        "radiant": {
-            "name": "RadiantBlueBuff",
-            "basic_attrs": [
-                "+30MP",
-                "+40AP"
-            ],
-            "add_attrs": "[Unique] After casting their Ability, the holder gains 30 mana.<br><br>Radiant Bonus: +40 Ability Power"
-        }
-    },
-    {
-        "craftable": {
-            "name": "FrozenHeart",
-            "compositions": "vest+tear",
-            "basic_attrs": [
-                "+20AR",
-                "+15MP"
-            ],
-            "add_attrs": "Reduces the Attack Speed of enemies within 2 hexes by 25%.<br><br>[Unique - Only One Per Champion]"
-        },
-        "radiant": {
-            "name": "RadiantFrozenHeart",
-            "basic_attrs": [
-                "+20AR",
-                "+45MP"
-            ],
-            "add_attrs": "[Unique] Reduces the Attack Speed of enemies within 2 hexes by 50%.<br><br>Radiant Bonus: +30 Starting Mana"
-        }
-    },
-    {
-        "craftable": {
-            "name": "Chalice",
-            "compositions": "cloak+tear",
-            "basic_attrs": [
+                "+15%DC",
                 "+20MR",
-                "+15MP"
+                "+40AS"
             ],
-            "add_attrs": "When combat begins, the holder and all allies within 1 hex in the same row gain 30 Ability Power for the rest of combat."
+            "add_attrs": "[Unique] The holder gains immunity to crowd control in combat for 30 seconds.<br><br>Radiant Bonus: +45% Attack Speed"
+        }
+    },
+    {
+        "craftable": {
+            "name": "RabadonsDeathcap",
+            "compositions": "rod+rod",
+            "basic_attrs": [
+                "+75AP"
+            ],
+            "add_attrs": "Grants 75 bonus Ability Power (including components)."
         },
         "radiant": {
-            "name": "RadiantChaliceofPower",
+            "name": "RadiantRabadonsDeathcap",
             "basic_attrs": [
-                "+20MR",
-                "+15MP"
+                "+110AP"
             ],
-            "add_attrs": "When combat begins, the holder and all allies within 1 hex in the same row gain 50 Ability Power and 10% Spellvamp for the rest of combat."
+            "add_attrs": "Grants 120 bonus Ability Power (including components)."
+        }
+    },
+    {
+        "craftable": {
+            "name": "RapidFirecannon",
+            "compositions": "bow+bow",
+            "basic_attrs": [
+                "+40%AS"
+            ],
+            "add_attrs": "Increases the holder's Attack Range by 1 hex and grants 40% bonus Attack Speed.<br><br>The wearer's Basic Attacks can no longer miss."
+        },
+        "radiant": {
+            "name": "RadiantRapidfireCannon",
+            "basic_attrs": [
+                "+70%AS"
+            ],
+            "add_attrs": "Increases the wearer's Attack Range by 2 hex and grants 40% bonus Attack Speed.<br><br>The wearer's attacks can no longer miss.<br><br>Radiant Bonus: +30% Attack Speed"
         }
     },
     {
@@ -469,75 +465,21 @@
     },
     {
         "craftable": {
-            "name": "HandofJustice",
-            "compositions": "tear+glove",
+            "name": "RunaansHurricane",
+            "compositions": "bow+cloak",
             "basic_attrs": [
-                "+15%CR",
-                "+15MP"
+                "+20MR",
+                "+10AS"
             ],
-            "add_attrs": "The holder gains both of the following:<br>- +10 Attack Damage and +10 Ability Power.<br>- Attacks and Abilities heal for 10% of damage dealt.<br><br>At the beginning of each planning phase, one of these buffs is increased to 35(%)."
+            "add_attrs": "The holder's attacks fire a bolt at another nearby enemy, dealing 75% of the holder's Attack Damage and applying on-hit effects. These bolts can critically strike."
         },
         "radiant": {
-            "name": "RadiantHandofJustice",
+            "name": "RadiantRunaansHurricane",
             "basic_attrs": [
-                "+15%CR",
-                "+15MP"
-            ],
-            "add_attrs": "At the beginning of each planning phase, the holder gains both of the following:<br>- +40 Attack Damage and +40 Ability Power.<br>- Attacks and Abilities heal for 40% of damage dealt."
-        }
-    },
-    {
-        "craftable": {
-            "name": "BrambleVest",
-            "compositions": "vest+vest",
-            "basic_attrs": [
-                "+40AR"
-            ],
-            "add_attrs": "Negates bonus damage from incoming critical strikes. On being hit by an attack, deal 80/100/150 \u2605 magic damage to all nearby enemies (once every 2.5 seconds)."
-        },
-        "radiant": {
-            "name": "RadiantBrambleVest",
-            "basic_attrs": [
-                "+40AR"
-            ],
-            "add_attrs": "Negates bonus damage from incoming critical hits. On being hit by a Basic Attack, deal 250/300/350 \u2605 magic damage to all nearby enemies (once every 2.5 seconds).<br><br>Radiant Bonus: Regenerate 2% max Health per second"
-        }
-    },
-    {
-        "craftable": {
-            "name": "IronWill",
-            "compositions": "vest+cloak",
-            "basic_attrs": [
-                "+20AR",
+                "+40%AS",
                 "+20MR"
             ],
-            "add_attrs": "The holder gains 18 Armor and 18 Magic Resist for each enemy targeting them."
-        },
-        "radiant": {
-            "name": "RadiantGargoyleStoneplate",
-            "basic_attrs": [
-                "+20AR",
-                "+20MR"
-            ],
-            "add_attrs": "The holder gains 30 Armor and 30 Magic Resist for each enemy targeting them.<br><br>Radiant Bonus: Regenerate 3% max Health per second"
-        }
-    },
-    {
-        "craftable": {
-            "name": "SunfireCape",
-            "compositions": "vest+belt",
-            "basic_attrs": [
-                "+20AR"
-            ],
-            "add_attrs": "Every 2.5 seconds, a random enemy within 2 hexes is burned for 20% of their maximum health as true damage over 8 seconds. Any healing they receive is reduced by 50%.<br><br>[Unique - Only One Per Champion]"
-        },
-        "radiant": {
-            "name": "RadiantSunfireCape",
-            "basic_attrs": [
-                "+150HP",
-                "+20AR"
-            ],
-            "add_attrs": "[Unique] Every 1.5 seconds, a random enemy within 4 hexes is burned for 120% of their maximum health as true damage over 30 seconds. Any healing they receive is reduced by 50%.<br><br>Radiant Bonus: Regenerate 0.5% max Health per second"
+            "add_attrs": "The holder's attacks fire a bolt at another nearby enemy, dealing 110% of the holder's Attack Damage and applying on-hit effect. These bolts can critically strike.<br><br>Radiant Bonus: +30% Attack Speed"
         }
     },
     {
@@ -561,19 +503,133 @@
     },
     {
         "craftable": {
-            "name": "DragonsClaw",
-            "compositions": "cloak+cloak",
+            "name": "SpearofShojin",
+            "compositions": "sword+tear",
             "basic_attrs": [
-                "+200MR"
+                "+10AD",
+                "+15MP"
             ],
-            "add_attrs": "Grants 200 bonus Magic Resist (including components). On being hit by magic or true damage from an Ability, launch a fireball at the Ability's caster that deals magic damage equal to 30% of their max Health (1 second cooldown)."
+            "add_attrs": "The holder's attacks restore 8 additional Mana."
         },
         "radiant": {
-            "name": "RadiantDragonsClaw",
+            "name": "RadiantSpearofShojin",
             "basic_attrs": [
-                "+300MR"
+                "+10AD",
+                "+15MP",
+                "+20AP"
             ],
-            "add_attrs": "Grants 300 bonus Magic Resist (including components). On being hit by magic or true damage from an Ability, launch a fireball at the Ability's caster that deals magic damage equal to 40% of their max Health (1 second cooldown).<br><br>Radiant Bonus: Regenerate 2% max Health per second"
+            "add_attrs": "The wearer's Basic Attacks restore 15 additional Mana.<br><br>Radiant Bonus: +20 Ability Power"
+        }
+    },
+    {
+        "craftable": {
+            "name": "StatikkShiv",
+            "compositions": "bow+tear",
+            "basic_attrs": [
+                "+10AS",
+                "+15MP"
+            ],
+            "add_attrs": "Every third attack from the holder unleashes a chain lightning that bounces to 4 enemies, dealing 70 magic damage and reducing their Magic Resist by 50% for 5 seconds."
+        },
+        "radiant": {
+            "name": "RadiantStatikkShiv",
+            "basic_attrs": [
+                "+10AS",
+                "+15MP"
+            ],
+            "add_attrs": "Every third Basic Attack from the holder unleashes a chain lightning that bounces to 8 enemies, dealing 115 magic damage and reducing their Magic Resist by 70% for 5 seconds."
+        }
+    },
+    {
+        "craftable": {
+            "name": "SunfireCape",
+            "compositions": "vest+belt",
+            "basic_attrs": [
+                "+20AR"
+            ],
+            "add_attrs": "Every 2.5 seconds, a random enemy within 2 hexes is burned for 20% of their maximum health as true damage over 8 seconds. Any healing they receive is reduced by 50%.<br><br>[Unique - Only One Per Champion]"
+        },
+        "radiant": {
+            "name": "RadiantSunfireCape",
+            "basic_attrs": [
+                "+150HP",
+                "+20AR"
+            ],
+            "add_attrs": "[Unique] Every 1.5 seconds, a random enemy within 4 hexes is burned for 120% of their maximum health as true damage over 30 seconds. Any healing they receive is reduced by 50%.<br><br>Radiant Bonus: Regenerate 0.5% max Health per second"
+        }
+    },
+    {
+        "craftable": {
+            "name": "ThiefsGloves",
+            "compositions": "glove+glove",
+            "basic_attrs": [
+                "+15%CR",
+                "+15%DC"
+            ],
+            "add_attrs": "At the beginning of each planning phase, the holder equip 2 temporary items. Temporary items increase in power based on your player level.<br><br>[Consumes Three item Slots]"
+        },
+        "radiant": {
+            "name": "RadiantThiefsGloves",
+            "basic_attrs": [
+                "+15%CR",
+                "+15%DC"
+            ],
+            "add_attrs": "At the beginning of each planning phase, the holder equips 2 temporary Radiant items.<br>[Consumes Three Item Slots]"
+        }
+    },
+    {
+        "craftable": {
+            "name": "TitansResolve",
+            "compositions": "bow+vest",
+            "basic_attrs": [
+                "+10AS",
+                "+20AR"
+            ],
+            "add_attrs": "When the holder attacks or takes damage, they gain 2 Attack Damage and Ability Power.<br><br>This stacks up to 25 times, at which point the holder gains 25 Armor and Magic Resist."
+        },
+        "radiant": {
+            "name": "RadiantTitansResolve",
+            "basic_attrs": [
+                "+10%AS",
+                "+20AR"
+            ],
+            "add_attrs": "When the holder attacks or takes damage, they gain 4 Attack Damage and Spell Power.<br><br>This stacks up to 25 times, at which point the wearer gains 50 Armor and Magic Resist."
+        }
+    },
+    {
+        "craftable": {
+            "name": "WarmogsArmor",
+            "compositions": "belt+belt",
+            "basic_attrs": [
+                "+1000HP"
+            ],
+            "add_attrs": "Grants 1000 bonus Health (including components)."
+        },
+        "radiant": {
+            "name": "RadiantWarmogsArmor",
+            "basic_attrs": [
+                "+1800HP"
+            ],
+            "add_attrs": "Grants 1800 bonus Health (including components).<br><br>Radiant Bonus: Regenerate 1% max Health per second"
+        }
+    },
+    {
+        "craftable": {
+            "name": "ZekesHerald",
+            "compositions": "sword+belt",
+            "basic_attrs": [
+                "+10AD",
+                "+150HP"
+            ],
+            "add_attrs": "When combat begins, the holder and all allies within 1 hexes in the same row gain +30% Attack Speed for the rest of combat."
+        },
+        "radiant": {
+            "name": "RadiantZekesHerald",
+            "basic_attrs": [
+                "+10AD",
+                "+150HP"
+            ],
+            "add_attrs": "When combat begins, the holder and all allies within 1 hexes in the same row gain 50% Attack Speed and 10% Lifesteal for the rest of combat."
         }
     },
     {
@@ -597,77 +653,21 @@
     },
     {
         "craftable": {
-            "name": "Quicksilver",
-            "compositions": "cloak+glove",
+            "name": "ZzRotPortal",
+            "compositions": "bow+belt",
             "basic_attrs": [
-                "+15%DC",
-                "+20MR"
-            ],
-            "add_attrs": "The holder gains immunity to crowd control in combat for 15 seconds.<br><br>[Unique - Only One Per Champion]"
-        },
-        "radiant": {
-            "name": "RadiantQuicksilver",
-            "basic_attrs": [
-                "+15%DC",
-                "+20MR",
-                "+40AS"
-            ],
-            "add_attrs": "[Unique] The holder gains immunity to crowd control in combat for 30 seconds.<br><br>Radiant Bonus: +45% Attack Speed"
-        }
-    },
-    {
-        "craftable": {
-            "name": "WarmogsArmor",
-            "compositions": "belt+belt",
-            "basic_attrs": [
-                "+1000HP"
-            ],
-            "add_attrs": "Grants 1000 bonus Health (including components)."
-        },
-        "radiant": {
-            "name": "RadiantWarmogsArmor",
-            "basic_attrs": [
-                "+1800HP"
-            ],
-            "add_attrs": "Grants 1800 bonus Health (including components).<br><br>Radiant Bonus: Regenerate 1% max Health per second"
-        }
-    },
-    {
-        "craftable": {
-            "name": "Backhand",
-            "compositions": "belt+glove",
-            "basic_attrs": [
-                "+15%DC",
+                "+10AS",
                 "+150HP"
             ],
-            "add_attrs": "When combat begins, the holder and all allies within 1 hex(es) in the same row gain a shield that blocks the first enemy Ability."
+            "add_attrs": "At the start of combat, the holder taunts enemies within 4 hexes.<br><br>When the holder dies, a Voidspawn arises taunting nearby enemies. Voidspawns that arise from summoned units are 25% effective."
         },
         "radiant": {
-            "name": "RadiantTrapClaw",
+            "name": "RadiantZzrotPortal",
             "basic_attrs": [
-                "+15%DC",
+                "+10AS",
                 "+150HP"
             ],
-            "add_attrs": "[Unique] When combat begins, the holder and all allies gain a shield that blocks the first enemy Ability.<br><br>Radiant Bonus: +50 Health for all allies at the start of combat."
-        }
-    },
-    {
-        "craftable": {
-            "name": "ThiefsGloves",
-            "compositions": "glove+glove",
-            "basic_attrs": [
-                "+15%CR",
-                "+15%DC"
-            ],
-            "add_attrs": "At the beginning of each planning phase, the holder equip 2 temporary items. Temporary items increase in power based on your player level.<br><br>[Consumes Three item Slots]"
-        },
-        "radiant": {
-            "name": "RadiantThiefsGloves",
-            "basic_attrs": [
-                "+15%CR",
-                "+15%DC"
-            ],
-            "add_attrs": "At the beginning of each planning phase, the holder equips 2 temporary Radiant items.<br>[Consumes Three Item Slots]"
+            "add_attrs": "At the start of combat, a Radiant Voidmother with bonus Health and Attack Damage aries and taunts enemies within 4 hexes. Radiant Voidmother that aries from summoned units are 25% effective."
         }
     }
 ]

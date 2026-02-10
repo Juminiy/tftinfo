@@ -2,62 +2,6 @@
     "season": "set9",
     "traits": [
         {
-            "key": "Juggernaut",
-            "ingameKey": "Set9_Armorclad",
-            "name": "Juggernaut",
-            "desc": "Juggernaut champions take less damage as their Health decreases.",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Juggernaut_normal_1685072534-Juggernaut-gray.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Juggernaut_black_1685072534-Juggernaut-black.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Juggernaut_white_1685072534-Juggernaut-white.svg",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 3
-                },
-                {
-                    "style": "silver",
-                    "min": 4,
-                    "max": 5
-                },
-                {
-                    "style": "gold",
-                    "min": 6
-                }
-            ],
-            "stats": {
-                "2": "15% to 25% damage reduction",
-                "4": "25% to 40% damage reduction",
-                "6": "35% to 50% damage reduction"
-            }
-        },
-        {
-            "key": "Yordle",
-            "ingameKey": "Set9_BandleCity",
-            "name": "Yordle",
-            "desc": "Your units gain 10% Attack Speed per star level.<br><br>If you have three 3-star champions, your Yordles can become 4-star, which gives their Ability a wacky upgrade!",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Yordle_normal_1685076640-Yordle-gray.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Yordle_black_1685076640-Yordle-black.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Yordle_white_1685076270-Yordle-white.svg",
-            "type": "ORIGIN",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 3,
-                    "max": 4
-                },
-                {
-                    "style": "gold",
-                    "min": 5
-                }
-            ],
-            "stats": {
-                "3": "Your strongest 3-star Yordle",
-                "5": "Two 3-star Yordles"
-            }
-        },
-        {
             "key": "Bastion",
             "ingameKey": "Set9_Bastion",
             "name": "Bastion",
@@ -300,6 +244,68 @@
             }
         },
         {
+            "key": "Gunner",
+            "ingameKey": "Set9_Marksman",
+            "name": "Gunner",
+            "desc": "When Gunner champions attack, they gain bonus Attack Damage, up to 8 stacks.",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Gunner_normal_1685072585-Gunner-gray.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Gunner_black_1685072586-Gunner-black.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Gunner_white_1685072586-Gunner-white.svg",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "gold",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "chromatic",
+                    "min": 6
+                }
+            ],
+            "stats": {
+                "2": "6% Attack Damage per attack",
+                "4": "12% Attack Damage per attack",
+                "6": "22% Attack Damage per attack"
+            }
+        },
+        {
+            "key": "Invoker",
+            "ingameKey": "Set9_Preserver",
+            "name": "Invoker",
+            "desc": "Allies restore Mana every 3 seconds.",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Invoker_normal_1685072460-Invoker-gray.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Invoker_black_1685072460-Invoker-black.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Invoker_white_1685072460-Invoker-white.svg",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "silver",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6
+                }
+            ],
+            "stats": {
+                "2": "5 Mana for all allies",
+                "4": "And 15 additional Mana for Invokers",
+                "6": "20 Mana for all allies and 15 additional Mana for Invokers"
+            }
+        },
+        {
             "key": "Ionia",
             "ingameKey": "Set9_Ionia",
             "name": "Ionia",
@@ -331,13 +337,13 @@
             }
         },
         {
-            "key": "Gunner",
-            "ingameKey": "Set9_Marksman",
-            "name": "Gunner",
-            "desc": "When Gunner champions attack, they gain bonus Attack Damage, up to 8 stacks.",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Gunner_normal_1685072585-Gunner-gray.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Gunner_black_1685072586-Gunner-black.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Gunner_white_1685072586-Gunner-white.svg",
+            "key": "Juggernaut",
+            "ingameKey": "Set9_Armorclad",
+            "name": "Juggernaut",
+            "desc": "Juggernaut champions take less damage as their Health decreases.",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Juggernaut_normal_1685072534-Juggernaut-gray.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Juggernaut_black_1685072534-Juggernaut-black.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Juggernaut_white_1685072534-Juggernaut-white.svg",
             "type": "CLASS",
             "styles": [
                 {
@@ -346,19 +352,19 @@
                     "max": 3
                 },
                 {
-                    "style": "gold",
+                    "style": "silver",
                     "min": 4,
                     "max": 5
                 },
                 {
-                    "style": "chromatic",
+                    "style": "gold",
                     "min": 6
                 }
             ],
             "stats": {
-                "2": "6% Attack Damage per attack",
-                "4": "12% Attack Damage per attack",
-                "6": "22% Attack Damage per attack"
+                "2": "15% to 25% damage reduction",
+                "4": "25% to 40% damage reduction",
+                "6": "35% to 50% damage reduction"
             }
         },
         {
@@ -440,37 +446,6 @@
             "stats": {
                 "3": "Gain the T-Hex.",
                 "6": "Gain bonus loot every round. Each loss counts as 2 losses instead."
-            }
-        },
-        {
-            "key": "Invoker",
-            "ingameKey": "Set9_Preserver",
-            "name": "Invoker",
-            "desc": "Allies restore Mana every 3 seconds.",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Invoker_normal_1685072460-Invoker-gray.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Invoker_black_1685072460-Invoker-black.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Invoker_white_1685072460-Invoker-white.svg",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 3
-                },
-                {
-                    "style": "silver",
-                    "min": 4,
-                    "max": 5
-                },
-                {
-                    "style": "gold",
-                    "min": 6
-                }
-            ],
-            "stats": {
-                "2": "5 Mana for all allies",
-                "4": "And 15 additional Mana for Invokers",
-                "6": "20 Mana for all allies and 15 additional Mana for Invokers"
             }
         },
         {
@@ -795,6 +770,31 @@
             ],
             "stats": {
                 "1": "Wanderers' spells change depending on the Region Portal players voted for at the start of the game."
+            }
+        },
+        {
+            "key": "Yordle",
+            "ingameKey": "Set9_BandleCity",
+            "name": "Yordle",
+            "desc": "Your units gain 10% Attack Speed per star level.<br><br>If you have three 3-star champions, your Yordles can become 4-star, which gives their Ability a wacky upgrade!",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/traits/Yordle_normal_1685076640-Yordle-gray.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/upload/images/traits/Yordle_black_1685076640-Yordle-black.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/upload/images/traits/Yordle_white_1685076270-Yordle-white.svg",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 3,
+                    "max": 4
+                },
+                {
+                    "style": "gold",
+                    "min": 5
+                }
+            ],
+            "stats": {
+                "3": "Your strongest 3-star Yordle",
+                "5": "Two 3-star Yordles"
             }
         },
         {

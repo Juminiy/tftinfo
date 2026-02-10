@@ -58,6 +58,118 @@
             }
         },
         {
+            "key": "Blademaster",
+            "ingameKey": "Set3_Blademaster",
+            "name": "Blademaster",
+            "desc": "Blademasters' Basic Attacks have a chance to trigger two additional attacks against their target. These additional attacks deal damage like Basic Attacks and trigger on-hit effects.",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_blademaster.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_blademaster.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_blademaster.png",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 3,
+                    "max": 5
+                },
+                {
+                    "style": "silver",
+                    "min": 6,
+                    "max": 8
+                },
+                {
+                    "style": "gold",
+                    "min": 9
+                }
+            ],
+            "stats": {
+                "3": "30% Chance to trigger",
+                "6": "65% Chance to trigger",
+                "9": "100% Chance to trigger"
+            }
+        },
+        {
+            "key": "Blaster",
+            "ingameKey": "Set3_Blaster",
+            "name": "Blaster",
+            "desc": "Every fourth Basic Attack from a Blaster fires additional attacks at random enemies. These additional attacks deal damage like Basic Attacks, trigger on-hit effects and can critically hit.",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_blaster.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_blaster.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_blaster.png",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "gold",
+                    "min": 4
+                }
+            ],
+            "stats": {
+                "2": "3 Additional Attacks",
+                "4": "6 Additional Attacks"
+            }
+        },
+        {
+            "key": "Brawler",
+            "ingameKey": "Set3_Brawler",
+            "name": "Brawler",
+            "desc": "Brawlers gain bonus Maximum Health.",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_brawler.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_brawler.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_brawler.png",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "gold",
+                    "min": 4
+                }
+            ],
+            "stats": {
+                "2": "350 Bonus Health",
+                "4": "600 Bonus Health"
+            }
+        },
+        {
+            "key": "Celestial",
+            "ingameKey": "Set3_Celestial",
+            "name": "Celestial",
+            "desc": "All allies heal for some of the damage they deal with spells and attacks.",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_celestial.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_celestial.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_celestial.png",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "silver",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6
+                }
+            ],
+            "stats": {
+                "2": "15% Healing",
+                "4": "45% Healing",
+                "6": "150% Healing"
+            }
+        },
+        {
             "key": "Chrono",
             "ingameKey": "Chrono",
             "name": "Chrono",
@@ -264,6 +376,31 @@
             }
         },
         {
+            "key": "Mystic",
+            "ingameKey": "Set3_Mystic",
+            "name": "Mystic",
+            "desc": "All allies gain Magic Resistance.",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_mystic.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_mystic.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_mystic.png",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "gold",
+                    "min": 4
+                }
+            ],
+            "stats": {
+                "2": "50 Magic Resistance",
+                "4": "120 Magic Resistance"
+            }
+        },
+        {
             "key": "Paragon",
             "ingameKey": "Paragon",
             "name": "Paragon",
@@ -345,44 +482,13 @@
             }
         },
         {
-            "key": "Blademaster",
-            "ingameKey": "Set3_Blademaster",
-            "name": "Blademaster",
-            "desc": "Blademasters' Basic Attacks have a chance to trigger two additional attacks against their target. These additional attacks deal damage like Basic Attacks and trigger on-hit effects.",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_blademaster.png",
-            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_blademaster.png",
-            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_blademaster.png",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 3,
-                    "max": 5
-                },
-                {
-                    "style": "silver",
-                    "min": 6,
-                    "max": 8
-                },
-                {
-                    "style": "gold",
-                    "min": 9
-                }
-            ],
-            "stats": {
-                "3": "30% Chance to trigger",
-                "6": "65% Chance to trigger",
-                "9": "100% Chance to trigger"
-            }
-        },
-        {
-            "key": "Blaster",
-            "ingameKey": "Set3_Blaster",
-            "name": "Blaster",
-            "desc": "Every fourth Basic Attack from a Blaster fires additional attacks at random enemies. These additional attacks deal damage like Basic Attacks, trigger on-hit effects and can critically hit.",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_blaster.png",
-            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_blaster.png",
-            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_blaster.png",
+            "key": "Sniper",
+            "ingameKey": "Sniper",
+            "name": "Sniper",
+            "desc": "Snipers deal increased damage for each hex between themselves and their target.",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_sniper.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_sniper.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_sniper.png",
             "type": "CLASS",
             "styles": [
                 {
@@ -396,89 +502,8 @@
                 }
             ],
             "stats": {
-                "2": "3 Additional Attacks",
-                "4": "6 Additional Attacks"
-            }
-        },
-        {
-            "key": "Brawler",
-            "ingameKey": "Set3_Brawler",
-            "name": "Brawler",
-            "desc": "Brawlers gain bonus Maximum Health.",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_brawler.png",
-            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_brawler.png",
-            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_brawler.png",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 3
-                },
-                {
-                    "style": "gold",
-                    "min": 4
-                }
-            ],
-            "stats": {
-                "2": "350 Bonus Health",
-                "4": "600 Bonus Health"
-            }
-        },
-        {
-            "key": "Celestial",
-            "ingameKey": "Set3_Celestial",
-            "name": "Celestial",
-            "desc": "All allies heal for some of the damage they deal with spells and attacks.",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_celestial.png",
-            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_celestial.png",
-            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_celestial.png",
-            "type": "ORIGIN",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 3
-                },
-                {
-                    "style": "silver",
-                    "min": 4,
-                    "max": 5
-                },
-                {
-                    "style": "gold",
-                    "min": 6
-                }
-            ],
-            "stats": {
-                "2": "15% Healing",
-                "4": "45% Healing",
-                "6": "150% Healing"
-            }
-        },
-        {
-            "key": "Mystic",
-            "ingameKey": "Set3_Mystic",
-            "name": "Mystic",
-            "desc": "All allies gain Magic Resistance.",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_mystic.png",
-            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_mystic.png",
-            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_mystic.png",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 3
-                },
-                {
-                    "style": "gold",
-                    "min": 4
-                }
-            ],
-            "stats": {
-                "2": "50 Magic Resistance",
-                "4": "120 Magic Resistance"
+                "2": "9% increased damage for each hex",
+                "4": "16% increased damage for each hex"
             }
         },
         {
@@ -510,46 +535,6 @@
                 "2": "20% Spell Power",
                 "4": "40% Spell Power",
                 "6": "70% Spell Power"
-            }
-        },
-        {
-            "key": "Void",
-            "ingameKey": "Set3_Void",
-            "name": "Void",
-            "desc": "",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_void.png",
-            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_void.png",
-            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_void.png",
-            "type": "ORIGIN",
-            "styles": [],
-            "stats": {
-                "3": "Attacks and spells from Void champions deal true damage."
-            },
-            "isHidden": true
-        },
-        {
-            "key": "Sniper",
-            "ingameKey": "Sniper",
-            "name": "Sniper",
-            "desc": "Snipers deal increased damage for each hex between themselves and their target.",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_sniper.png",
-            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_sniper.png",
-            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_sniper.png",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 3
-                },
-                {
-                    "style": "gold",
-                    "min": 4
-                }
-            ],
-            "stats": {
-                "2": "9% increased damage for each hex",
-                "4": "16% increased damage for each hex"
             }
         },
         {
@@ -672,6 +657,21 @@
                 "4": "300 Armor",
                 "6": "900 Armor"
             }
+        },
+        {
+            "key": "Void",
+            "ingameKey": "Set3_Void",
+            "name": "Void",
+            "desc": "",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/trait_icon_void.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/trait_icon_void.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/trait_icon_void.png",
+            "type": "ORIGIN",
+            "styles": [],
+            "stats": {
+                "3": "Attacks and spells from Void champions deal true damage."
+            },
+            "isHidden": true
         }
     ]
 }

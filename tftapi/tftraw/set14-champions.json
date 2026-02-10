@@ -2,20 +2,639 @@
     "season": "set14",
     "champions": [
         {
-            "key": "Set10ApexTurret",
-            "ingameKey": null,
-            "name": "ApexTurret",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/ApexTurret_1686125890-tft9_heimerdingerturret_square.tft_set9.png",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/apexturret.jpg",
+            "key": "Alistar",
+            "ingameKey": "TFT14_Alistar",
+            "name": "Alistar",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Alistar_1741756285-Alistar.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/alistar.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Alistar_21_1741759164-Alistar.jpg",
+            "traits": [
+                "GoldenOx",
+                "Bruiser"
+            ],
+            "cost": [
+                1,
+                3,
+                9
+            ],
+            "health": [
+                650,
+                1170,
+                2106
+            ],
+            "attackDamage": [
+                50,
+                75,
+                113
+            ],
+            "damagePerSecond": [
+                28,
+                41,
+                62
+            ],
+            "attackRange": 1,
+            "attackSpeed": 0.55,
+            "armor": 40,
+            "magicalResistance": 40,
+            "skill": {
+                "name": "Gilded Endurance",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Alistar_1741324442-alistar_r.png",
+                "desc": "Passive: Reduce all incoming damage.<br><br>Active: Deal magic damage to the current target and Stun them for 2 seconds.",
+                "startingMana": 40,
+                "skillMana": 80,
+                "stats": [
+                    "Damage Reduction: 15 / 20 / 33 / 45",
+                    "Damage: 240% / 360% / 600% (AP)"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Annie",
+            "ingameKey": "TFT14_Annie",
+            "name": "Annie",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Annie_1741767771-Annie.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/annie.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Annie_21_1741759180-Annie.jpg",
+            "traits": [
+                "GoldenOx",
+                "AMP"
+            ],
+            "cost": [
+                4,
+                11,
+                35
+            ],
+            "health": [
+                850,
+                1530,
+                2754
+            ],
+            "attackDamage": [
+                30,
+                45,
+                68
+            ],
+            "damagePerSecond": [
+                23,
+                34,
+                51
+            ],
+            "attackRange": 4,
+            "attackSpeed": 0.75,
+            "armor": 30,
+            "magicalResistance": 30,
+            "skill": {
+                "name": "Goldilocks",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Annie_1741332407-annie_r1.png",
+                "desc": "Throw a fireball at the current target that deals magic damage and 3 mini-fireballs split between the target and 2 nearby enemies that deal magic damage each.<br><br>Every 4 casts, instead, summon Tibbers next to the current target, dealing magic damage to enemies within 1 hex.",
+                "startingMana": 0,
+                "skillMana": 40,
+                "stats": [
+                    "Damage: 230% / 345% / 1200% (AP)",
+                    "Mini-Fireballs: 2 + 1 per Amp",
+                    "Mini Damage: 42% / 63% / 300% (AP)",
+                    "Tibbers Damage: 270% / 405% / 1215% (AP)"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Aphelios",
+            "ingameKey": "TFT14_Aphelios",
+            "name": "Aphelios",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Aphelios_1741756267-Aphelios.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/aphelios.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Aphelios_21_1741759159-Aphelios.jpg",
+            "traits": [
+                "GoldenOx",
+                "Marksman"
+            ],
+            "cost": [
+                4,
+                11,
+                35
+            ],
+            "health": [
+                800,
+                1440,
+                2592
+            ],
+            "attackDamage": [
+                63,
+                95,
+                142
+            ],
+            "damagePerSecond": [
+                47,
+                71,
+                106
+            ],
+            "attackRange": 4,
+            "attackSpeed": 0.75,
+            "armor": 30,
+            "magicalResistance": 30,
+            "skill": {
+                "name": "Moonlight Vigil",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Aphelios_1741332548-apheliosr.png",
+                "desc": "Fire a moon blast at the largest group of enemies that deals physical damage to enemies within 2 hexes.<br><br>Equip 4 Chakram, plus 1 more for each enemy hit by the blast, that last for 8 attacks and deal bonus physical damage each.",
+                "startingMana": 0,
+                "skillMana": 50,
+                "stats": [
+                    "Damage: 220% / 220% / 600% (AD) + 20% / 30% / 100% (AP)",
+                    "Chakram Damage: 11% / 11% / 100% (AD)"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Aurora",
+            "ingameKey": "TFT14_Aurora",
+            "name": "Aurora",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Aurora_1741767753-Aurora.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/aurora.jpg",
+            "traits": [
+                "AnimaSquad",
+                "Dynamo"
+            ],
+            "cost": [
+                5,
+                14,
+                44
+            ],
+            "health": [
+                800,
+                1440,
+                2592
+            ],
+            "attackDamage": [
+                50,
+                75,
+                113
+            ],
+            "damagePerSecond": [
+                40,
+                60,
+                90
+            ],
+            "attackRange": 4,
+            "attackSpeed": 0.8,
+            "armor": 40,
+            "magicalResistance": 40,
+            "skill": {
+                "name": "Pierce the Veil",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Aurora_1741334866-aurorae.aurora.png",
+                "desc": "On first cast, swap places with the left-most champion on your bench and continue fighting. That champion gains Attack Speed. If the swapped champion dies, return to the board.<br><br>Teleport to hit the most enemies in a line, dealing to each one, plus split between all enemies hit.<br><br>Aurora cannot swap places with another Aurora.",
+                "startingMana": 20,
+                "skillMana": 80,
+                "stats": [
+                    "Damage: 50% / 120% / 3333% (AP)",
+                    "Split Damage: 560% / 840% / 9999% (AP)",
+                    "Attack Speed: 40% / 80% / 1000% (AP)"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Brand",
+            "ingameKey": "TFT14_Brand",
+            "name": "Brand",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Brand_1741751182-Brand.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/brand.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Brand_21_1741758989-Brand.jpg",
+            "traits": [
+                "StreetDemon",
+                "Techie"
+            ],
+            "cost": [
+                4,
+                11,
+                35
+            ],
+            "health": [
+                800,
+                1440,
+                2592
+            ],
+            "attackDamage": [
+                35,
+                53,
+                79
+            ],
+            "damagePerSecond": [
+                26,
+                39,
+                59
+            ],
+            "attackRange": 4,
+            "attackSpeed": 0.75,
+            "armor": 30,
+            "magicalResistance": 30,
+            "skill": {
+                "name": "Paint Bomb",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Brand_1741332649-brandpyroclasm.png",
+                "desc": "Throw a paint bomb at the largest group of enemies within 5 hexes, dealing magic damage to enemies within 1 hex and magic damage to the nearest 4 enemies.",
+                "startingMana": 10,
+                "skillMana": 70,
+                "stats": [
+                    "Damage: 260% / 390% / 1500%",
+                    "Secondary Damage: 100% / 150% / 600%"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Braum",
+            "ingameKey": "TFT14_Braum",
+            "name": "Braum",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Braum_1741751048-Braum.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/braum.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Braum_21_1741758982-Braum.jpg",
+            "traits": [
+                "Syndicate",
+                "Vanguard"
+            ],
+            "cost": [
+                3,
+                8,
+                26
+            ],
+            "health": [
+                850,
+                1530,
+                2754
+            ],
+            "attackDamage": [
+                70,
+                105,
+                158
+            ],
+            "damagePerSecond": [
+                46,
+                68,
+                102
+            ],
+            "attackRange": 1,
+            "attackSpeed": 0.65,
+            "armor": 50,
+            "magicalResistance": 50,
+            "skill": {
+                "name": "Protection Racket",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Braum_1741329673-braum_e.png",
+                "desc": "Gain Shield for 4 seconds. When it breaks, deal magic damage to the 3 closest enemies and Chill them for 3 seconds.<br><br>Kingpin bonus: Gain 30 Armor and Magic Resist. Every 4 seconds, Braum's next attack deals bonus magic damage.<br><br>Chill: Reduce Attack Speed by 20%",
+                "startingMana": 30,
+                "skillMana": 90,
+                "stats": [
+                    "Shield: 375% / 400% / 450% (AP) + 10% Health",
+                    "Damage: 100% / 150% / 240% (AP)",
+                    "Boss Damage: 100% / 150% / 200% AR/MR + 10% max Health"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Chogath",
+            "ingameKey": "TFT14_Chogath",
+            "name": "Cho'Gath",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Chogath_1741767595-ChoGath.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/chogath.jpg",
+            "traits": [
+                "BoomBots",
+                "Bruiser"
+            ],
+            "cost": [
+                4,
+                11,
+                35
+            ],
+            "health": [
+                1100,
+                1980,
+                3564
+            ],
+            "attackDamage": [
+                65,
+                98,
+                146
+            ],
+            "damagePerSecond": [
+                39,
+                59,
+                88
+            ],
+            "attackRange": 1,
+            "attackSpeed": 0.6,
+            "armor": 50,
+            "magicalResistance": 50,
+            "skill": {
+                "name": "Sonic Scream",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Chogath_1741332782-greenterror_tailspike.png",
+                "desc": "Fire a disorienting sound blast in a cone, dealing magic damage. Gain max Health, get bigger, and increase the size of future sound blasts.",
+                "startingMana": 60,
+                "skillMana": 100,
+                "stats": [
+                    "Damage: 100% / 150% / 1500% + 3% Health",
+                    "Health: 70% / 100% / 500% (AP) + 25% / 25% / 55% starting Health"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Darius",
+            "ingameKey": "TFT14_Darius",
+            "name": "Darius",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Darius_1741767988-Darius.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/darius.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Darius_21_1741758114-Darius.jpg",
+            "traits": [
+                "Syndicate",
+                "Bruiser"
+            ],
+            "cost": [
+                2,
+                5,
+                17
+            ],
+            "health": [
+                750,
+                1350,
+                2430
+            ],
+            "attackDamage": [
+                65,
+                98,
+                146
+            ],
+            "damagePerSecond": [
+                42,
+                63,
+                95
+            ],
+            "attackRange": 1,
+            "attackSpeed": 0.65,
+            "armor": 45,
+            "magicalResistance": 45,
+            "skill": {
+                "name": "Kneecapper",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Darius_1741326782-darius_icon_decimate_1.png",
+                "desc": "Heal Health, then deal physical damage and 20% Sunder enemies within 1 hex for 6 seconds.<br><br>Kingpin bonus: Increase Ability range to 2 hexes. Damage reduced by 5% per hex away. Heal Health for each enemy hit.<br><br>Sunder: Reduce Armor",
+                "startingMana": 30,
+                "skillMana": 80,
+                "stats": [
+                    "Heal: 200% / 220% / 260% (AP) + 6% Health",
+                    "Damage: 200% / 200% / 200% (AD)",
+                    "Kingpin Heal: 70 + 2% Health"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Draven",
+            "ingameKey": "TFT14_Draven",
+            "name": "Draven",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Draven_1741767983-Draven.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/draven.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Draven_21_1741758120-Draven.jpg",
+            "traits": [
+                "Cypher",
+                "Rapidfire"
+            ],
+            "cost": [
+                3,
+                8,
+                26
+            ],
+            "health": [
+                700,
+                1260,
+                2268
+            ],
+            "attackDamage": [
+                53,
+                80,
+                119
+            ],
+            "damagePerSecond": [
+                40,
+                60,
+                89
+            ],
+            "attackRange": 4,
+            "attackSpeed": 0.75,
+            "armor": 25,
+            "magicalResistance": 25,
+            "skill": {
+                "name": "Cache Hack",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Draven_1741329795-draven_whirlingdeath.png",
+                "desc": "Hurl two massive axes at the most enemies in a line, dealing physical damage before returning. Damage is reduced by 20% for each enemy hit.",
+                "startingMana": 30,
+                "skillMana": 120,
+                "stats": [
+                    "Damage: 370% / 370% / 390% (AD) + 30% / 45% / 80% (AP)"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "DrMundo",
+            "ingameKey": "TFT14_DrMundo",
+            "name": "Dr. Mundo",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/DrMundo_1741767919-DrMundo.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/drmundo.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/DrMundo_21_1741758855-DrMundo.jpg",
+            "traits": [
+                "StreetDemon",
+                "Bruiser",
+                "Slayer"
+            ],
+            "cost": [
+                1,
+                3,
+                9
+            ],
+            "health": [
+                650,
+                1170,
+                2106
+            ],
+            "attackDamage": [
+                50,
+                75,
+                113
+            ],
+            "damagePerSecond": [
+                30,
+                45,
+                68
+            ],
+            "attackRange": 1,
+            "attackSpeed": 0.6,
+            "armor": 35,
+            "magicalResistance": 35,
+            "skill": {
+                "name": "Flex On 'Em",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/DrMundo_1741324542-drmundo_r.png",
+                "desc": "Passive: Gain 30% more max Health from all sources.<br><br>Active: Flex, healing Health, then deal physical damage to the current target.",
+                "startingMana": 25,
+                "skillMana": 75,
+                "stats": [
+                    "Heal: 2% Health + 75% / 115% / 175% AP",
+                    "Damage: 25% Health + 200% AD"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Dummy",
+            "ingameKey": "TFT_TrainingDummy",
+            "name": "Dummy",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Dummy_1689746192-tft_trainingdummy_donothing.png",
             "traits": [],
-            "isHidden": true,
             "isHiddenGuide": true,
             "isHiddenLanding": true,
-            "isHiddenTeamBuilder": true,
             "cost": [
                 0,
                 -1,
                 -1
+            ],
+            "health": [
+                0,
+                0,
+                0
+            ],
+            "attackDamage": [
+                0,
+                0,
+                0
+            ],
+            "damagePerSecond": [
+                0,
+                0,
+                0
+            ],
+            "attackRange": 0,
+            "attackSpeed": 0,
+            "armor": 0,
+            "magicalResistance": 0,
+            "skill": {
+                "name": "Training Dummy",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Dummy_1701222575-Dummy_1689746192-tft_trainingdummy_donothing.png",
+                "desc": "Use on a champion to spawn a movable target dummy nearby. Cannot be used in combat.",
+                "startingMana": 0,
+                "skillMana": 0,
+                "stats": []
+            },
+            "role": ""
+        },
+        {
+            "key": "Ekko",
+            "ingameKey": "TFT14_Ekko",
+            "name": "Ekko",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Ekko_1741767766-Ekko.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/ekko.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Ekko_21_1741759193-Ekko.jpg",
+            "traits": [
+                "StreetDemon",
+                "Strategist"
+            ],
+            "cost": [
+                2,
+                5,
+                17
+            ],
+            "health": [
+                800,
+                1440,
+                2592
+            ],
+            "attackDamage": [
+                45,
+                68,
+                101
+            ],
+            "damagePerSecond": [
+                31,
+                47,
+                71
+            ],
+            "attackRange": 1,
+            "attackSpeed": 0.7,
+            "armor": 45,
+            "magicalResistance": 45,
+            "skill": {
+                "name": "Paintover",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Ekko_1741326894-ekko_e.png",
+                "desc": "Heal Health and deal magic damage to the current target.",
+                "startingMana": 30,
+                "skillMana": 70,
+                "stats": [
+                    "Heal: 330% / 415% / 525% (AP)",
+                    "Damage: 180% / 270% / 410% (AP)"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Elise",
+            "ingameKey": "TFT14_Elise",
+            "name": "Elise",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Elise_1741767760-Elise.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/elise.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Elise_21_1741759225-Elise.jpg",
+            "traits": [
+                "Nitro",
+                "Dynamo"
+            ],
+            "cost": [
+                3,
+                8,
+                26
+            ],
+            "health": [
+                700,
+                1260,
+                2268
+            ],
+            "attackDamage": [
+                40,
+                60,
+                90
+            ],
+            "damagePerSecond": [
+                30,
+                45,
+                68
+            ],
+            "attackRange": 4,
+            "attackSpeed": 0.75,
+            "armor": 25,
+            "magicalResistance": 25,
+            "skill": {
+                "name": "Fire on all Cylinders",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Elise_1741762326-FireonallCylinders.png",
+                "desc": "Fire 4 lasers at the current target and 4 more split between the nearest 2 enemies, each dealing magic damage and reducing Magic Resist by 5 for the rest of combat.",
+                "startingMana": 0,
+                "skillMana": 50,
+                "stats": [
+                    "Damage: 54% / 81% / 125% (AP)"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Fiddlesticks",
+            "ingameKey": "TFT14_Fiddlesticks",
+            "name": "Fiddlesticks",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Fiddlesticks_1741767540-Fiddlesticks.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/fiddlesticks.jpg",
+            "traits": [
+                "BoomBots",
+                "Techie"
+            ],
+            "cost": [
+                3,
+                8,
+                26
             ],
             "health": [
                 800,
@@ -32,135 +651,139 @@
                 45,
                 68
             ],
-            "attackRange": 10,
+            "attackRange": 2,
             "attackSpeed": 0.75,
+            "armor": 50,
+            "magicalResistance": 50,
+            "skill": {
+                "name": "3RR0R",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Fiddlesticks_1741331165-fiddlesticksw2.png",
+                "desc": "For 3 seconds, tether to the closest 3 enemies, dealing magic damage per second split between them. Tethers apply 20% Shred and heal Fiddlesticks for 15% of the damage dealt.<br><br>Shred: Reduce Magic Resist",
+                "startingMana": 0,
+                "skillMana": 45,
+                "stats": [
+                    "Damage Per Second: 190% / 285% / 445% AP"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Galio",
+            "ingameKey": "TFT14_Galio",
+            "name": "Galio",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Galio_1741768030-Galio.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/galio.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Galio_21_1741758021-Galio.jpg",
+            "traits": [
+                "Cypher",
+                "Bastion"
+            ],
+            "cost": [
+                3,
+                8,
+                26
+            ],
+            "health": [
+                900,
+                1620,
+                2916
+            ],
+            "attackDamage": [
+                60,
+                90,
+                135
+            ],
+            "damagePerSecond": [
+                36,
+                54,
+                81
+            ],
+            "attackRange": 1,
+            "attackSpeed": 0.6,
+            "armor": 50,
+            "magicalResistance": 50,
+            "skill": {
+                "name": "Stonewall",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Galio_1741331323-galio_w_1.png",
+                "desc": "Gain Durability for 3 seconds. Afterwards, heal Health and send a whirlwind at the enemy within 3 hexes that dealt the most damage to Galio during that time. It deals magic damage and Stuns for 1.5 seconds.",
+                "startingMana": 20,
+                "skillMana": 80,
+                "stats": [
+                    "Durability: 55% / 55% / 60%",
+                    "Heal: 425% / 500% / 600% (AP)",
+                    "Damage: 150% / 225% / 335% (AP)"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Garen",
+            "ingameKey": "TFT14_Garen",
+            "name": "Garen",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Garen_1741768037-Garen.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/garen.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Garen_21_1741757975-Garen.jpg",
+            "traits": [
+                "GodoftheNet"
+            ],
+            "cost": [
+                5,
+                14,
+                44
+            ],
+            "health": [
+                1100,
+                1980,
+                3564
+            ],
+            "attackDamage": [
+                80,
+                120,
+                180
+            ],
+            "damagePerSecond": [
+                68,
+                102,
+                153
+            ],
+            "attackRange": 1,
+            "attackSpeed": 0.85,
             "armor": 60,
             "magicalResistance": 60,
             "skill": {
-                "name": "H-28G Laser Beam",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/ApexTurret_1686713377-tft9_heimerdingerturret_square.tft_set9.png",
-                "desc": "Heimerdinger's turret fires a laser beam in its target's direction, dealing to all enemies it passes through.",
-                "startingMana": 0,
-                "skillMana": 100,
+                "name": "Banwave",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Garen_1741762674-garen.png",
+                "desc": "Gain Shield for 1.5 seconds. Deal physical damage to the current target and send a wave that deals physical damage to enemies hit. If the wave hits 2 or fewer enemies, gain 30 Mana.",
+                "startingMana": 20,
+                "skillMana": 80,
                 "stats": [
-                    "Damage: 185 / 275 / 4000"
+                    "Shield: 700% / 1000% / 21337% (AP)",
+                    "Damage: 650% / 650% / 3000% (AD)",
+                    "Wave Damage: 260% / 260% / 1500% (AD)"
                 ]
             },
             "role": ""
         },
         {
-            "key": "Set10DiscoBall",
-            "ingameKey": null,
-            "name": "Mirrorball",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/DiscoBall_1699498098-discoball.png",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/discoball.jpg",
-            "traits": [],
-            "isHidden": true,
-            "isHiddenGuide": true,
-            "isHiddenLanding": true,
-            "isHiddenTeamBuilder": true,
+            "key": "Gragas",
+            "ingameKey": "TFT14_Gragas",
+            "name": "Gragas",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Gragas_1741768023-Gragas.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/gragas.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Gragas_21_1741758039-Gragas.jpg",
+            "traits": [
+                "Divinicorp",
+                "Bruiser"
+            ],
             "cost": [
-                0,
-                -1,
-                -1
+                3,
+                8,
+                26
             ],
             "health": [
-                0,
-                0,
-                0
-            ],
-            "attackDamage": [
-                0,
-                0,
-                0
-            ],
-            "damagePerSecond": [
-                0,
-                0,
-                0
-            ],
-            "attackRange": 0,
-            "attackSpeed": 0,
-            "armor": 0,
-            "magicalResistance": 0,
-            "skill": {
-                "name": "Mirrorball",
-                "imageUrl": "",
-                "desc": "-",
-                "startingMana": 0,
-                "skillMana": 0,
-                "stats": [
-                    "-"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Set10IllaoiTentacle",
-            "ingameKey": null,
-            "name": "Tentacle",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/IllaoiTentacle_1701049007-illaoi-tentacles.png",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/illaoitentacle.jpg",
-            "traits": [],
-            "isHidden": true,
-            "isHiddenGuide": true,
-            "isHiddenLanding": true,
-            "isHiddenTeamBuilder": true,
-            "cost": [
-                0,
-                -1,
-                -1
-            ],
-            "health": [
-                0,
-                0,
-                0
-            ],
-            "attackDamage": [
-                0,
-                0,
-                0
-            ],
-            "damagePerSecond": [
-                0,
-                0,
-                0
-            ],
-            "attackRange": 1,
-            "attackSpeed": 0,
-            "armor": 0,
-            "magicalResistance": 0,
-            "skill": {
-                "name": "IllaoiTentacle",
-                "imageUrl": "",
-                "desc": "TBA",
-                "startingMana": 0,
-                "skillMana": 0,
-                "stats": [
-                    "TBA: TBA"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Set10Dummy",
-            "ingameKey": null,
-            "name": "Dummy",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Dummy_1689746192-tft_trainingdummy_donothing.png",
-            "traits": [],
-            "isHidden": true,
-            "isHiddenGuide": true,
-            "isHiddenLanding": true,
-            "isHiddenTeamBuilder": true,
-            "cost": [
-                0,
-                -1,
-                -1
-            ],
-            "health": [
-                625,
-                1125,
-                2025
+                850,
+                1530,
+                2754
             ],
             "attackDamage": [
                 50,
@@ -168,21 +791,1325 @@
                 113
             ],
             "damagePerSecond": [
-                10,
-                15,
-                23
+                33,
+                49,
+                73
             ],
-            "attackRange": 0,
-            "attackSpeed": 0.2,
+            "attackRange": 1,
+            "attackSpeed": 0.65,
+            "armor": 50,
+            "magicalResistance": 50,
+            "skill": {
+                "name": "Corporate Mixer",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Gragas_1741331424-gragasbarrelroll.png",
+                "desc": "Heal Health, then throw a cask at the largest group of enemies within 3 hexes, dealing magic damage to enemies within 1 hex.",
+                "startingMana": 20,
+                "skillMana": 70,
+                "stats": [
+                    "Heal: 10% max Health + 300% / 325% / 380% (AP)",
+                    "Damage: 150% / 225% / 335% (AP)"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Graves",
+            "ingameKey": "TFT14_Graves",
+            "name": "Graves",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Graves_1741768016-Graves.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/graves.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Graves_21_1741758049-Graves.jpg",
+            "traits": [
+                "GoldenOx",
+                "Executioner"
+            ],
+            "cost": [
+                2,
+                5,
+                17
+            ],
+            "health": [
+                800,
+                1440,
+                2592
+            ],
+            "attackDamage": [
+                55,
+                83,
+                124
+            ],
+            "damagePerSecond": [
+                33,
+                50,
+                74
+            ],
+            "attackRange": 2,
+            "attackSpeed": 0.6,
+            "armor": 55,
+            "magicalResistance": 55,
+            "skill": {
+                "name": "Buckshot of Midas",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Graves_1741327326-gravese.png",
+                "desc": "Passive: Attacks fire 5 projectiles in a cone that deal physical damage each. Graves casts every 2 attacks.<br><br>Active: Dash next to the target and quickly fire 2 empowered shells that deal physical damage per projectile.",
+                "startingMana": 0,
+                "skillMana": 2,
+                "stats": [
+                    "Damage: 33% AD",
+                    "Empowered Damage: 40% / 40% / 48% / 55% (AD) + 6% / 9% / 16% (AP)"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Illaoi",
+            "ingameKey": "TFT14_Illaoi",
+            "name": "Illaoi",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Illaoi_1741767722-Illaoi.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/illaoi.jpg",
+            "traits": [
+                "AnimaSquad",
+                "Bastion"
+            ],
+            "cost": [
+                2,
+                5,
+                17
+            ],
+            "health": [
+                800,
+                1440,
+                2592
+            ],
+            "attackDamage": [
+                60,
+                90,
+                135
+            ],
+            "damagePerSecond": [
+                36,
+                54,
+                81
+            ],
+            "attackRange": 1,
+            "attackSpeed": 0.6,
+            "armor": 50,
+            "magicalResistance": 50,
+            "skill": {
+                "name": "Bionic Battle Bear",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Illaoi_1741327550-illaoi_q.png",
+                "desc": "Heal Health. Deal magic damage the current target and to enemies within 1-hex. Reduce their Magic Resist by 15 for the rest of combat.",
+                "startingMana": 0,
+                "skillMana": 60,
+                "stats": [
+                    "Heal: 350% / 400% / 600% (AP)",
+                    "Damage: 150% / 225% / 350% (AP)",
+                    "Splash Damage: 60% / 90% / 140% (AP)"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "JarvanIV",
+            "ingameKey": "TFT14_Jarvan",
+            "name": "Jarvan IV",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/JarvanIV_1741767713-JarvanIV.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/jarvaniv.jpg",
+            "traits": [
+                "GoldenOx",
+                "Vanguard",
+                "Slayer"
+            ],
+            "cost": [
+                3,
+                8,
+                26
+            ],
+            "health": [
+                850,
+                1530,
+                2754
+            ],
+            "attackDamage": [
+                60,
+                90,
+                135
+            ],
+            "damagePerSecond": [
+                39,
+                59,
+                88
+            ],
+            "attackRange": 1,
+            "attackSpeed": 0.65,
+            "armor": 50,
+            "magicalResistance": 50,
+            "skill": {
+                "name": "Half-Moon Sweep",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/JarvanIV_1741331582-jarvanivq.png",
+                "desc": "Strike the most enemies in a semi-circle, gaining 270 Shield for 4 seconds plus 30 per enemy hit. Deal physical damage to enemies hit and reduce their Armor by 15 for the rest of combat.",
+                "startingMana": 25,
+                "skillMana": 75,
+                "stats": [
+                    "Base Shield: 300% / 350% / 400% (AP)",
+                    "Bonus Shield: 30% / 50% / 80% (AP)",
+                    "Sweep damage: 280% (AD)",
+                    "Armor Reduction: 15 / 18 / 20"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Jax",
+            "ingameKey": "TFT14_Jax",
+            "name": "Jax",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Jax_1741767683-Jax.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/jax.jpg",
+            "traits": [
+                "Exotech",
+                "Bastion"
+            ],
+            "cost": [
+                1,
+                3,
+                9
+            ],
+            "health": [
+                650,
+                1170,
+                2106
+            ],
+            "attackDamage": [
+                55,
+                83,
+                124
+            ],
+            "damagePerSecond": [
+                33,
+                50,
+                74
+            ],
+            "attackRange": 1,
+            "attackSpeed": 0.6,
+            "armor": 40,
+            "magicalResistance": 40,
+            "skill": {
+                "name": "Ion Barrier",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Jax_1741762553-jaxr.png",
+                "desc": "Gain Shield for 4 seconds and deal magic damage to adjacent enemies.",
+                "startingMana": 20,
+                "skillMana": 80,
+                "stats": [
+                    "Shield: 350% / 425% / 525% (AP)",
+                    "Damage: 110% / 165% / 250% (AP)"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Jhin",
+            "ingameKey": "TFT14_Jhin",
+            "name": "Jhin",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Jhin_1741767625-Jhin.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/jhin.jpg",
+            "traits": [
+                "Exotech",
+                "Dynamo",
+                "Marksman"
+            ],
+            "cost": [
+                2,
+                5,
+                17
+            ],
+            "health": [
+                550,
+                990,
+                1782
+            ],
+            "attackDamage": [
+                44,
+                66,
+                99
+            ],
+            "damagePerSecond": [
+                33,
+                49,
+                73
+            ],
+            "attackRange": 4,
+            "attackSpeed": 0.74,
+            "armor": 20,
+            "magicalResistance": 20,
+            "skill": {
+                "name": "Logic Bomb",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Jhin_1741327654-jhin_q.png",
+                "desc": "Fire a bouncing grenade that hits four enemies, dealing physical damage and 20% Sundering them for 4.4 seconds. The fourth bounce returns to the initial target and deals physical damage.<br><br>Sunder: Reduce Armor",
+                "startingMana": 14,
+                "skillMana": 64,
+                "stats": [
+                    "Bounce Damage: 164% AD",
+                    "Sunder Duration: 4.4% (AP)",
+                    "Final Bounce Damage: 444% AD"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Jinx",
+            "ingameKey": "TFT14_Jinx",
+            "name": "Jinx",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Jinx_1741767608-Jinx.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/jinx.jpg",
+            "traits": [
+                "StreetDemon",
+                "Marksman"
+            ],
+            "cost": [
+                3,
+                8,
+                26
+            ],
+            "health": [
+                650,
+                1170,
+                2106
+            ],
+            "attackDamage": [
+                55,
+                83,
+                124
+            ],
+            "damagePerSecond": [
+                39,
+                58,
+                87
+            ],
+            "attackRange": 4,
+            "attackSpeed": 0.7,
+            "armor": 25,
+            "magicalResistance": 25,
+            "skill": {
+                "name": "Rampant Vandalism",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Jinx_1741331694-jinx_q1.png",
+                "desc": "Fire 5 rockets at random enemies within 2 hexes of the current target. Each rocket deals physical damage. Each cast fires an additional rocket.",
+                "startingMana": 0,
+                "skillMana": 50,
+                "stats": [
+                    "Damage: 140% / 140% / 165% (AD) + 15% / 25% / 40% (AP)"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Kindred",
+            "ingameKey": "TFT14_Kindred",
+            "name": "Kindred",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Kindred_1741767566-Kindred.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/kindred.jpg",
+            "traits": [
+                "Nitro",
+                "Marksman",
+                "Rapidfire"
+            ],
+            "cost": [
+                1,
+                3,
+                9
+            ],
+            "health": [
+                500,
+                900,
+                1620
+            ],
+            "attackDamage": [
+                50,
+                75,
+                113
+            ],
+            "damagePerSecond": [
+                35,
+                53,
+                79
+            ],
+            "attackRange": 4,
+            "attackSpeed": 0.7,
+            "armor": 15,
+            "magicalResistance": 15,
+            "skill": {
+                "name": "Rev Up",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Kindred_1741324706-kindred_q_1.png",
+                "desc": "Fire wolf at the current target, dealing physical damage. Overkill damage bounces to the nearest enemy.",
+                "startingMana": 0,
+                "skillMana": 50,
+                "stats": [
+                    "Bonus Damage (AP):  20% / 30% / 45%",
+                    "Damage: 520% / 520% / 575% / 630% AD + Bonus Damage (AP)"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Kobuko",
+            "ingameKey": "TFT14_Kobuko",
+            "name": "Kobuko",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Kobuko_1741767576-Kobuko.jpg",
+            "traits": [
+                "Cyberboss",
+                "Bruiser"
+            ],
+            "cost": [
+                5,
+                14,
+                44
+            ],
+            "health": [
+                900,
+                1620,
+                2916
+            ],
+            "attackDamage": [
+                20,
+                30,
+                45
+            ],
+            "damagePerSecond": [
+                20,
+                30,
+                45
+            ],
+            "attackRange": 1,
+            "attackSpeed": 1,
+            "armor": 50,
+            "magicalResistance": 50,
+            "skill": {
+                "name": "Game Over!",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Kobuko_1741762661-kobuko.png",
+                "desc": "Passive: Attacks deal bonus magic damage. At 50% Health, trigger ‘Phase 2’, then enrage for the rest of the fight, gaining 100% Attack Speed, 30% Omnivamp, and increasing the bonus damage by 35%.<br><br>Phase 2: Gain shield for 4 seconds. Pick up a nearby enemy, knocking up all enemies within 2 hexes for 1.5 seconds. Then, slam down, dealing magic damage to the target and damage to all enemies hit.",
+                "startingMana": 120,
+                "skillMana": 240,
+                "stats": [
+                    "On Hit Damage: 100% / 150% / 999% (AP)",
+                    "Shield: 100% / 100% / 400% (Health)",
+                    "Damage: 300% / 450% / 13370% (AP)",
+                    "Area Damage: 150% / 225% / 1337% (AP)"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "KogMaw",
+            "ingameKey": "TFT14_KogMaw",
+            "name": "Kog'Maw",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/KogMaw_1741767589-KogMaw.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/kogmaw.jpg",
+            "traits": [
+                "BoomBots",
+                "Rapidfire"
+            ],
+            "cost": [
+                1,
+                3,
+                9
+            ],
+            "health": [
+                500,
+                900,
+                1620
+            ],
+            "attackDamage": [
+                53,
+                80,
+                119
+            ],
+            "damagePerSecond": [
+                37,
+                56,
+                83
+            ],
+            "attackRange": 4,
+            "attackSpeed": 0.7,
+            "armor": 15,
+            "magicalResistance": 15,
+            "skill": {
+                "name": "Fire at Will",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/KogMaw_1741324777-kogmaw_bioarcanebarrage_1.png",
+                "desc": "For the next 5 seconds, gain 50% Attack Speed and attacks deal bonus physical damage.",
+                "startingMana": 0,
+                "skillMana": 40,
+                "stats": [
+                    "Damage (AP): 9 / 14 / 20",
+                    "Damage: 40% / 40% / 60% / 80% AD + Damage (AP)"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Leblanc",
+            "ingameKey": "TFT14_LeBlanc",
+            "name": "LeBlanc",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Leblanc_1741767935-LeBlanc.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/leblanc.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Leblanc_21_1741758221-LeBlanc.jpg",
+            "traits": [
+                "Cypher",
+                "Strategist"
+            ],
+            "cost": [
+                2,
+                5,
+                17
+            ],
+            "health": [
+                550,
+                990,
+                1782
+            ],
+            "attackDamage": [
+                35,
+                53,
+                79
+            ],
+            "damagePerSecond": [
+                26,
+                39,
+                59
+            ],
+            "attackRange": 4,
+            "attackSpeed": 0.75,
+            "armor": 20,
+            "magicalResistance": 20,
+            "skill": {
+                "name": "Data Spike",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Leblanc_1741327732-leblancq.png",
+                "desc": "Send 5 sigils, alternating between the current target and the next nearest enemy, each dealing magic damage. Every cast, send 1 more sigil.",
+                "startingMana": 0,
+                "skillMana": 50,
+                "stats": [
+                    "Damage: 70% / 115% / 170% (AP)"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Leona",
+            "ingameKey": "TFT14_Leona",
+            "name": "Leona",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Leona_1741767957-Leona.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/leona.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Leona_21_1741758176-Leona.jpg",
+            "traits": [
+                "AnimaSquad",
+                "Vanguard"
+            ],
+            "cost": [
+                4,
+                11,
+                35
+            ],
+            "health": [
+                1100,
+                1980,
+                3564
+            ],
+            "attackDamage": [
+                60,
+                90,
+                135
+            ],
+            "damagePerSecond": [
+                36,
+                54,
+                81
+            ],
+            "attackRange": 1,
+            "attackSpeed": 0.6,
+            "armor": 60,
+            "magicalResistance": 60,
+            "skill": {
+                "name": "Solar Flare",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Leona_1741332929-leonae.png",
+                "desc": "Gain Durability for 4 seconds. Deal magic damage to the largest clump of enemies within 2 hexes and Stun the center enemy for 2 seconds.<br><br>Enemies damaged by this ability take bonus magic damage from allies' attacks for 4 seconds.",
+                "startingMana": 60,
+                "skillMana": 120,
+                "stats": [
+                    "Durability: 55% / 60% / 90% (AP)",
+                    "Damage: 100% / 150% / 2000% (AP)",
+                    "Bonus Magic Damage: 14% / 21% / 150% (MR)"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "MissFortune",
+            "ingameKey": "TFT14_MissFortune",
+            "name": "Miss Fortune",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/MissFortune_1741767905-MissFortune.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/missfortune.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/MissFortune_21_1741758870-MissFortune.jpg",
+            "traits": [
+                "Syndicate",
+                "Dynamo"
+            ],
+            "cost": [
+                4,
+                11,
+                35
+            ],
+            "health": [
+                800,
+                1440,
+                2592
+            ],
+            "attackDamage": [
+                56,
+                84,
+                126
+            ],
+            "damagePerSecond": [
+                42,
+                63,
+                95
+            ],
+            "attackRange": 4,
+            "attackSpeed": 0.75,
             "armor": 30,
             "magicalResistance": 30,
             "skill": {
-                "name": "Training Dummy",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Dummy_1701222575-Dummy_1689746192-tft_trainingdummy_donothing.png",
-                "desc": "Use on a champion to spawn a movable target dummy nearby. Cannot be used in combat.",
+                "name": "Street Sweeper",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/MissFortune_1741333062-missfortune_r.png",
+                "desc": "Fire 9 waves of bullets towards the largest clump of enemies over 2 seconds. Enemies struck take physical damage from the first bullet of each wave, and 25% less from other bullets in the same wave.<br><br>Kingpin bonus: Fire 3 more waves.",
+                "startingMana": 40,
+                "skillMana": 135,
+                "stats": [
+                    "First Bullet Damage: 50% / 50% / 150% (AD) + 8% / 12% / 100% (AP)"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Mordekaiser",
+            "ingameKey": "TFT14_Mordekaiser",
+            "name": "Mordekaiser",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Mordekaiser_1741767928-Mordekaiser.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/mordekaiser.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Mordekaiser_21_1741750594-Mordekaiser.jpg",
+            "traits": [
+                "Exotech",
+                "Techie",
+                "Bruiser"
+            ],
+            "cost": [
+                3,
+                8,
+                26
+            ],
+            "health": [
+                850,
+                1530,
+                2754
+            ],
+            "attackDamage": [
+                50,
+                75,
+                113
+            ],
+            "damagePerSecond": [
+                30,
+                45,
+                68
+            ],
+            "attackRange": 1,
+            "attackSpeed": 0.6,
+            "armor": 50,
+            "magicalResistance": 50,
+            "skill": {
+                "name": "Antivirus",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Mordekaiser_1741331792-mordekaiserq_1.png",
+                "desc": "Gain Shield for 4 seconds. Slam the current target, dealing magic damage in a 2-hex line and Stun all enemies hit for 1.25 seconds.",
+                "startingMana": 30,
+                "skillMana": 80,
+                "stats": [
+                    "Shield: 475% / 525% / 700% (AP)",
+                    "Damage: 200% / 300% / 500% (AP)"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Morgana",
+            "ingameKey": "TFT14_Morgana",
+            "name": "Morgana",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Morgana_1741767914-Morgana.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/morgana.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Morgana_21_1741758832-Morgana.jpg",
+            "traits": [
+                "Divinicorp",
+                "Dynamo"
+            ],
+            "cost": [
+                1,
+                3,
+                9
+            ],
+            "health": [
+                500,
+                900,
+                1620
+            ],
+            "attackDamage": [
+                30,
+                45,
+                68
+            ],
+            "damagePerSecond": [
+                21,
+                32,
+                47
+            ],
+            "attackRange": 4,
+            "attackSpeed": 0.7,
+            "armor": 15,
+            "magicalResistance": 15,
+            "skill": {
+                "name": "Short Circuit",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Morgana_1741324932-fallenangel_darkbinding.png",
+                "desc": "Hack the target and the nearest non-hacked enemy, dealing magic damage over 16 seconds.",
+                "startingMana": 0,
+                "skillMana": 40,
+                "stats": [
+                    "Damage: 400% / 600% / 1000% (AP)"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Naafiri",
+            "ingameKey": "TFT14_Naafiri",
+            "name": "Naafiri",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Naafiri_1741749649-Naafiri.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/naafiri.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Naafiri_21_1741758071-Nidalee.jpg",
+            "traits": [
+                "Exotech",
+                "AMP"
+            ],
+            "cost": [
+                2,
+                5,
+                17
+            ],
+            "health": [
+                700,
+                1260,
+                2268
+            ],
+            "attackDamage": [
+                52,
+                78,
+                117
+            ],
+            "damagePerSecond": [
+                44,
+                66,
+                99
+            ],
+            "attackRange": 1,
+            "attackSpeed": 0.85,
+            "armor": 45,
+            "magicalResistance": 45,
+            "skill": {
+                "name": "Alpha Protocol",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Naafiri_1741328334-icons_naafiri_e.png",
+                "desc": "Passive: Gain 15% Omnivamp.<br><br>Active: Deal physical damage to the current target. Then, summon 3 packmates and Alphas that deal physical damage to the current target.",
+                "startingMana": 0,
+                "skillMana": 50,
+                "stats": [
+                    "Damage: 275% / 275% / 275% (AD)",
+                    "Packmate Damage: 75% (AD)",
+                    "Alpha Damage: 165% / 165% / 165% (AD)",
+                    "Alphas Summoned: 1 + 1 per Amp"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Neeko",
+            "ingameKey": "TFT14_Neeko",
+            "name": "Neeko",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Neeko_1741767997-Neeko.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/neeko.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Neeko_21_1741758108-Neeko.jpg",
+            "traits": [
+                "StreetDemon",
+                "Strategist"
+            ],
+            "cost": [
+                4,
+                11,
+                35
+            ],
+            "health": [
+                1000,
+                1800,
+                3240
+            ],
+            "attackDamage": [
+                60,
+                90,
+                135
+            ],
+            "damagePerSecond": [
+                39,
+                59,
+                88
+            ],
+            "attackRange": 1,
+            "attackSpeed": 0.65,
+            "armor": 60,
+            "magicalResistance": 60,
+            "skill": {
+                "name": "Pop Up Mural",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Neeko_1741333593-neeko_r.png",
+                "desc": "Gain Shield for 4 seconds and create an expanding zone that pops three times, each dealing magic damage to enemies hit. The third pop Chills enemies for 3 seconds.<br><br>Chill: Reduce Attack Speed by 20%",
+                "startingMana": 30,
+                "skillMana": 90,
+                "stats": [
+                    "Shield: 295% / 315% / 1500% (AP) + 10% Health",
+                    "Damage: 80% / 120% / 1800% (AP)"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Nidalee",
+            "ingameKey": "TFT14_NidaleeCougar",
+            "name": "Nidalee",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Nidalee_1741749967-Nidalee.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/nidalee.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Nidalee_21_1741758082-Nidalee.jpg",
+            "traits": [
+                "Nitro",
+                "AMP"
+            ],
+            "cost": [
+                1,
+                3,
+                9
+            ],
+            "health": [
+                650,
+                1170,
+                2106
+            ],
+            "attackDamage": [
+                40,
+                60,
+                90
+            ],
+            "damagePerSecond": [
+                30,
+                45,
+                68
+            ],
+            "attackRange": 1,
+            "attackSpeed": 0.75,
+            "armor": 40,
+            "magicalResistance": 40,
+            "skill": {
+                "name": "Charged Claws",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Nidalee_1741325325-nidalee_e2.png",
+                "desc": "Deal magic damage to the current target and magic damage to the 2 nearest enemies. Heal 100 Health + 20 per enemy hit.",
+                "startingMana": 20,
+                "skillMana": 60,
+                "stats": [
+                    "Damage: 220% / 330% / 500% (AP)",
+                    "Charged Damage: 75% / 115% / 170% (AP)",
+                    "Additional Targets: 2 + 1 per Amp",
+                    "Base Heal: 100 / 125 / 210"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Poppy",
+            "ingameKey": "TFT14_Poppy",
+            "name": "Poppy",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Poppy_1741767854-Poppy.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/poppy.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Poppy_21_1741759016-Poppy.jpg",
+            "traits": [
+                "Cyberboss",
+                "Bastion"
+            ],
+            "cost": [
+                1,
+                3,
+                9
+            ],
+            "health": [
+                650,
+                1170,
+                2106
+            ],
+            "attackDamage": [
+                60,
+                90,
+                135
+            ],
+            "damagePerSecond": [
+                33,
+                50,
+                74
+            ],
+            "attackRange": 1,
+            "attackSpeed": 0.55,
+            "armor": 40,
+            "magicalResistance": 40,
+            "skill": {
+                "name": "Buckler Toss",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Poppy_1741325564-poppy_passive_1.png",
+                "desc": "Throw a buckler at the farthest enemy within 4 hexes, dealing magic damage. Gain Shield.",
+                "startingMana": 20,
+                "skillMana": 65,
+                "stats": [
+                    "Damage: 160% / 240% / 360% / 480% + 100% / 150% / 225% / 300%",
+                    "Shield: 425% / 500% / 600% / 700%",
+                    "Final Form Damage: 40% of Damage"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "R080T",
+            "ingameKey": "TFT14_SummonLevel2",
+            "name": "R-080T",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/R080T_1742372820-R-080T.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/r080t.jpg",
+            "traits": [],
+            "isHidden": true,
+            "cost": [
+                0,
+                -1,
+                -1
+            ],
+            "health": [
+                500,
+                900,
+                1620
+            ],
+            "attackDamage": [
+                45,
+                68,
+                101
+            ],
+            "damagePerSecond": [
+                31,
+                47,
+                71
+            ],
+            "attackRange": 1,
+            "attackSpeed": 0.7,
+            "armor": 40,
+            "magicalResistance": 40,
+            "skill": {
+                "name": "Rage With the Machines",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/R080T_1742371876-tft14_summonlevel3_splash_tile_6.tft_set14.png",
+                "desc": "Fire grenades at the nearest 3 enemies, dealing magic damage and Stunning them for 1 seconds. Heal Health.<br><br>AND Fire a laser through the current target, dealing magic damage to enemies hit over 2 seconds reduced by 10% per hex away.",
+                "startingMana": 50,
+                "skillMana": 100,
+                "stats": [
+                    "Heal: 130% / 130% / 130%",
+                    "Grenade Damage: 100% / 120% / 140% / 160%",
+                    "Laser Damage: 460% / 490% / 520% / 550%"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Renekton",
+            "ingameKey": "TFT14_Renekton",
+            "name": "Renekton",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Renekton_1741750310-Renekton.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/renekton.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Renekton_21_1741758140-Renekton.jpg",
+            "traits": [
+                "Divinicorp",
+                "Overlord",
+                "Bastion"
+            ],
+            "cost": [
+                5,
+                14,
+                44
+            ],
+            "health": [
+                1100,
+                1980,
+                3564
+            ],
+            "attackDamage": [
+                66,
+                99,
+                149
+            ],
+            "damagePerSecond": [
+                60,
+                90,
+                135
+            ],
+            "attackRange": 1,
+            "attackSpeed": 0.91,
+            "armor": 60,
+            "magicalResistance": 60,
+            "skill": {
+                "name": "Dominus",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Renekton_1741335368-renekton_r_1.png",
+                "desc": "Deal physical damage to enemies within 2 hexes and Burn, and Wound them for 5 seconds. Gain max Health.<br><br>First Cast: Enter frenzy mode where attacks strike twice, dealing physical damage and can dash to new targets.<br><br>Second Cast: Frenzy mode now strikes thrice, dealing physical damage. Cannot cast again.<br><br>Burn: Deal 1% of the target's max Health as true damage every second<br>Wound: Reduce healing received by 33%",
+                "startingMana": 70,
+                "skillMana": 140,
+                "stats": [
+                    "Damage: 100% / 100% / 3000% (AD) + 310% / 465% / 1000% (AP)",
+                    "Health: 400 / 650 / 10000",
+                    "Double Attacks: 180% AD",
+                    "Triple Attacks: 300% AD"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Rengar",
+            "ingameKey": "TFT14_Rengar",
+            "name": "Rengar",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Rengar_1741767951-Rengar.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/rengar.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Rengar_21_1741758196-Rengar.jpg",
+            "traits": [
+                "StreetDemon",
+                "Executioner"
+            ],
+            "cost": [
+                3,
+                8,
+                26
+            ],
+            "health": [
+                750,
+                1350,
+                2430
+            ],
+            "attackDamage": [
+                65,
+                98,
+                146
+            ],
+            "damagePerSecond": [
+                52,
+                78,
+                117
+            ],
+            "attackRange": 1,
+            "attackSpeed": 0.8,
+            "armor": 50,
+            "magicalResistance": 50,
+            "skill": {
+                "name": "Freestyle",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Rengar_1741331886-rengar_r.png",
+                "desc": "Heal Health and leap to the lowest Health enemy in 2 hexes, dealing physical damage. Then, strike 2 times, each dealing physical damage.<br><br>Each cast increases leap range by 1 hex.",
+                "startingMana": 0,
+                "skillMana": 60,
+                "stats": [
+                    "Heal: 140% / 145% / 150% (AP)",
+                    "Damage: 225% AD",
+                    "Slash Damage: 180% AD"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Rhaast",
+            "ingameKey": "TFT14_Rhaast",
+            "name": "Rhaast",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Rhaast_1741767977-Rhaast.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/rhaast.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Rhaast_21_1741758132-Rhaast.jpg",
+            "traits": [
+                "Divinicorp",
+                "Vanguard"
+            ],
+            "cost": [
+                2,
+                5,
+                17
+            ],
+            "health": [
+                700,
+                1260,
+                2268
+            ],
+            "attackDamage": [
+                60,
+                90,
+                135
+            ],
+            "damagePerSecond": [
+                45,
+                68,
+                101
+            ],
+            "attackRange": 1,
+            "attackSpeed": 0.75,
+            "armor": 40,
+            "magicalResistance": 40,
+            "skill": {
+                "name": "Reaping Slash",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Rhaast_1741328472-kayn_q_slay.png",
+                "desc": "Knock the target into the air for 1.75 seconds. Over the duration, heal Health and deal physical damage to the target.",
+                "startingMana": 40,
+                "skillMana": 80,
+                "stats": [
+                    "Heal: 220% / 250% / 300% (AP) + 10% max Health",
+                    "Damage: 525% AD"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Samira",
+            "ingameKey": "TFT14_Samira",
+            "name": "Samira",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Samira_1741767836-Samira.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/samira.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Samira_21_1741759035-Samira.jpg",
+            "traits": [
+                "StreetDemon",
+                "AMP"
+            ],
+            "cost": [
+                5,
+                14,
+                44
+            ],
+            "health": [
+                900,
+                1620,
+                2916
+            ],
+            "attackDamage": [
+                70,
+                105,
+                158
+            ],
+            "damagePerSecond": [
+                56,
+                84,
+                126
+            ],
+            "attackRange": 4,
+            "attackSpeed": 0.8,
+            "armor": 40,
+            "magicalResistance": 40,
+            "skill": {
+                "name": "Demon Trigger",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Samira_1741335543-samirae.png",
+                "desc": "Dash towards the target and fire a volley of bullets over 2 seconds split between enemies within three hexes. Each bullet Shreds 3 Armor and deals physical damage, reduced by 20% per hex distance from Samira.<br><br>When the volley ends, dash back to safety while dealing physical damage to the current target.<br><br>For the duration of the Ability, Samira is Unstoppable and has Omnivamp.",
+                "startingMana": 20,
+                "skillMana": 100,
+                "stats": [
+                    "Bullets: 22 + 1 per Amp",
+                    "Bullet Damage: 90% / 90% / 1500% (AD)",
+                    "Slide Damage: 500% / 500% / 5000% (AD)",
+                    "Omnivamp: 12% / 12% / 100% (AP)"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Sejuani",
+            "ingameKey": "TFT14_Sejuani",
+            "name": "Sejuani",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Sejuani_1741767785-Sejuani.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/sejuani.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Sejuani_21_1741759127-Sejuani.jpg",
+            "traits": [
+                "Exotech",
+                "Bastion"
+            ],
+            "cost": [
+                4,
+                11,
+                35
+            ],
+            "health": [
+                1000,
+                1800,
+                3240
+            ],
+            "attackDamage": [
+                60,
+                90,
+                135
+            ],
+            "damagePerSecond": [
+                36,
+                54,
+                81
+            ],
+            "attackRange": 1,
+            "attackSpeed": 0.6,
+            "armor": 60,
+            "magicalResistance": 60,
+            "skill": {
+                "name": "Blue Screen",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Sejuani_1741333949-sejuani_w_1.png",
+                "desc": "Passive: Gain 30% more Armor and Magic Resist from all sources.<br><br>Active: Throw an EMP at the closest enemy that explodes after 2 seconds. It deals magic damage to enemies within 3 hexes and Stun them.",
+                "startingMana": 50,
+                "skillMana": 140,
+                "stats": [
+                    "Damage: 120 / 180 / 1800 (AP)",
+                    "Stun Duration: 1.75 / 2 / 8"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Senna",
+            "ingameKey": "TFT14_Senna",
+            "name": "Senna",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Senna_1741767802-Senna.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/senna.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Senna_21_1741759111-Senna.jpg",
+            "traits": [
+                "Divinicorp",
+                "Slayer"
+            ],
+            "cost": [
+                3,
+                8,
+                26
+            ],
+            "health": [
+                700,
+                1260,
+                2268
+            ],
+            "attackDamage": [
+                85,
+                128,
+                191
+            ],
+            "damagePerSecond": [
+                51,
+                77,
+                115
+            ],
+            "attackRange": 4,
+            "attackSpeed": 0.6,
+            "armor": 25,
+            "magicalResistance": 25,
+            "skill": {
+                "name": "Ion Beam",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Senna_1741331984-senna_q_1.png",
+                "desc": "Passive: Attacks deal physical damage to enemies adjacent to the target.<br><br>Active: Fire a beam two hexes beyond the current target, dealing physical damage to enemies hit.",
+                "startingMana": 0,
+                "skillMana": 100,
+                "stats": [
+                    "Damage: 280% / 280% / 300% (AD) + 20% / 30% / 45% (AP)",
+                    "Passive Damage: 45% AD"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Sentinel",
+            "ingameKey": "TFT_BlueGolem",
+            "name": "Sentinel",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Sentinel_1718249255-tft_bluegolem_spell.png",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/sentinel.jpg",
+            "traits": [],
+            "isHidden": true,
+            "isHiddenGuide": true,
+            "isHiddenLanding": true,
+            "isHiddenTeamBuilder": true,
+            "cost": [
+                0,
+                -1,
+                -1
+            ],
+            "health": [
+                0,
+                0,
+                0
+            ],
+            "attackDamage": [
+                0,
+                0,
+                0
+            ],
+            "damagePerSecond": [
+                0,
+                0,
+                0
+            ],
+            "attackRange": 0,
+            "attackSpeed": 0,
+            "armor": 0,
+            "magicalResistance": 0,
+            "skill": {
+                "name": "Sentinel Smash",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Sentinel_1718249262-tft_bluegolem_spell.png",
+                "desc": "Slam the target dealing magic damage.",
                 "startingMana": 0,
                 "skillMana": 0,
-                "stats": []
+                "stats": [
+                    "Damage: @Damage@"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Seraphine",
+            "ingameKey": "TFT14_Seraphine",
+            "name": "Seraphine",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Seraphine_1741767794-Seraphine.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/seraphine.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Seraphine_21_1741759120-Seraphine.jpg",
+            "traits": [
+                "AnimaSquad",
+                "Techie"
+            ],
+            "cost": [
+                1,
+                3,
+                9
+            ],
+            "health": [
+                501,
+                902,
+                1623
+            ],
+            "attackDamage": [
+                31,
+                47,
+                70
+            ],
+            "damagePerSecond": [
+                22,
+                33,
+                50
+            ],
+            "attackRange": 4,
+            "attackSpeed": 0.71,
+            "armor": 16,
+            "magicalResistance": 16,
+            "skill": {
+                "name": "Ping()",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Seraphine_1741325636-seraphine_e1.png",
+                "desc": "Fire a soundwave through the current target that deals magic damage, reduced by 40% for each enemy hit.",
+                "startingMana": 0,
+                "skillMana": 60,
+                "stats": [
+                    "Damage: 250% / 375% / 600% / 825% (AP)"
+                ]
             },
             "role": ""
         },
@@ -239,59 +2166,6 @@
             "role": ""
         },
         {
-            "key": "Set10Akali2",
-            "ingameKey": "TFT10_Akali",
-            "name": "Akali (K/DA)",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Akali2_1698737634-Akali.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/akali2.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Akali2_17.jpg",
-            "traits": [
-                "Set10KDA",
-                "Set10Breakout",
-                "Set10Executioner"
-            ],
-            "isHidden": true,
-            "isHiddenGuide": true,
-            "isHiddenLanding": true,
-            "isHiddenTeamBuilder": true,
-            "cost": [
-                4,
-                11,
-                35
-            ],
-            "health": [
-                950,
-                1710,
-                3078
-            ],
-            "attackDamage": [
-                60,
-                90,
-                135
-            ],
-            "damagePerSecond": [
-                51,
-                77,
-                115
-            ],
-            "attackRange": 1,
-            "attackSpeed": 0.85,
-            "armor": 50,
-            "magicalResistance": 50,
-            "skill": {
-                "name": "The Baddest",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Akali2_1698398503-akali_e.png",
-                "desc": "Throw a shuriken at the farthest unmarked target, marking them. Dash to every marked enemy, striking them for physical damage and dealing physical damage to enemies dashed through.<br><br>Headliner Effect: +100 Health, +10% Attack Speed",
-                "startingMana": 10,
-                "skillMana": 50,
-                "stats": [
-                    "Strike Damage: 190% / 190% / 380% AD",
-                    "Dash Damage: 80% / 120% / 400% AP"
-                ]
-            },
-            "role": ""
-        },
-        {
             "key": "Set10Akali",
             "ingameKey": "TFT10_Akali_TrueDamage",
             "name": "Akali (True Damage)",
@@ -340,6 +2214,59 @@
                 "stats": [
                     "Damage Per Wave: 275% / 275% / 550% AD",
                     "Mana Refund: 12% / 12% / 20% AP"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Set10Akali2",
+            "ingameKey": "TFT10_Akali",
+            "name": "Akali (K/DA)",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Akali2_1698737634-Akali.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/akali2.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Akali2_17.jpg",
+            "traits": [
+                "Set10KDA",
+                "Set10Breakout",
+                "Set10Executioner"
+            ],
+            "isHidden": true,
+            "isHiddenGuide": true,
+            "isHiddenLanding": true,
+            "isHiddenTeamBuilder": true,
+            "cost": [
+                4,
+                11,
+                35
+            ],
+            "health": [
+                950,
+                1710,
+                3078
+            ],
+            "attackDamage": [
+                60,
+                90,
+                135
+            ],
+            "damagePerSecond": [
+                51,
+                77,
+                115
+            ],
+            "attackRange": 1,
+            "attackSpeed": 0.85,
+            "armor": 50,
+            "magicalResistance": 50,
+            "skill": {
+                "name": "The Baddest",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Akali2_1698398503-akali_e.png",
+                "desc": "Throw a shuriken at the farthest unmarked target, marking them. Dash to every marked enemy, striking them for physical damage and dealing physical damage to enemies dashed through.<br><br>Headliner Effect: +100 Health, +10% Attack Speed",
+                "startingMana": 10,
+                "skillMana": 50,
+                "stats": [
+                    "Strike Damage: 190% / 190% / 380% AD",
+                    "Dash Damage: 80% / 120% / 400% AP"
                 ]
             },
             "role": ""
@@ -445,6 +2372,53 @@
                 "stats": [
                     "Damage: 180% / 270% / 405% AP",
                     "Additional Cast Damage: 65% / 100% / 150% AP"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Set10ApexTurret",
+            "ingameKey": null,
+            "name": "ApexTurret",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/ApexTurret_1686125890-tft9_heimerdingerturret_square.tft_set9.png",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/apexturret.jpg",
+            "traits": [],
+            "isHidden": true,
+            "isHiddenGuide": true,
+            "isHiddenLanding": true,
+            "isHiddenTeamBuilder": true,
+            "cost": [
+                0,
+                -1,
+                -1
+            ],
+            "health": [
+                800,
+                1440,
+                2592
+            ],
+            "attackDamage": [
+                40,
+                60,
+                90
+            ],
+            "damagePerSecond": [
+                30,
+                45,
+                68
+            ],
+            "attackRange": 10,
+            "attackSpeed": 0.75,
+            "armor": 60,
+            "magicalResistance": 60,
+            "skill": {
+                "name": "H-28G Laser Beam",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/ApexTurret_1686713377-tft9_heimerdingerturret_square.tft_set9.png",
+                "desc": "Heimerdinger's turret fires a laser beam in its target's direction, dealing to all enemies it passes through.",
+                "startingMana": 0,
+                "skillMana": 100,
+                "stats": [
+                    "Damage: 185 / 275 / 4000"
                 ]
             },
             "role": ""
@@ -711,6 +2685,97 @@
                     "Damage: 350% AD",
                     "Duration: 5% AP"
                 ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Set10DiscoBall",
+            "ingameKey": null,
+            "name": "Mirrorball",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/DiscoBall_1699498098-discoball.png",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/discoball.jpg",
+            "traits": [],
+            "isHidden": true,
+            "isHiddenGuide": true,
+            "isHiddenLanding": true,
+            "isHiddenTeamBuilder": true,
+            "cost": [
+                0,
+                -1,
+                -1
+            ],
+            "health": [
+                0,
+                0,
+                0
+            ],
+            "attackDamage": [
+                0,
+                0,
+                0
+            ],
+            "damagePerSecond": [
+                0,
+                0,
+                0
+            ],
+            "attackRange": 0,
+            "attackSpeed": 0,
+            "armor": 0,
+            "magicalResistance": 0,
+            "skill": {
+                "name": "Mirrorball",
+                "imageUrl": "",
+                "desc": "-",
+                "startingMana": 0,
+                "skillMana": 0,
+                "stats": [
+                    "-"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Set10Dummy",
+            "ingameKey": null,
+            "name": "Dummy",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Dummy_1689746192-tft_trainingdummy_donothing.png",
+            "traits": [],
+            "isHidden": true,
+            "isHiddenGuide": true,
+            "isHiddenLanding": true,
+            "isHiddenTeamBuilder": true,
+            "cost": [
+                0,
+                -1,
+                -1
+            ],
+            "health": [
+                625,
+                1125,
+                2025
+            ],
+            "attackDamage": [
+                50,
+                75,
+                113
+            ],
+            "damagePerSecond": [
+                10,
+                15,
+                23
+            ],
+            "attackRange": 0,
+            "attackSpeed": 0.2,
+            "armor": 30,
+            "magicalResistance": 30,
+            "skill": {
+                "name": "Training Dummy",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Dummy_1701222575-Dummy_1689746192-tft_trainingdummy_donothing.png",
+                "desc": "Use on a champion to spawn a movable target dummy nearby. Cannot be used in combat.",
+                "startingMana": 0,
+                "skillMana": 0,
+                "stats": []
             },
             "role": ""
         },
@@ -1081,6 +3146,53 @@
                     "Circle Damage: 100% / 150% / 4000%",
                     "Armor and Magic Resist: 100 / 150 / 400",
                     "Tentacle Damage: AR based Damage + MR based Damage"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Set10IllaoiTentacle",
+            "ingameKey": null,
+            "name": "Tentacle",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/IllaoiTentacle_1701049007-illaoi-tentacles.png",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/illaoitentacle.jpg",
+            "traits": [],
+            "isHidden": true,
+            "isHiddenGuide": true,
+            "isHiddenLanding": true,
+            "isHiddenTeamBuilder": true,
+            "cost": [
+                0,
+                -1,
+                -1
+            ],
+            "health": [
+                0,
+                0,
+                0
+            ],
+            "attackDamage": [
+                0,
+                0,
+                0
+            ],
+            "damagePerSecond": [
+                0,
+                0,
+                0
+            ],
+            "attackRange": 1,
+            "attackSpeed": 0,
+            "armor": 0,
+            "magicalResistance": 0,
+            "skill": {
+                "name": "IllaoiTentacle",
+                "imageUrl": "",
+                "desc": "TBA",
+                "startingMana": 0,
+                "skillMana": 0,
+                "stats": [
+                    "TBA: TBA"
                 ]
             },
             "role": ""
@@ -3355,1983 +5467,6 @@
             "role": ""
         },
         {
-            "key": "Alistar",
-            "ingameKey": "TFT14_Alistar",
-            "name": "Alistar",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Alistar_1741756285-Alistar.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/alistar.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Alistar_21_1741759164-Alistar.jpg",
-            "traits": [
-                "GoldenOx",
-                "Bruiser"
-            ],
-            "cost": [
-                1,
-                3,
-                9
-            ],
-            "health": [
-                650,
-                1170,
-                2106
-            ],
-            "attackDamage": [
-                50,
-                75,
-                113
-            ],
-            "damagePerSecond": [
-                28,
-                41,
-                62
-            ],
-            "attackRange": 1,
-            "attackSpeed": 0.55,
-            "armor": 40,
-            "magicalResistance": 40,
-            "skill": {
-                "name": "Gilded Endurance",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Alistar_1741324442-alistar_r.png",
-                "desc": "Passive: Reduce all incoming damage.<br><br>Active: Deal magic damage to the current target and Stun them for 2 seconds.",
-                "startingMana": 40,
-                "skillMana": 80,
-                "stats": [
-                    "Damage Reduction: 15 / 20 / 33 / 45",
-                    "Damage: 240% / 360% / 600% (AP)"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Annie",
-            "ingameKey": "TFT14_Annie",
-            "name": "Annie",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Annie_1741767771-Annie.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/annie.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Annie_21_1741759180-Annie.jpg",
-            "traits": [
-                "GoldenOx",
-                "AMP"
-            ],
-            "cost": [
-                4,
-                11,
-                35
-            ],
-            "health": [
-                850,
-                1530,
-                2754
-            ],
-            "attackDamage": [
-                30,
-                45,
-                68
-            ],
-            "damagePerSecond": [
-                23,
-                34,
-                51
-            ],
-            "attackRange": 4,
-            "attackSpeed": 0.75,
-            "armor": 30,
-            "magicalResistance": 30,
-            "skill": {
-                "name": "Goldilocks",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Annie_1741332407-annie_r1.png",
-                "desc": "Throw a fireball at the current target that deals magic damage and 3 mini-fireballs split between the target and 2 nearby enemies that deal magic damage each.<br><br>Every 4 casts, instead, summon Tibbers next to the current target, dealing magic damage to enemies within 1 hex.",
-                "startingMana": 0,
-                "skillMana": 40,
-                "stats": [
-                    "Damage: 230% / 345% / 1200% (AP)",
-                    "Mini-Fireballs: 2 + 1 per Amp",
-                    "Mini Damage: 42% / 63% / 300% (AP)",
-                    "Tibbers Damage: 270% / 405% / 1215% (AP)"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Aphelios",
-            "ingameKey": "TFT14_Aphelios",
-            "name": "Aphelios",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Aphelios_1741756267-Aphelios.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/aphelios.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Aphelios_21_1741759159-Aphelios.jpg",
-            "traits": [
-                "GoldenOx",
-                "Marksman"
-            ],
-            "cost": [
-                4,
-                11,
-                35
-            ],
-            "health": [
-                800,
-                1440,
-                2592
-            ],
-            "attackDamage": [
-                63,
-                95,
-                142
-            ],
-            "damagePerSecond": [
-                47,
-                71,
-                106
-            ],
-            "attackRange": 4,
-            "attackSpeed": 0.75,
-            "armor": 30,
-            "magicalResistance": 30,
-            "skill": {
-                "name": "Moonlight Vigil",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Aphelios_1741332548-apheliosr.png",
-                "desc": "Fire a moon blast at the largest group of enemies that deals physical damage to enemies within 2 hexes.<br><br>Equip 4 Chakram, plus 1 more for each enemy hit by the blast, that last for 8 attacks and deal bonus physical damage each.",
-                "startingMana": 0,
-                "skillMana": 50,
-                "stats": [
-                    "Damage: 220% / 220% / 600% (AD) + 20% / 30% / 100% (AP)",
-                    "Chakram Damage: 11% / 11% / 100% (AD)"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Aurora",
-            "ingameKey": "TFT14_Aurora",
-            "name": "Aurora",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Aurora_1741767753-Aurora.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/aurora.jpg",
-            "traits": [
-                "AnimaSquad",
-                "Dynamo"
-            ],
-            "cost": [
-                5,
-                14,
-                44
-            ],
-            "health": [
-                800,
-                1440,
-                2592
-            ],
-            "attackDamage": [
-                50,
-                75,
-                113
-            ],
-            "damagePerSecond": [
-                40,
-                60,
-                90
-            ],
-            "attackRange": 4,
-            "attackSpeed": 0.8,
-            "armor": 40,
-            "magicalResistance": 40,
-            "skill": {
-                "name": "Pierce the Veil",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Aurora_1741334866-aurorae.aurora.png",
-                "desc": "On first cast, swap places with the left-most champion on your bench and continue fighting. That champion gains Attack Speed. If the swapped champion dies, return to the board.<br><br>Teleport to hit the most enemies in a line, dealing to each one, plus split between all enemies hit.<br><br>Aurora cannot swap places with another Aurora.",
-                "startingMana": 20,
-                "skillMana": 80,
-                "stats": [
-                    "Damage: 50% / 120% / 3333% (AP)",
-                    "Split Damage: 560% / 840% / 9999% (AP)",
-                    "Attack Speed: 40% / 80% / 1000% (AP)"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Brand",
-            "ingameKey": "TFT14_Brand",
-            "name": "Brand",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Brand_1741751182-Brand.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/brand.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Brand_21_1741758989-Brand.jpg",
-            "traits": [
-                "StreetDemon",
-                "Techie"
-            ],
-            "cost": [
-                4,
-                11,
-                35
-            ],
-            "health": [
-                800,
-                1440,
-                2592
-            ],
-            "attackDamage": [
-                35,
-                53,
-                79
-            ],
-            "damagePerSecond": [
-                26,
-                39,
-                59
-            ],
-            "attackRange": 4,
-            "attackSpeed": 0.75,
-            "armor": 30,
-            "magicalResistance": 30,
-            "skill": {
-                "name": "Paint Bomb",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Brand_1741332649-brandpyroclasm.png",
-                "desc": "Throw a paint bomb at the largest group of enemies within 5 hexes, dealing magic damage to enemies within 1 hex and magic damage to the nearest 4 enemies.",
-                "startingMana": 10,
-                "skillMana": 70,
-                "stats": [
-                    "Damage: 260% / 390% / 1500%",
-                    "Secondary Damage: 100% / 150% / 600%"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Braum",
-            "ingameKey": "TFT14_Braum",
-            "name": "Braum",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Braum_1741751048-Braum.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/braum.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Braum_21_1741758982-Braum.jpg",
-            "traits": [
-                "Syndicate",
-                "Vanguard"
-            ],
-            "cost": [
-                3,
-                8,
-                26
-            ],
-            "health": [
-                850,
-                1530,
-                2754
-            ],
-            "attackDamage": [
-                70,
-                105,
-                158
-            ],
-            "damagePerSecond": [
-                46,
-                68,
-                102
-            ],
-            "attackRange": 1,
-            "attackSpeed": 0.65,
-            "armor": 50,
-            "magicalResistance": 50,
-            "skill": {
-                "name": "Protection Racket",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Braum_1741329673-braum_e.png",
-                "desc": "Gain Shield for 4 seconds. When it breaks, deal magic damage to the 3 closest enemies and Chill them for 3 seconds.<br><br>Kingpin bonus: Gain 30 Armor and Magic Resist. Every 4 seconds, Braum's next attack deals bonus magic damage.<br><br>Chill: Reduce Attack Speed by 20%",
-                "startingMana": 30,
-                "skillMana": 90,
-                "stats": [
-                    "Shield: 375% / 400% / 450% (AP) + 10% Health",
-                    "Damage: 100% / 150% / 240% (AP)",
-                    "Boss Damage: 100% / 150% / 200% AR/MR + 10% max Health"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Chogath",
-            "ingameKey": "TFT14_Chogath",
-            "name": "Cho'Gath",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Chogath_1741767595-ChoGath.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/chogath.jpg",
-            "traits": [
-                "BoomBots",
-                "Bruiser"
-            ],
-            "cost": [
-                4,
-                11,
-                35
-            ],
-            "health": [
-                1100,
-                1980,
-                3564
-            ],
-            "attackDamage": [
-                65,
-                98,
-                146
-            ],
-            "damagePerSecond": [
-                39,
-                59,
-                88
-            ],
-            "attackRange": 1,
-            "attackSpeed": 0.6,
-            "armor": 50,
-            "magicalResistance": 50,
-            "skill": {
-                "name": "Sonic Scream",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Chogath_1741332782-greenterror_tailspike.png",
-                "desc": "Fire a disorienting sound blast in a cone, dealing magic damage. Gain max Health, get bigger, and increase the size of future sound blasts.",
-                "startingMana": 60,
-                "skillMana": 100,
-                "stats": [
-                    "Damage: 100% / 150% / 1500% + 3% Health",
-                    "Health: 70% / 100% / 500% (AP) + 25% / 25% / 55% starting Health"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Darius",
-            "ingameKey": "TFT14_Darius",
-            "name": "Darius",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Darius_1741767988-Darius.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/darius.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Darius_21_1741758114-Darius.jpg",
-            "traits": [
-                "Syndicate",
-                "Bruiser"
-            ],
-            "cost": [
-                2,
-                5,
-                17
-            ],
-            "health": [
-                750,
-                1350,
-                2430
-            ],
-            "attackDamage": [
-                65,
-                98,
-                146
-            ],
-            "damagePerSecond": [
-                42,
-                63,
-                95
-            ],
-            "attackRange": 1,
-            "attackSpeed": 0.65,
-            "armor": 45,
-            "magicalResistance": 45,
-            "skill": {
-                "name": "Kneecapper",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Darius_1741326782-darius_icon_decimate_1.png",
-                "desc": "Heal Health, then deal physical damage and 20% Sunder enemies within 1 hex for 6 seconds.<br><br>Kingpin bonus: Increase Ability range to 2 hexes. Damage reduced by 5% per hex away. Heal Health for each enemy hit.<br><br>Sunder: Reduce Armor",
-                "startingMana": 30,
-                "skillMana": 80,
-                "stats": [
-                    "Heal: 200% / 220% / 260% (AP) + 6% Health",
-                    "Damage: 200% / 200% / 200% (AD)",
-                    "Kingpin Heal: 70 + 2% Health"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Draven",
-            "ingameKey": "TFT14_Draven",
-            "name": "Draven",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Draven_1741767983-Draven.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/draven.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Draven_21_1741758120-Draven.jpg",
-            "traits": [
-                "Cypher",
-                "Rapidfire"
-            ],
-            "cost": [
-                3,
-                8,
-                26
-            ],
-            "health": [
-                700,
-                1260,
-                2268
-            ],
-            "attackDamage": [
-                53,
-                80,
-                119
-            ],
-            "damagePerSecond": [
-                40,
-                60,
-                89
-            ],
-            "attackRange": 4,
-            "attackSpeed": 0.75,
-            "armor": 25,
-            "magicalResistance": 25,
-            "skill": {
-                "name": "Cache Hack",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Draven_1741329795-draven_whirlingdeath.png",
-                "desc": "Hurl two massive axes at the most enemies in a line, dealing physical damage before returning. Damage is reduced by 20% for each enemy hit.",
-                "startingMana": 30,
-                "skillMana": 120,
-                "stats": [
-                    "Damage: 370% / 370% / 390% (AD) + 30% / 45% / 80% (AP)"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "DrMundo",
-            "ingameKey": "TFT14_DrMundo",
-            "name": "Dr. Mundo",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/DrMundo_1741767919-DrMundo.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/drmundo.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/DrMundo_21_1741758855-DrMundo.jpg",
-            "traits": [
-                "StreetDemon",
-                "Bruiser",
-                "Slayer"
-            ],
-            "cost": [
-                1,
-                3,
-                9
-            ],
-            "health": [
-                650,
-                1170,
-                2106
-            ],
-            "attackDamage": [
-                50,
-                75,
-                113
-            ],
-            "damagePerSecond": [
-                30,
-                45,
-                68
-            ],
-            "attackRange": 1,
-            "attackSpeed": 0.6,
-            "armor": 35,
-            "magicalResistance": 35,
-            "skill": {
-                "name": "Flex On 'Em",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/DrMundo_1741324542-drmundo_r.png",
-                "desc": "Passive: Gain 30% more max Health from all sources.<br><br>Active: Flex, healing Health, then deal physical damage to the current target.",
-                "startingMana": 25,
-                "skillMana": 75,
-                "stats": [
-                    "Heal: 2% Health + 75% / 115% / 175% AP",
-                    "Damage: 25% Health + 200% AD"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Ekko",
-            "ingameKey": "TFT14_Ekko",
-            "name": "Ekko",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Ekko_1741767766-Ekko.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/ekko.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Ekko_21_1741759193-Ekko.jpg",
-            "traits": [
-                "StreetDemon",
-                "Strategist"
-            ],
-            "cost": [
-                2,
-                5,
-                17
-            ],
-            "health": [
-                800,
-                1440,
-                2592
-            ],
-            "attackDamage": [
-                45,
-                68,
-                101
-            ],
-            "damagePerSecond": [
-                31,
-                47,
-                71
-            ],
-            "attackRange": 1,
-            "attackSpeed": 0.7,
-            "armor": 45,
-            "magicalResistance": 45,
-            "skill": {
-                "name": "Paintover",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Ekko_1741326894-ekko_e.png",
-                "desc": "Heal Health and deal magic damage to the current target.",
-                "startingMana": 30,
-                "skillMana": 70,
-                "stats": [
-                    "Heal: 330% / 415% / 525% (AP)",
-                    "Damage: 180% / 270% / 410% (AP)"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Elise",
-            "ingameKey": "TFT14_Elise",
-            "name": "Elise",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Elise_1741767760-Elise.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/elise.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Elise_21_1741759225-Elise.jpg",
-            "traits": [
-                "Nitro",
-                "Dynamo"
-            ],
-            "cost": [
-                3,
-                8,
-                26
-            ],
-            "health": [
-                700,
-                1260,
-                2268
-            ],
-            "attackDamage": [
-                40,
-                60,
-                90
-            ],
-            "damagePerSecond": [
-                30,
-                45,
-                68
-            ],
-            "attackRange": 4,
-            "attackSpeed": 0.75,
-            "armor": 25,
-            "magicalResistance": 25,
-            "skill": {
-                "name": "Fire on all Cylinders",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Elise_1741762326-FireonallCylinders.png",
-                "desc": "Fire 4 lasers at the current target and 4 more split between the nearest 2 enemies, each dealing magic damage and reducing Magic Resist by 5 for the rest of combat.",
-                "startingMana": 0,
-                "skillMana": 50,
-                "stats": [
-                    "Damage: 54% / 81% / 125% (AP)"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Fiddlesticks",
-            "ingameKey": "TFT14_Fiddlesticks",
-            "name": "Fiddlesticks",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Fiddlesticks_1741767540-Fiddlesticks.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/fiddlesticks.jpg",
-            "traits": [
-                "BoomBots",
-                "Techie"
-            ],
-            "cost": [
-                3,
-                8,
-                26
-            ],
-            "health": [
-                800,
-                1440,
-                2592
-            ],
-            "attackDamage": [
-                40,
-                60,
-                90
-            ],
-            "damagePerSecond": [
-                30,
-                45,
-                68
-            ],
-            "attackRange": 2,
-            "attackSpeed": 0.75,
-            "armor": 50,
-            "magicalResistance": 50,
-            "skill": {
-                "name": "3RR0R",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Fiddlesticks_1741331165-fiddlesticksw2.png",
-                "desc": "For 3 seconds, tether to the closest 3 enemies, dealing magic damage per second split between them. Tethers apply 20% Shred and heal Fiddlesticks for 15% of the damage dealt.<br><br>Shred: Reduce Magic Resist",
-                "startingMana": 0,
-                "skillMana": 45,
-                "stats": [
-                    "Damage Per Second: 190% / 285% / 445% AP"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Galio",
-            "ingameKey": "TFT14_Galio",
-            "name": "Galio",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Galio_1741768030-Galio.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/galio.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Galio_21_1741758021-Galio.jpg",
-            "traits": [
-                "Cypher",
-                "Bastion"
-            ],
-            "cost": [
-                3,
-                8,
-                26
-            ],
-            "health": [
-                900,
-                1620,
-                2916
-            ],
-            "attackDamage": [
-                60,
-                90,
-                135
-            ],
-            "damagePerSecond": [
-                36,
-                54,
-                81
-            ],
-            "attackRange": 1,
-            "attackSpeed": 0.6,
-            "armor": 50,
-            "magicalResistance": 50,
-            "skill": {
-                "name": "Stonewall",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Galio_1741331323-galio_w_1.png",
-                "desc": "Gain Durability for 3 seconds. Afterwards, heal Health and send a whirlwind at the enemy within 3 hexes that dealt the most damage to Galio during that time. It deals magic damage and Stuns for 1.5 seconds.",
-                "startingMana": 20,
-                "skillMana": 80,
-                "stats": [
-                    "Durability: 55% / 55% / 60%",
-                    "Heal: 425% / 500% / 600% (AP)",
-                    "Damage: 150% / 225% / 335% (AP)"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Garen",
-            "ingameKey": "TFT14_Garen",
-            "name": "Garen",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Garen_1741768037-Garen.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/garen.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Garen_21_1741757975-Garen.jpg",
-            "traits": [
-                "GodoftheNet"
-            ],
-            "cost": [
-                5,
-                14,
-                44
-            ],
-            "health": [
-                1100,
-                1980,
-                3564
-            ],
-            "attackDamage": [
-                80,
-                120,
-                180
-            ],
-            "damagePerSecond": [
-                68,
-                102,
-                153
-            ],
-            "attackRange": 1,
-            "attackSpeed": 0.85,
-            "armor": 60,
-            "magicalResistance": 60,
-            "skill": {
-                "name": "Banwave",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Garen_1741762674-garen.png",
-                "desc": "Gain Shield for 1.5 seconds. Deal physical damage to the current target and send a wave that deals physical damage to enemies hit. If the wave hits 2 or fewer enemies, gain 30 Mana.",
-                "startingMana": 20,
-                "skillMana": 80,
-                "stats": [
-                    "Shield: 700% / 1000% / 21337% (AP)",
-                    "Damage: 650% / 650% / 3000% (AD)",
-                    "Wave Damage: 260% / 260% / 1500% (AD)"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Gragas",
-            "ingameKey": "TFT14_Gragas",
-            "name": "Gragas",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Gragas_1741768023-Gragas.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/gragas.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Gragas_21_1741758039-Gragas.jpg",
-            "traits": [
-                "Divinicorp",
-                "Bruiser"
-            ],
-            "cost": [
-                3,
-                8,
-                26
-            ],
-            "health": [
-                850,
-                1530,
-                2754
-            ],
-            "attackDamage": [
-                50,
-                75,
-                113
-            ],
-            "damagePerSecond": [
-                33,
-                49,
-                73
-            ],
-            "attackRange": 1,
-            "attackSpeed": 0.65,
-            "armor": 50,
-            "magicalResistance": 50,
-            "skill": {
-                "name": "Corporate Mixer",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Gragas_1741331424-gragasbarrelroll.png",
-                "desc": "Heal Health, then throw a cask at the largest group of enemies within 3 hexes, dealing magic damage to enemies within 1 hex.",
-                "startingMana": 20,
-                "skillMana": 70,
-                "stats": [
-                    "Heal: 10% max Health + 300% / 325% / 380% (AP)",
-                    "Damage: 150% / 225% / 335% (AP)"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Graves",
-            "ingameKey": "TFT14_Graves",
-            "name": "Graves",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Graves_1741768016-Graves.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/graves.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Graves_21_1741758049-Graves.jpg",
-            "traits": [
-                "GoldenOx",
-                "Executioner"
-            ],
-            "cost": [
-                2,
-                5,
-                17
-            ],
-            "health": [
-                800,
-                1440,
-                2592
-            ],
-            "attackDamage": [
-                55,
-                83,
-                124
-            ],
-            "damagePerSecond": [
-                33,
-                50,
-                74
-            ],
-            "attackRange": 2,
-            "attackSpeed": 0.6,
-            "armor": 55,
-            "magicalResistance": 55,
-            "skill": {
-                "name": "Buckshot of Midas",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Graves_1741327326-gravese.png",
-                "desc": "Passive: Attacks fire 5 projectiles in a cone that deal physical damage each. Graves casts every 2 attacks.<br><br>Active: Dash next to the target and quickly fire 2 empowered shells that deal physical damage per projectile.",
-                "startingMana": 0,
-                "skillMana": 2,
-                "stats": [
-                    "Damage: 33% AD",
-                    "Empowered Damage: 40% / 40% / 48% / 55% (AD) + 6% / 9% / 16% (AP)"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Illaoi",
-            "ingameKey": "TFT14_Illaoi",
-            "name": "Illaoi",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Illaoi_1741767722-Illaoi.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/illaoi.jpg",
-            "traits": [
-                "AnimaSquad",
-                "Bastion"
-            ],
-            "cost": [
-                2,
-                5,
-                17
-            ],
-            "health": [
-                800,
-                1440,
-                2592
-            ],
-            "attackDamage": [
-                60,
-                90,
-                135
-            ],
-            "damagePerSecond": [
-                36,
-                54,
-                81
-            ],
-            "attackRange": 1,
-            "attackSpeed": 0.6,
-            "armor": 50,
-            "magicalResistance": 50,
-            "skill": {
-                "name": "Bionic Battle Bear",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Illaoi_1741327550-illaoi_q.png",
-                "desc": "Heal Health. Deal magic damage the current target and to enemies within 1-hex. Reduce their Magic Resist by 15 for the rest of combat.",
-                "startingMana": 0,
-                "skillMana": 60,
-                "stats": [
-                    "Heal: 350% / 400% / 600% (AP)",
-                    "Damage: 150% / 225% / 350% (AP)",
-                    "Splash Damage: 60% / 90% / 140% (AP)"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "JarvanIV",
-            "ingameKey": "TFT14_Jarvan",
-            "name": "Jarvan IV",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/JarvanIV_1741767713-JarvanIV.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/jarvaniv.jpg",
-            "traits": [
-                "GoldenOx",
-                "Vanguard",
-                "Slayer"
-            ],
-            "cost": [
-                3,
-                8,
-                26
-            ],
-            "health": [
-                850,
-                1530,
-                2754
-            ],
-            "attackDamage": [
-                60,
-                90,
-                135
-            ],
-            "damagePerSecond": [
-                39,
-                59,
-                88
-            ],
-            "attackRange": 1,
-            "attackSpeed": 0.65,
-            "armor": 50,
-            "magicalResistance": 50,
-            "skill": {
-                "name": "Half-Moon Sweep",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/JarvanIV_1741331582-jarvanivq.png",
-                "desc": "Strike the most enemies in a semi-circle, gaining 270 Shield for 4 seconds plus 30 per enemy hit. Deal physical damage to enemies hit and reduce their Armor by 15 for the rest of combat.",
-                "startingMana": 25,
-                "skillMana": 75,
-                "stats": [
-                    "Base Shield: 300% / 350% / 400% (AP)",
-                    "Bonus Shield: 30% / 50% / 80% (AP)",
-                    "Sweep damage: 280% (AD)",
-                    "Armor Reduction: 15 / 18 / 20"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Jax",
-            "ingameKey": "TFT14_Jax",
-            "name": "Jax",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Jax_1741767683-Jax.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/jax.jpg",
-            "traits": [
-                "Exotech",
-                "Bastion"
-            ],
-            "cost": [
-                1,
-                3,
-                9
-            ],
-            "health": [
-                650,
-                1170,
-                2106
-            ],
-            "attackDamage": [
-                55,
-                83,
-                124
-            ],
-            "damagePerSecond": [
-                33,
-                50,
-                74
-            ],
-            "attackRange": 1,
-            "attackSpeed": 0.6,
-            "armor": 40,
-            "magicalResistance": 40,
-            "skill": {
-                "name": "Ion Barrier",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Jax_1741762553-jaxr.png",
-                "desc": "Gain Shield for 4 seconds and deal magic damage to adjacent enemies.",
-                "startingMana": 20,
-                "skillMana": 80,
-                "stats": [
-                    "Shield: 350% / 425% / 525% (AP)",
-                    "Damage: 110% / 165% / 250% (AP)"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Jhin",
-            "ingameKey": "TFT14_Jhin",
-            "name": "Jhin",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Jhin_1741767625-Jhin.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/jhin.jpg",
-            "traits": [
-                "Exotech",
-                "Dynamo",
-                "Marksman"
-            ],
-            "cost": [
-                2,
-                5,
-                17
-            ],
-            "health": [
-                550,
-                990,
-                1782
-            ],
-            "attackDamage": [
-                44,
-                66,
-                99
-            ],
-            "damagePerSecond": [
-                33,
-                49,
-                73
-            ],
-            "attackRange": 4,
-            "attackSpeed": 0.74,
-            "armor": 20,
-            "magicalResistance": 20,
-            "skill": {
-                "name": "Logic Bomb",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Jhin_1741327654-jhin_q.png",
-                "desc": "Fire a bouncing grenade that hits four enemies, dealing physical damage and 20% Sundering them for 4.4 seconds. The fourth bounce returns to the initial target and deals physical damage.<br><br>Sunder: Reduce Armor",
-                "startingMana": 14,
-                "skillMana": 64,
-                "stats": [
-                    "Bounce Damage: 164% AD",
-                    "Sunder Duration: 4.4% (AP)",
-                    "Final Bounce Damage: 444% AD"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Jinx",
-            "ingameKey": "TFT14_Jinx",
-            "name": "Jinx",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Jinx_1741767608-Jinx.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/jinx.jpg",
-            "traits": [
-                "StreetDemon",
-                "Marksman"
-            ],
-            "cost": [
-                3,
-                8,
-                26
-            ],
-            "health": [
-                650,
-                1170,
-                2106
-            ],
-            "attackDamage": [
-                55,
-                83,
-                124
-            ],
-            "damagePerSecond": [
-                39,
-                58,
-                87
-            ],
-            "attackRange": 4,
-            "attackSpeed": 0.7,
-            "armor": 25,
-            "magicalResistance": 25,
-            "skill": {
-                "name": "Rampant Vandalism",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Jinx_1741331694-jinx_q1.png",
-                "desc": "Fire 5 rockets at random enemies within 2 hexes of the current target. Each rocket deals physical damage. Each cast fires an additional rocket.",
-                "startingMana": 0,
-                "skillMana": 50,
-                "stats": [
-                    "Damage: 140% / 140% / 165% (AD) + 15% / 25% / 40% (AP)"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Kindred",
-            "ingameKey": "TFT14_Kindred",
-            "name": "Kindred",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Kindred_1741767566-Kindred.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/kindred.jpg",
-            "traits": [
-                "Nitro",
-                "Marksman",
-                "Rapidfire"
-            ],
-            "cost": [
-                1,
-                3,
-                9
-            ],
-            "health": [
-                500,
-                900,
-                1620
-            ],
-            "attackDamage": [
-                50,
-                75,
-                113
-            ],
-            "damagePerSecond": [
-                35,
-                53,
-                79
-            ],
-            "attackRange": 4,
-            "attackSpeed": 0.7,
-            "armor": 15,
-            "magicalResistance": 15,
-            "skill": {
-                "name": "Rev Up",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Kindred_1741324706-kindred_q_1.png",
-                "desc": "Fire wolf at the current target, dealing physical damage. Overkill damage bounces to the nearest enemy.",
-                "startingMana": 0,
-                "skillMana": 50,
-                "stats": [
-                    "Bonus Damage (AP):  20% / 30% / 45%",
-                    "Damage: 520% / 520% / 575% / 630% AD + Bonus Damage (AP)"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Kobuko",
-            "ingameKey": "TFT14_Kobuko",
-            "name": "Kobuko",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Kobuko_1741767576-Kobuko.jpg",
-            "traits": [
-                "Cyberboss",
-                "Bruiser"
-            ],
-            "cost": [
-                5,
-                14,
-                44
-            ],
-            "health": [
-                900,
-                1620,
-                2916
-            ],
-            "attackDamage": [
-                20,
-                30,
-                45
-            ],
-            "damagePerSecond": [
-                20,
-                30,
-                45
-            ],
-            "attackRange": 1,
-            "attackSpeed": 1,
-            "armor": 50,
-            "magicalResistance": 50,
-            "skill": {
-                "name": "Game Over!",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Kobuko_1741762661-kobuko.png",
-                "desc": "Passive: Attacks deal bonus magic damage. At 50% Health, trigger ‘Phase 2’, then enrage for the rest of the fight, gaining 100% Attack Speed, 30% Omnivamp, and increasing the bonus damage by 35%.<br><br>Phase 2: Gain shield for 4 seconds. Pick up a nearby enemy, knocking up all enemies within 2 hexes for 1.5 seconds. Then, slam down, dealing magic damage to the target and damage to all enemies hit.",
-                "startingMana": 120,
-                "skillMana": 240,
-                "stats": [
-                    "On Hit Damage: 100% / 150% / 999% (AP)",
-                    "Shield: 100% / 100% / 400% (Health)",
-                    "Damage: 300% / 450% / 13370% (AP)",
-                    "Area Damage: 150% / 225% / 1337% (AP)"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "KogMaw",
-            "ingameKey": "TFT14_KogMaw",
-            "name": "Kog'Maw",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/KogMaw_1741767589-KogMaw.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/kogmaw.jpg",
-            "traits": [
-                "BoomBots",
-                "Rapidfire"
-            ],
-            "cost": [
-                1,
-                3,
-                9
-            ],
-            "health": [
-                500,
-                900,
-                1620
-            ],
-            "attackDamage": [
-                53,
-                80,
-                119
-            ],
-            "damagePerSecond": [
-                37,
-                56,
-                83
-            ],
-            "attackRange": 4,
-            "attackSpeed": 0.7,
-            "armor": 15,
-            "magicalResistance": 15,
-            "skill": {
-                "name": "Fire at Will",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/KogMaw_1741324777-kogmaw_bioarcanebarrage_1.png",
-                "desc": "For the next 5 seconds, gain 50% Attack Speed and attacks deal bonus physical damage.",
-                "startingMana": 0,
-                "skillMana": 40,
-                "stats": [
-                    "Damage (AP): 9 / 14 / 20",
-                    "Damage: 40% / 40% / 60% / 80% AD + Damage (AP)"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Leblanc",
-            "ingameKey": "TFT14_LeBlanc",
-            "name": "LeBlanc",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Leblanc_1741767935-LeBlanc.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/leblanc.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Leblanc_21_1741758221-LeBlanc.jpg",
-            "traits": [
-                "Cypher",
-                "Strategist"
-            ],
-            "cost": [
-                2,
-                5,
-                17
-            ],
-            "health": [
-                550,
-                990,
-                1782
-            ],
-            "attackDamage": [
-                35,
-                53,
-                79
-            ],
-            "damagePerSecond": [
-                26,
-                39,
-                59
-            ],
-            "attackRange": 4,
-            "attackSpeed": 0.75,
-            "armor": 20,
-            "magicalResistance": 20,
-            "skill": {
-                "name": "Data Spike",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Leblanc_1741327732-leblancq.png",
-                "desc": "Send 5 sigils, alternating between the current target and the next nearest enemy, each dealing magic damage. Every cast, send 1 more sigil.",
-                "startingMana": 0,
-                "skillMana": 50,
-                "stats": [
-                    "Damage: 70% / 115% / 170% (AP)"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Leona",
-            "ingameKey": "TFT14_Leona",
-            "name": "Leona",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Leona_1741767957-Leona.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/leona.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Leona_21_1741758176-Leona.jpg",
-            "traits": [
-                "AnimaSquad",
-                "Vanguard"
-            ],
-            "cost": [
-                4,
-                11,
-                35
-            ],
-            "health": [
-                1100,
-                1980,
-                3564
-            ],
-            "attackDamage": [
-                60,
-                90,
-                135
-            ],
-            "damagePerSecond": [
-                36,
-                54,
-                81
-            ],
-            "attackRange": 1,
-            "attackSpeed": 0.6,
-            "armor": 60,
-            "magicalResistance": 60,
-            "skill": {
-                "name": "Solar Flare",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Leona_1741332929-leonae.png",
-                "desc": "Gain Durability for 4 seconds. Deal magic damage to the largest clump of enemies within 2 hexes and Stun the center enemy for 2 seconds.<br><br>Enemies damaged by this ability take bonus magic damage from allies' attacks for 4 seconds.",
-                "startingMana": 60,
-                "skillMana": 120,
-                "stats": [
-                    "Durability: 55% / 60% / 90% (AP)",
-                    "Damage: 100% / 150% / 2000% (AP)",
-                    "Bonus Magic Damage: 14% / 21% / 150% (MR)"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "MissFortune",
-            "ingameKey": "TFT14_MissFortune",
-            "name": "Miss Fortune",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/MissFortune_1741767905-MissFortune.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/missfortune.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/MissFortune_21_1741758870-MissFortune.jpg",
-            "traits": [
-                "Syndicate",
-                "Dynamo"
-            ],
-            "cost": [
-                4,
-                11,
-                35
-            ],
-            "health": [
-                800,
-                1440,
-                2592
-            ],
-            "attackDamage": [
-                56,
-                84,
-                126
-            ],
-            "damagePerSecond": [
-                42,
-                63,
-                95
-            ],
-            "attackRange": 4,
-            "attackSpeed": 0.75,
-            "armor": 30,
-            "magicalResistance": 30,
-            "skill": {
-                "name": "Street Sweeper",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/MissFortune_1741333062-missfortune_r.png",
-                "desc": "Fire 9 waves of bullets towards the largest clump of enemies over 2 seconds. Enemies struck take physical damage from the first bullet of each wave, and 25% less from other bullets in the same wave.<br><br>Kingpin bonus: Fire 3 more waves.",
-                "startingMana": 40,
-                "skillMana": 135,
-                "stats": [
-                    "First Bullet Damage: 50% / 50% / 150% (AD) + 8% / 12% / 100% (AP)"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Mordekaiser",
-            "ingameKey": "TFT14_Mordekaiser",
-            "name": "Mordekaiser",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Mordekaiser_1741767928-Mordekaiser.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/mordekaiser.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Mordekaiser_21_1741750594-Mordekaiser.jpg",
-            "traits": [
-                "Exotech",
-                "Techie",
-                "Bruiser"
-            ],
-            "cost": [
-                3,
-                8,
-                26
-            ],
-            "health": [
-                850,
-                1530,
-                2754
-            ],
-            "attackDamage": [
-                50,
-                75,
-                113
-            ],
-            "damagePerSecond": [
-                30,
-                45,
-                68
-            ],
-            "attackRange": 1,
-            "attackSpeed": 0.6,
-            "armor": 50,
-            "magicalResistance": 50,
-            "skill": {
-                "name": "Antivirus",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Mordekaiser_1741331792-mordekaiserq_1.png",
-                "desc": "Gain Shield for 4 seconds. Slam the current target, dealing magic damage in a 2-hex line and Stun all enemies hit for 1.25 seconds.",
-                "startingMana": 30,
-                "skillMana": 80,
-                "stats": [
-                    "Shield: 475% / 525% / 700% (AP)",
-                    "Damage: 200% / 300% / 500% (AP)"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Morgana",
-            "ingameKey": "TFT14_Morgana",
-            "name": "Morgana",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Morgana_1741767914-Morgana.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/morgana.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Morgana_21_1741758832-Morgana.jpg",
-            "traits": [
-                "Divinicorp",
-                "Dynamo"
-            ],
-            "cost": [
-                1,
-                3,
-                9
-            ],
-            "health": [
-                500,
-                900,
-                1620
-            ],
-            "attackDamage": [
-                30,
-                45,
-                68
-            ],
-            "damagePerSecond": [
-                21,
-                32,
-                47
-            ],
-            "attackRange": 4,
-            "attackSpeed": 0.7,
-            "armor": 15,
-            "magicalResistance": 15,
-            "skill": {
-                "name": "Short Circuit",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Morgana_1741324932-fallenangel_darkbinding.png",
-                "desc": "Hack the target and the nearest non-hacked enemy, dealing magic damage over 16 seconds.",
-                "startingMana": 0,
-                "skillMana": 40,
-                "stats": [
-                    "Damage: 400% / 600% / 1000% (AP)"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Naafiri",
-            "ingameKey": "TFT14_Naafiri",
-            "name": "Naafiri",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Naafiri_1741749649-Naafiri.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/naafiri.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Naafiri_21_1741758071-Nidalee.jpg",
-            "traits": [
-                "Exotech",
-                "AMP"
-            ],
-            "cost": [
-                2,
-                5,
-                17
-            ],
-            "health": [
-                700,
-                1260,
-                2268
-            ],
-            "attackDamage": [
-                52,
-                78,
-                117
-            ],
-            "damagePerSecond": [
-                44,
-                66,
-                99
-            ],
-            "attackRange": 1,
-            "attackSpeed": 0.85,
-            "armor": 45,
-            "magicalResistance": 45,
-            "skill": {
-                "name": "Alpha Protocol",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Naafiri_1741328334-icons_naafiri_e.png",
-                "desc": "Passive: Gain 15% Omnivamp.<br><br>Active: Deal physical damage to the current target. Then, summon 3 packmates and Alphas that deal physical damage to the current target.",
-                "startingMana": 0,
-                "skillMana": 50,
-                "stats": [
-                    "Damage: 275% / 275% / 275% (AD)",
-                    "Packmate Damage: 75% (AD)",
-                    "Alpha Damage: 165% / 165% / 165% (AD)",
-                    "Alphas Summoned: 1 + 1 per Amp"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Neeko",
-            "ingameKey": "TFT14_Neeko",
-            "name": "Neeko",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Neeko_1741767997-Neeko.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/neeko.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Neeko_21_1741758108-Neeko.jpg",
-            "traits": [
-                "StreetDemon",
-                "Strategist"
-            ],
-            "cost": [
-                4,
-                11,
-                35
-            ],
-            "health": [
-                1000,
-                1800,
-                3240
-            ],
-            "attackDamage": [
-                60,
-                90,
-                135
-            ],
-            "damagePerSecond": [
-                39,
-                59,
-                88
-            ],
-            "attackRange": 1,
-            "attackSpeed": 0.65,
-            "armor": 60,
-            "magicalResistance": 60,
-            "skill": {
-                "name": "Pop Up Mural",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Neeko_1741333593-neeko_r.png",
-                "desc": "Gain Shield for 4 seconds and create an expanding zone that pops three times, each dealing magic damage to enemies hit. The third pop Chills enemies for 3 seconds.<br><br>Chill: Reduce Attack Speed by 20%",
-                "startingMana": 30,
-                "skillMana": 90,
-                "stats": [
-                    "Shield: 295% / 315% / 1500% (AP) + 10% Health",
-                    "Damage: 80% / 120% / 1800% (AP)"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Nidalee",
-            "ingameKey": "TFT14_NidaleeCougar",
-            "name": "Nidalee",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Nidalee_1741749967-Nidalee.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/nidalee.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Nidalee_21_1741758082-Nidalee.jpg",
-            "traits": [
-                "Nitro",
-                "AMP"
-            ],
-            "cost": [
-                1,
-                3,
-                9
-            ],
-            "health": [
-                650,
-                1170,
-                2106
-            ],
-            "attackDamage": [
-                40,
-                60,
-                90
-            ],
-            "damagePerSecond": [
-                30,
-                45,
-                68
-            ],
-            "attackRange": 1,
-            "attackSpeed": 0.75,
-            "armor": 40,
-            "magicalResistance": 40,
-            "skill": {
-                "name": "Charged Claws",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Nidalee_1741325325-nidalee_e2.png",
-                "desc": "Deal magic damage to the current target and magic damage to the 2 nearest enemies. Heal 100 Health + 20 per enemy hit.",
-                "startingMana": 20,
-                "skillMana": 60,
-                "stats": [
-                    "Damage: 220% / 330% / 500% (AP)",
-                    "Charged Damage: 75% / 115% / 170% (AP)",
-                    "Additional Targets: 2 + 1 per Amp",
-                    "Base Heal: 100 / 125 / 210"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Poppy",
-            "ingameKey": "TFT14_Poppy",
-            "name": "Poppy",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Poppy_1741767854-Poppy.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/poppy.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Poppy_21_1741759016-Poppy.jpg",
-            "traits": [
-                "Cyberboss",
-                "Bastion"
-            ],
-            "cost": [
-                1,
-                3,
-                9
-            ],
-            "health": [
-                650,
-                1170,
-                2106
-            ],
-            "attackDamage": [
-                60,
-                90,
-                135
-            ],
-            "damagePerSecond": [
-                33,
-                50,
-                74
-            ],
-            "attackRange": 1,
-            "attackSpeed": 0.55,
-            "armor": 40,
-            "magicalResistance": 40,
-            "skill": {
-                "name": "Buckler Toss",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Poppy_1741325564-poppy_passive_1.png",
-                "desc": "Throw a buckler at the farthest enemy within 4 hexes, dealing magic damage. Gain Shield.",
-                "startingMana": 20,
-                "skillMana": 65,
-                "stats": [
-                    "Damage: 160% / 240% / 360% / 480% + 100% / 150% / 225% / 300%",
-                    "Shield: 425% / 500% / 600% / 700%",
-                    "Final Form Damage: 40% of Damage"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Renekton",
-            "ingameKey": "TFT14_Renekton",
-            "name": "Renekton",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Renekton_1741750310-Renekton.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/renekton.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Renekton_21_1741758140-Renekton.jpg",
-            "traits": [
-                "Divinicorp",
-                "Overlord",
-                "Bastion"
-            ],
-            "cost": [
-                5,
-                14,
-                44
-            ],
-            "health": [
-                1100,
-                1980,
-                3564
-            ],
-            "attackDamage": [
-                66,
-                99,
-                149
-            ],
-            "damagePerSecond": [
-                60,
-                90,
-                135
-            ],
-            "attackRange": 1,
-            "attackSpeed": 0.91,
-            "armor": 60,
-            "magicalResistance": 60,
-            "skill": {
-                "name": "Dominus",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Renekton_1741335368-renekton_r_1.png",
-                "desc": "Deal physical damage to enemies within 2 hexes and Burn, and Wound them for 5 seconds. Gain max Health.<br><br>First Cast: Enter frenzy mode where attacks strike twice, dealing physical damage and can dash to new targets.<br><br>Second Cast: Frenzy mode now strikes thrice, dealing physical damage. Cannot cast again.<br><br>Burn: Deal 1% of the target's max Health as true damage every second<br>Wound: Reduce healing received by 33%",
-                "startingMana": 70,
-                "skillMana": 140,
-                "stats": [
-                    "Damage: 100% / 100% / 3000% (AD) + 310% / 465% / 1000% (AP)",
-                    "Health: 400 / 650 / 10000",
-                    "Double Attacks: 180% AD",
-                    "Triple Attacks: 300% AD"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Rengar",
-            "ingameKey": "TFT14_Rengar",
-            "name": "Rengar",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Rengar_1741767951-Rengar.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/rengar.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Rengar_21_1741758196-Rengar.jpg",
-            "traits": [
-                "StreetDemon",
-                "Executioner"
-            ],
-            "cost": [
-                3,
-                8,
-                26
-            ],
-            "health": [
-                750,
-                1350,
-                2430
-            ],
-            "attackDamage": [
-                65,
-                98,
-                146
-            ],
-            "damagePerSecond": [
-                52,
-                78,
-                117
-            ],
-            "attackRange": 1,
-            "attackSpeed": 0.8,
-            "armor": 50,
-            "magicalResistance": 50,
-            "skill": {
-                "name": "Freestyle",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Rengar_1741331886-rengar_r.png",
-                "desc": "Heal Health and leap to the lowest Health enemy in 2 hexes, dealing physical damage. Then, strike 2 times, each dealing physical damage.<br><br>Each cast increases leap range by 1 hex.",
-                "startingMana": 0,
-                "skillMana": 60,
-                "stats": [
-                    "Heal: 140% / 145% / 150% (AP)",
-                    "Damage: 225% AD",
-                    "Slash Damage: 180% AD"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Rhaast",
-            "ingameKey": "TFT14_Rhaast",
-            "name": "Rhaast",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Rhaast_1741767977-Rhaast.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/rhaast.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Rhaast_21_1741758132-Rhaast.jpg",
-            "traits": [
-                "Divinicorp",
-                "Vanguard"
-            ],
-            "cost": [
-                2,
-                5,
-                17
-            ],
-            "health": [
-                700,
-                1260,
-                2268
-            ],
-            "attackDamage": [
-                60,
-                90,
-                135
-            ],
-            "damagePerSecond": [
-                45,
-                68,
-                101
-            ],
-            "attackRange": 1,
-            "attackSpeed": 0.75,
-            "armor": 40,
-            "magicalResistance": 40,
-            "skill": {
-                "name": "Reaping Slash",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Rhaast_1741328472-kayn_q_slay.png",
-                "desc": "Knock the target into the air for 1.75 seconds. Over the duration, heal Health and deal physical damage to the target.",
-                "startingMana": 40,
-                "skillMana": 80,
-                "stats": [
-                    "Heal: 220% / 250% / 300% (AP) + 10% max Health",
-                    "Damage: 525% AD"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Samira",
-            "ingameKey": "TFT14_Samira",
-            "name": "Samira",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Samira_1741767836-Samira.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/samira.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Samira_21_1741759035-Samira.jpg",
-            "traits": [
-                "StreetDemon",
-                "AMP"
-            ],
-            "cost": [
-                5,
-                14,
-                44
-            ],
-            "health": [
-                900,
-                1620,
-                2916
-            ],
-            "attackDamage": [
-                70,
-                105,
-                158
-            ],
-            "damagePerSecond": [
-                56,
-                84,
-                126
-            ],
-            "attackRange": 4,
-            "attackSpeed": 0.8,
-            "armor": 40,
-            "magicalResistance": 40,
-            "skill": {
-                "name": "Demon Trigger",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Samira_1741335543-samirae.png",
-                "desc": "Dash towards the target and fire a volley of bullets over 2 seconds split between enemies within three hexes. Each bullet Shreds 3 Armor and deals physical damage, reduced by 20% per hex distance from Samira.<br><br>When the volley ends, dash back to safety while dealing physical damage to the current target.<br><br>For the duration of the Ability, Samira is Unstoppable and has Omnivamp.",
-                "startingMana": 20,
-                "skillMana": 100,
-                "stats": [
-                    "Bullets: 22 + 1 per Amp",
-                    "Bullet Damage: 90% / 90% / 1500% (AD)",
-                    "Slide Damage: 500% / 500% / 5000% (AD)",
-                    "Omnivamp: 12% / 12% / 100% (AP)"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Sejuani",
-            "ingameKey": "TFT14_Sejuani",
-            "name": "Sejuani",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Sejuani_1741767785-Sejuani.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/sejuani.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Sejuani_21_1741759127-Sejuani.jpg",
-            "traits": [
-                "Exotech",
-                "Bastion"
-            ],
-            "cost": [
-                4,
-                11,
-                35
-            ],
-            "health": [
-                1000,
-                1800,
-                3240
-            ],
-            "attackDamage": [
-                60,
-                90,
-                135
-            ],
-            "damagePerSecond": [
-                36,
-                54,
-                81
-            ],
-            "attackRange": 1,
-            "attackSpeed": 0.6,
-            "armor": 60,
-            "magicalResistance": 60,
-            "skill": {
-                "name": "Blue Screen",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Sejuani_1741333949-sejuani_w_1.png",
-                "desc": "Passive: Gain 30% more Armor and Magic Resist from all sources.<br><br>Active: Throw an EMP at the closest enemy that explodes after 2 seconds. It deals magic damage to enemies within 3 hexes and Stun them.",
-                "startingMana": 50,
-                "skillMana": 140,
-                "stats": [
-                    "Damage: 120 / 180 / 1800 (AP)",
-                    "Stun Duration: 1.75 / 2 / 8"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Senna",
-            "ingameKey": "TFT14_Senna",
-            "name": "Senna",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Senna_1741767802-Senna.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/senna.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Senna_21_1741759111-Senna.jpg",
-            "traits": [
-                "Divinicorp",
-                "Slayer"
-            ],
-            "cost": [
-                3,
-                8,
-                26
-            ],
-            "health": [
-                700,
-                1260,
-                2268
-            ],
-            "attackDamage": [
-                85,
-                128,
-                191
-            ],
-            "damagePerSecond": [
-                51,
-                77,
-                115
-            ],
-            "attackRange": 4,
-            "attackSpeed": 0.6,
-            "armor": 25,
-            "magicalResistance": 25,
-            "skill": {
-                "name": "Ion Beam",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Senna_1741331984-senna_q_1.png",
-                "desc": "Passive: Attacks deal physical damage to enemies adjacent to the target.<br><br>Active: Fire a beam two hexes beyond the current target, dealing physical damage to enemies hit.",
-                "startingMana": 0,
-                "skillMana": 100,
-                "stats": [
-                    "Damage: 280% / 280% / 300% (AD) + 20% / 30% / 45% (AP)",
-                    "Passive Damage: 45% AD"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Seraphine",
-            "ingameKey": "TFT14_Seraphine",
-            "name": "Seraphine",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Seraphine_1741767794-Seraphine.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/seraphine.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Seraphine_21_1741759120-Seraphine.jpg",
-            "traits": [
-                "AnimaSquad",
-                "Techie"
-            ],
-            "cost": [
-                1,
-                3,
-                9
-            ],
-            "health": [
-                501,
-                902,
-                1623
-            ],
-            "attackDamage": [
-                31,
-                47,
-                70
-            ],
-            "damagePerSecond": [
-                22,
-                33,
-                50
-            ],
-            "attackRange": 4,
-            "attackSpeed": 0.71,
-            "armor": 16,
-            "magicalResistance": 16,
-            "skill": {
-                "name": "Ping()",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Seraphine_1741325636-seraphine_e1.png",
-                "desc": "Fire a soundwave through the current target that deals magic damage, reduced by 40% for each enemy hit.",
-                "startingMana": 0,
-                "skillMana": 60,
-                "stats": [
-                    "Damage: 250% / 375% / 600% / 825% (AP)"
-                ]
-            },
-            "role": ""
-        },
-        {
             "key": "Shaco",
             "ingameKey": "TFT14_Shaco",
             "name": "Shaco",
@@ -5478,22 +5613,25 @@
             "role": ""
         },
         {
-            "key": "R080T",
-            "ingameKey": "TFT14_SummonLevel2",
-            "name": "R-080T",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/R080T_1742372820-R-080T.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/r080t.jpg",
-            "traits": [],
-            "isHidden": true,
+            "key": "Sylas",
+            "ingameKey": "TFT14_Sylas",
+            "name": "Sylas",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Sylas_1741767829-Sylas.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/sylas.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Sylas_21_1741759060-Sylas.jpg",
+            "traits": [
+                "AnimaSquad",
+                "Vanguard"
+            ],
             "cost": [
-                0,
-                -1,
-                -1
+                1,
+                3,
+                9
             ],
             "health": [
-                500,
-                900,
-                1620
+                650,
+                1170,
+                2106
             ],
             "attackDamage": [
                 45,
@@ -5501,24 +5639,24 @@
                 101
             ],
             "damagePerSecond": [
-                31,
-                47,
-                71
+                29,
+                44,
+                66
             ],
             "attackRange": 1,
-            "attackSpeed": 0.7,
+            "attackSpeed": 0.65,
             "armor": 40,
             "magicalResistance": 40,
             "skill": {
-                "name": "Rage With the Machines",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/R080T_1742371876-tft14_summonlevel3_splash_tile_6.tft_set14.png",
-                "desc": "Fire grenades at the nearest 3 enemies, dealing magic damage and Stunning them for 1 seconds. Heal Health.<br><br>AND Fire a laser through the current target, dealing magic damage to enemies hit over 2 seconds reduced by 10% per hex away.",
-                "startingMana": 50,
-                "skillMana": 100,
+                "name": "Chains of the Pack",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Sylas_1741325881-sylasq.png",
+                "desc": "Gain max Health and deal magic damage to the current target. If they die, gain an additional Health.",
+                "startingMana": 25,
+                "skillMana": 75,
                 "stats": [
-                    "Heal: 130% / 130% / 130%",
-                    "Grenade Damage: 100% / 120% / 140% / 160%",
-                    "Laser Damage: 460% / 490% / 520% / 550%"
+                    "Health: 150% / 200% / 250%",
+                    "Damage: 100% / 150% / 225% (AP) + 10% Health",
+                    "On-Kill Health: 75 / 100 / 125"
                 ]
             },
             "role": ""
@@ -5609,55 +5747,6 @@
                 "skillMana": 60,
                 "stats": [
                     "Laser Damage: 680% / 1020% / 1280%"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Sylas",
-            "ingameKey": "TFT14_Sylas",
-            "name": "Sylas",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Sylas_1741767829-Sylas.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/sylas.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Sylas_21_1741759060-Sylas.jpg",
-            "traits": [
-                "AnimaSquad",
-                "Vanguard"
-            ],
-            "cost": [
-                1,
-                3,
-                9
-            ],
-            "health": [
-                650,
-                1170,
-                2106
-            ],
-            "attackDamage": [
-                45,
-                68,
-                101
-            ],
-            "damagePerSecond": [
-                29,
-                44,
-                66
-            ],
-            "attackRange": 1,
-            "attackSpeed": 0.65,
-            "armor": 40,
-            "magicalResistance": 40,
-            "skill": {
-                "name": "Chains of the Pack",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Sylas_1741325881-sylasq.png",
-                "desc": "Gain max Health and deal magic damage to the current target. If they die, gain an additional Health.",
-                "startingMana": 25,
-                "skillMana": 75,
-                "stats": [
-                    "Health: 150% / 200% / 250%",
-                    "Damage: 100% / 150% / 225% (AP) + 10% Health",
-                    "On-Kill Health: 75 / 100 / 125"
                 ]
             },
             "role": ""
@@ -6050,6 +6139,49 @@
             "role": ""
         },
         {
+            "key": "Voidspawn",
+            "ingameKey": "TFT_VoidSpawn",
+            "name": "Voidspawn",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Voidspawn_1718250201-voidspawn_squarecopy.png",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/voidspawn.jpg",
+            "traits": [],
+            "isHiddenGuide": true,
+            "isHiddenLanding": true,
+            "cost": [
+                0,
+                -1,
+                -1
+            ],
+            "health": [
+                0,
+                0,
+                0
+            ],
+            "attackDamage": [
+                0,
+                0,
+                0
+            ],
+            "damagePerSecond": [
+                0,
+                0,
+                0
+            ],
+            "attackRange": 0,
+            "attackSpeed": 0,
+            "armor": 0,
+            "magicalResistance": 0,
+            "skill": {
+                "name": "Voidborn",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Voidspawn_1712215709-voidspawn_squarefixed.png",
+                "desc": "The Voidspawn gains bonus Health and Attack Damage based on the current Stage.",
+                "startingMana": 0,
+                "skillMana": 0,
+                "stats": []
+            },
+            "role": ""
+        },
+        {
             "key": "Xayah",
             "ingameKey": "TFT14_Xayah",
             "name": "Xayah",
@@ -6377,138 +6509,6 @@
                     "Main Damage: 305% / 460% / 685% (AP)",
                     "Secondary Damage: 150% / 225% / 340% (AP)"
                 ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Sentinel",
-            "ingameKey": "TFT_BlueGolem",
-            "name": "Sentinel",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Sentinel_1718249255-tft_bluegolem_spell.png",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/sentinel.jpg",
-            "traits": [],
-            "isHidden": true,
-            "isHiddenGuide": true,
-            "isHiddenLanding": true,
-            "isHiddenTeamBuilder": true,
-            "cost": [
-                0,
-                -1,
-                -1
-            ],
-            "health": [
-                0,
-                0,
-                0
-            ],
-            "attackDamage": [
-                0,
-                0,
-                0
-            ],
-            "damagePerSecond": [
-                0,
-                0,
-                0
-            ],
-            "attackRange": 0,
-            "attackSpeed": 0,
-            "armor": 0,
-            "magicalResistance": 0,
-            "skill": {
-                "name": "Sentinel Smash",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Sentinel_1718249262-tft_bluegolem_spell.png",
-                "desc": "Slam the target dealing magic damage.",
-                "startingMana": 0,
-                "skillMana": 0,
-                "stats": [
-                    "Damage: @Damage@"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Dummy",
-            "ingameKey": "TFT_TrainingDummy",
-            "name": "Dummy",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Dummy_1689746192-tft_trainingdummy_donothing.png",
-            "traits": [],
-            "isHiddenGuide": true,
-            "isHiddenLanding": true,
-            "cost": [
-                0,
-                -1,
-                -1
-            ],
-            "health": [
-                0,
-                0,
-                0
-            ],
-            "attackDamage": [
-                0,
-                0,
-                0
-            ],
-            "damagePerSecond": [
-                0,
-                0,
-                0
-            ],
-            "attackRange": 0,
-            "attackSpeed": 0,
-            "armor": 0,
-            "magicalResistance": 0,
-            "skill": {
-                "name": "Training Dummy",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Dummy_1701222575-Dummy_1689746192-tft_trainingdummy_donothing.png",
-                "desc": "Use on a champion to spawn a movable target dummy nearby. Cannot be used in combat.",
-                "startingMana": 0,
-                "skillMana": 0,
-                "stats": []
-            },
-            "role": ""
-        },
-        {
-            "key": "Voidspawn",
-            "ingameKey": "TFT_VoidSpawn",
-            "name": "Voidspawn",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Voidspawn_1718250201-voidspawn_squarecopy.png",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/voidspawn.jpg",
-            "traits": [],
-            "isHiddenGuide": true,
-            "isHiddenLanding": true,
-            "cost": [
-                0,
-                -1,
-                -1
-            ],
-            "health": [
-                0,
-                0,
-                0
-            ],
-            "attackDamage": [
-                0,
-                0,
-                0
-            ],
-            "damagePerSecond": [
-                0,
-                0,
-                0
-            ],
-            "attackRange": 0,
-            "attackSpeed": 0,
-            "armor": 0,
-            "magicalResistance": 0,
-            "skill": {
-                "name": "Voidborn",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Voidspawn_1712215709-voidspawn_squarefixed.png",
-                "desc": "The Voidspawn gains bonus Health and Attack Damage based on the current Stage.",
-                "startingMana": 0,
-                "skillMana": 0,
-                "stats": []
             },
             "role": ""
         }

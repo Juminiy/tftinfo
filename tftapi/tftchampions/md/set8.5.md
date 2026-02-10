@@ -8,16 +8,15 @@
 | Lucian     | Lucian     | ![Lucian](../icon/set8.5/Lucian.png)         |
 | Lulu       | Lulu       | ![Lulu](../icon/set8.5/Lulu.jpg)             |
 | Lux        | Lux        | ![Lux](../icon/set8.5/Lux.jpg)               |
+| MonkeyKing | Wukong     | ![MonkeyKing](../icon/set8.5/MonkeyKing.jpg) |
 | Nasus      | Nasus      | ![Nasus](../icon/set8.5/Nasus.jpg)           |
 | Pantheon   | Pantheon   | ![Pantheon](../icon/set8.5/Pantheon.png)     |
 | Poppy      | Poppy      | ![Poppy](../icon/set8.5/Poppy.jpg)           |
 | Renekton   | Renekton   | ![Renekton](../icon/set8.5/Renekton.jpg)     |
 | Sylas      | Sylas      | ![Sylas](../icon/set8.5/Sylas.jpg)           |
-| MonkeyKing | Wukong     | ![MonkeyKing](../icon/set8.5/MonkeyKing.jpg) |
 # Cost: 2, Count: 13
 | key      | name     | icon                                     |
 | -        | -        | -                                        |
-| Sivir    | Sivir    | ![Sivir](../icon/set8.5/Sivir.png)       |
 | Annie    | Annie    | ![Annie](../icon/set8.5/Annie.jpg)       |
 | Camille  | Camille  | ![Camille](../icon/set8.5/Camille.jpg)   |
 | Draven   | Draven   | ![Draven](../icon/set8.5/Draven.jpg)     |
@@ -28,6 +27,7 @@
 | Malphite | Malphite | ![Malphite](../icon/set8.5/Malphite.jpg) |
 | Pyke     | Pyke     | ![Pyke](../icon/set8.5/Pyke.png)         |
 | Rell     | Rell     | ![Rell](../icon/set8.5/Rell.jpg)         |
+| Sivir    | Sivir    | ![Sivir](../icon/set8.5/Sivir.png)       |
 | Vi       | Vi       | ![Vi](../icon/set8.5/Vi.jpg)             |
 | Yasuo    | Yasuo    | ![Yasuo](../icon/set8.5/Yasuo.jpg)       |
 # Cost: 3, Count: 13

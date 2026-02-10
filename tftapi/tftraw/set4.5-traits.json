@@ -2,195 +2,6 @@
     "season": "set4.5",
     "traits": [
         {
-            "key": "TheBoss",
-            "ingameKey": "Boss",
-            "name": "The Boss",
-            "desc": "",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/TheBoss.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/TheBoss.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/TheBoss.svg",
-            "type": "ORIGIN",
-            "styles": [
-                {
-                    "style": "gold",
-                    "min": 1
-                }
-            ],
-            "stats": {
-                "1": "When The Boss first drops below 40% Health, he leaves combat to start doing sit-ups. Each sit-up restores 15% of his maximum Health and gives him 40% Attack Speed and Movement Speed. If he reaches full Health he returns to combat Pumped Up: all of his attacks and spells deal true damage. If all of his allies die, he will immediately return to combat."
-            }
-        },
-        {
-            "key": "Cultist",
-            "ingameKey": "Cultist",
-            "name": "Cultist",
-            "desc": "Once your team loses 50% of their Health, Galio is summoned, slamming into the largest cluster of enemies and knocking them up. Galio's strength increases based on the total star level of all active Cultists.",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Cultist.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Cultist.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Cultist.svg",
-            "type": "ORIGIN",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 3,
-                    "max": 5
-                },
-                {
-                    "style": "gold",
-                    "min": 6,
-                    "max": 8
-                },
-                {
-                    "style": "chromatic",
-                    "min": 9
-                }
-            ],
-            "stats": {
-                "3": "Tyrant Galio",
-                "6": "Demon Lord Galio",
-                "9": "Supreme Overlord Galio"
-            }
-        },
-        {
-            "key": "Divine",
-            "ingameKey": "Divine",
-            "name": "Divine",
-            "desc": "Upon attacking 6 times or dropping below 50% Health, Divine champions remove all crowd control and ascend for 6 seconds, taking reduced damage and dealing bonus true damage for the duration.",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Divine.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Divine.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Divine.svg",
-            "type": "ORIGIN",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 3
-                },
-                {
-                    "style": "silver",
-                    "min": 4,
-                    "max": 5
-                },
-                {
-                    "style": "gold",
-                    "min": 6,
-                    "max": 7
-                },
-                {
-                    "style": "chromatic",
-                    "min": 8
-                }
-            ],
-            "stats": {
-                "2": "25% damage reduction and true damage",
-                "4": "40% damage reduction and true damage",
-                "6": "55% damage reduction and true damage",
-                "8": "70% damage reduction and true damage"
-            }
-        },
-        {
-            "key": "Duelist",
-            "ingameKey": "Duelist",
-            "name": "Duelist",
-            "desc": "",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Duelist.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Duelist.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Duelist.svg",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 3
-                },
-                {
-                    "style": "silver",
-                    "min": 4,
-                    "max": 5
-                },
-                {
-                    "style": "gold",
-                    "min": 6,
-                    "max": 7
-                },
-                {
-                    "style": "chromatic",
-                    "min": 8
-                }
-            ],
-            "stats": {}
-        },
-        {
-            "key": "Emperor",
-            "ingameKey": "Emperor",
-            "name": "Emperor",
-            "desc": "",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Emperor.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Emperor.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Emperor.svg",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "gold",
-                    "min": 1,
-                    "max": 1
-                }
-            ],
-            "stats": {}
-        },
-        {
-            "key": "Fortune",
-            "ingameKey": "Fortune",
-            "name": "Fortune",
-            "desc": "",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Fortune.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Fortune.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Fortune.svg",
-            "type": "ORIGIN",
-            "styles": [
-                {
-                    "style": "gold",
-                    "min": 3,
-                    "max": 5
-                },
-                {
-                    "style": "chromatic",
-                    "min": 6
-                }
-            ],
-            "stats": {
-                "3": "Winning combat against a player will give bonus orbs. The longer you've gone without an orb, the bigger the payout!",
-                "6": "Wins give an extra bonus orb with rare loot."
-            }
-        },
-        {
-            "key": "Keeper",
-            "ingameKey": "Keeper",
-            "name": "Keeper",
-            "desc": "",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Keeper.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Keeper.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Keeper.svg",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 3
-                },
-                {
-                    "style": "silver",
-                    "min": 4,
-                    "max": 5
-                },
-                {
-                    "style": "gold",
-                    "min": 6
-                }
-            ],
-            "stats": {}
-        },
-        {
             "key": "Adept",
             "ingameKey": "Set4_Adept",
             "name": "Adept",
@@ -294,6 +105,37 @@
             "stats": {}
         },
         {
+            "key": "Cultist",
+            "ingameKey": "Cultist",
+            "name": "Cultist",
+            "desc": "Once your team loses 50% of their Health, Galio is summoned, slamming into the largest cluster of enemies and knocking them up. Galio's strength increases based on the total star level of all active Cultists.",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Cultist.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Cultist.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Cultist.svg",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 3,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6,
+                    "max": 8
+                },
+                {
+                    "style": "chromatic",
+                    "min": 9
+                }
+            ],
+            "stats": {
+                "3": "Tyrant Galio",
+                "6": "Demon Lord Galio",
+                "9": "Supreme Overlord Galio"
+            }
+        },
+        {
             "key": "Daredevil",
             "ingameKey": "Set4_Daredevil",
             "name": "Daredevil",
@@ -310,6 +152,43 @@
             ],
             "stats": {
                 "1": "Daredevils seek the thrill of battle, dashing after every other attack. After every dash, they shield themselves for 20% of their max health and their next attack fires 2 shots, gaining Style. At max Style, they cast their spell. Base Style rank increases star level."
+            }
+        },
+        {
+            "key": "Divine",
+            "ingameKey": "Divine",
+            "name": "Divine",
+            "desc": "Upon attacking 6 times or dropping below 50% Health, Divine champions remove all crowd control and ascend for 6 seconds, taking reduced damage and dealing bonus true damage for the duration.",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Divine.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Divine.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Divine.svg",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "silver",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6,
+                    "max": 7
+                },
+                {
+                    "style": "chromatic",
+                    "min": 8
+                }
+            ],
+            "stats": {
+                "2": "25% damage reduction and true damage",
+                "4": "40% damage reduction and true damage",
+                "6": "55% damage reduction and true damage",
+                "8": "70% damage reduction and true damage"
             }
         },
         {
@@ -344,6 +223,38 @@
             }
         },
         {
+            "key": "Duelist",
+            "ingameKey": "Duelist",
+            "name": "Duelist",
+            "desc": "",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Duelist.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Duelist.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Duelist.svg",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "silver",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6,
+                    "max": 7
+                },
+                {
+                    "style": "chromatic",
+                    "min": 8
+                }
+            ],
+            "stats": {}
+        },
+        {
             "key": "Elderwood",
             "ingameKey": "Set4_Elderwood",
             "name": "Elderwood",
@@ -373,6 +284,24 @@
                 "6": "20 Armor and MR, 10 AD and SP",
                 "9": "30 Armor and MR, 15 AD and SP"
             }
+        },
+        {
+            "key": "Emperor",
+            "ingameKey": "Emperor",
+            "name": "Emperor",
+            "desc": "",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Emperor.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Emperor.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Emperor.svg",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "gold",
+                    "min": 1,
+                    "max": 1
+                }
+            ],
+            "stats": {}
         },
         {
             "key": "Enlightened",
@@ -475,6 +404,58 @@
             "stats": {
                 "3": "Fabled champion's spells are empowered from tales of their past valor."
             }
+        },
+        {
+            "key": "Fortune",
+            "ingameKey": "Fortune",
+            "name": "Fortune",
+            "desc": "",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Fortune.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Fortune.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Fortune.svg",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "gold",
+                    "min": 3,
+                    "max": 5
+                },
+                {
+                    "style": "chromatic",
+                    "min": 6
+                }
+            ],
+            "stats": {
+                "3": "Winning combat against a player will give bonus orbs. The longer you've gone without an orb, the bigger the payout!",
+                "6": "Wins give an extra bonus orb with rare loot."
+            }
+        },
+        {
+            "key": "Keeper",
+            "ingameKey": "Keeper",
+            "name": "Keeper",
+            "desc": "",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Keeper.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Keeper.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Keeper.svg",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "silver",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6
+                }
+            ],
+            "stats": {}
         },
         {
             "key": "Mage",
@@ -584,6 +565,28 @@
             "stats": {}
         },
         {
+            "key": "Slayer",
+            "ingameKey": "Slayer",
+            "name": "Slayer",
+            "desc": "",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Slayer.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Slayer.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Slayer.svg",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 3,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6
+                }
+            ],
+            "stats": {}
+        },
+        {
             "key": "Spirit",
             "ingameKey": "Set4_Spirit",
             "name": "Spirit",
@@ -631,6 +634,25 @@
             "stats": {}
         },
         {
+            "key": "TheBoss",
+            "ingameKey": "Boss",
+            "name": "The Boss",
+            "desc": "",
+            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/TheBoss.svg",
+            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/TheBoss.svg",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/TheBoss.svg",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "gold",
+                    "min": 1
+                }
+            ],
+            "stats": {
+                "1": "When The Boss first drops below 40% Health, he leaves combat to start doing sit-ups. Each sit-up restores 15% of his maximum Health and gives him 40% Attack Speed and Movement Speed. If he reaches full Health he returns to combat Pumped Up: all of his attacks and spells deal true damage. If all of his allies die, he will immediately return to combat."
+            }
+        },
+        {
             "key": "Vanguard",
             "ingameKey": "Set4_Vanguard",
             "name": "Vanguard",
@@ -658,28 +680,6 @@
                 {
                     "style": "chromatic",
                     "min": 8
-                }
-            ],
-            "stats": {}
-        },
-        {
-            "key": "Slayer",
-            "ingameKey": "Slayer",
-            "name": "Slayer",
-            "desc": "",
-            "imageUrl": "//cdn.lolchess.gg/images/tft/traiticons-darken/svg/Slayer.svg",
-            "blackImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-black/svg/Slayer.svg",
-            "whiteImageUrl": "//cdn.lolchess.gg/images/tft/traiticons-white/svg/Slayer.svg",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 3,
-                    "max": 5
-                },
-                {
-                    "style": "gold",
-                    "min": 6
                 }
             ],
             "stats": {}

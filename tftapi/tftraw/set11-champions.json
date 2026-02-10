@@ -635,6 +635,48 @@
             "role": ""
         },
         {
+            "key": "Dummy",
+            "ingameKey": "TFT_TrainingDummy",
+            "name": "Dummy",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Dummy_1689746192-tft_trainingdummy_donothing.png",
+            "traits": [],
+            "isHiddenGuide": true,
+            "isHiddenLanding": true,
+            "cost": [
+                0,
+                -1,
+                -1
+            ],
+            "health": [
+                625,
+                1125,
+                2025
+            ],
+            "attackDamage": [
+                50,
+                75,
+                113
+            ],
+            "damagePerSecond": [
+                10,
+                15,
+                23
+            ],
+            "attackRange": 0,
+            "attackSpeed": 0.2,
+            "armor": 30,
+            "magicalResistance": 30,
+            "skill": {
+                "name": "Training Dummy",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Dummy_1701222575-Dummy_1689746192-tft_trainingdummy_donothing.png",
+                "desc": "Use on a champion to spawn a movable target dummy nearby. Cannot be used in combat.",
+                "startingMana": 0,
+                "skillMana": 0,
+                "stats": []
+            },
+            "role": ""
+        },
+        {
             "key": "FortuneProp",
             "ingameKey": "TFT11_FortuneProp",
             "name": "Golden Tree",
@@ -674,54 +716,6 @@
                 "skillMana": 0,
                 "stats": [
                     "TBA: TBA"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Kobuko",
-            "ingameKey": "TFT11_FortuneYord",
-            "name": "Kobuko",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Kobuko_1709255500-Kobuko.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Kobuko_18_1709256974-Kobuko.jpg",
-            "traits": [
-                "Fortune",
-                "Bruiser"
-            ],
-            "cost": [
-                1,
-                3,
-                9
-            ],
-            "health": [
-                600,
-                1080,
-                1944
-            ],
-            "attackDamage": [
-                65,
-                98,
-                146
-            ],
-            "damagePerSecond": [
-                39,
-                59,
-                88
-            ],
-            "attackRange": 1,
-            "attackSpeed": 0.6,
-            "armor": 30,
-            "magicalResistance": 30,
-            "skill": {
-                "name": "Money Dance",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Kobuko_1709709686-tft11_fortuneyord_ability.tft_set11.png",
-                "desc": "Passive: When you gain interest, gain permanent Health per gold collected. (Gain more Health per Round in Hyper Roll)<br><br>Active: Heal Health over 2 seconds. Kobuko's next attack deals bonus magic damage.",
-                "startingMana": 30,
-                "skillMana": 70,
-                "stats": [
-                    "Heal: 350% / 400% / 475% AP",
-                    "Damage: 15% Health",
-                    "Health Gain: 10 / 12 / 20"
                 ]
             },
             "role": ""
@@ -1363,6 +1357,54 @@
             "role": ""
         },
         {
+            "key": "Kobuko",
+            "ingameKey": "TFT11_FortuneYord",
+            "name": "Kobuko",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Kobuko_1709255500-Kobuko.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Kobuko_18_1709256974-Kobuko.jpg",
+            "traits": [
+                "Fortune",
+                "Bruiser"
+            ],
+            "cost": [
+                1,
+                3,
+                9
+            ],
+            "health": [
+                600,
+                1080,
+                1944
+            ],
+            "attackDamage": [
+                65,
+                98,
+                146
+            ],
+            "damagePerSecond": [
+                39,
+                59,
+                88
+            ],
+            "attackRange": 1,
+            "attackSpeed": 0.6,
+            "armor": 30,
+            "magicalResistance": 30,
+            "skill": {
+                "name": "Money Dance",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Kobuko_1709709686-tft11_fortuneyord_ability.tft_set11.png",
+                "desc": "Passive: When you gain interest, gain permanent Health per gold collected. (Gain more Health per Round in Hyper Roll)<br><br>Active: Heal Health over 2 seconds. Kobuko's next attack deals bonus magic damage.",
+                "startingMana": 30,
+                "skillMana": 70,
+                "stats": [
+                    "Heal: 350% / 400% / 475% AP",
+                    "Damage: 15% Health",
+                    "Health Gain: 10 / 12 / 20"
+                ]
+            },
+            "role": ""
+        },
+        {
             "key": "KogMaw",
             "ingameKey": "TFT11_KogMaw",
             "name": "Kog'Maw",
@@ -1655,6 +1697,58 @@
             "role": ""
         },
         {
+            "key": "MonkeyKing",
+            "ingameKey": "TFT11_WuKong",
+            "name": "Wukong",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/MonkeyKing_1709255996-Wukong.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/monkeyking.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/MonkeyKing_18_1709257362-Wukong.jpg",
+            "traits": [
+                "Heavenly",
+                "Great",
+                "Sage"
+            ],
+            "cost": [
+                5,
+                14,
+                44
+            ],
+            "health": [
+                1200,
+                2160,
+                3888
+            ],
+            "attackDamage": [
+                80,
+                120,
+                180
+            ],
+            "damagePerSecond": [
+                72,
+                108,
+                162
+            ],
+            "attackRange": 1,
+            "attackSpeed": 0.9,
+            "armor": 65,
+            "magicalResistance": 65,
+            "skill": {
+                "name": "Legendary Prowess",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/MonkeyKing_1709173979-monkeykingcrushingblow.png",
+                "desc": "Cycle through the following abilities:<br><br>Throw staff out, dealing physical damage to the current target and Stunning them for 1.5 seconds.<br><br>Spin, dealing physical damage to enemies within 1-hex range.<br><br>Dash to hit the most enemies in a 3-hex line, then slam down staff dealing physical damage to enemies hit.",
+                "startingMana": 0,
+                "skillMana": 30,
+                "stats": [
+                    "Stun Damage: 300% / 300% / 900% AD",
+                    "Spin Damage: 300% / 300% / 900% AD",
+                    "Slam Damage AP: 70% / 105% / 155%",
+                    "Slam Damage AD: 300% / 300% / 1500%",
+                    "Slam Damage: Slam Damage AD + Slam Damage AP"
+                ]
+            },
+            "role": ""
+        },
+        {
             "key": "Morgana",
             "ingameKey": "TFT11_Morgana",
             "name": "Morgana",
@@ -1795,6 +1889,54 @@
                     "Damage Reduction: 30% / 30% / 35%",
                     "Heal: 300 / 350 / 400 (AP based)",
                     "Damage: 200% / 300% / 475% AP"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Nomsy",
+            "ingameKey": "TFTEvent5YR_TrainerDragon",
+            "name": "Nomsy",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Nomsy_1661160913-Nomsy.jpg",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/nomsy.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Nomsy_12.jpg",
+            "traits": [],
+            "isHidden": true,
+            "isHiddenGuide": true,
+            "isHiddenLanding": true,
+            "isHiddenTeamBuilder": true,
+            "cost": [
+                0,
+                -1,
+                -1
+            ],
+            "health": [
+                300,
+                540,
+                972
+            ],
+            "attackDamage": [
+                0,
+                0,
+                0
+            ],
+            "damagePerSecond": [
+                0,
+                0,
+                0
+            ],
+            "attackRange": 4,
+            "attackSpeed": 0.8,
+            "armor": 0,
+            "magicalResistance": 0,
+            "skill": {
+                "name": "Fireballs!",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Nomsy_1718243507-brandq.tft_event_5thyear.png",
+                "desc": "Lobs a massive fireball towards current target dealing magic damage and burns 8 seconds applying Burns and Wound.<br>Burn: Deals 1% of the target's maximum Health as true damage every second<br>Wound: Reduces healing received by 33%",
+                "startingMana": 40,
+                "skillMana": 90,
+                "stats": [
+                    "Damage: 130% / 170% / 210% / 250%"
                 ]
             },
             "role": ""
@@ -2090,6 +2232,53 @@
                     "Damage AP: 10% / 15% / 25%",
                     "Damage: AD + AP",
                     "Attack Damage Bonus: 20% / 25% / 35%"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "Sentinel",
+            "ingameKey": "TFT_BlueGolem",
+            "name": "Sentinel",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Sentinel_1718249255-tft_bluegolem_spell.png",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/sentinel.jpg",
+            "traits": [],
+            "isHidden": true,
+            "isHiddenGuide": true,
+            "isHiddenLanding": true,
+            "isHiddenTeamBuilder": true,
+            "cost": [
+                0,
+                -1,
+                -1
+            ],
+            "health": [
+                600,
+                1080,
+                1944
+            ],
+            "attackDamage": [
+                65,
+                98,
+                146
+            ],
+            "damagePerSecond": [
+                36,
+                54,
+                80
+            ],
+            "attackRange": 1,
+            "attackSpeed": 0.55,
+            "armor": 35,
+            "magicalResistance": 35,
+            "skill": {
+                "name": "Sentinel Smash",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Sentinel_1718249262-tft_bluegolem_spell.png",
+                "desc": "Slam the target dealing magic damage.",
+                "startingMana": 30,
+                "skillMana": 100,
+                "stats": [
+                    "Damage: 335% / 500% / 750%"
                 ]
             },
             "role": ""
@@ -2484,6 +2673,103 @@
             "role": ""
         },
         {
+            "key": "TFTEvent5YRSuperMech",
+            "ingameKey": "TFTEvent5YR_SuperMech",
+            "name": "SuperMech",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/TFTEvent5YRSuperMech_1718582866-tftevent5yr_supermech_square.tft_event_5thyear.png",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/tftevent5yrsupermech.jpg",
+            "traits": [],
+            "isHidden": true,
+            "isHiddenGuide": true,
+            "isHiddenLanding": true,
+            "isHiddenTeamBuilder": true,
+            "cost": [
+                0,
+                -1,
+                -1
+            ],
+            "health": [
+                0,
+                0,
+                0
+            ],
+            "attackDamage": [
+                0,
+                0,
+                0
+            ],
+            "damagePerSecond": [
+                0,
+                0,
+                0
+            ],
+            "attackRange": 1,
+            "attackSpeed": 0.85,
+            "armor": 70,
+            "magicalResistance": 70,
+            "skill": {
+                "name": "Mecha Justice",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/TFTEvent5YRSuperMech_1718587559-tftevent5yr_supermech_r.tft_event_5thyear.png",
+                "desc": "Passive: Attacks cleave the area in front of it dealing 110 physical damage.<br><br>Active: Call down a devastating blast at the target's location, dealing 400 magic damage to target and 250 magic damage to all other nearby enemies.<br><br>This Ability's damage increases with the Star Level of the Super-Mech's Pilots.",
+                "startingMana": 0,
+                "skillMana": 200,
+                "stats": [
+                    "Primary Damage: 400% (AP Based)",
+                    "Secondary Damage: 250% (AP Based)",
+                    "Cleave Attack Damage: 110 (AD Based)"
+                ]
+            },
+            "role": ""
+        },
+        {
+            "key": "TFTEvent5YRVeigar",
+            "ingameKey": "TFTEvent5YR_Veigar",
+            "name": "Veigar",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Veigar_1635842739.png",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/tftevent5yrveigar.jpg",
+            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Veigar_9.jpg",
+            "traits": [
+                "YordleLord"
+            ],
+            "isHidden": true,
+            "cost": [
+                5,
+                14,
+                44
+            ],
+            "health": [
+                800,
+                1440,
+                2592
+            ],
+            "attackDamage": [
+                45,
+                68,
+                101
+            ],
+            "damagePerSecond": [
+                38,
+                57,
+                86
+            ],
+            "attackRange": 4,
+            "attackSpeed": 0.85,
+            "armor": 25,
+            "magicalResistance": 25,
+            "skill": {
+                "name": "Furyhorn Storm",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Veigar_1643856298.png",
+                "desc": "Veigar calls down Furyhorns over a few seconds near random enemies, each dealing magic damage.",
+                "startingMana": 0,
+                "skillMana": 75,
+                "stats": [
+                    "Number of Furyhorns: 20 / 30 / 99",
+                    "Damage: 270 / 400 / 777"
+                ]
+            },
+            "role": ""
+        },
+        {
             "key": "Thresh",
             "ingameKey": "TFT11_Thresh",
             "name": "Thresh",
@@ -2633,6 +2919,49 @@
             "role": ""
         },
         {
+            "key": "Voidspawn",
+            "ingameKey": "TFT_VoidSpawn",
+            "name": "Voidspawn",
+            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Voidspawn_1718250201-voidspawn_squarecopy.png",
+            "originalImageUrl": "https://ddragon.dakgg.net/champion/voidspawn.jpg",
+            "traits": [],
+            "isHiddenGuide": true,
+            "isHiddenLanding": true,
+            "cost": [
+                0,
+                -1,
+                -1
+            ],
+            "health": [
+                1000,
+                1800,
+                3240
+            ],
+            "attackDamage": [
+                80,
+                120,
+                180
+            ],
+            "damagePerSecond": [
+                60,
+                90,
+                135
+            ],
+            "attackRange": 1,
+            "attackSpeed": 0.75,
+            "armor": 30,
+            "magicalResistance": 30,
+            "skill": {
+                "name": "Voidborn",
+                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Voidspawn_1712215709-voidspawn_squarefixed.png",
+                "desc": "The Voidspawn gains bonus Health and Attack Damage based on the current Stage.",
+                "startingMana": 0,
+                "skillMana": 0,
+                "stats": []
+            },
+            "role": ""
+        },
+        {
             "key": "Volibear",
             "ingameKey": "TFT11_Volibear",
             "name": "Volibear",
@@ -2678,58 +3007,6 @@
                     "Damage AP: 35% / 50% / 80%",
                     "Slam Damage AP: 80% / 120% / 185%",
                     "Slam Damage: 10% Health + Slam Damage AP"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "MonkeyKing",
-            "ingameKey": "TFT11_WuKong",
-            "name": "Wukong",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/MonkeyKing_1709255996-Wukong.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/monkeyking.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/MonkeyKing_18_1709257362-Wukong.jpg",
-            "traits": [
-                "Heavenly",
-                "Great",
-                "Sage"
-            ],
-            "cost": [
-                5,
-                14,
-                44
-            ],
-            "health": [
-                1200,
-                2160,
-                3888
-            ],
-            "attackDamage": [
-                80,
-                120,
-                180
-            ],
-            "damagePerSecond": [
-                72,
-                108,
-                162
-            ],
-            "attackRange": 1,
-            "attackSpeed": 0.9,
-            "armor": 65,
-            "magicalResistance": 65,
-            "skill": {
-                "name": "Legendary Prowess",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/MonkeyKing_1709173979-monkeykingcrushingblow.png",
-                "desc": "Cycle through the following abilities:<br><br>Throw staff out, dealing physical damage to the current target and Stunning them for 1.5 seconds.<br><br>Spin, dealing physical damage to enemies within 1-hex range.<br><br>Dash to hit the most enemies in a 3-hex line, then slam down staff dealing physical damage to enemies hit.",
-                "startingMana": 0,
-                "skillMana": 30,
-                "stats": [
-                    "Stun Damage: 300% / 300% / 900% AD",
-                    "Spin Damage: 300% / 300% / 900% AD",
-                    "Slam Damage AP: 70% / 105% / 155%",
-                    "Slam Damage AD: 300% / 300% / 1500%",
-                    "Slam Damage: Slam Damage AD + Slam Damage AP"
                 ]
             },
             "role": ""
@@ -3075,283 +3352,6 @@
                 "stats": [
                     "Damage: 95% / 140% / 220% AP"
                 ]
-            },
-            "role": ""
-        },
-        {
-            "key": "TFTEvent5YRSuperMech",
-            "ingameKey": "TFTEvent5YR_SuperMech",
-            "name": "SuperMech",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/TFTEvent5YRSuperMech_1718582866-tftevent5yr_supermech_square.tft_event_5thyear.png",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/tftevent5yrsupermech.jpg",
-            "traits": [],
-            "isHidden": true,
-            "isHiddenGuide": true,
-            "isHiddenLanding": true,
-            "isHiddenTeamBuilder": true,
-            "cost": [
-                0,
-                -1,
-                -1
-            ],
-            "health": [
-                0,
-                0,
-                0
-            ],
-            "attackDamage": [
-                0,
-                0,
-                0
-            ],
-            "damagePerSecond": [
-                0,
-                0,
-                0
-            ],
-            "attackRange": 1,
-            "attackSpeed": 0.85,
-            "armor": 70,
-            "magicalResistance": 70,
-            "skill": {
-                "name": "Mecha Justice",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/TFTEvent5YRSuperMech_1718587559-tftevent5yr_supermech_r.tft_event_5thyear.png",
-                "desc": "Passive: Attacks cleave the area in front of it dealing 110 physical damage.<br><br>Active: Call down a devastating blast at the target's location, dealing 400 magic damage to target and 250 magic damage to all other nearby enemies.<br><br>This Ability's damage increases with the Star Level of the Super-Mech's Pilots.",
-                "startingMana": 0,
-                "skillMana": 200,
-                "stats": [
-                    "Primary Damage: 400% (AP Based)",
-                    "Secondary Damage: 250% (AP Based)",
-                    "Cleave Attack Damage: 110 (AD Based)"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Nomsy",
-            "ingameKey": "TFTEvent5YR_TrainerDragon",
-            "name": "Nomsy",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Nomsy_1661160913-Nomsy.jpg",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/nomsy.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Nomsy_12.jpg",
-            "traits": [],
-            "isHidden": true,
-            "isHiddenGuide": true,
-            "isHiddenLanding": true,
-            "isHiddenTeamBuilder": true,
-            "cost": [
-                0,
-                -1,
-                -1
-            ],
-            "health": [
-                300,
-                540,
-                972
-            ],
-            "attackDamage": [
-                0,
-                0,
-                0
-            ],
-            "damagePerSecond": [
-                0,
-                0,
-                0
-            ],
-            "attackRange": 4,
-            "attackSpeed": 0.8,
-            "armor": 0,
-            "magicalResistance": 0,
-            "skill": {
-                "name": "Fireballs!",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Nomsy_1718243507-brandq.tft_event_5thyear.png",
-                "desc": "Lobs a massive fireball towards current target dealing magic damage and burns 8 seconds applying Burns and Wound.<br>Burn: Deals 1% of the target's maximum Health as true damage every second<br>Wound: Reduces healing received by 33%",
-                "startingMana": 40,
-                "skillMana": 90,
-                "stats": [
-                    "Damage: 130% / 170% / 210% / 250%"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "TFTEvent5YRVeigar",
-            "ingameKey": "TFTEvent5YR_Veigar",
-            "name": "Veigar",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Veigar_1635842739.png",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/tftevent5yrveigar.jpg",
-            "splashUrl": "//cdn.lolchess.gg/upload/images/champion-splashes/Veigar_9.jpg",
-            "traits": [
-                "YordleLord"
-            ],
-            "isHidden": true,
-            "cost": [
-                5,
-                14,
-                44
-            ],
-            "health": [
-                800,
-                1440,
-                2592
-            ],
-            "attackDamage": [
-                45,
-                68,
-                101
-            ],
-            "damagePerSecond": [
-                38,
-                57,
-                86
-            ],
-            "attackRange": 4,
-            "attackSpeed": 0.85,
-            "armor": 25,
-            "magicalResistance": 25,
-            "skill": {
-                "name": "Furyhorn Storm",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Veigar_1643856298.png",
-                "desc": "Veigar calls down Furyhorns over a few seconds near random enemies, each dealing magic damage.",
-                "startingMana": 0,
-                "skillMana": 75,
-                "stats": [
-                    "Number of Furyhorns: 20 / 30 / 99",
-                    "Damage: 270 / 400 / 777"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Sentinel",
-            "ingameKey": "TFT_BlueGolem",
-            "name": "Sentinel",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Sentinel_1718249255-tft_bluegolem_spell.png",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/sentinel.jpg",
-            "traits": [],
-            "isHidden": true,
-            "isHiddenGuide": true,
-            "isHiddenLanding": true,
-            "isHiddenTeamBuilder": true,
-            "cost": [
-                0,
-                -1,
-                -1
-            ],
-            "health": [
-                600,
-                1080,
-                1944
-            ],
-            "attackDamage": [
-                65,
-                98,
-                146
-            ],
-            "damagePerSecond": [
-                36,
-                54,
-                80
-            ],
-            "attackRange": 1,
-            "attackSpeed": 0.55,
-            "armor": 35,
-            "magicalResistance": 35,
-            "skill": {
-                "name": "Sentinel Smash",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Sentinel_1718249262-tft_bluegolem_spell.png",
-                "desc": "Slam the target dealing magic damage.",
-                "startingMana": 30,
-                "skillMana": 100,
-                "stats": [
-                    "Damage: 335% / 500% / 750%"
-                ]
-            },
-            "role": ""
-        },
-        {
-            "key": "Dummy",
-            "ingameKey": "TFT_TrainingDummy",
-            "name": "Dummy",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Dummy_1689746192-tft_trainingdummy_donothing.png",
-            "traits": [],
-            "isHiddenGuide": true,
-            "isHiddenLanding": true,
-            "cost": [
-                0,
-                -1,
-                -1
-            ],
-            "health": [
-                625,
-                1125,
-                2025
-            ],
-            "attackDamage": [
-                50,
-                75,
-                113
-            ],
-            "damagePerSecond": [
-                10,
-                15,
-                23
-            ],
-            "attackRange": 0,
-            "attackSpeed": 0.2,
-            "armor": 30,
-            "magicalResistance": 30,
-            "skill": {
-                "name": "Training Dummy",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Dummy_1701222575-Dummy_1689746192-tft_trainingdummy_donothing.png",
-                "desc": "Use on a champion to spawn a movable target dummy nearby. Cannot be used in combat.",
-                "startingMana": 0,
-                "skillMana": 0,
-                "stats": []
-            },
-            "role": ""
-        },
-        {
-            "key": "Voidspawn",
-            "ingameKey": "TFT_VoidSpawn",
-            "name": "Voidspawn",
-            "imageUrl": "//cdn.lolchess.gg/upload/images/champions/Voidspawn_1718250201-voidspawn_squarecopy.png",
-            "originalImageUrl": "https://ddragon.dakgg.net/champion/voidspawn.jpg",
-            "traits": [],
-            "isHiddenGuide": true,
-            "isHiddenLanding": true,
-            "cost": [
-                0,
-                -1,
-                -1
-            ],
-            "health": [
-                1000,
-                1800,
-                3240
-            ],
-            "attackDamage": [
-                80,
-                120,
-                180
-            ],
-            "damagePerSecond": [
-                60,
-                90,
-                135
-            ],
-            "attackRange": 1,
-            "attackSpeed": 0.75,
-            "armor": 30,
-            "magicalResistance": 30,
-            "skill": {
-                "name": "Voidborn",
-                "imageUrl": "//cdn.lolchess.gg/upload/images/champion-skills/Voidspawn_1712215709-voidspawn_squarefixed.png",
-                "desc": "The Voidspawn gains bonus Health and Attack Damage based on the current Stage.",
-                "startingMana": 0,
-                "skillMana": 0,
-                "stats": []
             },
             "role": ""
         }

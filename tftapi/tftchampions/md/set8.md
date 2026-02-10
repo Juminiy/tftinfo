@@ -8,12 +8,12 @@
 | Kayle      | Kayle      | ![Kayle](../icon/set8/Kayle.jpg)           |
 | Lulu       | Lulu       | ![Lulu](../icon/set8/Lulu.jpg)             |
 | Lux        | Lux        | ![Lux](../icon/set8/Lux.jpg)               |
+| MonkeyKing | Wukong     | ![MonkeyKing](../icon/set8/MonkeyKing.jpg) |
 | Nasus      | Nasus      | ![Nasus](../icon/set8/Nasus.jpg)           |
 | Poppy      | Poppy      | ![Poppy](../icon/set8/Poppy.jpg)           |
 | Renekton   | Renekton   | ![Renekton](../icon/set8/Renekton.jpg)     |
 | Sylas      | Sylas      | ![Sylas](../icon/set8/Sylas.jpg)           |
 | Talon      | Talon      | ![Talon](../icon/set8/Talon.jpg)           |
-| MonkeyKing | Wukong     | ![MonkeyKing](../icon/set8/MonkeyKing.jpg) |
 # Cost: 2, Count: 13
 | key      | name     | icon                                   |
 | -        | -        | -                                      |

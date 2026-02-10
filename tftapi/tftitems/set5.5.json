@@ -5,216 +5,39 @@
             "attr": "+10 AD"
         },
         {
-            "name": "RecurveBow",
-            "attr": "+10 AS"
-        },
-        {
-            "name": "NeedlesslyLargeRod",
-            "attr": "+10% AP"
-        },
-        {
-            "name": "Tearofthegoddess",
-            "attr": "+15<br>Mana"
-        },
-        {
             "name": "ChainVest",
             "attr": "+20 Armor"
-        },
-        {
-            "name": "NegatronCloak",
-            "attr": "+20 MR"
         },
         {
             "name": "GiantsBelt",
             "attr": "+150 HP"
         },
         {
-            "name": "Spatula",
-            "attr": "You will get<br>special ability"
+            "name": "NeedlesslyLargeRod",
+            "attr": "+10% AP"
+        },
+        {
+            "name": "NegatronCloak",
+            "attr": "+20 MR"
+        },
+        {
+            "name": "RecurveBow",
+            "attr": "+10 AS"
         },
         {
             "name": "SparringGloves",
             "attr": "+5%<br>Crit chance<br>+10%<br>Dodge Chance"
+        },
+        {
+            "name": "Spatula",
+            "attr": "You will get<br>special ability"
+        },
+        {
+            "name": "Tearofthegoddess",
+            "attr": "+15<br>Mana"
         }
     ],
     "craf": [
-        {
-            "name": "LordsEdge",
-            "compositions": "sword+sword",
-            "basic_attrs": [
-                "+20AD"
-            ],
-            "add_attrs": "Contributing to a kill grants the holder +10 Attack Damage for the rest of combat.<br>This effect can stack any number of times (starting at 4)."
-        },
-        {
-            "name": "GiantSlayer",
-            "compositions": "sword+bow",
-            "basic_attrs": [
-                "+10AD",
-                "+10AS"
-            ],
-            "add_attrs": "The holder's Abilities and attacks do 20% bonus damage. If the target has more than 1600 maximum Health, the bonus increases to 60%."
-        },
-        {
-            "name": "HextechGunblade",
-            "compositions": "sword+rod",
-            "basic_attrs": [
-                "+10AD",
-                "+10AP"
-            ],
-            "add_attrs": "The holder's magic and true damage from Abilities heal them for 33% of the damage dealt. Excess healing fuels a shield that protects the holder against up to 400 damage."
-        },
-        {
-            "name": "SpearofShojin",
-            "compositions": "sword+tear",
-            "basic_attrs": [
-                "+10AD",
-                "+15MP"
-            ],
-            "add_attrs": "The holder's attacks restore 8 additional Mana."
-        },
-        {
-            "name": "GuardianAngel",
-            "compositions": "sword+vest",
-            "basic_attrs": [
-                "+10AD",
-                "+20AR"
-            ],
-            "add_attrs": "Prevents the holder's first death, placing them in stasis instead. After 2 seconds, they return with 400 Health and shed all negative effects.<br><br>[Unique - Only One Per Champion]"
-        },
-        {
-            "name": "Bloodthirster",
-            "compositions": "sword+cloak",
-            "basic_attrs": [
-                "+10AD",
-                "+20MR"
-            ],
-            "add_attrs": "Physical damage heals the holder for 33% of the damage dealt.<br><br>Upon falling below 40% Health, the holder gains a 30% max health shield that lasts up to 5 seconds."
-        },
-        {
-            "name": "ZekesHerald",
-            "compositions": "sword+belt",
-            "basic_attrs": [
-                "+10AD",
-                "+150HP"
-            ],
-            "add_attrs": "When combat begins, the holder and all allies within 1 hexes in the same row gain +30% Attack Speed for the rest of combat."
-        },
-        {
-            "name": "InfinityEdge",
-            "compositions": "sword+glove",
-            "basic_attrs": [
-                "+75%CR",
-                "+10AD"
-            ],
-            "add_attrs": "Grants 75% Critical Strike Chance (including components) and 10% Critical Strike Damage. Each point of Critical Strike Chance above 100% becomes +1% Critical Strike Damage.<br><br>[Unique - Only One Per Champion]"
-        },
-        {
-            "name": "RapidFirecannon",
-            "compositions": "bow+bow",
-            "basic_attrs": [
-                "+40%AS"
-            ],
-            "add_attrs": "Increases the holder's Attack Range by 1 hex and grants 40% bonus Attack Speed.<br><br>The wearer's Basic Attacks can no longer miss."
-        },
-        {
-            "name": "GuinsoosRageblade",
-            "compositions": "bow+rod",
-            "basic_attrs": [
-                "+10AP",
-                "+10AS"
-            ],
-            "add_attrs": "Attacks grant +6% bonus Attack Speed for the rest of combat.<br><br>This effect can stack any number of times."
-        },
-        {
-            "name": "StatikkShiv",
-            "compositions": "bow+tear",
-            "basic_attrs": [
-                "+10AS",
-                "+15MP"
-            ],
-            "add_attrs": "Every third attack from the holder unleashes a chain lightning that bounces to 4 enemies, dealing 70 magic damage and reducing their Magic Resist by 50% for 5 seconds."
-        },
-        {
-            "name": "TitansResolve",
-            "compositions": "bow+vest",
-            "basic_attrs": [
-                "+10AS",
-                "+20AR"
-            ],
-            "add_attrs": "When the holder attacks or takes damage, they gain 2 Attack Damage and Ability Power.<br><br>This stacks up to 25 times, at which point the holder gains 25 Armor and Magic Resist."
-        },
-        {
-            "name": "RunaansHurricane",
-            "compositions": "bow+cloak",
-            "basic_attrs": [
-                "+20MR",
-                "+10AS"
-            ],
-            "add_attrs": "The holder's attacks fire a bolt at another nearby enemy, dealing 75% of the holder's Attack Damage and applying on-hit effects. These bolts can critically strike."
-        },
-        {
-            "name": "ZzRotPortal",
-            "compositions": "bow+belt",
-            "basic_attrs": [
-                "+10AS",
-                "+150HP"
-            ],
-            "add_attrs": "At the start of combat, the holder taunts enemies within 4 hexes.<br><br>When the holder dies, a Voidspawn arises taunting nearby enemies. Voidspawns that arise from summoned units are 25% effective."
-        },
-        {
-            "name": "LastWhisper",
-            "compositions": "bow+glove",
-            "basic_attrs": [
-                "+15%CR",
-                "+10%AS"
-            ],
-            "add_attrs": "When the holder inflicts a critical hit, the target's Armor is reduced by 70% for 5 seconds. This effect does not stack.<br><br>[Unique - Only One Per Champion]"
-        },
-        {
-            "name": "RabadonsDeathcap",
-            "compositions": "rod+rod",
-            "basic_attrs": [
-                "+75AP"
-            ],
-            "add_attrs": "Grants 75 bonus Ability Power (including components)."
-        },
-        {
-            "name": "LudensEcho",
-            "compositions": "rod+tear",
-            "basic_attrs": [
-                "+10AP",
-                "+15MP"
-            ],
-            "add_attrs": "Each time the holder casts their Ability, they gain bonus Ability Power equal to 40% of their maximum Mana (this bonus applies to that Ability cast)."
-        },
-        {
-            "name": "LocketoftheIronSolari",
-            "compositions": "vest+rod",
-            "basic_attrs": [
-                "+10AP",
-                "+20AR"
-            ],
-            "add_attrs": "When combat begins, the holder and all allies within 2 hexes in the same row gain a shield that blocks \r\n300/350/400\u2605 damage for 8 seconds."
-        },
-        {
-            "name": "IonicSpark",
-            "compositions": "cloak+rod",
-            "basic_attrs": [
-                "+10AP",
-                "+20MR"
-            ],
-            "add_attrs": "Enemies within 2 hexes have their Magic Resist reduced by 50%. When they cast an Ability, they are zapped taking magic damage equal to 250% of their max Mana."
-        },
-        {
-            "name": "Morellonomicon",
-            "compositions": "rod+belt",
-            "basic_attrs": [
-                "+150HP",
-                "+10AP"
-            ],
-            "add_attrs": "When the holder deals magic damage or true damage with their Ability, they burn the target, dealing 25% of the target's maximum Health as true damage over 10 seconds, and reducing healing by 50% for the duration of the burn.<br><br>[Unique - Only One Per Champion]"
-        },
         {
             "name": "ArcaneGauntlet",
             "compositions": "rod+glove",
@@ -223,118 +46,6 @@
                 "+10AP"
             ],
             "add_attrs": "The holder's magic and true damage from their Ability can critically strike. The holder gains 40% bonus Critical Strike Damage."
-        },
-        {
-            "name": "BlueSentinel",
-            "compositions": "tear+tear",
-            "basic_attrs": [
-                "+30MP"
-            ],
-            "add_attrs": "After casting their Ability, the holder gains 20 mana.<br><br>[Unique - Only One Per Champion]"
-        },
-        {
-            "name": "FrozenHeart",
-            "compositions": "vest+tear",
-            "basic_attrs": [
-                "+20AR",
-                "+15MP"
-            ],
-            "add_attrs": "Reduces the Attack Speed of enemies within 2 hexes by 25%.<br><br>[Unique - Only One Per Champion]"
-        },
-        {
-            "name": "Chalice",
-            "compositions": "cloak+tear",
-            "basic_attrs": [
-                "+20MR",
-                "+15MP"
-            ],
-            "add_attrs": "When combat begins, the holder and all allies within 1 hex in the same row gain 30 Ability Power for the rest of combat."
-        },
-        {
-            "name": "Redemption",
-            "compositions": "tear+belt",
-            "basic_attrs": [
-                "+150HP",
-                "+15MP"
-            ],
-            "add_attrs": "Every 5 seconds, the holder radiates an aura to allies within 1 Hex, healing them for 18% of their missing Health. Affected allies take 25% reduced damage from multi-target, abilities and attacks for 5 seconds."
-        },
-        {
-            "name": "HandofJustice",
-            "compositions": "tear+glove",
-            "basic_attrs": [
-                "+15%CR",
-                "+15MP"
-            ],
-            "add_attrs": "The holder gains both of the following:<br>- +10 Attack Damage and +10 Ability Power.<br>- Attacks and Abilities heal for 10% of damage dealt.<br><br>At the beginning of each planning phase, one of these buffs is increased to 35(%)."
-        },
-        {
-            "name": "BrambleVest",
-            "compositions": "vest+vest",
-            "basic_attrs": [
-                "+40AR"
-            ],
-            "add_attrs": "Negates bonus damage from incoming critical strikes. On being hit by an attack, deal 80/100/150 \u2605 magic damage to all nearby enemies (once every 2.5 seconds)."
-        },
-        {
-            "name": "IronWill",
-            "compositions": "vest+cloak",
-            "basic_attrs": [
-                "+20AR",
-                "+20MR"
-            ],
-            "add_attrs": "The holder gains 18 Armor and 18 Magic Resist for each enemy targeting them."
-        },
-        {
-            "name": "SunfireCape",
-            "compositions": "vest+belt",
-            "basic_attrs": [
-                "+20AR"
-            ],
-            "add_attrs": "Every 2.5 seconds, a random enemy within 2 hexes is burned for 20% of their maximum health as true damage over 8 seconds. Any healing they receive is reduced by 50%.<br><br>[Unique - Only One Per Champion]"
-        },
-        {
-            "name": "Shroud",
-            "compositions": "vest+glove",
-            "basic_attrs": [
-                "+15%DC",
-                "+20AR"
-            ],
-            "add_attrs": "When combat begins, the holder shoots a beam straight ahead that delays affected enemies' first spellcast, increasing their max Mana by 35% until they cast.<br><br>[Unique - Only One Per Champion]"
-        },
-        {
-            "name": "DragonsClaw",
-            "compositions": "cloak+cloak",
-            "basic_attrs": [
-                "+200MR"
-            ],
-            "add_attrs": "Grants 200 bonus Magic Resist (including components). On being hit by magic or true damage from an Ability, launch a fireball at the Ability's caster that deals magic damage equal to 30% of their max Health (1 second cooldown)."
-        },
-        {
-            "name": "Zephyr",
-            "compositions": "cloak+belt",
-            "basic_attrs": [
-                "+150HP",
-                "+20MR"
-            ],
-            "add_attrs": "When combat begins, the wearer summons a whirlwind on the opposite side of the arena that removes the closest enemy from combat for 5 seconds. Ignores CC immunity.<br><br>[Unique - Only One Per Champion]"
-        },
-        {
-            "name": "Quicksilver",
-            "compositions": "cloak+glove",
-            "basic_attrs": [
-                "+15%DC",
-                "+20MR"
-            ],
-            "add_attrs": "The holder gains immunity to crowd control in combat for 15 seconds.<br><br>[Unique - Only One Per Champion]"
-        },
-        {
-            "name": "WarmogsArmor",
-            "compositions": "belt+belt",
-            "basic_attrs": [
-                "+1000HP"
-            ],
-            "add_attrs": "Grants 1000 bonus Health (including components)."
         },
         {
             "name": "Backhand",
@@ -346,6 +57,251 @@
             "add_attrs": "When combat begins, the holder and all allies within 1 hex(es) in the same row gain a shield that blocks the first enemy Ability."
         },
         {
+            "name": "Bloodthirster",
+            "compositions": "sword+cloak",
+            "basic_attrs": [
+                "+10AD",
+                "+20MR"
+            ],
+            "add_attrs": "Physical damage heals the holder for 33% of the damage dealt.<br><br>Upon falling below 40% Health, the holder gains a 30% max health shield that lasts up to 5 seconds."
+        },
+        {
+            "name": "BlueSentinel",
+            "compositions": "tear+tear",
+            "basic_attrs": [
+                "+30MP"
+            ],
+            "add_attrs": "After casting their Ability, the holder gains 20 mana.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "BrambleVest",
+            "compositions": "vest+vest",
+            "basic_attrs": [
+                "+40AR"
+            ],
+            "add_attrs": "Negates bonus damage from incoming critical strikes. On being hit by an attack, deal 80/100/150 \u2605 magic damage to all nearby enemies (once every 2.5 seconds)."
+        },
+        {
+            "name": "Chalice",
+            "compositions": "cloak+tear",
+            "basic_attrs": [
+                "+20MR",
+                "+15MP"
+            ],
+            "add_attrs": "When combat begins, the holder and all allies within 1 hex in the same row gain 30 Ability Power for the rest of combat."
+        },
+        {
+            "name": "DragonsClaw",
+            "compositions": "cloak+cloak",
+            "basic_attrs": [
+                "+200MR"
+            ],
+            "add_attrs": "Grants 200 bonus Magic Resist (including components). On being hit by magic or true damage from an Ability, launch a fireball at the Ability's caster that deals magic damage equal to 30% of their max Health (1 second cooldown)."
+        },
+        {
+            "name": "FrozenHeart",
+            "compositions": "vest+tear",
+            "basic_attrs": [
+                "+20AR",
+                "+15MP"
+            ],
+            "add_attrs": "Reduces the Attack Speed of enemies within 2 hexes by 25%.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "GiantSlayer",
+            "compositions": "sword+bow",
+            "basic_attrs": [
+                "+10AD",
+                "+10AS"
+            ],
+            "add_attrs": "The holder's Abilities and attacks do 20% bonus damage. If the target has more than 1600 maximum Health, the bonus increases to 60%."
+        },
+        {
+            "name": "GuardianAngel",
+            "compositions": "sword+vest",
+            "basic_attrs": [
+                "+10AD",
+                "+20AR"
+            ],
+            "add_attrs": "Prevents the holder's first death, placing them in stasis instead. After 2 seconds, they return with 400 Health and shed all negative effects.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "GuinsoosRageblade",
+            "compositions": "bow+rod",
+            "basic_attrs": [
+                "+10AP",
+                "+10AS"
+            ],
+            "add_attrs": "Attacks grant +6% bonus Attack Speed for the rest of combat.<br><br>This effect can stack any number of times."
+        },
+        {
+            "name": "HandofJustice",
+            "compositions": "tear+glove",
+            "basic_attrs": [
+                "+15%CR",
+                "+15MP"
+            ],
+            "add_attrs": "The holder gains both of the following:<br>- +10 Attack Damage and +10 Ability Power.<br>- Attacks and Abilities heal for 10% of damage dealt.<br><br>At the beginning of each planning phase, one of these buffs is increased to 35(%)."
+        },
+        {
+            "name": "HextechGunblade",
+            "compositions": "sword+rod",
+            "basic_attrs": [
+                "+10AD",
+                "+10AP"
+            ],
+            "add_attrs": "The holder's magic and true damage from Abilities heal them for 33% of the damage dealt. Excess healing fuels a shield that protects the holder against up to 400 damage."
+        },
+        {
+            "name": "InfinityEdge",
+            "compositions": "sword+glove",
+            "basic_attrs": [
+                "+75%CR",
+                "+10AD"
+            ],
+            "add_attrs": "Grants 75% Critical Strike Chance (including components) and 10% Critical Strike Damage. Each point of Critical Strike Chance above 100% becomes +1% Critical Strike Damage.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "IonicSpark",
+            "compositions": "cloak+rod",
+            "basic_attrs": [
+                "+10AP",
+                "+20MR"
+            ],
+            "add_attrs": "Enemies within 2 hexes have their Magic Resist reduced by 50%. When they cast an Ability, they are zapped taking magic damage equal to 250% of their max Mana."
+        },
+        {
+            "name": "IronWill",
+            "compositions": "vest+cloak",
+            "basic_attrs": [
+                "+20AR",
+                "+20MR"
+            ],
+            "add_attrs": "The holder gains 18 Armor and 18 Magic Resist for each enemy targeting them."
+        },
+        {
+            "name": "LastWhisper",
+            "compositions": "bow+glove",
+            "basic_attrs": [
+                "+15%CR",
+                "+10%AS"
+            ],
+            "add_attrs": "When the holder inflicts a critical hit, the target's Armor is reduced by 70% for 5 seconds. This effect does not stack.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "LocketoftheIronSolari",
+            "compositions": "vest+rod",
+            "basic_attrs": [
+                "+10AP",
+                "+20AR"
+            ],
+            "add_attrs": "When combat begins, the holder and all allies within 2 hexes in the same row gain a shield that blocks \r\n300/350/400\u2605 damage for 8 seconds."
+        },
+        {
+            "name": "LordsEdge",
+            "compositions": "sword+sword",
+            "basic_attrs": [
+                "+20AD"
+            ],
+            "add_attrs": "Contributing to a kill grants the holder +10 Attack Damage for the rest of combat.<br>This effect can stack any number of times (starting at 4)."
+        },
+        {
+            "name": "LudensEcho",
+            "compositions": "rod+tear",
+            "basic_attrs": [
+                "+10AP",
+                "+15MP"
+            ],
+            "add_attrs": "Each time the holder casts their Ability, they gain bonus Ability Power equal to 40% of their maximum Mana (this bonus applies to that Ability cast)."
+        },
+        {
+            "name": "Morellonomicon",
+            "compositions": "rod+belt",
+            "basic_attrs": [
+                "+150HP",
+                "+10AP"
+            ],
+            "add_attrs": "When the holder deals magic damage or true damage with their Ability, they burn the target, dealing 25% of the target's maximum Health as true damage over 10 seconds, and reducing healing by 50% for the duration of the burn.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "Quicksilver",
+            "compositions": "cloak+glove",
+            "basic_attrs": [
+                "+15%DC",
+                "+20MR"
+            ],
+            "add_attrs": "The holder gains immunity to crowd control in combat for 15 seconds.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "RabadonsDeathcap",
+            "compositions": "rod+rod",
+            "basic_attrs": [
+                "+75AP"
+            ],
+            "add_attrs": "Grants 75 bonus Ability Power (including components)."
+        },
+        {
+            "name": "RapidFirecannon",
+            "compositions": "bow+bow",
+            "basic_attrs": [
+                "+40%AS"
+            ],
+            "add_attrs": "Increases the holder's Attack Range by 1 hex and grants 40% bonus Attack Speed.<br><br>The wearer's Basic Attacks can no longer miss."
+        },
+        {
+            "name": "Redemption",
+            "compositions": "tear+belt",
+            "basic_attrs": [
+                "+150HP",
+                "+15MP"
+            ],
+            "add_attrs": "Every 5 seconds, the holder radiates an aura to allies within 1 Hex, healing them for 18% of their missing Health. Affected allies take 25% reduced damage from multi-target, abilities and attacks for 5 seconds."
+        },
+        {
+            "name": "RunaansHurricane",
+            "compositions": "bow+cloak",
+            "basic_attrs": [
+                "+20MR",
+                "+10AS"
+            ],
+            "add_attrs": "The holder's attacks fire a bolt at another nearby enemy, dealing 75% of the holder's Attack Damage and applying on-hit effects. These bolts can critically strike."
+        },
+        {
+            "name": "Shroud",
+            "compositions": "vest+glove",
+            "basic_attrs": [
+                "+15%DC",
+                "+20AR"
+            ],
+            "add_attrs": "When combat begins, the holder shoots a beam straight ahead that delays affected enemies' first spellcast, increasing their max Mana by 35% until they cast.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "SpearofShojin",
+            "compositions": "sword+tear",
+            "basic_attrs": [
+                "+10AD",
+                "+15MP"
+            ],
+            "add_attrs": "The holder's attacks restore 8 additional Mana."
+        },
+        {
+            "name": "StatikkShiv",
+            "compositions": "bow+tear",
+            "basic_attrs": [
+                "+10AS",
+                "+15MP"
+            ],
+            "add_attrs": "Every third attack from the holder unleashes a chain lightning that bounces to 4 enemies, dealing 70 magic damage and reducing their Magic Resist by 50% for 5 seconds."
+        },
+        {
+            "name": "SunfireCape",
+            "compositions": "vest+belt",
+            "basic_attrs": [
+                "+20AR"
+            ],
+            "add_attrs": "Every 2.5 seconds, a random enemy within 2 hexes is burned for 20% of their maximum health as true damage over 8 seconds. Any healing they receive is reduced by 50%.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
             "name": "ThiefsGloves",
             "compositions": "glove+glove",
             "basic_attrs": [
@@ -353,62 +309,70 @@
                 "+15%DC"
             ],
             "add_attrs": "At the beginning of each planning phase, the holder equip 2 temporary items. Temporary items increase in power based on your player level.<br><br>[Consumes Three item Slots]"
+        },
+        {
+            "name": "TitansResolve",
+            "compositions": "bow+vest",
+            "basic_attrs": [
+                "+10AS",
+                "+20AR"
+            ],
+            "add_attrs": "When the holder attacks or takes damage, they gain 2 Attack Damage and Ability Power.<br><br>This stacks up to 25 times, at which point the holder gains 25 Armor and Magic Resist."
+        },
+        {
+            "name": "WarmogsArmor",
+            "compositions": "belt+belt",
+            "basic_attrs": [
+                "+1000HP"
+            ],
+            "add_attrs": "Grants 1000 bonus Health (including components)."
+        },
+        {
+            "name": "ZekesHerald",
+            "compositions": "sword+belt",
+            "basic_attrs": [
+                "+10AD",
+                "+150HP"
+            ],
+            "add_attrs": "When combat begins, the holder and all allies within 1 hexes in the same row gain +30% Attack Speed for the rest of combat."
+        },
+        {
+            "name": "Zephyr",
+            "compositions": "cloak+belt",
+            "basic_attrs": [
+                "+150HP",
+                "+20MR"
+            ],
+            "add_attrs": "When combat begins, the wearer summons a whirlwind on the opposite side of the arena that removes the closest enemy from combat for 5 seconds. Ignores CC immunity.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "ZzRotPortal",
+            "compositions": "bow+belt",
+            "basic_attrs": [
+                "+10AS",
+                "+150HP"
+            ],
+            "add_attrs": "At the start of combat, the holder taunts enemies within 4 hexes.<br><br>When the holder dies, a Voidspawn arises taunting nearby enemies. Voidspawns that arise from summoned units are 25% effective."
         }
     ],
     "embl": [
         {
-            "name": "SwordoftheDivine",
-            "compositions": "sword+spatula",
-            "gain_trait": "Skirmisher",
-            "add_attrs": "The holder gains the Skirmisher trait.<br><br>[Unique - Only One Per Champion]"
-        },
-        {
-            "name": "LegionnaireEmblem",
+            "name": "BrawlerEmblem",
             "compositions": "",
-            "gain_trait": "Legionnaire",
-            "add_attrs": "The holder gains the Legionnaire trait.<br><br>[Unique - Only One Per Champion].<br>Elusive - cannot be crafted.]"
+            "gain_trait": "Brawler",
+            "add_attrs": "The holder gains the Brawler trait.<br><br>[Unique - Only One Per Champion.<br>Elusive - cannot be crafted.]"
         },
         {
-            "name": "MantleofDusk",
-            "compositions": "rod+spatula",
-            "gain_trait": "Spellweaver",
-            "add_attrs": "The holder gains the Spellweaver trait.<br><br>[Unique - Only One Per Champion]"
-        },
-        {
-            "name": "MagesCap",
-            "compositions": "tear+spatula",
-            "gain_trait": "Renewer",
-            "add_attrs": "The holder gains the Renewer trait.<br><br>[Unique - Only One Per Champion]"
-        },
-        {
-            "name": "IroncladEmblem",
+            "name": "CannoneerEmblem",
             "compositions": "",
-            "gain_trait": "Ironclad",
-            "add_attrs": "The holder gains the Ironclad trait.<br><br>[Unique - Only One Per Champion].<br>Elusive - cannot be crafted.]"
+            "gain_trait": "Cannoneer",
+            "add_attrs": "The holder gains the Cannoneer trait.<br><br>[Unique - Only One Per Champion].<br>Elusive - cannot be crafted.]"
         },
         {
-            "name": "ElderwoodHeirloom",
-            "compositions": "cloak+spatula",
-            "gain_trait": "Redeemed",
-            "add_attrs": "The holder gains the Redeemed trait.<br><br>[Unique - Only One Per Champion]"
-        },
-        {
-            "name": "WarlordsBanner",
-            "compositions": "belt+spatula",
-            "gain_trait": "Dawnbringer",
-            "add_attrs": "The holder gains the Dawnbringer trait.<br><br>[Unique - Only One Per Champion]"
-        },
-        {
-            "name": "YoumuusGhostblade",
-            "compositions": "glove+spatula",
-            "gain_trait": "Assassin",
-            "add_attrs": "The holder gains the Assassin trait.<br><br>[Unique - Only One Per Champion]"
-        },
-        {
-            "name": "ShadowSwordoftheDivine",
+            "name": "DraconicEmblem",
             "compositions": "",
-            "gain_trait": "Forgotten",
-            "add_attrs": "The holder gains the Forgotten trait.<br><br>[Unique - Only One Per Champion.<br>Elusive - cannot be crafted.]"
+            "gain_trait": "Draconic",
+            "add_attrs": "The holder gains the Draconic trait.<br><br>[Unique - Only One Per Champion].<br>Elusive - cannot be crafted.]"
         },
         {
             "name": "DuelistsZeal",
@@ -417,16 +381,76 @@
             "add_attrs": "The holder gains the Hellion trait.<br><br>[Unique - Only One Per Champion]"
         },
         {
-            "name": "VanguardsCuirass",
-            "compositions": "vest+spatula",
-            "gain_trait": "Cavalier",
-            "add_attrs": "The holder gains the Cavalier trait.<br><br>[Unique - Only One Per Champion]"
+            "name": "ElderwoodHeirloom",
+            "compositions": "cloak+spatula",
+            "gain_trait": "Redeemed",
+            "add_attrs": "The holder gains the Redeemed trait.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "InvokerEmblem",
+            "compositions": "",
+            "gain_trait": "Invoker",
+            "add_attrs": "The holder gains the Invoker trait.<br><br>[Unique - Only One Per Champion].<br>Elusive - cannot be crafted.]"
+        },
+        {
+            "name": "IroncladEmblem",
+            "compositions": "",
+            "gain_trait": "Ironclad",
+            "add_attrs": "The holder gains the Ironclad trait.<br><br>[Unique - Only One Per Champion].<br>Elusive - cannot be crafted.]"
+        },
+        {
+            "name": "KnightEmblem",
+            "compositions": "",
+            "gain_trait": "Knight",
+            "add_attrs": "The holder gains the Knight trait.<br><br>[Unique - Only One Per Champion].<br>Elusive - cannot be crafted.]"
+        },
+        {
+            "name": "LegionnaireEmblem",
+            "compositions": "",
+            "gain_trait": "Legionnaire",
+            "add_attrs": "The holder gains the Legionnaire trait.<br><br>[Unique - Only One Per Champion].<br>Elusive - cannot be crafted.]"
+        },
+        {
+            "name": "MagesCap",
+            "compositions": "tear+spatula",
+            "gain_trait": "Renewer",
+            "add_attrs": "The holder gains the Renewer trait.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "MantleofDusk",
+            "compositions": "rod+spatula",
+            "gain_trait": "Spellweaver",
+            "add_attrs": "The holder gains the Spellweaver trait.<br><br>[Unique - Only One Per Champion]"
+        },
+        {
+            "name": "MysticEmblem",
+            "compositions": "",
+            "gain_trait": "Mystic",
+            "add_attrs": "The holder gains the Mystic trait.<br><br>[Unique - Only One Per Champion].<br>Elusive - cannot be crafted.]"
+        },
+        {
+            "name": "RangerEmblem",
+            "compositions": "",
+            "gain_trait": "Ranger",
+            "add_attrs": "The holder gains the Ranger trait.<br><br>[Unique - Only One Per Champion].<br>Elusive - cannot be crafted.]"
+        },
+        {
+            "name": "SentinelEmblem",
+            "compositions": "",
+            "gain_trait": "Sentinel",
+            "add_attrs": "The holder gains the Sentinel trait.<br><br>[Unique - Only One Per Champion].<br>Elusive - cannot be crafted.]"
         },
         {
             "name": "ShadowElderwoodHeirloom",
             "compositions": "",
             "gain_trait": "Revenant",
             "add_attrs": "The holder gains the Revenant trait.<br><br>[Unique - Only One Per Champion.<br>Elusive - cannot be crafted.]"
+        },
+        {
+            "name": "ShadowSwordoftheDivine",
+            "compositions": "",
+            "gain_trait": "Forgotten",
+            "add_attrs": "The holder gains the Forgotten trait.<br><br>[Unique - Only One Per Champion.<br>Elusive - cannot be crafted.]"
         },
         {
             "name": "ShadowWarlordsBanner",
@@ -441,52 +465,28 @@
             "add_attrs": "The holder gains the Abomination trait.<br><br>[Unique - Only One Per Champion].<br>Elusive - cannot be crafted.]"
         },
         {
-            "name": "RangerEmblem",
-            "compositions": "",
-            "gain_trait": "Ranger",
-            "add_attrs": "The holder gains the Ranger trait.<br><br>[Unique - Only One Per Champion].<br>Elusive - cannot be crafted.]"
+            "name": "SwordoftheDivine",
+            "compositions": "sword+spatula",
+            "gain_trait": "Skirmisher",
+            "add_attrs": "The holder gains the Skirmisher trait.<br><br>[Unique - Only One Per Champion]"
         },
         {
-            "name": "DraconicEmblem",
-            "compositions": "",
-            "gain_trait": "Draconic",
-            "add_attrs": "The holder gains the Draconic trait.<br><br>[Unique - Only One Per Champion].<br>Elusive - cannot be crafted.]"
+            "name": "VanguardsCuirass",
+            "compositions": "vest+spatula",
+            "gain_trait": "Cavalier",
+            "add_attrs": "The holder gains the Cavalier trait.<br><br>[Unique - Only One Per Champion]"
         },
         {
-            "name": "InvokerEmblem",
-            "compositions": "",
-            "gain_trait": "Invoker",
-            "add_attrs": "The holder gains the Invoker trait.<br><br>[Unique - Only One Per Champion].<br>Elusive - cannot be crafted.]"
+            "name": "WarlordsBanner",
+            "compositions": "belt+spatula",
+            "gain_trait": "Dawnbringer",
+            "add_attrs": "The holder gains the Dawnbringer trait.<br><br>[Unique - Only One Per Champion]"
         },
         {
-            "name": "BrawlerEmblem",
-            "compositions": "",
-            "gain_trait": "Brawler",
-            "add_attrs": "The holder gains the Brawler trait.<br><br>[Unique - Only One Per Champion.<br>Elusive - cannot be crafted.]"
-        },
-        {
-            "name": "SentinelEmblem",
-            "compositions": "",
-            "gain_trait": "Sentinel",
-            "add_attrs": "The holder gains the Sentinel trait.<br><br>[Unique - Only One Per Champion].<br>Elusive - cannot be crafted.]"
-        },
-        {
-            "name": "CannoneerEmblem",
-            "compositions": "",
-            "gain_trait": "Cannoneer",
-            "add_attrs": "The holder gains the Cannoneer trait.<br><br>[Unique - Only One Per Champion].<br>Elusive - cannot be crafted.]"
-        },
-        {
-            "name": "KnightEmblem",
-            "compositions": "",
-            "gain_trait": "Knight",
-            "add_attrs": "The holder gains the Knight trait.<br><br>[Unique - Only One Per Champion].<br>Elusive - cannot be crafted.]"
-        },
-        {
-            "name": "MysticEmblem",
-            "compositions": "",
-            "gain_trait": "Mystic",
-            "add_attrs": "The holder gains the Mystic trait.<br><br>[Unique - Only One Per Champion].<br>Elusive - cannot be crafted.]"
+            "name": "YoumuusGhostblade",
+            "compositions": "glove+spatula",
+            "gain_trait": "Assassin",
+            "add_attrs": "The holder gains the Assassin trait.<br><br>[Unique - Only One Per Champion]"
         }
     ],
     "crow": [
@@ -497,11 +497,73 @@
     ],
     "radi": [
         {
+            "name": "RadiantArchangelsStaff",
+            "basic_attrs": [
+                "+10AP",
+                "+30MP"
+            ],
+            "add_attrs": "Each time the holder casts their Ability, they gain bonus Ability Power equal to 60% of their maximum Mana (this bonus applies to that Ability cast).<br><br>Radiant Bonus: +15 Starting Mana"
+        },
+        {
+            "name": "RadiantBloodthirster",
+            "basic_attrs": [
+                "+30AD",
+                "+20MR"
+            ],
+            "add_attrs": "Physical damage heals the holder for 60% of the damage dealt. Upon falling below 40% Health. the holder gain a 40% max Health shield that lasts up to 5 seconds<br><br>Radiant Bounus: +20 Attack Damage"
+        },
+        {
+            "name": "RadiantBlueBuff",
+            "basic_attrs": [
+                "+30MP",
+                "+40AP"
+            ],
+            "add_attrs": "[Unique] After casting their Ability, the holder gains 30 mana.<br><br>Radiant Bonus: +40 Ability Power"
+        },
+        {
+            "name": "RadiantBrambleVest",
+            "basic_attrs": [
+                "+40AR"
+            ],
+            "add_attrs": "Negates bonus damage from incoming critical hits. On being hit by a Basic Attack, deal 250/300/350 \u2605 magic damage to all nearby enemies (once every 2.5 seconds).<br><br>Radiant Bonus: Regenerate 2% max Health per second"
+        },
+        {
+            "name": "RadiantChaliceofPower",
+            "basic_attrs": [
+                "+20MR",
+                "+15MP"
+            ],
+            "add_attrs": "When combat begins, the holder and all allies within 1 hex in the same row gain 50 Ability Power and 10% Spellvamp for the rest of combat."
+        },
+        {
             "name": "RadiantDeathblade",
             "basic_attrs": [
                 "+20AD"
             ],
             "add_attrs": "Contributing to a kill grants the holder 15 Attack Damage for the rest of combat. This effect can stack any number of times (starting at 4)."
+        },
+        {
+            "name": "RadiantDragonsClaw",
+            "basic_attrs": [
+                "+300MR"
+            ],
+            "add_attrs": "Grants 300 bonus Magic Resist (including components). On being hit by magic or true damage from an Ability, launch a fireball at the Ability's caster that deals magic damage equal to 40% of their max Health (1 second cooldown).<br><br>Radiant Bonus: Regenerate 2% max Health per second"
+        },
+        {
+            "name": "RadiantFrozenHeart",
+            "basic_attrs": [
+                "+20AR",
+                "+45MP"
+            ],
+            "add_attrs": "[Unique] Reduces the Attack Speed of enemies within 2 hexes by 50%.<br><br>Radiant Bonus: +30 Starting Mana"
+        },
+        {
+            "name": "RadiantGargoyleStoneplate",
+            "basic_attrs": [
+                "+20AR",
+                "+20MR"
+            ],
+            "add_attrs": "The holder gains 30 Armor and 30 Magic Resist for each enemy targeting them.<br><br>Radiant Bonus: Regenerate 3% max Health per second"
         },
         {
             "name": "RadiantGiantSlayer",
@@ -510,23 +572,6 @@
                 "+10AS"
             ],
             "add_attrs": "The holder's Abilities and attacks do 40% bonus damage. If the target has more than 1400 maximum Health, the bonus increases to 80%."
-        },
-        {
-            "name": "RadiantHextechGunblade",
-            "basic_attrs": [
-                "+10AD",
-                "+40AP"
-            ],
-            "add_attrs": "The holder's magic and true damage from Abilities heal them for 40% of the damage dealt. Excess healing fuels a shield that protects the holder against up to 300 damage. The holder also heals their lowest health ally for the same amount.<br><br>Radiant Bonus: +30 Ability Power"
-        },
-        {
-            "name": "RadiantSpearofShojin",
-            "basic_attrs": [
-                "+10AD",
-                "+15MP",
-                "+20AP"
-            ],
-            "add_attrs": "The wearer's Basic Attacks restore 15 additional Mana.<br><br>Radiant Bonus: +20 Ability Power"
         },
         {
             "name": "RadiantGuardianAngel",
@@ -538,20 +583,28 @@
             "add_attrs": "[Unique] Prevents the holder's first death, placing them in stasis instead. After 2 seconds, they return with 100% Health and shed all negative effect.<br><br>Radiant Bonus: +30% Attack Speed"
         },
         {
-            "name": "RadiantBloodthirster",
+            "name": "RadiantGuinsoosRageblade",
             "basic_attrs": [
-                "+30AD",
-                "+20MR"
+                "+10AP",
+                "+40AS"
             ],
-            "add_attrs": "Physical damage heals the holder for 60% of the damage dealt. Upon falling below 40% Health. the holder gain a 40% max Health shield that lasts up to 5 seconds<br><br>Radiant Bounus: +20 Attack Damage"
+            "add_attrs": "Attacks grant +10% bonus Attack Speed for the rest of combat.<br><br>This effect can stack any number of times.<br><br>Radiant Bonus: +30 Attack Speed"
         },
         {
-            "name": "RadiantZekesHerald",
+            "name": "RadiantHandofJustice",
+            "basic_attrs": [
+                "+15%CR",
+                "+15MP"
+            ],
+            "add_attrs": "At the beginning of each planning phase, the holder gains both of the following:<br>- +40 Attack Damage and +40 Ability Power.<br>- Attacks and Abilities heal for 40% of damage dealt."
+        },
+        {
+            "name": "RadiantHextechGunblade",
             "basic_attrs": [
                 "+10AD",
-                "+150HP"
+                "+40AP"
             ],
-            "add_attrs": "When combat begins, the holder and all allies within 1 hexes in the same row gain 50% Attack Speed and 10% Lifesteal for the rest of combat."
+            "add_attrs": "The holder's magic and true damage from Abilities heal them for 40% of the damage dealt. Excess healing fuels a shield that protects the holder against up to 300 damage. The holder also heals their lowest health ally for the same amount.<br><br>Radiant Bonus: +30 Ability Power"
         },
         {
             "name": "RadiantInfinityEdge",
@@ -562,51 +615,17 @@
             "add_attrs": "[Unique] Grants 75% Critical Strike Chance (including components) and 10% Critical Strike Damage. Each point of Critical Strike Chance above 100% becomes +1% Critical Strike Damage.<br><br>Radiant Bonus: +40% Critical Strike Damage"
         },
         {
-            "name": "RadiantRapidfireCannon",
-            "basic_attrs": [
-                "+70%AS"
-            ],
-            "add_attrs": "Increases the wearer's Attack Range by 2 hex and grants 40% bonus Attack Speed.<br><br>The wearer's attacks can no longer miss.<br><br>Radiant Bonus: +30% Attack Speed"
+            "name": "RadiantIonicSpark",
+            "basic_attrs": [],
+            "add_attrs": "Enemies within 4 hexes have their Magic Resist reduced by 50%. When they cast an Ability, they are zapped taking magic damage equal to 300% of their max Mana.<br><br>Radiant Bonus: Regenerate 1% max Health per second"
         },
         {
-            "name": "RadiantGuinsoosRageblade",
+            "name": "RadiantJeweledGauntlet",
             "basic_attrs": [
-                "+10AP",
-                "+40AS"
+                "+15%CR",
+                "+10AP"
             ],
-            "add_attrs": "Attacks grant +10% bonus Attack Speed for the rest of combat.<br><br>This effect can stack any number of times.<br><br>Radiant Bonus: +30 Attack Speed"
-        },
-        {
-            "name": "RadiantStatikkShiv",
-            "basic_attrs": [
-                "+10AS",
-                "+15MP"
-            ],
-            "add_attrs": "Every third Basic Attack from the holder unleashes a chain lightning that bounces to 8 enemies, dealing 115 magic damage and reducing their Magic Resist by 70% for 5 seconds."
-        },
-        {
-            "name": "RadiantTitansResolve",
-            "basic_attrs": [
-                "+10%AS",
-                "+20AR"
-            ],
-            "add_attrs": "When the holder attacks or takes damage, they gain 4 Attack Damage and Spell Power.<br><br>This stacks up to 25 times, at which point the wearer gains 50 Armor and Magic Resist."
-        },
-        {
-            "name": "RadiantRunaansHurricane",
-            "basic_attrs": [
-                "+40%AS",
-                "+20MR"
-            ],
-            "add_attrs": "The holder's attacks fire a bolt at another nearby enemy, dealing 110% of the holder's Attack Damage and applying on-hit effect. These bolts can critically strike.<br><br>Radiant Bonus: +30% Attack Speed"
-        },
-        {
-            "name": "RadiantZzrotPortal",
-            "basic_attrs": [
-                "+10AS",
-                "+150HP"
-            ],
-            "add_attrs": "At the start of combat, a Radiant Voidmother with bonus Health and Attack Damage aries and taunts enemies within 4 hexes. Radiant Voidmother that aries from summoned units are 25% effective."
+            "add_attrs": "The holder's magic and true damage from their Ability can critically strike. The holder gains 90% bonus Critical Strike Damage."
         },
         {
             "name": "RadiantLastWhisper",
@@ -617,32 +636,12 @@
             "add_attrs": "[Unique] When the holder inflicts a critical hit, the target's Armor is reduced by 70% for the rest of combat. This effect does not stack.<br><br>Radiant Bonus: +35% Critical Strike Chance"
         },
         {
-            "name": "RadiantRabadonsDeathcap",
-            "basic_attrs": [
-                "+110AP"
-            ],
-            "add_attrs": "Grants 120 bonus Ability Power (including components)."
-        },
-        {
-            "name": "RadiantArchangelsStaff",
-            "basic_attrs": [
-                "+10AP",
-                "+30MP"
-            ],
-            "add_attrs": "Each time the holder casts their Ability, they gain bonus Ability Power equal to 60% of their maximum Mana (this bonus applies to that Ability cast).<br><br>Radiant Bonus: +15 Starting Mana"
-        },
-        {
             "name": "RadiantLocketoftheIronSolari",
             "basic_attrs": [
                 "+10AP",
                 "+20AR"
             ],
             "add_attrs": "When combat begins, the holder and all allies within 3 hexes in the same row gain a shield that blocks \r\n400/500/600 \u2605 damage for 60 seconds.<br><br>Radiant Bonus: +200 Health for all allies at the start of combat."
-        },
-        {
-            "name": "RadiantIonicSpark",
-            "basic_attrs": [],
-            "add_attrs": "Enemies within 4 hexes have their Magic Resist reduced by 50%. When they cast an Ability, they are zapped taking magic damage equal to 300% of their max Mana.<br><br>Radiant Bonus: Regenerate 1% max Health per second"
         },
         {
             "name": "RadiantMorellonomicon",
@@ -654,36 +653,27 @@
             "add_attrs": "[Unique] When the holder deals magic or true damage with their Ability, they burn the target, dealing 120% of the target's maximun Health as true damage over 30 seconds, and reducing healing by 50% for the duration of the burn.<br><br>Radiant Bonus: +30 Starting Mana"
         },
         {
-            "name": "RadiantJeweledGauntlet",
+            "name": "RadiantQuicksilver",
             "basic_attrs": [
-                "+15%CR",
-                "+10AP"
-            ],
-            "add_attrs": "The holder's magic and true damage from their Ability can critically strike. The holder gains 90% bonus Critical Strike Damage."
-        },
-        {
-            "name": "RadiantBlueBuff",
-            "basic_attrs": [
-                "+30MP",
-                "+40AP"
-            ],
-            "add_attrs": "[Unique] After casting their Ability, the holder gains 30 mana.<br><br>Radiant Bonus: +40 Ability Power"
-        },
-        {
-            "name": "RadiantFrozenHeart",
-            "basic_attrs": [
-                "+20AR",
-                "+45MP"
-            ],
-            "add_attrs": "[Unique] Reduces the Attack Speed of enemies within 2 hexes by 50%.<br><br>Radiant Bonus: +30 Starting Mana"
-        },
-        {
-            "name": "RadiantChaliceofPower",
-            "basic_attrs": [
+                "+15%DC",
                 "+20MR",
-                "+15MP"
+                "+40AS"
             ],
-            "add_attrs": "When combat begins, the holder and all allies within 1 hex in the same row gain 50 Ability Power and 10% Spellvamp for the rest of combat."
+            "add_attrs": "[Unique] The holder gains immunity to crowd control in combat for 30 seconds.<br><br>Radiant Bonus: +45% Attack Speed"
+        },
+        {
+            "name": "RadiantRabadonsDeathcap",
+            "basic_attrs": [
+                "+110AP"
+            ],
+            "add_attrs": "Grants 120 bonus Ability Power (including components)."
+        },
+        {
+            "name": "RadiantRapidfireCannon",
+            "basic_attrs": [
+                "+70%AS"
+            ],
+            "add_attrs": "Increases the wearer's Attack Range by 2 hex and grants 40% bonus Attack Speed.<br><br>The wearer's attacks can no longer miss.<br><br>Radiant Bonus: +30% Attack Speed"
         },
         {
             "name": "RadiantRedemption",
@@ -694,35 +684,12 @@
             "add_attrs": "Every 5 seconds, the holder radiates an aura to allies within 2 hexes, healing them for 25% of their missing Health. Affected allies take 25% reduced damage from multi-target abilities and attacks for 5 seconds.<br><br>Radiant Bonus: +350 Health"
         },
         {
-            "name": "RadiantHandofJustice",
+            "name": "RadiantRunaansHurricane",
             "basic_attrs": [
-                "+15%CR",
-                "+15MP"
-            ],
-            "add_attrs": "At the beginning of each planning phase, the holder gains both of the following:<br>- +40 Attack Damage and +40 Ability Power.<br>- Attacks and Abilities heal for 40% of damage dealt."
-        },
-        {
-            "name": "RadiantBrambleVest",
-            "basic_attrs": [
-                "+40AR"
-            ],
-            "add_attrs": "Negates bonus damage from incoming critical hits. On being hit by a Basic Attack, deal 250/300/350 \u2605 magic damage to all nearby enemies (once every 2.5 seconds).<br><br>Radiant Bonus: Regenerate 2% max Health per second"
-        },
-        {
-            "name": "RadiantGargoyleStoneplate",
-            "basic_attrs": [
-                "+20AR",
+                "+40%AS",
                 "+20MR"
             ],
-            "add_attrs": "The holder gains 30 Armor and 30 Magic Resist for each enemy targeting them.<br><br>Radiant Bonus: Regenerate 3% max Health per second"
-        },
-        {
-            "name": "RadiantSunfireCape",
-            "basic_attrs": [
-                "+150HP",
-                "+20AR"
-            ],
-            "add_attrs": "[Unique] Every 1.5 seconds, a random enemy within 4 hexes is burned for 120% of their maximum health as true damage over 30 seconds. Any healing they receive is reduced by 50%.<br><br>Radiant Bonus: Regenerate 0.5% max Health per second"
+            "add_attrs": "The holder's attacks fire a bolt at another nearby enemy, dealing 110% of the holder's Attack Damage and applying on-hit effect. These bolts can critically strike.<br><br>Radiant Bonus: +30% Attack Speed"
         },
         {
             "name": "RadiantShroudofStillness",
@@ -733,35 +700,45 @@
             "add_attrs": "[Unique] When combat begins, the holder shoots a wider beam straight ahead that delays affected enemies' first spellcast, increasing their max Mana by 50% until they cast.<br><br>Radiant Bonus: +15 Starting Mana for all allies at the start of combat"
         },
         {
-            "name": "RadiantDragonsClaw",
+            "name": "RadiantSpearofShojin",
             "basic_attrs": [
-                "+300MR"
+                "+10AD",
+                "+15MP",
+                "+20AP"
             ],
-            "add_attrs": "Grants 300 bonus Magic Resist (including components). On being hit by magic or true damage from an Ability, launch a fireball at the Ability's caster that deals magic damage equal to 40% of their max Health (1 second cooldown).<br><br>Radiant Bonus: Regenerate 2% max Health per second"
+            "add_attrs": "The wearer's Basic Attacks restore 15 additional Mana.<br><br>Radiant Bonus: +20 Ability Power"
         },
         {
-            "name": "RadiantZephyr",
+            "name": "RadiantStatikkShiv",
+            "basic_attrs": [
+                "+10AS",
+                "+15MP"
+            ],
+            "add_attrs": "Every third Basic Attack from the holder unleashes a chain lightning that bounces to 8 enemies, dealing 115 magic damage and reducing their Magic Resist by 70% for 5 seconds."
+        },
+        {
+            "name": "RadiantSunfireCape",
             "basic_attrs": [
                 "+150HP",
-                "+20MR"
+                "+20AR"
             ],
-            "add_attrs": "[Unique] When combat begins, the wearer summons a whirlwind on the opposite side of the arena that removes the closest enemy from combat for 10 seconds. Ignores CC immunity.<br><br>Radiant Bonus: +20% Attack Speed for all allies at the start of combat"
+            "add_attrs": "[Unique] Every 1.5 seconds, a random enemy within 4 hexes is burned for 120% of their maximum health as true damage over 30 seconds. Any healing they receive is reduced by 50%.<br><br>Radiant Bonus: Regenerate 0.5% max Health per second"
         },
         {
-            "name": "RadiantQuicksilver",
+            "name": "RadiantThiefsGloves",
             "basic_attrs": [
-                "+15%DC",
-                "+20MR",
-                "+40AS"
+                "+15%CR",
+                "+15%DC"
             ],
-            "add_attrs": "[Unique] The holder gains immunity to crowd control in combat for 30 seconds.<br><br>Radiant Bonus: +45% Attack Speed"
+            "add_attrs": "At the beginning of each planning phase, the holder equips 2 temporary Radiant items.<br>[Consumes Three Item Slots]"
         },
         {
-            "name": "RadiantWarmogsArmor",
+            "name": "RadiantTitansResolve",
             "basic_attrs": [
-                "+1800HP"
+                "+10%AS",
+                "+20AR"
             ],
-            "add_attrs": "Grants 1800 bonus Health (including components).<br><br>Radiant Bonus: Regenerate 1% max Health per second"
+            "add_attrs": "When the holder attacks or takes damage, they gain 4 Attack Damage and Spell Power.<br><br>This stacks up to 25 times, at which point the wearer gains 50 Armor and Magic Resist."
         },
         {
             "name": "RadiantTrapClaw",
@@ -772,12 +749,35 @@
             "add_attrs": "[Unique] When combat begins, the holder and all allies gain a shield that blocks the first enemy Ability.<br><br>Radiant Bonus: +50 Health for all allies at the start of combat."
         },
         {
-            "name": "RadiantThiefsGloves",
+            "name": "RadiantWarmogsArmor",
             "basic_attrs": [
-                "+15%CR",
-                "+15%DC"
+                "+1800HP"
             ],
-            "add_attrs": "At the beginning of each planning phase, the holder equips 2 temporary Radiant items.<br>[Consumes Three Item Slots]"
+            "add_attrs": "Grants 1800 bonus Health (including components).<br><br>Radiant Bonus: Regenerate 1% max Health per second"
+        },
+        {
+            "name": "RadiantZekesHerald",
+            "basic_attrs": [
+                "+10AD",
+                "+150HP"
+            ],
+            "add_attrs": "When combat begins, the holder and all allies within 1 hexes in the same row gain 50% Attack Speed and 10% Lifesteal for the rest of combat."
+        },
+        {
+            "name": "RadiantZephyr",
+            "basic_attrs": [
+                "+150HP",
+                "+20MR"
+            ],
+            "add_attrs": "[Unique] When combat begins, the wearer summons a whirlwind on the opposite side of the arena that removes the closest enemy from combat for 10 seconds. Ignores CC immunity.<br><br>Radiant Bonus: +20% Attack Speed for all allies at the start of combat"
+        },
+        {
+            "name": "RadiantZzrotPortal",
+            "basic_attrs": [
+                "+10AS",
+                "+150HP"
+            ],
+            "add_attrs": "At the start of combat, a Radiant Voidmother with bonus Health and Attack Damage aries and taunts enemies within 4 hexes. Radiant Voidmother that aries from summoned units are 25% effective."
         }
     ],
     "arti": [],

@@ -43,8 +43,8 @@
 | ![Ascendant](../tfttraits/icon/set12/Ascendant.svg)               | ![Xerath](../tftchampions/icon/set12/Xerath.png)         | 5        |
 | ![BatQueen](../tfttraits/icon/set12/BatQueen.svg)                 | ![Morgana](../tftchampions/icon/set12/Morgana.png)       | 5        |
 | ![Druid](../tfttraits/icon/set12/Druid.svg)                       | ![MonkeyKing](../tftchampions/icon/set12/MonkeyKing.png) | 3        |
-| ![TFT12BestFriends](../tfttraits/icon/set12/TFT12BestFriends.svg) | ![NorraYuumi](../tftchampions/icon/set12/NorraYuumi.png) | 5        |
 | ![Ravenous](../tfttraits/icon/set12/Ravenous.svg)                 | ![Briar](../tftchampions/icon/set12/Briar.png)           | 5        |
+| ![TFT12BestFriends](../tfttraits/icon/set12/TFT12BestFriends.svg) | ![NorraYuumi](../tftchampions/icon/set12/NorraYuumi.png) | 5        |
 
 ### SynergyGrid
 | Origins\Classes                                             | ![Bastion](../tfttraits/icon/set12/BastionEmblem.png) | ![Blaster](../tfttraits/icon/set12/BlasterEmblem.png) | ![Hunter](../tfttraits/icon/set12/HunterEmblem.png)                                           | ![Incantor](../tfttraits/icon/set12/IncantorEmblem.png)  | ![Mage](../tfttraits/icon/set12/MageEmblem.png)                                                         | ![Multistriker](../tfttraits/icon/set12/MultistrikerEmblem.png)                               | ![Preserver](../tfttraits/icon/set12/PreserverEmblem.png) | ![Scholar](../tfttraits/icon/set12/ScholarEmblem.png)                                   | ![Shapeshifter](../tfttraits/icon/set12/ShapeshifterEmblem.png)                               | ![Vanguard](../tfttraits/icon/set12/VanguardEmblem.png)    | ![Warrior](../tfttraits/icon/set12/WarriorEmblem.png) |

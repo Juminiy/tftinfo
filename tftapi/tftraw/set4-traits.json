@@ -2,24 +2,103 @@
     "season": "set4",
     "traits": [
         {
-            "key": "TheBoss",
-            "ingameKey": "Boss",
-            "name": "The Boss",
-            "desc": "",
-            "imageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_theboss_darken.png",
-            "blackImageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_theboss_black.png",
-            "whiteImageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_theboss_white.png",
-            "type": "ORIGIN",
+            "key": "Adept",
+            "ingameKey": "Set4_Adept",
+            "name": "Adept",
+            "desc": "Adepts calm the flow of battle, reducing the Attack Speed of all enemies by 50% for a few seconds at the start of combat.",
+            "imageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_adept_darken.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_adept_black.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_adept_white.png",
+            "type": "CLASS",
             "styles": [
                 {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 2
+                },
+                {
                     "style": "gold",
-                    "min": 1
+                    "min": 3,
+                    "max": 3
+                },
+                {
+                    "style": "chromatic",
+                    "min": 4
                 }
             ],
             "stats": {
-                "1": "When The Boss first drops below 40% Health, he leaves combat to start doing sit-ups. Each sit-up restores 15% of his maximum Health and gives him 40% Attack and Movement Speed. If he reaches full Health he returns to combat Pumped Up: all of his attacks and spells deal true damage. If all of his allies die, he will immediately return to combat."
-            },
-            "isPbe": true
+                "2": "2 Seconds",
+                "3": "3.5 Seconds",
+                "4": "6 Seconds"
+            }
+        },
+        {
+            "key": "Assassin",
+            "ingameKey": "Set4_Assassin",
+            "name": "Assassin",
+            "desc": "Innate: At the start of combat, Assassins leap to the enemy backline. Assassins gain bonus Critical Strike Damage and Chance, and their spells can critically strike.",
+            "imageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_assassin_darken.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_assassin_black.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_assassin_white.png",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "gold",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "chromatic",
+                    "min": 6
+                }
+            ],
+            "stats": {
+                "2": "+30% Critical Strike Damage & +10% Critical Strike Chance",
+                "4": "+60% Critical Strike Damage & +25% Critical Strike Chance",
+                "6": "+90% Critical Strike Damage & +40% Critical Strike Chance"
+            }
+        },
+        {
+            "key": "Brawler",
+            "ingameKey": "Set4_Brawler",
+            "name": "Brawler",
+            "desc": "Brawlers gain bonus Health.",
+            "imageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_brawler_darken.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_brawler_black.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_brawler_white.png",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "silver",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6,
+                    "max": 7
+                },
+                {
+                    "style": "chromatic",
+                    "min": 8
+                }
+            ],
+            "stats": {
+                "2": "400 Health",
+                "4": "800 Health",
+                "6": "1200 Health",
+                "8": "1800 Health"
+            }
         },
         {
             "key": "Cultist",
@@ -52,6 +131,31 @@
                 "9": "Supreme Overlord Galio"
             },
             "isPbe": true
+        },
+        {
+            "key": "Dazzler",
+            "ingameKey": "Set4_Dazzler",
+            "name": "Dazzler",
+            "desc": "Dazzlers' spells reduce the Attack Damage of enemies hit for 8 seconds.",
+            "imageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_dazzler_darken.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_dazzler_black.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_dazzler_white.png",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "gold",
+                    "min": 4
+                }
+            ],
+            "stats": {
+                "2": "40% Attack Damage Reduction",
+                "4": "80% Attack Damage Reduction"
+            }
         },
         {
             "key": "Divine",
@@ -161,6 +265,38 @@
             "isPbe": true
         },
         {
+            "key": "Elderwood",
+            "ingameKey": "Set4_Elderwood",
+            "name": "Elderwood",
+            "desc": "Every two seconds all Elderwood champions grow, gaining bonus stats. This effect stacks up to five times.",
+            "imageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_elderwood_darken.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_elderwood_black.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_elderwood_white.png",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 3,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6,
+                    "max": 8
+                },
+                {
+                    "style": "chromatic",
+                    "min": 9
+                }
+            ],
+            "stats": {
+                "3": "20 Armor and MR, 5 AD and SP",
+                "6": "30 Armor and MR, 10 AD and SP",
+                "9": "40 Armor and MR, 20 AD and SP"
+            },
+            "isPbe": true
+        },
+        {
             "key": "Emperor",
             "ingameKey": "Emperor",
             "name": "Emperor",
@@ -179,6 +315,64 @@
             "stats": {
                 "1": "The Emperor deploys with two Sand Guards who can be placed anywhere on the battlefield. They do not move or attack, and die when their Emperor does."
             }
+        },
+        {
+            "key": "Enlightened",
+            "ingameKey": "Set4_Enlightened",
+            "name": "Enlightened",
+            "desc": "Enlightened champions generate more Mana.",
+            "imageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_enlightened_darken.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_enlightened_black.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_enlightened_white.png",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "silver",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "gold",
+                    "min": 6
+                }
+            ],
+            "stats": {
+                "2": "40% increase",
+                "4": "70% increase",
+                "6": "100% increase"
+            },
+            "isPbe": true
+        },
+        {
+            "key": "Exile",
+            "ingameKey": "Set4_Exile",
+            "name": "Exile",
+            "desc": "If an Exile has no adjacent allies at the start of combat, they gain:",
+            "imageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_exile_darken.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_exile_black.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_exile_white.png",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "style": "gold",
+                    "min": 2
+                }
+            ],
+            "stats": {
+                "1": "A shield equal to 50% of their maximum health",
+                "2": "And 80% Lifesteal"
+            },
+            "isPbe": true
         },
         {
             "key": "Fortune",
@@ -275,241 +469,6 @@
             }
         },
         {
-            "key": "Moonlight",
-            "ingameKey": "Moonlight",
-            "name": "Moonlight",
-            "desc": "At the start of combat, a number of Moonlight Champions star up once until combat ends. (Prioritizes the lowest star-level champions. If tied, champions with the most items are chosen.)",
-            "imageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_moonlight_darken.png",
-            "blackImageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_moonlight_black.png",
-            "whiteImageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_moonlight_white.png",
-            "type": "ORIGIN",
-            "styles": [
-                {
-                    "style": "gold",
-                    "min": 3
-                }
-            ],
-            "stats": {
-                "3": "1 Champion",
-                "5": "2 Champions"
-            },
-            "isPbe": true
-        },
-        {
-            "key": "Adept",
-            "ingameKey": "Set4_Adept",
-            "name": "Adept",
-            "desc": "Adepts calm the flow of battle, reducing the Attack Speed of all enemies by 50% for a few seconds at the start of combat.",
-            "imageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_adept_darken.png",
-            "blackImageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_adept_black.png",
-            "whiteImageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_adept_white.png",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 2
-                },
-                {
-                    "style": "gold",
-                    "min": 3,
-                    "max": 3
-                },
-                {
-                    "style": "chromatic",
-                    "min": 4
-                }
-            ],
-            "stats": {
-                "2": "2 Seconds",
-                "3": "3.5 Seconds",
-                "4": "6 Seconds"
-            }
-        },
-        {
-            "key": "Assassin",
-            "ingameKey": "Set4_Assassin",
-            "name": "Assassin",
-            "desc": "Innate: At the start of combat, Assassins leap to the enemy backline. Assassins gain bonus Critical Strike Damage and Chance, and their spells can critically strike.",
-            "imageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_assassin_darken.png",
-            "blackImageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_assassin_black.png",
-            "whiteImageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_assassin_white.png",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 3
-                },
-                {
-                    "style": "gold",
-                    "min": 4,
-                    "max": 5
-                },
-                {
-                    "style": "chromatic",
-                    "min": 6
-                }
-            ],
-            "stats": {
-                "2": "+30% Critical Strike Damage & +10% Critical Strike Chance",
-                "4": "+60% Critical Strike Damage & +25% Critical Strike Chance",
-                "6": "+90% Critical Strike Damage & +40% Critical Strike Chance"
-            }
-        },
-        {
-            "key": "Brawler",
-            "ingameKey": "Set4_Brawler",
-            "name": "Brawler",
-            "desc": "Brawlers gain bonus Health.",
-            "imageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_brawler_darken.png",
-            "blackImageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_brawler_black.png",
-            "whiteImageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_brawler_white.png",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 3
-                },
-                {
-                    "style": "silver",
-                    "min": 4,
-                    "max": 5
-                },
-                {
-                    "style": "gold",
-                    "min": 6,
-                    "max": 7
-                },
-                {
-                    "style": "chromatic",
-                    "min": 8
-                }
-            ],
-            "stats": {
-                "2": "400 Health",
-                "4": "800 Health",
-                "6": "1200 Health",
-                "8": "1800 Health"
-            }
-        },
-        {
-            "key": "Dazzler",
-            "ingameKey": "Set4_Dazzler",
-            "name": "Dazzler",
-            "desc": "Dazzlers' spells reduce the Attack Damage of enemies hit for 8 seconds.",
-            "imageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_dazzler_darken.png",
-            "blackImageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_dazzler_black.png",
-            "whiteImageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_dazzler_white.png",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 3
-                },
-                {
-                    "style": "gold",
-                    "min": 4
-                }
-            ],
-            "stats": {
-                "2": "40% Attack Damage Reduction",
-                "4": "80% Attack Damage Reduction"
-            }
-        },
-        {
-            "key": "Elderwood",
-            "ingameKey": "Set4_Elderwood",
-            "name": "Elderwood",
-            "desc": "Every two seconds all Elderwood champions grow, gaining bonus stats. This effect stacks up to five times.",
-            "imageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_elderwood_darken.png",
-            "blackImageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_elderwood_black.png",
-            "whiteImageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_elderwood_white.png",
-            "type": "ORIGIN",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 3,
-                    "max": 5
-                },
-                {
-                    "style": "gold",
-                    "min": 6,
-                    "max": 8
-                },
-                {
-                    "style": "chromatic",
-                    "min": 9
-                }
-            ],
-            "stats": {
-                "3": "20 Armor and MR, 5 AD and SP",
-                "6": "30 Armor and MR, 10 AD and SP",
-                "9": "40 Armor and MR, 20 AD and SP"
-            },
-            "isPbe": true
-        },
-        {
-            "key": "Enlightened",
-            "ingameKey": "Set4_Enlightened",
-            "name": "Enlightened",
-            "desc": "Enlightened champions generate more Mana.",
-            "imageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_enlightened_darken.png",
-            "blackImageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_enlightened_black.png",
-            "whiteImageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_enlightened_white.png",
-            "type": "ORIGIN",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 3
-                },
-                {
-                    "style": "silver",
-                    "min": 4,
-                    "max": 5
-                },
-                {
-                    "style": "gold",
-                    "min": 6
-                }
-            ],
-            "stats": {
-                "2": "40% increase",
-                "4": "70% increase",
-                "6": "100% increase"
-            },
-            "isPbe": true
-        },
-        {
-            "key": "Exile",
-            "ingameKey": "Set4_Exile",
-            "name": "Exile",
-            "desc": "If an Exile has no adjacent allies at the start of combat, they gain:",
-            "imageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_exile_darken.png",
-            "blackImageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_exile_black.png",
-            "whiteImageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_exile_white.png",
-            "type": "ORIGIN",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 1,
-                    "max": 1
-                },
-                {
-                    "style": "gold",
-                    "min": 2
-                }
-            ],
-            "stats": {
-                "1": "A shield equal to 50% of their maximum health",
-                "2": "And 80% Lifesteal"
-            },
-            "isPbe": true
-        },
-        {
             "key": "Mage",
             "ingameKey": "Set4_Mage",
             "name": "Mage",
@@ -539,6 +498,27 @@
                 "6": "120% of their total Spell Power",
                 "9": "180% of their total Spell Power"
             }
+        },
+        {
+            "key": "Moonlight",
+            "ingameKey": "Moonlight",
+            "name": "Moonlight",
+            "desc": "At the start of combat, a number of Moonlight Champions star up once until combat ends. (Prioritizes the lowest star-level champions. If tied, champions with the most items are chosen.)",
+            "imageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_moonlight_darken.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_moonlight_black.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_moonlight_white.png",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "gold",
+                    "min": 3
+                }
+            ],
+            "stats": {
+                "3": "1 Champion",
+                "5": "2 Champions"
+            },
+            "isPbe": true
         },
         {
             "key": "Mystic",
@@ -630,6 +610,37 @@
             }
         },
         {
+            "key": "Sharpshooter",
+            "ingameKey": "Sharpshooter",
+            "name": "Sharpshooter",
+            "desc": "Sharpshooters attacks and spells ricochet to nearby enemies dealing reduced damage.",
+            "imageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_sharpshooter_darken.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_sharpshooter_black.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_sharpshooter_white.png",
+            "type": "CLASS",
+            "styles": [
+                {
+                    "style": "bronze",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "style": "gold",
+                    "min": 4,
+                    "max": 5
+                },
+                {
+                    "style": "chromatic",
+                    "min": 6
+                }
+            ],
+            "stats": {
+                "2": "1 ricochet with 55% reduced damage",
+                "4": "2 ricochets with 50% reduced damage",
+                "6": "3 ricochets with 45% reduced damage"
+            }
+        },
+        {
             "key": "Spirit",
             "ingameKey": "Set4_Spirit",
             "name": "Spirit",
@@ -652,6 +663,26 @@
             "stats": {
                 "2": "35% of mana cost",
                 "4": "70% of mana cost"
+            },
+            "isPbe": true
+        },
+        {
+            "key": "TheBoss",
+            "ingameKey": "Boss",
+            "name": "The Boss",
+            "desc": "",
+            "imageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_theboss_darken.png",
+            "blackImageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_theboss_black.png",
+            "whiteImageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_theboss_white.png",
+            "type": "ORIGIN",
+            "styles": [
+                {
+                    "style": "gold",
+                    "min": 1
+                }
+            ],
+            "stats": {
+                "1": "When The Boss first drops below 40% Health, he leaves combat to start doing sit-ups. Each sit-up restores 15% of his maximum Health and gives him 40% Attack and Movement Speed. If he reaches full Health he returns to combat Pumped Up: all of his attacks and spells deal true damage. If all of his allies die, he will immediately return to combat."
             },
             "isPbe": true
         },
@@ -705,37 +736,6 @@
                 "4": "300 Armor",
                 "6": "750 Armor",
                 "8": "2000 Armor"
-            }
-        },
-        {
-            "key": "Sharpshooter",
-            "ingameKey": "Sharpshooter",
-            "name": "Sharpshooter",
-            "desc": "Sharpshooters attacks and spells ricochet to nearby enemies dealing reduced damage.",
-            "imageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_sharpshooter_darken.png",
-            "blackImageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_sharpshooter_black.png",
-            "whiteImageUrl": "//cdn.lolchess.gg/images/assets/tft/traits/4.0/trait_icon_sharpshooter_white.png",
-            "type": "CLASS",
-            "styles": [
-                {
-                    "style": "bronze",
-                    "min": 2,
-                    "max": 3
-                },
-                {
-                    "style": "gold",
-                    "min": 4,
-                    "max": 5
-                },
-                {
-                    "style": "chromatic",
-                    "min": 6
-                }
-            ],
-            "stats": {
-                "2": "1 ricochet with 55% reduced damage",
-                "4": "2 ricochets with 50% reduced damage",
-                "6": "3 ricochets with 45% reduced damage"
             }
         },
         {

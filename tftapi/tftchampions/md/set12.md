@@ -40,13 +40,13 @@
 | Hwei        | Hwei        | ![Hwei](../icon/set12/Hwei.png)               |
 | Jinx        | Jinx        | ![Jinx](../icon/set12/Jinx.png)               |
 | Katarina    | Katarina    | ![Katarina](../icon/set12/Katarina.png)       |
+| MonkeyKing  | Wukong      | ![MonkeyKing](../icon/set12/MonkeyKing.png)   |
 | Mordekaiser | Mordekaiser | ![Mordekaiser](../icon/set12/Mordekaiser.png) |
 | Neeko       | Neeko       | ![Neeko](../icon/set12/Neeko.png)             |
 | Shen        | Shen        | ![Shen](../icon/set12/Shen.png)               |
 | Swain       | Swain       | ![Swain](../icon/set12/Swain.png)             |
 | Veigar      | Veigar      | ![Veigar](../icon/set12/Veigar.png)           |
 | Vex         | Vex         | ![Vex](../icon/set12/Vex.png)                 |
-| MonkeyKing  | Wukong      | ![MonkeyKing](../icon/set12/MonkeyKing.png)   |
 # Cost: 4, Count: 12
 | key       | name       | icon                                      |
 | -         | -          | -                                         |
